@@ -15,7 +15,7 @@
  *    wall and three on the roof, on a pale stone plaza in front of the GM
  *    Building (a, t, v);
  * 2. the Apple logo hanging in the upper middle of the cube, facing Fifth
- *    Avenue (a, t, v, c);
+ *    Avenue, on a rod from the roof's beams (a, t, v, c);
  * 3. the mirror-steel cylinder of the lift at the centre, the spiral stair
  *    round it going down into the store (a, n, t);
  * 4. the glass entrance vestibule on the Fifth Avenue face (a, t, v);
@@ -55,8 +55,17 @@
  * - the secondary stairs and their 1 m retaining walls and planters,
  *   way/1262390669-1262390683.
  * Measured from photos, scaled by the cube's 9.75 m:
- * - logo 1.7 m wide and 2.2 m tall, its centre 6.0 m above the floor, at
- *   the cube's centre (a, with the perspective of the cube's back edges);
+ * - logo 2.2 m tall, its centre 6.0 m above the floor, at the cube's
+ *   centre (a, with the perspective of the cube's back edges); its width
+ *   follows from the traced outline, 1.79 m (1.7 m was measured);
+ * - logo 0.2 m thick (t: its grey edge against the face, seen about 33
+ *   degrees off square; a shows the edge only as a thin rim round the bite);
+ * - the hanger (a, t): one slender rod rises from the top of the body, just
+ *   left of the leaf, to a bar under the roof that spans between two
+ *   east-west glass roof beams (a: the beams recede from the west wall's
+ *   joints as converging clamped blades, the bar crossing between them
+ *   above the logo; t: the rod and the beam it meets). The roof's glass
+ *   beams run both ways, a 3 x 3 grid (a, t);
  * - lift cylinder 2.6 m across, standing 2.9 m above the floor (a);
  * - vestibule 3.4 m wide, 3.5 m tall, projecting 1.5 m (a: its underside
  *   shows as a 0.1 m band from the street; t);
@@ -75,19 +84,34 @@
  *   fins, small steel fittings). STYLE.md asks for a solid frame to carry
  *   the outline, so the edges are thin pale steel bars; the joints are glass
  *   fins 0.6 m deep (estimated), which the map draws nearly opaque edge-on;
- * - the logo's outline (circles and a lens leaf, not traced) and its
- *   thickness (0.12 m, a: the lit edge shows);
+ * - the hanger's size: the real rod is a few centimetres thick and too
+ *   thin to read on the map (STYLE.md), so the rod is drawn 0.16 m and
+ *   the bar 0.24 m wide, in a steel darker than the frame's so they read
+ *   through the glass;
+ * - the east-west roof joints' thin steel seals: a, t show steel clamps on
+ *   those beams, but which way the three roof panels' joints run is not
+ *   clear, so both directions are sealed alike;
  * - the planters' tops, drawn as plain stone (they hold honey locusts).
  * Left out: the honey locusts and benches in the groves at the ends, the
- *   glass fins and roof beams, the doors, the balustrades round the stair,
- *   the GM Building itself (not replaced).
+ *   doors, the balustrades round the stair, the GM Building itself (not
+ *   replaced).
+ *
+ * The logo (traced): Wikimedia Commons, "Apple logo black.svg", one path
+ * in a 814 x 1000 viewBox, the body with its bite then the leaf.
+ *   https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg
+ * Commons marks it public domain: the shape is too simple for copyright.
+ * It is still Apple's trademark; it is drawn here only because it is on
+ * the building.
  *
  * Night (n, 2021): the cube is clear and dark, its inside lit: the steel
  * cylinder and the floor round it shine, the glass edges glow, the flush
  * skylights and the lens tops glow white from the store below. So the
  * steel and stone inside the cube carry `floodlight`, the skylights and
- * lens tops are `window`, the store floor seen down the stairwell is
- * `entrance`, the logo is `neon-apple`, and the glass stays `glass`.
+ * lens tops are `window`, and so is the store floor seen down the
+ * stairwell (the same lit store; it was `entrance`, which glows alike, and
+ * gave its material slot to the hanger), the logo is `neon-apple`, and the
+ * glass stays `glass`. The hanger is floodlit like the steel, so the lit
+ * logo isn't left floating.
  *
  * Photos (Wikimedia Commons; all EVIDENCE):
  * - a "Apple Fifth Avenue (51396585920).jpg", ajay_suresh, CC BY 2.0,
@@ -124,8 +148,9 @@
  */
 import { Part, writeGlb, type V3 } from './mesh'
 import { finish, PALETTE, windowVariant } from './palette'
+import { ccw, earcut, type XY } from './dc-nmaahc'
 
-const glass = new Part(), steel = new Part(), logo = new Part(), stone = new Part(), lights = new Part(), store = new Part()
+const glass = new Part(), steel = new Part(), logo = new Part(), stone = new Part(), lights = new Part(), hanger = new Part()
 
 // ------------------------------------------------------------ dimensions
 const H_P = 0.6 // plaza deck above the sidewalk
@@ -205,8 +230,8 @@ for (let k = 0; k < 2; k++) box(stone, X_W - (k + 1) * 0.43, Y_S, 0, X_W - k * 0
     // the stairwell's wall, facing in, down to the store
     stone.quad([i1[0], i1[1], 0], [i0[0], i0[1], 0], i0, i1)
   }
-  // the store's lit floor at the bottom of the well
-  disc(store, 0, 0, R_OPEN, 0.02, N)
+  // the store's lit floor at the bottom of the well, lit like the skylights
+  disc(lights, 0, 0, R_OPEN, 0.02, N)
 }
 // The lift: a mirror-steel cylinder from the store to 2.9 m above the floor.
 {
@@ -273,8 +298,13 @@ for (let k = 0; k < 2; k++) box(stone, X_W - (k + 1) * 0.43, Y_S, 0, X_W - k * 0
     glass.quad(c(t, S - D, H_P), c(t, S, H_P), c(t, S, H_C), c(t, S - D, H_C)) // north fins
     glass.quad(c(S - D, t, H_P), c(S, t, H_P), c(S, t, H_C), c(S - D, t, H_C)) // east fins
     glass.quad(c(-S, t, VH), c(-S + D, t, VH), c(-S + D, t, H_C), c(-S, t, H_C)) // west fins, over the vestibule
-    glass.quad(c(t, -S, H_C - D), c(t, S, H_C - D), c(t, S, H_C), c(t, -S, H_C)) // roof beams, east-west panels
+    glass.quad(c(t, -S, H_C - D), c(t, S, H_C - D), c(t, S, H_C), c(t, -S, H_C)) // roof beams, north-south
     box(steel, t - J, -S + F, H_C - J, t + J, S - F, H_C + J) // the roof joints' thin seals
+    // and east-west: the roof's beams make a 3 x 3 grid (a: the clamped
+    // beams receding from the west wall's joints; t), and the logo hangs
+    // between these two
+    glass.quad(c(-S, t, H_C - D), c(S, t, H_C - D), c(S, t, H_C), c(-S, t, H_C))
+    box(steel, -S + F, t - J, H_C - J, S - F, t + J, H_C + J)
   }
   // the vestibule's edges
   for (const y of [-VW, VW]) {
@@ -286,68 +316,100 @@ for (let k = 0; k < 2; k++) box(stone, X_W - (k + 1) * 0.43, Y_S, 0, X_W - k * 0
 }
 
 // ------------------------------------------------------------ the logo
-// A flat apple, 0.12 m thick, hanging at the cube's centre and facing
-// Fifth Avenue (west); both faces lit. Unit outline, x right and y up as
-// seen from the street, the body 1 wide: a Catmull-Rom curve through the
-// lobes and the dips top and bottom, from the bite's upper corner round
-// the left to its lower corner, then the bite as a circular arc; plus a
-// leaf. Drawn from the logo's familiar proportions, not traced.
+// The Apple logo traced from its SVG (Wikimedia Commons, see the header):
+// one path, the bitten body then the leaf, in a 814 x 1000 viewBox. The
+// curves are flattened, ear-clipped (the bite makes the outline concave, so
+// a fan from the centre fails) and extruded 0.2 m, facing Fifth Avenue
+// (west). Both faces glow; the edge is dark steel (t: grey metal).
+const APPLE_SVG =
+  'M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76.5 0-103.7 40.8-165.9 40.8s-105.6-57-155.5-127C46.7 790.7 0 663 0 541.8c0-194.4 126.4-297.5 250.8-297.5 66.1 0 121.2 43.4 162.7 43.4 39.5 0 101.1-46 176.3-46 28.5 0 130.9 2.6 198.3 99.2zm-234-181.5c31.1-36.9 53.1-88.1 53.1-139.3 0-7.1-.6-14.3-1.9-20.1-50.6 1.9-110.8 33.7-147.1 75.8-28.5 32.4-55.1 83.6-55.1 135.5 0 7.8 1.3 15.6 1.9 18.1 3.2.6 8.4 1.3 13.6 1.3 45.4 0 102.5-30.4 135.5-71.3z'
+
+/** Flatten an SVG path of M/L/H/V/C/S/Z commands (either case) into closed rings, `steps` points per curve. */
+function flattenPath(d: string, steps: number): XY[][] {
+  const tokens = d.match(/[a-zA-Z]|-?(?:\d+\.?\d*|\.\d+)(?:e-?\d+)?/g) ?? []
+  const rings: XY[][] = []
+  let ring: XY[] = [], cmd = '', i = 0, x = 0, y = 0, sx = 0, sy = 0, cx = 0, cy = 0
+  const num = () => Number(tokens[i++])
+  const close = () => {
+    const [a, b] = [ring[0], ring[ring.length - 1]]
+    if (ring.length && Math.hypot(a[0] - b[0], a[1] - b[1]) < 1e-6) ring.pop()
+    if (ring.length > 2) rings.push(ring)
+    ring = []
+  }
+  while (i < tokens.length) {
+    if (/[a-zA-Z]/.test(tokens[i])) cmd = tokens[i++]
+    const rel = cmd === cmd.toLowerCase(), ox = rel ? x : 0, oy = rel ? y : 0
+    switch (cmd.toUpperCase()) {
+      case 'M':
+        close()
+        x = ox + num(); y = oy + num(); sx = x; sy = y; cx = x; cy = y
+        ring.push([x, y])
+        cmd = rel ? 'l' : 'L' // further pairs are lines
+        break
+      case 'L': x = ox + num(); y = oy + num(); cx = x; cy = y; ring.push([x, y]); break
+      case 'H': x = (rel ? x : 0) + num(); cx = x; cy = y; ring.push([x, y]); break
+      case 'V': y = (rel ? y : 0) + num(); cx = x; cy = y; ring.push([x, y]); break
+      case 'C':
+      case 'S': {
+        const smooth = cmd.toUpperCase() === 'S'
+        const x1 = smooth ? 2 * x - cx : ox + num(), y1 = smooth ? 2 * y - cy : oy + num()
+        const x2 = ox + num(), y2 = oy + num(), x3 = ox + num(), y3 = oy + num()
+        for (let k = 1; k <= steps; k++) {
+          const t = k / steps, u = 1 - t
+          ring.push([
+            u * u * u * x + 3 * u * u * t * x1 + 3 * u * t * t * x2 + t * t * t * x3,
+            u * u * u * y + 3 * u * u * t * y1 + 3 * u * t * t * y2 + t * t * t * y3,
+          ])
+        }
+        cx = x2; cy = y2; x = x3; y = y3
+        break
+      }
+      case 'Z': close(); x = sx; y = sy; cx = x; cy = y; break
+      default: throw new Error(`flattenPath: unsupported command ${cmd}`)
+    }
+  }
+  close()
+  return rings
+}
+/** Drop points closer than `min` to the last kept one, so short curves don't spend triangles. */
+function thin(r: XY[], min: number): XY[] {
+  const out: XY[] = []
+  for (const p of r) if (!out.length || Math.hypot(p[0] - out[out.length - 1][0], p[1] - out[out.length - 1][1]) >= min) out.push(p)
+  if (out.length > 3 && Math.hypot(out[0][0] - out[out.length - 1][0], out[0][1] - out[out.length - 1][1]) < min) out.pop()
+  return out
+}
+
+const LOGO_H = 2.2 // the viewBox's 1000 units; the width follows, 1.79 m
+const LOGO_Z = H_P + 6.0 // the logo's middle (a)
+const LOGO_D = 0.1 // half its thickness, 0.2 m (t: the grey edge against the face, seen 33 degrees off square)
+const SVG_W = 814, SVG_H = 1000, K = LOGO_H / SVG_H
+// SVG (x right, y down) seen from the west -> model: right is south (-y), up is z
+const fromSvg = (q: XY): XY => [(q[0] - SVG_W / 2) * K, (SVG_H / 2 - q[1]) * K]
+const at = (q: XY, x: number): V3 => [x, -q[0], LOGO_Z + q[1]]
+const [appleBody, appleLeaf] = flattenPath(APPLE_SVG, 6).map((r) => ccw(thin(r.map(fromSvg), 0.03)))
+for (const poly of [appleBody, appleLeaf]) {
+  // counter-clockwise as seen from the west, so as is it faces west
+  for (const [a, b, c] of earcut(poly)) {
+    logo.tri(at(poly[a], -LOGO_D), at(poly[b], -LOGO_D), at(poly[c], -LOGO_D)) // west face
+    logo.tri(at(poly[a], LOGO_D), at(poly[c], LOGO_D), at(poly[b], LOGO_D)) // east face
+  }
+  for (let k = 0; k < poly.length; k++) {
+    const a = poly[k], b = poly[(k + 1) % poly.length]
+    hanger.quad(at(a, LOGO_D), at(b, LOGO_D), at(b, -LOGO_D), at(a, -LOGO_D)) // the edge
+  }
+}
+
+// The hanger (a, t): one slender rod from the top of the body, by the
+// stem, up to a bar under the roof that spans between the two east-west
+// roof beams. Real: a rod a few centimetres thick. Drawn 0.16 m and the
+// bar 0.24 m wide, and darker than the frame, so they read through the
+// glass at map distance (STYLE.md: no members too thin to read).
 {
-  type P2 = [number, number]
-  const knots: P2[] = [
-    [0.535, 0.307], [0.45, 0.39], [0.33, 0.455], [0.2, 0.47], [0.09, 0.445], [0, 0.405], [-0.1, 0.445], [-0.22, 0.47],
-    [-0.36, 0.43], [-0.46, 0.31], [-0.505, 0.15], [-0.5, -0.02], [-0.46, -0.2], [-0.38, -0.36], [-0.27, -0.47],
-    [-0.15, -0.51], [-0.05, -0.49], [0, -0.47], [0.06, -0.49], [0.17, -0.51], [0.29, -0.46], [0.4, -0.36], [0.48, -0.25],
-    [0.535, -0.127],
-  ]
-  const body: P2[] = []
-  for (let i = 0; i < knots.length - 1; i++) {
-    const p0 = knots[Math.max(0, i - 1)], p1 = knots[i], p2 = knots[i + 1], p3 = knots[Math.min(knots.length - 1, i + 2)]
-    for (let k = 0; k < 3; k++) {
-      const t = k / 3, t2 = t * t, t3 = t2 * t
-      const f = (j: 0 | 1) => 0.5 * (2 * p1[j] + (-p0[j] + p2[j]) * t + (2 * p0[j] - 5 * p1[j] + 4 * p2[j] - p3[j]) * t2 + (-p0[j] + 3 * p1[j] - 3 * p2[j] + p3[j]) * t3)
-      body.push([f(0), f(1)])
-    }
-  }
-  // the bite: an arc of a circle round (0.66, 0.09), from the lower corner back up to the upper
-  for (let k = 0; k < 7; k++) {
-    const a = ((240 - k * 20) * Math.PI) / 180
-    body.push([0.66 + 0.25 * Math.cos(a), 0.09 + 0.25 * Math.sin(a)])
-  }
-  const ccw = (poly: P2[]) => {
-    let s = 0
-    for (let i = 0; i < poly.length; i++) {
-      const a = poly[i], b = poly[(i + 1) % poly.length]
-      s += a[0] * b[1] - b[0] * a[1]
-    }
-    return s > 0 ? poly : poly.reverse()
-  }
-  const leaf: [number, number][] = []
-  const A = [0.02, 0.5], B = [0.24, 0.8], L = Math.hypot(B[0] - A[0], B[1] - A[1])
-  const u = [(B[0] - A[0]) / L, (B[1] - A[1]) / L], pp = [-u[1], u[0]]
-  for (let i = 0; i <= 8; i++) {
-    const t = i / 8, w = 0.085 * Math.sin(Math.PI * t)
-    leaf.push([A[0] + u[0] * L * t + pp[0] * w, A[1] + u[1] * L * t + pp[1] * w])
-  }
-  for (let i = 7; i >= 1; i--) {
-    const t = i / 8, w = 0.085 * Math.sin(Math.PI * t)
-    leaf.push([A[0] + u[0] * L * t - pp[0] * w, A[1] + u[1] * L * t - pp[1] * w])
-  }
-  const SC = 2.2 / 1.3, Z0 = H_P + 6.0 - 0.15 * SC, D = 0.06
-  // unit (right, up) seen from the west -> model (-y, z)
-  const at = (q: [number, number], x: number): V3 => [x, -q[0] * SC, Z0 + q[1] * SC]
-  const slab = (poly: P2[], centre: [number, number]) => {
-    const n = poly.length
-    for (let i = 0; i < n; i++) {
-      const a = poly[i], b = poly[(i + 1) % n]
-      // a counter-clockwise outline maps to a face looking west
-      logo.tri(at(centre, -D), at(a, -D), at(b, -D)) // west face
-      logo.tri(at(centre, D), at(b, D), at(a, D)) // east face
-      logo.quad(at(a, D), at(b, D), at(b, -D), at(a, -D)) // edge
-    }
-  }
-  slab(ccw(body), [0, 0])
-  slab(ccw(leaf), [(A[0] + B[0]) / 2, (A[1] + B[1]) / 2])
+  const R = 0.08
+  const dip = at(fromSvg([413.5, 287.7]), 0) // the body's top dip, under the stem (a vertex of the path)
+  // the rod: from inside the body up to the bar, thinner than the logo so it hides inside it
+  box(hanger, -LOGO_D * 0.7, dip[1] - R, dip[2] - 0.1, LOGO_D * 0.7, dip[1] + R, H_C - 0.2)
+  box(hanger, -R * 1.5, -S / 3, H_C - 0.2, R * 1.5, S / 3, H_C - 0.02, true)
 }
 
 // ------------------------------------------------------------ sky lenses and skylights
@@ -385,9 +447,9 @@ const parts = [
   { part: glass, material: { ...PALETTE.glass, color: 0x7fc4de, opacity: 0.3, doubleSided: true } },
   { part: steel, material: { ...finish('steel', 0xc9d0d5, 0.35), floodlight: (p: V3) => (inCube(p) ? 0.9 : 0) } },
   { part: logo, material: { ...finish('neon-apple', 0xf3e9c6), doubleSided: false } },
+  { part: hanger, material: { ...finish('steel-2', 0x6f777d, 0.4), floodlight: () => 0.9 } },
   { part: stone, material: { ...finish('plaza-granite', 0xc3c6c1), floodlight: (p: V3) => (Math.abs(p[0]) < S - 0.01 && Math.abs(p[1]) < S - 0.01 ? 0.7 : 0) } },
   { part: lights, material: windowVariant(2, 0xa7b1b8) },
-  { part: store, material: PALETTE.entrance },
 ]
 const triangles = parts.reduce((n, { part }) => n + part.triangles, 0)
 if (triangles > 5000) throw new Error(`Triangle budget exceeded: ${triangles}`)
