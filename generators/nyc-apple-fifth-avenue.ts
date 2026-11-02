@@ -55,17 +55,19 @@
  * - the secondary stairs and their 1 m retaining walls and planters,
  *   way/1262390669-1262390683.
  * Measured from photos, scaled by the cube's 9.75 m:
- * - logo 2.2 m tall, its centre 6.0 m above the floor, at the cube's
- *   centre (a, with the perspective of the cube's back edges); its width
- *   follows from the traced outline, 1.79 m (1.7 m was measured);
+ * - logo 2.2 m tall, its centre 6.0 m above the floor (a, with the
+ *   perspective of the cube's back edges); its width follows from the
+ *   traced outline, 1.79 m (1.7 m was measured). It hangs under the
+ *   western north-south roof beam, 3.25 m behind the west wall, not at the
+ *   cube's centre (t and t vertical: it sits just behind the west wall,
+ *   its rod rising straight into that beam);
  * - logo 0.2 m thick (t: its grey edge against the face, seen about 33
  *   degrees off square; a shows the edge only as a thin rim round the bite);
- * - the hanger (a, t): one slender rod rises from the top of the body, just
- *   left of the leaf, to a bar under the roof that spans between two
- *   east-west glass roof beams (a: the beams recede from the west wall's
- *   joints as converging clamped blades, the bar crossing between them
- *   above the logo; t: the rod and the beam it meets). The roof's glass
- *   beams run both ways, a 3 x 3 grid (a, t);
+ * - the hanger (a, t vertical): one thin rod rises from the top of the
+ *   leaf, near its left end (0.53 of the logo's width, a), straight up
+ *   into the glass roof beam above, fixed with a clamp. The roof's glass
+ *   beams run both ways, a 3 x 3 grid (a: the clamped beams receding from
+ *   the west wall's joints; t, t vertical);
  * - lift cylinder 2.6 m across, standing 2.9 m above the floor (a);
  * - vestibule 3.4 m wide, 3.5 m tall, projecting 1.5 m (a: its underside
  *   shows as a 0.1 m band from the street; t);
@@ -85,9 +87,12 @@
  *   the outline, so the edges are thin pale steel bars; the joints are glass
  *   fins 0.6 m deep (estimated), which the map draws nearly opaque edge-on;
  * - the hanger's size: the real rod is a few centimetres thick and too
- *   thin to read on the map (STYLE.md), so the rod is drawn 0.16 m and
- *   the bar 0.24 m wide, in a steel darker than the frame's so they read
- *   through the glass;
+ *   thin to read on the map (STYLE.md), so it is drawn 0.08 m, in a steel
+ *   darker than the frame's so it reads through the glass;
+ * - the roof beams' depth, 1.0 m: in t vertical the rod meets its beam
+ *   about 1 m above the leaf, which with the logo's centre at 6.0 m would
+ *   need beams 2 m deep; the beams look 0.6-1 m, so the drawn rod is
+ *   about 2 m, twice the photo's;
  * - the east-west roof joints' thin steel seals: a, t show steel clamps on
  *   those beams, but which way the three roof panels' joints run is not
  *   clear, so both directions are sealed alike;
@@ -143,7 +148,7 @@
  * Doubts: whether a second logo faces north and south (a shows a thin
  * edge-on sliver north of centre, t a faint second apple, either a
  * reflection or another logo; one logo, lit both sides, is drawn); the
- * logo's depth in the cube (centre assumed); the skylight layout; the
+ * logo's height against its rod (see the roof beams); the skylight layout; the
  * stair's turn; the plaza's height varies 0.3-0.65 m along the sidewalk.
  */
 import { Part, writeGlb, type V3 } from './mesh'
@@ -159,6 +164,7 @@ const H_C = H_P + 9.75 // the cube's top
 const R_OPEN = 3.4 // stairwell opening
 const R_CYL = 1.3 // lift cylinder
 const R_STEP = 3.2 // treads' outer edge
+const D_ROOF = 1.0 // the glass roof beams' depth (estimated: tv, the logo's rod meets one about a metre above the leaf)
 const N = 24 // segments round the stairwell (corners of the cube's floor fall on them)
 
 // ------------------------------------------------------------ helpers
@@ -298,12 +304,11 @@ for (let k = 0; k < 2; k++) box(stone, X_W - (k + 1) * 0.43, Y_S, 0, X_W - k * 0
     glass.quad(c(t, S - D, H_P), c(t, S, H_P), c(t, S, H_C), c(t, S - D, H_C)) // north fins
     glass.quad(c(S - D, t, H_P), c(S, t, H_P), c(S, t, H_C), c(S - D, t, H_C)) // east fins
     glass.quad(c(-S, t, VH), c(-S + D, t, VH), c(-S + D, t, H_C), c(-S, t, H_C)) // west fins, over the vestibule
-    glass.quad(c(t, -S, H_C - D), c(t, S, H_C - D), c(t, S, H_C), c(t, -S, H_C)) // roof beams, north-south
+    glass.quad(c(t, -S, H_C - D_ROOF), c(t, S, H_C - D_ROOF), c(t, S, H_C), c(t, -S, H_C)) // roof beams, north-south
     box(steel, t - J, -S + F, H_C - J, t + J, S - F, H_C + J) // the roof joints' thin seals
     // and east-west: the roof's beams make a 3 x 3 grid (a: the clamped
-    // beams receding from the west wall's joints; t), and the logo hangs
-    // between these two
-    glass.quad(c(-S, t, H_C - D), c(S, t, H_C - D), c(S, t, H_C), c(-S, t, H_C))
+    // beams receding from the west wall's joints; t, tv)
+    glass.quad(c(-S, t, H_C - D_ROOF), c(S, t, H_C - D_ROOF), c(S, t, H_C), c(-S, t, H_C))
     box(steel, -S + F, t - J, H_C - J, S - F, t + J, H_C + J)
   }
   // the vestibule's edges
@@ -381,11 +386,12 @@ function thin(r: XY[], min: number): XY[] {
 
 const LOGO_H = 2.2 // the viewBox's 1000 units; the width follows, 1.79 m
 const LOGO_Z = H_P + 6.0 // the logo's middle (a)
+const LOGO_X = -S / 3 // under the western north-south roof beam, just behind the west wall (t, tv)
 const LOGO_D = 0.1 // half its thickness, 0.2 m (t: the grey edge against the face, seen 33 degrees off square)
 const SVG_W = 814, SVG_H = 1000, K = LOGO_H / SVG_H
 // SVG (x right, y down) seen from the west -> model: right is south (-y), up is z
 const fromSvg = (q: XY): XY => [(q[0] - SVG_W / 2) * K, (SVG_H / 2 - q[1]) * K]
-const at = (q: XY, x: number): V3 => [x, -q[0], LOGO_Z + q[1]]
+const at = (q: XY, x: number): V3 => [LOGO_X + x, -q[0], LOGO_Z + q[1]]
 const [appleBody, appleLeaf] = flattenPath(APPLE_SVG, 6).map((r) => ccw(thin(r.map(fromSvg), 0.03)))
 for (const poly of [appleBody, appleLeaf]) {
   // counter-clockwise as seen from the west, so as is it faces west
@@ -399,17 +405,21 @@ for (const poly of [appleBody, appleLeaf]) {
   }
 }
 
-// The hanger (a, t): one slender rod from the top of the body, by the
-// stem, up to a bar under the roof that spans between the two east-west
-// roof beams. Real: a rod a few centimetres thick. Drawn 0.16 m and the
-// bar 0.24 m wide, and darker than the frame, so they read through the
-// glass at map distance (STYLE.md: no members too thin to read).
+// The hanger (a, tv): one thin rod from the top of the leaf, near its left
+// end, straight up into the glass roof beam above, with a steel clamp
+// where it meets the beam. Real: a rod a few centimetres thick; drawn
+// 0.08 m and dark, so it reads through the glass at map distance.
 {
-  const R = 0.08
-  const dip = at(fromSvg([413.5, 287.7]), 0) // the body's top dip, under the stem (a vertex of the path)
-  // the rod: from inside the body up to the bar, thinner than the logo so it hides inside it
-  box(hanger, -LOGO_D * 0.7, dip[1] - R, dip[2] - 0.1, LOGO_D * 0.7, dip[1] + R, H_C - 0.2)
-  box(hanger, -R * 1.5, -S / 3, H_C - 0.2, R * 1.5, S / 3, H_C - 0.02, true)
+  const R = 0.04, u = (431 - SVG_W / 2) * K // a: the rod at 0.53 of the logo's width
+  // the leaf's top edge above u, where the rod meets it
+  let v = -Infinity
+  for (let k = 0; k < appleLeaf.length; k++) {
+    const p = appleLeaf[k], q = appleLeaf[(k + 1) % appleLeaf.length]
+    if ((p[0] - u) * (q[0] - u) <= 0 && p[0] !== q[0]) v = Math.max(v, p[1] + ((u - p[0]) / (q[0] - p[0])) * (q[1] - p[1]))
+  }
+  const foot = at([u, v], 0)
+  box(hanger, LOGO_X - R, foot[1] - R, foot[2] - 0.08, LOGO_X + R, foot[1] + R, H_C - D_ROOF) // the rod, its foot in the leaf
+  box(hanger, LOGO_X - 0.12, foot[1] - 0.15, H_C - D_ROOF - 0.06, LOGO_X + 0.12, foot[1] + 0.15, H_C - D_ROOF + 0.3, true) // the clamp on the beam
 }
 
 // ------------------------------------------------------------ sky lenses and skylights
