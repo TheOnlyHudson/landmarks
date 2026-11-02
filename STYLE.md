@@ -106,6 +106,26 @@ and photos. Every rule here fixes something that went wrong.
   flat `window` (or `glass`) geometry set into the wall, never spikes or
   cones standing proud.
 
+## Translucent glass
+
+Most glass is opaque: a curtain wall is a `window` wall, a glass roof is
+`glass`. Only where seeing *through* the glass is the identity, as with a
+glass cube, a glass pavilion or a glass entrance kiosk, make it translucent:
+give the material an `opacity` (0.2 to 0.35 reads as glass) and the map
+draws what is inside through it, faintly tinted.
+
+- Name it `glass` (or `glass-2`, …) so it stays dark at night, and make it
+  `doubleSided`, so the far walls read through the near ones.
+- Model what is seen through it: the stair, the lift, the logo, the floor.
+  An empty translucent box reads as nothing.
+- Carry the outline with a solid frame: corners, mullions, the roof edge.
+  Glass alone has no edges at map distance.
+- Translucent glass casts no shadow on the map, and nothing is shadowed by
+  it. A reader without blending draws it opaque in its own colour, so pick
+  a colour that also works as a solid pale glass box (`glass` `#a4c4d9`).
+- Use it sparingly: one or two translucent materials per model, never a
+  whole tower.
+
 ## Colour
 
 - **Start from the shared palette** in `generators/palette.ts`, the

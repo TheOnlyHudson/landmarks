@@ -193,6 +193,13 @@ export type MaterialSpec = {
   color: number
   roughness?: number
   doubleSided?: boolean
+  /**
+   * Below 1, a translucent surface: written as glTF `alphaMode: 'BLEND'` with
+   * this as the base colour's alpha, so the map draws what is behind it
+   * through it. For clear glass that should be seen through (a glass cube, a
+   * pavilion); 0.2–0.35 reads as glass. See "Translucent glass" in STYLE.md.
+   */
+  opacity?: number
   /** A PNG whose alpha cuts the surface — lattice, railings, glazing bars. */
   mask?: { png: Uint8Array; cutoff?: number }
   /**
@@ -364,12 +371,13 @@ export function writeGlb(
     const m: any = {
       name: material.name,
       pbrMetallicRoughness: {
-        baseColorFactor: [...linear(material.color), 1],
+        baseColorFactor: [...linear(material.color), material.opacity ?? 1],
         metallicFactor: 0,
         roughnessFactor: material.roughness ?? 0.85,
       },
     }
     if (material.doubleSided) m.doubleSided = true
+    if (material.opacity !== undefined && material.opacity < 1) m.alphaMode = 'BLEND'
     if (material.texture && !material.mask) {
       images.push({ bufferView: push(material.texture.png), mimeType: 'image/png' })
       textures.push({ source: images.length - 1 })

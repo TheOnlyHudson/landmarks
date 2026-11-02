@@ -152,9 +152,25 @@ export function render(scene: Scene, w: number, h: number, az: number, el: numbe
   const bgl = (night ? NIGHT_BACKGROUND : BACKGROUND).map((v) => Math.pow(v / 255, 2.2))
   for (let i = 0; i < W * H; i++) buffer.set(bgl, i * 3)
   const half = norm(sun.map((s, i) => s + camera[i]))
-  for (const prim of primitives) {
+  // Translucent glass (alphaMode BLEND) is drawn after everything opaque,
+  // farthest first, without writing depth: its back faces, then its front, so
+  // a glass box shows its far wall through its near one as the map does.
+  const opacity = (prim: Scene['primitives'][number]) => prim.mat.alphaMode === 'BLEND' ? prim.mat.pbrMetallicRoughness.baseColorFactor[3] ?? 1 : 1
+  const away = (prim: Scene['primitives'][number]) => {
+    let d = 0
+    for (let i = 0; i < prim.p.length; i += 3) d += (prim.p[i] - centre[0]) * camera[0] + (-prim.p[i + 2] - centre[1]) * camera[1] + (prim.p[i + 1] - centre[2]) * camera[2]
+    return d / (prim.p.length / 3)
+  }
+  const glass = primitives.filter((prim) => opacity(prim) < 1).sort((a, b) => away(a) - away(b))
+  const passes: Array<[Scene['primitives'][number], 'opaque' | 'back' | 'front']> = [
+    ...primitives.filter((prim) => opacity(prim) >= 1).map((prim) => [prim, 'opaque'] as [Scene['primitives'][number], 'opaque']),
+    ...glass.map((prim) => [prim, 'back'] as [Scene['primitives'][number], 'back']),
+    ...glass.map((prim) => [prim, 'front'] as [Scene['primitives'][number], 'front']),
+  ]
+  for (const [prim, pass] of passes) {
     // The map draws lamps only at night.
     if (!night && (prim.mat.name ?? '').startsWith('lamp')) continue
+    const alpha = opacity(prim)
     const { p, n, uv, ix, mat, flood } = prim, glow = night ? glows(mat.name ?? '') : null, neon = night && (mat.name ?? '').startsWith('neon'), pbr = mat.pbrMetallicRoughness, tex = pbr.baseColorTexture ? textures[gltf.textures[pbr.baseColorTexture.index].source] : null
     const pos: number[][] = [], normal: number[][] = []
     for (let i = 0; i < p.length / 3; i++) {
@@ -169,6 +185,7 @@ export function render(scene: Scene, w: number, h: number, az: number, el: numbe
       // Cull by winding, as the map (and any GPU) does: a face wound
       // clockwise on screen is its back, whatever its normals say.
       if (det > 0 && !mat.doubleSided) continue
+      if ((pass === 'back' && det <= 0) || (pass === 'front' && det > 0)) continue
       const xmin = Math.max(0, Math.floor(Math.min(a[0], b[0], c[0]))), xmax = Math.min(W - 1, Math.ceil(Math.max(a[0], b[0], c[0])))
       const ymin = Math.max(0, Math.floor(Math.min(a[1], b[1], c[1]))), ymax = Math.min(H - 1, Math.ceil(Math.max(a[1], b[1], c[1])))
       const dbdx = (c[1] - a[1]) / det, dbdy = -(c[0] - a[0]) / det, dcdx = -(b[1] - a[1]) / det, dcdy = (b[0] - a[0]) / det
@@ -192,7 +209,7 @@ export function render(scene: Scene, w: number, h: number, az: number, el: numbe
         if (wa < -0.00001 || wb < -0.00001 || wc < -0.00001) continue
         const z = wa * a[2] + wb * b[2] + wc * c[2], at = y * W + x
         if (z < depth[at]) continue
-        depth[at] = z
+        if (pass === 'opaque') depth[at] = z
         let color = pbr.baseColorFactor.slice(0, 3)
         if (tex) {
           const u = wa * uvv[0][0] + wb * uvv[1][0] + wc * uvv[2][0], v = wa * uvv[0][1] + wb * uvv[1][1] + wc * uvv[2][1], col = [0, 0, 0]
@@ -206,14 +223,14 @@ export function render(scene: Scene, w: number, h: number, az: number, el: numbe
         const light = 0.72 + 0.28 * (dot(smooth, sun) * 0.5 + 0.5)
         const spec = pbr.roughnessFactor < 0.5 ? Math.pow(Math.max(0, dot(smooth, half)), 35) * 0.055 : 0
         if (!night) {
-          for (let j = 0; j < 3; j++) buffer[at * 3 + j] = Math.min(1, color[j] * Math.pow(light, 2.2) + spec)
+          for (let j = 0; j < 3; j++) buffer[at * 3 + j] += (Math.min(1, color[j] * Math.pow(light, 2.2) + spec) - buffer[at * 3 + j]) * alpha
           continue
         }
         const f = flood ? (wa * flood[ids[0]] + wb * flood[ids[1]] + wc * flood[ids[2]]) * NIGHT.floodStrength : 0
         for (let j = 0; j < 3; j++) {
           const dim = color[j] * Math.pow(light, 2.2) * NIGHT.dim + NIGHT.tint[j]
           const lit = color[j] * NIGHT.flood[j] * Math.pow(light, 2.2)
-          buffer[at * 3 + j] = glow ? glow[j] : neon ? neonGlow(color)[j] : Math.min(1, dim + (lit - dim) * f)
+          buffer[at * 3 + j] += ((glow ? glow[j] : neon ? neonGlow(color)[j] : Math.min(1, dim + (lit - dim) * f)) - buffer[at * 3 + j]) * alpha
         }
       }
     }
