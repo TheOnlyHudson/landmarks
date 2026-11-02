@@ -248,6 +248,15 @@ triangles, 1.5 MB, six materials. The low model drops the thin parts and
 keeps everything that reads from far off. The release publishes it as the
 asset's `lods.detail`, baked like the low one.
 
+### Translucent glass
+
+A material may be translucent: glTF `alphaMode: "BLEND"` with the base
+colour's alpha as its opacity (`opacity` on a material in `mesh.ts`). Readers
+draw it after everything opaque, without writing depth, its back faces then
+its front, and it casts no shadow. A reader without blending draws it opaque.
+Untextured only; a texture's alpha is a window or cut-out mask. See
+"Translucent glass" in `STYLE.md`.
+
 ### Bridges
 
 A bridge is one placement for the whole structure, not one per tower: the

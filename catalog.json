@@ -15671,6 +15671,87 @@
       ]
     },
     {
+      "id": "nyc-apple-fifth-avenue",
+      "file": "models/nyc-apple-fifth-avenue.glb",
+      "source": "generators/nyc-apple-fifth-avenue.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "store",
+        "glass",
+        "plaza",
+        "modern",
+        "translucent"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "role": "creator",
+          "github": "alexwohlbruck"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Apple Fifth Avenue (51396585920).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_Fifth_Avenue_(51396585920).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Apple Store 5th Avenue.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_Store_5th_Avenue.jpg",
+          "author": "Filip Troníček",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Apple Store 5th Avenue (vertical).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_Store_5th_Avenue_(vertical).jpg",
+          "author": "Filip Troníček",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View of Apple Fifth Avenue from Central Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Apple_Fifth_Avenue_from_Central_Park.jpg",
+          "author": "Filip Troníček",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Apple Store Fifth Avenue 001.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_Store_Fifth_Avenue_001.jpg",
+          "author": "Kidfly182",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Apple Fifth Avenue at night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_Fifth_Avenue_at_night.jpg",
+          "author": "Ɱ",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Apple Fifth through an oculus.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_Fifth_through_an_oculus.jpg",
+          "author": "Ɱ",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Grand Army Plaza Dec 2020 11.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Grand_Army_Plaza_Dec_2020_11.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "nyc-pepsi-cola-sign",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -27971,6 +28052,21 @@
       "minzoom": 15,
       "wikidata": "Q1108243",
       "replaces": []
+    },
+    {
+      "id": "nyc-apple-fifth-avenue",
+      "name": "Apple Fifth Avenue",
+      "model": "nyc-apple-fifth-avenue",
+      "place": "new-york-area",
+      "lng": -73.9729641,
+      "lat": 40.7638426,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q105695664",
+      "replaces": [
+        "way/156958129"
+      ]
     },
     {
       "id": "nyc-jfk-terminal-5",

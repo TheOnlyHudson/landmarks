@@ -15,8 +15,8 @@
  * maps the whole museum as one outline with no parts, so it gives no Rose
  * Center footprint or heights of its own.
  *
- * The glass. The renderer has no blending, only opaque and alpha-masked
- * surfaces, so glass cannot be seen through. Instead each glass face is
+ * The glass. Built before translucent glass (STYLE.md), so it is opaque
+ * and cannot be seen through. Instead each glass face is
  * single-sided and faces *into* the cube: with back faces culled, the walls
  * nearest the camera vanish and the far ones show their inside as a pale
  * blue-grey backdrop behind the sphere — from any side, at any bearing, since
