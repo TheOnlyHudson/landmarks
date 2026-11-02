@@ -30,6 +30,8 @@ const NIGHT = {
   // Parchment's LAMP_LIGHT and FLOODLIGHT (web/src/lib/map-objects/landmarks.ts).
   lamp: linear('#ffe7c4'), flood: linear('#ffeacf'), floodStrength: 0.9,
 }
+/** Glass gets more opaque toward edge-on; Parchment's GLASS_EDGE (web/src/lib/map-objects/landmark-layer.ts). */
+const GLASS_EDGE = { strength: 0.85, power: 3 }
 const glows = (name: string) => name.startsWith('lamp') ? NIGHT.lamp : name.startsWith('window') || name === 'entrance' ? NIGHT.window : null
 /** A lit sign's own colour at night: a little brighter than by day. */
 export const neonGlow = (c: number[]) => c.map((v) => Math.min(1, v * 1.3 + 0.04))
@@ -220,17 +222,19 @@ export function render(scene: Scene, w: number, h: number, az: number, el: numbe
           color = color.map((v: number, i: number) => v * col[i])
         }
         const smooth = norm(ns[0].map((v: number, i: number) => wa * v + wb * ns[1][i] + wc * ns[2][i]))
-        const light = 0.72 + 0.28 * (dot(smooth, sun) * 0.5 + 0.5)
+        const opacity = alpha < 1 ? alpha + (1 - alpha) * GLASS_EDGE.strength * Math.pow(1 - Math.abs(dot(smooth, camera)), GLASS_EDGE.power) : 1
+        // Glass reflects the sky whichever way it faces, so it is barely shaded, as on the map.
+        const light = alpha < 1 ? 0.92 + 0.08 * (dot(smooth, sun) * 0.5 + 0.5) : 0.72 + 0.28 * (dot(smooth, sun) * 0.5 + 0.5)
         const spec = pbr.roughnessFactor < 0.5 ? Math.pow(Math.max(0, dot(smooth, half)), 35) * 0.055 : 0
         if (!night) {
-          for (let j = 0; j < 3; j++) buffer[at * 3 + j] += (Math.min(1, color[j] * Math.pow(light, 2.2) + spec) - buffer[at * 3 + j]) * alpha
+          for (let j = 0; j < 3; j++) buffer[at * 3 + j] += (Math.min(1, color[j] * Math.pow(light, 2.2) + spec) - buffer[at * 3 + j]) * opacity
           continue
         }
         const f = flood ? (wa * flood[ids[0]] + wb * flood[ids[1]] + wc * flood[ids[2]]) * NIGHT.floodStrength : 0
         for (let j = 0; j < 3; j++) {
           const dim = color[j] * Math.pow(light, 2.2) * NIGHT.dim + NIGHT.tint[j]
           const lit = color[j] * NIGHT.flood[j] * Math.pow(light, 2.2)
-          buffer[at * 3 + j] += ((glow ? glow[j] : neon ? neonGlow(color)[j] : Math.min(1, dim + (lit - dim) * f)) - buffer[at * 3 + j]) * alpha
+          buffer[at * 3 + j] += ((glow ? glow[j] : neon ? neonGlow(color)[j] : Math.min(1, dim + (lit - dim) * f)) - buffer[at * 3 + j]) * opacity
         }
       }
     }

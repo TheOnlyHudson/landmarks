@@ -6,7 +6,7 @@
  *   bun generators/nyc-apple-fifth-avenue.ts
  *
  * The first model here with translucent glass (STYLE.md, "Translucent
- * glass"): the cube is `glass` at opacity 0.28, double-sided, so the map
+ * glass"): the cube is pale blue `glass` at opacity 0.3, double-sided, so the map
  * draws what stands inside it. An empty glass box reads as nothing, so the
  * cube carries what is really seen through it.
  *
@@ -73,7 +73,8 @@
  *   reads as a stair going down from above;
  * - the frame: the real cube is all but frameless (silicone joints, glass
  *   fins, small steel fittings). STYLE.md asks for a solid frame to carry
- *   the outline, so the edges and the joints are thin pale steel bars;
+ *   the outline, so the edges are thin pale steel bars; the joints are glass
+ *   fins 0.6 m deep (estimated), which the map draws nearly opaque edge-on;
  * - the logo's outline (circles and a lens leaf, not traced) and its
  *   thickness (0.12 m, a: the lit edge shows);
  * - the planters' tops, drawn as plain stone (they hold honey locusts).
@@ -251,7 +252,7 @@ for (let k = 0; k < 2; k++) box(stone, X_W - (k + 1) * 0.43, Y_S, 0, X_W - k * 0
   glass.quad(c(X, -VW, H_P), c(-S, -VW, H_P), c(-S, -VW, VH), c(X, -VW, VH))
   glass.quad(c(-S, VW, H_P), c(X, VW, H_P), c(X, VW, VH), c(-S, VW, VH))
   glass.quad(c(X, -VW, VH), c(-S, -VW, VH), c(-S, VW, VH), c(X, VW, VH))
-  // the frame: corners, eaves, sills and the panel joints, thin pale steel
+  // the frame: corners, eaves and sills, thin pale steel
   const F = 0.09, J = 0.05
   for (const [x, y] of [[-S, -S], [S, -S], [S, S], [-S, S]]) box(steel, x - F, y - F, H_P, x + F, y + F, H_C + F)
   box(steel, -S - F, -S - F, H_C - F, S + F, -S + F, H_C + F)
@@ -263,12 +264,17 @@ for (let k = 0; k < 2; k++) box(stone, X_W - (k + 1) * 0.43, Y_S, 0, X_W - k * 0
   box(steel, S - F, -S + F, H_P, S + F, S - F, H_P + 0.1)
   box(steel, -S - F, VW, H_P, -S + F, S - F, H_P + 0.1)
   box(steel, -S - F, -S + F, H_P, -S + F, -VW, H_P + 0.1)
-  for (const t of [-S / 3, S / 3].map((v) => v * 2)) {
-    box(steel, t - J, -S - J, H_P, t + J, -S + J, H_C) // south joints
-    box(steel, t - J, S - J, H_P, t + J, S + J, H_C) // north joints
-    box(steel, S - J, t - J, H_P, S + J, t + J, H_C) // east joints
-    box(steel, -S - J, t - J, VH, -S + J, t + J, H_C) // west joints, over the vestibule
-    box(steel, t - J, -S + F, H_C - J, t + J, S - F, H_C + J) // roof joints, east-west panels
+  // The panel joints: a glass fin standing in from each, and a glass beam
+  // under each roof joint. Three panels a side, so joints at ±S/3. Seen
+  // edge-on the fins draw as the cube's tinted vertical lines.
+  const D = 0.6
+  for (const t of [-S / 3, S / 3]) {
+    glass.quad(c(t, -S, H_P), c(t, -S + D, H_P), c(t, -S + D, H_C), c(t, -S, H_C)) // south fins
+    glass.quad(c(t, S - D, H_P), c(t, S, H_P), c(t, S, H_C), c(t, S - D, H_C)) // north fins
+    glass.quad(c(S - D, t, H_P), c(S, t, H_P), c(S, t, H_C), c(S - D, t, H_C)) // east fins
+    glass.quad(c(-S, t, VH), c(-S + D, t, VH), c(-S + D, t, H_C), c(-S, t, H_C)) // west fins, over the vestibule
+    glass.quad(c(t, -S, H_C - D), c(t, S, H_C - D), c(t, S, H_C), c(t, -S, H_C)) // roof beams, east-west panels
+    box(steel, t - J, -S + F, H_C - J, t + J, S - F, H_C + J) // the roof joints' thin seals
   }
   // the vestibule's edges
   for (const y of [-VW, VW]) {
@@ -376,7 +382,7 @@ for (let j = -6; j <= 6; j++) {
 // edge, so the stone's test is strictly inside, to keep the wash in.
 const inCube = (p: V3) => Math.abs(p[1]) < S + 0.3 && p[0] > -S - 1.8 && p[0] < S + 0.3
 const parts = [
-  { part: glass, material: { ...PALETTE.glass, opacity: 0.25, doubleSided: true } },
+  { part: glass, material: { ...PALETTE.glass, color: 0x7fc4de, opacity: 0.3, doubleSided: true } },
   { part: steel, material: { ...finish('steel', 0xc9d0d5, 0.35), floodlight: (p: V3) => (inCube(p) ? 0.9 : 0) } },
   { part: logo, material: { ...finish('neon-apple', 0xf3e9c6), doubleSided: false } },
   { part: stone, material: { ...finish('plaza-granite', 0xc3c6c1), floodlight: (p: V3) => (Math.abs(p[0]) < S - 0.01 && Math.abs(p[1]) < S - 0.01 ? 0.7 : 0) } },

@@ -118,8 +118,14 @@ draws what is inside through it, faintly tinted.
   `doubleSided`, so the far walls read through the near ones.
 - Model what is seen through it: the stair, the lift, the logo, the floor.
   An empty translucent box reads as nothing.
-- Carry the outline with a solid frame: corners, mullions, the roof edge.
-  Glass alone has no edges at map distance.
+- Glass gets more opaque toward edge-on, as real glass does, so a wall seen
+  at a slant reads bluer than one seen face on. Glass fins at the panel
+  joints use this: seen edge-on they draw as the tinted lines that divide
+  the panels, with no steel needed.
+- Carry the outline with a thin solid frame: corners, the roof edge, the
+  sills. Glass alone has no edges at map distance.
+- Tint it: a clear blue such as `#7fc4de` reads as glass where the
+  palette's grey-blue `glass` washes out to grey.
 - Translucent glass casts no shadow on the map, and nothing is shadowed by
   it. A reader without blending draws it opaque in its own colour, so pick
   a colour that also works as a solid pale glass box (`glass` `#a4c4d9`).
