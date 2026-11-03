@@ -17931,6 +17931,78 @@
       ],
       "file": "models/hou-police-officers-memorial.glb",
       "source": "generators/hou-police-officers-memorial.ts"
+    },
+    {
+      "id": "hou-contemporary-arts-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "CAMH, the Contemporary Arts Museum in Houston, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:CAMH,_the_Contemporary_Arts_Museum_in_Houston,_Texas_LCCN2011633003.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Contemporary Art Museum, Houston, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:Contemporary_Art_Museum,_Houston,_Texas_LCCN2011630270.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Contemporary Arts Museum Houston A",
+          "url": "https://commons.wikimedia.org/wiki/File:Contemporary_Arts_Museum_Houston_A.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "Contemporary Arts Museum Houston",
+          "url": "https://commons.wikimedia.org/wiki/File:Contemporary_Arts_Museum_Houston.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "Contemporary Arts Museum Houston exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Contemporary_Arts_Museum_Houston_exterior.jpg",
+          "author": "Hannah Lange",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "ContArtMuseumHouston",
+          "url": "https://commons.wikimedia.org/wiki/File:ContArtMuseumHouston.JPG",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "ContemporaryArtsMuseumHoustonTX",
+          "url": "https://commons.wikimedia.org/wiki/File:ContemporaryArtsMuseumHoustonTX.JPG",
+          "author": "WhisperToMe",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/hou-contemporary-arts-museum.glb",
+      "source": "generators/hou-contemporary-arts-museum.ts"
     }
   ],
   "landmarks": [
@@ -30426,6 +30498,21 @@
       "minzoom": 16,
       "wikidata": "Q5916674",
       "replaces": []
+    },
+    {
+      "id": "hou-contemporary-arts-museum",
+      "name": "Contemporary Arts Museum Houston",
+      "model": "hou-contemporary-arts-museum",
+      "place": "houston-area",
+      "lng": -95.39151,
+      "lat": 29.726396,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q93691",
+      "replaces": [
+        "way/55563504"
+      ]
     }
   ],
   "places": [
