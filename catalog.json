@@ -19496,6 +19496,87 @@
       ],
       "file": "models/dal-six-flags-oil-derrick.glb",
       "source": "generators/dal-six-flags-oil-derrick.ts"
+    },
+    {
+      "id": "dal-new-texas-giant",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "coaster",
+      "tags": [
+        "roller-coaster",
+        "hybrid-coaster",
+        "theme-park",
+        "six-flags"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1353100",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "New Texas Giant 05",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Texas_Giant_05.jpg",
+          "author": "Martin Lewison",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "New Texas Giant 07",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Texas_Giant_07.jpg",
+          "author": "Martin Lewison",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "New Texas Giant lift hill",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Texas_Giant_lift_hill.jpg",
+          "author": "Martin Lewison",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "New Texas Giant station and lift hill",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Texas_Giant_station_and_lift_hill.jpg",
+          "author": "Martin Lewison",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "New Texas Giant track",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Texas_Giant_track.jpg",
+          "author": "Martin Lewison",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "SFOT Giant 2 Edit",
+          "url": "https://commons.wikimedia.org/wiki/File:SFOT_Giant_2_Edit.jpg",
+          "author": "Cstrs101",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The NEW Texas Giant",
+          "url": "https://commons.wikimedia.org/wiki/File:The_NEW_Texas_Giant.jpg",
+          "author": "SFOTPR",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "New Texas Giant 2023 1",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Texas_Giant_2023_1.jpg",
+          "author": "Jeremy Thompson",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-new-texas-giant.glb",
+      "source": "generators/dal-new-texas-giant.ts"
     }
   ],
   "landmarks": [
@@ -32376,6 +32457,27 @@
       "elevation": 0,
       "minzoom": 14,
       "replaces": []
+    },
+    {
+      "id": "dal-new-texas-giant",
+      "name": "New Texas Giant",
+      "model": "dal-new-texas-giant",
+      "place": "six-flags-over-texas",
+      "lng": -97.0729239,
+      "lat": 32.7570031,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1353100",
+      "replaces": [
+        "way/104655707",
+        "way/603559513",
+        "way/603559514",
+        "way/104655706",
+        "way/603559507",
+        "way/603559508",
+        "way/104655708"
+      ]
     }
   ],
   "places": [
