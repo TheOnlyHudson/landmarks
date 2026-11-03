@@ -17346,6 +17346,85 @@
       ],
       "file": "models/dal-meyerson-symphony-center.glb",
       "source": "generators/dal-meyerson-symphony-center.ts"
+    },
+    {
+      "id": "dal-winspear-opera-house",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "opera-house",
+        "modernist",
+        "performing-arts"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Winspear Opera House 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Opera_House_01.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Winspear Opera House 20",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Opera_House_20.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Winspear Opera House 26",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Opera_House_26.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Winspear Opera House 27",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Opera_House_27.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Winspear Opera House 28",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Opera_House_28.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Winspear Exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Exterior.JPG",
+          "author": "Kayedavi",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dallas Winspear Opera House construction canopy",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Winspear_Opera_House_construction_canopy.jpg",
+          "author": "Luis Tamayo",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Dusk shot of the Winspear Opera House (LCCN2015631276)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dusk_shot_of_the_Margot_and_Bill_Winspear_Opera_House_in_the_Arts_District_of_Dallas,_Texas_LCCN2015631276.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-winspear-opera-house.glb",
+      "source": "generators/dal-winspear-opera-house.ts"
     }
   ],
   "landmarks": [
@@ -29788,6 +29867,38 @@
       "wikidata": "Q670323",
       "replaces": [
         "way/28544900"
+      ]
+    },
+    {
+      "id": "dal-winspear-opera-house",
+      "name": "Winspear Opera House",
+      "model": "dal-winspear-opera-house",
+      "place": "dallas-area",
+      "lng": -96.7980084,
+      "lat": 32.7909535,
+      "bearing": 45.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5493322",
+      "replaces": [
+        "way/179918603",
+        "way/312168249",
+        "way/1414653500",
+        "way/1414653501",
+        "way/1414653502",
+        "way/1414653503",
+        "way/1414653504",
+        "way/1414653505",
+        "way/1414653506",
+        "way/1414653507",
+        "way/1414653508",
+        "way/1414653509",
+        "way/1414653510",
+        "way/1414653511",
+        "way/1414653512",
+        "way/1414653513",
+        "way/1414653514",
+        "way/1414653515"
       ]
     }
   ],
