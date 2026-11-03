@@ -17083,6 +17083,62 @@
       ],
       "file": "models/hou-niels-esperson-building.glb",
       "source": "generators/hou-niels-esperson-building.ts"
+    },
+    {
+      "id": "hou-gulf-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "historic",
+        "art-deco"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Gulf Building Houston Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Gulf_Building_Houston_Texas.jpg",
+          "author": "i_am_jim",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "JP Morgan Chase Building Houston Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:JP_Morgan_Chase_Building_Houston_Texas.jpg",
+          "author": "Kent Wang",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Gulf Building",
+          "url": "https://commons.wikimedia.org/wiki/File:Gulf_Building.jpg",
+          "author": "ExqBoredinNac",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gulfchasehouston",
+          "url": "https://commons.wikimedia.org/wiki/File:Gulfchasehouston.jpg",
+          "author": "Reagan Rothenberger",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/hou-gulf-building.glb",
+      "source": "generators/hou-gulf-building.ts"
     }
   ],
   "landmarks": [
@@ -29378,6 +29434,20 @@
         "way/510322923"
       ],
       "wikidata": "Q3341282"
+    },
+    {
+      "id": "hou-gulf-building",
+      "name": "Gulf Building",
+      "model": "hou-gulf-building",
+      "place": "houston-area",
+      "lng": -95.363857,
+      "lat": 29.758864,
+      "bearing": 34.9,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/510321974"
+      ]
     }
   ],
   "places": [
