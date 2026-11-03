@@ -16527,6 +16527,67 @@
       ],
       "file": "models/dal-hyatt-regency.glb",
       "source": "generators/dal-hyatt-regency.ts"
+    },
+    {
+      "id": "dal-union-station",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "train-station",
+        "beaux-arts"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "DallasUnionStation.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DallasUnionStation.jpg",
+          "author": "kla4067",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Dallas Union Station Wiki (1 of 1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Union_Station_Wiki_(1_of_1).jpg",
+          "author": "Renelibrary",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View of Union Station from Reunion Tower August 2015 12.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Union_Station_from_Reunion_Tower_August_2015_12.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas EBJ Eddie Bernice Johnson Union Station May 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_EBJ_Eddie_Bernice_Johnson_Union_Station_May_2024.jpg",
+          "author": "IcedCowboyCoffee",
+          "license": "CC0"
+        },
+        {
+          "title": "Downtown Dallas Skyline with shot of Hyatt Regency Dallas and the Reunion Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Downtown_Dallas_Skyline_with_shot_of_Hyatt_Regency_Dallas_and_the_Reunion_Tower.jpg",
+          "author": "Milestone2",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dal-union-station.glb",
+      "source": "generators/dal-union-station.ts"
     }
   ],
   "landmarks": [
@@ -28723,6 +28784,21 @@
         "way/1491058699",
         "way/1491058700",
         "way/1491058701"
+      ]
+    },
+    {
+      "id": "dal-union-station",
+      "name": "Dallas Union Station",
+      "model": "dal-union-station",
+      "place": "dallas-area",
+      "lng": -96.8075375,
+      "lat": 32.7761299,
+      "bearing": 345,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5371609",
+      "replaces": [
+        "way/25699224"
       ]
     }
   ],
