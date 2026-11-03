@@ -115,7 +115,7 @@ function updateChips() {
   }
 }
 function applyFilters() {
-  setListCollapsed(false)
+  if (mobile.matches && browse.dataset.snap !== 'full') setSnap(browse, 'half')
   updateChips()
   $('clear-search').hidden = !search.value
   search.closest('.search-field')!.classList.toggle('has-value', !!search.value)
@@ -165,10 +165,7 @@ function renderResults() {
     text.append(title, region)
     button.append(glyph, text)
     if (a.reviewStatus === 'draft') button.append(badge('Draft', 'warning result-tag'))
-    button.addEventListener('click', () => {
-      selectAsset(a, true)
-      if (mobile.matches) $('map').scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' })
-    })
+    button.addEventListener('click', () => selectAsset(a, true))
     fragment.append(button)
   })
   if (!filtered.length) {
@@ -432,14 +429,6 @@ $('copy-link').addEventListener('click', async () => {
   catch { label.textContent = 'Copy the address bar' }
   setTimeout(() => { label.textContent = 'Copy link' }, 1600)
 })
-/** On phones the list folds away so the map and preview come first. */
-function setListCollapsed(collapsed: boolean) {
-  document.querySelector('.browse')!.classList.toggle('collapsed', collapsed)
-  $('toggle-results').setAttribute('aria-expanded', String(!collapsed))
-  $('toggle-results').querySelector('span')!.textContent = collapsed ? 'Show list' : 'Hide list'
-}
-$('toggle-results').addEventListener('click', () => setListCollapsed($('toggle-results').getAttribute('aria-expanded') === 'true'))
-setListCollapsed(mobile.matches)
 const tabs = [...document.querySelectorAll<HTMLButtonElement>('[role=tab]')]
 function showTab(tab: HTMLButtonElement) {
   for (const t of tabs) {
@@ -462,13 +451,14 @@ tabs.forEach((tab, i) => {
 /** Keep the map's centre in the space the floating panels leave uncovered. */
 function updateMapPadding() {
   if (!map) return
-  if (mobile.matches) { map.setPadding({ top: 0, bottom: 0, left: 0, right: 0 }); return }
+  if (mobile.matches) { map.setPadding({ top: 56, bottom: Math.min(sheetVisible(), innerHeight * 0.6), left: 0, right: 0 }); return }
   const gutter = 12
   const browse = document.querySelector<HTMLElement>('.browse')!.offsetWidth
   const inspector = document.body.classList.contains('inspector-closed') ? 0 : $('inspector').offsetWidth
   map.setPadding({ top: 0, bottom: 0, left: browse + gutter, right: inspector ? inspector + gutter : 0 })
 }
 function setInspectorOpen(open: boolean) {
+  if (mobile.matches) { if (open) showSheet(inspector, inspector.dataset.snap === 'full' ? 'full' : 'half'); return }
   if (document.body.classList.contains('inspector-closed') !== open) return
   document.body.classList.toggle('inspector-closed', !open)
   $('open-inspector').hidden = open
@@ -477,6 +467,118 @@ function setInspectorOpen(open: boolean) {
 $('close-inspector').addEventListener('click', () => { setInspectorOpen(false); $('open-inspector').focus() })
 $('open-inspector').addEventListener('click', () => setInspectorOpen(true))
 window.addEventListener('resize', updateMapPadding)
+
+/* Phone layout: one bottom sheet at a time, dragged between peek, half and full. */
+type Snap = 'peek' | 'half' | 'full' | 'hidden'
+const browse = document.querySelector<HTMLElement>('.browse')!
+const inspector = $('inspector')
+const brandBar = document.querySelector<HTMLElement>('.brand-bar')!
+/** How much of the map the open sheet covers once it settles. */
+const sheetVisible = () => {
+  const sheet = [browse, inspector].find(s => s.dataset.snap && s.dataset.snap !== 'hidden')
+  if (!sheet) return 0
+  const offsets = sheetOffsets(sheet)
+  return sheet.offsetHeight - offsets[sheet.dataset.snap as keyof typeof offsets]
+}
+const safeArea = document.createElement('div')
+safeArea.style.cssText = 'position:fixed;width:0;height:env(safe-area-inset-bottom);visibility:hidden;pointer-events:none'
+document.body.append(safeArea)
+/** Peeking shows the search and filters, or the selected landmark's name. */
+const peekHeight = (sheet: HTMLElement) => {
+  const last = sheet.querySelector<HTMLElement>(sheet === browse ? '.results-bar' : '.inspector-head')!
+  return last.offsetTop + last.offsetHeight + safeArea.offsetHeight
+}
+const sheetOffsets = (sheet: HTMLElement): Record<Exclude<Snap, 'hidden'>, number> => {
+  const height = sheet.offsetHeight
+  return { full: 0, half: Math.max(0, height - innerHeight * 0.52), peek: height - peekHeight(sheet) }
+}
+function setSnap(sheet: HTMLElement, snap: Snap) {
+  sheet.style.setProperty('--peek', `${peekHeight(sheet)}px`)
+  sheet.dataset.snap = snap
+  if (snap !== 'full') sheet.scrollTop = 0
+  document.body.style.setProperty('--sheet-visible', `${Math.min(sheetVisible(), innerHeight * 0.6)}px`)
+  updateMapPadding()
+}
+function showSheet(sheet: HTMLElement, snap: Snap) {
+  const other = sheet === browse ? inspector : browse
+  other.dataset.snap = 'hidden'
+  setSnap(sheet, snap)
+}
+function layout() {
+  if (mobile.matches) {
+    document.body.classList.remove('inspector-closed')
+    $('open-inspector').hidden = true
+    document.body.prepend(brandBar)
+    if (!browse.dataset.snap) browse.dataset.snap = 'peek'
+    if (!inspector.dataset.snap) inspector.dataset.snap = 'hidden'
+  } else {
+    browse.prepend(brandBar)
+    delete browse.dataset.snap
+    delete inspector.dataset.snap
+  }
+  document.body.style.setProperty('--sheet-visible', `${mobile.matches ? Math.min(sheetVisible(), innerHeight * 0.6) : 0}px`)
+  updateMapPadding()
+}
+mobile.addEventListener('change', layout)
+$('sheet-close').addEventListener('click', () => showSheet(browse, 'peek'))
+search.addEventListener('focus', () => { if (mobile.matches) showSheet(browse, 'full') })
+/** Drag a sheet by its grip or header, or anywhere while it isn't fully open. */
+function draggable(sheet: HTMLElement, handles: string) {
+  let drag: { id: number; y: number; base: number; at: number; last: number; lastAt: number; moved: boolean } | undefined
+  sheet.addEventListener('pointerdown', event => {
+    if (!mobile.matches || event.button) return
+    const target = event.target as Element
+    const handle = target.closest(handles)
+    if (sheet.dataset.snap === 'full' && !handle) return
+    if (!handle && target.closest('model-viewer, input, select, textarea, .segmented')) return
+    if (event.pointerType === 'mouse') event.preventDefault()
+    const base = new DOMMatrix(getComputedStyle(sheet).transform).m42
+    drag = { id: event.pointerId, y: event.clientY, base, at: event.timeStamp, last: event.clientY, lastAt: event.timeStamp, moved: false }
+  })
+  // Follow the pointer on the window: a mouse isn't captured until the drag starts.
+  window.addEventListener('pointermove', event => {
+    if (!drag || event.pointerId !== drag.id) return
+    const dy = event.clientY - drag.y
+    if (!drag.moved) {
+      if (Math.abs(dy) < 6) return
+      drag.moved = true
+      try { sheet.setPointerCapture(event.pointerId) } catch {}
+      sheet.classList.add('dragging')
+    }
+    const { peek } = sheetOffsets(sheet)
+    const y = Math.min(peek + 40, Math.max(0, drag.base + dy))
+    sheet.style.transform = `translateY(${y}px)`
+    drag.at = drag.lastAt; drag.lastAt = event.timeStamp; drag.last = event.clientY
+  })
+  const end = (event: PointerEvent) => {
+    if (!drag || event.pointerId !== drag.id) return
+    const { moved, base, y } = drag
+    const velocity = (event.clientY - drag.last) / Math.max(1, event.timeStamp - drag.at)
+    drag = undefined
+    sheet.classList.remove('dragging')
+    if (!moved) {
+      // A tap on the grip or header steps the sheet up.
+      if (!sheet.contains(event.target as Node)) return
+      if ((event.target as Element).closest(handles) && !(event.target as Element).closest('button, a') && sheet.dataset.snap !== 'full')
+        setSnap(sheet, sheet.dataset.snap === 'peek' ? 'half' : 'full')
+      return
+    }
+    // A finished drag isn't a click on whatever is under the finger.
+    const swallow = (e: Event) => { e.stopPropagation(); e.preventDefault() }
+    sheet.addEventListener('click', swallow, { capture: true, once: true })
+    setTimeout(() => sheet.removeEventListener('click', swallow, { capture: true }))
+    const offsets = sheetOffsets(sheet)
+    const projected = base + (event.clientY - y) + velocity * 180
+    const snap = (Object.keys(offsets) as (keyof typeof offsets)[])
+      .reduce((best, key) => Math.abs(offsets[key] - projected) < Math.abs(offsets[best] - projected) ? key : best, 'half')
+    sheet.style.transform = ''
+    setSnap(sheet, snap)
+  }
+  window.addEventListener('pointerup', end)
+  window.addEventListener('pointercancel', end)
+}
+draggable(browse, '.sheet-grip, .results-bar, .brand-bar')
+draggable(inspector, '.sheet-grip, .inspector-head')
 function assetFromUrl() {
   return assets.find(a => a.id === urlSelection().id) ??
     assets.find(a => a.id === 'empire-state-building') ?? assets[0]
@@ -519,7 +621,10 @@ async function init() {
   $('collection-status').textContent = sources.some(r => r.status === 'rejected') ? 'One collection could not load. Refresh to retry.' : ''
   fillFilters()
   renderResults()
+  const linked = !!location.hash
+  layout()
   selectAsset(assetFromUrl(), false, urlSelection().revision)
+  if (mobile.matches && !linked) showSheet(browse, 'peek')
   const escape = (text: string) => text.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!)
   let creditControl = new maplibregl.AttributionControl({ compact: true })
   const updateMapCredits = (visible: Asset[]) => {
