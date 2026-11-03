@@ -18988,6 +18988,122 @@
       ],
       "file": "models/dal-globe-life-field.glb",
       "source": "generators/dal-globe-life-field.ts"
+    },
+    {
+      "id": "dal-modern-art-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "art-museum",
+        "modernist",
+        "tadao-ando"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Ft Worth Modern 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_02.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_03.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_04.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_05.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 08.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_08.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 09.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_09.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_10.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The Modern Art Museum of Fort Worth, Texas. Despite its name, this is the oldest art museum in Texas; its original building dates to 1892 LCCN2013650779.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Modern_Art_Museum_of_Fort_Worth,_Texas._Despite_its_name,_this_is_the_oldest_art_museum_in_Texas;_its_original_building_dates_to_1892_LCCN2013650779.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dusk view of the Modern Art Museum of Fort Worth, Texas, known locally as simply \"The Modern\" LCCN2014632780.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Dusk_view_of_the_Modern_Art_Museum_of_Fort_Worth,_Texas,_known_locally_as_simply_\"The_Modern\"_LCCN2014632780.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fort Worth Cultural District June 2016 21 (Modern Art Museum of Fort Worth).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Cultural_District_June_2016_21_(Modern_Art_Museum_of_Fort_Worth).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Cultural District June 2016 22 (Modern Art Museum of Fort Worth).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Cultural_District_June_2016_22_(Modern_Art_Museum_of_Fort_Worth).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Texas Modern Art Museum 2003.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Texas_Modern_Art_Museum_2003.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Courtyard of the Modern Art Museum of Fort Worth.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Courtyard_of_the_Modern_Art_Museum_of_Fort_Worth.jpg",
+          "author": "Andrewnward",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dal-modern-art-museum.glb",
+      "source": "generators/dal-modern-art-museum.ts"
     }
   ],
   "landmarks": [
@@ -31783,6 +31899,21 @@
       "replaces": [
         "way/704674261"
       ]
+    },
+    {
+      "id": "dal-modern-art-museum",
+      "name": "Modern Art Museum of Fort Worth",
+      "model": "dal-modern-art-museum",
+      "place": "dallas-area",
+      "lng": -97.363118,
+      "lat": 32.749266,
+      "bearing": 0.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/141506526"
+      ],
+      "wikidata": "Q1414796"
     }
   ],
   "places": [
