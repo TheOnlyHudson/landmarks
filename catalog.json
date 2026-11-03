@@ -17546,6 +17546,74 @@
       ],
       "file": "models/hou-san-jacinto-monument.glb",
       "source": "generators/hou-san-jacinto-monument.ts"
+    },
+    {
+      "id": "hou-fred-hartman-bridge",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "cable-stayed",
+        "highway"
+      ],
+      "reviewStatus": "unreviewed",
+      "detail": "models/hou-fred-hartman-bridge.detail.glb",
+      "detailZoom": 16,
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fred Hartman Bridge Houston.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fred_Hartman_Bridge_Houston.jpg",
+          "author": "PA2 James Dillard, US Coast Guard",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fred Hartman Bridge, Baytown, Texas 1209261519.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fred_Hartman_Bridge,_Baytown,_Texas_1209261519.jpg",
+          "author": "Patrick Feller",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Fred Hartman Bridge in Baytown, Texas LCCN2013650808.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Fred_Hartman_Bridge_in_Baytown,_Texas_LCCN2013650808.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fred Hartman Bridge on Hwy. 146.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fred_Hartman_Bridge_on_Hwy._146.jpg",
+          "author": "Roy Luck",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Fred Hartman Bridge.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Fred_Hartman_Bridge.JPG",
+          "author": "Sam at English Wikipedia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Fred Hartman Bridge Baytown Texas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fred_Hartman_Bridge_Baytown_Texas.jpg",
+          "author": "Baytownbert",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/hou-fred-hartman-bridge.glb",
+      "source": "generators/hou-fred-hartman-bridge.ts"
     }
   ],
   "landmarks": [
@@ -29970,6 +30038,19 @@
         "way/607475597",
         "way/607710160"
       ]
+    },
+    {
+      "id": "hou-fred-hartman-bridge",
+      "name": "Fred Hartman Bridge",
+      "model": "hou-fred-hartman-bridge",
+      "place": "houston-area",
+      "lng": -95.016704,
+      "lat": 29.703716,
+      "bearing": 47,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q4115158",
+      "replaces": []
     }
   ],
   "places": [
