@@ -12,6 +12,9 @@ import type { Credit } from '../src/catalog'
 import { inspectGlb, type ModelInfo } from '../src/model-info'
 import { assetRows, geometryRows, renderRows, renderAllMetadata } from './model-details'
 import type { AssetHistory } from '../src/history'
+import { hydrateIcons, icon, typeIcon } from './icons'
+
+hydrateIcons()
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
 const viewer = $<ModelViewerElement>('viewer')
@@ -22,7 +25,9 @@ const tagSelect = $<HTMLSelectElement>('tag')
 const sourceSelect = $<HTMLSelectElement>('source-filter')
 const versionSelect = $<HTMLSelectElement>('version')
 const filterSelects = [placeSelect, typeSelect, tagSelect, sourceSelect]
-const lodSelect = $<HTMLSelectElement>('lod')
+const lodButtons = [...document.querySelectorAll<HTMLButtonElement>('#lod-control button')]
+let lod: 'low' | 'detail' = 'detail'
+const mobile = matchMedia('(max-width: 820px)')
 const base = new URL('./', window.location.href)
 // Release paths are rooted at the dataset, which may be hosted in a subdirectory.
 const assetUrl = (path: string) => new URL(path.replace(/^\//, ''), base).href
@@ -55,6 +60,13 @@ const link = (label: string, href: string) => {
   a.href = href
   return a
 }
+const badge = (text: string, variant = '', glyph?: SVGElement) => {
+  const span = document.createElement('span')
+  span.className = `badge ${variant}`.trim()
+  if (glyph) span.append(glyph)
+  span.append(text)
+  return span
+}
 const size = (bytes: number) => `${(bytes / 1000).toLocaleString(undefined, { maximumFractionDigits: 1 })} kB`
 function setUrl() {
   if (selected) history.replaceState(null, '', `#${encodeURIComponent(selected.id)}${displayed && displayed.revision !== selected.revision ? `@${displayed.revision}` : ''}`)
@@ -78,6 +90,42 @@ function fillFilters() {
     for (const [id, name] of [...values].sort((a, b) => a[1].localeCompare(b[1]))) select.add(new Option(name, id))
     if (values.has(value)) select.value = value
   }
+  updateChips()
+}
+/** Chips read "Place" until chosen, then show the choice with a clear button. */
+function updateChips() {
+  for (const select of filterSelects) {
+    const chip = select.closest<HTMLElement>('.chip')!
+    const active = !!select.value
+    chip.classList.toggle('active', active)
+    const label = chip.querySelector<HTMLElement>('.chip-label')!
+    label.dataset.name ??= label.textContent!
+    label.textContent = active ? select.selectedOptions[0].text : label.dataset.name
+    chip.querySelector('.chip-clear')?.remove()
+    chip.querySelector('.icon')!.toggleAttribute('hidden', active)
+    if (active) {
+      const clear = document.createElement('button')
+      clear.type = 'button'
+      clear.className = 'chip-clear'
+      clear.setAttribute('aria-label', `Clear ${select.getAttribute('aria-label')!.replace(/^Filter by /, '')} filter`)
+      clear.append(icon('x'))
+      clear.addEventListener('click', event => { event.preventDefault(); select.value = ''; applyFilters() })
+      chip.append(clear)
+    }
+  }
+}
+function applyFilters() {
+  setListCollapsed(false)
+  updateChips()
+  $('clear-search').hidden = !search.value
+  search.closest('.search-field')!.classList.toggle('has-value', !!search.value)
+  renderResults()
+  fitAll()
+}
+function clearFilters() {
+  search.value = ''
+  filterSelects.forEach(select => { select.value = '' })
+  applyFilters()
 }
 
 function features() {
@@ -94,7 +142,8 @@ function fitAll() {
 }
 function renderResults() {
   filtered = assets.filter(a => matchesAsset(a, { term: search.value, place: placeSelect.value, type: typeSelect.value, tag: tagSelect.value, source: sourceSelect.value }))
-  $('result-count').textContent = `${filtered.length.toLocaleString()} landmark${filtered.length === 1 ? '' : 's'}`
+  const filteredOut = filtered.length !== assets.length
+  $('result-count').textContent = `${filtered.length.toLocaleString()} ${filteredOut ? `of ${assets.length.toLocaleString()} ` : ''}landmark${assets.length === 1 ? '' : 's'}`
   const fragment = document.createDocumentFragment()
   filtered.forEach(a => {
     const button = document.createElement('button')
@@ -102,21 +151,37 @@ function renderResults() {
     button.type = 'button'
     button.dataset.id = a.id
     button.setAttribute('aria-pressed', String(selected?.id === a.id))
+    const glyph = document.createElement('span')
+    glyph.className = 'result-icon'
+    glyph.append(typeIcon(a.type))
     const text = document.createElement('span')
+    text.className = 'result-text'
     const title = document.createElement('span')
     title.className = 'result-name'
     title.textContent = a.name
-    const region = document.createElement('small')
-    region.textContent = `${placeName(a)} · ${sourceName(a)}${a.reviewStatus === 'draft' ? ' · Draft' : ''}`
+    const region = document.createElement('span')
+    region.className = 'result-meta'
+    region.textContent = `${placeName(a)} · ${sourceName(a)}`
     text.append(title, region)
-    button.append(text)
-    button.addEventListener('click', () => selectAsset(a, true))
+    button.append(glyph, text)
+    if (a.reviewStatus === 'draft') button.append(badge('Draft', 'warning result-tag'))
+    button.addEventListener('click', () => {
+      selectAsset(a, true)
+      if (mobile.matches) $('map').scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' })
+    })
     fragment.append(button)
   })
   if (!filtered.length) {
-    const empty = document.createElement('p')
+    const empty = document.createElement('div')
     empty.className = 'empty'
-    empty.textContent = 'No landmarks found.'
+    const text = document.createElement('p')
+    text.textContent = 'No landmarks match these filters.'
+    const reset = document.createElement('button')
+    reset.type = 'button'
+    reset.className = 'button outline'
+    reset.textContent = 'Clear filters'
+    reset.addEventListener('click', clearFilters)
+    empty.append(text, reset)
     fragment.append(empty)
   }
   $('results').replaceChildren(fragment)
@@ -170,9 +235,10 @@ function updateAppearance() {
   document.documentElement.dataset.theme = dark ? 'dark' : 'light'
   document.documentElement.dataset.lighting = dark ? 'night' : 'day'
   $('theme-toggle').setAttribute('aria-checked', String(dark))
-  $('theme-toggle').title = dark ? 'Switch to day mode' : 'Switch to night mode'
+  $('theme-toggle').title = dark ? 'Night: switch to day mode' : 'Day: switch to night mode'
   $('theme-label').textContent = dark ? 'Night' : 'Day'
-  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#151b23' : '#fafaf7')
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#110f0c' : '#f9f8f6')
+  if (ready) styleMarkers()
   if (map && ready) applyMapTheme(map, dark)
   modelLayer?.setNight(dark)
   if (displayed) showModel()
@@ -201,14 +267,28 @@ async function setPreview(url: string) {
 }
 function showModel() {
   if (!displayed) return
-  const lod = lodSelect.value === 'detail' && displayed.lods.detail ? displayed.lods.detail : displayed.lods.low
+  const current = lod === 'detail' && displayed.lods.detail ? displayed.lods.detail : displayed.lods.low
+  const level = current === displayed.lods.detail ? 'detail' : 'low'
+  lodButtons.forEach(b => b.setAttribute('aria-checked', String(b.dataset.lod === level)))
   $('model-status').textContent = 'Loading 3D model…'
-  const url = assetUrl(lod.url)
+  const url = assetUrl(current.url)
   const download = $<HTMLAnchorElement>('download')
   download.href = url
-  download.download = `${displayed.id}-${lodSelect.value}.glb`
-  $('model-stats').textContent = `${lod.triangles.toLocaleString()} triangles · ${size(lod.bytes)}${displayed.height ? ` · ${displayed.height.toLocaleString()} m tall` : ''}`
-  void inspectFile(displayed, lod)
+  download.download = `${displayed.id}-${level}.glb`
+  download.querySelector('span')!.textContent = `Download GLB · ${size(current.bytes)}`
+  download.title = `${level === 'detail' ? 'High' : 'Low'} LOD GLB`
+  const stats: [string, string][] = [['Triangles', current.triangles.toLocaleString()], ['File size', size(current.bytes)]]
+  stats.push(['Height', displayed.height ? `${displayed.height.toLocaleString(undefined, { maximumFractionDigits: 1 })} m` : '—'])
+  $('model-stats').replaceChildren(...stats.map(([label, text]) => {
+    const tile = document.createElement('div')
+    const dt = document.createElement('dt')
+    dt.textContent = label
+    const dd = document.createElement('dd')
+    dd.textContent = text
+    tile.append(dt, dd)
+    return tile
+  }))
+  void inspectFile(displayed, current)
   viewer.cameraOrbit = '-35deg 70deg auto'
   if (!dark && viewer.src === url && viewer.loaded) { previewController?.abort(); $('model-status').textContent = '' }
   else void setPreview(url)
@@ -225,8 +305,14 @@ function renderInspector(a: Asset) {
   }))
   $('place-name').textContent = a.name
   $('model-description').textContent = a.description ?? a.assistance ?? ''
-  $('model-location').textContent = `${placeName(a)} · ${a.type ?? 'landmark'} · ${a.anchor.map(n => n.toFixed(5)).join(', ')}`
-  $('review-status').textContent = `Review: ${a.reviewStatus ?? 'unreviewed'}`
+  $('model-location').replaceChildren(icon('map-pin'), `${placeName(a)} · ${a.anchor.map(n => n.toFixed(5)).join(', ')}`)
+  const review = a.reviewStatus ?? 'unreviewed'
+  $('review-status').textContent = review.replace(/^./, c => c.toUpperCase())
+  $('badges').replaceChildren(
+    badge(a.type ?? 'landmark', 'primary', typeIcon(a.type)),
+    badge(sourceName(a)),
+    badge(review.replace(/^./, c => c.toUpperCase()), review === 'approved' ? 'success' : review === 'draft' ? 'warning' : ''),
+  )
   $('source-name').replaceChildren(link(sourceName(a), a.collection?.url ?? 'https://github.com/alexwohlbruck/landmarks'))
   $('credit').textContent = a.attribution ?? ''
   const credits: Credit[] = a.credits ?? a.authors.map(name => ({ name, kind: 'organization' as const, role: '' }))
@@ -238,13 +324,14 @@ function renderInspector(a: Asset) {
     const button = document.createElement('button')
     button.type = 'button'
     button.textContent = tag
-    button.addEventListener('click', () => { tagSelect.value = tag; renderResults(); fitAll() })
+    button.title = `Show all landmarks tagged ${tag}`
+    button.addEventListener('click', () => { tagSelect.value = tag; applyFilters() })
     return button
   }))
   const downloads: HTMLAnchorElement[] = []
-  for (const [name, lod] of Object.entries(a.lods)) {
-    downloads.push(link(`${name === 'low' ? 'Low LOD' : 'High LOD'} GLB · ${size(lod.bytes)}`, assetUrl(lod.url)))
-    downloads.push(link(`${name === 'low' ? 'Low LOD' : 'High LOD'} gzip file · ${size(lod.gzip.bytes)}`, assetUrl(lod.gzip.url)))
+  for (const [name, file] of Object.entries(a.lods)) {
+    downloads.push(link(`${name === 'low' ? 'Low LOD' : 'High LOD'} GLB · ${size(file.bytes)}`, assetUrl(file.url)))
+    downloads.push(link(`${name === 'low' ? 'Low LOD' : 'High LOD'} gzip file · ${size(file.gzip.bytes)}`, assetUrl(file.gzip.url)))
   }
   if (a.source) downloads.push(link(`Editable source · ${size(a.source.bytes)}`, assetUrl(a.source.url)))
   if (a.sourcePage) downloads.push(link('Original model source', a.sourcePage))
@@ -259,8 +346,8 @@ function renderInspector(a: Asset) {
   }))
   $('references-section').hidden = !a.references?.length
   viewer.alt = `Interactive 3D model of ${a.name}. Drag to rotate and scroll or pinch to zoom.`
-  lodSelect.value = a.lods.detail ? 'detail' : 'low'
-  lodSelect.hidden = !a.lods.detail
+  lod = a.lods.detail ? 'detail' : 'low'
+  $('lod-control').hidden = !a.lods.detail
   showModel()
 }
 async function loadHistory(a: Asset, requested?: string) {
@@ -270,6 +357,7 @@ async function loadHistory(a: Asset, requested?: string) {
   versionSelect.replaceChildren(new Option('Current version', ''))
   versionSelect.disabled = true
   $('version-note').textContent = a.collection?.id === 'open-landmarks' ? 'Upstream revision; history is maintained by OpenLandmarks.' : 'Loading version history…'
+  $<HTMLAnchorElement>('git-history').firstChild!.textContent = a.collection?.id === 'open-landmarks' ? 'View upstream collection ' : 'View source history '
   $<HTMLAnchorElement>('git-history').href = a.collection?.id === 'open-landmarks' ? a.collection.url : `https://github.com/alexwohlbruck/landmarks/commits/main/models/${a.model}.glb`
   if (a.collection?.id === 'open-landmarks') return
   try {
@@ -291,13 +379,15 @@ async function loadHistory(a: Asset, requested?: string) {
   }
 }
 function showVersionNote(past?: AssetHistory['versions'][number]) {
-  $('past-version').textContent = past ? `Viewing ${past.date.slice(0, 10)} · ${past.commit.slice(0, 7)}. The map shows the current placement.` : ''
+  $('past-version').hidden = !past
+  $('past-version-text').textContent = past ? `Viewing ${past.date.slice(0, 10)} · ${past.commit.slice(0, 7)}. The map shows the current placement.` : ''
   const commit = $<HTMLAnchorElement>('version-commit')
   commit.hidden = !past
   if (past) commit.href = `https://github.com/alexwohlbruck/landmarks/commit/${past.commit}`
 }
 function selectAsset(a: Asset, fly = false, revision?: string) {
   selected = a
+  setInspectorOpen(true)
   showVersionNote()
   renderInspector(a)
   if (!revision) setUrl()
@@ -321,19 +411,72 @@ viewer.addEventListener('error', () => {
   message.textContent = 'Model could not load. '
   const retry = document.createElement('button')
   retry.textContent = 'Retry'
-  retry.style.pointerEvents = 'auto'
+  retry.className = 'button outline'
   retry.addEventListener('click', () => { viewer.removeAttribute('src'); showModel() })
   $('model-status').replaceChildren(message, retry)
 })
-lodSelect.addEventListener('change', showModel)
-search.addEventListener('input', () => { renderResults(); fitAll() })
-filterSelects.forEach(select => select.addEventListener('change', () => { renderResults(); fitAll() }))
-$('reset-map').addEventListener('click', () => {
-  search.value = ''
-  filterSelects.forEach(select => { select.value = '' })
-  renderResults()
-  fitAll()
+lodButtons.forEach(button => button.addEventListener('click', () => { lod = button.dataset.lod as typeof lod; showModel() }))
+search.addEventListener('input', applyFilters)
+filterSelects.forEach(select => select.addEventListener('change', applyFilters))
+$('reset-map').addEventListener('click', clearFilters)
+$('clear-search').addEventListener('click', () => { search.value = ''; applyFilters(); search.focus() })
+document.addEventListener('keydown', event => {
+  const typing = event.target instanceof HTMLInputElement || event.target instanceof HTMLSelectElement || event.target instanceof HTMLTextAreaElement
+  if (event.key === '/' && !typing && !event.metaKey && !event.ctrlKey) { event.preventDefault(); search.focus() }
+  else if (event.key === 'Escape' && event.target === search && search.value) { search.value = ''; applyFilters() }
 })
+$('current-version').addEventListener('click', () => { versionSelect.value = ''; versionSelect.dispatchEvent(new Event('change')) })
+$('copy-link').addEventListener('click', async () => {
+  const label = $('copy-link').querySelector('span')!
+  try { await navigator.clipboard.writeText(location.href); label.textContent = 'Copied' }
+  catch { label.textContent = 'Copy the address bar' }
+  setTimeout(() => { label.textContent = 'Copy link' }, 1600)
+})
+/** On phones the list folds away so the map and preview come first. */
+function setListCollapsed(collapsed: boolean) {
+  document.querySelector('.browse')!.classList.toggle('collapsed', collapsed)
+  $('toggle-results').setAttribute('aria-expanded', String(!collapsed))
+  $('toggle-results').querySelector('span')!.textContent = collapsed ? 'Show list' : 'Hide list'
+}
+$('toggle-results').addEventListener('click', () => setListCollapsed($('toggle-results').getAttribute('aria-expanded') === 'true'))
+setListCollapsed(mobile.matches)
+const tabs = [...document.querySelectorAll<HTMLButtonElement>('[role=tab]')]
+function showTab(tab: HTMLButtonElement) {
+  for (const t of tabs) {
+    const active = t === tab
+    t.setAttribute('aria-selected', String(active))
+    t.tabIndex = active ? 0 : -1
+    $(t.getAttribute('aria-controls')!).hidden = !active
+  }
+}
+tabs.forEach((tab, i) => {
+  tab.addEventListener('click', () => showTab(tab))
+  tab.addEventListener('keydown', event => {
+    const step = event.key === 'ArrowRight' ? 1 : event.key === 'ArrowLeft' ? -1 : 0
+    if (!step) return
+    const next = tabs[(i + step + tabs.length) % tabs.length]
+    showTab(next)
+    next.focus()
+  })
+})
+/** Keep the map's centre in the space the floating panels leave uncovered. */
+function updateMapPadding() {
+  if (!map) return
+  if (mobile.matches) { map.setPadding({ top: 0, bottom: 0, left: 0, right: 0 }); return }
+  const gutter = 12
+  const browse = document.querySelector<HTMLElement>('.browse')!.offsetWidth
+  const inspector = document.body.classList.contains('inspector-closed') ? 0 : $('inspector').offsetWidth
+  map.setPadding({ top: 0, bottom: 0, left: browse + gutter, right: inspector ? inspector + gutter : 0 })
+}
+function setInspectorOpen(open: boolean) {
+  if (document.body.classList.contains('inspector-closed') !== open) return
+  document.body.classList.toggle('inspector-closed', !open)
+  $('open-inspector').hidden = open
+  updateMapPadding()
+}
+$('close-inspector').addEventListener('click', () => { setInspectorOpen(false); $('open-inspector').focus() })
+$('open-inspector').addEventListener('click', () => setInspectorOpen(true))
+window.addEventListener('resize', updateMapPadding)
 function assetFromUrl() {
   return assets.find(a => a.id === urlSelection().id) ??
     assets.find(a => a.id === 'empire-state-building') ?? assets[0]
@@ -344,10 +487,21 @@ window.addEventListener('hashchange', () => {
   if (!filtered.some(a => a.id === asset.id)) {
     search.value = ''
     filterSelects.forEach(select => { select.value = '' })
+    updateChips()
     renderResults()
   }
   selectAsset(asset, true, urlSelection().revision)
 })
+/** Markers use the interface's primary colour: brown-gold by day, brighter gold at night. */
+function styleMarkers() {
+  const [fill, ink, line] = dark ? ['#c69853', '#1a140c', '#110f0c'] : ['#896734', '#fdfaf4', '#fdfcfa']
+  map!.setPaintProperty('clusters-halo', 'circle-color', fill)
+  map!.setPaintProperty('clusters', 'circle-color', fill)
+  map!.setPaintProperty('clusters', 'circle-stroke-color', line)
+  map!.setPaintProperty('cluster-count', 'text-color', ink)
+  map!.setPaintProperty('landmark-points', 'circle-color', fill)
+  map!.setPaintProperty('landmark-points', 'circle-stroke-color', line)
+}
 async function getJSON(url: string) {
   const response = await fetch(url)
   if (!response.ok) throw new Error(`Dataset request failed (${response.status})`)
@@ -379,6 +533,7 @@ async function init() {
     map = new maplibregl.Map({ container: 'map', style: 'https://tiles.openfreemap.org/styles/positron',
       center: selected!.anchor, zoom: 16.5, pitch: 60, bearing: -25, maxZoom: 20, canvasContextAttributes: { antialias: true }, attributionControl: false, renderWorldCopies: false })
     map.addControl(creditControl)
+    updateMapPadding()
     map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), 'top-right')
     map.on('error', event => { console.error(event.error); $('map-status').title = event.error.message; $('map-status').textContent = 'Some map tiles could not load. You can still browse the collection and preview models.' })
     map.on('idle', () => { if (map!.areTilesLoaded()) $('map-status').textContent = '' })
@@ -388,17 +543,16 @@ async function init() {
       modelLayer.setAssets(mapCollection(), selected!.id)
       map!.addSource('landmarks', { type: 'geojson', data: features(), cluster: true, clusterMaxZoom: 13, clusterRadius: 48 })
       map!.addLayer({ id: 'clusters-halo', maxzoom: 14, type: 'circle', source: 'landmarks', filter: ['has', 'point_count'], paint: {
-        'circle-color': '#98ad7b', 'circle-opacity': 0.24, 'circle-radius': ['step', ['get', 'point_count'], 25, 20, 31, 70, 38],
+        'circle-opacity': 0.22, 'circle-radius': ['step', ['get', 'point_count'], 25, 20, 31, 70, 38],
       } })
       map!.addLayer({ id: 'clusters', maxzoom: 14, type: 'circle', source: 'landmarks', filter: ['has', 'point_count'], paint: {
-        'circle-color': '#425b3e', 'circle-stroke-color': '#f7f8ee', 'circle-stroke-width': 2,
-        'circle-radius': ['step', ['get', 'point_count'], 18, 20, 24, 70, 31],
+        'circle-stroke-width': 2, 'circle-radius': ['step', ['get', 'point_count'], 18, 20, 24, 70, 31],
       } })
       map!.addLayer({ id: 'cluster-count', maxzoom: 14, type: 'symbol', source: 'landmarks', filter: ['has', 'point_count'], layout: {
         'text-field': ['get', 'point_count_abbreviated'], 'text-font': ['Noto Sans Regular'], 'text-size': 12, 'text-allow-overlap': true,
-      }, paint: { 'text-color': '#ffffff' } })
+      } })
       map!.addLayer({ id: 'landmark-points', type: 'circle', source: 'landmarks', filter: ['!', ['has', 'point_count']], paint: {
-        'circle-color': '#536f48', 'circle-radius': ['step', ['zoom'], 7, 14, 4], 'circle-stroke-width': 2, 'circle-stroke-color': '#fffef3',
+        'circle-radius': ['step', ['zoom'], 7, 14, 4], 'circle-stroke-width': 2,
       } })
       map!.on('click', 'clusters', async e => {
         const feature = e.features?.[0]
@@ -421,6 +575,7 @@ async function init() {
       }
       modelLayer.focus(selected!)
       ready = true
+      styleMarkers()
       applyMapTheme(map!, dark)
       modelLayer.setNight(dark)
       $('map-status').textContent = ''

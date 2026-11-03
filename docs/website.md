@@ -2,18 +2,24 @@
 
 [Landmarks](https://landmarks.barrelman.dev/) combines this repository's
 models with the OpenLandmarks collection. The site is a map, a searchable
-collection, and a detail inspector for the selected model.
+collection, and a detail inspector for the selected model. On a desktop the
+collection and inspector float over a full-screen map; on a phone they stack
+above and below it.
 
 ## Find a model
 
 Search names, IDs, contributor names, LLM model names, GitHub usernames, tags,
-and places. Combine the place, model-type, tag, and source filters to narrow
-the list. Place filters include descendants: selecting Charlotte area also
+and places. Press <kbd>/</kbd> to jump to the search box and <kbd>Esc</kbd> to
+clear it. Combine the **Place**, **Type**, **Tag**, and **Source** filter chips
+to narrow the list; a chosen chip shows its value and an × to clear it. Tags in
+the inspector are also shortcuts to the tag filter. Place filters include descendants: selecting Charlotte area also
 includes Carowinds and Camp North End. Models are assigned to explicit places,
 not whichever city happens to be closest.
 
 Click a cluster to zoom into its area, then select a point, a map model, or a
-search result. **Reset view** clears the filters and fits the collection.
+search result. **Reset view** clears the filters and fits the collection. On a
+phone the result list starts folded; **Show list** opens it, and searching or
+filtering opens it automatically.
 The source label distinguishes local Landmarks models from OpenLandmarks.
 Upstream drafts are labeled, and the detail inspector shows their review status.
 Both collections' candidates remain in search when they cover the same feature;
@@ -26,12 +32,12 @@ Rotation pauses during interaction and resumes after inactivity. Reduced-motion
 preferences disable automatic rotation. The map does not auto-rotate.
 
 **High LOD** is the preview default when the model has a high-detail file.
-Choose **Low LOD** for the simpler geometry and smaller download. The selector
-is hidden if there is only one LOD. The map chooses LOD by zoom, independently
+Choose **Low LOD** in the switch at the bottom of the preview for the simpler
+geometry and smaller download. The switch is hidden if there is only one LOD. The map chooses LOD by zoom, independently
 of the preview selector. Statistics and download links follow the preview's
 selected LOD.
 
-The header's **Day / Night** switch controls appearance and model lighting
+The sun / moon button beside the title is the **Day / Night** switch. It controls appearance and model lighting
 as one setting. Day uses the light interface and daylight models; Night uses
 the dark interface and basemap with authored floodlights, warm windows,
 entrances, lamps, and emissive materials in both preview and map models.
@@ -42,7 +48,17 @@ does not alter the downloaded GLB or its statistics and checksums.
 
 ## Model details
 
-The inspector shows:
+The top of the inspector shows the preview, name, place and coordinates, type,
+source and review badges, and the triangle count, file size, and height of the
+selected LOD, with **Download GLB** and **Copy link** beside them. The panel
+icon in the preview's corner hides the inspector to give the map more room;
+**Show details** brings it back, as does selecting another landmark.
+
+Below that, four tabs hold the rest. **Overview** has the description, tags,
+credits, licenses, and version history; **File** has geometry and file
+statistics and every download; **Placement** has the replaced OSM features and
+placement metadata; **Metadata** has the full published record and its JSON.
+Together the inspector shows:
 
 - Source collection, place, type, tags, description, and review status.
 - Named human, organization, and AI contributors. AI credits show the model
@@ -82,10 +98,10 @@ Gzip files must be decompressed before opening in a normal model editor.
 For local models, **Version history** appears only when a past revision exists.
 Select a version to update the preview, file statistics, credits, licenses,
 metadata, and downloads together. A banner identifies the selected historical
-commit. The map keeps the current placement. **Current version** restores the
+commit, links to it, and has a **Current version** button. The map keeps the current placement. **Current version** restores the
 latest model. OpenLandmarks entries link to the upstream collection for history.
 
-Copy the address bar to share a selection:
+**Copy link** (or the address bar) shares a selection:
 
 ```text
 https://landmarks.barrelman.dev/#empire-state-building
@@ -93,7 +109,7 @@ https://landmarks.barrelman.dev/#open-landmarks--alcatraz-cellhouse
 https://landmarks.barrelman.dev/#<placement-id>@<revision>
 ```
 
-Filters, appearance preferences, camera orbit, and preview LOD are not encoded
+Filters, appearance preferences, camera orbit, the open tab, and preview LOD are not encoded
 in the share URL. A missing revision falls back to the current model with an
 explanation. A partial Git checkout or unavailable historical snapshot is noted
 in the inspector.

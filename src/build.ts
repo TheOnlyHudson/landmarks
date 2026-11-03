@@ -55,6 +55,12 @@ for (const file of ['index.html', 'style.css', 'favicon.svg', 'claude.ico', 'ope
   copyFileSync(join(root, 'web', file), join(out, file))
 for (const file of ['maplibre-gl.css', 'maplibre-gl-worker.mjs'])
   copyFileSync(join(root, 'node_modules/maplibre-gl/dist', file), join(out, file))
+mkdirSync(join(out, 'fonts'), { recursive: true })
+for (const [family, weights] of [['geist-sans', [400, 500, 600]], ['geist-mono', [400]]] as const)
+  for (const weight of weights) {
+    const file = `${family}-latin-${weight}-normal.woff2`
+    copyFileSync(join(root, `node_modules/@fontsource/${family}/files`, file), join(out, 'fonts', file))
+  }
 const browser = await Bun.build({
   entrypoints: [join(root, 'web/app.ts')],
   outdir: out,
