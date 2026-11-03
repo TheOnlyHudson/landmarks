@@ -19190,6 +19190,80 @@
       ],
       "file": "models/dal-tarrant-county-courthouse.glb",
       "source": "generators/dal-tarrant-county-courthouse.ts"
+    },
+    {
+      "id": "dal-texas-pacific-terminal",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "art-deco",
+        "zigzag-moderne",
+        "railway-station"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fort Worth June 2016 02 (T&P Station)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_June_2016_02_(T%26P_Station).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth June 2016 03 (T&P Station)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_June_2016_03_(T%26P_Station).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Texas and Pacific Terminal Complex",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_and_Pacific_Terminal_Complex.jpg",
+          "author": "Renelibrary",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "T P Building",
+          "url": "https://commons.wikimedia.org/wiki/File:T_P_Building.jpg",
+          "author": "Renelibrary",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "T&P Lofts",
+          "url": "https://commons.wikimedia.org/wiki/File:T%26P_Lofts.jpg",
+          "author": "Eejjmm8888",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Texas & Pacific Railway Terminal, June 2008",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_%26_Pacific_Railway_Terminal,_June_2008.jpg",
+          "author": "Justin Cozart",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The T^P From The Mountain - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:The_T%5EP_From_The_Mountain_-_panoramio.jpg",
+          "author": "j2003af",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dal-texas-pacific-terminal.glb",
+      "source": "generators/dal-texas-pacific-terminal.ts"
     }
   ],
   "landmarks": [
@@ -32014,6 +32088,20 @@
       "wikidata": "Q570870",
       "replaces": [
         "way/178593785"
+      ]
+    },
+    {
+      "id": "dal-texas-pacific-terminal",
+      "name": "Texas & Pacific Passenger Terminal",
+      "model": "dal-texas-pacific-terminal",
+      "place": "dallas-area",
+      "lng": -97.3277864,
+      "lat": 32.7459164,
+      "bearing": 2.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/421883046"
       ]
     }
   ],
