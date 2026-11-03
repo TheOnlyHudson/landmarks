@@ -3,8 +3,10 @@
 [Landmarks](https://landmarks.barrelman.dev/) combines this repository's
 models with the OpenLandmarks collection. The site is a map, a searchable
 collection, and a detail inspector for the selected model. On a desktop the
-collection and inspector float over a full-screen map; on a phone they stack
-above and below it.
+collection and inspector float over a full-screen map. On a phone the map fills
+the screen and one bottom sheet holds either the search and results or the
+selected landmark; drag its handle or header between peek, half, and full, or
+tap the handle to raise it.
 
 ## Find a model
 
@@ -18,8 +20,8 @@ not whichever city happens to be closest.
 
 Click a cluster to zoom into its area, then select a point, a map model, or a
 search result. **Reset view** clears the filters and fits the collection. On a
-phone the result list starts folded; **Show list** opens it, and searching or
-filtering opens it automatically.
+phone, tapping the search box opens the list full height; selecting a landmark
+swaps the sheet to its details, and × returns to the list.
 The source label distinguishes local Landmarks models from OpenLandmarks.
 Upstream drafts are labeled, and the detail inspector shows their review status.
 Both collections' candidates remain in search when they cover the same feature;
