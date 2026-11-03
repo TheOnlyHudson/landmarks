@@ -24092,6 +24092,93 @@
       ],
       "file": "models/nyc-20-times-square-screen.glb",
       "source": "generators/nyc-20-times-square-screen.ts"
+    },
+    {
+      "id": "nyc-1500-broadway-signs",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "billboard",
+        "neon",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The screens and tickers on the base of 1500 Broadway: ABC's Times Square Studios (Good Morning America) banded LED corner at 44th Street with its tickers, the Broadway screens and the floodlit rooftop billboard, as they were in 2021 (Good Morning America has since moved out). Signage only; the building stays the map's extrusion.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Times Sq Nov 2021 37.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_37.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 42.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_42.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 41.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_41.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 33.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_33.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "ABC, Times Square - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ABC,_Times_Square_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "ABC - Good Morning America.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ABC_-_Good_Morning_America.jpg",
+          "author": "Tjeerd from Amsterdam, The Netherlands",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "New York - Times Square & Broadway (2948666414).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_-_Times_Square_%26_Broadway_(2948666414).jpg",
+          "author": "David Ohmer",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Times Square Studios.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_Studios.jpg",
+          "author": "History127",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "1500 Broadway (55282696232).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1500_Broadway_(55282696232).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/nyc-1500-broadway-signs.glb",
+      "source": "generators/nyc-1500-broadway-signs.ts"
     }
   ],
   "landmarks": [
@@ -38010,6 +38097,18 @@
       "lat": 40.75922,
       "bearing": 29,
       "elevation": 9.5,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-1500-broadway-signs",
+      "name": "1500 Broadway Signs (Times Square Studios)",
+      "model": "nyc-1500-broadway-signs",
+      "place": "times-square",
+      "lng": -73.9858711,
+      "lat": 40.7568613,
+      "bearing": 16.51,
+      "elevation": 0,
       "minzoom": 16,
       "replaces": []
     }
