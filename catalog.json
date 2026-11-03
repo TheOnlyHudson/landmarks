@@ -17206,6 +17206,72 @@
       ],
       "file": "models/hou-sacred-heart-co-cathedral.glb",
       "source": "generators/hou-sacred-heart-co-cathedral.ts"
+    },
+    {
+      "id": "hou-one-shell-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "One Shell Plaza",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Shell_Plaza.jpg",
+          "author": "Coolcaesar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "One Shell Plaza (OSP) at dusk",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Shell_Plaza_(OSP)_at_dusk.jpg",
+          "author": "Kenneth C. Zirkel",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Ground floor of One Shell Plaza (OSP)",
+          "url": "https://commons.wikimedia.org/wiki/File:Ground_floor_of_One_Shell_Plaza_(OSP).jpg",
+          "author": "Kenneth C. Zirkel",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "OneShellPlaza",
+          "url": "https://commons.wikimedia.org/wiki/File:OneShellPlaza.jpg",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Houston from Sabine Park cropped4",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_from_Sabine_Park_cropped4.jpg",
+          "author": "Jujutacular",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gulfchasehouston",
+          "url": "https://commons.wikimedia.org/wiki/File:Gulfchasehouston.jpg",
+          "author": "Reagan Rothenberger",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/hou-one-shell-plaza.glb",
+      "source": "generators/hou-one-shell-plaza.ts"
     }
   ],
   "landmarks": [
@@ -29530,6 +29596,23 @@
         "way/182189009"
       ],
       "wikidata": "Q5137403"
+    },
+    {
+      "id": "hou-one-shell-plaza",
+      "name": "One Shell Plaza",
+      "model": "hou-one-shell-plaza",
+      "place": "houston-area",
+      "lng": -95.367664,
+      "lat": 29.759151,
+      "bearing": 34.9,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/44821986",
+        "relation/12711404",
+        "way/260365758"
+      ],
+      "wikidata": "Q1537698"
     }
   ],
   "places": [
