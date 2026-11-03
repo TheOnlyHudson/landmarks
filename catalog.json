@@ -16673,6 +16673,85 @@
       ],
       "file": "models/dal-chase-tower.glb",
       "source": "generators/dal-chase-tower.ts"
+    },
+    {
+      "id": "dal-comerica-bank-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "View of Comerica Bank Tower from Reunion Tower August 2015 22.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Comerica_Bank_Tower_from_Reunion_Tower_August_2015_22.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas-Downtown-0385.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas-Downtown-0385.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Comerica Bank Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comerica_Bank_Tower.jpg",
+          "author": "Justin Cozart",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Comerica Bank Tower 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comerica_Bank_Tower_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "UBI US headquarter in Dallas Comerica Bank Tower Business Center.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:UBI_US_headquarter_in_Dallas_Comerica_Bank_Tower_Business_Center.jpg",
+          "author": "Hugopush",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Comerica Bank in Dallas Texas - Eric Statzer.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comerica_Bank_in_Dallas_Texas_-_Eric_Statzer.jpg",
+          "author": "Eric Statzer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bank One Center.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_One_Center.jpg",
+          "author": "RadicalBender",
+          "license": "Public domain"
+        },
+        {
+          "title": "Comerica Tower Sunset (8413071906).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comerica_Tower_Sunset_(8413071906).jpg",
+          "author": "fw_gadget",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-comerica-bank-tower.glb",
+      "source": "generators/dal-comerica-bank-tower.ts"
     }
   ],
   "landmarks": [
@@ -28899,6 +28978,21 @@
       "wikidata": "Q579403",
       "replaces": [
         "way/28781114"
+      ]
+    },
+    {
+      "id": "dal-comerica-bank-tower",
+      "name": "Comerica Bank Tower",
+      "model": "dal-comerica-bank-tower",
+      "place": "dallas-area",
+      "lng": -96.796528,
+      "lat": 32.781611,
+      "bearing": 346,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q2743574",
+      "replaces": [
+        "way/28015874"
       ]
     }
   ],
