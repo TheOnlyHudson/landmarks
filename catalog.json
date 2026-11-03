@@ -19264,6 +19264,97 @@
       ],
       "file": "models/dal-texas-pacific-terminal.glb",
       "source": "generators/dal-texas-pacific-terminal.ts"
+    },
+    {
+      "id": "dal-livestock-exchange",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "mission-revival",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fort Worth Stockyards June 2016 45 (Livestock Exchange Building).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Stockyards_June_2016_45_(Livestock_Exchange_Building).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Stockyards June 2016 46 (Livestock Exchange Building).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Stockyards_June_2016_46_(Livestock_Exchange_Building).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Stockyards June 2016 18 (Livestock Exchange Building).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Stockyards_June_2016_18_(Livestock_Exchange_Building).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "0011Fort Worth Stockyards Live Stock Exchange SE Texas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:0011Fort_Worth_Stockyards_Live_Stock_Exchange_SE_Texas.jpg",
+          "author": "Mark Fisher",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Fort Worth Livestock Exchange (8159374156).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Livestock_Exchange_(8159374156).jpg",
+          "author": "Nicolas Henderson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Fort Worth,Texas.USA. - panoramio (3).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth,Texas.USA._-_panoramio_(3).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Live Stock Exchange, Fort Worth, Texas LCCN2011630470.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Live_Stock_Exchange,_Fort_Worth,_Texas_LCCN2011630470.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "The Stock Yards building, the center of a historic livestock-market district in Fort Worth, Texas LCCN2013650788.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Stock_Yards_building,_the_center_of_a_historic_livestock-market_district_in_Fort_Worth,_Texas_LCCN2013650788.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fort Worth Live Stock Exchange (1908).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Live_Stock_Exchange_(1908).jpg",
+          "author": "Raphael Tuck & Sons",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fort Worth Livestock Exchange.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Livestock_Exchange.jpg",
+          "author": "Jpo tx113",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-livestock-exchange.glb",
+      "source": "generators/dal-livestock-exchange.ts"
     }
   ],
   "landmarks": [
@@ -32102,6 +32193,20 @@
       "minzoom": 14,
       "replaces": [
         "way/421883046"
+      ]
+    },
+    {
+      "id": "dal-livestock-exchange",
+      "name": "Livestock Exchange Building",
+      "model": "dal-livestock-exchange",
+      "place": "dallas-area",
+      "lng": -97.346729,
+      "lat": 32.7894622,
+      "bearing": 0.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/7321195"
       ]
     }
   ],
