@@ -16188,6 +16188,60 @@
       ],
       "file": "models/dal-reunion-tower.glb",
       "source": "generators/dal-reunion-tower.ts"
+    },
+    {
+      "id": "dal-bank-of-america-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "View of Bank of America Plaza from Reunion Tower August 2015 20",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Bank_of_America_Plaza_from_Reunion_Tower_August_2015_20.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Bank of America Plaza 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Bank_of_America_Plaza_1.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Bank of America Plaza 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Plaza_2026.jpg",
+          "author": "BullDawg2021",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Dallas Bank of America Plaza top night",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Bank_of_America_Plaza_top_night.jpg",
+          "author": "Justin Cozart",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-bank-of-america-plaza.glb",
+      "source": "generators/dal-bank-of-america-plaza.ts"
     }
   ],
   "landmarks": [
@@ -28252,6 +28306,27 @@
         "way/1491048358",
         "way/1491048359"
       ]
+    },
+    {
+      "id": "dal-bank-of-america-plaza",
+      "name": "Bank of America Plaza",
+      "model": "dal-bank-of-america-plaza",
+      "place": "dallas-area",
+      "lng": -96.8039011,
+      "lat": 32.7800149,
+      "bearing": 346.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/138670474",
+        "way/1492295745",
+        "way/1492295746",
+        "way/1492295747",
+        "way/1492295748",
+        "way/1492295749",
+        "way/1492295750"
+      ],
+      "wikidata": "Q806675"
     }
   ],
   "places": [
