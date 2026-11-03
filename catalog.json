@@ -16800,6 +16800,66 @@
       ],
       "file": "models/dal-love-field-tower.glb",
       "source": "generators/dal-love-field-tower.ts"
+    },
+    {
+      "id": "dal-dfw-terminal-d",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "airport",
+        "terminal",
+        "hotel"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "20110123 DFW terminal D",
+          "url": "https://commons.wikimedia.org/wiki/File:20110123_DFW_terminal_D.jpg",
+          "author": "Squeamish at English Wikipedia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "20050612 DFW D Panorama",
+          "url": "https://commons.wikimedia.org/wiki/File:20050612_DFW_D_Panorama.JPG",
+          "license": "Public domain"
+        },
+        {
+          "title": "DFW Terminals ACD View from Takeoff",
+          "url": "https://commons.wikimedia.org/wiki/File:DFW_Terminals_ACD_View_from_Takeoff_(52831109800).jpg",
+          "author": "formulanone",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Dallas-Fort Worth International Airport",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas-Fort_Worth_International_Airport.jpg",
+          "author": "Ziongarage",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "DFW Control Tower at Sunset",
+          "url": "https://www.flickr.com/photos/89165847@N00/6854228473",
+          "author": "mikecogh",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-dfw-terminal-d.glb",
+      "source": "generators/dal-dfw-terminal-d.ts"
     }
   ],
   "landmarks": [
@@ -29056,6 +29116,54 @@
       "replaces": [
         "way/744685687",
         "way/443151009"
+      ]
+    },
+    {
+      "id": "dal-dfw-terminal-d",
+      "name": "DFW Airport Terminal D and Grand Hyatt DFW",
+      "model": "dal-dfw-terminal-d",
+      "place": "dallas-area",
+      "lng": -97.04405,
+      "lat": 32.8977,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/6640652",
+        "way/449458671",
+        "way/447049222",
+        "way/447049223",
+        "way/447049224",
+        "way/447049225",
+        "way/447049226",
+        "way/447049227",
+        "way/447049228",
+        "way/447049230",
+        "way/447051287",
+        "way/448165719",
+        "way/448165720",
+        "way/448165721",
+        "way/448165722",
+        "way/448165723",
+        "way/448165724",
+        "way/448165725",
+        "way/448165727",
+        "way/448165731",
+        "way/448165732",
+        "way/448360476",
+        "way/448705414",
+        "way/448743967",
+        "way/448834555",
+        "way/448880223",
+        "way/448880227",
+        "way/448880228",
+        "way/448880229",
+        "way/448890232",
+        "way/448966842",
+        "way/448966844",
+        "way/449451123",
+        "way/449451124",
+        "way/450025268"
       ]
     }
   ],
