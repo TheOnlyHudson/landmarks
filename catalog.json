@@ -17733,6 +17733,95 @@
       ],
       "file": "models/dal-adolphus-hotel.glb",
       "source": "generators/dal-adolphus-hotel.ts"
+    },
+    {
+      "id": "dal-margaret-hunt-hill-bridge",
+      "detail": "models/dal-margaret-hunt-hill-bridge.detail.glb",
+      "detailZoom": 16,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "bridge",
+        "cable-stayed",
+        "calatrava",
+        "arch"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q6759541",
+      "references": [
+        {
+          "title": "View of Margaret Hunt Hill Bridge from Reunion Tower August 2015 23.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Margaret_Hunt_Hill_Bridge_from_Reunion_Tower_August_2015_23.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "MargaretHuntHillBridgeNight.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MargaretHuntHillBridgeNight.jpg",
+          "author": "Raysonho @ Open Grid Scheduler / Grid Engine",
+          "license": "CC0"
+        },
+        {
+          "title": "Margaret Hunt Hill Bridge.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Margaret_Hunt_Hill_Bridge.jpg",
+          "author": "Fkbowen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Margret Hunt Hill Bridge.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Margret_Hunt_Hill_Bridge.jpg",
+          "author": "ChuckN13",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Margaret Hunt Hill Bridge.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Margaret_Hunt_Hill_Bridge.jpg",
+          "author": "Gus Rios",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Margaret Hunt Hill Bridge 2012.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Margaret_Hunt_Hill_Bridge_2012.jpg",
+          "author": "Marco Becerra",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Margaret Hunt Hill Bridge.02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Margaret_Hunt_Hill_Bridge.02.jpg",
+          "author": "Marco Becerra",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "View of the Margaret Hunt Hill Bridge, a Santiago Calatrava-designed bridge over the Trinity River in Dallas, Texas LCCN2014632135.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_Margaret_Hunt_Hill_Bridge,_a_Santiago_Calatrava-designed_bridge_over_the_Trinity_River_in_Dallas,_Texas_LCCN2014632135.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dallas Texas Skyline - Trinity River - Margaret Hunt Hill Bridge.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Texas_Skyline_-_Trinity_River_-_Margaret_Hunt_Hill_Bridge.jpg",
+          "author": "Tony Webster",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-margaret-hunt-hill-bridge.glb",
+      "source": "generators/dal-margaret-hunt-hill-bridge.ts"
     }
   ],
   "landmarks": [
@@ -30273,6 +30362,21 @@
       "replaces": [
         "way/471953148",
         "way/964805583"
+      ]
+    },
+    {
+      "id": "dal-margaret-hunt-hill-bridge",
+      "name": "Margaret Hunt Hill Bridge",
+      "model": "dal-margaret-hunt-hill-bridge",
+      "place": "dallas-area",
+      "lng": -96.8221324,
+      "lat": 32.7799695,
+      "bearing": 67.7,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q6759541",
+      "replaces": [
+        "way/1275449057"
       ]
     }
   ],
