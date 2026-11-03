@@ -23412,6 +23412,81 @@
       ],
       "file": "models/nyc-one-times-square.glb",
       "source": "generators/nyc-one-times-square.ts"
+    },
+    {
+      "id": "nyc-tkts-red-steps",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "times-square",
+        "steps",
+        "glass",
+        "neon",
+        "sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "TKTS red stairs jeh.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:TKTS_red_stairs_jeh.JPG",
+          "author": "Jim.henderson",
+          "license": "Public domain"
+        },
+        {
+          "title": "TKTS 47 st jeh.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:TKTS_47_st_jeh.JPG",
+          "author": "Jim.henderson",
+          "license": "Public domain"
+        },
+        {
+          "title": "Time Square - TKTS Stand (48193461362).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Time_Square_-_TKTS_Stand_(48193461362).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "TKTS Booth @ Times Square (3619286756).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:TKTS_Booth_@_Times_Square_(3619286756).jpg",
+          "author": "Rob Young",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "TKTS - Times Square, New York, NY, USA - August 19, 2015 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:TKTS_-_Times_Square,_New_York,_NY,_USA_-_August_19,_2015_01.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Father Duffy statue and TKTS booth risers.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Father_Duffy_statue_and_TKTS_booth_risers.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "TKTS Times Square.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:TKTS_Times_Square.JPG",
+          "author": "Hisland7",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/nyc-tkts-red-steps.glb",
+      "source": "generators/nyc-tkts-red-steps.ts"
     }
   ],
   "landmarks": [
@@ -37204,6 +37279,20 @@
         "way/109285744",
         "way/109285746",
         "way/266774911"
+      ]
+    },
+    {
+      "id": "nyc-tkts-red-steps",
+      "name": "TKTS Booth and Red Steps",
+      "model": "nyc-tkts-red-steps",
+      "place": "times-square",
+      "lng": -73.984936,
+      "lat": 40.7591526,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/258619240"
       ]
     }
   ],
