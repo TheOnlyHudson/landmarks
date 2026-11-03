@@ -18370,6 +18370,73 @@
       ],
       "file": "models/hou-downtown-aquarium.glb",
       "source": "generators/hou-downtown-aquarium.ts"
+    },
+    {
+      "id": "hou-lakewood-church",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "arena",
+        "megachurch"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "GreenwayPlazaandLakewoodChurch",
+          "url": "https://commons.wikimedia.org/wiki/File:GreenwayPlazaandLakewoodChurch.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "Lakewood Church0",
+          "url": "https://commons.wikimedia.org/wiki/File:Lakewood_Church0.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "Lakewoodchurch1",
+          "url": "https://commons.wikimedia.org/wiki/File:Lakewoodchurch1.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "Lakewood church",
+          "url": "https://commons.wikimedia.org/wiki/File:Lakewood_church.jpg",
+          "author": "Hequals2henry",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Lakewood church",
+          "url": "https://commons.wikimedia.org/wiki/File:Lakewood_church.JPG",
+          "author": "Djarizpe13",
+          "license": "Public domain"
+        },
+        {
+          "title": "Lakewoodchurch",
+          "url": "https://commons.wikimedia.org/wiki/File:Lakewoodchurch.jpg",
+          "author": "BrandonDJAdams1994",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/hou-lakewood-church.glb",
+      "source": "generators/hou-lakewood-church.ts"
     }
   ],
   "landmarks": [
@@ -30970,6 +31037,21 @@
       "replaces": [
         "way/378253051",
         "way/383573689"
+      ]
+    },
+    {
+      "id": "hou-lakewood-church",
+      "name": "Lakewood Church Central Campus",
+      "model": "hou-lakewood-church",
+      "place": "houston-area",
+      "lng": -95.43474,
+      "lat": 29.730403,
+      "bearing": 357.9,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2435324",
+      "replaces": [
+        "way/118780514"
       ]
     }
   ],
