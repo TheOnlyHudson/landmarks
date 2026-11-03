@@ -17405,6 +17405,79 @@
       ],
       "file": "models/hou-nrg-stadium.glb",
       "source": "generators/hou-nrg-stadium.ts"
+    },
+    {
+      "id": "hou-independence-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "space",
+        "museum",
+        "aircraft"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Independence Space Shuttle on Boeing 747 - Johnson Space Center - Houston - Texas - USA (20201977469)",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Space_Shuttle_on_Boeing_747_-_Johnson_Space_Center_-_Houston_-_Texas_-_USA_(20201977469).jpg",
+          "author": "Adam Jones",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Shuttle Independence and NASA 905 at Space Center Houston",
+          "url": "https://commons.wikimedia.org/wiki/File:Shuttle_Independence_and_NASA_905_at_Space_Center_Houston.jpg",
+          "author": "Romain2k",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Space Center Houston March 2022 01 (Space Shuttle replica Independence and Shuttle Carrier Aircraft 905)",
+          "url": "https://commons.wikimedia.org/wiki/File:Space_Center_Houston_March_2022_01_(Space_Shuttle_replica_Independence_and_Shuttle_Carrier_Aircraft_905).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Space Center Houston Shuttle atop Carrler",
+          "url": "https://commons.wikimedia.org/wiki/File:Space_Center_Houston_Shuttle_atop_Carrler.jpg",
+          "author": "Pi3.124",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Space Shuttle Independence",
+          "url": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Independence.jpg",
+          "author": "Naomi Persephone Amethyst",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Shuttle Carrier Aircraft N905NA at Space Center Houston",
+          "url": "https://commons.wikimedia.org/wiki/File:Shuttle_Carrier_Aircraft_N905NA_at_Space_Center_Houston.jpg",
+          "author": "DatraxMada",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "NASA 905 Shuttle Carrier Aircraft Independence Plaza Johnson Space Center JSC NASA Houston Space City (24627699352)",
+          "url": "https://commons.wikimedia.org/wiki/File:NASA_905_Shuttle_Carrier_Aircraft_Independence_Plaza_Johnson_Space_Center_JSC_NASA_Houston_Space_City_(24627699352).jpg",
+          "author": "Bryan SJS",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/hou-independence-plaza.glb",
+      "source": "generators/hou-independence-plaza.ts"
     }
   ],
   "landmarks": [
@@ -29775,6 +29848,22 @@
       "wikidata": "Q1058864",
       "replaces": [
         "way/119422708"
+      ]
+    },
+    {
+      "id": "hou-independence-plaza",
+      "name": "Independence Plaza",
+      "model": "hou-independence-plaza",
+      "place": "houston-area",
+      "lng": -95.09721,
+      "lat": 29.552121,
+      "bearing": 187.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q994165",
+      "replaces": [
+        "way/894077621",
+        "way/894077622"
       ]
     }
   ],
