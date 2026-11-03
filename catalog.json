@@ -18372,6 +18372,91 @@
       ],
       "file": "models/dal-cathedral-guadalupe.glb",
       "source": "generators/dal-cathedral-guadalupe.ts"
+    },
+    {
+      "id": "dal-perot-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modern",
+        "deconstructivism"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Perot Museum of Nature and Science 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_03.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_04.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science 06.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_06.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science 07.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_07.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science pano 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_pano_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science pano 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_pano_03.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science green roof 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_green_roof_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science exterior of Escalator.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_exterior_of_Escalator.jpg",
+          "author": "Paul M. Budd",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dal-perot-museum.glb",
+      "source": "generators/dal-perot-museum.ts"
     }
   ],
   "landmarks": [
@@ -31032,6 +31117,22 @@
       "minzoom": 15,
       "replaces": [
         "way/31265522"
+      ]
+    },
+    {
+      "id": "dal-perot-museum",
+      "name": "Perot Museum of Nature and Science",
+      "model": "dal-perot-museum",
+      "place": "dallas-area",
+      "lng": -96.8063744,
+      "lat": 32.786905,
+      "bearing": 32,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q7169478",
+      "replaces": [
+        "way/618964796",
+        "way/1188705976"
       ]
     }
   ],
