@@ -24323,6 +24323,80 @@
       ],
       "file": "models/nyc-morgan-stanley-tickers.glb",
       "source": "generators/nyc-morgan-stanley-tickers.ts"
+    },
+    {
+      "id": "nyc-1600-broadway-signs",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "billboard",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "M&M's World New York July 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:M%26M%27s_World_New_York_July_2019.jpg",
+          "author": "TaurusEmerald",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "M&M's World (5367196170).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:M%26M%27s_World_(5367196170).jpg",
+          "author": "Jorge Láscar",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "M&M's World, New York City, outside (May 2023).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:M%26M%27s_World,_New_York_City,_outside_(May_2023).JPG",
+          "author": "Benoît Prieur",
+          "license": "CC0"
+        },
+        {
+          "title": "M&M's World NYC Neon Sign.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:M%26M%27s_World_NYC_Neon_Sign.jpg",
+          "author": "Richieman",
+          "license": "Public domain"
+        },
+        {
+          "title": "M&M's World New York City.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:M%26M%27s_World_New_York_City.JPG",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "NYC M&M'S Store Facade and Jumbotron.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NYC_M%26M%27S_Store_Facade_and_Jumbotron.jpg",
+          "author": "Mepatm",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "NYC - 1600 Broadway On the Square – m^m's - West 48th Street – West 49th Street - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NYC_-_1600_Broadway_On_the_Square_%E2%80%93_m%5Em%27s_-_West_48th_Street_%E2%80%93_West_49th_Street_-_panoramio.jpg",
+          "author": "giggel",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/nyc-1600-broadway-signs.glb",
+      "source": "generators/nyc-1600-broadway-signs.ts"
     }
   ],
   "landmarks": [
@@ -38276,6 +38350,18 @@
       "lng": -73.985076,
       "lat": 40.759835,
       "bearing": 286.7,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-1600-broadway-signs",
+      "name": "1600 Broadway Signs (M&M's World)",
+      "model": "nyc-1600-broadway-signs",
+      "place": "times-square",
+      "lng": -73.984274,
+      "lat": 40.759992,
+      "bearing": 28.9,
       "elevation": 0,
       "minzoom": 16,
       "replaces": []
