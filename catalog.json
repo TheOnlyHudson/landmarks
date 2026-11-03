@@ -24179,6 +24179,76 @@
       ],
       "file": "models/nyc-1500-broadway-signs.glb",
       "source": "generators/nyc-1500-broadway-signs.ts"
+    },
+    {
+      "id": "nyc-1540-broadway-signs",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "billboard",
+        "neon",
+        "lettering",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The sign wall on the base of 1540 Broadway (the former Bertelsmann Building): the screen band wrapping the 45th Street corner, the \"1540 BROADWAY\" letters on its rail and the upper-tier screens on the podium roof. Signage only; the building stays the map's extrusion.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "1540 Broadway (55284019625).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1540_Broadway_(55284019625).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Times Square - New York, NY, USA - August 2015 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_-_New_York,_NY,_USA_-_August_2015_05.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "1540 Broadway (15747989925).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1540_Broadway_(15747989925).jpg",
+          "author": "Phil Dolby",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Times Sq Dec 2021 33.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Dec_2021_33.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Apr 2017 15.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Apr_2017_15.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Disney Store Times Square NYC.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Disney_Store_Times_Square_NYC.jpg",
+          "author": "Nielsoncaetanosalmeron",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/nyc-1540-broadway-signs.glb",
+      "source": "generators/nyc-1540-broadway-signs.ts"
     }
   ],
   "landmarks": [
@@ -38108,6 +38178,18 @@
       "lng": -73.9858711,
       "lat": 40.7568613,
       "bearing": 16.51,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-1540-broadway-signs",
+      "name": "1540 Broadway Signs",
+      "model": "nyc-1540-broadway-signs",
+      "place": "times-square",
+      "lng": -73.9851818,
+      "lat": 40.7581793,
+      "bearing": 28.36,
       "elevation": 0,
       "minzoom": 16,
       "replaces": []
