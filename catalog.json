@@ -18739,6 +18739,79 @@
       ],
       "file": "models/dal-kimbell-art-museum.glb",
       "source": "generators/dal-kimbell-art-museum.ts"
+    },
+    {
+      "id": "dal-bass-performance-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "performing-arts",
+        "concert-hall",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fort Worth June 2016 49 (Bass Performance Hall)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_June_2016_49_(Bass_Performance_Hall).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth June 2016 55 (Bass Performance Hall)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_June_2016_55_(Bass_Performance_Hall).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Statue on the outside of the Bass Performance Hall at sunset",
+          "url": "https://commons.wikimedia.org/wiki/File:Statue_on_the_outside_of_the_Bass_Performance_Hall_at_sunset.jpg",
+          "author": "Andrewnward",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View of Bass Performance Hall at sunset",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Bass_Performance_Hall_at_sunset.jpg",
+          "author": "Andrewnward",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bass-Hall-Ft-Worth-5389",
+          "url": "https://commons.wikimedia.org/wiki/File:Bass-Hall-Ft-Worth-5389.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Basshall",
+          "url": "https://commons.wikimedia.org/wiki/File:Basshall.JPG",
+          "author": "Phlyr at English Wikipedia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Bass Performance Hall",
+          "url": "https://commons.wikimedia.org/wiki/File:Bass_Performance_Hall.jpg",
+          "author": "Todd Porter",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-bass-performance-hall.glb",
+      "source": "generators/dal-bass-performance-hall.ts"
     }
   ],
   "landmarks": [
@@ -31487,6 +31560,21 @@
         "relation/7301044"
       ],
       "wikidata": "Q1741629"
+    },
+    {
+      "id": "dal-bass-performance-hall",
+      "name": "Bass Performance Hall",
+      "model": "dal-bass-performance-hall",
+      "place": "dallas-area",
+      "lng": -97.3297758,
+      "lat": 32.7547781,
+      "bearing": 330,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/483466355"
+      ],
+      "wikidata": "Q2887300"
     }
   ],
   "places": [
