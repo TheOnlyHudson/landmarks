@@ -19196,6 +19196,4123 @@
       ],
       "file": "models/hou-bishops-palace.glb",
       "source": "generators/hou-bishops-palace.ts"
+    },
+    {
+      "id": "dal-reunion-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "observation-tower",
+        "geodesic-dome",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Reunion Tower 2026.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower_2026.jpg",
+          "author": "FeaturingDallas",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reunion Tower Dallas Texas Closeup 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower_Dallas_Texas_Closeup_2017.jpg",
+          "author": "Robert Kixmiller",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reunion Tower, a 561-foot-high observation tower (LCCN2014632137)",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower,_a_561-foot-high_observation_tower,_completed_in_1978,_that_is_one_of_the_most_recognizable_landmarks_in_Dallas,_Texas_LCCN2014632137.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Reunion-Tower-0244.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion-Tower-0244.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reunion-Tower-0251.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion-Tower-0251.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reunion-Tower-0259.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion-Tower-0259.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reunion-Tower-0268.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion-Tower-0268.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reunion Tower, Dallas, Texas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower,_Dallas,_Texas.jpg",
+          "author": "Texas Lane",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reunion Tower - Hyatt Regency.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower_-_Hyatt_Regency.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reunion tower dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_tower_dallas.jpg",
+          "author": "Batrak",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Dallas reunion tower.jpg (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_reunion_tower.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Reunion Tower and the moon - Dallas, Texas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower_and_the_moon_-_Dallas,_Texas.jpg",
+          "author": "Shiva Shenoy",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/dal-reunion-tower.glb",
+      "source": "generators/dal-reunion-tower.ts"
+    },
+    {
+      "id": "dal-bank-of-america-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "View of Bank of America Plaza from Reunion Tower August 2015 20",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Bank_of_America_Plaza_from_Reunion_Tower_August_2015_20.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Bank of America Plaza 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Bank_of_America_Plaza_1.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Bank of America Plaza 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Plaza_2026.jpg",
+          "author": "BullDawg2021",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Dallas Bank of America Plaza top night",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Bank_of_America_Plaza_top_night.jpg",
+          "author": "Justin Cozart",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-bank-of-america-plaza.glb",
+      "source": "generators/dal-bank-of-america-plaza.ts"
+    },
+    {
+      "id": "dal-renaissance-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas Renaissance Tower 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Renaissance_Tower_1.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Renaissance Tower, June of 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Renaissance_Tower,_June_of_2025.jpg",
+          "author": "Johnny plane 1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Elm Place Renaissance Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Elm_Place_Renaissance_Tower.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas West End Station Renaissance Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_West_End_Station_Renaissance_Tower.jpg",
+          "author": "Justin Cozart",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "View of Bank of America Plaza from Reunion Tower August 2015 20",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Bank_of_America_Plaza_from_Reunion_Tower_August_2015_20.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dal-renaissance-tower.glb",
+      "source": "generators/dal-renaissance-tower.ts"
+    },
+    {
+      "id": "dal-fountain-place",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "View of Fountain Place from Reunion Tower August 2015 21",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Fountain_Place_from_Reunion_Tower_August_2015_21.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Fountain Place 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Fountain_Place_1.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Fountain Place 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Fountain_Place_2.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Downtown Dallas, Texas, with a focus on Fountain Place",
+          "url": "https://commons.wikimedia.org/wiki/File:Downtown_Dallas,_Texas,_with_a_focus_on_Fountain_Place,_a_60-story_late-modernist_skyscraper_LCCN2014632088.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fountain place",
+          "url": "https://commons.wikimedia.org/wiki/File:Fountain_place.jpg",
+          "author": "Kumar Appaiah",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-fountain-place.glb",
+      "source": "generators/dal-fountain-place.ts"
+    },
+    {
+      "id": "dal-att-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "retractable-roof",
+        "arch"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arlington June 2020 2 (AT&T Stadium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arlington_June_2020_2_(AT%26T_Stadium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Arlington June 2020 3 (AT&T Stadium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arlington_June_2020_3_(AT%26T_Stadium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Arlington June 2020 4 (AT&T Stadium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arlington_June_2020_4_(AT%26T_Stadium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Richard Greene Linear Park June 2020 27 (AT&T Stadium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Richard_Greene_Linear_Park_June_2020_27_(AT%26T_Stadium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "AT&T Stadium, home of the Dallas Cowboys National Football League team in Arlington, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:AT%26T_Stadium,_home_of_the_Dallas_Cowboys_National_Football_League_team_in_Arlington,_Texas_LCCN2015630685.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Cowboys Stadium, a domed stadium with a retractable roof in Arlington, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:Cowboys_Stadium,_a_domed_stadium_with_a_retractable_roof_in_Arlington,_Texas_LCCN2013650777.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Cowboys stadium outside view.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cowboys_stadium_outside_view.JPG",
+          "author": "Mahanga",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Stadium Support.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Stadium_Support.JPG",
+          "author": "M.Fitzsimmons",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cowboys Stadium 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cowboys_Stadium_2.jpg",
+          "author": "bobbyh_80",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Cowboys-Stadium-Night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cowboys-Stadium-Night.jpg",
+          "author": "Alienevil",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dal-att-stadium.glb",
+      "source": "generators/dal-att-stadium.ts"
+    },
+    {
+      "id": "dal-hyatt-regency",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "modernist",
+        "mirror-glass"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hyatt Regency, Dallas, Texas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt_Regency,_Dallas,_Texas.jpg",
+          "author": "Texas Lane",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Downtown Dallas Skyline with shot of Hyatt Regency Dallas and the Reunion Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Downtown_Dallas_Skyline_with_shot_of_Hyatt_Regency_Dallas_and_the_Reunion_Tower.jpg",
+          "author": "Milestone2",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reunion Tower - Hyatt Regency.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower_-_Hyatt_Regency.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reunion tower dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_tower_dallas.jpg",
+          "author": "Batrak",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Reunion tower dallas texas 051605 kdh.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_tower_dallas_texas_051605_kdh.jpg",
+          "author": "Kevin D. Hartnell",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reunion-Tower-0268.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion-Tower-0268.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reunion Tower, a 561-foot-high observation tower, completed in 1978 (LCCN2014632137)",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower,_a_561-foot-high_observation_tower,_completed_in_1978,_that_is_one_of_the_most_recognizable_landmarks_in_Dallas,_Texas_LCCN2014632137.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-hyatt-regency.glb",
+      "source": "generators/dal-hyatt-regency.ts"
+    },
+    {
+      "id": "dal-union-station",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "train-station",
+        "beaux-arts"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "DallasUnionStation.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DallasUnionStation.jpg",
+          "author": "kla4067",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Dallas Union Station Wiki (1 of 1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Union_Station_Wiki_(1_of_1).jpg",
+          "author": "Renelibrary",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View of Union Station from Reunion Tower August 2015 12.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Union_Station_from_Reunion_Tower_August_2015_12.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas EBJ Eddie Bernice Johnson Union Station May 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_EBJ_Eddie_Bernice_Johnson_Union_Station_May_2024.jpg",
+          "author": "IcedCowboyCoffee",
+          "license": "CC0"
+        },
+        {
+          "title": "Downtown Dallas Skyline with shot of Hyatt Regency Dallas and the Reunion Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Downtown_Dallas_Skyline_with_shot_of_Hyatt_Regency_Dallas_and_the_Reunion_Tower.jpg",
+          "author": "Milestone2",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dal-union-station.glb",
+      "source": "generators/dal-union-station.ts"
+    },
+    {
+      "id": "dal-chase-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "JPMorganChaseTower.png",
+          "url": "https://commons.wikimedia.org/wiki/File:JPMorganChaseTower.png",
+          "author": "User:Nmajdan",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Top of JPMorgan Chase Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Top_of_JPMorgan_Chase_Tower.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Chase Tower Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Chase_Tower_Dallas.jpg",
+          "author": "NETarrantMan",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas July 2015 16 (Chase Tower).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_16_(Chase_Tower).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas July 2015 18 (Chase Tower).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_18_(Chase_Tower).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas July 2015 21 (Chase Tower).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_21_(Chase_Tower).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "JPMorgan Chase Tower1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:JPMorgan_Chase_Tower1.jpg",
+          "author": "Kent Wang",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Dallas Crow Center 2100 Ross Ave JP Morgan Chase Tower Fairmont Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Crow_Center_2100_Ross_Ave_JP_Morgan_Chase_Tower_Fairmont_Hotel.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas - Klyde Warren Park 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_-_Klyde_Warren_Park_10.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dal-chase-tower.glb",
+      "source": "generators/dal-chase-tower.ts"
+    },
+    {
+      "id": "dal-comerica-bank-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "View of Comerica Bank Tower from Reunion Tower August 2015 22.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Comerica_Bank_Tower_from_Reunion_Tower_August_2015_22.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas-Downtown-0385.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas-Downtown-0385.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Comerica Bank Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comerica_Bank_Tower.jpg",
+          "author": "Justin Cozart",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Comerica Bank Tower 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comerica_Bank_Tower_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "UBI US headquarter in Dallas Comerica Bank Tower Business Center.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:UBI_US_headquarter_in_Dallas_Comerica_Bank_Tower_Business_Center.jpg",
+          "author": "Hugopush",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Comerica Bank in Dallas Texas - Eric Statzer.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comerica_Bank_in_Dallas_Texas_-_Eric_Statzer.jpg",
+          "author": "Eric Statzer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bank One Center.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_One_Center.jpg",
+          "author": "RadicalBender",
+          "license": "Public domain"
+        },
+        {
+          "title": "Comerica Tower Sunset (8413071906).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comerica_Tower_Sunset_(8413071906).jpg",
+          "author": "fw_gadget",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-comerica-bank-tower.glb",
+      "source": "generators/dal-comerica-bank-tower.ts"
+    },
+    {
+      "id": "dal-love-field-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "airport",
+        "control-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "KDAL ATCT",
+          "url": "https://commons.wikimedia.org/wiki/File:KDAL_ATCT_(2986073040).jpg",
+          "author": "Cory W. Watts",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "As luck would have it",
+          "url": "https://commons.wikimedia.org/wiki/File:As_luck_would_have_it_(3013696220).jpg",
+          "author": "Cory W. Watts",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "DallasLoveFieldEastConcourse-2009",
+          "url": "https://commons.wikimedia.org/wiki/File:DallasLoveFieldEastConcourse-2009.JPG",
+          "author": "LoneStarMike",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/dal-love-field-tower.glb",
+      "source": "generators/dal-love-field-tower.ts"
+    },
+    {
+      "id": "dal-dfw-terminal-d",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "airport",
+        "terminal",
+        "hotel"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "20110123 DFW terminal D",
+          "url": "https://commons.wikimedia.org/wiki/File:20110123_DFW_terminal_D.jpg",
+          "author": "Squeamish at English Wikipedia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "20050612 DFW D Panorama",
+          "url": "https://commons.wikimedia.org/wiki/File:20050612_DFW_D_Panorama.JPG",
+          "license": "Public domain"
+        },
+        {
+          "title": "DFW Terminals ACD View from Takeoff",
+          "url": "https://commons.wikimedia.org/wiki/File:DFW_Terminals_ACD_View_from_Takeoff_(52831109800).jpg",
+          "author": "formulanone",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Dallas-Fort Worth International Airport",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas-Fort_Worth_International_Airport.jpg",
+          "author": "Ziongarage",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "DFW Control Tower at Sunset",
+          "url": "https://www.flickr.com/photos/89165847@N00/6854228473",
+          "author": "mikecogh",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-dfw-terminal-d.glb",
+      "source": "generators/dal-dfw-terminal-d.ts"
+    },
+    {
+      "id": "dal-dfw-control-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "airport",
+        "control-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Control Tower",
+          "url": "https://www.flickr.com/photos/89165847@N00/6854270549",
+          "author": "mikecogh",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "DFW Control Tower at Sunset",
+          "url": "https://www.flickr.com/photos/89165847@N00/6854228473",
+          "author": "mikecogh",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Steamed Control tower",
+          "url": "https://www.flickr.com/photos/13494744@N00/32002183727",
+          "author": "gholmes",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "DFW Terminals ACD View from Takeoff",
+          "url": "https://commons.wikimedia.org/wiki/File:DFW_Terminals_ACD_View_from_Takeoff_(52831109800).jpg",
+          "author": "formulanone",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-dfw-control-tower.glb",
+      "source": "generators/dal-dfw-control-tower.ts"
+    },
+    {
+      "id": "dal-love-field-terminal",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "airport",
+        "terminal"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Main terminal at Dallas Love Field Airport",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_terminal_at_Dallas_Love_Field_Airport.jpg",
+          "author": "EEJCC",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Love Field gate concourse",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Love_Field_gate_concourse.jpg",
+          "author": "EEJCC",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Love Field (40736439252)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Love_Field_(40736439252).jpg",
+          "author": "formulanone",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Dallas Love Field 2013",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Love_Field_2013.jpg",
+          "author": "Danazar",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Love Field",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Love_Field.jpg",
+          "author": "Billyjayb",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-love-field-terminal.glb",
+      "source": "generators/dal-love-field-terminal.ts"
+    },
+    {
+      "id": "dal-texas-school-book-depository",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "office",
+        "historic",
+        "warehouse"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas July 2015 08 (Texas School Book Depository)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_08_(Texas_School_Book_Depository).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas July 2015 09 (Texas School Book Depository)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_09_(Texas_School_Book_Depository).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2017 Texas School Book Depository 01",
+          "url": "https://commons.wikimedia.org/wiki/File:2017_Texas_School_Book_Depository_01.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2017 Texas School Book Depository 02",
+          "url": "https://commons.wikimedia.org/wiki/File:2017_Texas_School_Book_Depository_02.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Texas School Book Depository in Dallas, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_School_Book_Depository_in_Dallas,_Texas.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "View, in 2014, of Dealey Plaza and the Texas School Book Depository in Dallas, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:View,_in_2014,_of_Dealey_Plaza_and_the_Texas_School_Book_Depository_in_Dallas,_Texas.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Texas Schoolbook Depository 411 Elm St TX 2013-06-08 001",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Schoolbook_Depository_411_Elm_St_TX_2013-06-08_001.jpg",
+          "author": "Thomas R. Machnitzki",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Texas Schoolbook Depository 411 Elm St TX 2013-06-08 002",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Schoolbook_Depository_411_Elm_St_TX_2013-06-08_002.jpg",
+          "author": "Thomas R. Machnitzki",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Texas Schoolbook Depository 411 Elm St TX 2013-06-08 003",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Schoolbook_Depository_411_Elm_St_TX_2013-06-08_003.jpg",
+          "author": "Thomas R. Machnitzki",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Texas Schoolbook Depository 411 Elm St TX 2013-06-08 004",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Schoolbook_Depository_411_Elm_St_TX_2013-06-08_004.jpg",
+          "author": "Thomas R. Machnitzki",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas County Admin Building",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_County_Admin_Building.jpg",
+          "author": "Dakota L.",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Texas School Book Depository by sunset",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_School_Book_Depository_by_sunset.jpg",
+          "author": "Jim Bowen",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-texas-school-book-depository.glb",
+      "source": "generators/dal-texas-school-book-depository.ts"
+    },
+    {
+      "id": "dal-jfk-memorial",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "memorial",
+        "modernist",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas January 2016 01 (John Fitzgerald Kennedy Memorial)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_January_2016_01_(John_Fitzgerald_Kennedy_Memorial).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas January 2016 02 (John Fitzgerald Kennedy Memorial)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_January_2016_02_(John_Fitzgerald_Kennedy_Memorial).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas January 2016 03 (John Fitzgerald Kennedy Memorial)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_January_2016_03_(John_Fitzgerald_Kennedy_Memorial).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "John F. Kennedy Memorial Plaza 04081801",
+          "url": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy_Memorial_Plaza_04081801.jpg",
+          "author": "PLBthetoonist",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "John F. Kennedy Memorial Plaza 04081802",
+          "url": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy_Memorial_Plaza_04081802.jpg",
+          "author": "PLBthetoonist",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "John F. Kennedy Memorial Plaza - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy_Memorial_Plaza_-_panoramio.jpg",
+          "author": "Michael Laferriere",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "John Fitzgerald Kennedy Memorial (14012260475)",
+          "url": "https://commons.wikimedia.org/wiki/File:John_Fitzgerald_Kennedy_Memorial_(14012260475).jpg",
+          "author": "Nelo Hotsuma from Rockwall",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "JFK Memorial Dallas",
+          "url": "https://commons.wikimedia.org/wiki/File:JFK_Memorial_Dallas.jpg",
+          "author": "jimbowen0306",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "John Fitzgerald Kennedy Memorial by Philip Johnson, Dallas, Texas (41064792615)",
+          "url": "https://commons.wikimedia.org/wiki/File:John_Fitzgerald_Kennedy_Memorial_by_Philip_Johnson,_Dallas,_Texas_(41064792615).jpg",
+          "author": "mliu92 from San Mateo",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The John Fitzgerald Kennedy Memorial, a monument to U.S. President John Fitzgerald Kennedy in the West End Historic District of downtown Dallas, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:The_John_Fitzgerald_Kennedy_Memorial,_a_monument_to_U.S._President_John_Fitzgerald_Kennedy_in_the_West_End_Historic_District_of_downtown_Dallas,_Texas_LCCN2015631022.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-jfk-memorial.glb",
+      "source": "generators/dal-jfk-memorial.ts"
+    },
+    {
+      "id": "dal-old-red-courthouse",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "courthouse",
+        "museum",
+        "romanesque-revival",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The former Dallas County Courthouse, fondly known locally as the \"Old Red Courthouse,\" is now a museum in downtown Dallas, Texas LCCN2014632167",
+          "url": "https://commons.wikimedia.org/wiki/File:The_former_Dallas_County_Courthouse,_fondly_known_locally_as_the_%22Old_Red_Courthouse,%22_is_now_a_museum_in_downtown_Dallas,_Texas_LCCN2014632167.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Overhead view of the former Dallas County Courthouse, fondly known locally as the \"Old Red Courthouse,\" now a museum in downtown Dallas, Texas LCCN201",
+          "url": "https://commons.wikimedia.org/wiki/File:Overhead_view_of_the_former_Dallas_County_Courthouse,_fondly_known_locally_as_the_%22Old_Red_Courthouse,%22_now_a_museum_in_downtown_Dallas,_Texas_LCCN2014632609.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "View of Old Red Museum from Reunion Tower August 2015 04",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Old_Red_Museum_from_Reunion_Tower_August_2015_04.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Old Red from Dealey Plaza",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Red_from_Dealey_Plaza.JPG",
+          "author": "Fredlyfish4",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas County Courthouse with Texas Flag",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_County_Courthouse_with_Texas_Flag.jpg",
+          "author": "Martin Alon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Old Red Museum of Dallas County History %26 Culture",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Red_Museum_of_Dallas_County_History_%26_Culture.png",
+          "author": "MichaelMeyers",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas - Old Red Museum 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_-_Old_Red_Museum_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas - Old Red Museum 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_-_Old_Red_Museum_02.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Old Red Courthouse - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Red_Courthouse_-_panoramio.jpg",
+          "author": "Michael Laferriere",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/dal-old-red-courthouse.glb",
+      "source": "generators/dal-old-red-courthouse.ts"
+    },
+    {
+      "id": "dal-meyerson-symphony-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "concert-hall",
+        "modernist",
+        "i-m-pei"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas Meyerson Center 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_Center_01.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Meyerson Center 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_Center_02.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Meyerson Center 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_Center_03.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Meyerson Center back",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_Center_back.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Meyerson 2008",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_2008.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Winspear Opera House 11 view Meyerson",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Opera_House_11_view_Meyerson.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Meyerson 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Meyerson Symphony Center",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_Symphony_Center.jpg",
+          "author": "William Addington",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Morton H Meyerson Symphony Center",
+          "url": "https://commons.wikimedia.org/wiki/File:Morton_H_Meyerson_Symphony_Center.jpg",
+          "author": "Drumguy8800",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Morton H. Meyerson Symphony Center (LCCN2015630763)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Morton_H._Myerson_Symphony_Center,_which_opened_in_1989_in_the_Arts_District_of_Dallas,_Texas_LCCN2015630763.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-meyerson-symphony-center.glb",
+      "source": "generators/dal-meyerson-symphony-center.ts"
+    },
+    {
+      "id": "dal-winspear-opera-house",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "opera-house",
+        "modernist",
+        "performing-arts"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Winspear Opera House 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Opera_House_01.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Winspear Opera House 20",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Opera_House_20.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Winspear Opera House 26",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Opera_House_26.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Winspear Opera House 27",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Opera_House_27.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Winspear Opera House 28",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Opera_House_28.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Winspear Exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Exterior.JPG",
+          "author": "Kayedavi",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dallas Winspear Opera House construction canopy",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Winspear_Opera_House_construction_canopy.jpg",
+          "author": "Luis Tamayo",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Dusk shot of the Winspear Opera House (LCCN2015631276)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dusk_shot_of_the_Margot_and_Bill_Winspear_Opera_House_in_the_Arts_District_of_Dallas,_Texas_LCCN2015631276.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-winspear-opera-house.glb",
+      "source": "generators/dal-winspear-opera-house.ts"
+    },
+    {
+      "id": "dal-wyly-theatre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "theatre",
+        "modernist",
+        "performing-arts"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas Wyly Theatre 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Wyly_Theatre_01.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Wyly Theatre 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Wyly_Theatre_02.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Wyly Theatre 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Wyly_Theatre_03.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Wyly Theatre from Winspear Opera",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Wyly_Theatre_from_Winspear_Opera.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Wyly Theatre May 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Wyly_Theatre_May_2009.jpg",
+          "author": "Luis Tamayo",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Distant view of the Dee and Charles Wyly Theatre",
+          "url": "https://commons.wikimedia.org/wiki/File:Distant_view_of_the_Dee_and_Charles_Wyly_Theatre_(edited).jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Wyly Theatre at Night",
+          "url": "https://commons.wikimedia.org/wiki/File:Wyly_Theatre_at_Night.jpg",
+          "author": "RFTunnell",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dal-wyly-theatre.glb",
+      "source": "generators/dal-wyly-theatre.ts"
+    },
+    {
+      "id": "dal-magnolia-hotel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "hotel",
+        "beaux-arts",
+        "neon-sign",
+        "nrhp"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Magnolia Building pano 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magnolia_Building_pano_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Magnolia Building from east.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magnolia_Building_from_east.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas - Magnolia Building roof 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_-_Magnolia_Building_roof_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Magnolia Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magnolia_Dallas.jpg",
+          "author": "JVanT",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Magnolia Hotel Dallas (1 of 1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magnolia_Hotel_Dallas_(1_of_1).jpg",
+          "author": "Renelibrary",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "MagnoliaBuilding Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MagnoliaBuilding_Dallas.jpg",
+          "author": "Dfwcre8tive",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Magnolia Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magnolia_Hotel.jpg",
+          "author": "RadicalBender",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Magnolia Hotel front.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magnolia_Hotel_front.jpg",
+          "author": "RadicalBender",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reunion Tower Dallas Texas Mobil Gas Pegasus.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower_Dallas_Texas_Mobil_Gas_Pegasus.jpg",
+          "author": "Robert Kixmiller",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Details from the Magnolia Building, home of the boutique Magnolia Hotel, in downtown Dallas, Texas (LCCN2014632605)",
+          "url": "https://commons.wikimedia.org/wiki/File:Details_from_the_Magnolia_Building,_home_of_the_boutique_Magnolia_Hotel,_in_downtown_Dallas,_Texas_LCCN2014632605.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-magnolia-hotel.glb",
+      "source": "generators/dal-magnolia-hotel.ts"
+    },
+    {
+      "id": "dal-mercantile-national-bank",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "skyscraper",
+        "art-deco",
+        "clock-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mercantile-Bank-Building-Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercantile-Bank-Building-Dallas.jpg",
+          "author": "Alex Liivet",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Mercantile Bank Building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercantile_Bank_Building.jpg",
+          "author": "FoUTASportscaster",
+          "license": "Public domain"
+        },
+        {
+          "title": "MercantileNationalBankBuilding.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MercantileNationalBankBuilding.jpg",
+          "author": "austrini",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Dallas The Merc.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_The_Merc.jpg",
+          "author": "Luis Tamayo",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Merc clock tower, Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Merc_clock_tower,_Dallas.jpg",
+          "author": "SDC",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Main Street Garden park in Dallas at dusk.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_Street_Garden_park_in_Dallas_at_dusk.png",
+          "author": "IcedCowboyCoffee",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/dal-mercantile-national-bank.glb",
+      "source": "generators/dal-mercantile-national-bank.ts"
+    },
+    {
+      "id": "dal-adolphus-hotel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "hotel",
+        "beaux-arts",
+        "nrhp"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Adolphus Hotel pano 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Adolphus_Hotel_pano_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Adolphus Hotel 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Adolphus_Hotel_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hotel Adolphus Dallas (1 of 1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Adolphus_Dallas_(1_of_1).jpg",
+          "author": "Renelibrary",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "HotelAdolphus1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:HotelAdolphus1.jpg",
+          "author": "Renelibrary",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Adolphus01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Adolphus01.jpg",
+          "author": "Dfwcre8tive",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Adolphus Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Adolphus_Hotel.jpg",
+          "author": "RadicalBender",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The historic Adolphus Hotel in downtown Dallas, Texas (LCCN2014632085)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_historic_Adolphus_Hotel_in_downtown_Dallas,_Texas_LCCN2014632085.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-adolphus-hotel.glb",
+      "source": "generators/dal-adolphus-hotel.ts"
+    },
+    {
+      "id": "dal-margaret-hunt-hill-bridge",
+      "detail": "models/dal-margaret-hunt-hill-bridge.detail.glb",
+      "detailZoom": 16,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "bridge",
+        "cable-stayed",
+        "calatrava",
+        "arch"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q6759541",
+      "references": [
+        {
+          "title": "View of Margaret Hunt Hill Bridge from Reunion Tower August 2015 23.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Margaret_Hunt_Hill_Bridge_from_Reunion_Tower_August_2015_23.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "MargaretHuntHillBridgeNight.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MargaretHuntHillBridgeNight.jpg",
+          "author": "Raysonho @ Open Grid Scheduler / Grid Engine",
+          "license": "CC0"
+        },
+        {
+          "title": "Margaret Hunt Hill Bridge.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Margaret_Hunt_Hill_Bridge.jpg",
+          "author": "Fkbowen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Margret Hunt Hill Bridge.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Margret_Hunt_Hill_Bridge.jpg",
+          "author": "ChuckN13",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Margaret Hunt Hill Bridge.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Margaret_Hunt_Hill_Bridge.jpg",
+          "author": "Gus Rios",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Margaret Hunt Hill Bridge 2012.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Margaret_Hunt_Hill_Bridge_2012.jpg",
+          "author": "Marco Becerra",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Margaret Hunt Hill Bridge.02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Margaret_Hunt_Hill_Bridge.02.jpg",
+          "author": "Marco Becerra",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "View of the Margaret Hunt Hill Bridge, a Santiago Calatrava-designed bridge over the Trinity River in Dallas, Texas LCCN2014632135.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_Margaret_Hunt_Hill_Bridge,_a_Santiago_Calatrava-designed_bridge_over_the_Trinity_River_in_Dallas,_Texas_LCCN2014632135.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dallas Texas Skyline - Trinity River - Margaret Hunt Hill Bridge.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Texas_Skyline_-_Trinity_River_-_Margaret_Hunt_Hill_Bridge.jpg",
+          "author": "Tony Webster",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-margaret-hunt-hill-bridge.glb",
+      "source": "generators/dal-margaret-hunt-hill-bridge.ts"
+    },
+    {
+      "id": "dal-margaret-mcdermott-bridge",
+      "detail": "models/dal-margaret-mcdermott-bridge.detail.glb",
+      "detailZoom": 16,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "bridge",
+        "arch",
+        "calatrava",
+        "footbridge"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q18154095",
+      "references": [
+        {
+          "title": "Margaret McDermott Bridge.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Margaret_McDermott_Bridge.jpg",
+          "author": "Fkbowen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "MMB Dallas Nima1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MMB_Dallas_Nima1.jpg",
+          "author": "Nightryder84",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "MMB Dallas Nima2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MMB_Dallas_Nima2.jpg",
+          "author": "Nightryder84",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas bridge 2020 agsvsacsv xc (1) 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_bridge_2020_agsvsacsv_xc_(1)_01.jpg",
+          "author": "Gerardolagunes",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas bridge 2020 agsvsacsv xc (1) 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_bridge_2020_agsvsacsv_xc_(1)_02.jpg",
+          "author": "Gerardolagunes",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas bridge 2020 agsvsacsv xc (1) 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_bridge_2020_agsvsacsv_xc_(1)_03.jpg",
+          "author": "Gerardolagunes",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Margaret Hunt Bridge behind the Margaret McDermott Bridge (52291781500).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Margaret_Hunt_Bridge_behind_the_Margaret_McDermott_Bridge_(52291781500).jpg",
+          "author": "Shiva Shenoy",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "20160730-DSC 9933.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20160730-DSC_9933.jpg",
+          "author": "Ryanussery",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Margaret McDermott Bridge in Dallas Texas May of 2024.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Margaret_McDermott_Bridge_in_Dallas_Texas_May_of_2024.png",
+          "author": "IcedCowboyCoffee",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/dal-margaret-mcdermott-bridge.glb",
+      "source": "generators/dal-margaret-mcdermott-bridge.ts"
+    },
+    {
+      "id": "dal-texas-star",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "ride",
+      "tags": [
+        "ferris-wheel",
+        "amusement-ride",
+        "fair-park",
+        "animated"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1318837",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Texas Star ferris wheel in Fair Park Dallas 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Star_ferris_wheel_in_Fair_Park_Dallas_2026.png",
+          "author": "IcedCowboyCoffee",
+          "license": "CC0"
+        },
+        {
+          "title": "Texas Star (2937752973)",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Star_(2937752973).jpg",
+          "author": "Kelly DeLay",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Texas Star, Fair Park",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Star,_Fair_Park.jpg",
+          "author": "17Shamrocks",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Texas State Fair Texas Star",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_State_Fair_Texas_Star.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Fair Park ferris wheel",
+          "url": "https://commons.wikimedia.org/wiki/File:Fair_Park_ferris_wheel.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Texas-Star-4146",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas-Star-4146.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Texas Star - Texas State Fair",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Star_-_Texas_State_Fair.JPG",
+          "author": "Kairos14",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Texas Star at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Star_at_night.jpg",
+          "author": "John Griffiths",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-texas-star.glb",
+      "source": "generators/dal-texas-star.ts"
+    },
+    {
+      "id": "dal-hall-of-state",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "art-deco",
+        "museum",
+        "fair-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q5642713",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Texas Hall of State at Fair Park (LCCN2015630304)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Texas_Hall_of_State_at_Fair_Park,_site_of_the_1936_Texas_Centennial_celebration_in_Dallas,_Texas,_where_the_structure_was_called_the_State_of_Texas_Building_LCCN2015630304.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "The Hall of State at Fair Park (LCCN2015630308)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Hall_of_State_at_Fair_Park,_site_of_the_1936_Texas_Centennial_celebration_and_the_Pan-American_Exposition_in_1937_in_Dallas,_Texas_LCCN2015630308.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fair Park August 2016 46 (Hall of State)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fair_Park_August_2016_46_(Hall_of_State).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fair Park August 2016 47 (Hall of State)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fair_Park_August_2016_47_(Hall_of_State).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Fair Park Hall of State 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Fair_Park_Hall_of_State_2009.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Hall of State 6",
+          "url": "https://commons.wikimedia.org/wiki/File:Hall_of_State_6.jpg",
+          "author": "Eejjmm8888",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hall of State 7",
+          "url": "https://commons.wikimedia.org/wiki/File:Hall_of_State_7.jpg",
+          "author": "Eejjmm8888",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Fair Park Hall of State at night 2014",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Fair_Park_Hall_of_State_at_night_2014.jpg",
+          "author": "Larry D. Moore",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Hall of State during the 2021 State Fair of Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:Hall_of_State_during_the_2021_State_Fair_of_Texas.jpg",
+          "author": "ZTPeterson",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dal-hall-of-state.glb",
+      "source": "generators/dal-hall-of-state.ts"
+    },
+    {
+      "id": "dal-dallas-museum-of-art",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas Museum of Art July 2015 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Museum_of_Art_July_2015_01.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Museum of Art July 2015 13.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Museum_of_Art_July_2015_13.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "DMA west.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DMA_west.jpg",
+          "author": "KeithJonsn at English Wikipedia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Museum of Art 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Museum_of_Art_01.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dallas Museum of Art.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Museum_of_Art.jpg",
+          "author": "Kent Wang",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Downtown Dallas TX 2013-06-08 067.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Downtown_Dallas_TX_2013-06-08_067.jpg",
+          "author": "Thomas R Machnitzki",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Entrance of Dallas Museum - Mar 3, 2009.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Entrance_of_Dallas_Museum_-_Mar_3,_2009.jpg",
+          "author": "cliff williams",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Entrance to the Dallas Museum of Art in Dallas, Texas LCCN2014633039.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Dallas_Museum_of_Art_in_Dallas,_Texas_LCCN2014633039.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-dallas-museum-of-art.glb",
+      "source": "generators/dal-dallas-museum-of-art.ts"
+    },
+    {
+      "id": "dal-thanks-giving-chapel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "chapel",
+        "religious",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Chapel of Thanksgiving building in Thanks-giving Square in downtown Dallas, Texas (LCCN2014633932)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Chapel_of_Thanksgiving_building_in_Thanks-giving_Square_in_downtown_Dallas,_Texas_LCCN2014633932.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "The public, nondenominational, spiral-shaped chapel in Thanks-Giving Square (LCCN2014633397)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_public,_nondenominational,_spiral-shaped_chapel_in_Thanks-Giving_Square_(technically_triangular),_designed_by_architect_Philip_Johnson_in_downtown_Dallas,_Texas_LCCN2014633397.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "The public, nondenominational, spiral-shaped chapel in Thanks-Giving Square (LCCN2014633398)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_public,_nondenominational,_spiral-shaped_chapel_in_Thanks-Giving_Square_(technically_triangular),_designed_by_architect_Philip_Johnson_in_downtown_Dallas,_Texas_LCCN2014633398.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dallas Thanks-Giving Square 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Thanks-Giving_Square_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Thanks-Giving Square 2008.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Thanks-Giving_Square_2008.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/dal-thanks-giving-chapel.glb",
+      "source": "generators/dal-thanks-giving-chapel.ts"
+    },
+    {
+      "id": "dal-dallas-city-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "civic",
+        "city-hall",
+        "brutalist",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "DallasCityHallB.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DallasCityHallB.jpg",
+          "author": "Kent Wang",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "DallasCityHallA.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DallasCityHallA.jpg",
+          "author": "Daquella manera",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Dallas City Hall, Dallas, Texas LCCN2015630778",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_City_Hall,_Dallas,_Texas_LCCN2015630778.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "View of Dallas City Hall from Reunion Tower August 2015 14.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Dallas_City_Hall_from_Reunion_Tower_August_2015_14.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aerial view of main elevation (north) looking southwest, HABS TEX,57-DAL,1-1",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_main_elevation_(north)_looking_southwest_-_Dallas_City_Hall,_City_Hall_Plaza,_Dallas,_Dallas_County,_TX_HABS_TEX,57-DAL,1-1.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Aerial view of main and side (west) elevations, HABS TEX,57-DAL,1-5",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_main_and_side_(west)_elevations,looking_east_-_Dallas_City_Hall,_City_Hall_Plaza,_Dallas,_Dallas_County,_TX_HABS_TEX,57-DAL,1-5.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Aerial view of rear (south) elevation, HABS TEX,57-DAL,1-7",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_rear_(south)_elevation_-_Dallas_City_Hall,_City_Hall_Plaza,_Dallas,_Dallas_County,_TX_HABS_TEX,57-DAL,1-7.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Aerial view of south and east elevations, HABS TEX,57-DAL,1-8",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_south_and_east_elevations_-_Dallas_City_Hall,_City_Hall_Plaza,_Dallas,_Dallas_County,_TX_HABS_TEX,57-DAL,1-8.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-dallas-city-hall.glb",
+      "source": "generators/dal-dallas-city-hall.ts"
+    },
+    {
+      "id": "dal-cathedral-guadalupe",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "cathedral",
+        "religious",
+        "historic",
+        "gothic-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas July 2015 15 (Cathedral Santuario de Guadalupe).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_15_(Cathedral_Santuario_de_Guadalupe).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas July 2015 19 (Cathedral Santuario de Guadalupe).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_19_(Cathedral_Santuario_de_Guadalupe).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cathedral Santuario de Guadalupe 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Santuario_de_Guadalupe_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cathedral Santuario de Guadalupe 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Santuario_de_Guadalupe_02.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cathedral Shrine of the Virgin of Guadalupe 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Shrine_of_the_Virgin_of_Guadalupe_01.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cathedral Shrine of the Virgin of Guadalupe 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Shrine_of_the_Virgin_of_Guadalupe_02.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Catholic Cathedral of Santuario de Guadalupe in the Downtown Dallas Arts District, 10-26-10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Catholic_Cathedral_of_Santuario_de_Guadalupe_in_the_Downtown_Dallas_Arts_District,_10-26-10.jpg",
+          "author": "Cordphaeton",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dal-cathedral-guadalupe.glb",
+      "source": "generators/dal-cathedral-guadalupe.ts"
+    },
+    {
+      "id": "dal-perot-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modern",
+        "deconstructivism"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Perot Museum of Nature and Science 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_03.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_04.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science 06.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_06.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science 07.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_07.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science pano 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_pano_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science pano 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_pano_03.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science green roof 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_green_roof_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Perot Museum of Nature and Science exterior of Escalator.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Perot_Museum_of_Nature_and_Science_exterior_of_Escalator.jpg",
+          "author": "Paul M. Budd",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dal-perot-museum.glb",
+      "source": "generators/dal-perot-museum.ts"
+    },
+    {
+      "id": "dal-cotton-bowl",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "art-deco",
+        "historic",
+        "fair-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fair Park August 2016 39 (Cotton Bowl Stadium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fair_Park_August_2016_39_(Cotton_Bowl_Stadium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fair Park August 2016 40 (Cotton Bowl Stadium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fair_Park_August_2016_40_(Cotton_Bowl_Stadium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fair Park August 2016 83 (Cotton Bowl Plaza).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fair_Park_August_2016_83_(Cotton_Bowl_Plaza).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Texas State Fair Cotton Bowl from skyway 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_State_Fair_Cotton_Bowl_from_skyway_1.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Texas State Fair Cotton Bowl from skyway 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_State_Fair_Cotton_Bowl_from_skyway_2.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "2019 State Fair Classic 01 (Cotton Bowl).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_State_Fair_Classic_01_(Cotton_Bowl).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Cotton Bowl and Fair Park Esplanade in Fair Park.png",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Cotton_Bowl_and_Fair_Park_Esplanade_in_Fair_Park.png",
+          "author": "IcedCowboyCoffee",
+          "license": "CC0"
+        },
+        {
+          "title": "View from Top o' Texas Tower September 2019 06 (Cotton Bowl).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_from_Top_o%27_Texas_Tower_September_2019_06_(Cotton_Bowl).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View from Top o' Texas Tower September 2019 10 (Cotton Bowl).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_from_Top_o%27_Texas_Tower_September_2019_10_(Cotton_Bowl).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cotton Bowl (14404700530).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cotton_Bowl_(14404700530).jpg",
+          "author": "BobbbyLight",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-cotton-bowl.glb",
+      "source": "generators/dal-cotton-bowl.ts"
+    },
+    {
+      "id": "dal-american-airlines-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "basketball",
+        "ice-hockey",
+        "brick"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "American Airlines Center August 2015.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_August_2015.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas November 2018 2 (American Airlines Center).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_November_2018_2_(American_Airlines_Center).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "American Airlines Center 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "American Airlines Center 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_02.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "American Airlines Center Dallas.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_Dallas.JPG",
+          "author": "NoTalkMan",
+          "license": "CC0"
+        },
+        {
+          "title": "American Airlines Center West Entrance.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_West_Entrance.jpg",
+          "author": "The World's Signature",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "American Airlines Center (6246886325).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_(6246886325).jpg",
+          "author": "Jeff Attaway",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "20141012 American Airlines Center.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20141012_American_Airlines_Center.jpg",
+          "author": "peroloffor",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-american-airlines-center.glb",
+      "source": "generators/dal-american-airlines-center.ts"
+    },
+    {
+      "id": "dal-kimbell-art-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "art-museum",
+        "modernist",
+        "louis-kahn"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kimbell Art Museum Highsmith.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Highsmith.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimbell Art Museum Dusk Highsmith.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Dusk_Highsmith.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimbell Art Museum Fort Worth 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Fort_Worth_01.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimbell Art Museum Fort Worth 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Fort_Worth_02.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimbell Art Museum Fort Worth 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Fort_Worth_03.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimbell Art Museum Fort Worth 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Fort_Worth_04.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimbell Art Museum Fort Worth 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Fort_Worth_05.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fort Worth Cultural District June 2016 12 (Kimbell Art Museum).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Cultural_District_June_2016_12_(Kimbell_Art_Museum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Cultural District June 2016 13 (Kimbell Art Museum).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Cultural_District_June_2016_13_(Kimbell_Art_Museum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Cultural District June 2016 14 (Kimbell Art Museum).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Cultural_District_June_2016_14_(Kimbell_Art_Museum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Cultural District June 2016 16 (Kimbell Art Museum).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Cultural_District_June_2016_16_(Kimbell_Art_Museum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kimbell Art Museum with Moore sculpture.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_with_Moore_sculpture.jpg",
+          "author": "Kevin Muncie",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Kimbell Art Museum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum.jpg",
+          "author": "DBinfo",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-kimbell-art-museum.glb",
+      "source": "generators/dal-kimbell-art-museum.ts"
+    },
+    {
+      "id": "dal-bass-performance-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "performing-arts",
+        "concert-hall",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fort Worth June 2016 49 (Bass Performance Hall)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_June_2016_49_(Bass_Performance_Hall).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth June 2016 55 (Bass Performance Hall)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_June_2016_55_(Bass_Performance_Hall).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Statue on the outside of the Bass Performance Hall at sunset",
+          "url": "https://commons.wikimedia.org/wiki/File:Statue_on_the_outside_of_the_Bass_Performance_Hall_at_sunset.jpg",
+          "author": "Andrewnward",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View of Bass Performance Hall at sunset",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Bass_Performance_Hall_at_sunset.jpg",
+          "author": "Andrewnward",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bass-Hall-Ft-Worth-5389",
+          "url": "https://commons.wikimedia.org/wiki/File:Bass-Hall-Ft-Worth-5389.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Basshall",
+          "url": "https://commons.wikimedia.org/wiki/File:Basshall.JPG",
+          "author": "Phlyr at English Wikipedia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Bass Performance Hall",
+          "url": "https://commons.wikimedia.org/wiki/File:Bass_Performance_Hall.jpg",
+          "author": "Todd Porter",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-bass-performance-hall.glb",
+      "source": "generators/dal-bass-performance-hall.ts"
+    },
+    {
+      "id": "dal-choctaw-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "ballpark",
+        "football",
+        "soccer",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Richard Greene Linear Park June 2020 08 (Globe Life Park in Arlington).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Richard_Greene_Linear_Park_June_2020_08_(Globe_Life_Park_in_Arlington).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Richard Greene Linear Park June 2020 04 (Globe Life Park in Arlington).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Richard_Greene_Linear_Park_June_2020_04_(Globe_Life_Park_in_Arlington).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Richard Greene Linear Park June 2020 13 (Globe Life Park in Arlington).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Richard_Greene_Linear_Park_June_2020_13_(Globe_Life_Park_in_Arlington).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Globe Life Park, the home field of the Texas Rangers ... LCCN2015630514",
+          "url": "https://commons.wikimedia.org/wiki/File:Globe_Life_Park,_the_home_field_of_the_Texas_Rangers_Major_League_Baseball_team_in_Arlington,_Texas_LCCN2015630514.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Globe Life Park, the home field of the Texas Rangers ... LCCN2015630684",
+          "url": "https://commons.wikimedia.org/wiki/File:Globe_Life_Park,_the_home_field_of_the_Texas_Rangers_Major_League_Baseball_team_in_Arlington,_Texas_LCCN2015630684.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "The Ballpark, home of the Texas Rangers major-league baseball team, Arlington, Texas LCCN2011633379",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Ballpark,_home_of_the_Texas_Rangers_major-league_baseball_team,_Arlington,_Texas_LCCN2011633379.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rangers Ball Park Home Plate Enterance Panorama.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rangers_Ball_Park_Home_Plate_Enterance_Panorama.jpg",
+          "author": "Supportstorm",
+          "license": "Public domain"
+        },
+        {
+          "title": "Globe Life Park in 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Globe_Life_Park_in_2018.jpg",
+          "author": "KENGRIFFEY24FAN",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rangers Ballpark Arlington.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rangers_Ballpark_Arlington.jpg",
+          "author": "Oyoyoy",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Arlington - Texas 2010 010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arlington_-_Texas_2010_010.jpg",
+          "author": "Veronidae",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ballpark in Arlington May 2009.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ballpark_in_Arlington_May_2009.jpg",
+          "author": "Rich Anderson",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-choctaw-stadium.glb",
+      "source": "generators/dal-choctaw-stadium.ts"
+    },
+    {
+      "id": "dal-globe-life-field",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "ballpark",
+        "retractable-roof"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arlington June 2020 5 (Globe Life Field).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arlington_June_2020_5_(Globe_Life_Field).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Globelifefield june2020.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Globelifefield_june2020.jpg",
+          "author": "Drone To Fly",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Globe Life Field exterior 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Globe_Life_Field_exterior_2025.jpg",
+          "author": "BullDawg2021",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Globe Life Field Exterior 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Globe_Life_Field_Exterior_2024.jpg",
+          "author": "Brycenrichter",
+          "license": "CC0"
+        },
+        {
+          "title": "Richard Greene Linear Park June 2020 12 (Globe Life Park in Arlington).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Richard_Greene_Linear_Park_June_2020_12_(Globe_Life_Park_in_Arlington).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Richard Greene Linear Park June 2020 13 (Globe Life Park in Arlington).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Richard_Greene_Linear_Park_June_2020_13_(Globe_Life_Park_in_Arlington).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "20210523 globe life field interior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20210523_globe_life_field_interior.jpg",
+          "author": "Ivansevil",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "GlobeLifeField2021.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:GlobeLifeField2021.jpg",
+          "author": "slgckgc",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-globe-life-field.glb",
+      "source": "generators/dal-globe-life-field.ts"
+    },
+    {
+      "id": "dal-modern-art-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "art-museum",
+        "modernist",
+        "tadao-ando"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Ft Worth Modern 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_02.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_03.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_04.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_05.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 08.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_08.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 09.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_09.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ft Worth Modern 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_10.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The Modern Art Museum of Fort Worth, Texas. Despite its name, this is the oldest art museum in Texas; its original building dates to 1892 LCCN2013650779.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Modern_Art_Museum_of_Fort_Worth,_Texas._Despite_its_name,_this_is_the_oldest_art_museum_in_Texas;_its_original_building_dates_to_1892_LCCN2013650779.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dusk view of the Modern Art Museum of Fort Worth, Texas, known locally as simply \"The Modern\" LCCN2014632780.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Dusk_view_of_the_Modern_Art_Museum_of_Fort_Worth,_Texas,_known_locally_as_simply_\"The_Modern\"_LCCN2014632780.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fort Worth Cultural District June 2016 21 (Modern Art Museum of Fort Worth).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Cultural_District_June_2016_21_(Modern_Art_Museum_of_Fort_Worth).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Cultural District June 2016 22 (Modern Art Museum of Fort Worth).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Cultural_District_June_2016_22_(Modern_Art_Museum_of_Fort_Worth).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Texas Modern Art Museum 2003.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Texas_Modern_Art_Museum_2003.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Courtyard of the Modern Art Museum of Fort Worth.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Courtyard_of_the_Modern_Art_Museum_of_Fort_Worth.jpg",
+          "author": "Andrewnward",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dal-modern-art-museum.glb",
+      "source": "generators/dal-modern-art-museum.ts"
+    },
+    {
+      "id": "dal-tarrant-county-courthouse",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "courthouse",
+        "renaissance-revival",
+        "clock-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Tarrant County Courthouse, Fort Worth, TX",
+          "url": "https://commons.wikimedia.org/wiki/File:Tarrant_County_Courthouse,_Fort_Worth,_TX.jpg",
+          "author": "Jruizalvarez",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "0011Tarrant County Courthouse Full E Fort Worth Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:0011Tarrant_County_Courthouse_Full_E_Fort_Worth_Texas.jpg",
+          "author": "Mark Fisher",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "0011Tarrant County Courthouse Dome NW Fort Worth Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:0011Tarrant_County_Courthouse_Dome_NW_Fort_Worth_Texas.jpg",
+          "author": "Mark Fisher",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Tarrantcounty3",
+          "url": "https://commons.wikimedia.org/wiki/File:Tarrantcounty3.JPG",
+          "author": "Renelibrary",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "20070429 Tarrant County Courthouse",
+          "url": "https://commons.wikimedia.org/wiki/File:20070429_Tarrant_County_Courthouse.JPG",
+          "author": "Louis Reed",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Fort Worth June 2016 32 (Tarrant County Courthouse)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_June_2016_32_(Tarrant_County_Courthouse).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Tarrant County Courthouse and adjacent buildings in Fort Worth, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Tarrant_County_Courthouse_and_adjacent_buildings_in_Fort_Worth,_Texas_LCCN2014632931.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fort Worth Courthouse",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Courthouse.jpg",
+          "author": "DerekAyala27",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Tarrant County Courthouse viewed from the Paddock Viaduct at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Tarrant_County_Courthouse_viewed_from_the_Paddock_Viaduct_at_night.jpg",
+          "author": "Andrewnward",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dal-tarrant-county-courthouse.glb",
+      "source": "generators/dal-tarrant-county-courthouse.ts"
+    },
+    {
+      "id": "dal-texas-pacific-terminal",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "art-deco",
+        "zigzag-moderne",
+        "railway-station"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fort Worth June 2016 02 (T&P Station)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_June_2016_02_(T%26P_Station).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth June 2016 03 (T&P Station)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_June_2016_03_(T%26P_Station).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Texas and Pacific Terminal Complex",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_and_Pacific_Terminal_Complex.jpg",
+          "author": "Renelibrary",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "T P Building",
+          "url": "https://commons.wikimedia.org/wiki/File:T_P_Building.jpg",
+          "author": "Renelibrary",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "T&P Lofts",
+          "url": "https://commons.wikimedia.org/wiki/File:T%26P_Lofts.jpg",
+          "author": "Eejjmm8888",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Texas & Pacific Railway Terminal, June 2008",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_%26_Pacific_Railway_Terminal,_June_2008.jpg",
+          "author": "Justin Cozart",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The T^P From The Mountain - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:The_T%5EP_From_The_Mountain_-_panoramio.jpg",
+          "author": "j2003af",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dal-texas-pacific-terminal.glb",
+      "source": "generators/dal-texas-pacific-terminal.ts"
+    },
+    {
+      "id": "dal-livestock-exchange",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "mission-revival",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fort Worth Stockyards June 2016 45 (Livestock Exchange Building).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Stockyards_June_2016_45_(Livestock_Exchange_Building).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Stockyards June 2016 46 (Livestock Exchange Building).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Stockyards_June_2016_46_(Livestock_Exchange_Building).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Stockyards June 2016 18 (Livestock Exchange Building).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Stockyards_June_2016_18_(Livestock_Exchange_Building).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "0011Fort Worth Stockyards Live Stock Exchange SE Texas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:0011Fort_Worth_Stockyards_Live_Stock_Exchange_SE_Texas.jpg",
+          "author": "Mark Fisher",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Fort Worth Livestock Exchange (8159374156).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Livestock_Exchange_(8159374156).jpg",
+          "author": "Nicolas Henderson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Fort Worth,Texas.USA. - panoramio (3).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth,Texas.USA._-_panoramio_(3).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Live Stock Exchange, Fort Worth, Texas LCCN2011630470.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Live_Stock_Exchange,_Fort_Worth,_Texas_LCCN2011630470.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "The Stock Yards building, the center of a historic livestock-market district in Fort Worth, Texas LCCN2013650788.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Stock_Yards_building,_the_center_of_a_historic_livestock-market_district_in_Fort_Worth,_Texas_LCCN2013650788.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fort Worth Live Stock Exchange (1908).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Live_Stock_Exchange_(1908).jpg",
+          "author": "Raphael Tuck & Sons",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fort Worth Livestock Exchange.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Livestock_Exchange.jpg",
+          "author": "Jpo tx113",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-livestock-exchange.glb",
+      "source": "generators/dal-livestock-exchange.ts"
+    },
+    {
+      "id": "dal-cowtown-coliseum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "arena",
+        "rodeo",
+        "mission-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fort Worth Stockyards June 2016 49 (Cowtown Coliseum).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Stockyards_June_2016_49_(Cowtown_Coliseum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Stockyards June 2016 48 (Cowtown Coliseum).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Stockyards_June_2016_48_(Cowtown_Coliseum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Stockyards June 2016 17 (Cowtown Coliseum and Box Office).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Stockyards_June_2016_17_(Cowtown_Coliseum_and_Box_Office).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Coliseum, full shot.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Coliseum,_full_shot.jpg",
+          "author": "Jpo tx113",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Coliseum, Fort Worth, Texas (8123991462).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Coliseum,_Fort_Worth,_Texas_(8123991462).jpg",
+          "author": "Nicolas Henderson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Coliseum (20102216).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Coliseum_(20102216).jpg",
+          "author": "Geo. W. Bellar",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-cowtown-coliseum.glb",
+      "source": "generators/dal-cowtown-coliseum.ts"
+    },
+    {
+      "id": "dal-six-flags-oil-derrick",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "observation-tower",
+        "theme-park",
+        "six-flags"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Oil Derrick",
+          "url": "https://commons.wikimedia.org/wiki/File:Oil_Derrick.jpg",
+          "author": "Cstrs101",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "SixFlagsTower-3908",
+          "url": "https://commons.wikimedia.org/wiki/File:SixFlagsTower-3908.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "SixFlagsTower-3940",
+          "url": "https://commons.wikimedia.org/wiki/File:SixFlagsTower-3940.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "SixFlagsTower-3975",
+          "url": "https://commons.wikimedia.org/wiki/File:SixFlagsTower-3975.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "SixFlagsTower-5843",
+          "url": "https://commons.wikimedia.org/wiki/File:SixFlagsTower-5843.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Observationtower sfot",
+          "url": "https://commons.wikimedia.org/wiki/File:Observationtower_sfot.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "BrandonR"
+        },
+        {
+          "title": "Six Flags Over Texas, Arlington, Texas (48849396931)",
+          "url": "https://commons.wikimedia.org/wiki/File:Six_Flags_Over_Texas,_Arlington,_Texas_(48849396931).jpg",
+          "license": "CC BY 2.0",
+          "author": "Nicolas Henderson"
+        }
+      ],
+      "file": "models/dal-six-flags-oil-derrick.glb",
+      "source": "generators/dal-six-flags-oil-derrick.ts"
+    },
+    {
+      "id": "dal-new-texas-giant",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "coaster",
+      "tags": [
+        "roller-coaster",
+        "hybrid-coaster",
+        "theme-park",
+        "six-flags"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1353100",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "New Texas Giant 05",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Texas_Giant_05.jpg",
+          "author": "Martin Lewison",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "New Texas Giant 07",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Texas_Giant_07.jpg",
+          "author": "Martin Lewison",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "New Texas Giant lift hill",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Texas_Giant_lift_hill.jpg",
+          "author": "Martin Lewison",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "New Texas Giant station and lift hill",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Texas_Giant_station_and_lift_hill.jpg",
+          "author": "Martin Lewison",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "New Texas Giant track",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Texas_Giant_track.jpg",
+          "author": "Martin Lewison",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "SFOT Giant 2 Edit",
+          "url": "https://commons.wikimedia.org/wiki/File:SFOT_Giant_2_Edit.jpg",
+          "author": "Cstrs101",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The NEW Texas Giant",
+          "url": "https://commons.wikimedia.org/wiki/File:The_NEW_Texas_Giant.jpg",
+          "author": "SFOTPR",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "New Texas Giant 2023 1",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Texas_Giant_2023_1.jpg",
+          "author": "Jeremy Thompson",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-new-texas-giant.glb",
+      "source": "generators/dal-new-texas-giant.ts"
+    },
+    {
+      "id": "dal-smu-dallas-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "university",
+        "georgian-revival",
+        "dome",
+        "nrhp"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas Hall on the campus of Southern Methodist University, Dallas, Texas LCCN2015630915.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall_on_the_campus_of_Southern_Methodist_University,_Dallas,_Texas_LCCN2015630915.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dallas Hall (Southern Methodist University) in May 2008.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall_(Southern_Methodist_University)_in_May_2008.jpg",
+          "author": "Spencerjc1",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Hall.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall.jpg",
+          "author": "Spencerjc1",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Hall1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall1.JPG",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dallas Hall at SMU looking northeast.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall_at_SMU_looking_northeast.jpg",
+          "author": "Abrown4055",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Hall (Southern Methodist University).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall_(Southern_Methodist_University).JPG",
+          "author": "Jeffrey Beall",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Hall Southern Methodist University.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall_Southern_Methodist_University.jpg",
+          "author": "Ed Uthman",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Southern Methodist University July 2016 108 (Dallas Hall).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Southern_Methodist_University_July_2016_108_(Dallas_Hall).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "SMU Dallas Hall.png",
+          "url": "https://commons.wikimedia.org/wiki/File:SMU_Dallas_Hall.png",
+          "author": "Elred",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/dal-smu-dallas-hall.glb",
+      "source": "generators/dal-smu-dallas-hall.ts"
+    },
+    {
+      "id": "dal-will-rogers-memorial-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "art-deco",
+        "tower",
+        "arena",
+        "auditorium"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Will Rogers Memorial Center June 2016 21 (Will Rogers Coliseum)",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_June_2016_21_(Will_Rogers_Coliseum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Will Rogers Memorial Center June 2016 22 (Pioneer Tower)",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_June_2016_22_(Pioneer_Tower).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Will Rogers Memorial Center June 2016 23 (Will Rogers Auditorium)",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_June_2016_23_(Will_Rogers_Auditorium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Will Rogers Memorial Center June 2016 24 (Pioneer Tower)",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_June_2016_24_(Pioneer_Tower).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Will Rogers Memorial Center June 2016 25 (Pioneer Tower)",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_June_2016_25_(Pioneer_Tower).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Will Rogers Memorial Center",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Will_Rogers_Memorial_Center.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Will Rogers Memorial Center 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Will Rogers Memorial Center 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_02.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "WillRogers1 (1 of 1)",
+          "url": "https://commons.wikimedia.org/wiki/File:WillRogers1_(1_of_1).jpg",
+          "author": "Renelibrary (Rene Gomez)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Will Rogers Memorial Complex 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Complex_1.jpg",
+          "author": "Renelibrary (Rene Gomez)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "WillRogersMemorialCenter1",
+          "url": "https://commons.wikimedia.org/wiki/File:WillRogersMemorialCenter1.jpg",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Coliseum, Memorial Tower, and Auditorium (postcard)",
+          "url": "https://commons.wikimedia.org/wiki/File:Coliseum,_Memorial_Tower,_and_Auditorium_(20106176).jpg",
+          "author": "Curt Teich & Company",
+          "license": "Public domain"
+        },
+        {
+          "title": "Part of a ceramic-tile mural by Kenneth Gale, Will Rogers Auditorium",
+          "url": "https://commons.wikimedia.org/wiki/File:Part_of_a_ceramic-tile_mural_by_Works_Project_Administration_artist_Kenneth_Gale,_depicting_Texas_history,_at_the_Will_Rogers_Auditorium,_now_part_of_the_Will_Rogers_Memorial_Center_in_Fort_Worth,_LCCN2013650766.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-will-rogers-memorial-center.glb",
+      "source": "generators/dal-will-rogers-memorial-center.ts"
+    },
+    {
+      "id": "dal-ariat-arena",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "rodeo",
+        "dome",
+        "brick"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "USGS NAIP orthoimagery",
+          "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPPlus/ImageServer",
+          "author": "USGS",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-ariat-arena.glb",
+      "source": "generators/dal-ariat-arena.ts"
+    },
+    {
+      "id": "dal-cityplace-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cityplace Tower in Dallas, Texas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cityplace_Tower_in_Dallas,_Texas.jpg",
+          "author": "Drumguy8800 at English Wikipedia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cityplace Center 1988.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cityplace_Center_1988.jpg",
+          "author": "Justin Cozart",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Uptown Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Uptown_Dallas.jpg",
+          "author": "Aceplace at English Wikipedia",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Downtown Dallas with CityPlace skyline in foreground",
+          "url": "https://www.flickr.com/photos/52949402@N03/47270068882",
+          "author": "skys the limit2",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-cityplace-tower.glb",
+      "source": "generators/dal-cityplace-tower.ts"
+    },
+    {
+      "id": "dal-southfork-ranch",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "house",
+        "ranch",
+        "tv-location",
+        "tourist-attraction"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Main house at Southfork Ranch in Parker, Texas, north of Dallas, where two runs of the popular TV show \"Dallas\" were filmed LCCN2015631260.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_house_at_Southfork_Ranch_in_Parker,_Texas,_north_of_Dallas,_where_two_runs_of_the_popular_TV_show_%22Dallas%22_were_filmed_LCCN2015631260.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "SouthForkFront.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SouthForkFront.jpg",
+          "author": "Sf46",
+          "license": "Public domain"
+        },
+        {
+          "title": "Southfork Ranch-03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Southfork_Ranch-03.jpg",
+          "author": "Priwo",
+          "license": "Public domain"
+        },
+        {
+          "title": "Southfork Ranch-04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Southfork_Ranch-04.jpg",
+          "author": "Priwo",
+          "license": "Public domain"
+        },
+        {
+          "title": "Southfork Ranch-02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Southfork_Ranch-02.jpg",
+          "author": "Priwo",
+          "license": "Public domain"
+        },
+        {
+          "title": "Southfork ranch.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Southfork_ranch.jpg",
+          "author": "Triebtäter",
+          "license": "CC BY-SA 2.0 de"
+        }
+      ],
+      "file": "models/dal-southfork-ranch.glb",
+      "source": "generators/dal-southfork-ranch.ts"
+    },
+    {
+      "id": "dal-the-crescent",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "hotel",
+        "shopping",
+        "postmodern",
+        "complex"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Crescent 2016.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Crescent_2016.jpg",
+          "author": "Dallasedits",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Crescent, Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Crescent,_Dallas.jpg",
+          "author": "André Corboz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Crescent Uptown Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Crescent_Uptown_Dallas.jpg",
+          "author": "Dallasedits",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Crescent Atrium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Crescent_Atrium.jpg",
+          "author": "Dallasedits",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Rosewood Crescent Hotel courtyard.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Rosewood_Crescent_Hotel_courtyard.jpg",
+          "author": "Kari Sullivan",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-the-crescent.glb",
+      "source": "generators/dal-the-crescent.ts"
+    },
+    {
+      "id": "dal-mustangs-of-las-colinas",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "public-art",
+        "bronze",
+        "fountain",
+        "las-colinas"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q4308520",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Mustangs of Las Colinas (aerial)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Mustangs_of_Las_Colinas.jpg",
+          "author": "Justplainfolks",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "View of the \"Mustangs of Las Colinas\" sculpture (LCCN2015630704)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_%22Mustangs_of_Las_Colinas%22_sculpture_in_the_upscale_Las_Colinas_neighborhood_of_Irving,_Texas_LCCN2015630704.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "View of the \"Mustangs of Las Colinas\" sculpture (LCCN2015630708)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_%22Mustangs_of_Las_Colinas%22_sculpture_in_the_upscale_Las_Colinas_neighborhood_of_Irving,_Texas_LCCN2015630708.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "View of the \"Mustangs of Las Colinas\" sculpture (LCCN2015630709)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_%22Mustangs_of_Las_Colinas%22_sculpture_in_the_upscale_Las_Colinas_neighborhood_of_Irving,_Texas_LCCN2015630709.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "View of the \"Mustangs of Las Colinas\" sculpture (LCCN2015630712)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_%22Mustangs_of_Las_Colinas%22_sculpture_in_the_upscale_Las_Colinas_neighborhood_of_Irving,_Texas_LCCN2015630712.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Mustangs Las Colinas",
+          "url": "https://commons.wikimedia.org/wiki/File:Mustangs_Las_Colinas.jpg",
+          "author": "Av9",
+          "license": "Public domain"
+        },
+        {
+          "title": "Mustangs at Las Colinas",
+          "url": "https://commons.wikimedia.org/wiki/File:Mustangs_at_Las_Colinas.jpg",
+          "author": "Wesley Fryer",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Monument in Dallas",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_in_Dallas.jpg",
+          "author": "Honza.d",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dal-mustangs-of-las-colinas.glb",
+      "source": "generators/dal-mustangs-of-las-colinas.ts"
+    },
+    {
+      "id": "dal-irving-convention-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "convention-center",
+        "contemporary",
+        "las-colinas"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q6074525",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "City of Irving, Texas - Convention Center",
+          "url": "https://commons.wikimedia.org/wiki/File:City_of_Irving,_Texas_-_Convention_Center.jpg",
+          "author": "Renanville",
+          "license": "CC0"
+        },
+        {
+          "title": "The Irving Convention Center in Irving, Texas (LCCN2015630716)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Irving_Convention_Center_in_Irving,_Texas,_an_upscale_community_in_the_Dallas-Fort_Worth_metroplex_LCCN2015630716.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "The Irving Convention Center in Irving, Texas (LCCN2015630546)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Irving_Convention_Center_in_Irving,_Texas,_part_of_the_Dallas-Fort_Worth_metroplex_area_LCCN2015630546.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Irving Convention Center Exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Irving_Convention_Center_Exterior.JPG",
+          "author": "Irvingtexas",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Outside Irving Convention Center",
+          "url": "https://commons.wikimedia.org/wiki/File:Outside_Irving_Convention_Center.jpg",
+          "author": "Irvingtexas",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Irving Convention Center Water Fountain",
+          "url": "https://commons.wikimedia.org/wiki/File:Irving_Convention_Center_Water_Fountain.JPG",
+          "author": "Irvingtexas",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Irving Convention Center Exterior at Sunrise",
+          "url": "https://commons.wikimedia.org/wiki/File:Irving_Convention_Center_Exterior_at_Sunrise.jpg",
+          "author": "Irvingtexas",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dal-irving-convention-center.glb",
+      "source": "generators/dal-irving-convention-center.ts"
+    },
+    {
+      "id": "dal-ford-center-the-star",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "indoor-stadium",
+        "american-football",
+        "dallas-cowboys",
+        "frisco"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Ford Center at the Star - May 2018 - Exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Ford_Center_at_the_Star_-_May_2018_-_Exterior.jpg",
+          "author": "Danazar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ford Center at the Star",
+          "url": "https://commons.wikimedia.org/wiki/File:Ford_Center_at_the_Star.jpg",
+          "author": "Danazar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Star in Frisco front view - 20261020",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Star_in_Frisco_front_view_-_20261020.jpg",
+          "author": "매일 누군가가 도둑맞을 때마다",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/dal-ford-center-the-star.glb",
+      "source": "generators/dal-ford-center-the-star.ts"
     }
   ],
   "landmarks": [
@@ -31974,6 +36091,1003 @@
       "replaces": [
         "way/56044910"
       ]
+    },
+    {
+      "id": "dal-reunion-tower",
+      "name": "Reunion Tower",
+      "model": "dal-reunion-tower",
+      "place": "dallas-area",
+      "lng": -96.808945,
+      "lat": 32.775358,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q1248619",
+      "replaces": [
+        "way/1428779225",
+        "way/1491048355",
+        "way/1491048356",
+        "way/1491048357",
+        "way/1491048358",
+        "way/1491048359"
+      ]
+    },
+    {
+      "id": "dal-bank-of-america-plaza",
+      "name": "Bank of America Plaza",
+      "model": "dal-bank-of-america-plaza",
+      "place": "dallas-area",
+      "lng": -96.8039011,
+      "lat": 32.7800149,
+      "bearing": 346.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/138670474",
+        "way/1492295745",
+        "way/1492295746",
+        "way/1492295747",
+        "way/1492295748",
+        "way/1492295749",
+        "way/1492295750"
+      ],
+      "wikidata": "Q806675"
+    },
+    {
+      "id": "dal-renaissance-tower",
+      "name": "Renaissance Tower",
+      "model": "dal-renaissance-tower",
+      "place": "dallas-area",
+      "lng": -96.801835,
+      "lat": 32.7812967,
+      "bearing": 345.7,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/28182729"
+      ],
+      "wikidata": "Q1515605"
+    },
+    {
+      "id": "dal-fountain-place",
+      "name": "Fountain Place",
+      "model": "dal-fountain-place",
+      "place": "dallas-area",
+      "lng": -96.802544,
+      "lat": 32.7847969,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/73213058",
+        "way/1491062886",
+        "way/1491062887",
+        "way/1491062888",
+        "way/1491062889",
+        "way/1493186371"
+      ],
+      "wikidata": "Q2462521"
+    },
+    {
+      "id": "dal-att-stadium",
+      "name": "AT&T Stadium",
+      "model": "dal-att-stadium",
+      "place": "dallas-area",
+      "lng": -97.092837,
+      "lat": 32.747842,
+      "bearing": 339,
+      "elevation": -15,
+      "minzoom": 13,
+      "wikidata": "Q838284",
+      "replaces": [
+        "way/47086748",
+        "way/126702663",
+        "way/126702664",
+        "way/126704934",
+        "way/126704935",
+        "way/126704936",
+        "way/126705089"
+      ]
+    },
+    {
+      "id": "dal-hyatt-regency",
+      "name": "Hyatt Regency Dallas",
+      "model": "dal-hyatt-regency",
+      "place": "dallas-area",
+      "lng": -96.809383,
+      "lat": 32.7756328,
+      "bearing": 327,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q5952881",
+      "replaces": [
+        "way/610136503",
+        "way/1491048351",
+        "way/1491048352",
+        "way/1491048353",
+        "way/1491048354",
+        "way/1491048360",
+        "way/1491048361",
+        "way/1491048362",
+        "way/1491048363",
+        "way/1491048364",
+        "way/1491048365",
+        "way/1491048366",
+        "way/1491048367",
+        "way/1491048368",
+        "way/1491048369",
+        "way/1491048370",
+        "way/1491048371",
+        "way/1491048372",
+        "way/1491048373",
+        "way/1491048374",
+        "way/1491048375",
+        "way/1491048376",
+        "way/1491048377",
+        "way/1491048378",
+        "way/1491048379",
+        "way/1491058685",
+        "way/1491058686",
+        "way/1491058687",
+        "way/1491058688",
+        "way/1491058689",
+        "way/1491058690",
+        "way/1491058691",
+        "way/1491058692",
+        "way/1491058693",
+        "way/1491058694",
+        "way/1491058695",
+        "way/1491058696",
+        "way/1491058697",
+        "way/1491058698",
+        "way/1491058699",
+        "way/1491058700",
+        "way/1491058701"
+      ]
+    },
+    {
+      "id": "dal-union-station",
+      "name": "Dallas Union Station",
+      "model": "dal-union-station",
+      "place": "dallas-area",
+      "lng": -96.8075375,
+      "lat": 32.7761299,
+      "bearing": 345,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5371609",
+      "replaces": [
+        "way/25699224"
+      ]
+    },
+    {
+      "id": "dal-chase-tower",
+      "name": "Chase Tower",
+      "model": "dal-chase-tower",
+      "place": "dallas-area",
+      "lng": -96.7966344,
+      "lat": 32.7879509,
+      "bearing": 135,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q579403",
+      "replaces": [
+        "way/28781114"
+      ]
+    },
+    {
+      "id": "dal-comerica-bank-tower",
+      "name": "Comerica Bank Tower",
+      "model": "dal-comerica-bank-tower",
+      "place": "dallas-area",
+      "lng": -96.796528,
+      "lat": 32.781611,
+      "bearing": 346,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q2743574",
+      "replaces": [
+        "way/28015874"
+      ]
+    },
+    {
+      "id": "dal-love-field-tower",
+      "name": "Dallas Love Field Air Traffic Control Tower",
+      "model": "dal-love-field-tower",
+      "place": "dallas-area",
+      "lng": -96.8494,
+      "lat": 32.84518,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/744685687",
+        "way/443151009"
+      ]
+    },
+    {
+      "id": "dal-dfw-terminal-d",
+      "name": "DFW Airport Terminal D and Grand Hyatt DFW",
+      "model": "dal-dfw-terminal-d",
+      "place": "dallas-area",
+      "lng": -97.04405,
+      "lat": 32.8977,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/6640652",
+        "way/449458671",
+        "way/447049222",
+        "way/447049223",
+        "way/447049224",
+        "way/447049225",
+        "way/447049226",
+        "way/447049227",
+        "way/447049228",
+        "way/447049230",
+        "way/447051287",
+        "way/448165719",
+        "way/448165720",
+        "way/448165721",
+        "way/448165722",
+        "way/448165723",
+        "way/448165724",
+        "way/448165725",
+        "way/448165727",
+        "way/448165731",
+        "way/448165732",
+        "way/448360476",
+        "way/448705414",
+        "way/448743967",
+        "way/448834555",
+        "way/448880223",
+        "way/448880227",
+        "way/448880228",
+        "way/448880229",
+        "way/448890232",
+        "way/448966842",
+        "way/448966844",
+        "way/449451123",
+        "way/449451124",
+        "way/450025268"
+      ]
+    },
+    {
+      "id": "dal-dfw-control-tower",
+      "name": "DFW Airport Center Tower",
+      "model": "dal-dfw-control-tower",
+      "place": "dallas-area",
+      "lng": -97.04035,
+      "lat": 32.89663,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/446187562",
+        "way/446921579",
+        "way/446921580",
+        "way/446921581",
+        "way/446921582",
+        "way/446921583",
+        "way/448378079",
+        "way/448378080",
+        "way/448378081",
+        "way/448386139"
+      ]
+    },
+    {
+      "id": "dal-love-field-terminal",
+      "name": "Dallas Love Field Terminal",
+      "model": "dal-love-field-terminal",
+      "place": "dallas-area",
+      "lng": -96.8497,
+      "lat": 32.8449,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/224697058",
+        "way/25661629",
+        "way/25661630",
+        "way/237849526",
+        "way/744685694",
+        "way/303623491",
+        "way/1145443237"
+      ]
+    },
+    {
+      "id": "dal-texas-school-book-depository",
+      "name": "Texas School Book Depository",
+      "model": "dal-texas-school-book-depository",
+      "place": "dallas-area",
+      "lng": -96.8084493,
+      "lat": 32.7797642,
+      "bearing": 346,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/727595366",
+        "way/727595367"
+      ]
+    },
+    {
+      "id": "dal-jfk-memorial",
+      "name": "John F. Kennedy Memorial",
+      "model": "dal-jfk-memorial",
+      "place": "dallas-area",
+      "lng": -96.8064416,
+      "lat": 32.7787216,
+      "bearing": 345.3,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/1390843350",
+        "way/1390843351",
+        "way/1390843352"
+      ],
+      "wikidata": "Q6233329"
+    },
+    {
+      "id": "dal-old-red-courthouse",
+      "name": "Old Red Courthouse",
+      "model": "dal-old-red-courthouse",
+      "place": "dallas-area",
+      "lng": -96.8073129,
+      "lat": 32.7786338,
+      "bearing": 346,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/27940349",
+        "way/1491921584",
+        "way/1491921585",
+        "way/1491921586",
+        "way/1491921587",
+        "way/1491921588",
+        "way/1491921589",
+        "way/1491921590",
+        "way/1491921591",
+        "way/1491921592",
+        "way/1491921593",
+        "way/1491921594",
+        "way/1491921595",
+        "way/1491921596",
+        "way/1491921597",
+        "way/1491921598",
+        "way/1491921599",
+        "way/1491921600",
+        "way/1491921601",
+        "way/1491921602",
+        "way/1491921603",
+        "way/1491921604",
+        "way/1491921605",
+        "way/1491921606",
+        "way/1491921607",
+        "way/1491921608",
+        "way/1491921609",
+        "way/1491921610",
+        "way/1491921611",
+        "way/1491921612",
+        "way/1491921613",
+        "way/1491921614",
+        "way/1491921615",
+        "way/1491921616"
+      ],
+      "wikidata": "Q5211300"
+    },
+    {
+      "id": "dal-meyerson-symphony-center",
+      "name": "Morton H. Meyerson Symphony Center",
+      "model": "dal-meyerson-symphony-center",
+      "place": "dallas-area",
+      "lng": -96.7986206,
+      "lat": 32.7899083,
+      "bearing": 18.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q670323",
+      "replaces": [
+        "way/28544900"
+      ]
+    },
+    {
+      "id": "dal-winspear-opera-house",
+      "name": "Winspear Opera House",
+      "model": "dal-winspear-opera-house",
+      "place": "dallas-area",
+      "lng": -96.7980084,
+      "lat": 32.7909535,
+      "bearing": 45.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5493322",
+      "replaces": [
+        "way/179918603",
+        "way/312168249",
+        "way/1414653500",
+        "way/1414653501",
+        "way/1414653502",
+        "way/1414653503",
+        "way/1414653504",
+        "way/1414653505",
+        "way/1414653506",
+        "way/1414653507",
+        "way/1414653508",
+        "way/1414653509",
+        "way/1414653510",
+        "way/1414653511",
+        "way/1414653512",
+        "way/1414653513",
+        "way/1414653514",
+        "way/1414653515"
+      ]
+    },
+    {
+      "id": "dal-wyly-theatre",
+      "name": "Wyly Theatre",
+      "model": "dal-wyly-theatre",
+      "place": "dallas-area",
+      "lng": -96.7963821,
+      "lat": 32.7900031,
+      "bearing": 46,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5249965",
+      "replaces": [
+        "way/361449421",
+        "way/1396184197",
+        "way/1396184198"
+      ]
+    },
+    {
+      "id": "dal-magnolia-hotel",
+      "name": "Magnolia Building",
+      "model": "dal-magnolia-hotel",
+      "place": "dallas-area",
+      "lng": -96.799065,
+      "lat": 32.780159,
+      "bearing": 345.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q12061439",
+      "replaces": [
+        "way/30898509"
+      ]
+    },
+    {
+      "id": "dal-mercantile-national-bank",
+      "name": "Mercantile National Bank Building",
+      "model": "dal-mercantile-national-bank",
+      "place": "dallas-area",
+      "lng": -96.796635,
+      "lat": 32.780798,
+      "bearing": 346,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q6818031",
+      "replaces": [
+        "way/30897787",
+        "way/1396179853",
+        "way/1396179854",
+        "way/1396179855",
+        "way/1396179856"
+      ]
+    },
+    {
+      "id": "dal-adolphus-hotel",
+      "name": "The Adolphus",
+      "model": "dal-adolphus-hotel",
+      "place": "dallas-area",
+      "lng": -96.799951,
+      "lat": 32.779958,
+      "bearing": 345.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/471953148",
+        "way/964805583"
+      ]
+    },
+    {
+      "id": "dal-margaret-hunt-hill-bridge",
+      "name": "Margaret Hunt Hill Bridge",
+      "model": "dal-margaret-hunt-hill-bridge",
+      "place": "dallas-area",
+      "lng": -96.8221324,
+      "lat": 32.7799695,
+      "bearing": 67.7,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q6759541",
+      "replaces": [
+        "way/1275449057"
+      ]
+    },
+    {
+      "id": "dal-margaret-mcdermott-bridge",
+      "name": "Margaret McDermott Bridge",
+      "model": "dal-margaret-mcdermott-bridge",
+      "place": "dallas-area",
+      "lng": -96.8179203,
+      "lat": 32.7702267,
+      "bearing": 76.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q18154095",
+      "replaces": []
+    },
+    {
+      "id": "dal-texas-star",
+      "name": "Texas Star",
+      "model": "dal-texas-star",
+      "place": "dallas-area",
+      "lng": -96.7592587,
+      "lat": 32.7767472,
+      "bearing": 90,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1318837",
+      "replaces": []
+    },
+    {
+      "id": "dal-hall-of-state",
+      "name": "Hall of State",
+      "model": "dal-hall-of-state",
+      "place": "dallas-area",
+      "lng": -96.7610538,
+      "lat": 32.7807531,
+      "bearing": 17.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5642713",
+      "replaces": [
+        "way/27113243"
+      ]
+    },
+    {
+      "id": "dal-dallas-museum-of-art",
+      "name": "Dallas Museum of Art",
+      "model": "dal-dallas-museum-of-art",
+      "place": "dallas-area",
+      "lng": -96.8010673,
+      "lat": 32.7876533,
+      "bearing": 45.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q745866",
+      "replaces": [
+        "relation/6942581",
+        "relation/20586729",
+        "way/678928341",
+        "way/678928340",
+        "way/31265436",
+        "way/471658474"
+      ]
+    },
+    {
+      "id": "dal-thanks-giving-chapel",
+      "name": "Chapel of Thanksgiving",
+      "model": "dal-thanks-giving-chapel",
+      "place": "dallas-area",
+      "lng": -96.7982737,
+      "lat": 32.7829429,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q124117919",
+      "replaces": [
+        "way/654112871"
+      ]
+    },
+    {
+      "id": "dal-dallas-city-hall",
+      "name": "Dallas City Hall",
+      "model": "dal-dallas-city-hall",
+      "place": "dallas-area",
+      "lng": -96.7969359,
+      "lat": 32.7762606,
+      "bearing": 345,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1157989",
+      "replaces": [
+        "way/27129838"
+      ]
+    },
+    {
+      "id": "dal-cathedral-guadalupe",
+      "name": "Cathedral Shrine of the Virgin of Guadalupe",
+      "model": "dal-cathedral-guadalupe",
+      "place": "dallas-area",
+      "lng": -96.797973,
+      "lat": 32.7888705,
+      "bearing": 136,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31265522"
+      ]
+    },
+    {
+      "id": "dal-perot-museum",
+      "name": "Perot Museum of Nature and Science",
+      "model": "dal-perot-museum",
+      "place": "dallas-area",
+      "lng": -96.8063744,
+      "lat": 32.786905,
+      "bearing": 32,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q7169478",
+      "replaces": [
+        "way/618964796",
+        "way/1188705976"
+      ]
+    },
+    {
+      "id": "dal-cotton-bowl",
+      "name": "Cotton Bowl Stadium",
+      "model": "dal-cotton-bowl",
+      "place": "dallas-area",
+      "lng": -96.7595899,
+      "lat": 32.7795954,
+      "bearing": 314,
+      "elevation": -7,
+      "minzoom": 14,
+      "wikidata": "Q1136764",
+      "replaces": [
+        "relation/1640835",
+        "way/27112448"
+      ]
+    },
+    {
+      "id": "dal-american-airlines-center",
+      "name": "American Airlines Center",
+      "model": "dal-american-airlines-center",
+      "place": "dallas-area",
+      "lng": -96.8102794,
+      "lat": 32.790485,
+      "bearing": 325,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q463345",
+      "replaces": [
+        "way/25312698",
+        "way/1492851054",
+        "way/1492851057",
+        "way/1492851058",
+        "way/1492851059",
+        "way/1492851060",
+        "way/1492851063",
+        "way/1492851064",
+        "way/1492851067",
+        "way/1492851068",
+        "way/1492851070",
+        "way/1492851072",
+        "way/1492851073",
+        "way/1492851074",
+        "way/1492851075",
+        "way/1492851076",
+        "way/1492851077",
+        "way/1492851078",
+        "relation/20375631",
+        "relation/20375632",
+        "relation/20375633",
+        "relation/20375634",
+        "relation/20375635",
+        "relation/20375636",
+        "relation/20375637",
+        "relation/20375638"
+      ]
+    },
+    {
+      "id": "dal-kimbell-art-museum",
+      "name": "Kimbell Art Museum",
+      "model": "dal-kimbell-art-museum",
+      "place": "dallas-area",
+      "lng": -97.365149,
+      "lat": 32.748579,
+      "bearing": 0.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/7301044"
+      ],
+      "wikidata": "Q1741629"
+    },
+    {
+      "id": "dal-bass-performance-hall",
+      "name": "Bass Performance Hall",
+      "model": "dal-bass-performance-hall",
+      "place": "dallas-area",
+      "lng": -97.3297758,
+      "lat": 32.7547781,
+      "bearing": 330,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/483466355"
+      ],
+      "wikidata": "Q2887300"
+    },
+    {
+      "id": "dal-choctaw-stadium",
+      "name": "Choctaw Stadium",
+      "model": "dal-choctaw-stadium",
+      "place": "dallas-area",
+      "lng": -97.082563,
+      "lat": 32.751252,
+      "bearing": 0,
+      "elevation": -6.7,
+      "minzoom": 14,
+      "wikidata": "Q1634492",
+      "replaces": [
+        "way/28270489",
+        "relation/19321550",
+        "relation/19321551"
+      ]
+    },
+    {
+      "id": "dal-globe-life-field",
+      "name": "Globe Life Field",
+      "model": "dal-globe-life-field",
+      "place": "dallas-area",
+      "lng": -97.084199,
+      "lat": 32.747465,
+      "bearing": 0,
+      "elevation": -15.2,
+      "minzoom": 14,
+      "wikidata": "Q24284037",
+      "replaces": [
+        "way/704674261"
+      ]
+    },
+    {
+      "id": "dal-modern-art-museum",
+      "name": "Modern Art Museum of Fort Worth",
+      "model": "dal-modern-art-museum",
+      "place": "dallas-area",
+      "lng": -97.363118,
+      "lat": 32.749266,
+      "bearing": 0.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/141506526"
+      ],
+      "wikidata": "Q1414796"
+    },
+    {
+      "id": "dal-tarrant-county-courthouse",
+      "name": "Tarrant County Courthouse",
+      "model": "dal-tarrant-county-courthouse",
+      "place": "dallas-area",
+      "lng": -97.333193,
+      "lat": 32.7574803,
+      "bearing": 330,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q570870",
+      "replaces": [
+        "way/178593785"
+      ]
+    },
+    {
+      "id": "dal-texas-pacific-terminal",
+      "name": "Texas & Pacific Passenger Terminal",
+      "model": "dal-texas-pacific-terminal",
+      "place": "dallas-area",
+      "lng": -97.3277864,
+      "lat": 32.7459164,
+      "bearing": 2.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/421883046"
+      ]
+    },
+    {
+      "id": "dal-livestock-exchange",
+      "name": "Livestock Exchange Building",
+      "model": "dal-livestock-exchange",
+      "place": "dallas-area",
+      "lng": -97.346729,
+      "lat": 32.7894622,
+      "bearing": 0.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/7321195"
+      ]
+    },
+    {
+      "id": "dal-cowtown-coliseum",
+      "name": "Cowtown Coliseum",
+      "model": "dal-cowtown-coliseum",
+      "place": "dallas-area",
+      "lng": -97.3476885,
+      "lat": 32.789623,
+      "bearing": 0.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/56029797",
+        "way/1245926355"
+      ]
+    },
+    {
+      "id": "dal-six-flags-oil-derrick",
+      "name": "Oil Derrick",
+      "model": "dal-six-flags-oil-derrick",
+      "place": "six-flags-over-texas",
+      "lng": -97.0711059,
+      "lat": 32.7580355,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": []
+    },
+    {
+      "id": "dal-new-texas-giant",
+      "name": "New Texas Giant",
+      "model": "dal-new-texas-giant",
+      "place": "six-flags-over-texas",
+      "lng": -97.0729239,
+      "lat": 32.7570031,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1353100",
+      "replaces": [
+        "way/104655707",
+        "way/603559513",
+        "way/603559514",
+        "way/104655706",
+        "way/603559507",
+        "way/603559508",
+        "way/104655708"
+      ]
+    },
+    {
+      "id": "dal-smu-dallas-hall",
+      "name": "Dallas Hall, Southern Methodist University",
+      "model": "dal-smu-dallas-hall",
+      "place": "dallas-area",
+      "lng": -96.7849011,
+      "lat": 32.8452576,
+      "bearing": 1.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q16953984",
+      "replaces": [
+        "way/179096189"
+      ]
+    },
+    {
+      "id": "dal-will-rogers-memorial-center",
+      "name": "Will Rogers Memorial Center",
+      "model": "dal-will-rogers-memorial-center",
+      "place": "dallas-area",
+      "lng": -97.36613,
+      "lat": 32.7458,
+      "bearing": 0.9,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/178613280",
+        "way/178613282",
+        "way/614113504"
+      ]
+    },
+    {
+      "id": "dal-ariat-arena",
+      "name": "Ariat Arena",
+      "model": "dal-ariat-arena",
+      "place": "dallas-area",
+      "lng": -97.368482,
+      "lat": 32.74106,
+      "bearing": 0.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/878763596"
+      ]
+    },
+    {
+      "id": "dal-cityplace-tower",
+      "name": "Cityplace Tower",
+      "model": "dal-cityplace-tower",
+      "place": "dallas-area",
+      "lng": -96.792392,
+      "lat": 32.805521,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q7829750",
+      "replaces": [
+        "way/26329683",
+        "way/710355796",
+        "way/710355797"
+      ]
+    },
+    {
+      "id": "dal-southfork-ranch",
+      "name": "Southfork Ranch",
+      "model": "dal-southfork-ranch",
+      "place": "dallas-area",
+      "lng": -96.6093807,
+      "lat": 33.0492574,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q1474427",
+      "replaces": [
+        "way/172351926"
+      ]
+    },
+    {
+      "id": "dal-the-crescent",
+      "name": "The Crescent",
+      "model": "dal-the-crescent",
+      "place": "dallas-area",
+      "lng": -96.804225,
+      "lat": 32.794243,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/619505674",
+        "way/28544759",
+        "way/619505673",
+        "way/619505672",
+        "way/619505671",
+        "way/619505670",
+        "relation/6941686"
+      ]
+    },
+    {
+      "id": "dal-mustangs-of-las-colinas",
+      "name": "Mustangs of Las Colinas",
+      "model": "dal-mustangs-of-las-colinas",
+      "place": "dallas-area",
+      "lng": -96.938778,
+      "lat": 32.870585,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 17,
+      "replaces": [],
+      "wikidata": "Q4308520"
+    },
+    {
+      "id": "dal-irving-convention-center",
+      "name": "Irving Convention Center at Las Colinas",
+      "model": "dal-irving-convention-center",
+      "place": "dallas-area",
+      "lng": -96.943198,
+      "lat": 32.878041,
+      "bearing": 347.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/499314166"
+      ],
+      "wikidata": "Q6074525"
+    },
+    {
+      "id": "dal-ford-center-the-star",
+      "name": "Ford Center at The Star",
+      "model": "dal-ford-center-the-star",
+      "place": "dallas-area",
+      "lng": -96.828335,
+      "lat": 33.110625,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/518594979",
+        "way/1197569929"
+      ]
     }
   ],
   "places": [
@@ -32024,9 +37138,20 @@
       "kind": "region"
     },
     {
+      "id": "dallas-area",
+      "name": "Dallas area",
+      "kind": "region"
+    },
+    {
       "id": "houston-area",
       "name": "Houston area",
       "kind": "region"
+    },
+    {
+      "id": "six-flags-over-texas",
+      "name": "Six Flags Over Texas",
+      "kind": "site",
+      "parent": "dallas-area"
     },
     {
       "id": "walt-disney-world",
