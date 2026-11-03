@@ -23313,6 +23313,105 @@
       ],
       "file": "models/dal-ford-center-the-star.glb",
       "source": "generators/dal-ford-center-the-star.ts"
+    },
+    {
+      "id": "nyc-one-times-square",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "billboard",
+        "neon",
+        "times-square",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "One Times Square May 2014.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Times_Square_May_2014.jpg",
+          "author": "TastyPoutine",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "One Times Square, Manhattan, New York (7237736932).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Times_Square,_Manhattan,_New_York_(7237736932).jpg",
+          "author": "Ken Lund",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Pano timesquare.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pano_timesquare.jpg",
+          "author": "Kerrbenj",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Times Square New York City FLIKR 4 One Times Square Close.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_New_York_City_FLIKR_4_One_Times_Square_Close.jpg",
+          "author": "click-see",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "One Time Square (6454704097).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Time_Square_(6454704097).jpg",
+          "author": "Maarten Heerlien",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Times Square, NYC at night - August 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_NYC_at_night_-_August_2025.jpg",
+          "author": "Nielsoncaetanosalmeron",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "One Times Square New Year's Ball.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Times_Square_New_Year%27s_Ball.jpg",
+          "author": "Scu ba",
+          "license": "CC0"
+        },
+        {
+          "title": "Times Square Ball from above.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_Ball_from_above.jpg",
+          "author": "Anthony Quintano",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Refurbishing Times Tower 2024 jeh.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Refurbishing_Times_Tower_2024_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "NASA Artemis II Crew Visits Times Square Skywalk (NHQ202604300012).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NASA_Artemis_II_Crew_Visits_Times_Square_Skywalk_(NHQ202604300012).jpg",
+          "author": "NASA Headquarters",
+          "license": "Public domain"
+        },
+        {
+          "title": "Constellation Ball at Times Square, 2026.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Constellation_Ball_at_Times_Square,_2026.jpg",
+          "author": "User697755",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/nyc-one-times-square.glb",
+      "source": "generators/nyc-one-times-square.ts"
     }
   ],
   "landmarks": [
@@ -37087,6 +37186,24 @@
       "replaces": [
         "way/518594979",
         "way/1197569929"
+      ]
+    },
+    {
+      "id": "nyc-one-times-square",
+      "name": "One Times Square",
+      "model": "nyc-one-times-square",
+      "place": "times-square",
+      "lng": -73.9865372,
+      "lat": 40.7561966,
+      "bearing": 29.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1139633",
+      "replaces": [
+        "way/266170825",
+        "way/109285744",
+        "way/109285746",
+        "way/266774911"
       ]
     }
   ],
