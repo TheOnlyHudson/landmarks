@@ -19663,6 +19663,116 @@
       ],
       "file": "models/dal-smu-dallas-hall.glb",
       "source": "generators/dal-smu-dallas-hall.ts"
+    },
+    {
+      "id": "dal-will-rogers-memorial-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "art-deco",
+        "tower",
+        "arena",
+        "auditorium"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Will Rogers Memorial Center June 2016 21 (Will Rogers Coliseum)",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_June_2016_21_(Will_Rogers_Coliseum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Will Rogers Memorial Center June 2016 22 (Pioneer Tower)",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_June_2016_22_(Pioneer_Tower).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Will Rogers Memorial Center June 2016 23 (Will Rogers Auditorium)",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_June_2016_23_(Will_Rogers_Auditorium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Will Rogers Memorial Center June 2016 24 (Pioneer Tower)",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_June_2016_24_(Pioneer_Tower).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Will Rogers Memorial Center June 2016 25 (Pioneer Tower)",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_June_2016_25_(Pioneer_Tower).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Will Rogers Memorial Center",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Will_Rogers_Memorial_Center.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Will Rogers Memorial Center 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Will Rogers Memorial Center 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Center_02.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "WillRogers1 (1 of 1)",
+          "url": "https://commons.wikimedia.org/wiki/File:WillRogers1_(1_of_1).jpg",
+          "author": "Renelibrary (Rene Gomez)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Will Rogers Memorial Complex 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Will_Rogers_Memorial_Complex_1.jpg",
+          "author": "Renelibrary (Rene Gomez)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "WillRogersMemorialCenter1",
+          "url": "https://commons.wikimedia.org/wiki/File:WillRogersMemorialCenter1.jpg",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Coliseum, Memorial Tower, and Auditorium (postcard)",
+          "url": "https://commons.wikimedia.org/wiki/File:Coliseum,_Memorial_Tower,_and_Auditorium_(20106176).jpg",
+          "author": "Curt Teich & Company",
+          "license": "Public domain"
+        },
+        {
+          "title": "Part of a ceramic-tile mural by Kenneth Gale, Will Rogers Auditorium",
+          "url": "https://commons.wikimedia.org/wiki/File:Part_of_a_ceramic-tile_mural_by_Works_Project_Administration_artist_Kenneth_Gale,_depicting_Texas_history,_at_the_Will_Rogers_Auditorium,_now_part_of_the_Will_Rogers_Memorial_Center_in_Fort_Worth,_LCCN2013650766.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-will-rogers-memorial-center.glb",
+      "source": "generators/dal-will-rogers-memorial-center.ts"
     }
   ],
   "landmarks": [
@@ -32578,6 +32688,22 @@
       "wikidata": "Q16953984",
       "replaces": [
         "way/179096189"
+      ]
+    },
+    {
+      "id": "dal-will-rogers-memorial-center",
+      "name": "Will Rogers Memorial Center",
+      "model": "dal-will-rogers-memorial-center",
+      "place": "dallas-area",
+      "lng": -97.36613,
+      "lat": 32.7458,
+      "bearing": 0.9,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/178613280",
+        "way/178613282",
+        "way/614113504"
       ]
     }
   ],
