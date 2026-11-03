@@ -24489,6 +24489,86 @@
       ],
       "file": "models/nyc-times-square-recruiting-station.glb",
       "source": "generators/nyc-times-square-recruiting-station.ts"
+    },
+    {
+      "id": "nyc-two-times-square-signs",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "billboard",
+        "neon",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "2017 Coke Sign.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2017_Coke_Sign.jpg",
+          "author": "Primary686",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Times Square New York City November 25, 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_New_York_City_November_25,_2018.jpg",
+          "author": "Jaggerhornik",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Square, New York 2019 11.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_New_York_2019_11.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Times Square, New York City, 20231003 1238 1922.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_New_York_City,_20231003_1238_1922.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Times Square, New York City, 20231003 1238 1920.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_New_York_City,_20231003_1238_1920.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "New York, 2019 (48621790642).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York,_2019_(48621790642).jpg",
+          "author": "Sergiy Galyonkin",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Good Riddance Day 2024 15.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Good_Riddance_Day_2024_15.jpg",
+          "author": "SWinxy",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "2025-10-19 02.41.42 Choi Kwang-mo Nongshim Shin Ramyun Light Ups New York Times Square with KPop Demon Hunters.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2025-10-19_02.41.42_Choi_Kwang-mo_Nongshim_Shin_Ramyun_Light_Ups_New_York_Times_Square_with_KPop_Demon_Hunters.jpg",
+          "author": "Choikwangmo25",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/nyc-two-times-square-signs.glb",
+      "source": "generators/nyc-two-times-square-signs.ts"
     }
   ],
   "landmarks": [
@@ -38471,6 +38551,18 @@
       "replaces": [
         "way/258646144"
       ]
+    },
+    {
+      "id": "nyc-two-times-square-signs",
+      "name": "Two Times Square Signs (Coca-Cola Sign)",
+      "model": "nyc-two-times-square-signs",
+      "place": "times-square",
+      "lng": -73.9847453,
+      "lat": 40.7594686,
+      "bearing": 22,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
     }
   ],
   "places": [
