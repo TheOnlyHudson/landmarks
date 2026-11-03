@@ -24569,6 +24569,64 @@
       ],
       "file": "models/nyc-two-times-square-signs.glb",
       "source": "generators/nyc-two-times-square-signs.ts"
+    },
+    {
+      "id": "nyc-new-amsterdam-theatre-sign",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "marquee",
+        "theatre",
+        "times-square",
+        "art-deco"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "New Amsterdam Theatre.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Amsterdam_Theatre.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "New Amsterdam Theatre Mary Poppins 2007 NYC.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Amsterdam_Theatre_Mary_Poppins_2007_NYC.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Times Square after dark sign 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_after_dark_sign_3.jpg",
+          "author": "The All-Nite Images",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The New Amsterdam (52766994176).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_New_Amsterdam_(52766994176).jpg",
+          "author": "Eden, Janine and Jim",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/nyc-new-amsterdam-theatre-sign.glb",
+      "source": "generators/nyc-new-amsterdam-theatre-sign.ts"
     }
   ],
   "landmarks": [
@@ -38563,6 +38621,20 @@
       "elevation": 0,
       "minzoom": 16,
       "replaces": []
+    },
+    {
+      "id": "nyc-new-amsterdam-theatre-sign",
+      "name": "New Amsterdam Theatre Sign",
+      "model": "nyc-new-amsterdam-theatre-sign",
+      "place": "times-square",
+      "lng": -73.9877076,
+      "lat": 40.7562137,
+      "bearing": 208.55,
+      "elevation": 0,
+      "minzoom": 17,
+      "replaces": [
+        "way/591988931"
+      ]
     }
   ],
   "places": [
