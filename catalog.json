@@ -18910,6 +18910,84 @@
       ],
       "file": "models/dal-choctaw-stadium.glb",
       "source": "generators/dal-choctaw-stadium.ts"
+    },
+    {
+      "id": "dal-globe-life-field",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "ballpark",
+        "retractable-roof"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arlington June 2020 5 (Globe Life Field).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arlington_June_2020_5_(Globe_Life_Field).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Globelifefield june2020.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Globelifefield_june2020.jpg",
+          "author": "Drone To Fly",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Globe Life Field exterior 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Globe_Life_Field_exterior_2025.jpg",
+          "author": "BullDawg2021",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Globe Life Field Exterior 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Globe_Life_Field_Exterior_2024.jpg",
+          "author": "Brycenrichter",
+          "license": "CC0"
+        },
+        {
+          "title": "Richard Greene Linear Park June 2020 12 (Globe Life Park in Arlington).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Richard_Greene_Linear_Park_June_2020_12_(Globe_Life_Park_in_Arlington).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Richard Greene Linear Park June 2020 13 (Globe Life Park in Arlington).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Richard_Greene_Linear_Park_June_2020_13_(Globe_Life_Park_in_Arlington).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "20210523 globe life field interior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20210523_globe_life_field_interior.jpg",
+          "author": "Ivansevil",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "GlobeLifeField2021.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:GlobeLifeField2021.jpg",
+          "author": "slgckgc",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-globe-life-field.glb",
+      "source": "generators/dal-globe-life-field.ts"
     }
   ],
   "landmarks": [
@@ -31689,6 +31767,21 @@
         "way/28270489",
         "relation/19321550",
         "relation/19321551"
+      ]
+    },
+    {
+      "id": "dal-globe-life-field",
+      "name": "Globe Life Field",
+      "model": "dal-globe-life-field",
+      "place": "dallas-area",
+      "lng": -97.084199,
+      "lat": 32.747465,
+      "bearing": 0,
+      "elevation": -15.2,
+      "minzoom": 14,
+      "wikidata": "Q24284037",
+      "replaces": [
+        "way/704674261"
       ]
     }
   ],
