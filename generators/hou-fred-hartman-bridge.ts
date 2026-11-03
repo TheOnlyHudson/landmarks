@@ -73,9 +73,11 @@
  *
  * Estimated from the photos, scaled by the lidar:
  * - each diamond: legs 3 m either side of the tower's centre at the foot,
- *   12 m at the deck (they pass the deck's edges), meeting at 124 m under a
- *   solid head to 134 m; legs 3.4 m across and 4.2 m along the bridge; a
- *   strut under the deck between the legs;
+ *   14.8 m at the deck (they pass the deck's edges), meeting at 124 m under
+ *   a solid head to 134 m; legs 4.4 m across and 5.0 m along the bridge
+ *   (rework: Highsmith's deck photo puts a leg at about 4.2 m across against
+ *   the A's spread, and Roy Luck's end view at about 4.3 m); a strut under
+ *   the deck between the legs;
  * - 12 stays per fan (each tower has four fans: two planes, main and back
  *   side), anchored on the upper legs from 92 to 122 m; on the deck from
  *   14 m off the tower to 15 m short of midspan, and to 132 m out on the
@@ -100,6 +102,33 @@
  *   apart along the axis. The diamonds' feet below the deck and the stay
  *   count are read from photos, not drawings.
  * - Terrain (tools/terrain.ts check, map with the footprint fill): ok.
+ *
+ * Rework (user review: "a thin yellow vertical sliver" in the sheet's SW
+ * view). The sheet looks from the south-west, 35 degrees up; at bearing 47
+ * that is straight down the span, so a 670 m bridge 56 m wide is drawn as a
+ * tall narrow column with the four diamonds stacked inside it. That is the
+ * honest geometry of the sheet view for this bridge, not a modelling fault;
+ * broadside (from 137 or 317) and in the oblique photo views the model reads.
+ * Compared broadside with "Fred Hartman Bridge.JPG" (Sam, from the San
+ * Jacinto Monument to the NW, about 310) and obliquely with Feller's (from
+ * about 68, ENE), Roy Luck's (about 212, SSW, low), the Coast Guard aerial
+ * (about 200, 15 degrees up) and Highsmith's deck view. The diamonds, the
+ * two inclined stay planes per tower, the deck profile and the round La
+ * Porte pier caps all matched; what differed and changed:
+ * - the legs were thin and grey against the photos' broad white concrete:
+ *   now 4.4 x 5.0 m (was 3.4 x 4.2), the concrete a whiter #eceae2 (was
+ *   #e6e4dc), WIDE_X 14.8 (was 14.3) so the legs' inner faces stay outside
+ *   the decks' edges;
+ * - the stay fans were faint at 80 px broadside: the veil opacity 0.3 (was
+ *   0.22), the yellow more saturated (#e6cf3a, was #dccf5e, from the USCG
+ *   and Highsmith photos), the four drawn stays per fan in the low model
+ *   1.1 m thick (was 0.9).
+ * The deck edge (2.35 m green girder under a 1 m pale parapet) already
+ * matched Luck's and the USCG photos and is unchanged. Remaining
+ * differences: the low model's fans read as yellow sheets where the photos
+ * show separate lines (pale in haze); the two decks' towers stand in line
+ * (lidar staggers them 2-3 m); the head's opening under the apex
+ * (Highsmith) is not drawn.
  */
 import { Part, writeGlb, type V3 } from './mesh'
 import { band, groundAt, merged, rod, stations, type GroundGrid } from './bridge-kit'
@@ -146,8 +175,8 @@ const stays = new Part()      // detail model: every stay
 // ---- Towers ------------------------------------------------------------------
 
 const APEX = 124, TOP = 134
-const LEG_W = 3.4, LEG_T = 4.2
-const FOOT_X = 3.0, WIDE_X = 14.3
+const LEG_W = 4.4, LEG_T = 5.0
+const FOOT_X = 3.0, WIDE_X = 14.8
 
 /** One diamond tower at (xc, yt). Returns the stay anchor on each leg at height z. */
 function tower(xc: number, yt: number) {
@@ -209,7 +238,7 @@ for (const xc of DECKS)
           const [t0, d0] = line[k], [t1, d1] = line[k + 1]
           fan.tri(t0, d0, d1); fan.tri(t0, d1, t1)
         }
-        for (const k of [0, 4, 8, N_STAYS - 1]) rod(edgeStays, line[k][0], line[k][1], 0.45, 3)
+        for (const k of [0, 4, 8, N_STAYS - 1]) rod(edgeStays, line[k][0], line[k][1], 0.55, 3)
       }
   }
 
@@ -241,11 +270,11 @@ for (const y of [-END, END])
 
 // ---- Write -----------------------------------------------------------------------
 
-const CONCRETE = finish('tower-concrete', 0xe6e4dc)
+const CONCRETE = finish('tower-concrete', 0xeceae2)
 const GREEN = finish('girder-green', 0x6aa97c, 0.6)
 const UNDER = finish('deck-underside', 0x5f927c)
-const YELLOW = finish('stay-yellow', 0xdccf5e, 0.5)
-const VEIL = { ...finish('stay-fan', 0xdccf5e, 0.5), opacity: 0.22, doubleSided: true }
+const YELLOW = finish('stay-yellow', 0xe6cf3a, 0.5)
+const VEIL = { ...finish('stay-fan', 0xe6cf3a, 0.5), opacity: 0.3, doubleSided: true }
 
 const low = [
   { part: concrete, material: CONCRETE },
