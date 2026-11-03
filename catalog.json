@@ -18817,6 +18817,86 @@
       ],
       "file": "models/hou-mfah-beck-building.glb",
       "source": "generators/hou-mfah-beck-building.ts"
+    },
+    {
+      "id": "hou-rothko-chapel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "chapel",
+        "museum",
+        "modernist",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Rothko Chapel - 1 August 2010",
+          "url": "https://commons.wikimedia.org/wiki/File:Rothko_Chapel_-_1_August_2010.jpg",
+          "author": "David Van Horn",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Rothko Chapel, Menil Collection, Houston, Texas - 20130915-02",
+          "url": "https://commons.wikimedia.org/wiki/File:Rothko_Chapel,_Menil_Collection,_Houston,_Texas_-_20130915-02.JPG",
+          "author": "Jacklee",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Broken Obelisk in front of the Rothko Chapel -- Houston, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:Broken_Obelisk_in_front_of_the_Rothko_Chapel_--_Houston,_Texas.jpg",
+          "author": "Jim Evans",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barnett Newman Broken Obelisk Rothko Chapel (HDR)",
+          "url": "https://commons.wikimedia.org/wiki/File:Barnett_Newman_Broken_Obelisk_Rothko_Chapel_(HDR).jpg",
+          "author": "Ed Uthman",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Rothko Chapel",
+          "url": "https://commons.wikimedia.org/wiki/File:Rothko_Chapel.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "Rothko Chapel 2010-04-18",
+          "url": "https://commons.wikimedia.org/wiki/File:Rothko_Chapel_2010-04-18.jpg",
+          "author": "charlie vinz",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Rothko Chapel, Houston in 2012",
+          "url": "https://commons.wikimedia.org/wiki/File:Rothko_Chapel,_Houston_in_2012.JPG",
+          "author": "Another Believer",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Rothko Chapel (8088569886)",
+          "url": "https://commons.wikimedia.org/wiki/File:Rothko_Chapel_(8088569886).jpg",
+          "author": "Aleksandr Zykov",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/hou-rothko-chapel.glb",
+      "source": "generators/hou-rothko-chapel.ts"
     }
   ],
   "landmarks": [
@@ -31519,6 +31599,21 @@
         "way/1559187456"
       ],
       "wikidata": "Q119820228"
+    },
+    {
+      "id": "hou-rothko-chapel",
+      "name": "Rothko Chapel",
+      "model": "hou-rothko-chapel",
+      "place": "houston-area",
+      "lng": -95.3962022,
+      "lat": 29.7376093,
+      "bearing": 359.3,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/87657067"
+      ],
+      "wikidata": "Q2956755"
     }
   ],
   "places": [
