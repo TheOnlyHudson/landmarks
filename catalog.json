@@ -24023,6 +24023,75 @@
       ],
       "file": "models/nyc-tsx-broadway-screen.glb",
       "source": "generators/nyc-tsx-broadway-screen.ts"
+    },
+    {
+      "id": "nyc-20-times-square-screen",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "billboard",
+        "led-screen",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The 18,000 sq ft LED wall wrapping the corner of Seventh Avenue and 47th Street on 20 Times Square (the Times Square EDITION). Signage only; the tower is the map's own building.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Times Square, New York 2019 12.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_New_York_2019_12.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Times Square, New York 2019 17.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_New_York_2019_17.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Times Square, New York 2019 13.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_New_York_2019_13.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "View of Times Square (May 2023).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Times_Square_(May_2023).JPG",
+          "author": "Benoît Prieur",
+          "license": "CC0"
+        },
+        {
+          "title": "20 Times Square - The Times Square EDITION (55283756778).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20_Times_Square_-_The_Times_Square_EDITION_(55283756778).jpg",
+          "author": "Flickr user 83136374@N05",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Times Square, NYC at night - August 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_NYC_at_night_-_August_2025.jpg",
+          "author": "Nielsoncaetanosalmeron",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/nyc-20-times-square-screen.glb",
+      "source": "generators/nyc-20-times-square-screen.ts"
     }
   ],
   "landmarks": [
@@ -37929,6 +37998,18 @@
       "lat": 40.758994,
       "bearing": 29,
       "elevation": 7.8,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-20-times-square-screen",
+      "name": "20 Times Square Screen",
+      "model": "nyc-20-times-square-screen",
+      "place": "times-square",
+      "lng": -73.984417,
+      "lat": 40.75922,
+      "bearing": 29,
+      "elevation": 9.5,
       "minzoom": 16,
       "replaces": []
     }
