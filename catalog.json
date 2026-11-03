@@ -18218,6 +18218,86 @@
       ],
       "file": "models/dal-thanks-giving-chapel.glb",
       "source": "generators/dal-thanks-giving-chapel.ts"
+    },
+    {
+      "id": "dal-dallas-city-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "civic",
+        "city-hall",
+        "brutalist",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "DallasCityHallB.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DallasCityHallB.jpg",
+          "author": "Kent Wang",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "DallasCityHallA.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DallasCityHallA.jpg",
+          "author": "Daquella manera",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Dallas City Hall, Dallas, Texas LCCN2015630778",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_City_Hall,_Dallas,_Texas_LCCN2015630778.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "View of Dallas City Hall from Reunion Tower August 2015 14.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Dallas_City_Hall_from_Reunion_Tower_August_2015_14.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aerial view of main elevation (north) looking southwest, HABS TEX,57-DAL,1-1",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_main_elevation_(north)_looking_southwest_-_Dallas_City_Hall,_City_Hall_Plaza,_Dallas,_Dallas_County,_TX_HABS_TEX,57-DAL,1-1.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Aerial view of main and side (west) elevations, HABS TEX,57-DAL,1-5",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_main_and_side_(west)_elevations,looking_east_-_Dallas_City_Hall,_City_Hall_Plaza,_Dallas,_Dallas_County,_TX_HABS_TEX,57-DAL,1-5.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Aerial view of rear (south) elevation, HABS TEX,57-DAL,1-7",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_rear_(south)_elevation_-_Dallas_City_Hall,_City_Hall_Plaza,_Dallas,_Dallas_County,_TX_HABS_TEX,57-DAL,1-7.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Aerial view of south and east elevations, HABS TEX,57-DAL,1-8",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_south_and_east_elevations_-_Dallas_City_Hall,_City_Hall_Plaza,_Dallas,_Dallas_County,_TX_HABS_TEX,57-DAL,1-8.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-dallas-city-hall.glb",
+      "source": "generators/dal-dallas-city-hall.ts"
     }
   ],
   "landmarks": [
@@ -30849,6 +30929,21 @@
       "wikidata": "Q124117919",
       "replaces": [
         "way/654112871"
+      ]
+    },
+    {
+      "id": "dal-dallas-city-hall",
+      "name": "Dallas City Hall",
+      "model": "dal-dallas-city-hall",
+      "place": "dallas-area",
+      "lng": -96.7969359,
+      "lat": 32.7762606,
+      "bearing": 345,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1157989",
+      "replaces": [
+        "way/27129838"
       ]
     }
   ],
