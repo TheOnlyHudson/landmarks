@@ -16085,6 +16085,109 @@
       ],
       "file": "models/nyc-jfk-terminal-1.glb",
       "source": "generators/nyc-jfk-terminal-1.ts"
+    },
+    {
+      "id": "dal-reunion-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "observation-tower",
+        "geodesic-dome",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Reunion Tower 2026.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower_2026.jpg",
+          "author": "FeaturingDallas",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reunion Tower Dallas Texas Closeup 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower_Dallas_Texas_Closeup_2017.jpg",
+          "author": "Robert Kixmiller",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reunion Tower, a 561-foot-high observation tower (LCCN2014632137)",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower,_a_561-foot-high_observation_tower,_completed_in_1978,_that_is_one_of_the_most_recognizable_landmarks_in_Dallas,_Texas_LCCN2014632137.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Reunion-Tower-0244.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion-Tower-0244.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reunion-Tower-0251.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion-Tower-0251.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reunion-Tower-0259.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion-Tower-0259.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reunion-Tower-0268.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion-Tower-0268.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reunion Tower, Dallas, Texas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower,_Dallas,_Texas.jpg",
+          "author": "Texas Lane",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reunion Tower - Hyatt Regency.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower_-_Hyatt_Regency.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reunion tower dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_tower_dallas.jpg",
+          "author": "Batrak",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Dallas reunion tower.jpg (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_reunion_tower.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Reunion Tower and the moon - Dallas, Texas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower_and_the_moon_-_Dallas,_Texas.jpg",
+          "author": "Shiva Shenoy",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/dal-reunion-tower.glb",
+      "source": "generators/dal-reunion-tower.ts"
     }
   ],
   "landmarks": [
@@ -28129,6 +28232,26 @@
         "way/284907685"
       ],
       "wikidata": "Q55855378"
+    },
+    {
+      "id": "dal-reunion-tower",
+      "name": "Reunion Tower",
+      "model": "dal-reunion-tower",
+      "place": "dallas-area",
+      "lng": -96.808945,
+      "lat": 32.775358,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q1248619",
+      "replaces": [
+        "way/1428779225",
+        "way/1491048355",
+        "way/1491048356",
+        "way/1491048357",
+        "way/1491048358",
+        "way/1491048359"
+      ]
     }
   ],
   "places": [
