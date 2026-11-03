@@ -23561,6 +23561,86 @@
       ],
       "file": "models/nyc-duffy-square-statues.glb",
       "source": "generators/nyc-duffy-square-statues.ts"
+    },
+    {
+      "id": "nyc-nasdaq-marketsite",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "billboard",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Nasdaq MarketSite (51494550508).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Nasdaq_MarketSite_(51494550508).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Nasdaq Tower May 2026.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Nasdaq_Tower_May_2026.jpg",
+          "author": "Nielsoncaetanosalmeron",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "NASA Mars Perseverance on Nasdaq MarketSite (NHQ202102180119).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Perseverance_on_Nasdaq_MarketSite_(NHQ202102180119).jpg",
+          "author": "NASA/Emma Howells",
+          "license": "Public domain"
+        },
+        {
+          "title": "NASA Mars Perseverance on Nasdaq MarketSite (NHQ202102180118).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Perseverance_on_Nasdaq_MarketSite_(NHQ202102180118).jpg",
+          "author": "NASA/Emma Howells",
+          "license": "Public domain"
+        },
+        {
+          "title": "Times sqare Nasdaq.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_sqare_Nasdaq.jpg",
+          "author": "Kerrbenj",
+          "license": "CC BY-SA 1.0"
+        },
+        {
+          "title": "NASDAQ Times Square - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NASDAQ_Times_Square_-_panoramio.jpg",
+          "author": "Roman SUZUKI",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Naava nasdaq times square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Naava_nasdaq_times_square.jpg",
+          "author": "Aavikkovarpunen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "4 & 1 Times Square",
+          "url": "https://www.flickr.com/photos/10485077@N06/49575783063",
+          "author": "edenpictures",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/nyc-nasdaq-marketsite.glb",
+      "source": "generators/nyc-nasdaq-marketsite.ts"
     }
   ],
   "landmarks": [
@@ -37379,6 +37459,18 @@
       "bearing": 29,
       "elevation": 0,
       "minzoom": 17,
+      "replaces": []
+    },
+    {
+      "id": "nyc-nasdaq-marketsite",
+      "name": "Nasdaq MarketSite",
+      "model": "nyc-nasdaq-marketsite",
+      "place": "times-square",
+      "lng": -73.9859953,
+      "lat": 40.7563467,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
       "replaces": []
     }
   ],
