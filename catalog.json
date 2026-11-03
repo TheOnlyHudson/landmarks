@@ -19047,6 +19047,75 @@
       ],
       "file": "models/hou-beer-can-house.glb",
       "source": "generators/hou-beer-can-house.ts"
+    },
+    {
+      "id": "hou-moody-gardens-pyramids",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "pyramid",
+        "glass",
+        "aquarium",
+        "conservatory",
+        "attraction"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Moody Gardens Pyramids Galveston Texas 2026.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Moody_Gardens_Pyramids_Galveston_Texas_2026.jpg",
+          "author": "Larry D. Moore",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Rainforest Pyramid Moody Gardens.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rainforest_Pyramid_Moody_Gardens.jpg",
+          "author": "Supportstorm",
+          "license": "Public domain"
+        },
+        {
+          "title": "Discovery Pyramid Moody Gardens.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Discovery_Pyramid_Moody_Gardens.jpg",
+          "author": "Supportstorm",
+          "license": "Public domain"
+        },
+        {
+          "title": "The Aquarium at Moody Gardens.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Aquarium_at_Moody_Gardens.jpg",
+          "author": "Supportstorm",
+          "license": "Public domain"
+        },
+        {
+          "title": "Moody Gardens Rainforest Pyramid (14248736931).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Moody_Gardens_Rainforest_Pyramid_(14248736931).jpg",
+          "author": "Lydia Liu",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Moody Gardens, Galveston, Texas LCCN2011630258.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Moody_Gardens,_Galveston,_Texas_LCCN2011630258.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/hou-moody-gardens-pyramids.glb",
+      "source": "generators/hou-moody-gardens-pyramids.ts"
     }
   ],
   "landmarks": [
@@ -31794,6 +31863,22 @@
         "way/874518448"
       ],
       "wikidata": "Q4879943"
+    },
+    {
+      "id": "hou-moody-gardens-pyramids",
+      "name": "Moody Gardens Pyramids",
+      "model": "hou-moody-gardens-pyramids",
+      "place": "houston-area",
+      "lng": -94.8530978,
+      "lat": 29.2750417,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/33851702",
+        "way/33851713",
+        "way/33851735"
+      ]
     }
   ],
   "places": [
