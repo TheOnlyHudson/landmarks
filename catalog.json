@@ -18437,6 +18437,75 @@
       ],
       "file": "models/hou-lakewood-church.glb",
       "source": "generators/hou-lakewood-church.ts"
+    },
+    {
+      "id": "hou-sam-houston-monument",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "historic",
+        "memorial",
+        "equestrian-statue",
+        "arch",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Sam Houston Monument in Hermann Park.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Sam_Houston_Monument_in_Hermann_Park.JPG",
+          "author": "Agsftw",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Sam Houston Monument in Hermann Park (cropped) (1).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Sam_Houston_Monument_in_Hermann_Park_(cropped)_(1).JPG",
+          "author": "Agsftw",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hermann Park, Sam Houston monument, 2012.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Hermann_Park,_Sam_Houston_monument,_2012.JPG",
+          "author": "Another Believer",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Sam Houston monument, Hermann Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sam_Houston_monument,_Hermann_Park.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Sam Houston Monument.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Sam_Houston_Monument.JPG",
+          "author": "Agsftw",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Gfp-texas-houston-horse-statue-hermann-park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gfp-texas-houston-horse-statue-hermann-park.jpg",
+          "author": "Yinan Chen",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/hou-sam-houston-monument.glb",
+      "source": "generators/hou-sam-houston-monument.ts"
     }
   ],
   "landmarks": [
@@ -31053,6 +31122,19 @@
       "replaces": [
         "way/118780514"
       ]
+    },
+    {
+      "id": "hou-sam-houston-monument",
+      "name": "Sam Houston Monument",
+      "model": "hou-sam-houston-monument",
+      "place": "houston-area",
+      "lng": -95.39097,
+      "lat": 29.72159,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q15274648",
+      "replaces": []
     }
   ],
   "places": [
