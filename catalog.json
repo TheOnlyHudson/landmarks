@@ -16930,6 +16930,85 @@
       ],
       "file": "models/hou-1910-courthouse.glb",
       "source": "generators/hou-1910-courthouse.ts"
+    },
+    {
+      "id": "hou-heritage-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Heritage Plaza 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Heritage_Plaza_01.JPG",
+          "author": "Taruru",
+          "license": "Public domain"
+        },
+        {
+          "title": "Heritage Plaza 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Heritage_Plaza_03.JPG",
+          "author": "Taruru",
+          "license": "Public domain"
+        },
+        {
+          "title": "Heritage Plaza 04",
+          "url": "https://commons.wikimedia.org/wiki/File:Heritage_Plaza_04.JPG",
+          "author": "Taruru",
+          "license": "Public domain"
+        },
+        {
+          "title": "Heritage Plaza, Downtown Houston",
+          "url": "https://commons.wikimedia.org/wiki/File:Heritage_Plaza,_Downtown_Houston.jpg",
+          "author": "Tammra",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Heritage Plaza Building Houston Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:Heritage_Plaza_Building_Houston_Texas.jpg",
+          "author": "W0lfie",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Heritage Plaza Building",
+          "url": "https://commons.wikimedia.org/wiki/File:Heritage_Plaza_Building.jpg",
+          "author": "Rick Kimpel",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Heritage Plaza, Houston, Texas in 2012",
+          "url": "https://commons.wikimedia.org/wiki/File:Heritage_Plaza,_Houston,_Texas_in_2012.JPG",
+          "author": "Another Believer",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Julia Ideson Building & Heritage Plaza, Houston, TX",
+          "url": "https://commons.wikimedia.org/wiki/File:Julia_Ideson_Building_%26_Heritage_Plaza,_Houston,_TX.jpg",
+          "author": "JStephanMease",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/hou-heritage-plaza.glb",
+      "source": "generators/hou-heritage-plaza.ts"
     }
   ],
   "landmarks": [
@@ -29190,6 +29269,25 @@
       "replaces": [
         "way/54046920",
         "way/503659681"
+      ]
+    },
+    {
+      "id": "hou-heritage-plaza",
+      "name": "Heritage Plaza",
+      "model": "hou-heritage-plaza",
+      "place": "houston-area",
+      "lng": -95.370724,
+      "lat": 29.758784,
+      "bearing": 34.9,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q1510199",
+      "replaces": [
+        "way/1512782864",
+        "way/1511778219",
+        "way/1511778220",
+        "way/1511778221",
+        "way/1511778222"
       ]
     }
   ],
