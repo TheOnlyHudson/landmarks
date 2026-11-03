@@ -19811,6 +19811,61 @@
       ],
       "file": "models/dal-ariat-arena.glb",
       "source": "generators/dal-ariat-arena.ts"
+    },
+    {
+      "id": "dal-cityplace-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cityplace Tower in Dallas, Texas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cityplace_Tower_in_Dallas,_Texas.jpg",
+          "author": "Drumguy8800 at English Wikipedia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cityplace Center 1988.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cityplace_Center_1988.jpg",
+          "author": "Justin Cozart",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Uptown Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Uptown_Dallas.jpg",
+          "author": "Aceplace at English Wikipedia",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Downtown Dallas with CityPlace skyline in foreground",
+          "url": "https://www.flickr.com/photos/52949402@N03/47270068882",
+          "author": "skys the limit2",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-cityplace-tower.glb",
+      "source": "generators/dal-cityplace-tower.ts"
     }
   ],
   "landmarks": [
@@ -32756,6 +32811,23 @@
       "minzoom": 14,
       "replaces": [
         "way/878763596"
+      ]
+    },
+    {
+      "id": "dal-cityplace-tower",
+      "name": "Cityplace Tower",
+      "model": "dal-cityplace-tower",
+      "place": "dallas-area",
+      "lng": -96.792392,
+      "lat": 32.805521,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q7829750",
+      "replaces": [
+        "way/26329683",
+        "way/710355796",
+        "way/710355797"
       ]
     }
   ],
