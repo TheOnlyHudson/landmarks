@@ -16402,6 +16402,54 @@
       ],
       "file": "models/hou-pennzoil-place.glb",
       "source": "generators/hou-pennzoil-place.ts"
+    },
+    {
+      "id": "hou-iah-terminal-e",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "airport",
+        "terminal"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "IAH 3",
+          "url": "https://commons.wikimedia.org/wiki/File:IAH_3.jpg",
+          "author": "Daniel2986 at en.wikipedia",
+          "license": "Public domain"
+        },
+        {
+          "title": "Bush Terminal E",
+          "url": "https://commons.wikimedia.org/wiki/File:Bush_Terminal_E.jpg",
+          "author": "Henry Han",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "IAH - George Bush Intercontinental Airport Terminal E - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:IAH_-_George_Bush_Intercontinental_Airport_Terminal_E_-_panoramio.jpg",
+          "author": "Bohao Zhao",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/hou-iah-terminal-e.glb",
+      "source": "generators/hou-iah-terminal-e.ts"
     }
   ],
   "landmarks": [
@@ -28525,6 +28573,21 @@
         "way/260511512",
         "way/260511513",
         "way/260511516"
+      ]
+    },
+    {
+      "id": "hou-iah-terminal-e",
+      "name": "George Bush Intercontinental Airport Terminal E",
+      "model": "hou-iah-terminal-e",
+      "place": "houston-area",
+      "lng": -95.333833,
+      "lat": 29.985221,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q56100816",
+      "replaces": [
+        "way/191969986"
       ]
     }
   ],
