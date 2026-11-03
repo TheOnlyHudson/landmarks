@@ -19934,6 +19934,69 @@
       ],
       "file": "models/dal-southfork-ranch.glb",
       "source": "generators/dal-southfork-ranch.ts"
+    },
+    {
+      "id": "dal-the-crescent",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "hotel",
+        "shopping",
+        "postmodern",
+        "complex"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Crescent 2016.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Crescent_2016.jpg",
+          "author": "Dallasedits",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Crescent, Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Crescent,_Dallas.jpg",
+          "author": "André Corboz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Crescent Uptown Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Crescent_Uptown_Dallas.jpg",
+          "author": "Dallasedits",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Crescent Atrium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Crescent_Atrium.jpg",
+          "author": "Dallasedits",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Rosewood Crescent Hotel courtyard.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Rosewood_Crescent_Hotel_courtyard.jpg",
+          "author": "Kari Sullivan",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-the-crescent.glb",
+      "source": "generators/dal-the-crescent.ts"
     }
   ],
   "landmarks": [
@@ -32911,6 +32974,26 @@
       "wikidata": "Q1474427",
       "replaces": [
         "way/172351926"
+      ]
+    },
+    {
+      "id": "dal-the-crescent",
+      "name": "The Crescent",
+      "model": "dal-the-crescent",
+      "place": "dallas-area",
+      "lng": -96.804225,
+      "lat": 32.794243,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/619505674",
+        "way/28544759",
+        "way/619505673",
+        "way/619505672",
+        "way/619505671",
+        "way/619505670",
+        "relation/6941686"
       ]
     }
   ],
