@@ -31417,6 +31417,12 @@
       "kind": "region"
     },
     {
+      "id": "six-flags-over-texas",
+      "name": "Six Flags Over Texas",
+      "kind": "site",
+      "parent": "dallas-area"
+    },
+    {
       "id": "walt-disney-world",
       "name": "Walt Disney World",
       "kind": "site"
