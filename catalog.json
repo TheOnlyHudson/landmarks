@@ -17272,6 +17272,67 @@
       ],
       "file": "models/hou-one-shell-plaza.glb",
       "source": "generators/hou-one-shell-plaza.ts"
+    },
+    {
+      "id": "hou-astrodome",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "historic",
+        "domed-stadium",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "NRG Stadium, Houston, Texas, United States (2017 aerial)",
+          "url": "https://commons.wikimedia.org/wiki/File:NRG_Stadium,_Houston,_Texas,_United_States.jpg",
+          "author": "U.S. Customs and Border Protection",
+          "license": "Public domain"
+        },
+        {
+          "title": "Reliant Astrodome in January 2014",
+          "url": "https://commons.wikimedia.org/wiki/File:Reliant_Astrodome_in_January_2014.jpg",
+          "author": "EricEnfermero",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "ReliantAstrodomeClosup",
+          "url": "https://commons.wikimedia.org/wiki/File:ReliantAstrodomeClosup.JPG",
+          "author": "WhisperToMe",
+          "license": "Public domain"
+        },
+        {
+          "title": "Houston Astrodome, HAER TX-108 (east and north elevations, north facade detail)",
+          "url": "https://commons.wikimedia.org/wiki/File:EAST_ELEVATION,_LOOKING_WEST._-_Houston_Astrodome,_8400_Kirby_Drive,_Houston,_Harris_County,_TX_HAER_TX-108-3.tif",
+          "author": "Jet Lowe (Historic American Engineering Record)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Reliant Astrodome (3436391630)",
+          "url": "https://commons.wikimedia.org/wiki/File:Reliant_Astrodome_(3436391630).jpg",
+          "author": "Mark Hodgins",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/hou-astrodome.glb",
+      "source": "generators/hou-astrodome.ts"
     }
   ],
   "landmarks": [
@@ -29613,6 +29674,21 @@
         "way/260365758"
       ],
       "wikidata": "Q1537698"
+    },
+    {
+      "id": "hou-astrodome",
+      "name": "Astrodome",
+      "model": "hou-astrodome",
+      "place": "houston-area",
+      "lng": -95.407742,
+      "lat": 29.684871,
+      "bearing": 0,
+      "elevation": -7.6,
+      "minzoom": 14,
+      "wikidata": "Q1025406",
+      "replaces": [
+        "way/119420928"
+      ]
     }
   ],
   "places": [
