@@ -20078,6 +20078,80 @@
       ],
       "file": "models/dal-mustangs-of-las-colinas.glb",
       "source": "generators/dal-mustangs-of-las-colinas.ts"
+    },
+    {
+      "id": "dal-irving-convention-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "convention-center",
+        "contemporary",
+        "las-colinas"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q6074525",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "City of Irving, Texas - Convention Center",
+          "url": "https://commons.wikimedia.org/wiki/File:City_of_Irving,_Texas_-_Convention_Center.jpg",
+          "author": "Renanville",
+          "license": "CC0"
+        },
+        {
+          "title": "The Irving Convention Center in Irving, Texas (LCCN2015630716)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Irving_Convention_Center_in_Irving,_Texas,_an_upscale_community_in_the_Dallas-Fort_Worth_metroplex_LCCN2015630716.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "The Irving Convention Center in Irving, Texas (LCCN2015630546)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Irving_Convention_Center_in_Irving,_Texas,_part_of_the_Dallas-Fort_Worth_metroplex_area_LCCN2015630546.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Irving Convention Center Exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Irving_Convention_Center_Exterior.JPG",
+          "author": "Irvingtexas",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Outside Irving Convention Center",
+          "url": "https://commons.wikimedia.org/wiki/File:Outside_Irving_Convention_Center.jpg",
+          "author": "Irvingtexas",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Irving Convention Center Water Fountain",
+          "url": "https://commons.wikimedia.org/wiki/File:Irving_Convention_Center_Water_Fountain.JPG",
+          "author": "Irvingtexas",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Irving Convention Center Exterior at Sunrise",
+          "url": "https://commons.wikimedia.org/wiki/File:Irving_Convention_Center_Exterior_at_Sunrise.jpg",
+          "author": "Irvingtexas",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dal-irving-convention-center.glb",
+      "source": "generators/dal-irving-convention-center.ts"
     }
   ],
   "landmarks": [
@@ -33089,6 +33163,21 @@
       "minzoom": 17,
       "replaces": [],
       "wikidata": "Q4308520"
+    },
+    {
+      "id": "dal-irving-convention-center",
+      "name": "Irving Convention Center at Las Colinas",
+      "model": "dal-irving-convention-center",
+      "place": "dallas-area",
+      "lng": -96.943198,
+      "lat": 32.878041,
+      "bearing": 347.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/499314166"
+      ],
+      "wikidata": "Q6074525"
     }
   ],
   "places": [
