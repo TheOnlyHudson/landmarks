@@ -20152,6 +20152,56 @@
       ],
       "file": "models/dal-irving-convention-center.glb",
       "source": "generators/dal-irving-convention-center.ts"
+    },
+    {
+      "id": "dal-ford-center-the-star",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "indoor-stadium",
+        "american-football",
+        "dallas-cowboys",
+        "frisco"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Ford Center at the Star - May 2018 - Exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Ford_Center_at_the_Star_-_May_2018_-_Exterior.jpg",
+          "author": "Danazar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ford Center at the Star",
+          "url": "https://commons.wikimedia.org/wiki/File:Ford_Center_at_the_Star.jpg",
+          "author": "Danazar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Star in Frisco front view - 20261020",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Star_in_Frisco_front_view_-_20261020.jpg",
+          "author": "매일 누군가가 도둑맞을 때마다",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/dal-ford-center-the-star.glb",
+      "source": "generators/dal-ford-center-the-star.ts"
     }
   ],
   "landmarks": [
@@ -33178,6 +33228,21 @@
         "way/499314166"
       ],
       "wikidata": "Q6074525"
+    },
+    {
+      "id": "dal-ford-center-the-star",
+      "name": "Ford Center at The Star",
+      "model": "dal-ford-center-the-star",
+      "place": "dallas-area",
+      "lng": -96.828335,
+      "lat": 33.110625,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/518594979",
+        "way/1197569929"
+      ]
     }
   ],
   "places": [
