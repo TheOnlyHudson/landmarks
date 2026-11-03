@@ -18108,6 +18108,73 @@
       ],
       "file": "models/hou-wortham-theater-center.glb",
       "source": "generators/hou-wortham-theater-center.ts"
+    },
+    {
+      "id": "hou-museum-of-natural-science",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "planetarium",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Houston Museum of Natural Science - Flickr - pinemikey (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_Museum_of_Natural_Science_-_Flickr_-_pinemikey_(1).jpg",
+          "author": "Michael Martin",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Houston Museum of Natural Science - Flickr - pinemikey",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_Museum_of_Natural_Science_-_Flickr_-_pinemikey.jpg",
+          "author": "Michael Martin",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "HoustonMuseumOfNaturalScience Pano",
+          "url": "https://commons.wikimedia.org/wiki/File:HoustonMuseumOfNaturalScience_Pano.jpg",
+          "author": "Wolfgang Manousek",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Houston Museum of Natural Science, entrance in 2012",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_Museum_of_Natural_Science,_entrance_in_2012.JPG",
+          "author": "Another Believer",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Burke-Baker Planetarium Houston",
+          "url": "https://commons.wikimedia.org/wiki/File:Burke-Baker_Planetarium_Houston.jpg",
+          "author": "Ed Uthman",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Grand Entry Hall of the Houston Museum of Natural Science",
+          "url": "https://commons.wikimedia.org/wiki/File:Grand_Entry_Hall_of_the_Houston_Museum_of_Natural_Science.JPG",
+          "author": "Agsftw",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/hou-museum-of-natural-science.glb",
+      "source": "generators/hou-museum-of-natural-science.ts"
     }
   ],
   "landmarks": [
@@ -30647,6 +30714,21 @@
       "wikidata": "Q8037195",
       "replaces": [
         "way/54044832"
+      ]
+    },
+    {
+      "id": "hou-museum-of-natural-science",
+      "name": "Houston Museum of Natural Science",
+      "model": "hou-museum-of-natural-science",
+      "place": "houston-area",
+      "lng": -95.3897,
+      "lat": 29.72212,
+      "bearing": 35.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q610401",
+      "replaces": [
+        "way/217678285"
       ]
     }
   ],
