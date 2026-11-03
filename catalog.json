@@ -16752,6 +16752,54 @@
       ],
       "file": "models/dal-comerica-bank-tower.glb",
       "source": "generators/dal-comerica-bank-tower.ts"
+    },
+    {
+      "id": "dal-love-field-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "airport",
+        "control-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "KDAL ATCT",
+          "url": "https://commons.wikimedia.org/wiki/File:KDAL_ATCT_(2986073040).jpg",
+          "author": "Cory W. Watts",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "As luck would have it",
+          "url": "https://commons.wikimedia.org/wiki/File:As_luck_would_have_it_(3013696220).jpg",
+          "author": "Cory W. Watts",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "DallasLoveFieldEastConcourse-2009",
+          "url": "https://commons.wikimedia.org/wiki/File:DallasLoveFieldEastConcourse-2009.JPG",
+          "author": "LoneStarMike",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/dal-love-field-tower.glb",
+      "source": "generators/dal-love-field-tower.ts"
     }
   ],
   "landmarks": [
@@ -28993,6 +29041,21 @@
       "wikidata": "Q2743574",
       "replaces": [
         "way/28015874"
+      ]
+    },
+    {
+      "id": "dal-love-field-tower",
+      "name": "Dallas Love Field Air Traffic Control Tower",
+      "model": "dal-love-field-tower",
+      "place": "dallas-area",
+      "lng": -96.8494,
+      "lat": 32.84518,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/744685687",
+        "way/443151009"
       ]
     }
   ],
