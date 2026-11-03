@@ -215,14 +215,14 @@ function build() {
 
   // ---- entrance: glazed lobby, curved balcony, glass band, curved band ----
   panel(door, [-7.5, -16.2], [30, -15.2], 0.3, 14.8, 0, 4.4, 0.05)
-  const ring = [...arc([-6.8, -16.4], [9.2, -16.4], 7.4, 10), [9.2, -16.4]]
+  const ring: XY[] = [...arc([-6.8, -16.4], [9.2, -16.4], 7.4, 10), [9.2, -16.4]]
   walls(conc, ring, 4.6, 7.8 - 0.3)
   walls(conc, ring, 7.4, 7.8, inset(ring, 0.3))
   cap(plant, inset(ring, 0.3), 7.8)
   cap(conc, ring, 4.6, false)
   // the lobby glass band over the balcony, then the upper curved band
   panel(win, [-7.5, -16.2], [30, -15.2], 0.6, 16.8, 7.8, 11.0, 0.05)
-  const up = [...arc([-4.2, -16.3], [7.4, -16.3], 3.4, 8), [7.4, -16.3]]
+  const up: XY[] = [...arc([-4.2, -16.3], [7.4, -16.3], 3.4, 8), [7.4, -16.3]]
   walls(conc, up, 11.0, 12.4 - 0.3)
   walls(conc, up, 12.1, 12.4, inset(up, 0.3))
   cap(roof, inset(up, 0.3), 12.4)
