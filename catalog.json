@@ -17992,6 +17992,93 @@
       ],
       "file": "models/dal-texas-star.glb",
       "source": "generators/dal-texas-star.ts"
+    },
+    {
+      "id": "dal-hall-of-state",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "art-deco",
+        "museum",
+        "fair-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q5642713",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Texas Hall of State at Fair Park (LCCN2015630304)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Texas_Hall_of_State_at_Fair_Park,_site_of_the_1936_Texas_Centennial_celebration_in_Dallas,_Texas,_where_the_structure_was_called_the_State_of_Texas_Building_LCCN2015630304.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "The Hall of State at Fair Park (LCCN2015630308)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Hall_of_State_at_Fair_Park,_site_of_the_1936_Texas_Centennial_celebration_and_the_Pan-American_Exposition_in_1937_in_Dallas,_Texas_LCCN2015630308.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fair Park August 2016 46 (Hall of State)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fair_Park_August_2016_46_(Hall_of_State).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fair Park August 2016 47 (Hall of State)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fair_Park_August_2016_47_(Hall_of_State).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Fair Park Hall of State 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Fair_Park_Hall_of_State_2009.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Hall of State 6",
+          "url": "https://commons.wikimedia.org/wiki/File:Hall_of_State_6.jpg",
+          "author": "Eejjmm8888",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hall of State 7",
+          "url": "https://commons.wikimedia.org/wiki/File:Hall_of_State_7.jpg",
+          "author": "Eejjmm8888",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Fair Park Hall of State at night 2014",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Fair_Park_Hall_of_State_at_night_2014.jpg",
+          "author": "Larry D. Moore",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Hall of State during the 2021 State Fair of Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:Hall_of_State_during_the_2021_State_Fair_of_Texas.jpg",
+          "author": "ZTPeterson",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dal-hall-of-state.glb",
+      "source": "generators/dal-hall-of-state.ts"
     }
   ],
   "landmarks": [
@@ -30574,6 +30661,21 @@
       "minzoom": 14,
       "wikidata": "Q1318837",
       "replaces": []
+    },
+    {
+      "id": "dal-hall-of-state",
+      "name": "Hall of State",
+      "model": "dal-hall-of-state",
+      "place": "dallas-area",
+      "lng": -96.7610538,
+      "lat": 32.7807531,
+      "bearing": 17.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5642713",
+      "replaces": [
+        "way/27113243"
+      ]
     }
   ],
   "places": [
