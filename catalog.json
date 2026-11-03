@@ -24397,6 +24397,98 @@
       ],
       "file": "models/nyc-1600-broadway-signs.glb",
       "source": "generators/nyc-1600-broadway-signs.ts"
+    },
+    {
+      "id": "nyc-times-square-recruiting-station",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "neon",
+        "flag",
+        "kiosk",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Recruiting station on Times Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Recruiting_station_on_Times_Square.jpg",
+          "author": "Ypsilon from Finland",
+          "license": "CC0"
+        },
+        {
+          "title": "US Armed Forces Recruiting Station Times Square (41284420372).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:US_Armed_Forces_Recruiting_Station_Times_Square_(41284420372).jpg",
+          "author": "Nan Palmero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "US Armed Forces Recruiting Station Times Square (41326363841).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:US_Armed_Forces_Recruiting_Station_Times_Square_(41326363841).jpg",
+          "author": "Nan Palmero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "U.S. Armed Forces Recruiting Station - Times Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:U.S._Armed_Forces_Recruiting_Station_-_Times_Square.jpg",
+          "author": "PumpkinSky",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Times Square US Army Recruiting Station (New York) (43427509240).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_US_Army_Recruiting_Station_(New_York)_(43427509240).jpg",
+          "author": "VillageHero",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "New York Us armed forces recruitment station.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_Us_armed_forces_recruitment_station.jpg",
+          "author": "Aviation poseidon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Usforces.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Usforces.jpg",
+          "author": "Andrevruas",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "New York City am 20.4.2014 8.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_City_am_20.4.2014_8.jpg",
+          "author": "Christian Alexander Tietgen",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "New York City (52766724129).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_City_(52766724129).jpg",
+          "author": "Chad Davis",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "New York City Times Square 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_City_Times_Square_01.jpg",
+          "author": "Norbert Nagel",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/nyc-times-square-recruiting-station.glb",
+      "source": "generators/nyc-times-square-recruiting-station.ts"
     }
   ],
   "landmarks": [
@@ -38365,6 +38457,20 @@
       "elevation": 0,
       "minzoom": 16,
       "replaces": []
+    },
+    {
+      "id": "nyc-times-square-recruiting-station",
+      "name": "Times Square Recruiting Station",
+      "model": "nyc-times-square-recruiting-station",
+      "place": "times-square",
+      "lng": -73.9862031,
+      "lat": 40.756838,
+      "bearing": 22.7,
+      "elevation": 0,
+      "minzoom": 17,
+      "replaces": [
+        "way/258646144"
+      ]
     }
   ],
   "places": [
