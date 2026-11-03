@@ -16270,6 +16270,72 @@
       ],
       "file": "models/hou-wells-fargo-plaza.glb",
       "source": "generators/hou-wells-fargo-plaza.ts"
+    },
+    {
+      "id": "hou-tc-energy-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Bank of America Center Houston 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Center_Houston_1.jpg",
+          "author": "Jim Porter from Houston, usa",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Bank of America Center Houston.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Center_Houston.JPG",
+          "author": "W0lfie",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Bank of America Center (Houston).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Center_(Houston).jpg",
+          "author": "PSE02 at en.wikipedia",
+          "license": "Public domain"
+        },
+        {
+          "title": "Bank of America Center in Downtown Houston.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Center_in_Downtown_Houston.JPG",
+          "author": "Agsftw",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "BOAC bottom.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BOAC_bottom.jpg",
+          "author": "Dhanix at en.wikipedia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Pennzoil Place in Houston - Dec 2013.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Pennzoil_Place_in_Houston_-_Dec_2013.JPG",
+          "author": "Agsftw",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/hou-tc-energy-center.glb",
+      "source": "generators/hou-tc-energy-center.ts"
     }
   ],
   "landmarks": [
@@ -28356,6 +28422,25 @@
       "wikidata": "Q57767",
       "replaces": [
         "way/44821987"
+      ]
+    },
+    {
+      "id": "hou-tc-energy-center",
+      "name": "TC Energy Center",
+      "model": "hou-tc-energy-center",
+      "place": "houston-area",
+      "lng": -95.3664587,
+      "lat": 29.7606448,
+      "bearing": 34.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q806669",
+      "replaces": [
+        "way/54169596",
+        "way/469467449",
+        "way/469474539",
+        "way/469560065",
+        "way/470270252"
       ]
     }
   ],
