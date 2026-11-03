@@ -37175,6 +37175,13 @@
       "name": "Camp North End",
       "kind": "site",
       "parent": "charlotte-area"
+    },
+    {
+      "id": "times-square",
+      "name": "Times Square",
+      "kind": "site",
+      "parent": "new-york-area",
+      "wikidata": "Q11259"
     }
   ]
 }
