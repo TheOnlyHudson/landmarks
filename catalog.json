@@ -18457,6 +18457,98 @@
       ],
       "file": "models/dal-perot-museum.glb",
       "source": "generators/dal-perot-museum.ts"
+    },
+    {
+      "id": "dal-cotton-bowl",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "art-deco",
+        "historic",
+        "fair-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fair Park August 2016 39 (Cotton Bowl Stadium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fair_Park_August_2016_39_(Cotton_Bowl_Stadium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fair Park August 2016 40 (Cotton Bowl Stadium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fair_Park_August_2016_40_(Cotton_Bowl_Stadium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fair Park August 2016 83 (Cotton Bowl Plaza).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fair_Park_August_2016_83_(Cotton_Bowl_Plaza).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Texas State Fair Cotton Bowl from skyway 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_State_Fair_Cotton_Bowl_from_skyway_1.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Texas State Fair Cotton Bowl from skyway 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_State_Fair_Cotton_Bowl_from_skyway_2.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "2019 State Fair Classic 01 (Cotton Bowl).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_State_Fair_Classic_01_(Cotton_Bowl).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Cotton Bowl and Fair Park Esplanade in Fair Park.png",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Cotton_Bowl_and_Fair_Park_Esplanade_in_Fair_Park.png",
+          "author": "IcedCowboyCoffee",
+          "license": "CC0"
+        },
+        {
+          "title": "View from Top o' Texas Tower September 2019 06 (Cotton Bowl).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_from_Top_o%27_Texas_Tower_September_2019_06_(Cotton_Bowl).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View from Top o' Texas Tower September 2019 10 (Cotton Bowl).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_from_Top_o%27_Texas_Tower_September_2019_10_(Cotton_Bowl).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cotton Bowl (14404700530).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cotton_Bowl_(14404700530).jpg",
+          "author": "BobbbyLight",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-cotton-bowl.glb",
+      "source": "generators/dal-cotton-bowl.ts"
     }
   ],
   "landmarks": [
@@ -31133,6 +31225,22 @@
       "replaces": [
         "way/618964796",
         "way/1188705976"
+      ]
+    },
+    {
+      "id": "dal-cotton-bowl",
+      "name": "Cotton Bowl Stadium",
+      "model": "dal-cotton-bowl",
+      "place": "dallas-area",
+      "lng": -96.7595899,
+      "lat": 32.7795954,
+      "bearing": 314,
+      "elevation": -7,
+      "minzoom": 14,
+      "wikidata": "Q1136764",
+      "replaces": [
+        "relation/1640835",
+        "way/27112448"
       ]
     }
   ],
