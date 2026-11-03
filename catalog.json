@@ -17425,6 +17425,79 @@
       ],
       "file": "models/dal-winspear-opera-house.glb",
       "source": "generators/dal-winspear-opera-house.ts"
+    },
+    {
+      "id": "dal-wyly-theatre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "theatre",
+        "modernist",
+        "performing-arts"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas Wyly Theatre 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Wyly_Theatre_01.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Wyly Theatre 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Wyly_Theatre_02.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Wyly Theatre 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Wyly_Theatre_03.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Wyly Theatre from Winspear Opera",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Wyly_Theatre_from_Winspear_Opera.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Wyly Theatre May 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Wyly_Theatre_May_2009.jpg",
+          "author": "Luis Tamayo",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Distant view of the Dee and Charles Wyly Theatre",
+          "url": "https://commons.wikimedia.org/wiki/File:Distant_view_of_the_Dee_and_Charles_Wyly_Theatre_(edited).jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Wyly Theatre at Night",
+          "url": "https://commons.wikimedia.org/wiki/File:Wyly_Theatre_at_Night.jpg",
+          "author": "RFTunnell",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dal-wyly-theatre.glb",
+      "source": "generators/dal-wyly-theatre.ts"
     }
   ],
   "landmarks": [
@@ -29899,6 +29972,23 @@
         "way/1414653513",
         "way/1414653514",
         "way/1414653515"
+      ]
+    },
+    {
+      "id": "dal-wyly-theatre",
+      "name": "Wyly Theatre",
+      "model": "dal-wyly-theatre",
+      "place": "dallas-area",
+      "lng": -96.7963821,
+      "lat": 32.7900031,
+      "bearing": 46,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5249965",
+      "replaces": [
+        "way/361449421",
+        "way/1396184197",
+        "way/1396184198"
       ]
     }
   ],
