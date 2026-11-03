@@ -16450,6 +16450,86 @@
       ],
       "file": "models/hou-iah-terminal-e.glb",
       "source": "generators/hou-iah-terminal-e.ts"
+    },
+    {
+      "id": "hou-williams-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1357650",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Williams Tower in Houston - Dec 2013",
+          "url": "https://commons.wikimedia.org/wiki/File:Williams_Tower_in_Houston_-_Dec_2013.JPG",
+          "author": "Agsftw",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "HoustonWilliamsTower",
+          "url": "https://commons.wikimedia.org/wiki/File:HoustonWilliamsTower.jpg",
+          "author": "Argos'Dad",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "TranscoWilliamsTower1 (147355748)",
+          "url": "https://commons.wikimedia.org/wiki/File:TranscoWilliamsTower1_(147355748).jpg",
+          "author": "Ed Schipul",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Williamstower",
+          "url": "https://commons.wikimedia.org/wiki/File:Williamstower.jpg",
+          "author": "Hequals2henry",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Williams Tower Front",
+          "url": "https://commons.wikimedia.org/wiki/File:Williams_Tower_Front.jpg",
+          "author": "Ksaziz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hot air balloon passing by williams energy tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Hot_air_balloon_passing_by_williams_energy_tower.jpg",
+          "author": "Bill Jacobus",
+          "license": "Public domain"
+        },
+        {
+          "title": "Williams Tower, (formerly the Transco Tower) a skyscraper located in the Uptown District of Houston, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:Williams_Tower,_(formerly_the_Transco_Tower)_a_skyscraper_located_in_the_Uptown_District_of_Houston,_Texas_LCCN2011634993.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Williams Tower (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:Williams_Tower.jpg",
+          "author": "Bill Jacobus",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/hou-williams-tower.glb",
+      "source": "generators/hou-williams-tower.ts"
     }
   ],
   "landmarks": [
@@ -28588,6 +28668,35 @@
       "wikidata": "Q56100816",
       "replaces": [
         "way/191969986"
+      ]
+    },
+    {
+      "id": "hou-williams-tower",
+      "name": "Williams Tower",
+      "model": "hou-williams-tower",
+      "place": "houston-area",
+      "wikidata": "Q1357650",
+      "lng": -95.461394,
+      "lat": 29.737262,
+      "bearing": 359.1,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/48486714",
+        "relation/8221404",
+        "way/581342682",
+        "way/581342685",
+        "way/581342686",
+        "way/581354690",
+        "way/581354691",
+        "way/581354692",
+        "way/581354693",
+        "way/581354694",
+        "way/581354695",
+        "way/581354696",
+        "way/581354697",
+        "way/581354698",
+        "way/581354699"
       ]
     }
   ],
