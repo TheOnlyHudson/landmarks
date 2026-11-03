@@ -17,6 +17,7 @@
   <div id="map" role="region" aria-label="Interactive map of landmark locations"></div>
 
   <aside class="panel browse" aria-label="Landmark collection">
+    <div class="sheet-grip" aria-hidden="true"></div>
     <header class="brand-bar">
       <a class="brand" href="./">
         <span class="brand-mark"><i data-icon="landmark"></i></span>
@@ -53,7 +54,6 @@
     <div class="results-bar">
       <span id="result-count" role="status">Loading…</span>
       <button id="reset-map" class="text-button" type="button" title="Clear filters and fit the whole collection">Reset view</button>
-      <button id="toggle-results" class="text-button results-toggle" type="button" aria-controls="results" aria-expanded="true"><i data-icon="list"></i><span>Hide list</span></button>
     </div>
     <p id="collection-status" class="notice" role="status"></p>
     <div id="results" class="results" aria-label="Search results"></div>
@@ -62,6 +62,7 @@
   <div id="map-status" class="map-status" role="status">Loading map…</div>
 
   <aside id="inspector" class="panel inspector" aria-label="Selected landmark">
+    <div class="sheet-grip" aria-hidden="true"></div>
     <div class="viewer-wrap">
       <model-viewer id="viewer" camera-controls auto-rotate rotation-per-second="12deg" touch-action="pan-y" shadow-intensity="1" exposure="1.1" camera-orbit="-35deg 70deg auto" interaction-prompt="none" autoplay></model-viewer>
       <div id="model-status" class="model-status" role="status">Loading model…</div>
@@ -81,6 +82,7 @@
     </div>
 
     <header class="inspector-head">
+      <button id="sheet-close" class="icon-button sheet-close" type="button" aria-label="Back to the list" title="Back to the list"><i data-icon="x"></i></button>
       <p id="model-location" class="eyebrow"></p>
       <h1 id="place-name">Choose a landmark</h1>
       <div id="badges" class="badges"></div>
