@@ -19577,6 +19577,92 @@
       ],
       "file": "models/dal-new-texas-giant.glb",
       "source": "generators/dal-new-texas-giant.ts"
+    },
+    {
+      "id": "dal-smu-dallas-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "university",
+        "georgian-revival",
+        "dome",
+        "nrhp"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas Hall on the campus of Southern Methodist University, Dallas, Texas LCCN2015630915.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall_on_the_campus_of_Southern_Methodist_University,_Dallas,_Texas_LCCN2015630915.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dallas Hall (Southern Methodist University) in May 2008.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall_(Southern_Methodist_University)_in_May_2008.jpg",
+          "author": "Spencerjc1",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Hall.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall.jpg",
+          "author": "Spencerjc1",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Hall1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall1.JPG",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dallas Hall at SMU looking northeast.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall_at_SMU_looking_northeast.jpg",
+          "author": "Abrown4055",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Hall (Southern Methodist University).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall_(Southern_Methodist_University).JPG",
+          "author": "Jeffrey Beall",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Hall Southern Methodist University.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Hall_Southern_Methodist_University.jpg",
+          "author": "Ed Uthman",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Southern Methodist University July 2016 108 (Dallas Hall).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Southern_Methodist_University_July_2016_108_(Dallas_Hall).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "SMU Dallas Hall.png",
+          "url": "https://commons.wikimedia.org/wiki/File:SMU_Dallas_Hall.png",
+          "author": "Elred",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/dal-smu-dallas-hall.glb",
+      "source": "generators/dal-smu-dallas-hall.ts"
     }
   ],
   "landmarks": [
@@ -32477,6 +32563,21 @@
         "way/603559507",
         "way/603559508",
         "way/104655708"
+      ]
+    },
+    {
+      "id": "dal-smu-dallas-hall",
+      "name": "Dallas Hall, Southern Methodist University",
+      "model": "dal-smu-dallas-hall",
+      "place": "dallas-area",
+      "lng": -96.7849011,
+      "lat": 32.8452576,
+      "bearing": 1.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q16953984",
+      "replaces": [
+        "way/179096189"
       ]
     }
   ],
