@@ -18079,6 +18079,84 @@
       ],
       "file": "models/dal-hall-of-state.glb",
       "source": "generators/dal-hall-of-state.ts"
+    },
+    {
+      "id": "dal-dallas-museum-of-art",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas Museum of Art July 2015 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Museum_of_Art_July_2015_01.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Museum of Art July 2015 13.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Museum_of_Art_July_2015_13.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "DMA west.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DMA_west.jpg",
+          "author": "KeithJonsn at English Wikipedia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Museum of Art 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Museum_of_Art_01.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dallas Museum of Art.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Museum_of_Art.jpg",
+          "author": "Kent Wang",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Downtown Dallas TX 2013-06-08 067.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Downtown_Dallas_TX_2013-06-08_067.jpg",
+          "author": "Thomas R Machnitzki",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Entrance of Dallas Museum - Mar 3, 2009.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Entrance_of_Dallas_Museum_-_Mar_3,_2009.jpg",
+          "author": "cliff williams",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Entrance to the Dallas Museum of Art in Dallas, Texas LCCN2014633039.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Dallas_Museum_of_Art_in_Dallas,_Texas_LCCN2014633039.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-dallas-museum-of-art.glb",
+      "source": "generators/dal-dallas-museum-of-art.ts"
     }
   ],
   "landmarks": [
@@ -30675,6 +30753,26 @@
       "wikidata": "Q5642713",
       "replaces": [
         "way/27113243"
+      ]
+    },
+    {
+      "id": "dal-dallas-museum-of-art",
+      "name": "Dallas Museum of Art",
+      "model": "dal-dallas-museum-of-art",
+      "place": "dallas-area",
+      "lng": -96.8010673,
+      "lat": 32.7876533,
+      "bearing": 45.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q745866",
+      "replaces": [
+        "relation/6942581",
+        "relation/20586729",
+        "way/678928341",
+        "way/678928340",
+        "way/31265436",
+        "way/471658474"
       ]
     }
   ],
