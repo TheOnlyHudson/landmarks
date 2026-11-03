@@ -18812,6 +18812,104 @@
       ],
       "file": "models/dal-bass-performance-hall.glb",
       "source": "generators/dal-bass-performance-hall.ts"
+    },
+    {
+      "id": "dal-choctaw-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "ballpark",
+        "football",
+        "soccer",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Richard Greene Linear Park June 2020 08 (Globe Life Park in Arlington).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Richard_Greene_Linear_Park_June_2020_08_(Globe_Life_Park_in_Arlington).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Richard Greene Linear Park June 2020 04 (Globe Life Park in Arlington).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Richard_Greene_Linear_Park_June_2020_04_(Globe_Life_Park_in_Arlington).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Richard Greene Linear Park June 2020 13 (Globe Life Park in Arlington).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Richard_Greene_Linear_Park_June_2020_13_(Globe_Life_Park_in_Arlington).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Globe Life Park, the home field of the Texas Rangers ... LCCN2015630514",
+          "url": "https://commons.wikimedia.org/wiki/File:Globe_Life_Park,_the_home_field_of_the_Texas_Rangers_Major_League_Baseball_team_in_Arlington,_Texas_LCCN2015630514.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Globe Life Park, the home field of the Texas Rangers ... LCCN2015630684",
+          "url": "https://commons.wikimedia.org/wiki/File:Globe_Life_Park,_the_home_field_of_the_Texas_Rangers_Major_League_Baseball_team_in_Arlington,_Texas_LCCN2015630684.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "The Ballpark, home of the Texas Rangers major-league baseball team, Arlington, Texas LCCN2011633379",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Ballpark,_home_of_the_Texas_Rangers_major-league_baseball_team,_Arlington,_Texas_LCCN2011633379.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rangers Ball Park Home Plate Enterance Panorama.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rangers_Ball_Park_Home_Plate_Enterance_Panorama.jpg",
+          "author": "Supportstorm",
+          "license": "Public domain"
+        },
+        {
+          "title": "Globe Life Park in 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Globe_Life_Park_in_2018.jpg",
+          "author": "KENGRIFFEY24FAN",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rangers Ballpark Arlington.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rangers_Ballpark_Arlington.jpg",
+          "author": "Oyoyoy",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Arlington - Texas 2010 010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arlington_-_Texas_2010_010.jpg",
+          "author": "Veronidae",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ballpark in Arlington May 2009.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ballpark_in_Arlington_May_2009.jpg",
+          "author": "Rich Anderson",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-choctaw-stadium.glb",
+      "source": "generators/dal-choctaw-stadium.ts"
     }
   ],
   "landmarks": [
@@ -31575,6 +31673,23 @@
         "way/483466355"
       ],
       "wikidata": "Q2887300"
+    },
+    {
+      "id": "dal-choctaw-stadium",
+      "name": "Choctaw Stadium",
+      "model": "dal-choctaw-stadium",
+      "place": "dallas-area",
+      "lng": -97.082563,
+      "lat": 32.751252,
+      "bearing": 0,
+      "elevation": -6.7,
+      "minzoom": 14,
+      "wikidata": "Q1634492",
+      "replaces": [
+        "way/28270489",
+        "relation/19321550",
+        "relation/19321551"
+      ]
     }
   ],
   "places": [
