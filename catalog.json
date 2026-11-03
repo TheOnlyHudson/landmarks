@@ -16302,6 +16302,67 @@
       ],
       "file": "models/dal-renaissance-tower.glb",
       "source": "generators/dal-renaissance-tower.ts"
+    },
+    {
+      "id": "dal-fountain-place",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "View of Fountain Place from Reunion Tower August 2015 21",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Fountain_Place_from_Reunion_Tower_August_2015_21.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Fountain Place 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Fountain_Place_1.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Fountain Place 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Fountain_Place_2.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Downtown Dallas, Texas, with a focus on Fountain Place",
+          "url": "https://commons.wikimedia.org/wiki/File:Downtown_Dallas,_Texas,_with_a_focus_on_Fountain_Place,_a_60-story_late-modernist_skyscraper_LCCN2014632088.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fountain place",
+          "url": "https://commons.wikimedia.org/wiki/File:Fountain_place.jpg",
+          "author": "Kumar Appaiah",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-fountain-place.glb",
+      "source": "generators/dal-fountain-place.ts"
     }
   ],
   "landmarks": [
@@ -28402,6 +28463,26 @@
         "way/28182729"
       ],
       "wikidata": "Q1515605"
+    },
+    {
+      "id": "dal-fountain-place",
+      "name": "Fountain Place",
+      "model": "dal-fountain-place",
+      "place": "dallas-area",
+      "lng": -96.802544,
+      "lat": 32.7847969,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/73213058",
+        "way/1491062886",
+        "way/1491062887",
+        "way/1491062888",
+        "way/1491062889",
+        "way/1493186371"
+      ],
+      "wikidata": "Q2462521"
     }
   ],
   "places": [
