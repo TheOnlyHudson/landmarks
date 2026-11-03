@@ -19997,6 +19997,87 @@
       ],
       "file": "models/dal-the-crescent.glb",
       "source": "generators/dal-the-crescent.ts"
+    },
+    {
+      "id": "dal-mustangs-of-las-colinas",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "public-art",
+        "bronze",
+        "fountain",
+        "las-colinas"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q4308520",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Mustangs of Las Colinas (aerial)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Mustangs_of_Las_Colinas.jpg",
+          "author": "Justplainfolks",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "View of the \"Mustangs of Las Colinas\" sculpture (LCCN2015630704)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_%22Mustangs_of_Las_Colinas%22_sculpture_in_the_upscale_Las_Colinas_neighborhood_of_Irving,_Texas_LCCN2015630704.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "View of the \"Mustangs of Las Colinas\" sculpture (LCCN2015630708)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_%22Mustangs_of_Las_Colinas%22_sculpture_in_the_upscale_Las_Colinas_neighborhood_of_Irving,_Texas_LCCN2015630708.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "View of the \"Mustangs of Las Colinas\" sculpture (LCCN2015630709)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_%22Mustangs_of_Las_Colinas%22_sculpture_in_the_upscale_Las_Colinas_neighborhood_of_Irving,_Texas_LCCN2015630709.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "View of the \"Mustangs of Las Colinas\" sculpture (LCCN2015630712)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_%22Mustangs_of_Las_Colinas%22_sculpture_in_the_upscale_Las_Colinas_neighborhood_of_Irving,_Texas_LCCN2015630712.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Mustangs Las Colinas",
+          "url": "https://commons.wikimedia.org/wiki/File:Mustangs_Las_Colinas.jpg",
+          "author": "Av9",
+          "license": "Public domain"
+        },
+        {
+          "title": "Mustangs at Las Colinas",
+          "url": "https://commons.wikimedia.org/wiki/File:Mustangs_at_Las_Colinas.jpg",
+          "author": "Wesley Fryer",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Monument in Dallas",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_in_Dallas.jpg",
+          "author": "Honza.d",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dal-mustangs-of-las-colinas.glb",
+      "source": "generators/dal-mustangs-of-las-colinas.ts"
     }
   ],
   "landmarks": [
@@ -32995,6 +33076,19 @@
         "way/619505670",
         "relation/6941686"
       ]
+    },
+    {
+      "id": "dal-mustangs-of-las-colinas",
+      "name": "Mustangs of Las Colinas",
+      "model": "dal-mustangs-of-las-colinas",
+      "place": "dallas-area",
+      "lng": -96.938778,
+      "lat": 32.870585,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 17,
+      "replaces": [],
+      "wikidata": "Q4308520"
     }
   ],
   "places": [
