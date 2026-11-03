@@ -18506,6 +18506,67 @@
       ],
       "file": "models/hou-sam-houston-monument.glb",
       "source": "generators/hou-sam-houston-monument.ts"
+    },
+    {
+      "id": "hou-pioneer-memorial",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "historic",
+        "memorial",
+        "obelisk"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hermann Park, Houston, Pioneer Memorial in 2012.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Hermann_Park,_Houston,_Pioneer_Memorial_in_2012.JPG",
+          "author": "Another Believer",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hermann Park, Houston, Pioneer Memorial.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Hermann_Park,_Houston,_Pioneer_Memorial.JPG",
+          "author": "Another Believer",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Pioneer Memorial Obelisk 1936 at Houston's Hermann Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pioneer_Memorial_Obelisk_1936_at_Houston%27s_Hermann_Park.jpg",
+          "author": "RealtimeAI",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Pioneer Memorial Obelisk 1936 at Houston's Memorial Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pioneer_Memorial_Obelisk_1936_at_Houston%27s_Memorial_Park.jpg",
+          "author": "RealtimeAI",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Pioneer Memorial Hermann Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pioneer_Memorial_Hermann_Park.jpg",
+          "author": "Ed Uthman",
+          "license": "CC BY-SA 2.5"
+        }
+      ],
+      "file": "models/hou-pioneer-memorial.glb",
+      "source": "generators/hou-pioneer-memorial.ts"
     }
   ],
   "landmarks": [
@@ -31134,6 +31195,19 @@
       "elevation": 0,
       "minzoom": 16,
       "wikidata": "Q15274648",
+      "replaces": []
+    },
+    {
+      "id": "hou-pioneer-memorial",
+      "name": "Pioneer Memorial",
+      "model": "hou-pioneer-memorial",
+      "place": "houston-area",
+      "lng": -95.39094,
+      "lat": 29.71863,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q21188742",
       "replaces": []
     }
   ],
