@@ -18641,6 +18641,74 @@
       ],
       "file": "models/hou-rice-lovett-hall.glb",
       "source": "generators/hou-rice-lovett-hall.ts"
+    },
+    {
+      "id": "hou-mfah-law-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modernist",
+        "neoclassical",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Houston May 2022 26 (Museum of Fine Arts, Houston)",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_May_2022_26_(Museum_of_Fine_Arts,_Houston).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Law Building MFAH A",
+          "url": "https://commons.wikimedia.org/wiki/File:Law_Building_MFAH_A.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "Law Building MFAH",
+          "url": "https://commons.wikimedia.org/wiki/File:Law_Building_MFAH.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "MFAH Law Building",
+          "url": "https://commons.wikimedia.org/wiki/File:MFAH_Law_Building.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "MFA houston",
+          "url": "https://commons.wikimedia.org/wiki/File:MFA_houston.jpg",
+          "author": "Hequals2henry",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Museum of Fine Arts, Houston - 5883048922",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_Fine_Arts,_Houston_-_5883048922.jpg",
+          "author": "a rancid amoeba",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/hou-mfah-law-building.glb",
+      "source": "generators/hou-mfah-law-building.ts"
     }
   ],
   "landmarks": [
@@ -31297,6 +31365,21 @@
       "replaces": [
         "way/44896261"
       ]
+    },
+    {
+      "id": "hou-mfah-law-building",
+      "name": "Caroline Wiess Law Building",
+      "model": "hou-mfah-law-building",
+      "place": "houston-area",
+      "lng": -95.3904583,
+      "lat": 29.7256491,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/45776272"
+      ],
+      "wikidata": "Q118955205"
     }
   ],
   "places": [
