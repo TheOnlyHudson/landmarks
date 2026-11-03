@@ -17614,6 +17614,91 @@
       ],
       "file": "models/hou-fred-hartman-bridge.glb",
       "source": "generators/hou-fred-hartman-bridge.ts"
+    },
+    {
+      "id": "hou-daikin-park",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "baseball",
+        "retractable-roof",
+        "sports"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Minute Maid Park - Houston, Texas - DSC01317.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Minute_Maid_Park_-_Houston,_Texas_-_DSC01317.JPG",
+          "author": "Daderot",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Minute Maid Park outside nima.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Minute_Maid_Park_outside_nima.JPG",
+          "author": "زرشک",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Minute Maid Park - Crawford Street at Texas Avenue.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Minute_Maid_Park_-_Crawford_Street_at_Texas_Avenue.JPG",
+          "author": "Brian Reading",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Minute Maid Park exterior 2019-10-29.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Minute_Maid_Park_exterior_2019-10-29.jpg",
+          "author": "Thank You (21 Millions+) views",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "MinuteMaidParkExteriorHouston.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:MinuteMaidParkExteriorHouston.JPG",
+          "author": "WhisperToMe",
+          "license": "Public domain"
+        },
+        {
+          "title": "Houston, Texas (2024) - 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston,_Texas_(2024)_-_10.jpg",
+          "author": "Another Believer",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Minute Maid Park 2016-04-23.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Minute_Maid_Park_2016-04-23.jpg",
+          "author": "J Dimas",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Minute Maid Park satellite view.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Minute_Maid_Park_satellite_view.png",
+          "author": "NASA",
+          "license": "Public domain"
+        },
+        {
+          "title": "Minute Maid Park (Flickr 37716608186)",
+          "url": "https://www.flickr.com/photos/149560474@N03/37716608186",
+          "author": "SimplyDusty",
+          "license": "Public domain mark"
+        }
+      ],
+      "file": "models/hou-daikin-park.glb",
+      "source": "generators/hou-daikin-park.ts"
     }
   ],
   "landmarks": [
@@ -30051,6 +30136,21 @@
       "minzoom": 13,
       "wikidata": "Q4115158",
       "replaces": []
+    },
+    {
+      "id": "hou-daikin-park",
+      "name": "Daikin Park",
+      "model": "hou-daikin-park",
+      "place": "houston-area",
+      "lng": -95.355253,
+      "lat": 29.757215,
+      "bearing": 34.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/129025430"
+      ],
+      "wikidata": "Q1193671"
     }
   ],
   "places": [
