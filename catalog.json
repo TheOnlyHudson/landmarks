@@ -24678,6 +24678,69 @@
       ],
       "file": "models/nyc-lyric-theatre-marquee.glb",
       "source": "generators/nyc-lyric-theatre-marquee.ts"
+    },
+    {
+      "id": "nyc-madame-tussauds-sign",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "museum",
+        "times-square",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Madame Tussauds New York (51494328416).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Madame_Tussauds_New_York_(51494328416).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "0480New York City Madame Tussauds.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:0480New_York_City_Madame_Tussauds.JPG",
+          "author": "Laslovarga",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "42nd St 7th 8th Avs Mid td (2018-05-18) 07 - Madame Tussauds.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:42nd_St_7th_8th_Avs_Mid_td_(2018-05-18)_07_-_Madame_Tussauds.jpg",
+          "author": "Tdorante10",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Madame Tussauds NYC.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Madame_Tussauds_NYC.jpg",
+          "author": "Pccromeo",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "42nd Street in New York.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:42nd_Street_in_New_York.jpg",
+          "author": "Robert Parma",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/nyc-madame-tussauds-sign.glb",
+      "source": "generators/nyc-madame-tussauds-sign.ts"
     }
   ],
   "landmarks": [
@@ -38695,6 +38758,18 @@
       "lng": -73.9876825,
       "lat": 40.7564999,
       "bearing": 28.55,
+      "elevation": 0,
+      "minzoom": 17,
+      "replaces": []
+    },
+    {
+      "id": "nyc-madame-tussauds-sign",
+      "name": "Madame Tussauds New York Sign",
+      "model": "nyc-madame-tussauds-sign",
+      "place": "times-square",
+      "lng": -73.9882763,
+      "lat": 40.7564517,
+      "bearing": 208.55,
       "elevation": 0,
       "minzoom": 17,
       "replaces": []
