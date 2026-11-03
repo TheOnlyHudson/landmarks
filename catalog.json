@@ -17911,6 +17911,87 @@
       ],
       "file": "models/dal-margaret-mcdermott-bridge.glb",
       "source": "generators/dal-margaret-mcdermott-bridge.ts"
+    },
+    {
+      "id": "dal-texas-star",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "ride",
+      "tags": [
+        "ferris-wheel",
+        "amusement-ride",
+        "fair-park",
+        "animated"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1318837",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Texas Star ferris wheel in Fair Park Dallas 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Star_ferris_wheel_in_Fair_Park_Dallas_2026.png",
+          "author": "IcedCowboyCoffee",
+          "license": "CC0"
+        },
+        {
+          "title": "Texas Star (2937752973)",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Star_(2937752973).jpg",
+          "author": "Kelly DeLay",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Texas Star, Fair Park",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Star,_Fair_Park.jpg",
+          "author": "17Shamrocks",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Texas State Fair Texas Star",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_State_Fair_Texas_Star.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Fair Park ferris wheel",
+          "url": "https://commons.wikimedia.org/wiki/File:Fair_Park_ferris_wheel.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Texas-Star-4146",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas-Star-4146.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Texas Star - Texas State Fair",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Star_-_Texas_State_Fair.JPG",
+          "author": "Kairos14",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Texas Star at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Star_at_night.jpg",
+          "author": "John Griffiths",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dal-texas-star.glb",
+      "source": "generators/dal-texas-star.ts"
     }
   ],
   "landmarks": [
@@ -30479,6 +30560,19 @@
       "elevation": 0,
       "minzoom": 14,
       "wikidata": "Q18154095",
+      "replaces": []
+    },
+    {
+      "id": "dal-texas-star",
+      "name": "Texas Star",
+      "model": "dal-texas-star",
+      "place": "dallas-area",
+      "lng": -96.7592587,
+      "lat": 32.7767472,
+      "bearing": 90,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1318837",
       "replaces": []
     }
   ],
