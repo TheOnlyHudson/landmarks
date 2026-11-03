@@ -17822,6 +17822,95 @@
       ],
       "file": "models/dal-margaret-hunt-hill-bridge.glb",
       "source": "generators/dal-margaret-hunt-hill-bridge.ts"
+    },
+    {
+      "id": "dal-margaret-mcdermott-bridge",
+      "detail": "models/dal-margaret-mcdermott-bridge.detail.glb",
+      "detailZoom": 16,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "bridge",
+        "arch",
+        "calatrava",
+        "footbridge"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q18154095",
+      "references": [
+        {
+          "title": "Margaret McDermott Bridge.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Margaret_McDermott_Bridge.jpg",
+          "author": "Fkbowen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "MMB Dallas Nima1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MMB_Dallas_Nima1.jpg",
+          "author": "Nightryder84",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "MMB Dallas Nima2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MMB_Dallas_Nima2.jpg",
+          "author": "Nightryder84",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas bridge 2020 agsvsacsv xc (1) 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_bridge_2020_agsvsacsv_xc_(1)_01.jpg",
+          "author": "Gerardolagunes",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas bridge 2020 agsvsacsv xc (1) 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_bridge_2020_agsvsacsv_xc_(1)_02.jpg",
+          "author": "Gerardolagunes",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas bridge 2020 agsvsacsv xc (1) 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_bridge_2020_agsvsacsv_xc_(1)_03.jpg",
+          "author": "Gerardolagunes",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Margaret Hunt Bridge behind the Margaret McDermott Bridge (52291781500).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Margaret_Hunt_Bridge_behind_the_Margaret_McDermott_Bridge_(52291781500).jpg",
+          "author": "Shiva Shenoy",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "20160730-DSC 9933.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20160730-DSC_9933.jpg",
+          "author": "Ryanussery",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Margaret McDermott Bridge in Dallas Texas May of 2024.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Margaret_McDermott_Bridge_in_Dallas_Texas_May_of_2024.png",
+          "author": "IcedCowboyCoffee",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/dal-margaret-mcdermott-bridge.glb",
+      "source": "generators/dal-margaret-mcdermott-bridge.ts"
     }
   ],
   "landmarks": [
@@ -30378,6 +30467,19 @@
       "replaces": [
         "way/1275449057"
       ]
+    },
+    {
+      "id": "dal-margaret-mcdermott-bridge",
+      "name": "Margaret McDermott Bridge",
+      "model": "dal-margaret-mcdermott-bridge",
+      "place": "dallas-area",
+      "lng": -96.8179203,
+      "lat": 32.7702267,
+      "bearing": 76.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q18154095",
+      "replaces": []
     }
   ],
   "places": [
