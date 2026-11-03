@@ -18897,6 +18897,84 @@
       ],
       "file": "models/hou-rothko-chapel.glb",
       "source": "generators/hou-rothko-chapel.ts"
+    },
+    {
+      "id": "hou-menil-collection",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "MenilCollection.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:MenilCollection.JPG",
+          "author": "WhisperToMe",
+          "license": "Public domain"
+        },
+        {
+          "title": "The Menil Collection A",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Menil_Collection_A.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "Menil Collection Houston (5887512203)",
+          "url": "https://commons.wikimedia.org/wiki/File:Menil_Collection_Houston_(5887512203).jpg",
+          "author": "Francisco Anzola",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Menil Collection Building (5887506245)",
+          "url": "https://commons.wikimedia.org/wiki/File:Menil_Collection_Building_(5887506245).jpg",
+          "author": "Francisco Anzola",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Menil Collection, Houston, Texas - 20130915-02",
+          "url": "https://commons.wikimedia.org/wiki/File:Menil_Collection,_Houston,_Texas_-_20130915-02.JPG",
+          "author": "Jacklee",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Menil Collection, Houston, Texas - 20130915-03",
+          "url": "https://commons.wikimedia.org/wiki/File:Menil_Collection,_Houston,_Texas_-_20130915-03.JPG",
+          "author": "Jacklee",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Menil Collection, Houston, Texas - 20130915-08",
+          "url": "https://commons.wikimedia.org/wiki/File:Menil_Collection,_Houston,_Texas_-_20130915-08.JPG",
+          "author": "Jacklee",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "MenilCollection.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MenilCollection.jpg",
+          "author": "Argos'Dad",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/hou-menil-collection.glb",
+      "source": "generators/hou-menil-collection.ts"
     }
   ],
   "landmarks": [
@@ -31614,6 +31692,21 @@
         "way/87657067"
       ],
       "wikidata": "Q2956755"
+    },
+    {
+      "id": "hou-menil-collection",
+      "name": "The Menil Collection",
+      "model": "hou-menil-collection",
+      "place": "houston-area",
+      "lng": -95.3984689,
+      "lat": 29.7372846,
+      "bearing": 359.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/21270446"
+      ],
+      "wikidata": "Q1888308"
     }
   ],
   "places": [
