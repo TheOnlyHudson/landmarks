@@ -16588,6 +16588,91 @@
       ],
       "file": "models/dal-union-station.glb",
       "source": "generators/dal-union-station.ts"
+    },
+    {
+      "id": "dal-chase-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "JPMorganChaseTower.png",
+          "url": "https://commons.wikimedia.org/wiki/File:JPMorganChaseTower.png",
+          "author": "User:Nmajdan",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Top of JPMorgan Chase Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Top_of_JPMorgan_Chase_Tower.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Chase Tower Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Chase_Tower_Dallas.jpg",
+          "author": "NETarrantMan",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas July 2015 16 (Chase Tower).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_16_(Chase_Tower).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas July 2015 18 (Chase Tower).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_18_(Chase_Tower).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas July 2015 21 (Chase Tower).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_21_(Chase_Tower).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "JPMorgan Chase Tower1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:JPMorgan_Chase_Tower1.jpg",
+          "author": "Kent Wang",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Dallas Crow Center 2100 Ross Ave JP Morgan Chase Tower Fairmont Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Crow_Center_2100_Ross_Ave_JP_Morgan_Chase_Tower_Fairmont_Hotel.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas - Klyde Warren Park 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_-_Klyde_Warren_Park_10.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dal-chase-tower.glb",
+      "source": "generators/dal-chase-tower.ts"
     }
   ],
   "landmarks": [
@@ -28799,6 +28884,21 @@
       "wikidata": "Q5371609",
       "replaces": [
         "way/25699224"
+      ]
+    },
+    {
+      "id": "dal-chase-tower",
+      "name": "Chase Tower",
+      "model": "dal-chase-tower",
+      "place": "dallas-area",
+      "lng": -96.7966344,
+      "lat": 32.7879509,
+      "bearing": 135,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q579403",
+      "replaces": [
+        "way/28781114"
       ]
     }
   ],
