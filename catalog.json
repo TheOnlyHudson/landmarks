@@ -18003,6 +18003,61 @@
       ],
       "file": "models/hou-contemporary-arts-museum.glb",
       "source": "generators/hou-contemporary-arts-museum.ts"
+    },
+    {
+      "id": "hou-alley-theatre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "theatre",
+        "brutalist",
+        "performing-arts"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Houston Texas Alley Theater 2003",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_Texas_Alley_Theater_2003.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "AlleyHouston",
+          "url": "https://commons.wikimedia.org/wiki/File:AlleyHouston.jpg",
+          "author": "Rick Kimpel",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Alley Theater, Houston, Texas 1704011333",
+          "url": "https://www.flickr.com/photos/32345848@N07/33082040033",
+          "author": "Patrick Feller",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Former Republic Bank Center and Alley Theater",
+          "url": "https://www.flickr.com/photos/32345848@N07/33051659934",
+          "author": "Patrick Feller",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/hou-alley-theatre.glb",
+      "source": "generators/hou-alley-theatre.ts"
     }
   ],
   "landmarks": [
@@ -30512,6 +30567,21 @@
       "wikidata": "Q93691",
       "replaces": [
         "way/55563504"
+      ]
+    },
+    {
+      "id": "hou-alley-theatre",
+      "name": "Alley Theatre",
+      "model": "hou-alley-theatre",
+      "place": "houston-area",
+      "lng": -95.3653416,
+      "lat": 29.7620688,
+      "bearing": 34.8,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q3612530",
+      "replaces": [
+        "way/54369011"
       ]
     }
   ],
