@@ -17659,6 +17659,80 @@
       ],
       "file": "models/dal-mercantile-national-bank.glb",
       "source": "generators/dal-mercantile-national-bank.ts"
+    },
+    {
+      "id": "dal-adolphus-hotel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "hotel",
+        "beaux-arts",
+        "nrhp"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Adolphus Hotel pano 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Adolphus_Hotel_pano_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Adolphus Hotel 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Adolphus_Hotel_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hotel Adolphus Dallas (1 of 1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Adolphus_Dallas_(1_of_1).jpg",
+          "author": "Renelibrary",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "HotelAdolphus1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:HotelAdolphus1.jpg",
+          "author": "Renelibrary",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Adolphus01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Adolphus01.jpg",
+          "author": "Dfwcre8tive",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Adolphus Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Adolphus_Hotel.jpg",
+          "author": "RadicalBender",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The historic Adolphus Hotel in downtown Dallas, Texas (LCCN2014632085)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_historic_Adolphus_Hotel_in_downtown_Dallas,_Texas_LCCN2014632085.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-adolphus-hotel.glb",
+      "source": "generators/dal-adolphus-hotel.ts"
     }
   ],
   "landmarks": [
@@ -30184,6 +30258,21 @@
         "way/1396179854",
         "way/1396179855",
         "way/1396179856"
+      ]
+    },
+    {
+      "id": "dal-adolphus-hotel",
+      "name": "The Adolphus",
+      "model": "dal-adolphus-hotel",
+      "place": "dallas-area",
+      "lng": -96.799951,
+      "lat": 32.779958,
+      "bearing": 345.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/471953148",
+        "way/964805583"
       ]
     }
   ],
