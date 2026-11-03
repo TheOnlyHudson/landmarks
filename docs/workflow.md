@@ -219,6 +219,8 @@ For each model:
    5,000 triangles or 6,500 for complex models, 250 KB, lowest point y = 0).
 6. Check the placement: anchor, bearing, `replaces` against
    `tools/osm.py buildings`, elevation, and explicit place/parent references.
+   Run `bun tools/terrain.ts check <id>`: no visible top may end up under
+   the map's terrain (see "The map's terrain" in `evidence.md`).
 7. Check both LODs, textures and animation, and night lighting with
    `bun run preview <id> --night`. Build the site for interactive inspection.
    Check credits, the required AI model-used field, GitHub identity, tags, license,
@@ -401,6 +403,7 @@ release host.
 | `python3 tools/mapillary.py` | Street photos aimed at a landmark, one per side |
 | `python3 tools/lidar.py find\|grid` | USGS 3DEP lidar: datasets at a point; height grid |
 | `python3 tools/lidar_frame.py` | Read a lidar grid in a model's turned frame |
+| `bun tools/terrain.ts grid\|check` | The map's terrain (Mapterhorn) in a model's frame; tops it buries |
 | `python3 tools/usgs.py naip\|dem` | NAIP aerial; bare-earth ground table |
 | `python3 tools/lacounty.py buildings\|dsm` | LA County lidar footprints and surface model |
 | `node tools/app-shot.mjs <scenes.json>` | Street-level screenshots in a Parchment dev server |

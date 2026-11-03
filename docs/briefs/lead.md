@@ -105,6 +105,8 @@ Send a model back to the same builder, with specific fixes, when:
 - anything sticks past an edge;
 - the facade uses per-floor stripes or dot grids;
 - the placement, `replaces` or elevation is wrong;
+- `bun tools/terrain.ts check <id>` reports visible tops under the map's
+  terrain;
 - for a rework, the approved form changed without clear evidence.
 
 A builder's "it reads well" is not evidence. Accept only models you would

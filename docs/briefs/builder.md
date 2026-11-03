@@ -71,6 +71,10 @@ imagery, Street View, or any 3D tiles.** Use only:
   then `python3 WT/tools/lidar_frame.py <out>.json <bearing> ...` to read it
   in your model's frame. Run `lidar.py find <lon> <lat>` to see which
   datasets cover the point.
+- **The map's terrain** (Mapterhorn) under the site, before you model the
+  base: `bun WT/tools/terrain.ts grid <lon> <lat> <half-m> 5 --bearing <deg>`.
+  It prints the ground in your model's frame. Note how much it slopes and
+  whether it already shows a plaza, podium or steps you are about to build.
 - **USGS NAIP** aerials for plan, roof colours and shadows:
   `python3 WT/tools/usgs.py naip <lon> <lat> <half-m> <out.png>`.
 - **Published facts**: height, floors, dimensions, dates (Wikipedia, the
@@ -118,6 +122,10 @@ Don't delete other builders' files.
   that don't read as the real building.
 - Budget: `bun tools/glb-stats.ts <id>`. At most 5,000 triangles (6,500 if
   the model is complex), 250 KB, and six materials. Lowest point at y = 0.
+- Terrain: `bun tools/terrain.ts check <id>` (after the placement is in
+  the catalog, or with `--lng --lat --bearing`). It must print `ok`. If it
+  reports buried tops, follow "The map's terrain" in `docs/evidence.md`,
+  and put the check's last result in your report.
 
 Facade rules the reviewer enforces:
 
