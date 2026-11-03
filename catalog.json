@@ -24627,6 +24627,57 @@
       ],
       "file": "models/nyc-new-amsterdam-theatre-sign.glb",
       "source": "generators/nyc-new-amsterdam-theatre-sign.ts"
+    },
+    {
+      "id": "nyc-lyric-theatre-marquee",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "marquee",
+        "theatre",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Lyric Theatre - Harry Potter and the Cursed Child (48296064337).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lyric_Theatre_-_Harry_Potter_and_the_Cursed_Child_(48296064337).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Lyric Theatre Broadway-Harry Potter.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lyric_Theatre_Broadway-Harry_Potter.jpg",
+          "author": "Alberto-g-rovi",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Hilton Theater (Ford Center) NYC 2003.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hilton_Theater_(Ford_Center)_NYC_2003.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/nyc-lyric-theatre-marquee.glb",
+      "source": "generators/nyc-lyric-theatre-marquee.ts"
     }
   ],
   "landmarks": [
@@ -38635,6 +38686,18 @@
       "replaces": [
         "way/591988931"
       ]
+    },
+    {
+      "id": "nyc-lyric-theatre-marquee",
+      "name": "Lyric Theatre Marquee",
+      "model": "nyc-lyric-theatre-marquee",
+      "place": "times-square",
+      "lng": -73.9876825,
+      "lat": 40.7564999,
+      "bearing": 28.55,
+      "elevation": 0,
+      "minzoom": 17,
+      "replaces": []
     }
   ],
   "places": [
