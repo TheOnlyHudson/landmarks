@@ -19773,6 +19773,44 @@
       ],
       "file": "models/dal-will-rogers-memorial-center.glb",
       "source": "generators/dal-will-rogers-memorial-center.ts"
+    },
+    {
+      "id": "dal-ariat-arena",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "rodeo",
+        "dome",
+        "brick"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "USGS NAIP orthoimagery",
+          "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPPlus/ImageServer",
+          "author": "USGS",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-ariat-arena.glb",
+      "source": "generators/dal-ariat-arena.ts"
     }
   ],
   "landmarks": [
@@ -32704,6 +32742,20 @@
         "way/178613280",
         "way/178613282",
         "way/614113504"
+      ]
+    },
+    {
+      "id": "dal-ariat-arena",
+      "name": "Ariat Arena",
+      "model": "dal-ariat-arena",
+      "place": "dallas-area",
+      "lng": -97.368482,
+      "lat": 32.74106,
+      "bearing": 0.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/878763596"
       ]
     }
   ],
