@@ -28179,6 +28179,11 @@
       "kind": "region"
     },
     {
+      "id": "dallas-area",
+      "name": "Dallas area",
+      "kind": "region"
+    },
+    {
       "id": "walt-disney-world",
       "name": "Walt Disney World",
       "kind": "site"
