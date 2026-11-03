@@ -16914,6 +16914,66 @@
       ],
       "file": "models/dal-dfw-control-tower.glb",
       "source": "generators/dal-dfw-control-tower.ts"
+    },
+    {
+      "id": "dal-love-field-terminal",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "airport",
+        "terminal"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Main terminal at Dallas Love Field Airport",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_terminal_at_Dallas_Love_Field_Airport.jpg",
+          "author": "EEJCC",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Love Field gate concourse",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Love_Field_gate_concourse.jpg",
+          "author": "EEJCC",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas Love Field (40736439252)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Love_Field_(40736439252).jpg",
+          "author": "formulanone",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Dallas Love Field 2013",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Love_Field_2013.jpg",
+          "author": "Danazar",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Love Field",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Love_Field.jpg",
+          "author": "Billyjayb",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-love-field-terminal.glb",
+      "source": "generators/dal-love-field-terminal.ts"
     }
   ],
   "landmarks": [
@@ -29241,6 +29301,26 @@
         "way/448378080",
         "way/448378081",
         "way/448386139"
+      ]
+    },
+    {
+      "id": "dal-love-field-terminal",
+      "name": "Dallas Love Field Terminal",
+      "model": "dal-love-field-terminal",
+      "place": "dallas-area",
+      "lng": -96.8497,
+      "lat": 32.8449,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/224697058",
+        "way/25661629",
+        "way/25661630",
+        "way/237849526",
+        "way/744685694",
+        "way/303623491",
+        "way/1145443237"
       ]
     }
   ],
