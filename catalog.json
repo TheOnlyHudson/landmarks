@@ -18298,6 +18298,80 @@
       ],
       "file": "models/dal-dallas-city-hall.glb",
       "source": "generators/dal-dallas-city-hall.ts"
+    },
+    {
+      "id": "dal-cathedral-guadalupe",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "cathedral",
+        "religious",
+        "historic",
+        "gothic-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas July 2015 15 (Cathedral Santuario de Guadalupe).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_15_(Cathedral_Santuario_de_Guadalupe).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas July 2015 19 (Cathedral Santuario de Guadalupe).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_19_(Cathedral_Santuario_de_Guadalupe).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cathedral Santuario de Guadalupe 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Santuario_de_Guadalupe_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cathedral Santuario de Guadalupe 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Santuario_de_Guadalupe_02.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cathedral Shrine of the Virgin of Guadalupe 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Shrine_of_the_Virgin_of_Guadalupe_01.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cathedral Shrine of the Virgin of Guadalupe 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Shrine_of_the_Virgin_of_Guadalupe_02.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Catholic Cathedral of Santuario de Guadalupe in the Downtown Dallas Arts District, 10-26-10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Catholic_Cathedral_of_Santuario_de_Guadalupe_in_the_Downtown_Dallas_Arts_District,_10-26-10.jpg",
+          "author": "Cordphaeton",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dal-cathedral-guadalupe.glb",
+      "source": "generators/dal-cathedral-guadalupe.ts"
     }
   ],
   "landmarks": [
@@ -30944,6 +31018,20 @@
       "wikidata": "Q1157989",
       "replaces": [
         "way/27129838"
+      ]
+    },
+    {
+      "id": "dal-cathedral-guadalupe",
+      "name": "Cathedral Shrine of the Virgin of Guadalupe",
+      "model": "dal-cathedral-guadalupe",
+      "place": "dallas-area",
+      "lng": -96.797973,
+      "lat": 32.7888705,
+      "bearing": 136,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31265522"
       ]
     }
   ],
