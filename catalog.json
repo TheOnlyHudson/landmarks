@@ -18235,6 +18235,79 @@
       ],
       "file": "models/hou-hobby-center.glb",
       "source": "generators/hou-hobby-center.ts"
+    },
+    {
+      "id": "hou-george-r-brown-convention-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "convention-center",
+        "postmodern",
+        "high-tech"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "George R. Brown Convention Center - Houston, Texas - DSC01321",
+          "url": "https://commons.wikimedia.org/wiki/File:George_R._Brown_Convention_Center_-_Houston,_Texas_-_DSC01321.JPG",
+          "author": "Daderot",
+          "license": "CC0"
+        },
+        {
+          "title": "George R. Brown Convention Center 2",
+          "url": "https://commons.wikimedia.org/wiki/File:George_R._Brown_Convention_Center_2.jpg",
+          "author": "Brian Reading",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "George R. Brown Convention Center, Houston, Texas (LCCN2011635365)",
+          "url": "https://commons.wikimedia.org/wiki/File:George_R._Brown_Convention_Center,_Houston,_Texas_LCCN2011635365.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "GeorgeRBrownConvCenterFrontHouston",
+          "url": "https://commons.wikimedia.org/wiki/File:GeorgeRBrownConvCenterFrontHouston.JPG",
+          "author": "WhisperToMe",
+          "license": "Public domain"
+        },
+        {
+          "title": "Discovery Green, 2012, water and convention center",
+          "url": "https://commons.wikimedia.org/wiki/File:Discovery_Green,_2012,_water_and_convention_center.JPG",
+          "author": "Another Believer",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Houston Convention Center Exterior 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_Convention_Center_Exterior_1.jpg",
+          "author": "Leijurv",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Houston Convention Center Nima",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_Convention_Center_Nima.JPG",
+          "author": "Zereshk",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/hou-george-r-brown-convention-center.glb",
+      "source": "generators/hou-george-r-brown-convention-center.ts"
     }
   ],
   "landmarks": [
@@ -30804,6 +30877,21 @@
       "wikidata": "Q5874936",
       "replaces": [
         "way/257997076"
+      ]
+    },
+    {
+      "id": "hou-george-r-brown-convention-center",
+      "name": "George R. Brown Convention Center",
+      "model": "hou-george-r-brown-convention-center",
+      "place": "houston-area",
+      "lng": -95.3578636,
+      "lat": 29.7521387,
+      "bearing": 34.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q5543614",
+      "replaces": [
+        "way/44129959"
       ]
     }
   ],
