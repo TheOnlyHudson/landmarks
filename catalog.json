@@ -16151,6 +16151,60 @@
       ],
       "file": "models/hou-jpmorgan-chase-tower.glb",
       "source": "generators/hou-jpmorgan-chase-tower.ts"
+    },
+    {
+      "id": "hou-iah-control-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "airport",
+        "control-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "KIAH Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:KIAH_Tower.jpg",
+          "author": "PSE02 at en.wikipedia",
+          "license": "Public domain"
+        },
+        {
+          "title": "Patio de operaciones y torre del control del IAH",
+          "url": "https://commons.wikimedia.org/wiki/File:Patio_de_operaciones_y_torre_del_control_del_IAH.jpg",
+          "author": "Oficial K",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bush Intercontinental Airport - Tower",
+          "url": "https://www.flickr.com/photos/12734746@N00/398750162",
+          "author": "hyku",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Air Traffic Control Tower, IAH 1901061509",
+          "url": "https://www.flickr.com/photos/32345848@N07/31899271857",
+          "author": "Patrick Feller",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/hou-iah-control-tower.glb",
+      "source": "generators/hou-iah-control-tower.ts"
     }
   ],
   "landmarks": [
@@ -28208,6 +28262,20 @@
       "minzoom": 13,
       "replaces": [
         "way/44130644"
+      ]
+    },
+    {
+      "id": "hou-iah-control-tower",
+      "name": "George Bush Intercontinental Airport Control Tower",
+      "model": "hou-iah-control-tower",
+      "place": "houston-area",
+      "lng": -95.328121,
+      "lat": 29.984194,
+      "bearing": 350,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/639097416"
       ]
     }
   ],
