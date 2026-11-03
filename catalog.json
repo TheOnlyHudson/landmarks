@@ -16861,6 +16861,75 @@
       ],
       "file": "models/hou-city-hall.glb",
       "source": "generators/hou-city-hall.ts"
+    },
+    {
+      "id": "hou-1910-courthouse",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "civic",
+        "courthouse",
+        "beaux-arts",
+        "historic",
+        "nrhp"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Harris County 1910 Courthouse Restored Houston Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:Harris_County_1910_Courthouse_Restored_Houston_Texas.jpg",
+          "author": "i_am_jim",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Harris County Courthouse of 1910 Houston (HDR)",
+          "url": "https://commons.wikimedia.org/wiki/File:Harris_County_Courthouse_of_1910_Houston_(HDR).jpg",
+          "author": "Ed Uthman",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Harris County 1910 Courthouse - Flickr - pinemikey",
+          "url": "https://commons.wikimedia.org/wiki/File:Harris_County_1910_Courthouse_-_Flickr_-_pinemikey.jpg",
+          "author": "Michael Martin",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Harris County Courthouse (1910), Houston, Texas (8304873108)",
+          "url": "https://commons.wikimedia.org/wiki/File:Harris_County_Courthouse_(1910),_Houston,_Texas_(8304873108).jpg",
+          "author": "Nicolas Henderson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Houston Harris County Courthouse",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_Harris_County_Courthouse.JPG",
+          "author": "Anne-Gaëlle Bergé",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "1910 Harris County Courthouse, Houston, Texas 1704011459",
+          "url": "https://commons.wikimedia.org/wiki/File:1910_Harris_County_Courthouse,_Houston,_Texas_1704011459_(33048408553).jpg",
+          "author": "Patrick Feller",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/hou-1910-courthouse.glb",
+      "source": "generators/hou-1910-courthouse.ts"
     }
   ],
   "landmarks": [
@@ -29107,6 +29176,21 @@
         "way/580993425"
       ],
       "wikidata": "Q1631477"
+    },
+    {
+      "id": "hou-1910-courthouse",
+      "name": "1910 Harris County Courthouse",
+      "model": "hou-1910-courthouse",
+      "place": "houston-area",
+      "lng": -95.3597322,
+      "lat": 29.7610836,
+      "bearing": 34.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/54046920",
+        "way/503659681"
+      ]
     }
   ],
   "places": [
