@@ -16205,6 +16205,71 @@
       ],
       "file": "models/hou-iah-control-tower.glb",
       "source": "generators/hou-iah-control-tower.ts"
+    },
+    {
+      "id": "hou-wells-fargo-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Wells Fargo Plaza Houston TX 2014 08 03 02.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Plaza_Houston_TX_2014_08_03_02.JPG",
+          "author": "Quercus montana",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Wells Fargo Plaza Houston TX 2014 08 03 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Plaza_Houston_TX_2014_08_03_03.jpg",
+          "author": "Quercus montana",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Wells Fargo Plaza Houston TX 2014 08 03 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Plaza_Houston_TX_2014_08_03_01.jpg",
+          "author": "Quercus montana",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Wells Fargo Plaza, Houston.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Plaza,_Houston.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Wells Fargo Plaza.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Plaza.jpg",
+          "author": "Rick Kimpel from Spring, TX, USA",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Gfp-texas-houston-big-skyscraper.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gfp-texas-houston-big-skyscraper.jpg",
+          "author": "Yinan Chen",
+          "license": "Public Domain"
+        }
+      ],
+      "file": "models/hou-wells-fargo-plaza.glb",
+      "source": "generators/hou-wells-fargo-plaza.ts"
     }
   ],
   "landmarks": [
@@ -28276,6 +28341,21 @@
       "minzoom": 14,
       "replaces": [
         "way/639097416"
+      ]
+    },
+    {
+      "id": "hou-wells-fargo-plaza",
+      "name": "Wells Fargo Plaza",
+      "model": "hou-wells-fargo-plaza",
+      "place": "houston-area",
+      "lng": -95.3683016,
+      "lat": 29.7584357,
+      "bearing": 34.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q57767",
+      "replaces": [
+        "way/44821987"
       ]
     }
   ],
