@@ -17591,6 +17591,74 @@
       ],
       "file": "models/dal-magnolia-hotel.glb",
       "source": "generators/dal-magnolia-hotel.ts"
+    },
+    {
+      "id": "dal-mercantile-national-bank",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "skyscraper",
+        "art-deco",
+        "clock-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mercantile-Bank-Building-Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercantile-Bank-Building-Dallas.jpg",
+          "author": "Alex Liivet",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Mercantile Bank Building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercantile_Bank_Building.jpg",
+          "author": "FoUTASportscaster",
+          "license": "Public domain"
+        },
+        {
+          "title": "MercantileNationalBankBuilding.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MercantileNationalBankBuilding.jpg",
+          "author": "austrini",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Dallas The Merc.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_The_Merc.jpg",
+          "author": "Luis Tamayo",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Merc clock tower, Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Merc_clock_tower,_Dallas.jpg",
+          "author": "SDC",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Main Street Garden park in Dallas at dusk.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_Street_Garden_park_in_Dallas_at_dusk.png",
+          "author": "IcedCowboyCoffee",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/dal-mercantile-national-bank.glb",
+      "source": "generators/dal-mercantile-national-bank.ts"
     }
   ],
   "landmarks": [
@@ -30097,6 +30165,25 @@
       "wikidata": "Q12061439",
       "replaces": [
         "way/30898509"
+      ]
+    },
+    {
+      "id": "dal-mercantile-national-bank",
+      "name": "Mercantile National Bank Building",
+      "model": "dal-mercantile-national-bank",
+      "place": "dallas-area",
+      "lng": -96.796635,
+      "lat": 32.780798,
+      "bearing": 346,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q6818031",
+      "replaces": [
+        "way/30897787",
+        "way/1396179853",
+        "way/1396179854",
+        "way/1396179855",
+        "way/1396179856"
       ]
     }
   ],
