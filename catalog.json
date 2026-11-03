@@ -16665,6 +16665,67 @@
       ],
       "file": "models/hou-hobby-terminal.glb",
       "source": "generators/hou-hobby-terminal.ts"
+    },
+    {
+      "id": "hou-waterwall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "fountain",
+      "tags": [
+        "fountain",
+        "park",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Galleria \"Water Wall,\" Houston, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:Galleria_%22Water_Wall,%22_Houston,_Texas_LCCN2011630268.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Gerald D. Hines Waterwall Park",
+          "url": "https://commons.wikimedia.org/wiki/File:Gerald_D._Hines_Waterwall_Park.jpg",
+          "author": "Sitao Xiang",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Houston Water Wall from Above (7264672468)",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_Water_Wall_from_Above_-transco_-williams_-tower_-landmark_-drones_-photography_(7264672468).jpg",
+          "author": "Ed Schipul",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Houston Water Wall and Green (7264671820)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Houston_Water_Wall_and_Green_(7264671820).jpg",
+          "author": "Ed Schipul",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Gerald D. Hines Waterwall Park, Houston, Texas, US julesvernex2",
+          "url": "https://commons.wikimedia.org/wiki/File:Gerald_D._Hines_Waterwall_Park,_Houston,_Texas,_US_julesvernex2.jpg",
+          "author": "Jules Verne Times Two",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/hou-waterwall.glb",
+      "source": "generators/hou-waterwall.ts"
     }
   ],
   "landmarks": [
@@ -28861,6 +28922,20 @@
       "minzoom": 14,
       "replaces": [
         "way/137050139"
+      ]
+    },
+    {
+      "id": "hou-waterwall",
+      "name": "Gerald D. Hines Waterwall",
+      "model": "hou-waterwall",
+      "place": "houston-area",
+      "lng": -95.46129,
+      "lat": 29.735775,
+      "bearing": 359.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/49591461"
       ]
     }
   ],
