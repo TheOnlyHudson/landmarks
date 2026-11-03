@@ -16726,6 +16726,67 @@
       ],
       "file": "models/hou-waterwall.glb",
       "source": "generators/hou-waterwall.ts"
+    },
+    {
+      "id": "hou-609-main",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "609 Main at Texas 2021-08-10",
+          "url": "https://commons.wikimedia.org/wiki/File:609_Main_at_Texas_2021-08-10.jpg",
+          "author": "Xnatedawgx",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "609 Main Street at Texas Downtown Houston DSC 7813",
+          "url": "https://commons.wikimedia.org/wiki/File:609_Main_Street_at_Texas_Downtown_Houston_DSC_7813_ad.JPG",
+          "author": "Adavyd",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "609 Main Street at Texas Downtown Houston DSC 7811",
+          "url": "https://commons.wikimedia.org/wiki/File:609_Main_Street_at_Texas_Downtown_Houston_DSC_7811_ad.JPG",
+          "author": "Adavyd",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Downtown Houston, TX Skyline - 2018",
+          "url": "https://commons.wikimedia.org/wiki/File:Downtown_Houston,_TX_Skyline_-_2018.jpg",
+          "author": "David Daniel Turner",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Houston Texas Skyline and the Buffalo Bayou",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_Texas_Skyline_and_the_Buffalo_Bayou_(54182707440).jpg",
+          "author": "Tony Webster",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/hou-609-main.glb",
+      "source": "generators/hou-609-main.ts"
     }
   ],
   "landmarks": [
@@ -28936,6 +28997,21 @@
       "minzoom": 15,
       "replaces": [
         "way/49591461"
+      ]
+    },
+    {
+      "id": "hou-609-main",
+      "name": "609 Main at Texas",
+      "model": "hou-609-main",
+      "place": "houston-area",
+      "lng": -95.362524,
+      "lat": 29.759155,
+      "bearing": 34.9,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q18148228",
+      "replaces": [
+        "way/503660106"
       ]
     }
   ],
