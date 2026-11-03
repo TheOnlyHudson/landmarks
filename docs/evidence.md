@@ -228,13 +228,28 @@ down. Record the value and its source in the header.
 
 The map's 3D terrain is Mapterhorn: terrarium tiles at z15, about 2 m a
 pixel in the US, built from USGS 3DEP lidar. Lidar bare earth counts raised
-plazas, podiums, grand stairs and landscaped rockwork as ground, so the
-terrain often already shows part of a landmark. Read it before modelling the
-base (`bun tools/terrain.ts grid <lon> <lat> <half-m> [step] --bearing <deg>`)
-and check the finished model against it (`bun tools/terrain.ts check <id>`).
-The check stands the model on the terrain the way the map does and lists
-every visible top (a deck, a step, a plaza, a planter) that ends up under
-the drawn ground.
+plazas, podiums, grand stairs and theme-park rockwork as ground, so the
+terrain often shows part of a landmark too. The map takes that copy out:
+inside a landmark's footprint it fills the terrain from the ground just
+outside, never higher than the real ground, and the model draws what was
+there. So build those parts to their real heights from the usual evidence;
+the terrain is not evidence for them.
+
+Read the ground around the site before modelling the base
+(`bun tools/terrain.ts grid <lon> <lat> <half-m> [step] --bearing <deg>`),
+and check the finished model with `bun tools/terrain.ts check <id>`. The
+check stands the model on the terrain the way the map does and lists every
+visible top (a deck, a step, a plaza, a planter) that ends up under the
+drawn ground. What it usually means:
+
+- **A long face near the ground.** The map lifts each vertex by the ground
+  under it, so a long quad stays flat where the ground bulges. Split low
+  faces into pieces no longer than about 5 m.
+- **A low top right at the footprint's edge**, where the ground outside
+  rises above it: check its height against photos. If it is right, say so
+  in the header and the PR.
+- **Terrain that is wrong for the site** (a hill since cut away, a newer
+  dig): keep the model true to the photos and say so in the header.
 
 Elevation needs Barrelman 0.10.5 or later to reach the map (see
 [workflow.md](workflow.md#9-deploy)).
