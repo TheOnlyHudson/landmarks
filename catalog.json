@@ -23487,6 +23487,80 @@
       ],
       "file": "models/nyc-tkts-red-steps.glb",
       "source": "generators/nyc-tkts-red-steps.ts"
+    },
+    {
+      "id": "nyc-duffy-square-statues",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "statue",
+        "bronze",
+        "memorial",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Father Duffy by Charles Keck (May 2023).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Father_Duffy_by_Charles_Keck_(May_2023).JPG",
+          "author": "Benoît Prieur",
+          "license": "CC0"
+        },
+        {
+          "title": "Father Duffy by Charles Keck - DSC06430.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Father_Duffy_by_Charles_Keck_-_DSC06430.JPG",
+          "author": "Daderot",
+          "license": "Public domain"
+        },
+        {
+          "title": "Father Duffy statue and TKTS booth risers.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Father_Duffy_statue_and_TKTS_booth_risers.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "George M. Cohan Statue in Times Square - New York, NY, USA - August 18, 2015 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:George_M._Cohan_Statue_in_Times_Square_-_New_York,_NY,_USA_-_August_18,_2015_01.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "George M Cohan statue and Duffy Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:George_M_Cohan_statue_and_Duffy_Square.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "George M. Cohan by Georg Lober - DSC06435.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:George_M._Cohan_by_Georg_Lober_-_DSC06435.JPG",
+          "author": "Daderot",
+          "license": "Public domain"
+        },
+        {
+          "title": "George M. Cohan statue in Times Square IMG 1607.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:George_M._Cohan_statue_in_Times_Square_IMG_1607.JPG",
+          "author": "Billy Hathorn",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/nyc-duffy-square-statues.glb",
+      "source": "generators/nyc-duffy-square-statues.ts"
     }
   ],
   "landmarks": [
@@ -37294,6 +37368,18 @@
       "replaces": [
         "way/258619240"
       ]
+    },
+    {
+      "id": "nyc-duffy-square-statues",
+      "name": "Father Duffy and George M. Cohan Statues",
+      "model": "nyc-duffy-square-statues",
+      "place": "times-square",
+      "lng": -73.9850675,
+      "lat": 40.758908,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 17,
+      "replaces": []
     }
   ],
   "places": [
