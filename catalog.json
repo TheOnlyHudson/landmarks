@@ -16974,6 +16974,110 @@
       ],
       "file": "models/dal-love-field-terminal.glb",
       "source": "generators/dal-love-field-terminal.ts"
+    },
+    {
+      "id": "dal-texas-school-book-depository",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "office",
+        "historic",
+        "warehouse"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas July 2015 08 (Texas School Book Depository)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_08_(Texas_School_Book_Depository).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas July 2015 09 (Texas School Book Depository)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_July_2015_09_(Texas_School_Book_Depository).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2017 Texas School Book Depository 01",
+          "url": "https://commons.wikimedia.org/wiki/File:2017_Texas_School_Book_Depository_01.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2017 Texas School Book Depository 02",
+          "url": "https://commons.wikimedia.org/wiki/File:2017_Texas_School_Book_Depository_02.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Texas School Book Depository in Dallas, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_School_Book_Depository_in_Dallas,_Texas.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "View, in 2014, of Dealey Plaza and the Texas School Book Depository in Dallas, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:View,_in_2014,_of_Dealey_Plaza_and_the_Texas_School_Book_Depository_in_Dallas,_Texas.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Texas Schoolbook Depository 411 Elm St TX 2013-06-08 001",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Schoolbook_Depository_411_Elm_St_TX_2013-06-08_001.jpg",
+          "author": "Thomas R. Machnitzki",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Texas Schoolbook Depository 411 Elm St TX 2013-06-08 002",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Schoolbook_Depository_411_Elm_St_TX_2013-06-08_002.jpg",
+          "author": "Thomas R. Machnitzki",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Texas Schoolbook Depository 411 Elm St TX 2013-06-08 003",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Schoolbook_Depository_411_Elm_St_TX_2013-06-08_003.jpg",
+          "author": "Thomas R. Machnitzki",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Texas Schoolbook Depository 411 Elm St TX 2013-06-08 004",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_Schoolbook_Depository_411_Elm_St_TX_2013-06-08_004.jpg",
+          "author": "Thomas R. Machnitzki",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas County Admin Building",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_County_Admin_Building.jpg",
+          "author": "Dakota L.",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Texas School Book Depository by sunset",
+          "url": "https://commons.wikimedia.org/wiki/File:Texas_School_Book_Depository_by_sunset.jpg",
+          "author": "Jim Bowen",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-texas-school-book-depository.glb",
+      "source": "generators/dal-texas-school-book-depository.ts"
     }
   ],
   "landmarks": [
@@ -29321,6 +29425,21 @@
         "way/744685694",
         "way/303623491",
         "way/1145443237"
+      ]
+    },
+    {
+      "id": "dal-texas-school-book-depository",
+      "name": "Texas School Book Depository",
+      "model": "dal-texas-school-book-depository",
+      "place": "dallas-area",
+      "lng": -96.8084493,
+      "lat": 32.7797642,
+      "bearing": 346,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/727595366",
+        "way/727595367"
       ]
     }
   ],
