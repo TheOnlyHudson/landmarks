@@ -23848,6 +23848,106 @@
       ],
       "file": "models/nyc-1515-broadway-signs.glb",
       "source": "generators/nyc-1515-broadway-signs.ts"
+    },
+    {
+      "id": "nyc-paramount-building",
+      "file": "models/nyc-paramount-building.glb",
+      "source": "generators/nyc-paramount-building.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "art-deco",
+        "clock",
+        "neon",
+        "historic",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "1501 Broadway, NYC.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1501_Broadway,_NYC.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "1501 Broadway.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1501_Broadway.jpg",
+          "author": "Kidfly182",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "1501 Broadway rear top.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1501_Broadway_rear_top.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Paramount Building via One Times Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Paramount_Building_via_One_Times_Square.jpg",
+          "author": "Scu ba",
+          "license": "CC0 1.0"
+        },
+        {
+          "title": "Clock on the Paramount Building (4672393664).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Clock_on_the_Paramount_Building_(4672393664).jpg",
+          "author": "Tony Hisgett",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "1501 Broadway, Times Square, New York (7237735096).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1501_Broadway,_Times_Square,_New_York_(7237735096).jpg",
+          "author": "Ken Lund",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "43rd St Bway 7th Av td 01 - Paramount Building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:43rd_St_Bway_7th_Av_td_01_-_Paramount_Building.jpg",
+          "author": "Tdorante10",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "43rd St Bway 7th Av td 03 - Paramount Building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:43rd_St_Bway_7th_Av_td_03_-_Paramount_Building.jpg",
+          "author": "Tdorante10",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Paramount Building Ornate Archway and Marquee Sign - 1501 Broadway, NYC.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Paramount_Building_Ornate_Archway_and_Marquee_Sign_-_1501_Broadway,_NYC.jpg",
+          "author": "Anthony Quintano",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Hard Rock-2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hard_Rock-2023.jpg",
+          "author": "Alberto-g-rovi",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Times Square Night, Hard Rock Café.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_Night,_Hard_Rock_Caf%C3%A9.jpg",
+          "author": "Francesca.hyanna19",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
     }
   ],
   "landmarks": [
@@ -37715,6 +37815,35 @@
       "elevation": 4.5,
       "minzoom": 16,
       "replaces": []
+    },
+    {
+      "id": "nyc-paramount-building",
+      "name": "Paramount Building",
+      "model": "nyc-paramount-building",
+      "place": "times-square",
+      "lng": -73.9867022,
+      "lat": 40.7572223,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q3363532",
+      "replaces": [
+        "way/266149373",
+        "way/288298857",
+        "way/288298858",
+        "way/288298860",
+        "way/288298861",
+        "way/288298862",
+        "way/288298863",
+        "way/288298864",
+        "way/288298865",
+        "way/288298866",
+        "way/288298867",
+        "way/288298868",
+        "way/288298869",
+        "way/288298870",
+        "way/311451315"
+      ]
     }
   ],
   "places": [
