@@ -16787,6 +16787,80 @@
       ],
       "file": "models/hou-609-main.glb",
       "source": "generators/hou-609-main.ts"
+    },
+    {
+      "id": "hou-city-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "civic",
+        "city-hall",
+        "art-deco",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Houston City Hall from Hermann Square (HDR)",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_City_Hall_from_Hermann_Square_(HDR).jpg",
+          "author": "Ed Uthman",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Houston City Hall August 2010",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_City_Hall_August_2010.jpg",
+          "author": "Jujutacular",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "City Hall, Houston, Texas (LCCN2011630468)",
+          "url": "https://commons.wikimedia.org/wiki/File:City_Hall,_Houston,_Texas_LCCN2011630468.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Houston May 2022 34 (Houston City Hall)",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_May_2022_34_(Houston_City_Hall).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Houston May 2022 20 (Houston City Hall)",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_May_2022_20_(Houston_City_Hall).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Houston,Tx City Hall",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston,Tx_City_Hall.jpg",
+          "author": "Cristian Sorto",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aerial view of Houston City Hall - 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Houston_City_Hall_-_01.jpg",
+          "author": "Owen Johnson",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/hou-city-hall.glb",
+      "source": "generators/hou-city-hall.ts"
     }
   ],
   "landmarks": [
@@ -29013,6 +29087,26 @@
       "replaces": [
         "way/503660106"
       ]
+    },
+    {
+      "id": "hou-city-hall",
+      "name": "Houston City Hall",
+      "model": "hou-city-hall",
+      "place": "houston-area",
+      "lng": -95.3693653,
+      "lat": 29.7601763,
+      "bearing": 34.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/54358731",
+        "way/580993421",
+        "way/580993422",
+        "way/580993423",
+        "way/580993424",
+        "way/580993425"
+      ],
+      "wikidata": "Q1631477"
     }
   ],
   "places": [
