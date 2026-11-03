@@ -23764,6 +23764,90 @@
       ],
       "file": "models/nyc-marriott-marquis-screen.glb",
       "source": "generators/nyc-marriott-marquis-screen.ts"
+    },
+    {
+      "id": "nyc-1515-broadway-signs",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "billboard",
+        "neon",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Times Sq Nov 2021 116.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_116.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 114.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_114.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 112.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_112.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Viacom building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Viacom_building.jpg",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Paramount Skydance One Astor Plaza.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Paramount_Skydance_One_Astor_Plaza.jpg",
+          "author": "Nielsoncaetanosalmeron",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 124.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_124.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "One Astor Plaza (55283615616).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Astor_Plaza_(55283615616).jpg",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Times Sq Feb 2022 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Feb_2022_02.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Square - New York, NY, USA - August 2015 13.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_-_New_York,_NY,_USA_-_August_2015_13.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/nyc-1515-broadway-signs.glb",
+      "source": "generators/nyc-1515-broadway-signs.ts"
     }
   ],
   "landmarks": [
@@ -37617,6 +37701,18 @@
       "lat": 40.7584116,
       "bearing": 0,
       "elevation": 9.3,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-1515-broadway-signs",
+      "name": "One Astor Plaza Signs",
+      "model": "nyc-1515-broadway-signs",
+      "place": "times-square",
+      "lng": -73.9859516,
+      "lat": 40.7576964,
+      "bearing": 0,
+      "elevation": 4.5,
       "minzoom": 16,
       "replaces": []
     }
