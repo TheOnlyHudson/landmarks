@@ -18549,6 +18549,86 @@
       ],
       "file": "models/dal-cotton-bowl.glb",
       "source": "generators/dal-cotton-bowl.ts"
+    },
+    {
+      "id": "dal-american-airlines-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "basketball",
+        "ice-hockey",
+        "brick"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "American Airlines Center August 2015.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_August_2015.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas November 2018 2 (American Airlines Center).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_November_2018_2_(American_Airlines_Center).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "American Airlines Center 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "American Airlines Center 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_02.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "American Airlines Center Dallas.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_Dallas.JPG",
+          "author": "NoTalkMan",
+          "license": "CC0"
+        },
+        {
+          "title": "American Airlines Center West Entrance.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_West_Entrance.jpg",
+          "author": "The World's Signature",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "American Airlines Center (6246886325).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_(6246886325).jpg",
+          "author": "Jeff Attaway",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "20141012 American Airlines Center.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20141012_American_Airlines_Center.jpg",
+          "author": "peroloffor",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dal-american-airlines-center.glb",
+      "source": "generators/dal-american-airlines-center.ts"
     }
   ],
   "landmarks": [
@@ -31241,6 +31321,46 @@
       "replaces": [
         "relation/1640835",
         "way/27112448"
+      ]
+    },
+    {
+      "id": "dal-american-airlines-center",
+      "name": "American Airlines Center",
+      "model": "dal-american-airlines-center",
+      "place": "dallas-area",
+      "lng": -96.8102794,
+      "lat": 32.790485,
+      "bearing": 325,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q463345",
+      "replaces": [
+        "way/25312698",
+        "way/1492851054",
+        "way/1492851057",
+        "way/1492851058",
+        "way/1492851059",
+        "way/1492851060",
+        "way/1492851063",
+        "way/1492851064",
+        "way/1492851067",
+        "way/1492851068",
+        "way/1492851070",
+        "way/1492851072",
+        "way/1492851073",
+        "way/1492851074",
+        "way/1492851075",
+        "way/1492851076",
+        "way/1492851077",
+        "way/1492851078",
+        "relation/20375631",
+        "relation/20375632",
+        "relation/20375633",
+        "relation/20375634",
+        "relation/20375635",
+        "relation/20375636",
+        "relation/20375637",
+        "relation/20375638"
       ]
     }
   ],
