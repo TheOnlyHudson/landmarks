@@ -17498,6 +17498,99 @@
       ],
       "file": "models/dal-wyly-theatre.glb",
       "source": "generators/dal-wyly-theatre.ts"
+    },
+    {
+      "id": "dal-magnolia-hotel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "hotel",
+        "beaux-arts",
+        "neon-sign",
+        "nrhp"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Magnolia Building pano 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magnolia_Building_pano_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Magnolia Building from east.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magnolia_Building_from_east.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas - Magnolia Building roof 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_-_Magnolia_Building_roof_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Magnolia Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magnolia_Dallas.jpg",
+          "author": "JVanT",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Magnolia Hotel Dallas (1 of 1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magnolia_Hotel_Dallas_(1_of_1).jpg",
+          "author": "Renelibrary",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "MagnoliaBuilding Dallas.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MagnoliaBuilding_Dallas.jpg",
+          "author": "Dfwcre8tive",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Magnolia Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magnolia_Hotel.jpg",
+          "author": "RadicalBender",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Magnolia Hotel front.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magnolia_Hotel_front.jpg",
+          "author": "RadicalBender",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reunion Tower Dallas Texas Mobil Gas Pegasus.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower_Dallas_Texas_Mobil_Gas_Pegasus.jpg",
+          "author": "Robert Kixmiller",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Details from the Magnolia Building, home of the boutique Magnolia Hotel, in downtown Dallas, Texas (LCCN2014632605)",
+          "url": "https://commons.wikimedia.org/wiki/File:Details_from_the_Magnolia_Building,_home_of_the_boutique_Magnolia_Hotel,_in_downtown_Dallas,_Texas_LCCN2014632605.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-magnolia-hotel.glb",
+      "source": "generators/dal-magnolia-hotel.ts"
     }
   ],
   "landmarks": [
@@ -29989,6 +30082,21 @@
         "way/361449421",
         "way/1396184197",
         "way/1396184198"
+      ]
+    },
+    {
+      "id": "dal-magnolia-hotel",
+      "name": "Magnolia Building",
+      "model": "dal-magnolia-hotel",
+      "place": "dallas-area",
+      "lng": -96.799065,
+      "lat": 32.780159,
+      "bearing": 345.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q12061439",
+      "replaces": [
+        "way/30898509"
       ]
     }
   ],
