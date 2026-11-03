@@ -17255,6 +17255,97 @@
       ],
       "file": "models/dal-old-red-courthouse.glb",
       "source": "generators/dal-old-red-courthouse.ts"
+    },
+    {
+      "id": "dal-meyerson-symphony-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "concert-hall",
+        "modernist",
+        "i-m-pei"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas Meyerson Center 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_Center_01.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Meyerson Center 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_Center_02.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Meyerson Center 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_Center_03.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Meyerson Center back",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_Center_back.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Meyerson 2008",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_2008.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Winspear Opera House 11 view Meyerson",
+          "url": "https://commons.wikimedia.org/wiki/File:Winspear_Opera_House_11_view_Meyerson.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Meyerson 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Meyerson Symphony Center",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Meyerson_Symphony_Center.jpg",
+          "author": "William Addington",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Morton H Meyerson Symphony Center",
+          "url": "https://commons.wikimedia.org/wiki/File:Morton_H_Meyerson_Symphony_Center.jpg",
+          "author": "Drumguy8800",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Morton H. Meyerson Symphony Center (LCCN2015630763)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Morton_H._Myerson_Symphony_Center,_which_opened_in_1989_in_the_Arts_District_of_Dallas,_Texas_LCCN2015630763.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-meyerson-symphony-center.glb",
+      "source": "generators/dal-meyerson-symphony-center.ts"
     }
   ],
   "landmarks": [
@@ -29683,6 +29774,21 @@
         "way/1491921616"
       ],
       "wikidata": "Q5211300"
+    },
+    {
+      "id": "dal-meyerson-symphony-center",
+      "name": "Morton H. Meyerson Symphony Center",
+      "model": "dal-meyerson-symphony-center",
+      "place": "dallas-area",
+      "lng": -96.7986206,
+      "lat": 32.7899083,
+      "bearing": 18.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q670323",
+      "replaces": [
+        "way/28544900"
+      ]
     }
   ],
   "places": [
