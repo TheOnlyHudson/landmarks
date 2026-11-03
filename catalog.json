@@ -19423,6 +19423,79 @@
       ],
       "file": "models/dal-cowtown-coliseum.glb",
       "source": "generators/dal-cowtown-coliseum.ts"
+    },
+    {
+      "id": "dal-six-flags-oil-derrick",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "observation-tower",
+        "theme-park",
+        "six-flags"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Oil Derrick",
+          "url": "https://commons.wikimedia.org/wiki/File:Oil_Derrick.jpg",
+          "author": "Cstrs101",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "SixFlagsTower-3908",
+          "url": "https://commons.wikimedia.org/wiki/File:SixFlagsTower-3908.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "SixFlagsTower-3940",
+          "url": "https://commons.wikimedia.org/wiki/File:SixFlagsTower-3940.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "SixFlagsTower-3975",
+          "url": "https://commons.wikimedia.org/wiki/File:SixFlagsTower-3975.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "SixFlagsTower-5843",
+          "url": "https://commons.wikimedia.org/wiki/File:SixFlagsTower-5843.jpg",
+          "author": "Loadmaster (David R. Tribble)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Observationtower sfot",
+          "url": "https://commons.wikimedia.org/wiki/File:Observationtower_sfot.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "BrandonR"
+        },
+        {
+          "title": "Six Flags Over Texas, Arlington, Texas (48849396931)",
+          "url": "https://commons.wikimedia.org/wiki/File:Six_Flags_Over_Texas,_Arlington,_Texas_(48849396931).jpg",
+          "license": "CC BY 2.0",
+          "author": "Nicolas Henderson"
+        }
+      ],
+      "file": "models/dal-six-flags-oil-derrick.glb",
+      "source": "generators/dal-six-flags-oil-derrick.ts"
     }
   ],
   "landmarks": [
@@ -32291,6 +32364,18 @@
         "way/56029797",
         "way/1245926355"
       ]
+    },
+    {
+      "id": "dal-six-flags-oil-derrick",
+      "name": "Oil Derrick",
+      "model": "dal-six-flags-oil-derrick",
+      "place": "six-flags-over-texas",
+      "lng": -97.0711059,
+      "lat": 32.7580355,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": []
     }
   ],
   "places": [
