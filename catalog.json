@@ -24249,6 +24249,80 @@
       ],
       "file": "models/nyc-1540-broadway-signs.glb",
       "source": "generators/nyc-1540-broadway-signs.ts"
+    },
+    {
+      "id": "nyc-morgan-stanley-tickers",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "billboard",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Morgan Stanley Headquarters (48105951892).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Morgan_Stanley_Headquarters_(48105951892).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "MorganStanley HQ TimesSquare May 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MorganStanley_HQ_TimesSquare_May_2019.jpg",
+          "author": "Icc1977",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Morgan Stanley Times Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Morgan_Stanley_Times_Square.jpg",
+          "author": "PLBechly",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 177.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_177.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Morgan Stanley Building (WTM by official-ly cool 112).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Morgan_Stanley_Building_(WTM_by_official-ly_cool_112).jpg",
+          "author": "Wikipedia Takes Manhattan participant team",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Morgan Stanley on Times Square.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Morgan_Stanley_on_Times_Square.JPG",
+          "author": "Jenix89",
+          "license": "Public domain"
+        },
+        {
+          "title": "1585 Broadway - Morgan Stanley Building (55283615766).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1585_Broadway_-_Morgan_Stanley_Building_(55283615766).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/nyc-morgan-stanley-tickers.glb",
+      "source": "generators/nyc-morgan-stanley-tickers.ts"
     }
   ],
   "landmarks": [
@@ -38190,6 +38264,18 @@
       "lng": -73.9851818,
       "lat": 40.7581793,
       "bearing": 28.36,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-morgan-stanley-tickers",
+      "name": "Morgan Stanley Tickers",
+      "model": "nyc-morgan-stanley-tickers",
+      "place": "times-square",
+      "lng": -73.985076,
+      "lat": 40.759835,
+      "bearing": 286.7,
       "elevation": 0,
       "minzoom": 16,
       "replaces": []
