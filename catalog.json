@@ -18157,6 +18157,67 @@
       ],
       "file": "models/dal-dallas-museum-of-art.glb",
       "source": "generators/dal-dallas-museum-of-art.ts"
+    },
+    {
+      "id": "dal-thanks-giving-chapel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "chapel",
+        "religious",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Chapel of Thanksgiving building in Thanks-giving Square in downtown Dallas, Texas (LCCN2014633932)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Chapel_of_Thanksgiving_building_in_Thanks-giving_Square_in_downtown_Dallas,_Texas_LCCN2014633932.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "The public, nondenominational, spiral-shaped chapel in Thanks-Giving Square (LCCN2014633397)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_public,_nondenominational,_spiral-shaped_chapel_in_Thanks-Giving_Square_(technically_triangular),_designed_by_architect_Philip_Johnson_in_downtown_Dallas,_Texas_LCCN2014633397.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "The public, nondenominational, spiral-shaped chapel in Thanks-Giving Square (LCCN2014633398)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_public,_nondenominational,_spiral-shaped_chapel_in_Thanks-Giving_Square_(technically_triangular),_designed_by_architect_Philip_Johnson_in_downtown_Dallas,_Texas_LCCN2014633398.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dallas Thanks-Giving Square 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Thanks-Giving_Square_01.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dallas Thanks-Giving Square 2008.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Thanks-Giving_Square_2008.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/dal-thanks-giving-chapel.glb",
+      "source": "generators/dal-thanks-giving-chapel.ts"
     }
   ],
   "landmarks": [
@@ -30773,6 +30834,21 @@
         "way/678928340",
         "way/31265436",
         "way/471658474"
+      ]
+    },
+    {
+      "id": "dal-thanks-giving-chapel",
+      "name": "Chapel of Thanksgiving",
+      "model": "dal-thanks-giving-chapel",
+      "place": "dallas-area",
+      "lng": -96.7982737,
+      "lat": 32.7829429,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q124117919",
+      "replaces": [
+        "way/654112871"
       ]
     }
   ],
