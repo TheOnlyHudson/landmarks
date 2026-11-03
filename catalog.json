@@ -19116,6 +19116,86 @@
       ],
       "file": "models/hou-moody-gardens-pyramids.glb",
       "source": "generators/hou-moody-gardens-pyramids.ts"
+    },
+    {
+      "id": "hou-bishops-palace",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "victorian",
+        "mansion",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "HABS TX-2103, Walter Gresham House, measured drawings (sheets 1-11)",
+          "url": "https://commons.wikimedia.org/wiki/File:Colonel_Walter_Gresham_House,_1402_Broadway,_Galveston,_Galveston_County,_TX_HABS_TEX,84-GALV,26-_(sheet_7_of_11).png",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "\"Bishop's Palace,\" ... LCCN2013650800.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:%22Bishop%27s_Palace,%22_also_known_as_Gresham%27s_Castle,_an_ornate_Victorian-style_house,_located_on_Broadway_and_14th_Street_in_the_East_End_Historic_District_of_Galveston,_Texas_LCCN2013650800.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "\"Bishop's Palace,\" ... LCCN2013650798.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:%22Bishop%27s_Palace,%22_also_known_as_Gresham%27s_Castle,_an_ornate_Victorian-style_house,_located_on_Broadway_and_14th_Street_in_the_East_End_Historic_District_of_Galveston,_Texas_LCCN2013650798.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Bishop's Palace - Galveston 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bishop%27s_Palace_-_Galveston_02.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bishop's Palace - Galveston 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bishop%27s_Palace_-_Galveston_03.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Galveston March 2022 25 (Bishop's Palace).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Galveston_March_2022_25_(Bishop%27s_Palace).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "WEST AND PRINCIPAL (SOUTH) SIDES - Colonel Walter Gresham House (HABS TEX,84-GALV,26-4)",
+          "url": "https://commons.wikimedia.org/wiki/File:WEST_AND_PRINCIPAL_(SOUTH)_SIDES_-_Colonel_Walter_Gresham_House,_1402_Broadway,_Galveston,_Galveston_County,_TX_HABS_TEX,84-GALV,26-4.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Bishop's palace side.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bishop%27s_palace_side.jpg",
+          "author": "Laura Scudder",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/hou-bishops-palace.glb",
+      "source": "generators/hou-bishops-palace.ts"
     }
   ],
   "landmarks": [
@@ -31878,6 +31958,21 @@
         "way/33851702",
         "way/33851713",
         "way/33851735"
+      ]
+    },
+    {
+      "id": "hou-bishops-palace",
+      "name": "Bishop's Palace",
+      "model": "hou-bishops-palace",
+      "place": "houston-area",
+      "lng": -94.7821595,
+      "lat": 29.303073,
+      "bearing": 345,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q3728690",
+      "replaces": [
+        "way/56044910"
       ]
     }
   ],
