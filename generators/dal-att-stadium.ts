@@ -92,11 +92,17 @@
  * Doubts: no licensed photo from the north-west side (it is drawn as the
  * mirror of the south-east, as the lidar shows it is); the end walls' lean is
  * estimated; the 15 m field depth is the published round figure.
- * Terrain: tools/terrain.ts check at elevation -15 reports the arch feet
- * buried about 6.5 m (632 of 2216 m² of tops). Mapterhorn's 7x7 grid over
- * the 400 m plan finds its lowest point in a car-park corner about 5.5 m
- * below the plazas round the building, so the street-level parts land that
- * much low; heights are kept true to the evidence pending the lead's rule.
+ * Terrain: `bun tools/terrain.ts check dal-att-stadium` prints ok at
+ * elevation -15. An earlier build failed it (637 m² buried, 6.9 m deep, at
+ * the arch feet) because the legs' chords and diagonals ran on below the
+ * street to their circle's ground crossing, 6 m under the street inside the
+ * feet; every leg member now stops where its underside meets the street.
+ * The field depth and arch circle were not the cause. Street level measured
+ * on the same lidar's ground grid: 172.5-173.5 m at the four feet, 173.9-
+ * 174.0 m on the end and south-east plazas (S = 173.87 m here), 170-172 m
+ * on the north-west side, which falls away; the map drapes the street-level
+ * parts over those differences. The field itself can't be measured (the
+ * roof was closed for the flight), so its depth stays the published 50 ft.
  */
 import { Part, cross, sub, writeGlb, type V3 } from './mesh'
 import { PALETTE, finish, windowVariant } from './palette'
@@ -396,9 +402,13 @@ for (const sy of [1, -1]) {
   // The legs, outside the end walls: an open box truss, a top and a bottom
   // chord with diagonals between, down into the feet.
   for (const sx of [1, -1]) {
-    const f0 = Math.asin((XE - 1) / RR), f1 = Math.acos((S - RC) / RR) + 0.004
+    const f0 = Math.asin((XE - 1) / RR)
     const at = (f: number, r: number, y: number): V3 => [sx * r * Math.sin(f), y, RC + r * Math.cos(f)]
+    // Every member stops where its underside meets the street: nothing of
+    // the legs is drawn below the street (they end in the concrete feet).
+    const fEnd = (r: number) => Math.acos((S - RC) / r)
     const chord = (r0: number, r1: number) => {
+      const f1 = fEnd(r0)
       const n = 8
       const secs: V3[][] = []
       for (let k = 0; k <= n; k++) {
@@ -411,7 +421,7 @@ for (const sy of [1, -1]) {
     chord(RR - CH, RR) // top chord
     chord(RR - AD, RR - AD + CH) // bottom chord
     // diagonals, a Warren pattern, as plates across the box
-    const nd = 9
+    const nd = 8, f1 = fEnd(RR - AD + CH - 0.2) - 1.6 / RR // the diagonals stop where the bottom chord does
     for (let k = 0; k < nd; k++) {
       const fa = f0 + ((f1 - f0) * k) / nd, fb = f0 + ((f1 - f0) * (k + 1)) / nd
       const [fTop, fBot] = k % 2 ? [fa, fb] : [fb, fa]
