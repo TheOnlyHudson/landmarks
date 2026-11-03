@@ -19866,6 +19866,74 @@
       ],
       "file": "models/dal-cityplace-tower.glb",
       "source": "generators/dal-cityplace-tower.ts"
+    },
+    {
+      "id": "dal-southfork-ranch",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "house",
+        "ranch",
+        "tv-location",
+        "tourist-attraction"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Main house at Southfork Ranch in Parker, Texas, north of Dallas, where two runs of the popular TV show \"Dallas\" were filmed LCCN2015631260.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_house_at_Southfork_Ranch_in_Parker,_Texas,_north_of_Dallas,_where_two_runs_of_the_popular_TV_show_%22Dallas%22_were_filmed_LCCN2015631260.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "SouthForkFront.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SouthForkFront.jpg",
+          "author": "Sf46",
+          "license": "Public domain"
+        },
+        {
+          "title": "Southfork Ranch-03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Southfork_Ranch-03.jpg",
+          "author": "Priwo",
+          "license": "Public domain"
+        },
+        {
+          "title": "Southfork Ranch-04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Southfork_Ranch-04.jpg",
+          "author": "Priwo",
+          "license": "Public domain"
+        },
+        {
+          "title": "Southfork Ranch-02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Southfork_Ranch-02.jpg",
+          "author": "Priwo",
+          "license": "Public domain"
+        },
+        {
+          "title": "Southfork ranch.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Southfork_ranch.jpg",
+          "author": "Triebtäter",
+          "license": "CC BY-SA 2.0 de"
+        }
+      ],
+      "file": "models/dal-southfork-ranch.glb",
+      "source": "generators/dal-southfork-ranch.ts"
     }
   ],
   "landmarks": [
@@ -32828,6 +32896,21 @@
         "way/26329683",
         "way/710355796",
         "way/710355797"
+      ]
+    },
+    {
+      "id": "dal-southfork-ranch",
+      "name": "Southfork Ranch",
+      "model": "dal-southfork-ranch",
+      "place": "dallas-area",
+      "lng": -96.6093807,
+      "lat": 33.0492574,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q1474427",
+      "replaces": [
+        "way/172351926"
       ]
     }
   ],
