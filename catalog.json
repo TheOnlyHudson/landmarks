@@ -16363,6 +16363,97 @@
       ],
       "file": "models/dal-fountain-place.glb",
       "source": "generators/dal-fountain-place.ts"
+    },
+    {
+      "id": "dal-att-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "retractable-roof",
+        "arch"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arlington June 2020 2 (AT&T Stadium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arlington_June_2020_2_(AT%26T_Stadium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Arlington June 2020 3 (AT&T Stadium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arlington_June_2020_3_(AT%26T_Stadium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Arlington June 2020 4 (AT&T Stadium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arlington_June_2020_4_(AT%26T_Stadium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Richard Greene Linear Park June 2020 27 (AT&T Stadium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Richard_Greene_Linear_Park_June_2020_27_(AT%26T_Stadium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "AT&T Stadium, home of the Dallas Cowboys National Football League team in Arlington, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:AT%26T_Stadium,_home_of_the_Dallas_Cowboys_National_Football_League_team_in_Arlington,_Texas_LCCN2015630685.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Cowboys Stadium, a domed stadium with a retractable roof in Arlington, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:Cowboys_Stadium,_a_domed_stadium_with_a_retractable_roof_in_Arlington,_Texas_LCCN2013650777.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Cowboys stadium outside view.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cowboys_stadium_outside_view.JPG",
+          "author": "Mahanga",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Dallas Stadium Support.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_Stadium_Support.JPG",
+          "author": "M.Fitzsimmons",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cowboys Stadium 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cowboys_Stadium_2.jpg",
+          "author": "bobbyh_80",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Cowboys-Stadium-Night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cowboys-Stadium-Night.jpg",
+          "author": "Alienevil",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dal-att-stadium.glb",
+      "source": "generators/dal-att-stadium.ts"
     }
   ],
   "landmarks": [
@@ -28483,6 +28574,27 @@
         "way/1493186371"
       ],
       "wikidata": "Q2462521"
+    },
+    {
+      "id": "dal-att-stadium",
+      "name": "AT&T Stadium",
+      "model": "dal-att-stadium",
+      "place": "dallas-area",
+      "lng": -97.092837,
+      "lat": 32.747842,
+      "bearing": 339,
+      "elevation": -15,
+      "minzoom": 13,
+      "wikidata": "Q838284",
+      "replaces": [
+        "way/47086748",
+        "way/126702663",
+        "way/126702664",
+        "way/126704934",
+        "way/126704935",
+        "way/126704936",
+        "way/126705089"
+      ]
     }
   ],
   "places": [
