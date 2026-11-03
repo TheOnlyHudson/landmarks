@@ -17333,6 +17333,78 @@
       ],
       "file": "models/hou-astrodome.glb",
       "source": "generators/hou-astrodome.ts"
+    },
+    {
+      "id": "hou-nrg-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "retractable-roof",
+        "nfl"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "NRG Stadium, Houston, Texas, United States (2017 aerial)",
+          "url": "https://commons.wikimedia.org/wiki/File:NRG_Stadium,_Houston,_Texas,_United_States.jpg",
+          "author": "U.S. Customs and Border Protection",
+          "license": "Public domain"
+        },
+        {
+          "title": "Reliant Stadium Aerial",
+          "url": "https://commons.wikimedia.org/wiki/File:Reliant_Stadium_Aerial.JPG",
+          "author": "LoneStarMike",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "NRGStadiumnew",
+          "url": "https://commons.wikimedia.org/wiki/File:NRGStadiumnew.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "Nrgstadium0",
+          "url": "https://commons.wikimedia.org/wiki/File:Nrgstadium0.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "NRGStadium1",
+          "url": "https://commons.wikimedia.org/wiki/File:NRGStadium1.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0"
+        },
+        {
+          "title": "Reliant Stadium (3436384600)",
+          "url": "https://commons.wikimedia.org/wiki/File:Reliant_Stadium_(3436384600).jpg",
+          "author": "Mark Hodgins",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Reliant Stadium (3421156423)",
+          "url": "https://commons.wikimedia.org/wiki/File:Reliant_Stadium_(3421156423).jpg",
+          "author": "Randall Chancellor",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/hou-nrg-stadium.glb",
+      "source": "generators/hou-nrg-stadium.ts"
     }
   ],
   "landmarks": [
@@ -29688,6 +29760,21 @@
       "wikidata": "Q1025406",
       "replaces": [
         "way/119420928"
+      ]
+    },
+    {
+      "id": "hou-nrg-stadium",
+      "name": "NRG Stadium",
+      "model": "hou-nrg-stadium",
+      "place": "houston-area",
+      "lng": -95.410834,
+      "lat": 29.684858,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1058864",
+      "replaces": [
+        "way/119422708"
       ]
     }
   ],
