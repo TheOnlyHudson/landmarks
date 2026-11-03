@@ -17869,6 +17869,68 @@
       ],
       "file": "models/hou-shell-energy-stadium.glb",
       "source": "generators/hou-shell-energy-stadium.ts"
+    },
+    {
+      "id": "hou-police-officers-memorial",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "memorial",
+        "sculpture",
+        "granite",
+        "park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Houston Police Department memorial",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_Police_Department_memorial.jpg",
+          "author": "Scott Ehardt",
+          "license": "Public domain"
+        },
+        {
+          "title": "Police memorial, Houston, Texas (LCCN2011633317)",
+          "url": "https://commons.wikimedia.org/wiki/File:Police_memorial,_Houston,_Texas_LCCN2011633317.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Police Memorial, Houston, Texas (LCCN2011630462)",
+          "url": "https://commons.wikimedia.org/wiki/File:Police_Memorial,_Houston,_Texas_LCCN2011630462.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Houston Police Officer's Memorial2",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_Police_Officer%27s_Memorial2.jpg",
+          "author": "meltedplastic",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Houston Police Officer's Memorial1",
+          "url": "https://commons.wikimedia.org/wiki/File:Houston_Police_Officer%27s_Memorial1.jpg",
+          "author": "meltedplastic",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/hou-police-officers-memorial.glb",
+      "source": "generators/hou-police-officers-memorial.ts"
     }
   ],
   "landmarks": [
@@ -30351,6 +30413,19 @@
         "relation/4829389",
         "way/261098257"
       ]
+    },
+    {
+      "id": "hou-police-officers-memorial",
+      "name": "Houston Police Officers' Memorial",
+      "model": "hou-police-officers-memorial",
+      "place": "houston-area",
+      "lng": -95.3830605,
+      "lat": 29.7628379,
+      "bearing": 67.6,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q5916674",
+      "replaces": []
     }
   ],
   "places": [
