@@ -16085,6 +16085,72 @@
       ],
       "file": "models/nyc-jfk-terminal-1.glb",
       "source": "generators/nyc-jfk-terminal-1.ts"
+    },
+    {
+      "id": "hou-jpmorgan-chase-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "JPMorgan Chase Tower (Houston)",
+          "url": "https://commons.wikimedia.org/wiki/File:JPMorgan_Chase_Tower_(Houston).jpg",
+          "author": "Jim Evans",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "JPMorgan Chase Tower, Houston, TX (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:JPMorgan_Chase_Tower,_Houston,_TX_(cropped).jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "JP Morgan Chase Tower in Houston 2 - Dec 2013",
+          "url": "https://commons.wikimedia.org/wiki/File:JP_Morgan_Chase_Tower_in_Houston_2_-_Dec_2013.JPG",
+          "author": "Agsftw",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "JPMorgan Chase Tower in Houston 4",
+          "url": "https://commons.wikimedia.org/wiki/File:JPMorgan_Chase_Tower_in_Houston_4.JPG",
+          "author": "Agsftw",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "JPMorgan Chase Tower 0",
+          "url": "https://commons.wikimedia.org/wiki/File:JPMorgan_Chase_Tower_0.jpg",
+          "author": "WhisperToMe",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "JPMorgan Chase Tower with Houston Skyline at night",
+          "url": "https://commons.wikimedia.org/wiki/File:JPMorgan_Chase_Tower_with_Houston_Skyline_at_night.jpg",
+          "author": "Gabor Eszes (UED77)",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/hou-jpmorgan-chase-tower.glb",
+      "source": "generators/hou-jpmorgan-chase-tower.ts"
     }
   ],
   "landmarks": [
@@ -28129,6 +28195,20 @@
         "way/284907685"
       ],
       "wikidata": "Q55855378"
+    },
+    {
+      "id": "hou-jpmorgan-chase-tower",
+      "name": "JPMorgan Chase Tower",
+      "model": "hou-jpmorgan-chase-tower",
+      "place": "houston-area",
+      "lng": -95.364005,
+      "lat": 29.760399,
+      "bearing": 34.9,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/44130644"
+      ]
     }
   ],
   "places": [
