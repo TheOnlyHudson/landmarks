@@ -17478,6 +17478,74 @@
       ],
       "file": "models/hou-independence-plaza.glb",
       "source": "generators/hou-independence-plaza.ts"
+    },
+    {
+      "id": "hou-san-jacinto-monument",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "historic",
+        "art-deco",
+        "memorial",
+        "column"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Jacinto Monument - Full.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Jacinto_Monument_-_Full.jpg",
+          "author": "Adam Cuerden",
+          "license": "Public domain"
+        },
+        {
+          "title": "San Jacinto Monument March 2022 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Jacinto_Monument_March_2022_3.jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Jacinto monument, Houston, Texas LCCN2011633232.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Jacinto_monument,_Houston,_Texas_LCCN2011633232.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "5 San Jacinto Monument. Star.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:5_San_Jacinto_Monument._Star.jpg",
+          "author": "Tijuana Brass",
+          "license": "Public domain"
+        },
+        {
+          "title": "San Jacinto Battle Monument From The South.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Jacinto_Battle_Monument_From_The_South.jpg",
+          "author": "Gronowski26",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Jacinto monument.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Jacinto_monument.jpg",
+          "author": "Daniel Schwen",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/hou-san-jacinto-monument.glb",
+      "source": "generators/hou-san-jacinto-monument.ts"
     }
   ],
   "landmarks": [
@@ -29864,6 +29932,43 @@
       "replaces": [
         "way/894077621",
         "way/894077622"
+      ]
+    },
+    {
+      "id": "hou-san-jacinto-monument",
+      "name": "San Jacinto Monument",
+      "model": "hou-san-jacinto-monument",
+      "place": "houston-area",
+      "lng": -95.0807045,
+      "lat": 29.7498544,
+      "bearing": 25,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q1111991",
+      "replaces": [
+        "way/257767763",
+        "way/257767764",
+        "way/257767765",
+        "way/257767766",
+        "way/257767767",
+        "way/257767768",
+        "way/257767769",
+        "way/257767770",
+        "way/257767771",
+        "way/257767772",
+        "way/257767773",
+        "way/257767774",
+        "way/257767775",
+        "way/257767776",
+        "way/257767777",
+        "way/257767778",
+        "way/41290215",
+        "way/607475586",
+        "way/607475590",
+        "way/607475592",
+        "way/607475595",
+        "way/607475597",
+        "way/607710160"
       ]
     }
   ],
