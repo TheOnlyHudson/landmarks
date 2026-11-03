@@ -23948,6 +23948,81 @@
           "license": "CC BY-SA 4.0"
         }
       ]
+    },
+    {
+      "id": "nyc-tsx-broadway-screen",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "billboard",
+        "led-screen",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The nine-storey LED wall wrapping the corner of Seventh Avenue and 47th Street on TSX Broadway (The Square), with its cantilevered stage. Signage only; the tower is the map's own building.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "At New York City 2025 039.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:At_New_York_City_2025_039.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "B08A4078",
+          "url": "https://www.flickr.com/photos/95413346@N00/52999817685",
+          "author": "Elvert Barnes",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "What to Wear",
+          "url": "https://www.flickr.com/photos/163484448@N03/53480326582",
+          "author": "Newell Reinvention",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "View of Times Square (May 2023).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Times_Square_(May_2023).JPG",
+          "author": "Benoît Prieur",
+          "license": "CC0"
+        },
+        {
+          "title": "Times Square in May 2023 (1).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_in_May_2023_(1).JPG",
+          "author": "Benoît Prieur",
+          "license": "CC0"
+        },
+        {
+          "title": "Times Sq Sep 2022 07.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Sep_2022_07.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Square, NYC at night - August 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_NYC_at_night_-_August_2025.jpg",
+          "author": "Nielsoncaetanosalmeron",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/nyc-tsx-broadway-screen.glb",
+      "source": "generators/nyc-tsx-broadway-screen.ts"
     }
   ],
   "landmarks": [
@@ -37844,6 +37919,18 @@
         "way/288298870",
         "way/311451315"
       ]
+    },
+    {
+      "id": "nyc-tsx-broadway-screen",
+      "name": "TSX Broadway Screen",
+      "model": "nyc-tsx-broadway-screen",
+      "place": "times-square",
+      "lng": -73.984604,
+      "lat": 40.758994,
+      "bearing": 29,
+      "elevation": 7.8,
+      "minzoom": 16,
+      "replaces": []
     }
   ],
   "places": [
