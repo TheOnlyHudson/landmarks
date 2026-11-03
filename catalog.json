@@ -17078,6 +17078,97 @@
       ],
       "file": "models/dal-texas-school-book-depository.glb",
       "source": "generators/dal-texas-school-book-depository.ts"
+    },
+    {
+      "id": "dal-jfk-memorial",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "memorial",
+        "modernist",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dallas January 2016 01 (John Fitzgerald Kennedy Memorial)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_January_2016_01_(John_Fitzgerald_Kennedy_Memorial).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas January 2016 02 (John Fitzgerald Kennedy Memorial)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_January_2016_02_(John_Fitzgerald_Kennedy_Memorial).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dallas January 2016 03 (John Fitzgerald Kennedy Memorial)",
+          "url": "https://commons.wikimedia.org/wiki/File:Dallas_January_2016_03_(John_Fitzgerald_Kennedy_Memorial).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "John F. Kennedy Memorial Plaza 04081801",
+          "url": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy_Memorial_Plaza_04081801.jpg",
+          "author": "PLBthetoonist",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "John F. Kennedy Memorial Plaza 04081802",
+          "url": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy_Memorial_Plaza_04081802.jpg",
+          "author": "PLBthetoonist",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "John F. Kennedy Memorial Plaza - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy_Memorial_Plaza_-_panoramio.jpg",
+          "author": "Michael Laferriere",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "John Fitzgerald Kennedy Memorial (14012260475)",
+          "url": "https://commons.wikimedia.org/wiki/File:John_Fitzgerald_Kennedy_Memorial_(14012260475).jpg",
+          "author": "Nelo Hotsuma from Rockwall",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "JFK Memorial Dallas",
+          "url": "https://commons.wikimedia.org/wiki/File:JFK_Memorial_Dallas.jpg",
+          "author": "jimbowen0306",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "John Fitzgerald Kennedy Memorial by Philip Johnson, Dallas, Texas (41064792615)",
+          "url": "https://commons.wikimedia.org/wiki/File:John_Fitzgerald_Kennedy_Memorial_by_Philip_Johnson,_Dallas,_Texas_(41064792615).jpg",
+          "author": "mliu92 from San Mateo",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The John Fitzgerald Kennedy Memorial, a monument to U.S. President John Fitzgerald Kennedy in the West End Historic District of downtown Dallas, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:The_John_Fitzgerald_Kennedy_Memorial,_a_monument_to_U.S._President_John_Fitzgerald_Kennedy_in_the_West_End_Historic_District_of_downtown_Dallas,_Texas_LCCN2015631022.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-jfk-memorial.glb",
+      "source": "generators/dal-jfk-memorial.ts"
     }
   ],
   "landmarks": [
@@ -29441,6 +29532,23 @@
         "way/727595366",
         "way/727595367"
       ]
+    },
+    {
+      "id": "dal-jfk-memorial",
+      "name": "John F. Kennedy Memorial",
+      "model": "dal-jfk-memorial",
+      "place": "dallas-area",
+      "lng": -96.8064416,
+      "lat": 32.7787216,
+      "bearing": 345.3,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/1390843350",
+        "way/1390843351",
+        "way/1390843352"
+      ],
+      "wikidata": "Q6233329"
     }
   ],
   "places": [
