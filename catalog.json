@@ -18629,6 +18629,116 @@
       ],
       "file": "models/dal-american-airlines-center.glb",
       "source": "generators/dal-american-airlines-center.ts"
+    },
+    {
+      "id": "dal-kimbell-art-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "art-museum",
+        "modernist",
+        "louis-kahn"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kimbell Art Museum Highsmith.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Highsmith.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimbell Art Museum Dusk Highsmith.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Dusk_Highsmith.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimbell Art Museum Fort Worth 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Fort_Worth_01.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimbell Art Museum Fort Worth 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Fort_Worth_02.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimbell Art Museum Fort Worth 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Fort_Worth_03.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimbell Art Museum Fort Worth 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Fort_Worth_04.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimbell Art Museum Fort Worth 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Fort_Worth_05.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fort Worth Cultural District June 2016 12 (Kimbell Art Museum).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Cultural_District_June_2016_12_(Kimbell_Art_Museum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Cultural District June 2016 13 (Kimbell Art Museum).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Cultural_District_June_2016_13_(Kimbell_Art_Museum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Cultural District June 2016 14 (Kimbell Art Museum).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Cultural_District_June_2016_14_(Kimbell_Art_Museum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Cultural District June 2016 16 (Kimbell Art Museum).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Cultural_District_June_2016_16_(Kimbell_Art_Museum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kimbell Art Museum with Moore sculpture.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_with_Moore_sculpture.jpg",
+          "author": "Kevin Muncie",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Kimbell Art Museum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum.jpg",
+          "author": "DBinfo",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-kimbell-art-museum.glb",
+      "source": "generators/dal-kimbell-art-museum.ts"
     }
   ],
   "landmarks": [
@@ -31362,6 +31472,21 @@
         "relation/20375637",
         "relation/20375638"
       ]
+    },
+    {
+      "id": "dal-kimbell-art-museum",
+      "name": "Kimbell Art Museum",
+      "model": "dal-kimbell-art-museum",
+      "place": "dallas-area",
+      "lng": -97.365149,
+      "lat": 32.748579,
+      "bearing": 0.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/7301044"
+      ],
+      "wikidata": "Q1741629"
     }
   ],
   "places": [
