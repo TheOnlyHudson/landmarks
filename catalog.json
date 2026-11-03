@@ -23641,6 +23641,68 @@
       ],
       "file": "models/nyc-nasdaq-marketsite.glb",
       "source": "generators/nyc-nasdaq-marketsite.ts"
+    },
+    {
+      "id": "nyc-3-times-square-sign",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "billboard",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Times Sq Sep 2021 74.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Sep_2021_74.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Chase Bank Times Square (August 2025).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Chase_Bank_Times_Square_(August_2025).jpg",
+          "author": "Busition",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Times Sq Sep 2021 65.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Sep_2021_65.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Sep 2021 91.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Sep_2021_91.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reuters, 3 Times Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reuters,_3_Times_Square.jpg",
+          "author": "Eden, Janine and Jim",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/nyc-3-times-square-sign.glb",
+      "source": "generators/nyc-3-times-square-sign.ts"
     }
   ],
   "landmarks": [
@@ -37468,6 +37530,18 @@
       "place": "times-square",
       "lng": -73.9859953,
       "lat": 40.7563467,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-3-times-square-sign",
+      "name": "3 Times Square Sign",
+      "model": "nyc-3-times-square-sign",
+      "place": "times-square",
+      "lng": -73.9870797,
+      "lat": 40.7563699,
       "bearing": 0,
       "elevation": 0,
       "minzoom": 16,
