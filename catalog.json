@@ -19355,6 +19355,74 @@
       ],
       "file": "models/dal-livestock-exchange.glb",
       "source": "generators/dal-livestock-exchange.ts"
+    },
+    {
+      "id": "dal-cowtown-coliseum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "arena",
+        "rodeo",
+        "mission-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fort Worth Stockyards June 2016 49 (Cowtown Coliseum).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Stockyards_June_2016_49_(Cowtown_Coliseum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Stockyards June 2016 48 (Cowtown Coliseum).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Stockyards_June_2016_48_(Cowtown_Coliseum).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fort Worth Stockyards June 2016 17 (Cowtown Coliseum and Box Office).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Stockyards_June_2016_17_(Cowtown_Coliseum_and_Box_Office).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Coliseum, full shot.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Coliseum,_full_shot.jpg",
+          "author": "Jpo tx113",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Coliseum, Fort Worth, Texas (8123991462).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Coliseum,_Fort_Worth,_Texas_(8123991462).jpg",
+          "author": "Nicolas Henderson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Coliseum (20102216).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Coliseum_(20102216).jpg",
+          "author": "Geo. W. Bellar",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/dal-cowtown-coliseum.glb",
+      "source": "generators/dal-cowtown-coliseum.ts"
     }
   ],
   "landmarks": [
@@ -32207,6 +32275,21 @@
       "minzoom": 15,
       "replaces": [
         "relation/7321195"
+      ]
+    },
+    {
+      "id": "dal-cowtown-coliseum",
+      "name": "Cowtown Coliseum",
+      "model": "dal-cowtown-coliseum",
+      "place": "dallas-area",
+      "lng": -97.3476885,
+      "lat": 32.789623,
+      "bearing": 0.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/56029797",
+        "way/1245926355"
       ]
     }
   ],
