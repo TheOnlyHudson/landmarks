@@ -18975,6 +18975,78 @@
       ],
       "file": "models/hou-menil-collection.glb",
       "source": "generators/hou-menil-collection.ts"
+    },
+    {
+      "id": "hou-beer-can-house",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "folk-art",
+        "house"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Beer Can House",
+          "url": "https://commons.wikimedia.org/wiki/File:Beer_Can_House.jpg",
+          "author": "Andrew Wiseman",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Beer can house",
+          "url": "https://commons.wikimedia.org/wiki/File:Beer_can_house.jpg",
+          "author": "NZ Russ",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Quirky beer can house, Houston, Texas",
+          "url": "https://commons.wikimedia.org/wiki/File:Quirky_beer_can_house,_Houston,_Texas_LCCN2011630520.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Beer Can House closeup",
+          "url": "https://commons.wikimedia.org/wiki/File:Beer_Can_House_closeup.jpg",
+          "author": "BrokenSegue",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Beer Can House, Houston, Texas",
+          "url": "https://www.flickr.com/photos/76792851@N07/8301316811",
+          "author": "TexasExplorer98",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Beer-can house, Houston, TX",
+          "url": "https://www.flickr.com/photos/37996580417@N01/2986042076",
+          "author": "gruntzooki",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Keith at Beer Can House Houston",
+          "url": "https://www.flickr.com/photos/49399018@N00/4381092816",
+          "author": "amanderson2",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/hou-beer-can-house.glb",
+      "source": "generators/hou-beer-can-house.ts"
     }
   ],
   "landmarks": [
@@ -31707,6 +31779,21 @@
         "relation/21270446"
       ],
       "wikidata": "Q1888308"
+    },
+    {
+      "id": "hou-beer-can-house",
+      "name": "Beer Can House",
+      "model": "hou-beer-can-house",
+      "place": "houston-area",
+      "lng": -95.4190145,
+      "lat": 29.763773,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/874518448"
+      ],
+      "wikidata": "Q4879943"
     }
   ],
   "places": [
