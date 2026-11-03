@@ -231,14 +231,17 @@ Send the model back with specific fixes when it fails any of these. Expect
 two or three rounds on the famous ones. A weak model that can't be fixed
 stays in the batch, marked as weak in the PR table; it is not dropped.
 
-A contact sheet of the whole batch so far, with phone sizes:
+A contact sheet of the whole batch so far, by day and by night:
 
 ```bash
 bun run sheet --branch-diff --out <scratch>/<prefix>/sheets
 ```
 
-Each landmark gets a three-quarter view from the south-west, turned to its
-real bearing, plus the same view at 200 and 80 px.
+Each landmark gets a card with one three-quarter view, turned to its real
+bearing, drawn by day and at night side by side. The view is taken from the
+diagonal that shows the most of it lit at night (south-west on a tie), so a
+sign faces the camera; `--from <deg>` fixes the side. Phone sizes are in
+`bun run preview`.
 
 ## 6. Merge
 
@@ -389,7 +392,7 @@ release host.
 | Tool | Does |
 |---|---|
 | `bun run preview <id> [dir] [photo.png ...] [--night]` | Every review view of one model, plus photo side-by-sides |
-| `bun run sheet <id ...>` / `--branch-diff` | Contact sheets, with 200 and 80 px views |
+| `bun run sheet <id ...>` / `--branch-diff` | Contact sheets, each model by day and at night |
 | `bun tools/view.ts <id> <out> <from> [el]` | One render from any compass side, to match a photo |
 | `bun tools/montage.ts <out> <img[=label]> ...` | Photos and renders side by side, PNG or JPEG |
 | `bun tools/glb-stats.ts <id ...>` | Triangles, size, materials, bounds, budget flags |

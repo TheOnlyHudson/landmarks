@@ -23313,6 +23313,1434 @@
       ],
       "file": "models/dal-ford-center-the-star.glb",
       "source": "generators/dal-ford-center-the-star.ts"
+    },
+    {
+      "id": "nyc-one-times-square",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "billboard",
+        "neon",
+        "times-square",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "One Times Square May 2014.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Times_Square_May_2014.jpg",
+          "author": "TastyPoutine",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "One Times Square, Manhattan, New York (7237736932).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Times_Square,_Manhattan,_New_York_(7237736932).jpg",
+          "author": "Ken Lund",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Pano timesquare.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pano_timesquare.jpg",
+          "author": "Kerrbenj",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Times Square New York City FLIKR 4 One Times Square Close.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_New_York_City_FLIKR_4_One_Times_Square_Close.jpg",
+          "author": "click-see",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "One Time Square (6454704097).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Time_Square_(6454704097).jpg",
+          "author": "Maarten Heerlien",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Times Square, NYC at night - August 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_NYC_at_night_-_August_2025.jpg",
+          "author": "Nielsoncaetanosalmeron",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "One Times Square New Year's Ball.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Times_Square_New_Year%27s_Ball.jpg",
+          "author": "Scu ba",
+          "license": "CC0"
+        },
+        {
+          "title": "Times Square Ball from above.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_Ball_from_above.jpg",
+          "author": "Anthony Quintano",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Refurbishing Times Tower 2024 jeh.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Refurbishing_Times_Tower_2024_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "NASA Artemis II Crew Visits Times Square Skywalk (NHQ202604300012).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NASA_Artemis_II_Crew_Visits_Times_Square_Skywalk_(NHQ202604300012).jpg",
+          "author": "NASA Headquarters",
+          "license": "Public domain"
+        },
+        {
+          "title": "Constellation Ball at Times Square, 2026.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Constellation_Ball_at_Times_Square,_2026.jpg",
+          "author": "User697755",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/nyc-one-times-square.glb",
+      "source": "generators/nyc-one-times-square.ts"
+    },
+    {
+      "id": "nyc-tkts-red-steps",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "times-square",
+        "steps",
+        "glass",
+        "neon",
+        "sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "TKTS red stairs jeh.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:TKTS_red_stairs_jeh.JPG",
+          "author": "Jim.henderson",
+          "license": "Public domain"
+        },
+        {
+          "title": "TKTS 47 st jeh.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:TKTS_47_st_jeh.JPG",
+          "author": "Jim.henderson",
+          "license": "Public domain"
+        },
+        {
+          "title": "Time Square - TKTS Stand (48193461362).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Time_Square_-_TKTS_Stand_(48193461362).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "TKTS Booth @ Times Square (3619286756).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:TKTS_Booth_@_Times_Square_(3619286756).jpg",
+          "author": "Rob Young",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "TKTS - Times Square, New York, NY, USA - August 19, 2015 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:TKTS_-_Times_Square,_New_York,_NY,_USA_-_August_19,_2015_01.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Father Duffy statue and TKTS booth risers.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Father_Duffy_statue_and_TKTS_booth_risers.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "TKTS Times Square.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:TKTS_Times_Square.JPG",
+          "author": "Hisland7",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/nyc-tkts-red-steps.glb",
+      "source": "generators/nyc-tkts-red-steps.ts"
+    },
+    {
+      "id": "nyc-duffy-square-statues",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "statue",
+        "bronze",
+        "memorial",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Father Duffy by Charles Keck (May 2023).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Father_Duffy_by_Charles_Keck_(May_2023).JPG",
+          "author": "Benoît Prieur",
+          "license": "CC0"
+        },
+        {
+          "title": "Father Duffy by Charles Keck - DSC06430.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Father_Duffy_by_Charles_Keck_-_DSC06430.JPG",
+          "author": "Daderot",
+          "license": "Public domain"
+        },
+        {
+          "title": "Father Duffy statue and TKTS booth risers.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Father_Duffy_statue_and_TKTS_booth_risers.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "George M. Cohan Statue in Times Square - New York, NY, USA - August 18, 2015 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:George_M._Cohan_Statue_in_Times_Square_-_New_York,_NY,_USA_-_August_18,_2015_01.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "George M Cohan statue and Duffy Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:George_M_Cohan_statue_and_Duffy_Square.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "George M. Cohan by Georg Lober - DSC06435.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:George_M._Cohan_by_Georg_Lober_-_DSC06435.JPG",
+          "author": "Daderot",
+          "license": "Public domain"
+        },
+        {
+          "title": "George M. Cohan statue in Times Square IMG 1607.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:George_M._Cohan_statue_in_Times_Square_IMG_1607.JPG",
+          "author": "Billy Hathorn",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/nyc-duffy-square-statues.glb",
+      "source": "generators/nyc-duffy-square-statues.ts"
+    },
+    {
+      "id": "nyc-nasdaq-marketsite",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "billboard",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Nasdaq MarketSite (51494550508).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Nasdaq_MarketSite_(51494550508).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Nasdaq Tower May 2026.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Nasdaq_Tower_May_2026.jpg",
+          "author": "Nielsoncaetanosalmeron",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "NASA Mars Perseverance on Nasdaq MarketSite (NHQ202102180119).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Perseverance_on_Nasdaq_MarketSite_(NHQ202102180119).jpg",
+          "author": "NASA/Emma Howells",
+          "license": "Public domain"
+        },
+        {
+          "title": "NASA Mars Perseverance on Nasdaq MarketSite (NHQ202102180118).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Perseverance_on_Nasdaq_MarketSite_(NHQ202102180118).jpg",
+          "author": "NASA/Emma Howells",
+          "license": "Public domain"
+        },
+        {
+          "title": "Times sqare Nasdaq.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_sqare_Nasdaq.jpg",
+          "author": "Kerrbenj",
+          "license": "CC BY-SA 1.0"
+        },
+        {
+          "title": "NASDAQ Times Square - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NASDAQ_Times_Square_-_panoramio.jpg",
+          "author": "Roman SUZUKI",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Naava nasdaq times square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Naava_nasdaq_times_square.jpg",
+          "author": "Aavikkovarpunen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "4 & 1 Times Square",
+          "url": "https://www.flickr.com/photos/10485077@N06/49575783063",
+          "author": "edenpictures",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/nyc-nasdaq-marketsite.glb",
+      "source": "generators/nyc-nasdaq-marketsite.ts"
+    },
+    {
+      "id": "nyc-3-times-square-sign",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "billboard",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Times Sq Sep 2021 74.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Sep_2021_74.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Chase Bank Times Square (August 2025).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Chase_Bank_Times_Square_(August_2025).jpg",
+          "author": "Busition",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Times Sq Sep 2021 65.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Sep_2021_65.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Sep 2021 91.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Sep_2021_91.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reuters, 3 Times Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Reuters,_3_Times_Square.jpg",
+          "author": "Eden, Janine and Jim",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/nyc-3-times-square-sign.glb",
+      "source": "generators/nyc-3-times-square-sign.ts"
+    },
+    {
+      "id": "nyc-marriott-marquis-screen",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "billboard",
+        "neon",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Marriott Marquis Hotel",
+          "url": "https://www.flickr.com/photos/34128007@N04/38358498371",
+          "author": "Prayitno",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "New York Marriott Marquis (54077363060).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_Marriott_Marquis_(54077363060).jpg",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "W 46th St Duffy Square 11 - Marriott Marquis.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:W_46th_St_Duffy_Square_11_-_Marriott_Marquis.jpg",
+          "author": "Tdorante10",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 23.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_23.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Square - New York, NY, USA - August 2015 13.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_-_New_York,_NY,_USA_-_August_2015_13.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/nyc-marriott-marquis-screen.glb",
+      "source": "generators/nyc-marriott-marquis-screen.ts"
+    },
+    {
+      "id": "nyc-1515-broadway-signs",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "billboard",
+        "neon",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Times Sq Nov 2021 116.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_116.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 114.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_114.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 112.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_112.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Viacom building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Viacom_building.jpg",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Paramount Skydance One Astor Plaza.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Paramount_Skydance_One_Astor_Plaza.jpg",
+          "author": "Nielsoncaetanosalmeron",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 124.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_124.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "One Astor Plaza (55283615616).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Astor_Plaza_(55283615616).jpg",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Times Sq Feb 2022 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Feb_2022_02.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Square - New York, NY, USA - August 2015 13.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_-_New_York,_NY,_USA_-_August_2015_13.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/nyc-1515-broadway-signs.glb",
+      "source": "generators/nyc-1515-broadway-signs.ts"
+    },
+    {
+      "id": "nyc-paramount-building",
+      "file": "models/nyc-paramount-building.glb",
+      "source": "generators/nyc-paramount-building.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "art-deco",
+        "clock",
+        "neon",
+        "historic",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "1501 Broadway, NYC.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1501_Broadway,_NYC.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "1501 Broadway.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1501_Broadway.jpg",
+          "author": "Kidfly182",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "1501 Broadway rear top.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1501_Broadway_rear_top.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Paramount Building via One Times Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Paramount_Building_via_One_Times_Square.jpg",
+          "author": "Scu ba",
+          "license": "CC0 1.0"
+        },
+        {
+          "title": "Clock on the Paramount Building (4672393664).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Clock_on_the_Paramount_Building_(4672393664).jpg",
+          "author": "Tony Hisgett",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "1501 Broadway, Times Square, New York (7237735096).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1501_Broadway,_Times_Square,_New_York_(7237735096).jpg",
+          "author": "Ken Lund",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "43rd St Bway 7th Av td 01 - Paramount Building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:43rd_St_Bway_7th_Av_td_01_-_Paramount_Building.jpg",
+          "author": "Tdorante10",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "43rd St Bway 7th Av td 03 - Paramount Building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:43rd_St_Bway_7th_Av_td_03_-_Paramount_Building.jpg",
+          "author": "Tdorante10",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Paramount Building Ornate Archway and Marquee Sign - 1501 Broadway, NYC.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Paramount_Building_Ornate_Archway_and_Marquee_Sign_-_1501_Broadway,_NYC.jpg",
+          "author": "Anthony Quintano",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Hard Rock-2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hard_Rock-2023.jpg",
+          "author": "Alberto-g-rovi",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Times Square Night, Hard Rock Café.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_Night,_Hard_Rock_Caf%C3%A9.jpg",
+          "author": "Francesca.hyanna19",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "id": "nyc-tsx-broadway-screen",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "billboard",
+        "led-screen",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The nine-storey LED wall wrapping the corner of Seventh Avenue and 47th Street on TSX Broadway (The Square), with its cantilevered stage. Signage only; the tower is the map's own building.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "At New York City 2025 039.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:At_New_York_City_2025_039.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "B08A4078",
+          "url": "https://www.flickr.com/photos/95413346@N00/52999817685",
+          "author": "Elvert Barnes",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "What to Wear",
+          "url": "https://www.flickr.com/photos/163484448@N03/53480326582",
+          "author": "Newell Reinvention",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "View of Times Square (May 2023).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Times_Square_(May_2023).JPG",
+          "author": "Benoît Prieur",
+          "license": "CC0"
+        },
+        {
+          "title": "Times Square in May 2023 (1).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_in_May_2023_(1).JPG",
+          "author": "Benoît Prieur",
+          "license": "CC0"
+        },
+        {
+          "title": "Times Sq Sep 2022 07.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Sep_2022_07.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Square, NYC at night - August 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_NYC_at_night_-_August_2025.jpg",
+          "author": "Nielsoncaetanosalmeron",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/nyc-tsx-broadway-screen.glb",
+      "source": "generators/nyc-tsx-broadway-screen.ts"
+    },
+    {
+      "id": "nyc-20-times-square-screen",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "billboard",
+        "led-screen",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The 18,000 sq ft LED wall wrapping the corner of Seventh Avenue and 47th Street on 20 Times Square (the Times Square EDITION). Signage only; the tower is the map's own building.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Times Square, New York 2019 12.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_New_York_2019_12.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Times Square, New York 2019 17.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_New_York_2019_17.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Times Square, New York 2019 13.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_New_York_2019_13.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "View of Times Square (May 2023).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Times_Square_(May_2023).JPG",
+          "author": "Benoît Prieur",
+          "license": "CC0"
+        },
+        {
+          "title": "20 Times Square - The Times Square EDITION (55283756778).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20_Times_Square_-_The_Times_Square_EDITION_(55283756778).jpg",
+          "author": "Flickr user 83136374@N05",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Times Square, NYC at night - August 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_NYC_at_night_-_August_2025.jpg",
+          "author": "Nielsoncaetanosalmeron",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/nyc-20-times-square-screen.glb",
+      "source": "generators/nyc-20-times-square-screen.ts"
+    },
+    {
+      "id": "nyc-1500-broadway-signs",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "billboard",
+        "neon",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The screens and tickers on the base of 1500 Broadway: ABC's Times Square Studios (Good Morning America) banded LED corner at 44th Street with its tickers, the Broadway screens and the floodlit rooftop billboard, as they were in 2021 (Good Morning America has since moved out). Signage only; the building stays the map's extrusion.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Times Sq Nov 2021 37.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_37.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 42.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_42.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 41.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_41.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 33.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_33.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "ABC, Times Square - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ABC,_Times_Square_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "ABC - Good Morning America.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ABC_-_Good_Morning_America.jpg",
+          "author": "Tjeerd from Amsterdam, The Netherlands",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "New York - Times Square & Broadway (2948666414).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_-_Times_Square_%26_Broadway_(2948666414).jpg",
+          "author": "David Ohmer",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Times Square Studios.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_Studios.jpg",
+          "author": "History127",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "1500 Broadway (55282696232).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1500_Broadway_(55282696232).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/nyc-1500-broadway-signs.glb",
+      "source": "generators/nyc-1500-broadway-signs.ts"
+    },
+    {
+      "id": "nyc-1540-broadway-signs",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "billboard",
+        "neon",
+        "lettering",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The sign wall on the base of 1540 Broadway (the former Bertelsmann Building): the screen band wrapping the 45th Street corner, the \"1540 BROADWAY\" letters on its rail and the upper-tier screens on the podium roof. Signage only; the building stays the map's extrusion.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "1540 Broadway (55284019625).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1540_Broadway_(55284019625).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Times Square - New York, NY, USA - August 2015 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_-_New_York,_NY,_USA_-_August_2015_05.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "1540 Broadway (15747989925).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1540_Broadway_(15747989925).jpg",
+          "author": "Phil Dolby",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Times Sq Dec 2021 33.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Dec_2021_33.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Apr 2017 15.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Apr_2017_15.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Disney Store Times Square NYC.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Disney_Store_Times_Square_NYC.jpg",
+          "author": "Nielsoncaetanosalmeron",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/nyc-1540-broadway-signs.glb",
+      "source": "generators/nyc-1540-broadway-signs.ts"
+    },
+    {
+      "id": "nyc-morgan-stanley-tickers",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "billboard",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Morgan Stanley Headquarters (48105951892).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Morgan_Stanley_Headquarters_(48105951892).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "MorganStanley HQ TimesSquare May 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MorganStanley_HQ_TimesSquare_May_2019.jpg",
+          "author": "Icc1977",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Morgan Stanley Times Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Morgan_Stanley_Times_Square.jpg",
+          "author": "PLBechly",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Sq Nov 2021 177.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_177.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Morgan Stanley Building (WTM by official-ly cool 112).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Morgan_Stanley_Building_(WTM_by_official-ly_cool_112).jpg",
+          "author": "Wikipedia Takes Manhattan participant team",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Morgan Stanley on Times Square.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Morgan_Stanley_on_Times_Square.JPG",
+          "author": "Jenix89",
+          "license": "Public domain"
+        },
+        {
+          "title": "1585 Broadway - Morgan Stanley Building (55283615766).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1585_Broadway_-_Morgan_Stanley_Building_(55283615766).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/nyc-morgan-stanley-tickers.glb",
+      "source": "generators/nyc-morgan-stanley-tickers.ts"
+    },
+    {
+      "id": "nyc-1600-broadway-signs",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "billboard",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "M&M's World New York July 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:M%26M%27s_World_New_York_July_2019.jpg",
+          "author": "TaurusEmerald",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "M&M's World (5367196170).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:M%26M%27s_World_(5367196170).jpg",
+          "author": "Jorge Láscar",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "M&M's World, New York City, outside (May 2023).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:M%26M%27s_World,_New_York_City,_outside_(May_2023).JPG",
+          "author": "Benoît Prieur",
+          "license": "CC0"
+        },
+        {
+          "title": "M&M's World NYC Neon Sign.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:M%26M%27s_World_NYC_Neon_Sign.jpg",
+          "author": "Richieman",
+          "license": "Public domain"
+        },
+        {
+          "title": "M&M's World New York City.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:M%26M%27s_World_New_York_City.JPG",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "NYC M&M'S Store Facade and Jumbotron.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NYC_M%26M%27S_Store_Facade_and_Jumbotron.jpg",
+          "author": "Mepatm",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "NYC - 1600 Broadway On the Square – m^m's - West 48th Street – West 49th Street - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NYC_-_1600_Broadway_On_the_Square_%E2%80%93_m%5Em%27s_-_West_48th_Street_%E2%80%93_West_49th_Street_-_panoramio.jpg",
+          "author": "giggel",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/nyc-1600-broadway-signs.glb",
+      "source": "generators/nyc-1600-broadway-signs.ts"
+    },
+    {
+      "id": "nyc-times-square-recruiting-station",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "neon",
+        "flag",
+        "kiosk",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Recruiting station on Times Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Recruiting_station_on_Times_Square.jpg",
+          "author": "Ypsilon from Finland",
+          "license": "CC0"
+        },
+        {
+          "title": "US Armed Forces Recruiting Station Times Square (41284420372).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:US_Armed_Forces_Recruiting_Station_Times_Square_(41284420372).jpg",
+          "author": "Nan Palmero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "US Armed Forces Recruiting Station Times Square (41326363841).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:US_Armed_Forces_Recruiting_Station_Times_Square_(41326363841).jpg",
+          "author": "Nan Palmero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "U.S. Armed Forces Recruiting Station - Times Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:U.S._Armed_Forces_Recruiting_Station_-_Times_Square.jpg",
+          "author": "PumpkinSky",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Times Square US Army Recruiting Station (New York) (43427509240).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_US_Army_Recruiting_Station_(New_York)_(43427509240).jpg",
+          "author": "VillageHero",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "New York Us armed forces recruitment station.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_Us_armed_forces_recruitment_station.jpg",
+          "author": "Aviation poseidon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Usforces.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Usforces.jpg",
+          "author": "Andrevruas",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "New York City am 20.4.2014 8.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_City_am_20.4.2014_8.jpg",
+          "author": "Christian Alexander Tietgen",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "New York City (52766724129).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_City_(52766724129).jpg",
+          "author": "Chad Davis",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "New York City Times Square 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_City_Times_Square_01.jpg",
+          "author": "Norbert Nagel",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/nyc-times-square-recruiting-station.glb",
+      "source": "generators/nyc-times-square-recruiting-station.ts"
+    },
+    {
+      "id": "nyc-two-times-square-signs",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "billboard",
+        "neon",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "2017 Coke Sign.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2017_Coke_Sign.jpg",
+          "author": "Primary686",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Times Square New York City November 25, 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_New_York_City_November_25,_2018.jpg",
+          "author": "Jaggerhornik",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Times Square, New York 2019 11.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_New_York_2019_11.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Times Square, New York City, 20231003 1238 1922.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_New_York_City,_20231003_1238_1922.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Times Square, New York City, 20231003 1238 1920.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square,_New_York_City,_20231003_1238_1920.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "New York, 2019 (48621790642).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York,_2019_(48621790642).jpg",
+          "author": "Sergiy Galyonkin",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Good Riddance Day 2024 15.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Good_Riddance_Day_2024_15.jpg",
+          "author": "SWinxy",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "2025-10-19 02.41.42 Choi Kwang-mo Nongshim Shin Ramyun Light Ups New York Times Square with KPop Demon Hunters.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2025-10-19_02.41.42_Choi_Kwang-mo_Nongshim_Shin_Ramyun_Light_Ups_New_York_Times_Square_with_KPop_Demon_Hunters.jpg",
+          "author": "Choikwangmo25",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/nyc-two-times-square-signs.glb",
+      "source": "generators/nyc-two-times-square-signs.ts"
+    },
+    {
+      "id": "nyc-new-amsterdam-theatre-sign",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "marquee",
+        "theatre",
+        "times-square",
+        "art-deco"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "New Amsterdam Theatre.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Amsterdam_Theatre.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "New Amsterdam Theatre Mary Poppins 2007 NYC.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Amsterdam_Theatre_Mary_Poppins_2007_NYC.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Times Square after dark sign 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_after_dark_sign_3.jpg",
+          "author": "The All-Nite Images",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The New Amsterdam (52766994176).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_New_Amsterdam_(52766994176).jpg",
+          "author": "Eden, Janine and Jim",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/nyc-new-amsterdam-theatre-sign.glb",
+      "source": "generators/nyc-new-amsterdam-theatre-sign.ts"
+    },
+    {
+      "id": "nyc-lyric-theatre-marquee",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "marquee",
+        "theatre",
+        "times-square"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Lyric Theatre - Harry Potter and the Cursed Child (48296064337).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lyric_Theatre_-_Harry_Potter_and_the_Cursed_Child_(48296064337).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Lyric Theatre Broadway-Harry Potter.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lyric_Theatre_Broadway-Harry_Potter.jpg",
+          "author": "Alberto-g-rovi",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Hilton Theater (Ford Center) NYC 2003.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hilton_Theater_(Ford_Center)_NYC_2003.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/nyc-lyric-theatre-marquee.glb",
+      "source": "generators/nyc-lyric-theatre-marquee.ts"
+    },
+    {
+      "id": "nyc-madame-tussauds-sign",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "sign",
+        "neon",
+        "museum",
+        "times-square",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Madame Tussauds New York (51494328416).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Madame_Tussauds_New_York_(51494328416).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "0480New York City Madame Tussauds.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:0480New_York_City_Madame_Tussauds.JPG",
+          "author": "Laslovarga",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "42nd St 7th 8th Avs Mid td (2018-05-18) 07 - Madame Tussauds.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:42nd_St_7th_8th_Avs_Mid_td_(2018-05-18)_07_-_Madame_Tussauds.jpg",
+          "author": "Tdorante10",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Madame Tussauds NYC.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Madame_Tussauds_NYC.jpg",
+          "author": "Pccromeo",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "42nd Street in New York.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:42nd_Street_in_New_York.jpg",
+          "author": "Robert Parma",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/nyc-madame-tussauds-sign.glb",
+      "source": "generators/nyc-madame-tussauds-sign.ts"
     }
   ],
   "landmarks": [
@@ -37088,6 +38516,263 @@
         "way/518594979",
         "way/1197569929"
       ]
+    },
+    {
+      "id": "nyc-one-times-square",
+      "name": "One Times Square",
+      "model": "nyc-one-times-square",
+      "place": "times-square",
+      "lng": -73.9865372,
+      "lat": 40.7561966,
+      "bearing": 29.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1139633",
+      "replaces": [
+        "way/266170825",
+        "way/109285744",
+        "way/109285746",
+        "way/266774911"
+      ]
+    },
+    {
+      "id": "nyc-tkts-red-steps",
+      "name": "TKTS Booth and Red Steps",
+      "model": "nyc-tkts-red-steps",
+      "place": "times-square",
+      "lng": -73.984936,
+      "lat": 40.7591526,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/258619240"
+      ]
+    },
+    {
+      "id": "nyc-duffy-square-statues",
+      "name": "Father Duffy and George M. Cohan Statues",
+      "model": "nyc-duffy-square-statues",
+      "place": "times-square",
+      "lng": -73.9850675,
+      "lat": 40.758908,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 17,
+      "replaces": []
+    },
+    {
+      "id": "nyc-nasdaq-marketsite",
+      "name": "Nasdaq MarketSite",
+      "model": "nyc-nasdaq-marketsite",
+      "place": "times-square",
+      "lng": -73.9859953,
+      "lat": 40.7563467,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-3-times-square-sign",
+      "name": "3 Times Square Sign",
+      "model": "nyc-3-times-square-sign",
+      "place": "times-square",
+      "lng": -73.9870797,
+      "lat": 40.7563699,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-marriott-marquis-screen",
+      "name": "Marriott Marquis Screen",
+      "model": "nyc-marriott-marquis-screen",
+      "place": "times-square",
+      "lng": -73.9856282,
+      "lat": 40.7584116,
+      "bearing": 0,
+      "elevation": 9.3,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-1515-broadway-signs",
+      "name": "One Astor Plaza Signs",
+      "model": "nyc-1515-broadway-signs",
+      "place": "times-square",
+      "lng": -73.9859516,
+      "lat": 40.7576964,
+      "bearing": 0,
+      "elevation": 4.5,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-paramount-building",
+      "name": "Paramount Building",
+      "model": "nyc-paramount-building",
+      "place": "times-square",
+      "lng": -73.9867022,
+      "lat": 40.7572223,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q3363532",
+      "replaces": [
+        "way/266149373",
+        "way/288298857",
+        "way/288298858",
+        "way/288298860",
+        "way/288298861",
+        "way/288298862",
+        "way/288298863",
+        "way/288298864",
+        "way/288298865",
+        "way/288298866",
+        "way/288298867",
+        "way/288298868",
+        "way/288298869",
+        "way/288298870",
+        "way/311451315"
+      ]
+    },
+    {
+      "id": "nyc-tsx-broadway-screen",
+      "name": "TSX Broadway Screen",
+      "model": "nyc-tsx-broadway-screen",
+      "place": "times-square",
+      "lng": -73.984604,
+      "lat": 40.758994,
+      "bearing": 29,
+      "elevation": 7.8,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-20-times-square-screen",
+      "name": "20 Times Square Screen",
+      "model": "nyc-20-times-square-screen",
+      "place": "times-square",
+      "lng": -73.984417,
+      "lat": 40.75922,
+      "bearing": 29,
+      "elevation": 9.5,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-1500-broadway-signs",
+      "name": "1500 Broadway Signs (Times Square Studios)",
+      "model": "nyc-1500-broadway-signs",
+      "place": "times-square",
+      "lng": -73.9858711,
+      "lat": 40.7568613,
+      "bearing": 16.51,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-1540-broadway-signs",
+      "name": "1540 Broadway Signs",
+      "model": "nyc-1540-broadway-signs",
+      "place": "times-square",
+      "lng": -73.9851818,
+      "lat": 40.7581793,
+      "bearing": 28.36,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-morgan-stanley-tickers",
+      "name": "Morgan Stanley Tickers",
+      "model": "nyc-morgan-stanley-tickers",
+      "place": "times-square",
+      "lng": -73.985076,
+      "lat": 40.759835,
+      "bearing": 286.7,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-1600-broadway-signs",
+      "name": "1600 Broadway Signs (M&M's World)",
+      "model": "nyc-1600-broadway-signs",
+      "place": "times-square",
+      "lng": -73.984274,
+      "lat": 40.759992,
+      "bearing": 28.9,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-times-square-recruiting-station",
+      "name": "Times Square Recruiting Station",
+      "model": "nyc-times-square-recruiting-station",
+      "place": "times-square",
+      "lng": -73.9862031,
+      "lat": 40.756838,
+      "bearing": 22.7,
+      "elevation": 0,
+      "minzoom": 17,
+      "replaces": [
+        "way/258646144"
+      ]
+    },
+    {
+      "id": "nyc-two-times-square-signs",
+      "name": "Two Times Square Signs (Coca-Cola Sign)",
+      "model": "nyc-two-times-square-signs",
+      "place": "times-square",
+      "lng": -73.9847453,
+      "lat": 40.7594686,
+      "bearing": 22,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-new-amsterdam-theatre-sign",
+      "name": "New Amsterdam Theatre Sign",
+      "model": "nyc-new-amsterdam-theatre-sign",
+      "place": "times-square",
+      "lng": -73.9877076,
+      "lat": 40.7562137,
+      "bearing": 208.55,
+      "elevation": 0,
+      "minzoom": 17,
+      "replaces": [
+        "way/591988931"
+      ]
+    },
+    {
+      "id": "nyc-lyric-theatre-marquee",
+      "name": "Lyric Theatre Marquee",
+      "model": "nyc-lyric-theatre-marquee",
+      "place": "times-square",
+      "lng": -73.9876825,
+      "lat": 40.7564999,
+      "bearing": 28.55,
+      "elevation": 0,
+      "minzoom": 17,
+      "replaces": []
+    },
+    {
+      "id": "nyc-madame-tussauds-sign",
+      "name": "Madame Tussauds New York Sign",
+      "model": "nyc-madame-tussauds-sign",
+      "place": "times-square",
+      "lng": -73.9882763,
+      "lat": 40.7564517,
+      "bearing": 208.55,
+      "elevation": 0,
+      "minzoom": 17,
+      "replaces": []
     }
   ],
   "places": [
@@ -37175,6 +38860,13 @@
       "name": "Camp North End",
       "kind": "site",
       "parent": "charlotte-area"
+    },
+    {
+      "id": "times-square",
+      "name": "Times Square",
+      "kind": "site",
+      "parent": "new-york-area",
+      "wikidata": "Q11259"
     }
   ]
 }

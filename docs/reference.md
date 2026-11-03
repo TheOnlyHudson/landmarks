@@ -354,9 +354,10 @@ park, usually 20 to 50 models.
 
       bun run sheet --branch-diff --out review/<batch>
 
-  Each image holds 8 landmarks (`--per` changes it): a three-quarter view
-  from the south-west, turned to the landmark's real bearing, and the same
-  view at phone size, labelled with id, name, anchor and size.
+  Each image holds 8 landmarks (`--per` changes it), one card each: a
+  three-quarter view turned to the landmark's real bearing, by day and at
+  night side by side, titled with its name, id, triangles, size, height and
+  the side it is seen from.
 
 GitHub has no API for attaching images to a pull request, so the sheets are
 committed on the PR branch and linked by commit:

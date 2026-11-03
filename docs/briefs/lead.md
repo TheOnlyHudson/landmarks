@@ -113,8 +113,10 @@ A builder's "it reads well" is not evidence. Accept only models you would
 show the user beside the photo. Expect several rounds on the famous ones.
 If a model still can't be made good, keep it and flag it as weak in the PR.
 
-Make a contact sheet of the batch so far now and then, and look at it at
-phone size: `bun run sheet --branch-diff --out <scratch>/<prefix>/sheets`.
+Make a contact sheet of the batch so far now and then, to see the models
+together by day and at night:
+`bun run sheet --branch-diff --out <scratch>/<prefix>/sheets`. Check phone
+sizes in each model's `bun run preview` views.
 
 ## 4. Merge accepted models
 
