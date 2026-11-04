@@ -51,7 +51,7 @@ const licenseFiles = [...new Bun.Glob('**/{LICENSE,LICENSE.*,LICENSE-*,LICENCE,L
 writeFileSync(join(out, 'third-party-licenses.txt'), licenseFiles.map(file =>
   `===== ${file} =====\n${readFileSync(join(dependencyRoot, file), 'utf8')}`,
 ).join('\n\n'))
-for (const file of ['index.html', 'style.css', 'favicon.svg', 'claude.ico', 'open-landmarks.json'])
+for (const file of ['index.html', 'style.css', 'favicon.svg', 'claude.ico', 'og-image.jpg', 'open-landmarks.json'])
   copyFileSync(join(root, 'web', file), join(out, file))
 for (const file of ['maplibre-gl.css', 'maplibre-gl-worker.mjs'])
   copyFileSync(join(root, 'node_modules/maplibre-gl/dist', file), join(out, file))
