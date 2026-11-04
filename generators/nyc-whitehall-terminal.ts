@@ -62,9 +62,10 @@
  *   12…13 m; the glazed band 18…22.6 with its blue panel strip along the top, pale
  *   structure above it to the array's lower edge (27.6, lidar); mullion spacing
  *   (every ~9 m, every other real mullion); the canopy's columns (every
- *   ~12 m); the letters 6 m tall (about a third of the glass above the canopy),
- *   standing on the canopy 2 m in from its curved front along the north-east
- *   glass wall (the plaza front), the words spanning nearly all of it;
+ *   ~12 m); the letters 4.2 m tall (0.8 of the canopy's height above the
+ *   plaza), standing on the canopy in front of the north glass wall (the
+ *   plaza front, where the roof is highest), the words about as long as the
+ *   wall and their ends wrapping towards the plaza;
  *   the canopy's fascia 1.3 m deep.
  * - Colours from daylight photos: pale grey concrete, teal-green
  *   reflective glass, stainless canopy and letters (drawn pale), the orange
@@ -73,9 +74,8 @@
  * Lettering: STATEN ISLAND FERRY is kept because the sign is part of the
  * landmark (STYLE.md, famous signs), drawn with generators/lettering.ts as the
  * real sign's letterforms (traced from the Ajay Suresh and Charles Smith
- * photos) and bent along the canopy's curved front.
- * Canopy: its plaza front is drawn as an arc bulging 3 m (OSM has it nearly
- * straight; the photos show it curving). The long north-west arm is real:
+ * photos) and set along a gentle arc concave to the plaza.
+ * Canopy: the OSM outline as mapped. The long north-west arm is real:
  * NAIP shows it as a continuous shaded canopy along the OSM outline, and
  * Tdorante10's 2019-07-18 photo shows its columns.
  *
@@ -285,26 +285,6 @@ const CANOPY: XY[] = [
   [-44.8, 47.7], [-50.9, 39.5], [-51.6, 37.3], [-51.3, 34.4], [-46.6, 23.3], [-44.3, 18.0], [-42.3, 13.3], [-40.7, 9.6], [-39.3, 30.0],
   [-27.0, 51.1], [-25.4, 53.9], [-3.7, 51.6], [18.2, 49.3], [44.9, -6.4], [50.7, -4.6], [42.2, 18.7], [41.5, 20.6],
 ]
-// The canopy's front along the plaza (OSM: nearly straight from (50.7, -4.6) to (19.2, 61.2)) is drawn
-// as a gentle arc bulging 3 m towards the plaza, as the photos show it curving round the front.
-const ARC_A: XY = [50.7, -4.6], ARC_B: XY = [19.2, 61.2], BULGE = 3.0
-const arcCircle = (() => {
-  const m: XY = [(ARC_A[0] + ARC_B[0]) / 2, (ARC_A[1] + ARC_B[1]) / 2], c = L(ARC_A, ARC_B) / 2
-  const dx = (ARC_B[0] - ARC_A[0]) / (2 * c), dy = (ARC_B[1] - ARC_A[1]) / (2 * c), nx = dy, ny = -dx // towards the plaza (east)
-  const R = (c * c + BULGE * BULGE) / (2 * BULGE)
-  const ctr: XY = [m[0] - nx * (R - BULGE), m[1] - ny * (R - BULGE)]
-  const a0 = Math.atan2(ARC_A[1] - ctr[1], ARC_A[0] - ctr[0]), a1 = Math.atan2(ARC_B[1] - ctr[1], ARC_B[0] - ctr[0])
-  return { ctr, R, a0, a1 }
-})()
-const arcAt = (t: number, inset = 0): XY => {
-  const { ctr, R, a0, a1 } = arcCircle, a = a0 + (a1 - a0) * t
-  return [ctr[0] + (R - inset) * Math.cos(a), ctr[1] + (R - inset) * Math.sin(a)]
-}
-{
-  const i6 = CANOPY.findIndex((p) => p[0] === 19.2 && p[1] === 61.2), iE = CANOPY.findIndex((p) => p[0] === 44.9 && p[1] === -6.4)
-  const front = Array.from({ length: 11 }, (_, k) => arcAt((k + 1) / 12))
-  CANOPY.splice(0, CANOPY.length, ...front, ...CANOPY.slice(i6, iE + 1), ARC_A)
-}
 const C0 = 7.0, C1 = 8.3
 {
   for (const [i, j, k] of earClip(CANOPY)) {
@@ -363,14 +343,17 @@ const C0 = 7.0, C1 = 8.3
     u += g.w + GAP
   }
   const width = u - GAP
-  // Along the arc, 2 m in from the canopy's front: arc length per cap height H.
-  const H = 6.0, inset = 2.0
-  const { R, a0, a1 } = arcCircle, Ri = R - inset, span = Math.abs(a1 - a0) * Ri
-  const start = Math.max(0.5, (span - width * H) / 2 + 2.5) // shifted a little towards the north corner, as in the photos
+  // Along an arc in front of the plaza front (the north glass wall), its ends wrapping a little towards
+  // the plaza as in the photos, the words centred on the wall and about as long as it. Cap height 4.2 m
+  // (0.8 of the canopy's 5.3 m above the plaza, measured in both front photos); the real letters are
+  // narrower than these glyphs, so the line is squeezed to 0.82 of its width.
+  const H = 4.2, SX = 0.82, R = 60, MID: XY = [-3.6, 58.8]
+  const ctr: XY = [MID[0], MID[1] + R], half = (width * H * SX) / 2
+  // The reader stands north, so the line runs east to west.
   const place = (uu: number, v: number, w: number): V3 => {
-    const t = (start + uu * H) / span
-    const p = arcAt(t, inset), q = arcAt(t, inset - 1) // q: one metre further out (towards the reader)
-    const ox = q[0] - p[0], oy = q[1] - p[1]
+    const phi = (half - uu * H * SX) / R
+    const p: XY = [ctr[0] + R * Math.sin(phi), ctr[1] - R * Math.cos(phi)]
+    const ox = -Math.sin(phi), oy = Math.cos(phi) // towards the reader (the plaza)
     return [p[0] + ox * w, p[1] + oy * w, C1 + v * H]
   }
   strokes(stone, pen.paths as Pt[][], { width: 0.19, depth: 0.7, place, back: true })
