@@ -93,7 +93,7 @@ import { type XY, prism, finishModel, capPoly, area, circle } from './nyc-570-le
 import { block, wallFrame, grow } from './nyc-city-hall'
 import { Pen, strokes, type Pt } from './lettering'
 
-const stone = new Part(), glass = new Part(), roof = new Part(), win = new Part(), orange = new Part(), solar = new Part()
+const stone = new Part(), glass = new Part(), roof = new Part(), orange = new Part(), solar = new Part(), neon = new Part()
 
 const PLAZA = 3.0
 const roofZ = (x: number, y: number) => 19.55 + 0.0138 * x + 0.1375 * y
@@ -205,7 +205,7 @@ prism({ wall: stone, win: null, roof, ring: SLIP_BLD, z0: 0, z1: FLAT, facade: n
     // Glazed band, standing a little proud of the concrete, and its blue panel strip.
     face(glass, [f.at(0, BAND0), f.at(len, BAND0), f.at(len, GLASS_TOP), f.at(0, GLASS_TOP)], out)
     const f2 = wallFrame(a, b, 0.12)
-    face(win, [f2.at(0.3, GLASS_TOP - 1.4), f2.at(len - 0.3, GLASS_TOP - 1.4), f2.at(len - 0.3, GLASS_TOP), f2.at(0.3, GLASS_TOP)], out)
+    face(solar, [f2.at(0.3, GLASS_TOP - 1.4), f2.at(len - 0.3, GLASS_TOP - 1.4), f2.at(len - 0.3, GLASS_TOP), f2.at(0.3, GLASS_TOP)], out)
     // The concrete behind the glass from the flat roof up, the band's roof and its back wall.
     face(stone, [[a[0], a[1], FLAT], [b[0], b[1], FLAT], [b[0], b[1], BAND1], [a[0], a[1], BAND1]], out)
     face(roof, [[a[0], a[1], BAND1], [b[0], b[1], BAND1], [mb[0], mb[1], BAND1], [ma[0], ma[1], BAND1]], [0, 0, 1])
@@ -243,7 +243,7 @@ for (const h of HOUSES) {
   prism({ wall: stone, win: null, roof, ring, z0: 13.0, z1: 18.3, facade: null, bevel: 0.25 })
   capPoly(stone, ring, 13.0, false)
   prism({ wall: orange, win: null, roof: null, ring, z0: 12.0, z1: 13.0, facade: null, bevel: 0.25 })
-  capPoly(win, ring, 12.0, false)
+  capPoly(solar, ring, 12.0, false)
   // The opening in the main face behind: the house's width less a metre each side.
   // Find the house edge that lies on the outline (the back edge) and open the wall under it.
   let best: [XY, XY] | null = null, bestD = 1e9
@@ -258,7 +258,7 @@ for (const h of HOUSES) {
   const [a, b] = best!, len = L(a, b)
   // The back edge runs the house's way round; face it outwards (south) by swapping.
   const f = wallFrame(b, a, 0.06)
-  face(win, [f.at(1.0, 0), f.at(len - 1.0, 0), f.at(len - 1.0, 12.0), f.at(1.0, 12.0)], f.n)
+  face(solar, [f.at(1.0, 0), f.at(len - 1.0, 0), f.at(len - 1.0, 12.0), f.at(1.0, 12.0)], f.n)
 }
 
 // Towers at the ends and the roof block.
@@ -315,8 +315,8 @@ const C0 = 7.0, C1 = 8.3
 // STATEN ISLAND FERRY: the real sign's letters, standing on the canopy and following its curved front.
 // Traced from the Ajay Suresh and Charles Smith photos: a geometric sans of medium weight (stroke about
 // 0.16 of the cap height), letters about 0.6 of the cap height wide with round bowls on S, D and R,
-// a pointed A with a low bar, tight spacing. Stainless sides and rims, dark faces (the faces carry blue
-// neon at night; drawn in the window slate).
+// a pointed A with a low bar, tight spacing. Stainless sides and rims, blue neon faces (lit blue at night, as in the
+// Charles Smith dusk photo; drawn in the same blue by day, as the tubes read in daylight photos).
 {
   const E = 0.08 // half the stroke, so outer edges land on the letter box
   const G: Record<string, { w: number; draw: (p: Pen, w: number) => void }> = {
@@ -357,14 +357,14 @@ const C0 = 7.0, C1 = 8.3
     return [p[0] + ox * w, p[1] + oy * w, C1 + v * H]
   }
   strokes(stone, pen.paths as Pt[][], { width: 0.19, depth: 0.7, place, back: true })
-  strokes(win, pen.paths as Pt[][], { width: 0.11, depth: 0.74, place: (uu, v, w) => place(uu, v, w) })
+  strokes(neon, pen.paths as Pt[][], { width: 0.11, depth: 0.74, place: (uu, v, w) => place(uu, v, w) })
 }
 
 finishModel('Staten Island Ferry Whitehall Terminal', 'nyc-whitehall-terminal', [
   { part: stone, material: PALETTE.stone },
   { part: glass, material: windowVariant(2, 0x8fbab4) },
   { part: roof, material: PALETTE.roof },
-  { part: win, material: PALETTE.window },
+  { part: neon, material: finish('neon-whitehall-blue', 0x3c46d8) },
   { part: orange, material: finish('ferry-orange', 0xe0884e) },
   { part: solar, material: finish('whitehall-solar', 0x5d6d80) },
 ], { bearing: 0, osm: 'way/38868195', height: 31.5 }, 6500)
