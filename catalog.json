@@ -25794,6 +25794,73 @@
       ],
       "file": "models/atl-hurt-building.glb",
       "source": "generators/atl-hurt-building.ts"
+    },
+    {
+      "id": "atl-georgia-pacific-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Georgia-Pacific-Tower-Side",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-Pacific-Tower-Side.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Georgia-Pacific-Tower-Rear",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-Pacific-Tower-Rear.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Georgia-Pacific-Tower-Front-Angle",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-Pacific-Tower-Front-Angle.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "AGeorgaPacificDT2511-0630",
+          "url": "https://commons.wikimedia.org/wiki/File:AGeorgaPacificDT2511-0630.jpg",
+          "author": "AtlChampion",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "GeorgiaPacificHDQ",
+          "url": "https://commons.wikimedia.org/wiki/File:GeorgiaPacificHDQ.jpg",
+          "author": "Organicabq",
+          "license": "Public domain"
+        },
+        {
+          "title": "Georgia-Pacific Tower, Atlanta, GA",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-Pacific_Tower,_Atlanta,_GA.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/atl-georgia-pacific-tower.glb",
+      "source": "generators/atl-georgia-pacific-tower.ts"
     }
   ],
   "landmarks": [
@@ -40179,6 +40246,24 @@
         "way/24232553"
       ],
       "wikidata": "Q5948694"
+    },
+    {
+      "id": "atl-georgia-pacific-tower",
+      "name": "Georgia-Pacific Tower",
+      "model": "atl-georgia-pacific-tower",
+      "place": "atlanta-area",
+      "lng": -84.38706,
+      "lat": 33.757448,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/479134200",
+        "way/479134201",
+        "way/479134202",
+        "way/479134203",
+        "way/479134204"
+      ]
     }
   ],
   "places": [
