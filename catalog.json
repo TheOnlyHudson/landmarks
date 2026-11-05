@@ -24966,6 +24966,97 @@
       ],
       "file": "models/atl-truist-plaza.glb",
       "source": "generators/atl-truist-plaza.ts"
+    },
+    {
+      "id": "atl-191-peachtree-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "191 Peachtree Westin.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191_Peachtree_Westin.jpg",
+          "author": "Michael Hohimer",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "191-peachtree-south.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191-peachtree-south.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "191-peachtree-rear.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191-peachtree-rear.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "191 Peachtree Tower (8564151340).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191_Peachtree_Tower_(8564151340).jpg",
+          "author": "Sheila Sund",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "191 Peachtree Tower, Atlanta, GA (47421491962).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191_Peachtree_Tower,_Atlanta,_GA_(47421491962).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "191 Peachtree Tower, ATL.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191_Peachtree_Tower,_ATL.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "191 Peachtree Tower viewed from the plaza of the Georgia Pacific Center in downtown Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191_Peachtree_Tower_viewed_from_the_plaza_of_the_Georgia_Pacific_Center_in_downtown_Atlanta.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Looking east down Forsyth Street toward 191 Peachtree Tower from Fairlie-Poplar.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Looking_east_down_Forsyth_Street_toward_191_Peachtree_Tower_from_Fairlie-Poplar.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel.jpg",
+          "author": "Ncsr111",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel, 191 Peachtree Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel,_191_Peachtree_Tower.jpg",
+          "author": "AAK",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-191-peachtree-tower.glb",
+      "source": "generators/atl-191-peachtree-tower.ts"
     }
   ],
   "landmarks": [
@@ -39156,6 +39247,27 @@
         "way/1454492498",
         "way/1454492499",
         "way/1454492500"
+      ]
+    },
+    {
+      "id": "atl-191-peachtree-tower",
+      "name": "191 Peachtree Tower",
+      "model": "atl-191-peachtree-tower",
+      "place": "atlanta-area",
+      "lng": -84.386903,
+      "lat": 33.759008,
+      "bearing": 1,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/261043963",
+        "way/537432531",
+        "way/537432532",
+        "way/537432533",
+        "way/886346695",
+        "way/886346698",
+        "way/886346701",
+        "way/886346709"
       ]
     }
   ],
