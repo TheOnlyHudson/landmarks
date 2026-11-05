@@ -314,7 +314,7 @@ header shows how to run it by hand mid-conflict.
 3. Remove the sheets in a last commit before merging:
    `git rm -r review/<city> && git commit -m "Remove contact sheets"`.
    The images stay reachable through the PR's commits. The release
-   workflow refuses to publish from `main` while `review/` exists.
+   workflow still publishes but warns while `review/` exists on `main`.
 
 Don't merge the PR yourself. The user reviews it on a phone, against the
 sheets and the photos.

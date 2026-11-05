@@ -369,7 +369,7 @@ committed on the PR branch and linked by commit:
        ![sheet 1](https://raw.githubusercontent.com/alexwohlbruck/landmarks/<sha>/review/<batch>/sheet-1.png)
 
 3. Before merging, `git rm -r review/<batch>` in a last commit. The images
-   stay reachable through the PR's commits. The release workflow fails on
+   stay reachable through the PR's commits. The release workflow warns on
    `main` if `review/` is still there.
 
 ## Releases
