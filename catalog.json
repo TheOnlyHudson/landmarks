@@ -26434,6 +26434,67 @@
       ],
       "file": "models/atl-city-hall.glb",
       "source": "generators/atl-city-hall.ts"
+    },
+    {
+      "id": "atl-shrine-immaculate-conception",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "church",
+        "gothic-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Shrine of the Immaculate Conception.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Shrine_of_the_Immaculate_Conception.jpg",
+          "author": "dbking",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Atlanta Shrine of the Immaculate Conception 2012 09 15 05 6247.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Shrine_of_the_Immaculate_Conception_2012_09_15_05_6247.JPG",
+          "author": "Ganeshk",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Shrine of the Immaculate Conception, Atlanta, Georgia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Shrine_of_the_Immaculate_Conception,_Atlanta,_Georgia.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kostel Neposkvrněného početí, Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kostel_Neposkvrn%C4%9Bn%C3%A9ho_po%C4%8Det%C3%AD,_Atlanta.jpg",
+          "author": "Ondřej Žváček",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Catholic Shrine of the Immaculate Conception, Atlanta, GA (47421887862).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catholic_Shrine_of_the_Immaculate_Conception,_Atlanta,_GA_(47421887862).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-shrine-immaculate-conception.glb",
+      "source": "generators/atl-shrine-immaculate-conception.ts"
     }
   ],
   "landmarks": [
@@ -40948,6 +41009,21 @@
         "way/883956344"
       ],
       "wikidata": "Q4816038"
+    },
+    {
+      "id": "atl-shrine-immaculate-conception",
+      "name": "Shrine of the Immaculate Conception",
+      "model": "atl-shrine-immaculate-conception",
+      "place": "atlanta-area",
+      "lng": -84.3895634,
+      "lat": 33.7503597,
+      "bearing": 33,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/96273719"
+      ],
+      "wikidata": "Q7504083"
     }
   ],
   "places": [
