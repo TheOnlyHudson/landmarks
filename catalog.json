@@ -27644,6 +27644,85 @@
       ],
       "file": "models/atl-cathedral-christ-the-king.glb",
       "source": "generators/atl-cathedral-christ-the-king.ts"
+    },
+    {
+      "id": "atl-cathedral-st-philip",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "cathedral",
+        "gothic-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "St. Philip - Atlanta 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_01.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_02.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_03.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_04.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_05.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 06.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_06.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 07.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_07.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_10.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/atl-cathedral-st-philip.glb",
+      "source": "generators/atl-cathedral-st-philip.ts"
     }
   ],
   "landmarks": [
@@ -42414,6 +42493,22 @@
         "way/267773212"
       ],
       "wikidata": "Q2840738"
+    },
+    {
+      "id": "atl-cathedral-st-philip",
+      "name": "Cathedral of St. Philip",
+      "model": "atl-cathedral-st-philip",
+      "place": "atlanta-area",
+      "lng": -84.3871372,
+      "lat": 33.830824,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/267773373",
+        "relation/3591730"
+      ],
+      "wikidata": "Q5383288"
     }
   ],
   "places": [
