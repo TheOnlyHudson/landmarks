@@ -27105,6 +27105,74 @@
       ],
       "file": "models/atl-tech-tower.glb",
       "source": "generators/atl-tech-tower.ts"
+    },
+    {
+      "id": "atl-kessler-campanile",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "university",
+        "campanile",
+        "modern",
+        "fountain"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kessler Campanile - Georgia Institute of Technology - DSC00765",
+          "url": "https://commons.wikimedia.org/wiki/File:Kessler_Campanile_-_Georgia_Institute_of_Technology_-_DSC00765.JPG",
+          "author": "Daderot",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Kessler Campanile - Georgia Institute of Technology - DSC00771",
+          "url": "https://commons.wikimedia.org/wiki/File:Kessler_Campanile_-_Georgia_Institute_of_Technology_-_DSC00771.JPG",
+          "author": "Daderot",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Kessler Campanile- Georgia Institute of Technology - DSC00757",
+          "url": "https://commons.wikimedia.org/wiki/File:Kessler_Campanile-_Georgia_Institute_of_Technology_-_DSC00757.JPG",
+          "author": "Daderot",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Kessler Campanile, Georgia Tech",
+          "url": "https://commons.wikimedia.org/wiki/File:Kessler_Campanile,_Georgia_Tech.jpg",
+          "author": "Davidhermanns",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Georgia Tech Student Center and Campanile",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_Tech_Student_Center_and_Campanile.jpg",
+          "author": "Disavian",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Kessler Campanile (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:Kessler_Campanile.jpg",
+          "author": "Scott Ehardt",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-kessler-campanile.glb",
+      "source": "generators/atl-kessler-campanile.ts"
     }
   ],
   "landmarks": [
@@ -41754,6 +41822,18 @@
         "way/42706709",
         "way/28951319"
       ]
+    },
+    {
+      "id": "atl-kessler-campanile",
+      "name": "Kessler Campanile",
+      "model": "atl-kessler-campanile",
+      "place": "atlanta-area",
+      "lng": -84.39818,
+      "lat": 33.7743,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
     }
   ],
   "places": [
