@@ -27235,6 +27235,66 @@
       ],
       "file": "models/atl-rhodes-hall.glb",
       "source": "generators/atl-rhodes-hall.ts"
+    },
+    {
+      "id": "atl-hartsfield-jackson-control-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "airport",
+        "control-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "ATL-Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:ATL-Tower.jpg",
+          "author": "J. Glover",
+          "license": "CC-BY-3.0-US"
+        },
+        {
+          "title": "ATL tower closeup",
+          "url": "https://commons.wikimedia.org/wiki/File:ATL_tower_closeup.JPG",
+          "author": "Mav",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "ControlTowerATL-Sunset-Dec2012",
+          "url": "https://commons.wikimedia.org/wiki/File:ControlTowerATL-Sunset-Dec2012_(33297413075).jpg",
+          "author": "formulanone",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Control Tower at Hartsfield-Jackson Atlanta International Airport",
+          "url": "https://commons.wikimedia.org/wiki/File:Control_Tower_at_Hartsfield-Jackson_Atlanta_International_Airport_-_panoramio.jpg",
+          "author": "qwesy qwesy",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Delta N345NW Airbus A320 Rear - Atlanta Control Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_N345NW_Airbus_A320_Rear_-_Atlanta_Control_Tower_(43770376420).jpg",
+          "author": "formulanone",
+          "license": "CC-BY-SA-2.0"
+        }
+      ],
+      "file": "models/atl-hartsfield-jackson-control-tower.glb",
+      "source": "generators/atl-hartsfield-jackson-control-tower.ts"
     }
   ],
   "landmarks": [
@@ -41917,6 +41977,20 @@
         "way/1455901692"
       ],
       "wikidata": "Q7321015"
+    },
+    {
+      "id": "atl-hartsfield-jackson-control-tower",
+      "name": "Hartsfield-Jackson Control Tower",
+      "model": "atl-hartsfield-jackson-control-tower",
+      "place": "atlanta-area",
+      "lng": -84.4216905,
+      "lat": 33.6417075,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/169785102"
+      ]
     }
   ],
   "places": [
