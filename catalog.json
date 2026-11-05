@@ -25861,6 +25861,73 @@
       ],
       "file": "models/atl-georgia-pacific-tower.glb",
       "source": "generators/atl-georgia-pacific-tower.ts"
+    },
+    {
+      "id": "atl-central-library",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "library",
+        "brutalist",
+        "civic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Atlanta-Fulton-County Central Library viewed from Georgia Pacific Center Plaza",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta-Fulton-County_Central_Library_viewed_from_Georgia_Pacific_Center_Plaza.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta Central Library, ATL",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Central_Library,_ATL.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta Central Library 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Central_Library_2.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta-Fulton Central Library (8216350416)",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta-Fulton_Central_Library_(8216350416).jpg",
+          "author": "Aleksandr Zykov",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Exterior of the Fulton Country Central Library (82252)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Fulton_Country_Central_Library_(82252).jpg",
+          "author": "Zeroping",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Atlanta Fulton Public Main Library, Atlanta, GA (40508251003)",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Fulton_Public_Main_Library,_Atlanta,_GA_(40508251003).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-central-library.glb",
+      "source": "generators/atl-central-library.ts"
     }
   ],
   "landmarks": [
@@ -40264,6 +40331,21 @@
         "way/479134203",
         "way/479134204"
       ]
+    },
+    {
+      "id": "atl-central-library",
+      "name": "Atlanta Central Library",
+      "model": "atl-central-library",
+      "place": "atlanta-area",
+      "lng": -84.388478,
+      "lat": 33.757762,
+      "bearing": 49.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/192941643"
+      ],
+      "wikidata": "Q105751960"
     }
   ],
   "places": [
