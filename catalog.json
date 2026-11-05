@@ -26274,6 +26274,92 @@
       ],
       "file": "models/atl-bobby-dodd-stadium.glb",
       "source": "generators/atl-bobby-dodd-stadium.ts"
+    },
+    {
+      "id": "atl-georgia-state-capitol",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "government",
+        "capitol",
+        "dome"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Georgia State Capitol, Atlanta, West view 20160716 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_State_Capitol,_Atlanta,_West_view_20160716_1.jpg",
+          "author": "DXR",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Georgia State Capitol, Atlanta, North view 20160716 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_State_Capitol,_Atlanta,_North_view_20160716_1.jpg",
+          "author": "DXR",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Georgia-State-Capitol-NE-corner.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-State-Capitol-NE-corner.jpg",
+          "author": "ChrisC47",
+          "license": "CC0"
+        },
+        {
+          "title": "Georgia State Capitol 2019a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_State_Capitol_2019a.jpg",
+          "author": "Antony-22",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta-Georgia-State-Capitol.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta-Georgia-State-Capitol.jpg",
+          "author": "Andre m",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The front of the Georgia State Capitol building in Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_front_of_the_Georgia_State_Capitol_building_in_Atlanta.jpg",
+          "author": "Harrison Keely",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "The gold dome of the Georgia State Capitol building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_gold_dome_of_the_Georgia_State_Capitol_building.jpg",
+          "author": "Harrison Keely",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Georgia State Capitol, HABS GA,61-ATLA,3- (sheet 13 of 52), west elevation",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_State_Capitol,_Capitol_Square,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,3-_(sheet_13_of_52).tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Georgia State Capitol, HABS GA,61-ATLA,3- (sheet 8 of 52), roof plan",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_State_Capitol,_Capitol_Square,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,3-_(sheet_8_of_52).tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-georgia-state-capitol.glb",
+      "source": "generators/atl-georgia-state-capitol.ts"
     }
   ],
   "landmarks": [
@@ -40754,6 +40840,22 @@
         "way/42706714"
       ],
       "wikidata": "Q2907951"
+    },
+    {
+      "id": "atl-georgia-state-capitol",
+      "name": "Georgia State Capitol",
+      "model": "atl-georgia-state-capitol",
+      "place": "atlanta-area",
+      "lng": -84.3881566,
+      "lat": 33.7490589,
+      "bearing": 33,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/113041732",
+        "way/536753432"
+      ],
+      "wikidata": "Q1509326"
     }
   ],
   "places": [
