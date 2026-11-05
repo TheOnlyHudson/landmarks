@@ -25733,6 +25733,67 @@
       ],
       "file": "models/atl-equitable-building.glb",
       "source": "generators/atl-equitable-building.ts"
+    },
+    {
+      "id": "atl-hurt-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Hurt Building, Atlanta, GA (33597846218)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Hurt_Building,_Atlanta,_GA_(33597846218).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Hurt Building at sunset in Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Hurt_Building_at_sunset_in_Atlanta.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hurt-building-atlanta-side",
+          "url": "https://commons.wikimedia.org/wiki/File:Hurt-building-atlanta-side.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The Hurt Building, Atlanta, GA (32532497137)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Hurt_Building,_Atlanta,_GA_(32532497137).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The Hurt Building, Atlanta, GA (46559101345)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Hurt_Building,_Atlanta,_GA_(46559101345).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-hurt-building.glb",
+      "source": "generators/atl-hurt-building.ts"
     }
   ],
   "landmarks": [
@@ -40103,6 +40164,21 @@
         "way/1389861153"
       ],
       "wikidata": "Q5384613"
+    },
+    {
+      "id": "atl-hurt-building",
+      "name": "Hurt Building",
+      "model": "atl-hurt-building",
+      "place": "atlanta-area",
+      "lng": -84.387189,
+      "lat": 33.754259,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/24232553"
+      ],
+      "wikidata": "Q5948694"
     }
   ],
   "places": [
