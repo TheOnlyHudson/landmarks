@@ -26959,6 +26959,84 @@
       ],
       "file": "models/atl-state-farm-arena.glb",
       "source": "generators/atl-state-farm-arena.ts"
+    },
+    {
+      "id": "atl-world-of-coca-cola",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The World of Coca-Cola, Atlanta, GA (32532265757).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_World_of_Coca-Cola,_Atlanta,_GA_(32532265757).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The World of Coca-Cola, Atlanta, GA (32532265527).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_World_of_Coca-Cola,_Atlanta,_GA_(32532265527).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The World of Coca-Cola, Atlanta, GA (32532266077).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_World_of_Coca-Cola,_Atlanta,_GA_(32532266077).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta August 2016 02 (World of Coca-Cola).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_02_(World_of_Coca-Cola).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta August 2016 05 (World of Coca-Cola).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_05_(World_of_Coca-Cola).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta August 2016 06 (World of Coca-Cola).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_06_(World_of_Coca-Cola).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "WoCC-bouteille-Atlanta.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:WoCC-bouteille-Atlanta.JPG",
+          "author": "Rundvald",
+          "license": "Public domain"
+        },
+        {
+          "title": "World of Coca-Cola (8216394746).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:World_of_Coca-Cola_(8216394746).jpg",
+          "author": "Aleksandr Zykov from Russia",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/atl-world-of-coca-cola.glb",
+      "source": "generators/atl-world-of-coca-cola.ts"
     }
   ],
   "landmarks": [
@@ -41577,6 +41655,22 @@
         "way/25312494"
       ],
       "wikidata": "Q1123297"
+    },
+    {
+      "id": "atl-world-of-coca-cola",
+      "name": "World of Coca-Cola",
+      "model": "atl-world-of-coca-cola",
+      "place": "atlanta-area",
+      "lng": -84.392734,
+      "lat": 33.762892,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/270358205",
+        "way/810387778"
+      ],
+      "wikidata": "Q2201410"
     }
   ],
   "places": [
