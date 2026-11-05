@@ -25197,6 +25197,79 @@
       ],
       "file": "models/atl-hyatt-regency.glb",
       "source": "generators/atl-hyatt-regency.ts"
+    },
+    {
+      "id": "atl-one-atlantic-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "postmodern",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "AOneAtlanticCenterMT2511-0835.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:AOneAtlanticCenterMT2511-0835.jpg",
+          "author": "AtlChampion",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "AOneAtlanticCenterMT2511-0307.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:AOneAtlanticCenterMT2511-0307.jpg",
+          "author": "AtlChampion",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Promenade 2, One Atlantic Center.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Promenade_2,_One_Atlantic_Center.jpg",
+          "author": "AAK",
+          "license": "Public domain"
+        },
+        {
+          "title": "One Atlantic Center.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Atlantic_Center.jpg",
+          "author": "Atlantacitizen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "View of the midtown Atlanta skyline from Freedom Parkway above the Eastside Trail.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_midtown_Atlanta_skyline_from_Freedom_Parkway_above_the_Eastside_Trail.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta at night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_at_night.jpg",
+          "author": "Royian",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Midtown Atlanta at Night",
+          "url": "https://www.flickr.com/photos/17383471@N00/180785520",
+          "author": "thombo2",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/atl-one-atlantic-center.glb",
+      "source": "generators/atl-one-atlantic-center.ts"
     }
   ],
   "landmarks": [
@@ -39438,6 +39511,24 @@
         "way/39448958",
         "way/536754033"
       ]
+    },
+    {
+      "id": "atl-one-atlantic-center",
+      "name": "One Atlantic Center",
+      "model": "atl-one-atlantic-center",
+      "place": "atlanta-area",
+      "lng": -84.387369,
+      "lat": 33.787081,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/39450314",
+        "way/1425865538",
+        "way/1451518610",
+        "way/1451518611"
+      ],
+      "wikidata": "Q2023960"
     }
   ],
   "places": [
