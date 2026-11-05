@@ -24741,6 +24741,79 @@
       ],
       "file": "models/nyc-madame-tussauds-sign.glb",
       "source": "generators/nyc-madame-tussauds-sign.ts"
+    },
+    {
+      "id": "atl-bank-of-america-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Bank of America Plaza, Atlanta, North view 20160717 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Plaza,_Atlanta,_North_view_20160717_1.jpg",
+          "author": "DXR",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bank of America Plaza (Atlanta) Oct 2021.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Plaza_(Atlanta)_Oct_2021.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "View of Atlanta's Bank of America Plaza from the Atlanta Botanical Garden's Skyline Garden.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Atlanta's_Bank_of_America_Plaza_from_the_Atlanta_Botanical_Garden's_Skyline_Garden.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bank of America Plaza (Atlanta) viewed from the northeast corner of Ponce and Piedmont.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Plaza_(Atlanta)_viewed_from_the_northeast_corner_of_Ponce_and_Piedmont.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2013.01.26.112606 Bank of America Plaza Atlanta Georgia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2013.01.26.112606_Bank_of_America_Plaza_Atlanta_Georgia.jpg",
+          "author": "Hermann Luyken",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Bank of America Plaza Atlanta GA.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Plaza_Atlanta_GA.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bank of America Plaza at night, Dec 2016.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Plaza_at_night,_Dec_2016.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        }
+      ],
+      "file": "models/atl-bank-of-america-plaza.glb",
+      "source": "generators/atl-bank-of-america-plaza.ts"
     }
   ],
   "landmarks": [
@@ -38773,6 +38846,21 @@
       "elevation": 0,
       "minzoom": 17,
       "replaces": []
+    },
+    {
+      "id": "atl-bank-of-america-plaza",
+      "name": "Bank of America Plaza",
+      "model": "atl-bank-of-america-plaza",
+      "place": "atlanta-area",
+      "lng": -84.3861396,
+      "lat": 33.7708628,
+      "bearing": 46.15,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q499486",
+      "replaces": [
+        "way/39449840"
+      ]
     }
   ],
   "places": [
