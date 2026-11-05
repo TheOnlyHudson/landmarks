@@ -27570,6 +27570,80 @@
       ],
       "file": "models/atl-carter-center.glb",
       "source": "generators/atl-carter-center.ts"
+    },
+    {
+      "id": "atl-cathedral-christ-the-king",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "cathedral",
+        "gothic-revival",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Christ the King - Atlanta 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_King_-_Atlanta_01.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ the King - Atlanta 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_King_-_Atlanta_02.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ the King - Atlanta 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_King_-_Atlanta_03.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ the King - Atlanta 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_King_-_Atlanta_05.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ the King - Atlanta 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_King_-_Atlanta_10.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cathedral of Christ the King, Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Christ_the_King,_Atlanta.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cathedral Of Christ the King in Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Of_Christ_the_King_in_Atlanta.jpg",
+          "author": "Tbook",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-cathedral-christ-the-king.glb",
+      "source": "generators/atl-cathedral-christ-the-king.ts"
     }
   ],
   "landmarks": [
@@ -42325,6 +42399,21 @@
         "way/29094121"
       ],
       "wikidata": "Q386481"
+    },
+    {
+      "id": "atl-cathedral-christ-the-king",
+      "name": "Cathedral of Christ the King",
+      "model": "atl-cathedral-christ-the-king",
+      "place": "atlanta-area",
+      "lng": -84.3869172,
+      "lat": 33.8280134,
+      "bearing": 359,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/267773212"
+      ],
+      "wikidata": "Q2840738"
     }
   ],
   "places": [
