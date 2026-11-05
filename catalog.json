@@ -25124,6 +25124,79 @@
       ],
       "file": "models/atl-marriott-marquis.glb",
       "source": "generators/atl-marriott-marquis.ts"
+    },
+    {
+      "id": "atl-hyatt-regency",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "john-portman",
+        "revolving-restaurant"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hyatt-regency-atlanta-side.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt-regency-atlanta-side.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hyatt-regency-atlanta-aerial.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt-regency-atlanta-aerial.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hyatt Regency Atlanta Hotel, Atlanta, GA (46750903724).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt_Regency_Atlanta_Hotel,_Atlanta,_GA_(46750903724).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Hyatt Regency Atlanta Hotel, Atlanta, GA (32532281407).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt_Regency_Atlanta_Hotel,_Atlanta,_GA_(32532281407).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Hyatt Regency Atlanta Aug 2025 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt_Regency_Atlanta_Aug_2025_02.jpg",
+          "author": "Thomson200",
+          "license": "CC0"
+        },
+        {
+          "title": "Hyatt Regency Atlanta Aug 2025 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt_Regency_Atlanta_Aug_2025_01.jpg",
+          "author": "Thomson200",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta May 2025 (5).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_May_2025_(5).jpg",
+          "author": "Raskuly",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/atl-hyatt-regency.glb",
+      "source": "generators/atl-hyatt-regency.ts"
     }
   ],
   "landmarks": [
@@ -39349,6 +39422,21 @@
       "minzoom": 14,
       "replaces": [
         "way/536787107"
+      ]
+    },
+    {
+      "id": "atl-hyatt-regency",
+      "name": "Hyatt Regency Atlanta",
+      "model": "atl-hyatt-regency",
+      "place": "atlanta-area",
+      "lng": -84.386805,
+      "lat": 33.76159,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/39448958",
+        "way/536754033"
       ]
     }
   ],
