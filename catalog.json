@@ -26495,6 +26495,110 @@
       ],
       "file": "models/atl-shrine-immaculate-conception.glb",
       "source": "generators/atl-shrine-immaculate-conception.ts"
+    },
+    {
+      "id": "atl-ebenezer-baptist-church",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "church",
+        "gothic-revival",
+        "sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Ebenezer Baptist Church - Atlanta Georgia - Sign.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ebenezer_Baptist_Church_-_Atlanta_Georgia_-_Sign.jpg",
+          "author": "Schatzim",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ebenezer Baptist Church sign.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ebenezer_Baptist_Church_sign.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ebenezer Baptist Church Sign (8239046816).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ebenezer_Baptist_Church_Sign_(8239046816).jpg",
+          "author": "edward stojakovic from Portland, OR, United States",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Ebenezer Baptist Church Atlanta - Flickr - Mobilus In Mobili.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ebenezer_Baptist_Church_Atlanta_-_Flickr_-_Mobilus_In_Mobili.jpg",
+          "author": "Mobilus In Mobili",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Historic Ebenezer Baptist Church in Atlanta, June 2015.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Historic_Ebenezer_Baptist_Church_in_Atlanta,_June_2015.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ebenezer Baptist Church at sunset.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ebenezer_Baptist_Church_at_sunset.jpg",
+          "author": "Counse",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Ebenezer Baptist Church, Atlanta, Georgia, United States.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ebenezer_Baptist_Church,_Atlanta,_Georgia,_United_States.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Martin Luther King Jr. National Historic Site August 2016 02 (Historic Ebenezer Baptist Church Heritage Sanctuary).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_Jr._National_Historic_Site_August_2016_02_(Historic_Ebenezer_Baptist_Church_Heritage_Sanctuary).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ebenezer Baptist Church, HABS GA,61-ATLA,54- (sheet 2 of 14)",
+          "url": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._National_Historic_Site,_Ebenezer_Baptist_Church,_407_Auburn_Avenue_Northeast,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,54-_(sheet_2_of_14).tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Ebenezer Baptist Church, HABS GA,61-ATLA,54- (sheet 5 of 14)",
+          "url": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._National_Historic_Site,_Ebenezer_Baptist_Church,_407_Auburn_Avenue_Northeast,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,54-_(sheet_5_of_14).tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Ebenezer Baptist Church, HABS GA,61-ATLA,54- (sheet 6 of 14)",
+          "url": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._National_Historic_Site,_Ebenezer_Baptist_Church,_407_Auburn_Avenue_Northeast,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,54-_(sheet_6_of_14).tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Ebenezer Baptist Church, HABS GA,61-ATLA,54- (sheet 8 of 14)",
+          "url": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._National_Historic_Site,_Ebenezer_Baptist_Church,_407_Auburn_Avenue_Northeast,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,54-_(sheet_8_of_14).tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-ebenezer-baptist-church.glb",
+      "source": "generators/atl-ebenezer-baptist-church.ts"
     }
   ],
   "landmarks": [
@@ -41024,6 +41128,20 @@
         "way/96273719"
       ],
       "wikidata": "Q7504083"
+    },
+    {
+      "id": "atl-ebenezer-baptist-church",
+      "name": "Ebenezer Baptist Church",
+      "model": "atl-ebenezer-baptist-church",
+      "place": "atlanta-area",
+      "lng": -84.3741108,
+      "lat": 33.7552367,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/173532779"
+      ]
     }
   ],
   "places": [
