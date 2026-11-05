@@ -152,7 +152,7 @@ Follow `docs/workflow.md`, "Pull request":
    credits (photo URL, author and licence per model). End with
    `🤖 Generated with [Claude Code](https://claude.com/claude-code)`.
 4. Remove `review/` in a last commit before the PR is merged. The release
-   refuses to publish while it exists.
+   warns while it exists on `main`.
 5. Link the PR with the t3-code `link_pull_request` tool if it is available.
 
 ## Report back
