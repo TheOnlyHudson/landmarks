@@ -27509,6 +27509,67 @@
       ],
       "file": "models/atl-ponce-city-market.glb",
       "source": "generators/atl-ponce-city-market.ts"
+    },
+    {
+      "id": "atl-carter-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "presidential-library",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Panorama of the Jimmy Carter Presidential Center viewed from the path behind it, May 2015.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Panorama_of_the_Jimmy_Carter_Presidential_Center_viewed_from_the_path_behind_it,_May_2015.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Entrance to Jimmy Carter Presidential Center, May 2015.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Entrance_to_Jimmy_Carter_Presidential_Center,_May_2015.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Jimmy Carter Presidential Library and Museum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Presidential_Library_and_Museum.jpg",
+          "author": "Mojnsen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Jimmy Carter Presidential Library and Museum Front 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Presidential_Library_and_Museum_Front_01.jpg",
+          "author": "Hansolo1021",
+          "license": "CC0"
+        },
+        {
+          "title": "Carter Presidential Library Entrance (8239013422).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Carter_Presidential_Library_Entrance_(8239013422).jpg",
+          "author": "edward stojakovic",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/atl-carter-center.glb",
+      "source": "generators/atl-carter-center.ts"
     }
   ],
   "landmarks": [
@@ -42249,6 +42310,21 @@
         "way/335151383"
       ],
       "wikidata": "Q7227582"
+    },
+    {
+      "id": "atl-carter-center",
+      "name": "The Carter Center",
+      "model": "atl-carter-center",
+      "place": "atlanta-area",
+      "lng": -84.3569535,
+      "lat": 33.7669847,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/29094121"
+      ],
+      "wikidata": "Q386481"
     }
   ],
   "places": [
