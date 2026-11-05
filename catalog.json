@@ -26819,6 +26819,73 @@
       ],
       "file": "models/atl-georgia-aquarium.glb",
       "source": "generators/atl-georgia-aquarium.ts"
+    },
+    {
+      "id": "atl-civil-and-human-rights",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "contemporary",
+        "phil-freelon"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Atlanta’s Center for Civil and Human Rights on a quiet Sunday morning.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta%E2%80%99s_Center_for_Civil_and_Human_Rights_on_a_quiet_Sunday_morning.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta August 2016 08 (National Center for Civil and Human Rights).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_08_(National_Center_for_Civil_and_Human_Rights).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Center for Civil and Human Rights, Atlanta, GA (40508038973).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Center_for_Civil_and_Human_Rights,_Atlanta,_GA_(40508038973).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The Center for Civil and Human Rights, Atlanta, GA (47474203191).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Center_for_Civil_and_Human_Rights,_Atlanta,_GA_(47474203191).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The Center for Civil and Human Rights, Atlanta, GA (32532264677).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Center_for_Civil_and_Human_Rights,_Atlanta,_GA_(32532264677).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The Center for Civil and Human Rights, Atlanta, GA (47421270912).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Center_for_Civil_and_Human_Rights,_Atlanta,_GA_(47421270912).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-civil-and-human-rights.glb",
+      "source": "generators/atl-civil-and-human-rights.ts"
     }
   ],
   "landmarks": [
@@ -41407,6 +41474,21 @@
         "way/1359126494"
       ],
       "wikidata": "Q1155919"
+    },
+    {
+      "id": "atl-civil-and-human-rights",
+      "name": "National Center for Civil and Human Rights",
+      "model": "atl-civil-and-human-rights",
+      "place": "atlanta-area",
+      "lng": -84.39305,
+      "lat": 33.764038,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/317976752"
+      ],
+      "wikidata": "Q6971312"
     }
   ],
   "places": [
