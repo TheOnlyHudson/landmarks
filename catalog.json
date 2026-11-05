@@ -26195,6 +26195,85 @@
       ],
       "file": "models/atl-center-parc-stadium.glb",
       "source": "generators/atl-center-parc-stadium.ts"
+    },
+    {
+      "id": "atl-bobby-dodd-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "college",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Bobby Dodd Stadium west stands.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bobby_Dodd_Stadium_west_stands.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bobby Dodd Stadium, west stands.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bobby_Dodd_Stadium,_west_stands.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "East Stands of Bobby Dodd Stadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Stands_of_Bobby_Dodd_Stadium.jpg",
+          "author": "Mistercontributer",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Bobby Dodd Stadium, upper north stands.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bobby_Dodd_Stadium,_upper_north_stands.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "South endzone stands, Bobby Dodd Stadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:South_endzone_stands,_Bobby_Dodd_Stadium.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Boddy Dod Stadium from Tech terrace..jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Boddy_Dod_Stadium_from_Tech_terrace..jpg",
+          "author": "Maxicar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "USGS 3DEP lidar GA_Statewide_B2_2018",
+          "url": "https://www.usgs.gov/3d-elevation-program",
+          "author": "U.S. Geological Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "USGS NAIP orthoimagery",
+          "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+          "author": "U.S. Geological Survey / USDA",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-bobby-dodd-stadium.glb",
+      "source": "generators/atl-bobby-dodd-stadium.ts"
     }
   ],
   "landmarks": [
@@ -40658,6 +40737,23 @@
         "relation/3421244"
       ],
       "wikidata": "Q1150936"
+    },
+    {
+      "id": "atl-bobby-dodd-stadium",
+      "name": "Bobby Dodd Stadium",
+      "model": "atl-bobby-dodd-stadium",
+      "place": "atlanta-area",
+      "lng": -84.392982,
+      "lat": 33.772616,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/42706712",
+        "way/245699027",
+        "way/42706714"
+      ],
+      "wikidata": "Q2907951"
     }
   ],
   "places": [
