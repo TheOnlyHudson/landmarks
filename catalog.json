@@ -38833,6 +38833,11 @@
       "kind": "region"
     },
     {
+      "id": "atlanta-area",
+      "name": "Atlanta area",
+      "kind": "region"
+    },
+    {
       "id": "six-flags-over-texas",
       "name": "Six Flags Over Texas",
       "kind": "site",
