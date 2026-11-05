@@ -25678,6 +25678,61 @@
       ],
       "file": "models/atl-candler-building.glb",
       "source": "generators/atl-candler-building.ts"
+    },
+    {
+      "id": "atl-equitable-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vertical panorama of the Equitable Building viewed from Woodruff Park in Atlanta, October 2015",
+          "url": "https://commons.wikimedia.org/wiki/File:Vertical_panorama_of_the_Equitable_Building_viewed_from_Woodruff_Park_in_Atlanta,_October_2015.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Equitable-building-atlanta-angle",
+          "url": "https://commons.wikimedia.org/wiki/File:Equitable-building-atlanta-angle.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "EquitableAtlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:EquitableAtlanta.jpg",
+          "author": "Tom Caiafa",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Equitable Building 12313",
+          "url": "https://commons.wikimedia.org/wiki/File:Equitable_Building_12313.JPG",
+          "author": "Michael Rivera",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/atl-equitable-building.glb",
+      "source": "generators/atl-equitable-building.ts"
     }
   ],
   "landmarks": [
@@ -40033,6 +40088,21 @@
         "way/536778094"
       ],
       "wikidata": "Q5031977"
+    },
+    {
+      "id": "atl-equitable-building",
+      "name": "Equitable Building",
+      "model": "atl-equitable-building",
+      "place": "atlanta-area",
+      "lng": -84.388606,
+      "lat": 33.756863,
+      "bearing": 49.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/1389861153"
+      ],
+      "wikidata": "Q5384613"
     }
   ],
   "places": [
