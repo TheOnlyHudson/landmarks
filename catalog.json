@@ -25349,6 +25349,73 @@
       ],
       "file": "models/atl-1180-peachtree.glb",
       "source": "generators/atl-1180-peachtree.ts"
+    },
+    {
+      "id": "atl-promenade-ii",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "postmodern",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Promenade II 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Promenade_II_1.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Promenade II 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Promenade_II_2.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "APromenadeIIMT2511-0713.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:APromenadeIIMT2511-0713.jpg",
+          "author": "AtlChampion",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Promenade 2-1180 Peachtree.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Promenade_2-1180_Peachtree.jpg",
+          "author": "Mark Larson",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Promenade 2, 1180 Peachtree.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Promenade_2,_1180_Peachtree.jpg",
+          "author": "AAK",
+          "license": "Public domain"
+        },
+        {
+          "title": "Midtown Atlanta at Night",
+          "url": "https://www.flickr.com/photos/17383471@N00/180785520",
+          "author": "thombo2",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/atl-promenade-ii.glb",
+      "source": "generators/atl-promenade-ii.ts"
     }
   ],
   "landmarks": [
@@ -39637,6 +39704,28 @@
         "way/1451518607"
       ],
       "wikidata": "Q1960906"
+    },
+    {
+      "id": "atl-promenade-ii",
+      "name": "Promenade II",
+      "model": "atl-promenade-ii",
+      "place": "atlanta-area",
+      "lng": -84.385141,
+      "lat": 33.787882,
+      "bearing": 45,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/269637575",
+        "way/1451518609",
+        "way/1424485342",
+        "way/1424485343",
+        "way/1424485344",
+        "way/1424485351",
+        "way/1424485352",
+        "way/1425865586"
+      ],
+      "wikidata": "Q7249706"
     }
   ],
   "places": [
