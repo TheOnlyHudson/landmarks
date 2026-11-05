@@ -65,7 +65,7 @@
  *   floodlight, strongest low on the two fronts. Windows glow.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, prism, rect, chamfer, flatShape, extrudeShape, onFace, lathe, arc, archShape, finishGlb, writeModel } from './sea-tacoma-union-station'
 
 // ---------------------------------------------------------------- helpers
@@ -246,8 +246,8 @@ function build() {
 
   const lit = (p: V3, n: V3) => (n[2] > 0.6 ? 0.1 : Math.abs(n[0]) > 0.5 ? 0.75 - p[2] * 0.03 : 0.4)
   return finishGlb('Swan House', [
-    { part: wall, material: { ...PALETTE.stone, floodlight: lit } },
-    { part: trim, material: { ...PALETTE.trim, floodlight: lit } },
+    { part: wall, material: { ...PALETTE.stone, floodlight: lit } as Swatch },
+    { part: trim, material: { ...PALETTE.trim, floodlight: lit } as Swatch },
     { part: roof, material: finish('swan-slate', 0x8b9299) },
     { part: win, material: PALETTE.window },
     { part: door, material: finish('swan-door', 0x3b4f5e) },

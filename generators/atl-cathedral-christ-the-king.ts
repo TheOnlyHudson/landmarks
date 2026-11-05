@@ -53,7 +53,7 @@
  * Night: the front and towers are floodlit; the windows glow.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, prism, rect, chamfer, flatShape, extrudeShape, lathe, arc, finishGlb, writeModel } from './sea-tacoma-union-station'
 
 // ---------------------------------------------------------------- helpers
@@ -244,8 +244,8 @@ function build() {
 
   const lit = (p: V3, n: V3) => (n[2] > 0.6 ? 0.1 : p[1] < -20 ? 0.9 : 0.45)
   return finishGlb('Cathedral of Christ the King', [
-    { part: stone, material: { ...finish('ctk-limestone', 0xdcd2bd), floodlight: lit } },
-    { part: trim, material: { ...finish('ctk-dressings', 0xeee6d6), floodlight: lit } },
+    { part: stone, material: { ...finish('ctk-limestone', 0xdcd2bd), floodlight: lit } as Swatch },
+    { part: trim, material: { ...finish('ctk-dressings', 0xeee6d6), floodlight: lit } as Swatch },
     { part: slate, material: finish('ctk-slate', 0x7a736d) },
     { part: flat, material: PALETTE.roof },
     { part: win, material: PALETTE.window },

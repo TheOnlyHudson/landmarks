@@ -286,8 +286,8 @@ tier(planI, T3, TOP, ([x, y]) => {
   const paths: XY[][] = []
   for (const k of [0, 1, 2, 3]) {
     const rot = (p: XY): XY => k === 0 ? p : k === 1 ? [-p[1], p[0]] : k === 2 ? [-p[0], -p[1]] : [p[1], -p[0]]
-    paths.push([[H, RB], [H, RC], [RC + W * R2, RC]].map(rot))
-    paths.push([[RC, RC + W * R2], [RC, H], [RB, H]].map(rot))
+    paths.push(([[H, RB], [H, RC], [RC + W * R2, RC]] as XY[]).map(rot))
+    paths.push(([[RC, RC + W * R2], [RC, H], [RB, H]] as XY[]).map(rot))
   }
   for (const path of paths) {
     // outward normals per segment (the path runs CCW round the building: outside is on the right)

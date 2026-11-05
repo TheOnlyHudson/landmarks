@@ -55,7 +55,7 @@
  * Night: the sign and the cross are neon; the tower is floodlit; windows glow.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { Pen, strokes } from './lettering'
 import { type Face, flatShape, lathe, arc, archShape, finishGlb, writeModel } from './sea-tacoma-union-station'
 import { box, gable, bays, faceX, faceY, sOf, qf } from './atl-georgia-state-capitol'
@@ -216,8 +216,8 @@ function build() {
 
   const lit = (p: V3, n: V3) => (n[2] > 0.7 ? 0.2 : p[0] > TX0 - 0.5 && p[1] < TY1 + 0.5 ? 0.9 : 0.45)
   return finishGlb('Big Bethel AME Church', [
-    { part: granite, material: { ...finish('bba-granite', 0xb7b1a4, 0.95), floodlight: lit } },
-    { part: trim, material: { ...PALETTE.trim, floodlight: lit } },
+    { part: granite, material: { ...finish('bba-granite', 0xb7b1a4, 0.95), floodlight: lit } as Swatch },
+    { part: trim, material: { ...PALETTE.trim, floodlight: lit } as Swatch },
     { part: slate, material: finish('bba-slate', 0x5f666e) },
     { part: win, material: PALETTE.window },
     { part: neon, material: finish('neon-jesus-saves-blue', 0x3b72cc) },

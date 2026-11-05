@@ -73,7 +73,7 @@
  *   floodlit.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { Pen, strokes, type Pt } from './lettering'
 import { type XY, type Face, prism, rect, chamfer, flatShape, extrudeShape, lathe, arc, archShape, finishGlb, writeModel } from './sea-tacoma-union-station'
 
@@ -331,11 +331,11 @@ function build() {
   if (process.env.B10_DEBUG) console.log({ brick: brick.triangles, cream: cream.triangles, win: win.triangles, roof: roof.triangles, copper: copper.triangles, neon: neon.triangles })
   const lit = (p: V3, n: V3) => (n[2] > 0.6 ? 0.05 : p[0] > -6 && p[0] < 12.5 && p[1] > 50 && p[2] > 42 ? 0.95 : 0)
   return finishGlb('Ponce City Market', [
-    { part: brick, material: { ...finish('pcm-brick', 0xab5a47), floodlight: lit } },
-    { part: cream, material: { ...finish('pcm-cream', 0xf1e8d6), floodlight: lit } },
+    { part: brick, material: { ...finish('pcm-brick', 0xab5a47), floodlight: lit } as Swatch },
+    { part: cream, material: { ...finish('pcm-cream', 0xf1e8d6), floodlight: lit } as Swatch },
     { part: win, material: PALETTE.window },
     { part: roof, material: PALETTE.roof },
-    { part: copper, material: { ...PALETTE.copper, floodlight: lit } },
+    { part: copper, material: { ...PALETTE.copper, floodlight: lit } as Swatch },
     { part: neon, material: finish('neon-pcm-red', 0xe2553a) },
   ], { bearing: 4, height: 70.5, replaces: ['way/184803195', 'way/335151383'] }, 6500)
 }

@@ -58,7 +58,7 @@
  *   front is lightly floodlit.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { Pen, strokes } from './lettering'
 import { type Face, flatShape, archShape, finishGlb, writeModel } from './sea-tacoma-union-station'
 import { box, gable, bays, faceX, faceY, sOf, qf } from './atl-georgia-state-capitol'
@@ -191,8 +191,8 @@ function build() {
 
   const lit = (p: V3, n: V3) => (n[2] > 0.7 ? 0.15 : n[1] > 0.5 && p[0] < 0 ? 0.6 : 0.3)
   return finishGlb('Ebenezer Baptist Church', [
-    { part: brick, material: { ...finish('ebc-red-brick', 0xb8664d), floodlight: lit } },
-    { part: stone, material: { ...finish('ebc-stone-base', 0xd8d6cf), floodlight: lit } },
+    { part: brick, material: { ...finish('ebc-red-brick', 0xb8664d), floodlight: lit } as Swatch },
+    { part: stone, material: { ...finish('ebc-stone-base', 0xd8d6cf), floodlight: lit } as Swatch },
     { part: roof, material: finish('ebc-shingle', 0x80878e) },
     { part: win, material: PALETTE.window },
     { part: panel, material: finish('ebc-sign-blue', 0x3e5f8e, 0.6) },

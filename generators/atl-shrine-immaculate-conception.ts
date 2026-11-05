@@ -47,7 +47,7 @@
  * Night: lightly floodlit brick (the towers most); windows glow.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, flatShape, lathe, arc, finishGlb, writeModel } from './sea-tacoma-union-station'
 import { box, gable, faceX, faceY, sOf, qf, tf } from './atl-georgia-state-capitol'
 
@@ -199,9 +199,9 @@ function build() {
 
   const lit = (p: V3, n: V3) => (n[2] > 0.7 ? 0.15 : p[0] < -22 ? 0.8 : 0.45)
   return finishGlb('Shrine of the Immaculate Conception', [
-    { part: brick, material: { ...finish('sic-red-brick', 0xb05a48), floodlight: lit } },
+    { part: brick, material: { ...finish('sic-red-brick', 0xb05a48), floodlight: lit } as Swatch },
     { part: base, material: finish('sic-stone-base', 0xa9adad) },
-    { part: trim, material: { ...PALETTE.trim, floodlight: lit } },
+    { part: trim, material: { ...PALETTE.trim, floodlight: lit } as Swatch },
     { part: slate, material: finish('sic-slate', 0x7f8891) },
     { part: win, material: PALETTE.window },
   ], { bearing: 33, height: 43.0, replaces: ['way/96273719'] }, 5000)

@@ -47,7 +47,7 @@
  * Night: the cauldron and the tower are floodlit.
  */
 import { Part, type V3 } from './mesh'
-import { finish } from './palette'
+import { finish, type Swatch } from './palette'
 import { lathe, finishGlb, writeModel } from './sea-tacoma-union-station'
 import { box, qf, tf } from './atl-georgia-state-capitol'
 
@@ -206,10 +206,10 @@ function build() {
 
   const lit = (p: V3, n: V3) => (n[2] > 0.8 ? 0.2 : 0.4 + 0.6 * Math.min(1, p[2] / 44))
   return finishGlb('1996 Olympic Cauldron', [
-    { part: steel, material: { ...finish('oc-steel', 0x4f5a66, 0.6), floodlight: lit } },
+    { part: steel, material: { ...finish('oc-steel', 0x4f5a66, 0.6), floodlight: lit } as Swatch },
     { part: deck, material: finish('oc-deck', 0x5b6672, 0.7) },
-    { part: red, material: { ...finish('oc-basket-red', 0xbf4f3c, 0.6), floodlight: () => 1 } },
-    { part: blue, material: { ...finish('oc-basket-blue', 0x4a67a5, 0.6), floodlight: () => 1 } },
+    { part: red, material: { ...finish('oc-basket-red', 0xbf4f3c, 0.6), floodlight: () => 1 } as Swatch },
+    { part: blue, material: { ...finish('oc-basket-blue', 0x4a67a5, 0.6), floodlight: () => 1 } as Swatch },
     { part: gold, material: finish('oc-rings-bronze', 0x8a7d62, 0.5) },
   ], { bearing: 48, height: 44.6, replaces: ['way/260646639', 'way/536777369'] }, 6500)
 }

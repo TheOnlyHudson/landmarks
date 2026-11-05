@@ -53,7 +53,7 @@
  *   toward the crown); windows and the entrance are `window`.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type Face, lathe, flatShape, finishGlb, writeModel, archShape } from './sea-tacoma-union-station'
 import { box, bays, faceX, faceY, sOf, qf, tf } from './atl-georgia-state-capitol'
 
@@ -219,7 +219,7 @@ function build() {
   // Floodlit at night: the 1930 tower, brighter toward the crown.
   const lit = (p: V3, n: V3) => (n[2] > 0.7 ? 0.25 : p[1] > 17 ? 0.5 + 0.5 * Math.min(1, p[2] / 70) : 0.35)
   return finishGlb('Atlanta City Hall', [
-    { part: terra, material: { ...finish('ach-terracotta', 0xefe6d4), floodlight: lit } },
+    { part: terra, material: { ...finish('ach-terracotta', 0xefe6d4), floodlight: lit } as Swatch },
     { part: stone, material: finish('ach-annex-stone', 0xe6dfd2) },
     { part: win, material: PALETTE.window },
     { part: flat, material: finish('ach-roof', 0xcfcec8) },

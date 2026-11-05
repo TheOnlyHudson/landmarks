@@ -64,7 +64,7 @@
  *   stone, trim and gold). Windows are `window`.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, prism, rect, chamfer, flatShape, onFace, lathe, disc, arc, archShape, finishGlb, writeModel } from './sea-tacoma-union-station'
 
 // ---------------------------------------------------------------- shared helpers (also used by my other Atlanta models)
@@ -327,9 +327,9 @@ function build() {
   const wallLit = (p: V3, n: V3) => (n[2] > 0.7 ? 0.2 : 0.55 + 0.45 * Math.min(1, p[2] / 50))
   const domeLit = (_p: V3, n: V3) => (n[2] > 0.95 ? 0.7 : 1)
   return finishGlb('Georgia State Capitol', [
-    { part: stone, material: { ...finish('gsc-limestone', 0xe7dbc6), floodlight: wallLit } },
-    { part: trim, material: { ...PALETTE.trim, floodlight: wallLit } },
-    { part: gold, material: { ...finish('gsc-gold-leaf', 0xd9ae45, 0.45), floodlight: domeLit } },
+    { part: stone, material: { ...finish('gsc-limestone', 0xe7dbc6), floodlight: wallLit } as Swatch },
+    { part: trim, material: { ...PALETTE.trim, floodlight: wallLit } as Swatch },
+    { part: gold, material: { ...finish('gsc-gold-leaf', 0xd9ae45, 0.45), floodlight: domeLit } as Swatch },
     { part: roof, material: PALETTE.roof },
     { part: flat, material: finish('gsc-roof-membrane', 0xc6c5bf) },
     { part: win, material: PALETTE.window },

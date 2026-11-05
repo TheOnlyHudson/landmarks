@@ -51,7 +51,7 @@
  * Night: the tower is floodlit; windows glow.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, prism, rect, chamfer, flatShape, extrudeShape, lathe, arc, finishGlb, writeModel } from './sea-tacoma-union-station'
 
 // ---------------------------------------------------------------- helpers
@@ -297,8 +297,8 @@ function build() {
 
   const lit = (p: V3, n: V3) => (n[2] > 0.6 ? 0.1 : p[0] > TOW0 - 2 && p[0] < TOW1 + 2 && p[1] > TY0 - 2 && p[1] < TY1 + 2 && p[2] > 24 ? 0.95 : p[0] < 0 && p[1] < -10 ? 0.35 : 0)
   return finishGlb('Cathedral of St. Philip', [
-    { part: stone, material: { ...finish('stp-sandstone', 0xd3bd97), floodlight: lit } },
-    { part: trim, material: { ...finish('stp-limestone', 0xece2cf), floodlight: lit } },
+    { part: stone, material: { ...finish('stp-sandstone', 0xd3bd97), floodlight: lit } as Swatch },
+    { part: trim, material: { ...finish('stp-limestone', 0xece2cf), floodlight: lit } as Swatch },
     { part: slate, material: finish('stp-slate', 0x7c8288) },
     { part: flat, material: finish('stp-flat-roof', 0xc9cbc8) },
     { part: win, material: PALETTE.window },
