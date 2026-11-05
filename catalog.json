@@ -26110,6 +26110,91 @@
       ],
       "file": "models/atl-truist-park.glb",
       "source": "generators/atl-truist-park.ts"
+    },
+    {
+      "id": "atl-center-parc-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "college",
+        "olympic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Georgia State Stadium field.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_State_Stadium_field.jpg",
+          "author": "Southernkeith",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Turner field exterior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_field_exterior.jpg",
+          "author": "Steviedpeele (English Wikipedia)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Turner Field exterior from the parking lot.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_Field_exterior_from_the_parking_lot.jpg",
+          "author": "Andrew nyr",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Turner Field with Downtown Atlanta in Background (9648404881).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_Field_with_Downtown_Atlanta_in_Background_(9648404881).jpg",
+          "author": "Nate Shivar from USA",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Turner Field 9-15-14.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_Field_9-15-14.jpg",
+          "author": "Amy K Posner",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Turner Field exterior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_Field_exterior.jpg",
+          "author": "Mark Larson",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Turner Field Panorama From Outfield.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_Field_Panorama_From_Outfield.jpg",
+          "author": "Zpb52",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "USGS 3DEP lidar GA_Statewide_B2_2018",
+          "url": "https://www.usgs.gov/3d-elevation-program",
+          "author": "U.S. Geological Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "USGS NAIP orthoimagery",
+          "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+          "author": "U.S. Geological Survey / USDA",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-center-parc-stadium.glb",
+      "source": "generators/atl-center-parc-stadium.ts"
     }
   ],
   "landmarks": [
@@ -40558,6 +40643,21 @@
         "way/561604015"
       ],
       "wikidata": "Q17003430"
+    },
+    {
+      "id": "atl-center-parc-stadium",
+      "name": "Center Parc Stadium",
+      "model": "atl-center-parc-stadium",
+      "place": "atlanta-area",
+      "lng": -84.389466,
+      "lat": 33.735448,
+      "bearing": 356,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/3421244"
+      ],
+      "wikidata": "Q1150936"
     }
   ],
   "places": [
