@@ -27037,6 +27037,74 @@
       ],
       "file": "models/atl-world-of-coca-cola.glb",
       "source": "generators/atl-world-of-coca-cola.ts"
+    },
+    {
+      "id": "atl-tech-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "university",
+        "victorian",
+        "famous-sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Tech Tower Building - 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Tech_Tower_Building_-_2.jpg",
+          "author": "Mistercontributer",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Tech Tower Building - 11",
+          "url": "https://commons.wikimedia.org/wiki/File:Tech_Tower_Building_-_11.jpg",
+          "author": "Mistercontributer",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Tech Tower Building - 7",
+          "url": "https://commons.wikimedia.org/wiki/File:Tech_Tower_Building_-_7.jpg",
+          "author": "Mistercontributer",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Tech Tower Building - 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Tech_Tower_Building_-_1.jpg",
+          "author": "Mistercontributer",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Tech Tower in Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Tech_Tower_in_Atlanta.jpg",
+          "author": "Tyler Lahti",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Tech Tower sideview",
+          "url": "https://commons.wikimedia.org/wiki/File:Tech_Tower_sideview.jpg",
+          "author": "Mistercontributer",
+          "license": "CC-BY-SA-3.0"
+        }
+      ],
+      "file": "models/atl-tech-tower.glb",
+      "source": "generators/atl-tech-tower.ts"
     }
   ],
   "landmarks": [
@@ -41671,6 +41739,21 @@
         "way/810387778"
       ],
       "wikidata": "Q2201410"
+    },
+    {
+      "id": "atl-tech-tower",
+      "name": "Tech Tower",
+      "model": "atl-tech-tower",
+      "place": "atlanta-area",
+      "lng": -84.394686,
+      "lat": 33.772472,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/42706709",
+        "way/28951319"
+      ]
     }
   ],
   "places": [
