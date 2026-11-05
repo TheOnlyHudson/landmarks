@@ -26599,6 +26599,74 @@
       ],
       "file": "models/atl-ebenezer-baptist-church.glb",
       "source": "generators/atl-ebenezer-baptist-church.ts"
+    },
+    {
+      "id": "atl-olympic-cauldron",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "monument",
+        "olympics",
+        "tower",
+        "steel"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "1996 Atlanta Summer Olympics cauldron 0463.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1996_Atlanta_Summer_Olympics_cauldron_0463.jpg",
+          "author": "ViennaUK",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "1996 Atlanta Summer Olympics cauldron 0469.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1996_Atlanta_Summer_Olympics_cauldron_0469.jpg",
+          "author": "ViennaUK",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "1996 Atlanta Summer Olympics cauldron 0460.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1996_Atlanta_Summer_Olympics_cauldron_0460.jpg",
+          "author": "ViennaUK",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta cauldron during 1996 Paralympics.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_cauldron_during_1996_Paralympics.jpg",
+          "author": "John Sherwell",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Turner Field parking lot (4054059929).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_Field_parking_lot_(4054059929).jpg",
+          "author": "Peter Bond from Chicago, IL, USA",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "1996 Atlanta Summer Olympics cauldron 0467.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1996_Atlanta_Summer_Olympics_cauldron_0467.jpg",
+          "author": "ViennaUK",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/atl-olympic-cauldron.glb",
+      "source": "generators/atl-olympic-cauldron.ts"
     }
   ],
   "landmarks": [
@@ -41141,6 +41209,21 @@
       "minzoom": 16,
       "replaces": [
         "way/173532779"
+      ]
+    },
+    {
+      "id": "atl-olympic-cauldron",
+      "name": "1996 Olympic Cauldron",
+      "model": "atl-olympic-cauldron",
+      "place": "atlanta-area",
+      "lng": -84.388095,
+      "lat": 33.741641,
+      "bearing": 48,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/260646639",
+        "way/536777369"
       ]
     }
   ],
