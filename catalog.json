@@ -25617,6 +25617,67 @@
       ],
       "file": "models/atl-flatiron-building.glb",
       "source": "generators/atl-flatiron-building.ts"
+    },
+    {
+      "id": "atl-candler-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "skyscraper",
+        "hotel"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Candler Building Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Candler_Building_Atlanta.jpg",
+          "author": "Mike",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Candler Building and Georgia-Pacific Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Candler_Building_and_Georgia-Pacific_Tower.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Candler Building, Atlanta, GA (47474418301)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Candler_Building,_Atlanta,_GA_(47474418301).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The Candler Building Atlanta, GA (40508265053)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Candler_Building_Atlanta,_GA_(40508265053).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Candler-Bldg-Atlanta-02",
+          "url": "https://commons.wikimedia.org/wiki/File:Candler-Bldg-Atlanta-02.jpg",
+          "author": "Eoghanacht",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-candler-building.glb",
+      "source": "generators/atl-candler-building.ts"
     }
   ],
   "landmarks": [
@@ -39956,6 +40017,22 @@
       "replaces": [
         "way/270497379"
       ]
+    },
+    {
+      "id": "atl-candler-building",
+      "name": "Candler Building",
+      "model": "atl-candler-building",
+      "place": "atlanta-area",
+      "lng": -84.387852,
+      "lat": 33.756877,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/270880829",
+        "way/536778094"
+      ],
+      "wikidata": "Q5031977"
     }
   ],
   "places": [
