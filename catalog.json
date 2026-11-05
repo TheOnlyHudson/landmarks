@@ -27362,6 +27362,73 @@
       ],
       "file": "models/atl-king-tower.glb",
       "source": "generators/atl-king-tower.ts"
+    },
+    {
+      "id": "atl-queen-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Concourse Corporate Center V, July 2017",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_Corporate_Center_V,_July_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Concourse Corporate Center V, Sandy Springs July 2017",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_Corporate_Center_V,_Sandy_Springs_July_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Concourse Corporate Center V and VI, June 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_Corporate_Center_V_and_VI_June_2024.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Concourse Corporate Center VI and V, July 2017 (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_Corporate_Center_VI_and_V,_July_2017_(cropped).jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "The King and Queen towers",
+          "url": "https://commons.wikimedia.org/wiki/File:The_King_and_Queen_towers.jpg",
+          "author": "Maksim Sundukov",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Concourse at Landmark Center, Office Buildings",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_at_Landmark_Center,_Office_Buildings.jpg",
+          "author": "Mitch Featherston",
+          "license": "CC-BY-2.0"
+        }
+      ],
+      "file": "models/atl-queen-tower.glb",
+      "source": "generators/atl-queen-tower.ts"
     }
   ],
   "landmarks": [
@@ -42071,6 +42138,20 @@
       "minzoom": 13,
       "replaces": [
         "way/197315978"
+      ]
+    },
+    {
+      "id": "atl-queen-tower",
+      "name": "The Queen (Concourse Corporate Center V)",
+      "model": "atl-queen-tower",
+      "place": "atlanta-area",
+      "lng": -84.354518,
+      "lat": 33.917014,
+      "bearing": 45.5,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/64986738"
       ]
     }
   ],
