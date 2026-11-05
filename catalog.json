@@ -27962,6 +27962,73 @@
       ],
       "file": "models/atl-high-museum.glb",
       "source": "generators/atl-high-museum.ts"
+    },
+    {
+      "id": "atl-millennium-gate",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "triumphal-arch",
+        "museum",
+        "new-classical"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Millennium Gate, Atlanta, USA",
+          "url": "https://commons.wikimedia.org/wiki/File:Millennium_Gate,_Atlanta,_USA.jpg",
+          "author": "Drako World",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Millennium Gate, Atlantic Station",
+          "url": "https://commons.wikimedia.org/wiki/File:Millennium_Gate,_Atlantic_Station.jpg",
+          "author": "Jeff Clemmons",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Millennium Gate ATL",
+          "url": "https://commons.wikimedia.org/wiki/File:Millennium_Gate_ATL.jpg",
+          "author": "Hillary",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Front of Millennium Gate",
+          "url": "https://commons.wikimedia.org/wiki/File:Front_of_Millennium_Gate.jpg",
+          "author": "Tabby146",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Millennium Gate Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Millennium_Gate_Atlanta.jpg",
+          "author": "Chris Yunker",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "CobbLinc bus 1800 2025-01-09",
+          "url": "https://commons.wikimedia.org/wiki/File:CobbLinc_bus_1800_2025-01-09.jpg",
+          "author": "ElToAn123",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/atl-millennium-gate.glb",
+      "source": "generators/atl-millennium-gate.ts"
     }
   ],
   "landmarks": [
@@ -42811,6 +42878,23 @@
         "way/1453239394"
       ],
       "wikidata": "Q953345"
+    },
+    {
+      "id": "atl-millennium-gate",
+      "name": "Millennium Gate",
+      "model": "atl-millennium-gate",
+      "place": "atlanta-area",
+      "lng": -84.399725,
+      "lat": 33.791127,
+      "bearing": 62.4,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/269640189",
+        "way/1564296738",
+        "way/1564296739",
+        "way/1564296740"
+      ]
     }
   ],
   "places": [
