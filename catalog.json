@@ -27723,6 +27723,85 @@
       ],
       "file": "models/atl-cathedral-st-philip.glb",
       "source": "generators/atl-cathedral-st-philip.ts"
+    },
+    {
+      "id": "atl-swan-house",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "house",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Swan House, Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Swan_House,_Atlanta.jpg",
+          "author": "R. Cotton Alston Jr. (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Historic Swan House (1928) with Hudson Super-Six Coach in Atlanta’s West Paces Ferry neighborhood.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Historic_Swan_House_(1928)_with_Hudson_Super-Six_Coach_in_Atlanta’s_West_Paces_Ferry_neighborhood.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Swan House, Atlanta, Georgia LCCN2011633264.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Swan_House,_Atlanta,_Georgia_LCCN2011633264.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Swan House, Atlanta Ga.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Swan_House,_Atlanta_Ga.jpg",
+          "author": "Counse",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Swan House - Cascading Fountain.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Swan_House_-_Cascading_Fountain.jpg",
+          "author": "Daniel Di Palma",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Swan Houae Atlanta GA 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Swan_Houae_Atlanta_GA_05.jpg",
+          "author": "Tanyawestbrook",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "GENERAL VIEW OF FRONT - Swan House, 3099 Andrews Drive, Northwest, Atlanta, Fulton County, GA HABS GA,61-ATLA,5-1.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:GENERAL_VIEW_OF_FRONT_-_Swan_House,_3099_Andrews_Drive,_Northwest,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,5-1.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "GENERAL VIEW OF REAR - Swan House, 3099 Andrews Drive, Northwest, Atlanta, Fulton County, GA HABS GA,61-ATLA,5-2.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:GENERAL_VIEW_OF_REAR_-_Swan_House,_3099_Andrews_Drive,_Northwest,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,5-2.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-swan-house.glb",
+      "source": "generators/atl-swan-house.ts"
     }
   ],
   "landmarks": [
@@ -42509,6 +42588,21 @@
         "relation/3591730"
       ],
       "wikidata": "Q5383288"
+    },
+    {
+      "id": "atl-swan-house",
+      "name": "Swan House",
+      "model": "atl-swan-house",
+      "place": "atlanta-area",
+      "lng": -84.3875494,
+      "lat": 33.8404422,
+      "bearing": 31,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/267926896"
+      ],
+      "wikidata": "Q3506419"
     }
   ],
   "places": [
