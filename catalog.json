@@ -26360,6 +26360,80 @@
       ],
       "file": "models/atl-georgia-state-capitol.glb",
       "source": "generators/atl-georgia-state-capitol.ts"
+    },
+    {
+      "id": "atl-city-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "government",
+        "art-deco",
+        "tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Atlanta City Hall, Atlanta, GA (47421888442).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall,_Atlanta,_GA_(47421888442).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta City Hall, Atlanta, GA (46559467575).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall,_Atlanta,_GA_(46559467575).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta City Hall, Atlanta, GA (47421888572).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall,_Atlanta,_GA_(47421888572).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta City Hall, Atlanta, GA (47474768601).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall,_Atlanta,_GA_(47474768601).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta City Hall from HABS.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall_from_HABS.jpg",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Atlanta City Hall (223).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall_(223).jpg",
+          "author": "Atlantacitizen at en.wikipedia",
+          "license": "Public domain"
+        },
+        {
+          "title": "Atlanta City Hall, Atlanta, GA (46751455774).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall,_Atlanta,_GA_(46751455774).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-city-hall.glb",
+      "source": "generators/atl-city-hall.ts"
     }
   ],
   "landmarks": [
@@ -40856,6 +40930,24 @@
         "way/536753432"
       ],
       "wikidata": "Q1509326"
+    },
+    {
+      "id": "atl-city-hall",
+      "name": "Atlanta City Hall",
+      "model": "atl-city-hall",
+      "place": "atlanta-area",
+      "lng": -84.3905268,
+      "lat": 33.7486235,
+      "bearing": 33.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/113041909",
+        "way/883956342",
+        "way/883956343",
+        "way/883956344"
+      ],
+      "wikidata": "Q4816038"
     }
   ],
   "places": [
