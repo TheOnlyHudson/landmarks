@@ -25416,6 +25416,146 @@
       ],
       "file": "models/atl-promenade-ii.glb",
       "source": "generators/atl-promenade-ii.ts"
+    },
+    {
+      "id": "atl-mercedes-benz-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "soccer",
+        "retractable-roof",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "View of Mercedes-Benz Stadium from Centennial Olympic Park Drive.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Mercedes-Benz_Stadium_from_Centennial_Olympic_Park_Drive.jpg",
+          "author": "Gatorfan252525",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, Atlanta, Georgia, United States.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_Atlanta,_Georgia,_United_States.jpg",
+          "author": "Gatorfan252525",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, July 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_July_2018.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, Jan 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_Jan_2018.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, December 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_December_2024.jpg",
+          "author": "BullDawg2021",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium Interior in 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_Interior_in_2024.jpg",
+          "author": "BullDawg2021",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Mercedes Benz Stadium time lapse capture 2017-08-13.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg",
+          "author": "Atlanta Falcons",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium roof animation 1.gif",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_roof_animation_1.gif",
+          "author": "Atlanta Falcons",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium roof animation 2.gif",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_roof_animation_2.gif",
+          "author": "Atlanta Falcons",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, Atlanta, GA (46558862115).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_Atlanta,_GA_(46558862115).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, Atlanta, GA (47474210031).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_Atlanta,_GA_(47474210031).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, Atlanta, GA (46558861755).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_Atlanta,_GA_(46558861755).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium from Mitchell Street, Atlanta, GA (32532865367).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_from_Mitchell_Street,_Atlanta,_GA_(32532865367).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium (39440363871).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_(39440363871).jpg",
+          "author": "elisfkc",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium with the Georgia Dome remains (38562120085).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_with_the_Georgia_Dome_remains_(38562120085).jpg",
+          "author": "elisfkc",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium Roof Atlanta United 2018-10-21 - 17 14.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_Roof_Atlanta_United_2018-10-21_-_17_14.jpg",
+          "author": "Eric.Jason.Cross",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "USGS 3DEP lidar GA_Statewide_B2_2018",
+          "url": "https://www.usgs.gov/3d-elevation-program",
+          "author": "U.S. Geological Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "USGS NAIP orthoimagery",
+          "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+          "author": "U.S. Geological Survey / USDA",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-mercedes-benz-stadium.glb",
+      "source": "generators/atl-mercedes-benz-stadium.ts"
     }
   ],
   "landmarks": [
@@ -39726,6 +39866,21 @@
         "way/1425865586"
       ],
       "wikidata": "Q7249706"
+    },
+    {
+      "id": "atl-mercedes-benz-stadium",
+      "name": "Mercedes-Benz Stadium",
+      "model": "atl-mercedes-benz-stadium",
+      "place": "atlanta-area",
+      "lng": -84.400848,
+      "lat": 33.755415,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/536744534"
+      ],
+      "wikidata": "Q7007552"
     }
   ],
   "places": [
