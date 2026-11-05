@@ -26001,6 +26001,115 @@
       ],
       "file": "models/atl-skyview.glb",
       "source": "generators/atl-skyview.ts"
+    },
+    {
+      "id": "atl-truist-park",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "baseball",
+        "mlb",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Suntrust Park viewed from Circle 75 Parkway, May 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Suntrust_Park_viewed_from_Circle_75_Parkway,_May_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "SunTrust Park viewed from outfield, May 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SunTrust_Park_viewed_from_outfield,_May_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "SunTrust Park viewed from upper decks behind home plate, May 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SunTrust_Park_viewed_from_upper_decks_behind_home_plate,_May_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Suntrust Park 3B gate, May 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Suntrust_Park_3B_gate,_May_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Suntrust Park LF gate, May 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Suntrust_Park_LF_gate,_May_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Truist Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Truist_Park.jpg",
+          "author": "Andrew nyr",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Truist Park - 50588486371.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Truist_Park_-_50588486371.jpg",
+          "author": "Tyler Lahti",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Truist Park on May 25, 2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Truist_Park_on_May_25,_2023.jpg",
+          "author": "BullDawg2021",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "SunTrust Park near 3B, May 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SunTrust_Park_near_3B,_May_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Truist Park 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Truist_Park_2025.jpg",
+          "author": "TarheelBornBred",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Suntrust Park in July 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Suntrust_Park_in_July_2019.jpg",
+          "author": "Freekhou5",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "USGS 3DEP lidar GA_Statewide_B2_2018",
+          "url": "https://www.usgs.gov/3d-elevation-program",
+          "author": "U.S. Geological Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "USGS NAIP orthoimagery",
+          "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+          "author": "U.S. Geological Survey / USDA",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-truist-park.glb",
+      "source": "generators/atl-truist-park.ts"
     }
   ],
   "landmarks": [
@@ -40433,6 +40542,22 @@
       "replaces": [
         "way/1292668916"
       ]
+    },
+    {
+      "id": "atl-truist-park",
+      "name": "Truist Park",
+      "model": "atl-truist-park",
+      "place": "atlanta-area",
+      "lng": -84.467738,
+      "lat": 33.890673,
+      "bearing": 158,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/9051237",
+        "way/561604015"
+      ],
+      "wikidata": "Q17003430"
     }
   ],
   "places": [
