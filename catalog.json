@@ -24741,6 +24741,3294 @@
       ],
       "file": "models/nyc-madame-tussauds-sign.glb",
       "source": "generators/nyc-madame-tussauds-sign.ts"
+    },
+    {
+      "id": "atl-bank-of-america-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Bank of America Plaza, Atlanta, North view 20160717 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Plaza,_Atlanta,_North_view_20160717_1.jpg",
+          "author": "DXR",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bank of America Plaza (Atlanta) Oct 2021.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Plaza_(Atlanta)_Oct_2021.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "View of Atlanta's Bank of America Plaza from the Atlanta Botanical Garden's Skyline Garden.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Atlanta's_Bank_of_America_Plaza_from_the_Atlanta_Botanical_Garden's_Skyline_Garden.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bank of America Plaza (Atlanta) viewed from the northeast corner of Ponce and Piedmont.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Plaza_(Atlanta)_viewed_from_the_northeast_corner_of_Ponce_and_Piedmont.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2013.01.26.112606 Bank of America Plaza Atlanta Georgia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2013.01.26.112606_Bank_of_America_Plaza_Atlanta_Georgia.jpg",
+          "author": "Hermann Luyken",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Bank of America Plaza Atlanta GA.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Plaza_Atlanta_GA.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bank of America Plaza at night, Dec 2016.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Plaza_at_night,_Dec_2016.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        }
+      ],
+      "file": "models/atl-bank-of-america-plaza.glb",
+      "source": "generators/atl-bank-of-america-plaza.ts"
+    },
+    {
+      "id": "atl-westin-peachtree-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel",
+        "john-portman"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Westin Peachtree Plaza Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Atlanta.jpg",
+          "author": "Robert Neff",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel.jpg",
+          "author": "Ncsr111",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel viewed from Freedom Parkway in Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel_viewed_from_Freedom_Parkway_in_Atlanta.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel, 191 Peachtree Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel,_191_Peachtree_Tower.jpg",
+          "author": "AAK",
+          "license": "Public domain"
+        },
+        {
+          "title": "Westin Peachtree Plaza 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_2.jpg",
+          "author": "Doc Searls",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel, Atlanta, GA (47421274332).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel,_Atlanta,_GA_(47421274332).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel, Atlanta, GA (32532484457).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel,_Atlanta,_GA_(32532484457).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel 12313.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel_12313.JPG",
+          "author": "Michael Rivera",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/atl-westin-peachtree-plaza.glb",
+      "source": "generators/atl-westin-peachtree-plaza.ts"
+    },
+    {
+      "id": "atl-truist-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "john-portman"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Suntrust-plaza-atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Suntrust-plaza-atlanta.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "2013.01.26.112743 SunTrust Plaza Atlanta Georgia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2013.01.26.112743_SunTrust_Plaza_Atlanta_Georgia.jpg",
+          "author": "Hermann Luyken",
+          "license": "CC0"
+        },
+        {
+          "title": "2013.01.26.112538 Sun Trust Plaza Atlanta Georgia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2013.01.26.112538_Sun_Trust_Plaza_Atlanta_Georgia.jpg",
+          "author": "Hermann Luyken",
+          "license": "CC0"
+        },
+        {
+          "title": "SunTrust Plaza, Atlanta.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:SunTrust_Plaza,_Atlanta.JPG",
+          "author": "Michael Rivera",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "SunTrustHDQ.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SunTrustHDQ.jpg",
+          "author": "Organicabq",
+          "license": "Public domain"
+        },
+        {
+          "title": "Truist Plaza Atlanta (cropped).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Truist_Plaza_Atlanta_(cropped).jpg",
+          "author": "Ckerr78",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Truist Plaza.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Truist_Plaza.jpg",
+          "author": "Tyler Lahti",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/atl-truist-plaza.glb",
+      "source": "generators/atl-truist-plaza.ts"
+    },
+    {
+      "id": "atl-191-peachtree-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "191 Peachtree Westin.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191_Peachtree_Westin.jpg",
+          "author": "Michael Hohimer",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "191-peachtree-south.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191-peachtree-south.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "191-peachtree-rear.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191-peachtree-rear.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "191 Peachtree Tower (8564151340).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191_Peachtree_Tower_(8564151340).jpg",
+          "author": "Sheila Sund",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "191 Peachtree Tower, Atlanta, GA (47421491962).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191_Peachtree_Tower,_Atlanta,_GA_(47421491962).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "191 Peachtree Tower, ATL.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191_Peachtree_Tower,_ATL.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "191 Peachtree Tower viewed from the plaza of the Georgia Pacific Center in downtown Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:191_Peachtree_Tower_viewed_from_the_plaza_of_the_Georgia_Pacific_Center_in_downtown_Atlanta.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Looking east down Forsyth Street toward 191 Peachtree Tower from Fairlie-Poplar.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Looking_east_down_Forsyth_Street_toward_191_Peachtree_Tower_from_Fairlie-Poplar.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel.jpg",
+          "author": "Ncsr111",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel, 191 Peachtree Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel,_191_Peachtree_Tower.jpg",
+          "author": "AAK",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-191-peachtree-tower.glb",
+      "source": "generators/atl-191-peachtree-tower.ts"
+    },
+    {
+      "id": "atl-marriott-marquis",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel",
+        "john-portman"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Marriott-marquis-atlanta-exterior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Marriott-marquis-atlanta-exterior.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Marriott-Marquis-rear-down.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Marriott-Marquis-rear-down.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Atlanta Marriott Marquis.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Marriott_Marquis.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta Marriott Marquis Hotel, Atlanta, GA (32532281487).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Marriott_Marquis_Hotel,_Atlanta,_GA_(32532281487).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta Marriott Marquis Hotel, Atlanta, GA (47474200551).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Marriott_Marquis_Hotel,_Atlanta,_GA_(47474200551).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta May 2025 (4).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_May_2025_(4).jpg",
+          "author": "Raskuly",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/atl-marriott-marquis.glb",
+      "source": "generators/atl-marriott-marquis.ts"
+    },
+    {
+      "id": "atl-hyatt-regency",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "john-portman",
+        "revolving-restaurant"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hyatt-regency-atlanta-side.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt-regency-atlanta-side.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hyatt-regency-atlanta-aerial.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt-regency-atlanta-aerial.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hyatt Regency Atlanta Hotel, Atlanta, GA (46750903724).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt_Regency_Atlanta_Hotel,_Atlanta,_GA_(46750903724).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Hyatt Regency Atlanta Hotel, Atlanta, GA (32532281407).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt_Regency_Atlanta_Hotel,_Atlanta,_GA_(32532281407).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Hyatt Regency Atlanta Aug 2025 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt_Regency_Atlanta_Aug_2025_02.jpg",
+          "author": "Thomson200",
+          "license": "CC0"
+        },
+        {
+          "title": "Hyatt Regency Atlanta Aug 2025 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt_Regency_Atlanta_Aug_2025_01.jpg",
+          "author": "Thomson200",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta May 2025 (5).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_May_2025_(5).jpg",
+          "author": "Raskuly",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/atl-hyatt-regency.glb",
+      "source": "generators/atl-hyatt-regency.ts"
+    },
+    {
+      "id": "atl-one-atlantic-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "postmodern",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "AOneAtlanticCenterMT2511-0835.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:AOneAtlanticCenterMT2511-0835.jpg",
+          "author": "AtlChampion",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "AOneAtlanticCenterMT2511-0307.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:AOneAtlanticCenterMT2511-0307.jpg",
+          "author": "AtlChampion",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Promenade 2, One Atlantic Center.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Promenade_2,_One_Atlantic_Center.jpg",
+          "author": "AAK",
+          "license": "Public domain"
+        },
+        {
+          "title": "One Atlantic Center.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Atlantic_Center.jpg",
+          "author": "Atlantacitizen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "View of the midtown Atlanta skyline from Freedom Parkway above the Eastside Trail.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_midtown_Atlanta_skyline_from_Freedom_Parkway_above_the_Eastside_Trail.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta at night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_at_night.jpg",
+          "author": "Royian",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Midtown Atlanta at Night",
+          "url": "https://www.flickr.com/photos/17383471@N00/180785520",
+          "author": "thombo2",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/atl-one-atlantic-center.glb",
+      "source": "generators/atl-one-atlantic-center.ts"
+    },
+    {
+      "id": "atl-1180-peachtree",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "glass",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "1180 Peachtree.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1180_Peachtree.jpg",
+          "author": "Mark Larson",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Promenade 2-1180 Peachtree.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Promenade_2-1180_Peachtree.jpg",
+          "author": "Mark Larson",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Promenade 2, 1180 Peachtree cropped.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Promenade_2,_1180_Peachtree_cropped.jpg",
+          "author": "AAK",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "A1180PchtrMT2511-0726.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A1180PchtrMT2511-0726.jpg",
+          "author": "AtlChampion",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Symphony Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Symphony_Tower.jpg",
+          "author": "Atlantacitizen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "View of the midtown Atlanta skyline from Freedom Parkway above the Eastside Trail.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_midtown_Atlanta_skyline_from_Freedom_Parkway_above_the_Eastside_Trail.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Midtown Atlanta skyline from Piedmont Park, March 2018 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Midtown_Atlanta_skyline_from_Piedmont_Park,_March_2018_1.jpg",
+          "author": "Thomson200",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta Midtown at night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Midtown_at_night.jpg",
+          "author": "Royian",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/atl-1180-peachtree.glb",
+      "source": "generators/atl-1180-peachtree.ts"
+    },
+    {
+      "id": "atl-promenade-ii",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "postmodern",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Promenade II 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Promenade_II_1.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Promenade II 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Promenade_II_2.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "APromenadeIIMT2511-0713.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:APromenadeIIMT2511-0713.jpg",
+          "author": "AtlChampion",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Promenade 2-1180 Peachtree.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Promenade_2-1180_Peachtree.jpg",
+          "author": "Mark Larson",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Promenade 2, 1180 Peachtree.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Promenade_2,_1180_Peachtree.jpg",
+          "author": "AAK",
+          "license": "Public domain"
+        },
+        {
+          "title": "Midtown Atlanta at Night",
+          "url": "https://www.flickr.com/photos/17383471@N00/180785520",
+          "author": "thombo2",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/atl-promenade-ii.glb",
+      "source": "generators/atl-promenade-ii.ts"
+    },
+    {
+      "id": "atl-mercedes-benz-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "soccer",
+        "retractable-roof",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "View of Mercedes-Benz Stadium from Centennial Olympic Park Drive.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Mercedes-Benz_Stadium_from_Centennial_Olympic_Park_Drive.jpg",
+          "author": "Gatorfan252525",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, Atlanta, Georgia, United States.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_Atlanta,_Georgia,_United_States.jpg",
+          "author": "Gatorfan252525",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, July 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_July_2018.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, Jan 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_Jan_2018.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, December 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_December_2024.jpg",
+          "author": "BullDawg2021",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium Interior in 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_Interior_in_2024.jpg",
+          "author": "BullDawg2021",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Mercedes Benz Stadium time lapse capture 2017-08-13.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg",
+          "author": "Atlanta Falcons",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium roof animation 1.gif",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_roof_animation_1.gif",
+          "author": "Atlanta Falcons",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium roof animation 2.gif",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_roof_animation_2.gif",
+          "author": "Atlanta Falcons",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, Atlanta, GA (46558862115).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_Atlanta,_GA_(46558862115).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, Atlanta, GA (47474210031).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_Atlanta,_GA_(47474210031).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium, Atlanta, GA (46558861755).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_Atlanta,_GA_(46558861755).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium from Mitchell Street, Atlanta, GA (32532865367).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_from_Mitchell_Street,_Atlanta,_GA_(32532865367).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium (39440363871).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_(39440363871).jpg",
+          "author": "elisfkc",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium with the Georgia Dome remains (38562120085).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_with_the_Georgia_Dome_remains_(38562120085).jpg",
+          "author": "elisfkc",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Mercedes-Benz Stadium Roof Atlanta United 2018-10-21 - 17 14.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium_Roof_Atlanta_United_2018-10-21_-_17_14.jpg",
+          "author": "Eric.Jason.Cross",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "USGS 3DEP lidar GA_Statewide_B2_2018",
+          "url": "https://www.usgs.gov/3d-elevation-program",
+          "author": "U.S. Geological Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "USGS NAIP orthoimagery",
+          "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+          "author": "U.S. Geological Survey / USDA",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-mercedes-benz-stadium.glb",
+      "source": "generators/atl-mercedes-benz-stadium.ts"
+    },
+    {
+      "id": "atl-flatiron-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Atlanta’s Flatiron Building viewed from Woodruff Park",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta%E2%80%99s_Flatiron_Building_viewed_from_Woodruff_Park.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Flatiron Building (Atlanta) edge-on from the corner of Peachtree and Luckie Streets",
+          "url": "https://commons.wikimedia.org/wiki/File:Flatiron_Building_(Atlanta)_edge-on_from_the_corner_of_Peachtree_and_Luckie_Streets.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Flatiron Building, ATL",
+          "url": "https://commons.wikimedia.org/wiki/File:Flatiron_Building,_ATL.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Flatiron Building (Atlanta) on a cloudy day",
+          "url": "https://commons.wikimedia.org/wiki/File:Flatiron_Building_(Atlanta)_on_a_cloudy_day.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Flatiron Building Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Flatiron_Building_Atlanta.jpg",
+          "author": "dbking",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/atl-flatiron-building.glb",
+      "source": "generators/atl-flatiron-building.ts"
+    },
+    {
+      "id": "atl-candler-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "skyscraper",
+        "hotel"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Candler Building Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Candler_Building_Atlanta.jpg",
+          "author": "Mike",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Candler Building and Georgia-Pacific Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Candler_Building_and_Georgia-Pacific_Tower.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Candler Building, Atlanta, GA (47474418301)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Candler_Building,_Atlanta,_GA_(47474418301).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The Candler Building Atlanta, GA (40508265053)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Candler_Building_Atlanta,_GA_(40508265053).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Candler-Bldg-Atlanta-02",
+          "url": "https://commons.wikimedia.org/wiki/File:Candler-Bldg-Atlanta-02.jpg",
+          "author": "Eoghanacht",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-candler-building.glb",
+      "source": "generators/atl-candler-building.ts"
+    },
+    {
+      "id": "atl-equitable-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vertical panorama of the Equitable Building viewed from Woodruff Park in Atlanta, October 2015",
+          "url": "https://commons.wikimedia.org/wiki/File:Vertical_panorama_of_the_Equitable_Building_viewed_from_Woodruff_Park_in_Atlanta,_October_2015.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Equitable-building-atlanta-angle",
+          "url": "https://commons.wikimedia.org/wiki/File:Equitable-building-atlanta-angle.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "EquitableAtlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:EquitableAtlanta.jpg",
+          "author": "Tom Caiafa",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Equitable Building 12313",
+          "url": "https://commons.wikimedia.org/wiki/File:Equitable_Building_12313.JPG",
+          "author": "Michael Rivera",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/atl-equitable-building.glb",
+      "source": "generators/atl-equitable-building.ts"
+    },
+    {
+      "id": "atl-hurt-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Hurt Building, Atlanta, GA (33597846218)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Hurt_Building,_Atlanta,_GA_(33597846218).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Hurt Building at sunset in Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Hurt_Building_at_sunset_in_Atlanta.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hurt-building-atlanta-side",
+          "url": "https://commons.wikimedia.org/wiki/File:Hurt-building-atlanta-side.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The Hurt Building, Atlanta, GA (32532497137)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Hurt_Building,_Atlanta,_GA_(32532497137).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The Hurt Building, Atlanta, GA (46559101345)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Hurt_Building,_Atlanta,_GA_(46559101345).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-hurt-building.glb",
+      "source": "generators/atl-hurt-building.ts"
+    },
+    {
+      "id": "atl-georgia-pacific-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Georgia-Pacific-Tower-Side",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-Pacific-Tower-Side.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Georgia-Pacific-Tower-Rear",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-Pacific-Tower-Rear.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Georgia-Pacific-Tower-Front-Angle",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-Pacific-Tower-Front-Angle.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "AGeorgaPacificDT2511-0630",
+          "url": "https://commons.wikimedia.org/wiki/File:AGeorgaPacificDT2511-0630.jpg",
+          "author": "AtlChampion",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "GeorgiaPacificHDQ",
+          "url": "https://commons.wikimedia.org/wiki/File:GeorgiaPacificHDQ.jpg",
+          "author": "Organicabq",
+          "license": "Public domain"
+        },
+        {
+          "title": "Georgia-Pacific Tower, Atlanta, GA",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-Pacific_Tower,_Atlanta,_GA.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/atl-georgia-pacific-tower.glb",
+      "source": "generators/atl-georgia-pacific-tower.ts"
+    },
+    {
+      "id": "atl-central-library",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "library",
+        "brutalist",
+        "civic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Atlanta-Fulton-County Central Library viewed from Georgia Pacific Center Plaza",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta-Fulton-County_Central_Library_viewed_from_Georgia_Pacific_Center_Plaza.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta Central Library, ATL",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Central_Library,_ATL.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta Central Library 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Central_Library_2.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta-Fulton Central Library (8216350416)",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta-Fulton_Central_Library_(8216350416).jpg",
+          "author": "Aleksandr Zykov",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Exterior of the Fulton Country Central Library (82252)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Fulton_Country_Central_Library_(82252).jpg",
+          "author": "Zeroping",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Atlanta Fulton Public Main Library, Atlanta, GA (40508251003)",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Fulton_Public_Main_Library,_Atlanta,_GA_(40508251003).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-central-library.glb",
+      "source": "generators/atl-central-library.ts"
+    },
+    {
+      "id": "atl-skyview",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "ride",
+      "tags": [
+        "ferris-wheel",
+        "observation-wheel",
+        "animated"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "SkyView ATL.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SkyView_ATL.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "SkyView Atlanta, July 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SkyView_Atlanta,_July_2018.jpg",
+          "author": "Thomson200",
+          "license": "CC0"
+        },
+        {
+          "title": "SkyView Atlanta, Atlanta, GA (40508040873).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SkyView_Atlanta,_Atlanta,_GA_(40508040873).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Skyview - Luckie St NW, Atlanta GA (51047875213).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Skyview_-_Luckie_St_NW,_Atlanta_GA_(51047875213).jpg",
+          "author": "FaceMePLS",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Skyview Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Skyview_Atlanta.jpg",
+          "author": "Mcooney1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Wheel (259777543).jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Wheel_(259777543).jpeg",
+          "author": "Kailash U",
+          "license": "CC0"
+        },
+        {
+          "title": "SkyView Atlanta IMG 7479.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SkyView_Atlanta_IMG_7479.jpg",
+          "author": "Don McCulley",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-skyview.glb",
+      "source": "generators/atl-skyview.ts"
+    },
+    {
+      "id": "atl-truist-park",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "baseball",
+        "mlb",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Suntrust Park viewed from Circle 75 Parkway, May 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Suntrust_Park_viewed_from_Circle_75_Parkway,_May_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "SunTrust Park viewed from outfield, May 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SunTrust_Park_viewed_from_outfield,_May_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "SunTrust Park viewed from upper decks behind home plate, May 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SunTrust_Park_viewed_from_upper_decks_behind_home_plate,_May_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Suntrust Park 3B gate, May 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Suntrust_Park_3B_gate,_May_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Suntrust Park LF gate, May 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Suntrust_Park_LF_gate,_May_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Truist Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Truist_Park.jpg",
+          "author": "Andrew nyr",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Truist Park - 50588486371.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Truist_Park_-_50588486371.jpg",
+          "author": "Tyler Lahti",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Truist Park on May 25, 2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Truist_Park_on_May_25,_2023.jpg",
+          "author": "BullDawg2021",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "SunTrust Park near 3B, May 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SunTrust_Park_near_3B,_May_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Truist Park 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Truist_Park_2025.jpg",
+          "author": "TarheelBornBred",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Suntrust Park in July 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Suntrust_Park_in_July_2019.jpg",
+          "author": "Freekhou5",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "USGS 3DEP lidar GA_Statewide_B2_2018",
+          "url": "https://www.usgs.gov/3d-elevation-program",
+          "author": "U.S. Geological Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "USGS NAIP orthoimagery",
+          "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+          "author": "U.S. Geological Survey / USDA",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-truist-park.glb",
+      "source": "generators/atl-truist-park.ts"
+    },
+    {
+      "id": "atl-center-parc-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "college",
+        "olympic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Georgia State Stadium field.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_State_Stadium_field.jpg",
+          "author": "Southernkeith",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Turner field exterior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_field_exterior.jpg",
+          "author": "Steviedpeele (English Wikipedia)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Turner Field exterior from the parking lot.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_Field_exterior_from_the_parking_lot.jpg",
+          "author": "Andrew nyr",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Turner Field with Downtown Atlanta in Background (9648404881).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_Field_with_Downtown_Atlanta_in_Background_(9648404881).jpg",
+          "author": "Nate Shivar from USA",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Turner Field 9-15-14.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_Field_9-15-14.jpg",
+          "author": "Amy K Posner",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Turner Field exterior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_Field_exterior.jpg",
+          "author": "Mark Larson",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Turner Field Panorama From Outfield.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_Field_Panorama_From_Outfield.jpg",
+          "author": "Zpb52",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "USGS 3DEP lidar GA_Statewide_B2_2018",
+          "url": "https://www.usgs.gov/3d-elevation-program",
+          "author": "U.S. Geological Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "USGS NAIP orthoimagery",
+          "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+          "author": "U.S. Geological Survey / USDA",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-center-parc-stadium.glb",
+      "source": "generators/atl-center-parc-stadium.ts"
+    },
+    {
+      "id": "atl-bobby-dodd-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "college",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Bobby Dodd Stadium west stands.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bobby_Dodd_Stadium_west_stands.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bobby Dodd Stadium, west stands.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bobby_Dodd_Stadium,_west_stands.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "East Stands of Bobby Dodd Stadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Stands_of_Bobby_Dodd_Stadium.jpg",
+          "author": "Mistercontributer",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Bobby Dodd Stadium, upper north stands.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bobby_Dodd_Stadium,_upper_north_stands.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "South endzone stands, Bobby Dodd Stadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:South_endzone_stands,_Bobby_Dodd_Stadium.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Boddy Dod Stadium from Tech terrace..jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Boddy_Dod_Stadium_from_Tech_terrace..jpg",
+          "author": "Maxicar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "USGS 3DEP lidar GA_Statewide_B2_2018",
+          "url": "https://www.usgs.gov/3d-elevation-program",
+          "author": "U.S. Geological Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "USGS NAIP orthoimagery",
+          "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+          "author": "U.S. Geological Survey / USDA",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-bobby-dodd-stadium.glb",
+      "source": "generators/atl-bobby-dodd-stadium.ts"
+    },
+    {
+      "id": "atl-georgia-state-capitol",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "government",
+        "capitol",
+        "dome"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Georgia State Capitol, Atlanta, West view 20160716 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_State_Capitol,_Atlanta,_West_view_20160716_1.jpg",
+          "author": "DXR",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Georgia State Capitol, Atlanta, North view 20160716 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_State_Capitol,_Atlanta,_North_view_20160716_1.jpg",
+          "author": "DXR",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Georgia-State-Capitol-NE-corner.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-State-Capitol-NE-corner.jpg",
+          "author": "ChrisC47",
+          "license": "CC0"
+        },
+        {
+          "title": "Georgia State Capitol 2019a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_State_Capitol_2019a.jpg",
+          "author": "Antony-22",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta-Georgia-State-Capitol.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta-Georgia-State-Capitol.jpg",
+          "author": "Andre m",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The front of the Georgia State Capitol building in Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_front_of_the_Georgia_State_Capitol_building_in_Atlanta.jpg",
+          "author": "Harrison Keely",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "The gold dome of the Georgia State Capitol building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_gold_dome_of_the_Georgia_State_Capitol_building.jpg",
+          "author": "Harrison Keely",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Georgia State Capitol, HABS GA,61-ATLA,3- (sheet 13 of 52), west elevation",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_State_Capitol,_Capitol_Square,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,3-_(sheet_13_of_52).tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Georgia State Capitol, HABS GA,61-ATLA,3- (sheet 8 of 52), roof plan",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_State_Capitol,_Capitol_Square,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,3-_(sheet_8_of_52).tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-georgia-state-capitol.glb",
+      "source": "generators/atl-georgia-state-capitol.ts"
+    },
+    {
+      "id": "atl-city-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "government",
+        "art-deco",
+        "tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Atlanta City Hall, Atlanta, GA (47421888442).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall,_Atlanta,_GA_(47421888442).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta City Hall, Atlanta, GA (46559467575).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall,_Atlanta,_GA_(46559467575).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta City Hall, Atlanta, GA (47421888572).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall,_Atlanta,_GA_(47421888572).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta City Hall, Atlanta, GA (47474768601).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall,_Atlanta,_GA_(47474768601).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta City Hall from HABS.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall_from_HABS.jpg",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Atlanta City Hall (223).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall_(223).jpg",
+          "author": "Atlantacitizen at en.wikipedia",
+          "license": "Public domain"
+        },
+        {
+          "title": "Atlanta City Hall, Atlanta, GA (46751455774).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_City_Hall,_Atlanta,_GA_(46751455774).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-city-hall.glb",
+      "source": "generators/atl-city-hall.ts"
+    },
+    {
+      "id": "atl-shrine-immaculate-conception",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "church",
+        "gothic-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Shrine of the Immaculate Conception.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Shrine_of_the_Immaculate_Conception.jpg",
+          "author": "dbking",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Atlanta Shrine of the Immaculate Conception 2012 09 15 05 6247.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Shrine_of_the_Immaculate_Conception_2012_09_15_05_6247.JPG",
+          "author": "Ganeshk",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Shrine of the Immaculate Conception, Atlanta, Georgia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Shrine_of_the_Immaculate_Conception,_Atlanta,_Georgia.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kostel Neposkvrněného početí, Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kostel_Neposkvrn%C4%9Bn%C3%A9ho_po%C4%8Det%C3%AD,_Atlanta.jpg",
+          "author": "Ondřej Žváček",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Catholic Shrine of the Immaculate Conception, Atlanta, GA (47421887862).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catholic_Shrine_of_the_Immaculate_Conception,_Atlanta,_GA_(47421887862).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-shrine-immaculate-conception.glb",
+      "source": "generators/atl-shrine-immaculate-conception.ts"
+    },
+    {
+      "id": "atl-ebenezer-baptist-church",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "church",
+        "gothic-revival",
+        "sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Ebenezer Baptist Church - Atlanta Georgia - Sign.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ebenezer_Baptist_Church_-_Atlanta_Georgia_-_Sign.jpg",
+          "author": "Schatzim",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ebenezer Baptist Church sign.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ebenezer_Baptist_Church_sign.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ebenezer Baptist Church Sign (8239046816).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ebenezer_Baptist_Church_Sign_(8239046816).jpg",
+          "author": "edward stojakovic from Portland, OR, United States",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Ebenezer Baptist Church Atlanta - Flickr - Mobilus In Mobili.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ebenezer_Baptist_Church_Atlanta_-_Flickr_-_Mobilus_In_Mobili.jpg",
+          "author": "Mobilus In Mobili",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Historic Ebenezer Baptist Church in Atlanta, June 2015.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Historic_Ebenezer_Baptist_Church_in_Atlanta,_June_2015.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ebenezer Baptist Church at sunset.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ebenezer_Baptist_Church_at_sunset.jpg",
+          "author": "Counse",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Ebenezer Baptist Church, Atlanta, Georgia, United States.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ebenezer_Baptist_Church,_Atlanta,_Georgia,_United_States.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Martin Luther King Jr. National Historic Site August 2016 02 (Historic Ebenezer Baptist Church Heritage Sanctuary).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_Jr._National_Historic_Site_August_2016_02_(Historic_Ebenezer_Baptist_Church_Heritage_Sanctuary).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ebenezer Baptist Church, HABS GA,61-ATLA,54- (sheet 2 of 14)",
+          "url": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._National_Historic_Site,_Ebenezer_Baptist_Church,_407_Auburn_Avenue_Northeast,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,54-_(sheet_2_of_14).tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Ebenezer Baptist Church, HABS GA,61-ATLA,54- (sheet 5 of 14)",
+          "url": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._National_Historic_Site,_Ebenezer_Baptist_Church,_407_Auburn_Avenue_Northeast,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,54-_(sheet_5_of_14).tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Ebenezer Baptist Church, HABS GA,61-ATLA,54- (sheet 6 of 14)",
+          "url": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._National_Historic_Site,_Ebenezer_Baptist_Church,_407_Auburn_Avenue_Northeast,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,54-_(sheet_6_of_14).tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Ebenezer Baptist Church, HABS GA,61-ATLA,54- (sheet 8 of 14)",
+          "url": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._National_Historic_Site,_Ebenezer_Baptist_Church,_407_Auburn_Avenue_Northeast,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,54-_(sheet_8_of_14).tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-ebenezer-baptist-church.glb",
+      "source": "generators/atl-ebenezer-baptist-church.ts"
+    },
+    {
+      "id": "atl-olympic-cauldron",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "monument",
+        "olympics",
+        "tower",
+        "steel"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "1996 Atlanta Summer Olympics cauldron 0463.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1996_Atlanta_Summer_Olympics_cauldron_0463.jpg",
+          "author": "ViennaUK",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "1996 Atlanta Summer Olympics cauldron 0469.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1996_Atlanta_Summer_Olympics_cauldron_0469.jpg",
+          "author": "ViennaUK",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "1996 Atlanta Summer Olympics cauldron 0460.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1996_Atlanta_Summer_Olympics_cauldron_0460.jpg",
+          "author": "ViennaUK",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta cauldron during 1996 Paralympics.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_cauldron_during_1996_Paralympics.jpg",
+          "author": "John Sherwell",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Turner Field parking lot (4054059929).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Turner_Field_parking_lot_(4054059929).jpg",
+          "author": "Peter Bond from Chicago, IL, USA",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "1996 Atlanta Summer Olympics cauldron 0467.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1996_Atlanta_Summer_Olympics_cauldron_0467.jpg",
+          "author": "ViennaUK",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/atl-olympic-cauldron.glb",
+      "source": "generators/atl-olympic-cauldron.ts"
+    },
+    {
+      "id": "atl-big-bethel-ame",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "church",
+        "romanesque",
+        "sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "220 AUBURN AVENUE (Big Bethel Church) SOUTH ELEVATION - 126-255 Auburn Avenue (Commercial Buildings), Auburn Avenue, Atlanta, Fulton County, GA HABS GA,61-ATLA,1C-15.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:220_AUBURN_AVENUE_(Big_Bethel_Church)_SOUTH_ELEVATION_-_126-255_Auburn_Avenue_(Commercial_Buildings),_Auburn_Avenue,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,1C-15.tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "220 AUBURN AVENUE (Big Bethel Church) NORTHWEST CORNER VIEW, INTERSECTION OF AUBURN AVENUE AND BUTLER STREET - 126-255 Auburn Avenue (Commercial Buildings), Auburn Avenue, HABS GA,61-ATLA,1C-14.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:220_AUBURN_AVENUE_(Big_Bethel_Church)_NORTHWEST_CORNER_VIEW,_INTERSECTION_OF_AUBURN_AVENUE_AND_BUTLER_STREET_-_126-255_Auburn_Avenue_(Commercial_Buildings),_Auburn_Avenue,_HABS_GA,61-ATLA,1C-14.tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Big Bethel AME Church, Atlanta 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Big_Bethel_AME_Church,_Atlanta_2.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Big Bethel AME Church, Atlanta, GA (32532878607).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Big_Bethel_AME_Church,_Atlanta,_GA_(32532878607).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Big Bethel AME Church, Atlanta, GA (33598218858).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Big_Bethel_AME_Church,_Atlanta,_GA_(33598218858).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Big Bethel AME Church, Atlanta, GA (40508647063).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Big_Bethel_AME_Church,_Atlanta,_GA_(40508647063).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Big Bethel AME church.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Big_Bethel_AME_church.jpg",
+          "author": "Timothy J Carroll",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Big Bethel AME Church, Atlanta, GA (33598219698).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Big_Bethel_AME_Church,_Atlanta,_GA_(33598219698).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-big-bethel-ame.glb",
+      "source": "generators/atl-big-bethel-ame.ts"
+    },
+    {
+      "id": "atl-georgia-aquarium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "aquarium",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Georgia Aquarium Jan 2006.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_Aquarium_Jan_2006.jpg",
+          "author": "Diliff",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Georgia-aquarium-aerial.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-aquarium-aerial.jpg",
+          "author": "User:Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Atlanta August 2016 13 (Georgia Aquarium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_13_(Georgia_Aquarium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Georgia-Aquarium-Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-Aquarium-Atlanta.jpg",
+          "author": "Rundvald",
+          "license": "Public domain"
+        },
+        {
+          "title": "Georgia Aquarium in Atlanta Georgia in January 2014.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_Aquarium_in_Atlanta_Georgia_in_January_2014.png",
+          "author": "Tim Adams",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Atlanta Aquarium, Atlanta, GA (47474205311).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Aquarium,_Atlanta,_GA_(47474205311).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Georgia Aquarium in front of Coca-Cola museum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_Aquarium_in_front_of_Coca-Cola_museum.jpg",
+          "author": "Sarrail",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/atl-georgia-aquarium.glb",
+      "source": "generators/atl-georgia-aquarium.ts"
+    },
+    {
+      "id": "atl-civil-and-human-rights",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "contemporary",
+        "phil-freelon"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Atlanta’s Center for Civil and Human Rights on a quiet Sunday morning.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta%E2%80%99s_Center_for_Civil_and_Human_Rights_on_a_quiet_Sunday_morning.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta August 2016 08 (National Center for Civil and Human Rights).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_08_(National_Center_for_Civil_and_Human_Rights).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Center for Civil and Human Rights, Atlanta, GA (40508038973).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Center_for_Civil_and_Human_Rights,_Atlanta,_GA_(40508038973).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The Center for Civil and Human Rights, Atlanta, GA (47474203191).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Center_for_Civil_and_Human_Rights,_Atlanta,_GA_(47474203191).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The Center for Civil and Human Rights, Atlanta, GA (32532264677).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Center_for_Civil_and_Human_Rights,_Atlanta,_GA_(32532264677).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The Center for Civil and Human Rights, Atlanta, GA (47421270912).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Center_for_Civil_and_Human_Rights,_Atlanta,_GA_(47421270912).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-civil-and-human-rights.glb",
+      "source": "generators/atl-civil-and-human-rights.ts"
+    },
+    {
+      "id": "atl-state-farm-arena",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "basketball",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "State Farm (Philips) Arena, Atlanta, GA (46558861525) - 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:State_Farm_(Philips)_Arena,_Atlanta,_GA_(46558861525)_-_2019.jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "State Farm (Phillips) Arena, Atlanta, GA (33597622678).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:State_Farm_(Phillips)_Arena,_Atlanta,_GA_(33597622678).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "State Farm (Phillips) Arena, Atlanta, GA (46558861605).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:State_Farm_(Phillips)_Arena,_Atlanta,_GA_(46558861605).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "State Farm (Phillips) Arena, Atlanta, GA (47474209661).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:State_Farm_(Phillips)_Arena,_Atlanta,_GA_(47474209661).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta August 2016 34 (Philips Arena).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_34_(Philips_Arena).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta August 2016 27 (Philips Arena).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_27_(Philips_Arena).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philips Arena-Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philips_Arena-Atlanta.jpg",
+          "author": "Priscilla",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/atl-state-farm-arena.glb",
+      "source": "generators/atl-state-farm-arena.ts"
+    },
+    {
+      "id": "atl-world-of-coca-cola",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The World of Coca-Cola, Atlanta, GA (32532265757).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_World_of_Coca-Cola,_Atlanta,_GA_(32532265757).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The World of Coca-Cola, Atlanta, GA (32532265527).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_World_of_Coca-Cola,_Atlanta,_GA_(32532265527).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "The World of Coca-Cola, Atlanta, GA (32532266077).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_World_of_Coca-Cola,_Atlanta,_GA_(32532266077).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta August 2016 02 (World of Coca-Cola).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_02_(World_of_Coca-Cola).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta August 2016 05 (World of Coca-Cola).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_05_(World_of_Coca-Cola).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta August 2016 06 (World of Coca-Cola).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_06_(World_of_Coca-Cola).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "WoCC-bouteille-Atlanta.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:WoCC-bouteille-Atlanta.JPG",
+          "author": "Rundvald",
+          "license": "Public domain"
+        },
+        {
+          "title": "World of Coca-Cola (8216394746).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:World_of_Coca-Cola_(8216394746).jpg",
+          "author": "Aleksandr Zykov from Russia",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/atl-world-of-coca-cola.glb",
+      "source": "generators/atl-world-of-coca-cola.ts"
+    },
+    {
+      "id": "atl-tech-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "university",
+        "victorian",
+        "famous-sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Tech Tower Building - 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Tech_Tower_Building_-_2.jpg",
+          "author": "Mistercontributer",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Tech Tower Building - 11",
+          "url": "https://commons.wikimedia.org/wiki/File:Tech_Tower_Building_-_11.jpg",
+          "author": "Mistercontributer",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Tech Tower Building - 7",
+          "url": "https://commons.wikimedia.org/wiki/File:Tech_Tower_Building_-_7.jpg",
+          "author": "Mistercontributer",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Tech Tower Building - 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Tech_Tower_Building_-_1.jpg",
+          "author": "Mistercontributer",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Tech Tower in Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Tech_Tower_in_Atlanta.jpg",
+          "author": "Tyler Lahti",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Tech Tower sideview",
+          "url": "https://commons.wikimedia.org/wiki/File:Tech_Tower_sideview.jpg",
+          "author": "Mistercontributer",
+          "license": "CC-BY-SA-3.0"
+        }
+      ],
+      "file": "models/atl-tech-tower.glb",
+      "source": "generators/atl-tech-tower.ts"
+    },
+    {
+      "id": "atl-kessler-campanile",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "university",
+        "campanile",
+        "modern",
+        "fountain"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kessler Campanile - Georgia Institute of Technology - DSC00765",
+          "url": "https://commons.wikimedia.org/wiki/File:Kessler_Campanile_-_Georgia_Institute_of_Technology_-_DSC00765.JPG",
+          "author": "Daderot",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Kessler Campanile - Georgia Institute of Technology - DSC00771",
+          "url": "https://commons.wikimedia.org/wiki/File:Kessler_Campanile_-_Georgia_Institute_of_Technology_-_DSC00771.JPG",
+          "author": "Daderot",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Kessler Campanile- Georgia Institute of Technology - DSC00757",
+          "url": "https://commons.wikimedia.org/wiki/File:Kessler_Campanile-_Georgia_Institute_of_Technology_-_DSC00757.JPG",
+          "author": "Daderot",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Kessler Campanile, Georgia Tech",
+          "url": "https://commons.wikimedia.org/wiki/File:Kessler_Campanile,_Georgia_Tech.jpg",
+          "author": "Davidhermanns",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Georgia Tech Student Center and Campanile",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_Tech_Student_Center_and_Campanile.jpg",
+          "author": "Disavian",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Kessler Campanile (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:Kessler_Campanile.jpg",
+          "author": "Scott Ehardt",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-kessler-campanile.glb",
+      "source": "generators/atl-kessler-campanile.ts"
+    },
+    {
+      "id": "atl-rhodes-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "mansion",
+        "romanesque-revival",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Rhodes Hall in Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Hall_in_Atlanta.jpg",
+          "author": "Lars Juhl Jensen",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Rhodes Hall 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Hall_1.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Rhodes Hall 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Hall_2.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Rhodes Hall",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Hall.jpg",
+          "author": "Tyler Lahti",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Rhodes Hall Exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Hall_Exterior.jpg",
+          "author": "Gatrust",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-rhodes-hall.glb",
+      "source": "generators/atl-rhodes-hall.ts"
+    },
+    {
+      "id": "atl-hartsfield-jackson-control-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "airport",
+        "control-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "ATL-Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:ATL-Tower.jpg",
+          "author": "J. Glover",
+          "license": "CC-BY-3.0-US"
+        },
+        {
+          "title": "ATL tower closeup",
+          "url": "https://commons.wikimedia.org/wiki/File:ATL_tower_closeup.JPG",
+          "author": "Mav",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "ControlTowerATL-Sunset-Dec2012",
+          "url": "https://commons.wikimedia.org/wiki/File:ControlTowerATL-Sunset-Dec2012_(33297413075).jpg",
+          "author": "formulanone",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Control Tower at Hartsfield-Jackson Atlanta International Airport",
+          "url": "https://commons.wikimedia.org/wiki/File:Control_Tower_at_Hartsfield-Jackson_Atlanta_International_Airport_-_panoramio.jpg",
+          "author": "qwesy qwesy",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Delta N345NW Airbus A320 Rear - Atlanta Control Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_N345NW_Airbus_A320_Rear_-_Atlanta_Control_Tower_(43770376420).jpg",
+          "author": "formulanone",
+          "license": "CC-BY-SA-2.0"
+        }
+      ],
+      "file": "models/atl-hartsfield-jackson-control-tower.glb",
+      "source": "generators/atl-hartsfield-jackson-control-tower.ts"
+    },
+    {
+      "id": "atl-king-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Concourse Corporate Center V and VI, June 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_Corporate_Center_V_and_VI_June_2024.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Concourse Corporate Center VI and V, July 2017 (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_Corporate_Center_VI_and_V,_July_2017_(cropped).jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Concourse Corporate Center VI, July 2017",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_Corporate_Center_VI,_July_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Concourse Corporate Center VI, Sandy Springs July 2017 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_Corporate_Center_VI,_Sandy_Springs_July_2017_2.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "The King and Queen towers",
+          "url": "https://commons.wikimedia.org/wiki/File:The_King_and_Queen_towers.jpg",
+          "author": "Maksim Sundukov",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Concourse at Landmark Center, Office Buildings",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_at_Landmark_Center,_Office_Buildings.jpg",
+          "author": "Mitch Featherston",
+          "license": "CC-BY-2.0"
+        }
+      ],
+      "file": "models/atl-king-tower.glb",
+      "source": "generators/atl-king-tower.ts"
+    },
+    {
+      "id": "atl-queen-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Concourse Corporate Center V, July 2017",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_Corporate_Center_V,_July_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Concourse Corporate Center V, Sandy Springs July 2017",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_Corporate_Center_V,_Sandy_Springs_July_2017.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Concourse Corporate Center V and VI, June 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_Corporate_Center_V_and_VI_June_2024.jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Concourse Corporate Center VI and V, July 2017 (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_Corporate_Center_VI_and_V,_July_2017_(cropped).jpg",
+          "author": "Thomson200",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "The King and Queen towers",
+          "url": "https://commons.wikimedia.org/wiki/File:The_King_and_Queen_towers.jpg",
+          "author": "Maksim Sundukov",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Concourse at Landmark Center, Office Buildings",
+          "url": "https://commons.wikimedia.org/wiki/File:Concourse_at_Landmark_Center,_Office_Buildings.jpg",
+          "author": "Mitch Featherston",
+          "license": "CC-BY-2.0"
+        }
+      ],
+      "file": "models/atl-queen-tower.glb",
+      "source": "generators/atl-queen-tower.ts"
+    },
+    {
+      "id": "atl-ponce-city-market",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "market",
+        "adaptive-reuse",
+        "sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Ponce City Market large neon sign Midtown, Atlanta, GA.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market_large_neon_sign_Midtown,_Atlanta,_GA.jpg",
+          "author": "Williamcasey",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ponce City Market viewed from Green's Liquor Store on Ponce.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market_viewed_from_Green's_Liquor_Store_on_Ponce.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ponce City Market, ATL.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market,_ATL.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ponce City Market, Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market,_Atlanta.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ponce City Market - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market_-_panoramio.jpg",
+          "author": "Thomson M",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Ponce City Market from Historic Fourth Ward Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market_from_Historic_Fourth_Ward_Park.jpg",
+          "author": "Tyler Lahti",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Ponce City Market 1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market_1.JPG",
+          "author": "Keizers",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ponce city market from afar.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_city_market_from_afar.jpg",
+          "author": "James Willamor",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/atl-ponce-city-market.glb",
+      "source": "generators/atl-ponce-city-market.ts"
+    },
+    {
+      "id": "atl-carter-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "presidential-library",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Panorama of the Jimmy Carter Presidential Center viewed from the path behind it, May 2015.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Panorama_of_the_Jimmy_Carter_Presidential_Center_viewed_from_the_path_behind_it,_May_2015.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Entrance to Jimmy Carter Presidential Center, May 2015.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Entrance_to_Jimmy_Carter_Presidential_Center,_May_2015.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Jimmy Carter Presidential Library and Museum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Presidential_Library_and_Museum.jpg",
+          "author": "Mojnsen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Jimmy Carter Presidential Library and Museum Front 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Presidential_Library_and_Museum_Front_01.jpg",
+          "author": "Hansolo1021",
+          "license": "CC0"
+        },
+        {
+          "title": "Carter Presidential Library Entrance (8239013422).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Carter_Presidential_Library_Entrance_(8239013422).jpg",
+          "author": "edward stojakovic",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/atl-carter-center.glb",
+      "source": "generators/atl-carter-center.ts"
+    },
+    {
+      "id": "atl-cathedral-christ-the-king",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "cathedral",
+        "gothic-revival",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Christ the King - Atlanta 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_King_-_Atlanta_01.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ the King - Atlanta 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_King_-_Atlanta_02.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ the King - Atlanta 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_King_-_Atlanta_03.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ the King - Atlanta 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_King_-_Atlanta_05.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ the King - Atlanta 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_King_-_Atlanta_10.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cathedral of Christ the King, Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Christ_the_King,_Atlanta.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cathedral Of Christ the King in Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Of_Christ_the_King_in_Atlanta.jpg",
+          "author": "Tbook",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-cathedral-christ-the-king.glb",
+      "source": "generators/atl-cathedral-christ-the-king.ts"
+    },
+    {
+      "id": "atl-cathedral-st-philip",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "cathedral",
+        "gothic-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "St. Philip - Atlanta 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_01.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_02.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_03.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_04.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_05.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 06.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_06.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 07.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_07.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Philip - Atlanta 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Philip_-_Atlanta_10.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/atl-cathedral-st-philip.glb",
+      "source": "generators/atl-cathedral-st-philip.ts"
+    },
+    {
+      "id": "atl-swan-house",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "house",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Swan House, Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Swan_House,_Atlanta.jpg",
+          "author": "R. Cotton Alston Jr. (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Historic Swan House (1928) with Hudson Super-Six Coach in Atlanta’s West Paces Ferry neighborhood.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Historic_Swan_House_(1928)_with_Hudson_Super-Six_Coach_in_Atlanta’s_West_Paces_Ferry_neighborhood.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Swan House, Atlanta, Georgia LCCN2011633264.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Swan_House,_Atlanta,_Georgia_LCCN2011633264.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Swan House, Atlanta Ga.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Swan_House,_Atlanta_Ga.jpg",
+          "author": "Counse",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Swan House - Cascading Fountain.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Swan_House_-_Cascading_Fountain.jpg",
+          "author": "Daniel Di Palma",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Swan Houae Atlanta GA 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Swan_Houae_Atlanta_GA_05.jpg",
+          "author": "Tanyawestbrook",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "GENERAL VIEW OF FRONT - Swan House, 3099 Andrews Drive, Northwest, Atlanta, Fulton County, GA HABS GA,61-ATLA,5-1.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:GENERAL_VIEW_OF_FRONT_-_Swan_House,_3099_Andrews_Drive,_Northwest,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,5-1.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "GENERAL VIEW OF REAR - Swan House, 3099 Andrews Drive, Northwest, Atlanta, Fulton County, GA HABS GA,61-ATLA,5-2.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:GENERAL_VIEW_OF_REAR_-_Swan_House,_3099_Andrews_Drive,_Northwest,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,5-2.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-swan-house.glb",
+      "source": "generators/atl-swan-house.ts"
+    },
+    {
+      "id": "atl-fox-theatre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "theatre",
+        "historic",
+        "moorish-revival",
+        "famous-sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Side and elevated view of Fabulous Fox Threater",
+          "url": "https://commons.wikimedia.org/wiki/File:Side_and_elevated_view_of_Fabulous_Fox_Threater.JPG",
+          "author": "Daniel Mayer",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Fabulous Fox Theater and nearby hotels",
+          "url": "https://commons.wikimedia.org/wiki/File:Fabulous_Fox_Theater_and_nearby_hotels.JPG",
+          "author": "Daniel Mayer",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Fox Theatre",
+          "url": "https://commons.wikimedia.org/wiki/File:Fox_Theatre.jpg",
+          "author": "J. Miers",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Fox Theatre Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Fox_Theatre_Atlanta.jpg",
+          "author": "Atlantacitizen",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fox Theatre sign, Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Fox_Theatre_sign,_Atlanta.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Fox Theatre, Atlanta (2024)-104A8449",
+          "url": "https://commons.wikimedia.org/wiki/File:Fox_Theatre,_Atlanta_(2024)-104A8449.jpg",
+          "author": "Frank Schulenburg",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Fox Theater (2 minarets) 600 Peachtree Street Atlanta Georgia",
+          "url": "https://commons.wikimedia.org/wiki/File:Fox_Theater_(2_minarets)_600_Peachtree_Street_Atlanta_Georgia.JPG",
+          "author": "Neonorange",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Fox Theater night",
+          "url": "https://commons.wikimedia.org/wiki/File:Fox_Theater_night.jpg",
+          "author": "Scott Ehardt",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-fox-theatre.glb",
+      "source": "generators/atl-fox-theatre.ts"
+    },
+    {
+      "id": "atl-high-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modern",
+        "richard-meier",
+        "renzo-piano"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "High Museum of Art, Meier Building",
+          "url": "https://commons.wikimedia.org/wiki/File:High_Museum_of_Art,_Meier_Building.jpg",
+          "author": "Marc Merlin",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "High Museum in Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:High_Museum_in_Atlanta.jpg",
+          "author": "BakedintheHole",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "10 The High",
+          "url": "https://commons.wikimedia.org/wiki/File:10_The_High.jpg",
+          "author": "Atlantacitizen",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "High Museum of Art (8215186745)",
+          "url": "https://commons.wikimedia.org/wiki/File:High_Museum_of_Art_(8215186745).jpg",
+          "author": "Aleksandr Zykov",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "High Museum, Atlanta, Renzo Piano, 2005",
+          "url": "https://www.flickr.com/photos/11381771@N04/3589728826",
+          "author": "Tim Brown Architecture",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "High Museum, Atlanta, Renzo Piano, 2005",
+          "url": "https://www.flickr.com/photos/11381771@N04/3589735152",
+          "author": "Tim Brown Architecture",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "High Museum, Atlanta, Renzo Piano, 2005",
+          "url": "https://www.flickr.com/photos/11381771@N04/3589735808",
+          "author": "Tim Brown Architecture",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "High Museum, Atlanta, Renzo Piano, 2005",
+          "url": "https://www.flickr.com/photos/11381771@N04/3589739330",
+          "author": "Tim Brown Architecture",
+          "license": "CC-BY-2.0"
+        }
+      ],
+      "file": "models/atl-high-museum.glb",
+      "source": "generators/atl-high-museum.ts"
+    },
+    {
+      "id": "atl-millennium-gate",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "triumphal-arch",
+        "museum",
+        "new-classical"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Millennium Gate, Atlanta, USA",
+          "url": "https://commons.wikimedia.org/wiki/File:Millennium_Gate,_Atlanta,_USA.jpg",
+          "author": "Drako World",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Millennium Gate, Atlantic Station",
+          "url": "https://commons.wikimedia.org/wiki/File:Millennium_Gate,_Atlantic_Station.jpg",
+          "author": "Jeff Clemmons",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Millennium Gate ATL",
+          "url": "https://commons.wikimedia.org/wiki/File:Millennium_Gate_ATL.jpg",
+          "author": "Hillary",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Front of Millennium Gate",
+          "url": "https://commons.wikimedia.org/wiki/File:Front_of_Millennium_Gate.jpg",
+          "author": "Tabby146",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Millennium Gate Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Millennium_Gate_Atlanta.jpg",
+          "author": "Chris Yunker",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "CobbLinc bus 1800 2025-01-09",
+          "url": "https://commons.wikimedia.org/wiki/File:CobbLinc_bus_1800_2025-01-09.jpg",
+          "author": "ElToAn123",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/atl-millennium-gate.glb",
+      "source": "generators/atl-millennium-gate.ts"
     }
   ],
   "landmarks": [
@@ -38773,6 +42061,840 @@
       "elevation": 0,
       "minzoom": 17,
       "replaces": []
+    },
+    {
+      "id": "atl-bank-of-america-plaza",
+      "name": "Bank of America Plaza",
+      "model": "atl-bank-of-america-plaza",
+      "place": "atlanta-area",
+      "lng": -84.3861396,
+      "lat": 33.7708628,
+      "bearing": 46.15,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q499486",
+      "replaces": [
+        "way/39449840"
+      ]
+    },
+    {
+      "id": "atl-westin-peachtree-plaza",
+      "name": "Westin Peachtree Plaza",
+      "model": "atl-westin-peachtree-plaza",
+      "place": "atlanta-area",
+      "lng": -84.388375,
+      "lat": 33.759437,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/42904130",
+        "way/192939493"
+      ]
+    },
+    {
+      "id": "atl-truist-plaza",
+      "name": "Truist Plaza",
+      "model": "atl-truist-plaza",
+      "place": "atlanta-area",
+      "lng": -84.386554,
+      "lat": 33.762699,
+      "bearing": 1,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/41390676",
+        "way/1454316150",
+        "way/1454316151",
+        "way/1454316152",
+        "way/1454316153",
+        "way/1454492384",
+        "way/1454492385",
+        "way/1454492386",
+        "way/1454492387",
+        "way/1454492388",
+        "way/1454492395",
+        "way/1454492396",
+        "way/1454492397",
+        "way/1454492398",
+        "way/1454492399",
+        "way/1454492400",
+        "way/1454492401",
+        "way/1454492402",
+        "way/1454492403",
+        "way/1454492404",
+        "way/1454492405",
+        "way/1454492406",
+        "way/1454492407",
+        "way/1454492408",
+        "way/1454492409",
+        "way/1454492410",
+        "way/1454492411",
+        "way/1454492412",
+        "way/1454492413",
+        "way/1454492414",
+        "way/1454492415",
+        "way/1454492416",
+        "way/1454492417",
+        "way/1454492418",
+        "way/1454492419",
+        "way/1454492420",
+        "way/1454492421",
+        "way/1454492422",
+        "way/1454492423",
+        "way/1454492424",
+        "way/1454492425",
+        "way/1454492426",
+        "way/1454492427",
+        "way/1454492428",
+        "way/1454492429",
+        "way/1454492430",
+        "way/1454492431",
+        "way/1454492432",
+        "way/1454492433",
+        "way/1454492434",
+        "way/1454492435",
+        "way/1454492436",
+        "way/1454492437",
+        "way/1454492438",
+        "way/1454492439",
+        "way/1454492440",
+        "way/1454492441",
+        "way/1454492442",
+        "way/1454492443",
+        "way/1454492444",
+        "way/1454492445",
+        "way/1454492446",
+        "way/1454492447",
+        "way/1454492448",
+        "way/1454492449",
+        "way/1454492450",
+        "way/1454492451",
+        "way/1454492452",
+        "way/1454492453",
+        "way/1454492454",
+        "way/1454492455",
+        "way/1454492456",
+        "way/1454492457",
+        "way/1454492458",
+        "way/1454492459",
+        "way/1454492460",
+        "way/1454492461",
+        "way/1454492462",
+        "way/1454492463",
+        "way/1454492464",
+        "way/1454492465",
+        "way/1454492466",
+        "way/1454492467",
+        "way/1454492468",
+        "way/1454492469",
+        "way/1454492470",
+        "way/1454492471",
+        "way/1454492472",
+        "way/1454492473",
+        "way/1454492474",
+        "way/1454492475",
+        "way/1454492476",
+        "way/1454492477",
+        "way/1454492478",
+        "way/1454492479",
+        "way/1454492480",
+        "way/1454492481",
+        "way/1454492482",
+        "way/1454492483",
+        "way/1454492484",
+        "way/1454492485",
+        "way/1454492486",
+        "way/1454492487",
+        "way/1454492488",
+        "way/1454492489",
+        "way/1454492490",
+        "way/1454492491",
+        "way/1454492492",
+        "way/1454492493",
+        "way/1454492494",
+        "way/1454492495",
+        "way/1454492496",
+        "way/1454492497",
+        "way/1454492498",
+        "way/1454492499",
+        "way/1454492500"
+      ]
+    },
+    {
+      "id": "atl-191-peachtree-tower",
+      "name": "191 Peachtree Tower",
+      "model": "atl-191-peachtree-tower",
+      "place": "atlanta-area",
+      "lng": -84.386903,
+      "lat": 33.759008,
+      "bearing": 1,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/261043963",
+        "way/537432531",
+        "way/537432532",
+        "way/537432533",
+        "way/886346695",
+        "way/886346698",
+        "way/886346701",
+        "way/886346709"
+      ]
+    },
+    {
+      "id": "atl-marriott-marquis",
+      "name": "Atlanta Marriott Marquis",
+      "model": "atl-marriott-marquis",
+      "place": "atlanta-area",
+      "lng": -84.384846,
+      "lat": 33.761597,
+      "bearing": 1,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/536787107"
+      ]
+    },
+    {
+      "id": "atl-hyatt-regency",
+      "name": "Hyatt Regency Atlanta",
+      "model": "atl-hyatt-regency",
+      "place": "atlanta-area",
+      "lng": -84.386805,
+      "lat": 33.76159,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/39448958",
+        "way/536754033"
+      ]
+    },
+    {
+      "id": "atl-one-atlantic-center",
+      "name": "One Atlantic Center",
+      "model": "atl-one-atlantic-center",
+      "place": "atlanta-area",
+      "lng": -84.387369,
+      "lat": 33.787081,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/39450314",
+        "way/1425865538",
+        "way/1451518610",
+        "way/1451518611"
+      ],
+      "wikidata": "Q2023960"
+    },
+    {
+      "id": "atl-1180-peachtree",
+      "name": "1180 Peachtree",
+      "model": "atl-1180-peachtree",
+      "place": "atlanta-area",
+      "lng": -84.38416,
+      "lat": 33.786925,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/885660351",
+        "way/1451518608",
+        "way/1451518603",
+        "way/1451518604",
+        "way/885660381",
+        "way/885660360",
+        "way/1424485361",
+        "way/1424485362",
+        "way/1424485363",
+        "way/1424485364",
+        "way/1451133448",
+        "way/1451133449",
+        "way/1451518605",
+        "way/1451518606",
+        "way/1451518607"
+      ],
+      "wikidata": "Q1960906"
+    },
+    {
+      "id": "atl-promenade-ii",
+      "name": "Promenade II",
+      "model": "atl-promenade-ii",
+      "place": "atlanta-area",
+      "lng": -84.385141,
+      "lat": 33.787882,
+      "bearing": 45,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/269637575",
+        "way/1451518609",
+        "way/1424485342",
+        "way/1424485343",
+        "way/1424485344",
+        "way/1424485351",
+        "way/1424485352",
+        "way/1425865586"
+      ],
+      "wikidata": "Q7249706"
+    },
+    {
+      "id": "atl-mercedes-benz-stadium",
+      "name": "Mercedes-Benz Stadium",
+      "model": "atl-mercedes-benz-stadium",
+      "place": "atlanta-area",
+      "lng": -84.400848,
+      "lat": 33.755415,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/536744534"
+      ],
+      "wikidata": "Q7007552"
+    },
+    {
+      "id": "atl-flatiron-building",
+      "name": "Flatiron Building",
+      "model": "atl-flatiron-building",
+      "place": "atlanta-area",
+      "lng": -84.388916,
+      "lat": 33.755874,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/270497379"
+      ]
+    },
+    {
+      "id": "atl-candler-building",
+      "name": "Candler Building",
+      "model": "atl-candler-building",
+      "place": "atlanta-area",
+      "lng": -84.387852,
+      "lat": 33.756877,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/270880829",
+        "way/536778094"
+      ],
+      "wikidata": "Q5031977"
+    },
+    {
+      "id": "atl-equitable-building",
+      "name": "Equitable Building",
+      "model": "atl-equitable-building",
+      "place": "atlanta-area",
+      "lng": -84.388606,
+      "lat": 33.756863,
+      "bearing": 49.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/1389861153"
+      ],
+      "wikidata": "Q5384613"
+    },
+    {
+      "id": "atl-hurt-building",
+      "name": "Hurt Building",
+      "model": "atl-hurt-building",
+      "place": "atlanta-area",
+      "lng": -84.387189,
+      "lat": 33.754259,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/24232553"
+      ],
+      "wikidata": "Q5948694"
+    },
+    {
+      "id": "atl-georgia-pacific-tower",
+      "name": "Georgia-Pacific Tower",
+      "model": "atl-georgia-pacific-tower",
+      "place": "atlanta-area",
+      "lng": -84.38706,
+      "lat": 33.757448,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/479134200",
+        "way/479134201",
+        "way/479134202",
+        "way/479134203",
+        "way/479134204"
+      ]
+    },
+    {
+      "id": "atl-central-library",
+      "name": "Atlanta Central Library",
+      "model": "atl-central-library",
+      "place": "atlanta-area",
+      "lng": -84.388478,
+      "lat": 33.757762,
+      "bearing": 49.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/192941643"
+      ],
+      "wikidata": "Q105751960"
+    },
+    {
+      "id": "atl-skyview",
+      "name": "SkyView Atlanta",
+      "model": "atl-skyview",
+      "place": "atlanta-area",
+      "lng": -84.391852,
+      "lat": 33.758831,
+      "bearing": 313.0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/1292668916"
+      ]
+    },
+    {
+      "id": "atl-truist-park",
+      "name": "Truist Park",
+      "model": "atl-truist-park",
+      "place": "atlanta-area",
+      "lng": -84.467738,
+      "lat": 33.890673,
+      "bearing": 158,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/9051237",
+        "way/561604015"
+      ],
+      "wikidata": "Q17003430"
+    },
+    {
+      "id": "atl-center-parc-stadium",
+      "name": "Center Parc Stadium",
+      "model": "atl-center-parc-stadium",
+      "place": "atlanta-area",
+      "lng": -84.389466,
+      "lat": 33.735448,
+      "bearing": 356,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/3421244"
+      ],
+      "wikidata": "Q1150936"
+    },
+    {
+      "id": "atl-bobby-dodd-stadium",
+      "name": "Bobby Dodd Stadium",
+      "model": "atl-bobby-dodd-stadium",
+      "place": "atlanta-area",
+      "lng": -84.392982,
+      "lat": 33.772616,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/42706712",
+        "way/245699027",
+        "way/42706714"
+      ],
+      "wikidata": "Q2907951"
+    },
+    {
+      "id": "atl-georgia-state-capitol",
+      "name": "Georgia State Capitol",
+      "model": "atl-georgia-state-capitol",
+      "place": "atlanta-area",
+      "lng": -84.3881566,
+      "lat": 33.7490589,
+      "bearing": 33,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/113041732",
+        "way/536753432"
+      ],
+      "wikidata": "Q1509326"
+    },
+    {
+      "id": "atl-city-hall",
+      "name": "Atlanta City Hall",
+      "model": "atl-city-hall",
+      "place": "atlanta-area",
+      "lng": -84.3905268,
+      "lat": 33.7486235,
+      "bearing": 33.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/113041909",
+        "way/883956342",
+        "way/883956343",
+        "way/883956344"
+      ],
+      "wikidata": "Q4816038"
+    },
+    {
+      "id": "atl-shrine-immaculate-conception",
+      "name": "Shrine of the Immaculate Conception",
+      "model": "atl-shrine-immaculate-conception",
+      "place": "atlanta-area",
+      "lng": -84.3895634,
+      "lat": 33.7503597,
+      "bearing": 33,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/96273719"
+      ],
+      "wikidata": "Q7504083"
+    },
+    {
+      "id": "atl-ebenezer-baptist-church",
+      "name": "Ebenezer Baptist Church",
+      "model": "atl-ebenezer-baptist-church",
+      "place": "atlanta-area",
+      "lng": -84.3741108,
+      "lat": 33.7552367,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/173532779"
+      ]
+    },
+    {
+      "id": "atl-olympic-cauldron",
+      "name": "1996 Olympic Cauldron",
+      "model": "atl-olympic-cauldron",
+      "place": "atlanta-area",
+      "lng": -84.388095,
+      "lat": 33.741641,
+      "bearing": 48,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/260646639",
+        "way/536777369"
+      ]
+    },
+    {
+      "id": "atl-big-bethel-ame",
+      "name": "Big Bethel AME Church",
+      "model": "atl-big-bethel-ame",
+      "place": "atlanta-area",
+      "lng": -84.3806444,
+      "lat": 33.7559047,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/97337613"
+      ]
+    },
+    {
+      "id": "atl-georgia-aquarium",
+      "name": "Georgia Aquarium",
+      "model": "atl-georgia-aquarium",
+      "place": "atlanta-area",
+      "lng": -84.394946,
+      "lat": 33.763237,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/28912103",
+        "way/1359126494"
+      ],
+      "wikidata": "Q1155919"
+    },
+    {
+      "id": "atl-civil-and-human-rights",
+      "name": "National Center for Civil and Human Rights",
+      "model": "atl-civil-and-human-rights",
+      "place": "atlanta-area",
+      "lng": -84.39305,
+      "lat": 33.764038,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/317976752"
+      ],
+      "wikidata": "Q6971312"
+    },
+    {
+      "id": "atl-state-farm-arena",
+      "name": "State Farm Arena",
+      "model": "atl-state-farm-arena",
+      "place": "atlanta-area",
+      "lng": -84.396365,
+      "lat": 33.757234,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/25312494"
+      ],
+      "wikidata": "Q1123297"
+    },
+    {
+      "id": "atl-world-of-coca-cola",
+      "name": "World of Coca-Cola",
+      "model": "atl-world-of-coca-cola",
+      "place": "atlanta-area",
+      "lng": -84.392734,
+      "lat": 33.762892,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/270358205",
+        "way/810387778"
+      ],
+      "wikidata": "Q2201410"
+    },
+    {
+      "id": "atl-tech-tower",
+      "name": "Tech Tower",
+      "model": "atl-tech-tower",
+      "place": "atlanta-area",
+      "lng": -84.394686,
+      "lat": 33.772472,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/42706709",
+        "way/28951319"
+      ]
+    },
+    {
+      "id": "atl-kessler-campanile",
+      "name": "Kessler Campanile",
+      "model": "atl-kessler-campanile",
+      "place": "atlanta-area",
+      "lng": -84.39818,
+      "lat": 33.7743,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "atl-rhodes-hall",
+      "name": "Rhodes Hall",
+      "model": "atl-rhodes-hall",
+      "place": "atlanta-area",
+      "lng": -84.388339,
+      "lat": 33.795963,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/269637579",
+        "way/1450958391",
+        "way/1450958392",
+        "way/1450958393",
+        "way/1450958394",
+        "way/1450958395",
+        "way/1455901692"
+      ],
+      "wikidata": "Q7321015"
+    },
+    {
+      "id": "atl-hartsfield-jackson-control-tower",
+      "name": "Hartsfield-Jackson Control Tower",
+      "model": "atl-hartsfield-jackson-control-tower",
+      "place": "atlanta-area",
+      "lng": -84.4216905,
+      "lat": 33.6417075,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/169785102"
+      ]
+    },
+    {
+      "id": "atl-king-tower",
+      "name": "The King (Concourse Corporate Center VI)",
+      "model": "atl-king-tower",
+      "place": "atlanta-area",
+      "lng": -84.355811,
+      "lat": 33.917047,
+      "bearing": 45.5,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/197315978"
+      ]
+    },
+    {
+      "id": "atl-queen-tower",
+      "name": "The Queen (Concourse Corporate Center V)",
+      "model": "atl-queen-tower",
+      "place": "atlanta-area",
+      "lng": -84.354518,
+      "lat": 33.917014,
+      "bearing": 45.5,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/64986738"
+      ]
+    },
+    {
+      "id": "atl-ponce-city-market",
+      "name": "Ponce City Market",
+      "model": "atl-ponce-city-market",
+      "place": "atlanta-area",
+      "lng": -84.3656225,
+      "lat": 33.7725504,
+      "bearing": 4,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/184803195",
+        "way/335151383"
+      ],
+      "wikidata": "Q7227582"
+    },
+    {
+      "id": "atl-carter-center",
+      "name": "The Carter Center",
+      "model": "atl-carter-center",
+      "place": "atlanta-area",
+      "lng": -84.3569535,
+      "lat": 33.7669847,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/29094121"
+      ],
+      "wikidata": "Q386481"
+    },
+    {
+      "id": "atl-cathedral-christ-the-king",
+      "name": "Cathedral of Christ the King",
+      "model": "atl-cathedral-christ-the-king",
+      "place": "atlanta-area",
+      "lng": -84.3869172,
+      "lat": 33.8280134,
+      "bearing": 359,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/267773212"
+      ],
+      "wikidata": "Q2840738"
+    },
+    {
+      "id": "atl-cathedral-st-philip",
+      "name": "Cathedral of St. Philip",
+      "model": "atl-cathedral-st-philip",
+      "place": "atlanta-area",
+      "lng": -84.3871372,
+      "lat": 33.830824,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/267773373",
+        "relation/3591730"
+      ],
+      "wikidata": "Q5383288"
+    },
+    {
+      "id": "atl-swan-house",
+      "name": "Swan House",
+      "model": "atl-swan-house",
+      "place": "atlanta-area",
+      "lng": -84.3875494,
+      "lat": 33.8404422,
+      "bearing": 31,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/267926896"
+      ],
+      "wikidata": "Q3506419"
+    },
+    {
+      "id": "atl-fox-theatre",
+      "name": "Fox Theatre",
+      "model": "atl-fox-theatre",
+      "place": "atlanta-area",
+      "lng": -84.385606,
+      "lat": 33.772598,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/208355446",
+        "way/1341948178",
+        "way/1341948179",
+        "way/1341948180",
+        "way/1341948181",
+        "way/1341948185",
+        "way/1341948186",
+        "way/1341948187",
+        "way/1341948188",
+        "way/1341948189",
+        "way/1341948190"
+      ]
+    },
+    {
+      "id": "atl-high-museum",
+      "name": "High Museum of Art",
+      "model": "atl-high-museum",
+      "place": "atlanta-area",
+      "lng": -84.385959,
+      "lat": 33.789731,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/28961738",
+        "way/1453239398",
+        "way/1424891402",
+        "way/1424891388",
+        "way/1424891448",
+        "way/1424891449",
+        "way/1453239397",
+        "way/1424891450",
+        "way/1453239393",
+        "way/1453239394"
+      ],
+      "wikidata": "Q953345"
+    },
+    {
+      "id": "atl-millennium-gate",
+      "name": "Millennium Gate",
+      "model": "atl-millennium-gate",
+      "place": "atlanta-area",
+      "lng": -84.399725,
+      "lat": 33.791127,
+      "bearing": 62.4,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/269640189",
+        "way/1564296738",
+        "way/1564296739",
+        "way/1564296740"
+      ]
     }
   ],
   "places": [
@@ -38830,6 +42952,11 @@
     {
       "id": "houston-area",
       "name": "Houston area",
+      "kind": "region"
+    },
+    {
+      "id": "atlanta-area",
+      "name": "Atlanta area",
       "kind": "region"
     },
     {
