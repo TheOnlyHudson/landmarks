@@ -27802,6 +27802,86 @@
       ],
       "file": "models/atl-swan-house.glb",
       "source": "generators/atl-swan-house.ts"
+    },
+    {
+      "id": "atl-fox-theatre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "theatre",
+        "historic",
+        "moorish-revival",
+        "famous-sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Side and elevated view of Fabulous Fox Threater",
+          "url": "https://commons.wikimedia.org/wiki/File:Side_and_elevated_view_of_Fabulous_Fox_Threater.JPG",
+          "author": "Daniel Mayer",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Fabulous Fox Theater and nearby hotels",
+          "url": "https://commons.wikimedia.org/wiki/File:Fabulous_Fox_Theater_and_nearby_hotels.JPG",
+          "author": "Daniel Mayer",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Fox Theatre",
+          "url": "https://commons.wikimedia.org/wiki/File:Fox_Theatre.jpg",
+          "author": "J. Miers",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Fox Theatre Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Fox_Theatre_Atlanta.jpg",
+          "author": "Atlantacitizen",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fox Theatre sign, Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Fox_Theatre_sign,_Atlanta.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Fox Theatre, Atlanta (2024)-104A8449",
+          "url": "https://commons.wikimedia.org/wiki/File:Fox_Theatre,_Atlanta_(2024)-104A8449.jpg",
+          "author": "Frank Schulenburg",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Fox Theater (2 minarets) 600 Peachtree Street Atlanta Georgia",
+          "url": "https://commons.wikimedia.org/wiki/File:Fox_Theater_(2_minarets)_600_Peachtree_Street_Atlanta_Georgia.JPG",
+          "author": "Neonorange",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Fox Theater night",
+          "url": "https://commons.wikimedia.org/wiki/File:Fox_Theater_night.jpg",
+          "author": "Scott Ehardt",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-fox-theatre.glb",
+      "source": "generators/atl-fox-theatre.ts"
     }
   ],
   "landmarks": [
@@ -42603,6 +42683,30 @@
         "way/267926896"
       ],
       "wikidata": "Q3506419"
+    },
+    {
+      "id": "atl-fox-theatre",
+      "name": "Fox Theatre",
+      "model": "atl-fox-theatre",
+      "place": "atlanta-area",
+      "lng": -84.385606,
+      "lat": 33.772598,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/208355446",
+        "way/1341948178",
+        "way/1341948179",
+        "way/1341948180",
+        "way/1341948181",
+        "way/1341948185",
+        "way/1341948186",
+        "way/1341948187",
+        "way/1341948188",
+        "way/1341948189",
+        "way/1341948190"
+      ]
     }
   ],
   "places": [
