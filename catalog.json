@@ -27429,6 +27429,86 @@
       ],
       "file": "models/atl-queen-tower.glb",
       "source": "generators/atl-queen-tower.ts"
+    },
+    {
+      "id": "atl-ponce-city-market",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "market",
+        "adaptive-reuse",
+        "sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Ponce City Market large neon sign Midtown, Atlanta, GA.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market_large_neon_sign_Midtown,_Atlanta,_GA.jpg",
+          "author": "Williamcasey",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ponce City Market viewed from Green's Liquor Store on Ponce.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market_viewed_from_Green's_Liquor_Store_on_Ponce.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ponce City Market, ATL.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market,_ATL.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ponce City Market, Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market,_Atlanta.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ponce City Market - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market_-_panoramio.jpg",
+          "author": "Thomson M",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Ponce City Market from Historic Fourth Ward Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market_from_Historic_Fourth_Ward_Park.jpg",
+          "author": "Tyler Lahti",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Ponce City Market 1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_City_Market_1.JPG",
+          "author": "Keizers",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ponce city market from afar.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ponce_city_market_from_afar.jpg",
+          "author": "James Willamor",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/atl-ponce-city-market.glb",
+      "source": "generators/atl-ponce-city-market.ts"
     }
   ],
   "landmarks": [
@@ -42153,6 +42233,22 @@
       "replaces": [
         "way/64986738"
       ]
+    },
+    {
+      "id": "atl-ponce-city-market",
+      "name": "Ponce City Market",
+      "model": "atl-ponce-city-market",
+      "place": "atlanta-area",
+      "lng": -84.3656225,
+      "lat": 33.7725504,
+      "bearing": 4,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/184803195",
+        "way/335151383"
+      ],
+      "wikidata": "Q7227582"
     }
   ],
   "places": [
