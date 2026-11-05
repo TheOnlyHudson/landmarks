@@ -27882,6 +27882,86 @@
       ],
       "file": "models/atl-fox-theatre.glb",
       "source": "generators/atl-fox-theatre.ts"
+    },
+    {
+      "id": "atl-high-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modern",
+        "richard-meier",
+        "renzo-piano"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "High Museum of Art, Meier Building",
+          "url": "https://commons.wikimedia.org/wiki/File:High_Museum_of_Art,_Meier_Building.jpg",
+          "author": "Marc Merlin",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "High Museum in Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:High_Museum_in_Atlanta.jpg",
+          "author": "BakedintheHole",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "10 The High",
+          "url": "https://commons.wikimedia.org/wiki/File:10_The_High.jpg",
+          "author": "Atlantacitizen",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "High Museum of Art (8215186745)",
+          "url": "https://commons.wikimedia.org/wiki/File:High_Museum_of_Art_(8215186745).jpg",
+          "author": "Aleksandr Zykov",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "High Museum, Atlanta, Renzo Piano, 2005",
+          "url": "https://www.flickr.com/photos/11381771@N04/3589728826",
+          "author": "Tim Brown Architecture",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "High Museum, Atlanta, Renzo Piano, 2005",
+          "url": "https://www.flickr.com/photos/11381771@N04/3589735152",
+          "author": "Tim Brown Architecture",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "High Museum, Atlanta, Renzo Piano, 2005",
+          "url": "https://www.flickr.com/photos/11381771@N04/3589735808",
+          "author": "Tim Brown Architecture",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "High Museum, Atlanta, Renzo Piano, 2005",
+          "url": "https://www.flickr.com/photos/11381771@N04/3589739330",
+          "author": "Tim Brown Architecture",
+          "license": "CC-BY-2.0"
+        }
+      ],
+      "file": "models/atl-high-museum.glb",
+      "source": "generators/atl-high-museum.ts"
     }
   ],
   "landmarks": [
@@ -42707,6 +42787,30 @@
         "way/1341948189",
         "way/1341948190"
       ]
+    },
+    {
+      "id": "atl-high-museum",
+      "name": "High Museum of Art",
+      "model": "atl-high-museum",
+      "place": "atlanta-area",
+      "lng": -84.385959,
+      "lat": 33.789731,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/28961738",
+        "way/1453239398",
+        "way/1424891402",
+        "way/1424891388",
+        "way/1424891448",
+        "way/1424891449",
+        "way/1453239397",
+        "way/1424891450",
+        "way/1453239393",
+        "way/1453239394"
+      ],
+      "wikidata": "Q953345"
     }
   ],
   "places": [
