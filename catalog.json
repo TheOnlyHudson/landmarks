@@ -25928,6 +25928,79 @@
       ],
       "file": "models/atl-central-library.glb",
       "source": "generators/atl-central-library.ts"
+    },
+    {
+      "id": "atl-skyview",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "ride",
+      "tags": [
+        "ferris-wheel",
+        "observation-wheel",
+        "animated"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "SkyView ATL.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SkyView_ATL.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "SkyView Atlanta, July 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SkyView_Atlanta,_July_2018.jpg",
+          "author": "Thomson200",
+          "license": "CC0"
+        },
+        {
+          "title": "SkyView Atlanta, Atlanta, GA (40508040873).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SkyView_Atlanta,_Atlanta,_GA_(40508040873).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Skyview - Luckie St NW, Atlanta GA (51047875213).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Skyview_-_Luckie_St_NW,_Atlanta_GA_(51047875213).jpg",
+          "author": "FaceMePLS",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Skyview Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Skyview_Atlanta.jpg",
+          "author": "Mcooney1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Wheel (259777543).jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Wheel_(259777543).jpeg",
+          "author": "Kailash U",
+          "license": "CC0"
+        },
+        {
+          "title": "SkyView Atlanta IMG 7479.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SkyView_Atlanta_IMG_7479.jpg",
+          "author": "Don McCulley",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-skyview.glb",
+      "source": "generators/atl-skyview.ts"
     }
   ],
   "landmarks": [
@@ -40346,6 +40419,20 @@
         "way/192941643"
       ],
       "wikidata": "Q105751960"
+    },
+    {
+      "id": "atl-skyview",
+      "name": "SkyView Atlanta",
+      "model": "atl-skyview",
+      "place": "atlanta-area",
+      "lng": -84.391852,
+      "lat": 33.758831,
+      "bearing": 313.0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/1292668916"
+      ]
     }
   ],
   "places": [
