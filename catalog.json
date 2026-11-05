@@ -26667,6 +26667,86 @@
       ],
       "file": "models/atl-olympic-cauldron.glb",
       "source": "generators/atl-olympic-cauldron.ts"
+    },
+    {
+      "id": "atl-big-bethel-ame",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "church",
+        "romanesque",
+        "sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "220 AUBURN AVENUE (Big Bethel Church) SOUTH ELEVATION - 126-255 Auburn Avenue (Commercial Buildings), Auburn Avenue, Atlanta, Fulton County, GA HABS GA,61-ATLA,1C-15.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:220_AUBURN_AVENUE_(Big_Bethel_Church)_SOUTH_ELEVATION_-_126-255_Auburn_Avenue_(Commercial_Buildings),_Auburn_Avenue,_Atlanta,_Fulton_County,_GA_HABS_GA,61-ATLA,1C-15.tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "220 AUBURN AVENUE (Big Bethel Church) NORTHWEST CORNER VIEW, INTERSECTION OF AUBURN AVENUE AND BUTLER STREET - 126-255 Auburn Avenue (Commercial Buildings), Auburn Avenue, HABS GA,61-ATLA,1C-14.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:220_AUBURN_AVENUE_(Big_Bethel_Church)_NORTHWEST_CORNER_VIEW,_INTERSECTION_OF_AUBURN_AVENUE_AND_BUTLER_STREET_-_126-255_Auburn_Avenue_(Commercial_Buildings),_Auburn_Avenue,_HABS_GA,61-ATLA,1C-14.tif",
+          "author": "Historic American Buildings Survey (Library of Congress)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Big Bethel AME Church, Atlanta 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Big_Bethel_AME_Church,_Atlanta_2.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Big Bethel AME Church, Atlanta, GA (32532878607).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Big_Bethel_AME_Church,_Atlanta,_GA_(32532878607).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Big Bethel AME Church, Atlanta, GA (33598218858).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Big_Bethel_AME_Church,_Atlanta,_GA_(33598218858).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Big Bethel AME Church, Atlanta, GA (40508647063).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Big_Bethel_AME_Church,_Atlanta,_GA_(40508647063).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        },
+        {
+          "title": "Big Bethel AME church.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Big_Bethel_AME_church.jpg",
+          "author": "Timothy J Carroll",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Big Bethel AME Church, Atlanta, GA (33598219698).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Big_Bethel_AME_Church,_Atlanta,_GA_(33598219698).jpg",
+          "author": "Warren LeMay from Cincinnati, OH, United States",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/atl-big-bethel-ame.glb",
+      "source": "generators/atl-big-bethel-ame.ts"
     }
   ],
   "landmarks": [
@@ -41224,6 +41304,20 @@
       "replaces": [
         "way/260646639",
         "way/536777369"
+      ]
+    },
+    {
+      "id": "atl-big-bethel-ame",
+      "name": "Big Bethel AME Church",
+      "model": "atl-big-bethel-ame",
+      "place": "atlanta-area",
+      "lng": -84.3806444,
+      "lat": 33.7559047,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/97337613"
       ]
     }
   ],
