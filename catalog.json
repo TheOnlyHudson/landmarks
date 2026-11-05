@@ -25556,6 +25556,67 @@
       ],
       "file": "models/atl-mercedes-benz-stadium.glb",
       "source": "generators/atl-mercedes-benz-stadium.ts"
+    },
+    {
+      "id": "atl-flatiron-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Atlanta’s Flatiron Building viewed from Woodruff Park",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta%E2%80%99s_Flatiron_Building_viewed_from_Woodruff_Park.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Flatiron Building (Atlanta) edge-on from the corner of Peachtree and Luckie Streets",
+          "url": "https://commons.wikimedia.org/wiki/File:Flatiron_Building_(Atlanta)_edge-on_from_the_corner_of_Peachtree_and_Luckie_Streets.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Flatiron Building, ATL",
+          "url": "https://commons.wikimedia.org/wiki/File:Flatiron_Building,_ATL.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Flatiron Building (Atlanta) on a cloudy day",
+          "url": "https://commons.wikimedia.org/wiki/File:Flatiron_Building_(Atlanta)_on_a_cloudy_day.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Flatiron Building Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Flatiron_Building_Atlanta.jpg",
+          "author": "dbking",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/atl-flatiron-building.glb",
+      "source": "generators/atl-flatiron-building.ts"
     }
   ],
   "landmarks": [
@@ -39881,6 +39942,20 @@
         "way/536744534"
       ],
       "wikidata": "Q7007552"
+    },
+    {
+      "id": "atl-flatiron-building",
+      "name": "Flatiron Building",
+      "model": "atl-flatiron-building",
+      "place": "atlanta-area",
+      "lng": -84.388916,
+      "lat": 33.755874,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/270497379"
+      ]
     }
   ],
   "places": [
