@@ -24814,6 +24814,85 @@
       ],
       "file": "models/atl-bank-of-america-plaza.glb",
       "source": "generators/atl-bank-of-america-plaza.ts"
+    },
+    {
+      "id": "atl-westin-peachtree-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel",
+        "john-portman"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Westin Peachtree Plaza Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Atlanta.jpg",
+          "author": "Robert Neff",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel.jpg",
+          "author": "Ncsr111",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel viewed from Freedom Parkway in Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel_viewed_from_Freedom_Parkway_in_Atlanta.jpg",
+          "author": "Marc Merlin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel, 191 Peachtree Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel,_191_Peachtree_Tower.jpg",
+          "author": "AAK",
+          "license": "Public domain"
+        },
+        {
+          "title": "Westin Peachtree Plaza 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_2.jpg",
+          "author": "Doc Searls",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel, Atlanta, GA (47421274332).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel,_Atlanta,_GA_(47421274332).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel, Atlanta, GA (32532484457).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel,_Atlanta,_GA_(32532484457).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Westin Peachtree Plaza Hotel 12313.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Peachtree_Plaza_Hotel_12313.JPG",
+          "author": "Michael Rivera",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/atl-westin-peachtree-plaza.glb",
+      "source": "generators/atl-westin-peachtree-plaza.ts"
     }
   ],
   "landmarks": [
@@ -38860,6 +38939,21 @@
       "wikidata": "Q499486",
       "replaces": [
         "way/39449840"
+      ]
+    },
+    {
+      "id": "atl-westin-peachtree-plaza",
+      "name": "Westin Peachtree Plaza",
+      "model": "atl-westin-peachtree-plaza",
+      "place": "atlanta-area",
+      "lng": -84.388375,
+      "lat": 33.759437,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/42904130",
+        "way/192939493"
       ]
     }
   ],
