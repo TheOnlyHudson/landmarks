@@ -25057,6 +25057,73 @@
       ],
       "file": "models/atl-191-peachtree-tower.glb",
       "source": "generators/atl-191-peachtree-tower.ts"
+    },
+    {
+      "id": "atl-marriott-marquis",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel",
+        "john-portman"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Marriott-marquis-atlanta-exterior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Marriott-marquis-atlanta-exterior.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Marriott-Marquis-rear-down.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Marriott-Marquis-rear-down.jpg",
+          "author": "Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Atlanta Marriott Marquis.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Marriott_Marquis.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta Marriott Marquis Hotel, Atlanta, GA (32532281487).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Marriott_Marquis_Hotel,_Atlanta,_GA_(32532281487).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta Marriott Marquis Hotel, Atlanta, GA (47474200551).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Marriott_Marquis_Hotel,_Atlanta,_GA_(47474200551).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta May 2025 (4).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_May_2025_(4).jpg",
+          "author": "Raskuly",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/atl-marriott-marquis.glb",
+      "source": "generators/atl-marriott-marquis.ts"
     }
   ],
   "landmarks": [
@@ -39268,6 +39335,20 @@
         "way/886346698",
         "way/886346701",
         "way/886346709"
+      ]
+    },
+    {
+      "id": "atl-marriott-marquis",
+      "name": "Atlanta Marriott Marquis",
+      "model": "atl-marriott-marquis",
+      "place": "atlanta-area",
+      "lng": -84.384846,
+      "lat": 33.761597,
+      "bearing": 1,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/536787107"
       ]
     }
   ],
