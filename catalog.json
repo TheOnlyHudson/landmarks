@@ -26747,6 +26747,78 @@
       ],
       "file": "models/atl-big-bethel-ame.glb",
       "source": "generators/atl-big-bethel-ame.ts"
+    },
+    {
+      "id": "atl-georgia-aquarium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "aquarium",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Georgia Aquarium Jan 2006.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_Aquarium_Jan_2006.jpg",
+          "author": "Diliff",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Georgia-aquarium-aerial.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-aquarium-aerial.jpg",
+          "author": "User:Connor.carey",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Atlanta August 2016 13 (Georgia Aquarium).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_13_(Georgia_Aquarium).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Georgia-Aquarium-Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia-Aquarium-Atlanta.jpg",
+          "author": "Rundvald",
+          "license": "Public domain"
+        },
+        {
+          "title": "Georgia Aquarium in Atlanta Georgia in January 2014.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_Aquarium_in_Atlanta_Georgia_in_January_2014.png",
+          "author": "Tim Adams",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Atlanta Aquarium, Atlanta, GA (47474205311).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Aquarium,_Atlanta,_GA_(47474205311).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Georgia Aquarium in front of Coca-Cola museum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Georgia_Aquarium_in_front_of_Coca-Cola_museum.jpg",
+          "author": "Sarrail",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/atl-georgia-aquarium.glb",
+      "source": "generators/atl-georgia-aquarium.ts"
     }
   ],
   "landmarks": [
@@ -41319,6 +41391,22 @@
       "replaces": [
         "way/97337613"
       ]
+    },
+    {
+      "id": "atl-georgia-aquarium",
+      "name": "Georgia Aquarium",
+      "model": "atl-georgia-aquarium",
+      "place": "atlanta-area",
+      "lng": -84.394946,
+      "lat": 33.763237,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/28912103",
+        "way/1359126494"
+      ],
+      "wikidata": "Q1155919"
     }
   ],
   "places": [
