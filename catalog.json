@@ -27173,6 +27173,68 @@
       ],
       "file": "models/atl-kessler-campanile.glb",
       "source": "generators/atl-kessler-campanile.ts"
+    },
+    {
+      "id": "atl-rhodes-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "mansion",
+        "romanesque-revival",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Rhodes Hall in Atlanta",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Hall_in_Atlanta.jpg",
+          "author": "Lars Juhl Jensen",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Rhodes Hall 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Hall_1.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Rhodes Hall 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Hall_2.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Rhodes Hall",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Hall.jpg",
+          "author": "Tyler Lahti",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Rhodes Hall Exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Hall_Exterior.jpg",
+          "author": "Gatrust",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/atl-rhodes-hall.glb",
+      "source": "generators/atl-rhodes-hall.ts"
     }
   ],
   "landmarks": [
@@ -41834,6 +41896,27 @@
       "elevation": 0,
       "minzoom": 16,
       "replaces": []
+    },
+    {
+      "id": "atl-rhodes-hall",
+      "name": "Rhodes Hall",
+      "model": "atl-rhodes-hall",
+      "place": "atlanta-area",
+      "lng": -84.388339,
+      "lat": 33.795963,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/269637579",
+        "way/1450958391",
+        "way/1450958392",
+        "way/1450958393",
+        "way/1450958394",
+        "way/1450958395",
+        "way/1455901692"
+      ],
+      "wikidata": "Q7321015"
     }
   ],
   "places": [
