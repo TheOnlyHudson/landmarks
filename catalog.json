@@ -26886,6 +26886,79 @@
       ],
       "file": "models/atl-civil-and-human-rights.glb",
       "source": "generators/atl-civil-and-human-rights.ts"
+    },
+    {
+      "id": "atl-state-farm-arena",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "basketball",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "State Farm (Philips) Arena, Atlanta, GA (46558861525) - 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:State_Farm_(Philips)_Arena,_Atlanta,_GA_(46558861525)_-_2019.jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "State Farm (Phillips) Arena, Atlanta, GA (33597622678).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:State_Farm_(Phillips)_Arena,_Atlanta,_GA_(33597622678).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "State Farm (Phillips) Arena, Atlanta, GA (46558861605).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:State_Farm_(Phillips)_Arena,_Atlanta,_GA_(46558861605).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "State Farm (Phillips) Arena, Atlanta, GA (47474209661).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:State_Farm_(Phillips)_Arena,_Atlanta,_GA_(47474209661).jpg",
+          "author": "Warren LeMay",
+          "license": "CC0"
+        },
+        {
+          "title": "Atlanta August 2016 34 (Philips Arena).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_34_(Philips_Arena).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atlanta August 2016 27 (Philips Arena).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlanta_August_2016_27_(Philips_Arena).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philips Arena-Atlanta.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philips_Arena-Atlanta.jpg",
+          "author": "Priscilla",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/atl-state-farm-arena.glb",
+      "source": "generators/atl-state-farm-arena.ts"
     }
   ],
   "landmarks": [
@@ -41489,6 +41562,21 @@
         "way/317976752"
       ],
       "wikidata": "Q6971312"
+    },
+    {
+      "id": "atl-state-farm-arena",
+      "name": "State Farm Arena",
+      "model": "atl-state-farm-arena",
+      "place": "atlanta-area",
+      "lng": -84.396365,
+      "lat": 33.757234,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/25312494"
+      ],
+      "wikidata": "Q1123297"
     }
   ],
   "places": [
