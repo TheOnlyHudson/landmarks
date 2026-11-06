@@ -31182,6 +31182,152 @@
       ],
       "file": "models/phl-reading-terminal.glb",
       "source": "generators/phl-reading-terminal.ts"
+    },
+    {
+      "id": "phl-boathouse-row",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "boathouse",
+        "victorian"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Boathouse Row on the east bank of the Schuylkill: the twelve Victorian boathouses of the Schuylkill Navy (#2 to #15, 1860-1904), with their gables, turret and belvedere, each outlined at night in white lights along its eaves, gables, hips, corners and boat-bay arches.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "CLOSER VIEW OF BOATHOUSES, LOOKING SOUTHEAST FROM WEST BANK OF SCHUYLKILL RIVER - Boathouse Row (HABS PA,51-PHILA,561-3)",
+          "url": "https://commons.wikimedia.org/wiki/File:CLOSER_VIEW_OF_BOATHOUSES,_LOOKING_SOUTHEAST_FROM_WEST_BANK_OF_SCHUYLKILL_RIVER_-_Boathouse_Row,_East_River_Drive,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,561-3.tif",
+          "author": "Jack E. Boucher (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "AERIAL VIEW, LOOKING NORTHEAST. - Boathouse Row (HABS PA,51-PHILA,561-15)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_NORTHEAST._-_Boathouse_Row,_East_River_Drive,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,561-15.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "AERIAL VIEW, LOOKING NORTH. - Boathouse Row (HABS PA,51-PHILA,561-14)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_NORTH._-_Boathouse_Row,_East_River_Drive,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,561-14.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "Sedgeley72.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Sedgeley72.png",
+          "author": "Jack Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "University72.png",
+          "url": "https://commons.wikimedia.org/wiki/File:University72.png",
+          "author": "Jack Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "Philadelphia Girls RC 2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Girls_RC_2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "Undine2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Undine2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "PennAC2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PennAC2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "CollegeBC2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:CollegeBC2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "Vesper-Malta2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vesper-Malta2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "Crescent-Pennsylvania2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Crescent-Pennsylvania2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "Crescent2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Crescent2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "FairmountRA2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FairmountRA2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "'Bachelors' boathouse.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%27Bachelors%27_boathouse.jpg",
+          "author": "Antigng",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Boathouse Row - panoramio (long).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Boathouse_Row_-_panoramio_(long).jpg",
+          "author": "michaelwm25",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Boathouse Row-wide.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Boathouse_Row-wide.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Boathouse Row Panorama.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Boathouse_Row_Panorama.jpg",
+          "author": "Ryan Linton",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Boathouse Row.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Boathouse_Row.JPG",
+          "author": "Ryan Linton",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Twilight on Boathouse Row - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Twilight_on_Boathouse_Row_-_panoramio.jpg",
+          "author": "michaelwm25",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/phl-boathouse-row.glb",
+      "source": "generators/phl-boathouse-row.ts"
     }
   ],
   "landmarks": [
@@ -46886,6 +47032,32 @@
         "way/335293079",
         "way/335828068",
         "way/335828066"
+      ]
+    },
+    {
+      "id": "phl-boathouse-row",
+      "name": "Boathouse Row",
+      "model": "phl-boathouse-row",
+      "place": "philadelphia-area",
+      "lng": -75.187806,
+      "lat": 39.969496,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2907541",
+      "replaces": [
+        "way/60945644",
+        "way/60945643",
+        "way/60945642",
+        "way/60945641",
+        "way/60945640",
+        "way/60945645",
+        "way/664678411",
+        "way/60945636",
+        "way/60945635",
+        "way/60945611",
+        "way/664678412",
+        "way/60945610"
       ]
     }
   ],
