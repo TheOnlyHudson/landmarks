@@ -29299,6 +29299,87 @@
       ],
       "file": "models/phl-kimmel-center.glb",
       "source": "generators/phl-kimmel-center.ts"
+    },
+    {
+      "id": "phl-christ-church",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "georgian",
+        "church",
+        "steeple"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q979481",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Christ Church, Philadelphia 12.2021 (edited)",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church,_Philadelphia_12.2021_(edited).jpg",
+          "author": "Al R",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Christ Church - Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_-_Philadelphia.JPG",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ Church Phila",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Phila.JPG",
+          "author": "PVSBond",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Christ Church from 2nd Street",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_from_2nd_Street.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ Church from N. 2nd Street",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_from_N._2nd_Street.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ Church Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Philadelphia.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ Church, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church,_Philadelphia.jpg",
+          "author": "Elisa Rolle",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "HABS PA-1071, Christ Church (sheets 6, 7, 8 of 19)",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church,_22-26_North_Second_Street,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,7-_(sheet_8_of_19).png",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-christ-church.glb",
+      "source": "generators/phl-christ-church.ts"
     }
   ],
   "landmarks": [
@@ -44530,6 +44611,27 @@
       "replaces": [
         "way/183519384",
         "way/340439795"
+      ]
+    },
+    {
+      "id": "phl-christ-church",
+      "name": "Christ Church",
+      "model": "phl-christ-church",
+      "place": "philadelphia-area",
+      "lng": -75.143864,
+      "lat": 39.95073,
+      "bearing": 10.2,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q979481",
+      "replaces": [
+        "way/332757057",
+        "way/340937481",
+        "way/340937482",
+        "way/340937483",
+        "way/340937484",
+        "way/340937485",
+        "way/340952525"
       ]
     }
   ],
