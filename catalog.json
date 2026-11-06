@@ -28539,6 +28539,79 @@
       ],
       "file": "models/phl-30th-street-station.glb",
       "source": "generators/phl-30th-street-station.ts"
+    },
+    {
+      "id": "phl-one-liberty-place",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "One Liberty Place, Philadelphia, Pennsylvania LCCN2011630484.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Liberty_Place,_Philadelphia,_Pennsylvania_LCCN2011630484.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Liberty place.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Liberty_place.jpg",
+          "author": "Photodavid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "OneLiberyPlacePhiladelphia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:OneLiberyPlacePhiladelphia.jpg",
+          "author": "Massimo Catarinella",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "One Liberty Place a.jpg (series a-d)",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Liberty_Place_a.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "OneLibertyPlaceSpire.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:OneLibertyPlaceSpire.jpg",
+          "author": "Wasted Time R",
+          "license": "Public domain"
+        },
+        {
+          "title": "Philadelphia Night Skyline.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Night_Skyline.jpg",
+          "author": "Thesab",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia Night Skyline (14146388982).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Night_Skyline_(14146388982).jpg",
+          "author": "Chris Hunkeler",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/phl-one-liberty-place.glb",
+      "source": "generators/phl-one-liberty-place.ts"
     }
   ],
   "landmarks": [
@@ -43521,6 +43594,32 @@
         "way/32272623",
         "way/749651799",
         "way/749651800"
+      ]
+    },
+    {
+      "id": "phl-one-liberty-place",
+      "name": "One Liberty Place",
+      "model": "phl-one-liberty-place",
+      "place": "philadelphia-area",
+      "lng": -75.168136,
+      "lat": 39.95257,
+      "bearing": 9.2,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q1449747",
+      "replaces": [
+        "way/42784982",
+        "way/333013556",
+        "way/333012828",
+        "way/333012829",
+        "way/345594709",
+        "way/345594710",
+        "way/345594711",
+        "way/332974959",
+        "way/345594720",
+        "way/345594721",
+        "way/345594723",
+        "way/333012830"
       ]
     }
   ],
