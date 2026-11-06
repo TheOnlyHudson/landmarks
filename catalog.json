@@ -30009,6 +30009,88 @@
       ],
       "file": "models/phl-shot-tower.glb",
       "source": "generators/phl-shot-tower.ts"
+    },
+    {
+      "id": "phl-battleship-new-jersey",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "ship",
+        "battleship",
+        "museum-ship",
+        "historic",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q507603",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "March 21, 2024 moving of the USS New Jersey 4 (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:March_21,_2024_moving_of_the_USS_New_Jersey_4_(cropped).jpg",
+          "author": "QuincyMorgan",
+          "license": "CC0"
+        },
+        {
+          "title": "March 21, 2024 moving of the USS New Jersey 11",
+          "url": "https://commons.wikimedia.org/wiki/File:March_21,_2024_moving_of_the_USS_New_Jersey_11.jpg",
+          "author": "QuincyMorgan",
+          "license": "CC0"
+        },
+        {
+          "title": "USS New Jersey Port of Camden (2018)",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_New_Jersey_Port_of_Camden_(2018).jpg",
+          "author": "Jason Zhang",
+          "license": "CC0"
+        },
+        {
+          "title": "USS New Jersey BB-62 Museum Camden",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_New_Jersey_BB-62_Museum_Camden.JPG",
+          "author": "Vladsinger",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "USS New Jersey (BB-62) 10 March 2013",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_New_Jersey_(BB-62)_10_March_2013.jpg",
+          "author": "Teemu008",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Battleship New Jersey moored at Camden NJ",
+          "url": "https://commons.wikimedia.org/wiki/File:Battleship_New_Jersey_moored_at_Camden_NJ.jpg",
+          "author": "Izzowiki",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "USS New Jersey Drydock Front Port Side",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_New_Jersey_Drydock_Front_Port_Side.jpg",
+          "author": "RabidMangoes",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "USS New Jersey Night",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_New_Jersey_Night.jpg",
+          "author": "Sdwelch1031",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/phl-battleship-new-jersey.glb",
+      "source": "generators/phl-battleship-new-jersey.ts"
     }
   ],
   "landmarks": [
@@ -45410,6 +45492,28 @@
       "wikidata": "Q7573713",
       "replaces": [
         "way/705302160"
+      ]
+    },
+    {
+      "id": "phl-battleship-new-jersey",
+      "name": "Battleship New Jersey",
+      "model": "phl-battleship-new-jersey",
+      "place": "philadelphia-area",
+      "lng": -75.133034,
+      "lat": 39.939334,
+      "bearing": 343.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q507603",
+      "replaces": [
+        "way/29667862",
+        "way/857248280",
+        "way/857248281",
+        "way/857248282",
+        "way/857248283",
+        "way/857248284",
+        "way/857248285",
+        "way/857248286"
       ]
     }
   ],
