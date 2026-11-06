@@ -29380,6 +29380,98 @@
       ],
       "file": "models/phl-christ-church.glb",
       "source": "generators/phl-christ-church.ts"
+    },
+    {
+      "id": "phl-carpenters-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "georgian",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1093592",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Carpenters' Hall, Philadelphia, U.S., May 2015",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenters%27_Hall,_Philadelphia,_U.S.,_May_2015.jpg",
+          "author": "Pbjamesphoto",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CarpentersHall00",
+          "url": "https://commons.wikimedia.org/wiki/File:CarpentersHall00.jpg",
+          "author": "Davidt8",
+          "license": "Public domain"
+        },
+        {
+          "title": "CarpentersHall01",
+          "url": "https://commons.wikimedia.org/wiki/File:CarpentersHall01.jpg",
+          "author": "Davidt8",
+          "license": "Public domain"
+        },
+        {
+          "title": "Carpenters' Hall from front",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenters%27_Hall_from_front.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Carpenters' Hall, 2016",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenters%27_Hall,_2016.jpg",
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Carpenters' Hall (53586569876)",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenters%27_Hall_(53586569876).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Carpenter's Hall, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenter%27s_Hall,_Philadelphia.jpg",
+          "author": "Bestbudbrian",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia - Carpenters Hall - 20241031180131",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_-_Carpenters_Hall_-_20241031180131.jpg",
+          "author": "Nikanavi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Carpenters' Hall Lights of Liberty",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenters%27_Hall_Lights_of_Liberty.jpg",
+          "author": "Ben Franske",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "HABS PA-1596, Carpenters' Company Hall (sheet 1 of 3)",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenters%27_Company_Hall,_320_Chestnut_Street_and_Carpenters%27_Court,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,229-_(sheet_1_of_3).png",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-carpenters-hall.glb",
+      "source": "generators/phl-carpenters-hall.ts"
     }
   ],
   "landmarks": [
@@ -44632,6 +44724,25 @@
         "way/340937484",
         "way/340937485",
         "way/340952525"
+      ]
+    },
+    {
+      "id": "phl-carpenters-hall",
+      "name": "Carpenters' Hall",
+      "model": "phl-carpenters-hall",
+      "place": "philadelphia-area",
+      "lng": -75.147214,
+      "lat": 39.948142,
+      "bearing": 10,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q1093592",
+      "replaces": [
+        "way/261314259",
+        "way/335689522",
+        "way/335689523",
+        "way/335689524",
+        "way/335799889"
       ]
     }
   ],
