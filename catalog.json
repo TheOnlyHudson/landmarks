@@ -31044,6 +31044,69 @@
       ],
       "file": "models/phl-psfs-building.glb",
       "source": "generators/phl-psfs-building.ts"
+    },
+    {
+      "id": "phl-wanamaker-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "department-store",
+        "beaux-arts",
+        "palazzo",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Wanamaker Building, Philadelphia, PA",
+          "url": "https://commons.wikimedia.org/wiki/File:Wanamaker_Building,_Philadelphia,_PA.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Wanamaker Building",
+          "url": "https://commons.wikimedia.org/wiki/File:Wanamaker_Building.jpg",
+          "author": "Fred Cherrygarden",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "WanamakerBuilding5",
+          "url": "https://commons.wikimedia.org/wiki/File:WanamakerBuilding5.JPG",
+          "author": "Peetlesnumber1",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "John Wanamaker Store, oblique view of Chestnut Street elevation (HABS PA,51-PHILA,370-1)",
+          "url": "https://commons.wikimedia.org/wiki/File:OBLIQUE_VIEW,_CHESTNUT_STREET_ELEVATION_-_John_Wanamaker_Store,_Thirteenth_and_Chestnut_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,370-1.tif",
+          "author": "HABS",
+          "license": "Public domain"
+        },
+        {
+          "title": "John Wanamaker Building, Philadelphia, PA (postcard, NBY 6951)",
+          "url": "https://commons.wikimedia.org/wiki/File:John_Wanamaker_Building,_Philadelphia,_PA.,_Juniper_and_Market_Streets,_Architects_D.H._Burnham..._(NBY_6951).jpg",
+          "author": "Unknown (Newberry Library)",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-wanamaker-building.glb",
+      "source": "generators/phl-wanamaker-building.ts"
     }
   ],
   "landmarks": [
@@ -46707,6 +46770,26 @@
         "way/338426267",
         "way/333012751",
         "way/336594397"
+      ]
+    },
+    {
+      "id": "phl-wanamaker-building",
+      "name": "Wanamaker Building",
+      "model": "phl-wanamaker-building",
+      "place": "philadelphia-area",
+      "lng": -75.162149,
+      "lat": 39.951401,
+      "bearing": 9.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/198674659",
+        "way/785232307",
+        "way/336681364",
+        "way/336681365",
+        "way/336681366",
+        "way/354994854",
+        "way/354994855"
       ]
     }
   ],
