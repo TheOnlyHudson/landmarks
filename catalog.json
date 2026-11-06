@@ -31107,6 +31107,81 @@
       ],
       "file": "models/phl-wanamaker-building.glb",
       "source": "generators/phl-wanamaker-building.ts"
+    },
+    {
+      "id": "phl-reading-terminal",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "train-station",
+        "train-shed",
+        "market",
+        "hotel"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Reading Terminal",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Reading_Terminal.jpg",
+          "author": "Jersey856",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reading Terminal, Philadelphia, PA",
+          "url": "https://commons.wikimedia.org/wiki/File:Reading_Terminal,_Philadelphia,_PA.JPG",
+          "author": "ProfReader",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "20030702 27 Reading Terminal Building",
+          "url": "https://commons.wikimedia.org/wiki/File:20030702_27_Reading_Terminal_Building_(5995800405).jpg",
+          "author": "David Wilson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Reading Terminal",
+          "url": "https://commons.wikimedia.org/wiki/File:Reading_Terminal.jpg",
+          "author": "DevinHouse",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reading Terminal Headhouse (Grand Hall interior)",
+          "url": "https://commons.wikimedia.org/wiki/File:Reading_Terminal_Headhouse_(3373506287).jpg",
+          "author": "Kevin Burkett",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Reading Terminal Station, Market St front (HABS PA,51-PHILA,521-12)",
+          "url": "https://commons.wikimedia.org/wiki/File:Northeast_front._Duplicate_color_view_of_HABS_PA-1528-3_-_Philadelphia_and_Reading_Railroad,_Terminal_Station,_1115-1141_Market_Street,_Philadelphia,_Philadelphia_County,_HABS_PA,51-PHILA,521-12_(CT).tif",
+          "author": "Jack E. Boucher (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Reading Terminal ca. 1937 (HABS PA,51-PHILA,521-2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Photocopy_of_photograph_(from_Reading_Co._Archives)_Photographer_unknown_ca._1937_NORTHEAST_FRONT_AND_SOUTHEAST_SIDE_-_Philadelphia_and_Reading_Railroad,_Terminal_Station,_1115_HABS_PA,51-PHILA,521-2.tif",
+          "author": "Unknown (Reading Co. Archives, via HABS)",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-reading-terminal.glb",
+      "source": "generators/phl-reading-terminal.ts"
     }
   ],
   "landmarks": [
@@ -46790,6 +46865,27 @@
         "way/336681366",
         "way/354994854",
         "way/354994855"
+      ]
+    },
+    {
+      "id": "phl-reading-terminal",
+      "name": "Reading Terminal Market",
+      "model": "phl-reading-terminal",
+      "place": "philadelphia-area",
+      "lng": -75.159048,
+      "lat": 39.953148,
+      "bearing": 9.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/4755514",
+        "way/42784822",
+        "way/335828056",
+        "way/336110703",
+        "way/335512395",
+        "way/335293079",
+        "way/335828068",
+        "way/335828066"
       ]
     }
   ],
