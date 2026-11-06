@@ -28958,6 +28958,81 @@
       ],
       "file": "models/phl-liberty-bell-center.glb",
       "source": "generators/phl-liberty-bell-center.ts"
+    },
+    {
+      "id": "phl-comcast-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "hotel",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1113808",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Comcast Center a.jpg (series a-d)",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Center_b.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Comcast Philly.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Philly.JPG",
+          "author": "Smallbones",
+          "license": "Public domain"
+        },
+        {
+          "title": "Comcast Center 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Center_2018.jpg",
+          "author": "TastyPoutine",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Center City - Comcast Center (53587020610).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Center_City_-_Comcast_Center_(53587020610).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "View down Arch Street, Philadelphia, towards Comcast Center from near City Hall.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_down_Arch_Street,_Philadelphia,_towards_Comcast_Center_from_near_City_Hall.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Comcast Centers in Philadelphia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Centers_in_Philadelphia.jpg",
+          "author": "Chapsam",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Comcast Center from Pennwalt - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Center_from_Pennwalt_-_panoramio.jpg",
+          "author": "Bohao Zhao",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/phl-comcast-center.glb",
+      "source": "generators/phl-comcast-center.ts"
     }
   ],
   "landmarks": [
@@ -44050,6 +44125,32 @@
         "way/335799891",
         "way/335799893",
         "way/335799894"
+      ]
+    },
+    {
+      "id": "phl-comcast-center",
+      "name": "Comcast Center",
+      "model": "phl-comcast-center",
+      "place": "philadelphia-area",
+      "wikidata": "Q1113808",
+      "lng": -75.168615,
+      "lat": 39.954736,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/42785026",
+        "way/333339072",
+        "way/336855440",
+        "way/336855442",
+        "way/336855449",
+        "way/336855450",
+        "way/336855451",
+        "way/336855441",
+        "way/336875906",
+        "way/336855448",
+        "way/336875907",
+        "way/336875908"
       ]
     }
   ],
