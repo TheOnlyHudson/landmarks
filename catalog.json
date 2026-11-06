@@ -28029,6 +28029,3512 @@
       ],
       "file": "models/atl-millennium-gate.glb",
       "source": "generators/atl-millennium-gate.ts"
+    },
+    {
+      "id": "phl-comcast-technology-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "supertall",
+        "office",
+        "hotel",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Comcast Technology Center 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Technology_Center_2018.jpg",
+          "author": "TastyPoutine",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Comcast Tech Center 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Tech_Center_2018.jpg",
+          "author": "TastyPoutine",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CTC Tower April 2018 cropped.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:CTC_Tower_April_2018_cropped.jpg",
+          "author": "StuntPilot22",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Comcast Technology Center from Fairmount Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Technology_Center_from_Fairmount_Park.jpg",
+          "author": "Hij802",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Comcast Technology Center c.jpg (series a-g)",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Technology_Center_c.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "A picture of the Comcast Technology Center from north east side in November 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A_picture_of_the_Comcast_Technology_Center_from_north_east_side_in_November_2017.jpg",
+          "author": "TKD7089pro",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View up from the east corner of the Comcast Technology Center",
+          "url": "https://commons.wikimedia.org/wiki/File:2025-08-04_12_39_18_View_up_from_the_east_corner_of_the_Comcast_Technology_Center_in_Philadelphia,_Pennsylvania.jpg",
+          "author": "Famartin",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-comcast-technology-center.glb",
+      "source": "generators/phl-comcast-technology-center.ts"
+    },
+    {
+      "id": "phl-city-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "civic",
+        "second-empire",
+        "clock-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1138183",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Philadelphia City Hall, aerial view, cropped",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall,_aerial_view,_cropped.png",
+          "author": "Toniklemm",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia city hall",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_city_hall.jpg",
+          "author": "Toniklemm",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia City Hall, Tower (S Broad St View)",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall,_Tower(S_Broad_St_View).jpg",
+          "author": "Zhicheng Zhao",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia City Hall South",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_South.jpg",
+          "author": "Magiluke",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia City Hall Cloudy",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_Cloudy.jpg",
+          "author": "Nate Lee",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia City Hall - 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_-_3.JPG",
+          "author": "Max Binder",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "City Hall and Masonic Temple, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:City_Hall_and_Masonic_Temple,_Philadelphia.jpg",
+          "author": "Peetlesnumber1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "City Hall, Philadelphia PA",
+          "url": "https://commons.wikimedia.org/wiki/File:City_Hall,_Philadelphia_PA.jpg",
+          "author": "John Phelan",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Philadelphia City Hall courtyard",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_courtyard.jpg",
+          "author": "Nickvud",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia City Hall at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_at_night.jpg",
+          "author": "David Torres",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Spectacular Philadelphia City Hall",
+          "url": "https://commons.wikimedia.org/wiki/File:Spectacular_Philadelphia_City_Hall.jpg",
+          "author": "Weizheng Fang",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "HABS PA-1530, The New Public Buildings (Philadelphia City Hall)",
+          "url": "https://www.loc.gov/item/pa1054/",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-city-hall.glb",
+      "source": "generators/phl-city-hall.ts"
+    },
+    {
+      "id": "phl-museum-of-art",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "historic",
+        "neoclassical"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The Philadelphia Museum of Art (briefly the \"Philadelphia Art Museum\", October 2025 to February 2026): three golden dolomite Greek temples round the court of honour on Fairmount, with the polychrome \"Western Civilization\" pediment on the north wing.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Philadelphia Museum of Art, main building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art,_main_building.jpg",
+          "license": "Public domain"
+        },
+        {
+          "title": "Philadelphia Museum of Art, Philadelphia, Pennsylvania LCCN2011633567.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art,_Philadelphia,_Pennsylvania_LCCN2011633567.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Schuylkill River, Philadelphia Museum of Art, Philadelphia, Pennsylvania LCCN2011631111.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Schuylkill_River,_Philadelphia_Museum_of_Art,_Philadelphia,_Pennsylvania_LCCN2011631111.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "PhiladelphiaMuseumOfArt2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PhiladelphiaMuseumOfArt2017.jpg",
+          "author": "Meihe Chen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art Main Building, June 18th, 2022.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art_Main_Building,_June_18th,_2022.jpg",
+          "author": "DerekPhilipAu",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art, Philadelphia, USA.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art,_Philadelphia,_USA.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art, Philadelphia, USA - 51036147413.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art,_Philadelphia,_USA_-_51036147413.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art, Philadelphia, USA - 51036979497.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art,_Philadelphia,_USA_-_51036979497.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art - Philadelphia - Pennsylvania - 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art_-_Philadelphia_-_Pennsylvania_-_01.jpg",
+          "author": "Adam Jones, Ph.D.",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art - Philadelphia - Pennsylvania - 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art_-_Philadelphia_-_Pennsylvania_-_02.jpg",
+          "author": "Adam Jones, Ph.D.",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art & Fairmount Water Works.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art_%26_Fairmount_Water_Works.jpg",
+          "author": "Zhicheng Zhao",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aerial view of Philadelphia Museum of Art - 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Philadelphia_Museum_of_Art_-_01.jpg",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-museum-of-art.glb",
+      "source": "generators/phl-museum-of-art.ts"
+    },
+    {
+      "id": "phl-fairmount-water-works",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "water-works",
+        "greek-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Frederick Graff's Fairmount Water Works (1812-72) on the Schuylkill below the Museum of Art: the granite mill houses rising out of the river, their balustraded terrace and its white Greek Revival pavilions, the Engine House, and the New Mill House against the dam.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "AERIAL VIEW, LOOKING EAST. - Fairmount Waterworks (HABS PA,51-PHILA,328-15)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_EAST._-_Fairmount_Waterworks,_Aquarium_Drive,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,328-15.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "AERIAL VIEW, LOOKING NORTHEAST. - Fairmount Waterworks (HABS PA,51-PHILA,328-16)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_NORTHEAST._-_Fairmount_Waterworks,_Aquarium_Drive,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,328-16.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "AERIAL VIEW, LOOKING SOUTHEAST. - Fairmount Waterworks (HABS PA,51-PHILA,328-14)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_SOUTHEAST._-_Fairmount_Waterworks,_Aquarium_Drive,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,328-14.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "View looking south, showing North Entrance House and central Pavilion (HAER PA,51-PHILA,328-8)",
+          "url": "https://commons.wikimedia.org/wiki/File:VIEW_LOOKING_SOUTH,_SHOWING_NORTH_ENTRANCE_HOUSE_AND_CENTRAL_PAVILION,_WITH_SOUTH_ENTRANCE_HOUSE_AND_ENGINE_HOUSE_BEYOND_-_Fairmount_Waterworks,_East_bank_of_Schuylkill_River,_HAER_PA,51-PHILA,328-8.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "View looking west, land facade of Engine House (HAER PA,51-PHILA,328-18)",
+          "url": "https://commons.wikimedia.org/wiki/File:VIEW_LOOKING_WEST,_LAND_FACADE_OF_ENGINE_HOUSE_-_Fairmount_Waterworks,_East_bank_of_Schuylkill_River,_Aquarium_Drive,_Philadelphia,_Philadelphia_County,_PA_HAER_PA,51-PHILA,328-18.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "DSC05845 (1)Fairmount Water Works from the Schuykill River.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DSC05845_(1)Fairmount_Water_Works_from_the_Schuykill_River.jpg",
+          "author": "Librarian1984",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fairmount Water Works on a Cloudy Day.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fairmount_Water_Works_on_a_Cloudy_Day.jpg",
+          "author": "Goldpanda94",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fairmount Water Works and Philadelphia Art Museum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fairmount_Water_Works_and_Philadelphia_Art_Museum.jpg",
+          "author": "Laura Klotz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fairmount Water Works at dusk.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fairmount_Water_Works_at_dusk.jpg",
+          "author": "SkipL",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art & Fairmount Water Works.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art_%26_Fairmount_Water_Works.jpg",
+          "author": "Zhicheng Zhao",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-fairmount-water-works.glb",
+      "source": "generators/phl-fairmount-water-works.ts"
+    },
+    {
+      "id": "phl-30th-street-station",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "train-station",
+        "neoclassical",
+        "art-deco"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q224214",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The west entrance of the 30th Street Station, viewed from John F. Kennedy Boulevard 01",
+          "url": "https://commons.wikimedia.org/wiki/File:The_west_entrance_of_the_30th_Street_Station_serving_Amtrak,_SEPTA,_and_NJ_Transit_trains_in_Philadelphia,_Pennsylvania,_viewed_from_John_F._Kennedy_Boulevard_01.jpg",
+          "author": "Harrison Keely",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "The west entrance of the 30th Street Station, viewed from John F. Kennedy Boulevard 02",
+          "url": "https://commons.wikimedia.org/wiki/File:The_west_entrance_of_the_30th_Street_Station_serving_Amtrak,_SEPTA,_and_NJ_Transit_trains_in_Philadelphia,_Pennsylvania,_viewed_from_John_F._Kennedy_Boulevard_02.jpg",
+          "author": "Harrison Keely",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "30th Street Station east entrance from PA 3 WB",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station_east_entrance_from_PA_3_WB.jpeg",
+          "author": "Dough4872",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "William H. Gray III 30th Street Station (53585709922)",
+          "url": "https://commons.wikimedia.org/wiki/File:William_H._Gray_III_30th_Street_Station_(53585709922).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "30th Street Station Philly",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station_Philly.JPG",
+          "author": "Smallbones",
+          "license": "Public domain"
+        },
+        {
+          "title": "30th Street Station, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station,_Philadelphia.JPG",
+          "author": "Ngilmour3",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "30th Street Station - Philadelphia (2643039316)",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station_-_Philadelphia_(2643039316).jpg",
+          "author": "Reading Tom",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "30th Street Station and Cira Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station_and_Cira_Tower.jpg",
+          "author": "Ii2nmd",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterior of 30th Street Station (DPLA b8e39cab)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_30th_Street_Station_-_DPLA_-_b8e39cabf36ad40226895f46448d7864.jpg",
+          "author": "Stanley Elmore Stady",
+          "license": "Public domain"
+        },
+        {
+          "title": "Exterior of 30th Street Station (DPLA ec108a88)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_30th_Street_Station_-_DPLA_-_ec108a88dca33b9a21c962d110aebb24.jpg",
+          "author": "Stanley Elmore Stady",
+          "license": "Public domain"
+        },
+        {
+          "title": "The Pennsylvania Railroad's new passenger terminal, 30th Street, Philadelphia (Tichnor postcard 61757)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Pennsylvania_Railroad%27s_new_passenger_terminal,_30th_Street,_Philadelphia,_PA_(61757).jpg",
+          "author": "Tichnor Quality Views",
+          "license": "Public domain"
+        },
+        {
+          "title": "HAER PA-71-9, 30th Street Station aerial",
+          "url": "https://commons.wikimedia.org/wiki/File:HAER-30thStreetStation-09.jpg",
+          "author": "Jack Boucher (HAER)",
+          "license": "Public domain"
+        },
+        {
+          "title": "HAER PA-71-10, 30th Street Station aerial",
+          "url": "https://commons.wikimedia.org/wiki/File:Pennsylvania_Railroad-_30th_Street_Station._Philadelphia,_Philadelphia_Co.,_PA._Sec._1101,_MP_88.10._-_Northeast_Railroad_Corridor,_Amtrak_route_between_Delaware-Pennsylvania_HAER_PA,51-PHILA,694-10.tif",
+          "author": "Jack Boucher (HAER)",
+          "license": "Public domain"
+        },
+        {
+          "title": "HAER PA-71-12, 30th Street Station aerial",
+          "url": "https://commons.wikimedia.org/wiki/File:Pennsylvania_Railroad-_30th_Street_Station._Philadelphia,_Philadelphia_Co.,_PA._Sec._1101,_MP_88.10._-_Northeast_Railroad_Corridor,_Amtrak_route_between_Delaware-Pennsylvania_HAER_PA,51-PHILA,694-12.tif",
+          "author": "Jack Boucher (HAER)",
+          "license": "Public domain"
+        },
+        {
+          "title": "30th Street Station Philadelphia July 2016 001 (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station_Philadelphia_July_2016_001.jpg",
+          "author": "King of Hearts",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "30th Street Station, Philadelphia (14946959392) (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station,_Philadelphia_(14946959392).jpg",
+          "author": "Billie Grace Ward",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "30thStreet01LB (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:30thStreet01LB.jpg",
+          "author": "Lesbardd",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-30th-street-station.glb",
+      "source": "generators/phl-30th-street-station.ts"
+    },
+    {
+      "id": "phl-one-liberty-place",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "One Liberty Place, Philadelphia, Pennsylvania LCCN2011630484.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Liberty_Place,_Philadelphia,_Pennsylvania_LCCN2011630484.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Liberty place.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Liberty_place.jpg",
+          "author": "Photodavid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "OneLiberyPlacePhiladelphia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:OneLiberyPlacePhiladelphia.jpg",
+          "author": "Massimo Catarinella",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "One Liberty Place a.jpg (series a-d)",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Liberty_Place_a.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "OneLibertyPlaceSpire.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:OneLibertyPlaceSpire.jpg",
+          "author": "Wasted Time R",
+          "license": "Public domain"
+        },
+        {
+          "title": "Philadelphia Night Skyline.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Night_Skyline.jpg",
+          "author": "Thesab",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia Night Skyline (14146388982).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Night_Skyline_(14146388982).jpg",
+          "author": "Chris Hunkeler",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/phl-one-liberty-place.glb",
+      "source": "generators/phl-one-liberty-place.ts"
+    },
+    {
+      "id": "phl-two-liberty-place",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "residential",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Liberty place.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Liberty_place.jpg",
+          "author": "Photodavid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Two Liberty Place.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Two_Liberty_Place.jpg",
+          "author": "BrokenSegue",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Two Liberty Place from Chestnut St.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Two_Liberty_Place_from_Chestnut_St.jpg",
+          "author": "Mihai Bojin",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Philadelphia Night Skyline.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Night_Skyline.jpg",
+          "author": "Thesab",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia Night Skyline (14146388982).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Night_Skyline_(14146388982).jpg",
+          "author": "Chris Hunkeler",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/phl-two-liberty-place.glb",
+      "source": "generators/phl-two-liberty-place.ts"
+    },
+    {
+      "id": "phl-independence-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "georgian",
+        "clock-tower",
+        "museum",
+        "world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q390028",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Exterior of the Independence Hall, Aug 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Independence_Hall,_Aug_2019.jpg",
+          "author": "Mys 721tx",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Independence Hall (DSC03685) (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_(DSC03685).jpg",
+          "author": "Polibil",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Independence Hall 008",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_008.jpg",
+          "author": "Foolish Productions Photography",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Independence Hall, 2016 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall,_2016_2.jpg",
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Independence Hall, Philadelphia PA",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall,_Philadelphia_PA.JPG",
+          "author": "Kwdavids",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Independence Hall Rear Exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_Rear_Exterior.jpg",
+          "author": "Andrew Rehbein",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Independence Hall Steeple",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_Steeple.jpg",
+          "author": "Andrew Rehbein",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Independence Hall from south (rear) Philly",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_from_south_(rear)_Philly.jpg",
+          "author": "Smallbones",
+          "license": "CC0"
+        },
+        {
+          "title": "Independence Hall steeple, Philadelphia, Pennsylvania",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_steeple,_Philadelphia,_Pennsylvania_LCCN2011630516.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rear of Independence Hall, Philadelphia, PA",
+          "url": "https://commons.wikimedia.org/wiki/File:Rear_of_Independence_Hall,_Philadelphia,_PA.jpg",
+          "author": "Hsrifkin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "West wing building of Independence Hall and Congress Hall",
+          "url": "https://commons.wikimedia.org/wiki/File:West_wing_building_of_Independence_Hall_and_Congress_Hall.jpg",
+          "author": "Ben Franske",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Independence Mall 2004",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Mall_2004.jpg",
+          "author": "Robin Miller (National Park Service)",
+          "license": "Public domain"
+        },
+        {
+          "title": "HABS PA-1430, Independence Hall (sheets 3, 4, 5, 19, 21 of 45)",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_Complex,_Independence_Hall,_500_Chestnut_Street,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,6-_(sheet_4_of_45).png",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-independence-hall.glb",
+      "source": "generators/phl-independence-hall.ts"
+    },
+    {
+      "id": "phl-congress-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "georgian",
+        "museum",
+        "world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q917636",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "2015 Congress Hall - Philadelphia 01",
+          "url": "https://commons.wikimedia.org/wiki/File:2015_Congress_Hall_-_Philadelphia_01.JPG",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2015 Congress Hall - Philadelphia 02",
+          "url": "https://commons.wikimedia.org/wiki/File:2015_Congress_Hall_-_Philadelphia_02.JPG",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Congress Hall SE side",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall_SE_side.jpg",
+          "author": "Ben Franske",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Congress Hall West side",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall_West_side.jpg",
+          "author": "Ben Franske",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Congress Hall (53590490584)",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall_(53590490584).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Congress Hall at twilight",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall_at_twilght.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Congress Hall exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall_exterior.jpg",
+          "author": "tim eschaton",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Congress Hall - Philadelphia (2642813566)",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall_-_Philadelphia_(2642813566).jpg",
+          "author": "Reading Tom",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Independence Hall, Congress Hall and Public Ledger Building",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall,_Congress_Hall_and_Public_Ledger_Building.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "HABS PA-1431, Congress Hall (sheets 2, 16 of 35)",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall,_Sixth_and_Chestnut_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,6A-_(sheet_2_of_35).png",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-congress-hall.glb",
+      "source": "generators/phl-congress-hall.ts"
+    },
+    {
+      "id": "phl-liberty-bell-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modern",
+        "pavilion"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Liberty Bell Center South",
+          "url": "https://commons.wikimedia.org/wiki/File:Liberty_Bell_Center_South.jpg",
+          "author": "Toadspike",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Liberty Bell Center South (front view)",
+          "url": "https://commons.wikimedia.org/wiki/File:Liberty_Bell_Center_South_(front_view).jpg",
+          "author": "Toadspike",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Liberty Bell Center SE view",
+          "url": "https://commons.wikimedia.org/wiki/File:Liberty_Bell_Center_SE_view.jpg",
+          "author": "Toadspike",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Liberty Bell Center East",
+          "url": "https://commons.wikimedia.org/wiki/File:Liberty_Bell_Center_East.jpg",
+          "author": "Toadspike",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Liberty Bell Center exterior view",
+          "url": "https://commons.wikimedia.org/wiki/File:Liberty_Bell_Center_exterior_view_(340c08d8-155d-451f-67f8-b10c80e4f6c0).jpg",
+          "author": "National Park Service",
+          "license": "Public domain"
+        },
+        {
+          "title": "Centro de la Campana de la Libertad-2023 (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Centro_de_la_Campana_de_la_Libertad-2023_(1).jpg",
+          "author": "Alberto-g-rovi",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Independence Park (6315439041)",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Park_(6315439041).jpg",
+          "author": "InSapphoWeTrust",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Liberty Bell with a View of Independence Hall",
+          "url": "https://commons.wikimedia.org/wiki/File:Liberty_Bell_with_a_View_of_Independence_Hall.jpg",
+          "author": "Christopher Martin",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/phl-liberty-bell-center.glb",
+      "source": "generators/phl-liberty-bell-center.ts"
+    },
+    {
+      "id": "phl-comcast-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "hotel",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1113808",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Comcast Center a.jpg (series a-d)",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Center_b.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Comcast Philly.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Philly.JPG",
+          "author": "Smallbones",
+          "license": "Public domain"
+        },
+        {
+          "title": "Comcast Center 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Center_2018.jpg",
+          "author": "TastyPoutine",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Center City - Comcast Center (53587020610).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Center_City_-_Comcast_Center_(53587020610).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "View down Arch Street, Philadelphia, towards Comcast Center from near City Hall.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_down_Arch_Street,_Philadelphia,_towards_Comcast_Center_from_near_City_Hall.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Comcast Centers in Philadelphia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Centers_in_Philadelphia.jpg",
+          "author": "Chapsam",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Comcast Center from Pennwalt - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Center_from_Pennwalt_-_panoramio.jpg",
+          "author": "Bohao Zhao",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/phl-comcast-center.glb",
+      "source": "generators/phl-comcast-center.ts"
+    },
+    {
+      "id": "phl-bny-mellon-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q2743527",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mellon Bank Center (Philadelphia)-zoom.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Mellon_Bank_Center_(Philadelphia)-zoom.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Mellon Bank Center (Philadelphia)-wide.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Mellon_Bank_Center_(Philadelphia)-wide.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "BNY Mellon Bank Center a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BNY_Mellon_Bank_Center_a.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "BNY Mellon Bank Center h.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BNY_Mellon_Bank_Center_h.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        }
+      ],
+      "file": "models/phl-bny-mellon-center.glb",
+      "source": "generators/phl-bny-mellon-center.ts"
+    },
+    {
+      "id": "phl-three-logan-square",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q2894593",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Three Logan Square a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Three_Logan_Square_a.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Bell atlantic tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bell_atlantic_tower.jpg",
+          "author": "Werd678 (English Wikipedia)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Comcast Centers in Philadelphia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Centers_in_Philadelphia.jpg",
+          "author": "Chapsam",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-three-logan-square.glb",
+      "source": "generators/phl-three-logan-square.ts"
+    },
+    {
+      "id": "phl-one-commerce-square",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Commerce Square cropped.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Commerce_Square_cropped.jpg",
+          "author": "GardenStreetBridgeSchuylkillRiverSkyline",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Commerce Square Philadelphia a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Commerce_Square_Philadelphia_a.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        }
+      ],
+      "file": "models/phl-one-commerce-square.glb",
+      "source": "generators/phl-one-commerce-square.ts"
+    },
+    {
+      "id": "phl-two-commerce-square",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Commerce Square cropped.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Commerce_Square_cropped.jpg",
+          "author": "GardenStreetBridgeSchuylkillRiverSkyline",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Commerce Square Philadelphia a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Commerce_Square_Philadelphia_a.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        }
+      ],
+      "file": "models/phl-two-commerce-square.glb",
+      "source": "generators/phl-two-commerce-square.ts"
+    },
+    {
+      "id": "phl-kimmel-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "performing-arts",
+        "concert-hall",
+        "contemporary",
+        "glass-vault"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kimmel Center cropped",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimmel_Center_cropped.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "2013 Kimmel Center from north",
+          "url": "https://commons.wikimedia.org/wiki/File:2013_Kimmel_Center_from_north.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2013 Kimmel Center from south",
+          "url": "https://commons.wikimedia.org/wiki/File:2013_Kimmel_Center_from_south.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kimmel Center for the Performing Arts (53587020645)",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimmel_Center_for_the_Performing_Arts_(53587020645).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "KimmelCenterExteriorNight",
+          "url": "https://commons.wikimedia.org/wiki/File:KimmelCenterExteriorNight.jpg",
+          "author": "Wasted Time R",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimmel Center interior",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimmel_Center_interior.jpg",
+          "author": "Ii2nmd",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kimmel Center roof from Garden",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimmel_Center_roof_from_Garden.JPG",
+          "author": "Smallbones",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/phl-kimmel-center.glb",
+      "source": "generators/phl-kimmel-center.ts"
+    },
+    {
+      "id": "phl-christ-church",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "georgian",
+        "church",
+        "steeple"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q979481",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Christ Church, Philadelphia 12.2021 (edited)",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church,_Philadelphia_12.2021_(edited).jpg",
+          "author": "Al R",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Christ Church - Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_-_Philadelphia.JPG",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ Church Phila",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Phila.JPG",
+          "author": "PVSBond",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Christ Church from 2nd Street",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_from_2nd_Street.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ Church from N. 2nd Street",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_from_N._2nd_Street.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ Church Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Philadelphia.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Christ Church, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church,_Philadelphia.jpg",
+          "author": "Elisa Rolle",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "HABS PA-1071, Christ Church (sheets 6, 7, 8 of 19)",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_Church,_22-26_North_Second_Street,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,7-_(sheet_8_of_19).png",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-christ-church.glb",
+      "source": "generators/phl-christ-church.ts"
+    },
+    {
+      "id": "phl-carpenters-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "georgian",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1093592",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Carpenters' Hall, Philadelphia, U.S., May 2015",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenters%27_Hall,_Philadelphia,_U.S.,_May_2015.jpg",
+          "author": "Pbjamesphoto",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CarpentersHall00",
+          "url": "https://commons.wikimedia.org/wiki/File:CarpentersHall00.jpg",
+          "author": "Davidt8",
+          "license": "Public domain"
+        },
+        {
+          "title": "CarpentersHall01",
+          "url": "https://commons.wikimedia.org/wiki/File:CarpentersHall01.jpg",
+          "author": "Davidt8",
+          "license": "Public domain"
+        },
+        {
+          "title": "Carpenters' Hall from front",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenters%27_Hall_from_front.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Carpenters' Hall, 2016",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenters%27_Hall,_2016.jpg",
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Carpenters' Hall (53586569876)",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenters%27_Hall_(53586569876).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Carpenter's Hall, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenter%27s_Hall,_Philadelphia.jpg",
+          "author": "Bestbudbrian",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia - Carpenters Hall - 20241031180131",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_-_Carpenters_Hall_-_20241031180131.jpg",
+          "author": "Nikanavi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Carpenters' Hall Lights of Liberty",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenters%27_Hall_Lights_of_Liberty.jpg",
+          "author": "Ben Franske",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "HABS PA-1596, Carpenters' Company Hall (sheet 1 of 3)",
+          "url": "https://commons.wikimedia.org/wiki/File:Carpenters%27_Company_Hall,_320_Chestnut_Street_and_Carpenters%27_Court,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,229-_(sheet_1_of_3).png",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-carpenters-hall.glb",
+      "source": "generators/phl-carpenters-hall.ts"
+    },
+    {
+      "id": "phl-national-constitution-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q538275",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "National Constitution Center Front",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_Front.jpg",
+          "author": "Housefinch1787",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "NationalConstitutionCenterPH",
+          "url": "https://commons.wikimedia.org/wiki/File:NationalConstitutionCenterPH.jpg",
+          "author": "Netagert",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "National Constitution Center",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center.jpg",
+          "author": "grenavitar",
+          "license": "CC0"
+        },
+        {
+          "title": "National Constitution Center - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_-_panoramio.jpg",
+          "author": "4net",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "National Constitution Center-exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center-exterior.jpg",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "National Constitution Center from southwest",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_from_southwest.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "National Constitution Center from Arch Street",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_from_Arch_Street.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "National Constitution Center walkway",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_walkway.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "National Constitution Center 2",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_2.jpg",
+          "author": "lukemcurley",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "National Constitution Center (53572938645)",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_(53572938645).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "2012-07 ncc 01",
+          "url": "https://commons.wikimedia.org/wiki/File:2012-07_ncc_01.JPG",
+          "author": "Ziko van Dijk",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/phl-national-constitution-center.glb",
+      "source": "generators/phl-national-constitution-center.ts"
+    },
+    {
+      "id": "phl-ben-franklin-bridge",
+      "detail": "models/phl-ben-franklin-bridge.detail.glb",
+      "detailZoom": 16,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "historic",
+        "suspension-bridge"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Benjamin Franklin Bridge, Philadelphia side, Aug 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_Bridge,_Philadelphia_side,_Aug_2019.jpg",
+          "author": "Mys 721tx",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ben Franklin Br",
+          "url": "https://commons.wikimedia.org/wiki/File:Ben_Franklin_Br.jpg",
+          "author": "Michael Murphy",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Ben Franklin Br - Train Crossing",
+          "url": "https://commons.wikimedia.org/wiki/File:Ben_Franklin_Br_-_Train_Crossing.jpg",
+          "author": "Michael Murphy",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "2012 Ben Franklin Bridge from Race Street Pier",
+          "url": "https://commons.wikimedia.org/wiki/File:2012_Ben_Franklin_Bridge_from_Race_Street_Pier.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2012 Ben Franklin Bridge west anchorage from south",
+          "url": "https://commons.wikimedia.org/wiki/File:2012_Ben_Franklin_Bridge_west_anchorage_from_south.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Benjamin Franklin Bridge from below",
+          "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_Bridge_from_below.jpg",
+          "author": "jm570",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Benjamin Franklin Bridge (19060494190)",
+          "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_Bridge_(19060494190).jpg",
+          "author": "Thomas from Philadelphia Area, USA",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Benjamin Franklin bridge in Philadelphia, PA.",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Benjamin_Franklin_bridge_in_Philadelphia,_PA..jpg",
+          "author": "Bruce Emmerling",
+          "license": "CC0"
+        },
+        {
+          "title": "Benjamin Franklin Bridge from Camden, NJ",
+          "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_Bridge_from_Camden,_NJ.jpg",
+          "author": "rocky8u",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia anchor tower, Benjamin Franklin Bridge, July 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_anchor_tower,_Benjamin_Franklin_Bridge,_July_2026.jpg",
+          "author": "Mr. Matté",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Benjamin Franklin Bridge, Philadelphia (49055788621)",
+          "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_Bridge,_Philadelphia_(49055788621).jpg",
+          "author": "Pierre Blaché",
+          "license": "CC0"
+        },
+        {
+          "title": "2013 Ben Franklin Bridge at night",
+          "url": "https://commons.wikimedia.org/wiki/File:2013_Ben_Franklin_Bridge_at_night.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia209",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia209.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-ben-franklin-bridge.glb",
+      "source": "generators/phl-ben-franklin-bridge.ts"
+    },
+    {
+      "id": "phl-walt-whitman-bridge",
+      "detail": "models/phl-walt-whitman-bridge.detail.glb",
+      "detailZoom": 16,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "suspension-bridge"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Walt Whitman Bridge-2",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge-2.jpg",
+          "author": "Elliot from Cherry Hill, NJ",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Walt Whitman Bridge 20100611-jag9889",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge_20100611-jag9889.jpg",
+          "author": "Jag9889",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Walt Whitman Bridge Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge_Philadelphia.jpg",
+          "author": "Ii2nmd",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Walt Whitman Bridge 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge_2.jpg",
+          "author": "Paul Luffel",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Walt Whitman Bridge from the air",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge_from_the_air.jpg",
+          "author": "Doc Searls",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Walt Whitman Bridge, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge,_Philadelphia.jpg",
+          "author": "Dicklyon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Walt Whitman Bridge at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge_at_night.jpg",
+          "author": "Tony Finan",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/phl-walt-whitman-bridge.glb",
+      "source": "generators/phl-walt-whitman-bridge.ts"
+    },
+    {
+      "id": "phl-lincoln-liberty-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "art-deco",
+        "skyscraper",
+        "office",
+        "carillon"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q7093219",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "One south broad",
+          "url": "https://commons.wikimedia.org/wiki/File:One_south_broad.jpg",
+          "author": "AEngineer",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "One South Broad Oct 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:One_South_Broad_Oct_2025.jpg",
+          "author": "Wobbanight",
+          "license": "CC0"
+        },
+        {
+          "title": "1 South Broad top",
+          "url": "https://commons.wikimedia.org/wiki/File:1_South_Broad_top.jpg",
+          "author": "Smallbones",
+          "license": "CC0"
+        },
+        {
+          "title": "1 South Broad from west",
+          "url": "https://commons.wikimedia.org/wiki/File:1_South_Broad_from_west.jpg",
+          "author": "Smallbones",
+          "license": "CC0"
+        },
+        {
+          "title": "1 South Broad EVOL",
+          "url": "https://commons.wikimedia.org/wiki/File:1_South_Broad_EVOL.jpg",
+          "author": "Smallbones",
+          "license": "CC0"
+        },
+        {
+          "title": "Lincoln-Liberty Building (rendering)",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln-Liberty_Building_-_DPLA_-_36d93456e83fddd1089262b28e839273.jpg",
+          "author": "Philip B. Wallace",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-lincoln-liberty-building.glb",
+      "source": "generators/phl-lincoln-liberty-building.ts"
+    },
+    {
+      "id": "phl-bellevue-stratford",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "hotel",
+        "french-renaissance",
+        "mansard"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "General view from southeast - Bellevue-Stratford Hotel (HABS PA-1226)",
+          "url": "https://commons.wikimedia.org/wiki/File:GENERAL_VIEW_FROM_SOUTHEAST_-_Bellevue-Stratford_Hotel,_Broad_and_Walnut_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,344-1.tif",
+          "author": "Jack E. Boucher, Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Upper stories and roof, east front - Bellevue-Stratford Hotel (HABS PA-1226)",
+          "url": "https://commons.wikimedia.org/wiki/File:UPPER_STORIES_AND_ROOF,_EAST_FRONT_-_Bellevue-Stratford_Hotel,_Broad_and_Walnut_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,344-2.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Upper stories and roof, south side - Bellevue-Stratford Hotel (HABS PA-1226)",
+          "url": "https://commons.wikimedia.org/wiki/File:UPPER_STORIES_AND_ROOF,_SOUTH_SIDE_-_Bellevue-Stratford_Hotel,_Broad_and_Walnut_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,344-3.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "View of Broad Street facade - Bellevue-Stratford Hotel (HABS PA-1226)",
+          "url": "https://commons.wikimedia.org/wiki/File:VIEW_OF_BROAD_STREET_FACADE_-_Bellevue-Stratford_Hotel,_Broad_and_Walnut_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,344-35_(CT).tif",
+          "author": "Jack E. Boucher, Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Bellevue-Stratford Hotel Buc1977",
+          "url": "https://commons.wikimedia.org/wiki/File:Bellevue-Stratford_Hotel_Buc1977.jpg",
+          "author": "Buccaneer1977",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/phl-bellevue-stratford.glb",
+      "source": "generators/phl-bellevue-stratford.ts"
+    },
+    {
+      "id": "phl-masonic-temple",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "romanesque-revival",
+        "masonic-temple",
+        "national-historic-landmark"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Masonic Temple in Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Masonic_Temple_in_Philadelphia.jpg",
+          "author": "Jersey856",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Grand Lodge of Pennsylvania",
+          "url": "https://commons.wikimedia.org/wiki/File:Grand_Lodge_of_Pennsylvania.jpg",
+          "author": "Bruce Andersen",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Masonic Temple Philadelphia aerial view",
+          "url": "https://commons.wikimedia.org/wiki/File:Masonic_Temple_Philadelphia_aerial_view.jpg",
+          "author": "Nickvud",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia Masonic Temple tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Masonic_Temple_tower.jpg",
+          "author": "Nickvud",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Masonic Temple, Philadelphia, PA (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:Masonic_Temple,_Philadelphia,_PA.jpg",
+          "author": "Kanan H. Jani",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/phl-masonic-temple.glb",
+      "source": "generators/phl-masonic-temple.ts"
+    },
+    {
+      "id": "phl-shot-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "historic",
+        "industrial",
+        "brick",
+        "shot-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q7573713",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Sparks Shot Tower 129-131 Carpenter St Philadelphia PA (DSC 3819)",
+          "url": "https://commons.wikimedia.org/wiki/File:Sparks_Shot_Tower_129-131_Carpenter_St_Philadelphia_PA_(DSC_3819).jpg",
+          "author": "N-gio",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sparks Shot Tower1",
+          "url": "https://commons.wikimedia.org/wiki/File:Sparks_Shot_Tower1.jpg",
+          "author": "Jack E. Boucher (HABS/HAER)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Sparks Shot Tower2",
+          "url": "https://commons.wikimedia.org/wiki/File:Sparks_Shot_Tower2.jpg",
+          "author": "Jack E. Boucher (HABS/HAER)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Sparks Sthot Tower Philly",
+          "url": "https://commons.wikimedia.org/wiki/File:Sparks_Sthot_Tower_Philly.JPG",
+          "author": "Smallbones",
+          "license": "CC0"
+        },
+        {
+          "title": "Shot Tower - Philadelphia (2642788206)",
+          "url": "https://commons.wikimedia.org/wiki/File:Shot_Tower_-_Philadelphia_(2642788206).jpg",
+          "author": "Reading Tom",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/phl-shot-tower.glb",
+      "source": "generators/phl-shot-tower.ts"
+    },
+    {
+      "id": "phl-battleship-new-jersey",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "ship",
+        "battleship",
+        "museum-ship",
+        "historic",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q507603",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "March 21, 2024 moving of the USS New Jersey 4 (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:March_21,_2024_moving_of_the_USS_New_Jersey_4_(cropped).jpg",
+          "author": "QuincyMorgan",
+          "license": "CC0"
+        },
+        {
+          "title": "March 21, 2024 moving of the USS New Jersey 11",
+          "url": "https://commons.wikimedia.org/wiki/File:March_21,_2024_moving_of_the_USS_New_Jersey_11.jpg",
+          "author": "QuincyMorgan",
+          "license": "CC0"
+        },
+        {
+          "title": "USS New Jersey Port of Camden (2018)",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_New_Jersey_Port_of_Camden_(2018).jpg",
+          "author": "Jason Zhang",
+          "license": "CC0"
+        },
+        {
+          "title": "USS New Jersey BB-62 Museum Camden",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_New_Jersey_BB-62_Museum_Camden.JPG",
+          "author": "Vladsinger",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "USS New Jersey (BB-62) 10 March 2013",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_New_Jersey_(BB-62)_10_March_2013.jpg",
+          "author": "Teemu008",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Battleship New Jersey moored at Camden NJ",
+          "url": "https://commons.wikimedia.org/wiki/File:Battleship_New_Jersey_moored_at_Camden_NJ.jpg",
+          "author": "Izzowiki",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "USS New Jersey Drydock Front Port Side",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_New_Jersey_Drydock_Front_Port_Side.jpg",
+          "author": "RabidMangoes",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "USS New Jersey Night",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_New_Jersey_Night.jpg",
+          "author": "Sdwelch1031",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/phl-battleship-new-jersey.glb",
+      "source": "generators/phl-battleship-new-jersey.ts"
+    },
+    {
+      "id": "phl-museum-american-revolution",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "brick",
+        "neo-georgian",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Museum of the American Revolution (53590618560)",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution_(53590618560).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Museum of the American Revolution, Philadelphia PA, 2022",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution,_Philadelphia_PA,_2022.jpg",
+          "author": "Kreuz und quer",
+          "license": "CC0"
+        },
+        {
+          "title": "Museum of the American Revolution, Philadelphia PA, 2022 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution,_Philadelphia_PA,_2022_2.jpg",
+          "author": "Kreuz und quer",
+          "license": "CC0"
+        },
+        {
+          "title": "Museum of the American Revolution, Philadelphia PA, 2022 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution,_Philadelphia_PA,_2022_3.jpg",
+          "author": "Kreuz und quer",
+          "license": "CC0"
+        },
+        {
+          "title": "Museum of the American Revolution - Joy of Museums 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution_-_Joy_of_Museums_2.jpg",
+          "author": "GordonMakryllos",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museum of the American Revolution - Joy of Museums 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution_-_Joy_of_Museums_3.jpg",
+          "author": "GordonMakryllos",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museum of the American Revolution by Joy of Museums",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution_by_Joy_of_Museums.jpg",
+          "author": "Joyofmuseums",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museum of the American Revolution",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution.jpg",
+          "author": "Frances 84 28",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-museum-american-revolution.glb",
+      "source": "generators/phl-museum-american-revolution.ts"
+    },
+    {
+      "id": "phl-love-park",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "public-art",
+        "park",
+        "fountain",
+        "mid-century-modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "LOVE Park (JFK Plaza): Robert Indiana's LOVE (red, green and purple, the tilted O) on its steel frame, drawn at twice real size so it reads on the map; the 1960 \"flying saucer\" welcome centre; and the 2018 fountain's jet.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Love sculpture in LOVE Park in Philadelphia looking northwest.jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:Love_sculpture_in_LOVE_Park_in_Philadelphia_looking_northwest.jpeg",
+          "author": "Dough4872",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Escultura Love-2023 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Escultura_Love-2023_01.jpg",
+          "author": "Alberto-g-rovi",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Escultura Love-2023 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Escultura_Love-2023_02.jpg",
+          "author": "Alberto-g-rovi",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Love Statue, Philadelphia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Love_Statue,_Philadelphia.jpg",
+          "author": "Abhiram Juvvadi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia City Hall from LOVE Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_from_LOVE_Park.jpg",
+          "author": "AbhiramJuvvadi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "JOHN F. KENNEDY PLAZA IN CENTER CITY - NARA - 552726.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:JOHN_F._KENNEDY_PLAZA_IN_CENTER_CITY_-_NARA_-_552726.jpg",
+          "author": "Dick Swanson",
+          "license": "Public domain"
+        },
+        {
+          "title": "Philadelphia John F. Kennedy Plaza Love Park at night 1978.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_John_F._Kennedy_Plaza_Love_Park_at_night_1978.jpg",
+          "author": "Acabashi",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-love-park.glb",
+      "source": "generators/phl-love-park.ts"
+    },
+    {
+      "id": "phl-free-library-parkway",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "library",
+        "historic",
+        "beaux-arts"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The Parkway Central Library of the Free Library of Philadelphia (Horace Trumbauer and Julian Abele, 1917-27) on Logan Square: a Corinthian loggia between two pedimented pavilions over a rusticated base, after the Place de la Concorde.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "SOUTH FRONT ELEVATION - Free Library of Philadelphia, Central Library (HABS PA-6749-2)",
+          "url": "https://commons.wikimedia.org/wiki/File:SOUTH_FRONT_ELEVATION_-_Free_Library_of_Philadelphia,_Central_Library,_1901_Vine_Street,_Philadelphia,_Philadelphia_County,_PA_HABS_PA-6749-2.tif",
+          "author": "Joseph Elliott (Historic American Buildings Survey)",
+          "license": "Public domain"
+        },
+        {
+          "title": "WEST SIDE ELEVATION - Free Library of Philadelphia, Central Library (HABS PA-6749-4)",
+          "url": "https://commons.wikimedia.org/wiki/File:WEST_SIDE_ELEVATION_-_Free_Library_of_Philadelphia,_Central_Library,_1901_Vine_Street,_Philadelphia,_Philadelphia_County,_PA_HABS_PA-6749-4.tif",
+          "author": "Joseph Elliott (Historic American Buildings Survey)",
+          "license": "Public domain"
+        },
+        {
+          "title": "PERSPECTIVE VIEW OF LIBRARY IN ENVIRONMENT CONTEXT (HABS PA-6749-1)",
+          "url": "https://commons.wikimedia.org/wiki/File:PERSPECTIVE_VIEW_OF_LIBRARY_IN_ENVIRONMENT_CONTEXT,_LOOKING_NORTHEAST_FROM_THE_ROOF_OF_THE_FRANKLIN_INSTITUTE_-_Free_Library_of_Philadelphia,_Central_Library,_1901_Vine_Street,_HABS_PA-6749-1.tif",
+          "author": "Joseph Elliott (Historic American Buildings Survey)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Philadelphia October 2017 06 (Free Library of Philadelphia Parkway Central Library).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_October_2017_06_(Free_Library_of_Philadelphia_Parkway_Central_Library).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Free Library of Philadelphia Front 3008px.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Free_Library_of_Philadelphia_Front_3008px.jpg",
+          "author": "Derek Ramsey (Ram-Man)",
+          "license": "CC BY-SA 2.5"
+        }
+      ],
+      "file": "models/phl-free-library-parkway.glb",
+      "source": "generators/phl-free-library-parkway.ts"
+    },
+    {
+      "id": "phl-barnes-foundation",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modern",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The Barnes Foundation on the Parkway (Tod Williams Billie Tsien, 2012): long limestone blocks with the frosted-glass light box over the Light Court, cantilevered over the entrance and lit at night.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Barnes Foundation in Philadelphia (by MyWikiBiz).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Barnes_Foundation_in_Philadelphia_(by_MyWikiBiz).jpg",
+          "author": "Thekohser",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barnes Foundation - Philadelphia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barnes_Foundation_-_Philadelphia.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barnes Philly 1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Barnes_Philly_1.JPG",
+          "author": "Smallbones",
+          "license": "CC0"
+        },
+        {
+          "title": "Barnes Foundation (53574516274).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barnes_Foundation_(53574516274).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/phl-barnes-foundation.glb",
+      "source": "generators/phl-barnes-foundation.ts"
+    },
+    {
+      "id": "phl-cathedral-basilica",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "cathedral",
+        "church",
+        "historic",
+        "renaissance-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The brownstone Cathedral Basilica of Saints Peter and Paul on Logan Square (1846-64): the Corinthian temple front between round-cornered pavilions, and the green copper dome with its dormers, lantern and gilt cross.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "2013 Cathedral Basilica of Saints Peter and Paul front facade.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2013_Cathedral_Basilica_of_Saints_Peter_and_Paul_front_facade.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2013 Cathedral Basilica of Saints Peter and Paul from side.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2013_Cathedral_Basilica_of_Saints_Peter_and_Paul_from_side.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2013 Cathedral Basilica of Saints Peter and Paul from across the Benjamin Franklin Parkway.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2013_Cathedral_Basilica_of_Saints_Peter_and_Paul_from_across_the_Benjamin_Franklin_Parkway.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cathedral Basilica of Saints Peter and Paul, Philadelphia, PA.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Basilica_of_Saints_Peter_and_Paul,_Philadelphia,_PA.JPG",
+          "author": "Ngilmour3",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cathedral Basilica of Saints Peter and Paul dome - Philadelphia 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Basilica_of_Saints_Peter_and_Paul_dome_-_Philadelphia_01.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-cathedral-basilica.glb",
+      "source": "generators/phl-cathedral-basilica.ts"
+    },
+    {
+      "id": "phl-franklin-institute",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "science-museum",
+        "historic",
+        "neoclassical"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The Franklin Institute on Logan Circle (John T. Windrim, 1930-34): limestone ranges with giant Corinthian pilasters and three pedimented porticoes, the square attic of the Benjamin Franklin National Memorial rotunda, the round theatre under its glass pyramid and the later west blocks, including the 2014 Karabots Pavilion.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Philadelphia October 2017 25 (The Franklin Institute).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_October_2017_25_(The_Franklin_Institute).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia October 2017 10 (The Franklin Institute).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_October_2017_10_(The_Franklin_Institute).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Franklin Institute from southeast.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Institute_from_southeast.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Franklin Institute Felt Planetarium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Institute_Felt_Planetarium.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Franklin Institute (53574514629).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Institute_(53574514629).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/phl-franklin-institute.glb",
+      "source": "generators/phl-franklin-institute.ts"
+    },
+    {
+      "id": "phl-lincoln-financial-field",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "nfl",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Lincoln Financial Field (Aerial view)",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field_(Aerial_view).jpg",
+          "author": "Ron Reiring",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Lincoln Financial Field, Philadelphia, Pennsylvania, United States",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field,_Philadelphia,_Pennsylvania,_United_States.jpg",
+          "author": "Dough4872",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lincoln Financial Field and Wells Fargo Center from airplane approaching PHL",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field_and_Wells_Fargo_Center_from_airplane_approaching_PHL.jpeg",
+          "author": "Dough4872",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lincoln Financial Field, Philadelphia, 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field,_Philadelphia,_2024.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lincoln Financial Field, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field,_Philadelphia.jpg",
+          "author": "Betp",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "TheLinc-outside",
+          "url": "https://commons.wikimedia.org/wiki/File:TheLinc-outside.jpg",
+          "author": "Sp. Union-Rail",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "South Philadelphia East, Philadelphia, PA, USA - panoramio (4)",
+          "url": "https://commons.wikimedia.org/wiki/File:South_Philadelphia_East,_Philadelphia,_PA,_USA_-_panoramio_(4).jpg",
+          "author": "Андрей Бобровский",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "South Philadelphia East, Philadelphia, PA, USA - panoramio (19)",
+          "url": "https://commons.wikimedia.org/wiki/File:South_Philadelphia_East,_Philadelphia,_PA,_USA_-_panoramio_(19).jpg",
+          "author": "Андрей Бобровский",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Lincoln Financial Field during 2011 Temple-Penn State game",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field_during_2011_Temple-Penn_State_game.jpg",
+          "author": "Justin Wolfe",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/phl-lincoln-financial-field.glb",
+      "source": "generators/phl-lincoln-financial-field.ts"
+    },
+    {
+      "id": "phl-citizens-bank-park",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "baseball",
+        "mlb",
+        "contemporary",
+        "neon-sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Citizens Bank Park 2021",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizens_Bank_Park_2021.jpg",
+          "author": "Chris6d",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Citizens Bank Park - Wide View",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizens_Bank_Park_-_Wide_View.jpg",
+          "author": "Caleb Spicer",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Citizens Bank Park, May 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizens_Bank_Park,_May_2009.jpg",
+          "author": "Bruce C. Cooper",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Citizens Bank Park (20878675372)",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizens_Bank_Park_(20878675372).jpg",
+          "author": "redlegsfan21",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Phillies vs Dodgers 2017 23",
+          "url": "https://commons.wikimedia.org/wiki/File:Phillies_vs_Dodgers_2017_23.jpg",
+          "author": "Peetlesnumber1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Citizens Bank Park (2371206461)",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizens_Bank_Park_(2371206461).jpg",
+          "author": "Peter Bond",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "S8000749",
+          "url": "https://commons.wikimedia.org/wiki/File:S8000749.JPG",
+          "author": "minimoniotaku",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Phillies vs. Red Sox 5-18-12",
+          "url": "https://commons.wikimedia.org/wiki/File:Phillies_vs._Red_Sox_5-18-12.JPG",
+          "author": "Hello32020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Citizens Bank Park-125 (36913506654)",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizens_Bank_Park-125_(36913506654).jpg",
+          "author": "Jon Gudorf Photography",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/phl-citizens-bank-park.glb",
+      "source": "generators/phl-citizens-bank-park.ts"
+    },
+    {
+      "id": "phl-xfinity-mobile-arena",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "hockey",
+        "basketball",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Lincoln Financial Field and Wells Fargo Center from airplane approaching PHL",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field_and_Wells_Fargo_Center_from_airplane_approaching_PHL.jpeg",
+          "author": "Dough4872",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Wachovia Center, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Wachovia_Center,_Philadelphia.jpg",
+          "author": "Phillyfan0419",
+          "license": "Public domain"
+        },
+        {
+          "title": "WellsFargoCenter-atDay",
+          "url": "https://commons.wikimedia.org/wiki/File:WellsFargoCenter-atDay.jpg",
+          "author": "Sp. Union-Rail",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Wells Fargo Center",
+          "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center.jpg",
+          "author": "PHL Approach",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Wells Fargo Center night",
+          "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center_night.jpg",
+          "author": "TastyPoutine",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/phl-xfinity-mobile-arena.glb",
+      "source": "generators/phl-xfinity-mobile-arena.ts"
+    },
+    {
+      "id": "phl-cira-centre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "glass"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cira Centre, Philadelphia-south.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre,_Philadelphia-south.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Cira Centre, Philadelphia-north.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre,_Philadelphia-north.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Cira Centre, Philadelphia-east.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre,_Philadelphia-east.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Cira Centre c.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre_c.jpg",
+          "author": "Wobbanight",
+          "license": "CC0"
+        },
+        {
+          "title": "Cira Centre, Philadelphia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre,_Philadelphia.jpg",
+          "author": "AbhiramJuvvadi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cira Centre (53590496644).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre_(53590496644).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "30th Street Station and Cira Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station_and_Cira_Tower.jpg",
+          "author": "Ii2nmd",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ciracentre atnight.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciracentre_atnight.jpg",
+          "author": "michaelwm25",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/phl-cira-centre.glb",
+      "source": "generators/phl-cira-centre.ts"
+    },
+    {
+      "id": "phl-fmc-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "hotel",
+        "glass"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "FMC Tower at Cira Centre South a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FMC_Tower_at_Cira_Centre_South_a.jpg",
+          "author": "Wobbanight",
+          "license": "CC0"
+        },
+        {
+          "title": "FMC Tower at Cira Centre South b.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FMC_Tower_at_Cira_Centre_South_b.jpg",
+          "author": "Wobbanight",
+          "license": "CC0"
+        },
+        {
+          "title": "FMC Tower 2016-11-05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FMC_Tower_2016-11-05.jpg",
+          "author": "Zombiyaic",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "FMCTower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FMCTower.jpg",
+          "author": "TastyPoutine",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cira Centre South (53586793263).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre_South_(53586793263).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "FMC Tower 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FMC_Tower_2019.jpg",
+          "author": "MainlyTwelve",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "FMC Tower, Clouds, Philadelphia",
+          "url": "https://www.flickr.com/photos/14869313@N00/37462924551",
+          "author": "dbaron",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/phl-fmc-tower.glb",
+      "source": "generators/phl-fmc-tower.ts"
+    },
+    {
+      "id": "phl-franklin-field",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "historic",
+        "university",
+        "football",
+        "brick"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Franklin Field, Philadelphia, 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Field,_Philadelphia,_2024.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Franklin Field (Philadelphia)-exterior.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Field_(Philadelphia)-exterior.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Football Practice on Franklin Field - University of Pennsylvania - Philadelphia - Pennsylvania.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Football_Practice_on_Franklin_Field_-_University_of_Pennsylvania_-_Philadelphia_-_Pennsylvania.jpg",
+          "author": "Adam Jones, Ph.D.",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Franklin Field, Penn.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Field,_Penn.jpg",
+          "author": "Phil Roeder",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Franklin Field aerial.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Field_aerial.jpg",
+          "author": "NASA World Wind",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-franklin-field.glb",
+      "source": "generators/phl-franklin-field.ts"
+    },
+    {
+      "id": "phl-psfs-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "international-style",
+        "skyscraper",
+        "hotel",
+        "neon-sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1548457",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "PSFS Building 1985",
+          "url": "https://commons.wikimedia.org/wiki/File:PSFSBuilding1985.jpg",
+          "author": "Jack E. Boucher (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "PSFS, elevated view of east and north facades (HABS PA-1533)",
+          "url": "https://commons.wikimedia.org/wiki/File:ELEVATED_VIEW_SHOWING_MOST_OF_EAST_AND_NORTH_FACADES_FROM_ROOF_OF_READING_TERMINAL_-_Philadelphia_Saving_Fund_Society,_Twelfth_and_Market_Streets,_Philadelphia,_HABS_PA,51-PHILA,584-36_(CT).tif",
+          "author": "Jack E. Boucher (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "PSFS, elevated view of west facade (HABS PA-1533)",
+          "url": "https://commons.wikimedia.org/wiki/File:ELEVATED_VIEW_SHOWING_WEST_FACADE_OF_BUILDING_AND_SURROUNDING_AREA_-_Philadelphia_Saving_Fund_Society,_Twelfth_and_Market_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,584-38_(CT).tif",
+          "author": "Jack E. Boucher (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "PSFS, east facade from Eleventh and Market (HABS PA-1533)",
+          "url": "https://commons.wikimedia.org/wiki/File:EAST_FACADE_AS_SEEN_FROM_ELEVENTH_AND_MARKET_STREETS_-_Philadelphia_Saving_Fund_Society,_Twelfth_and_Market_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,584-35_(CT).tif",
+          "author": "Jack E. Boucher (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rendering of PSFS Building by D. E. Sutton (HABS PA-1533)",
+          "url": "https://commons.wikimedia.org/wiki/File:PHOTOCOPY_OF_RENDERING_OF_PSFS_BUILDING_BY_D.E._SUTTON._Date_possibly_1929_or_1930,_when_construction_started._-_Philadelphia_Saving_Fund_Society,_Twelfth_and_Market_Streets,_HABS_PA,51-PHILA,584-1.tif",
+          "author": "D. E. Sutton (HABS photocopy)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Loews Philadelphia Hotel 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Loews_Philadelphia_Hotel_1.jpg",
+          "author": "Wobbanight",
+          "license": "CC0"
+        },
+        {
+          "title": "Loews Philadelphia Hotel 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Loews_Philadelphia_Hotel_2.jpg",
+          "author": "Wobbanight",
+          "license": "CC0"
+        },
+        {
+          "title": "PSFS Building - 1200 Market St",
+          "url": "https://commons.wikimedia.org/wiki/File:PSFS_Building_-_1200_Market_St.JPG",
+          "author": "ProfReader",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "PSFS-MarketSt",
+          "url": "https://commons.wikimedia.org/wiki/File:PSFS-MarketSt.JPG",
+          "author": "Absecon 59",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "PSFS top",
+          "url": "https://commons.wikimedia.org/wiki/File:PSFS_top.jpg",
+          "author": "AEngineer",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "PSFS sign",
+          "url": "https://commons.wikimedia.org/wiki/File:PSFSsign.jpg",
+          "author": "AEngineer",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Aerial view of Philadelphia, Pennsylvania (dusk, from City Hall)",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Philadelphia,_Pennsylvania_LCCN2011633562.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-psfs-building.glb",
+      "source": "generators/phl-psfs-building.ts"
+    },
+    {
+      "id": "phl-wanamaker-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "department-store",
+        "beaux-arts",
+        "palazzo",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Wanamaker Building, Philadelphia, PA",
+          "url": "https://commons.wikimedia.org/wiki/File:Wanamaker_Building,_Philadelphia,_PA.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Wanamaker Building",
+          "url": "https://commons.wikimedia.org/wiki/File:Wanamaker_Building.jpg",
+          "author": "Fred Cherrygarden",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "WanamakerBuilding5",
+          "url": "https://commons.wikimedia.org/wiki/File:WanamakerBuilding5.JPG",
+          "author": "Peetlesnumber1",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "John Wanamaker Store, oblique view of Chestnut Street elevation (HABS PA,51-PHILA,370-1)",
+          "url": "https://commons.wikimedia.org/wiki/File:OBLIQUE_VIEW,_CHESTNUT_STREET_ELEVATION_-_John_Wanamaker_Store,_Thirteenth_and_Chestnut_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,370-1.tif",
+          "author": "HABS",
+          "license": "Public domain"
+        },
+        {
+          "title": "John Wanamaker Building, Philadelphia, PA (postcard, NBY 6951)",
+          "url": "https://commons.wikimedia.org/wiki/File:John_Wanamaker_Building,_Philadelphia,_PA.,_Juniper_and_Market_Streets,_Architects_D.H._Burnham..._(NBY_6951).jpg",
+          "author": "Unknown (Newberry Library)",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-wanamaker-building.glb",
+      "source": "generators/phl-wanamaker-building.ts"
+    },
+    {
+      "id": "phl-reading-terminal",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "train-station",
+        "train-shed",
+        "market",
+        "hotel"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Reading Terminal",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Reading_Terminal.jpg",
+          "author": "Jersey856",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reading Terminal, Philadelphia, PA",
+          "url": "https://commons.wikimedia.org/wiki/File:Reading_Terminal,_Philadelphia,_PA.JPG",
+          "author": "ProfReader",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "20030702 27 Reading Terminal Building",
+          "url": "https://commons.wikimedia.org/wiki/File:20030702_27_Reading_Terminal_Building_(5995800405).jpg",
+          "author": "David Wilson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Reading Terminal",
+          "url": "https://commons.wikimedia.org/wiki/File:Reading_Terminal.jpg",
+          "author": "DevinHouse",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Reading Terminal Headhouse (Grand Hall interior)",
+          "url": "https://commons.wikimedia.org/wiki/File:Reading_Terminal_Headhouse_(3373506287).jpg",
+          "author": "Kevin Burkett",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Reading Terminal Station, Market St front (HABS PA,51-PHILA,521-12)",
+          "url": "https://commons.wikimedia.org/wiki/File:Northeast_front._Duplicate_color_view_of_HABS_PA-1528-3_-_Philadelphia_and_Reading_Railroad,_Terminal_Station,_1115-1141_Market_Street,_Philadelphia,_Philadelphia_County,_HABS_PA,51-PHILA,521-12_(CT).tif",
+          "author": "Jack E. Boucher (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Reading Terminal ca. 1937 (HABS PA,51-PHILA,521-2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Photocopy_of_photograph_(from_Reading_Co._Archives)_Photographer_unknown_ca._1937_NORTHEAST_FRONT_AND_SOUTHEAST_SIDE_-_Philadelphia_and_Reading_Railroad,_Terminal_Station,_1115_HABS_PA,51-PHILA,521-2.tif",
+          "author": "Unknown (Reading Co. Archives, via HABS)",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-reading-terminal.glb",
+      "source": "generators/phl-reading-terminal.ts"
+    },
+    {
+      "id": "phl-boathouse-row",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "boathouse",
+        "victorian"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Boathouse Row on the east bank of the Schuylkill: the twelve Victorian boathouses of the Schuylkill Navy (#2 to #15, 1860-1904), with their gables, turret and belvedere, each outlined at night in white lights along its eaves, gables, hips, corners and boat-bay arches.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "CLOSER VIEW OF BOATHOUSES, LOOKING SOUTHEAST FROM WEST BANK OF SCHUYLKILL RIVER - Boathouse Row (HABS PA,51-PHILA,561-3)",
+          "url": "https://commons.wikimedia.org/wiki/File:CLOSER_VIEW_OF_BOATHOUSES,_LOOKING_SOUTHEAST_FROM_WEST_BANK_OF_SCHUYLKILL_RIVER_-_Boathouse_Row,_East_River_Drive,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,561-3.tif",
+          "author": "Jack E. Boucher (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "AERIAL VIEW, LOOKING NORTHEAST. - Boathouse Row (HABS PA,51-PHILA,561-15)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_NORTHEAST._-_Boathouse_Row,_East_River_Drive,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,561-15.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "AERIAL VIEW, LOOKING NORTH. - Boathouse Row (HABS PA,51-PHILA,561-14)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_NORTH._-_Boathouse_Row,_East_River_Drive,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,561-14.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "Sedgeley72.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Sedgeley72.png",
+          "author": "Jack Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "University72.png",
+          "url": "https://commons.wikimedia.org/wiki/File:University72.png",
+          "author": "Jack Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "Philadelphia Girls RC 2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Girls_RC_2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "Undine2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Undine2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "PennAC2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PennAC2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "CollegeBC2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:CollegeBC2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "Vesper-Malta2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vesper-Malta2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "Crescent-Pennsylvania2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Crescent-Pennsylvania2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "Crescent2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Crescent2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "FairmountRA2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FairmountRA2010.jpg",
+          "author": "Ciricula",
+          "license": "Public domain"
+        },
+        {
+          "title": "'Bachelors' boathouse.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%27Bachelors%27_boathouse.jpg",
+          "author": "Antigng",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Boathouse Row - panoramio (long).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Boathouse_Row_-_panoramio_(long).jpg",
+          "author": "michaelwm25",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Boathouse Row-wide.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Boathouse_Row-wide.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Boathouse Row Panorama.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Boathouse_Row_Panorama.jpg",
+          "author": "Ryan Linton",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Boathouse Row.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Boathouse_Row.JPG",
+          "author": "Ryan Linton",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Twilight on Boathouse Row - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Twilight_on_Boathouse_Row_-_panoramio.jpg",
+          "author": "michaelwm25",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/phl-boathouse-row.glb",
+      "source": "generators/phl-boathouse-row.ts"
+    },
+    {
+      "id": "phl-eastern-state-penitentiary",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "prison",
+        "museum",
+        "gothic-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Eastern State Penitentiary (1829-36, John Haviland): the central rotunda and its radiating cell blocks, the later blocks between them, the 10 m stone wall with its corner watchtowers and the crenellated Gothic Revival gatehouse on Fairmount Avenue.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Eastern state penitentiary09.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_state_penitentiary09.JPG",
+          "author": "Davidt8",
+          "license": "Public domain"
+        },
+        {
+          "title": "Eastern State Penitentiary (53574639765).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_State_Penitentiary_(53574639765).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Eastern State Penitentiary Wall.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_State_Penitentiary_Wall.jpg",
+          "author": "Mike Graham",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Eastern State Penitentiary aerial crop.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_State_Penitentiary_aerial_crop.jpg",
+          "author": "Mike Graham",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Eastern State Penitentiary Watch Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_State_Penitentiary_Watch_Tower.jpg",
+          "author": "DC Chadwick",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Eastern State Penitentiary Grounds.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_State_Penitentiary_Grounds.jpg",
+          "author": "DC Chadwick",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Eastern State Penitentiary - Cell blocks 4..jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_State_Penitentiary_-_Cell_blocks_4..jpg",
+          "author": "Dudva",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/phl-eastern-state-penitentiary.glb",
+      "source": "generators/phl-eastern-state-penitentiary.ts"
+    },
+    {
+      "id": "phl-girard-college-founders-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "greek-revival",
+        "school",
+        "temple"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Thomas U. Walter's Founder's Hall at Girard College (1833-47): a white marble Greek Revival temple, peripteral with 34 Corinthian columns, under a low pediment on a stepped podium.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "FRONT (SOUTH) ELEVATION - Girard College, Founder's Hall (HABS PA,51-PHILA,459A-3)",
+          "url": "https://commons.wikimedia.org/wiki/File:FRONT_(SOUTH)_ELEVATION_-_Girard_College,_Founder%27s_Hall,_Girard_and_Corinthian_Avenues,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,459A-3.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "GENERAL VIEW, LOOKING NORTHWEST - Girard College, Founder's Hall (HABS PA,51-PHILA,459A-1)",
+          "url": "https://commons.wikimedia.org/wiki/File:GENERAL_VIEW,_LOOKING_NORTHWEST_-_Girard_College,_Founder%27s_Hall,_Girard_and_Corinthian_Avenues,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,459A-1.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Girard College, Founder's Hall (HABS PA,51-PHILA,459A-48 (CT))",
+          "url": "https://commons.wikimedia.org/wiki/File:Girard_College,_Founder%27s_Hall,_Girard_and_Corinthian_Avenues,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,459A-48_(CT).tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Greek Revival - Philadelphia, PA - Girard College (Founder's Hall) (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Greek_Revival_-_Philadelphia,_PA_-_Girard_College_(Founder%27s_Hall)_(1).jpg",
+          "author": "Bmzuckerman",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Greek Revival - Philadelphia, PA - Girard College (Founder's Hall) (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Greek_Revival_-_Philadelphia,_PA_-_Girard_College_(Founder%27s_Hall)_(2).jpg",
+          "author": "Bmzuckerman",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/phl-girard-college-founders-hall.glb",
+      "source": "generators/phl-girard-college-founders-hall.ts"
+    },
+    {
+      "id": "phl-memorial-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "beaux-arts",
+        "museum",
+        "exposition"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Memorial Hall (1876), the art gallery of the Centennial Exhibition and today the Please Touch Museum: a granite Beaux-Arts hall with a three-arched entrance pavilion, open arcades, four corner pavilions and a green ribbed glass-and-iron dome crowned by Columbia.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Memorial Hall - January 2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Memorial_Hall_-_January_2010.jpg",
+          "author": "Frederikto",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Memorial Hall on Beautiful Summer Day.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Memorial_Hall_on_Beautiful_Summer_Day.jpg",
+          "author": "Oreos4everyone",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia Memorial Hall 0013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Memorial_Hall_0013.jpg",
+          "author": "Foolish Productions Photography",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Memorial Hall in Fairmount Park, Philadelphia, PA.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Memorial_Hall_in_Fairmount_Park,_Philadelphia,_PA.JPG",
+          "author": "Ngilmour3",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "AERIAL VIEW, LOOKING NORTHWEST. - International Exposition of 1876, Memorial Hall (HABS PA,51-PHILA,265B-34)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_NORTHWEST._-_International_Exposition_of_1876,_Memorial_Hall,_Belmont_Avenue,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,265B-34.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "AERIAL VIEW, LOOKING NORTHEAST. - International Exposition of 1876, Memorial Hall (HABS PA,51-PHILA,265B-33)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_NORTHEAST._-_International_Exposition_of_1876,_Memorial_Hall,_Belmont_Avenue,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,265B-33.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-memorial-hall.glb",
+      "source": "generators/phl-memorial-hall.ts"
     }
   ],
   "landmarks": [
@@ -42895,6 +46401,921 @@
         "way/1564296739",
         "way/1564296740"
       ]
+    },
+    {
+      "id": "phl-comcast-technology-center",
+      "name": "Comcast Technology Center",
+      "model": "phl-comcast-technology-center",
+      "place": "philadelphia-area",
+      "lng": -75.170396,
+      "lat": 39.955011,
+      "bearing": 9.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/317178904",
+        "way/749649288",
+        "way/749649286",
+        "way/686345701",
+        "way/749649285",
+        "way/749649287"
+      ]
+    },
+    {
+      "id": "phl-city-hall",
+      "name": "Philadelphia City Hall",
+      "model": "phl-city-hall",
+      "place": "philadelphia-area",
+      "lng": -75.16359,
+      "lat": 39.952413,
+      "bearing": 9.2,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q1138183",
+      "replaces": [
+        "relation/4720912",
+        "way/333316163",
+        "way/333316164",
+        "way/333316165",
+        "way/333316166",
+        "way/333316168",
+        "way/333316169",
+        "way/333316170",
+        "way/333316171",
+        "way/335828082",
+        "way/335828083",
+        "way/335828084",
+        "way/335828086",
+        "way/335828087",
+        "way/335828088",
+        "way/335828089",
+        "way/335828090",
+        "way/335828091",
+        "way/335828092",
+        "way/336681405",
+        "way/336681406",
+        "way/336855470",
+        "way/336855471",
+        "way/336855472",
+        "way/336855473",
+        "way/336855474",
+        "way/336855475",
+        "way/354994858",
+        "way/369003677",
+        "way/369003678"
+      ]
+    },
+    {
+      "id": "phl-museum-of-art",
+      "name": "Philadelphia Museum of Art",
+      "model": "phl-museum-of-art",
+      "place": "philadelphia-area",
+      "lng": -75.18106,
+      "lat": 39.96568,
+      "bearing": 43.6,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q510324",
+      "replaces": [
+        "way/28533972"
+      ]
+    },
+    {
+      "id": "phl-fairmount-water-works",
+      "name": "Fairmount Water Works",
+      "model": "phl-fairmount-water-works",
+      "place": "philadelphia-area",
+      "lng": -75.183648,
+      "lat": 39.966381,
+      "bearing": 352.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5430659",
+      "replaces": [
+        "relation/11817436",
+        "way/865740088",
+        "way/865740087",
+        "way/865740089",
+        "way/74728243",
+        "way/74728259",
+        "way/74728242",
+        "way/74728261"
+      ]
+    },
+    {
+      "id": "phl-30th-street-station",
+      "name": "30th Street Station",
+      "model": "phl-30th-street-station",
+      "place": "philadelphia-area",
+      "lng": -75.182025,
+      "lat": 39.956019,
+      "bearing": 9.2,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q224214",
+      "replaces": [
+        "way/32272623",
+        "way/749651799",
+        "way/749651800"
+      ]
+    },
+    {
+      "id": "phl-one-liberty-place",
+      "name": "One Liberty Place",
+      "model": "phl-one-liberty-place",
+      "place": "philadelphia-area",
+      "lng": -75.168136,
+      "lat": 39.95257,
+      "bearing": 9.2,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q1449747",
+      "replaces": [
+        "way/42784982",
+        "way/333013556",
+        "way/333012828",
+        "way/333012829",
+        "way/345594709",
+        "way/345594710",
+        "way/345594711",
+        "way/332974959",
+        "way/345594720",
+        "way/345594721",
+        "way/345594723",
+        "way/333012830"
+      ]
+    },
+    {
+      "id": "phl-two-liberty-place",
+      "name": "Two Liberty Place",
+      "model": "phl-two-liberty-place",
+      "place": "philadelphia-area",
+      "lng": -75.167451,
+      "lat": 39.951674,
+      "bearing": 9.2,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q2301082",
+      "replaces": [
+        "way/42785013",
+        "way/341324304",
+        "way/333339065",
+        "way/333339067",
+        "way/333204579",
+        "way/333339059",
+        "way/333339064",
+        "way/333204568"
+      ]
+    },
+    {
+      "id": "phl-independence-hall",
+      "name": "Independence Hall",
+      "model": "phl-independence-hall",
+      "place": "philadelphia-area",
+      "lng": -75.150028,
+      "lat": 39.948904,
+      "bearing": 9.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q390028",
+      "replaces": [
+        "way/25271595",
+        "way/335689527",
+        "way/335689528",
+        "way/335689529",
+        "way/335689530",
+        "way/335689531",
+        "way/335689532",
+        "way/335689533",
+        "way/335689534",
+        "way/335689535",
+        "way/335689536",
+        "way/335689537",
+        "way/336004603"
+      ]
+    },
+    {
+      "id": "phl-congress-hall",
+      "name": "Congress Hall",
+      "model": "phl-congress-hall",
+      "place": "philadelphia-area",
+      "lng": -75.150645,
+      "lat": 39.948979,
+      "bearing": 9.1,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q917636",
+      "replaces": [
+        "way/40083518",
+        "way/335771285",
+        "way/335771286",
+        "way/335771287"
+      ]
+    },
+    {
+      "id": "phl-liberty-bell-center",
+      "name": "Liberty Bell Center",
+      "model": "phl-liberty-bell-center",
+      "place": "philadelphia-area",
+      "lng": -75.15023,
+      "lat": 39.949869,
+      "bearing": 9.56,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/40086417",
+        "way/335799891",
+        "way/335799893",
+        "way/335799894"
+      ]
+    },
+    {
+      "id": "phl-comcast-center",
+      "name": "Comcast Center",
+      "model": "phl-comcast-center",
+      "place": "philadelphia-area",
+      "wikidata": "Q1113808",
+      "lng": -75.168615,
+      "lat": 39.954736,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/42785026",
+        "way/333339072",
+        "way/336855440",
+        "way/336855442",
+        "way/336855449",
+        "way/336855450",
+        "way/336855451",
+        "way/336855441",
+        "way/336875906",
+        "way/336855448",
+        "way/336875907",
+        "way/336875908"
+      ]
+    },
+    {
+      "id": "phl-bny-mellon-center",
+      "name": "BNY Mellon Center",
+      "model": "phl-bny-mellon-center",
+      "place": "philadelphia-area",
+      "wikidata": "Q2743527",
+      "lng": -75.16952,
+      "lat": 39.953647,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/42785094",
+        "way/332801483",
+        "way/332801484",
+        "way/332801485",
+        "way/336875905",
+        "way/336875903",
+        "way/336875904",
+        "way/336855444",
+        "way/336855454"
+      ]
+    },
+    {
+      "id": "phl-three-logan-square",
+      "name": "Three Logan Square",
+      "model": "phl-three-logan-square",
+      "place": "philadelphia-area",
+      "wikidata": "Q2894593",
+      "lng": -75.169029,
+      "lat": 39.955415,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/42785098",
+        "way/343340487",
+        "way/343340488",
+        "way/343340489",
+        "way/343340490",
+        "way/343340491",
+        "way/343340492",
+        "way/343340493",
+        "way/343340494",
+        "way/343340495",
+        "way/343340496",
+        "way/343374515",
+        "way/343374518"
+      ]
+    },
+    {
+      "id": "phl-one-commerce-square",
+      "name": "One Commerce Square",
+      "model": "phl-one-commerce-square",
+      "place": "philadelphia-area",
+      "lng": -75.174604,
+      "lat": 39.954272,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/333939821",
+        "way/333316060",
+        "way/333434760",
+        "way/333316061",
+        "way/333316062",
+        "way/333316063",
+        "way/333316068",
+        "way/335570957",
+        "way/333434758",
+        "way/333316064",
+        "way/344020956"
+      ]
+    },
+    {
+      "id": "phl-two-commerce-square",
+      "name": "Two Commerce Square",
+      "model": "phl-two-commerce-square",
+      "place": "philadelphia-area",
+      "lng": -75.173562,
+      "lat": 39.954143,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/333939824",
+        "way/333316059",
+        "way/333434761",
+        "way/333316065",
+        "way/333434759",
+        "way/333316066",
+        "way/333434762",
+        "way/333316067",
+        "way/333434763",
+        "way/344020957",
+        "way/344020958"
+      ]
+    },
+    {
+      "id": "phl-kimmel-center",
+      "name": "Kimmel Center",
+      "model": "phl-kimmel-center",
+      "place": "philadelphia-area",
+      "lng": -75.165754,
+      "lat": 39.946708,
+      "bearing": 9.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/183519384",
+        "way/340439795"
+      ]
+    },
+    {
+      "id": "phl-christ-church",
+      "name": "Christ Church",
+      "model": "phl-christ-church",
+      "place": "philadelphia-area",
+      "lng": -75.143864,
+      "lat": 39.95073,
+      "bearing": 10.2,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q979481",
+      "replaces": [
+        "way/332757057",
+        "way/340937481",
+        "way/340937482",
+        "way/340937483",
+        "way/340937484",
+        "way/340937485",
+        "way/340952525"
+      ]
+    },
+    {
+      "id": "phl-carpenters-hall",
+      "name": "Carpenters' Hall",
+      "model": "phl-carpenters-hall",
+      "place": "philadelphia-area",
+      "lng": -75.147214,
+      "lat": 39.948142,
+      "bearing": 10,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q1093592",
+      "replaces": [
+        "way/261314259",
+        "way/335689522",
+        "way/335689523",
+        "way/335689524",
+        "way/335799889"
+      ]
+    },
+    {
+      "id": "phl-national-constitution-center",
+      "name": "National Constitution Center",
+      "model": "phl-national-constitution-center",
+      "place": "philadelphia-area",
+      "lng": -75.149083,
+      "lat": 39.95372,
+      "bearing": 9.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q538275",
+      "replaces": [
+        "way/40083914",
+        "way/335387043",
+        "way/333316197",
+        "way/338020144",
+        "way/338020145",
+        "way/338020146",
+        "way/338020147",
+        "way/338029304",
+        "way/338029305",
+        "way/1314909585"
+      ]
+    },
+    {
+      "id": "phl-ben-franklin-bridge",
+      "name": "Benjamin Franklin Bridge",
+      "model": "phl-ben-franklin-bridge",
+      "place": "philadelphia-area",
+      "lng": -75.1346174,
+      "lat": 39.9529617,
+      "bearing": 102.716,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q817485",
+      "replaces": [
+        "way/575987106",
+        "way/754832342",
+        "way/754832343",
+        "way/334628511",
+        "way/334628517"
+      ]
+    },
+    {
+      "id": "phl-walt-whitman-bridge",
+      "name": "Walt Whitman Bridge",
+      "model": "phl-walt-whitman-bridge",
+      "place": "philadelphia-area",
+      "lng": -75.1292927,
+      "lat": 39.9051882,
+      "bearing": 102.52,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q3396791",
+      "replaces": [
+        "way/575987843",
+        "way/755034376",
+        "way/755034375",
+        "way/1044593721",
+        "way/1044593722"
+      ]
+    },
+    {
+      "id": "phl-lincoln-liberty-building",
+      "name": "One South Broad",
+      "model": "phl-lincoln-liberty-building",
+      "place": "philadelphia-area",
+      "lng": -75.163491,
+      "lat": 39.951176,
+      "bearing": 9.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q7093219",
+      "replaces": [
+        "relation/4846617",
+        "way/333204612",
+        "way/336681395",
+        "way/336681396",
+        "way/336681398",
+        "way/336681400",
+        "way/336681401",
+        "way/336681402",
+        "way/337052603",
+        "way/341324299",
+        "way/341324300"
+      ]
+    },
+    {
+      "id": "phl-bellevue-stratford",
+      "name": "The Bellevue",
+      "model": "phl-bellevue-stratford",
+      "place": "philadelphia-area",
+      "lng": -75.164865,
+      "lat": 39.949088,
+      "bearing": 9.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/334239470"
+      ]
+    },
+    {
+      "id": "phl-masonic-temple",
+      "name": "Masonic Temple",
+      "model": "phl-masonic-temple",
+      "place": "philadelphia-area",
+      "lng": -75.162657,
+      "lat": 39.95362,
+      "bearing": 9.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/309294828"
+      ]
+    },
+    {
+      "id": "phl-shot-tower",
+      "name": "Sparks Shot Tower",
+      "model": "phl-shot-tower",
+      "place": "philadelphia-area",
+      "lng": -75.146341,
+      "lat": 39.934806,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q7573713",
+      "replaces": [
+        "way/705302160"
+      ]
+    },
+    {
+      "id": "phl-battleship-new-jersey",
+      "name": "Battleship New Jersey",
+      "model": "phl-battleship-new-jersey",
+      "place": "philadelphia-area",
+      "lng": -75.133034,
+      "lat": 39.939334,
+      "bearing": 343.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q507603",
+      "replaces": [
+        "way/29667862",
+        "way/857248280",
+        "way/857248281",
+        "way/857248282",
+        "way/857248283",
+        "way/857248284",
+        "way/857248285",
+        "way/857248286"
+      ]
+    },
+    {
+      "id": "phl-museum-american-revolution",
+      "name": "Museum of the American Revolution",
+      "model": "phl-museum-american-revolution",
+      "place": "philadelphia-area",
+      "lng": -75.145657,
+      "lat": 39.948174,
+      "bearing": 10.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/705309586"
+      ]
+    },
+    {
+      "id": "phl-love-park",
+      "name": "LOVE Park",
+      "model": "phl-love-park",
+      "place": "philadelphia-area",
+      "lng": -75.16547,
+      "lat": 39.95415,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q2144598",
+      "replaces": [
+        "way/349876653",
+        "way/349876654"
+      ]
+    },
+    {
+      "id": "phl-free-library-parkway",
+      "name": "Parkway Central Library",
+      "model": "phl-free-library-parkway",
+      "place": "philadelphia-area",
+      "lng": -75.171018,
+      "lat": 39.959592,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q48977201",
+      "replaces": [
+        "way/32122450",
+        "way/343581381",
+        "way/349397345",
+        "way/349876639",
+        "way/349876640"
+      ]
+    },
+    {
+      "id": "phl-barnes-foundation",
+      "name": "Barnes Foundation",
+      "model": "phl-barnes-foundation",
+      "place": "philadelphia-area",
+      "lng": -75.172735,
+      "lat": 39.96062,
+      "bearing": 43.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q808462",
+      "replaces": [
+        "way/183620616",
+        "way/349397315",
+        "way/349397318",
+        "way/952222496",
+        "way/952222505"
+      ]
+    },
+    {
+      "id": "phl-cathedral-basilica",
+      "name": "Cathedral Basilica of Saints Peter and Paul",
+      "model": "phl-cathedral-basilica",
+      "place": "philadelphia-area",
+      "lng": -75.168507,
+      "lat": 39.957427,
+      "bearing": 10,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5052192",
+      "replaces": [
+        "way/252221811",
+        "way/333931827",
+        "way/346450366",
+        "way/349876630",
+        "way/349876631",
+        "way/349876632"
+      ]
+    },
+    {
+      "id": "phl-franklin-institute",
+      "name": "The Franklin Institute",
+      "model": "phl-franklin-institute",
+      "place": "philadelphia-area",
+      "lng": -75.173123,
+      "lat": 39.958276,
+      "bearing": 9.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q339484",
+      "replaces": [
+        "way/50189935",
+        "way/340218748",
+        "way/348799949",
+        "way/348799950",
+        "way/348799951",
+        "way/348799956",
+        "way/348799961",
+        "way/348861027",
+        "way/348861046",
+        "way/349265879",
+        "way/349265880",
+        "way/349265882",
+        "way/349265906",
+        "way/349325913",
+        "way/349325914"
+      ]
+    },
+    {
+      "id": "phl-lincoln-financial-field",
+      "name": "Lincoln Financial Field",
+      "model": "phl-lincoln-financial-field",
+      "place": "philadelphia-area",
+      "lng": -75.167523,
+      "lat": 39.9008,
+      "bearing": 351,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1052370",
+      "replaces": [
+        "relation/2294758"
+      ]
+    },
+    {
+      "id": "phl-citizens-bank-park",
+      "name": "Citizens Bank Park",
+      "model": "phl-citizens-bank-park",
+      "place": "philadelphia-area",
+      "lng": -75.166491,
+      "lat": 39.90595,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q912770",
+      "replaces": [
+        "relation/1348884",
+        "way/92483436",
+        "way/92483440",
+        "way/255596565",
+        "way/255596566",
+        "way/255596569"
+      ]
+    },
+    {
+      "id": "phl-xfinity-mobile-arena",
+      "name": "Xfinity Mobile Arena",
+      "model": "phl-xfinity-mobile-arena",
+      "place": "philadelphia-area",
+      "lng": -75.171919,
+      "lat": 39.901166,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q818735",
+      "replaces": [
+        "way/25312366"
+      ]
+    },
+    {
+      "id": "phl-cira-centre",
+      "name": "Cira Centre",
+      "model": "phl-cira-centre",
+      "place": "philadelphia-area",
+      "lng": -75.182432,
+      "lat": 39.957332,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/333367697"
+      ],
+      "wikidata": "Q5121334"
+    },
+    {
+      "id": "phl-fmc-tower",
+      "name": "FMC Tower at Cira Centre South",
+      "model": "phl-fmc-tower",
+      "place": "philadelphia-area",
+      "lng": -75.183525,
+      "lat": 39.952051,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/748885496",
+        "way/748885493",
+        "way/748885492"
+      ]
+    },
+    {
+      "id": "phl-franklin-field",
+      "name": "Franklin Field",
+      "model": "phl-franklin-field",
+      "place": "philadelphia-area",
+      "lng": -75.18997,
+      "lat": 39.95007,
+      "bearing": 42.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/665447049",
+        "way/624597559"
+      ],
+      "wikidata": "Q5491503"
+    },
+    {
+      "id": "phl-psfs-building",
+      "name": "PSFS Building",
+      "model": "phl-psfs-building",
+      "place": "philadelphia-area",
+      "lng": -75.160323,
+      "lat": 39.951415,
+      "bearing": 9.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1548457",
+      "replaces": [
+        "relation/4785217",
+        "way/42784724",
+        "way/336594398",
+        "way/338481671",
+        "way/338426266",
+        "way/336594399",
+        "way/338329002",
+        "way/338329003",
+        "way/336594395",
+        "way/338426267",
+        "way/333012751",
+        "way/336594397"
+      ]
+    },
+    {
+      "id": "phl-wanamaker-building",
+      "name": "Wanamaker Building",
+      "model": "phl-wanamaker-building",
+      "place": "philadelphia-area",
+      "lng": -75.162149,
+      "lat": 39.951401,
+      "bearing": 9.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/198674659",
+        "way/785232307",
+        "way/336681364",
+        "way/336681365",
+        "way/336681366",
+        "way/354994854",
+        "way/354994855"
+      ]
+    },
+    {
+      "id": "phl-reading-terminal",
+      "name": "Reading Terminal Market",
+      "model": "phl-reading-terminal",
+      "place": "philadelphia-area",
+      "lng": -75.159048,
+      "lat": 39.953148,
+      "bearing": 9.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/4755514",
+        "way/42784822",
+        "way/335828056",
+        "way/336110703",
+        "way/335512395",
+        "way/335293079",
+        "way/335828068",
+        "way/335828066"
+      ]
+    },
+    {
+      "id": "phl-boathouse-row",
+      "name": "Boathouse Row",
+      "model": "phl-boathouse-row",
+      "place": "philadelphia-area",
+      "lng": -75.187806,
+      "lat": 39.969496,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2907541",
+      "replaces": [
+        "way/60945644",
+        "way/60945643",
+        "way/60945642",
+        "way/60945641",
+        "way/60945640",
+        "way/60945645",
+        "way/664678411",
+        "way/60945636",
+        "way/60945635",
+        "way/60945611",
+        "way/664678412",
+        "way/60945610"
+      ]
+    },
+    {
+      "id": "phl-eastern-state-penitentiary",
+      "name": "Eastern State Penitentiary",
+      "model": "phl-eastern-state-penitentiary",
+      "place": "philadelphia-area",
+      "lng": -75.17266,
+      "lat": 39.96834,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q489417",
+      "replaces": [
+        "relation/19277077",
+        "way/50193080",
+        "way/1408585768",
+        "way/1408585769",
+        "way/1408585770",
+        "way/1408585771",
+        "way/75450143",
+        "way/1408585762"
+      ]
+    },
+    {
+      "id": "phl-girard-college-founders-hall",
+      "name": "Founder's Hall, Girard College",
+      "model": "phl-girard-college-founders-hall",
+      "place": "philadelphia-area",
+      "lng": -75.170093,
+      "lat": 39.974061,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/49891387"
+      ]
+    },
+    {
+      "id": "phl-memorial-hall",
+      "name": "Memorial Hall",
+      "model": "phl-memorial-hall",
+      "place": "philadelphia-area",
+      "lng": -75.209047,
+      "lat": 39.979462,
+      "bearing": 25.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/49916202"
+      ]
     }
   ],
   "places": [
@@ -42957,6 +47378,11 @@
     {
       "id": "atlanta-area",
       "name": "Atlanta area",
+      "kind": "region"
+    },
+    {
+      "id": "philadelphia-area",
+      "name": "Philadelphia area",
       "kind": "region"
     },
     {
