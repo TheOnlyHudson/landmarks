@@ -31466,6 +31466,75 @@
       ],
       "file": "models/phl-girard-college-founders-hall.glb",
       "source": "generators/phl-girard-college-founders-hall.ts"
+    },
+    {
+      "id": "phl-memorial-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "beaux-arts",
+        "museum",
+        "exposition"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Memorial Hall (1876), the art gallery of the Centennial Exhibition and today the Please Touch Museum: a granite Beaux-Arts hall with a three-arched entrance pavilion, open arcades, four corner pavilions and a green ribbed glass-and-iron dome crowned by Columbia.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Memorial Hall - January 2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Memorial_Hall_-_January_2010.jpg",
+          "author": "Frederikto",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Memorial Hall on Beautiful Summer Day.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Memorial_Hall_on_Beautiful_Summer_Day.jpg",
+          "author": "Oreos4everyone",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia Memorial Hall 0013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Memorial_Hall_0013.jpg",
+          "author": "Foolish Productions Photography",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Memorial Hall in Fairmount Park, Philadelphia, PA.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Memorial_Hall_in_Fairmount_Park,_Philadelphia,_PA.JPG",
+          "author": "Ngilmour3",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "AERIAL VIEW, LOOKING NORTHWEST. - International Exposition of 1876, Memorial Hall (HABS PA,51-PHILA,265B-34)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_NORTHWEST._-_International_Exposition_of_1876,_Memorial_Hall,_Belmont_Avenue,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,265B-34.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "AERIAL VIEW, LOOKING NORTHEAST. - International Exposition of 1876, Memorial Hall (HABS PA,51-PHILA,265B-33)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_NORTHEAST._-_International_Exposition_of_1876,_Memorial_Hall,_Belmont_Avenue,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,265B-33.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-memorial-hall.glb",
+      "source": "generators/phl-memorial-hall.ts"
     }
   ],
   "landmarks": [
@@ -47232,6 +47301,20 @@
       "minzoom": 15,
       "replaces": [
         "way/49891387"
+      ]
+    },
+    {
+      "id": "phl-memorial-hall",
+      "name": "Memorial Hall",
+      "model": "phl-memorial-hall",
+      "place": "philadelphia-area",
+      "lng": -75.209047,
+      "lat": 39.979462,
+      "bearing": 25.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/49916202"
       ]
     }
   ],
