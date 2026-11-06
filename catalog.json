@@ -30308,6 +30308,62 @@
       ],
       "file": "models/phl-free-library-parkway.glb",
       "source": "generators/phl-free-library-parkway.ts"
+    },
+    {
+      "id": "phl-barnes-foundation",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modern",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The Barnes Foundation on the Parkway (Tod Williams Billie Tsien, 2012): long limestone blocks with the frosted-glass light box over the Light Court, cantilevered over the entrance and lit at night.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Barnes Foundation in Philadelphia (by MyWikiBiz).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Barnes_Foundation_in_Philadelphia_(by_MyWikiBiz).jpg",
+          "author": "Thekohser",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barnes Foundation - Philadelphia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barnes_Foundation_-_Philadelphia.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barnes Philly 1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Barnes_Philly_1.JPG",
+          "author": "Smallbones",
+          "license": "CC0"
+        },
+        {
+          "title": "Barnes Foundation (53574516274).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barnes_Foundation_(53574516274).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/phl-barnes-foundation.glb",
+      "source": "generators/phl-barnes-foundation.ts"
     }
   ],
   "landmarks": [
@@ -45780,6 +45836,25 @@
         "way/349397345",
         "way/349876639",
         "way/349876640"
+      ]
+    },
+    {
+      "id": "phl-barnes-foundation",
+      "name": "Barnes Foundation",
+      "model": "phl-barnes-foundation",
+      "place": "philadelphia-area",
+      "lng": -75.172735,
+      "lat": 39.96062,
+      "bearing": 43.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q808462",
+      "replaces": [
+        "way/183620616",
+        "way/349397315",
+        "way/349397318",
+        "way/952222496",
+        "way/952222505"
       ]
     }
   ],
