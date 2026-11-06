@@ -29946,6 +29946,69 @@
       ],
       "file": "models/phl-masonic-temple.glb",
       "source": "generators/phl-masonic-temple.ts"
+    },
+    {
+      "id": "phl-shot-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "historic",
+        "industrial",
+        "brick",
+        "shot-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q7573713",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Sparks Shot Tower 129-131 Carpenter St Philadelphia PA (DSC 3819)",
+          "url": "https://commons.wikimedia.org/wiki/File:Sparks_Shot_Tower_129-131_Carpenter_St_Philadelphia_PA_(DSC_3819).jpg",
+          "author": "N-gio",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sparks Shot Tower1",
+          "url": "https://commons.wikimedia.org/wiki/File:Sparks_Shot_Tower1.jpg",
+          "author": "Jack E. Boucher (HABS/HAER)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Sparks Shot Tower2",
+          "url": "https://commons.wikimedia.org/wiki/File:Sparks_Shot_Tower2.jpg",
+          "author": "Jack E. Boucher (HABS/HAER)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Sparks Sthot Tower Philly",
+          "url": "https://commons.wikimedia.org/wiki/File:Sparks_Sthot_Tower_Philly.JPG",
+          "author": "Smallbones",
+          "license": "CC0"
+        },
+        {
+          "title": "Shot Tower - Philadelphia (2642788206)",
+          "url": "https://commons.wikimedia.org/wiki/File:Shot_Tower_-_Philadelphia_(2642788206).jpg",
+          "author": "Reading Tom",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/phl-shot-tower.glb",
+      "source": "generators/phl-shot-tower.ts"
     }
   ],
   "landmarks": [
@@ -45332,6 +45395,21 @@
       "minzoom": 15,
       "replaces": [
         "way/309294828"
+      ]
+    },
+    {
+      "id": "phl-shot-tower",
+      "name": "Sparks Shot Tower",
+      "model": "phl-shot-tower",
+      "place": "philadelphia-area",
+      "lng": -75.146341,
+      "lat": 39.934806,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q7573713",
+      "replaces": [
+        "way/705302160"
       ]
     }
   ],
