@@ -30490,6 +30490,91 @@
       ],
       "file": "models/phl-franklin-institute.glb",
       "source": "generators/phl-franklin-institute.ts"
+    },
+    {
+      "id": "phl-lincoln-financial-field",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "nfl",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Lincoln Financial Field (Aerial view)",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field_(Aerial_view).jpg",
+          "author": "Ron Reiring",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Lincoln Financial Field, Philadelphia, Pennsylvania, United States",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field,_Philadelphia,_Pennsylvania,_United_States.jpg",
+          "author": "Dough4872",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lincoln Financial Field and Wells Fargo Center from airplane approaching PHL",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field_and_Wells_Fargo_Center_from_airplane_approaching_PHL.jpeg",
+          "author": "Dough4872",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lincoln Financial Field, Philadelphia, 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field,_Philadelphia,_2024.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lincoln Financial Field, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field,_Philadelphia.jpg",
+          "author": "Betp",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "TheLinc-outside",
+          "url": "https://commons.wikimedia.org/wiki/File:TheLinc-outside.jpg",
+          "author": "Sp. Union-Rail",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "South Philadelphia East, Philadelphia, PA, USA - panoramio (4)",
+          "url": "https://commons.wikimedia.org/wiki/File:South_Philadelphia_East,_Philadelphia,_PA,_USA_-_panoramio_(4).jpg",
+          "author": "Андрей Бобровский",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "South Philadelphia East, Philadelphia, PA, USA - panoramio (19)",
+          "url": "https://commons.wikimedia.org/wiki/File:South_Philadelphia_East,_Philadelphia,_PA,_USA_-_panoramio_(19).jpg",
+          "author": "Андрей Бобровский",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Lincoln Financial Field during 2011 Temple-Penn State game",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field_during_2011_Temple-Penn_State_game.jpg",
+          "author": "Justin Wolfe",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/phl-lincoln-financial-field.glb",
+      "source": "generators/phl-lincoln-financial-field.ts"
     }
   ],
   "landmarks": [
@@ -46030,6 +46115,21 @@
         "way/349265906",
         "way/349325913",
         "way/349325914"
+      ]
+    },
+    {
+      "id": "phl-lincoln-financial-field",
+      "name": "Lincoln Financial Field",
+      "model": "phl-lincoln-financial-field",
+      "place": "philadelphia-area",
+      "lng": -75.167523,
+      "lat": 39.9008,
+      "bearing": 351,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1052370",
+      "replaces": [
+        "relation/2294758"
       ]
     }
   ],
