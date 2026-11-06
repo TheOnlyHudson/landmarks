@@ -28029,6 +28029,81 @@
       ],
       "file": "models/atl-millennium-gate.glb",
       "source": "generators/atl-millennium-gate.ts"
+    },
+    {
+      "id": "phl-comcast-technology-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "supertall",
+        "office",
+        "hotel",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Comcast Technology Center 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Technology_Center_2018.jpg",
+          "author": "TastyPoutine",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Comcast Tech Center 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Tech_Center_2018.jpg",
+          "author": "TastyPoutine",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CTC Tower April 2018 cropped.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:CTC_Tower_April_2018_cropped.jpg",
+          "author": "StuntPilot22",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Comcast Technology Center from Fairmount Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Technology_Center_from_Fairmount_Park.jpg",
+          "author": "Hij802",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Comcast Technology Center c.jpg (series a-g)",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Technology_Center_c.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "A picture of the Comcast Technology Center from north east side in November 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A_picture_of_the_Comcast_Technology_Center_from_north_east_side_in_November_2017.jpg",
+          "author": "TKD7089pro",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View up from the east corner of the Comcast Technology Center",
+          "url": "https://commons.wikimedia.org/wiki/File:2025-08-04_12_39_18_View_up_from_the_east_corner_of_the_Comcast_Technology_Center_in_Philadelphia,_Pennsylvania.jpg",
+          "author": "Famartin",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-comcast-technology-center.glb",
+      "source": "generators/phl-comcast-technology-center.ts"
     }
   ],
   "landmarks": [
@@ -42894,6 +42969,25 @@
         "way/1564296738",
         "way/1564296739",
         "way/1564296740"
+      ]
+    },
+    {
+      "id": "phl-comcast-technology-center",
+      "name": "Comcast Technology Center",
+      "model": "phl-comcast-technology-center",
+      "place": "philadelphia-area",
+      "lng": -75.170396,
+      "lat": 39.955011,
+      "bearing": 9.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/317178904",
+        "way/749649288",
+        "way/749649286",
+        "way/686345701",
+        "way/749649285",
+        "way/749649287"
       ]
     }
   ],
