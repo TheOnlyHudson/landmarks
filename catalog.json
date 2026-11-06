@@ -28404,6 +28404,141 @@
       ],
       "file": "models/phl-fairmount-water-works.glb",
       "source": "generators/phl-fairmount-water-works.ts"
+    },
+    {
+      "id": "phl-30th-street-station",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "train-station",
+        "neoclassical",
+        "art-deco"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q224214",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The west entrance of the 30th Street Station, viewed from John F. Kennedy Boulevard 01",
+          "url": "https://commons.wikimedia.org/wiki/File:The_west_entrance_of_the_30th_Street_Station_serving_Amtrak,_SEPTA,_and_NJ_Transit_trains_in_Philadelphia,_Pennsylvania,_viewed_from_John_F._Kennedy_Boulevard_01.jpg",
+          "author": "Harrison Keely",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "The west entrance of the 30th Street Station, viewed from John F. Kennedy Boulevard 02",
+          "url": "https://commons.wikimedia.org/wiki/File:The_west_entrance_of_the_30th_Street_Station_serving_Amtrak,_SEPTA,_and_NJ_Transit_trains_in_Philadelphia,_Pennsylvania,_viewed_from_John_F._Kennedy_Boulevard_02.jpg",
+          "author": "Harrison Keely",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "30th Street Station east entrance from PA 3 WB",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station_east_entrance_from_PA_3_WB.jpeg",
+          "author": "Dough4872",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "William H. Gray III 30th Street Station (53585709922)",
+          "url": "https://commons.wikimedia.org/wiki/File:William_H._Gray_III_30th_Street_Station_(53585709922).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "30th Street Station Philly",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station_Philly.JPG",
+          "author": "Smallbones",
+          "license": "Public domain"
+        },
+        {
+          "title": "30th Street Station, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station,_Philadelphia.JPG",
+          "author": "Ngilmour3",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "30th Street Station - Philadelphia (2643039316)",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station_-_Philadelphia_(2643039316).jpg",
+          "author": "Reading Tom",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "30th Street Station and Cira Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station_and_Cira_Tower.jpg",
+          "author": "Ii2nmd",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterior of 30th Street Station (DPLA b8e39cab)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_30th_Street_Station_-_DPLA_-_b8e39cabf36ad40226895f46448d7864.jpg",
+          "author": "Stanley Elmore Stady",
+          "license": "Public domain"
+        },
+        {
+          "title": "Exterior of 30th Street Station (DPLA ec108a88)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_30th_Street_Station_-_DPLA_-_ec108a88dca33b9a21c962d110aebb24.jpg",
+          "author": "Stanley Elmore Stady",
+          "license": "Public domain"
+        },
+        {
+          "title": "The Pennsylvania Railroad's new passenger terminal, 30th Street, Philadelphia (Tichnor postcard 61757)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Pennsylvania_Railroad%27s_new_passenger_terminal,_30th_Street,_Philadelphia,_PA_(61757).jpg",
+          "author": "Tichnor Quality Views",
+          "license": "Public domain"
+        },
+        {
+          "title": "HAER PA-71-9, 30th Street Station aerial",
+          "url": "https://commons.wikimedia.org/wiki/File:HAER-30thStreetStation-09.jpg",
+          "author": "Jack Boucher (HAER)",
+          "license": "Public domain"
+        },
+        {
+          "title": "HAER PA-71-10, 30th Street Station aerial",
+          "url": "https://commons.wikimedia.org/wiki/File:Pennsylvania_Railroad-_30th_Street_Station._Philadelphia,_Philadelphia_Co.,_PA._Sec._1101,_MP_88.10._-_Northeast_Railroad_Corridor,_Amtrak_route_between_Delaware-Pennsylvania_HAER_PA,51-PHILA,694-10.tif",
+          "author": "Jack Boucher (HAER)",
+          "license": "Public domain"
+        },
+        {
+          "title": "HAER PA-71-12, 30th Street Station aerial",
+          "url": "https://commons.wikimedia.org/wiki/File:Pennsylvania_Railroad-_30th_Street_Station._Philadelphia,_Philadelphia_Co.,_PA._Sec._1101,_MP_88.10._-_Northeast_Railroad_Corridor,_Amtrak_route_between_Delaware-Pennsylvania_HAER_PA,51-PHILA,694-12.tif",
+          "author": "Jack Boucher (HAER)",
+          "license": "Public domain"
+        },
+        {
+          "title": "30th Street Station Philadelphia July 2016 001 (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station_Philadelphia_July_2016_001.jpg",
+          "author": "King of Hearts",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "30th Street Station, Philadelphia (14946959392) (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station,_Philadelphia_(14946959392).jpg",
+          "author": "Billie Grace Ward",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "30thStreet01LB (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:30thStreet01LB.jpg",
+          "author": "Lesbardd",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-30th-street-station.glb",
+      "source": "generators/phl-30th-street-station.ts"
     }
   ],
   "landmarks": [
@@ -43369,6 +43504,23 @@
         "way/74728259",
         "way/74728242",
         "way/74728261"
+      ]
+    },
+    {
+      "id": "phl-30th-street-station",
+      "name": "30th Street Station",
+      "model": "phl-30th-street-station",
+      "place": "philadelphia-area",
+      "lng": -75.182025,
+      "lat": 39.956019,
+      "bearing": 9.2,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q224214",
+      "replaces": [
+        "way/32272623",
+        "way/749651799",
+        "way/749651800"
       ]
     }
   ],
