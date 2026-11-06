@@ -29033,6 +29033,62 @@
       ],
       "file": "models/phl-comcast-center.glb",
       "source": "generators/phl-comcast-center.ts"
+    },
+    {
+      "id": "phl-bny-mellon-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q2743527",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mellon Bank Center (Philadelphia)-zoom.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Mellon_Bank_Center_(Philadelphia)-zoom.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Mellon Bank Center (Philadelphia)-wide.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Mellon_Bank_Center_(Philadelphia)-wide.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "BNY Mellon Bank Center a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BNY_Mellon_Bank_Center_a.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "BNY Mellon Bank Center h.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BNY_Mellon_Bank_Center_h.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        }
+      ],
+      "file": "models/phl-bny-mellon-center.glb",
+      "source": "generators/phl-bny-mellon-center.ts"
     }
   ],
   "landmarks": [
@@ -44151,6 +44207,29 @@
         "way/336855448",
         "way/336875907",
         "way/336875908"
+      ]
+    },
+    {
+      "id": "phl-bny-mellon-center",
+      "name": "BNY Mellon Center",
+      "model": "phl-bny-mellon-center",
+      "place": "philadelphia-area",
+      "wikidata": "Q2743527",
+      "lng": -75.16952,
+      "lat": 39.953647,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/42785094",
+        "way/332801483",
+        "way/332801484",
+        "way/332801485",
+        "way/336875905",
+        "way/336875903",
+        "way/336875904",
+        "way/336855444",
+        "way/336855454"
       ]
     }
   ],
