@@ -30876,6 +30876,68 @@
       ],
       "file": "models/phl-fmc-tower.glb",
       "source": "generators/phl-fmc-tower.ts"
+    },
+    {
+      "id": "phl-franklin-field",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "historic",
+        "university",
+        "football",
+        "brick"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Franklin Field, Philadelphia, 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Field,_Philadelphia,_2024.jpg",
+          "author": "JJonahJackalope",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Franklin Field (Philadelphia)-exterior.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Field_(Philadelphia)-exterior.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Football Practice on Franklin Field - University of Pennsylvania - Philadelphia - Pennsylvania.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Football_Practice_on_Franklin_Field_-_University_of_Pennsylvania_-_Philadelphia_-_Pennsylvania.jpg",
+          "author": "Adam Jones, Ph.D.",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Franklin Field, Penn.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Field,_Penn.jpg",
+          "author": "Phil Roeder",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Franklin Field aerial.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Field_aerial.jpg",
+          "author": "NASA World Wind",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-franklin-field.glb",
+      "source": "generators/phl-franklin-field.ts"
     }
   ],
   "landmarks": [
@@ -46498,6 +46560,22 @@
         "way/748885493",
         "way/748885492"
       ]
+    },
+    {
+      "id": "phl-franklin-field",
+      "name": "Franklin Field",
+      "model": "phl-franklin-field",
+      "place": "philadelphia-area",
+      "lng": -75.18997,
+      "lat": 39.95007,
+      "bearing": 42.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/665447049",
+        "way/624597559"
+      ],
+      "wikidata": "Q5491503"
     }
   ],
   "places": [
