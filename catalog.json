@@ -29822,6 +29822,68 @@
       ],
       "file": "models/phl-lincoln-liberty-building.glb",
       "source": "generators/phl-lincoln-liberty-building.ts"
+    },
+    {
+      "id": "phl-bellevue-stratford",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "hotel",
+        "french-renaissance",
+        "mansard"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "General view from southeast - Bellevue-Stratford Hotel (HABS PA-1226)",
+          "url": "https://commons.wikimedia.org/wiki/File:GENERAL_VIEW_FROM_SOUTHEAST_-_Bellevue-Stratford_Hotel,_Broad_and_Walnut_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,344-1.tif",
+          "author": "Jack E. Boucher, Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Upper stories and roof, east front - Bellevue-Stratford Hotel (HABS PA-1226)",
+          "url": "https://commons.wikimedia.org/wiki/File:UPPER_STORIES_AND_ROOF,_EAST_FRONT_-_Bellevue-Stratford_Hotel,_Broad_and_Walnut_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,344-2.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Upper stories and roof, south side - Bellevue-Stratford Hotel (HABS PA-1226)",
+          "url": "https://commons.wikimedia.org/wiki/File:UPPER_STORIES_AND_ROOF,_SOUTH_SIDE_-_Bellevue-Stratford_Hotel,_Broad_and_Walnut_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,344-3.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "View of Broad Street facade - Bellevue-Stratford Hotel (HABS PA-1226)",
+          "url": "https://commons.wikimedia.org/wiki/File:VIEW_OF_BROAD_STREET_FACADE_-_Bellevue-Stratford_Hotel,_Broad_and_Walnut_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,344-35_(CT).tif",
+          "author": "Jack E. Boucher, Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Bellevue-Stratford Hotel Buc1977",
+          "url": "https://commons.wikimedia.org/wiki/File:Bellevue-Stratford_Hotel_Buc1977.jpg",
+          "author": "Buccaneer1977",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/phl-bellevue-stratford.glb",
+      "source": "generators/phl-bellevue-stratford.ts"
     }
   ],
   "landmarks": [
@@ -45180,6 +45242,20 @@
         "way/337052603",
         "way/341324299",
         "way/341324300"
+      ]
+    },
+    {
+      "id": "phl-bellevue-stratford",
+      "name": "The Bellevue",
+      "model": "phl-bellevue-stratford",
+      "place": "philadelphia-area",
+      "lng": -75.164865,
+      "lat": 39.949088,
+      "bearing": 9.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/334239470"
       ]
     }
   ],
