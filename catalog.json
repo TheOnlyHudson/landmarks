@@ -30938,6 +30938,112 @@
       ],
       "file": "models/phl-franklin-field.glb",
       "source": "generators/phl-franklin-field.ts"
+    },
+    {
+      "id": "phl-psfs-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "international-style",
+        "skyscraper",
+        "hotel",
+        "neon-sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1548457",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "PSFS Building 1985",
+          "url": "https://commons.wikimedia.org/wiki/File:PSFSBuilding1985.jpg",
+          "author": "Jack E. Boucher (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "PSFS, elevated view of east and north facades (HABS PA-1533)",
+          "url": "https://commons.wikimedia.org/wiki/File:ELEVATED_VIEW_SHOWING_MOST_OF_EAST_AND_NORTH_FACADES_FROM_ROOF_OF_READING_TERMINAL_-_Philadelphia_Saving_Fund_Society,_Twelfth_and_Market_Streets,_Philadelphia,_HABS_PA,51-PHILA,584-36_(CT).tif",
+          "author": "Jack E. Boucher (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "PSFS, elevated view of west facade (HABS PA-1533)",
+          "url": "https://commons.wikimedia.org/wiki/File:ELEVATED_VIEW_SHOWING_WEST_FACADE_OF_BUILDING_AND_SURROUNDING_AREA_-_Philadelphia_Saving_Fund_Society,_Twelfth_and_Market_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,584-38_(CT).tif",
+          "author": "Jack E. Boucher (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "PSFS, east facade from Eleventh and Market (HABS PA-1533)",
+          "url": "https://commons.wikimedia.org/wiki/File:EAST_FACADE_AS_SEEN_FROM_ELEVENTH_AND_MARKET_STREETS_-_Philadelphia_Saving_Fund_Society,_Twelfth_and_Market_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,584-35_(CT).tif",
+          "author": "Jack E. Boucher (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rendering of PSFS Building by D. E. Sutton (HABS PA-1533)",
+          "url": "https://commons.wikimedia.org/wiki/File:PHOTOCOPY_OF_RENDERING_OF_PSFS_BUILDING_BY_D.E._SUTTON._Date_possibly_1929_or_1930,_when_construction_started._-_Philadelphia_Saving_Fund_Society,_Twelfth_and_Market_Streets,_HABS_PA,51-PHILA,584-1.tif",
+          "author": "D. E. Sutton (HABS photocopy)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Loews Philadelphia Hotel 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Loews_Philadelphia_Hotel_1.jpg",
+          "author": "Wobbanight",
+          "license": "CC0"
+        },
+        {
+          "title": "Loews Philadelphia Hotel 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Loews_Philadelphia_Hotel_2.jpg",
+          "author": "Wobbanight",
+          "license": "CC0"
+        },
+        {
+          "title": "PSFS Building - 1200 Market St",
+          "url": "https://commons.wikimedia.org/wiki/File:PSFS_Building_-_1200_Market_St.JPG",
+          "author": "ProfReader",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "PSFS-MarketSt",
+          "url": "https://commons.wikimedia.org/wiki/File:PSFS-MarketSt.JPG",
+          "author": "Absecon 59",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "PSFS top",
+          "url": "https://commons.wikimedia.org/wiki/File:PSFS_top.jpg",
+          "author": "AEngineer",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "PSFS sign",
+          "url": "https://commons.wikimedia.org/wiki/File:PSFSsign.jpg",
+          "author": "AEngineer",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Aerial view of Philadelphia, Pennsylvania (dusk, from City Hall)",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Philadelphia,_Pennsylvania_LCCN2011633562.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-psfs-building.glb",
+      "source": "generators/phl-psfs-building.ts"
     }
   ],
   "landmarks": [
@@ -46576,6 +46682,32 @@
         "way/624597559"
       ],
       "wikidata": "Q5491503"
+    },
+    {
+      "id": "phl-psfs-building",
+      "name": "PSFS Building",
+      "model": "phl-psfs-building",
+      "place": "philadelphia-area",
+      "lng": -75.160323,
+      "lat": 39.951415,
+      "bearing": 9.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1548457",
+      "replaces": [
+        "relation/4785217",
+        "way/42784724",
+        "way/336594398",
+        "way/338481671",
+        "way/338426266",
+        "way/336594399",
+        "way/338329002",
+        "way/338329003",
+        "way/336594395",
+        "way/338426267",
+        "way/333012751",
+        "way/336594397"
+      ]
     }
   ],
   "places": [
