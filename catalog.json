@@ -30246,6 +30246,68 @@
       ],
       "file": "models/phl-love-park.glb",
       "source": "generators/phl-love-park.ts"
+    },
+    {
+      "id": "phl-free-library-parkway",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "library",
+        "historic",
+        "beaux-arts"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The Parkway Central Library of the Free Library of Philadelphia (Horace Trumbauer and Julian Abele, 1917-27) on Logan Square: a Corinthian loggia between two pedimented pavilions over a rusticated base, after the Place de la Concorde.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "SOUTH FRONT ELEVATION - Free Library of Philadelphia, Central Library (HABS PA-6749-2)",
+          "url": "https://commons.wikimedia.org/wiki/File:SOUTH_FRONT_ELEVATION_-_Free_Library_of_Philadelphia,_Central_Library,_1901_Vine_Street,_Philadelphia,_Philadelphia_County,_PA_HABS_PA-6749-2.tif",
+          "author": "Joseph Elliott (Historic American Buildings Survey)",
+          "license": "Public domain"
+        },
+        {
+          "title": "WEST SIDE ELEVATION - Free Library of Philadelphia, Central Library (HABS PA-6749-4)",
+          "url": "https://commons.wikimedia.org/wiki/File:WEST_SIDE_ELEVATION_-_Free_Library_of_Philadelphia,_Central_Library,_1901_Vine_Street,_Philadelphia,_Philadelphia_County,_PA_HABS_PA-6749-4.tif",
+          "author": "Joseph Elliott (Historic American Buildings Survey)",
+          "license": "Public domain"
+        },
+        {
+          "title": "PERSPECTIVE VIEW OF LIBRARY IN ENVIRONMENT CONTEXT (HABS PA-6749-1)",
+          "url": "https://commons.wikimedia.org/wiki/File:PERSPECTIVE_VIEW_OF_LIBRARY_IN_ENVIRONMENT_CONTEXT,_LOOKING_NORTHEAST_FROM_THE_ROOF_OF_THE_FRANKLIN_INSTITUTE_-_Free_Library_of_Philadelphia,_Central_Library,_1901_Vine_Street,_HABS_PA-6749-1.tif",
+          "author": "Joseph Elliott (Historic American Buildings Survey)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Philadelphia October 2017 06 (Free Library of Philadelphia Parkway Central Library).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_October_2017_06_(Free_Library_of_Philadelphia_Parkway_Central_Library).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Free Library of Philadelphia Front 3008px.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Free_Library_of_Philadelphia_Front_3008px.jpg",
+          "author": "Derek Ramsey (Ram-Man)",
+          "license": "CC BY-SA 2.5"
+        }
+      ],
+      "file": "models/phl-free-library-parkway.glb",
+      "source": "generators/phl-free-library-parkway.ts"
     }
   ],
   "landmarks": [
@@ -45699,6 +45761,25 @@
       "replaces": [
         "way/349876653",
         "way/349876654"
+      ]
+    },
+    {
+      "id": "phl-free-library-parkway",
+      "name": "Parkway Central Library",
+      "model": "phl-free-library-parkway",
+      "place": "philadelphia-area",
+      "lng": -75.171018,
+      "lat": 39.959592,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q48977201",
+      "replaces": [
+        "way/32122450",
+        "way/343581381",
+        "way/349397345",
+        "way/349876639",
+        "way/349876640"
       ]
     }
   ],
