@@ -28104,6 +28104,111 @@
       ],
       "file": "models/phl-comcast-technology-center.glb",
       "source": "generators/phl-comcast-technology-center.ts"
+    },
+    {
+      "id": "phl-city-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "civic",
+        "second-empire",
+        "clock-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1138183",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Philadelphia City Hall, aerial view, cropped",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall,_aerial_view,_cropped.png",
+          "author": "Toniklemm",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia city hall",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_city_hall.jpg",
+          "author": "Toniklemm",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia City Hall, Tower (S Broad St View)",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall,_Tower(S_Broad_St_View).jpg",
+          "author": "Zhicheng Zhao",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia City Hall South",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_South.jpg",
+          "author": "Magiluke",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia City Hall Cloudy",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_Cloudy.jpg",
+          "author": "Nate Lee",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia City Hall - 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_-_3.JPG",
+          "author": "Max Binder",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "City Hall and Masonic Temple, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:City_Hall_and_Masonic_Temple,_Philadelphia.jpg",
+          "author": "Peetlesnumber1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "City Hall, Philadelphia PA",
+          "url": "https://commons.wikimedia.org/wiki/File:City_Hall,_Philadelphia_PA.jpg",
+          "author": "John Phelan",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Philadelphia City Hall courtyard",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_courtyard.jpg",
+          "author": "Nickvud",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia City Hall at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_at_night.jpg",
+          "author": "David Torres",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Spectacular Philadelphia City Hall",
+          "url": "https://commons.wikimedia.org/wiki/File:Spectacular_Philadelphia_City_Hall.jpg",
+          "author": "Weizheng Fang",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "HABS PA-1530, The New Public Buildings (Philadelphia City Hall)",
+          "url": "https://www.loc.gov/item/pa1054/",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-city-hall.glb",
+      "source": "generators/phl-city-hall.ts"
     }
   ],
   "landmarks": [
@@ -42988,6 +43093,50 @@
         "way/686345701",
         "way/749649285",
         "way/749649287"
+      ]
+    },
+    {
+      "id": "phl-city-hall",
+      "name": "Philadelphia City Hall",
+      "model": "phl-city-hall",
+      "place": "philadelphia-area",
+      "lng": -75.16359,
+      "lat": 39.952413,
+      "bearing": 9.2,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q1138183",
+      "replaces": [
+        "relation/4720912",
+        "way/333316163",
+        "way/333316164",
+        "way/333316165",
+        "way/333316166",
+        "way/333316168",
+        "way/333316169",
+        "way/333316170",
+        "way/333316171",
+        "way/335828082",
+        "way/335828083",
+        "way/335828084",
+        "way/335828086",
+        "way/335828087",
+        "way/335828088",
+        "way/335828089",
+        "way/335828090",
+        "way/335828091",
+        "way/335828092",
+        "way/336681405",
+        "way/336681406",
+        "way/336855470",
+        "way/336855471",
+        "way/336855472",
+        "way/336855473",
+        "way/336855474",
+        "way/336855475",
+        "way/354994858",
+        "way/369003677",
+        "way/369003678"
       ]
     }
   ],
