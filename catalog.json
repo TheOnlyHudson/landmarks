@@ -30364,6 +30364,69 @@
       ],
       "file": "models/phl-barnes-foundation.glb",
       "source": "generators/phl-barnes-foundation.ts"
+    },
+    {
+      "id": "phl-cathedral-basilica",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "cathedral",
+        "church",
+        "historic",
+        "renaissance-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The brownstone Cathedral Basilica of Saints Peter and Paul on Logan Square (1846-64): the Corinthian temple front between round-cornered pavilions, and the green copper dome with its dormers, lantern and gilt cross.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "2013 Cathedral Basilica of Saints Peter and Paul front facade.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2013_Cathedral_Basilica_of_Saints_Peter_and_Paul_front_facade.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2013 Cathedral Basilica of Saints Peter and Paul from side.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2013_Cathedral_Basilica_of_Saints_Peter_and_Paul_from_side.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2013 Cathedral Basilica of Saints Peter and Paul from across the Benjamin Franklin Parkway.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2013_Cathedral_Basilica_of_Saints_Peter_and_Paul_from_across_the_Benjamin_Franklin_Parkway.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cathedral Basilica of Saints Peter and Paul, Philadelphia, PA.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Basilica_of_Saints_Peter_and_Paul,_Philadelphia,_PA.JPG",
+          "author": "Ngilmour3",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cathedral Basilica of Saints Peter and Paul dome - Philadelphia 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Basilica_of_Saints_Peter_and_Paul_dome_-_Philadelphia_01.jpg",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-cathedral-basilica.glb",
+      "source": "generators/phl-cathedral-basilica.ts"
     }
   ],
   "landmarks": [
@@ -45855,6 +45918,26 @@
         "way/349397318",
         "way/952222496",
         "way/952222505"
+      ]
+    },
+    {
+      "id": "phl-cathedral-basilica",
+      "name": "Cathedral Basilica of Saints Peter and Paul",
+      "model": "phl-cathedral-basilica",
+      "place": "philadelphia-area",
+      "lng": -75.168507,
+      "lat": 39.957427,
+      "bearing": 10,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5052192",
+      "replaces": [
+        "way/252221811",
+        "way/333931827",
+        "way/346450366",
+        "way/349876630",
+        "way/349876631",
+        "way/349876632"
       ]
     }
   ],
