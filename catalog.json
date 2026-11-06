@@ -28786,6 +28786,99 @@
       ],
       "file": "models/phl-independence-hall.glb",
       "source": "generators/phl-independence-hall.ts"
+    },
+    {
+      "id": "phl-congress-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "georgian",
+        "museum",
+        "world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q917636",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "2015 Congress Hall - Philadelphia 01",
+          "url": "https://commons.wikimedia.org/wiki/File:2015_Congress_Hall_-_Philadelphia_01.JPG",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2015 Congress Hall - Philadelphia 02",
+          "url": "https://commons.wikimedia.org/wiki/File:2015_Congress_Hall_-_Philadelphia_02.JPG",
+          "author": "Farragutful",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Congress Hall SE side",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall_SE_side.jpg",
+          "author": "Ben Franske",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Congress Hall West side",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall_West_side.jpg",
+          "author": "Ben Franske",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Congress Hall (53590490584)",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall_(53590490584).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Congress Hall at twilight",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall_at_twilght.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Congress Hall exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall_exterior.jpg",
+          "author": "tim eschaton",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Congress Hall - Philadelphia (2642813566)",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall_-_Philadelphia_(2642813566).jpg",
+          "author": "Reading Tom",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Independence Hall, Congress Hall and Public Ledger Building",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall,_Congress_Hall_and_Public_Ledger_Building.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "HABS PA-1431, Congress Hall (sheets 2, 16 of 35)",
+          "url": "https://commons.wikimedia.org/wiki/File:Congress_Hall,_Sixth_and_Chestnut_Streets,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,6A-_(sheet_2_of_35).png",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-congress-hall.glb",
+      "source": "generators/phl-congress-hall.ts"
     }
   ],
   "landmarks": [
@@ -43843,6 +43936,24 @@
         "way/335689536",
         "way/335689537",
         "way/336004603"
+      ]
+    },
+    {
+      "id": "phl-congress-hall",
+      "name": "Congress Hall",
+      "model": "phl-congress-hall",
+      "place": "philadelphia-area",
+      "lng": -75.150645,
+      "lat": 39.948979,
+      "bearing": 9.1,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q917636",
+      "replaces": [
+        "way/40083518",
+        "way/335771285",
+        "way/335771286",
+        "way/335771287"
       ]
     }
   ],
