@@ -29139,6 +29139,49 @@
       ],
       "file": "models/phl-three-logan-square.glb",
       "source": "generators/phl-three-logan-square.ts"
+    },
+    {
+      "id": "phl-one-commerce-square",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Commerce Square cropped.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Commerce_Square_cropped.jpg",
+          "author": "GardenStreetBridgeSchuylkillRiverSkyline",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Commerce Square Philadelphia a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Commerce_Square_Philadelphia_a.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        }
+      ],
+      "file": "models/phl-one-commerce-square.glb",
+      "source": "generators/phl-one-commerce-square.ts"
     }
   ],
   "landmarks": [
@@ -44307,6 +44350,30 @@
         "way/343340496",
         "way/343374515",
         "way/343374518"
+      ]
+    },
+    {
+      "id": "phl-one-commerce-square",
+      "name": "One Commerce Square",
+      "model": "phl-one-commerce-square",
+      "place": "philadelphia-area",
+      "lng": -75.174604,
+      "lat": 39.954272,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/333939821",
+        "way/333316060",
+        "way/333434760",
+        "way/333316061",
+        "way/333316062",
+        "way/333316063",
+        "way/333316068",
+        "way/335570957",
+        "way/333434758",
+        "way/333316064",
+        "way/344020956"
       ]
     }
   ],
