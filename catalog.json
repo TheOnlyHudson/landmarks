@@ -30091,6 +30091,86 @@
       ],
       "file": "models/phl-battleship-new-jersey.glb",
       "source": "generators/phl-battleship-new-jersey.ts"
+    },
+    {
+      "id": "phl-museum-american-revolution",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "brick",
+        "neo-georgian",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Museum of the American Revolution (53590618560)",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution_(53590618560).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Museum of the American Revolution, Philadelphia PA, 2022",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution,_Philadelphia_PA,_2022.jpg",
+          "author": "Kreuz und quer",
+          "license": "CC0"
+        },
+        {
+          "title": "Museum of the American Revolution, Philadelphia PA, 2022 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution,_Philadelphia_PA,_2022_2.jpg",
+          "author": "Kreuz und quer",
+          "license": "CC0"
+        },
+        {
+          "title": "Museum of the American Revolution, Philadelphia PA, 2022 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution,_Philadelphia_PA,_2022_3.jpg",
+          "author": "Kreuz und quer",
+          "license": "CC0"
+        },
+        {
+          "title": "Museum of the American Revolution - Joy of Museums 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution_-_Joy_of_Museums_2.jpg",
+          "author": "GordonMakryllos",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museum of the American Revolution - Joy of Museums 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution_-_Joy_of_Museums_3.jpg",
+          "author": "GordonMakryllos",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museum of the American Revolution by Joy of Museums",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution_by_Joy_of_Museums.jpg",
+          "author": "Joyofmuseums",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museum of the American Revolution",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Revolution.jpg",
+          "author": "Frances 84 28",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-museum-american-revolution.glb",
+      "source": "generators/phl-museum-american-revolution.ts"
     }
   ],
   "landmarks": [
@@ -45514,6 +45594,20 @@
         "way/857248284",
         "way/857248285",
         "way/857248286"
+      ]
+    },
+    {
+      "id": "phl-museum-american-revolution",
+      "name": "Museum of the American Revolution",
+      "model": "phl-museum-american-revolution",
+      "place": "philadelphia-area",
+      "lng": -75.145657,
+      "lat": 39.948174,
+      "bearing": 10.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/705309586"
       ]
     }
   ],
