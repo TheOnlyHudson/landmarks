@@ -28312,6 +28312,98 @@
       ],
       "file": "models/phl-museum-of-art.glb",
       "source": "generators/phl-museum-of-art.ts"
+    },
+    {
+      "id": "phl-fairmount-water-works",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "water-works",
+        "greek-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Frederick Graff's Fairmount Water Works (1812-72) on the Schuylkill below the Museum of Art: the granite mill houses rising out of the river, their balustraded terrace and its white Greek Revival pavilions, the Engine House, and the New Mill House against the dam.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "AERIAL VIEW, LOOKING EAST. - Fairmount Waterworks (HABS PA,51-PHILA,328-15)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_EAST._-_Fairmount_Waterworks,_Aquarium_Drive,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,328-15.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "AERIAL VIEW, LOOKING NORTHEAST. - Fairmount Waterworks (HABS PA,51-PHILA,328-16)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_NORTHEAST._-_Fairmount_Waterworks,_Aquarium_Drive,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,328-16.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "AERIAL VIEW, LOOKING SOUTHEAST. - Fairmount Waterworks (HABS PA,51-PHILA,328-14)",
+          "url": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW,_LOOKING_SOUTHEAST._-_Fairmount_Waterworks,_Aquarium_Drive,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,328-14.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "View looking south, showing North Entrance House and central Pavilion (HAER PA,51-PHILA,328-8)",
+          "url": "https://commons.wikimedia.org/wiki/File:VIEW_LOOKING_SOUTH,_SHOWING_NORTH_ENTRANCE_HOUSE_AND_CENTRAL_PAVILION,_WITH_SOUTH_ENTRANCE_HOUSE_AND_ENGINE_HOUSE_BEYOND_-_Fairmount_Waterworks,_East_bank_of_Schuylkill_River,_HAER_PA,51-PHILA,328-8.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "View looking west, land facade of Engine House (HAER PA,51-PHILA,328-18)",
+          "url": "https://commons.wikimedia.org/wiki/File:VIEW_LOOKING_WEST,_LAND_FACADE_OF_ENGINE_HOUSE_-_Fairmount_Waterworks,_East_bank_of_Schuylkill_River,_Aquarium_Drive,_Philadelphia,_Philadelphia_County,_PA_HAER_PA,51-PHILA,328-18.tif",
+          "author": "Jack E. Boucher",
+          "license": "Public domain"
+        },
+        {
+          "title": "DSC05845 (1)Fairmount Water Works from the Schuykill River.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DSC05845_(1)Fairmount_Water_Works_from_the_Schuykill_River.jpg",
+          "author": "Librarian1984",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fairmount Water Works on a Cloudy Day.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fairmount_Water_Works_on_a_Cloudy_Day.jpg",
+          "author": "Goldpanda94",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fairmount Water Works and Philadelphia Art Museum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fairmount_Water_Works_and_Philadelphia_Art_Museum.jpg",
+          "author": "Laura Klotz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fairmount Water Works at dusk.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fairmount_Water_Works_at_dusk.jpg",
+          "author": "SkipL",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art & Fairmount Water Works.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art_%26_Fairmount_Water_Works.jpg",
+          "author": "Zhicheng Zhao",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-fairmount-water-works.glb",
+      "source": "generators/phl-fairmount-water-works.ts"
     }
   ],
   "landmarks": [
@@ -43255,6 +43347,28 @@
       "wikidata": "Q510324",
       "replaces": [
         "way/28533972"
+      ]
+    },
+    {
+      "id": "phl-fairmount-water-works",
+      "name": "Fairmount Water Works",
+      "model": "phl-fairmount-water-works",
+      "place": "philadelphia-area",
+      "lng": -75.183648,
+      "lat": 39.966381,
+      "bearing": 352.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5430659",
+      "replaces": [
+        "relation/11817436",
+        "way/865740088",
+        "way/865740087",
+        "way/865740089",
+        "way/74728243",
+        "way/74728259",
+        "way/74728242",
+        "way/74728261"
       ]
     }
   ],
