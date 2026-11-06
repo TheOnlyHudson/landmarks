@@ -30575,6 +30575,92 @@
       ],
       "file": "models/phl-lincoln-financial-field.glb",
       "source": "generators/phl-lincoln-financial-field.ts"
+    },
+    {
+      "id": "phl-citizens-bank-park",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "baseball",
+        "mlb",
+        "contemporary",
+        "neon-sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Citizens Bank Park 2021",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizens_Bank_Park_2021.jpg",
+          "author": "Chris6d",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Citizens Bank Park - Wide View",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizens_Bank_Park_-_Wide_View.jpg",
+          "author": "Caleb Spicer",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Citizens Bank Park, May 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizens_Bank_Park,_May_2009.jpg",
+          "author": "Bruce C. Cooper",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Citizens Bank Park (20878675372)",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizens_Bank_Park_(20878675372).jpg",
+          "author": "redlegsfan21",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Phillies vs Dodgers 2017 23",
+          "url": "https://commons.wikimedia.org/wiki/File:Phillies_vs_Dodgers_2017_23.jpg",
+          "author": "Peetlesnumber1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Citizens Bank Park (2371206461)",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizens_Bank_Park_(2371206461).jpg",
+          "author": "Peter Bond",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "S8000749",
+          "url": "https://commons.wikimedia.org/wiki/File:S8000749.JPG",
+          "author": "minimoniotaku",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Phillies vs. Red Sox 5-18-12",
+          "url": "https://commons.wikimedia.org/wiki/File:Phillies_vs._Red_Sox_5-18-12.JPG",
+          "author": "Hello32020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Citizens Bank Park-125 (36913506654)",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizens_Bank_Park-125_(36913506654).jpg",
+          "author": "Jon Gudorf Photography",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/phl-citizens-bank-park.glb",
+      "source": "generators/phl-citizens-bank-park.ts"
     }
   ],
   "landmarks": [
@@ -46130,6 +46216,26 @@
       "wikidata": "Q1052370",
       "replaces": [
         "relation/2294758"
+      ]
+    },
+    {
+      "id": "phl-citizens-bank-park",
+      "name": "Citizens Bank Park",
+      "model": "phl-citizens-bank-park",
+      "place": "philadelphia-area",
+      "lng": -75.166491,
+      "lat": 39.90595,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q912770",
+      "replaces": [
+        "relation/1348884",
+        "way/92483436",
+        "way/92483440",
+        "way/255596565",
+        "way/255596566",
+        "way/255596569"
       ]
     }
   ],
