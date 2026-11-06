@@ -31328,6 +31328,81 @@
       ],
       "file": "models/phl-boathouse-row.glb",
       "source": "generators/phl-boathouse-row.ts"
+    },
+    {
+      "id": "phl-eastern-state-penitentiary",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "prison",
+        "museum",
+        "gothic-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Eastern State Penitentiary (1829-36, John Haviland): the central rotunda and its radiating cell blocks, the later blocks between them, the 10 m stone wall with its corner watchtowers and the crenellated Gothic Revival gatehouse on Fairmount Avenue.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Eastern state penitentiary09.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_state_penitentiary09.JPG",
+          "author": "Davidt8",
+          "license": "Public domain"
+        },
+        {
+          "title": "Eastern State Penitentiary (53574639765).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_State_Penitentiary_(53574639765).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Eastern State Penitentiary Wall.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_State_Penitentiary_Wall.jpg",
+          "author": "Mike Graham",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Eastern State Penitentiary aerial crop.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_State_Penitentiary_aerial_crop.jpg",
+          "author": "Mike Graham",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Eastern State Penitentiary Watch Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_State_Penitentiary_Watch_Tower.jpg",
+          "author": "DC Chadwick",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Eastern State Penitentiary Grounds.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_State_Penitentiary_Grounds.jpg",
+          "author": "DC Chadwick",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Eastern State Penitentiary - Cell blocks 4..jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_State_Penitentiary_-_Cell_blocks_4..jpg",
+          "author": "Dudva",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/phl-eastern-state-penitentiary.glb",
+      "source": "generators/phl-eastern-state-penitentiary.ts"
     }
   ],
   "landmarks": [
@@ -47058,6 +47133,28 @@
         "way/60945611",
         "way/664678412",
         "way/60945610"
+      ]
+    },
+    {
+      "id": "phl-eastern-state-penitentiary",
+      "name": "Eastern State Penitentiary",
+      "model": "phl-eastern-state-penitentiary",
+      "place": "philadelphia-area",
+      "lng": -75.17266,
+      "lat": 39.96834,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q489417",
+      "replaces": [
+        "relation/19277077",
+        "way/50193080",
+        "way/1408585768",
+        "way/1408585769",
+        "way/1408585770",
+        "way/1408585771",
+        "way/75450143",
+        "way/1408585762"
       ]
     }
   ],
