@@ -30661,6 +30661,68 @@
       ],
       "file": "models/phl-citizens-bank-park.glb",
       "source": "generators/phl-citizens-bank-park.ts"
+    },
+    {
+      "id": "phl-xfinity-mobile-arena",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "hockey",
+        "basketball",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Lincoln Financial Field and Wells Fargo Center from airplane approaching PHL",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field_and_Wells_Fargo_Center_from_airplane_approaching_PHL.jpeg",
+          "author": "Dough4872",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Wachovia Center, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Wachovia_Center,_Philadelphia.jpg",
+          "author": "Phillyfan0419",
+          "license": "Public domain"
+        },
+        {
+          "title": "WellsFargoCenter-atDay",
+          "url": "https://commons.wikimedia.org/wiki/File:WellsFargoCenter-atDay.jpg",
+          "author": "Sp. Union-Rail",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Wells Fargo Center",
+          "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center.jpg",
+          "author": "PHL Approach",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Wells Fargo Center night",
+          "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center_night.jpg",
+          "author": "TastyPoutine",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/phl-xfinity-mobile-arena.glb",
+      "source": "generators/phl-xfinity-mobile-arena.ts"
     }
   ],
   "landmarks": [
@@ -46236,6 +46298,21 @@
         "way/255596565",
         "way/255596566",
         "way/255596569"
+      ]
+    },
+    {
+      "id": "phl-xfinity-mobile-arena",
+      "name": "Xfinity Mobile Arena",
+      "model": "phl-xfinity-mobile-arena",
+      "place": "philadelphia-area",
+      "lng": -75.171919,
+      "lat": 39.901166,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q818735",
+      "replaces": [
+        "way/25312366"
       ]
     }
   ],
