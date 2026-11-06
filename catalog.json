@@ -29225,6 +29225,80 @@
       ],
       "file": "models/phl-two-commerce-square.glb",
       "source": "generators/phl-two-commerce-square.ts"
+    },
+    {
+      "id": "phl-kimmel-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "performing-arts",
+        "concert-hall",
+        "contemporary",
+        "glass-vault"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kimmel Center cropped",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimmel_Center_cropped.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "2013 Kimmel Center from north",
+          "url": "https://commons.wikimedia.org/wiki/File:2013_Kimmel_Center_from_north.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2013 Kimmel Center from south",
+          "url": "https://commons.wikimedia.org/wiki/File:2013_Kimmel_Center_from_south.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kimmel Center for the Performing Arts (53587020645)",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimmel_Center_for_the_Performing_Arts_(53587020645).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "KimmelCenterExteriorNight",
+          "url": "https://commons.wikimedia.org/wiki/File:KimmelCenterExteriorNight.jpg",
+          "author": "Wasted Time R",
+          "license": "Public domain"
+        },
+        {
+          "title": "Kimmel Center interior",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimmel_Center_interior.jpg",
+          "author": "Ii2nmd",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kimmel Center roof from Garden",
+          "url": "https://commons.wikimedia.org/wiki/File:Kimmel_Center_roof_from_Garden.JPG",
+          "author": "Smallbones",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/phl-kimmel-center.glb",
+      "source": "generators/phl-kimmel-center.ts"
     }
   ],
   "landmarks": [
@@ -44441,6 +44515,21 @@
         "way/333434763",
         "way/344020957",
         "way/344020958"
+      ]
+    },
+    {
+      "id": "phl-kimmel-center",
+      "name": "Kimmel Center",
+      "model": "phl-kimmel-center",
+      "place": "philadelphia-area",
+      "lng": -75.165754,
+      "lat": 39.946708,
+      "bearing": 9.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/183519384",
+        "way/340439795"
       ]
     }
   ],
