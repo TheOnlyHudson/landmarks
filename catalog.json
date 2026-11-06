@@ -30171,6 +30171,81 @@
       ],
       "file": "models/phl-museum-american-revolution.glb",
       "source": "generators/phl-museum-american-revolution.ts"
+    },
+    {
+      "id": "phl-love-park",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "public-art",
+        "park",
+        "fountain",
+        "mid-century-modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "LOVE Park (JFK Plaza): Robert Indiana's LOVE (red, green and purple, the tilted O) on its steel frame, drawn at twice real size so it reads on the map; the 1960 \"flying saucer\" welcome centre; and the 2018 fountain's jet.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Love sculpture in LOVE Park in Philadelphia looking northwest.jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:Love_sculpture_in_LOVE_Park_in_Philadelphia_looking_northwest.jpeg",
+          "author": "Dough4872",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Escultura Love-2023 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Escultura_Love-2023_01.jpg",
+          "author": "Alberto-g-rovi",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Escultura Love-2023 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Escultura_Love-2023_02.jpg",
+          "author": "Alberto-g-rovi",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Love Statue, Philadelphia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Love_Statue,_Philadelphia.jpg",
+          "author": "Abhiram Juvvadi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia City Hall from LOVE Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_from_LOVE_Park.jpg",
+          "author": "AbhiramJuvvadi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "JOHN F. KENNEDY PLAZA IN CENTER CITY - NARA - 552726.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:JOHN_F._KENNEDY_PLAZA_IN_CENTER_CITY_-_NARA_-_552726.jpg",
+          "author": "Dick Swanson",
+          "license": "Public domain"
+        },
+        {
+          "title": "Philadelphia John F. Kennedy Plaza Love Park at night 1978.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_John_F._Kennedy_Plaza_Love_Park_at_night_1978.jpg",
+          "author": "Acabashi",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-love-park.glb",
+      "source": "generators/phl-love-park.ts"
     }
   ],
   "landmarks": [
@@ -45608,6 +45683,22 @@
       "minzoom": 15,
       "replaces": [
         "way/705309586"
+      ]
+    },
+    {
+      "id": "phl-love-park",
+      "name": "LOVE Park",
+      "model": "phl-love-park",
+      "place": "philadelphia-area",
+      "lng": -75.16547,
+      "lat": 39.95415,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q2144598",
+      "replaces": [
+        "way/349876653",
+        "way/349876654"
       ]
     }
   ],
