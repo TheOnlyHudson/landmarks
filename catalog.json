@@ -42960,6 +42960,11 @@
       "kind": "region"
     },
     {
+      "id": "philadelphia-area",
+      "name": "Philadelphia area",
+      "kind": "region"
+    },
+    {
       "id": "six-flags-over-texas",
       "name": "Six Flags Over Texas",
       "kind": "site",
