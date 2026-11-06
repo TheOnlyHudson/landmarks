@@ -29884,6 +29884,68 @@
       ],
       "file": "models/phl-bellevue-stratford.glb",
       "source": "generators/phl-bellevue-stratford.ts"
+    },
+    {
+      "id": "phl-masonic-temple",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "romanesque-revival",
+        "masonic-temple",
+        "national-historic-landmark"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Masonic Temple in Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Masonic_Temple_in_Philadelphia.jpg",
+          "author": "Jersey856",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Grand Lodge of Pennsylvania",
+          "url": "https://commons.wikimedia.org/wiki/File:Grand_Lodge_of_Pennsylvania.jpg",
+          "author": "Bruce Andersen",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Masonic Temple Philadelphia aerial view",
+          "url": "https://commons.wikimedia.org/wiki/File:Masonic_Temple_Philadelphia_aerial_view.jpg",
+          "author": "Nickvud",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia Masonic Temple tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Masonic_Temple_tower.jpg",
+          "author": "Nickvud",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Masonic Temple, Philadelphia, PA (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:Masonic_Temple,_Philadelphia,_PA.jpg",
+          "author": "Kanan H. Jani",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/phl-masonic-temple.glb",
+      "source": "generators/phl-masonic-temple.ts"
     }
   ],
   "landmarks": [
@@ -45256,6 +45318,20 @@
       "minzoom": 15,
       "replaces": [
         "way/334239470"
+      ]
+    },
+    {
+      "id": "phl-masonic-temple",
+      "name": "Masonic Temple",
+      "model": "phl-masonic-temple",
+      "place": "philadelphia-area",
+      "lng": -75.162657,
+      "lat": 39.95362,
+      "bearing": 9.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/309294828"
       ]
     }
   ],
