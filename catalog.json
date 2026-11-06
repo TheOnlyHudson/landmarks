@@ -30802,6 +30802,80 @@
       ],
       "file": "models/phl-cira-centre.glb",
       "source": "generators/phl-cira-centre.ts"
+    },
+    {
+      "id": "phl-fmc-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "hotel",
+        "glass"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "FMC Tower at Cira Centre South a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FMC_Tower_at_Cira_Centre_South_a.jpg",
+          "author": "Wobbanight",
+          "license": "CC0"
+        },
+        {
+          "title": "FMC Tower at Cira Centre South b.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FMC_Tower_at_Cira_Centre_South_b.jpg",
+          "author": "Wobbanight",
+          "license": "CC0"
+        },
+        {
+          "title": "FMC Tower 2016-11-05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FMC_Tower_2016-11-05.jpg",
+          "author": "Zombiyaic",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "FMCTower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FMCTower.jpg",
+          "author": "TastyPoutine",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cira Centre South (53586793263).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre_South_(53586793263).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "FMC Tower 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FMC_Tower_2019.jpg",
+          "author": "MainlyTwelve",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "FMC Tower, Clouds, Philadelphia",
+          "url": "https://www.flickr.com/photos/14869313@N00/37462924551",
+          "author": "dbaron",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/phl-fmc-tower.glb",
+      "source": "generators/phl-fmc-tower.ts"
     }
   ],
   "landmarks": [
@@ -46408,6 +46482,22 @@
         "way/333367697"
       ],
       "wikidata": "Q5121334"
+    },
+    {
+      "id": "phl-fmc-tower",
+      "name": "FMC Tower at Cira Centre South",
+      "model": "phl-fmc-tower",
+      "place": "philadelphia-area",
+      "lng": -75.183525,
+      "lat": 39.952051,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/748885496",
+        "way/748885493",
+        "way/748885492"
+      ]
     }
   ],
   "places": [
