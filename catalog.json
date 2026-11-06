@@ -29752,6 +29752,76 @@
       ],
       "file": "models/phl-walt-whitman-bridge.glb",
       "source": "generators/phl-walt-whitman-bridge.ts"
+    },
+    {
+      "id": "phl-lincoln-liberty-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "art-deco",
+        "skyscraper",
+        "office",
+        "carillon"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q7093219",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "One south broad",
+          "url": "https://commons.wikimedia.org/wiki/File:One_south_broad.jpg",
+          "author": "AEngineer",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "One South Broad Oct 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:One_South_Broad_Oct_2025.jpg",
+          "author": "Wobbanight",
+          "license": "CC0"
+        },
+        {
+          "title": "1 South Broad top",
+          "url": "https://commons.wikimedia.org/wiki/File:1_South_Broad_top.jpg",
+          "author": "Smallbones",
+          "license": "CC0"
+        },
+        {
+          "title": "1 South Broad from west",
+          "url": "https://commons.wikimedia.org/wiki/File:1_South_Broad_from_west.jpg",
+          "author": "Smallbones",
+          "license": "CC0"
+        },
+        {
+          "title": "1 South Broad EVOL",
+          "url": "https://commons.wikimedia.org/wiki/File:1_South_Broad_EVOL.jpg",
+          "author": "Smallbones",
+          "license": "CC0"
+        },
+        {
+          "title": "Lincoln-Liberty Building (rendering)",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln-Liberty_Building_-_DPLA_-_36d93456e83fddd1089262b28e839273.jpg",
+          "author": "Philip B. Wallace",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-lincoln-liberty-building.glb",
+      "source": "generators/phl-lincoln-liberty-building.ts"
     }
   ],
   "landmarks": [
@@ -45085,6 +45155,31 @@
         "way/755034375",
         "way/1044593721",
         "way/1044593722"
+      ]
+    },
+    {
+      "id": "phl-lincoln-liberty-building",
+      "name": "One South Broad",
+      "model": "phl-lincoln-liberty-building",
+      "place": "philadelphia-area",
+      "lng": -75.163491,
+      "lat": 39.951176,
+      "bearing": 9.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q7093219",
+      "replaces": [
+        "relation/4846617",
+        "way/333204612",
+        "way/336681395",
+        "way/336681396",
+        "way/336681398",
+        "way/336681400",
+        "way/336681401",
+        "way/336681402",
+        "way/337052603",
+        "way/341324299",
+        "way/341324300"
       ]
     }
   ],
