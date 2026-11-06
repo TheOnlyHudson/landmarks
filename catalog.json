@@ -29472,6 +29472,103 @@
       ],
       "file": "models/phl-carpenters-hall.glb",
       "source": "generators/phl-carpenters-hall.ts"
+    },
+    {
+      "id": "phl-national-constitution-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q538275",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "National Constitution Center Front",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_Front.jpg",
+          "author": "Housefinch1787",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "NationalConstitutionCenterPH",
+          "url": "https://commons.wikimedia.org/wiki/File:NationalConstitutionCenterPH.jpg",
+          "author": "Netagert",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "National Constitution Center",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center.jpg",
+          "author": "grenavitar",
+          "license": "CC0"
+        },
+        {
+          "title": "National Constitution Center - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_-_panoramio.jpg",
+          "author": "4net",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "National Constitution Center-exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center-exterior.jpg",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "National Constitution Center from southwest",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_from_southwest.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "National Constitution Center from Arch Street",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_from_Arch_Street.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "National Constitution Center walkway",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_walkway.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "National Constitution Center 2",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_2.jpg",
+          "author": "lukemcurley",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "National Constitution Center (53572938645)",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Constitution_Center_(53572938645).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "2012-07 ncc 01",
+          "url": "https://commons.wikimedia.org/wiki/File:2012-07_ncc_01.JPG",
+          "author": "Ziko van Dijk",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/phl-national-constitution-center.glb",
+      "source": "generators/phl-national-constitution-center.ts"
     }
   ],
   "landmarks": [
@@ -44743,6 +44840,30 @@
         "way/335689523",
         "way/335689524",
         "way/335799889"
+      ]
+    },
+    {
+      "id": "phl-national-constitution-center",
+      "name": "National Constitution Center",
+      "model": "phl-national-constitution-center",
+      "place": "philadelphia-area",
+      "lng": -75.149083,
+      "lat": 39.95372,
+      "bearing": 9.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q538275",
+      "replaces": [
+        "way/40083914",
+        "way/335387043",
+        "way/333316197",
+        "way/338020144",
+        "way/338020145",
+        "way/338020146",
+        "way/338020147",
+        "way/338029304",
+        "way/338029305",
+        "way/1314909585"
       ]
     }
   ],
