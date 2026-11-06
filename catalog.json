@@ -29089,6 +29089,56 @@
       ],
       "file": "models/phl-bny-mellon-center.glb",
       "source": "generators/phl-bny-mellon-center.ts"
+    },
+    {
+      "id": "phl-three-logan-square",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q2894593",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Three Logan Square a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Three_Logan_Square_a.jpg",
+          "author": "Wobbanight",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Bell atlantic tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bell_atlantic_tower.jpg",
+          "author": "Werd678 (English Wikipedia)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Comcast Centers in Philadelphia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Comcast_Centers_in_Philadelphia.jpg",
+          "author": "Chapsam",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-three-logan-square.glb",
+      "source": "generators/phl-three-logan-square.ts"
     }
   ],
   "landmarks": [
@@ -44230,6 +44280,33 @@
         "way/336875904",
         "way/336855444",
         "way/336855454"
+      ]
+    },
+    {
+      "id": "phl-three-logan-square",
+      "name": "Three Logan Square",
+      "model": "phl-three-logan-square",
+      "place": "philadelphia-area",
+      "wikidata": "Q2894593",
+      "lng": -75.169029,
+      "lat": 39.955415,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/42785098",
+        "way/343340487",
+        "way/343340488",
+        "way/343340489",
+        "way/343340490",
+        "way/343340491",
+        "way/343340492",
+        "way/343340493",
+        "way/343340494",
+        "way/343340495",
+        "way/343340496",
+        "way/343374515",
+        "way/343374518"
       ]
     }
   ],
