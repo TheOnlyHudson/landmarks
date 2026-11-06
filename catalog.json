@@ -30723,6 +30723,85 @@
       ],
       "file": "models/phl-xfinity-mobile-arena.glb",
       "source": "generators/phl-xfinity-mobile-arena.ts"
+    },
+    {
+      "id": "phl-cira-centre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "glass"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cira Centre, Philadelphia-south.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre,_Philadelphia-south.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Cira Centre, Philadelphia-north.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre,_Philadelphia-north.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Cira Centre, Philadelphia-east.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre,_Philadelphia-east.JPG",
+          "author": "Jeffrey M. Vinocur",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Cira Centre c.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre_c.jpg",
+          "author": "Wobbanight",
+          "license": "CC0"
+        },
+        {
+          "title": "Cira Centre, Philadelphia.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre,_Philadelphia.jpg",
+          "author": "AbhiramJuvvadi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cira Centre (53590496644).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cira_Centre_(53590496644).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "30th Street Station and Cira Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:30th_Street_Station_and_Cira_Tower.jpg",
+          "author": "Ii2nmd",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ciracentre atnight.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciracentre_atnight.jpg",
+          "author": "michaelwm25",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/phl-cira-centre.glb",
+      "source": "generators/phl-cira-centre.ts"
     }
   ],
   "landmarks": [
@@ -46314,6 +46393,21 @@
       "replaces": [
         "way/25312366"
       ]
+    },
+    {
+      "id": "phl-cira-centre",
+      "name": "Cira Centre",
+      "model": "phl-cira-centre",
+      "place": "philadelphia-area",
+      "lng": -75.182432,
+      "lat": 39.957332,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/333367697"
+      ],
+      "wikidata": "Q5121334"
     }
   ],
   "places": [
