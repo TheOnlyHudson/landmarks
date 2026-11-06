@@ -29569,6 +29569,116 @@
       ],
       "file": "models/phl-national-constitution-center.glb",
       "source": "generators/phl-national-constitution-center.ts"
+    },
+    {
+      "id": "phl-ben-franklin-bridge",
+      "detail": "models/phl-ben-franklin-bridge.detail.glb",
+      "detailZoom": 16,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "historic",
+        "suspension-bridge"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Benjamin Franklin Bridge, Philadelphia side, Aug 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_Bridge,_Philadelphia_side,_Aug_2019.jpg",
+          "author": "Mys 721tx",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ben Franklin Br",
+          "url": "https://commons.wikimedia.org/wiki/File:Ben_Franklin_Br.jpg",
+          "author": "Michael Murphy",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Ben Franklin Br - Train Crossing",
+          "url": "https://commons.wikimedia.org/wiki/File:Ben_Franklin_Br_-_Train_Crossing.jpg",
+          "author": "Michael Murphy",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "2012 Ben Franklin Bridge from Race Street Pier",
+          "url": "https://commons.wikimedia.org/wiki/File:2012_Ben_Franklin_Bridge_from_Race_Street_Pier.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2012 Ben Franklin Bridge west anchorage from south",
+          "url": "https://commons.wikimedia.org/wiki/File:2012_Ben_Franklin_Bridge_west_anchorage_from_south.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Benjamin Franklin Bridge from below",
+          "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_Bridge_from_below.jpg",
+          "author": "jm570",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Benjamin Franklin Bridge (19060494190)",
+          "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_Bridge_(19060494190).jpg",
+          "author": "Thomas from Philadelphia Area, USA",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Benjamin Franklin bridge in Philadelphia, PA.",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Benjamin_Franklin_bridge_in_Philadelphia,_PA..jpg",
+          "author": "Bruce Emmerling",
+          "license": "CC0"
+        },
+        {
+          "title": "Benjamin Franklin Bridge from Camden, NJ",
+          "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_Bridge_from_Camden,_NJ.jpg",
+          "author": "rocky8u",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia anchor tower, Benjamin Franklin Bridge, July 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_anchor_tower,_Benjamin_Franklin_Bridge,_July_2026.jpg",
+          "author": "Mr. Matté",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Benjamin Franklin Bridge, Philadelphia (49055788621)",
+          "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_Bridge,_Philadelphia_(49055788621).jpg",
+          "author": "Pierre Blaché",
+          "license": "CC0"
+        },
+        {
+          "title": "2013 Ben Franklin Bridge at night",
+          "url": "https://commons.wikimedia.org/wiki/File:2013_Ben_Franklin_Bridge_at_night.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia209",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia209.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/phl-ben-franklin-bridge.glb",
+      "source": "generators/phl-ben-franklin-bridge.ts"
     }
   ],
   "landmarks": [
@@ -44864,6 +44974,25 @@
         "way/338029304",
         "way/338029305",
         "way/1314909585"
+      ]
+    },
+    {
+      "id": "phl-ben-franklin-bridge",
+      "name": "Benjamin Franklin Bridge",
+      "model": "phl-ben-franklin-bridge",
+      "place": "philadelphia-area",
+      "lng": -75.1346174,
+      "lat": 39.9529617,
+      "bearing": 102.716,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q817485",
+      "replaces": [
+        "way/575987106",
+        "way/754832342",
+        "way/754832343",
+        "way/334628511",
+        "way/334628517"
       ]
     }
   ],
