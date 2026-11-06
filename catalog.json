@@ -28674,6 +28674,118 @@
       ],
       "file": "models/phl-two-liberty-place.glb",
       "source": "generators/phl-two-liberty-place.ts"
+    },
+    {
+      "id": "phl-independence-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "georgian",
+        "clock-tower",
+        "museum",
+        "world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q390028",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Exterior of the Independence Hall, Aug 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Independence_Hall,_Aug_2019.jpg",
+          "author": "Mys 721tx",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Independence Hall (DSC03685) (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_(DSC03685).jpg",
+          "author": "Polibil",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Independence Hall 008",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_008.jpg",
+          "author": "Foolish Productions Photography",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Independence Hall, 2016 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall,_2016_2.jpg",
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Independence Hall, Philadelphia PA",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall,_Philadelphia_PA.JPG",
+          "author": "Kwdavids",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Independence Hall Rear Exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_Rear_Exterior.jpg",
+          "author": "Andrew Rehbein",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Independence Hall Steeple",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_Steeple.jpg",
+          "author": "Andrew Rehbein",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Independence Hall from south (rear) Philly",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_from_south_(rear)_Philly.jpg",
+          "author": "Smallbones",
+          "license": "CC0"
+        },
+        {
+          "title": "Independence Hall steeple, Philadelphia, Pennsylvania",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_steeple,_Philadelphia,_Pennsylvania_LCCN2011630516.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rear of Independence Hall, Philadelphia, PA",
+          "url": "https://commons.wikimedia.org/wiki/File:Rear_of_Independence_Hall,_Philadelphia,_PA.jpg",
+          "author": "Hsrifkin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "West wing building of Independence Hall and Congress Hall",
+          "url": "https://commons.wikimedia.org/wiki/File:West_wing_building_of_Independence_Hall_and_Congress_Hall.jpg",
+          "author": "Ben Franske",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Independence Mall 2004",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Mall_2004.jpg",
+          "author": "Robin Miller (National Park Service)",
+          "license": "Public domain"
+        },
+        {
+          "title": "HABS PA-1430, Independence Hall (sheets 3, 4, 5, 19, 21 of 45)",
+          "url": "https://commons.wikimedia.org/wiki/File:Independence_Hall_Complex,_Independence_Hall,_500_Chestnut_Street,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,6-_(sheet_4_of_45).png",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-independence-hall.glb",
+      "source": "generators/phl-independence-hall.ts"
     }
   ],
   "landmarks": [
@@ -43704,6 +43816,33 @@
         "way/333339059",
         "way/333339064",
         "way/333204568"
+      ]
+    },
+    {
+      "id": "phl-independence-hall",
+      "name": "Independence Hall",
+      "model": "phl-independence-hall",
+      "place": "philadelphia-area",
+      "lng": -75.150028,
+      "lat": 39.948904,
+      "bearing": 9.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q390028",
+      "replaces": [
+        "way/25271595",
+        "way/335689527",
+        "way/335689528",
+        "way/335689529",
+        "way/335689530",
+        "way/335689531",
+        "way/335689532",
+        "way/335689533",
+        "way/335689534",
+        "way/335689535",
+        "way/335689536",
+        "way/335689537",
+        "way/336004603"
       ]
     }
   ],
