@@ -30427,6 +30427,69 @@
       ],
       "file": "models/phl-cathedral-basilica.glb",
       "source": "generators/phl-cathedral-basilica.ts"
+    },
+    {
+      "id": "phl-franklin-institute",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "science-museum",
+        "historic",
+        "neoclassical"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The Franklin Institute on Logan Circle (John T. Windrim, 1930-34): limestone ranges with giant Corinthian pilasters and three pedimented porticoes, the square attic of the Benjamin Franklin National Memorial rotunda, the round theatre under its glass pyramid and the later west blocks, including the 2014 Karabots Pavilion.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Philadelphia October 2017 25 (The Franklin Institute).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_October_2017_25_(The_Franklin_Institute).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia October 2017 10 (The Franklin Institute).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_October_2017_10_(The_Franklin_Institute).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Franklin Institute from southeast.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Institute_from_southeast.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Franklin Institute Felt Planetarium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Institute_Felt_Planetarium.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Franklin Institute (53574514629).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franklin_Institute_(53574514629).jpg",
+          "author": "ajay_suresh",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/phl-franklin-institute.glb",
+      "source": "generators/phl-franklin-institute.ts"
     }
   ],
   "landmarks": [
@@ -45938,6 +46001,35 @@
         "way/349876630",
         "way/349876631",
         "way/349876632"
+      ]
+    },
+    {
+      "id": "phl-franklin-institute",
+      "name": "The Franklin Institute",
+      "model": "phl-franklin-institute",
+      "place": "philadelphia-area",
+      "lng": -75.173123,
+      "lat": 39.958276,
+      "bearing": 9.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q339484",
+      "replaces": [
+        "way/50189935",
+        "way/340218748",
+        "way/348799949",
+        "way/348799950",
+        "way/348799951",
+        "way/348799956",
+        "way/348799961",
+        "way/348861027",
+        "way/348861046",
+        "way/349265879",
+        "way/349265880",
+        "way/349265882",
+        "way/349265906",
+        "way/349325913",
+        "way/349325914"
       ]
     }
   ],
