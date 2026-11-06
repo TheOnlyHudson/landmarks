@@ -28209,6 +28209,109 @@
       ],
       "file": "models/phl-city-hall.glb",
       "source": "generators/phl-city-hall.ts"
+    },
+    {
+      "id": "phl-museum-of-art",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "historic",
+        "neoclassical"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The Philadelphia Museum of Art (briefly the \"Philadelphia Art Museum\", October 2025 to February 2026): three golden dolomite Greek temples round the court of honour on Fairmount, with the polychrome \"Western Civilization\" pediment on the north wing.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Philadelphia Museum of Art, main building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art,_main_building.jpg",
+          "license": "Public domain"
+        },
+        {
+          "title": "Philadelphia Museum of Art, Philadelphia, Pennsylvania LCCN2011633567.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art,_Philadelphia,_Pennsylvania_LCCN2011633567.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Schuylkill River, Philadelphia Museum of Art, Philadelphia, Pennsylvania LCCN2011631111.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:Schuylkill_River,_Philadelphia_Museum_of_Art,_Philadelphia,_Pennsylvania_LCCN2011631111.tif",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "PhiladelphiaMuseumOfArt2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PhiladelphiaMuseumOfArt2017.jpg",
+          "author": "Meihe Chen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art Main Building, June 18th, 2022.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art_Main_Building,_June_18th,_2022.jpg",
+          "author": "DerekPhilipAu",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art, Philadelphia, USA.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art,_Philadelphia,_USA.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art, Philadelphia, USA - 51036147413.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art,_Philadelphia,_USA_-_51036147413.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art, Philadelphia, USA - 51036979497.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art,_Philadelphia,_USA_-_51036979497.jpg",
+          "author": "dconvertini",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art - Philadelphia - Pennsylvania - 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art_-_Philadelphia_-_Pennsylvania_-_01.jpg",
+          "author": "Adam Jones, Ph.D.",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art - Philadelphia - Pennsylvania - 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art_-_Philadelphia_-_Pennsylvania_-_02.jpg",
+          "author": "Adam Jones, Ph.D.",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Philadelphia Museum of Art & Fairmount Water Works.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_Museum_of_Art_%26_Fairmount_Water_Works.jpg",
+          "author": "Zhicheng Zhao",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aerial view of Philadelphia Museum of Art - 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Philadelphia_Museum_of_Art_-_01.jpg",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/phl-museum-of-art.glb",
+      "source": "generators/phl-museum-of-art.ts"
     }
   ],
   "landmarks": [
@@ -43137,6 +43240,21 @@
         "way/354994858",
         "way/369003677",
         "way/369003678"
+      ]
+    },
+    {
+      "id": "phl-museum-of-art",
+      "name": "Philadelphia Museum of Art",
+      "model": "phl-museum-of-art",
+      "place": "philadelphia-area",
+      "lng": -75.18106,
+      "lat": 39.96568,
+      "bearing": 43.6,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q510324",
+      "replaces": [
+        "way/28533972"
       ]
     }
   ],
