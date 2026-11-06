@@ -31403,6 +31403,69 @@
       ],
       "file": "models/phl-eastern-state-penitentiary.glb",
       "source": "generators/phl-eastern-state-penitentiary.ts"
+    },
+    {
+      "id": "phl-girard-college-founders-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "greek-revival",
+        "school",
+        "temple"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Thomas U. Walter's Founder's Hall at Girard College (1833-47): a white marble Greek Revival temple, peripteral with 34 Corinthian columns, under a low pediment on a stepped podium.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "FRONT (SOUTH) ELEVATION - Girard College, Founder's Hall (HABS PA,51-PHILA,459A-3)",
+          "url": "https://commons.wikimedia.org/wiki/File:FRONT_(SOUTH)_ELEVATION_-_Girard_College,_Founder%27s_Hall,_Girard_and_Corinthian_Avenues,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,459A-3.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "GENERAL VIEW, LOOKING NORTHWEST - Girard College, Founder's Hall (HABS PA,51-PHILA,459A-1)",
+          "url": "https://commons.wikimedia.org/wiki/File:GENERAL_VIEW,_LOOKING_NORTHWEST_-_Girard_College,_Founder%27s_Hall,_Girard_and_Corinthian_Avenues,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,459A-1.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Girard College, Founder's Hall (HABS PA,51-PHILA,459A-48 (CT))",
+          "url": "https://commons.wikimedia.org/wiki/File:Girard_College,_Founder%27s_Hall,_Girard_and_Corinthian_Avenues,_Philadelphia,_Philadelphia_County,_PA_HABS_PA,51-PHILA,459A-48_(CT).tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "Greek Revival - Philadelphia, PA - Girard College (Founder's Hall) (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Greek_Revival_-_Philadelphia,_PA_-_Girard_College_(Founder%27s_Hall)_(1).jpg",
+          "author": "Bmzuckerman",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Greek Revival - Philadelphia, PA - Girard College (Founder's Hall) (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Greek_Revival_-_Philadelphia,_PA_-_Girard_College_(Founder%27s_Hall)_(2).jpg",
+          "author": "Bmzuckerman",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/phl-girard-college-founders-hall.glb",
+      "source": "generators/phl-girard-college-founders-hall.ts"
     }
   ],
   "landmarks": [
@@ -47155,6 +47218,20 @@
         "way/1408585771",
         "way/75450143",
         "way/1408585762"
+      ]
+    },
+    {
+      "id": "phl-girard-college-founders-hall",
+      "name": "Founder's Hall, Girard College",
+      "model": "phl-girard-college-founders-hall",
+      "place": "philadelphia-area",
+      "lng": -75.170093,
+      "lat": 39.974061,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/49891387"
       ]
     }
   ],
