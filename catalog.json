@@ -29679,6 +29679,79 @@
       ],
       "file": "models/phl-ben-franklin-bridge.glb",
       "source": "generators/phl-ben-franklin-bridge.ts"
+    },
+    {
+      "id": "phl-walt-whitman-bridge",
+      "detail": "models/phl-walt-whitman-bridge.detail.glb",
+      "detailZoom": 16,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "suspension-bridge"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Walt Whitman Bridge-2",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge-2.jpg",
+          "author": "Elliot from Cherry Hill, NJ",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Walt Whitman Bridge 20100611-jag9889",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge_20100611-jag9889.jpg",
+          "author": "Jag9889",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Walt Whitman Bridge Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge_Philadelphia.jpg",
+          "author": "Ii2nmd",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Walt Whitman Bridge 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge_2.jpg",
+          "author": "Paul Luffel",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Walt Whitman Bridge from the air",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge_from_the_air.jpg",
+          "author": "Doc Searls",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Walt Whitman Bridge, Philadelphia",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge,_Philadelphia.jpg",
+          "author": "Dicklyon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Walt Whitman Bridge at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_Bridge_at_night.jpg",
+          "author": "Tony Finan",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/phl-walt-whitman-bridge.glb",
+      "source": "generators/phl-walt-whitman-bridge.ts"
     }
   ],
   "landmarks": [
@@ -44993,6 +45066,25 @@
         "way/754832343",
         "way/334628511",
         "way/334628517"
+      ]
+    },
+    {
+      "id": "phl-walt-whitman-bridge",
+      "name": "Walt Whitman Bridge",
+      "model": "phl-walt-whitman-bridge",
+      "place": "philadelphia-area",
+      "lng": -75.1292927,
+      "lat": 39.9051882,
+      "bearing": 102.52,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q3396791",
+      "replaces": [
+        "way/575987843",
+        "way/755034376",
+        "way/755034375",
+        "way/1044593721",
+        "way/1044593722"
       ]
     }
   ],
