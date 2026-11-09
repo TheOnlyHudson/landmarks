@@ -32570,6 +32570,75 @@
       ],
       "file": "models/sd-unconditional-surrender.glb",
       "source": "generators/sd-unconditional-surrender.ts"
+    },
+    {
+      "id": "sd-county-administration-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "government",
+        "spanish-revival",
+        "art-deco",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego City and County Administration Building",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_City_and_County_Administration_Building.jpg",
+          "author": "Adbar",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego City and Administration Building (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_City_and_Administration_Building_(cropped).jpg",
+          "author": "Business Navigatoren",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "San Diego County Administration Center (54305382019)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_County_Administration_Center_(54305382019).jpg",
+          "author": "Matt Boulton",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "San Diego County Administration Center (19198739008)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_County_Administration_Center_(19198739008).jpg",
+          "author": "Tony Webster",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "San Diego Civic Center 1",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Civic_Center_1.jpg",
+          "author": "SD Dirk",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "San Diego Civic Center 2",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Civic_Center_2.jpg",
+          "author": "Edward O'Connor",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/sd-county-administration-center.glb",
+      "source": "generators/sd-county-administration-center.ts"
     }
   ],
   "landmarks": [
@@ -48580,6 +48649,24 @@
       "elevation": 0,
       "minzoom": 16,
       "replaces": []
+    },
+    {
+      "id": "sd-county-administration-center",
+      "name": "San Diego County Administration Center",
+      "model": "sd-county-administration-center",
+      "place": "san-diego-area",
+      "lng": -117.171917,
+      "lat": 32.721946,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/26748195",
+        "way/1154814393",
+        "way/1154814394",
+        "way/1154814395"
+      ],
+      "wikidata": "Q17183978"
     }
   ],
   "places": [
