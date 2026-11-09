@@ -34010,6 +34010,69 @@
       ],
       "file": "models/sd-san-ysidro-mcdonalds.glb",
       "source": "generators/sd-san-ysidro-mcdonalds.ts"
+    },
+    {
+      "id": "sd-mission-san-diego",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "mission",
+        "spanish-colonial",
+        "historic",
+        "basilica"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mission San Diego de Alcalá - church.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mission_San_Diego_de_Alcalá_-_church.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San-diego-mission-church.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:San-diego-mission-church.JPG",
+          "author": "Dmadeo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Mission de Alcala.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Mission_de_Alcala.jpg",
+          "author": "DonnaAmisDavis",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Mission Basilica San Diego de Alcalá 2019a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mission_Basilica_San_Diego_de_Alcalá_2019a.jpg",
+          "author": "Antony-22",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mission Basilica San Diego de Alcalá 2019b.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mission_Basilica_San_Diego_de_Alcalá_2019b.jpg",
+          "author": "Antony-22",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-mission-san-diego.glb",
+      "source": "generators/sd-mission-san-diego.ts"
     }
   ],
   "landmarks": [
@@ -50361,6 +50424,22 @@
       "minzoom": 16,
       "replaces": [
         "way/31818520"
+      ]
+    },
+    {
+      "id": "sd-mission-san-diego",
+      "name": "Mission Basilica San Diego de Alcalá",
+      "model": "sd-mission-san-diego",
+      "place": "san-diego-area",
+      "lng": -117.10631,
+      "lat": 32.78479,
+      "bearing": 43,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q617891",
+      "replaces": [
+        "relation/14963099",
+        "way/1119076937"
       ]
     }
   ],
