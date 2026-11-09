@@ -102,7 +102,7 @@ qf(con, [HX - 0.4, -HY + 0.4, TOP], [HX - 0.4, HY - 0.4, TOP], [HX - IN, HY - IN
 qf(con, [HX - 0.4, HY - 0.4, TOP], [-HX + 0.4, HY - 0.4, TOP], [-HX + IN, HY - IN, TOP], [HX - IN, HY - IN, TOP], [0, 0, 1])
 qf(con, [-HX + 0.4, HY - 0.4, TOP], [-HX + 0.4, -HY + 0.4, TOP], [-HX + IN, -HY + IN, TOP], [-HX + IN, HY - IN, TOP], [0, 0, 1])
 const RZ = TOP - 1.0
-for (const [a, b, c, d, n] of [
+for (const [a, b, c] of [
   [[-HX + IN, -HY + IN], [HX - IN, -HY + IN], [0, 1, 0]], [[HX - IN, -HY + IN], [HX - IN, HY - IN], [-1, 0, 0]],
   [[HX - IN, HY - IN], [-HX + IN, HY - IN], [0, -1, 0]], [[-HX + IN, HY - IN], [-HX + IN, -HY + IN], [1, 0, 0]],
 ] as [number[], number[], V3][]) qf(con, [a[0], a[1], RZ], [b[0], b[1], RZ], [b[0], b[1], TOP], [a[0], a[1], TOP], c as unknown as V3)
