@@ -32639,6 +32639,72 @@
       ],
       "file": "models/sd-county-administration-center.glb",
       "source": "generators/sd-county-administration-center.ts"
+    },
+    {
+      "id": "sd-12th-imperial-clock-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "clock-tower",
+        "transit"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "James R. Mills Building",
+          "url": "https://commons.wikimedia.org/wiki/File:James_R._Mills_Building.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego, 2016 - 568",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_568.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "12th & Imperial",
+          "url": "https://commons.wikimedia.org/wiki/File:12th_%26_Imperial.jpg",
+          "author": "Cloverof4",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "East Village, San Diego, CA, USA - panoramio (7)",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(7).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "12th & Imperial TC station from SDPL jeh",
+          "url": "https://commons.wikimedia.org/wiki/File:12th_%26_Imperial_TC_station_from_SDPL_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "San Diego - Public Transport Hub of Southern California - Vintage Streetcar No.529",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_-_Public_Transport_Hub_of_Southern_California_-_Vintage_Streetcar_No.529_waits_at_Imperial_Transit_Center_to_start_a_tourist_Downtown_Loop.jpg",
+          "author": "kitmasterbloke",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/sd-12th-imperial-clock-tower.glb",
+      "source": "generators/sd-12th-imperial-clock-tower.ts"
     }
   ],
   "landmarks": [
@@ -48667,6 +48733,20 @@
         "way/1154814395"
       ],
       "wikidata": "Q17183978"
+    },
+    {
+      "id": "sd-12th-imperial-clock-tower",
+      "name": "12th & Imperial Transit Center Clock Tower",
+      "model": "sd-12th-imperial-clock-tower",
+      "place": "san-diego-area",
+      "lng": -117.1537224,
+      "lat": 32.7060156,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/613166333"
+      ]
     }
   ],
   "places": [
