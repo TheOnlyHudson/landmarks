@@ -33899,6 +33899,67 @@
       ],
       "file": "models/sd-cabrillo-bridge.glb",
       "source": "generators/sd-cabrillo-bridge.ts"
+    },
+    {
+      "id": "sd-old-globe-theatre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "theatre",
+        "tudor-revival",
+        "balboa-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Balboa Park, San Diego, CA, USA - panoramio (171)",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park,_San_Diego,_CA,_USA_-_panoramio_(171).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Balboa Park, San Diego, CA, USA - panoramio (172)",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park,_San_Diego,_CA,_USA_-_panoramio_(172).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego, 2016 - 319",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_319.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Old Globe Theatre 2 2014-03-12",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Globe_Theatre_2_2014-03-12.jpg",
+          "author": "FASTILY",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Old globe theatre",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_globe_theatre.jpg",
+          "author": "Dan Anderson",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-old-globe-theatre.glb",
+      "source": "generators/sd-old-globe-theatre.ts"
     }
   ],
   "landmarks": [
@@ -50222,6 +50283,21 @@
         "relation/1672334"
       ],
       "wikidata": "Q3380233"
+    },
+    {
+      "id": "sd-old-globe-theatre",
+      "name": "The Old Globe",
+      "model": "sd-old-globe-theatre",
+      "place": "san-diego-area",
+      "lng": -117.15231,
+      "lat": 32.73226,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/51538418"
+      ],
+      "wikidata": "Q7084094"
     }
   ],
   "places": [
