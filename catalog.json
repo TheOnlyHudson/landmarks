@@ -33832,6 +33832,73 @@
       ],
       "file": "models/sd-spreckels-organ-pavilion.glb",
       "source": "generators/sd-spreckels-organ-pavilion.ts"
+    },
+    {
+      "id": "sd-cabrillo-bridge",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "historic",
+        "arch-bridge",
+        "balboa-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cabrillo Bridge-2",
+          "url": "https://commons.wikimedia.org/wiki/File:Cabrillo_Bridge-2.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cabrillo Bridge",
+          "url": "https://commons.wikimedia.org/wiki/File:Cabrillo_Bridge.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cabrillo Bridge-3",
+          "url": "https://commons.wikimedia.org/wiki/File:Cabrillo_Bridge-3.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "43-san-diego-balboa-park-highway-163",
+          "url": "https://commons.wikimedia.org/wiki/File:43-san-diego-balboa-park-highway-163.jpg",
+          "author": "Alfred Twu",
+          "license": "CC0"
+        },
+        {
+          "title": "Balboa Park, San Diego, CA, USA - panoramio (38)",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park,_San_Diego,_CA,_USA_-_panoramio_(38).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Prado looking west across the Cabrillo Bridge",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Prado_looking_west_across_the_Cabrillo_Bridge.jpg",
+          "author": "Rhododendrites",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-cabrillo-bridge.glb",
+      "source": "generators/sd-cabrillo-bridge.ts"
     }
   ],
   "landmarks": [
@@ -50139,6 +50206,22 @@
         "way/1574361373"
       ],
       "wikidata": "Q7580302"
+    },
+    {
+      "id": "sd-cabrillo-bridge",
+      "name": "Cabrillo Bridge",
+      "model": "sd-cabrillo-bridge",
+      "place": "san-diego-area",
+      "lng": -117.1545,
+      "lat": 32.73142,
+      "bearing": 359.47,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/122353744",
+        "relation/1672334"
+      ],
+      "wikidata": "Q3380233"
     }
   ],
   "places": [
