@@ -34447,6 +34447,74 @@
       ],
       "file": "models/sd-crystal-pier.glb",
       "source": "generators/sd-crystal-pier.ts"
+    },
+    {
+      "id": "sd-ocean-beach-pier",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "infrastructure",
+      "tags": [
+        "pier",
+        "concrete",
+        "waterfront",
+        "closed"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Ocean Beach, San Diego, CA, USA - panoramio - rvd5star (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Ocean_Beach,_San_Diego,_CA,_USA_-_panoramio_-_rvd5star_(1).jpg",
+          "author": "rvd5star",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "The long path (2357285180)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_long_path_(2357285180).jpg",
+          "author": "jimmyweee",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Symmetry (2353838006)",
+          "url": "https://commons.wikimedia.org/wiki/File:Symmetry_(2353838006).jpg",
+          "author": "jimmyweee",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Pier on Ocean Beach - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Pier_on_Ocean_Beach_-_panoramio.jpg",
+          "author": "Alen Ištoković",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Hohe Wellen in Ocean Beach",
+          "url": "https://commons.wikimedia.org/wiki/File:Hohe_Wellen_in_Ocean_Beach.jpg",
+          "author": "PDPhoto.org",
+          "license": "Public domain"
+        },
+        {
+          "title": "Ocean Beach - panoramio - Scott Cameron",
+          "url": "https://commons.wikimedia.org/wiki/File:Ocean_Beach_-_panoramio_-_Scott_Cameron.jpg",
+          "author": "Scott Cameron",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/sd-ocean-beach-pier.glb",
+      "source": "generators/sd-ocean-beach-pier.ts"
     }
   ],
   "landmarks": [
@@ -50920,6 +50988,23 @@
         "way/40840819",
         "way/40840820",
         "way/40840834"
+      ]
+    },
+    {
+      "id": "sd-ocean-beach-pier",
+      "name": "Ocean Beach Pier",
+      "model": "sd-ocean-beach-pier",
+      "place": "san-diego-area",
+      "lng": -117.2566606,
+      "lat": 32.7489626,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/551709834",
+        "way/25256355",
+        "way/833699876",
+        "way/438087243"
       ]
     }
   ],
