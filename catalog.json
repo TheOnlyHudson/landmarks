@@ -34378,6 +34378,75 @@
       ],
       "file": "models/sd-san-diego-temple.glb",
       "source": "generators/sd-san-diego-temple.ts"
+    },
+    {
+      "id": "sd-crystal-pier",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "pier",
+        "hotel",
+        "cottages",
+        "historic",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Crystal Pier",
+          "url": "https://commons.wikimedia.org/wiki/File:Crystal_Pier.jpg",
+          "author": "Dirk Hansen",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Crystal Pier - San Diego Pacific Beach",
+          "url": "https://commons.wikimedia.org/wiki/File:Crystal_Pier_-_San_Diego_Pacific_Beach.JPG",
+          "author": "Hombre del rio",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CrystalPier",
+          "url": "https://commons.wikimedia.org/wiki/File:CrystalPier.jpg",
+          "author": "Tim Shell",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Crystal Pier, Sandiago Beach - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Crystal_Pier,_Sandiago_Beach_-_panoramio.jpg",
+          "author": "Raman Patel",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Pac Beach 024",
+          "url": "https://commons.wikimedia.org/wiki/File:Pac_Beach_024.jpg",
+          "author": "Dirk Hansen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Crystal peer san diego",
+          "url": "https://commons.wikimedia.org/wiki/File:Crystal_peer_san_diego.JPG",
+          "author": "Microsomen",
+          "license": "CC BY 1.0"
+        }
+      ],
+      "file": "models/sd-crystal-pier.glb",
+      "source": "generators/sd-crystal-pier.ts"
     }
   ],
   "landmarks": [
@@ -50811,6 +50880,47 @@
         "way/33647441"
       ],
       "wikidata": "Q3132715"
+    },
+    {
+      "id": "sd-crystal-pier",
+      "name": "Crystal Pier",
+      "model": "sd-crystal-pier",
+      "place": "san-diego-area",
+      "lng": -117.25825,
+      "lat": 32.79601,
+      "bearing": 345.1,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31294900",
+        "relation/19743905",
+        "way/1444021025",
+        "way/1444021026",
+        "way/165831915",
+        "way/40839394",
+        "way/40839395",
+        "way/40839396",
+        "way/40839397",
+        "way/40839398",
+        "way/40839403",
+        "way/40839407",
+        "way/40839420",
+        "way/40839421",
+        "way/40839422",
+        "way/40839423",
+        "way/40839424",
+        "way/40839425",
+        "way/40839427",
+        "way/40839428",
+        "way/40839429",
+        "way/40839443",
+        "way/40839444",
+        "way/40839445",
+        "way/40839446",
+        "way/40840819",
+        "way/40840820",
+        "way/40840834"
+      ]
     }
   ],
   "places": [
