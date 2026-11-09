@@ -31686,6 +31686,67 @@
       ],
       "file": "models/sd-one-america-plaza.glb",
       "source": "generators/sd-one-america-plaza.ts"
+    },
+    {
+      "id": "sd-rady-shell",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "concert-venue",
+        "bandshell",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Eric Lu performing at the Rady Shell, San Diego.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eric_Lu_performing_at_the_Rady_Shell,_San_Diego.jpg",
+          "author": "atramos",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Symphony in Rady Shell at Jacobs Park 2.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Symphony_in_Rady_Shell_at_Jacobs_Park_2.png",
+          "author": "RL0919",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Symphony in Rady Shell at Jacobs Park 1.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Symphony_in_Rady_Shell_at_Jacobs_Park_1.png",
+          "author": "RL0919",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Rady Shell at Jacobs Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Rady_Shell_at_Jacobs_Park.jpg",
+          "author": "BethViola",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rady Shell Concert.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rady_Shell_Concert.jpg",
+          "author": "Use.gar11",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-rady-shell.glb",
+      "source": "generators/sd-rady-shell.ts"
     }
   ],
   "landmarks": [
@@ -47501,6 +47562,22 @@
         "way/1078598879"
       ],
       "wikidata": "Q1922608"
+    },
+    {
+      "id": "sd-rady-shell",
+      "name": "The Rady Shell at Jacobs Park",
+      "model": "sd-rady-shell",
+      "place": "san-diego-area",
+      "lng": -117.165881,
+      "lat": 32.704786,
+      "bearing": 132,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q114964382",
+      "replaces": [
+        "way/1075932489",
+        "way/1156170543"
+      ]
     }
   ],
   "places": [
