@@ -32207,6 +32207,85 @@
       ],
       "file": "models/sd-hotel-del-coronado.glb",
       "source": "generators/sd-hotel-del-coronado.ts"
+    },
+    {
+      "id": "sd-manchester-grand-hyatt",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Manchester Grand Hyatt Hotel, San Diego",
+          "url": "https://commons.wikimedia.org/wiki/File:Manchester_Grand_Hyatt_Hotel,_San_Diego.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego, 2016 - 282",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_282.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego, 2016 - 287",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_287.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego, 2016 - 281",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_281.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "High-rises in San Diego, California 13 2014-03-06",
+          "url": "https://commons.wikimedia.org/wiki/File:High-rises_in_San_Diego,_California_13_2014-03-06.jpg",
+          "author": "FASTILY",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "ManchesterGrandHyattTowerSanDiegoApr09",
+          "url": "https://commons.wikimedia.org/wiki/File:ManchesterGrandHyattTowerSanDiegoApr09.jpg",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hyatt (3360714571)",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt_(3360714571).jpg",
+          "author": "jimmyweee",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Hyatt lit up with Christmas Colors - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt_lit_up_with_Christmas_Colors_-_panoramio.jpg",
+          "author": "Mountain Mike Johansen",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/sd-manchester-grand-hyatt.glb",
+      "source": "generators/sd-manchester-grand-hyatt.ts"
     }
   ],
   "landmarks": [
@@ -48140,6 +48219,23 @@
       "replaces": [
         "relation/1785615"
       ]
+    },
+    {
+      "id": "sd-manchester-grand-hyatt",
+      "name": "Manchester Grand Hyatt",
+      "model": "sd-manchester-grand-hyatt",
+      "place": "san-diego-area",
+      "lng": -117.16795,
+      "lat": 32.70982,
+      "bearing": 33.4,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/30929700",
+        "way/611726997",
+        "way/611726918"
+      ],
+      "wikidata": "Q935272"
     }
   ],
   "places": [
