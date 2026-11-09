@@ -34233,6 +34233,79 @@
       ],
       "file": "models/sd-immaculata.glb",
       "source": "generators/sd-immaculata.ts"
+    },
+    {
+      "id": "sd-geisel-library",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "library",
+        "university",
+        "brutalist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Geisel West, UCSD",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_West,_UCSD.JPG",
+          "author": "Tktktk",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Geisel East, UCSD",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_East,_UCSD.JPG",
+          "author": "Tktktk",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Geisel Library 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_Library_01.jpg",
+          "author": "Codera23",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Geisel Library 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_Library_2.jpg",
+          "author": "Codera23",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Geisel Library, UCSD, October 2016",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_Library,_UCSD,_October_2016.jpg",
+          "author": "Jami (Wiki Ed)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Geisel Library, UCSD",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_Library,_UCSD.jpg",
+          "author": "belisario (Flickr)",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Geisel Library at UCSD",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_Library_at_UCSD.jpg",
+          "author": "sarahmirk",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/sd-geisel-library.glb",
+      "source": "generators/sd-geisel-library.ts"
     }
   ],
   "landmarks": [
@@ -50632,6 +50705,25 @@
         "way/31843063",
         "way/1207657025"
       ]
+    },
+    {
+      "id": "sd-geisel-library",
+      "name": "Geisel Library",
+      "model": "sd-geisel-library",
+      "place": "san-diego-area",
+      "lng": -117.23758,
+      "lat": 32.88114,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/159385495",
+        "way/1331147923",
+        "way/1331147924",
+        "way/1331147925",
+        "way/1331147926"
+      ],
+      "wikidata": "Q63969880"
     }
   ],
   "places": [
