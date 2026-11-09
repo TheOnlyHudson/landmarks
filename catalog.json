@@ -33124,6 +33124,86 @@
       ],
       "file": "models/sd-convention-center.glb",
       "source": "generators/sd-convention-center.ts"
+    },
+    {
+      "id": "sd-california-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "museum",
+        "spanish-colonial-revival",
+        "balboa-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "South (main) facade - Balboa Park, California Tower (HABS CA-1963-A-2)",
+          "url": "https://commons.wikimedia.org/wiki/File:SOUTH_(MAIN)_FACADE_-_Balboa_Park,_California_Tower,_Balboa_Park,_El_Prado_Area,_San_Diego,_San_Diego_County,_CA_HABS_CAL,37-SANDI,16-A-2.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "California Bell Tower-2",
+          "url": "https://commons.wikimedia.org/wiki/File:California_Bell_Tower-2.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Balboa Parks California Tower (6496231083)",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Parks_California_Tower_(6496231083).jpg",
+          "author": "Leandro Neumann Ciuffo",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "California Tower and San Diego Museum of Man",
+          "url": "https://commons.wikimedia.org/wiki/File:California_Tower_and_San_Diego_Museum_of_Man.jpg",
+          "author": "Intrepid88",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Balboa Park, Museum of Man tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park,_Museum_of_Man_tower.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "California State Building (Museum of Man)",
+          "url": "https://commons.wikimedia.org/wiki/File:California_State_Building_(Museum_of_Man).jpg",
+          "author": "J.olsen356",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museu do Homem San Diego 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Museu_do_Homem_San_Diego_01.jpg",
+          "author": "GualdimG",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Balboa parks towers fountains night",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_parks_towers_fountains_night.jpg",
+          "author": "Jon Sullivan",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-california-tower.glb",
+      "source": "generators/sd-california-tower.ts"
     }
   ],
   "landmarks": [
@@ -49259,6 +49339,22 @@
         "way/1154864702"
       ],
       "wikidata": "Q2236617"
+    },
+    {
+      "id": "sd-california-tower",
+      "name": "California Building and California Tower",
+      "model": "sd-california-tower",
+      "place": "san-diego-area",
+      "lng": -117.15238,
+      "lat": 32.73174,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31240096",
+        "way/459305459",
+        "way/459305460"
+      ]
     }
   ],
   "places": [
