@@ -31826,6 +31826,73 @@
       ],
       "file": "models/sd-santa-fe-depot.glb",
       "source": "generators/sd-santa-fe-depot.ts"
+    },
+    {
+      "id": "sd-america-plaza-station",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "infrastructure",
+      "tags": [
+        "trolley-station",
+        "canopy",
+        "transit"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "America Plaza MTS Station (14892278613)",
+          "url": "https://commons.wikimedia.org/wiki/File:America_Plaza_MTS_Station_(14892278613).jpg",
+          "author": "Prayitno",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "America Plaza MTS Station (14878684806)",
+          "url": "https://commons.wikimedia.org/wiki/File:America_Plaza_MTS_Station_(14878684806).jpg",
+          "author": "Prayitno",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "America Plaza station west side 1",
+          "url": "https://commons.wikimedia.org/wiki/File:America_Plaza_station_west_side_1.JPG",
+          "author": "BrokenSphere",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "America Plaza Station",
+          "url": "https://commons.wikimedia.org/wiki/File:America_Plaza_Station.jpg",
+          "author": "Allan Ferguson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "America Plaza Trolley Station aqw",
+          "url": "https://commons.wikimedia.org/wiki/File:America_Plaza_Trolley_Station_aqw.jpg",
+          "author": "Luciof",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "America Plaza station night 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:America_Plaza_station_night_2019.jpg",
+          "author": "Antony-22",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-america-plaza-station.glb",
+      "source": "generators/sd-america-plaza-station.ts"
     }
   ],
   "landmarks": [
@@ -47674,6 +47741,20 @@
         "way/497459996",
         "way/1148666636",
         "way/1148666637"
+      ]
+    },
+    {
+      "id": "sd-america-plaza-station",
+      "name": "America Plaza station",
+      "model": "sd-america-plaza-station",
+      "place": "san-diego-area",
+      "lng": -117.16878,
+      "lat": 32.71652,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/1078598878"
       ]
     }
   ],
