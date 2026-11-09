@@ -32771,6 +32771,80 @@
       ],
       "file": "models/sd-james-r-mills-building.glb",
       "source": "generators/sd-james-r-mills-building.ts"
+    },
+    {
+      "id": "sd-el-cortez",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "residential",
+        "historic",
+        "spanish-renaissance",
+        "neon-sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "ElCortezHotelSanDiegoApr09",
+          "url": "https://commons.wikimedia.org/wiki/File:ElCortezHotelSanDiegoApr09.jpg",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cortez Hill, San Diego, CA 92101, USA - panoramio (3)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cortez_Hill,_San_Diego,_CA_92101,_USA_-_panoramio_(3).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cortez Hill, San Diego, CA 92101, USA - panoramio (8)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cortez_Hill,_San_Diego,_CA_92101,_USA_-_panoramio_(8).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Cortez Hotel, San Diego 01",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Cortez_Hotel,_San_Diego_01.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Cortez Hotel, San Diego 04",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Cortez_Hotel,_San_Diego_04.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Cortez Apartment Hotel",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Cortez_Apartment_Hotel.jpg",
+          "author": "Los Angeles",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "ElCortezHillSanDiego",
+          "url": "https://commons.wikimedia.org/wiki/File:ElCortezHillSanDiego.jpg",
+          "author": "kid_pro_quo (Flickr)",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/sd-el-cortez.glb",
+      "source": "generators/sd-el-cortez.ts"
     }
   ],
   "landmarks": [
@@ -48826,6 +48900,23 @@
       "minzoom": 15,
       "replaces": [
         "way/31819765"
+      ]
+    },
+    {
+      "id": "sd-el-cortez",
+      "name": "El Cortez",
+      "model": "sd-el-cortez",
+      "place": "san-diego-area",
+      "lng": -117.1579151,
+      "lat": 32.7204475,
+      "bearing": 45,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/132936848",
+        "way/305671135",
+        "way/612697753",
+        "way/305671137"
       ]
     }
   ],
