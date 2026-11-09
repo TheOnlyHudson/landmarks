@@ -32434,6 +32434,75 @@
       ],
       "file": "models/sd-uss-midway.glb",
       "source": "generators/sd-uss-midway.ts"
+    },
+    {
+      "id": "sd-star-of-india",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "ship",
+        "sailing-ship",
+        "museum-ship",
+        "historic",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego Star of India iron hull sailing ship 03",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Star_of_India_iron_hull_sailing_ship_03.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Star of India iron hull sailing ship 05",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Star_of_India_iron_hull_sailing_ship_05.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Star of India San Diego 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Star_of_India_San_Diego_01.jpg",
+          "author": "Andrek02",
+          "license": "CC0"
+        },
+        {
+          "title": "Star of India 150th Anniversary Sail (10827664403)",
+          "url": "https://commons.wikimedia.org/wiki/File:Star_of_India_150th_Anniversary_Sail_(10827664403).jpg",
+          "author": "Port of San Diego",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Star of India San Diego at Night 6D2B4596",
+          "url": "https://commons.wikimedia.org/wiki/File:Star_of_India_San_Diego_at_Night_6D2B4596.jpg",
+          "author": "Tony Webster",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Star of India harbor San Diego",
+          "url": "https://commons.wikimedia.org/wiki/File:Star_of_India_harbor_San_Diego.jpg",
+          "author": "Chris Willis",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/sd-star-of-india.glb",
+      "source": "generators/sd-star-of-india.ts"
     }
   ],
   "landmarks": [
@@ -48417,6 +48486,21 @@
         "way/1158219106"
       ],
       "wikidata": "Q907779"
+    },
+    {
+      "id": "sd-star-of-india",
+      "name": "Star of India",
+      "model": "sd-star-of-india",
+      "place": "san-diego-area",
+      "lng": -117.17356,
+      "lat": 32.720276,
+      "bearing": 180.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/170659470"
+      ],
+      "wikidata": "Q1581178"
     }
   ],
   "places": [
