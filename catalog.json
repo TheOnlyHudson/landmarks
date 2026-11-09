@@ -33439,6 +33439,49 @@
       ],
       "file": "models/sd-san-ysidro-ped-west.glb",
       "source": "generators/sd-san-ysidro-ped-west.ts"
+    },
+    {
+      "id": "sd-san-ysidro-ped-east",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "border-crossing",
+        "government"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The East Pedestrian Inspection Building of the rebuilt San Ysidro Land Port of Entry.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "PedEast San Ysidro LPOE August 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PedEast_San_Ysidro_LPOE_August_2018.jpg",
+          "author": "Balintawak",
+          "license": "Public domain"
+        },
+        {
+          "title": "General Terrence J O’Shaughnessy tours the San Ysidro Port of Entry (31949685228).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:General_Terrence_J_O%E2%80%99Shaughnessy_tours_the_San_Ysidro_Port_of_Entry_(31949685228).jpg",
+          "author": "CBP Photography",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-san-ysidro-ped-east.glb",
+      "source": "generators/sd-san-ysidro-ped-east.ts"
     }
   ],
   "landmarks": [
@@ -49652,6 +49695,21 @@
       "minzoom": 15,
       "replaces": [
         "way/438083299"
+      ]
+    },
+    {
+      "id": "sd-san-ysidro-ped-east",
+      "name": "San Ysidro Port of Entry, PedEast",
+      "model": "sd-san-ysidro-ped-east",
+      "place": "san-diego-area",
+      "lng": -117.0297383,
+      "lat": 32.5438157,
+      "bearing": 314.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/795987984",
+        "way/1021258603"
       ]
     }
   ],
