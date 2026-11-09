@@ -31535,6 +31535,90 @@
       ],
       "file": "models/phl-memorial-hall.glb",
       "source": "generators/phl-memorial-hall.ts"
+    },
+    {
+      "id": "sd-coronado-bridge",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "box-girder",
+        "steel",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego–Coronado Bridge Near 2",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego%E2%80%93Coronado_Bridge_Near_2.jpg",
+          "author": "Mds08011",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "San Diego–Coronado Bridge pier",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego%E2%80%93Coronado_Bridge_pier.jpg",
+          "author": "Mds08011",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Coronado Bridge at Coronado",
+          "url": "https://commons.wikimedia.org/wiki/File:Coronado_Bridge_at_Coronado.jpg",
+          "author": "Mds08011",
+          "license": "CC0"
+        },
+        {
+          "title": "San Diego-Coronado Bridge by Frank Mckenna",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego-Coronado_Bridge_by_Frank_Mckenna.jpg",
+          "author": "Frank Mckenna",
+          "license": "CC0"
+        },
+        {
+          "title": "USS Dubuque (LPD-8) passes under the San Diego-Coronado Bridge on 31 May 2007",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_Dubuque_(LPD-8)_passes_under_the_San_Diego-Coronado_Bridge_on_31_May_2007_(070531-N-4658L-121).jpg",
+          "author": "U.S. Navy",
+          "license": "Public domain"
+        },
+        {
+          "title": "San Diego-Coronado Bridge and Naval Station dfkvb",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego-Coronado_Bridge_and_Naval_Station_dfkvb.jpg",
+          "author": "Luciof",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Coronado Bridge 2018",
+          "url": "https://commons.wikimedia.org/wiki/File:Coronado_Bridge_2018.jpg",
+          "author": "Antony-22",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Coronado bridge night",
+          "url": "https://commons.wikimedia.org/wiki/File:Coronado_bridge_night.jpg",
+          "license": "Public domain"
+        },
+        {
+          "title": "Coronado Bay Night JSOS",
+          "url": "https://commons.wikimedia.org/wiki/File:Coronado_Bay_Night_JSOS.jpg",
+          "author": "Joshssky",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-coronado-bridge.glb",
+      "source": "generators/sd-coronado-bridge.ts"
     }
   ],
   "landmarks": [
@@ -47315,6 +47399,21 @@
       "minzoom": 15,
       "replaces": [
         "way/49916202"
+      ]
+    },
+    {
+      "id": "sd-coronado-bridge",
+      "name": "San Diego–Coronado Bridge",
+      "model": "sd-coronado-bridge",
+      "place": "san-diego-area",
+      "lng": -117.1522448,
+      "lat": 32.6921275,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q2062395",
+      "replaces": [
+        "way/1538967145"
       ]
     }
   ],
