@@ -34073,6 +34073,86 @@
       ],
       "file": "models/sd-mission-san-diego.glb",
       "source": "generators/sd-mission-san-diego.ts"
+    },
+    {
+      "id": "sd-salk-institute",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "laboratory",
+        "brutalist",
+        "modernist",
+        "louis-kahn"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Salk Institute for Biological Studies and a seagull",
+          "url": "https://commons.wikimedia.org/wiki/File:Salk_Institute_for_Biological_Studies_and_a_seagull_dllu.jpg",
+          "author": "Daniel L. Lu",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Salk Institute (Highsmith)",
+          "url": "https://commons.wikimedia.org/wiki/File:Salk_Institute_Highsmith.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Salk Institute 2 (Highsmith)",
+          "url": "https://commons.wikimedia.org/wiki/File:Salk_Institute_2_Highsmith.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Salk Institute 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Salk_Institute_2.jpg",
+          "author": "Codera23",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Salk Institute Panorama",
+          "url": "https://commons.wikimedia.org/wiki/File:Salk_Institute_Panorama.jpg",
+          "author": "Gregg M. Erickson",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "2019 Salk Institute north building north facade",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_Salk_Institute_north_building_north_facade.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2019 Salk Institute north building and cafe from west",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_Salk_Institute_north_building_and_cafe_from_west.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2019 Salk Institute from west plaza level",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_Salk_Institute_from_west_plaza_level.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-salk-institute.glb",
+      "source": "generators/sd-salk-institute.ts"
     }
   ],
   "landmarks": [
@@ -50441,6 +50521,22 @@
         "relation/14963099",
         "way/1119076937"
       ]
+    },
+    {
+      "id": "sd-salk-institute",
+      "name": "Salk Institute",
+      "model": "sd-salk-institute",
+      "place": "san-diego-area",
+      "lng": -117.24616,
+      "lat": 32.88709,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31844744",
+        "way/31839360"
+      ],
+      "wikidata": "Q128635401"
     }
   ],
   "places": [
