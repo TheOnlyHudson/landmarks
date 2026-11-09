@@ -31619,6 +31619,73 @@
       ],
       "file": "models/sd-coronado-bridge.glb",
       "source": "generators/sd-coronado-bridge.ts"
+    },
+    {
+      "id": "sd-one-america-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "OneAmericaPlazaSDSept10",
+          "url": "https://commons.wikimedia.org/wiki/File:OneAmericaPlazaSDSept10.jpg",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "OneAmericaPlazaSanDiegoApr09",
+          "url": "https://commons.wikimedia.org/wiki/File:OneAmericaPlazaSanDiegoApr09.jpg",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "One America Plaza with moon",
+          "url": "https://commons.wikimedia.org/wiki/File:One_America_Plaza_with_moon.jpg",
+          "author": "Wattewyl",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "OneAmericanPlaza",
+          "url": "https://commons.wikimedia.org/wiki/File:OneAmericanPlaza.jpg",
+          "author": "Ldelagarzag",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "One America Plaza, night",
+          "url": "https://commons.wikimedia.org/wiki/File:One_America_Plaza,_night.JPG",
+          "author": "Rufustele",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Core-Columbia, San Diego, CA, USA - panoramio (17)",
+          "url": "https://commons.wikimedia.org/wiki/File:Core-Columbia,_San_Diego,_CA,_USA_-_panoramio_(17).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-one-america-plaza.glb",
+      "source": "generators/sd-one-america-plaza.ts"
     }
   ],
   "landmarks": [
@@ -47415,6 +47482,25 @@
       "replaces": [
         "way/1538967145"
       ]
+    },
+    {
+      "id": "sd-one-america-plaza",
+      "name": "One America Plaza",
+      "model": "sd-one-america-plaza",
+      "place": "san-diego-area",
+      "lng": -117.1687,
+      "lat": 32.71614,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/451287796",
+        "way/458903471",
+        "way/497520826",
+        "way/1078598877",
+        "way/1078598879"
+      ],
+      "wikidata": "Q1922608"
     }
   ],
   "places": [
