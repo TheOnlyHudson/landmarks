@@ -32028,6 +32028,92 @@
       ],
       "file": "models/sd-electra.glb",
       "source": "generators/sd-electra.ts"
+    },
+    {
+      "id": "sd-petco-park",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "ballpark",
+        "baseball",
+        "mlb",
+        "sandstone"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Petco Park, San Diego.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Petco_Park,_San_Diego.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "PetcoPark.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PetcoPark.jpg",
+          "author": "Aude",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "East Village, San Diego, CA, USA - panoramio (3).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(3).jpg",
+          "author": "Mountain Mike Johans",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "East Village, San Diego, CA, USA - panoramio (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(2).jpg",
+          "author": "Mountain Mike Johans",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "PetcoBallParkByPhilKonstantin.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PetcoBallParkByPhilKonstantin.jpg",
+          "author": "Phil Konstantin",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Petco Park from above.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Petco_Park_from_above.jpg",
+          "author": "thegordons (Flickr)",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Petco Park San Diego 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Petco_Park_San_Diego_04.jpg",
+          "author": "GualdimG",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "WCNA16 - San Diego Public Library 88.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:WCNA16_-_San_Diego_Public_Library_88.jpg",
+          "author": "Mitchazenia",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "PetcoParkNight.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PetcoParkNight.jpg",
+          "author": "Jamie Lantzy",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-petco-park.glb",
+      "source": "generators/sd-petco-park.ts"
     }
   ],
   "landmarks": [
@@ -47930,6 +48016,23 @@
         "way/305925605"
       ],
       "wikidata": "Q3050546"
+    },
+    {
+      "id": "sd-petco-park",
+      "name": "Petco Park",
+      "model": "sd-petco-park",
+      "place": "san-diego-area",
+      "lng": -117.15687,
+      "lat": 32.70718,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1194586",
+      "replaces": [
+        "relation/1779874",
+        "way/613165145",
+        "way/769800588"
+      ]
     }
   ],
   "places": [
