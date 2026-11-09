@@ -31535,6 +31535,3135 @@
       ],
       "file": "models/phl-memorial-hall.glb",
       "source": "generators/phl-memorial-hall.ts"
+    },
+    {
+      "id": "sd-coronado-bridge",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "box-girder",
+        "steel",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego–Coronado Bridge Near 2",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego%E2%80%93Coronado_Bridge_Near_2.jpg",
+          "author": "Mds08011",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "San Diego–Coronado Bridge pier",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego%E2%80%93Coronado_Bridge_pier.jpg",
+          "author": "Mds08011",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Coronado Bridge at Coronado",
+          "url": "https://commons.wikimedia.org/wiki/File:Coronado_Bridge_at_Coronado.jpg",
+          "author": "Mds08011",
+          "license": "CC0"
+        },
+        {
+          "title": "San Diego-Coronado Bridge by Frank Mckenna",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego-Coronado_Bridge_by_Frank_Mckenna.jpg",
+          "author": "Frank Mckenna",
+          "license": "CC0"
+        },
+        {
+          "title": "USS Dubuque (LPD-8) passes under the San Diego-Coronado Bridge on 31 May 2007",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_Dubuque_(LPD-8)_passes_under_the_San_Diego-Coronado_Bridge_on_31_May_2007_(070531-N-4658L-121).jpg",
+          "author": "U.S. Navy",
+          "license": "Public domain"
+        },
+        {
+          "title": "San Diego-Coronado Bridge and Naval Station dfkvb",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego-Coronado_Bridge_and_Naval_Station_dfkvb.jpg",
+          "author": "Luciof",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Coronado Bridge 2018",
+          "url": "https://commons.wikimedia.org/wiki/File:Coronado_Bridge_2018.jpg",
+          "author": "Antony-22",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Coronado bridge night",
+          "url": "https://commons.wikimedia.org/wiki/File:Coronado_bridge_night.jpg",
+          "license": "Public domain"
+        },
+        {
+          "title": "Coronado Bay Night JSOS",
+          "url": "https://commons.wikimedia.org/wiki/File:Coronado_Bay_Night_JSOS.jpg",
+          "author": "Joshssky",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-coronado-bridge.glb",
+      "source": "generators/sd-coronado-bridge.ts"
+    },
+    {
+      "id": "sd-one-america-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "OneAmericaPlazaSDSept10",
+          "url": "https://commons.wikimedia.org/wiki/File:OneAmericaPlazaSDSept10.jpg",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "OneAmericaPlazaSanDiegoApr09",
+          "url": "https://commons.wikimedia.org/wiki/File:OneAmericaPlazaSanDiegoApr09.jpg",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "One America Plaza with moon",
+          "url": "https://commons.wikimedia.org/wiki/File:One_America_Plaza_with_moon.jpg",
+          "author": "Wattewyl",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "OneAmericanPlaza",
+          "url": "https://commons.wikimedia.org/wiki/File:OneAmericanPlaza.jpg",
+          "author": "Ldelagarzag",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "One America Plaza, night",
+          "url": "https://commons.wikimedia.org/wiki/File:One_America_Plaza,_night.JPG",
+          "author": "Rufustele",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Core-Columbia, San Diego, CA, USA - panoramio (17)",
+          "url": "https://commons.wikimedia.org/wiki/File:Core-Columbia,_San_Diego,_CA,_USA_-_panoramio_(17).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-one-america-plaza.glb",
+      "source": "generators/sd-one-america-plaza.ts"
+    },
+    {
+      "id": "sd-rady-shell",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "concert-venue",
+        "bandshell",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Eric Lu performing at the Rady Shell, San Diego.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eric_Lu_performing_at_the_Rady_Shell,_San_Diego.jpg",
+          "author": "atramos",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Symphony in Rady Shell at Jacobs Park 2.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Symphony_in_Rady_Shell_at_Jacobs_Park_2.png",
+          "author": "RL0919",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Symphony in Rady Shell at Jacobs Park 1.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Symphony_in_Rady_Shell_at_Jacobs_Park_1.png",
+          "author": "RL0919",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Rady Shell at Jacobs Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Rady_Shell_at_Jacobs_Park.jpg",
+          "author": "BethViola",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rady Shell Concert.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rady_Shell_Concert.jpg",
+          "author": "Use.gar11",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-rady-shell.glb",
+      "source": "generators/sd-rady-shell.ts"
+    },
+    {
+      "id": "sd-santa-fe-depot",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "train-station",
+        "mission-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego Santa Fe Depot 07",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Santa_Fe_Depot_07.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Santa Fe Depot 05",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Santa_Fe_Depot_05.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Santa Fe Depot 14",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Santa_Fe_Depot_14.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Train Station",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Train_Station.jpg",
+          "author": "Doug Letterman",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Santa fe depot in San Diego",
+          "url": "https://commons.wikimedia.org/wiki/File:Santa_fe_depot_in_San_Diego.jpg",
+          "author": "Jon Sullivan",
+          "license": "Public domain"
+        },
+        {
+          "title": "San Diego - Santa Fe Depot - 20130803163619",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_-_Santa_Fe_Depot_-_20130803163619.jpg",
+          "author": "Ramesh lalwani",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Santa Fe Depot at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Santa_Fe_Depot_at_night.jpg",
+          "author": "Gentletouch1954",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego-Union Depot post card ca 1920",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego-Union_Depot_post_card_ca_1920.jpg",
+          "author": "Unknown",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-santa-fe-depot.glb",
+      "source": "generators/sd-santa-fe-depot.ts"
+    },
+    {
+      "id": "sd-america-plaza-station",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "infrastructure",
+      "tags": [
+        "trolley-station",
+        "canopy",
+        "transit"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "America Plaza MTS Station (14892278613)",
+          "url": "https://commons.wikimedia.org/wiki/File:America_Plaza_MTS_Station_(14892278613).jpg",
+          "author": "Prayitno",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "America Plaza MTS Station (14878684806)",
+          "url": "https://commons.wikimedia.org/wiki/File:America_Plaza_MTS_Station_(14878684806).jpg",
+          "author": "Prayitno",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "America Plaza station west side 1",
+          "url": "https://commons.wikimedia.org/wiki/File:America_Plaza_station_west_side_1.JPG",
+          "author": "BrokenSphere",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "America Plaza Station",
+          "url": "https://commons.wikimedia.org/wiki/File:America_Plaza_Station.jpg",
+          "author": "Allan Ferguson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "America Plaza Trolley Station aqw",
+          "url": "https://commons.wikimedia.org/wiki/File:America_Plaza_Trolley_Station_aqw.jpg",
+          "author": "Luciof",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "America Plaza station night 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:America_Plaza_station_night_2019.jpg",
+          "author": "Antony-22",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-america-plaza-station.glb",
+      "source": "generators/sd-america-plaza-station.ts"
+    },
+    {
+      "id": "sd-emerald-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "hotel"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "EmeraldPlazaSanDiegoApr09",
+          "url": "https://commons.wikimedia.org/wiki/File:EmeraldPlazaSanDiegoApr09.jpg",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "EmeraldPlazaSDFeb2014",
+          "url": "https://commons.wikimedia.org/wiki/File:EmeraldPlazaSDFeb2014.JPG",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "EmeraldPlazaByPhilKonstantin",
+          "url": "https://commons.wikimedia.org/wiki/File:EmeraldPlazaByPhilKonstantin.jpg",
+          "author": "Phil Konstantin",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Westin Emerald Plaza San Diego west side 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Emerald_Plaza_San_Diego_west_side_1.JPG",
+          "author": "BrokenSphere",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego, 2016 - 255",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_255.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Downtown San Diego (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Downtown_San_Diego_(1).jpg",
+          "author": "Jon Sullivan",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-emerald-plaza.glb",
+      "source": "generators/sd-emerald-plaza.ts"
+    },
+    {
+      "id": "sd-electra",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "residential",
+        "historic",
+        "adaptive-reuse"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "ElectraSanDiegoApr09",
+          "url": "https://commons.wikimedia.org/wiki/File:ElectraSanDiegoApr09.jpg",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego, 2016 - 204",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_204.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kettner Boulevard",
+          "url": "https://commons.wikimedia.org/wiki/File:Kettner_Boulevard.JPG",
+          "author": "Vrysxy",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Kettner Blvd",
+          "url": "https://commons.wikimedia.org/wiki/File:Kettner_Blvd.JPG",
+          "author": "Vrysxy",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego sdflgn",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_sdflgn.jpg",
+          "author": "Luciof",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego - California - Yacht Harbor with Hotels (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_-_California_-_Yacht_Harbor_with_Hotels_(cropped).jpg",
+          "author": "PictorialEvidence",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-electra.glb",
+      "source": "generators/sd-electra.ts"
+    },
+    {
+      "id": "sd-petco-park",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "ballpark",
+        "baseball",
+        "mlb",
+        "sandstone"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Petco Park, San Diego.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Petco_Park,_San_Diego.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "PetcoPark.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PetcoPark.jpg",
+          "author": "Aude",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "East Village, San Diego, CA, USA - panoramio (3).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(3).jpg",
+          "author": "Mountain Mike Johans",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "East Village, San Diego, CA, USA - panoramio (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(2).jpg",
+          "author": "Mountain Mike Johans",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "PetcoBallParkByPhilKonstantin.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PetcoBallParkByPhilKonstantin.jpg",
+          "author": "Phil Konstantin",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Petco Park from above.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Petco_Park_from_above.jpg",
+          "author": "thegordons (Flickr)",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Petco Park San Diego 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Petco_Park_San_Diego_04.jpg",
+          "author": "GualdimG",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "WCNA16 - San Diego Public Library 88.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:WCNA16_-_San_Diego_Public_Library_88.jpg",
+          "author": "Mitchazenia",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "PetcoParkNight.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PetcoParkNight.jpg",
+          "author": "Jamie Lantzy",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-petco-park.glb",
+      "source": "generators/sd-petco-park.ts"
+    },
+    {
+      "id": "sd-hotel-del-coronado",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "historic",
+        "queen-anne",
+        "victorian",
+        "resort"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "HABS CAL-1958, Hotel Del Coronado, measured drawings (sheets 2, 3, 6, 7, 8)",
+          "url": "https://commons.wikimedia.org/wiki/Category:Hotel_del_Coronado_-_HABS_drawings",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "HABS CAL,37-CORO,1- photographs",
+          "url": "https://commons.wikimedia.org/wiki/Category:Hotel_del_Coronado_-_HABS_images",
+          "author": "Marvin Rand (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Hotel Del Coronado 04",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Del_Coronado_04.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hotel Del Coronado 05",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Del_Coronado_05.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hotel Del Coronado evening 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Del_Coronado_evening_02.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hotel Del Coronado Drone Picture Turf Lawn",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Del_Coronado_Drone_Picture_Turf_Lawn.jpg",
+          "author": "Armandoartist",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hotel del Coronado (2008)",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_del_Coronado_(2008).jpg",
+          "author": "Dirk DBQ",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Hotel Del Coronado at dusk in February",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Del_Coronado_at_dusk_in_February_-_panoramio.jpg",
+          "author": "nick hoke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "View of hotel from the beach, Hotel del Coronado",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_hotel_from_the_beach,_Hotel_del_Coronado,_Coronado,_CA.jpg",
+          "author": "KMPhotoLA1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hotel del Coronado at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_del_Coronado_at_night.JPG",
+          "author": "Herbert lewis",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-hotel-del-coronado.glb",
+      "source": "generators/sd-hotel-del-coronado.ts"
+    },
+    {
+      "id": "sd-manchester-grand-hyatt",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Manchester Grand Hyatt Hotel, San Diego",
+          "url": "https://commons.wikimedia.org/wiki/File:Manchester_Grand_Hyatt_Hotel,_San_Diego.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego, 2016 - 282",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_282.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego, 2016 - 287",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_287.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego, 2016 - 281",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_281.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "High-rises in San Diego, California 13 2014-03-06",
+          "url": "https://commons.wikimedia.org/wiki/File:High-rises_in_San_Diego,_California_13_2014-03-06.jpg",
+          "author": "FASTILY",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "ManchesterGrandHyattTowerSanDiegoApr09",
+          "url": "https://commons.wikimedia.org/wiki/File:ManchesterGrandHyattTowerSanDiegoApr09.jpg",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hyatt (3360714571)",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt_(3360714571).jpg",
+          "author": "jimmyweee",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Hyatt lit up with Christmas Colors - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyatt_lit_up_with_Christmas_Colors_-_panoramio.jpg",
+          "author": "Mountain Mike Johansen",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/sd-manchester-grand-hyatt.glb",
+      "source": "generators/sd-manchester-grand-hyatt.ts"
+    },
+    {
+      "id": "sd-harbor-club",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "residential",
+        "twin-towers"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The San Diego Harbor Club Towers (8727179956)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_San_Diego_Harbor_Club_Towers_(8727179956).jpg",
+          "author": "vxla from Chicago, US",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "San Diego, Oct. 2016 13",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_Oct._2016_13.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego, Oct. 2016 14",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_Oct._2016_14.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gaslamp Quarter, San Diego, CA 92101, USA - panoramio (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Gaslamp_Quarter,_San_Diego,_CA_92101,_USA_-_panoramio_(2).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego, 2016 - 042",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_042.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Looking West on East Harbor Drive",
+          "url": "https://commons.wikimedia.org/wiki/File:Looking_West_on_East_Harbor_Drive.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-harbor-club.glb",
+      "source": "generators/sd-harbor-club.ts"
+    },
+    {
+      "id": "sd-uss-midway",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "ship",
+        "aircraft-carrier",
+        "museum-ship",
+        "historic",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "USS Midway (CV-41) museum ship, panorama, San Diego, California",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_Midway_(CV-41)_museum_ship,_panorama,_San_Diego,_California.jpg",
+          "author": "Christian David",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "USS Midway, port stern view, Mar 2023",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_Midway,_port_stern_view,_Mar_2023.jpg",
+          "author": "Mys 721tx",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego (California, USA), USS Midway Museum -- 2012 -- 5368",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_(California,_USA),_USS_Midway_Museum_--_2012_--_5368.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego (California, USA), USS Midway Museum -- 2012 -- 5365",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_(California,_USA),_USS_Midway_Museum_--_2012_--_5365.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Front view of the USS Midway (CV-41) as a museum in San Diego, CA",
+          "url": "https://commons.wikimedia.org/wiki/File:Front_view_of_the_USS_Midway_(CV-41)_as_a_museum_in_San_Diego,_CA.jpg",
+          "author": "Shawnnielsen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "USSMidwayByPhilKonstantin",
+          "url": "https://commons.wikimedia.org/wiki/File:USSMidwayByPhilKonstantin.jpg",
+          "author": "Phil Konstantin",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "US Navy 040110-N-5362A-015",
+          "url": "https://commons.wikimedia.org/wiki/File:US_Navy_040110-N-5362A-015_The_decommissioned_aircraft_carrier_Midway_makes_its_way_across_the_San_Diego_bay_to_its_final_resting_place_at_Navy_pier_where_it_will_become_the_largest_museum_devoted_to_carriers_and_naval_aviation.jpg",
+          "author": "U.S. Navy",
+          "license": "Public domain"
+        },
+        {
+          "title": "E-2 Hawkeye USS Midway Museum-1",
+          "url": "https://commons.wikimedia.org/wiki/File:E-2_Hawkeye_USS_Midway_Museum-1.jpg",
+          "author": "Balon Greyjoy",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/sd-uss-midway.glb",
+      "source": "generators/sd-uss-midway.ts"
+    },
+    {
+      "id": "sd-star-of-india",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "ship",
+        "sailing-ship",
+        "museum-ship",
+        "historic",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego Star of India iron hull sailing ship 03",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Star_of_India_iron_hull_sailing_ship_03.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Star of India iron hull sailing ship 05",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Star_of_India_iron_hull_sailing_ship_05.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Star of India San Diego 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Star_of_India_San_Diego_01.jpg",
+          "author": "Andrek02",
+          "license": "CC0"
+        },
+        {
+          "title": "Star of India 150th Anniversary Sail (10827664403)",
+          "url": "https://commons.wikimedia.org/wiki/File:Star_of_India_150th_Anniversary_Sail_(10827664403).jpg",
+          "author": "Port of San Diego",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Star of India San Diego at Night 6D2B4596",
+          "url": "https://commons.wikimedia.org/wiki/File:Star_of_India_San_Diego_at_Night_6D2B4596.jpg",
+          "author": "Tony Webster",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Star of India harbor San Diego",
+          "url": "https://commons.wikimedia.org/wiki/File:Star_of_India_harbor_San_Diego.jpg",
+          "author": "Chris Willis",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/sd-star-of-india.glb",
+      "source": "generators/sd-star-of-india.ts"
+    },
+    {
+      "id": "sd-unconditional-surrender",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "statue",
+        "public-art",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "...the historic kiss - Flickr - allyndon",
+          "url": "https://commons.wikimedia.org/wiki/File:...the_historic_kiss_-_Flickr_-_allyndon.jpg",
+          "author": "allyndon",
+          "license": "CC0"
+        },
+        {
+          "title": "Marina, San Diego, CA, USA - panoramio (41)",
+          "url": "https://commons.wikimedia.org/wiki/File:Marina,_San_Diego,_CA,_USA_-_panoramio_(41).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Marina, San Diego, CA, USA - panoramio (21)",
+          "url": "https://commons.wikimedia.org/wiki/File:Marina,_San_Diego,_CA,_USA_-_panoramio_(21).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The \"Unconditional Surrender,\" - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:The_%22Unconditional_Surrender,%22_-_panoramio.jpg",
+          "author": "rosalynn carmen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Embracing Peace",
+          "url": "https://commons.wikimedia.org/wiki/File:Embracing_Peace.jpg",
+          "author": "Agnese Pellino",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Unconditional Surrender Statue",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Unconditional_Surrender_Statue.jpg",
+          "author": "Seankimstyle",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-unconditional-surrender.glb",
+      "source": "generators/sd-unconditional-surrender.ts"
+    },
+    {
+      "id": "sd-county-administration-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "government",
+        "spanish-revival",
+        "art-deco",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego City and County Administration Building",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_City_and_County_Administration_Building.jpg",
+          "author": "Adbar",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego City and Administration Building (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_City_and_Administration_Building_(cropped).jpg",
+          "author": "Business Navigatoren",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "San Diego County Administration Center (54305382019)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_County_Administration_Center_(54305382019).jpg",
+          "author": "Matt Boulton",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "San Diego County Administration Center (19198739008)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_County_Administration_Center_(19198739008).jpg",
+          "author": "Tony Webster",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "San Diego Civic Center 1",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Civic_Center_1.jpg",
+          "author": "SD Dirk",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "San Diego Civic Center 2",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Civic_Center_2.jpg",
+          "author": "Edward O'Connor",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/sd-county-administration-center.glb",
+      "source": "generators/sd-county-administration-center.ts"
+    },
+    {
+      "id": "sd-12th-imperial-clock-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "clock-tower",
+        "transit"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "James R. Mills Building",
+          "url": "https://commons.wikimedia.org/wiki/File:James_R._Mills_Building.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego, 2016 - 568",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_568.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "12th & Imperial",
+          "url": "https://commons.wikimedia.org/wiki/File:12th_%26_Imperial.jpg",
+          "author": "Cloverof4",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "East Village, San Diego, CA, USA - panoramio (7)",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(7).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "12th & Imperial TC station from SDPL jeh",
+          "url": "https://commons.wikimedia.org/wiki/File:12th_%26_Imperial_TC_station_from_SDPL_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "San Diego - Public Transport Hub of Southern California - Vintage Streetcar No.529",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_-_Public_Transport_Hub_of_Southern_California_-_Vintage_Streetcar_No.529_waits_at_Imperial_Transit_Center_to_start_a_tourist_Downtown_Loop.jpg",
+          "author": "kitmasterbloke",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/sd-12th-imperial-clock-tower.glb",
+      "source": "generators/sd-12th-imperial-clock-tower.ts"
+    },
+    {
+      "id": "sd-james-r-mills-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "transit"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "James R. Mills Building",
+          "url": "https://commons.wikimedia.org/wiki/File:James_R._Mills_Building.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego, 2016 - 568",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_568.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "James R. Mills Building IMG 0308",
+          "url": "https://commons.wikimedia.org/wiki/File:James_R._Mills_Building_IMG_0308.jpg",
+          "author": "Balintawak",
+          "license": "Public domain"
+        },
+        {
+          "title": "East Village, San Diego, CA, USA - panoramio (7)",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(7).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "12th & Imperial Transit Center",
+          "url": "https://commons.wikimedia.org/wiki/File:12th_%26_Imperial_Transit_Center.JPG",
+          "author": "Vrysxy",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "12th & Imperial",
+          "url": "https://commons.wikimedia.org/wiki/File:12th_%26_Imperial.jpg",
+          "author": "Cloverof4",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-james-r-mills-building.glb",
+      "source": "generators/sd-james-r-mills-building.ts"
+    },
+    {
+      "id": "sd-el-cortez",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "residential",
+        "historic",
+        "spanish-renaissance",
+        "neon-sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "ElCortezHotelSanDiegoApr09",
+          "url": "https://commons.wikimedia.org/wiki/File:ElCortezHotelSanDiegoApr09.jpg",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cortez Hill, San Diego, CA 92101, USA - panoramio (3)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cortez_Hill,_San_Diego,_CA_92101,_USA_-_panoramio_(3).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cortez Hill, San Diego, CA 92101, USA - panoramio (8)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cortez_Hill,_San_Diego,_CA_92101,_USA_-_panoramio_(8).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Cortez Hotel, San Diego 01",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Cortez_Hotel,_San_Diego_01.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Cortez Hotel, San Diego 04",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Cortez_Hotel,_San_Diego_04.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Cortez Apartment Hotel",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Cortez_Apartment_Hotel.jpg",
+          "author": "Los Angeles",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "ElCortezHillSanDiego",
+          "url": "https://commons.wikimedia.org/wiki/File:ElCortezHillSanDiego.jpg",
+          "author": "kid_pro_quo (Flickr)",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/sd-el-cortez.glb",
+      "source": "generators/sd-el-cortez.ts"
+    },
+    {
+      "id": "sd-john-d-spreckels-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "historic",
+        "terra-cotta"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego, 2016 - 165",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_165.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Broadway & 6th Avenue",
+          "url": "https://commons.wikimedia.org/wiki/File:Broadway_%26_6th_Avenue.JPG",
+          "author": "Vrysxy",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Sixth Avenue & Broadway",
+          "url": "https://commons.wikimedia.org/wiki/File:Sixth_Avenue_%26_Broadway.JPG",
+          "author": "Vrysxy",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Core-Columbia, San Diego, CA, USA - panoramio (23)",
+          "url": "https://commons.wikimedia.org/wiki/File:Core-Columbia,_San_Diego,_CA,_USA_-_panoramio_(23).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "View of downtown San Diego (Broadway looking west), in 1961",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_downtown_San_Diego_(Broadway_looking_west),_in_1961.jpg",
+          "author": "U.S. Navy",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-john-d-spreckels-building.glb",
+      "source": "generators/sd-john-d-spreckels-building.ts"
+    },
+    {
+      "id": "sd-symphony-towers",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "ImperialSymphonyTowersSD",
+          "url": "https://commons.wikimedia.org/wiki/File:ImperialSymphonyTowersSD.jpeg",
+          "author": "Gateman1997",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Symphony Towers San Diego",
+          "url": "https://commons.wikimedia.org/wiki/File:Symphony_Towers_San_Diego.jpg",
+          "author": "Coolcaesar",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "SymphonyTowersSanDiegoDec06",
+          "url": "https://commons.wikimedia.org/wiki/File:SymphonyTowersSanDiegoDec06.jpg",
+          "author": "Allan Ferguson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Core-Columbia, San Diego, CA, USA - panoramio (39)",
+          "url": "https://commons.wikimedia.org/wiki/File:Core-Columbia,_San_Diego,_CA,_USA_-_panoramio_(39).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-symphony-towers.glb",
+      "source": "generators/sd-symphony-towers.ts"
+    },
+    {
+      "id": "sd-central-library",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "library",
+        "civic",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego Central Library Exterior 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Central_Library_Exterior_2024.jpg",
+          "author": "Mzedp",
+          "license": "CC0"
+        },
+        {
+          "title": "East Village, San Diego, CA, USA - panoramio (10)",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(10).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "East Village, San Diego, CA, USA - panoramio (14)",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(14).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "East Village, San Diego, CA, USA - panoramio (15)",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(15).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Central Library",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Central_Library.jpg",
+          "author": "Nserrano",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Central Library, San Diego, CA - 01 (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Central_Library,_San_Diego,_CA_-_01.jpg",
+          "author": "Jarek Tuszyński",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "San Diego central library 5385",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_central_library_5385.jpg",
+          "author": "Avery Jensen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego central library dome",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_central_library_dome.jpg",
+          "author": "Holly Cheng",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-central-library.glb",
+      "source": "generators/sd-central-library.ts"
+    },
+    {
+      "id": "sd-convention-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "convention-center",
+        "waterfront",
+        "tensile-roof"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego Convention Center Aerial View",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center_Aerial_View.jpg",
+          "author": "Redideo",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "San Diego Convention Center hjks",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center_hjks.jpg",
+          "author": "Luciof",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Convention Center (14091418542)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center_(14091418542).jpg",
+          "author": "The Conmunity - Pop Culture Geek",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Downtown San Diego 021",
+          "url": "https://commons.wikimedia.org/wiki/File:Downtown_San_Diego_021.jpg",
+          "author": "Sebastian Wallroth",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "San Diego Convention Center (cropped1)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center_(cropped1).jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Convention Center-3",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center-3.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Convention Center-2",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center-2.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Convention Center (8727177848)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center_(8727177848).jpg",
+          "author": "vxla",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "San Diego convention center at night",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_convention_center_at_night.jpg",
+          "author": "LostplanetKD73",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-convention-center.glb",
+      "source": "generators/sd-convention-center.ts"
+    },
+    {
+      "id": "sd-california-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "museum",
+        "spanish-colonial-revival",
+        "balboa-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "South (main) facade - Balboa Park, California Tower (HABS CA-1963-A-2)",
+          "url": "https://commons.wikimedia.org/wiki/File:SOUTH_(MAIN)_FACADE_-_Balboa_Park,_California_Tower,_Balboa_Park,_El_Prado_Area,_San_Diego,_San_Diego_County,_CA_HABS_CAL,37-SANDI,16-A-2.tif",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "California Bell Tower-2",
+          "url": "https://commons.wikimedia.org/wiki/File:California_Bell_Tower-2.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Balboa Parks California Tower (6496231083)",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Parks_California_Tower_(6496231083).jpg",
+          "author": "Leandro Neumann Ciuffo",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "California Tower and San Diego Museum of Man",
+          "url": "https://commons.wikimedia.org/wiki/File:California_Tower_and_San_Diego_Museum_of_Man.jpg",
+          "author": "Intrepid88",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Balboa Park, Museum of Man tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park,_Museum_of_Man_tower.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "California State Building (Museum of Man)",
+          "url": "https://commons.wikimedia.org/wiki/File:California_State_Building_(Museum_of_Man).jpg",
+          "author": "J.olsen356",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museu do Homem San Diego 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Museu_do_Homem_San_Diego_01.jpg",
+          "author": "GualdimG",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Balboa parks towers fountains night",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_parks_towers_fountains_night.jpg",
+          "author": "Jon Sullivan",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-california-tower.glb",
+      "source": "generators/sd-california-tower.ts"
+    },
+    {
+      "id": "sd-botanical-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "conservatory",
+        "garden",
+        "balboa-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Balboa Park Botanical Building 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park_Botanical_Building_02.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Balboa Park Botanical Building 04",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park_Botanical_Building_04.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Balboa Park Botanical Building Exterior 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park_Botanical_Building_Exterior_02.jpg",
+          "author": "GualdimG",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Balboa Park Botanical Building - DSC06789",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park_Botanical_Building_-_DSC06789.JPG",
+          "author": "Daderot",
+          "license": "CC0"
+        },
+        {
+          "title": "Balboa park botanical building summer 2022",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_park_botanical_building_summer_2022.jpg",
+          "author": "Librarybell",
+          "license": "CC0"
+        },
+        {
+          "title": "Balboa Park Gardens, night",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park_Gardens,_night.jpg",
+          "author": "ArthurDeCosta",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-botanical-building.glb",
+      "source": "generators/sd-botanical-building.ts"
+    },
+    {
+      "id": "sd-air-and-space-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "streamline-moderne",
+        "historic",
+        "balboa-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "SanDiegoAirSpaceMuseumByPhilKonstantin",
+          "url": "https://commons.wikimedia.org/wiki/File:SanDiegoAirSpaceMuseumByPhilKonstantin.JPG",
+          "author": "Phil Konstantin",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palisades, San Diego, CA 92101, USA - panoramio (20)",
+          "url": "https://commons.wikimedia.org/wiki/File:Palisades,_San_Diego,_CA_92101,_USA_-_panoramio_(20).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palisades, San Diego, CA 92101, USA - panoramio (28)",
+          "url": "https://commons.wikimedia.org/wiki/File:Palisades,_San_Diego,_CA_92101,_USA_-_panoramio_(28).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ford Building, Air and Space Museum",
+          "url": "https://commons.wikimedia.org/wiki/File:Ford_Building,_Air_and_Space_Museum.jpg",
+          "author": "Gentletouch1954",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Air & Space Museum entrance 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Air_%26_Space_Museum_entrance_2009.jpg",
+          "author": "San Diego Air & Space Museum",
+          "license": "No known restrictions"
+        },
+        {
+          "title": "San Diego, 2016 - 537",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_537.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "42-san-diego-air-space-museum",
+          "url": "https://commons.wikimedia.org/wiki/File:42-san-diego-air-space-museum.jpg",
+          "author": "Alfred Twu",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/sd-air-and-space-museum.glb",
+      "source": "generators/sd-air-and-space-museum.ts"
+    },
+    {
+      "id": "sd-lemon-grove-lemon",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "roadside-attraction",
+        "historic",
+        "sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The giant plaster lemon (1928 float, set up 1930) on its 'Best Climate on Earth' pedestal by the Lemon Grove Depot trolley stop.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Lemon Grove, CA.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lemon_Grove,_CA.jpg",
+          "author": "Allan Ferguson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Lemon grove monument.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lemon_grove_monument.jpg",
+          "author": "Allan Ferguson",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/sd-lemon-grove-lemon.glb",
+      "source": "generators/sd-lemon-grove-lemon.ts"
+    },
+    {
+      "id": "sd-san-ysidro-ped-west",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "border-crossing",
+        "government"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The West Pedestrian Inspection Building (2016) of the San Ysidro Land Port of Entry.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "PedWest US.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PedWest_US.jpg",
+          "author": "Keizers",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "FPS traffic stop PedWest 2018-10-16.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FPS_traffic_stop_PedWest_2018-10-16.jpg",
+          "author": "Balintawak",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "PPE at the San Ysidro Port of Entry, PED WEST.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PPE_at_the_San_Ysidro_Port_of_Entry,_PED_WEST.jpg",
+          "author": "CBP Photography",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-san-ysidro-ped-west.glb",
+      "source": "generators/sd-san-ysidro-ped-west.ts"
+    },
+    {
+      "id": "sd-san-ysidro-ped-east",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "border-crossing",
+        "government"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The East Pedestrian Inspection Building of the rebuilt San Ysidro Land Port of Entry.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "PedEast San Ysidro LPOE August 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PedEast_San_Ysidro_LPOE_August_2018.jpg",
+          "author": "Balintawak",
+          "license": "Public domain"
+        },
+        {
+          "title": "General Terrence J O’Shaughnessy tours the San Ysidro Port of Entry (31949685228).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:General_Terrence_J_O%E2%80%99Shaughnessy_tours_the_San_Ysidro_Port_of_Entry_(31949685228).jpg",
+          "author": "CBP Photography",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-san-ysidro-ped-east.glb",
+      "source": "generators/sd-san-ysidro-ped-east.ts"
+    },
+    {
+      "id": "sd-snapdragon-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "soccer",
+        "college-sports",
+        "university"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "An aerial view of Snapdragon Stadium (2022-08-26).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_Snapdragon_Stadium_(2022-08-26).jpg",
+          "author": "Terrible Tim",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "PXL 20220826 184856422.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PXL_20220826_184856422.jpg",
+          "author": "Terrible Tim",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego Wave vs Angel City FC June 17, 2023 (52999752262).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Wave_vs_Angel_City_FC_June_17,_2023_(52999752262).jpg",
+          "author": "StarsApart",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "CaptureOfSnapdragonStadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:CaptureOfSnapdragonStadium.jpg",
+          "author": "The Great Epiphany",
+          "license": "CC0"
+        },
+        {
+          "title": "Mascot Monday San Diego Legion Rugby Game (8301408).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mascot_Monday_San_Diego_Legion_Rugby_Game_(8301408).jpg",
+          "author": "U.S. Marine Corps, Sgt. Jesse K.",
+          "license": "Public domain"
+        },
+        {
+          "title": "Snapdragon Stadium interior-home stands 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Snapdragon_Stadium_interior-home_stands_1.jpg",
+          "author": "Spatms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Snapdragon Stadium interior-away stands 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Snapdragon_Stadium_interior-away_stands_1.jpg",
+          "author": "Spatms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Snapdragon Stadium exterior-Night stadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Snapdragon_Stadium_exterior-Night_stadium.jpg",
+          "author": "Spatms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Snapdragon Stadium exterior-Night home stands.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Snapdragon_Stadium_exterior-Night_home_stands.jpg",
+          "author": "Spatms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "AztecStadium.png",
+          "url": "https://commons.wikimedia.org/wiki/File:AztecStadium.png",
+          "author": "Gateman1997",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aztec Stadium as of 11-13-21.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Aztec_Stadium_as_of_11-13-21.jpg",
+          "author": "Chuck Marean",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-snapdragon-stadium.glb",
+      "source": "generators/sd-snapdragon-stadium.ts"
+    },
+    {
+      "id": "sd-viejas-arena",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "basketball",
+        "university"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "USA CA SanDiego SDSU 001 2013 - Viejas Arena.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:USA_CA_SanDiego_SDSU_001_2013_-_Viejas_Arena.jpg",
+          "author": "Der-wuppertaler",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cox arena front.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cox_arena_front.JPG",
+          "author": "Wikimedia Commons uploader (unnamed)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Welcome to Viejas Arena - 4 Apr 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Welcome_to_Viejas_Arena_-_4_Apr_2024.jpg",
+          "author": "Kire1975",
+          "license": "CC0"
+        },
+        {
+          "title": "Viejas Arena located in the Aztec Bowl.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Viejas_Arena_located_in_the_Aztec_Bowl.jpg",
+          "author": "LeeZee",
+          "license": "Public domain"
+        },
+        {
+          "title": "Viejas Arena Loading Area - Nicki Minaj Tour, September 27, 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Viejas_Arena_Loading_Area_-_Nicki_Minaj_Tour,_September_27,_2024.jpg",
+          "author": "Kire1975",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/sd-viejas-arena.glb",
+      "source": "generators/sd-viejas-arena.ts"
+    },
+    {
+      "id": "sd-pechanga-arena",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "ice-hockey",
+        "new-formalism",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego Sports Arena.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Sports_Arena.jpg",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego,California,USA. - panoramio (36).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,California,USA._-_panoramio_(36).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Pechanga Arena Panorama.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pechanga_Arena_Panorama.jpg",
+          "author": "Pink Floyd Fan 101",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "VVCasinoCtr.jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:VVCasinoCtr.jpeg",
+          "author": "Gateman1997",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/sd-pechanga-arena.glb",
+      "source": "generators/sd-pechanga-arena.ts"
+    },
+    {
+      "id": "sd-niccu-amphitheatre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "amphitheatre",
+        "concert-venue",
+        "music"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "North Island Credit Union Amphitheatre in 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:North_Island_Credit_Union_Amphitheatre_in_2024.jpg",
+          "author": "Pink Floyd Fan 101",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Phish - Chula Vista 10 25 14 (15333046983).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Phish_-_Chula_Vista_10_25_14_(15333046983).jpg",
+          "author": "Trevor Bexon",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "North Island Credit Union Amphitheater.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:North_Island_Credit_Union_Amphitheater.jpg",
+          "author": "AnnoyingBee",
+          "license": "CC0"
+        },
+        {
+          "title": "Cricket Wireless Amphitheatre in Chula Vista.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cricket_Wireless_Amphitheatre_in_Chula_Vista.jpg",
+          "author": "Ewen Roberts",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Def Leppard (4120855799).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Def_Leppard_(4120855799).jpg",
+          "author": "Nick Ares",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/sd-niccu-amphitheatre.glb",
+      "source": "generators/sd-niccu-amphitheatre.ts"
+    },
+    {
+      "id": "sd-spreckels-organ-pavilion",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "music-venue",
+        "amphitheatre",
+        "balboa-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Balboa Park, San Diego, CA, USA - panoramio (193)",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park,_San_Diego,_CA,_USA_-_panoramio_(193).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Spreckels Organ Pavilion 2 2016-05-14",
+          "url": "https://commons.wikimedia.org/wiki/File:Spreckels_Organ_Pavilion_2_2016-05-14.jpg",
+          "author": "FASTILY",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Spreckels Organ Pavilion wide front view",
+          "url": "https://commons.wikimedia.org/wiki/File:Spreckels_Organ_Pavilion_wide_front_view.JPG",
+          "author": "Captain-tucker",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Spreckels Pavilion WideShot",
+          "url": "https://commons.wikimedia.org/wiki/File:Spreckels_Pavilion_WideShot.jpg",
+          "author": "ChemicalBear",
+          "license": "CC0"
+        },
+        {
+          "title": "Spreckels Organ Pavalion",
+          "url": "https://commons.wikimedia.org/wiki/File:Spreckels_Organ_Pavalion.jpg",
+          "author": "Dan Anderson",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Spreckels Organ Pavilion Detail",
+          "url": "https://commons.wikimedia.org/wiki/File:Spreckels_Organ_Pavilion_Detail.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Spreckels at new years",
+          "url": "https://commons.wikimedia.org/wiki/File:Spreckels_at_new_years.jpg",
+          "author": "Jon Sullivan",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-spreckels-organ-pavilion.glb",
+      "source": "generators/sd-spreckels-organ-pavilion.ts"
+    },
+    {
+      "id": "sd-cabrillo-bridge",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "historic",
+        "arch-bridge",
+        "balboa-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cabrillo Bridge-2",
+          "url": "https://commons.wikimedia.org/wiki/File:Cabrillo_Bridge-2.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cabrillo Bridge",
+          "url": "https://commons.wikimedia.org/wiki/File:Cabrillo_Bridge.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cabrillo Bridge-3",
+          "url": "https://commons.wikimedia.org/wiki/File:Cabrillo_Bridge-3.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "43-san-diego-balboa-park-highway-163",
+          "url": "https://commons.wikimedia.org/wiki/File:43-san-diego-balboa-park-highway-163.jpg",
+          "author": "Alfred Twu",
+          "license": "CC0"
+        },
+        {
+          "title": "Balboa Park, San Diego, CA, USA - panoramio (38)",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park,_San_Diego,_CA,_USA_-_panoramio_(38).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Prado looking west across the Cabrillo Bridge",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Prado_looking_west_across_the_Cabrillo_Bridge.jpg",
+          "author": "Rhododendrites",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-cabrillo-bridge.glb",
+      "source": "generators/sd-cabrillo-bridge.ts"
+    },
+    {
+      "id": "sd-old-globe-theatre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "theatre",
+        "tudor-revival",
+        "balboa-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Balboa Park, San Diego, CA, USA - panoramio (171)",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park,_San_Diego,_CA,_USA_-_panoramio_(171).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Balboa Park, San Diego, CA, USA - panoramio (172)",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park,_San_Diego,_CA,_USA_-_panoramio_(172).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego, 2016 - 319",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_319.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Old Globe Theatre 2 2014-03-12",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Globe_Theatre_2_2014-03-12.jpg",
+          "author": "FASTILY",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Old globe theatre",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_globe_theatre.jpg",
+          "author": "Dan Anderson",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-old-globe-theatre.glb",
+      "source": "generators/sd-old-globe-theatre.ts"
+    },
+    {
+      "id": "sd-san-ysidro-mcdonalds",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "restaurant",
+        "commercial",
+        "sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The two-storey restaurant building beside the San Ysidro trolley platforms and its curved, stacked maroon sign, drawn without branding.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Ysidro, San Diego, CA, USA - panoramio (6).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Ysidro,_San_Diego,_CA,_USA_-_panoramio_(6).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Ysidro, San Diego, CA, USA - panoramio (5).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Ysidro,_San_Diego,_CA,_USA_-_panoramio_(5).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Ysidro, San Diego, CA, USA - panoramio (7).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Ysidro,_San_Diego,_CA,_USA_-_panoramio_(7).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-san-ysidro-mcdonalds.glb",
+      "source": "generators/sd-san-ysidro-mcdonalds.ts"
+    },
+    {
+      "id": "sd-mission-san-diego",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "mission",
+        "spanish-colonial",
+        "historic",
+        "basilica"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mission San Diego de Alcalá - church.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mission_San_Diego_de_Alcalá_-_church.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San-diego-mission-church.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:San-diego-mission-church.JPG",
+          "author": "Dmadeo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Mission de Alcala.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Mission_de_Alcala.jpg",
+          "author": "DonnaAmisDavis",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Mission Basilica San Diego de Alcalá 2019a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mission_Basilica_San_Diego_de_Alcalá_2019a.jpg",
+          "author": "Antony-22",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mission Basilica San Diego de Alcalá 2019b.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mission_Basilica_San_Diego_de_Alcalá_2019b.jpg",
+          "author": "Antony-22",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-mission-san-diego.glb",
+      "source": "generators/sd-mission-san-diego.ts"
+    },
+    {
+      "id": "sd-salk-institute",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "laboratory",
+        "brutalist",
+        "modernist",
+        "louis-kahn"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Salk Institute for Biological Studies and a seagull",
+          "url": "https://commons.wikimedia.org/wiki/File:Salk_Institute_for_Biological_Studies_and_a_seagull_dllu.jpg",
+          "author": "Daniel L. Lu",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Salk Institute (Highsmith)",
+          "url": "https://commons.wikimedia.org/wiki/File:Salk_Institute_Highsmith.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Salk Institute 2 (Highsmith)",
+          "url": "https://commons.wikimedia.org/wiki/File:Salk_Institute_2_Highsmith.jpg",
+          "author": "Carol M. Highsmith",
+          "license": "Public domain"
+        },
+        {
+          "title": "Salk Institute 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Salk_Institute_2.jpg",
+          "author": "Codera23",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Salk Institute Panorama",
+          "url": "https://commons.wikimedia.org/wiki/File:Salk_Institute_Panorama.jpg",
+          "author": "Gregg M. Erickson",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "2019 Salk Institute north building north facade",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_Salk_Institute_north_building_north_facade.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2019 Salk Institute north building and cafe from west",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_Salk_Institute_north_building_and_cafe_from_west.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2019 Salk Institute from west plaza level",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_Salk_Institute_from_west_plaza_level.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-salk-institute.glb",
+      "source": "generators/sd-salk-institute.ts"
+    },
+    {
+      "id": "sd-immaculata",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "place-of-worship",
+        "university",
+        "spanish-renaissance-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego,California.USA. - panoramio (28)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,California.USA._-_panoramio_(28).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego,California.USA. - panoramio (26)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,California.USA._-_panoramio_(26).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The Immaculata",
+          "url": "https://www.flickr.com/photos/125363750@N06/44374670880",
+          "author": "Söki",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "USD Immaculata Parish Church",
+          "url": "https://commons.wikimedia.org/wiki/File:USD_Immaculata_Parish_Church.jpg",
+          "author": "Colint",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Immaculata",
+          "url": "https://www.flickr.com/photos/8267218@N03/13926412542",
+          "author": "john farrell macdonald",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Church of the Immaculata",
+          "url": "https://www.flickr.com/photos/152327194@N04/33959592935",
+          "author": "analisezocher",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "University of San Diego",
+          "url": "https://commons.wikimedia.org/wiki/File:University_of_San_Diego.jpg",
+          "author": "Transfeo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "USDByPhilKonstantin",
+          "url": "https://commons.wikimedia.org/wiki/File:USDByPhilKonstantin.jpg",
+          "author": "Phil Konstantin",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-immaculata.glb",
+      "source": "generators/sd-immaculata.ts"
+    },
+    {
+      "id": "sd-geisel-library",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "library",
+        "university",
+        "brutalist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Geisel West, UCSD",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_West,_UCSD.JPG",
+          "author": "Tktktk",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Geisel East, UCSD",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_East,_UCSD.JPG",
+          "author": "Tktktk",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Geisel Library 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_Library_01.jpg",
+          "author": "Codera23",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Geisel Library 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_Library_2.jpg",
+          "author": "Codera23",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Geisel Library, UCSD, October 2016",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_Library,_UCSD,_October_2016.jpg",
+          "author": "Jami (Wiki Ed)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Geisel Library, UCSD",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_Library,_UCSD.jpg",
+          "author": "belisario (Flickr)",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Geisel Library at UCSD",
+          "url": "https://commons.wikimedia.org/wiki/File:Geisel_Library_at_UCSD.jpg",
+          "author": "sarahmirk",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/sd-geisel-library.glb",
+      "source": "generators/sd-geisel-library.ts"
+    },
+    {
+      "id": "sd-san-diego-temple",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "temple",
+        "place-of-worship",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "2019 San Diego LDS Temple 1",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_San_Diego_LDS_Temple_1.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego Mormon Temple17",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Mormon_Temple17.jpg",
+          "author": "Antoine Taveneaux",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Temple 2008",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Temple_2008.JPG",
+          "author": "Petter Strandmark",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "San Diego CA Temple side view",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_CA_Temple_side_view.jpg",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "San Diego California Temple, Turret",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_California_Temple,_Turret.jpg",
+          "author": "Altus Photo Design",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "San Diego California Temple - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_California_Temple_-_panoramio.jpg",
+          "author": "rvd5star",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "San Diego Temple June 2023",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Temple_June_2023.jpg",
+          "author": "Nweil",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-san-diego-temple.glb",
+      "source": "generators/sd-san-diego-temple.ts"
+    },
+    {
+      "id": "sd-crystal-pier",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "pier",
+        "hotel",
+        "cottages",
+        "historic",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Crystal Pier",
+          "url": "https://commons.wikimedia.org/wiki/File:Crystal_Pier.jpg",
+          "author": "Dirk Hansen",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Crystal Pier - San Diego Pacific Beach",
+          "url": "https://commons.wikimedia.org/wiki/File:Crystal_Pier_-_San_Diego_Pacific_Beach.JPG",
+          "author": "Hombre del rio",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CrystalPier",
+          "url": "https://commons.wikimedia.org/wiki/File:CrystalPier.jpg",
+          "author": "Tim Shell",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Crystal Pier, Sandiago Beach - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Crystal_Pier,_Sandiago_Beach_-_panoramio.jpg",
+          "author": "Raman Patel",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Pac Beach 024",
+          "url": "https://commons.wikimedia.org/wiki/File:Pac_Beach_024.jpg",
+          "author": "Dirk Hansen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Crystal peer san diego",
+          "url": "https://commons.wikimedia.org/wiki/File:Crystal_peer_san_diego.JPG",
+          "author": "Microsomen",
+          "license": "CC BY 1.0"
+        }
+      ],
+      "file": "models/sd-crystal-pier.glb",
+      "source": "generators/sd-crystal-pier.ts"
+    },
+    {
+      "id": "sd-ocean-beach-pier",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "infrastructure",
+      "tags": [
+        "pier",
+        "concrete",
+        "waterfront",
+        "closed"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Ocean Beach, San Diego, CA, USA - panoramio - rvd5star (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Ocean_Beach,_San_Diego,_CA,_USA_-_panoramio_-_rvd5star_(1).jpg",
+          "author": "rvd5star",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "The long path (2357285180)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_long_path_(2357285180).jpg",
+          "author": "jimmyweee",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Symmetry (2353838006)",
+          "url": "https://commons.wikimedia.org/wiki/File:Symmetry_(2353838006).jpg",
+          "author": "jimmyweee",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Pier on Ocean Beach - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Pier_on_Ocean_Beach_-_panoramio.jpg",
+          "author": "Alen Ištoković",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Hohe Wellen in Ocean Beach",
+          "url": "https://commons.wikimedia.org/wiki/File:Hohe_Wellen_in_Ocean_Beach.jpg",
+          "author": "PDPhoto.org",
+          "license": "Public domain"
+        },
+        {
+          "title": "Ocean Beach - panoramio - Scott Cameron",
+          "url": "https://commons.wikimedia.org/wiki/File:Ocean_Beach_-_panoramio_-_Scott_Cameron.jpg",
+          "author": "Scott Cameron",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/sd-ocean-beach-pier.glb",
+      "source": "generators/sd-ocean-beach-pier.ts"
+    },
+    {
+      "id": "sd-giant-dipper",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "coaster",
+      "tags": [
+        "roller-coaster",
+        "wooden-coaster",
+        "amusement-park",
+        "historic",
+        "national-historic-landmark"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Giant Dipper Roller Coaster-10",
+          "url": "https://commons.wikimedia.org/wiki/File:Giant_Dipper_Roller_Coaster-10.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Giant Dipper Roller Coaster-7",
+          "url": "https://commons.wikimedia.org/wiki/File:Giant_Dipper_Roller_Coaster-7.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Giant Dipper Roller Coaster",
+          "url": "https://commons.wikimedia.org/wiki/File:Giant_Dipper_Roller_Coaster.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Giant Dipper Roller Coaster-2",
+          "url": "https://commons.wikimedia.org/wiki/File:Giant_Dipper_Roller_Coaster-2.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "MissionBayByPhilKonstantin",
+          "url": "https://commons.wikimedia.org/wiki/File:MissionBayByPhilKonstantin.jpg",
+          "author": "Phil Konstantin",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "MissionBeachRollercoaster 640pixels",
+          "url": "https://commons.wikimedia.org/wiki/File:MissionBeachRollercoaster_640pixels.JPG",
+          "author": "Greg Bulla",
+          "license": "Public domain"
+        },
+        {
+          "title": "Mission Beach Roller Coaster 002",
+          "url": "https://commons.wikimedia.org/wiki/File:Mission_Beach_Roller_Coaster_002.JPG",
+          "author": "Bignoisybird",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-giant-dipper.glb",
+      "source": "generators/sd-giant-dipper.ts"
+    },
+    {
+      "id": "sd-old-point-loma-lighthouse",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "lighthouse",
+        "historic",
+        "national-register",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Old Point Loma Lighthouse 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Point_Loma_Lighthouse_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Old Point Loma Lighthouse 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Point_Loma_Lighthouse_02.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Old Point Loma Light Station in 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Point_Loma_Light_Station_in_2019.jpg",
+          "author": "Frank Schulenburg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Old Point Loma Lighthouse (5322712442)",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Point_Loma_Lighthouse_(5322712442).jpg",
+          "author": "Brandon",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Old Point Loma Lighthouse (14463265856)",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Point_Loma_Lighthouse_(14463265856).jpg",
+          "author": "Pete Markham",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "-The Old Point Loma Lighthouse - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:-The_Old_Point_Loma_Lighthouse_-_panoramio.jpg",
+          "author": "Loco Steve",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "HABS CA-41, Point Loma Lighthouse, measured drawings",
+          "url": "https://www.loc.gov/pictures/item/ca0581/",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-old-point-loma-lighthouse.glb",
+      "source": "generators/sd-old-point-loma-lighthouse.ts"
     }
   ],
   "landmarks": [
@@ -47316,6 +50445,751 @@
       "replaces": [
         "way/49916202"
       ]
+    },
+    {
+      "id": "sd-coronado-bridge",
+      "name": "San Diego–Coronado Bridge",
+      "model": "sd-coronado-bridge",
+      "place": "san-diego-area",
+      "lng": -117.1522448,
+      "lat": 32.6921275,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q2062395",
+      "replaces": [
+        "way/1538967145"
+      ]
+    },
+    {
+      "id": "sd-one-america-plaza",
+      "name": "One America Plaza",
+      "model": "sd-one-america-plaza",
+      "place": "san-diego-area",
+      "lng": -117.1687,
+      "lat": 32.71614,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/451287796",
+        "way/458903471",
+        "way/497520826",
+        "way/1078598877",
+        "way/1078598879"
+      ],
+      "wikidata": "Q1922608"
+    },
+    {
+      "id": "sd-rady-shell",
+      "name": "The Rady Shell at Jacobs Park",
+      "model": "sd-rady-shell",
+      "place": "san-diego-area",
+      "lng": -117.165881,
+      "lat": 32.704786,
+      "bearing": 132,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q114964382",
+      "replaces": [
+        "way/1075932489",
+        "way/1156170543"
+      ]
+    },
+    {
+      "id": "sd-santa-fe-depot",
+      "name": "Santa Fe Depot",
+      "model": "sd-santa-fe-depot",
+      "place": "san-diego-area",
+      "lng": -117.16956,
+      "lat": 32.71695,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/27154273",
+        "way/497459943",
+        "way/497459996",
+        "way/1148666636",
+        "way/1148666637"
+      ]
+    },
+    {
+      "id": "sd-america-plaza-station",
+      "name": "America Plaza station",
+      "model": "sd-america-plaza-station",
+      "place": "san-diego-area",
+      "lng": -117.16878,
+      "lat": 32.71652,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/1078598878"
+      ]
+    },
+    {
+      "id": "sd-emerald-plaza",
+      "name": "Emerald Plaza",
+      "model": "sd-emerald-plaza",
+      "place": "san-diego-area",
+      "lng": -117.16695,
+      "lat": 32.71626,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/498796492",
+        "way/305926737",
+        "way/305926738",
+        "way/305926739",
+        "way/305926740",
+        "way/305926741",
+        "way/305926742",
+        "way/305926743",
+        "way/305927637",
+        "way/608703250"
+      ]
+    },
+    {
+      "id": "sd-electra",
+      "name": "Electra",
+      "model": "sd-electra",
+      "place": "san-diego-area",
+      "lng": -117.16953,
+      "lat": 32.71502,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/305374761",
+        "way/305925605"
+      ],
+      "wikidata": "Q3050546"
+    },
+    {
+      "id": "sd-petco-park",
+      "name": "Petco Park",
+      "model": "sd-petco-park",
+      "place": "san-diego-area",
+      "lng": -117.15687,
+      "lat": 32.70718,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1194586",
+      "replaces": [
+        "relation/1779874",
+        "way/613165145",
+        "way/769800588"
+      ]
+    },
+    {
+      "id": "sd-hotel-del-coronado",
+      "name": "Hotel del Coronado",
+      "model": "sd-hotel-del-coronado",
+      "place": "san-diego-area",
+      "lng": -117.17824,
+      "lat": 32.68094,
+      "bearing": 126,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/1785615"
+      ]
+    },
+    {
+      "id": "sd-manchester-grand-hyatt",
+      "name": "Manchester Grand Hyatt",
+      "model": "sd-manchester-grand-hyatt",
+      "place": "san-diego-area",
+      "lng": -117.16795,
+      "lat": 32.70982,
+      "bearing": 33.4,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/30929700",
+        "way/611726997",
+        "way/611726918"
+      ],
+      "wikidata": "Q935272"
+    },
+    {
+      "id": "sd-harbor-club",
+      "name": "Harbor Club",
+      "model": "sd-harbor-club",
+      "place": "san-diego-area",
+      "lng": -117.16255,
+      "lat": 32.70898,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/305664248",
+        "way/429353144",
+        "way/429353147"
+      ],
+      "wikidata": "Q955149"
+    },
+    {
+      "id": "sd-uss-midway",
+      "name": "USS Midway Museum",
+      "model": "sd-uss-midway",
+      "place": "san-diego-area",
+      "lng": -117.175114,
+      "lat": 32.713761,
+      "bearing": 270.6,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/25965018",
+        "way/1158219106"
+      ],
+      "wikidata": "Q907779"
+    },
+    {
+      "id": "sd-star-of-india",
+      "name": "Star of India",
+      "model": "sd-star-of-india",
+      "place": "san-diego-area",
+      "lng": -117.17356,
+      "lat": 32.720276,
+      "bearing": 180.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/170659470"
+      ],
+      "wikidata": "Q1581178"
+    },
+    {
+      "id": "sd-unconditional-surrender",
+      "name": "Unconditional Surrender",
+      "model": "sd-unconditional-surrender",
+      "place": "san-diego-area",
+      "lng": -117.17517,
+      "lat": 32.7129,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "sd-county-administration-center",
+      "name": "San Diego County Administration Center",
+      "model": "sd-county-administration-center",
+      "place": "san-diego-area",
+      "lng": -117.171917,
+      "lat": 32.721946,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/26748195",
+        "way/1154814393",
+        "way/1154814394",
+        "way/1154814395"
+      ],
+      "wikidata": "Q17183978"
+    },
+    {
+      "id": "sd-12th-imperial-clock-tower",
+      "name": "12th & Imperial Transit Center Clock Tower",
+      "model": "sd-12th-imperial-clock-tower",
+      "place": "san-diego-area",
+      "lng": -117.1537224,
+      "lat": 32.7060156,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/613166333"
+      ]
+    },
+    {
+      "id": "sd-james-r-mills-building",
+      "name": "James R. Mills Building",
+      "model": "sd-james-r-mills-building",
+      "place": "san-diego-area",
+      "lng": -117.1533954,
+      "lat": 32.7057002,
+      "bearing": 334.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31819765"
+      ]
+    },
+    {
+      "id": "sd-el-cortez",
+      "name": "El Cortez",
+      "model": "sd-el-cortez",
+      "place": "san-diego-area",
+      "lng": -117.1579151,
+      "lat": 32.7204475,
+      "bearing": 45,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/132936848",
+        "way/305671135",
+        "way/612697753",
+        "way/305671137"
+      ]
+    },
+    {
+      "id": "sd-john-d-spreckels-building",
+      "name": "John D. Spreckels Building",
+      "model": "sd-john-d-spreckels-building",
+      "place": "san-diego-area",
+      "lng": -117.1588086,
+      "lat": 32.7154908,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/350398726",
+        "way/31845938"
+      ],
+      "wikidata": "Q12060884"
+    },
+    {
+      "id": "sd-symphony-towers",
+      "name": "Symphony Towers",
+      "model": "sd-symphony-towers",
+      "place": "san-diego-area",
+      "lng": -117.1578641,
+      "lat": 32.7180549,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/31846117"
+      ]
+    },
+    {
+      "id": "sd-central-library",
+      "name": "San Diego Central Library",
+      "model": "sd-central-library",
+      "place": "san-diego-area",
+      "lng": -117.1542,
+      "lat": 32.70892,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/377357193",
+        "way/498788614"
+      ],
+      "wikidata": "Q33104628"
+    },
+    {
+      "id": "sd-convention-center",
+      "name": "San Diego Convention Center",
+      "model": "sd-convention-center",
+      "place": "san-diego-area",
+      "lng": -117.16183,
+      "lat": 32.70643,
+      "bearing": 303.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/30929677",
+        "way/1154864702"
+      ],
+      "wikidata": "Q2236617"
+    },
+    {
+      "id": "sd-california-tower",
+      "name": "California Building and California Tower",
+      "model": "sd-california-tower",
+      "place": "san-diego-area",
+      "lng": -117.15238,
+      "lat": 32.73174,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31240096",
+        "way/459305459",
+        "way/459305460"
+      ]
+    },
+    {
+      "id": "sd-botanical-building",
+      "name": "Botanical Building",
+      "model": "sd-botanical-building",
+      "place": "san-diego-area",
+      "lng": -117.14923,
+      "lat": 32.73251,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/25775425",
+        "way/1146822818",
+        "way/1573861954",
+        "way/1573861955",
+        "way/1573861942",
+        "way/1573861943",
+        "way/1573861944",
+        "way/1573861945"
+      ],
+      "wikidata": "Q27704699"
+    },
+    {
+      "id": "sd-air-and-space-museum",
+      "name": "San Diego Air & Space Museum",
+      "model": "sd-air-and-space-museum",
+      "place": "san-diego-area",
+      "lng": -117.15439,
+      "lat": 32.72624,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31240535"
+      ],
+      "wikidata": "Q3308955"
+    },
+    {
+      "id": "sd-lemon-grove-lemon",
+      "name": "The Big Lemon, Lemon Grove",
+      "model": "sd-lemon-grove-lemon",
+      "place": "san-diego-area",
+      "lng": -117.03088,
+      "lat": 32.74253,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "sd-san-ysidro-ped-west",
+      "name": "San Ysidro Port of Entry, PedWest",
+      "model": "sd-san-ysidro-ped-west",
+      "place": "san-diego-area",
+      "lng": -117.03604,
+      "lat": 32.5423361,
+      "bearing": 354.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/438083299"
+      ]
+    },
+    {
+      "id": "sd-san-ysidro-ped-east",
+      "name": "San Ysidro Port of Entry, PedEast",
+      "model": "sd-san-ysidro-ped-east",
+      "place": "san-diego-area",
+      "lng": -117.0297383,
+      "lat": 32.5438157,
+      "bearing": 314.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/795987984",
+        "way/1021258603"
+      ]
+    },
+    {
+      "id": "sd-snapdragon-stadium",
+      "name": "Snapdragon Stadium",
+      "model": "sd-snapdragon-stadium",
+      "place": "san-diego-area",
+      "lng": -117.12244,
+      "lat": 32.78422,
+      "bearing": 7,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q100272042",
+      "replaces": [
+        "relation/14552060"
+      ]
+    },
+    {
+      "id": "sd-viejas-arena",
+      "name": "Viejas Arena",
+      "model": "sd-viejas-arena",
+      "place": "san-diego-area",
+      "lng": -117.07454,
+      "lat": 32.77381,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q3557958",
+      "replaces": [
+        "way/31248345"
+      ]
+    },
+    {
+      "id": "sd-pechanga-arena",
+      "name": "Pechanga Arena",
+      "model": "sd-pechanga-arena",
+      "place": "san-diego-area",
+      "lng": -117.21224,
+      "lat": 32.75535,
+      "bearing": 17,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q3106621",
+      "replaces": [
+        "way/121777136"
+      ]
+    },
+    {
+      "id": "sd-niccu-amphitheatre",
+      "name": "North Island Credit Union Amphitheatre",
+      "model": "sd-niccu-amphitheatre",
+      "place": "san-diego-area",
+      "lng": -117.00636,
+      "lat": 32.58765,
+      "bearing": 48,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/223961641"
+      ]
+    },
+    {
+      "id": "sd-spreckels-organ-pavilion",
+      "name": "Spreckels Organ Pavilion",
+      "model": "sd-spreckels-organ-pavilion",
+      "place": "san-diego-area",
+      "lng": -117.15043,
+      "lat": 32.72945,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31240523",
+        "way/1511054492",
+        "way/1574361364",
+        "way/1574361371",
+        "way/1574361373"
+      ],
+      "wikidata": "Q7580302"
+    },
+    {
+      "id": "sd-cabrillo-bridge",
+      "name": "Cabrillo Bridge",
+      "model": "sd-cabrillo-bridge",
+      "place": "san-diego-area",
+      "lng": -117.1545,
+      "lat": 32.73142,
+      "bearing": 359.47,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/122353744",
+        "relation/1672334"
+      ],
+      "wikidata": "Q3380233"
+    },
+    {
+      "id": "sd-old-globe-theatre",
+      "name": "The Old Globe",
+      "model": "sd-old-globe-theatre",
+      "place": "san-diego-area",
+      "lng": -117.15231,
+      "lat": 32.73226,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/51538418"
+      ],
+      "wikidata": "Q7084094"
+    },
+    {
+      "id": "sd-san-ysidro-mcdonalds",
+      "name": "Trolley Station restaurant, San Ysidro",
+      "model": "sd-san-ysidro-mcdonalds",
+      "place": "san-diego-area",
+      "lng": -117.0291055,
+      "lat": 32.5443977,
+      "bearing": 60,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/31818520"
+      ]
+    },
+    {
+      "id": "sd-mission-san-diego",
+      "name": "Mission Basilica San Diego de Alcalá",
+      "model": "sd-mission-san-diego",
+      "place": "san-diego-area",
+      "lng": -117.10631,
+      "lat": 32.78479,
+      "bearing": 43,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q617891",
+      "replaces": [
+        "relation/14963099",
+        "way/1119076937"
+      ]
+    },
+    {
+      "id": "sd-salk-institute",
+      "name": "Salk Institute",
+      "model": "sd-salk-institute",
+      "place": "san-diego-area",
+      "lng": -117.24616,
+      "lat": 32.88709,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31844744",
+        "way/31839360"
+      ],
+      "wikidata": "Q128635401"
+    },
+    {
+      "id": "sd-immaculata",
+      "name": "The Immaculata",
+      "model": "sd-immaculata",
+      "place": "san-diego-area",
+      "lng": -117.19075,
+      "lat": 32.77227,
+      "bearing": 343.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31843063",
+        "way/1207657025"
+      ]
+    },
+    {
+      "id": "sd-geisel-library",
+      "name": "Geisel Library",
+      "model": "sd-geisel-library",
+      "place": "san-diego-area",
+      "lng": -117.23758,
+      "lat": 32.88114,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/159385495",
+        "way/1331147923",
+        "way/1331147924",
+        "way/1331147925",
+        "way/1331147926"
+      ],
+      "wikidata": "Q63969880"
+    },
+    {
+      "id": "sd-san-diego-temple",
+      "name": "San Diego California Temple",
+      "model": "sd-san-diego-temple",
+      "place": "san-diego-area",
+      "lng": -117.228694,
+      "lat": 32.86639,
+      "bearing": 4,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/33647441"
+      ],
+      "wikidata": "Q3132715"
+    },
+    {
+      "id": "sd-crystal-pier",
+      "name": "Crystal Pier",
+      "model": "sd-crystal-pier",
+      "place": "san-diego-area",
+      "lng": -117.25825,
+      "lat": 32.79601,
+      "bearing": 345.1,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31294900",
+        "relation/19743905",
+        "way/1444021025",
+        "way/1444021026",
+        "way/165831915",
+        "way/40839394",
+        "way/40839395",
+        "way/40839396",
+        "way/40839397",
+        "way/40839398",
+        "way/40839403",
+        "way/40839407",
+        "way/40839420",
+        "way/40839421",
+        "way/40839422",
+        "way/40839423",
+        "way/40839424",
+        "way/40839425",
+        "way/40839427",
+        "way/40839428",
+        "way/40839429",
+        "way/40839443",
+        "way/40839444",
+        "way/40839445",
+        "way/40839446",
+        "way/40840819",
+        "way/40840820",
+        "way/40840834"
+      ]
+    },
+    {
+      "id": "sd-ocean-beach-pier",
+      "name": "Ocean Beach Pier",
+      "model": "sd-ocean-beach-pier",
+      "place": "san-diego-area",
+      "lng": -117.2566606,
+      "lat": 32.7489626,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/551709834",
+        "way/25256355",
+        "way/833699876",
+        "way/438087243"
+      ]
+    },
+    {
+      "id": "sd-giant-dipper",
+      "name": "Giant Dipper",
+      "model": "sd-giant-dipper",
+      "place": "san-diego-area",
+      "lng": -117.2516,
+      "lat": 32.77125,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/1272436478",
+        "way/1272436473",
+        "way/1272436474",
+        "way/1272436475",
+        "way/1272436476",
+        "way/1272436477"
+      ],
+      "wikidata": "Q1522717"
+    },
+    {
+      "id": "sd-old-point-loma-lighthouse",
+      "name": "Old Point Loma Lighthouse",
+      "model": "sd-old-point-loma-lighthouse",
+      "place": "san-diego-area",
+      "lng": -117.24098,
+      "lat": 32.67199,
+      "bearing": 6,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/90687227"
+      ],
+      "wikidata": "Q7084751"
     }
   ],
   "places": [
@@ -47383,6 +51257,11 @@
     {
       "id": "philadelphia-area",
       "name": "Philadelphia area",
+      "kind": "region"
+    },
+    {
+      "id": "san-diego-area",
+      "name": "San Diego area",
       "kind": "region"
     },
     {
