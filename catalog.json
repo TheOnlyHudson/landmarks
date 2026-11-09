@@ -32906,6 +32906,60 @@
       ],
       "file": "models/sd-john-d-spreckels-building.glb",
       "source": "generators/sd-john-d-spreckels-building.ts"
+    },
+    {
+      "id": "sd-symphony-towers",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "ImperialSymphonyTowersSD",
+          "url": "https://commons.wikimedia.org/wiki/File:ImperialSymphonyTowersSD.jpeg",
+          "author": "Gateman1997",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Symphony Towers San Diego",
+          "url": "https://commons.wikimedia.org/wiki/File:Symphony_Towers_San_Diego.jpg",
+          "author": "Coolcaesar",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "SymphonyTowersSanDiegoDec06",
+          "url": "https://commons.wikimedia.org/wiki/File:SymphonyTowersSanDiegoDec06.jpg",
+          "author": "Allan Ferguson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Core-Columbia, San Diego, CA, USA - panoramio (39)",
+          "url": "https://commons.wikimedia.org/wiki/File:Core-Columbia,_San_Diego,_CA,_USA_-_panoramio_(39).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-symphony-towers.glb",
+      "source": "generators/sd-symphony-towers.ts"
     }
   ],
   "landmarks": [
@@ -48995,6 +49049,20 @@
         "way/31845938"
       ],
       "wikidata": "Q12060884"
+    },
+    {
+      "id": "sd-symphony-towers",
+      "name": "Symphony Towers",
+      "model": "sd-symphony-towers",
+      "place": "san-diego-area",
+      "lng": -117.1578641,
+      "lat": 32.7180549,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/31846117"
+      ]
     }
   ],
   "places": [
