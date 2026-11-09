@@ -34515,6 +34515,81 @@
       ],
       "file": "models/sd-ocean-beach-pier.glb",
       "source": "generators/sd-ocean-beach-pier.ts"
+    },
+    {
+      "id": "sd-giant-dipper",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "coaster",
+      "tags": [
+        "roller-coaster",
+        "wooden-coaster",
+        "amusement-park",
+        "historic",
+        "national-historic-landmark"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Giant Dipper Roller Coaster-10",
+          "url": "https://commons.wikimedia.org/wiki/File:Giant_Dipper_Roller_Coaster-10.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Giant Dipper Roller Coaster-7",
+          "url": "https://commons.wikimedia.org/wiki/File:Giant_Dipper_Roller_Coaster-7.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Giant Dipper Roller Coaster",
+          "url": "https://commons.wikimedia.org/wiki/File:Giant_Dipper_Roller_Coaster.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Giant Dipper Roller Coaster-2",
+          "url": "https://commons.wikimedia.org/wiki/File:Giant_Dipper_Roller_Coaster-2.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "MissionBayByPhilKonstantin",
+          "url": "https://commons.wikimedia.org/wiki/File:MissionBayByPhilKonstantin.jpg",
+          "author": "Phil Konstantin",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "MissionBeachRollercoaster 640pixels",
+          "url": "https://commons.wikimedia.org/wiki/File:MissionBeachRollercoaster_640pixels.JPG",
+          "author": "Greg Bulla",
+          "license": "Public domain"
+        },
+        {
+          "title": "Mission Beach Roller Coaster 002",
+          "url": "https://commons.wikimedia.org/wiki/File:Mission_Beach_Roller_Coaster_002.JPG",
+          "author": "Bignoisybird",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-giant-dipper.glb",
+      "source": "generators/sd-giant-dipper.ts"
     }
   ],
   "landmarks": [
@@ -51006,6 +51081,26 @@
         "way/833699876",
         "way/438087243"
       ]
+    },
+    {
+      "id": "sd-giant-dipper",
+      "name": "Giant Dipper",
+      "model": "sd-giant-dipper",
+      "place": "san-diego-area",
+      "lng": -117.2516,
+      "lat": 32.77125,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/1272436478",
+        "way/1272436473",
+        "way/1272436474",
+        "way/1272436475",
+        "way/1272436476",
+        "way/1272436477"
+      ],
+      "wikidata": "Q1522717"
     }
   ],
   "places": [
