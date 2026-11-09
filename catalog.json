@@ -33482,6 +33482,104 @@
       ],
       "file": "models/sd-san-ysidro-ped-east.glb",
       "source": "generators/sd-san-ysidro-ped-east.ts"
+    },
+    {
+      "id": "sd-snapdragon-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "soccer",
+        "college-sports",
+        "university"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "An aerial view of Snapdragon Stadium (2022-08-26).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_Snapdragon_Stadium_(2022-08-26).jpg",
+          "author": "Terrible Tim",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "PXL 20220826 184856422.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PXL_20220826_184856422.jpg",
+          "author": "Terrible Tim",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego Wave vs Angel City FC June 17, 2023 (52999752262).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Wave_vs_Angel_City_FC_June_17,_2023_(52999752262).jpg",
+          "author": "StarsApart",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "CaptureOfSnapdragonStadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:CaptureOfSnapdragonStadium.jpg",
+          "author": "The Great Epiphany",
+          "license": "CC0"
+        },
+        {
+          "title": "Mascot Monday San Diego Legion Rugby Game (8301408).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mascot_Monday_San_Diego_Legion_Rugby_Game_(8301408).jpg",
+          "author": "U.S. Marine Corps, Sgt. Jesse K.",
+          "license": "Public domain"
+        },
+        {
+          "title": "Snapdragon Stadium interior-home stands 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Snapdragon_Stadium_interior-home_stands_1.jpg",
+          "author": "Spatms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Snapdragon Stadium interior-away stands 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Snapdragon_Stadium_interior-away_stands_1.jpg",
+          "author": "Spatms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Snapdragon Stadium exterior-Night stadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Snapdragon_Stadium_exterior-Night_stadium.jpg",
+          "author": "Spatms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Snapdragon Stadium exterior-Night home stands.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Snapdragon_Stadium_exterior-Night_home_stands.jpg",
+          "author": "Spatms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "AztecStadium.png",
+          "url": "https://commons.wikimedia.org/wiki/File:AztecStadium.png",
+          "author": "Gateman1997",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aztec Stadium as of 11-13-21.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Aztec_Stadium_as_of_11-13-21.jpg",
+          "author": "Chuck Marean",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-snapdragon-stadium.glb",
+      "source": "generators/sd-snapdragon-stadium.ts"
     }
   ],
   "landmarks": [
@@ -49710,6 +49808,21 @@
       "replaces": [
         "way/795987984",
         "way/1021258603"
+      ]
+    },
+    {
+      "id": "sd-snapdragon-stadium",
+      "name": "Snapdragon Stadium",
+      "model": "sd-snapdragon-stadium",
+      "place": "san-diego-area",
+      "lng": -117.12244,
+      "lat": 32.78422,
+      "bearing": 7,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q100272042",
+      "replaces": [
+        "relation/14552060"
       ]
     }
   ],
