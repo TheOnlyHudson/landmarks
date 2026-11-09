@@ -31747,6 +31747,85 @@
       ],
       "file": "models/sd-rady-shell.glb",
       "source": "generators/sd-rady-shell.ts"
+    },
+    {
+      "id": "sd-santa-fe-depot",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "train-station",
+        "mission-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego Santa Fe Depot 07",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Santa_Fe_Depot_07.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Santa Fe Depot 05",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Santa_Fe_Depot_05.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Santa Fe Depot 14",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Santa_Fe_Depot_14.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Train Station",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Train_Station.jpg",
+          "author": "Doug Letterman",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Santa fe depot in San Diego",
+          "url": "https://commons.wikimedia.org/wiki/File:Santa_fe_depot_in_San_Diego.jpg",
+          "author": "Jon Sullivan",
+          "license": "Public domain"
+        },
+        {
+          "title": "San Diego - Santa Fe Depot - 20130803163619",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_-_Santa_Fe_Depot_-_20130803163619.jpg",
+          "author": "Ramesh lalwani",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Santa Fe Depot at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Santa_Fe_Depot_at_night.jpg",
+          "author": "Gentletouch1954",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego-Union Depot post card ca 1920",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego-Union_Depot_post_card_ca_1920.jpg",
+          "author": "Unknown",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-santa-fe-depot.glb",
+      "source": "generators/sd-santa-fe-depot.ts"
     }
   ],
   "landmarks": [
@@ -47577,6 +47656,24 @@
       "replaces": [
         "way/1075932489",
         "way/1156170543"
+      ]
+    },
+    {
+      "id": "sd-santa-fe-depot",
+      "name": "Santa Fe Depot",
+      "model": "sd-santa-fe-depot",
+      "place": "san-diego-area",
+      "lng": -117.16956,
+      "lat": 32.71695,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/27154273",
+        "way/497459943",
+        "way/497459996",
+        "way/1148666636",
+        "way/1148666637"
       ]
     }
   ],
