@@ -33272,6 +33272,80 @@
       ],
       "file": "models/sd-botanical-building.glb",
       "source": "generators/sd-botanical-building.ts"
+    },
+    {
+      "id": "sd-air-and-space-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "streamline-moderne",
+        "historic",
+        "balboa-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "SanDiegoAirSpaceMuseumByPhilKonstantin",
+          "url": "https://commons.wikimedia.org/wiki/File:SanDiegoAirSpaceMuseumByPhilKonstantin.JPG",
+          "author": "Phil Konstantin",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palisades, San Diego, CA 92101, USA - panoramio (20)",
+          "url": "https://commons.wikimedia.org/wiki/File:Palisades,_San_Diego,_CA_92101,_USA_-_panoramio_(20).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palisades, San Diego, CA 92101, USA - panoramio (28)",
+          "url": "https://commons.wikimedia.org/wiki/File:Palisades,_San_Diego,_CA_92101,_USA_-_panoramio_(28).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ford Building, Air and Space Museum",
+          "url": "https://commons.wikimedia.org/wiki/File:Ford_Building,_Air_and_Space_Museum.jpg",
+          "author": "Gentletouch1954",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Air & Space Museum entrance 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Air_%26_Space_Museum_entrance_2009.jpg",
+          "author": "San Diego Air & Space Museum",
+          "license": "No known restrictions"
+        },
+        {
+          "title": "San Diego, 2016 - 537",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_537.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "42-san-diego-air-space-museum",
+          "url": "https://commons.wikimedia.org/wiki/File:42-san-diego-air-space-museum.jpg",
+          "author": "Alfred Twu",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/sd-air-and-space-museum.glb",
+      "source": "generators/sd-air-and-space-museum.ts"
     }
   ],
   "landmarks": [
@@ -49445,6 +49519,21 @@
         "way/1573861945"
       ],
       "wikidata": "Q27704699"
+    },
+    {
+      "id": "sd-air-and-space-museum",
+      "name": "San Diego Air & Space Museum",
+      "model": "sd-air-and-space-museum",
+      "place": "san-diego-area",
+      "lng": -117.15439,
+      "lat": 32.72624,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31240535"
+      ],
+      "wikidata": "Q3308955"
     }
   ],
   "places": [
