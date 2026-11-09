@@ -33346,6 +33346,50 @@
       ],
       "file": "models/sd-air-and-space-museum.glb",
       "source": "generators/sd-air-and-space-museum.ts"
+    },
+    {
+      "id": "sd-lemon-grove-lemon",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "roadside-attraction",
+        "historic",
+        "sign"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The giant plaster lemon (1928 float, set up 1930) on its 'Best Climate on Earth' pedestal by the Lemon Grove Depot trolley stop.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Lemon Grove, CA.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lemon_Grove,_CA.jpg",
+          "author": "Allan Ferguson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Lemon grove monument.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lemon_grove_monument.jpg",
+          "author": "Allan Ferguson",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/sd-lemon-grove-lemon.glb",
+      "source": "generators/sd-lemon-grove-lemon.ts"
     }
   ],
   "landmarks": [
@@ -49534,6 +49578,18 @@
         "way/31240535"
       ],
       "wikidata": "Q3308955"
+    },
+    {
+      "id": "sd-lemon-grove-lemon",
+      "name": "The Big Lemon, Lemon Grove",
+      "model": "sd-lemon-grove-lemon",
+      "place": "san-diego-area",
+      "lng": -117.03088,
+      "lat": 32.74253,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
     }
   ],
   "places": [
