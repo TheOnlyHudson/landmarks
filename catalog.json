@@ -33641,6 +33641,62 @@
       ],
       "file": "models/sd-viejas-arena.glb",
       "source": "generators/sd-viejas-arena.ts"
+    },
+    {
+      "id": "sd-pechanga-arena",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "ice-hockey",
+        "new-formalism",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego Sports Arena.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Sports_Arena.jpg",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego,California,USA. - panoramio (36).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,California,USA._-_panoramio_(36).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Pechanga Arena Panorama.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pechanga_Arena_Panorama.jpg",
+          "author": "Pink Floyd Fan 101",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "VVCasinoCtr.jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:VVCasinoCtr.jpeg",
+          "author": "Gateman1997",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/sd-pechanga-arena.glb",
+      "source": "generators/sd-pechanga-arena.ts"
     }
   ],
   "landmarks": [
@@ -49899,6 +49955,21 @@
       "wikidata": "Q3557958",
       "replaces": [
         "way/31248345"
+      ]
+    },
+    {
+      "id": "sd-pechanga-arena",
+      "name": "Pechanga Arena",
+      "model": "sd-pechanga-arena",
+      "place": "san-diego-area",
+      "lng": -117.21224,
+      "lat": 32.75535,
+      "bearing": 17,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q3106621",
+      "replaces": [
+        "way/121777136"
       ]
     }
   ],
