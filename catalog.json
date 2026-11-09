@@ -32503,6 +32503,73 @@
       ],
       "file": "models/sd-star-of-india.glb",
       "source": "generators/sd-star-of-india.ts"
+    },
+    {
+      "id": "sd-unconditional-surrender",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "statue",
+        "public-art",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "...the historic kiss - Flickr - allyndon",
+          "url": "https://commons.wikimedia.org/wiki/File:...the_historic_kiss_-_Flickr_-_allyndon.jpg",
+          "author": "allyndon",
+          "license": "CC0"
+        },
+        {
+          "title": "Marina, San Diego, CA, USA - panoramio (41)",
+          "url": "https://commons.wikimedia.org/wiki/File:Marina,_San_Diego,_CA,_USA_-_panoramio_(41).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Marina, San Diego, CA, USA - panoramio (21)",
+          "url": "https://commons.wikimedia.org/wiki/File:Marina,_San_Diego,_CA,_USA_-_panoramio_(21).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The \"Unconditional Surrender,\" - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:The_%22Unconditional_Surrender,%22_-_panoramio.jpg",
+          "author": "rosalynn carmen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Embracing Peace",
+          "url": "https://commons.wikimedia.org/wiki/File:Embracing_Peace.jpg",
+          "author": "Agnese Pellino",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Unconditional Surrender Statue",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Unconditional_Surrender_Statue.jpg",
+          "author": "Seankimstyle",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-unconditional-surrender.glb",
+      "source": "generators/sd-unconditional-surrender.ts"
     }
   ],
   "landmarks": [
@@ -48501,6 +48568,18 @@
         "way/170659470"
       ],
       "wikidata": "Q1581178"
+    },
+    {
+      "id": "sd-unconditional-surrender",
+      "name": "Unconditional Surrender",
+      "model": "sd-unconditional-surrender",
+      "place": "san-diego-area",
+      "lng": -117.17517,
+      "lat": 32.7129,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
     }
   ],
   "places": [
