@@ -33758,6 +33758,80 @@
       ],
       "file": "models/sd-niccu-amphitheatre.glb",
       "source": "generators/sd-niccu-amphitheatre.ts"
+    },
+    {
+      "id": "sd-spreckels-organ-pavilion",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "music-venue",
+        "amphitheatre",
+        "balboa-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Balboa Park, San Diego, CA, USA - panoramio (193)",
+          "url": "https://commons.wikimedia.org/wiki/File:Balboa_Park,_San_Diego,_CA,_USA_-_panoramio_(193).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Spreckels Organ Pavilion 2 2016-05-14",
+          "url": "https://commons.wikimedia.org/wiki/File:Spreckels_Organ_Pavilion_2_2016-05-14.jpg",
+          "author": "FASTILY",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Spreckels Organ Pavilion wide front view",
+          "url": "https://commons.wikimedia.org/wiki/File:Spreckels_Organ_Pavilion_wide_front_view.JPG",
+          "author": "Captain-tucker",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Spreckels Pavilion WideShot",
+          "url": "https://commons.wikimedia.org/wiki/File:Spreckels_Pavilion_WideShot.jpg",
+          "author": "ChemicalBear",
+          "license": "CC0"
+        },
+        {
+          "title": "Spreckels Organ Pavalion",
+          "url": "https://commons.wikimedia.org/wiki/File:Spreckels_Organ_Pavalion.jpg",
+          "author": "Dan Anderson",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Spreckels Organ Pavilion Detail",
+          "url": "https://commons.wikimedia.org/wiki/File:Spreckels_Organ_Pavilion_Detail.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Spreckels at new years",
+          "url": "https://commons.wikimedia.org/wiki/File:Spreckels_at_new_years.jpg",
+          "author": "Jon Sullivan",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-spreckels-organ-pavilion.glb",
+      "source": "generators/sd-spreckels-organ-pavilion.ts"
     }
   ],
   "landmarks": [
@@ -50046,6 +50120,25 @@
       "replaces": [
         "way/223961641"
       ]
+    },
+    {
+      "id": "sd-spreckels-organ-pavilion",
+      "name": "Spreckels Organ Pavilion",
+      "model": "sd-spreckels-organ-pavilion",
+      "place": "san-diego-area",
+      "lng": -117.15043,
+      "lat": 32.72945,
+      "bearing": 0.0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31240523",
+        "way/1511054492",
+        "way/1574361364",
+        "way/1574361371",
+        "way/1574361373"
+      ],
+      "wikidata": "Q7580302"
     }
   ],
   "places": [
