@@ -33039,6 +33039,91 @@
       ],
       "file": "models/sd-central-library.glb",
       "source": "generators/sd-central-library.ts"
+    },
+    {
+      "id": "sd-convention-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "convention-center",
+        "waterfront",
+        "tensile-roof"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego Convention Center Aerial View",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center_Aerial_View.jpg",
+          "author": "Redideo",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "San Diego Convention Center hjks",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center_hjks.jpg",
+          "author": "Luciof",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Convention Center (14091418542)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center_(14091418542).jpg",
+          "author": "The Conmunity - Pop Culture Geek",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Downtown San Diego 021",
+          "url": "https://commons.wikimedia.org/wiki/File:Downtown_San_Diego_021.jpg",
+          "author": "Sebastian Wallroth",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "San Diego Convention Center (cropped1)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center_(cropped1).jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Convention Center-3",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center-3.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Convention Center-2",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center-2.jpg",
+          "author": "Visitor7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Convention Center (8727177848)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Convention_Center_(8727177848).jpg",
+          "author": "vxla",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "San Diego convention center at night",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_convention_center_at_night.jpg",
+          "author": "LostplanetKD73",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-convention-center.glb",
+      "source": "generators/sd-convention-center.ts"
     }
   ],
   "landmarks": [
@@ -49158,6 +49243,22 @@
         "way/498788614"
       ],
       "wikidata": "Q33104628"
+    },
+    {
+      "id": "sd-convention-center",
+      "name": "San Diego Convention Center",
+      "model": "sd-convention-center",
+      "place": "san-diego-area",
+      "lng": -117.16183,
+      "lat": 32.70643,
+      "bearing": 303.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/30929677",
+        "way/1154864702"
+      ],
+      "wikidata": "Q2236617"
     }
   ],
   "places": [
