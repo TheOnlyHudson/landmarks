@@ -33697,6 +33697,67 @@
       ],
       "file": "models/sd-pechanga-arena.glb",
       "source": "generators/sd-pechanga-arena.ts"
+    },
+    {
+      "id": "sd-niccu-amphitheatre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "amphitheatre",
+        "concert-venue",
+        "music"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "North Island Credit Union Amphitheatre in 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:North_Island_Credit_Union_Amphitheatre_in_2024.jpg",
+          "author": "Pink Floyd Fan 101",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Phish - Chula Vista 10 25 14 (15333046983).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Phish_-_Chula_Vista_10_25_14_(15333046983).jpg",
+          "author": "Trevor Bexon",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "North Island Credit Union Amphitheater.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:North_Island_Credit_Union_Amphitheater.jpg",
+          "author": "AnnoyingBee",
+          "license": "CC0"
+        },
+        {
+          "title": "Cricket Wireless Amphitheatre in Chula Vista.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cricket_Wireless_Amphitheatre_in_Chula_Vista.jpg",
+          "author": "Ewen Roberts",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Def Leppard (4120855799).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Def_Leppard_(4120855799).jpg",
+          "author": "Nick Ares",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/sd-niccu-amphitheatre.glb",
+      "source": "generators/sd-niccu-amphitheatre.ts"
     }
   ],
   "landmarks": [
@@ -49970,6 +50031,20 @@
       "wikidata": "Q3106621",
       "replaces": [
         "way/121777136"
+      ]
+    },
+    {
+      "id": "sd-niccu-amphitheatre",
+      "name": "North Island Credit Union Amphitheatre",
+      "model": "sd-niccu-amphitheatre",
+      "place": "san-diego-area",
+      "lng": -117.00636,
+      "lat": 32.58765,
+      "bearing": 48,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/223961641"
       ]
     }
   ],
