@@ -32705,6 +32705,72 @@
       ],
       "file": "models/sd-12th-imperial-clock-tower.glb",
       "source": "generators/sd-12th-imperial-clock-tower.ts"
+    },
+    {
+      "id": "sd-james-r-mills-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "transit"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "James R. Mills Building",
+          "url": "https://commons.wikimedia.org/wiki/File:James_R._Mills_Building.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego, 2016 - 568",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_568.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "James R. Mills Building IMG 0308",
+          "url": "https://commons.wikimedia.org/wiki/File:James_R._Mills_Building_IMG_0308.jpg",
+          "author": "Balintawak",
+          "license": "Public domain"
+        },
+        {
+          "title": "East Village, San Diego, CA, USA - panoramio (7)",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(7).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "12th & Imperial Transit Center",
+          "url": "https://commons.wikimedia.org/wiki/File:12th_%26_Imperial_Transit_Center.JPG",
+          "author": "Vrysxy",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "12th & Imperial",
+          "url": "https://commons.wikimedia.org/wiki/File:12th_%26_Imperial.jpg",
+          "author": "Cloverof4",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-james-r-mills-building.glb",
+      "source": "generators/sd-james-r-mills-building.ts"
     }
   ],
   "landmarks": [
@@ -48746,6 +48812,20 @@
       "minzoom": 15,
       "replaces": [
         "way/613166333"
+      ]
+    },
+    {
+      "id": "sd-james-r-mills-building",
+      "name": "James R. Mills Building",
+      "model": "sd-james-r-mills-building",
+      "place": "san-diego-area",
+      "lng": -117.1533954,
+      "lat": 32.7057002,
+      "bearing": 334.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31819765"
       ]
     }
   ],
