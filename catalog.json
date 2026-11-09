@@ -32353,6 +32353,87 @@
       ],
       "file": "models/sd-harbor-club.glb",
       "source": "generators/sd-harbor-club.ts"
+    },
+    {
+      "id": "sd-uss-midway",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "ship",
+        "aircraft-carrier",
+        "museum-ship",
+        "historic",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "USS Midway (CV-41) museum ship, panorama, San Diego, California",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_Midway_(CV-41)_museum_ship,_panorama,_San_Diego,_California.jpg",
+          "author": "Christian David",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "USS Midway, port stern view, Mar 2023",
+          "url": "https://commons.wikimedia.org/wiki/File:USS_Midway,_port_stern_view,_Mar_2023.jpg",
+          "author": "Mys 721tx",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego (California, USA), USS Midway Museum -- 2012 -- 5368",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_(California,_USA),_USS_Midway_Museum_--_2012_--_5368.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego (California, USA), USS Midway Museum -- 2012 -- 5365",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_(California,_USA),_USS_Midway_Museum_--_2012_--_5365.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Front view of the USS Midway (CV-41) as a museum in San Diego, CA",
+          "url": "https://commons.wikimedia.org/wiki/File:Front_view_of_the_USS_Midway_(CV-41)_as_a_museum_in_San_Diego,_CA.jpg",
+          "author": "Shawnnielsen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "USSMidwayByPhilKonstantin",
+          "url": "https://commons.wikimedia.org/wiki/File:USSMidwayByPhilKonstantin.jpg",
+          "author": "Phil Konstantin",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "US Navy 040110-N-5362A-015",
+          "url": "https://commons.wikimedia.org/wiki/File:US_Navy_040110-N-5362A-015_The_decommissioned_aircraft_carrier_Midway_makes_its_way_across_the_San_Diego_bay_to_its_final_resting_place_at_Navy_pier_where_it_will_become_the_largest_museum_devoted_to_carriers_and_naval_aviation.jpg",
+          "author": "U.S. Navy",
+          "license": "Public domain"
+        },
+        {
+          "title": "E-2 Hawkeye USS Midway Museum-1",
+          "url": "https://commons.wikimedia.org/wiki/File:E-2_Hawkeye_USS_Midway_Museum-1.jpg",
+          "author": "Balon Greyjoy",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/sd-uss-midway.glb",
+      "source": "generators/sd-uss-midway.ts"
     }
   ],
   "landmarks": [
@@ -48320,6 +48401,22 @@
         "way/429353147"
       ],
       "wikidata": "Q955149"
+    },
+    {
+      "id": "sd-uss-midway",
+      "name": "USS Midway Museum",
+      "model": "sd-uss-midway",
+      "place": "san-diego-area",
+      "lng": -117.175114,
+      "lat": 32.713761,
+      "bearing": 270.6,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/25965018",
+        "way/1158219106"
+      ],
+      "wikidata": "Q907779"
     }
   ],
   "places": [
