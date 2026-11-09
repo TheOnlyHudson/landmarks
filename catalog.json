@@ -33580,6 +33580,67 @@
       ],
       "file": "models/sd-snapdragon-stadium.glb",
       "source": "generators/sd-snapdragon-stadium.ts"
+    },
+    {
+      "id": "sd-viejas-arena",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "basketball",
+        "university"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "USA CA SanDiego SDSU 001 2013 - Viejas Arena.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:USA_CA_SanDiego_SDSU_001_2013_-_Viejas_Arena.jpg",
+          "author": "Der-wuppertaler",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cox arena front.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cox_arena_front.JPG",
+          "author": "Wikimedia Commons uploader (unnamed)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Welcome to Viejas Arena - 4 Apr 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Welcome_to_Viejas_Arena_-_4_Apr_2024.jpg",
+          "author": "Kire1975",
+          "license": "CC0"
+        },
+        {
+          "title": "Viejas Arena located in the Aztec Bowl.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Viejas_Arena_located_in_the_Aztec_Bowl.jpg",
+          "author": "LeeZee",
+          "license": "Public domain"
+        },
+        {
+          "title": "Viejas Arena Loading Area - Nicki Minaj Tour, September 27, 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Viejas_Arena_Loading_Area_-_Nicki_Minaj_Tour,_September_27,_2024.jpg",
+          "author": "Kire1975",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/sd-viejas-arena.glb",
+      "source": "generators/sd-viejas-arena.ts"
     }
   ],
   "landmarks": [
@@ -49823,6 +49884,21 @@
       "wikidata": "Q100272042",
       "replaces": [
         "relation/14552060"
+      ]
+    },
+    {
+      "id": "sd-viejas-arena",
+      "name": "Viejas Arena",
+      "model": "sd-viejas-arena",
+      "place": "san-diego-area",
+      "lng": -117.07454,
+      "lat": 32.77381,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q3557958",
+      "replaces": [
+        "way/31248345"
       ]
     }
   ],
