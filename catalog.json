@@ -34153,6 +34153,86 @@
       ],
       "file": "models/sd-salk-institute.glb",
       "source": "generators/sd-salk-institute.ts"
+    },
+    {
+      "id": "sd-immaculata",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "place-of-worship",
+        "university",
+        "spanish-renaissance-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego,California.USA. - panoramio (28)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,California.USA._-_panoramio_(28).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego,California.USA. - panoramio (26)",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,California.USA._-_panoramio_(26).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The Immaculata",
+          "url": "https://www.flickr.com/photos/125363750@N06/44374670880",
+          "author": "Söki",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "USD Immaculata Parish Church",
+          "url": "https://commons.wikimedia.org/wiki/File:USD_Immaculata_Parish_Church.jpg",
+          "author": "Colint",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Immaculata",
+          "url": "https://www.flickr.com/photos/8267218@N03/13926412542",
+          "author": "john farrell macdonald",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Church of the Immaculata",
+          "url": "https://www.flickr.com/photos/152327194@N04/33959592935",
+          "author": "analisezocher",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "University of San Diego",
+          "url": "https://commons.wikimedia.org/wiki/File:University_of_San_Diego.jpg",
+          "author": "Transfeo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "USDByPhilKonstantin",
+          "url": "https://commons.wikimedia.org/wiki/File:USDByPhilKonstantin.jpg",
+          "author": "Phil Konstantin",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-immaculata.glb",
+      "source": "generators/sd-immaculata.ts"
     }
   ],
   "landmarks": [
@@ -50537,6 +50617,21 @@
         "way/31839360"
       ],
       "wikidata": "Q128635401"
+    },
+    {
+      "id": "sd-immaculata",
+      "name": "The Immaculata",
+      "model": "sd-immaculata",
+      "place": "san-diego-area",
+      "lng": -117.19075,
+      "lat": 32.77227,
+      "bearing": 343.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/31843063",
+        "way/1207657025"
+      ]
     }
   ],
   "places": [
