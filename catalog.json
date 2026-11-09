@@ -32845,6 +32845,67 @@
       ],
       "file": "models/sd-el-cortez.glb",
       "source": "generators/sd-el-cortez.ts"
+    },
+    {
+      "id": "sd-john-d-spreckels-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "historic",
+        "terra-cotta"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "San Diego, 2016 - 165",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_165.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Broadway & 6th Avenue",
+          "url": "https://commons.wikimedia.org/wiki/File:Broadway_%26_6th_Avenue.JPG",
+          "author": "Vrysxy",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Sixth Avenue & Broadway",
+          "url": "https://commons.wikimedia.org/wiki/File:Sixth_Avenue_%26_Broadway.JPG",
+          "author": "Vrysxy",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Core-Columbia, San Diego, CA, USA - panoramio (23)",
+          "url": "https://commons.wikimedia.org/wiki/File:Core-Columbia,_San_Diego,_CA,_USA_-_panoramio_(23).jpg",
+          "author": "Roman Eugeniusz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "View of downtown San Diego (Broadway looking west), in 1961",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_downtown_San_Diego_(Broadway_looking_west),_in_1961.jpg",
+          "author": "U.S. Navy",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-john-d-spreckels-building.glb",
+      "source": "generators/sd-john-d-spreckels-building.ts"
     }
   ],
   "landmarks": [
@@ -48918,6 +48979,22 @@
         "way/612697753",
         "way/305671137"
       ]
+    },
+    {
+      "id": "sd-john-d-spreckels-building",
+      "name": "John D. Spreckels Building",
+      "model": "sd-john-d-spreckels-building",
+      "place": "san-diego-area",
+      "lng": -117.1588086,
+      "lat": 32.7154908,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/350398726",
+        "way/31845938"
+      ],
+      "wikidata": "Q12060884"
     }
   ],
   "places": [
