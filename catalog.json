@@ -32114,6 +32114,99 @@
       ],
       "file": "models/sd-petco-park.glb",
       "source": "generators/sd-petco-park.ts"
+    },
+    {
+      "id": "sd-hotel-del-coronado",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "historic",
+        "queen-anne",
+        "victorian",
+        "resort"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "HABS CAL-1958, Hotel Del Coronado, measured drawings (sheets 2, 3, 6, 7, 8)",
+          "url": "https://commons.wikimedia.org/wiki/Category:Hotel_del_Coronado_-_HABS_drawings",
+          "author": "Historic American Buildings Survey",
+          "license": "Public domain"
+        },
+        {
+          "title": "HABS CAL,37-CORO,1- photographs",
+          "url": "https://commons.wikimedia.org/wiki/Category:Hotel_del_Coronado_-_HABS_images",
+          "author": "Marvin Rand (HABS)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Hotel Del Coronado 04",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Del_Coronado_04.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hotel Del Coronado 05",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Del_Coronado_05.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hotel Del Coronado evening 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Del_Coronado_evening_02.JPG",
+          "author": "Ctorbann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hotel Del Coronado Drone Picture Turf Lawn",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Del_Coronado_Drone_Picture_Turf_Lawn.jpg",
+          "author": "Armandoartist",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hotel del Coronado (2008)",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_del_Coronado_(2008).jpg",
+          "author": "Dirk DBQ",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Hotel Del Coronado at dusk in February",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Del_Coronado_at_dusk_in_February_-_panoramio.jpg",
+          "author": "nick hoke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "View of hotel from the beach, Hotel del Coronado",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_hotel_from_the_beach,_Hotel_del_Coronado,_Coronado,_CA.jpg",
+          "author": "KMPhotoLA1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hotel del Coronado at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_del_Coronado_at_night.JPG",
+          "author": "Herbert lewis",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/sd-hotel-del-coronado.glb",
+      "source": "generators/sd-hotel-del-coronado.ts"
     }
   ],
   "landmarks": [
@@ -48032,6 +48125,20 @@
         "relation/1779874",
         "way/613165145",
         "way/769800588"
+      ]
+    },
+    {
+      "id": "sd-hotel-del-coronado",
+      "name": "Hotel del Coronado",
+      "model": "sd-hotel-del-coronado",
+      "place": "san-diego-area",
+      "lng": -117.17824,
+      "lat": 32.68094,
+      "bearing": 126,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/1785615"
       ]
     }
   ],
