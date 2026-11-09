@@ -31893,6 +31893,73 @@
       ],
       "file": "models/sd-america-plaza-station.glb",
       "source": "generators/sd-america-plaza-station.ts"
+    },
+    {
+      "id": "sd-emerald-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "hotel"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "EmeraldPlazaSanDiegoApr09",
+          "url": "https://commons.wikimedia.org/wiki/File:EmeraldPlazaSanDiegoApr09.jpg",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "EmeraldPlazaSDFeb2014",
+          "url": "https://commons.wikimedia.org/wiki/File:EmeraldPlazaSDFeb2014.JPG",
+          "author": "Nehrams2020",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "EmeraldPlazaByPhilKonstantin",
+          "url": "https://commons.wikimedia.org/wiki/File:EmeraldPlazaByPhilKonstantin.jpg",
+          "author": "Phil Konstantin",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Westin Emerald Plaza San Diego west side 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Westin_Emerald_Plaza_San_Diego_west_side_1.JPG",
+          "author": "BrokenSphere",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego, 2016 - 255",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_255.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Downtown San Diego (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Downtown_San_Diego_(1).jpg",
+          "author": "Jon Sullivan",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/sd-emerald-plaza.glb",
+      "source": "generators/sd-emerald-plaza.ts"
     }
   ],
   "landmarks": [
@@ -47755,6 +47822,29 @@
       "minzoom": 16,
       "replaces": [
         "way/1078598878"
+      ]
+    },
+    {
+      "id": "sd-emerald-plaza",
+      "name": "Emerald Plaza",
+      "model": "sd-emerald-plaza",
+      "place": "san-diego-area",
+      "lng": -117.16695,
+      "lat": 32.71626,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/498796492",
+        "way/305926737",
+        "way/305926738",
+        "way/305926739",
+        "way/305926740",
+        "way/305926741",
+        "way/305926742",
+        "way/305926743",
+        "way/305927637",
+        "way/608703250"
       ]
     }
   ],
