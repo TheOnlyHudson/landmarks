@@ -34306,6 +34306,78 @@
       ],
       "file": "models/sd-geisel-library.glb",
       "source": "generators/sd-geisel-library.ts"
+    },
+    {
+      "id": "sd-san-diego-temple",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "temple",
+        "place-of-worship",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "2019 San Diego LDS Temple 1",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_San_Diego_LDS_Temple_1.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "San Diego Mormon Temple17",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Mormon_Temple17.jpg",
+          "author": "Antoine Taveneaux",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "San Diego Temple 2008",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Temple_2008.JPG",
+          "author": "Petter Strandmark",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "San Diego CA Temple side view",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_CA_Temple_side_view.jpg",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "San Diego California Temple, Turret",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_California_Temple,_Turret.jpg",
+          "author": "Altus Photo Design",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "San Diego California Temple - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_California_Temple_-_panoramio.jpg",
+          "author": "rvd5star",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "San Diego Temple June 2023",
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Temple_June_2023.jpg",
+          "author": "Nweil",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/sd-san-diego-temple.glb",
+      "source": "generators/sd-san-diego-temple.ts"
     }
   ],
   "landmarks": [
@@ -50724,6 +50796,21 @@
         "way/1331147926"
       ],
       "wikidata": "Q63969880"
+    },
+    {
+      "id": "sd-san-diego-temple",
+      "name": "San Diego California Temple",
+      "model": "sd-san-diego-temple",
+      "place": "san-diego-area",
+      "lng": -117.228694,
+      "lat": 32.86639,
+      "bearing": 4,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/33647441"
+      ],
+      "wikidata": "Q3132715"
     }
   ],
   "places": [
