@@ -47386,6 +47386,11 @@
       "kind": "region"
     },
     {
+      "id": "san-diego-area",
+      "name": "San Diego area",
+      "kind": "region"
+    },
+    {
       "id": "six-flags-over-texas",
       "name": "Six Flags Over Texas",
       "kind": "site",
