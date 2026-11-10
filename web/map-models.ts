@@ -5,7 +5,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 import type { Asset } from '../src/release'
 import { nightGlb } from './night-model'
 import { BuildingTiles } from './building-tiles'
-import { baseSink, elevationDrape, groundContacts, groundLifts, modelGround, type Contact, type Footprint, type ModelGround } from './landmark-ground'
+import { baseSink, elevationDrape, GROUND_STRIDE, groundContacts, groundLifts, modelGround, type Contact, type Footprint, type ModelGround } from './landmark-ground'
 
 /** OpenFreeMap uses Planetiler IDs: OSM ID * 10 + node/way/relation type. */
 export function replacementIds(asset: Asset): number[] {
@@ -372,7 +372,8 @@ export class LandmarkModels implements CustomLayerInterface {
       }
       const lifts = groundLifts(groundGrid(model.footprint).map(at), 1, model.own ?? { follows: false }, 1)
       model.base = lifts.lowest
-      drape.u_ground.value.forEach((g, i) => g.set(lifts.lifts[i * 2], lifts.lifts[i * 2 + 1]))
+      // The fill's depth, the third value, is 0: the site draws the terrain unfilled.
+      drape.u_ground.value.forEach((g, i) => g.set(lifts.lifts[i * GROUND_STRIDE], lifts.lifts[i * GROUND_STRIDE + 1]))
       drape.u_ground_mean.value = lifts.mean
     } else {
       drape.u_ground.value.forEach(g => g.set(0, 0))
