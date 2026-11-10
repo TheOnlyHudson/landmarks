@@ -289,6 +289,15 @@ markings, and the approach viaducts and ramps outside the bridge's
   the outline's `height` at midspan and lowers them along a parabola to the
   towers. Record in the generator the roadway heights the model was built
   to.
+- **True road heights, shared with the map.** Build the roadway to its
+  true height (lidar), in the map's terrain datum: Mapterhorn, NAVD88 in
+  the US, so y = 0 is the lowest ground or water as Mapterhorn reads it,
+  not as the lidar does. Barrelman draws the road on the bridge from OSM
+  and the terrain, and pins it exactly to `ele` (metres above sea level)
+  on the nodes of the bridge's road ways. Where OSM records no height the
+  map's road can run far from the real one (over open water it has
+  nothing to clear), so list in the generator the nodes and `ele` values,
+  from the lidar under each, that put the map's road on the model's.
 - **Feet on the terrain.** Towers in the water stand at y = 0. Anything
   standing on land, such as an anchorage, runs down to the ground under it
   vertex by vertex, at the DEM's height above its own water reading. A map
