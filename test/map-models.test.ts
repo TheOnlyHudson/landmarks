@@ -1,5 +1,5 @@
 import { expect, test } from 'bun:test'
-import { isInView, replacementIds } from '../web/map-models'
+import { groundGrid, isInView, modelToLngLat, replacementIds } from '../web/map-models'
 import type { Asset } from '../src/release'
 
 const asset = {
@@ -23,4 +23,15 @@ test('only load visible models at their zoom, with a selected-model override', (
   expect(isInView(asset, [-122.5, 37.7, -122.4, 37.8], 18)).toBe(false)
   // A bridge can intersect the view even with its anchor outside it.
   expect(isInView({ ...asset, bounds: [-74.2, 40.65, -74.05, 40.75] }, view, 15)).toBe(true)
+})
+
+test('the ground is read on a 7 x 7 grid over the plan, east and south of the anchor', () => {
+  const grid = groundGrid({ minX: -30, maxX: 30, minZ: -60, maxZ: 0 })
+  expect(grid).toHaveLength(49)
+  expect(grid[0]).toEqual([-30, 0, -60])
+  expect(grid[48]).toEqual([30, 0, 0])
+  const [lng, lat] = modelToLngLat([-74, 40.7], 100, -100)
+  // 100 m east and 100 m north of the anchor.
+  expect((lng + 74) * 111_320 * Math.cos(40.7 * Math.PI / 180)).toBeCloseTo(100, 0)
+  expect((lat - 40.7) * 110_950).toBeCloseTo(100, -1)
 })
