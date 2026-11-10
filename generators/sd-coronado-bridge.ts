@@ -106,9 +106,10 @@
  * height Barrelman solves from OSM and the terrain; OSM records no height
  * for this bridge, so the roadway reaches the true profile above only where
  * the carriageways' nodes carry `ele` (NAVD88): on way/6055495-1538967139
- * node 1041726340 69.1, 1041726347 75.1 and 12892533593 67.6; on
- * way/153343716 node 1041726498 68.2, 1041726492 75.1 and 12892533592 69.2
- * (lidar under each node). Without them the map's roadway runs far below
+ * node 1041726340 69.1, 1041726347 75.1, 12892533593 67.6 and 275961664
+ * 34.7; on way/153343716 node 1041726498 68.2, 1041726492 75.1,
+ * 12892533592 69.2 and 275962168 35.8 (lidar under each node; Barrelman
+ * pins the deck at each and runs a smooth profile between them). Without them the map's roadway runs far below
  * this girder over the bay. The Coronado
  * end abutment sits in a fill the DEM shows up to the deck's height
  * (15.4 m at s = 0), so the girder's first metres run into that terrain.
