@@ -20,8 +20,8 @@
  * puts y = 0 on the lowest point, and lifts every vertex by the ground's
  * rise under it, fully at the model's own ground and fading to the
  * footprint's mean rise by y = 25 m. Only the base (within 0.05 m of its
- * ground) is sunk a further 0.5 m. It draws the terrain 1.2 times its real
- * height. `fill.ts` and `landmark-coverage.ts` under `tools/parchment/` are
+ * ground) is sunk a further 0.5 m. The terrain is drawn life-size
+ * (Parchment PR #913). `fill.ts` and `landmark-coverage.ts` under `tools/parchment/` are
  * copies of the map's own code. `--map old` checks against the map before
  * that PR (the whole model sunk 0.5 m, no fill), `--map sink` with only the
  * base sink.
@@ -56,7 +56,7 @@ const SIZE = 512
 const CACHE = join(homedir(), '.cache', 'landmarks', 'mapterhorn')
 
 /** As the map draws it; see `terrain.ts` and `landmark-layer.ts` in Parchment. */
-const EXAGGERATION = 1.2
+const EXAGGERATION = 1
 const GROUND_GRID = 7
 const GROUND_SINK = 0.5
 /** Metres above its own ground a vertex still counts as base, and is sunk; see `baseSink` in Parchment. */
@@ -311,7 +311,7 @@ async function check() {
 
   const relief = Math.max(...raw) - Math.min(...raw)
   console.log(`${what} at ${place.lng}, ${place.lat}, bearing ${place.bearing}, elevation ${place.elevation}, map ${mapMode}${fill ? ', filled' : ''}`)
-  console.log(`plan x ${f1(minX)}..${f1(maxX)}  z ${f1(minZ)}..${f1(maxZ)}; Mapterhorn relief over the 7x7 grid ${f2(relief)} m (${f2(relief * EXAGGERATION)} m drawn)`)
+  console.log(`plan x ${f1(minX)}..${f1(maxX)}  z ${f1(minZ)}..${f1(maxZ)}; Mapterhorn relief over the 7x7 grid ${f2(relief)} m`)
   console.log('grid rise above the lowest point, drawn metres (rows minZ..maxZ, columns minX..maxX):')
   for (let j = 0; j <= n; j++) console.log('  ' + rise.slice(j * GROUND_GRID, (j + 1) * GROUND_GRID).map((r) => f1(r).padStart(5)).join(''))
   if (!hits.length) {
