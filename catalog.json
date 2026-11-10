@@ -12144,6 +12144,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "nyc-george-washington-bridge-new-york",
+      "file": "models/nyc-george-washington-bridge-new-york.glb",
+      "license": "CC0-1.0",
+      "author": "Alex Wohlbruck",
+      "source": "generators/nyc-george-washington-bridge-new-york.ts",
+      "type": "bridge",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "role": "creator",
+          "github": "alexwohlbruck"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [],
+      "reviewStatus": "unreviewed"
+    },
+    {
       "id": "nyc-hoboken-terminal",
       "file": "models/nyc-hoboken-terminal.glb",
       "license": "CC0-1.0",
@@ -44596,7 +44622,7 @@
     {
       "id": "nyc-george-washington-bridge-new-york",
       "name": "George Washington Bridge (New York tower)",
-      "model": "nyc-george-washington-bridge",
+      "model": "nyc-george-washington-bridge-new-york",
       "lng": -73.946519,
       "lat": 40.8504589,
       "bearing": 284.4,

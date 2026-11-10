@@ -200,6 +200,63 @@ export function footedWall(
   }
 }
 
+/** A plan rectangle x0..x1 by y0..y1 with chamfered corners (r; 0 for square), CCW from above. */
+export function chamferedRect(x0: number, x1: number, y0: number, y1: number, r: number): [number, number][] {
+  return [[x0 + r, y0], [x1 - r, y0], [x1, y0 + r], [x1, y1 - r], [x1 - r, y1], [x0 + r, y1], [x0, y1 - r], [x0, y0 + r]]
+}
+
+/** A ring of a `footedLoft`: a plan outline at a height, or on the ground itself. */
+export type LoftRing = { plan: [number, number][]; z: number | 'ground' }
+
+/**
+ * A pier, plinth or tower base lofted through plan rings from the ground up:
+ * each ring stands at its height or on the ground under it, whichever is
+ * higher, its edges split every `seg` metres so the foot follows the terrain
+ * vertex by vertex. Rings run upward or inward, each CCW from above with the
+ * same number of corners; the last is capped unless `cap` is false. A face lying wholly on the
+ * ground (a ledge where the hill rises over it) is left out, so nothing in
+ * the model reaches below its ground and the map reads every foot as
+ * standing on it.
+ */
+export function footedLoft(p: Part, ground: (x: number, y: number) => number, rings: LoftRing[], seg = 2.5, cap = true) {
+  const n = rings[0].plan.length
+  const splits = Array.from({ length: n }, (_, e) => Math.max(1, ...rings.map(({ plan }) => {
+    const [a, b] = [plan[e], plan[(e + 1) % n]]
+    return Math.ceil(Math.hypot(b[0] - a[0], b[1] - a[1]) / seg)
+  })))
+  const onGround = new Set<V3>()
+  const pts = rings.map(({ plan, z }) => {
+    const out: V3[] = []
+    for (let e = 0; e < n; e++) {
+      const [a, b] = [plan[e], plan[(e + 1) % n]]
+      for (let j = 0; j < splits[e]; j++) {
+        const t = j / splits[e], x = a[0] + (b[0] - a[0]) * t, y = a[1] + (b[1] - a[1]) * t
+        const gz = ground(x, y)
+        const q: V3 = [x, y, z === 'ground' ? gz : Math.max(z, gz)]
+        if (q[2] === gz) onGround.add(q)
+        out.push(q)
+      }
+    }
+    return out
+  })
+  const tri = (a: V3, b: V3, c: V3) => {
+    const area = Math.hypot(...cross(sub(b, a), sub(c, a)))
+    if (area > 1e-4 && !(onGround.has(a) && onGround.has(b) && onGround.has(c))) p.tri(a, b, c)
+  }
+  for (let k = 0; k + 1 < pts.length; k++) {
+    const [A, B] = [pts[k], pts[k + 1]]
+    for (let i = 0; i < A.length; i++) {
+      const j = (i + 1) % A.length
+      tri(A[i], A[j], B[j])
+      tri(A[i], B[j], B[i])
+    }
+  }
+  if (!cap) return
+  const top = pts[pts.length - 1]
+  const c: V3 = [top.reduce((s, q) => s + q[0], 0) / top.length, top.reduce((s, q) => s + q[1], 0) / top.length, top[0][2]]
+  for (let i = 0; i < top.length; i++) tri(c, top[i], top[(i + 1) % top.length])
+}
+
 /**
  * Points along a main cable, as a function of y, from y0 to y1 at
  * `step` metres.
