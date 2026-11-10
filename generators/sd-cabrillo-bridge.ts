@@ -17,16 +17,23 @@
  * Bridge rules (docs/reference.md, Bridges). No road surface: the map draws
  * El Prado (way/25758576, layer 1). Its roadway was built to the lidar's
  * deck: z 33.64 from the west end to x = 70, rising to 34.99 at the east end
- * (lidar 77.11 → 78.46 m), level with the ground at both ends, as Wikipedia
- * says. Under it a concrete slab stands 0.3 m below that line. The model
+ * (lidar 77.11 → 78.46 m NAVD88), level with the ground at both ends, as
+ * Wikipedia says. Under it a concrete slab stands 0.3 m below that line.
+ * The map's roadway is Barrelman's, solved from OSM and the terrain: with
+ * El Prado grounded at both rims it runs straight between the terrain at
+ * its two end nodes (76.2 and 77.8 m), 0.6-0.9 m under the true road and
+ * missing its level stretch. `ele` on the way's nodes corrects it: 77.1 on
+ * node 280915773 (west end), 78.4 on node 280915772 (east end) and 77.1 on
+ * a node at x ≈ 70, where the road starts to rise (lidar under each). The model
  * owns the sidewalks either side (surfaces included), the parapets, the
  * spandrel walls, arches, piers and abutments, and the lamp standards. Every
  * foot runs down to the map's own terrain, sampled every 5 m (`GROUND`,
  * Mapterhorn z15 as Parchment draws it) less 43.47 m, vertex by vertex.
  *
  * Replaces: the man_made=bridge outline way/122353744 (member "outline" of
- * the bridge relation relation/1672334, also listed). The model draws the
- * structure across the whole outline, approaches included.
+ * the bridge relation relation/1672334, which is not a building or an
+ * outline, so not listed). The model draws the structure across the whole
+ * outline, approaches included.
  *
  * Sources
  * - OSM (© OpenStreetMap contributors): outline 260 × 14.4 m with bump-outs

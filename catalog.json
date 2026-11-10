@@ -50983,8 +50983,7 @@
       "elevation": 0,
       "minzoom": 15,
       "replaces": [
-        "way/122353744",
-        "relation/1672334"
+        "way/122353744"
       ],
       "wikidata": "Q3380233"
     },
