@@ -42,7 +42,11 @@
  *   deck 21 m wide. The flight has a hole over s = 1820-2440 (Barrio Logan);
  *   the grade is straight across it (63.7 m at 1810 and 33.8 m at 2450 sit
  *   on one 4.67% line). `road(s)` is that profile: two grades and a 626 m
- *   parabolic crest curve; these are the roadway heights to give the map.
+ *   parabolic crest curve, 0.27 m up to the map's water (see DATUM): the
+ *   roadway 15.9 m NAVD88 at the Coronado end, 75.0 m at the crest and
+ *   34.6 m at s = 2450. Checked at every node of the four carriageways
+ *   against the lidar under it: within 0.5 m, the rest the curve's
+ *   superelevation (the outer carriageway reads 0.3-0.5 m higher).
  * - Published: total 11,179 ft (3,407 m) with approaches; 63 ft (19.2 m)
  *   between curbs, five lanes; 200 ft (61 m) navigation clearance; main
  *   span 660 ft; 32 spans, 21 piers in the water; grade 4.67%; the curve
@@ -98,8 +102,14 @@
  * Doubts: the pier stations away from the NAIP pile caps are estimated;
  * the widened end (s > 2280) follows the OSM outline's width, not a
  * measured girder; the superelevation of the curve is left flat, since the
- * map draws the roadway flat; the map finds its own deck height for a beam
- * bridge, so its roadway may sit a few metres off road(s). The Coronado
+ * map draws the roadway flat. The map draws the roadway itself, at the
+ * height Barrelman solves from OSM and the terrain; OSM records no height
+ * for this bridge, so the roadway reaches the true profile above only where
+ * the carriageways' nodes carry `ele` (NAVD88): on way/6055495-1538967139
+ * node 1041726340 69.1, 1041726347 75.1 and 12892533593 67.6; on
+ * way/153343716 node 1041726498 68.2, 1041726492 75.1 and 12892533592 69.2
+ * (lidar under each node). Without them the map's roadway runs far below
+ * this girder over the bay. The Coronado
  * end abutment sits in a fill the DEM shows up to the deck's height
  * (15.4 m at s = 0), so the girder's first metres run into that terrain.
  */
@@ -133,14 +143,21 @@ function frame(s: number) {
 
 // ---- Profile -----------------------------------------------------------------
 
-/** The roadway above the water (lidar): 4.66% up, a 626 m crest curve, 4.67% down. */
+/** The roadway above the lidar's water (0.74 m NAVD88): 4.66% up, a 626 m crest curve, 4.67% down. */
 const G1 = (s: number) => 17.0 + 0.0466 * (s - 40)
 const G2 = (s: number) => 63.7 - 0.0467 * (s - 1810)
 const BVC = 1113.5, EVC = 1739.5, A = 0.0466 + 0.0467
+/**
+ * z = 0 is the map's water, Mapterhorn's 0.47 m NAVD88, where the map stands
+ * the model and from which the land piers' feet are measured; the lidar read
+ * its water 0.27 m higher. The roadway is lifted by the difference so it
+ * stands at its true height above sea level on the map.
+ */
+const DATUM = 0.74 - 0.47
 function road(s: number): number {
-  if (s <= BVC) return G1(s)
-  if (s >= EVC) return G2(s)
-  return G1(s) - (A / (2 * (EVC - BVC))) * (s - BVC) ** 2
+  if (s <= BVC) return G1(s) + DATUM
+  if (s >= EVC) return G2(s) + DATUM
+  return G1(s) - (A / (2 * (EVC - BVC))) * (s - BVC) ** 2 + DATUM
 }
 
 /** Overall width: 20.4 m (63 ft between curbs plus parapets), then the outline's widening. */
@@ -384,7 +401,7 @@ if (import.meta.main) {
   if (tris > 6500) throw new Error(`${tris} triangles, over 6500`)
   const extras = {
     license: 'CC0-1.0', frame: 'Y up, -Z north, +X east, metres; origin at the outline centroid, on the water',
-    bearing: 0, elevation: 0, roadway: { coronadoEnd: road(0), crest: road(1426), crestAt: 1426, sanDiegoEnd: road(END), grade: 0.0467 },
+    bearing: 0, elevation: 0, roadway: { datum: 'Mapterhorn water, 0.47 m NAVD88', coronadoEnd: road(0), crest: road(1426), crestAt: 1426, sanDiegoEnd: road(END), grade: 0.0467 },
   }
   const glb = writeGlb('San Diego–Coronado Bridge', parts, extras)
   console.log(parts.map((p) => `${p.material.name} ${p.part.triangles}`).join(", "))
