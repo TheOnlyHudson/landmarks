@@ -643,6 +643,12 @@ async function init() {
     map.on('error', event => { console.error(event.error); $('map-status').title = event.error.message; $('map-status').textContent = 'Some map tiles could not load. You can still browse the collection and preview models.' })
     map.on('idle', () => { if (map!.areTilesLoaded()) $('map-status').textContent = '' })
     map.on('load', () => {
+      // Mapterhorn: open terrarium tiles from USGS 3DEP lidar in the US, the DEM
+      // Parchment draws and the models are built on. Life-size, like Parchment.
+      map!.addSource('terrain-dem', { type: 'raster-dem', encoding: 'terrarium', tileSize: 512, maxzoom: 15,
+        tiles: ['https://tiles.mapterhorn.com/{z}/{x}/{y}.webp'],
+        attribution: '<a href="https://mapterhorn.com/attribution" target="_blank">© Mapterhorn</a>' })
+      map!.setTerrain({ source: 'terrain-dem', exaggeration: 1 })
       modelLayer = new LandmarkModels(assetUrl, a => selectAsset(a), message => { $('map-status').textContent = message }, updateMapCredits)
       map!.addLayer(modelLayer)
       modelLayer.setAssets(mapCollection(), selected!.id)

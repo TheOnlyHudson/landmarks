@@ -27,6 +27,11 @@ Upstream drafts are labeled, and the detail inspector shows their review status.
 Both collections' candidates remain in search when they cover the same feature;
 the map draws the selected candidate, otherwise preferring the local model.
 
+The map draws 3D terrain from [Mapterhorn](https://mapterhorn.com/) at its
+true height, the same terrain Parchment draws and the models are built on.
+Models stand on it the way Parchment stands them: the base on the lowest ground
+under the model, the lower parts draped over the slope.
+
 ## Preview and appearance
 
 The small preview auto-rotates slowly. Drag to orbit; scroll or pinch to zoom.
@@ -121,7 +126,7 @@ in the inspector.
 If one collection fails to load, the other can still be browsed. Refresh to
 retry. A model load error offers a retry; a night-preview error can be retried
 by switching back to Day mode. Without working map tiles or WebGL, collection
-metadata and downloads remain available. Basemap tiles, fonts, GitHub avatars,
+metadata and downloads remain available. Basemap and terrain tiles, fonts, GitHub avatars,
 and upstream GLBs require their external hosts to be reachable.
 
 OpenLandmarks metadata is a pinned snapshot, not a live query on every visit.
