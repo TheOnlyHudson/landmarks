@@ -288,7 +288,9 @@ markings, and the approach viaducts and ramps outside the bridge's
   draws, so the two meet: for a suspended span the map raises its decks to
   the outline's `height` at midspan and lowers them along a parabola to the
   towers. Record in the generator the roadway heights the model was built
-  to.
+  to. Where the map's roadway is wrong, correct its heights in OSM rather
+  than build the model to the wrong one: see
+  [`bridge-heights.md`](bridge-heights.md).
 - **Feet on the terrain.** Towers in the water stand at y = 0. Anything
   standing on land, such as an anchorage, runs down to the ground under it
   vertex by vertex, at the DEM's height above its own water reading. A map

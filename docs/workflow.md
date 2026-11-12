@@ -64,7 +64,8 @@ mkdir -p <scratch>/<prefix>/{new,work}
   outlive the session.
 - The Python tools need a virtual environment once:
   `python3 -m venv .venv && .venv/bin/pip install -r tools/requirements.txt`.
-  Only `tools/lidar.py` needs it; the rest use the standard library.
+  Only `tools/lidar.py` needs it (and `tools/bridge_ele.py measure`, which
+  runs it); the rest use the standard library.
 
 Ids share a prefix for the batch (`chi-`, `sea-`, `clt-`), so the batch
 sorts together. Pick or create explicit catalog places before building. Places
@@ -406,6 +407,7 @@ release host.
 | `python3 tools/mapillary.py` | Street photos aimed at a landmark, one per side |
 | `python3 tools/lidar.py find\|grid` | USGS 3DEP lidar: datasets at a point; height grid |
 | `python3 tools/lidar_frame.py` | Read a lidar grid in a model's turned frame |
+| `python3 tools/bridge_ele.py measure\|osc` | Lidar roadway heights along a bridge's ways; an osmChange adding `ele` ([`bridge-heights.md`](bridge-heights.md)) |
 | `bun tools/terrain.ts grid\|check` | The map's terrain (Mapterhorn) in a model's frame; tops it buries |
 | `python3 tools/usgs.py naip\|dem` | NAIP aerial; bare-earth ground table |
 | `python3 tools/lacounty.py buildings\|dsm` | LA County lidar footprints and surface model |
