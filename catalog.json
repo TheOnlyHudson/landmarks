@@ -34928,6 +34928,60 @@
       ],
       "file": "models/nyc-prometheus.glb",
       "source": "generators/nyc-prometheus.ts"
+    },
+    {
+      "id": "nyc-the-sphere",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "memorial",
+        "world-trade-center",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Sphere, New York.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Sphere,_New_York.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Closer shot of The Sphere jeh.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Closer_shot_of_The_Sphere_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC0"
+        },
+        {
+          "title": "TheSphere-2017-11-09.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:TheSphere-2017-11-09.jpg",
+          "author": "MLOlschowy",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Sphere from North in Liberty Park unveiled jeh.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Sphere_from_North_in_Liberty_Park_unveiled_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/nyc-the-sphere.glb",
+      "source": "generators/nyc-the-sphere.ts"
     }
   ],
   "landmarks": [
@@ -51508,6 +51562,19 @@
       "minzoom": 16,
       "replaces": [],
       "wikidata": "Q17182277"
+    },
+    {
+      "id": "nyc-the-sphere",
+      "name": "The Sphere",
+      "model": "nyc-the-sphere",
+      "place": "new-york-area",
+      "lng": -74.013889,
+      "lat": 40.710497,
+      "bearing": 0,
+      "elevation": 7,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q2164298"
     }
   ],
   "places": [
