@@ -34690,6 +34690,36 @@
       ],
       "file": "models/sd-old-point-loma-lighthouse.glb",
       "source": "generators/sd-old-point-loma-lighthouse.ts"
+    },
+    {
+      "id": "nyc-brookfield-place",
+      "file": "models/nyc-brookfield-place.glb",
+      "license": "CC0-1.0",
+      "author": "Colin",
+      "source": "generators/nyc-brookfield-place.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "skyscraper",
+        "office",
+        "atrium",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed"
     }
   ],
   "landmarks": [
@@ -51216,6 +51246,73 @@
         "way/90687227"
       ],
       "wikidata": "Q7084751"
+    },
+    {
+      "id": "nyc-brookfield-place",
+      "name": "Brookfield Place",
+      "model": "nyc-brookfield-place",
+      "lng": -74.0153,
+      "lat": 40.7126,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q8006299",
+      "replaces": [
+        "way/75309471",
+        "way/274796784",
+        "way/274796775",
+        "way/157389380",
+        "way/157373074",
+        "way/157389379",
+        "way/157389378",
+        "way/157389377",
+        "way/157373072",
+        "way/157389381",
+        "way/157373075",
+        "way/274796780",
+        "way/274796781",
+        "way/274796779",
+        "way/274796778",
+        "way/274796777",
+        "way/274801265",
+        "way/75309461",
+        "way/274796783",
+        "way/274796776",
+        "way/157405687",
+        "way/157405686",
+        "way/157392228",
+        "way/157392237",
+        "way/157392245",
+        "way/157392234",
+        "way/157392240",
+        "way/157392232",
+        "way/241031293",
+        "way/277919047",
+        "way/289715369",
+        "way/289715372",
+        "way/289715361",
+        "way/289715360",
+        "way/289715364",
+        "way/213220420",
+        "way/213220424",
+        "way/213220425",
+        "way/793889288",
+        "way/289710608",
+        "way/289710607",
+        "way/289710609",
+        "way/289710606",
+        "way/289710604",
+        "way/289715363",
+        "way/289710602",
+        "way/289710611",
+        "way/289710614",
+        "way/289710603",
+        "way/289710615",
+        "way/289710612",
+        "way/289710610",
+        "way/277919050"
+      ],
+      "place": "new-york-area"
     }
   ],
   "places": [
