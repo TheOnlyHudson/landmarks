@@ -34813,6 +34813,60 @@
       ],
       "file": "models/nyc-bethesda-terrace.glb",
       "source": "generators/nyc-bethesda-terrace.ts"
+    },
+    {
+      "id": "nyc-atlas",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "statue",
+        "art-deco",
+        "rockefeller-center"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Atlas - Rockefeller Center (51394733772).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_-_Rockefeller_Center_(51394733772).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "NYC - Rockfeller Center - Atlas Statue.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:NYC_-_Rockfeller_Center_-_Atlas_Statue.JPG",
+          "author": "Jean-Christophe Benoist",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Over Atlas (39952692).jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:Over_Atlas_(39952692).jpeg",
+          "author": "Sam Mellors",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Rockerfeller Center - Looking Across Fifth Ave.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rockerfeller_Center_-_Looking_Across_Fifth_Ave.jpg",
+          "author": "Eric Kilby",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/nyc-atlas.glb",
+      "source": "generators/nyc-atlas.ts"
     }
   ],
   "landmarks": [
@@ -51367,6 +51421,19 @@
       "minzoom": 16,
       "wikidata": "Q532029",
       "replaces": []
+    },
+    {
+      "id": "nyc-atlas",
+      "name": "Atlas",
+      "model": "nyc-atlas",
+      "place": "new-york-area",
+      "lng": -73.977185,
+      "lat": 40.758938,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q2869431"
     }
   ],
   "places": [
