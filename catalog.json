@@ -35042,6 +35042,62 @@
       ],
       "file": "models/nyc-revson-fountain.glb",
       "source": "generators/nyc-revson-fountain.ts"
+    },
+    {
+      "id": "nyc-belvedere-castle",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "castle",
+        "folly",
+        "park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Belvedere Castle and Turtle Pond, Central Park",
+          "url": "https://commons.wikimedia.org/wiki/File:Belvedere_Castle_and_Turtle_Pond,_Central_Park,_Manhattan,_New_York.jpg",
+          "author": "Christian David",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Belvedere Castle, Central Park",
+          "url": "https://commons.wikimedia.org/wiki/File:Belvedere_Castle,_Central_Park.jpg",
+          "author": "Stig Nygaard",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Belvedere Castle in Summer",
+          "url": "https://commons.wikimedia.org/wiki/File:Belvedere_Castle_in_Summer.jpg",
+          "author": "Plantsmushrooms",
+          "license": "CC0"
+        },
+        {
+          "title": "Central Park Apr 2026 23",
+          "url": "https://commons.wikimedia.org/wiki/File:Central_Park_Apr_2026_23.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "wikidata": "Q816268",
+      "file": "models/nyc-belvedere-castle.glb",
+      "source": "generators/nyc-belvedere-castle.ts"
     }
   ],
   "landmarks": [
@@ -51647,6 +51703,25 @@
       "elevation": 0,
       "minzoom": 16,
       "replaces": []
+    },
+    {
+      "id": "nyc-belvedere-castle",
+      "name": "Belvedere Castle",
+      "model": "nyc-belvedere-castle",
+      "place": "new-york-area",
+      "lng": -73.9688862,
+      "lat": 40.7793258,
+      "bearing": 30,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q816268",
+      "replaces": [
+        "way/278363023",
+        "way/1317000456",
+        "way/1317000457",
+        "way/1317000458",
+        "way/1317000451"
+      ]
     }
   ],
   "places": [
