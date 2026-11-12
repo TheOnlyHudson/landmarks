@@ -34745,6 +34745,74 @@
       ],
       "file": "models/nyc-bow-bridge.glb",
       "source": "generators/nyc-bow-bridge.ts"
+    },
+    {
+      "id": "nyc-bethesda-terrace",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "landscape",
+      "tags": [
+        "historic",
+        "terrace",
+        "staircase",
+        "arcade",
+        "central-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Bethesda Terrace and 432 Park Avenue from the Lake",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_and_432_Park_Avenue_from_the_Lake,_Central_Park,_Manhattan,_New_York.jpg",
+          "author": "Christian David",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bethesda Terrace and Fountain, Central Park, 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_and_Fountain,_Central_Park,_2025.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Bethesda Terrace from west",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_from_west_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "Public domain"
+        },
+        {
+          "title": "Bethesda Terrace in the time of pandemic",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_in_the_time_of_pandemic.jpg",
+          "author": "JJxFile",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bethesda Terrace Arcade, Central Park, New York City, 20231002 1841 1887",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_Arcade,_Central_Park,_New_York_City,_20231002_1841_1887.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Bethesda Terrace Central Park Manhattan NYC",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_Central_Park_Manhattan_NYC.jpg",
+          "author": "Daniel Dimitrov",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/nyc-bethesda-terrace.glb",
+      "source": "generators/nyc-bethesda-terrace.ts"
     }
   ],
   "landmarks": [
@@ -51286,6 +51354,19 @@
       "replaces": [
         "way/580516390"
       ]
+    },
+    {
+      "id": "nyc-bethesda-terrace",
+      "name": "Bethesda Terrace",
+      "model": "nyc-bethesda-terrace",
+      "place": "new-york-area",
+      "lng": -73.9710115,
+      "lat": 40.773866,
+      "bearing": 16.7,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q532029",
+      "replaces": []
     }
   ],
   "places": [
