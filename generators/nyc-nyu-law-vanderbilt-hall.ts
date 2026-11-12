@@ -41,11 +41,7 @@
  *
  * Signs: the three real plaques on the gate piers ("40", "Arthur T.
  * Vanderbilt Hall", "New York University School of Law") are plain dark
- * boxes, per STYLE.md. One extra small plaque, "Julie School", sits on the
- * west gate pier under the NYU plaque. It is not on the real building: it
- * was asked for by the commissioning author, and it is the one lettered
- * sign on the model (an exception to STYLE.md's no-lettering rule, set in
- * a plain bookish sans drawn for it, not traced from a photo).
+ * boxes, per STYLE.md.
  *
  * Photos (evidence):
  *  vh1      "NYULaw VanderbiltHall.jpg", Peter Brown, CC BY-SA 4.0 —
@@ -62,10 +58,9 @@
  */
 import { Part, type V3, cross, sub } from './mesh'
 import { PALETTE, finish } from './palette'
-import { Pen, strokes, type Pt } from './lettering'
 import { archShape, box, ccw, cornice, hipRoof, onWall, rectShape, save, type XY } from './atl-tech-tower'
 
-const brick = new Part(), trim = new Part(), roof = new Part(), win = new Part(), plaque = new Part(), gold = new Part()
+const brick = new Part(), trim = new Part(), roof = new Part(), win = new Part(), plaque = new Part()
 
 const EAVE = 18.8, WING_RIDGE = 21.8, CROSS_RIDGE = 24.8, BACK = 10.7, ARCADE = 6.0
 const X = 29.4, Y = 31.4, CX = 11.6, CY0 = 5.7, CY1 = 26.9, AY = 30.3, NOTCH = 15.8
@@ -192,35 +187,6 @@ const pl = (x: number, w: number, z0: number, z1: number) => box(plaque, x - w /
 pl(PIER, 0.3, 2.25, 2.5) // "40"
 pl(PIER, 0.66, 1.55, 1.9) // "Arthur T. Vanderbilt Hall"
 pl(-PIER, 0.66, 1.55, 1.9) // "New York University School of Law"
-pl(-PIER, 0.84, 1.14, 1.38) // "Julie School"
-
-// "Julie School": cap height 1, x-height 0.62. Each glyph returns its pen and advance.
-function glyph(ch: string): [Pen, number] {
-  const p = new Pen()
-  switch (ch) {
-    case 'J': p.moveTo([0.46, 1]).lineTo([0.46, 0.26]).cubicTo([0.46, -0.04], [0.08, -0.06], [0.02, 0.18], 6); return [p, 0.6]
-    case 'u': p.moveTo([0.06, 0.62]).lineTo([0.06, 0.22]).cubicTo([0.06, -0.05], [0.44, -0.06], [0.48, 0.2], 6); p.moveTo([0.48, 0.62]).lineTo([0.48, 0]); return [p, 0.6]
-    case 'l': p.moveTo([0.06, 1.02]).lineTo([0.06, 0]); return [p, 0.24]
-    case 'i': p.moveTo([0.06, 0.62]).lineTo([0.06, 0]); p.moveTo([0.06, 0.8]).lineTo([0.06, 0.9]); return [p, 0.24]
-    case 'e': p.moveTo([0.04, 0.32]).lineTo([0.5, 0.32]).cubicTo([0.5, 0.55], [0.4, 0.63], [0.27, 0.63], 4).cubicTo([0.12, 0.63], [0.04, 0.5], [0.04, 0.31], 4)
-      .cubicTo([0.04, 0.08], [0.16, -0.01], [0.29, -0.01], 4).cubicTo([0.4, -0.01], [0.47, 0.04], [0.5, 0.12], 3); return [p, 0.6]
-    case 'S': p.moveTo([0.56, 0.86]).cubicTo([0.5, 0.98], [0.4, 1.01], [0.3, 1.01], 4).cubicTo([0.14, 1.01], [0.05, 0.92], [0.05, 0.77], 4)
-      .cubicTo([0.05, 0.5], [0.58, 0.55], [0.58, 0.24], 6).cubicTo([0.58, 0.08], [0.46, -0.01], [0.3, -0.01], 4).cubicTo([0.18, -0.01], [0.07, 0.05], [0.03, 0.16], 4); return [p, 0.68]
-    case 'c': p.moveTo([0.5, 0.5]).cubicTo([0.45, 0.6], [0.37, 0.63], [0.28, 0.63], 3).cubicTo([0.12, 0.63], [0.04, 0.5], [0.04, 0.31], 4)
-      .cubicTo([0.04, 0.1], [0.14, -0.01], [0.28, -0.01], 4).cubicTo([0.38, -0.01], [0.46, 0.04], [0.5, 0.13], 3); return [p, 0.58]
-    case 'h': p.moveTo([0.06, 1.02]).lineTo([0.06, 0]); p.moveTo([0.06, 0.42]).cubicTo([0.12, 0.6], [0.25, 0.63], [0.32, 0.63], 4).cubicTo([0.44, 0.63], [0.5, 0.55], [0.5, 0.4], 4).lineTo([0.5, 0]); return [p, 0.62]
-    case 'o': p.circle([0.28, 0.31], 0.24, 0.32, 14); return [p, 0.62]
-    case ' ': return [p, 0.32]
-  }
-  throw new Error(ch)
-}
-const word = new Pen()
-let adv = 0
-for (const ch of 'Julie School') { const [g, a] = glyph(ch); word.add(g, adv); adv += a }
-const CAP = 0.12, LEFT = -PIER + (adv * CAP) / 2, BASE = 1.2
-// The reader faces south, so their right is west (-x).
-const place = (u: number, v: number, w: number): V3 => [LEFT - u * CAP, AY + 0.04 + w * CAP, BASE + v * CAP]
-strokes(gold, word.paths as Pt[][], { width: 0.13, depth: 0.12, place })
 
 await save('nyc-nyu-law-vanderbilt-hall', 'Vanderbilt Hall', [
   { part: brick, material: finish('vanderbilt-brick', 0xb05c49) },
@@ -228,5 +194,4 @@ await save('nyc-nyu-law-vanderbilt-hall', 'Vanderbilt Hall', [
   { part: roof, material: PALETTE.copper },
   { part: win, material: PALETTE.window },
   { part: plaque, material: finish('vanderbilt-plaque', 0x4a4f57) },
-  { part: gold, material: finish('vanderbilt-brass', 0xd9b25a) },
 ], { height: 29.3, anchor: [40.7305463, -73.9994876], bearing: 33 })
