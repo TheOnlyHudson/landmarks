@@ -187,4 +187,9 @@ its 75.1 m crest consistent with 195 ft (59.4 m) navigation clearance plus
 the girders; Cabrillo's deck about 31 m over SR 163. Uploaded as changeset
 191778316. After a "Build Bridge Decks" run over the two bridges, Barrelman's
 decks passed through ten of the eleven nodes within 0.03 m; the Coronado
-crest moved from 20 m to 75.1 m.
+crest moved from 20 m to 75.1 m. The eleventh, Cabrillo's east end, is
+drawn at 78.0 m against its 78.4 m: the deck is solved through 78.4, but
+the mesh eases an end that lands on the ground onto the map's terrain so
+the road meets it without a step, and the terrain there is 78.0 m. Tag a
+landed end only to set the grade into the deck, as here, and expect it
+drawn at the terrain.
