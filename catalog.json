@@ -34690,6 +34690,35 @@
       ],
       "file": "models/sd-old-point-loma-lighthouse.glb",
       "source": "generators/sd-old-point-loma-lighthouse.ts"
+    },
+    {
+      "id": "atx-texas-state-capitol",
+      "file": "models/atx-texas-state-capitol.glb",
+      "license": "CC0-1.0",
+      "author": "Colin",
+      "source": "generators/atx-texas-state-capitol.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "capitol",
+        "government",
+        "dome"
+      ],
+      "reviewStatus": "unreviewed"
     }
   ],
   "landmarks": [
@@ -51216,6 +51245,36 @@
         "way/90687227"
       ],
       "wikidata": "Q7084751"
+    },
+    {
+      "id": "atx-texas-state-capitol",
+      "name": "Texas State Capitol",
+      "model": "atx-texas-state-capitol",
+      "lng": -97.7403239,
+      "lat": 30.2747408,
+      "bearing": 17.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2078042",
+      "replaces": [
+        "way/25758443",
+        "way/516187625",
+        "way/734639130",
+        "way/734639131",
+        "way/734639132",
+        "way/734639133",
+        "way/734639134",
+        "way/734639135",
+        "way/734639136",
+        "way/734639137",
+        "way/952130542",
+        "way/952130555",
+        "way/1364720759",
+        "way/1364720760",
+        "way/1364720761",
+        "way/1364720762"
+      ],
+      "place": "austin-area"
     }
   ],
   "places": [
@@ -51325,6 +51384,11 @@
       "kind": "site",
       "parent": "new-york-area",
       "wikidata": "Q11259"
+    },
+    {
+      "id": "austin-area",
+      "name": "Austin area",
+      "kind": "region"
     }
   ]
 }
