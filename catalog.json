@@ -35142,6 +35142,50 @@
       "wikidata": "Q5521797",
       "file": "models/nyc-gapstow-bridge.glb",
       "source": "generators/nyc-gapstow-bridge.ts"
+    },
+    {
+      "id": "nyc-alice-in-wonderland",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "statue",
+        "bronze",
+        "park",
+        "public-art"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Alice in Wonderland Central Park NYC",
+          "url": "https://commons.wikimedia.org/wiki/File:Alice_in_Wonderland_Central_Park_NYC.JPG",
+          "author": "Gzzz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Alice in Wonderland sculpture in Central Park",
+          "url": "https://commons.wikimedia.org/wiki/File:Alice_in_Wonderland_sculpture_in_Central_Park.jpg",
+          "author": "GreenReaper",
+          "license": "Public domain"
+        }
+      ],
+      "wikidata": "Q93316612",
+      "file": "models/nyc-alice-in-wonderland.glb",
+      "source": "generators/nyc-alice-in-wonderland.ts"
     }
   ],
   "landmarks": [
@@ -51781,6 +51825,19 @@
       "replaces": [
         "way/546663191"
       ]
+    },
+    {
+      "id": "nyc-alice-in-wonderland",
+      "name": "Alice in Wonderland",
+      "model": "nyc-alice-in-wonderland",
+      "place": "new-york-area",
+      "lng": -73.966534,
+      "lat": 40.775038,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q93316612",
+      "replaces": []
     }
   ],
   "places": [
