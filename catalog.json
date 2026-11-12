@@ -34690,6 +34690,35 @@
       ],
       "file": "models/sd-old-point-loma-lighthouse.glb",
       "source": "generators/sd-old-point-loma-lighthouse.ts"
+    },
+    {
+      "id": "nyc-tweed-courthouse",
+      "file": "models/nyc-tweed-courthouse.glb",
+      "license": "CC0-1.0",
+      "author": "Colin",
+      "source": "generators/nyc-tweed-courthouse.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "courthouse",
+        "government",
+        "italianate"
+      ],
+      "reviewStatus": "unreviewed"
     }
   ],
   "landmarks": [
@@ -51216,6 +51245,31 @@
         "way/90687227"
       ],
       "wikidata": "Q7084751"
+    },
+    {
+      "id": "nyc-tweed-courthouse",
+      "name": "Tweed Courthouse",
+      "model": "nyc-tweed-courthouse",
+      "lng": -74.0055424,
+      "lat": 40.7133991,
+      "bearing": 31,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1105773",
+      "replaces": [
+        "way/575213948",
+        "way/1101512867",
+        "way/214791739",
+        "way/214791740",
+        "way/214791741",
+        "way/214791742",
+        "way/214791743",
+        "way/214791744",
+        "way/1016246198",
+        "way/1016246199",
+        "way/1016246200"
+      ],
+      "place": "new-york-area"
     }
   ],
   "places": [
