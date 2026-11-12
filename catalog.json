@@ -35300,6 +35300,122 @@
       "source": "generators/nyc-untermyer-fountain.ts"
     },
     {
+      "id": "nyc-columbia-low-library",
+      "file": "models/nyc-columbia-low-library.glb",
+      "license": "CC0-1.0",
+      "author": "Colin",
+      "source": "generators/nyc-columbia-low-library.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "university",
+        "library",
+        "dome",
+        "beaux-arts"
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "nyc-tweed-courthouse",
+      "file": "models/nyc-tweed-courthouse.glb",
+      "license": "CC0-1.0",
+      "author": "Colin",
+      "source": "generators/nyc-tweed-courthouse.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "courthouse",
+        "government",
+        "italianate"
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "atx-texas-state-capitol",
+      "file": "models/atx-texas-state-capitol.glb",
+      "license": "CC0-1.0",
+      "author": "Colin",
+      "source": "generators/atx-texas-state-capitol.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "capitol",
+        "government",
+        "dome"
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "nyc-jfk-terminal-6",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "airport",
+        "terminal",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "file": "models/nyc-jfk-terminal-6.glb",
+      "source": "generators/nyc-jfk-terminal-6.ts"
+    },
+    {
       "id": "nyc-jfk-new-terminal-one",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47606,7 +47722,7 @@
       "place": "houston-area",
       "lng": -95.3597322,
       "lat": 29.7610836,
-      "bearing": 34.0,
+      "bearing": 34,
       "elevation": 0,
       "minzoom": 15,
       "replaces": [
@@ -49778,7 +49894,7 @@
       "place": "atlanta-area",
       "lng": -84.391852,
       "lat": 33.758831,
-      "bearing": 313.0,
+      "bearing": 313,
       "elevation": 0,
       "minzoom": 16,
       "replaces": [
@@ -49932,7 +50048,7 @@
       "place": "atlanta-area",
       "lng": -84.394946,
       "lat": 33.763237,
-      "bearing": 0.0,
+      "bearing": 0,
       "elevation": 0,
       "minzoom": 15,
       "replaces": [
@@ -49948,7 +50064,7 @@
       "place": "atlanta-area",
       "lng": -84.39305,
       "lat": 33.764038,
-      "bearing": 0.0,
+      "bearing": 0,
       "elevation": 0,
       "minzoom": 15,
       "replaces": [
@@ -49963,7 +50079,7 @@
       "place": "atlanta-area",
       "lng": -84.396365,
       "lat": 33.757234,
-      "bearing": 0.0,
+      "bearing": 0,
       "elevation": 0,
       "minzoom": 15,
       "replaces": [
@@ -49978,7 +50094,7 @@
       "place": "atlanta-area",
       "lng": -84.392734,
       "lat": 33.762892,
-      "bearing": 0.0,
+      "bearing": 0,
       "elevation": 0,
       "minzoom": 15,
       "replaces": [
@@ -51343,7 +51459,7 @@
       "place": "san-diego-area",
       "lng": -117.17356,
       "lat": 32.720276,
-      "bearing": 180.0,
+      "bearing": 180,
       "elevation": 0,
       "minzoom": 15,
       "replaces": [
@@ -51358,7 +51474,7 @@
       "place": "san-diego-area",
       "lng": -117.17517,
       "lat": 32.7129,
-      "bearing": 0.0,
+      "bearing": 0,
       "elevation": 0,
       "minzoom": 16,
       "replaces": []
@@ -51370,7 +51486,7 @@
       "place": "san-diego-area",
       "lng": -117.171917,
       "lat": 32.721946,
-      "bearing": 0.0,
+      "bearing": 0,
       "elevation": 0,
       "minzoom": 15,
       "replaces": [
@@ -51495,7 +51611,7 @@
       "place": "san-diego-area",
       "lng": -117.15238,
       "lat": 32.73174,
-      "bearing": 0.0,
+      "bearing": 0,
       "elevation": 0,
       "minzoom": 15,
       "replaces": [
@@ -51511,7 +51627,7 @@
       "place": "san-diego-area",
       "lng": -117.14923,
       "lat": 32.73251,
-      "bearing": 0.0,
+      "bearing": 0,
       "elevation": 0,
       "minzoom": 15,
       "replaces": [
@@ -51533,7 +51649,7 @@
       "place": "san-diego-area",
       "lng": -117.15439,
       "lat": 32.72624,
-      "bearing": 0.0,
+      "bearing": 0,
       "elevation": 0,
       "minzoom": 15,
       "replaces": [
@@ -51648,7 +51764,7 @@
       "place": "san-diego-area",
       "lng": -117.15043,
       "lat": 32.72945,
-      "bearing": 0.0,
+      "bearing": 0,
       "elevation": 0,
       "minzoom": 15,
       "replaces": [
@@ -51683,7 +51799,7 @@
       "place": "san-diego-area",
       "lng": -117.15231,
       "lat": 32.73226,
-      "bearing": 0.0,
+      "bearing": 0,
       "elevation": 0,
       "minzoom": 16,
       "replaces": [
@@ -52031,6 +52147,94 @@
       "replaces": []
     },
     {
+      "id": "nyc-columbia-low-library",
+      "name": "Low Memorial Library (Columbia University)",
+      "model": "nyc-columbia-low-library",
+      "lng": -73.9618351,
+      "lat": 40.8082225,
+      "bearing": 29.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q6692918",
+      "replaces": [
+        "way/274995757",
+        "way/901695414",
+        "way/901695415",
+        "way/901695416"
+      ],
+      "place": "new-york-area"
+    },
+    {
+      "id": "nyc-tweed-courthouse",
+      "name": "Tweed Courthouse",
+      "model": "nyc-tweed-courthouse",
+      "lng": -74.0055424,
+      "lat": 40.7133991,
+      "bearing": 31,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1105773",
+      "replaces": [
+        "way/575213948",
+        "way/1101512867",
+        "way/214791739",
+        "way/214791740",
+        "way/214791741",
+        "way/214791742",
+        "way/214791743",
+        "way/214791744",
+        "way/1016246198",
+        "way/1016246199",
+        "way/1016246200"
+      ],
+      "place": "new-york-area"
+    },
+    {
+      "id": "atx-texas-state-capitol",
+      "name": "Texas State Capitol",
+      "model": "atx-texas-state-capitol",
+      "lng": -97.7403239,
+      "lat": 30.2747408,
+      "bearing": 17.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2078042",
+      "replaces": [
+        "way/25758443",
+        "way/516187625",
+        "way/734639130",
+        "way/734639131",
+        "way/734639132",
+        "way/734639133",
+        "way/734639134",
+        "way/734639135",
+        "way/734639136",
+        "way/734639137",
+        "way/952130542",
+        "way/952130555",
+        "way/1364720759",
+        "way/1364720760",
+        "way/1364720761",
+        "way/1364720762"
+      ],
+      "place": "austin-area"
+    },
+    {
+      "id": "nyc-jfk-terminal-6",
+      "name": "JFK Airport Terminal 6",
+      "model": "nyc-jfk-terminal-6",
+      "place": "new-york-area",
+      "lng": -73.7802563,
+      "lat": 40.6480739,
+      "bearing": 39,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/1556624971",
+        "way/1556624970"
+      ]
+    },
+    {
       "id": "nyc-jfk-new-terminal-one",
       "name": "JFK Airport New Terminal One",
       "model": "nyc-jfk-new-terminal-one",
@@ -52152,6 +52356,11 @@
       "kind": "site",
       "parent": "new-york-area",
       "wikidata": "Q11259"
+    },
+    {
+      "id": "austin-area",
+      "name": "Austin area",
+      "kind": "region"
     }
   ]
 }
