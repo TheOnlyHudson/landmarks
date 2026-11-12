@@ -34982,6 +34982,66 @@
       ],
       "file": "models/nyc-the-sphere.glb",
       "source": "generators/nyc-the-sphere.ts"
+    },
+    {
+      "id": "nyc-revson-fountain",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "fountain",
+      "tags": [
+        "fountain",
+        "lincoln-center",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Lincoln Center grassy plaza 2021 (2) jeh.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Center_grassy_plaza_2021_(2)_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Fountain Lincoln Centre (6213944577).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fountain_Lincoln_Centre_(6213944577).jpg",
+          "author": "Tony Hisgett",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "LincolnCenter-2 (35750405034).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:LincolnCenter-2_(35750405034).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "150919 003 Lincoln Center - Revson Fountain, Koch Theater, Metropolitan Opera (21223352214).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:150919_003_Lincoln_Center_-_Revson_Fountain,_Koch_Theater,_Metropolitan_Opera_(21223352214).jpg",
+          "author": "cultivar413",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Lincoln Center fountain (15612711600).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Center_fountain_(15612711600).jpg",
+          "author": "Peter Burka",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/nyc-revson-fountain.glb",
+      "source": "generators/nyc-revson-fountain.ts"
     }
   ],
   "landmarks": [
@@ -51575,6 +51635,18 @@
       "minzoom": 16,
       "replaces": [],
       "wikidata": "Q2164298"
+    },
+    {
+      "id": "nyc-revson-fountain",
+      "name": "Revson Fountain",
+      "model": "nyc-revson-fountain",
+      "place": "new-york-area",
+      "lng": -73.9833951,
+      "lat": 40.7723103,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
     }
   ],
   "places": [
