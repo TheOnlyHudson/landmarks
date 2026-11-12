@@ -35414,6 +35414,60 @@
       ],
       "file": "models/nyc-jfk-terminal-6.glb",
       "source": "generators/nyc-jfk-terminal-6.ts"
+    },
+    {
+      "id": "nyc-jfk-new-terminal-one",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "airport",
+        "terminal",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "New Terminal One (NTO), JFK (54742642851).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Terminal_One_(NTO),_John_F._Kennedy_Airport_(JFK),_New_York_City,_New_York_(USA)_(54742642851).jpg",
+          "author": "Charles from Port Chester, New York",
+          "license": "CC0"
+        },
+        {
+          "title": "New Terminal One (NTO), JFK (54742871129).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Terminal_One_(NTO),_John_F._Kennedy_Airport_(JFK),_New_York_City,_New_York_(USA)_(54742871129).jpg",
+          "author": "Charles from Port Chester, New York",
+          "license": "CC0"
+        },
+        {
+          "title": "New Terminal One (NTO), JFK (54742871154).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Terminal_One_(NTO),_John_F._Kennedy_Airport_(JFK),_New_York_City,_New_York_(USA)_(54742871154).jpg",
+          "author": "Charles from Port Chester, New York",
+          "license": "CC0"
+        },
+        {
+          "title": "JFK Terminal One.jpg (rendering)",
+          "url": "https://commons.wikimedia.org/wiki/File:JFK_Terminal_One.jpg",
+          "author": "ANEWJFK",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/nyc-jfk-new-terminal-one.glb",
+      "source": "generators/nyc-jfk-new-terminal-one.ts"
     }
   ],
   "landmarks": [
@@ -52178,6 +52232,20 @@
       "replaces": [
         "way/1556624971",
         "way/1556624970"
+      ]
+    },
+    {
+      "id": "nyc-jfk-new-terminal-one",
+      "name": "JFK Airport New Terminal One",
+      "model": "nyc-jfk-new-terminal-one",
+      "place": "new-york-area",
+      "lng": -73.7871869,
+      "lat": 40.6416208,
+      "bearing": 29.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/1359238780"
       ]
     }
   ],
