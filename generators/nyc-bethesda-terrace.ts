@@ -1,7 +1,7 @@
 /**
  * Bethesda Terrace, Central Park (Calvert Vaux and Jacob Wrey Mould,
  * 1859–64) — procedural, CC0-1.0, no textures.
- * bun generators/nyc-bethesda-terrace.ts
+ * bun generators/nyc-bethesda-terrace.ts  (writes both models below)
  *
  * Frame: x across the terrace (≈ east-south-east), y along its axis toward
  * the Lake (bearing 16.7°), z up, metres. Anchor: on the terrace axis at the
@@ -14,14 +14,31 @@
  * (way/234241518), with no building or man_made outline, so `replaces` is
  * empty.
  *
+ * Two models, one per ground level, both at this anchor and bearing. The
+ * map lifts a flat-based model by the terrain under it, read on a 7 x 7 grid
+ * over its plan, so one model spanning the plaza and the Mall 5.9 m above it
+ * had its upper level lifted twice and floated about 6 m:
+ * - nyc-bethesda-terrace, the plaza level: the Arcade's north face, the two
+ *   side stairs and the plaza's balustrades. The side stairs are drawn on
+ *   their own ground (the terrain is the stair), the Arcade at its real
+ *   height from the plaza.
+ * - nyc-bethesda-terrace-mall, the Mall level: the grand stair's well and the
+ *   balustrades along the drive. y = 0 is the well's foot at the plaza level;
+ *   `elevation` -5.4 sets the drive on the map's ground (the 5.9 m depth less
+ *   the map's 0.5 m base sink). The map's terrain doesn't show the well as a
+ *   pit, so its lower flight is under the drawn ground there.
+ *
  * What is modelled: the Arcade's north face with its seven arched openings
- * and balustrade, the dark hall behind them under a gold Minton-tile
- * ceiling, its three south arches onto the grand central stair; the stair's
- * well (two flights and a landing) and its balustraded walls up to the Mall;
- * the two side stairs north of the drive (two flights each, a landing, solid
- * balustrades and newel posts); the upper balustrade along the drive; the
- * lower plaza's side balustrades with their triple-newel clusters, and the
- * low parapet at the Lake end.
+ * and balustrade, the gold Minton-tile ceiling seen through them, its three
+ * south arches onto the grand central stair (at the foot of the open well,
+ * y -33; the landing north of it is under the drive); the stair's well (two
+ * flights and a landing) and its balustraded walls up to the Mall; the two
+ * side stairs north of the drive (two flights each, a landing, solid
+ * balustrades and newel posts); the upper balustrades along the drive; the
+ * lower plaza's side balustrades with their triple-newel clusters. Left to
+ * the map: the drive and the Arcade's deck, the hall under them (the map's
+ * ground covers it), the Lake-end parapet (a low line 35 m out that read as
+ * noise).
  *
  * Evidence
  * - OSM (ODbL): plan of the plaza (relation/3170084 outer way/234243771),
@@ -73,7 +90,13 @@
 import { Part, type V3 } from './mesh'
 import { finishModel, prism, chamferRect } from './nyc-570-lexington'
 
-const stone = new Part(), cap = new Part(), steps = new Part(), dark = new Part(), tiles = new Part(), deck = new Part()
+// Two models: the plaza level (the Arcade's face, the side stairs, the plaza's
+// balustrades) and the Mall level (the grand stair's well, the drive's
+// balustrades), each standing on its own ground. See the header.
+const parts = () => ({ stone: new Part(), cap: new Part(), steps: new Part(), dark: new Part(), tiles: new Part() })
+const PLAZA = parts(), MALL = parts()
+let { stone, cap, steps, dark, tiles } = PLAZA
+const use = (p: typeof PLAZA) => ({ stone, cap, steps, dark, tiles } = p)
 
 const U = 5.9 // the upper terrace and drive above the plaza
 const TAU = Math.PI * 2
@@ -169,7 +192,9 @@ function arcadeWall(o: [number, number], u: [number, number], s0: number, s1: nu
 // ===========================================================================
 // The Arcade: north face at y = 0, x ±11.25, under the drive to y = -27.
 // ===========================================================================
-const AX = 11.25, AS = -27, WT = 1.1
+// AH: the hall runs on under the well's covered landing to the foot of the
+// first flight, where the open well begins (lidar).
+const AX = 11.25, AS = -27, AH = -33, WT = 1.1
 {
   const pitch = (2 * AX) / 7, r = 1.15, zs = 3.3
   const arches = Array.from({ length: 7 }, (_, k): [number, number, number] => [-AX + pitch * (k + 0.5), r, zs])
@@ -188,30 +213,26 @@ const AX = 11.25, AS = -27, WT = 1.1
     box(cap, s * AX - 0.9, -0.9, s * AX + 0.9, 0.9, U + 1.9, U + 2.15, 0.06)
     box(cap, s * AX - 0.45, -0.45, s * AX + 0.45, 0.45, U + 2.15, U + 3.0, 0.15)
   }
-  // The hall behind: dark walls, the Minton ceiling at 4.9 m, the deck over it.
-  const zc = 4.9, xi = AX - 0.6
-  dark.quad([-xi, AS + 0.6, 0], [-xi, -WT, 0], [-xi, -WT, zc], [-xi, AS + 0.6, zc])
-  dark.quad([xi, -WT, 0], [xi, AS + 0.6, 0], [xi, AS + 0.6, zc], [xi, -WT, zc])
-  // ceiling, facing down, in coffers: gold tiles framed by a darker grid
-  const cy0 = AS + 0.6, cy1 = -WT
-  for (let i = 0; i < 3; i++) for (let j = 0; j < 5; j++) {
+  // The hall behind: the Minton ceiling (4.9 m) seen through the arches, in
+  // gold coffers; the rest of the hall is under the drive and the map's ground.
+  const zc = 4.9, xi = AX - 0.6, cy0 = -WT - 4.4, cy1 = -WT
+  for (let i = 0; i < 3; i++) for (let j = 0; j < 2; j++) {
     const xa = -xi + ((2 * xi) * i) / 3 + 0.25, xb = -xi + ((2 * xi) * (i + 1)) / 3 - 0.25
-    const ya = cy0 + ((cy1 - cy0) * j) / 5 + 0.25, yb = cy0 + ((cy1 - cy0) * (j + 1)) / 5 - 0.25
+    const ya = cy0 + ((cy1 - cy0) * j) / 2 + 0.25, yb = cy0 + ((cy1 - cy0) * (j + 1)) / 2 - 0.25
     tiles.quad([xa, ya, zc], [xa, yb, zc], [xb, yb, zc], [xb, ya, zc])
   }
   dark.quad([-xi, cy0, zc + 0.02], [-xi, cy1, zc + 0.02], [xi, cy1, zc + 0.02], [xi, cy0, zc + 0.02])
-  // the deck over the hall, at the drive's level less the roadway
-  deck.quad([-AX, AS, U - 0.3], [AX, AS, U - 0.3], [AX, -0.2, U - 0.3], [-AX, -0.2, U - 0.3])
+  use(MALL)
   // South face onto the grand stair's landing: three arches across the well.
   const GW = 4.0
   const sp = (2 * GW) / 3
-  arcadeWall([GW, AS], [-1, 0], 0, 2 * GW, 0, U - 0.3, [0, 1, 2].map((k): [number, number, number] => [sp * (k + 0.5), 1.0, 3.3]), WT, dark)
-  dark.quad([GW, AS + WT + 0.01, 0], [-GW, AS + WT + 0.01, 0], [-GW, AS + WT + 0.01, 0.01], [GW, AS + WT + 0.01, 0.01])
+  arcadeWall([GW, AH], [-1, 0], 0, 2 * GW, 0, U - 0.3, [0, 1, 2].map((k): [number, number, number] => [sp * (k + 0.5), 1.0, 3.3]), WT, dark)
 }
 
 // ===========================================================================
 // The grand central stair, south of the drive: a well x ±4 between walls,
-// landing y -27…-33 at the plaza level, flights to 2.7 m and to the Mall.
+// a covered landing y -27…-33 at the plaza level (the hall's end), flights to
+// 2.7 m and to the Mall.
 // ===========================================================================
 {
   const GW = 4.0, TW = 0.8
@@ -229,8 +250,13 @@ const AX = 11.25, AS = -27, WT = 1.1
   // Well walls with their balustrades: masonry to the Mall's level, then the rail.
   for (const s of [-1, 1]) {
     const xi = s * GW, xo = s * (GW + TW)
-    box(stone, Math.min(xi, xo), -52.5, Math.max(xi, xo), AS, 0, U - 0.1, 0.1, cap)
-    rail([s * (GW + TW / 2), AS - 0.5], [s * (GW + TW / 2), -52], flat(U - 0.1), flat(U + 0.9), 0.5)
+    // The wall's foot follows the stair inside the well; outside it is the Mall's ground.
+    const ys = [AS, -33, -40, -46, -52, -52.5], T = ys.map((y) => (y - AS) / (-52.5 - AS))
+    const yAt = (t: number) => AS + (-52.5 - AS) * t
+    // Under the covered landing the wall is hidden; its foot rises to the deck there.
+    const foot = (y: number) => (y > AH ? ((U - 0.3) * (y - AH)) / (AS - AH) : surf(y))
+    rail([s * (GW + TW / 2), AS], [s * (GW + TW / 2), -52.5], (t) => foot(yAt(t)), flat(U + 0.9), TW, T)
+    void xi, xo
     for (const y of [AS - 0.5, -33, -40, -46, -52]) newel(s * (GW + TW / 2), y, U - 0.1, 1.3, 0.75)
   }
   // The drive's south edge: balustrade from the well out to the flanking walks.
@@ -239,47 +265,45 @@ const AX = 11.25, AS = -27, WT = 1.1
     newel(s * 11.25, AS - 0.4, U - 0.2, 1.25, 0.65)
     newel(s * 17.5, AS - 0.4, U - 0.2, 1.4, 0.8)
   }
-  void surf
 }
 
+use(PLAZA)
 // ===========================================================================
 // The side stairs north of the drive: x 11.25…23.7 each side, from the drive
 // (y -7) to a landing (y -1…4.5, 2.95 m) and down to the plaza (y 12.2).
 // ===========================================================================
 {
   const XI = AX, XO = 23.7, RW = 0.7
-  const YT = -7, YL0 = -1, YL1 = 4.5, YB = 12.2, ZL = 2.95
-  const surf = (y: number) =>
-    y <= YT ? U : y < YL0 ? U - ((U - ZL) * (y - YT)) / (YL0 - YT) : y <= YL1 ? ZL : y < YB ? ZL - (ZL * (y - YL1)) / (YB - YL1) : 0
+  const YT = -7, YL0 = -1, YL1 = 4.5, YB = 12.2
+  // Drawn on their own ground, not at their real heights (drive 5.9 m, landing
+  // 2.95 m): the map lifts a flat-based model by the terrain under it, and the
+  // terrain here is the stair itself, so the steps are a low relief and the
+  // balustrades stand 1.05 m over it.
+  const H = 0.15
   for (const s of [-1, 1]) {
     const x0 = s * (XI + RW), x1 = s * (XO - RW)
     const xa = Math.min(x0, x1), xb = Math.max(x0, x1)
-    // flights (steps descending toward +y)
-    for (const [y0, y1, z0, z1] of [[YT, YL0, U, ZL], [YL1, YB, ZL, 0]] as [number, number, number, number][]) {
-      const n = Math.round((z0 - z1) / 0.15), d = (y1 - y0) / n, h = (z0 - z1) / n
+    // flights: each step a tread and the riser facing down the stair (toward +y)
+    for (const [y0, y1, n] of [[YT, YL0, 20], [YL1, YB, 20]] as [number, number, number][]) {
+      const d = (y1 - y0) / n
       for (let k = 0; k < n; k++) {
-        const ya = y0 + d * k, yb = ya + d, zt = z0 - h * k
-        qn(steps, [xa, ya, zt], [xa, yb, zt], [xb, yb, zt], [xb, ya, zt], [0, 0, 1])
-        qn(steps, [xa, yb, zt - h], [xb, yb, zt - h], [xb, yb, zt], [xa, yb, zt], [0, 1, 0])
+        const ya = y0 + d * k, yb = ya + d
+        qn(steps, [xa, ya, H], [xa, yb, H], [xb, yb, H], [xb, ya, H], [0, 0, 1])
+        qn(steps, [xa, yb, 0], [xb, yb, 0], [xb, yb, H], [xa, yb, H], [0, 1, 0])
       }
     }
-    qn(steps, [xa, YL0, ZL], [xa, YL1, ZL], [xb, YL1, ZL], [xb, YL0, ZL], [0, 0, 1])
-    // the balustrade walls either side, following the stair, footed on the plaza
+    // the balustrade walls either side
     const ts = [YT - 0.5, YT, YL0, YL1, YB, YB + 0.5]
     for (const xr of [s * (XI + RW / 2), s * (XO - RW / 2)]) {
-      const yy = (t: number) => ts[0] + (ts[ts.length - 1] - ts[0]) * t
-      const T = ts.map((y) => (y - ts[0]) / (ts[ts.length - 1] - ts[0]))
-      rail([xr, ts[0]], [xr, ts[ts.length - 1]], () => 0, (t) => surf(yy(t)) + 1.05, RW, T)
-      newel(xr, YT, U, 1.4, 0.95)
-      newel(xr, YL0, ZL, 1.4, 0.95)
-      newel(xr, YL1, ZL, 1.4, 0.95)
+      rail([xr, ts[0]], [xr, ts[ts.length - 1]], () => 0, () => 1.2, RW, ts.map((y) => (y - ts[0]) / (ts[ts.length - 1] - ts[0])))
+      for (const y of [YT, YL0, YL1]) newel(xr, y, 0, 1.55, 0.95)
       newel(xr, YB + 0.3, 0, 1.7, 1.05)
     }
-    // the stair's outer retaining wall to the grass
-    box(stone, s * XO - 0.01, YT - 0.5, s * (XO + 0.4), YB + 0.8, 0, 1.0, 0.1, cap)
     // the upper balustrade along the drive, from the stair top outward
-    rail([s * XO, YT - 0.5], [s * 36, YT - 0.5], flat(U - 1.2), flat(U + 1.0), 0.5)
-    for (const x of [27.5, 31.5, 36]) newel(s * x, YT - 0.5, U - 1.2, 2.4, 0.8)
+    use(MALL)
+    rail([s * XO, YT - 0.5], [s * 36, YT - 0.5], flat(U - 0.3), flat(U + 1.0), 0.5)
+    for (const x of [27.5, 31.5, 36]) newel(s * x, YT - 0.5, U - 0.3, 1.5, 0.8)
+    use(PLAZA)
   }
 }
 
@@ -296,18 +320,16 @@ const AX = 11.25, AS = -27, WT = 1.1
     // the cluster: three tall newels on a shared plinth
     box(stone, s * 14.2 - 1.3, 27.8, s * 14.2 + 1.3, 30.2, 0, 0.5, 0.1, cap)
     for (const [dx, dy] of [[-0.75, -0.6], [0.75, -0.6], [0, 0.65]]) newel(s * 14.2 + dx, 29 + dy, 0.5, 2.1, 0.85)
-    // Lake end: the low parapet either side of the landing, posts at its ends
-    rail([s * 9.5, 76.8], [s * 23.6, 76.8], flat(0), flat(0.8), 0.6, [0, 0.33, 0.67, 1])
-    for (const x of [9.5, 16.5, 23.6]) newel(s * x, 76.8, 0, 1.3, 0.9)
   }
 }
 
-finishModel('Bethesda Terrace', 'nyc-bethesda-terrace', [
-  { part: stone, material: { name: 'sandstone', color: 0xc2ae84, roughness: 0.9 } },
-  { part: cap, material: { name: 'trim', color: 0xddd1b2, roughness: 0.85 } },
-  { part: steps, material: { name: 'granite', color: 0xb3ada2, roughness: 0.9 } },
-  { part: dark, material: { name: 'window', color: 0x4d4538, roughness: 0.9 } },
-  { part: tiles, material: { name: 'window-tiles', color: 0xc79a4e, roughness: 0.5 } },
-  { part: deck, material: { name: 'roof', color: 0x9da6ad, roughness: 0.85 } },
-], { bearing: 16.7, height: U + 3.0 }, 6500)
+const materials = (p: typeof PLAZA) => [
+  { part: p.stone, material: { name: 'sandstone', color: 0xc2ae84, roughness: 0.9 } },
+  { part: p.cap, material: { name: 'trim', color: 0xddd1b2, roughness: 0.85 } },
+  { part: p.steps, material: { name: 'granite', color: 0xb3ada2, roughness: 0.9 } },
+  { part: p.dark, material: { name: 'window', color: 0x4d4538, roughness: 0.9 } },
+  { part: p.tiles, material: { name: 'window-tiles', color: 0xc79a4e, roughness: 0.5 } },
+].filter(({ part }) => part.triangles > 0)
+finishModel('Bethesda Terrace', 'nyc-bethesda-terrace', materials(PLAZA), { bearing: 16.7, height: U + 3.0 }, 6500)
+finishModel('Bethesda Terrace, Mall level', 'nyc-bethesda-terrace-mall', materials(MALL), { bearing: 16.7, height: U + 1.4, elevation: -5.4 }, 6500)
 void TAU
