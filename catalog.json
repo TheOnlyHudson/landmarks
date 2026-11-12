@@ -35098,6 +35098,50 @@
       "wikidata": "Q816268",
       "file": "models/nyc-belvedere-castle.glb",
       "source": "generators/nyc-belvedere-castle.ts"
+    },
+    {
+      "id": "nyc-gapstow-bridge",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "historic",
+        "footbridge",
+        "stone-arch",
+        "park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Gapstow Bridge",
+          "url": "https://commons.wikimedia.org/wiki/File:Gapstow_Bridge.jpg",
+          "author": "spurekar",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Sunlit Gapstow Bridge",
+          "url": "https://commons.wikimedia.org/wiki/File:Sunlit_Gapstow_Bridge.jpg",
+          "author": "Randusr836",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "wikidata": "Q5521797",
+      "file": "models/nyc-gapstow-bridge.glb",
+      "source": "generators/nyc-gapstow-bridge.ts"
     }
   ],
   "landmarks": [
@@ -51721,6 +51765,21 @@
         "way/1317000457",
         "way/1317000458",
         "way/1317000451"
+      ]
+    },
+    {
+      "id": "nyc-gapstow-bridge",
+      "name": "Gapstow Bridge",
+      "model": "nyc-gapstow-bridge",
+      "place": "new-york-area",
+      "lng": -73.9738311,
+      "lat": 40.7669276,
+      "bearing": 332.7,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q5521797",
+      "replaces": [
+        "way/546663191"
       ]
     }
   ],
