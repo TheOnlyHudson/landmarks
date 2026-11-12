@@ -34690,6 +34690,34 @@
       ],
       "file": "models/sd-old-point-loma-lighthouse.glb",
       "source": "generators/sd-old-point-loma-lighthouse.ts"
+    },
+    {
+      "id": "nyc-jfk-terminal-6",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "airport",
+        "terminal",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "file": "models/nyc-jfk-terminal-6.glb",
+      "source": "generators/nyc-jfk-terminal-6.ts"
     }
   ],
   "landmarks": [
@@ -51216,6 +51244,21 @@
         "way/90687227"
       ],
       "wikidata": "Q7084751"
+    },
+    {
+      "id": "nyc-jfk-terminal-6",
+      "name": "JFK Airport Terminal 6",
+      "model": "nyc-jfk-terminal-6",
+      "place": "new-york-area",
+      "lng": -73.7802563,
+      "lat": 40.6480739,
+      "bearing": 39,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/1556624971",
+        "way/1556624970"
+      ]
     }
   ],
   "places": [
