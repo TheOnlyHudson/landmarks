@@ -34690,6 +34690,61 @@
       ],
       "file": "models/sd-old-point-loma-lighthouse.glb",
       "source": "generators/sd-old-point-loma-lighthouse.ts"
+    },
+    {
+      "id": "nyc-bow-bridge",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "historic",
+        "cast-iron",
+        "footbridge",
+        "central-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Bow Bridge over the Lake, Central Park, Manhattan, New York",
+          "url": "https://commons.wikimedia.org/wiki/File:Bow_Bridge_over_the_Lake,_Central_Park,_Manhattan,_New_York.jpg",
+          "author": "Christian David",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bow Bridge, Central Park, New York City, 20231004 1705 2131",
+          "url": "https://commons.wikimedia.org/wiki/File:Bow_Bridge,_Central_Park,_New_York_City,_20231004_1705_2131.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Hybrid - Early Victorian - New York, NY - Central Park (Bow Bridge) (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Hybrid_-_Early_Victorian_(Gothic_Revival,_Renaissance_Revival)_-_New_York,_NY_-_Central_Park_(Bow_Bridge)_(2).jpg",
+          "author": "Bmzuckerman",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "2024-11-19-Bow Bridge (Central Park)-0644",
+          "url": "https://commons.wikimedia.org/wiki/File:2024-11-19-Bow_Bridge_(Central_Park)-0644.jpg",
+          "author": "Superbass",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/nyc-bow-bridge.glb",
+      "source": "generators/nyc-bow-bridge.ts"
     }
   ],
   "landmarks": [
@@ -51216,6 +51271,21 @@
         "way/90687227"
       ],
       "wikidata": "Q7084751"
+    },
+    {
+      "id": "nyc-bow-bridge",
+      "name": "Bow Bridge",
+      "model": "nyc-bow-bridge",
+      "place": "new-york-area",
+      "lng": -73.971771,
+      "lat": 40.775759,
+      "bearing": 328.7,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q4950616",
+      "replaces": [
+        "way/580516390"
+      ]
     }
   ],
   "places": [
