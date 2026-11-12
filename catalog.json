@@ -34867,6 +34867,67 @@
       ],
       "file": "models/nyc-atlas.glb",
       "source": "generators/nyc-atlas.ts"
+    },
+    {
+      "id": "nyc-prometheus",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "fountain",
+        "statue",
+        "art-deco",
+        "rockefeller-center"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Prometheus (Manship) photographed in 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prometheus_(Manship)_photographed_in_2024.jpg",
+          "author": "Penguinpottery",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Prometheus at Rockefeller Center by David Shankbone.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prometheus_at_Rockefeller_Center_by_David_Shankbone.jpg",
+          "author": "David Shankbone",
+          "license": "Public domain"
+        },
+        {
+          "title": "Prometheus Rockefeller Center.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prometheus_Rockefeller_Center.jpg",
+          "author": "Uris",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rockefeller Center Lower Plaza New York City 2022.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rockefeller_Center_Lower_Plaza_New_York_City_2022.jpg",
+          "author": "Larry D. Moore",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Prometheus Rockefeller Center Plaza.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prometheus_Rockefeller_Center_Plaza.jpg",
+          "author": "foxbert",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/nyc-prometheus.glb",
+      "source": "generators/nyc-prometheus.ts"
     }
   ],
   "landmarks": [
@@ -51434,6 +51495,19 @@
       "minzoom": 16,
       "replaces": [],
       "wikidata": "Q2869431"
+    },
+    {
+      "id": "nyc-prometheus",
+      "name": "Prometheus",
+      "model": "nyc-prometheus",
+      "place": "new-york-area",
+      "lng": -73.978578,
+      "lat": 40.758705,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q17182277"
     }
   ],
   "places": [
