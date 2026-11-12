@@ -13,7 +13,7 @@
  *  1. A red-brick neo-Georgian block filling the whole block, built round a
  *     garden court that opens onto the street.            (vh1, aerial)
  *  2. The one-storey brick arcade closing the court on Washington Square
- *     South: nine round arches on a granite plinth, the middle one the gate,
+ *     South, a covered walk open through seven of its nine round arches on a granite plinth, the middle one the gate,
  *     the end ones blind with pale tablets.               (vh1, entrance)
  *  3. Light green copper hipped roofs over every range, a taller cross
  *     range at the back of the court, brick chimneys, and a flat-topped
@@ -60,7 +60,7 @@
  *  arches   "Vanderbilt arches NYU jeh.JPG", Jim.henderson, CC0.
  * All on Wikimedia Commons.
  */
-import { Part, type V3 } from './mesh'
+import { Part, type V3, cross, sub } from './mesh'
 import { PALETTE, finish } from './palette'
 import { Pen, strokes, type Pt } from './lettering'
 import { archShape, box, ccw, cornice, hipRoof, onWall, rectShape, save, type XY } from './atl-tech-tower'
@@ -73,19 +73,18 @@ const X = 29.4, Y = 31.4, CX = 11.6, CY0 = 5.7, CY1 = 26.9, AY = 30.3, NOTCH = 1
 // ── Massing ──
 const blocks: [number, number, number, number, number][] = [
   [-X, -NOTCH, -Y, Y, EAVE], [NOTCH, X, -Y, Y, EAVE], // wings
-  [-NOTCH, -CX, -Y, AY, EAVE], [CX, NOTCH, -Y, AY, EAVE], // the wings' set-back inner strips
+  [-NOTCH, -CX, -Y, CY1, EAVE], [CX, NOTCH, -Y, CY1, EAVE], // the wings' set-back inner strips
   [-CX, CX, -14, CY0, EAVE], // cross range at the back of the court
   [-CX, CX, -Y, -14, BACK], // low rear section
-  [-CX, CX, CY1, AY, ARCADE - 0.35], // arcade
 ]
 for (const [x0, x1, y0, y1, z] of blocks) {
   box(brick, x0, x1, y0, y1, 0, z, z === BACK ? trim : null, z === BACK ? 0.3 : 0)
-  // granite plinth (the arcade's is split at the gate, below)
-  if (y1 !== AY || x0 !== -CX) box(trim, x0 - 0.08, x1 + 0.08, y0 - 0.08, y1 + 0.08, 0, 0.9, null, 0)
+  box(trim, x0 - 0.08, x1 + 0.08, y0 - 0.08, y1 + 0.08, 0, 0.9, null, 0) // granite plinth
 }
-for (const s of [-1, 1]) box(trim, s > 0 ? 1.25 : -CX - 0.08, s > 0 ? CX + 0.08 : -1.25, CY1 - 0.08, AY + 0.08, 0, 0.9, null, 0)
+// The strips' upper storeys stand on the arcade's end bays.
+for (const s of [-1, 1]) box(brick, s < 0 ? -NOTCH : CX, s < 0 ? -CX : NOTCH, CY1, AY, ARCADE - 0.35, EAVE, null, 0)
 // Arcade coping and the course that carries it across the wings.
-box(trim, -CX - 0.1, CX + 0.1, CY1 - 0.15, AY + 0.15, ARCADE - 0.35, ARCADE + 0.05, trim, 0.08)
+box(trim, -NOTCH - 0.1, NOTCH + 0.1, CY1 - 0.15, AY + 0.15, ARCADE - 0.35, ARCADE + 0.05, trim, 0.08)
 for (const s of [-1, 1]) {
   const [a, b] = s < 0 ? [-X, -CX] : [CX, X]
   box(trim, a - 0.12, b + 0.12, -Y - 0.12, Y + 0.12, ARCADE - 0.35, ARCADE, trim, 0.05)
@@ -123,20 +122,50 @@ windows([-CX, -14], [CX, -14], ROWS.slice(3)) // cross range over the rear secti
 windows([-CX, -Y], [CX, -Y], [[2.0, 4.4], [6.0, 8.6]]) // rear section on West 3rd Street
 
 // ── The arcade: nine bays, the middle the gate, the ends blind ──
+// A covered walk: two arched brick walls (street and court) under a flat
+// ceiling, the seven middle arches open right through, the end bays solid.
 const BAYS = 9, PITCH = (2 * 15.7) / BAYS, AW = 2.5, SPRING = 3.3, TOP = SPRING + AW / 2
+const ZT = ARCADE - 0.35, WT = 0.55, E = 15.7 - PITCH // wall top, wall thickness, x of the solid end bays
 const front: [XY, XY] = [[15.7, AY], [-15.7, AY]] // s runs east to west
-const court: [XY, XY] = [[-CX, CY1], [CX, CY1]] // s runs west to east
-for (let j = 0; j < BAYS; j++) {
-  const s = (j + 0.5) * PITCH, x = 15.7 - s
-  if (j === 0 || j === BAYS - 1) {
-    onWall(trim, ...front, archShape(s, 1.1, 2.0, 3.2, 8)) // pale tablet in a blind bay
-    continue
+const bayX = (j: number) => 15.7 - (j + 0.5) * PITCH
+/** A quad wound to face `want`. */
+function face(p: Part, a: V3, b: V3, c: V3, d: V3, want: V3) {
+  const n = cross(sub(b, a), sub(c, a))
+  if (n[0] * want[0] + n[1] * want[1] + n[2] * want[2] >= 0) p.quad(a, b, c, d)
+  else p.quad(d, c, b, a)
+}
+for (const s of [-1, 1]) {
+  // the solid end bays
+  box(brick, s < 0 ? -NOTCH : E, s < 0 ? -E : NOTCH, CY1, AY, 0, ZT, null, 0)
+  box(trim, s < 0 ? -NOTCH : E, s < 0 ? -E : NOTCH, CY1 - 0.08, AY + 0.08, 0, 0.9, null, 0)
+}
+for (const [y0, y1] of [[AY - WT, AY], [CY1, CY1 + WT]]) {
+  const open = [1, 2, 3, 4, 5, 6, 7].map(bayX).sort((p, q) => p - q)
+  // piers, with their granite feet
+  const edges = [-E, ...open.flatMap((x) => [x - AW / 2, x + AW / 2]), E]
+  for (let k = 0; k < edges.length; k += 2) {
+    box(brick, edges[k], edges[k + 1], y0, y1, 0.9, ZT, null, 0)
+    box(trim, edges[k], edges[k + 1], y0 - 0.06, y1 + 0.06, 0, 0.9, trim, 0.03)
   }
-  const z0 = j === 4 ? 0 : 0.9
-  onWall(win, ...front, archShape(s, AW, z0, SPRING, 10))
-  onWall(win, ...court, archShape(x + CX, AW, z0, SPRING, 10))
+  for (const x of open) {
+    if (Math.abs(x) > 0.1) box(trim, x - AW / 2, x + AW / 2, y0 - 0.03, y1 + 0.03, 0, 0.9, trim, 0.03) // sill
+    // the spandrel over the arch and the arch's soffit
+    const n = 10, r = AW / 2
+    const P = (i: number): [number, number] => [x - r * Math.cos((i / n) * Math.PI), SPRING + r * Math.sin((i / n) * Math.PI)]
+    for (let i = 0; i < n; i++) {
+      const [xa, za] = P(i), [xb, zb] = P(i + 1)
+      face(brick, [xa, y1, za], [xb, y1, zb], [xb, y1, ZT], [xa, y1, ZT], [0, 1, 0])
+      face(brick, [xa, y0, za], [xb, y0, zb], [xb, y0, ZT], [xa, y0, ZT], [0, -1, 0])
+      face(brick, [xa, y0, za], [xb, y0, zb], [xb, y1, zb], [xa, y1, za], [x - (xa + xb) / 2, 0, SPRING - (za + zb) / 2])
+    }
+  }
+}
+box(trim, -E, E, CY1 + WT, AY - WT, ARCADE - 1.1, ZT, null, 0, true) // the walk's ceiling
+for (let j = 1; j < BAYS - 1; j++) {
+  const s = (j + 0.5) * PITCH
   onWall(trim, ...front, rectShape(s - 0.22, s + 0.22, TOP - 0.35, TOP + 0.3), 0.08) // keystone
 }
+for (const j of [0, BAYS - 1]) onWall(trim, ...front, archShape((j + 0.5) * PITCH, 1.1, 2.0, 3.2, 8)) // pale tablet in a blind bay
 // Stone imposts across every pier.
 for (let j = 0; j <= BAYS; j++) {
   const s = j * PITCH, p0 = Math.max(0, s - (PITCH - AW) / 2), p1 = Math.min(2 * 15.7, s + (PITCH - AW) / 2)
