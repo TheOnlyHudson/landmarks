@@ -34692,6 +34692,614 @@
       "source": "generators/sd-old-point-loma-lighthouse.ts"
     },
     {
+      "id": "nyc-bow-bridge",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "historic",
+        "cast-iron",
+        "footbridge",
+        "central-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Bow Bridge over the Lake, Central Park, Manhattan, New York",
+          "url": "https://commons.wikimedia.org/wiki/File:Bow_Bridge_over_the_Lake,_Central_Park,_Manhattan,_New_York.jpg",
+          "author": "Christian David",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bow Bridge, Central Park, New York City, 20231004 1705 2131",
+          "url": "https://commons.wikimedia.org/wiki/File:Bow_Bridge,_Central_Park,_New_York_City,_20231004_1705_2131.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Hybrid - Early Victorian - New York, NY - Central Park (Bow Bridge) (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Hybrid_-_Early_Victorian_(Gothic_Revival,_Renaissance_Revival)_-_New_York,_NY_-_Central_Park_(Bow_Bridge)_(2).jpg",
+          "author": "Bmzuckerman",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "2024-11-19-Bow Bridge (Central Park)-0644",
+          "url": "https://commons.wikimedia.org/wiki/File:2024-11-19-Bow_Bridge_(Central_Park)-0644.jpg",
+          "author": "Superbass",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/nyc-bow-bridge.glb",
+      "source": "generators/nyc-bow-bridge.ts"
+    },
+    {
+      "id": "nyc-bethesda-terrace",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "landscape",
+      "tags": [
+        "historic",
+        "terrace",
+        "staircase",
+        "arcade",
+        "central-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Bethesda Terrace and 432 Park Avenue from the Lake",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_and_432_Park_Avenue_from_the_Lake,_Central_Park,_Manhattan,_New_York.jpg",
+          "author": "Christian David",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bethesda Terrace and Fountain, Central Park, 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_and_Fountain,_Central_Park,_2025.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Bethesda Terrace from west",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_from_west_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "Public domain"
+        },
+        {
+          "title": "Bethesda Terrace in the time of pandemic",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_in_the_time_of_pandemic.jpg",
+          "author": "JJxFile",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bethesda Terrace Arcade, Central Park, New York City, 20231002 1841 1887",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_Arcade,_Central_Park,_New_York_City,_20231002_1841_1887.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Bethesda Terrace Central Park Manhattan NYC",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_Central_Park_Manhattan_NYC.jpg",
+          "author": "Daniel Dimitrov",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/nyc-bethesda-terrace.glb",
+      "source": "generators/nyc-bethesda-terrace.ts"
+    },
+    {
+      "id": "nyc-bethesda-terrace-mall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "landscape",
+      "tags": [
+        "historic",
+        "terrace",
+        "staircase",
+        "arcade",
+        "central-park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Bethesda Terrace and 432 Park Avenue from the Lake",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_and_432_Park_Avenue_from_the_Lake,_Central_Park,_Manhattan,_New_York.jpg",
+          "author": "Christian David",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bethesda Terrace and Fountain, Central Park, 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_and_Fountain,_Central_Park,_2025.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Bethesda Terrace from west",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_from_west_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "Public domain"
+        },
+        {
+          "title": "Bethesda Terrace in the time of pandemic",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_in_the_time_of_pandemic.jpg",
+          "author": "JJxFile",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bethesda Terrace Arcade, Central Park, New York City, 20231002 1841 1887",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_Arcade,_Central_Park,_New_York_City,_20231002_1841_1887.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Bethesda Terrace Central Park Manhattan NYC",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_Central_Park_Manhattan_NYC.jpg",
+          "author": "Daniel Dimitrov",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/nyc-bethesda-terrace-mall.glb",
+      "source": "generators/nyc-bethesda-terrace.ts"
+    },
+    {
+      "id": "nyc-atlas",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "statue",
+        "art-deco",
+        "rockefeller-center"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Atlas - Rockefeller Center (51394733772).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_-_Rockefeller_Center_(51394733772).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "NYC - Rockfeller Center - Atlas Statue.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:NYC_-_Rockfeller_Center_-_Atlas_Statue.JPG",
+          "author": "Jean-Christophe Benoist",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Over Atlas (39952692).jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:Over_Atlas_(39952692).jpeg",
+          "author": "Sam Mellors",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Rockerfeller Center - Looking Across Fifth Ave.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rockerfeller_Center_-_Looking_Across_Fifth_Ave.jpg",
+          "author": "Eric Kilby",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/nyc-atlas.glb",
+      "source": "generators/nyc-atlas.ts"
+    },
+    {
+      "id": "nyc-prometheus",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "fountain",
+        "statue",
+        "art-deco",
+        "rockefeller-center"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Prometheus (Manship) photographed in 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prometheus_(Manship)_photographed_in_2024.jpg",
+          "author": "Penguinpottery",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Prometheus at Rockefeller Center by David Shankbone.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prometheus_at_Rockefeller_Center_by_David_Shankbone.jpg",
+          "author": "David Shankbone",
+          "license": "Public domain"
+        },
+        {
+          "title": "Prometheus Rockefeller Center.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prometheus_Rockefeller_Center.jpg",
+          "author": "Uris",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rockefeller Center Lower Plaza New York City 2022.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rockefeller_Center_Lower_Plaza_New_York_City_2022.jpg",
+          "author": "Larry D. Moore",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Prometheus Rockefeller Center Plaza.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prometheus_Rockefeller_Center_Plaza.jpg",
+          "author": "foxbert",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/nyc-prometheus.glb",
+      "source": "generators/nyc-prometheus.ts"
+    },
+    {
+      "id": "nyc-the-sphere",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "memorial",
+        "world-trade-center",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Sphere, New York.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Sphere,_New_York.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Closer shot of The Sphere jeh.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Closer_shot_of_The_Sphere_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC0"
+        },
+        {
+          "title": "TheSphere-2017-11-09.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:TheSphere-2017-11-09.jpg",
+          "author": "MLOlschowy",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Sphere from North in Liberty Park unveiled jeh.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Sphere_from_North_in_Liberty_Park_unveiled_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/nyc-the-sphere.glb",
+      "source": "generators/nyc-the-sphere.ts"
+    },
+    {
+      "id": "nyc-revson-fountain",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "fountain",
+      "tags": [
+        "fountain",
+        "lincoln-center",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Lincoln Center grassy plaza 2021 (2) jeh.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Center_grassy_plaza_2021_(2)_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Fountain Lincoln Centre (6213944577).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fountain_Lincoln_Centre_(6213944577).jpg",
+          "author": "Tony Hisgett",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "LincolnCenter-2 (35750405034).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:LincolnCenter-2_(35750405034).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "150919 003 Lincoln Center - Revson Fountain, Koch Theater, Metropolitan Opera (21223352214).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:150919_003_Lincoln_Center_-_Revson_Fountain,_Koch_Theater,_Metropolitan_Opera_(21223352214).jpg",
+          "author": "cultivar413",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Lincoln Center fountain (15612711600).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lincoln_Center_fountain_(15612711600).jpg",
+          "author": "Peter Burka",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/nyc-revson-fountain.glb",
+      "source": "generators/nyc-revson-fountain.ts"
+    },
+    {
+      "id": "nyc-belvedere-castle",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "castle",
+        "folly",
+        "park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Belvedere Castle and Turtle Pond, Central Park",
+          "url": "https://commons.wikimedia.org/wiki/File:Belvedere_Castle_and_Turtle_Pond,_Central_Park,_Manhattan,_New_York.jpg",
+          "author": "Christian David",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Belvedere Castle, Central Park",
+          "url": "https://commons.wikimedia.org/wiki/File:Belvedere_Castle,_Central_Park.jpg",
+          "author": "Stig Nygaard",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Belvedere Castle in Summer",
+          "url": "https://commons.wikimedia.org/wiki/File:Belvedere_Castle_in_Summer.jpg",
+          "author": "Plantsmushrooms",
+          "license": "CC0"
+        },
+        {
+          "title": "Central Park Apr 2026 23",
+          "url": "https://commons.wikimedia.org/wiki/File:Central_Park_Apr_2026_23.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "wikidata": "Q816268",
+      "file": "models/nyc-belvedere-castle.glb",
+      "source": "generators/nyc-belvedere-castle.ts"
+    },
+    {
+      "id": "nyc-gapstow-bridge",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "historic",
+        "footbridge",
+        "stone-arch",
+        "park"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Gapstow Bridge",
+          "url": "https://commons.wikimedia.org/wiki/File:Gapstow_Bridge.jpg",
+          "author": "spurekar",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Sunlit Gapstow Bridge",
+          "url": "https://commons.wikimedia.org/wiki/File:Sunlit_Gapstow_Bridge.jpg",
+          "author": "Randusr836",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "wikidata": "Q5521797",
+      "file": "models/nyc-gapstow-bridge.glb",
+      "source": "generators/nyc-gapstow-bridge.ts"
+    },
+    {
+      "id": "nyc-alice-in-wonderland",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "statue",
+        "bronze",
+        "park",
+        "public-art"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Alice in Wonderland Central Park NYC",
+          "url": "https://commons.wikimedia.org/wiki/File:Alice_in_Wonderland_Central_Park_NYC.JPG",
+          "author": "Gzzz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Alice in Wonderland sculpture in Central Park",
+          "url": "https://commons.wikimedia.org/wiki/File:Alice_in_Wonderland_sculpture_in_Central_Park.jpg",
+          "author": "GreenReaper",
+          "license": "Public domain"
+        }
+      ],
+      "wikidata": "Q93316612",
+      "file": "models/nyc-alice-in-wonderland.glb",
+      "source": "generators/nyc-alice-in-wonderland.ts"
+    },
+    {
+      "id": "nyc-untermyer-fountain",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "fountain",
+      "tags": [
+        "sculpture",
+        "bronze",
+        "park",
+        "garden"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "github": "alexwohlbruck",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "model": "Claude Opus 5.5",
+          "role": "procedural modeling"
+        }
+      ],
+      "references": [
+        {
+          "title": "Untermyer Fountain 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Untermyer_Fountain_1.jpg",
+          "author": "Station1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Untermeyer fountain1-Walter Schott",
+          "url": "https://commons.wikimedia.org/wiki/File:Untermeyer_fountain1-Walter_Schott.jpg",
+          "author": "Ralph Hockens",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "wikidata": "Q17151590",
+      "file": "models/nyc-untermyer-fountain.glb",
+      "source": "generators/nyc-untermyer-fountain.ts"
+    },
+    {
       "id": "atx-texas-state-capitol",
       "file": "models/atx-texas-state-capitol.glb",
       "license": "CC0-1.0",
@@ -51245,6 +51853,157 @@
         "way/90687227"
       ],
       "wikidata": "Q7084751"
+    },
+    {
+      "id": "nyc-bow-bridge",
+      "name": "Bow Bridge",
+      "model": "nyc-bow-bridge",
+      "place": "new-york-area",
+      "lng": -73.971771,
+      "lat": 40.775759,
+      "bearing": 328.7,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q4950616",
+      "replaces": [
+        "way/580516390"
+      ]
+    },
+    {
+      "id": "nyc-bethesda-terrace",
+      "name": "Bethesda Terrace",
+      "model": "nyc-bethesda-terrace",
+      "place": "new-york-area",
+      "lng": -73.9710115,
+      "lat": 40.773866,
+      "bearing": 16.7,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q532029",
+      "replaces": []
+    },
+    {
+      "id": "nyc-bethesda-terrace-mall",
+      "name": "Bethesda Terrace (Mall level)",
+      "model": "nyc-bethesda-terrace-mall",
+      "place": "new-york-area",
+      "lng": -73.9710115,
+      "lat": 40.773866,
+      "bearing": 16.7,
+      "elevation": -5.4,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-atlas",
+      "name": "Atlas",
+      "model": "nyc-atlas",
+      "place": "new-york-area",
+      "lng": -73.977185,
+      "lat": 40.758938,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q2869431"
+    },
+    {
+      "id": "nyc-prometheus",
+      "name": "Prometheus",
+      "model": "nyc-prometheus",
+      "place": "new-york-area",
+      "lng": -73.978578,
+      "lat": 40.758705,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q17182277"
+    },
+    {
+      "id": "nyc-the-sphere",
+      "name": "The Sphere",
+      "model": "nyc-the-sphere",
+      "place": "new-york-area",
+      "lng": -74.013889,
+      "lat": 40.710497,
+      "bearing": 0,
+      "elevation": 7,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q2164298"
+    },
+    {
+      "id": "nyc-revson-fountain",
+      "name": "Revson Fountain",
+      "model": "nyc-revson-fountain",
+      "place": "new-york-area",
+      "lng": -73.9833951,
+      "lat": 40.7723103,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "nyc-belvedere-castle",
+      "name": "Belvedere Castle",
+      "model": "nyc-belvedere-castle",
+      "place": "new-york-area",
+      "lng": -73.9688862,
+      "lat": 40.7793258,
+      "bearing": 30,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q816268",
+      "replaces": [
+        "way/278363023",
+        "way/1317000456",
+        "way/1317000457",
+        "way/1317000458",
+        "way/1317000451"
+      ]
+    },
+    {
+      "id": "nyc-gapstow-bridge",
+      "name": "Gapstow Bridge",
+      "model": "nyc-gapstow-bridge",
+      "place": "new-york-area",
+      "lng": -73.9738311,
+      "lat": 40.7669276,
+      "bearing": 332.7,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q5521797",
+      "replaces": [
+        "way/546663191"
+      ]
+    },
+    {
+      "id": "nyc-alice-in-wonderland",
+      "name": "Alice in Wonderland",
+      "model": "nyc-alice-in-wonderland",
+      "place": "new-york-area",
+      "lng": -73.966534,
+      "lat": 40.775038,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q93316612",
+      "replaces": []
+    },
+    {
+      "id": "nyc-untermyer-fountain",
+      "name": "Untermyer Fountain",
+      "model": "nyc-untermyer-fountain",
+      "place": "new-york-area",
+      "lng": -73.95195,
+      "lat": 40.794264,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q17151590",
+      "replaces": []
     },
     {
       "id": "atx-texas-state-capitol",
