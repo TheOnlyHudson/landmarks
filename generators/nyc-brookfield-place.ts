@@ -190,42 +190,64 @@ for (const [c, r] of [[[-17.6, -166.1], 15.0], [[12.7, -102.0], 15.3]] as [XY, n
     const [v0, z0] = prof[i], [v1, z1] = prof[i + 1]
     glass.quad(P3(-HU, v0, z0), P3(-HU, v1, z1), P3(HU, v1, z1), P3(HU, v0, z0))
   }
-  for (const u of [-HU, HU]) for (let i = 1; i < prof.length - 1; i++) glass.tri(P3(u, 0, 0), P3(u, prof[i][0], prof[i][1]), P3(u, prof[i + 1][0], prof[i + 1][1]))
-  // frame: sills, the arched ribs at both ends and every 17 m, the ridge line
-  // A rib is a flat band just outside the skin and one just inside, each
-  // facing away from the glass.
+  for (const u of [-HU, HU]) for (let i = 0; i < prof.length - 1; i++) glass.tri(P3(u, 0, 0), P3(u, prof[i][0], prof[i][1]), P3(u, prof[i + 1][0], prof[i + 1][1]))
+  // The steel frame, drawn as solid white members about 0.5 m square (a
+  // little heavier than the real ones so the grid reads from the street):
+  // arched ribs every 11.3 m (budget: the file sits at the 250 KB cap), purlins along the vault at every other facet line,
+  // and mullions and a transom on both glazed ends.
   const out = (v: number, z: number): [number, number] => {
     if (z <= SPRING) return [Math.sign(v), 0]
     const k = Math.hypot(v, z - SPRING) || 1
     return [v / k, (z - SPRING) / k]
   }
-  const rib = (u: number, w: number) => {
+  /** A quad wound to face `want`. */
+  const faced = (q: V3[], want: V3) => {
+    const nrm = cross(sub(q[1], q[0]), sub(q[2], q[0]))
+    if (nrm[0] * want[0] + nrm[1] * want[1] + nrm[2] * want[2] >= 0) trim.quad(q[0], q[1], q[2], q[3])
+    else trim.quad(q[3], q[2], q[1], q[0])
+  }
+  const DO = 0.45, DI = -0.1, W = 0.25 // outer face, inner edge (just inside the skin), half-width
+  const off = (u: number, v: number, z: number, d: number) => { const [a, bz] = out(v, z); return P3(u, v + a * d, z + bz * d) }
+  const dir = (u: number, v: number, z: number) => sub(P3(u, v, z), P3(0, 0, 0))
+  // arched ribs: outer face and both sides
+  for (let k = 0; k <= 6; k++) {
+    const u = -HU + (k * 2 * HU) / 6
     for (let i = 0; i < prof.length - 1; i++) {
-      const [v0, z0] = prof[i], [v1, z1] = prof[i + 1]
-      for (const d of [0.15, -0.15]) {
-        const [a0, b0] = out(v0, z0), [a1, b1] = out(v1, z1)
-        const q: V3[] = [P3(u - w, v0 + a0 * d, z0 + b0 * d), P3(u + w, v0 + a0 * d, z0 + b0 * d), P3(u + w, v1 + a1 * d, z1 + b1 * d), P3(u - w, v1 + a1 * d, z1 + b1 * d)]
-        const [am, bm] = out((v0 + v1) / 2, (z0 + z1) / 2), want = sub(P3(0, am * Math.sign(d), bm * Math.sign(d)), P3(0, 0, 0))
-        const nrm = cross(sub(q[1], q[0]), sub(q[2], q[0]))
-        if (nrm[0] * want[0] + nrm[1] * want[1] + nrm[2] * want[2] >= 0) trim.quad(q[0], q[1], q[2], q[3])
-        else trim.quad(q[3], q[2], q[1], q[0])
-      }
+      const [v0, z0] = prof[i], [v1, z1] = prof[i + 1], [am, bm] = out((v0 + v1) / 2, (z0 + z1) / 2)
+      // the outer face smooth-shaded along the arc, so segments share corners
+      const n0 = dir(0, ...out(v0, z0)), n1 = dir(0, ...out(v1, z1))
+      const q = [off(u - W, v0, z0, DO), off(u + W, v0, z0, DO), off(u + W, v1, z1, DO), off(u - W, v1, z1, DO)]
+      trim.tri(q[0], q[1], q[2], undefined, undefined, undefined, [n0, n0, n1])
+      trim.tri(q[0], q[2], q[3], undefined, undefined, undefined, [n0, n1, n1])
+      void am; void bm; void DI
+      for (const s of [-1, 1]) faced([off(u + s * W, v0, z0, DI), off(u + s * W, v1, z1, DI), off(u + s * W, v1, z1, DO), off(u + s * W, v0, z0, DO)], dir(s, 0, 0))
     }
   }
-  for (const u of [-HU, -17, 0, 17, HU]) rib(u, 0.3)
+  // purlins along the vault at every other facet line (outer face only)
+  for (let i = 1; i < prof.length - 1; i += 2) {
+    const [v, z] = prof[i], [a, bz] = out(v, z), t: [number, number] = [-bz, a] // along the arc
+    const at = (u: number, e: number, d: number) => P3(u, v + a * d + t[0] * e, z + bz * d + t[1] * e)
+    faced([at(-HU, -W, DO), at(HU, -W, DO), at(HU, W, DO), at(-HU, W, DO)], dir(0, a, bz))
+  }
+  // the glazed ends: mullions and a transom at the springing
+  const heightAt = (v: number) => SPRING + Math.sqrt(Math.max(0, HV * HV - v * v))
+  for (const u of [-HU, HU]) {
+    const o = Math.sign(u) * (W + 0.05)
+    for (const v of [-15.7, -7.8, 0, 7.8, 15.7]) {
+      const r = [[u + o - W, v - W], [u + o + W, v - W], [u + o + W, v + W], [u + o - W, v + W]].map(([a, bb]) => { const p = P3(a, bb, 0); return [p[0], p[1]] as XY })
+      prism(trim, ccw(r), 0, heightAt(v + Math.sign(v) * W) - 0.2, null, 0)
+    }
+    const tr = [[u + o - W, -HV], [u + o + W, -HV], [u + o + W, HV], [u + o - W, HV]].map(([a, bb]) => { const p = P3(a, bb, 0); return [p[0], p[1]] as XY })
+    prism(trim, ccw(tr), SPRING - 0.3, SPRING + 0.3, trim, 0, true)
+  }
   for (const v of [-HV, HV]) prism(trim, [[-HU, v - 0.4], [HU, v - 0.4], [HU, v + 0.4], [-HU, v + 0.4]].map(([u, vv]) => { const p = P3(u, vv, 0); return [p[0], p[1]] as XY }), 0, 1.2, trim, 0.1)
-  // inside: two rows of palms and the east stair
-  for (const v of [-9, 9]) for (let k = 0; k < 6; k++) {
-    const u = -25 + k * 9
+  // inside: two rows of palms (thinned, and the east stair dropped: the darker glass hides most of them)
+  for (const v of [-9, 9]) for (let k = 0; k < 3; k++) {
+    const u = -22 + k * 18
     const t = [[u - 0.3, v - 0.3], [u + 0.3, v - 0.3], [u + 0.3, v + 0.3], [u - 0.3, v + 0.3]].map(([a, bb]) => { const p = P3(a, bb, 0); return [p[0], p[1]] as XY })
     wall(trim, t, 0, 11)
-    const crown = [P3(u - 2.4, v, 11), P3(u, v - 2.4, 11), P3(u + 2.4, v, 11), P3(u, v + 2.4, 11)], apex = P3(u, v, 13), foot = P3(u, v, 10)
-    for (let i = 0; i < 4; i++) { copper.tri(crown[i], crown[(i + 1) % 4], apex); copper.tri(crown[(i + 1) % 4], crown[i], foot) }
-  }
-  for (let s = 0; s < 4; s++) {
-    const u0 = HU - 12 + s * 2.5
-    const r = [[u0, -9], [HU - 1, -9], [HU - 1, 9], [u0, 9]].map(([a, bb]) => { const p = P3(a, bb, 0); return [p[0], p[1]] as XY })
-    prism(trim, ccw(r), 0, 1 + s * 1.2, trim, 0)
+    const crown = [P3(u - 2.4, v, 11), P3(u, v - 2.4, 11), P3(u + 2.4, v, 11), P3(u, v + 2.4, 11)], apex = P3(u, v, 13)
+    for (let i = 0; i < 4; i++) copper.tri(crown[i], crown[(i + 1) % 4], apex)
   }
 }
 
@@ -235,7 +257,7 @@ await save('nyc-brookfield-place', 'Brookfield Place', [
   { part: granite, material: finish('bp-granite', 0xdcc2a2) },
   { part: win, material: PALETTE.window },
   { part: copper, material: { ...PALETTE.copper, floodlight: (p, n) => (p[2] > 130 && n[2] < 0.9 ? 0.6 : 0) } },
-  { part: glass, material: { name: 'glass', color: 0x7fc4de, roughness: 0.24, opacity: 0.3, doubleSided: true } },
+  { part: glass, material: { name: 'glass', color: 0x3f6f8c, roughness: 0.24, opacity: 0.62, doubleSided: true } },
   { part: trim, material: PALETTE.trim },
   { part: roof, material: PALETTE.roof },
 ], { height: 225.4, anchor: [40.7126, -74.0153], bearing: 0 }, 6500)
