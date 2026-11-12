@@ -33,8 +33,11 @@
  * 3 degrees of dihedral; engines at 6.6 and 12.8 m out; tailplane 13 m
  * across; fins 3.4 m in chord and 4.2 m tall, centred 15.6 m aft.
  * Left out: the "TRANS WORLD AIR LINES" and "TWA" titles (1.5 m letters on
- * a 35 m aircraft are a few pixels at 200 px), the cabin windows, the
- * flag, the boarding stairs and the ground equipment.
+ * a 35 m aircraft are a few pixels at 200 px), the flag, the boarding
+ * stairs and the ground equipment. The cabin windows are a row of slate
+ * panels just above the cheatline, slightly oversized so they read, and
+ * the cockpit has a windscreen band; window count and pitch are estimated
+ * from jagc and cfwd.
  *
  * Photos (evidence, Wikimedia Commons):
  *  jagc  "Constellation Starliner Airplane at TWA Hotel JFK Airport, New York
@@ -46,7 +49,7 @@
  *        Jim.henderson, CC BY-SA 4.0 — the fuselage and cheatline close up.
  */
 import { Part, type V3 } from './mesh'
-import { finish } from './palette'
+import { PALETTE, finish } from './palette'
 import { save } from './atl-flatiron-building'
 
 const white = new Part(), metal = new Part(), red = new Part(), dark = new Part()
@@ -151,9 +154,56 @@ for (const x of [-6.6, 6.6]) {
 block(metal, -0.12, 0.12, 12.85, 13.15, 0.4, 1.9)
 for (const dx of [-0.25, 0.25]) block(dark, dx - 0.15, dx + 0.15, 12.6, 13.4, 0, 0.8)
 
+// ── Windows: the cabin row just above the cheatline, and the cockpit ──
+// Flat slate panels on the fuselage facets, 3 cm proud of the skin. The
+// real cabin windows are about 0.4 m round at roughly 1 m pitch; these are
+// a little larger (0.55 × 0.42 m) so the row reads as a dotted line at
+// 200 px. They glow at night, as the lounge does.
+const win = new Part()
+const zcAt = (y: number) => {
+  for (let k = 0; k < ST.length - 1; k++) if (y <= ST[k][0] && y >= ST[k + 1][0]) {
+    const f = (ST[k][0] - y) / (ST[k][0] - ST[k + 1][0])
+    return ST[k][2] + (ST[k + 1][2] - ST[k][2]) * f
+  }
+  return ST[0][2]
+}
+/** A point on the facet between rings k and k+1 and angles a0..a1: s along the rings, t round. */
+const onFacet = (k: number, a0: number, a1: number, s: number, t: number, mirror: boolean): V3 => {
+  const lerp3 = (p: V3, q: V3, f: number): V3 => [p[0] + (q[0] - p[0]) * f, p[1] + (q[1] - p[1]) * f, p[2] + (q[2] - p[2]) * f]
+  const p = lerp3(lerp3(ringPt(ST[k], a0), ringPt(ST[k + 1], a0), s), lerp3(ringPt(ST[k], a1), ringPt(ST[k + 1], a1), s), t)
+  const zc = zcAt(p[1]), r = Math.hypot(p[0], p[2] - zc) || 1
+  const q: V3 = [p[0] + (0.03 * p[0]) / r, p[1], p[2] + (0.03 * (p[2] - zc)) / r]
+  return mirror ? [-q[0], q[1], q[2]] : q
+}
+/** A window panel wound to face away from the fuselage axis. */
+const pane = (q: V3[]) => {
+  const c = q.reduce((m, v) => [m[0] + v[0] / 4, m[1] + v[1] / 4, m[2] + v[2] / 4] as V3, [0, 0, 0] as V3)
+  const out: V3 = [c[0], 0, c[2] - zcAt(c[1])]
+  const e1: V3 = [q[1][0] - q[0][0], q[1][1] - q[0][1], q[1][2] - q[0][2]], e2: V3 = [q[2][0] - q[0][0], q[2][1] - q[0][1], q[2][2] - q[0][2]]
+  const n: V3 = [e1[1] * e2[2] - e1[2] * e2[1], e1[2] * e2[0] - e1[0] * e2[2], e1[0] * e2[1] - e1[1] * e2[0]]
+  if (n[0] * out[0] + n[1] * out[1] + n[2] * out[2] >= 0) win.quad(q[0], q[1], q[2], q[3])
+  else win.quad(q[3], q[2], q[1], q[0])
+}
+const ringOf = (y: number) => ST.findIndex((r, k) => k < ST.length - 1 && y <= r[0] && y >= ST[k + 1][0])
+// Cabin: the band from 4 to 25 degrees, windows in its lower part (about 6–13 degrees).
+for (let y = 11.2; y > -8.6; y -= 1.05) {
+  // A window that straddles a ring is split there, one piece on each facet.
+  const k0 = ringOf(y), k1 = ringOf(y - 0.55)
+  const pieces: [number, number][] = k0 === k1 ? [[y, y - 0.55]] : [[y, ST[k1][0]], [ST[k1][0], y - 0.55]]
+  for (const [y0, y1] of pieces) {
+    const k = ringOf((y0 + y1) / 2), L = ST[k][0] - ST[k + 1][0], s0 = (ST[k][0] - y0) / L, s1 = (ST[k][0] - y1) / L
+    for (const m of [false, true]) pane([onFacet(k, 4, 25, s0, 0.1, m), onFacet(k, 4, 25, s1, 0.1, m), onFacet(k, 4, 25, s1, 0.42, m), onFacet(k, 4, 25, s0, 0.42, m)])
+  }
+}
+// Cockpit: the windscreen across the top front, side windows either side.
+for (const [a0, a1, t0, t1] of [[55, 90, 0.08, 1], [90, 125, 0, 0.92], [25, 55, 0.45, 0.95], [125, 155, 0.05, 0.55]] as const) {
+  pane([onFacet(2, a0, a1, 0.25, t0, false), onFacet(2, a0, a1, 0.25, t1, false), onFacet(2, a0, a1, 0.75, t1, false), onFacet(2, a0, a1, 0.75, t0, false)])
+}
+
 await save('nyc-twa-hotel-connie', 'Connie (TWA Hotel)', [
   { part: white, material: finish('connie-white', 0xf1f0ec) },
   { part: metal, material: finish('connie-aluminium', 0xbfc4c8) },
   { part: red, material: finish('connie-red', 0xc4382f) },
   { part: dark, material: finish('connie-black', 0x4a4f57) },
+  { part: win, material: PALETTE.window },
 ], { height: 7.09, anchor: [40.6456295, -73.7771134], bearing: -3.5 })
