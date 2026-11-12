@@ -35298,6 +35298,36 @@
       "wikidata": "Q17151590",
       "file": "models/nyc-untermyer-fountain.glb",
       "source": "generators/nyc-untermyer-fountain.ts"
+    },
+    {
+      "id": "nyc-columbia-low-library",
+      "file": "models/nyc-columbia-low-library.glb",
+      "license": "CC0-1.0",
+      "author": "Colin",
+      "source": "generators/nyc-columbia-low-library.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "university",
+        "library",
+        "dome",
+        "beaux-arts"
+      ],
+      "reviewStatus": "unreviewed"
     }
   ],
   "landmarks": [
@@ -51975,6 +52005,24 @@
       "minzoom": 16,
       "wikidata": "Q17151590",
       "replaces": []
+    },
+    {
+      "id": "nyc-columbia-low-library",
+      "name": "Low Memorial Library (Columbia University)",
+      "model": "nyc-columbia-low-library",
+      "lng": -73.9618351,
+      "lat": 40.8082225,
+      "bearing": 29.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q6692918",
+      "replaces": [
+        "way/274995757",
+        "way/901695414",
+        "way/901695415",
+        "way/901695416"
+      ],
+      "place": "new-york-area"
     }
   ],
   "places": [
