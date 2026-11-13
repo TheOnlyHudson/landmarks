@@ -35527,6 +35527,63 @@
         "neo-georgian"
       ],
       "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "nyc-twa-hotel",
+      "file": "models/nyc-twa-hotel.glb",
+      "license": "CC0-1.0",
+      "author": "Colin",
+      "source": "generators/nyc-twa-hotel.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "hotel",
+        "airport"
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "nyc-twa-hotel-connie",
+      "file": "models/nyc-twa-hotel-connie.glb",
+      "license": "CC0-1.0",
+      "author": "Colin",
+      "source": "generators/nyc-twa-hotel-connie.ts",
+      "type": "other",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "aircraft",
+        "airport",
+        "bar"
+      ],
+      "reviewStatus": "unreviewed"
     }
   ],
   "landmarks": [
@@ -52387,6 +52444,34 @@
       "replaces": [
         "relation/3343762"
       ],
+      "place": "new-york-area"
+    },
+    {
+      "id": "nyc-twa-hotel",
+      "name": "TWA Hotel",
+      "model": "nyc-twa-hotel",
+      "lng": -73.7776173,
+      "lat": 40.6457858,
+      "bearing": -3.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q47321188",
+      "replaces": [
+        "way/736809349",
+        "way/736827874"
+      ],
+      "place": "new-york-area"
+    },
+    {
+      "id": "nyc-twa-hotel-connie",
+      "name": "Connie (TWA Hotel)",
+      "model": "nyc-twa-hotel-connie",
+      "lng": -73.7771134,
+      "lat": 40.6456295,
+      "bearing": -3.5,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [],
       "place": "new-york-area"
     }
   ],
