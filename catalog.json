@@ -25414,6 +25414,99 @@
       ]
     },
     {
+      "id": "london-the-shard",
+      "file": "models/london-the-shard.glb",
+      "source": "generators/london-the-shard.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "supertall",
+        "glass",
+        "observation-deck",
+        "renzo-piano"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Shard from the Sky Garden 2015",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Shard_from_the_Sky_Garden_2015.jpg",
+          "author": "Colin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Shard London June 2016",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Shard_London_June_2016.jpg",
+          "author": "King of Hearts",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Shard from Southwark Bridge, 2017-05-27",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Shard_from_Southwark_Bridge,_2017-05-27.jpg",
+          "author": "Lewis Hulbert",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ayuntamiento y Shard, Londres, Inglaterra, 2014-08-11, DD 076",
+          "url": "https://commons.wikimedia.org/wiki/File:Ayuntamiento_y_Shard,_Londres,_Inglaterra,_2014-08-11,_DD_076.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Shard from Leathermarket Gardens",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Shard_from_Leathermarket_Gardens.jpg",
+          "author": "Ethan Doyle White",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Shard From Borough High Street",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Shard_From_Borough_High_Street.jpg",
+          "author": "Numinosity by Gary J Wood",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Shard from St Thomas Street (geograph 3341046)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Shard_from_St_Thomas_Street_-_geograph.org.uk_-_3341046.jpg",
+          "author": "Rob Farrow",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "View of the Shard from St. Thomas Street (geograph 6034886)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_Shard_from_St._Thomas_Street_-_geograph.org.uk_-_6034886.jpg",
+          "author": "Robert Lamb",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Looking up at The View From The Shard, Level 72",
+          "url": "https://commons.wikimedia.org/wiki/File:Looking_up_at_The_View_From_The_Shard,_Level_72.jpg",
+          "author": "Colin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Shard Spire",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Shard_Spire.jpg",
+          "author": "Donnchadh H",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
       "id": "london-trellick-tower",
       "file": "models/london-trellick-tower.glb",
       "source": "generators/london-trellick-tower.ts",
@@ -54716,6 +54809,33 @@
         "way/5986754",
         "way/432777467",
         "way/432777466"
+      ]
+    },
+    {
+      "id": "london-the-shard",
+      "name": "The Shard",
+      "model": "london-the-shard",
+      "place": "london",
+      "lng": -0.086438,
+      "lat": 51.504408,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q18536",
+      "replaces": [
+        "way/31110737",
+        "way/226737912",
+        "way/666126950",
+        "way/665171689",
+        "way/665171690",
+        "way/666124825",
+        "way/666124826",
+        "way/666124827",
+        "way/666124828",
+        "way/666124829",
+        "way/666124830",
+        "way/666124831",
+        "way/666124832"
       ]
     },
     {
