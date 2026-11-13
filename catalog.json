@@ -17538,6 +17538,76 @@
       "source": "generators/istanbul-blue-mosque.ts"
     },
     {
+      "id": "istanbul-bulgarian-church",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "cast-iron",
+        "neo-gothic",
+        "orthodox",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "St. Stephen Church in Istanbul from the upstream side of the Golden Horn",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Stephen_Church_in_Istanbul_from_the_upstream_side_of_the_Golden_Horn.jpg",
+          "author": "Michael Kam Barngrover",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Stephen Church in Istanbul near the entrance",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Stephen_Church_in_Istanbul_near_the_entrance.jpg",
+          "author": "Michael Kam Barngrover",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sveti Stefan Kilisesi",
+          "url": "https://commons.wikimedia.org/wiki/File:Sveti_Stefan_Kilisesi.jpg",
+          "author": "Sadrettin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sveti Stefan Kilisesi 2022",
+          "url": "https://commons.wikimedia.org/wiki/File:Sveti_Stefan_Kilisesi_2022.jpg",
+          "author": "Afurkanakin",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "DEMİR KİLİSE (Sveti Stefan Kilisesi)",
+          "url": "https://commons.wikimedia.org/wiki/File:DEM%C4%B0R_K%C4%B0L%C4%B0SE_(Sveti_Stefan_Kilisesi).jpg",
+          "author": "ERHAN ALICI",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The Bulgarian St Stephen Church was made of cast iron in Istanbul - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Bulgarian_St_Stephen_Church_was_made_of_cast_iron_in_Istanbul_-_panoramio.jpg",
+          "author": "Laima Gūtmane",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/istanbul-bulgarian-church.glb",
+      "source": "generators/istanbul-bulgarian-church.ts"
+    },
+    {
       "id": "istanbul-galata-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46018,6 +46088,21 @@
         "way/476162242",
         "way/476162243",
         "way/548576899"
+      ]
+    },
+    {
+      "id": "istanbul-bulgarian-church",
+      "name": "Bulgarian St. Stephen Church",
+      "model": "istanbul-bulgarian-church",
+      "place": "istanbul",
+      "lng": 28.949695,
+      "lat": 41.031784,
+      "bearing": 47.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2094950",
+      "replaces": [
+        "way/175519383"
       ]
     },
     {
