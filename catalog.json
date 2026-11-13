@@ -7375,6 +7375,67 @@
       "source": "generators/barcelona-palau-musica.ts"
     },
     {
+      "id": "barcelona-palau-sant-jordi",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "modern",
+        "olympic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Palau Sant Jordi Barcelona 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_Sant_Jordi_Barcelona_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Palau Sant Jordi des de l'estadi - P1250756.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_Sant_Jordi_des_de_l%27estadi_-_P1250756.jpg",
+          "author": "pere prlpz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palau Sant Jordi 2013.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_Sant_Jordi_2013.JPG",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Barcelona - Montjuïc - Anella Olímpica - 1992 Summer Olympics site - View SSW on Palau Sant Jordi 1990 by Arata Isozaki.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Anella_Ol%C3%ADmpica_-_1992_Summer_Olympics_site_-_View_SSW_on_Palau_Sant_Jordi_1990_by_Arata_Isozaki.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palau Sant Jordi vist des del mirador de migdia",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_Sant_Jordi_vist_des_del_mirador_de_migdia.JPG",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/barcelona-palau-sant-jordi.glb",
+      "source": "generators/barcelona-palau-sant-jordi.ts"
+    },
+    {
       "id": "barcelona-peix-d-or",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -44208,6 +44269,23 @@
         "way/951336755"
       ],
       "wikidata": "Q327940"
+    },
+    {
+      "id": "barcelona-palau-sant-jordi",
+      "name": "Palau Sant Jordi",
+      "model": "barcelona-palau-sant-jordi",
+      "place": "barcelona",
+      "lng": 2.152562,
+      "lat": 41.363225,
+      "bearing": 2,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/35793637",
+        "way/146825150",
+        "way/146825159"
+      ],
+      "wikidata": "Q630630"
     },
     {
       "id": "barcelona-peix-d-or",
