@@ -18098,6 +18098,75 @@
       "source": "generators/istanbul-fatih-mosque.ts"
     },
     {
+      "id": "istanbul-fsm-bridge",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "suspension-bridge",
+        "bridge"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The 1988 Second Bosphorus Bridge between Rumelihisarı and Kavacık: two white portal towers on the hillsides with a deep top beam and a lower beam, the main cables and back stays to their anchorages, and the aerodynamic box deck; vertical suspenders in the detail model, cable lights at night.",
+      "references": [
+        {
+          "title": "Fatih Sultan Mehmet Bridge in 2026 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Sultan_Mehmet_Bridge_in_2026_02.jpg",
+          "author": "Joseolgon",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Fatih Sultan Mehmet Bridge in 2026 09.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Sultan_Mehmet_Bridge_in_2026_09.jpg",
+          "author": "Joseolgon",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Fatih Sultan Mehmet Bridge in 2026 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Sultan_Mehmet_Bridge_in_2026_01.jpg",
+          "author": "Joseolgon",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Fatih Sultan Mehmet Bridge in 2026 06.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Sultan_Mehmet_Bridge_in_2026_06.jpg",
+          "author": "Joseolgon",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Fatih Sultan Mehmet Bridge from Otagtepe.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Sultan_Mehmet_Bridge_from_Otagtepe.jpg",
+          "author": "Ibrahimferhadli",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Fatih Sultan Mehmet Bridge Night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Sultan_Mehmet_Bridge_Night.jpg",
+          "author": "Karaahmet",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "detail": "models/istanbul-fsm-bridge.detail.glb",
+      "detailZoom": 16,
+      "file": "models/istanbul-fsm-bridge.glb",
+      "source": "generators/istanbul-fsm-bridge.ts"
+    },
+    {
       "id": "istanbul-galata-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47188,6 +47257,28 @@
         "relation/1661399",
         "relation/4277472",
         "relation/4277469"
+      ]
+    },
+    {
+      "id": "istanbul-fsm-bridge",
+      "name": "Fatih Sultan Mehmet Bridge",
+      "model": "istanbul-fsm-bridge",
+      "place": "istanbul",
+      "lng": 29.0614008,
+      "lat": 41.0912996,
+      "bearing": 86.5,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q369967",
+      "replaces": [
+        "way/403376607",
+        "way/403376602",
+        "way/403376605",
+        "way/403376606",
+        "way/403379442",
+        "way/403379443",
+        "way/403379444",
+        "way/403379446"
       ]
     },
     {
