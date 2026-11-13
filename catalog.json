@@ -21072,6 +21072,60 @@
       "source": "generators/mexico-city-munal.ts"
     },
     {
+      "id": "mexico-city-museo-jumex",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "DJI 0040-HDR cropped",
+          "url": "https://commons.wikimedia.org/wiki/File:DJI_0040-HDR_cropped.jpg",
+          "author": "Fundación Jumex",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista del Museo Jumex desde el Museo Soumaya",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_del_Museo_Jumex_desde_el_Museo_Soumaya.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Jumex exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Jumex_exterior.png",
+          "author": "Fundación Jumex",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista del museo Jumex",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_del_museo_Jumex.jpg",
+          "author": "OliAzor",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/mexico-city-museo-jumex.glb",
+      "source": "generators/mexico-city-museo-jumex.ts"
+    },
+    {
       "id": "mexico-city-ninos-heroes",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -48840,6 +48894,21 @@
         "relation/14592229"
       ],
       "wikidata": "Q1138147"
+    },
+    {
+      "id": "mexico-city-museo-jumex",
+      "name": "Museo Jumex",
+      "model": "mexico-city-museo-jumex",
+      "place": "mexico-city",
+      "lng": -99.2035926,
+      "lat": 19.4404617,
+      "bearing": 346.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/885052520"
+      ],
+      "wikidata": "Q5142722"
     },
     {
       "id": "mexico-city-ninos-heroes",
