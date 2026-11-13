@@ -151,7 +151,12 @@ function build() {
   for (const side of [1, -1]) {
     for (let k = 0; k < 12; k++) {
       const y = -40 + k * 9.1
-      const foot: V3 = [side * 9.0, y, 0]
+      // The raked tubes start 0.5 m up on a footing block, so their slanted
+      // ends don't dip below the ground plane.
+      const foot: V3 = [side * 9.0, y, 0.5]
+      const pad = rect(side * 9.0 - 0.7, y - 0.7, side * 9.0 + 0.7, y + 0.7)
+      walls(steel, pad, 0, 0.6)
+      cap(steel, pad, 0.6)
       for (const dy of [-3.6, 3.6]) tube(steel, foot, [side * 11.2, y + dy, S(y + dy) + 0.4], 0.9, 6, true)
     }
   }

@@ -123,7 +123,10 @@ function build() {
     gable(a, b, hw, TE, 33.0)
     pointedOn(stone, a, b, hw, 2.2, 9.0, 21.0, 0.04)
     pointedOn(win, a, b, hw, 1.85, 9.4, 21.0, 0.08)
-    for (const d of [-hw + 0.4, hw - 0.4]) bbox(brick, stone, ...(k === 'W' ? [TX0 - 1.2, TY0 + hw + d - 0.5, TX0, TY0 + hw + d + 0.5] as const : [TX1, TY0 + hw + d - 0.5, TX1 + 1.2, TY0 + hw + d + 0.5] as const), 0, TE - 3, 0.5)
+    for (const d of [-hw + 0.4, hw - 0.4]) {
+      const [x0, x1] = k === 'W' ? [TX0 - 1.2, TX0] : [TX1, TX1 + 1.2]
+      bbox(brick, stone, x0, TY0 + hw + d - 0.5, x1, TY0 + hw + d + 0.5, 0, TE - 3, 0.5)
+    }
   }
   // Clerestory and aisle windows on both sides.
   const NS = sidesOf(rect(NX0, NY0, NX1, FY - 1.3)), AS = sidesOf(rect(AX0, AY0, AX1, FY - 1.3))

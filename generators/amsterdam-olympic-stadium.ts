@@ -217,10 +217,10 @@ function build() {
     const H = 36, dx = C[0] - mx, dy = C[1] - my, l = Math.hypot(dx, dy), ux = -dy / l, uy = dx / l
     const at = (s: number, z: number): V3 => [mx + ux * s, my + uy * s, z]
     const w = (z: number) => 1.9 - 0.6 * (z / H)
-    for (const sg of [-1, 1]) tube(stone, at(sg * w(0), 0), at(sg * w(H), H), 0.4, 4)
+    for (const sg of [-1, 1]) tube(stone, at(sg * w(0.12), 0.12), at(sg * w(H), H), 0.4, 4) // starts 0.12 m up so the raked end stays above y = 0
     for (let z = 0; z < H - 1; z += 6) {
-      tube(stone, at(-w(z), z), at(w(z + 6), z + 6), 0.22, 4)
-      tube(stone, at(w(z), z), at(-w(z + 6), z + 6), 0.22, 4)
+      tube(stone, at(-w(z), Math.max(z, 0.15)), at(w(z + 6), z + 6), 0.22, 4)
+      tube(stone, at(w(z), Math.max(z, 0.15)), at(-w(z + 6), z + 6), 0.22, 4)
     }
     // The head: two posts, a semicircular top, lamp rows between.
     const hw = 2.6, z0 = H, zs = H + 7.5
