@@ -18117,6 +18117,70 @@
       "source": "generators/istanbul-suleymaniye.ts"
     },
     {
+      "id": "istanbul-topkapi-imperial-gate",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "historic",
+        "gate",
+        "ottoman",
+        "palace",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The 1478 outer gate of Topkapı Palace: a flat-topped brick wall-block with a dentilled cornice, the tall white marble portal with its deep pointed recess, gilt calligraphy and the round-arched passage through, and a niche frame each side.",
+      "references": [
+        {
+          "title": "Imperial Gate (Topkapı Palace).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Imperial_Gate_(Topkapı_Palace).jpg",
+          "author": "Yair Haklai",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Imperial Gate - Topkapı Palace, Cankurtaran, Fatih, İstanbul, Turkey - October 10, 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Imperial_Gate_-_Topkapı_Palace,_Cankurtaran,_Fatih,_İstanbul,_Turkey_-_October_10,_2025.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Topkapı Imperial Gate outer side 2006 01 0922.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Topkapı_Imperial_Gate_outer_side_2006_01_0922.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Topkapı Imperial Gate First Courtyard side 2018 06 6314.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Topkapı_Imperial_Gate_First_Courtyard_side_2018_06_6314.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "The Imperial Gate, Bâb-ı Hümâyûn, Topkapi Palace, Istanbul, Turkey. Shooting from the inner (first) courtyard.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Imperial_Gate,_Bâb-ı_Hümâyûn,_Topkapi_Palace,_Istanbul,_Turkey._Shooting_from_the_inner_(first)_courtyard.jpg",
+          "author": "Osama Shukir Muhammed Amin",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/istanbul-topkapi-imperial-gate.glb",
+      "source": "generators/istanbul-topkapi-imperial-gate.ts"
+    },
+    {
       "id": "istanbul-walled-obelisk",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45745,6 +45809,21 @@
         "way/642004949",
         "way/642004950",
         "way/642004951"
+      ]
+    },
+    {
+      "id": "istanbul-topkapi-imperial-gate",
+      "name": "Imperial Gate (Bâb-ı Hümâyûn)",
+      "model": "istanbul-topkapi-imperial-gate",
+      "place": "istanbul",
+      "lng": 28.981487,
+      "lat": 41.008597,
+      "bearing": 43.2,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q21097852",
+      "replaces": [
+        "way/335364925"
       ]
     },
     {
