@@ -79,6 +79,68 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "amsterdam-national-monument",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "war-memorial",
+        "historic",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q473851",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Nationaal Monument Dam Amsterdam",
+          "url": "https://commons.wikimedia.org/wiki/File:Nationaal_Monument_Dam_Amsterdam.jpg",
+          "author": "Danbu14",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Nationaal Monument Dam Amsterdam 2018",
+          "url": "https://commons.wikimedia.org/wiki/File:Nationaal_Monument_Dam_Amsterdam_2018.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Dam - View on Nationaal Monument 1956 John Rädecker (Sculptor)",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Dam_-_View_on_Nationaal_Monument_1956_John_R%C3%A4decker_(Sculptor).jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nationaal Monument (Amsterdam) 2005",
+          "url": "https://commons.wikimedia.org/wiki/File:Nationaal_Monument_(Amsterdam)_2005.jpg",
+          "author": "Radosław Botev",
+          "license": "CC BY 3.0 PL"
+        },
+        {
+          "title": "Jonge toeristen nog in herfst in Amsterdam, overzicht Nationaal Monument Dam (Anefo 924-9996)",
+          "url": "https://commons.wikimedia.org/wiki/File:Jonge_toeristen_nog_in_herfst_in_Amsterdam,_overzicht_Nationaal_Monument_Dam,_Bestanddeelnr_924-9996.jpg",
+          "author": "Rob Croes / Anefo",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/amsterdam-national-monument.glb",
+      "source": "generators/amsterdam-national-monument.ts"
+    },
+    {
       "id": "amsterdam-nieuwe-kerk",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -37119,6 +37181,27 @@
         "way/432937734"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "amsterdam-national-monument",
+      "name": "National Monument",
+      "model": "amsterdam-national-monument",
+      "place": "amsterdam",
+      "lng": 4.893689,
+      "lat": 52.37282,
+      "bearing": 1.5,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q473851",
+      "replaces": [
+        "way/168680619",
+        "way/1320477257",
+        "way/1320477258",
+        "way/1320477259",
+        "way/1320477260",
+        "way/1320477261",
+        "way/940729263"
+      ]
     },
     {
       "id": "amsterdam-nieuwe-kerk",
