@@ -22112,6 +22112,86 @@
       "source": "generators/mexico-city-torre-bbva.ts"
     },
     {
+      "id": "mexico-city-torre-insignia",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "skyscraper",
+        "modernist",
+        "carillon",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre Insignia desde el aire 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Insignia_desde_el_aire_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Insignia desde el aire 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Insignia_desde_el_aire_3.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Insignia desde el aire 4.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Insignia_desde_el_aire_4.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Insignia fachada norte.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Insignia_fachada_norte.JPG",
+          "author": "Felipe Alfonso Castillo Vazquez",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Torre Insignia, desde la Torre Latinoamericana.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Insignia,_desde_la_Torre_Latinoamericana.JPG",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista de la cara sur de la Torre Insignia desde la av. Ricardo Flores Magón 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_cara_sur_de_la_Torre_Insignia_desde_la_av._Ricardo_Flores_Mag%C3%B3n_01.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista de la cara norte de la Torre Insignia desde un puente peatonal en Insurgentes Nte. 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_cara_norte_de_la_Torre_Insignia_desde_un_puente_peatonal_en_Insurgentes_Nte._01.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Banobras desde el edif 10 - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Banobras_desde_el_edif_10_-_panoramio.jpg",
+          "author": "Arturinho10",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-insignia.glb",
+      "source": "generators/mexico-city-torre-insignia.ts"
+    },
+    {
       "id": "mexico-city-torre-latinoamericana",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -49524,6 +49604,22 @@
         "way/1484777441"
       ],
       "wikidata": "Q6150039"
+    },
+    {
+      "id": "mexico-city-torre-insignia",
+      "name": "Torre Insignia",
+      "model": "mexico-city-torre-insignia",
+      "place": "mexico-city",
+      "lng": -99.15099,
+      "lat": 19.454566,
+      "bearing": 11.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/217662117",
+        "way/1152230371",
+        "way/1152230372"
+      ]
     },
     {
       "id": "mexico-city-torre-latinoamericana",
