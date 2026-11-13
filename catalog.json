@@ -453,6 +453,88 @@
       "source": "generators/amsterdam-concertgebouw.ts"
     },
     {
+      "id": "amsterdam-de-bazel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "archive",
+        "office",
+        "amsterdam-school",
+        "brick",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1977799",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Herengracht - Amsterdam (31)",
+          "url": "https://commons.wikimedia.org/wiki/File:Herengracht_-_Amsterdam_(31).JPG",
+          "author": "Basvb",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Amsterdam - Stadsarchief Amsterdam De Bazel (30214970991)",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Stadsarchief_Amsterdam_De_Bazel_(30214970991).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Amsterdam - Stadsarchief Amsterdam De Bazel (29670354714)",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Stadsarchief_Amsterdam_De_Bazel_(29670354714).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Amsterdam - Stadsarchief Amsterdam De Bazel (30300822115)",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Stadsarchief_Amsterdam_De_Bazel_(30300822115).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Amsterdan City Archives",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdan_City_Archives.jpg",
+          "author": "מייסטריך",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "From the Archives (50496166143)",
+          "url": "https://commons.wikimedia.org/wiki/File:From_the_Archives_(50496166143).jpg",
+          "author": "Rob Oo",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Overzicht - Amsterdam - 20350193 - RCE",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_-_Amsterdam_-_20350193_-_RCE.jpg",
+          "author": "R. Hoogewoud",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rm46509",
+          "url": "https://commons.wikimedia.org/wiki/File:Rm46509.JPG",
+          "author": "Effeietsanders",
+          "license": "CC BY-SA 3.0 NL"
+        }
+      ],
+      "file": "models/amsterdam-de-bazel.glb",
+      "source": "generators/amsterdam-de-bazel.ts"
+    },
+    {
       "id": "amsterdam-de-gooyer",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -39857,6 +39939,21 @@
         "way/754276795",
         "way/754276796",
         "way/754276797"
+      ]
+    },
+    {
+      "id": "amsterdam-de-bazel",
+      "name": "De Bazel (Stadsarchief)",
+      "model": "amsterdam-de-bazel",
+      "place": "amsterdam",
+      "lng": 4.892229,
+      "lat": 52.36458,
+      "bearing": 12,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1977799",
+      "replaces": [
+        "way/114542356"
       ]
     },
     {
