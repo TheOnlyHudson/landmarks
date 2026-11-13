@@ -19333,6 +19333,64 @@
       "source": "generators/istanbul-phanar-greek-college.ts"
     },
     {
+      "id": "istanbul-rumeli-hisari",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "ottoman",
+        "fortress",
+        "museum",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "Mehmed II's fortress of 1452 climbing the European shore at the narrows: the round Sarıca Paşa and Zağanos Paşa towers up the hill and Halil Paşa's twelve-sided tower at the water, each with its upper drum, crenellated curtain walls following the slope and the small watchtowers.",
+      "references": [
+        {
+          "title": "Rumeli Hisarı - Otağtepeden Görünüşü.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rumeli_Hisarı_-_Otağtepeden_Görünüşü.jpg",
+          "author": "Hamdigumus",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Rumeli Hisarı - Istanbul, Turkey - October 11, 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rumeli_Hisarı_-_Istanbul,_Turkey_-_October_11,_2025.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Rumeli Hisarı Fortress in 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rumeli_Hisarı_Fortress_in_2025.jpg",
+          "author": "mike",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Rumeli Hisarı plan in 2006 3599b.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rumeli_Hisarı_plan_in_2006_3599b.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/istanbul-rumeli-hisari.glb",
+      "source": "generators/istanbul-rumeli-hisari.ts"
+    },
+    {
       "id": "istanbul-rustem-pasha-mosque",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47780,6 +47838,21 @@
       "wikidata": "Q3555000",
       "replaces": [
         "way/330352317"
+      ]
+    },
+    {
+      "id": "istanbul-rumeli-hisari",
+      "name": "Rumeli Hisarı",
+      "model": "istanbul-rumeli-hisari",
+      "place": "istanbul",
+      "lng": 29.05612,
+      "lat": 41.084763,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q90801",
+      "replaces": [
+        "relation/7318154"
       ]
     },
     {
