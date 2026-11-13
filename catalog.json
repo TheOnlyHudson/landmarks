@@ -30194,6 +30194,63 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "samarkand-tilya-kori-madrasa",
+      "file": "models/samarkand-tilya-kori-madrasa.glb",
+      "license": "CC0-1.0",
+      "source": "generators/samarkand-tilya-kori-madrasa.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "madrasa",
+        "historic",
+        "islamic-architecture",
+        "unesco-world-heritage"
+      ],
+      "description": "Madrasa and mosque of 1646-1660 on the north side of the Registan: a two-storey arcaded front either side of a pishtaq, and a turquoise dome over the mosque.",
+      "references": [
+        {
+          "title": "Registan 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Registan_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Самарканд. Площадь-Регистан.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4._%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C-%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D0%B0%D0%BD.jpg",
+          "author": "Kraftabbas",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Registan, Samarkand (8590116140).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Registan,_Samarkand_(8590116140).jpg",
+          "author": "Aleksandr Zykov",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Tilya Kori Madrasah (220363333).jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tilya_Kori_Madrasah_(220363333).jpeg",
+          "author": "Francisco Anzola",
+          "license": "CC-BY-3.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
       "id": "samarkand-ulugh-beg-madrasa",
       "file": "models/samarkand-ulugh-beg-madrasa.glb",
       "license": "CC0-1.0",
@@ -50697,6 +50754,42 @@
         "way/1296464142",
         "way/1297399179",
         "relation/17771198"
+      ],
+      "place": "samarkand"
+    },
+    {
+      "id": "samarkand-tilya-kori-madrasa",
+      "name": "Tilya-Kori Madrasa",
+      "model": "samarkand-tilya-kori-madrasa",
+      "lng": 66.9755509,
+      "lat": 39.6555791,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1713936",
+      "replaces": [
+        "relation/2437664",
+        "way/1296476618",
+        "way/1296476619",
+        "way/1296476620",
+        "way/1296476621",
+        "way/1296476622",
+        "way/1296476623",
+        "way/1296476624",
+        "way/1296476625",
+        "way/1296476626",
+        "way/1296476627",
+        "way/1296476628",
+        "way/1296476629",
+        "way/1296476630",
+        "way/1296476631",
+        "way/1296476633",
+        "way/1296476634",
+        "way/1296476635",
+        "way/1296476636",
+        "way/1297399180",
+        "relation/17771378",
+        "relation/19074574"
       ],
       "place": "samarkand"
     },
