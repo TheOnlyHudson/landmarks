@@ -1097,6 +1097,68 @@
       "source": "generators/amsterdam-royal-palace.ts"
     },
     {
+      "id": "amsterdam-scheepvaartmuseum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "maritime-museum",
+        "historic",
+        "baroque"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Nederlands Scheepvaartmuseum 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Nederlands_Scheepvaartmuseum_2024.jpg",
+          "author": "Fernando",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Het Scheepvaartmuseum, Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Het_Scheepvaartmuseum,_Amsterdam.jpg",
+          "author": "Nataliia Ieremieieva",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Roof Scheepvaartmuseum Amsterdam 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Roof_Scheepvaartmuseum_Amsterdam_2019.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Scheepvaartmuseum 2022.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Scheepvaartmuseum_2022.jpg",
+          "author": "Ainali",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "National Maritime Museum Amsterdam.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Maritime_Museum_Amsterdam.JPG",
+          "author": "BristolIcarus",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-scheepvaartmuseum.glb",
+      "source": "generators/amsterdam-scheepvaartmuseum.ts"
+    },
+    {
       "id": "amsterdam-schreierstoren",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -38729,6 +38791,22 @@
         "way/748659186",
         "way/748659187"
       ]
+    },
+    {
+      "id": "amsterdam-scheepvaartmuseum",
+      "name": "Het Scheepvaartmuseum",
+      "model": "amsterdam-scheepvaartmuseum",
+      "place": "amsterdam",
+      "lng": 4.9148,
+      "lat": 52.371716,
+      "bearing": 331.6,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/3604837",
+        "way/269078550"
+      ],
+      "wikidata": "Q1616123"
     },
     {
       "id": "amsterdam-schreierstoren",
