@@ -67361,6 +67361,12 @@
       "kind": "region"
     },
     {
+      "id": "seoul",
+      "name": "Seoul",
+      "kind": "city",
+      "wikidata": "Q8684"
+    },
+    {
       "id": "singapore",
       "name": "Singapore",
       "kind": "city",
