@@ -1,8 +1,8 @@
 /**
  * The map's 3D terrain under a model: Mapterhorn, the DEM the map draws.
  *
- *   bun tools/terrain.ts grid <lon> <lat> [half-m=60] [step-m=5] [--bearing <deg>]
- *   bun tools/terrain.ts check <id|model.glb> [--lng <deg> --lat <deg> --bearing <deg>] [--elevation <m>] [--map new|sink|old]
+ *   bun tools/terrain.ts grid <lon> <lat> [half-m=60] [step-m=5] [--bearing <deg>] [--zoom <z>]
+ *   bun tools/terrain.ts check <id|model.glb> [--lng <deg> --lat <deg> --bearing <deg>] [--elevation <m>] [--map new|sink|old] [--zoom <z>]
  *
  * `grid` prints the ground in a model's own frame (x east, z south, metres,
  * turned by --bearing like a placement) as heights above the lowest point
@@ -51,7 +51,8 @@ import { planCoverage } from './parchment/landmark-coverage'
 
 const ROOT = join(import.meta.dir, '..')
 const TILES = 'https://tiles.mapterhorn.com/{z}/{x}/{y}.webp'
-const Z = 15
+/** Mapterhorn's z15 covers lidar countries; elsewhere it stops lower (z12 at Giza), so `--zoom` reads that. */
+let Z = 15
 const SIZE = 512
 const CACHE = join(homedir(), '.cache', 'landmarks', 'mapterhorn')
 
@@ -189,6 +190,7 @@ const option = (name: string) => {
   const at = args.indexOf(name)
   return at < 0 ? undefined : args.splice(at, 2)[1]
 }
+Z = Number(option('--zoom') ?? Z)
 const f1 = (v: number) => v.toFixed(1)
 const f2 = (v: number) => v.toFixed(2)
 
