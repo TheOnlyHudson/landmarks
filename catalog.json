@@ -19829,6 +19829,87 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "mexico-city-palacio-de-bellas-artes",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "theatre",
+        "museum",
+        "art-nouveau",
+        "dome"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Front view of Palacio de Bellas Artes at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Front_view_of_Palacio_de_Bellas_Artes_at_night.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Main facade - Palacio de Bellas Artes - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_facade_-_Palacio_de_Bellas_Artes_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nortwest corner of Palacio de Bellas Artes - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Nortwest_corner_of_Palacio_de_Bellas_Artes_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palaco de Bellas Artes, Mexico City, from across Eje Central Lazaro Cardenas in evening",
+          "url": "https://commons.wikimedia.org/wiki/File:Palaco_de_Bellas_Artes,_Mexico_City,_from_across_Eje_Central_Lazaro_Cardenas_in_evening.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de Bellas Artes, Ciudad de México, México, 2015-07-18, DD 10",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Bellas_Artes,_Ciudad_de_M%C3%A9xico,_M%C3%A9xico,_2015-07-18,_DD_10.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View of Palacio de Bellas Artes from Torre Latinoamericana - 02",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Palacio_de_Bellas_Artes_from_Torre_Latinoamericana_-_Centro_-_Mexico_City_-_Mexico_-_02_(31214238467).jpg",
+          "author": "Adam Jones",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Mexico City Palacio de bellas artes",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_City_Palacio_de_bellas_artes.jpg",
+          "author": "Jeses",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Vista de Bellas Artes desde la Torre Latinoamericana 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_Bellas_Artes_desde_la_Torre_Latinoamericana_2.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-palacio-de-bellas-artes.glb",
+      "source": "generators/mexico-city-palacio-de-bellas-artes.ts"
+    },
+    {
       "id": "milestone-club",
       "file": "models/milestone-club.glb",
       "license": "CC0-1.0",
@@ -46469,6 +46550,34 @@
       "wikidata": "Q28455368",
       "replaces": [],
       "place": "charlotte-area"
+    },
+    {
+      "id": "mexico-city-palacio-de-bellas-artes",
+      "name": "Palacio de Bellas Artes",
+      "model": "mexico-city-palacio-de-bellas-artes",
+      "place": "mexico-city",
+      "lng": -99.141263,
+      "lat": 19.4354684,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1139081",
+      "replaces": [
+        "way/157051087",
+        "way/1436125222",
+        "way/1436125225",
+        "way/1436125226",
+        "way/1436125227",
+        "way/1436125228",
+        "way/1436125229",
+        "way/1436125230",
+        "way/1436125231",
+        "way/1436125232",
+        "way/1436127889",
+        "way/1436127890",
+        "way/1436128176",
+        "way/1466114121"
+      ]
     },
     {
       "id": "milestone-club",
