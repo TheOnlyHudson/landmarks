@@ -11844,6 +11844,1014 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "cpt-cape-point-lighthouse",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "lighthouse",
+        "historic",
+        "cast-iron"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Antiguo faro, Cape Point (Delso DD 100)",
+          "url": "https://commons.wikimedia.org/wiki/File:Antiguo_faro,_Cape_Point,_Sud%C3%A1frica,_2018-07-23,_DD_100.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Point Lighthouse 1860-1919. 05",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Point_Lighthouse_1860-1919._05.JPG",
+          "author": "A3alb",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Point Lighthouse 1860-1919. 07",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Point_Lighthouse_1860-1919._07.JPG",
+          "author": "A3alb",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Old Lighthouse in the Cape of Good Hope",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Old_Lighthouse_in_the_Cape_of_Good_Hope.jpg",
+          "author": "Reem Al-Kashif",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lighthouse Cape Point, South Africa",
+          "url": "https://commons.wikimedia.org/wiki/File:Lighthouse_Cape_Point,_South_Africa.JPG",
+          "author": "S. Lukas",
+          "license": "Public domain"
+        },
+        {
+          "title": "Cape point old lighthouse",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_point_old_lighthouse.jpg",
+          "author": "thomas_sly",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Old Cape Point Lighthouse (Rabich 3373)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Cape_Point_Nature_Reserve,_Old_Cape_Point_Lighthouse_--_2024_--_3373.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/cpt-cape-point-lighthouse.glb",
+      "source": "generators/cpt-cape-point-lighthouse.ts"
+    },
+    {
+      "id": "cpt-cape-town-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "stadium",
+        "football",
+        "rugby",
+        "world-cup-2010",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kapské město, fotbalový stadion - Jihoafrická republika - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kapsk%C3%A9_m%C4%9Bsto,_fotbalov%C3%BD_stadion_-_Jihoafrick%C3%A1_republika_-_panoramio.jpg",
+          "author": "Pavel Špindler",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Cape Town Stadium - South Africa.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_Stadium_-_South_Africa.jpg",
+          "author": "Nicolearends16",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cape Town 2012 05 15 0175 (7365148808).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_2012_05_15_0175_(7365148808).jpg",
+          "author": "Harvey Barrison",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Cape Town stadium - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_stadium_-_panoramio_(1).jpg",
+          "author": "landagent",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "New stadium - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_stadium_-_panoramio.jpg",
+          "author": "Hendrik van den Berg",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Cape Town Stadium wza2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_Stadium_wza2.jpg",
+          "author": "Winstonza",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Green Point Stadiun - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Green_Point_Stadiun_-_panoramio.jpg",
+          "author": "Azwi",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Green Point Park to V&A (54277163098).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Green_Point_Park_to_V%26A_(54277163098).jpg",
+          "author": "Dennis Sylvester Hurd",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Table Mountain from Cape Town Stadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Table_Mountain_from_Cape_Town_Stadium.jpg",
+          "author": "Nkansahrexford",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Town Stadium, Cape Town, South Africa (Unsplash).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_Stadium,_Cape_Town,_South_Africa_(Unsplash).jpg",
+          "author": "Deklerk Basson",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/cpt-cape-town-stadium.glb",
+      "source": "generators/cpt-cape-town-stadium.ts"
+    },
+    {
+      "id": "cpt-cape-wheel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "ride",
+      "tags": [
+        "observation-wheel",
+        "waterfront",
+        "animated"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cape Wheel jeh",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Wheel_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Town Waterfront 2018 024",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_Waterfront_2018_024.jpg",
+          "author": "Einsamer Schütze",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "At Cape Town (MP) 2018 229",
+          "url": "https://commons.wikimedia.org/wiki/File:At_Cape_Town_(MP)_2018_229.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Wheel loading stairs jeh",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Wheel_loading_stairs_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Town Wheel 2022",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_Wheel_2022.jpg",
+          "author": "TapticInfo",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/cpt-cape-wheel.glb",
+      "source": "generators/cpt-cape-wheel.ts"
+    },
+    {
+      "id": "cpt-castle-of-good-hope",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "fort",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Castle of Good Hope Cape Town - Arial view",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Castle_of_Good_Hope_Cape_Town_-_Arial_view.JPG",
+          "author": "Debbielouise",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Castle of Good Hope, Cape Town 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Castle_of_Good_Hope,_Cape_Town_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Castle of Good Hope, Cape Town 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Castle_of_Good_Hope,_Cape_Town_02.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Town's Castle of Good Hope",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town%27s_Castle_of_Good_Hope.jpg",
+          "author": "Witstinkhout",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Castle of Good Hope, Cape Town, South Africa",
+          "url": "https://commons.wikimedia.org/wiki/File:Castle_of_Good_Hope,_Cape_Town,_South_Africa.jpg",
+          "author": "CivArmy",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Castle of Good Hope Cape Town - View of Leerdam 1",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Castle_of_Good_Hope_Cape_Town_-_View_of_Leerdam_1.JPG",
+          "author": "Debbielouise",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/cpt-castle-of-good-hope.glb",
+      "source": "generators/cpt-castle-of-good-hope.ts"
+    },
+    {
+      "id": "cpt-city-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "civic",
+        "clock-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cape Town City Hall (16513659039)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_City_Hall_(16513659039).jpg",
+          "author": "David Stanley",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "CapeTown CityHall",
+          "url": "https://commons.wikimedia.org/wiki/File:CapeTown_CityHall.jpg",
+          "author": "Martinvl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Town City Hall 2014",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_City_Hall_2014.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CT City Hall with Drill Hall",
+          "url": "https://commons.wikimedia.org/wiki/File:CT_City_Hall_with_Drill_Hall.jpg",
+          "author": "Magemu",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Town, assorted - CapeTown4059",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town,_assorted_-_CapeTown4059.jpg",
+          "author": "lumoplank",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/cpt-city-hall.glb",
+      "source": "generators/cpt-city-hall.ts"
+    },
+    {
+      "id": "cpt-clock-tower-va",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "clock-tower",
+        "historic",
+        "gothic-revival",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Clock Tower, Waterfront (Rabich 2902)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Waterfront,_Clock_Tower_--_2024_--_2902.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Clock Tower, Waterfront (Rabich 3036)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Waterfront,_Clock_Tower_--_2024_--_3036.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Victoria & Alfred Waterfront clock tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Victoria_%26_Alfred_Waterfront_clock_tower.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Clock Tower V&A - Cape Town, South Africa",
+          "url": "https://commons.wikimedia.org/wiki/File:Clock_Tower_V%26A_-_Cape_Town,_South_Africa_(4029342324).jpg",
+          "author": "South African Tourism",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "V&A Waterfront Clock Tower - 2",
+          "url": "https://commons.wikimedia.org/wiki/File:V%26A_Waterfront_Clock_Tower_-_2.jpg",
+          "author": "De Zuid-Afrikaan",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/cpt-clock-tower-va.glb",
+      "source": "generators/cpt-clock-tower-va.ts"
+    },
+    {
+      "id": "cpt-green-point-lighthouse",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "lighthouse",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Green Point Lighthouse (Rabich 3566)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Green_Point_Lighthouse_--_2024_--_3566.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Green Point Lighthouse (Rabich 3569)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Green_Point_Lighthouse_--_2024_--_3569.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Green Point Lighthouse (Rabich 3575)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Green_Point_Lighthouse_--_2024_--_3575.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Green Point Lighthouse",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Green_Point_Lighthouse.jpg",
+          "author": "Hilton Teper",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Green Point Lighthouse (11270413295)",
+          "url": "https://commons.wikimedia.org/wiki/File:Green_Point_Lighthouse_(11270413295).jpg",
+          "author": "Darren Glanville",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Green Point Lighthouse - Side view",
+          "url": "https://commons.wikimedia.org/wiki/File:Green_Point_Lighthouse_Green_Point_Cape_Town_-_Side_view.JPG",
+          "author": "Debbie Louise Lloyd",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/cpt-green-point-lighthouse.glb",
+      "source": "generators/cpt-green-point-lighthouse.ts"
+    },
+    {
+      "id": "cpt-groote-kerk",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "church"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Groote Kerk Adderley Street Cape Town - Frontal view",
+          "url": "https://commons.wikimedia.org/wiki/File:Groote_Kerk_Adderley_Street_Cape_Town_-_Frontal_view.JPG",
+          "author": "Debbie Louise Lloyd",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Groote Kerk Adderley Street Cape Town - Side view from the front",
+          "url": "https://commons.wikimedia.org/wiki/File:Groote_Kerk_Adderley_Street_Cape_Town_-_Side_view_from_the_front.JPG",
+          "author": "Debbie Louise Lloyd",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Groote Kerk Adderley Street Cape Town - Side view from the back",
+          "url": "https://commons.wikimedia.org/wiki/File:Groote_Kerk_Adderley_Street_Cape_Town_-_Side_view_from_the_back.JPG",
+          "author": "Debbie Louise Lloyd",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Groote Kerk, Adderley Street, Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Groote_Kerk,_Adderley_Street,_Cape_Town.JPG",
+          "author": "Ossewa",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Groote Kerk 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Groote_Kerk_1.jpg",
+          "author": "HelenOnline",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/cpt-groote-kerk.glb",
+      "source": "generators/cpt-groote-kerk.ts"
+    },
+    {
+      "id": "cpt-iziko-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "planetarium",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Iziko South Africa Museum.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Iziko_South_Africa_Museum.JPG",
+          "author": "Discott",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Iziko South African Museum at the Company's Gardens.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Iziko_South_African_Museum_at_the_Company%27s_Gardens.JPG",
+          "author": "Lara van Dyk",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Iziko South African Museum.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Iziko_South_African_Museum.JPG",
+          "author": "Josephou",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Iziko South African Museum Panorama.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iziko_South_African_Museum_Panorama.jpg",
+          "author": "Nkansahrexford",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Iziko SA museum CT jeh HDR.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iziko_SA_museum_CT_jeh_HDR.jpg",
+          "author": "Jim.henderson",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Company Gardens. SA Museum Entrance.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Company_Gardens._SA_Museum_Entrance.jpg",
+          "author": "Chris Snelling",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "South African Museum & Planeterium.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:South_African_Museum_%26_Planeterium.JPG",
+          "author": "Josephou",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "South African Museum postcard.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:South_African_Museum_postcard.jpg",
+          "license": "Public domain"
+        },
+        {
+          "title": "Iziko South African Museum in July, 2018 - 15.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iziko_South_African_Museum_in_July,_2018_-_15.jpg",
+          "author": "Jnanaranjan Sahu",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/cpt-iziko-museum.glb",
+      "source": "generators/cpt-iziko-museum.ts"
+    },
+    {
+      "id": "cpt-old-town-house",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cape Town (ZA), Iziko Old Town House Museum -- 2024 -- 3524",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Iziko_Old_Town_House_Museum_--_2024_--_3524.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Old Town House, Greenmarket Square, Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Town_House,_Greenmarket_Square,_Cape_Town.JPG",
+          "author": "Ossewa",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "800px-Old Town House - Le Cap",
+          "url": "https://commons.wikimedia.org/wiki/File:800px-Old_Town_House_-_Le_Cap.jpg",
+          "author": "Georgio",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Old Town House Greenmarket Square, Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Town_House_Greenmarket_Square,_Cape_Town.JPG",
+          "author": "NegativeC",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/cpt-old-town-house.glb",
+      "source": "generators/cpt-old-town-house.ts"
+    },
+    {
+      "id": "cpt-parliament",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "parliament",
+        "government",
+        "neoclassical",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cape Town, Houses of Parliament.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town,_Houses_of_Parliament.JPG",
+          "author": "Ossewa",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cape Town (ZA), Parliament of South Africa -- 2024 -- 3487.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Parliament_of_South_Africa_--_2024_--_3487.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Town (ZA), Parliament of South Africa -- 2024 -- 3484.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Parliament_of_South_Africa_--_2024_--_3484.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Town (ZA), Parliament of South Africa -- 2024 -- 3490.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Parliament_of_South_Africa_--_2024_--_3490.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Parliament WC ZA.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Parliament_WC_ZA.jpg",
+          "author": "Andresdewet",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Houses of Parliament (Cape Town).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Houses_of_Parliament_(Cape_Town).jpg",
+          "author": "PhilippN",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Parliament, Cape Town 2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Parliament,_Cape_Town_2023.jpg",
+          "author": "Discott",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Houses of Parliament from inside The Company's Gardens.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Houses_of_Parliament_from_inside_The_Company%27s_Gardens.JPG",
+          "author": "Lara van Dyk",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Parliament Fire 2022.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Parliament_Fire_2022.jpg",
+          "author": "Discott",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/cpt-parliament.glb",
+      "source": "generators/cpt-parliament.ts"
+    },
+    {
+      "id": "cpt-rhodes-memorial",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "memorial",
+        "historic",
+        "neoclassical",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cecil Rhodes Memorial Elevated View 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Cecil_Rhodes_Memorial_Elevated_View_2.jpg",
+          "author": "SkyPixels",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cecil Rhodes Memorial Elevated View 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Cecil_Rhodes_Memorial_Elevated_View_1.jpg",
+          "author": "SkyPixels",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rhodes memorial, aerial photograph (cropped N.1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_memorial_in_Cape_Town,_South_Africa,_aerial_photograph_(cropped_N.1).jpg",
+          "author": "JasonSmuts",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rhodes Memorial Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Memorial_Cape_Town.jpg",
+          "author": "Samir insta",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rhodes Memorial, Cape Town (South Africa)",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Memorial,_Cape_Town_(South_Africa).jpg",
+          "author": "Olga Ernst",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rhodes Memorial, Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Memorial,_Cape_Town.jpg",
+          "author": "Steven Morrow",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Rhodes Memorial (11209962564)",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Memorial_(11209962564).jpg",
+          "author": "Darren Glanville",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Energy. Rhodes Memorial Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Energy._Rhodes_Memorial_Cape_Town.jpg",
+          "author": "Andrew Massyn",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/cpt-rhodes-memorial.glb",
+      "source": "generators/cpt-rhodes-memorial.ts"
+    },
+    {
+      "id": "cpt-st-georges-cathedral",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "cathedral",
+        "gothic-revival",
+        "historic",
+        "herbert-baker"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "00000-St Georges Cathedral-Cape Town-s.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:00000-St_Georges_Cathedral-Cape_Town-s.jpg",
+          "author": "Janek Szymanowski",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "StGeorgesCathedral02.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:StGeorgesCathedral02.JPG",
+          "author": "Mike Hayes",
+          "license": "Public domain"
+        },
+        {
+          "title": "Catedral de San Jorge, Ciudad del Cabo, Sudáfrica, 2018-07-19, DD 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_de_San_Jorge,_Ciudad_del_Cabo,_Sud%C3%A1frica,_2018-07-19,_DD_10.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St George's Cathedral from inside The Company's Gardens.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St_George%27s_Cathedral_from_inside_The_Company%27s_Gardens.jpg",
+          "author": "Lara van Dyk",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "At Cape Town (MP) 2018 266.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:At_Cape_Town_(MP)_2018_266.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. George's Cathedral, Cape Town.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:St._George%27s_Cathedral,_Cape_Town.JPG",
+          "author": "EaFeya",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "St Goerge Cathedral.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St_Goerge_Cathedral.jpg",
+          "author": "David Henry Emslie",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "St George's Cathedral, Wale Street, Cape Town.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St_George%27s_Cathedral,_Wale_Street,_Cape_Town.jpg",
+          "author": "Danie van der Merwe",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Cape Town (ZA), St George's Cathedral -- 2024 -- 3492.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_St_George%27s_Cathedral_--_2024_--_3492.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/cpt-st-georges-cathedral.glb",
+      "source": "generators/cpt-st-georges-cathedral.ts"
+    },
+    {
+      "id": "cpt-zeitz-mocaa",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "hotel",
+        "industrial-heritage",
+        "adaptive-reuse"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Zeitz MOCAA, Waterfront (Rabich 2980)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Waterfront,_Zeitz_Museum_of_Contemporary_Art_Africa_--_2024_--_2980.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Zeitz Museum of Contemporary Art Africa, Cape Town ( 1050775)",
+          "url": "https://commons.wikimedia.org/wiki/File:Zeitz_Museum_of_Contemporary_Art_Africa,_Cape_Town_(_1050775).jpg",
+          "author": "Matti Blume",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Zeitz Museum of Contemporary Art Africa",
+          "url": "https://commons.wikimedia.org/wiki/File:Zeitz_Museum_of_Contemporary_Art_Africa.jpg",
+          "author": "Axxter99",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterior Zeitz MOCAA",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_Zeitz_MOCAA_-_Museum_of_Contermporary_Art_Africa.jpg",
+          "author": "Michael Rowe",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "At Cape Town (MP) 2018 115",
+          "url": "https://commons.wikimedia.org/wiki/File:At_Cape_Town_(MP)_2018_115.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Silos on the waterfront, Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Silos_on_the_waterfront,_Cape_Town.jpg",
+          "author": "Linton",
+          "license": "Public domain"
+        },
+        {
+          "title": "V&A Grain Silo 1",
+          "url": "https://commons.wikimedia.org/wiki/File:V%26A_Grain_Silo_1.jpg",
+          "author": "HelenOnline",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/cpt-zeitz-mocaa.glb",
+      "source": "generators/cpt-zeitz-mocaa.ts"
+    },
+    {
       "id": "dal-adolphus-hotel",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -51005,6 +52013,533 @@
       "place": "charlotte-area"
     },
     {
+      "id": "cpt-cape-point-lighthouse",
+      "name": "Cape Point Old Lighthouse",
+      "model": "cpt-cape-point-lighthouse",
+      "place": "cape-town",
+      "lng": 18.4902513,
+      "lat": -34.3538204,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/350143420"
+      ],
+      "wikidata": "Q10966914"
+    },
+    {
+      "id": "cpt-cape-town-stadium",
+      "name": "Cape Town Stadium",
+      "model": "cpt-cape-town-stadium",
+      "place": "cape-town",
+      "lng": 18.4111472,
+      "lat": -33.9034476,
+      "bearing": 12.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/8706182"
+      ],
+      "wikidata": "Q173559"
+    },
+    {
+      "id": "cpt-cape-wheel",
+      "name": "The Cape Wheel",
+      "model": "cpt-cape-wheel",
+      "place": "cape-town",
+      "lng": 18.4193198,
+      "lat": -33.9026821,
+      "bearing": 320.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": []
+    },
+    {
+      "id": "cpt-castle-of-good-hope",
+      "name": "Castle of Good Hope",
+      "model": "cpt-castle-of-good-hope",
+      "place": "cape-town",
+      "lng": 18.4277155,
+      "lat": -33.9258792,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/57263",
+        "way/424790373",
+        "way/424790375",
+        "way/424790376",
+        "way/424790377",
+        "way/424790378",
+        "way/424790379",
+        "way/424790381",
+        "way/424790382",
+        "way/424790383",
+        "way/424790384",
+        "way/424790385",
+        "way/424790386",
+        "way/424790387",
+        "way/424790388",
+        "way/424790389",
+        "way/424790390",
+        "way/424802386",
+        "way/424802387",
+        "way/424802388",
+        "way/424802392",
+        "way/424807682",
+        "way/424807683",
+        "way/424807684",
+        "way/424807685",
+        "way/424807686",
+        "way/424807687",
+        "way/424807688",
+        "way/424807690",
+        "way/424807691",
+        "way/424807692",
+        "way/424807693",
+        "way/424807694",
+        "way/424807696",
+        "way/424807697",
+        "way/424834772",
+        "way/424834773",
+        "way/424834774",
+        "way/424834775",
+        "way/424834776",
+        "way/424834777",
+        "way/424834779",
+        "way/424834781",
+        "way/424834783",
+        "way/424834785",
+        "way/424834786",
+        "way/424834788",
+        "way/424834789",
+        "way/424834791",
+        "way/424834792",
+        "way/424834794",
+        "way/424834800",
+        "way/424834802",
+        "way/424834803",
+        "way/424845798",
+        "way/424845799",
+        "way/424845800",
+        "way/424845801",
+        "way/424845802",
+        "way/424845803",
+        "way/424845804",
+        "way/424845805",
+        "way/424845807",
+        "way/424845808",
+        "way/424845809",
+        "way/424845810",
+        "way/424845811",
+        "way/424845812",
+        "way/424845813",
+        "way/424845814",
+        "way/424845815",
+        "way/424845816",
+        "way/424906069",
+        "way/424906070",
+        "way/424906072",
+        "way/424906074",
+        "way/424906075",
+        "way/424906076",
+        "way/424906077",
+        "way/424906078",
+        "way/424906079",
+        "way/424906081",
+        "way/424906082",
+        "way/424906111",
+        "way/424906114",
+        "way/424911898",
+        "way/424911899",
+        "way/424911900",
+        "way/424911901",
+        "way/424911902",
+        "way/424911903",
+        "way/424911904",
+        "way/424911905",
+        "way/424911906",
+        "way/424912996",
+        "way/424912997",
+        "way/424912998",
+        "way/424912999",
+        "way/424913000",
+        "way/424913001",
+        "way/425062208",
+        "way/424926018",
+        "way/424926020"
+      ],
+      "wikidata": "Q1049562"
+    },
+    {
+      "id": "cpt-city-hall",
+      "name": "Cape Town City Hall",
+      "model": "cpt-city-hall",
+      "place": "cape-town",
+      "lng": 18.4237319,
+      "lat": -33.9253999,
+      "bearing": 40.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/1524822758",
+        "way/1524822759",
+        "way/1524822760",
+        "way/1524822761",
+        "way/1524822762",
+        "way/1524822763",
+        "way/1524822766",
+        "way/1524822767",
+        "way/1524822768",
+        "way/1524822769",
+        "way/1524822770",
+        "way/1524822771",
+        "way/1524822772",
+        "way/1524822773",
+        "way/1524822774",
+        "way/1524822775",
+        "way/1524822776",
+        "way/1524822777",
+        "way/1524822778",
+        "way/1524822779",
+        "way/1524822780",
+        "way/1524822781",
+        "way/1524822782",
+        "way/1524822783",
+        "way/1524822784",
+        "way/1524822785",
+        "way/1524822786",
+        "way/1524822787",
+        "way/1524822788",
+        "way/1524822791",
+        "way/1524822792",
+        "way/1524822793",
+        "way/1524822809",
+        "way/1524822810",
+        "way/1524822811",
+        "way/1524822812",
+        "way/1524822813",
+        "way/1524822814",
+        "way/1524822815",
+        "way/1524822816",
+        "way/1524822818",
+        "way/1524822819",
+        "way/1524822820",
+        "way/1524822821",
+        "way/1524822822",
+        "way/1524822823",
+        "way/1524822824",
+        "way/1524822825",
+        "way/1524822826",
+        "way/1524822827",
+        "way/1524822828",
+        "way/1524822829",
+        "way/1524822830",
+        "way/1524822831",
+        "way/1524822832",
+        "way/1524822833",
+        "way/1524822834",
+        "way/1524822835",
+        "way/1524822836",
+        "way/1524822837",
+        "way/1524822838",
+        "way/1524822839",
+        "way/1524822840",
+        "way/1524822841",
+        "way/1524822842",
+        "way/1524822843",
+        "way/1524822844",
+        "way/1524822845",
+        "way/1524822846",
+        "way/1524822847",
+        "way/1524822848",
+        "way/1524822849",
+        "way/1524822850",
+        "way/1524822851",
+        "way/1524822852",
+        "way/1524822853",
+        "way/1524822854",
+        "way/1524822855",
+        "way/1524822856",
+        "way/1524822857",
+        "way/1524822858",
+        "way/1524822859",
+        "way/1524822860",
+        "way/1524822861",
+        "way/1524822862",
+        "way/1524822863",
+        "way/1524822864",
+        "way/1524822865",
+        "way/1524822866",
+        "way/1524822867",
+        "way/1524822868",
+        "way/1524822869",
+        "way/1524822870",
+        "way/1524822871",
+        "way/1524822872",
+        "way/1524822873",
+        "way/1524822874",
+        "way/1524822875",
+        "way/1524822876",
+        "way/1524822877",
+        "way/1524822878",
+        "way/1524822879",
+        "way/1524822880",
+        "way/1524822881",
+        "way/1524822882",
+        "way/1524822883",
+        "way/1524822884",
+        "way/1524822885",
+        "way/1524822886",
+        "way/1524822887",
+        "way/1524822888",
+        "way/1524822889",
+        "way/1524822890",
+        "way/1524822891",
+        "way/1524822892",
+        "way/1524822893",
+        "way/1524822894",
+        "way/1524822895",
+        "way/1524822896",
+        "way/1524822897",
+        "way/1524822899",
+        "way/1524822900",
+        "way/1524822901",
+        "way/1524822902",
+        "way/1524822903",
+        "way/1524822904",
+        "way/1524822905",
+        "way/1524822906",
+        "way/1524822907",
+        "way/1524822908",
+        "way/1524822909",
+        "way/1524822910",
+        "way/1524822911",
+        "way/1524822912",
+        "way/1524822913",
+        "way/1524822914",
+        "way/1524822915",
+        "way/1524822916",
+        "way/1524822917",
+        "way/1524822918",
+        "way/1524822919",
+        "way/1524822920",
+        "way/1524822921",
+        "way/1524822922",
+        "way/1524822923",
+        "way/1524822924",
+        "way/1524822925",
+        "way/1524822926",
+        "way/1524822927",
+        "way/1524822928",
+        "way/1524822929",
+        "way/1524822930",
+        "way/1524822931",
+        "way/1524822932",
+        "way/1524822933",
+        "way/1524822934",
+        "way/1524822935",
+        "way/1524822936",
+        "way/1524822939",
+        "way/1524822940",
+        "way/1524822941",
+        "way/1524822942",
+        "way/1524822943",
+        "way/1524822944",
+        "way/1524822945",
+        "way/1524822946",
+        "way/1524822947",
+        "way/1524822948",
+        "way/1524822949",
+        "way/1524822950",
+        "way/1524822951",
+        "way/1524822952",
+        "way/1524822953",
+        "way/1524822954",
+        "way/1524822955",
+        "way/1524822956",
+        "way/1524822957",
+        "way/1524822958",
+        "way/1525108586",
+        "way/1525108587",
+        "way/1525418607",
+        "way/1525418608",
+        "way/1525418609",
+        "way/1525418610",
+        "way/1525418611",
+        "way/1525418612",
+        "way/1525418613",
+        "way/1525418614",
+        "way/1525418615",
+        "way/1525418616",
+        "way/1525418617",
+        "way/1525826378",
+        "way/1525826379",
+        "way/1525826380",
+        "way/1525826381",
+        "way/1525826382",
+        "way/1525826383",
+        "way/1525826384",
+        "way/1525826385",
+        "way/1525826386",
+        "way/1526140355",
+        "way/1526140356",
+        "way/1526140357",
+        "way/1526140358",
+        "way/1526140359",
+        "way/1526140360",
+        "way/1526140361",
+        "way/1526140362",
+        "way/1526140363",
+        "way/1526140364",
+        "way/1526140365",
+        "way/1526140366",
+        "way/1526140367",
+        "way/1526140368",
+        "way/1526140369",
+        "way/1526140370",
+        "way/1526140371",
+        "relation/20781783",
+        "relation/20781784",
+        "relation/20781785"
+      ]
+    },
+    {
+      "id": "cpt-clock-tower-va",
+      "name": "Clock Tower",
+      "model": "cpt-clock-tower-va",
+      "place": "cape-town",
+      "lng": 18.4221627,
+      "lat": -33.9064795,
+      "bearing": 17.7,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/158441581"
+      ],
+      "wikidata": "Q55634395"
+    },
+    {
+      "id": "cpt-green-point-lighthouse",
+      "name": "Green Point Lighthouse",
+      "model": "cpt-green-point-lighthouse",
+      "place": "cape-town",
+      "lng": 18.3999212,
+      "lat": -33.9014222,
+      "bearing": 55.6,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/134572381"
+      ],
+      "wikidata": "Q3642248"
+    },
+    {
+      "id": "cpt-groote-kerk",
+      "name": "Groote Kerk",
+      "model": "cpt-groote-kerk",
+      "place": "cape-town",
+      "lng": 18.420928,
+      "lat": -33.9247652,
+      "bearing": 310.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/48801576"
+      ],
+      "wikidata": "Q13035555"
+    },
+    {
+      "id": "cpt-iziko-museum",
+      "name": "Iziko South African Museum",
+      "model": "cpt-iziko-museum",
+      "place": "cape-town",
+      "lng": 18.4149595,
+      "lat": -33.9288842,
+      "bearing": 41,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/24010045"
+      ],
+      "wikidata": "Q6102031"
+    },
+    {
+      "id": "cpt-old-town-house",
+      "name": "Old Town House",
+      "model": "cpt-old-town-house",
+      "place": "cape-town",
+      "lng": 18.4198823,
+      "lat": -33.9231258,
+      "bearing": 41.6,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/609226195"
+      ],
+      "wikidata": "Q13034442"
+    },
+    {
+      "id": "cpt-parliament",
+      "name": "Houses of Parliament",
+      "model": "cpt-parliament",
+      "place": "cape-town",
+      "lng": 18.4197251,
+      "lat": -33.9257997,
+      "bearing": 41.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/141281524"
+      ]
+    },
+    {
+      "id": "cpt-rhodes-memorial",
+      "name": "Rhodes Memorial",
+      "model": "cpt-rhodes-memorial",
+      "place": "cape-town",
+      "lng": 18.4589723,
+      "lat": -33.952356,
+      "bearing": 96.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/1290642871"
+      ],
+      "wikidata": "Q3429602"
+    },
+    {
+      "id": "cpt-st-georges-cathedral",
+      "name": "St George's Cathedral",
+      "model": "cpt-st-georges-cathedral",
+      "place": "cape-town",
+      "lng": 18.4194365,
+      "lat": -33.9248907,
+      "bearing": 41,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/141281671",
+        "way/141281674"
+      ],
+      "wikidata": "Q2499579"
+    },
+    {
+      "id": "cpt-zeitz-mocaa",
+      "name": "Zeitz MOCAA",
+      "model": "cpt-zeitz-mocaa",
+      "place": "cape-town",
+      "lng": 18.422994,
+      "lat": -33.9084045,
+      "bearing": 354.2,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/36852808"
+      ],
+      "wikidata": "Q28003638"
+    },
+    {
       "id": "dal-adolphus-hotel",
       "name": "The Adolphus",
       "model": "dal-adolphus-hotel",
@@ -65715,6 +67250,12 @@
       "name": "Camp North End",
       "kind": "site",
       "parent": "charlotte-area"
+    },
+    {
+      "id": "cape-town",
+      "name": "Cape Town",
+      "kind": "city",
+      "wikidata": "Q5465"
     },
     {
       "id": "carowinds",
