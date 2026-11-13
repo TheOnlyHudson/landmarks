@@ -26235,6 +26235,96 @@
       ]
     },
     {
+      "id": "london-victoria-memorial",
+      "file": "models/london-victoria-memorial.glb",
+      "source": "generators/london-victoria-memorial.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "memorial",
+        "sculpture",
+        "marble",
+        "gilded",
+        "fountain",
+        "edwardian"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Victoria Memorial London 2020 Morning 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Victoria_Memorial_London_2020_Morning_01.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Victoria Memorial London 2020 Morning 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Victoria_Memorial_London_2020_Morning_02.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Victoria Memorial London 2020 Morning Nike Statue 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Victoria_Memorial_London_2020_Morning_Nike_Statue_01.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Victoria Memorial London 2020 Morning Nike Statue 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Victoria_Memorial_London_2020_Morning_Nike_Statue_02.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Winged Victory, Victoria Memorial, London",
+          "url": "https://commons.wikimedia.org/wiki/File:Winged_Victory,_Victoria_Memorial,_London.jpg",
+          "author": "FiatLUX",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "London - Spur Road - Victoria Memorial 1911-14 by Sir Thomas Brock 01",
+          "url": "https://commons.wikimedia.org/wiki/File:London_-_Spur_Road_-_Victoria_Memorial_1911-14_by_Sir_Thomas_Brock_01.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "London - Spur Road - Victoria Memorial 1911-14 by Sir Thomas Brock 02",
+          "url": "https://commons.wikimedia.org/wiki/File:London_-_Spur_Road_-_Victoria_Memorial_1911-14_by_Sir_Thomas_Brock_02.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "London - Spur Road - Victoria Memorial 1911-14 by Sir Thomas Brock 03",
+          "url": "https://commons.wikimedia.org/wiki/File:London_-_Spur_Road_-_Victoria_Memorial_1911-14_by_Sir_Thomas_Brock_03.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Queen Victoria Memorial, London, July 2014 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_Memorial,_London,_July_2014_01.jpg",
+          "author": "Edwardx",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "detail": "models/london-victoria-memorial.detail.glb",
+      "detailZoom": 16
+    },
+    {
       "id": "lv-allegiant-stadium",
       "file": "models/lv-allegiant-stadium.glb",
       "license": "CC0-1.0",
@@ -56133,6 +56223,25 @@
         "way/57721739",
         "way/777427856",
         "way/85866116"
+      ]
+    },
+    {
+      "id": "london-victoria-memorial",
+      "name": "Victoria Memorial",
+      "model": "london-victoria-memorial",
+      "place": "london",
+      "lng": -0.140587,
+      "lat": 51.50184,
+      "bearing": 55,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q1333411",
+      "replaces": [
+        "way/374945234",
+        "way/554703202",
+        "way/554703203",
+        "way/554703204",
+        "way/554703205"
       ]
     },
     {
