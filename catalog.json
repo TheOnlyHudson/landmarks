@@ -18427,6 +18427,75 @@
       "source": "generators/istanbul-phanar-greek-college.ts"
     },
     {
+      "id": "istanbul-rustem-pasha-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "historic",
+        "religious",
+        "sinan"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Rüstem Pasha Mosque in 2024 5321",
+          "url": "https://commons.wikimedia.org/wiki/File:R%C3%BCstem_Pasha_Mosque_in_2024_5321.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul - Rüstem-Pascha-Moschee - panoramio (cropped and retouched)",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_-_R%C3%BCstem-Pascha-Moschee_-_panoramio_(cropped_and_retouched).jpg",
+          "author": "giggel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "676-Istanbul Rüstem Pasha Mosque-0910-1836",
+          "url": "https://commons.wikimedia.org/wiki/File:676-Istanbul_R%C3%BCstem_Pasha_Mosque-0910-1836.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rüstem Pasha Mosque from street 236",
+          "url": "https://commons.wikimedia.org/wiki/File:R%C3%BCstem_Pasha_Mosque_from_street_236.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "RÜSTEM PAŞA CAMİİ2026-01-01 at 16.48.29 (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:R%C3%9CSTEM_PA%C5%9EA_CAM%C4%B0%C4%B02026-01-01_at_16.48.29_(1).jpg",
+          "author": "RramazanŞahin",
+          "license": "CC0"
+        },
+        {
+          "title": "Süleymaniye Mosque and Rüstem Pasha Mosque in 2024 6715",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_and_R%C3%BCstem_Pasha_Mosque_in_2024_6715.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-rustem-pasha-mosque.glb",
+      "source": "generators/istanbul-rustem-pasha-mosque.ts"
+    },
+    {
       "id": "istanbul-serpent-column",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46579,6 +46648,21 @@
       "wikidata": "Q3555000",
       "replaces": [
         "way/330352317"
+      ]
+    },
+    {
+      "id": "istanbul-rustem-pasha-mosque",
+      "name": "Rüstem Pasha Mosque",
+      "model": "istanbul-rustem-pasha-mosque",
+      "place": "istanbul",
+      "lng": 28.968738,
+      "lat": 41.017662,
+      "bearing": 315.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1137511",
+      "replaces": [
+        "way/175518494"
       ]
     },
     {
