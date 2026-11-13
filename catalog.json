@@ -296,6 +296,68 @@
       "source": "generators/amsterdam-magna-plaza.ts"
     },
     {
+      "id": "amsterdam-montelbaanstoren",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tower",
+        "historic",
+        "renaissance",
+        "harbour"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Montelbaanstoren 1791.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Montelbaanstoren_1791.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Montelbaanstoren 7146.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Montelbaanstoren_7146.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tour Montelbaan - Amsterdam (NL32) - 2024-11-27 - 4.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tour_Montelbaan_-_Amsterdam_(NL32)_-_2024-11-27_-_4.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tour Montelbaan - Amsterdam (NL32) - 2024-11-27 - 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tour_Montelbaan_-_Amsterdam_(NL32)_-_2024-11-27_-_1.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "4025 Montelbaanstoren.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:4025_Montelbaanstoren.jpg",
+          "author": "Johan Bakker",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-montelbaanstoren.glb",
+      "source": "generators/amsterdam-montelbaanstoren.ts"
+    },
+    {
       "id": "amsterdam-munttoren",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -37956,6 +38018,25 @@
       "replaces": [
         "way/57861220"
       ]
+    },
+    {
+      "id": "amsterdam-montelbaanstoren",
+      "name": "Montelbaanstoren",
+      "model": "amsterdam-montelbaanstoren",
+      "place": "amsterdam",
+      "lng": 4.905661,
+      "lat": 52.372036,
+      "bearing": 12,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/57864086",
+        "way/751647817",
+        "way/751647818",
+        "way/751647819",
+        "way/751647820"
+      ],
+      "wikidata": "Q1946061"
     },
     {
       "id": "amsterdam-munttoren",
