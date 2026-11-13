@@ -35522,6 +35522,68 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "tokyo-skytree",
+      "file": "models/tokyo-skytree.glb",
+      "license": "CC0-1.0",
+      "source": "generators/tokyo-skytree.ts",
+      "type": "tower",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "observation-tower",
+        "broadcast-tower",
+        "lattice"
+      ],
+      "description": "634 m broadcasting and observation tower whose white steel lattice morphs from a triangular tripod into a cylinder, with observation decks at 350 m and 450 m.",
+      "references": [
+        {
+          "title": "2019 Tokyo Skytree.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_Tokyo_Skytree.jpg",
+          "author": "Kakidai",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Tokyo Skytree (white).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_(white).jpg",
+          "author": "Kakidai",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Tokyo Skytree at night (Iki).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_at_night_(Iki).jpg",
+          "author": "Kakidai",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Tokyo Skytree above Sumida.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_above_Sumida.jpg",
+          "author": "Sashimi-b",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Aerial view of Tokyo Skytree, January 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Tokyo_Skytree,_January_2025.jpg",
+          "author": "Uraniwa",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
       "id": "truist-center-charlotte",
       "file": "models/truist-center-charlotte.glb",
       "license": "CC0-1.0",
@@ -53090,6 +53152,26 @@
       "place": "new-york-area"
     },
     {
+      "id": "tokyo-skytree",
+      "name": "Tokyo Skytree",
+      "model": "tokyo-skytree",
+      "lng": 139.8107141,
+      "lat": 35.7100453,
+      "bearing": 353,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q57965",
+      "replaces": [
+        "way/288269147",
+        "way/362351414",
+        "way/362351415",
+        "way/288269148",
+        "way/557938593",
+        "way/557938595"
+      ],
+      "place": "tokyo"
+    },
+    {
       "id": "truist-center-charlotte",
       "name": "Truist Center",
       "model": "truist-center-charlotte",
@@ -54263,6 +54345,12 @@
       "kind": "site",
       "parent": "new-york-area",
       "wikidata": "Q11259"
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "kind": "city",
+      "wikidata": "Q1490"
     },
     {
       "id": "walt-disney-world",
