@@ -1272,6 +1272,118 @@
       "source": "generators/amsterdam-nieuwe-kerk.ts"
     },
     {
+      "id": "amsterdam-olympic-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "stadium",
+        "olympics",
+        "amsterdam-school",
+        "brick",
+        "historic",
+        "rijksmonument"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Overzicht Olympisch Stadion - Amsterdam - 20409334 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_Olympisch_Stadion_-_Amsterdam_-_20409334_-_RCE.jpg",
+          "author": "Sergé Technau",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterieur OVERZICHT OOSTZIJDE, MARATHON-TRIBUNE, MARATHON-TOREN - Amsterdam - 20279165 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_OVERZICHT_OOSTZIJDE,_MARATHON-TRIBUNE,_MARATHON-TOREN_-_Amsterdam_-_20279165_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterieur OVERZICHT OOSTZIJDE, MARATHON-TRIBUNE, MARATHON-TOREN - Amsterdam - 20279166 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_OVERZICHT_OOSTZIJDE,_MARATHON-TRIBUNE,_MARATHON-TOREN_-_Amsterdam_-_20279166_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Olympisch stadion Amsterdam Stadiongrachtzijde.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympisch_stadion_Amsterdam_Stadiongrachtzijde.jpg",
+          "author": "Vincent Steenberg",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Olympisch stadion Amsterdam achterzijde.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympisch_stadion_Amsterdam_achterzijde.jpg",
+          "author": "Vincent Steenberg",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Olympic stadium @ Amsterdam (17478832033).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympic_stadium_@_Amsterdam_(17478832033).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Olympic Stadium @ Amsterdam (20017266359).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympic_Stadium_@_Amsterdam_(20017266359).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Amsterdam Olympic stadium (33460392888).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Olympic_stadium_(33460392888).jpg",
+          "author": "Daniel from Glasgow",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Marathontoren 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Marathontoren_2018.jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Marathontoren01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Marathontoren01.jpg",
+          "author": "Vincent Steenberg",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Amsterdam Marathonturm am Olympiastadion E 9074 201810.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Marathonturm_am_Olympiastadion_E_9074_201810.jpg",
+          "author": "Matthias Nonnenmacher",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Olympisch Stadion, Amsterdam, Marathonpoort (2011).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympisch_Stadion,_Amsterdam,_Marathonpoort_(2011).jpg",
+          "author": "Paul Berendsen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Olympic Stadium Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympic_Stadium_Amsterdam.jpg",
+          "author": "24oranges.nl",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/amsterdam-olympic-stadium.glb",
+      "source": "generators/amsterdam-olympic-stadium.ts"
+    },
+    {
       "id": "amsterdam-oude-kerk",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -39586,6 +39698,25 @@
         "way/748997143",
         "way/748997144"
       ]
+    },
+    {
+      "id": "amsterdam-olympic-stadium",
+      "name": "Olympisch Stadion",
+      "model": "amsterdam-olympic-stadium",
+      "place": "amsterdam",
+      "lng": 4.85408,
+      "lat": 52.343488,
+      "bearing": 346.9,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/898908",
+        "way/126786236",
+        "way/126786371",
+        "way/338974687",
+        "way/98662844"
+      ],
+      "wikidata": "Q503319"
     },
     {
       "id": "amsterdam-oude-kerk",
