@@ -19983,6 +19983,79 @@
       "source": "generators/mexico-city-anthropology-museum.ts"
     },
     {
+      "id": "mexico-city-arcos-bosques",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arcos Bosques Corporativo",
+          "url": "https://commons.wikimedia.org/wiki/File:Arcos_Bosques_Corporativo.jpg",
+          "author": "Grandmastermexica97",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Arcos Bosques (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Arcos_Bosques_(1).jpg",
+          "author": "gabofr",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Torre Arcos Bosques",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Arcos_Bosques.jpg",
+          "author": "gabofr",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Sobrevuelos CDMX HJ2A4665",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_HJ2A4665_(26515162908).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Conjunto Arcos Bosques - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Conjunto_Arcos_Bosques_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Arcos building mexico-city",
+          "url": "https://commons.wikimedia.org/wiki/File:Arcos_building_mexico-city.JPG",
+          "author": "Pptudela",
+          "license": "Public domain"
+        },
+        {
+          "title": "Ciudad de México Arcos B",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciudad_de_M%C3%A9xico_Arcos_B.jpg",
+          "author": "Travellete",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-arcos-bosques.glb",
+      "source": "generators/mexico-city-arcos-bosques.ts"
+    },
+    {
       "id": "mexico-city-auditorio-nacional",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -49764,6 +49837,26 @@
         "relation/17310243"
       ],
       "wikidata": "Q524249"
+    },
+    {
+      "id": "mexico-city-arcos-bosques",
+      "name": "Torre Arcos Bosques I",
+      "model": "mexico-city-arcos-bosques",
+      "place": "mexico-city",
+      "lng": -99.251017,
+      "lat": 19.387702,
+      "bearing": 323.4,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/220412303",
+        "way/1137999543",
+        "way/1137999544",
+        "way/1137999545",
+        "way/1172892443",
+        "way/1172892444"
+      ],
+      "wikidata": "Q16641519"
     },
     {
       "id": "mexico-city-auditorio-nacional",
