@@ -20891,6 +20891,55 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "nyc-citizens-savings-bank",
+      "file": "models/nyc-citizens-savings-bank.glb",
+      "license": "CC0-1.0",
+      "source": "generators/nyc-citizens-savings-bank.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "historic",
+        "bank",
+        "neoclassical",
+        "dome"
+      ],
+      "references": [
+        {
+          "title": "Citizen's Savings Bank.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizen%27s_Savings_Bank.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Citizen's Savings Bank (7707794444).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizen%27s_Savings_Bank_(7707794444).jpg",
+          "author": "Eden, Janine and Jim",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Citizens Savings Canal St jeh.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Citizens_Savings_Canal_St_jeh.JPG",
+          "author": "Jim.henderson",
+          "license": "Public domain"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
       "id": "nyc-city-hall",
       "file": "models/nyc-city-hall.glb",
       "license": "CC0-1.0",
@@ -45896,6 +45945,24 @@
         "way/258744608",
         "way/258744609",
         "way/258744612"
+      ],
+      "place": "new-york-area"
+    },
+    {
+      "id": "nyc-citizens-savings-bank",
+      "name": "Citizens Savings Bank (HSBC, 58 Bowery)",
+      "model": "nyc-citizens-savings-bank",
+      "lng": -73.996551,
+      "lat": 40.7161162,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/250266994",
+        "way/870504654",
+        "way/870504655",
+        "way/870504656",
+        "way/870504657"
       ],
       "place": "new-york-area"
     },
