@@ -62,7 +62,7 @@
  * 8 m depth is the commonly published figure, not a measured section.
  */
 import { Part, type V3 } from './mesh'
-import { finish, windowVariant } from './palette'
+import { finish, windowVariant, type Swatch } from './palette'
 import { beam, quadN, save } from './barcelona-arc-de-triomf'
 
 const seats = new Part(), concrete = new Part(), steel = new Part(), glazing = new Part()
@@ -133,7 +133,7 @@ for (const z of [16, 24, 33, 42, 50]) {
 
 await save('barcelona-camp-nou', 'Spotify Camp Nou', [41.380885, 2.122814], 68.4, [
   { part: seats, material: finish('campnou-seats', 0xa45c66) },
-  { part: concrete, material: { ...finish('campnou-concrete', 0xe3e1db), floodlight: (_p, n) => (n[2] > 0.7 ? 0.2 : 0.7) } },
+  { part: concrete, material: { ...finish('campnou-concrete', 0xe3e1db), floodlight: (_p: V3, n: V3) => (n[2] > 0.7 ? 0.2 : 0.7) } as Swatch },
   { part: steel, material: finish('campnou-steel', 0x5b6168) },
   { part: glazing, material: windowVariant(2, 0x8fa3b3) },
 ], 6500)

@@ -60,7 +60,7 @@
  * takes a light wash.
  */
 import { Part, type V3 } from './mesh'
-import { finish, windowVariant } from './palette'
+import { finish, windowVariant, type Swatch } from './palette'
 import { beam, lathe, prismN, quadN, save, type XY } from './barcelona-arc-de-triomf'
 
 const concrete = new Part(), white = new Part(), core = new Part(), cable = new Part(), mast = new Part()
@@ -159,8 +159,8 @@ for (const a of APEX) {
 
 const lit = (p: V3, n: V3) => (p[2] > 18 && p[2] < 210 ? (n[2] > 0.7 ? 0.2 : 0.5) : 0)
 await save('barcelona-torre-collserola', 'Torre de Collserola', [41.417255, 2.114264], 0, [
-  { part: concrete, material: { ...finish('collserola-concrete', 0xd2d3cf), floodlight: lit } },
-  { part: white, material: { ...finish('collserola-white', 0xeff0ee), floodlight: lit } },
+  { part: concrete, material: { ...finish('collserola-concrete', 0xd2d3cf), floodlight: lit } as Swatch },
+  { part: white, material: { ...finish('collserola-white', 0xeff0ee), floodlight: lit } as Swatch },
   { part: core, material: windowVariant(2, 0xb3bec7) },
   { part: cable, material: finish('collserola-cable', 0x5b6168) },
   { part: mast, material: finish('collserola-mast', 0xa9aeb2) },

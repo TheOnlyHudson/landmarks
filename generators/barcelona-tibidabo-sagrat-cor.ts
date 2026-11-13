@@ -68,7 +68,7 @@
  * Night: the upper church, the towers and the statue are floodlit.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { arc, arch, cap, chamfer, circle, course, edges, onWall, pinnacle, prism, rect, rose, save, turned, walls, type XY } from './barcelona-cathedral'
 
 const granite = new Part(), crypt = new Part(), roof = new Part(), win = new Part(), gold = new Part()
@@ -238,9 +238,9 @@ cap(crypt, platform, 0, false)
 
 const lit = (p: V3, n: V3): number => (p[2] > T - 0.5 ? (n[2] > 0.7 ? 0.35 : 1) : 0)
 await save('barcelona-tibidabo-sagrat-cor', 'Temple Expiatori del Sagrat Cor', [41.4221, 2.118801], 162, [
-  { part: granite, material: { ...finish('bcn-tibidabo-granite', 0xe2e1dc), floodlight: lit } },
+  { part: granite, material: { ...finish('bcn-tibidabo-granite', 0xe2e1dc), floodlight: lit } as Swatch },
   { part: crypt, material: finish('bcn-tibidabo-crypt', 0xcfb594) },
   { part: roof, material: PALETTE.roof },
   { part: win, material: PALETTE.window },
-  { part: gold, material: { ...finish('bcn-tibidabo-bronze', 0xc9a55a), floodlight: lit } },
+  { part: gold, material: { ...finish('bcn-tibidabo-bronze', 0xc9a55a), floodlight: lit } as Swatch },
 ], 6500)

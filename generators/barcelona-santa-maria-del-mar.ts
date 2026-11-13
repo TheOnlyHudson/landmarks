@@ -60,7 +60,7 @@
  * Night: the front and towers are floodlit on the Plaça de Santa Maria.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { arc, arch, cap, chamfer, circle, course, edges, hall, onWall, pinnacle, prism, rect, rose, save, turned, walls, type XY } from './barcelona-cathedral'
 
 const stone = new Part(), trim = new Part(), roof = new Part(), win = new Part(), iron = new Part(), door = new Part()
@@ -207,8 +207,8 @@ cap(stone, rect(-XO, -43, XO, FY), 0, false)
 
 const lit = (p: V3, n: V3): number => (p[1] > 30 ? (n[2] > 0.7 ? 0.3 : 1) : 0)
 await save('barcelona-santa-maria-del-mar', 'Santa Maria del Mar', [41.383813, 2.182031], 209.5, [
-  { part: stone, material: { ...finish('bcn-mar-stone', 0xddcdb0), floodlight: lit } },
-  { part: trim, material: { ...finish('bcn-mar-trim', 0xeadcc2), floodlight: lit } },
+  { part: stone, material: { ...finish('bcn-mar-stone', 0xddcdb0), floodlight: lit } as Swatch },
+  { part: trim, material: { ...finish('bcn-mar-trim', 0xeadcc2), floodlight: lit } as Swatch },
   { part: roof, material: finish('bcn-mar-roof', 0xb3a693) },
   { part: win, material: PALETTE.window },
   { part: iron, material: finish('bcn-mar-iron', 0x5d5a55) },

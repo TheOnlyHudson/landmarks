@@ -58,7 +58,7 @@
  * Night: the front and the tower are floodlit.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { arc, arch, cap, chamfer, circle, course, edges, hall, onWall, pinnacle, prism, rect, rose, save, turned, walls, type XY } from './barcelona-cathedral'
 
 const stone = new Part(), tower = new Part(), trim = new Part(), roof = new Part(), win = new Part(), door = new Part()
@@ -199,9 +199,9 @@ cap(stone, rect(X(-XO), -30, X(XO), FY), 0, false)
 
 const lit = (p: V3, n: V3): number => (p[1] > 24 || Math.hypot(p[0] + 10.45, p[1] + 18.45) < 7.5 ? (n[2] > 0.7 ? 0.3 : 1) : 0)
 await save('barcelona-santa-maria-del-pi', 'Santa Maria del Pi', [41.382044, 2.173934], 308, [
-  { part: stone, material: { ...finish('bcn-pi-stone', 0xd8ccb6), floodlight: lit } },
-  { part: tower, material: { ...finish('bcn-pi-tower', 0xdcc7a8), floodlight: lit } },
-  { part: trim, material: { ...finish('bcn-pi-trim', 0xe9dfcc), floodlight: lit } },
+  { part: stone, material: { ...finish('bcn-pi-stone', 0xd8ccb6), floodlight: lit } as Swatch },
+  { part: tower, material: { ...finish('bcn-pi-tower', 0xdcc7a8), floodlight: lit } as Swatch },
+  { part: trim, material: { ...finish('bcn-pi-trim', 0xe9dfcc), floodlight: lit } as Swatch },
   { part: roof, material: finish('bcn-pi-roof', 0xaea392) },
   { part: win, material: PALETTE.window },
   { part: door, material: PALETTE.entrance },

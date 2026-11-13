@@ -49,7 +49,7 @@
  * Night: the restaurant's glazing is lit; the steel takes a light wash.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { beam, ngon, prismN, quadN, save, turned, type XY } from './barcelona-arc-de-triomf'
 
 const steel = new Part(), dark = new Part(), white = new Part(), roof = new Part(), win = new Part()
@@ -157,7 +157,7 @@ for (const s of [1, -1]) beam(white, [-half(6.2), s * half(6.2), 6.2], [half(6.2
 
 const lit = (_p: V3, n: V3) => (n[2] > 0.7 ? 0.2 : 0.5)
 await save('barcelona-torre-jaume-i', 'Torre de Jaume I', [41.372075, 2.18011], 32, [
-  { part: steel, material: { ...finish('jaume-steel', 0x7a8086), floodlight: lit } },
+  { part: steel, material: { ...finish('jaume-steel', 0x7a8086), floodlight: lit } as Swatch },
   { part: dark, material: finish('jaume-cabin', 0x4d535b) },
   { part: white, material: finish('jaume-white', 0xe6e5e0) },
   { part: roof, material: finish('jaume-roof', 0xbab6ad) },

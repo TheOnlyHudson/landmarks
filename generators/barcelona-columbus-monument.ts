@@ -55,7 +55,7 @@
  * Night: the base and the column are floodlit.
  */
 import { Part, type V3 } from './mesh'
-import { finish } from './palette'
+import { finish, type Swatch } from './palette'
 import { beam, lathe, ngon, prismN, quadN, relief, save, triN, turned, type XY } from './barcelona-arc-de-triomf'
 
 const stone = new Part(), iron = new Part(), bronze = new Part(), gilt = new Part()
@@ -178,8 +178,8 @@ turned(iron, 0, 0, [[0, 49.7], [0.75, 49.7], [0.8, 50.6], [0, 50.6]], 8)
 
 const lit = (p: V3, n: V3) => (p[2] < 45 ? (n[2] > 0.7 ? 0.3 : 1) : 0.5)
 await save('barcelona-columbus-monument', 'Columbus Monument', [41.375803, 2.177774], 0, [
-  { part: stone, material: { ...finish('colom-stone', 0xd9c7a8), floodlight: lit } },
-  { part: iron, material: { ...finish('colom-iron', 0x5e5a54), floodlight: lit } },
-  { part: bronze, material: { ...finish('colom-bronze', 0x6f7a68), floodlight: lit } },
-  { part: gilt, material: { ...finish('colom-gilt', 0xb39459), floodlight: lit } },
+  { part: stone, material: { ...finish('colom-stone', 0xd9c7a8), floodlight: lit } as Swatch },
+  { part: iron, material: { ...finish('colom-iron', 0x5e5a54), floodlight: lit } as Swatch },
+  { part: bronze, material: { ...finish('colom-bronze', 0x6f7a68), floodlight: lit } as Swatch },
+  { part: gilt, material: { ...finish('colom-gilt', 0xb39459), floodlight: lit } as Swatch },
 ])

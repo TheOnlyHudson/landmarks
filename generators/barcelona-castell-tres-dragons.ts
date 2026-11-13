@@ -66,7 +66,7 @@
  * Night: the brick is floodlit from the park.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { arcPts, away, beam, cap, face, quadN, triN, lathe, ngon, onWall, prismN, rect, relief, save, turned, type XY } from './barcelona-arc-de-triomf'
 
 const brick = new Part(), ceramic = new Part(), cream = new Part(), roof = new Part(), win = new Part(), iron = new Part()
@@ -211,9 +211,9 @@ sideWindows([13.6, -14.2], [13.6, 17.4], 1, 28.8, 21.5) // the south-east side
 
 const lit = (_p: V3, n: V3) => (n[2] > 0.7 ? 0.3 : 0.9)
 await save('barcelona-castell-tres-dragons', 'Castell dels Tres Dragons', [41.388082, 2.183352], 46.4, [
-  { part: brick, material: { ...finish('dragons-brick', 0xb0705a), floodlight: lit } },
-  { part: ceramic, material: { ...finish('dragons-ceramic', 0xe8e6e0), floodlight: lit } },
-  { part: cream, material: { ...finish('dragons-cream', 0xdcc48e), floodlight: lit } },
+  { part: brick, material: { ...finish('dragons-brick', 0xb0705a), floodlight: lit } as Swatch },
+  { part: ceramic, material: { ...finish('dragons-ceramic', 0xe8e6e0), floodlight: lit } as Swatch },
+  { part: cream, material: { ...finish('dragons-cream', 0xdcc48e), floodlight: lit } as Swatch },
   { part: roof, material: finish('dragons-roof', 0xc4917a) },
   { part: win, material: PALETTE.window },
   { part: iron, material: finish('dragons-iron', 0x4f5763) },

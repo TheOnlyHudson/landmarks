@@ -63,7 +63,7 @@
  * Night: the facades and the tower are floodlit.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { arcPts, away, face, lathe, ngon, onWall, prismN, quadN, relief, save, triN, turned, type XY } from './barcelona-arc-de-triomf'
 
 const brick = new Part(), stone = new Part(), tile = new Part(), ceramic = new Part(), win = new Part()
@@ -229,9 +229,9 @@ for (const s of [1, -1]) {
 
 const lit = (p: V3, n: V3) => (n[2] > 0.7 ? 0.3 : p[1] < 8 || p[2] > 24 ? 1 : 0.6)
 await save('barcelona-sant-pau-administration', 'Sant Pau Administration Pavilion', [41.411802, 2.17434], 0, [
-  { part: brick, material: { ...finish('pau-brick', 0xc77e64), floodlight: lit } },
-  { part: stone, material: { ...finish('pau-stone', 0xe4d6bb), floodlight: lit } },
+  { part: brick, material: { ...finish('pau-brick', 0xc77e64), floodlight: lit } as Swatch },
+  { part: stone, material: { ...finish('pau-stone', 0xe4d6bb), floodlight: lit } as Swatch },
   { part: tile, material: finish('pau-tile', 0xb2654f) },
-  { part: ceramic, material: { ...finish('pau-ceramic', 0x6fa5a6), floodlight: lit } },
+  { part: ceramic, material: { ...finish('pau-ceramic', 0x6fa5a6), floodlight: lit } as Swatch },
   { part: win, material: PALETTE.window },
 ])
