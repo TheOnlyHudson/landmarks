@@ -17608,6 +17608,80 @@
       "source": "generators/istanbul-bulgarian-church.ts"
     },
     {
+      "id": "istanbul-fatih-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fatih Camii - Aerial view",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Camii_-_Aerial_view.jpg",
+          "author": "Carlos Delgado",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Sultan Muhammet Fatih camii (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:Sultan_Muhammet_Fatih_camii_(cropped).jpg",
+          "author": "Ezzeldin.Elbaksawy",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fatih camii DSCF6840",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_camii_DSCF6840.jpg",
+          "author": "Robert Prazeres",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fatih camii DSCF6684",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_camii_DSCF6684.jpg",
+          "author": "Robert Prazeres",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fatih camii DSCF6760",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_camii_DSCF6760.jpg",
+          "author": "Robert Prazeres",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fatih camii DSCF3849",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_camii_DSCF3849.jpg",
+          "author": "Robert Prazeres",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fatih Camii (Külliye)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Camii_(K%C3%BClliye).JPG",
+          "author": "SeyyahLatif",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/istanbul-fatih-mosque.glb",
+      "source": "generators/istanbul-fatih-mosque.ts"
+    },
+    {
       "id": "istanbul-galata-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46445,6 +46519,23 @@
       "wikidata": "Q2094950",
       "replaces": [
         "way/175519383"
+      ]
+    },
+    {
+      "id": "istanbul-fatih-mosque",
+      "name": "Fatih Mosque",
+      "model": "istanbul-fatih-mosque",
+      "place": "istanbul",
+      "lng": 28.949762,
+      "lat": 41.019748,
+      "bearing": 322.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q756189",
+      "replaces": [
+        "relation/1661399",
+        "relation/4277472",
+        "relation/4277469"
       ]
     },
     {
