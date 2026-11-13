@@ -200,6 +200,8 @@ Review the renders against the photos before merging. The commands live in
   are built.
 - [`docs/workflow.md`](docs/workflow.md): the full process for a batch of
   20 to 50 models, start to finish.
+- [`docs/bridge-heights.md`](docs/bridge-heights.md): checking a bridge's
+  roadway heights against lidar and correcting them in OSM.
 
 ## Licence
 
