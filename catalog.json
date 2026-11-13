@@ -35788,6 +35788,83 @@
       ],
       "file": "models/dubai-emirates-office-tower.glb",
       "source": "generators/dubai-emirates-office-tower.ts"
+    },
+    {
+      "id": "dubai-emirates-hotel-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Emirates Towers in Dubai at dawn.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_in_Dubai_at_dawn.jpg",
+          "author": "Jackardsiffant",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Emirates Towers - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_-_panoramio.jpg",
+          "author": "Aidas U.",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Emirates Towers - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_-_panoramio_(1).jpg",
+          "author": "Aidas U.",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Emirates Towers (4128598985).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_(4128598985).jpg",
+          "author": "Leandro Neumann Ciuffo",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Emirates Towers (9343061234).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_(9343061234).jpg",
+          "author": "ADTeasdale",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Emirates Towers Shk Zayed Road.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_Shk_Zayed_Road.jpg",
+          "author": "Ahmed Al Habesh",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dub-emtow.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dub-emtow.jpg",
+          "author": "Bgabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Emirates towers.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_towers.jpg",
+          "author": "Mujeebpully",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dubai-emirates-hotel-tower.glb",
+      "source": "generators/dubai-emirates-hotel-tower.ts"
     }
   ],
   "landmarks": [
@@ -52757,6 +52834,32 @@
         "way/393391115"
       ],
       "wikidata": "Q845182"
+    },
+    {
+      "id": "dubai-emirates-hotel-tower",
+      "name": "Jumeirah Emirates Towers Hotel",
+      "model": "dubai-emirates-hotel-tower",
+      "place": "dubai",
+      "lng": 55.2823759,
+      "lat": 25.2175816,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/393391114",
+        "way/1001192974",
+        "way/1001192975",
+        "way/1001192976",
+        "way/1001192977",
+        "way/1001192978",
+        "way/1001192979",
+        "way/1001192980",
+        "way/1001192981",
+        "way/1001192982",
+        "way/1001192983",
+        "way/1001192984"
+      ],
+      "wikidata": "Q1049027"
     }
   ],
   "places": [
