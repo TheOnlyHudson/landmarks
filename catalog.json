@@ -43613,6 +43613,60 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "seoul-63-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "63 Building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:63_Building.jpg",
+          "author": "Sebastian Hoering",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "63 Building from Yongsan Station.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:63_Building_from_Yongsan_Station.jpg",
+          "author": "Ox1997cow",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hangang Bus 63 Building 20250918 (03).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hangang_Bus_63_Building_20250918_(03).jpg",
+          "author": "Republic of Korea",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "63 Building Blacked Out.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:63_Building_Blacked_Out.jpg",
+          "author": "Ox1997cow",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/seoul-63-building.glb",
+      "source": "generators/seoul-63-building.ts"
+    },
+    {
       "id": "seoul-fki-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65214,6 +65268,30 @@
         "way/770565573"
       ],
       "place": "seattle-area"
+    },
+    {
+      "id": "seoul-63-building",
+      "name": "63 Building",
+      "model": "seoul-63-building",
+      "place": "seoul",
+      "lng": 126.940251,
+      "lat": 37.519849,
+      "bearing": 51.8,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/64989671",
+        "way/463188395",
+        "way/463188396",
+        "way/463188397",
+        "way/463384207",
+        "way/463384208",
+        "way/463384209",
+        "way/385228664",
+        "way/463613650",
+        "way/463613651",
+        "way/463613652"
+      ]
     },
     {
       "id": "seoul-fki-tower",
