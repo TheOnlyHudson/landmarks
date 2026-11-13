@@ -22635,6 +22635,81 @@
       "source": "generators/mexico-city-torre-reforma.ts"
     },
     {
+      "id": "mexico-city-unam-central-library",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "library",
+        "university",
+        "mural",
+        "modernist",
+        "unesco"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "CU-Mexico-biblioteca-2",
+          "url": "https://commons.wikimedia.org/wiki/File:CU-Mexico-biblioteca-2.jpg",
+          "author": "Régis Lachaume",
+          "license": "Public domain"
+        },
+        {
+          "title": "Biblioteca Central de la UNAM (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Central_de_la_UNAM.jpg",
+          "author": "Esparta Palma",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Remate de la Biblioteca Central de la UNAM 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Remate_de_la_Biblioteca_Central_de_la_UNAM_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Biblioteca Central de la UNAM, ArmAg",
+          "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Central_de_la_UNAM,_ArmAg.JPG",
+          "author": "Armineaghayan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Biblioteca Central, UNAM",
+          "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Central,_UNAM.JPG",
+          "author": "Muñoz LC",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Biblioteca Central de la UNAM - 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Central_de_la_UNAM_-_2019.jpg",
+          "author": "Andrea Juárez",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Biblioteca Central de la Universidad Nacional Autónoma de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Central_de_la_Universidad_Nacional_Aut%C3%B3noma_de_M%C3%A9xico.jpg",
+          "author": "Armando Olivo Martín del Campo",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-unam-central-library.glb",
+      "source": "generators/mexico-city-unam-central-library.ts"
+    },
+    {
       "id": "milestone-club",
       "file": "models/milestone-club.glb",
       "license": "CC0-1.0",
@@ -50017,6 +50092,25 @@
         "way/217330154"
       ],
       "wikidata": "Q3433389"
+    },
+    {
+      "id": "mexico-city-unam-central-library",
+      "name": "Biblioteca Central UNAM",
+      "model": "mexico-city-unam-central-library",
+      "place": "mexico-city",
+      "lng": -99.187331,
+      "lat": 19.3334,
+      "bearing": 354,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/437171951",
+        "way/1173176555",
+        "way/1173176556",
+        "way/1173176557",
+        "way/1173176558"
+      ],
+      "wikidata": "Q5061367"
     },
     {
       "id": "milestone-club",
