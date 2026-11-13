@@ -25628,6 +25628,68 @@
       "source": "generators/london-lloyds-building.ts"
     },
     {
+      "id": "london-one-blackfriars",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "residential",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q2893700",
+      "references": [
+        {
+          "title": "One Blackfriars, 2023",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Blackfriars,_2023.jpg",
+          "author": "Thomas Dahlstrøm Nielsen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "London Blackfriars Railway Bridge and One Blackfriars seen from Millennium Bridge",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Blackfriars_Railway_Bridge_and_One_Blackfriars_seen_from_Millennium_Bridge.jpg",
+          "author": "Ymblanter",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "One Blackfriars, London as seen from the Thames (2026)",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Blackfriars,_London_as_seen_from_the_Thames_(2026).jpg",
+          "author": "ThatsTheBoss",
+          "license": "CC0"
+        },
+        {
+          "title": "One Blackfriars 1",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Blackfriars_1.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "One Blackfriars, OXO Tower, Shard, South Bank Tower and 240 Blackfriars Road",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Blackfriars,_OXO_Tower,_Shard,_South_Bank_Tower_and_240_Blackfriars_Road.jpg",
+          "author": "Acabashi",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/london-one-blackfriars.glb",
+      "source": "generators/london-one-blackfriars.ts"
+    },
+    {
       "id": "london-one-canada-square",
       "file": "models/london-one-canada-square.glb",
       "source": "generators/london-one-canada-square.ts",
@@ -55599,6 +55661,49 @@
         "way/445330148"
       ],
       "wikidata": "Q1814818"
+    },
+    {
+      "id": "london-one-blackfriars",
+      "name": "One Blackfriars",
+      "model": "london-one-blackfriars",
+      "place": "london",
+      "lng": -0.1048636,
+      "lat": 51.5078651,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/389881291",
+        "way/771700358",
+        "way/771700359",
+        "way/771700360",
+        "way/771700361",
+        "way/771700362",
+        "way/771700363",
+        "way/771700364",
+        "way/771700365",
+        "way/771700366",
+        "way/771700367",
+        "way/771700368",
+        "way/771700369",
+        "way/771700370",
+        "way/771700371",
+        "way/771700372",
+        "way/771700373",
+        "way/771700374",
+        "way/771700375",
+        "way/771700376",
+        "way/771700377",
+        "way/771700378",
+        "way/771700379",
+        "way/771700380",
+        "way/771700381",
+        "way/771700382",
+        "way/771700383",
+        "way/771700384",
+        "way/771700385"
+      ],
+      "wikidata": "Q2893700"
     },
     {
       "id": "london-one-canada-square",
