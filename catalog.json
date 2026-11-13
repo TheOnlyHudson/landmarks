@@ -6547,6 +6547,81 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "barcelona-cathedral",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "cathedral",
+        "church",
+        "gothic",
+        "gothic-revival",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Façana principal de la Catedral de Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ana_principal_de_la_Catedral_de_Barcelona.jpg",
+          "author": "Matrixlanau",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Catedral de Barcelona, vista desde Plaça Nova.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_de_Barcelona,_vista_desde_Pla%C3%A7a_Nova.jpg",
+          "author": "Simon Burchell",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona Cathedral from Carrer dels Comtes 01.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_Cathedral_from_Carrer_dels_Comtes_01.JPG",
+          "author": "Simon Burchell",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona 2016-218.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_2016-218.jpg",
+          "author": "Victor Grigas",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona Cathedral - Roof of Cathedral.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_Cathedral_-_Roof_of_Cathedral.jpg",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torres i cimbori catedral Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torres_i_cimbori_catedral_Barcelona.jpg",
+          "author": "Pere López",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Catedral Barcelona (0).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_Barcelona_(0).JPG",
+          "author": "MarisaLR",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/barcelona-cathedral.glb",
+      "source": "generators/barcelona-cathedral.ts"
+    },
+    {
       "id": "barcelona-sagrada-familia",
       "detail": "models/barcelona-sagrada-familia.detail.glb",
       "detailZoom": 16,
@@ -42525,6 +42600,35 @@
         "relation/17917766"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "barcelona-cathedral",
+      "name": "Barcelona Cathedral",
+      "model": "barcelona-cathedral",
+      "place": "barcelona",
+      "lng": 2.17636,
+      "lat": 41.38391,
+      "bearing": 313,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/3298476",
+        "way/305857549",
+        "way/305857551",
+        "way/305857552",
+        "way/305857553",
+        "way/305857554",
+        "way/305857555",
+        "way/305857557",
+        "way/305857558",
+        "way/305857559",
+        "way/305857560",
+        "way/305857563",
+        "way/305857564",
+        "way/305857565",
+        "way/1075852646"
+      ],
+      "wikidata": "Q17155"
     },
     {
       "id": "barcelona-sagrada-familia",
