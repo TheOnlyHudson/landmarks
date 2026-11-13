@@ -7015,6 +7015,62 @@
       "source": "generators/barcelona-hotel-w.ts"
     },
     {
+      "id": "barcelona-montjuic-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "communications-tower",
+        "modern",
+        "olympic",
+        "calatrava"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre de comunicacions de Montjuïc 2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_comunicacions_de_Montju%C3%AFc_2010.jpg",
+          "author": "Gabriel GG.",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Barcelona - Montjuïc - Anella Olímpica - 1992 Summer Olympics site - View West on Torre de comunicacions de Montjuïc 1992 by Santiago Calatrava.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Anella_Ol%C3%ADmpica_-_1992_Summer_Olympics_site_-_View_West_on_Torre_de_comunicacions_de_Montju%C3%AFc_1992_by_Santiago_Calatrava.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Montjuïc - Anella Olímpica - View SW on Palau Sant Jordi & Torre de comunicacions de Montjuïc 1992 by Santiago Calatrava.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Anella_Ol%C3%ADmpica_-_View_SW_on_Palau_Sant_Jordi_%26_Torre_de_comunicacions_de_Montju%C3%AFc_1992_by_Santiago_Calatrava.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "204 Torre de comunicacions de Montjuïc, Esplanada Olímpica (Barcelona).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:204_Torre_de_comunicacions_de_Montju%C3%AFc,_Esplanada_Ol%C3%ADmpica_(Barcelona).jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-montjuic-tower.glb",
+      "source": "generators/barcelona-montjuic-tower.ts"
+    },
+    {
       "id": "barcelona-palau-musica",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -43801,6 +43857,21 @@
         "way/1123150013"
       ],
       "wikidata": "Q2648632"
+    },
+    {
+      "id": "barcelona-montjuic-tower",
+      "name": "Torre de Comunicacions de Montjuïc",
+      "model": "barcelona-montjuic-tower",
+      "place": "barcelona",
+      "lng": 2.150607,
+      "lat": 41.364279,
+      "bearing": 330,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/163393541"
+      ],
+      "wikidata": "Q202530"
     },
     {
       "id": "barcelona-palau-musica",
