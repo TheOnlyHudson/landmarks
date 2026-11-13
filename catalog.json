@@ -19910,6 +19910,79 @@
       "source": "generators/mexico-city-angel-de-la-independencia.ts"
     },
     {
+      "id": "mexico-city-anthropology-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modernist",
+        "courtyard"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vista aérea del Museo Nacional de Antropología de México 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Museo_Nacional_de_Antropolog%C3%ADa_de_M%C3%A9xico_2.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista aérea del Museo Nacional de Antropología de México 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Museo_Nacional_de_Antropolog%C3%ADa_de_M%C3%A9xico_3.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista aérea del Museo Nacional de Antropología de México 4",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Museo_Nacional_de_Antropolog%C3%ADa_de_M%C3%A9xico_4.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista aérea del Museo Nacional de Antropología de México 5",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Museo_Nacional_de_Antropolog%C3%ADa_de_M%C3%A9xico_5.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Museo Nacional de Antropología (El Paragua) (8263441535)",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Antropolog%C3%ADa_(El_Paragua)_(8263441535).jpg",
+          "author": "Rob Young",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Museo Nacional de Antropología (46734417554)",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Antropolog%C3%ADa_(46734417554).jpg",
+          "author": "Nan Palmero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Paraguas del Museo Nacional de Antropología",
+          "url": "https://commons.wikimedia.org/wiki/File:Paraguas_del_Museo_Nacional_de_Antropolog%C3%ADa.jpg",
+          "author": "opheliarossetti",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-anthropology-museum.glb",
+      "source": "generators/mexico-city-anthropology-museum.ts"
+    },
+    {
       "id": "mexico-city-carlos-iv",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -48493,6 +48566,23 @@
         "way/176477230"
       ],
       "wikidata": "Q928541"
+    },
+    {
+      "id": "mexico-city-anthropology-museum",
+      "name": "Museo Nacional de Antropología",
+      "model": "mexico-city-anthropology-museum",
+      "place": "mexico-city",
+      "lng": -99.1864177,
+      "lat": 19.4260625,
+      "bearing": 9.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/433753690",
+        "way/433753691",
+        "relation/17310243"
+      ],
+      "wikidata": "Q524249"
     },
     {
       "id": "mexico-city-carlos-iv",
