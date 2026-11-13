@@ -25115,6 +25115,81 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "london-bt-tower",
+      "file": "models/london-bt-tower.glb",
+      "source": "generators/london-bt-tower.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "communications-tower",
+        "modernist",
+        "listed",
+        "landmark-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The 1965 Post Office Tower: a slender glazed cylinder with open antenna galleries round its core, the former revolving-restaurant tiers and the BT LED screen ring near the top.",
+      "references": [
+        {
+          "title": "1350342 II BT COMMUNICATION TOWER, CLEVELAND MEWS Camden London 20250612_0003.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1350342_II_BT_COMMUNICATION_TOWER,_CLEVELAND_MEWS_Camden_London_20250612_0003.jpg",
+          "author": "Tilman2007",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "London - BT Tower - geograph.org.uk - 7763429.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:London_-_BT_Tower_-_geograph.org.uk_-_7763429.jpg",
+          "author": "Colin Smith",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "BT Tower - geograph.org.uk - 2791557.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BT_Tower_-_geograph.org.uk_-_2791557.jpg",
+          "author": "Colin Smith",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "BT Tower-1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BT_Tower-1.jpg",
+          "author": "David Castor",
+          "license": "Public domain"
+        },
+        {
+          "title": "BT Tower - geograph.org.uk - 3249532.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BT_Tower_-_geograph.org.uk_-_3249532.jpg",
+          "author": "Mr Biz",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "BT Tower, viewed from Whitfield Gardens.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BT_Tower,_viewed_from_Whitfield_Gardens.jpg",
+          "author": "Robert-brook",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "BT Tower in London 2014.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BT_Tower_in_London_2014.jpg",
+          "author": "James Kevin McMahon",
+          "license": "CC-BY-SA-4.0"
+        }
+      ]
+    },
+    {
       "id": "london-leadenhall-building",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -54334,6 +54409,29 @@
         "way/1416423924"
       ],
       "place": "los-angeles-area"
+    },
+    {
+      "id": "london-bt-tower",
+      "name": "BT Tower",
+      "model": "london-bt-tower",
+      "place": "london",
+      "lng": -0.1388019,
+      "lat": 51.5214431,
+      "bearing": 328,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q797085",
+      "replaces": [
+        "way/5022282",
+        "way/331901551",
+        "way/331901552",
+        "way/331903528",
+        "way/331903529",
+        "way/331903530",
+        "way/331903531",
+        "way/331901553",
+        "way/192156427"
+      ]
     },
     {
       "id": "london-leadenhall-building",
