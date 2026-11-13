@@ -19904,6 +19904,67 @@
       "source": "generators/istanbul-suleymaniye.ts"
     },
     {
+      "id": "istanbul-taksim-republic-monument",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "monument",
+        "sculpture",
+        "memorial"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Monument of the Republic - Taksim (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_of_the_Republic_-_Taksim_(1).jpg",
+          "author": "Kurmanbek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monument of the Republic - Taksim (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_of_the_Republic_-_Taksim_(2).jpg",
+          "author": "Kurmanbek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monument of the Republic, Istanbul, Taksim (48985971192)",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_of_the_Republic,_Istanbul,_Taksim_(48985971192).jpg",
+          "author": "Julien Maury",
+          "license": "Public domain"
+        },
+        {
+          "title": "Monument of the Republic in Taksim, Istanbul 29.10.2023 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_of_the_Republic_in_Taksim,_Istanbul_29.10.2023_01.jpg",
+          "author": "Wiki leylek",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Monument of the Republic, Istanbul 2014 (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_of_the_Republic,_Istanbul_2014_(2).jpg",
+          "author": "Radosław Botev",
+          "license": "CC BY 3.0 pl"
+        }
+      ],
+      "file": "models/istanbul-taksim-republic-monument.glb",
+      "source": "generators/istanbul-taksim-republic-monument.ts"
+    },
+    {
       "id": "istanbul-topkapi-imperial-gate",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -48381,6 +48442,19 @@
         "way/642004950",
         "way/642004951"
       ]
+    },
+    {
+      "id": "istanbul-taksim-republic-monument",
+      "name": "Republic Monument",
+      "model": "istanbul-taksim-republic-monument",
+      "place": "istanbul",
+      "lng": 28.985118,
+      "lat": 41.036999,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q1143790",
+      "replaces": []
     },
     {
       "id": "istanbul-topkapi-imperial-gate",
