@@ -7388,6 +7388,61 @@
       "source": "generators/barcelona-torre-glories.ts"
     },
     {
+      "id": "barcelona-torre-mapfre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hotel Arts i Torre Mapfre des del mar.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Arts_i_Torre_Mapfre_des_del_mar.jpg",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Hotel Arts y Torre Mapre 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Hotel_Arts_y_Torre_Mapre_01.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        },
+        {
+          "title": "Torre Mapfre Barcelona corregida.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mapfre_Barcelona_corregida.jpg",
+          "author": "Imelenchon",
+          "license": "CC0"
+        },
+        {
+          "title": "Barcelona - Torre Mapfre 11.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Torre_Mapfre_11.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/barcelona-torre-mapfre.glb",
+      "source": "generators/barcelona-torre-mapfre.ts"
+    },
+    {
       "id": "beatties-ford-water-tower",
       "file": "models/beatties-ford-water-tower.glb",
       "license": "CC0-1.0",
@@ -43590,6 +43645,22 @@
         "way/44213122"
       ],
       "wikidata": "Q336246"
+    },
+    {
+      "id": "barcelona-torre-mapfre",
+      "name": "Torre Mapfre",
+      "model": "barcelona-torre-mapfre",
+      "place": "barcelona",
+      "lng": 2.19735,
+      "lat": 41.38778,
+      "bearing": 45,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/54747170",
+        "way/308013864"
+      ],
+      "wikidata": "Q568353"
     },
     {
       "id": "beatties-ford-water-tower",
