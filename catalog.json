@@ -17526,6 +17526,74 @@
       "source": "generators/istanbul-ataturk-cultural-center.ts"
     },
     {
+      "id": "istanbul-ataturk-olympic-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "athletics",
+        "stadium",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Istanbul Ataturk Olympic Stadium",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Ataturk_Olympic_Stadium.JPG",
+          "author": "Bjørn Christian Tørrissen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Atatürk Olympic Stadium view from east 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_Olympic_Stadium_view_from_east_2026.jpg",
+          "author": "Zach1055",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atatürk Olimpiyat Stadyumu'14 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_Olimpiyat_Stadyumu%2714_1.JPG",
+          "author": "Ultraslansi",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Istanbul Atatürk Olympic Stadium 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Atat%C3%BCrk_Olympic_Stadium_1.jpg",
+          "author": "Валерий Дед",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Istanbul Atatürk Olympic Stadium 4",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Atat%C3%BCrk_Olympic_Stadium_4.jpg",
+          "author": "Валерий Дед",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Istanbul Atatürk Olympic Stadium 5",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Atat%C3%BCrk_Olympic_Stadium_5.jpg",
+          "author": "Валерий Дед",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/istanbul-ataturk-olympic-stadium.glb",
+      "source": "generators/istanbul-ataturk-olympic-stadium.ts"
+    },
+    {
       "id": "istanbul-beyazit-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47831,6 +47899,23 @@
       "wikidata": "Q551685",
       "replaces": [
         "way/1033333873"
+      ]
+    },
+    {
+      "id": "istanbul-ataturk-olympic-stadium",
+      "name": "Atatürk Olympic Stadium",
+      "model": "istanbul-ataturk-olympic-stadium",
+      "place": "istanbul",
+      "lng": 28.765662,
+      "lat": 41.074474,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q221122",
+      "replaces": [
+        "relation/1661301",
+        "way/35875788",
+        "way/35875800"
       ]
     },
     {
