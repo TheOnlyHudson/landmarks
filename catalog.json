@@ -22316,6 +22316,78 @@
       "source": "generators/mexico-city-palacio-postal.ts"
     },
     {
+      "id": "mexico-city-plaza-mexico",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "bullring",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mexico city Monumental Plaza de Toros México.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_city_Monumental_Plaza_de_Toros_M%C3%A9xico.JPG",
+          "author": "Arne Müseler",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "Mexico city Estadio Ciudad de los Deportes Monumental Plaza de Toros México.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_city_Estadio_Ciudad_de_los_Deportes_Monumental_Plaza_de_Toros_M%C3%A9xico.JPG",
+          "author": "Arne Müseler",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "Interior de la Monumental Plaza de Toros México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Interior_de_la_Monumental_Plaza_de_Toros_M%C3%A9xico.jpg",
+          "author": "Mario Yaír TS",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "EntrancePlazaTorosDF.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:EntrancePlazaTorosDF.JPG",
+          "author": "AlejandroLinaresGarcia",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Main entrance - Plaza Mexico.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_entrance_-_Plaza_Mexico.jpg",
+          "author": "Jorge De la Vega",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "La Plaza Mexico view.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:La_Plaza_Mexico_view.jpg",
+          "author": "Jorge De la Vega",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Plaza México - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Plaza_M%C3%A9xico_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-plaza-mexico.glb",
+      "source": "generators/mexico-city-plaza-mexico.ts"
+    },
+    {
       "id": "mexico-city-san-hipolito",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -50633,6 +50705,21 @@
         "way/157051114"
       ],
       "wikidata": "Q978161"
+    },
+    {
+      "id": "mexico-city-plaza-mexico",
+      "name": "Plaza México",
+      "model": "mexico-city-plaza-mexico",
+      "place": "mexico-city",
+      "lng": -99.180102,
+      "lat": 19.3829771,
+      "bearing": 0,
+      "elevation": -20,
+      "minzoom": 15,
+      "wikidata": "Q2525012",
+      "replaces": [
+        "relation/8726671"
+      ]
     },
     {
       "id": "mexico-city-san-hipolito",
