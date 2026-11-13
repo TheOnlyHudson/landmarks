@@ -21878,6 +21878,80 @@
       "source": "generators/mexico-city-san-hipolito.ts"
     },
     {
+      "id": "mexico-city-santiago-tlatelolco",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "religious",
+        "church",
+        "colonial",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Tlatelolco e iglesia de Santiago Tlatelolco, México D.F., México, 2013-10-16, DD 22.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tlatelolco_e_iglesia_de_Santiago_Tlatelolco,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2013-10-16,_DD_22.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Tlatelolco e iglesia de Santiago Tlatelolco, México D.F., México, 2013-10-16, DD 25.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Tlatelolco_e_iglesia_de_Santiago_Tlatelolco,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2013-10-16,_DD_25.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Vista aérea de la Zona Arqueológica de Tlatelolco.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Zona_Arqueol%C3%B3gica_de_Tlatelolco.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Iglesia de Tlatelolco.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Tlatelolco.jpg",
+          "author": "Socrackdown",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de Santiago Tlatelolco (vista lateral) 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_Santiago_Tlatelolco_(vista_lateral)_01.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fachada del Templo de Santiago Tlatelolco 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fachada_del_Templo_de_Santiago_Tlatelolco_02.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tlatelolco Templo de Santiago.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tlatelolco_Templo_de_Santiago.jpg",
+          "author": "Karycocco",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-santiago-tlatelolco.glb",
+      "source": "generators/mexico-city-santiago-tlatelolco.ts"
+    },
+    {
       "id": "mexico-city-santo-domingo",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -49397,6 +49471,20 @@
       "wikidata": "Q215151",
       "replaces": [
         "way/1427820319"
+      ]
+    },
+    {
+      "id": "mexico-city-santiago-tlatelolco",
+      "name": "Templo de Santiago Tlatelolco",
+      "model": "mexico-city-santiago-tlatelolco",
+      "place": "mexico-city",
+      "lng": -99.136655,
+      "lat": 19.451126,
+      "bearing": 10.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/1298615719"
       ]
     },
     {
