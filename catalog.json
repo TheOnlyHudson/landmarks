@@ -7065,6 +7065,61 @@
       "source": "generators/barcelona-hotel-w.ts"
     },
     {
+      "id": "barcelona-mnac",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "museum",
+        "palace"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Palau Nacional, Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_Nacional,_Barcelona.jpg",
+          "author": "Juanedc from Zaragoza, España",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "(Barcelona) Palau Nacional - National Museum of Art of Catalunya.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Palau_Nacional_-_National_Museum_of_Art_of_Catalunya.jpg",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "093 El Palau Nacional des del Castell de Montjuïc (Barcelona).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:093_El_Palau_Nacional_des_del_Castell_de_Montju%C3%AFc_(Barcelona).jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Montjuïc - Mirador del Palau Nacional - View East on Palau Nacional 1929 by Eugeni Pere Cendoya & Enric Català i Català under the supervision of Pere Domènech i Roura.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Mirador_del_Palau_Nacional_-_View_East_on_Palau_Nacional_1929_by_Eugeni_Pere_Cendoya_%26_Enric_Cat%C3%A0_i_Cat%C3%A0_under_the_supervision_of_Pere_Dom%C3%A8nech_i_Roura.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-mnac.glb",
+      "source": "generators/barcelona-mnac.ts"
+    },
+    {
       "id": "barcelona-montjuic-castle",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -44051,6 +44106,36 @@
         "way/1123150013"
       ],
       "wikidata": "Q2648632"
+    },
+    {
+      "id": "barcelona-mnac",
+      "name": "Palau Nacional (MNAC)",
+      "model": "barcelona-mnac",
+      "place": "barcelona",
+      "lng": 2.153616,
+      "lat": 41.368364,
+      "bearing": 333,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/21195792",
+        "way/214445439",
+        "way/214445442",
+        "way/214445445",
+        "way/214445446",
+        "way/214445447",
+        "way/214445448",
+        "way/666599310",
+        "way/666599312",
+        "way/666599313",
+        "way/666599314",
+        "way/666599319",
+        "way/666599320",
+        "way/666599321",
+        "way/666599336",
+        "way/666599338"
+      ],
+      "wikidata": "Q2341107"
     },
     {
       "id": "barcelona-montjuic-castle",
