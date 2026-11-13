@@ -8043,6 +8043,68 @@
       "source": "generators/barcelona-tibidabo-sagrat-cor.ts"
     },
     {
+      "id": "barcelona-torre-collserola",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "telecommunications",
+        "guyed-tower",
+        "high-tech",
+        "viewpoint"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre de Collserola 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Collserola_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Barcelona - Torre de Collserola from Tibidabo.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Torre_de_Collserola_from_Tibidabo.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre de Collserola from Tibidabo.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Collserola_from_Tibidabo.jpg",
+          "author": "Jaipasdepseudo",
+          "license": "CC0"
+        },
+        {
+          "title": "Torre de Collserola in 2026.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Collserola_in_2026.jpg",
+          "author": "Bravodelnorte",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre de Collserola - 002.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Collserola_-_002.jpg",
+          "author": "Mutari",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/barcelona-torre-collserola.glb",
+      "source": "generators/barcelona-torre-collserola.ts"
+    },
+    {
       "id": "barcelona-torre-glories",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -44804,6 +44866,26 @@
         "way/387589500"
       ],
       "wikidata": "Q1189293"
+    },
+    {
+      "id": "barcelona-torre-collserola",
+      "name": "Torre de Collserola",
+      "model": "barcelona-torre-collserola",
+      "place": "barcelona",
+      "lng": 2.114264,
+      "lat": 41.417255,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "relation/20725097",
+        "way/305960310",
+        "way/305960311",
+        "way/305960312",
+        "way/305960313",
+        "way/305960314"
+      ],
+      "wikidata": "Q1147977"
     },
     {
       "id": "barcelona-torre-glories",
