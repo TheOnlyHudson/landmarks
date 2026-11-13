@@ -18181,6 +18181,75 @@
       "source": "generators/istanbul-topkapi-imperial-gate.ts"
     },
     {
+      "id": "istanbul-topkapi-justice-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "historic",
+        "ottoman",
+        "palace",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The Tower of Justice over the Imperial Council hall in Topkapı Palace: a plain square stone shaft, a balcony cornice, the 1825 belvedere with corner columns, tall arched windows and curved pediments, and the tall lead cone with its gilt finial.",
+      "references": [
+        {
+          "title": "Tower of Justice Topkapi 2007.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Justice_Topkapi_2007.jpg",
+          "author": "Gryffindor",
+          "license": "Public domain"
+        },
+        {
+          "title": "Tower of Justice Topkapi 2007 001.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Justice_Topkapi_2007_001.jpg",
+          "author": "Gryffindor",
+          "license": "Public domain"
+        },
+        {
+          "title": "Second Court Topkapi Istanbul 2007 Pano.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Second_Court_Topkapi_Istanbul_2007_Pano.JPG",
+          "author": "Gryffindor",
+          "license": "Public domain"
+        },
+        {
+          "title": "Tower of Justice (Topkapı Palace)-.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Justice_(Topkapı_Palace)-.jpg",
+          "author": "Yair Haklai",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "2013-01-02 Topkapı Palace 83.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2013-01-02_Topkapı_Palace_83.jpg",
+          "author": "Maksym Kozlenko",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Tower of Justice seen from the Second Courtyard of Topkapi Palace.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Justice_seen_from_the_Second_Courtyard_of_Topkapi_Palace.jpg",
+          "author": "José Luiz",
+          "license": "CC-BY-SA-3.0"
+        }
+      ],
+      "file": "models/istanbul-topkapi-justice-tower.glb",
+      "source": "generators/istanbul-topkapi-justice-tower.ts"
+    },
+    {
       "id": "istanbul-walled-obelisk",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45824,6 +45893,21 @@
       "wikidata": "Q21097852",
       "replaces": [
         "way/335364925"
+      ]
+    },
+    {
+      "id": "istanbul-topkapi-justice-tower",
+      "name": "Tower of Justice",
+      "model": "istanbul-topkapi-justice-tower",
+      "place": "istanbul",
+      "lng": 28.983341,
+      "lat": 41.012458,
+      "bearing": 26.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q20470393",
+      "replaces": [
+        "way/335402653"
       ]
     },
     {
