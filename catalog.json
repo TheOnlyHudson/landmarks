@@ -22795,6 +22795,92 @@
       "source": "generators/mexico-city-torre-mayor.ts"
     },
     {
+      "id": "mexico-city-torre-mitikah",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "residential",
+        "office",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre Mitikah (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mitikah_(cropped).jpg",
+          "author": "Eneas de Troya",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Mitikah",
+          "url": "https://commons.wikimedia.org/wiki/File:Mitikah.jpg",
+          "author": "Eneas de Troya",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Torre Mitikah (2026) 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mitikah_(2026)_2.jpg",
+          "author": "Tbhotch",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Mitikah (2026) 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mitikah_(2026)_3.jpg",
+          "author": "Tbhotch",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Mitikah, Coyoacan, CDMX",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mitikah,_Coyoacan,_CDMX.jpg",
+          "author": "Calypso9X",
+          "license": "CC0"
+        },
+        {
+          "title": "Torre Mitikah 1, Coyoacan, CDMX",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mitikah_1,_Coyoacan,_CDMX.jpg",
+          "author": "Calypso9X",
+          "license": "CC0"
+        },
+        {
+          "title": "Mitikah tower from north Mexico City 2020",
+          "url": "https://commons.wikimedia.org/wiki/File:Mitikah_tower_from_north_Mexico_City_2020.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mitika tower 2020",
+          "url": "https://commons.wikimedia.org/wiki/File:Mitika_tower_2020.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Alberca Olímpica Francisco Márquez y Gimnasio Juan de la Barrera - 9",
+          "url": "https://commons.wikimedia.org/wiki/File:Alberca_Ol%C3%ADmpica_Francisco_M%C3%A1rquez_y_Gimnasio_Juan_de_la_Barrera_-_9.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-mitikah.glb",
+      "source": "generators/mexico-city-torre-mitikah.ts"
+    },
+    {
       "id": "mexico-city-torre-pemex",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -50595,6 +50681,21 @@
         "way/1137741013"
       ],
       "wikidata": "Q844813"
+    },
+    {
+      "id": "mexico-city-torre-mitikah",
+      "name": "Torre Mítikah",
+      "model": "mexico-city-torre-mitikah",
+      "place": "mexico-city",
+      "lng": -99.16846,
+      "lat": 19.359233,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/674370738"
+      ],
+      "wikidata": "Q6150196"
     },
     {
       "id": "mexico-city-torre-pemex",
