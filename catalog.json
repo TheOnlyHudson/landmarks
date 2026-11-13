@@ -20052,6 +20052,88 @@
       "source": "generators/istanbul-walled-obelisk.ts"
     },
     {
+      "id": "istanbul-yedikule-fortress",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "ottoman",
+        "byzantine",
+        "fortress",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The Fortress of the Seven Towers against the land walls: a pentagon of high crenellated walls with three round Ottoman towers and their drums, the Golden Gate's two marble pylons and walled-up triple gate, the land-wall towers and the outer wall.",
+      "references": [
+        {
+          "title": "Yedikule Hisarı Hazine Kulesi.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule_Hisarı_Hazine_Kulesi.jpg",
+          "author": "Canercangul",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Yedikule Hisarı Top Kulesi.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule_Hisarı_Top_Kulesi.jpg",
+          "author": "Canercangul",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Yedikule Hisarı Zindan Kulesi.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule_Hisarı_Zindan_Kulesi.jpg",
+          "author": "Canercangul",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "YEDİKULE HİSARI.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:YEDİKULE_HİSARI.jpg",
+          "author": "Elif Erol9",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Yedikule Fortress, September 2025 07.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule_Fortress,_September_2025_07.jpg",
+          "author": "Richard Nevell",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Yedikule Fortress, September 2025 06.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule_Fortress,_September_2025_06.jpg",
+          "author": "Richard Nevell",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Yedikule Hisari - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule_Hisari_-_panoramio.jpg",
+          "author": "Mister No",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Yedikule-2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule-2.jpg",
+          "author": "Dick Osseman",
+          "license": "CC-BY-SA-3.0"
+        }
+      ],
+      "file": "models/istanbul-yedikule-fortress.glb",
+      "source": "generators/istanbul-yedikule-fortress.ts"
+    },
+    {
       "id": "knight-theater",
       "file": "models/knight-theater.glb",
       "license": "CC0-1.0",
@@ -48067,6 +48149,27 @@
       "wikidata": "Q742474",
       "replaces": [
         "way/1120852418"
+      ]
+    },
+    {
+      "id": "istanbul-yedikule-fortress",
+      "name": "Yedikule Fortress",
+      "model": "istanbul-yedikule-fortress",
+      "place": "istanbul",
+      "lng": 28.923205,
+      "lat": 40.993116,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q632795",
+      "replaces": [
+        "way/1035943038",
+        "way/23272351",
+        "way/23272349",
+        "way/23272345",
+        "way/23272337",
+        "way/23272338",
+        "way/23272340"
       ]
     },
     {
