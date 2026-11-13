@@ -18280,6 +18280,75 @@
       "source": "generators/istanbul-little-hagia-sophia.ts"
     },
     {
+      "id": "istanbul-mihrimah-sultan-edirnekapi",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "historic",
+        "religious",
+        "sinan"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mihrimah Sultan Mosque Edirnekapi Gurlitt 1912",
+          "url": "https://commons.wikimedia.org/wiki/File:Mihrimah_Sultan_Mosque_Edirnekapi_Gurlitt_1912.jpg",
+          "author": "Cornelius Gurlitt (1850-1938)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Istanbul - Mesquita de Mihrimah",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_-_Mesquita_de_Mihrimah.JPG",
+          "author": "Josep Renalias",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Istanbul Mihrimah Sultan Mosque (Edirnekapı) view from surroundings in 2015 0100",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Mihrimah_Sultan_Mosque_(Edirnekap%C4%B1)_view_from_surroundings_in_2015_0100.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Mihrimah Sultan Mosque (Edirnekapı) view from surroundings in 2004 1187",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Mihrimah_Sultan_Mosque_(Edirnekap%C4%B1)_view_from_surroundings_in_2004_1187.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Mihrimah Sultan Mosque (Edirnekapı) courtyard in 2018 9252 Panorama b",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Mihrimah_Sultan_Mosque_(Edirnekap%C4%B1)_courtyard_in_2018_9252_Panorama_b.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Mihrimah Sultan Mosque 2015 0101",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Mihrimah_Sultan_Mosque_2015_0101.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-mihrimah-sultan-edirnekapi.glb",
+      "source": "generators/istanbul-mihrimah-sultan-edirnekapi.ts"
+    },
+    {
       "id": "istanbul-new-mosque",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46764,6 +46833,21 @@
       "wikidata": "Q1144576",
       "replaces": [
         "way/303179753"
+      ]
+    },
+    {
+      "id": "istanbul-mihrimah-sultan-edirnekapi",
+      "name": "Mihrimah Sultan Mosque (Edirnekapı)",
+      "model": "istanbul-mihrimah-sultan-edirnekapi",
+      "place": "istanbul",
+      "lng": 28.935707,
+      "lat": 41.029332,
+      "bearing": 318.1,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1581190",
+      "replaces": [
+        "relation/7318379"
       ]
     },
     {
