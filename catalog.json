@@ -25184,6 +25184,68 @@
       "source": "generators/london-20-fenchurch-street.ts"
     },
     {
+      "id": "london-22-bishopsgate",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q18602",
+      "references": [
+        {
+          "title": "22 Bishopsgate Dec 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:22_Bishopsgate_Dec_2025.jpg",
+          "author": "Sebalston",
+          "license": "CC0"
+        },
+        {
+          "title": "22 Bishopsgate 2025-02-10",
+          "url": "https://commons.wikimedia.org/wiki/File:22_Bishopsgate_2025-02-10.jpg",
+          "author": "Tom Page",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "22 Bishopsgate as seen from Waterloo Bridge",
+          "url": "https://commons.wikimedia.org/wiki/File:22_Bishopsgate_as_seen_from_Waterloo_Bridge.jpg",
+          "author": "Thecanaryfan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "22 Bishopsgate and Leadenhall Building",
+          "url": "https://commons.wikimedia.org/wiki/File:22_Bishopsgate_and_Leadenhall_Building.jpg",
+          "author": "Matt Brown",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "City of London as seen from The Shard, 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:City_of_London_as_seen_from_The_Shard,_2026.jpg",
+          "author": "ThatsTheBoss",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/london-22-bishopsgate.glb",
+      "source": "generators/london-22-bishopsgate.ts"
+    },
+    {
       "id": "london-bt-tower",
       "file": "models/london-bt-tower.glb",
       "source": "generators/london-bt-tower.ts",
@@ -55031,6 +55093,27 @@
         "way/949000356"
       ],
       "wikidata": "Q212834"
+    },
+    {
+      "id": "london-22-bishopsgate",
+      "name": "22 Bishopsgate",
+      "model": "london-22-bishopsgate",
+      "place": "london",
+      "lng": -0.0830161,
+      "lat": 51.5144222,
+      "bearing": 36,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/717332347",
+        "way/717373627",
+        "way/717373628",
+        "way/717373629",
+        "way/717373630",
+        "way/717374379",
+        "way/717374380"
+      ],
+      "wikidata": "Q18602"
     },
     {
       "id": "london-bt-tower",
