@@ -20068,6 +20068,122 @@
       "source": "generators/mexico-city-auditorio-nacional.ts"
     },
     {
+      "id": "mexico-city-basilica-of-guadalupe",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "religious",
+        "church",
+        "basilica",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Main facade - New Basilica of Our Lady of Guadalupe - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_facade_-_New_Basilica_of_Our_Lady_of_Guadalupe_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rear view - New Basilica of Our Lady of Guadalupe - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rear_view_-_New_Basilica_of_Our_Lady_of_Guadalupe_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View from the street - New Basilica of Our Lady of Guadalupe - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_from_the_street_-_New_Basilica_of_Our_Lady_of_Guadalupe_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Basilica of Our Lady of Guadalupe, Mexico.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Basilica_of_Our_Lady_of_Guadalupe,_Mexico.jpg",
+          "author": "Eneas De Troya",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Basílica de Santa María de Guadalupe 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Santa_Mar%C3%ADa_de_Guadalupe_2018.jpg",
+          "author": "Drkgk",
+          "license": "CC0"
+        },
+        {
+          "title": "Nueva Basílica de Nuestra Señora de Guadalupe - Outside - 1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Nueva_Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_Guadalupe_-_Outside_-_1.JPG",
+          "author": "Jarek Tuszyński",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "2013-12-23 Nueva Basílica de Nuestra Señora de Guadalupe anagoria.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:2013-12-23_Nueva_Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_Guadalupe_anagoria.JPG",
+          "author": "Anagoria",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Basílica de Guadalupe desde el aire 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Guadalupe_desde_el_aire_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Basílica de Guadalupe desde el aire 6.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Guadalupe_desde_el_aire_6.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Basílica de Guadalupe desde el aire 7.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Guadalupe_desde_el_aire_7.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista de la Plaza Mariana desde el Cerro del Tepeyac 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Plaza_Mariana_desde_el_Cerro_del_Tepeyac_03.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Basílica de Guadalupe CDMX 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Guadalupe_CDMX_2024.jpg",
+          "author": "PlanoAbierto",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Atrio de las Américas - La Villa - Basílica de Guadalupe - Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atrio_de_las_Am%C3%A9ricas_-_La_Villa_-_Bas%C3%ADlica_de_Guadalupe_-_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Complejo Villa de Guadalupe.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Complejo_Villa_de_Guadalupe.JPG",
+          "author": "Erick Hershele Gallegos Galván",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-basilica-of-guadalupe.glb",
+      "source": "generators/mexico-city-basilica-of-guadalupe.ts"
+    },
+    {
       "id": "mexico-city-carlos-iv",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -49474,6 +49590,21 @@
         "way/1279187823"
       ],
       "wikidata": "Q286179"
+    },
+    {
+      "id": "mexico-city-basilica-of-guadalupe",
+      "name": "Basilica of Our Lady of Guadalupe",
+      "model": "mexico-city-basilica-of-guadalupe",
+      "place": "mexico-city",
+      "lng": -99.117857,
+      "lat": 19.484845,
+      "bearing": 290,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q305419",
+      "replaces": [
+        "way/120733641"
+      ]
     },
     {
       "id": "mexico-city-carlos-iv",
