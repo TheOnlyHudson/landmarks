@@ -20163,6 +20163,80 @@
       "source": "generators/mexico-city-edificio-la-nacional.ts"
     },
     {
+      "id": "mexico-city-el-moro",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "art-deco",
+        "office",
+        "tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Edificio El Moro 2010.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Edificio_El_Moro_2010.JPG",
+          "author": "Felipe Alfonso Castillo Vazquez",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Moro Building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Moro_Building.jpg",
+          "author": "Ymblanter",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Edificio Moro 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Edificio_Moro_05.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Edificio Moro 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Edificio_Moro_03.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Edificio Moro 08.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Edificio_Moro_08.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Edificio Moro 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Edificio_Moro_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Edificio de la Lotería Nacional.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Edificio_de_la_Loter%C3%ADa_Nacional.JPG",
+          "author": "Luis Lemus",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-el-moro.glb",
+      "source": "generators/mexico-city-el-moro.ts"
+    },
+    {
       "id": "mexico-city-hemiciclo-a-juarez",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47706,6 +47780,32 @@
         "way/217470226"
       ],
       "wikidata": "Q5338052"
+    },
+    {
+      "id": "mexico-city-el-moro",
+      "name": "Edificio El Moro",
+      "model": "mexico-city-el-moro",
+      "place": "mexico-city",
+      "lng": -99.1500983,
+      "lat": 19.4360967,
+      "bearing": 330,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5818084",
+      "replaces": [
+        "way/176476753",
+        "way/313853815",
+        "way/1139736162",
+        "way/1139736163",
+        "way/1139736164",
+        "way/1139736165",
+        "way/1139736166",
+        "way/1139736167",
+        "way/1139736168",
+        "way/1139736169",
+        "way/1139736170",
+        "way/1139736172"
+      ]
     },
     {
       "id": "mexico-city-hemiciclo-a-juarez",
