@@ -43613,6 +43613,54 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "seoul-fki-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "FKI타워(에프케이아이타워) 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:FKI%ED%83%80%EC%9B%8C(%EC%97%90%ED%94%84%EC%BC%80%EC%9D%B4%EC%95%84%EC%9D%B4%ED%83%80%EC%9B%8C)_2025.jpg",
+          "author": "Narubaru7",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Yeouido Park Lawn 201604.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yeouido_Park_Lawn_201604.jpg",
+          "author": "Wpcpey",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Korea Bamseom Island 11 (14893525272).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea_Bamseom_Island_11_(14893525272).jpg",
+          "author": "Republic of Korea",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/seoul-fki-tower.glb",
+      "source": "generators/seoul-fki-tower.ts"
+    },
+    {
       "id": "seoul-ifc",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65111,6 +65159,21 @@
         "way/770565573"
       ],
       "place": "seattle-area"
+    },
+    {
+      "id": "seoul-fki-tower",
+      "name": "FKI Tower",
+      "model": "seoul-fki-tower",
+      "place": "seoul",
+      "lng": 126.919929,
+      "lat": 37.522173,
+      "bearing": 52,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/681805210"
+      ],
+      "wikidata": "Q16099606"
     },
     {
       "id": "seoul-ifc",
