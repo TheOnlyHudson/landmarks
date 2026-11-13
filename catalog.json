@@ -25827,6 +25827,81 @@
       ]
     },
     {
+      "id": "london-st-martin-in-the-fields",
+      "file": "models/london-st-martin-in-the-fields.glb",
+      "source": "generators/london-st-martin-in-the-fields.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "georgian",
+        "palladian",
+        "historic",
+        "steeple"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "St Martin-in-the-Fields (geograph 4136073)",
+          "url": "https://commons.wikimedia.org/wiki/File:St_Martin-in-the-Fields_-_geograph.org.uk_-_4136073.jpg",
+          "author": "Ashley Martin",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "View of St-Martin-in-the-Fields Church from the steps leading up to the National Portrait Gallery",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_St-Martin-in-the-Fields_Church_from_the_steps_leading_up_to_the_National_Portrait_Gallery_-_geograph.org.uk_-_3502550.jpg",
+          "author": "Robert Lamb",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "St Martin-in-the-Fields steeple",
+          "url": "https://commons.wikimedia.org/wiki/File:St_Martin-in-the-Fields_steeple.jpg",
+          "author": "APK",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "St Martin in the Fields 2",
+          "url": "https://commons.wikimedia.org/wiki/File:St_Martin_in_the_Fields_2.jpg",
+          "author": "Frombowen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View of St Martin in the Fields Church from Trafalgar Square",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_St_Martin_in_the_Fields_Church_from_Trafalgar_Square_-_geograph.org.uk_-_1721968.jpg",
+          "author": "Robert Lamb",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "St Martin-in-the-Fields (geograph 2817148)",
+          "url": "https://commons.wikimedia.org/wiki/File:St_Martin-in-the-Fields_-_geograph.org.uk_-_2817148.jpg",
+          "author": "Patrick Baldwin",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Environment Agency LIDAR Composite DSM/DTM 1 m",
+          "url": "https://environment.data.gov.uk/dataset/9ba4d5ac-d596-445a-9056-dae3ddec0178",
+          "author": "Environment Agency",
+          "license": "OGL-UK-3.0"
+        }
+      ]
+    },
+    {
       "id": "london-st-pauls-cathedral",
       "file": "models/london-st-pauls-cathedral.glb",
       "detail": "models/london-st-pauls-cathedral.detail.glb",
@@ -56278,6 +56353,21 @@
         "way/5986754",
         "way/432777467",
         "way/432777466"
+      ]
+    },
+    {
+      "id": "london-st-martin-in-the-fields",
+      "name": "St Martin-in-the-Fields",
+      "model": "london-st-martin-in-the-fields",
+      "place": "london",
+      "lng": -0.1266654,
+      "lat": 51.5088303,
+      "bearing": 359.6,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q1335201",
+      "replaces": [
+        "way/30734422"
       ]
     },
     {
