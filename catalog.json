@@ -19829,6 +19829,99 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "mexico-city-carlos-iv",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "equestrian-statue",
+        "monument",
+        "bronze",
+        "neoclassical",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vista de la Estatua Ecuestre de Carlos IV (El Caballito) de Tolsá (CDMX) 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Estatua_Ecuestre_de_Carlos_IV_(El_Caballito)_de_Tols%C3%A1_(CDMX)_1.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista de la Estatua Ecuestre de Carlos IV (El Caballito) de Tolsá (CDMX) 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Estatua_Ecuestre_de_Carlos_IV_(El_Caballito)_de_Tols%C3%A1_(CDMX)_2.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista de la Estatua Ecuestre de Carlos IV (El Caballito) de Tolsá (CDMX) 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Estatua_Ecuestre_de_Carlos_IV_(El_Caballito)_de_Tols%C3%A1_(CDMX)_3.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Estatua Ecuestre de Carlos IV, Plaza Manuel Tolsá, Ciudad de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Estatua_Ecuestre_de_Carlos_IV,_Plaza_Manuel_Tols%C3%A1,_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Carlos IV, Plaza Tolsá",
+          "url": "https://commons.wikimedia.org/wiki/File:Carlos_IV,_Plaza_Tols%C3%A1.jpg",
+          "author": "Isaac Salvador Pérez",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Estatua ecuestre de Carlos IV - 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Estatua_ecuestre_de_Carlos_IV_-_1.jpg",
+          "author": "Commons uploader credited as Manuel Tolsá",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Nacional de Arte and El Caballito, Plaza Manuel Tolsá",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Arte_and_El_Caballito,_Plaza_Manuel_Tols%C3%A1,_Mexico_City.jpg",
+          "author": "JonathanVitela",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "El Caballito and Museo Nacional de Arte, Mexico City, 2017",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Caballito_and_Museo_Nacional_de_Arte,_Mexico_City,_2017.jpg",
+          "author": "Secretaría de Cultura de la Ciudad de México",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Escultura Carlos IV + Palacio de Minería",
+          "url": "https://commons.wikimedia.org/wiki/File:Escultura_Carlos_IV_%2B_Palacio_de_Miner%C3%ADa.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de Mineria",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Mineria.JPG",
+          "author": "Rafael Sánchez Guiris",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-carlos-iv.glb",
+      "source": "generators/mexico-city-carlos-iv.ts"
+    },
+    {
       "id": "mexico-city-casa-de-los-azulejos",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47016,6 +47109,19 @@
       "wikidata": "Q28455368",
       "replaces": [],
       "place": "charlotte-area"
+    },
+    {
+      "id": "mexico-city-carlos-iv",
+      "name": "El Caballito (Carlos IV)",
+      "model": "mexico-city-carlos-iv",
+      "place": "mexico-city",
+      "lng": -99.139478,
+      "lat": 19.436059,
+      "bearing": 8.7,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q3968677"
     },
     {
       "id": "mexico-city-casa-de-los-azulejos",
