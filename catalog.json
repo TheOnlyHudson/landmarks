@@ -7266,6 +7266,67 @@
       "source": "generators/barcelona-tibidabo-sagrat-cor.ts"
     },
     {
+      "id": "barcelona-torre-glories",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre Agbar - Barcelona, Spain - Jan 2007.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Agbar_-_Barcelona,_Spain_-_Jan_2007.jpg",
+          "author": "Diliff",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Torre Glòries 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Gl%C3%B2ries_10.jpg",
+          "author": "Kent Wang",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Torre Agbar Barcelona 2015.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Agbar_Barcelona_2015.jpg",
+          "author": "Bjørn Erik Pedersen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Torre Agbar 06.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Torre_Agbar_06.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        },
+        {
+          "title": "Barcelona - Torre Agbar 21.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Torre_Agbar_21.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/barcelona-torre-glories.glb",
+      "source": "generators/barcelona-torre-glories.ts"
+    },
+    {
       "id": "beatties-ford-water-tower",
       "file": "models/beatties-ford-water-tower.glb",
       "license": "CC0-1.0",
@@ -43438,6 +43499,21 @@
         "way/387589500"
       ],
       "wikidata": "Q1189293"
+    },
+    {
+      "id": "barcelona-torre-glories",
+      "name": "Torre Glòries",
+      "model": "barcelona-torre-glories",
+      "place": "barcelona",
+      "lng": 2.189521,
+      "lat": 41.403513,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/44213122"
+      ],
+      "wikidata": "Q336246"
     },
     {
       "id": "beatties-ford-water-tower",
