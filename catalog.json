@@ -25545,6 +25545,68 @@
       ]
     },
     {
+      "id": "london-the-scalpel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q4640138",
+      "references": [
+        {
+          "title": "View of the Scalpel from Cornhill (geograph 7160553)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_Scalpel_from_Cornhill_-_geograph.org.uk_-_7160553.jpg",
+          "author": "Robert Lamb",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Scalpel, August 2018",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Scalpel,_August_2018.jpg",
+          "author": "The wub",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Scalpel, London",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Scalpel,_London.jpg",
+          "author": "Maksim Sokolov",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "30 St Mary Axe & 52-54 Lime Street 2025-02-10",
+          "url": "https://commons.wikimedia.org/wiki/File:30_St_Mary_Axe_%26_52-54_Lime_Street_2025-02-10.jpg",
+          "author": "Tom Page",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "City of London as seen from The Shard, 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:City_of_London_as_seen_from_The_Shard,_2026.jpg",
+          "author": "ThatsTheBoss",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/london-the-scalpel.glb",
+      "source": "generators/london-the-scalpel.ts"
+    },
+    {
       "id": "london-the-shard",
       "file": "models/london-the-shard.glb",
       "source": "generators/london-the-shard.ts",
@@ -55192,6 +55254,26 @@
         "way/432777467",
         "way/432777466"
       ]
+    },
+    {
+      "id": "london-the-scalpel",
+      "name": "The Scalpel",
+      "model": "london-the-scalpel",
+      "place": "london",
+      "lng": -0.081058,
+      "lat": 51.5132411,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/498820075",
+        "way/659342595",
+        "way/659342596",
+        "way/659342597",
+        "way/659342598",
+        "way/659342599"
+      ],
+      "wikidata": "Q4640138"
     },
     {
       "id": "london-the-shard",
