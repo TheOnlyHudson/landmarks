@@ -643,6 +643,98 @@
       "source": "generators/amsterdam-hart-museum.ts"
     },
     {
+      "id": "amsterdam-johan-cruijff-arena",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "stadium",
+        "football",
+        "retractable-roof",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arena, Ajax stadion, Amsterdam.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Arena,_Ajax_stadion,_Amsterdam.JPG",
+          "author": "Alf van Beem",
+          "license": "CC0"
+        },
+        {
+          "title": "Amsterdam Arena Aerial.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_Aerial.jpg",
+          "author": "R.M.Jaarsma",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Amsterdam Arena Roof Open.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_Roof_Open.jpg",
+          "author": "Quistnix",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam Arena SEP 2012.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_SEP_2012.jpg",
+          "author": "calflier001",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Amsterdam Arena - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_-_panoramio_(1).jpg",
+          "author": "Mister No",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam ArenA 001.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_ArenA_001.JPG",
+          "author": "Janericloebe",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam Arena (Amsterdam, Pays-Bas) (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_(Amsterdam,_Pays-Bas)_(1).jpg",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Arena (Amsterdam, Pays-Bas) (3).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_(Amsterdam,_Pays-Bas)_(3).jpg",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Arena (5722962939).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_(5722962939).jpg",
+          "author": "Markus Unger",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Utrechtboog en Arena soccer stadion.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Utrechtboog_en_Arena_soccer_stadion.png",
+          "author": "Steven Lek",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/amsterdam-johan-cruijff-arena.glb",
+      "source": "generators/amsterdam-johan-cruijff-arena.ts"
+    },
+    {
       "id": "amsterdam-krijtberg",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -39302,6 +39394,23 @@
         "relation/3604193"
       ],
       "wikidata": "Q1350009"
+    },
+    {
+      "id": "amsterdam-johan-cruijff-arena",
+      "name": "Johan Cruijff ArenA",
+      "model": "amsterdam-johan-cruijff-arena",
+      "place": "amsterdam",
+      "lng": 4.941771,
+      "lat": 52.314318,
+      "bearing": 330.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/1458682",
+        "way/282372120",
+        "way/282372125"
+      ],
+      "wikidata": "Q207109"
     },
     {
       "id": "amsterdam-krijtberg",
