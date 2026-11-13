@@ -43792,6 +43792,88 @@
       ]
     },
     {
+      "id": "seoul-gwanghwamun",
+      "file": "models/seoul-gwanghwamun.glb",
+      "source": "generators/seoul-gwanghwamun.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "gate",
+        "palace",
+        "hanok",
+        "joseon",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The south gate of Gyeongbokgung (wooden pavilion rebuilt 2010): a granite base with three arched passages under a two-storey pavilion with double hipped roofs.",
+      "references": [
+        {
+          "title": "Gwanghwamun (광화문).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gwanghwamun_(광화문).jpg",
+          "author": "Noh Mun Duek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gwanghwamun 20240413.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gwanghwamun_20240413.jpg",
+          "author": "*Youngjin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gwanghwamun 2012.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gwanghwamun_2012.jpg",
+          "author": "Komatta",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Gwanghwamun, Gyeongbokgung.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gwanghwamun,_Gyeongbokgung.jpg",
+          "author": "Tristan Surtel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gyeongbokgung - Gwanghwamun Gate.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung_-_Gwanghwamun_Gate.jpg",
+          "author": "Yuliya Boda",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gwanghwamun December 2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gwanghwamun_December_2023.jpg",
+          "author": "Huntsmanleader",
+          "license": "CC0"
+        },
+        {
+          "title": "Gwanghwamun Gate(back side).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gwanghwamun_Gate(back_side).jpg",
+          "author": "Hhk1201",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gwanghwamun Gate (광화문), Seoul, South Korea (Unsplash).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gwanghwamun_Gate_(광화문),_Seoul,_South_Korea_(Unsplash).jpg",
+          "author": "Timothy Ries",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
       "id": "seoul-ifc",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65454,6 +65536,35 @@
         "way/1569283660"
       ],
       "wikidata": "Q10855678"
+    },
+    {
+      "id": "seoul-gwanghwamun",
+      "name": "Gwanghwamun",
+      "model": "seoul-gwanghwamun",
+      "place": "seoul",
+      "lng": 126.9768153,
+      "lat": 37.575932,
+      "bearing": 1.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/170199440",
+        "way/1170008834",
+        "way/1170008836",
+        "way/1170008837",
+        "way/1170008838",
+        "way/1170008839",
+        "way/1170008840",
+        "way/1415432340",
+        "way/1415432341",
+        "way/1415432342",
+        "way/1415432343",
+        "way/1415432344",
+        "way/1415432345",
+        "way/1415432346",
+        "way/1415432347"
+      ],
+      "wikidata": "Q485034"
     },
     {
       "id": "seoul-ifc",
