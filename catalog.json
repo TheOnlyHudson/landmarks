@@ -956,6 +956,69 @@
       "source": "generators/amsterdam-royal-palace.ts"
     },
     {
+      "id": "amsterdam-schreierstoren",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tower",
+        "historic",
+        "medieval",
+        "city-wall",
+        "harbour"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "SchreierstorenAmsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SchreierstorenAmsterdam.jpg",
+          "author": "Massimo Catarinella",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Schreierstoren 7332.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Schreierstoren_7332.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Oudezijds Kolk - Geldersekade - View SE on Schreierstoren 1487.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Oudezijds_Kolk_-_Geldersekade_-_View_SE_on_Schreierstoren_1487.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2014 - Schreierstoren Tower, Prins Hendrikkade, Amsterdam, Holland (Ank Kumar ) 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2014_-_Schreierstoren_Tower,_Prins_Hendrikkade,_Amsterdam,_Holland_(Ank_Kumar_)_02.jpg",
+          "author": "Ank Kumar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Schreierstoren at night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Schreierstoren_at_night.jpg",
+          "author": "APK",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-schreierstoren.glb",
+      "source": "generators/amsterdam-schreierstoren.ts"
+    },
+    {
       "id": "amsterdam-sint-nicolaaskerk",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -38477,6 +38540,21 @@
         "way/748659186",
         "way/748659187"
       ]
+    },
+    {
+      "id": "amsterdam-schreierstoren",
+      "name": "Schreierstoren",
+      "model": "amsterdam-schreierstoren",
+      "place": "amsterdam",
+      "lng": 4.902242,
+      "lat": 52.376358,
+      "bearing": 21,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/57859248"
+      ],
+      "wikidata": "Q610402"
     },
     {
       "id": "amsterdam-sint-nicolaaskerk",
