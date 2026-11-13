@@ -20176,6 +20176,67 @@
       "source": "generators/istanbul-valens-aqueduct.ts"
     },
     {
+      "id": "istanbul-vodafone-park",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "stadium",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vodafone Park",
+          "url": "https://commons.wikimedia.org/wiki/File:Vodafone_Park.jpg",
+          "author": "Matt Growcoot",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "20220606-L1000240",
+          "url": "https://commons.wikimedia.org/wiki/File:20220606-L1000240.jpg",
+          "author": "Thomas Berwing",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vodafone Park-",
+          "url": "https://commons.wikimedia.org/wiki/File:Vodafone_Park-.jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vodafone Park, Istanbul (from outside)",
+          "url": "https://commons.wikimedia.org/wiki/File:Vodafone_Park,_Istanbul_(from_outside).jpg",
+          "author": "Olos88",
+          "license": "CC0"
+        },
+        {
+          "title": "Besiktas Stadion - Istambul, 2014.10.24 (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Besiktas_Stadion_-_Istambul,_2014.10.24_(1).JPG",
+          "author": "Derzsi Elekes Andor",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-vodafone-park.glb",
+      "source": "generators/istanbul-vodafone-park.ts"
+    },
+    {
       "id": "istanbul-walled-obelisk",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -48379,6 +48440,22 @@
       "wikidata": "Q952924",
       "replaces": [
         "way/23276526"
+      ]
+    },
+    {
+      "id": "istanbul-vodafone-park",
+      "name": "Tüpraş Stadium (Vodafone Park)",
+      "model": "istanbul-vodafone-park",
+      "place": "istanbul",
+      "lng": 28.994412,
+      "lat": 41.039443,
+      "bearing": 322.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q14914703",
+      "replaces": [
+        "relation/6554433",
+        "way/489743779"
       ]
     },
     {
