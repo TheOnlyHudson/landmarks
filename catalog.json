@@ -10028,6 +10028,67 @@
       "source": "generators/cpt-cape-town-stadium.ts"
     },
     {
+      "id": "cpt-cape-wheel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "ride",
+      "tags": [
+        "observation-wheel",
+        "waterfront",
+        "animated"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cape Wheel jeh",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Wheel_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Town Waterfront 2018 024",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_Waterfront_2018_024.jpg",
+          "author": "Einsamer Schütze",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "At Cape Town (MP) 2018 229",
+          "url": "https://commons.wikimedia.org/wiki/File:At_Cape_Town_(MP)_2018_229.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Wheel loading stairs jeh",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Wheel_loading_stairs_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Town Wheel 2022",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_Wheel_2022.jpg",
+          "author": "TapticInfo",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/cpt-cape-wheel.glb",
+      "source": "generators/cpt-cape-wheel.ts"
+    },
+    {
       "id": "dal-adolphus-hotel",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45206,6 +45267,18 @@
         "relation/8706182"
       ],
       "wikidata": "Q173559"
+    },
+    {
+      "id": "cpt-cape-wheel",
+      "name": "The Cape Wheel",
+      "model": "cpt-cape-wheel",
+      "place": "cape-town",
+      "lng": 18.4193198,
+      "lat": -33.9026821,
+      "bearing": 320.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": []
     },
     {
       "id": "dal-adolphus-hotel",
