@@ -19904,6 +19904,94 @@
       "source": "generators/mexico-city-casa-de-los-azulejos.ts"
     },
     {
+      "id": "mexico-city-metropolitan-cathedral",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "religious",
+        "church",
+        "cathedral",
+        "baroque",
+        "neoclassical",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Catedral Metropolitana de la Ciudad de México 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_de_la_Ciudad_de_M%C3%A9xico_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Catedral Metropolitana de la Ciudad de México 8.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_de_la_Ciudad_de_M%C3%A9xico_8.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CDMX Metropolitan Cathedral from above.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:CDMX_Metropolitan_Cathedral_from_above.jpg",
+          "author": "TonyBallioni",
+          "license": "CC0"
+        },
+        {
+          "title": "Catedral Metropolitana desde la Torre Latinoamericana, Ciudad de México.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_desde_la_Torre_Latinoamericana,_Ciudad_de_M%C3%A9xico.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torres de la Catedral Metropolitana desde la Torre Latinoamericana.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Torres_de_la_Catedral_Metropolitana_desde_la_Torre_Latinoamericana.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Catedral - cúpula, Ciudad de México MEX.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_-_c%C3%BApula,_Ciudad_de_M%C3%A9xico_MEX.jpg",
+          "author": "Stefano Vigorelli",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mexico City, Metropolitan Cathedral (20693413381).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_City,_Metropolitan_Cathedral_(20693413381).jpg",
+          "author": "Arian Zwegers",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Metropolitan Cathedral & Sagrario - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Metropolitan_Cathedral_%26_Sagrario_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "East Facade - Sagrario Metropolitano - Mexico 2024 (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Facade_-_Sagrario_Metropolitano_-_Mexico_2024_(2).jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-metropolitan-cathedral.glb",
+      "source": "generators/mexico-city-metropolitan-cathedral.ts"
+    },
+    {
       "id": "mexico-city-palacio-de-bellas-artes",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46703,6 +46791,33 @@
         "way/158032444"
       ],
       "wikidata": "Q1267814"
+    },
+    {
+      "id": "mexico-city-metropolitan-cathedral",
+      "name": "Metropolitan Cathedral of Mexico City",
+      "model": "mexico-city-metropolitan-cathedral",
+      "place": "mexico-city",
+      "lng": -99.1331213,
+      "lat": 19.4344032,
+      "bearing": 7.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q610961",
+      "replaces": [
+        "way/862852010",
+        "way/862873648",
+        "way/1050213473",
+        "way/1050213474",
+        "way/462287918",
+        "way/862366582",
+        "way/862366583",
+        "way/862420735",
+        "way/1050202443",
+        "way/1050202444",
+        "way/1050204076",
+        "way/1050204077",
+        "way/1050204882"
+      ]
     },
     {
       "id": "mexico-city-palacio-de-bellas-artes",
