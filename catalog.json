@@ -30137,6 +30137,69 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "rio-christ-the-redeemer",
+      "file": "models/rio-christ-the-redeemer.glb",
+      "license": "CC0-1.0",
+      "source": "generators/rio-christ-the-redeemer.ts",
+      "type": "sculpture",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "statue",
+        "art-deco",
+        "religious",
+        "new-seven-wonders"
+      ],
+      "description": "The 30 m Art Deco statue of Christ with outstretched arms (28 m wide), on an 8 m pedestal atop Corcovado, built 1922-1931 of reinforced concrete clad in soapstone.",
+      "references": [
+        {
+          "title": "Christ the Redeemer - Cristo Redentor.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+          "author": "Arne Müseler",
+          "license": "CC-BY-SA-3.0-DE"
+        },
+        {
+          "title": "Christ the Redeemer-(Corcovado) front view2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_Redeemer-(Corcovado)_front_view2.jpg",
+          "author": "Mucio Scorzelli",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Christ the Redeemer 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_Redeemer_2.jpg",
+          "author": "PLBechly",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Christ the Redeemer 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_Redeemer_1.jpg",
+          "author": "PLBechly",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Christ the Redeemer 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Christ_the_Redeemer_3.jpg",
+          "author": "PLBechly",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
       "id": "sd-12th-imperial-clock-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -50562,6 +50625,19 @@
       "place": "new-york-area"
     },
     {
+      "id": "rio-christ-the-redeemer",
+      "name": "Christ the Redeemer",
+      "model": "rio-christ-the-redeemer",
+      "lng": -43.2104585,
+      "lat": -22.9519173,
+      "bearing": 84,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q79961",
+      "replaces": [],
+      "place": "rio-de-janeiro"
+    },
+    {
       "id": "sd-12th-imperial-clock-tower",
       "name": "12th & Imperial Transit Center Clock Tower",
       "model": "sd-12th-imperial-clock-tower",
@@ -54319,6 +54395,12 @@
       "id": "philadelphia-area",
       "name": "Philadelphia area",
       "kind": "region"
+    },
+    {
+      "id": "rio-de-janeiro",
+      "name": "Rio de Janeiro",
+      "kind": "city",
+      "wikidata": "Q8678"
     },
     {
       "id": "san-diego-area",
