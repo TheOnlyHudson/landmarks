@@ -20188,6 +20188,80 @@
       "source": "generators/mexico-city-chapultepec-castle.ts"
     },
     {
+      "id": "mexico-city-diana-cazadora",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "fountain",
+      "tags": [
+        "statue",
+        "sculpture",
+        "bronze",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Diana Fountain - Paseo de la Reforma",
+          "url": "https://commons.wikimedia.org/wiki/File:Diana_Fountain_-_Paseo_de_la_Reforma_(4610531848).jpg",
+          "author": "Jorge Láscar",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Fuente de la Diana Cazadora, México D.F., 2014-10-13, DD 15",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_de_la_Diana_Cazadora,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_15.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ciudad de México - Fuente de la Diana Cazadora 0388",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciudad_de_M%C3%A9xico_-_Fuente_de_la_Diana_Cazadora_0388.jpg",
+          "author": "Phyrexian",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mexico City (2018) - 020",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_City_(2018)_-_020.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mexico City (2018) - 022",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_City_(2018)_-_022.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Diana Cazadora Fountain",
+          "url": "https://commons.wikimedia.org/wiki/File:Diana_Cazadora_Fountain.jpg",
+          "author": "Andres Gil Ron",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "VistaDesdeTorreDianaPiso30 ohs05",
+          "url": "https://commons.wikimedia.org/wiki/File:VistaDesdeTorreDianaPiso30_ohs05.jpg",
+          "author": "PetrohsW",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-diana-cazadora.glb",
+      "source": "generators/mexico-city-diana-cazadora.ts"
+    },
+    {
       "id": "mexico-city-edificio-la-nacional",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47995,6 +48069,19 @@
         "relation/17314437",
         "way/1191952512"
       ]
+    },
+    {
+      "id": "mexico-city-diana-cazadora",
+      "name": "Fuente de la Diana Cazadora",
+      "model": "mexico-city-diana-cazadora",
+      "place": "mexico-city",
+      "lng": -99.1716396,
+      "lat": 19.4251273,
+      "bearing": 152,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q2323702"
     },
     {
       "id": "mexico-city-edificio-la-nacional",
