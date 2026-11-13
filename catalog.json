@@ -20163,6 +20163,75 @@
       "source": "generators/mexico-city-edificio-la-nacional.ts"
     },
     {
+      "id": "mexico-city-hemiciclo-a-juarez",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "memorial",
+        "colonnade",
+        "marble",
+        "neoclassical",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hemiciclo a Juárez, México D.F., México, 2014-10-13, DD 35",
+          "url": "https://commons.wikimedia.org/wiki/File:Hemiciclo_a_Ju%C3%A1rez,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_35.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hemiciclo a Juárez (vista trasera), Ciudad de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Hemiciclo_a_Ju%C3%A1rez_(vista_trasera),_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hemiciclo Juarez 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Hemiciclo_Juarez_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hemiciclo a Juárez 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Hemiciclo_a_Ju%C3%A1rez_2024.jpg",
+          "author": "Dudva",
+          "license": "CC0"
+        },
+        {
+          "title": "Vista aérea del Hemiciclo a Juárez 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Hemiciclo_a_Ju%C3%A1rez_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hemiciclo a Juárez y Alameda Central 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Hemiciclo_a_Ju%C3%A1rez_y_Alameda_Central_03.jpg",
+          "author": "Correogsk",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-hemiciclo-a-juarez.glb",
+      "source": "generators/mexico-city-hemiciclo-a-juarez.ts"
+    },
+    {
       "id": "mexico-city-la-profesa",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47574,6 +47643,21 @@
         "way/217470226"
       ],
       "wikidata": "Q5338052"
+    },
+    {
+      "id": "mexico-city-hemiciclo-a-juarez",
+      "name": "Hemiciclo a Juárez",
+      "model": "mexico-city-hemiciclo-a-juarez",
+      "place": "mexico-city",
+      "lng": -99.144097,
+      "lat": 19.435063,
+      "bearing": 8.5,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/992941278"
+      ],
+      "wikidata": "Q4020213"
     },
     {
       "id": "mexico-city-la-profesa",
