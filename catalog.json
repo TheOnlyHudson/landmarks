@@ -6893,6 +6893,88 @@
       "source": "generators/barcelona-cathedral.ts"
     },
     {
+      "id": "barcelona-palau-musica",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "concert-hall",
+        "historic",
+        "modernisme",
+        "performing-arts",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Domènech i Montaner's 1908 concert hall: a red-brick corner with its sculpture group and tower, mosaic-clad columns on the main front, and Tusquets' brick extension behind.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Palau música catalana exterior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_m%C3%BAsica_catalana_exterior.jpg",
+          "author": "Doomuu",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona-Palau de la Música Catalana (I).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona-Palau_de_la_M%C3%BAsica_Catalana_(I).jpg",
+          "author": "Javi Guerra Hernando",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palau de la Musica Catalana - façana modernista.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_de_la_Musica_Catalana_-_fa%C3%A7ana_modernista.JPG",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona - Palau de la Música Catalana (32).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Palau_de_la_M%C3%BAsica_Catalana_(32).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Barcelona, Palau de la Música Catalana (side view) - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona,_Palau_de_la_M%C3%BAsica_Catalana_(side_view)_-_panoramio.jpg",
+          "author": "Patroc",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "004 Palau de la Música, ampliació d'Òscar Tusquets.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:004_Palau_de_la_M%C3%BAsica,_ampliaci%C3%B3_d'%C3%92scar_Tusquets.jpg",
+          "author": "Enfo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Domènech.i.Montaner.Palau.Musica.Catalana.2.Barcelona.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Dom%C3%A8nech.i.Montaner.Palau.Musica.Catalana.2.Barcelona.JPG",
+          "author": "Yearofthedragon (assumed by Commons)",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Palau de la Música Catalana ( Vidrera).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_de_la_M%C3%BAsica_Catalana_(_Vidrera).jpg",
+          "author": "Pili Redondo Rodríguez",
+          "license": "CC BY-SA 3.0 es"
+        }
+      ],
+      "file": "models/barcelona-palau-musica.glb",
+      "source": "generators/barcelona-palau-musica.ts"
+    },
+    {
       "id": "barcelona-sagrada-familia",
       "detail": "models/barcelona-sagrada-familia.detail.glb",
       "detailZoom": 16,
@@ -43228,6 +43310,27 @@
         "way/1075852646"
       ],
       "wikidata": "Q17155"
+    },
+    {
+      "id": "barcelona-palau-musica",
+      "name": "Palau de la Música Catalana",
+      "model": "barcelona-palau-musica",
+      "place": "barcelona",
+      "lng": 2.175226,
+      "lat": 41.387586,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/671830491",
+        "way/671830503",
+        "way/671830481",
+        "way/671830496",
+        "way/671830501",
+        "way/671830502",
+        "way/951336755"
+      ],
+      "wikidata": "Q327940"
     },
     {
       "id": "barcelona-sagrada-familia",
