@@ -7792,6 +7792,75 @@
       "source": "generators/barcelona-sagrada-familia.ts"
     },
     {
+      "id": "barcelona-sant-pau-administration",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "modernisme",
+        "hospital",
+        "brick",
+        "unesco-world-heritage",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hospital de Sant Pau, Façade, Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hospital_de_Sant_Pau,_Fa%C3%A7ade,_Barcelona.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0"
+        },
+        {
+          "title": "Hospital de Sant Pau - façana 2014.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Hospital_de_Sant_Pau_-_fa%C3%A7ana_2014.JPG",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hospital de Sant Pau 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hospital_de_Sant_Pau_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hospital de Sant Pau 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hospital_de_Sant_Pau_02.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hospital Sant Pau panorama.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hospital_Sant_Pau_panorama.jpg",
+          "author": "Jesús Arpón",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "ICGC orthophoto (ortofoto_color_vigent)",
+          "url": "https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/Orthophoto-of-Catalonia",
+          "author": "Institut Cartogràfic i Geològic de Catalunya",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/barcelona-sant-pau-administration.glb",
+      "source": "generators/barcelona-sant-pau-administration.ts"
+    },
+    {
       "id": "barcelona-santa-maria-del-mar",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -44584,6 +44653,26 @@
         "relation/16329173",
         "relation/16329174",
         "relation/16329175"
+      ]
+    },
+    {
+      "id": "barcelona-sant-pau-administration",
+      "name": "Sant Pau Administration Pavilion",
+      "model": "barcelona-sant-pau-administration",
+      "place": "barcelona",
+      "lng": 2.17434,
+      "lat": 41.411802,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/7422815",
+        "way/645290929",
+        "way/645290930",
+        "way/645290931",
+        "way/645290932",
+        "way/645290933",
+        "way/645290934"
       ]
     },
     {
