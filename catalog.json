@@ -36423,6 +36423,48 @@
       ],
       "file": "models/dubai-al-yaqoub-tower.glb",
       "source": "generators/dubai-al-yaqoub-tower.ts"
+    },
+    {
+      "id": "dubai-gate-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "difc",
+        "gateway"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "DIFC @ Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15628595748",
+          "author": "*_* (flickr 22539273@N00)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Emirates Towers in Dubai at dawn",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_in_Dubai_at_dawn.jpg",
+          "author": "Jackardsiffant",
+          "license": "CC-BY-3.0"
+        }
+      ],
+      "file": "models/dubai-gate-building.glb",
+      "source": "generators/dubai-gate-building.ts"
     }
   ],
   "landmarks": [
@@ -53572,6 +53614,27 @@
         "way/238284900"
       ],
       "wikidata": "Q1808295"
+    },
+    {
+      "id": "dubai-gate-building",
+      "name": "The Gate",
+      "model": "dubai-gate-building",
+      "place": "dubai",
+      "lng": 55.281157,
+      "lat": 25.2145569,
+      "bearing": 28,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/256973497",
+        "way/1346109176",
+        "way/1346109177",
+        "way/1346109178",
+        "way/1346109179",
+        "way/1346109180",
+        "way/1346109181",
+        "way/1346109182"
+      ]
     }
   ],
   "places": [
