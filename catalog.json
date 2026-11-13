@@ -20424,6 +20424,74 @@
       "source": "generators/mexico-city-palacio-de-bellas-artes.ts"
     },
     {
+      "id": "mexico-city-palacio-de-mineria",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "neoclassical",
+        "palace",
+        "museum",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Main facade - Palacio de Mineria - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_facade_-_Palacio_de_Mineria_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Escultura Carlos IV + Palacio de Minería",
+          "url": "https://commons.wikimedia.org/wiki/File:Escultura_Carlos_IV_%2B_Palacio_de_Miner%C3%ADa.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de Mineria",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Mineria.JPG",
+          "author": "Rafael Sánchez Guiris",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "East side (Calle Filomeno) - Palacio de Minería - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:East_side_(Calle_Filomeno)_-_Palacio_de_Miner%C3%ADa_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Plaza Manuel Tolsá - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Plaza_Manuel_Tols%C3%A1_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palacio de Minería - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Miner%C3%ADa_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-palacio-de-mineria.glb",
+      "source": "generators/mexico-city-palacio-de-mineria.ts"
+    },
+    {
       "id": "mexico-city-palacio-nacional",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47494,6 +47562,22 @@
         "way/1436128176",
         "way/1466114121"
       ]
+    },
+    {
+      "id": "mexico-city-palacio-de-mineria",
+      "name": "Palacio de Minería",
+      "model": "mexico-city-palacio-de-mineria",
+      "place": "mexico-city",
+      "lng": -99.139579,
+      "lat": 19.435459,
+      "bearing": 9.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/14592228",
+        "way/1095452897"
+      ],
+      "wikidata": "Q3431087"
     },
     {
       "id": "mexico-city-palacio-nacional",
