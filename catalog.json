@@ -1222,6 +1222,68 @@
       "source": "generators/amsterdam-schreierstoren.ts"
     },
     {
+      "id": "amsterdam-ship-amsterdam",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "ship",
+        "replica",
+        "museum-ship",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "VOC ship Amsterdam 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:VOC_ship_Amsterdam_1.jpg",
+          "author": "Malis",
+          "license": "Public domain"
+        },
+        {
+          "title": "Amsterdam (ship, 1990) 2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(ship,_1990)_2023.jpg",
+          "author": "Derbrauni",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Amsterdam (ship, 1990) in 2016.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(ship,_1990)_in_2016.jpg",
+          "author": "Joseolgon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam (ship, 1990) - vanaf het Oosterdok 1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(ship,_1990)_-_vanaf_het_Oosterdok_1.JPG",
+          "author": "Ymnes",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Het Scheepvaartmuseum, Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Het_Scheepvaartmuseum,_Amsterdam.jpg",
+          "author": "Nataliia Ieremieieva",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-ship-amsterdam.glb",
+      "source": "generators/amsterdam-ship-amsterdam.ts"
+    },
+    {
       "id": "amsterdam-sint-nicolaaskerk",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -38822,6 +38884,21 @@
         "way/57859248"
       ],
       "wikidata": "Q610402"
+    },
+    {
+      "id": "amsterdam-ship-amsterdam",
+      "name": "Replica ship Amsterdam",
+      "model": "amsterdam-ship-amsterdam",
+      "place": "amsterdam",
+      "lng": 4.914232,
+      "lat": 52.372342,
+      "bearing": 3,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/324827054"
+      ],
+      "wikidata": "Q478353"
     },
     {
       "id": "amsterdam-sint-nicolaaskerk",
