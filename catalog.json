@@ -17457,6 +17457,86 @@
       "source": "generators/istanbul-blue-mosque.ts"
     },
     {
+      "id": "istanbul-german-fountain",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "fountain",
+      "tags": [
+        "fountain",
+        "pavilion",
+        "neo-byzantine",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fuente Alemana, Estambul, Turquía, 2024-09-30, DD 37",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_Alemana,_Estambul,_Turqu%C3%ADa,_2024-09-30,_DD_37.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fuente Alemana, Estambul, Turquía, 2024-09-29, DD 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_Alemana,_Estambul,_Turqu%C3%ADa,_2024-09-29,_DD_01.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fuente Alemana, Estambul, Turquía, 2024-09-30, DD 38",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_Alemana,_Estambul,_Turqu%C3%ADa,_2024-09-30,_DD_38.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "German Fountain (Istanbul)",
+          "url": "https://commons.wikimedia.org/wiki/File:German_Fountain_(Istanbul).jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sultanahmet Square, German Fountain, Istanbul (52121614824)",
+          "url": "https://commons.wikimedia.org/wiki/File:Sultanahmet_Square,_German_Fountain,_Istanbul_(52121614824).jpg",
+          "author": "Ninara",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "German Fountain (Istanbul) in 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:German_Fountain_(Istanbul)_in_2026.jpg",
+          "author": "Joseolgon",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Alman Çeşmesi (The German Fountain)",
+          "url": "https://commons.wikimedia.org/wiki/File:Alman_%C3%87e%C5%9Fmesi_(The_German_Fountain).jpg",
+          "author": "İlker R. Kapaç",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "German Fountain and Sultanahmet Mosque",
+          "url": "https://commons.wikimedia.org/wiki/File:German_Fountain_and_Sultanahmet_Mosque.jpg",
+          "author": "Scott Dexter",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/istanbul-german-fountain.glb",
+      "source": "generators/istanbul-german-fountain.ts"
+    },
+    {
       "id": "istanbul-hagia-irene",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45500,6 +45580,21 @@
         "way/476162242",
         "way/476162243",
         "way/548576899"
+      ]
+    },
+    {
+      "id": "istanbul-german-fountain",
+      "name": "German Fountain",
+      "model": "istanbul-german-fountain",
+      "place": "istanbul",
+      "lng": 28.976676,
+      "lat": 41.007113,
+      "bearing": 37.6,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q322920",
+      "replaces": [
+        "way/109874498"
       ]
     },
     {
