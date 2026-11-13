@@ -79,6 +79,2972 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "amsterdam-adam-toren",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tower",
+        "observation-deck",
+        "office",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "A'DAM Toren-01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A'DAM_Toren-01.jpg",
+          "author": "Muck",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "A'DAM Toren en de skyline van Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A'DAM_Toren_en_de_skyline_van_Amsterdam.jpg",
+          "author": "MrAronymous",
+          "license": "CC0"
+        },
+        {
+          "title": "A'DAM Toren.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:A'DAM_Toren.JPG",
+          "author": "Marion Golsteijn",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "IJpromenade A'dam toren.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:IJpromenade_A'dam_toren.jpg",
+          "author": "Frank Markesteijn",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Top A'DAM Toren.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Top_A'DAM_Toren.JPG",
+          "author": "Marion Golsteijn",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Shell toren.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Shell_toren.jpg",
+          "author": "Arjen Kruisman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "A'DAM Toren avond.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A'DAM_Toren_avond.jpg",
+          "author": "Marion Golsteijn",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "A'DAM Toren-03-Night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A'DAM_Toren-03-Night.jpg",
+          "author": "Muck",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-adam-toren.glb",
+      "source": "generators/amsterdam-adam-toren.ts"
+    },
+    {
+      "id": "amsterdam-amstel-hotel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "hotel"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "AmstelHotelAmsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:AmstelHotelAmsterdam.jpg",
+          "author": "Massimo Catarinella",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Amstel Hotel 2030.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amstel_Hotel_2030.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Amstel Hotel 001.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Amstel_Hotel_001.JPG",
+          "author": "Janericloebe",
+          "license": "Public domain"
+        },
+        {
+          "title": "Amstel Hotel 20150911.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amstel_Hotel_20150911.jpg",
+          "author": "Suicasmo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "3D BAG, NL.IMBAG.Pand.0363100012165491",
+          "url": "https://3dbag.nl/",
+          "author": "TU Delft 3D geoinformation group / 3DGI",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-amstel-hotel.glb",
+      "source": "generators/amsterdam-amstel-hotel.ts"
+    },
+    {
+      "id": "amsterdam-beurs-van-berlage",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "exchange",
+        "historic",
+        "brick",
+        "clock-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q851200",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Damrak met toren (RCE 20368626)",
+          "url": "https://commons.wikimedia.org/wiki/File:Damrak_met_toren_-_Amsterdam_-_20368626_-_RCE.jpg",
+          "author": "A. J. van der Wal",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Beurs van Berlage 2506",
+          "url": "https://commons.wikimedia.org/wiki/File:Beurs_van_Berlage_2506.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Beurs van Berlage 2508",
+          "url": "https://commons.wikimedia.org/wiki/File:Beurs_van_Berlage_2508.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Beurs van Berlage 1709",
+          "url": "https://commons.wikimedia.org/wiki/File:Beurs_van_Berlage_1709.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gezicht op de Beurs van Berlage, met op de achtergrond de Oudekerkstoren en het Centraal Station (RCE 20286195)",
+          "url": "https://commons.wikimedia.org/wiki/File:Gezicht_op_de_Beurs_van_Berlage,_met_op_de_achtergrond_de_Oudekerkstoren_en_het_Centraal_Station_-_Amsterdam_-_20286195_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Beurs van Berlage 1898-1903 II",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Beurs_van_Berlage_1898-1903_II.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Beurs van Berlage 2010-1",
+          "url": "https://commons.wikimedia.org/wiki/File:Beurs_van_Berlage_2010-1.JPG",
+          "author": "Steven Lek",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/amsterdam-beurs-van-berlage.glb",
+      "source": "generators/amsterdam-beurs-van-berlage.ts"
+    },
+    {
+      "id": "amsterdam-carre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "theatre",
+        "circus"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Carre Theatre 2038.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Carre_Theatre_2038.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Carré Amstelsluizen.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Carr%C3%A9_Amstelsluizen.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam Carré entrance at night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Carr%C3%A9_entrance_at_night.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Onbekendegracht carre.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Onbekendegracht_carre.jpg",
+          "author": "Jvhertum",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Amsterdam - Amstel - Hoge Sluis - View North towards Carré Theatre.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Amstel_-_Hoge_Sluis_-_View_North_towards_Carr%C3%A9_Theatre.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "3D BAG, NL.IMBAG.Pand.0363100012165489",
+          "url": "https://3dbag.nl/",
+          "author": "TU Delft 3D geoinformation group / 3DGI",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-carre.glb",
+      "source": "generators/amsterdam-carre.ts"
+    },
+    {
+      "id": "amsterdam-concertgebouw",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "concert-hall",
+        "historic",
+        "neoclassical",
+        "brick"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Concertgebouw, Van Baerlestraat.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw,_Van_Baerlestraat.jpg",
+          "author": "Alf van Beem",
+          "license": "Public domain"
+        },
+        {
+          "title": "Concertgebouw, Van Baerlestraat, Concertgebouwplein.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw,_Van_Baerlestraat,_Concertgebouwplein.jpg",
+          "author": "Alf van Beem",
+          "license": "Public domain"
+        },
+        {
+          "title": "Exterieur NIEUWE AANBOUW, OVERZICHT - Amsterdam - 20260226 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_NIEUWE_AANBOUW,_OVERZICHT_-_Amsterdam_-_20260226_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Concertgebouw, Ámsterdam, Países Bajos, 2016-05-30, DD 22-24 HDR.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw,_%C3%81msterdam,_Pa%C3%ADses_Bajos,_2016-05-30,_DD_22-24_HDR.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Concertgebouw from Museumplein 2539.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw_from_Museumplein_2539.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Concertgebouw in Amsterdam April 2015.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw_in_Amsterdam_April_2015.jpg",
+          "author": "yisris",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Concertgebouw in Amsterdam Nederland.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw_in_Amsterdam_Nederland.jpg",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Concertgebouw detail.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw_detail.jpg",
+          "author": "roberto rembrandt",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "A.L. van Gendt Concertgebouw 0.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A.L._van_Gendt_Concertgebouw_0.jpg",
+          "author": "Adolf Leonard van Gendt",
+          "license": "Public domain"
+        },
+        {
+          "title": "3D BAG NL.IMBAG.Pand.0363100012233435 (LoD2.2 from AHN lidar)",
+          "url": "https://3dbag.nl/en/viewer?bagid=NL.IMBAG.Pand.0363100012233435",
+          "author": "3D geoinformation group, TU Delft / 3DBAG",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-concertgebouw.glb",
+      "source": "generators/amsterdam-concertgebouw.ts"
+    },
+    {
+      "id": "amsterdam-de-bazel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "archive",
+        "office",
+        "amsterdam-school",
+        "brick",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1977799",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Herengracht - Amsterdam (31)",
+          "url": "https://commons.wikimedia.org/wiki/File:Herengracht_-_Amsterdam_(31).JPG",
+          "author": "Basvb",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Amsterdam - Stadsarchief Amsterdam De Bazel (30214970991)",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Stadsarchief_Amsterdam_De_Bazel_(30214970991).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Amsterdam - Stadsarchief Amsterdam De Bazel (29670354714)",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Stadsarchief_Amsterdam_De_Bazel_(29670354714).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Amsterdam - Stadsarchief Amsterdam De Bazel (30300822115)",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Stadsarchief_Amsterdam_De_Bazel_(30300822115).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Amsterdan City Archives",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdan_City_Archives.jpg",
+          "author": "מייסטריך",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "From the Archives (50496166143)",
+          "url": "https://commons.wikimedia.org/wiki/File:From_the_Archives_(50496166143).jpg",
+          "author": "Rob Oo",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Overzicht - Amsterdam - 20350193 - RCE",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_-_Amsterdam_-_20350193_-_RCE.jpg",
+          "author": "R. Hoogewoud",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rm46509",
+          "url": "https://commons.wikimedia.org/wiki/File:Rm46509.JPG",
+          "author": "Effeietsanders",
+          "license": "CC BY-SA 3.0 NL"
+        }
+      ],
+      "file": "models/amsterdam-de-bazel.glb",
+      "source": "generators/amsterdam-de-bazel.ts"
+    },
+    {
+      "id": "amsterdam-de-gooyer",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "windmill",
+        "historic",
+        "rijksmonument"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam De Gooyer 06.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_De_Gooyer_06.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam De Gooyer 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_De_Gooyer_03.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "De Gooyer, Amsterdam 20180702.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:De_Gooyer,_Amsterdam_20180702.jpg",
+          "author": "Suicasmo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "De Gooyer Windmill.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:De_Gooyer_Windmill.jpg",
+          "author": "Swimmerguy269",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "De Gooyer windmill AMS 12 2016 0436.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:De_Gooyer_windmill_AMS_12_2016_0436.jpg",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "De Gooyer windmill AMS 12 2016 0474.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:De_Gooyer_windmill_AMS_12_2016_0474.jpg",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "\"De Gooyer\" windmill @ Amsterdam (19010316813).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%22De_Gooyer%22_windmill_@_Amsterdam_(19010316813).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/amsterdam-de-gooyer.glb",
+      "source": "generators/amsterdam-de-gooyer.ts"
+    },
+    {
+      "id": "amsterdam-eye-filmmuseum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "cinema",
+        "modern",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "EYE Film Institute Amsterdam from tour boat 2016-09-12-6548.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:EYE_Film_Institute_Amsterdam_from_tour_boat_2016-09-12-6548.jpg",
+          "author": "Slaunger",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Eye filmmuseum with magnificent skies at 11 Februari 2016 - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eye_filmmuseum_with_magnificent_skies_at_11_Februari_2016_-_panoramio.jpg",
+          "author": "Henk Monster",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "EYE Filmmuseum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:EYE_Filmmuseum.jpg",
+          "author": "Jvhertum",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Eye (filmmuseum).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Eye_(filmmuseum).JPG",
+          "author": "Marion Golsteijn",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "EYE Filmmuseum @ Amsterdam-Noord @ Amsterdam (16000621439).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:EYE_Filmmuseum_@_Amsterdam-Noord_@_Amsterdam_(16000621439).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "EYE Filmmuseum @ Amsterdam (22563494720).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:EYE_Filmmuseum_@_Amsterdam_(22563494720).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Eye filmmuseum, Amsterdam in the Netherlands, by night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Eye_filmmuseum,_Amsterdam_in_the_Netherlands,_by_night.jpg",
+          "author": "Gadogado123",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-eye-filmmuseum.glb",
+      "source": "generators/amsterdam-eye-filmmuseum.ts"
+    },
+    {
+      "id": "amsterdam-haarlemmerpoort",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "city-gate",
+        "neoclassical"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam Haarlemmerpoort 001.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Haarlemmerpoort_001.JPG",
+          "author": "Janericloebe",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Overzicht voorzijde poortgebouw - Amsterdam - 20536555 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_voorzijde_poortgebouw_-_Amsterdam_-_20536555_-_RCE.jpg",
+          "author": "Bert van As",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Haarlemmerpoort @ Amsterdam (21748858698).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Haarlemmerpoort_@_Amsterdam_(21748858698).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Amsterdam Haarlemmerpoort 002.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Haarlemmerpoort_002.JPG",
+          "author": "Janericloebe",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/amsterdam-haarlemmerpoort.glb",
+      "source": "generators/amsterdam-haarlemmerpoort.ts"
+    },
+    {
+      "id": "amsterdam-hart-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "museum",
+        "almshouse"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hermitage amsterdam panorama.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hermitage_amsterdam_panorama.jpg",
+          "author": "S Sepp",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Amsterdam Amstelhof seen from Blauwbrug.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Amstelhof_seen_from_Blauwbrug.jpg",
+          "author": "Ymblanter",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "H'ART Museum letters in the Amstelhof garden, Amsterdam, October 2026.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:H%27ART_Museum_letters_in_the_Amstelhof_garden,_Amsterdam,_October_2026.jpg",
+          "author": "ThoseIcons",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Amstelhof Southern part of the eastern wing.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Amstelhof_Southern_part_of_the_eastern_wing.jpg",
+          "author": "Ymblanter",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "3D BAG, NL.IMBAG.Pand.0363100012165553",
+          "url": "https://3dbag.nl/",
+          "author": "TU Delft 3D geoinformation group / 3DGI",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-hart-museum.glb",
+      "source": "generators/amsterdam-hart-museum.ts"
+    },
+    {
+      "id": "amsterdam-ing-house",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "modern",
+        "stilts"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "ING House @ Zuidas @ Amsterdam (20203855735).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING_House_@_Zuidas_@_Amsterdam_(20203855735).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "ING House @ Zuidas @ Amsterdam (19581199544).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING_House_@_Zuidas_@_Amsterdam_(19581199544).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "2009 ING House.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2009_ING_House.jpg",
+          "author": "FaceMePLS",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "ING House Amsterdam 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING_House_Amsterdam_2017.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "ING-House - Amsterdam 20060903 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING-House_-_Amsterdam_20060903_01.jpg",
+          "author": "Pudding4brains",
+          "license": "Public domain"
+        },
+        {
+          "title": "ING-House - Amsterdam 20060903 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING-House_-_Amsterdam_20060903_02.jpg",
+          "author": "Pudding4brains",
+          "license": "Public domain"
+        },
+        {
+          "title": "ING-House - Amsterdam 20060903 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING-House_-_Amsterdam_20060903_04.jpg",
+          "author": "Pudding4brains",
+          "license": "Public domain"
+        },
+        {
+          "title": "ING-House - Amsterdam 20060903 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING-House_-_Amsterdam_20060903_05.jpg",
+          "author": "Pudding4brains",
+          "license": "Public domain"
+        },
+        {
+          "title": "INGHouse1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:INGHouse1.jpg",
+          "author": "unknown (Wikimedia Commons)",
+          "license": "Public domain"
+        },
+        {
+          "title": "ING House Amsterdam.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:ING_House_Amsterdam.JPG",
+          "author": "unknown (Wikimedia Commons)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Infinity Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Infinity_Amsterdam.jpg",
+          "author": "Choinowski",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-ing-house.glb",
+      "source": "generators/amsterdam-ing-house.ts"
+    },
+    {
+      "id": "amsterdam-johan-cruijff-arena",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "stadium",
+        "football",
+        "retractable-roof",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arena, Ajax stadion, Amsterdam.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Arena,_Ajax_stadion,_Amsterdam.JPG",
+          "author": "Alf van Beem",
+          "license": "CC0"
+        },
+        {
+          "title": "Amsterdam Arena Aerial.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_Aerial.jpg",
+          "author": "R.M.Jaarsma",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Amsterdam Arena Roof Open.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_Roof_Open.jpg",
+          "author": "Quistnix",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam Arena SEP 2012.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_SEP_2012.jpg",
+          "author": "calflier001",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Amsterdam Arena - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_-_panoramio_(1).jpg",
+          "author": "Mister No",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam ArenA 001.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_ArenA_001.JPG",
+          "author": "Janericloebe",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam Arena (Amsterdam, Pays-Bas) (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_(Amsterdam,_Pays-Bas)_(1).jpg",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Arena (Amsterdam, Pays-Bas) (3).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_(Amsterdam,_Pays-Bas)_(3).jpg",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Arena (5722962939).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Arena_(5722962939).jpg",
+          "author": "Markus Unger",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Utrechtboog en Arena soccer stadion.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Utrechtboog_en_Arena_soccer_stadion.png",
+          "author": "Steven Lek",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/amsterdam-johan-cruijff-arena.glb",
+      "source": "generators/amsterdam-johan-cruijff-arena.ts"
+    },
+    {
+      "id": "amsterdam-krijtberg",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "historic",
+        "gothic-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Krijtberg 2856.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Krijtberg_2856.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - De Krijtberg church - 1308.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_De_Krijtberg_church_-_1308.jpg",
+          "author": "Jorge Royan",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Overzicht neogotische kruisbasiliek - Amsterdam - 20369642 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_neogotische_kruisbasiliek_-_Amsterdam_-_20369642_-_RCE.jpg",
+          "author": "Rijksdienst voor het Cultureel Erfgoed",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Overzicht met R.K. kerk De Krijtberg - Amsterdam - 20020935 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_met_R.K._kerk_De_Krijtberg_-_Amsterdam_-_20020935_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam De Krijtberg Fassade 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_De_Krijtberg_Fassade_2.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "De Krijtberg, Singel.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:De_Krijtberg,_Singel.JPG",
+          "author": "Alf van Beem",
+          "license": "CC0"
+        },
+        {
+          "title": "De Krijtberg (5821469239).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:De_Krijtberg_(5821469239).jpg",
+          "author": "Jorge Láscar",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/amsterdam-krijtberg.glb",
+      "source": "generators/amsterdam-krijtberg.ts"
+    },
+    {
+      "id": "amsterdam-magere-brug",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "historic",
+        "drawbridge",
+        "bascule-bridge",
+        "canal"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Magere Brug 2042.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magere_Brug_2042.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Magere Brug 2048.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magere_Brug_2048.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Magere Brug 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Magere_Brug_1.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Magere Brug 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Magere_Brug_2.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Magere Brug 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Magere_Brug_3.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Magere Brug 20180702.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magere_Brug_20180702.jpg",
+          "author": "Suicasmo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Night Bridge Reflection (228162771).jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:Night_Bridge_Reflection_(228162771).jpeg",
+          "author": "Max Piletski",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/amsterdam-magere-brug.glb",
+      "source": "generators/amsterdam-magere-brug.ts"
+    },
+    {
+      "id": "amsterdam-magna-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "neo-gothic",
+        "historic",
+        "post-office",
+        "shopping-centre"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1962448",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Magna Plaza 2665",
+          "url": "https://commons.wikimedia.org/wiki/File:Magna_Plaza_2665.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Voormalig Hoofdpostkantoor N.Z.Voorburgwal Amsterdam",
+          "url": "https://commons.wikimedia.org/wiki/File:Voormalig_Hoofdpostkantoor_N.Z.Voorburgwal_Amsterdam.JPG",
+          "author": "11joop",
+          "license": "CC BY-SA 3.0 NL"
+        },
+        {
+          "title": "Exterieur OVERZICHT, (MAGNA PLAZA) (RCE 20285821)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_OVERZICHT,_(MAGNA_PLAZA)_-_Amsterdam_-_20285821_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterieur OVERZICHT, (MAGNA PLAZA) (RCE 20285822)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_OVERZICHT,_(MAGNA_PLAZA)_-_Amsterdam_-_20285822_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Raadhuisstraat - View ENE on Former Hoofdpostkantoor 1895-99 by C.H.Peters",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Raadhuisstraat_-_View_ENE_on_Former_Hoofdpostkantoor_1895-99_by_C.H.Peters.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torens met peervormige torenbekroningen van het voormalige Hoofdpostkantoor (RCE 20528589)",
+          "url": "https://commons.wikimedia.org/wiki/File:Torens_met_peervormige_torenbekroningen_van_het_voormalige_Hoofdpostkantoor,_gezien_vanaf_het_dak_van_het_Koninklijk_Paleis_-_Amsterdam_-_20528589_-_RCE.jpg",
+          "author": "Chris Booms",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-magna-plaza.glb",
+      "source": "generators/amsterdam-magna-plaza.ts"
+    },
+    {
+      "id": "amsterdam-montelbaanstoren",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tower",
+        "historic",
+        "renaissance",
+        "harbour"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Montelbaanstoren 1791.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Montelbaanstoren_1791.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Montelbaanstoren 7146.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Montelbaanstoren_7146.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tour Montelbaan - Amsterdam (NL32) - 2024-11-27 - 4.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tour_Montelbaan_-_Amsterdam_(NL32)_-_2024-11-27_-_4.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tour Montelbaan - Amsterdam (NL32) - 2024-11-27 - 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tour_Montelbaan_-_Amsterdam_(NL32)_-_2024-11-27_-_1.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "4025 Montelbaanstoren.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:4025_Montelbaanstoren.jpg",
+          "author": "Johan Bakker",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-montelbaanstoren.glb",
+      "source": "generators/amsterdam-montelbaanstoren.ts"
+    },
+    {
+      "id": "amsterdam-muiderpoort",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "city-gate",
+        "neoclassical"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Muiderpoort @ Amsterdam (17278319481).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Muiderpoort_@_Amsterdam_(17278319481).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Muiderpoort @ Amsterdam (17277017432).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Muiderpoort_@_Amsterdam_(17277017432).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Muiderpoort 2019 (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Muiderpoort_2019_(2).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Muiderpoort, veldzijde - Amsterdam - 20292267 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Muiderpoort,_veldzijde_-_Amsterdam_-_20292267_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "De Muiderpoort, gezien vanuirt het zuiden - Amsterdam - 20292265 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:De_Muiderpoort,_gezien_vanuirt_het_zuiden_-_Amsterdam_-_20292265_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Muiderpoort from NW.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Muiderpoort_from_NW.jpg",
+          "author": "Spider",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/amsterdam-muiderpoort.glb",
+      "source": "generators/amsterdam-muiderpoort.ts"
+    },
+    {
+      "id": "amsterdam-munttoren",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tower",
+        "historic",
+        "city-gate",
+        "renaissance",
+        "carillon"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Munttoren Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Munttoren_Amsterdam.jpg",
+          "author": "Massimo Catarinella",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam, de Munttoren RM3729 IMG 3346 2024-06-24 11.41.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_de_Munttoren_RM3729_IMG_3346_2024-06-24_11.41.jpg",
+          "author": "Michielverbeek",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Amsterdam (NL), Munttoren -- 2015 -- 7236.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Munttoren_--_2015_--_7236.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Belfry of Munttoren - Muntplein - Amsterdam - 2016-09-13-6642.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Belfry_of_Munttoren_-_Muntplein_-_Amsterdam_-_2016-09-13-6642.jpg",
+          "author": "Slaunger",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Munttoren 2085.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Munttoren_2085.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Munttoren-Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Munttoren-Amsterdam.jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Amsterdam - De Munttoren v1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_De_Munttoren_v1.JPG",
+          "author": "Rudolphous",
+          "license": "CC BY-SA 3.0 NL"
+        }
+      ],
+      "file": "models/amsterdam-munttoren.glb",
+      "source": "generators/amsterdam-munttoren.ts"
+    },
+    {
+      "id": "amsterdam-national-monument",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "war-memorial",
+        "historic",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q473851",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Nationaal Monument Dam Amsterdam",
+          "url": "https://commons.wikimedia.org/wiki/File:Nationaal_Monument_Dam_Amsterdam.jpg",
+          "author": "Danbu14",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Nationaal Monument Dam Amsterdam 2018",
+          "url": "https://commons.wikimedia.org/wiki/File:Nationaal_Monument_Dam_Amsterdam_2018.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Dam - View on Nationaal Monument 1956 John Rädecker (Sculptor)",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Dam_-_View_on_Nationaal_Monument_1956_John_R%C3%A4decker_(Sculptor).jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nationaal Monument (Amsterdam) 2005",
+          "url": "https://commons.wikimedia.org/wiki/File:Nationaal_Monument_(Amsterdam)_2005.jpg",
+          "author": "Radosław Botev",
+          "license": "CC BY 3.0 PL"
+        },
+        {
+          "title": "Jonge toeristen nog in herfst in Amsterdam, overzicht Nationaal Monument Dam (Anefo 924-9996)",
+          "url": "https://commons.wikimedia.org/wiki/File:Jonge_toeristen_nog_in_herfst_in_Amsterdam,_overzicht_Nationaal_Monument_Dam,_Bestanddeelnr_924-9996.jpg",
+          "author": "Rob Croes / Anefo",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/amsterdam-national-monument.glb",
+      "source": "generators/amsterdam-national-monument.ts"
+    },
+    {
+      "id": "amsterdam-nemo",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "science-museum",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "NEMO (Amsterdam).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NEMO_(Amsterdam).jpg",
+          "author": "Gamekeeper at Dutch Wikipedia",
+          "license": "Public domain"
+        },
+        {
+          "title": "2018 - NEMO Science Museum, Amsterdam, Netherlands ( Ank Kumar ) 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2018_-_NEMO_Science_Museum,_Amsterdam,_Netherlands_(_Ank_Kumar_)_03.jpg",
+          "author": "Ank Kumar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nemo Science Museum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Nemo_Science_Museum.jpg",
+          "author": "Elekes Andor",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Oosterdok - NEMO Science Centre 1997 by Renzo Piano - View North on IJtunnel & NEMO.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Oosterdok_-_NEMO_Science_Centre_1997_by_Renzo_Piano_-_View_North_on_IJtunnel_&_NEMO.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Oosterdok - NEMO Science Centre 1997 by Renzo Piano - View NNE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Oosterdok_-_NEMO_Science_Centre_1997_by_Renzo_Piano_-_View_NNE.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-nemo.glb",
+      "source": "generators/amsterdam-nemo.ts"
+    },
+    {
+      "id": "amsterdam-nieuwe-kerk",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "gothic",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1419675",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam Nieuwe Kerk 1697",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_1697.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Nieuwe Kerk 5",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_5.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Nieuwe Kerk 6",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_6.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Nieuwe Kerk 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_1.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Nieuwe Kerk 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_3.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Nieuwe Kerk Chor 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_Chor_2.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-nieuwe-kerk.glb",
+      "source": "generators/amsterdam-nieuwe-kerk.ts"
+    },
+    {
+      "id": "amsterdam-oba",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "library",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q50413436",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam - Oosterdokskade - Amsterdam Public Library 2007 by Jo Coenen - Conservatorium van Amsterdam 2008 by Frits van Dongen 05",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Oosterdokskade_-_Amsterdam_Public_Library_2007_by_Jo_Coenen_-_Conservatorium_van_Amsterdam_2008_by_Frits_van_Dongen_05.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Oosterdokskade - Amsterdam Public Library 2007 by Jo Coenen - Conservatorium van Amsterdam 2008 by Frits van Dongen 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Oosterdokskade_-_Amsterdam_Public_Library_2007_by_Jo_Coenen_-_Conservatorium_van_Amsterdam_2008_by_Frits_van_Dongen_01.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "OBA building side view",
+          "url": "https://commons.wikimedia.org/wiki/File:OBA_building_side_view.jpg",
+          "author": "Ciell",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "750-slinger OBA 1",
+          "url": "https://commons.wikimedia.org/wiki/File:750-slinger_OBA_1.jpg",
+          "author": "VrijMokum",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-oba.glb",
+      "source": "generators/amsterdam-oba.ts"
+    },
+    {
+      "id": "amsterdam-olympic-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "stadium",
+        "olympics",
+        "amsterdam-school",
+        "brick",
+        "historic",
+        "rijksmonument"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Overzicht Olympisch Stadion - Amsterdam - 20409334 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_Olympisch_Stadion_-_Amsterdam_-_20409334_-_RCE.jpg",
+          "author": "Sergé Technau",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterieur OVERZICHT OOSTZIJDE, MARATHON-TRIBUNE, MARATHON-TOREN - Amsterdam - 20279165 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_OVERZICHT_OOSTZIJDE,_MARATHON-TRIBUNE,_MARATHON-TOREN_-_Amsterdam_-_20279165_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterieur OVERZICHT OOSTZIJDE, MARATHON-TRIBUNE, MARATHON-TOREN - Amsterdam - 20279166 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_OVERZICHT_OOSTZIJDE,_MARATHON-TRIBUNE,_MARATHON-TOREN_-_Amsterdam_-_20279166_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Olympisch stadion Amsterdam Stadiongrachtzijde.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympisch_stadion_Amsterdam_Stadiongrachtzijde.jpg",
+          "author": "Vincent Steenberg",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Olympisch stadion Amsterdam achterzijde.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympisch_stadion_Amsterdam_achterzijde.jpg",
+          "author": "Vincent Steenberg",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Olympic stadium @ Amsterdam (17478832033).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympic_stadium_@_Amsterdam_(17478832033).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Olympic Stadium @ Amsterdam (20017266359).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympic_Stadium_@_Amsterdam_(20017266359).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Amsterdam Olympic stadium (33460392888).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Olympic_stadium_(33460392888).jpg",
+          "author": "Daniel from Glasgow",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Marathontoren 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Marathontoren_2018.jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Marathontoren01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Marathontoren01.jpg",
+          "author": "Vincent Steenberg",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Amsterdam Marathonturm am Olympiastadion E 9074 201810.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Marathonturm_am_Olympiastadion_E_9074_201810.jpg",
+          "author": "Matthias Nonnenmacher",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Olympisch Stadion, Amsterdam, Marathonpoort (2011).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympisch_Stadion,_Amsterdam,_Marathonpoort_(2011).jpg",
+          "author": "Paul Berendsen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Olympic Stadium Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympic_Stadium_Amsterdam.jpg",
+          "author": "24oranges.nl",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/amsterdam-olympic-stadium.glb",
+      "source": "generators/amsterdam-olympic-stadium.ts"
+    },
+    {
+      "id": "amsterdam-oude-kerk",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "historic",
+        "gothic",
+        "tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam Oude Kerk 7310.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Oude_Kerk_7310.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tower of Oude Kerk, Amsterdam 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Oude_Kerk,_Amsterdam_01.jpg",
+          "author": "John Samuel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Oude Kerk tower 2136.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Oude_Kerk_tower_2136.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam-508-Oude Kerk-2010-gje.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam-508-Oude_Kerk-2010-gje.jpg",
+          "author": "Gerd Eichmann",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam, Oude Kerk (Old Church) - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Oude_Kerk_(Old_Church)_-_panoramio.jpg",
+          "author": "Carlo Pelagalli",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Oude Kerk (Amsterdam, Netherlands 2015) (15805701833).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Oude_Kerk_(Amsterdam,_Netherlands_2015)_(15805701833).jpg",
+          "author": "Paul Arps",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Amsterdam, Oude Kerk (04).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Oude_Kerk_(04).jpg",
+          "author": "Subbass1",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-oude-kerk.glb",
+      "source": "generators/amsterdam-oude-kerk.ts"
+    },
+    {
+      "id": "amsterdam-portuguese-synagogue",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "synagogue",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "EsnogaAmsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:EsnogaAmsterdam.jpg",
+          "author": "Massimo Catarinella",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Amsterdam - Portuguese Synagoge.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Portuguese_Synagoge.jpg",
+          "author": "A. Bakker",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Exterieur van de nieuwe Portugese Synagoge te Amsterdam. NL-HlmNHA 53008850.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_van_de_nieuwe_Portugese_Synagoge_te_Amsterdam._NL-HlmNHA_53008850.JPG",
+          "author": "Romeyn de Hooghe",
+          "license": "Public domain"
+        },
+        {
+          "title": "3D BAG, NL.IMBAG.Pand.0363100012170255",
+          "url": "https://3dbag.nl/",
+          "author": "TU Delft 3D geoinformation group / 3DGI",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-portuguese-synagogue.glb",
+      "source": "generators/amsterdam-portuguese-synagogue.ts"
+    },
+    {
+      "id": "amsterdam-rembrandt-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Rembrandt toren vanuit het noordwesten.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rembrandt_toren_vanuit_het_noordwesten.jpg",
+          "author": "S Sepp",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Rembrandttoren in 2021.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rembrandttoren_in_2021.jpg",
+          "author": "Choinowski",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rembrandttoren in 2019 (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rembrandttoren_in_2019_(1).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rembrandttoren in 2019 (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rembrandttoren_in_2019_(2).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam omval rembrandt breitner mondriaan toren.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_omval_rembrandt_breitner_mondriaan_toren.jpg",
+          "author": "S Sepp",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The Amsterdam Amstel station with the Rembrandt tower left of it - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Amsterdam_Amstel_station_with_the_Rembrandt_tower_left_of_it_-_panoramio.jpg",
+          "author": "Henk Monster",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Rembrandt Tower with Amstel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rembrandt_Tower_with_Amstel.jpg",
+          "author": "Tinelot Wittermans",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/amsterdam-rembrandt-tower.glb",
+      "source": "generators/amsterdam-rembrandt-tower.ts"
+    },
+    {
+      "id": "amsterdam-rijksmuseum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "historic",
+        "gothic-revival",
+        "brick"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Rijksmuseum from Museumplein 2523.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_from_Museumplein_2523.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rijksmuseum Amsterdam.jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Amsterdam.jpeg",
+          "author": "olexdj",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rijksmuseum Amsterdam 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Amsterdam_01.jpg",
+          "author": "Derbrauni",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "North facade of the Rijksmuseum Amsterdam 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:North_facade_of_the_Rijksmuseum_Amsterdam_01.jpg",
+          "author": "Derbrauni",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "North facade of the Rijksmuseum Amsterdam (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:North_facade_of_the_Rijksmuseum_Amsterdam_(1).jpg",
+          "author": "Vasyatka1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rijksmuseum Amsterdam North facade at Stadhouderskade, clock tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Amsterdam_North_facade_at_Stadhouderskade,_clock_tower.jpg",
+          "author": "Charlotte Heineccius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rijksmuseum Amsterdam North facade at Stadhouderskade, east tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Amsterdam_North_facade_at_Stadhouderskade,_east_tower.jpg",
+          "author": "Charlotte Heineccius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rijksmuseum vanaf de Hobbemakade pic1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_vanaf_de_Hobbemakade_pic1.JPG",
+          "author": "Alf van Beem",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rijksmuseum vanaf de Ruysdaelkade pic1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_vanaf_de_Ruysdaelkade_pic1.JPG",
+          "author": "Alf van Beem",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rijksmuseum (28692264928).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_(28692264928).jpg",
+          "author": "Julien Chatelain",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Rijksmuseum winter 7441.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_winter_7441.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Luchtfoto van het Rijksmuseum 1921.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Luchtfoto_van_het_Rijksmuseum_1921.jpg",
+          "author": "KLM Aerocarto NV",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rijksmuseum Amsterdam by night 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Amsterdam_by_night_2017.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "3D BAG NL.IMBAG.Pand.0363100012237298 (LoD2.2 from AHN5 lidar)",
+          "url": "https://3dbag.nl/en/viewer?bagid=NL.IMBAG.Pand.0363100012237298",
+          "author": "3D geoinformation group, TU Delft / 3DBAG",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-rijksmuseum.glb",
+      "source": "generators/amsterdam-rijksmuseum.ts"
+    },
+    {
+      "id": "amsterdam-royal-palace",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "palace",
+        "historic",
+        "town-hall",
+        "classicism"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1056152",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Palacio Real, Ámsterdam, Países Bajos, 2016-05-30, DD 07-09 HDR",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Real,_%C3%81msterdam,_Pa%C3%ADses_Bajos,_2016-05-30,_DD_07-09_HDR.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Paleis op de Dam 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Paleis_op_de_Dam_1.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Paleis op de Dam Turm",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Paleis_op_de_Dam_Turm.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Overzicht Koninklijk Paleis op de Dam met rechts de Nieuwe Kerk (RCE 20528550)",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_Koninklijk_Paleis_op_de_Dam_met_rechts_de_Nieuwe_Kerk_-_Amsterdam_-_20528550_-_RCE.jpg",
+          "author": "Chris Booms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Overzicht Koninklijk Paleis Amsterdam, zijde Nieuwezijds Voorburgwal (RCE 20528557)",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_Koninklijk_Paleis_Amsterdam,_zijde_Nieuwezijds_Voorburgwal_-_Amsterdam_-_20528557_-_RCE.jpg",
+          "author": "Chris Booms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gezicht over de daken van het Koninklijk Paleis (RCE 20528588)",
+          "url": "https://commons.wikimedia.org/wiki/File:Gezicht_over_de_daken_van_het_Koninklijk_Paleis_in_noordwestelijke_richting_-_Amsterdam_-_20528588_-_RCE.jpg",
+          "author": "Chris Booms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam (NL), Koninklijk Paleis -- 2015 -- 7193",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Koninklijk_Paleis_--_2015_--_7193.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Paleis op de Dam, Nieuwezijds Voorburgwal 147",
+          "url": "https://commons.wikimedia.org/wiki/File:Paleis_op_de_Dam,_Nieuwezijds_Voorburgwal_147.JPG",
+          "author": "Marcelmulder68",
+          "license": "CC BY-SA 3.0 NL"
+        }
+      ],
+      "file": "models/amsterdam-royal-palace.glb",
+      "source": "generators/amsterdam-royal-palace.ts"
+    },
+    {
+      "id": "amsterdam-scheepvaarthuis",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "hotel",
+        "amsterdam-school",
+        "brick",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q2078885",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "20111020 foto 791",
+          "url": "https://commons.wikimedia.org/wiki/File:20111020_foto_791.jpg",
+          "author": "Enrique Munoz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2024 Grand Hotel Amrâth Amsterdam 42",
+          "url": "https://commons.wikimedia.org/wiki/File:2024_Grand_Hotel_Amr%C3%A2th_Amsterdam_42.jpg",
+          "author": "Gillfoto",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2024 Grand Hotel Amrâth gf71",
+          "url": "https://commons.wikimedia.org/wiki/File:2024_Grand_Hotel_Amr%C3%A2th_gf71.jpg",
+          "author": "Gillfoto",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Scheepvaarthuis 001",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Scheepvaarthuis_001.JPG",
+          "author": "Janericloebe",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam Scheepvaarthuis 002",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Scheepvaarthuis_002.JPG",
+          "author": "Janericloebe",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "DSC00344, Canal Cruise, Amsterdam, Netherlands (339017945)",
+          "url": "https://commons.wikimedia.org/wiki/File:DSC00344,_Canal_Cruise,_Amsterdam,_Netherlands_(339017945).jpg",
+          "author": "Lyn Gateley",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Exterieur Scheepvaarthuis 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_Scheepvaarthuis_02.jpg",
+          "author": "Hanno Lans",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "'t Scheepvaarthuis - Amsterdam - 20011111 - RCE",
+          "url": "https://commons.wikimedia.org/wiki/File:%27t_Scheepvaarthuis_-_Amsterdam_-_20011111_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-scheepvaarthuis.glb",
+      "source": "generators/amsterdam-scheepvaarthuis.ts"
+    },
+    {
+      "id": "amsterdam-scheepvaartmuseum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "maritime-museum",
+        "historic",
+        "baroque"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Nederlands Scheepvaartmuseum 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Nederlands_Scheepvaartmuseum_2024.jpg",
+          "author": "Fernando",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Het Scheepvaartmuseum, Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Het_Scheepvaartmuseum,_Amsterdam.jpg",
+          "author": "Nataliia Ieremieieva",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Roof Scheepvaartmuseum Amsterdam 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Roof_Scheepvaartmuseum_Amsterdam_2019.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Scheepvaartmuseum 2022.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Scheepvaartmuseum_2022.jpg",
+          "author": "Ainali",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "National Maritime Museum Amsterdam.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Maritime_Museum_Amsterdam.JPG",
+          "author": "BristolIcarus",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-scheepvaartmuseum.glb",
+      "source": "generators/amsterdam-scheepvaartmuseum.ts"
+    },
+    {
+      "id": "amsterdam-schreierstoren",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tower",
+        "historic",
+        "medieval",
+        "city-wall",
+        "harbour"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "SchreierstorenAmsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SchreierstorenAmsterdam.jpg",
+          "author": "Massimo Catarinella",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Schreierstoren 7332.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Schreierstoren_7332.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Oudezijds Kolk - Geldersekade - View SE on Schreierstoren 1487.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Oudezijds_Kolk_-_Geldersekade_-_View_SE_on_Schreierstoren_1487.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2014 - Schreierstoren Tower, Prins Hendrikkade, Amsterdam, Holland (Ank Kumar ) 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2014_-_Schreierstoren_Tower,_Prins_Hendrikkade,_Amsterdam,_Holland_(Ank_Kumar_)_02.jpg",
+          "author": "Ank Kumar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Schreierstoren at night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Schreierstoren_at_night.jpg",
+          "author": "APK",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-schreierstoren.glb",
+      "source": "generators/amsterdam-schreierstoren.ts"
+    },
+    {
+      "id": "amsterdam-ship-amsterdam",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "ship",
+        "replica",
+        "museum-ship",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "VOC ship Amsterdam 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:VOC_ship_Amsterdam_1.jpg",
+          "author": "Malis",
+          "license": "Public domain"
+        },
+        {
+          "title": "Amsterdam (ship, 1990) 2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(ship,_1990)_2023.jpg",
+          "author": "Derbrauni",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Amsterdam (ship, 1990) in 2016.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(ship,_1990)_in_2016.jpg",
+          "author": "Joseolgon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam (ship, 1990) - vanaf het Oosterdok 1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(ship,_1990)_-_vanaf_het_Oosterdok_1.JPG",
+          "author": "Ymnes",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Het Scheepvaartmuseum, Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Het_Scheepvaartmuseum,_Amsterdam.jpg",
+          "author": "Nataliia Ieremieieva",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-ship-amsterdam.glb",
+      "source": "generators/amsterdam-ship-amsterdam.ts"
+    },
+    {
+      "id": "amsterdam-sint-nicolaaskerk",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "basilica",
+        "historic",
+        "dome"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam, Sint Nicolaasbasiliek vanaf brug bij Centraal Station.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Sint_Nicolaasbasiliek_vanaf_brug_bij_Centraal_Station.JPG",
+          "author": "A.A.W.J. Rietman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam, Sint Nicolaasbasiliek.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Sint_Nicolaasbasiliek.jpg",
+          "author": "Parsifall",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam, Sint Nicolaasbasiliek, exterieur front 02.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Sint_Nicolaasbasiliek,_exterieur_front_02.JPG",
+          "author": "A.A.W.J. Rietman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam, Sint Nicolaasbasiliek, achterzijde 00 koepel 02.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Sint_Nicolaasbasiliek,_achterzijde_00_koepel_02.JPG",
+          "author": "A.A.W.J. Rietman",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-sint-nicolaaskerk.glb",
+      "source": "generators/amsterdam-sint-nicolaaskerk.ts"
+    },
+    {
+      "id": "amsterdam-stedelijk-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "historic",
+        "neo-renaissance",
+        "brick",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Stedelijk museum, badkuip, foto 1.JPG (and 2, 4, 5, 6)",
+          "url": "https://commons.wikimedia.org/wiki/File:Stedelijk_museum,_badkuip,_foto_1.JPG",
+          "author": "Alf van Beem",
+          "license": "Public domain"
+        },
+        {
+          "title": "Van Baerlestraat, badkuip.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Baerlestraat,_badkuip.jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Stedelijk Museum Amsterdam 2017 2.jpg (and 3, 4)",
+          "url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_Amsterdam_2017_2.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Museumplein - View on Stedelijk Museum from Van Gogh Museum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Museumplein_-_View_on_Stedelijk_Museum_from_Van_Gogh_Museum.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Stedelijk Museum 1.jpg (and 3)",
+          "url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_1.jpg",
+          "author": "Editør",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Overzicht museum, middenpartij met risaliet en trapgevel - Amsterdam - 20409360 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_museum,_middenpartij_met_risaliet_en_trapgevel_-_Amsterdam_-_20409360_-_RCE.jpg",
+          "author": "Sergé Technau",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Paulus Potterstraat 13 Stedelijk.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Paulus_Potterstraat_13_Stedelijk.JPG",
+          "author": "A. Bakker",
+          "license": "CC BY-SA 3.0 nl"
+        },
+        {
+          "title": "Stedelijk Museum in Amsterdam 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_in_Amsterdam_03.jpg",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Stedelijk Museum Amsterdam 7173 HDR.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_Amsterdam_7173_HDR.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "3D BAG NL.IMBAG.Pand.0363100012077791, 0363100012251804, 0363100012251805 (LoD2.2 from AHN lidar)",
+          "url": "https://3dbag.nl/en/viewer?bagid=NL.IMBAG.Pand.0363100012077791",
+          "author": "3D geoinformation group, TU Delft / 3DBAG",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-stedelijk-museum.glb",
+      "source": "generators/amsterdam-stedelijk-museum.ts"
+    },
+    {
+      "id": "amsterdam-stopera",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "modern",
+        "opera-house",
+        "city-hall",
+        "theatre"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam - Stopera (30213475601).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Stopera_(30213475601).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Amsterdam, de Stopera vanaf de Blauwbrug IMG 1096 2026-04-06 14.38.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_de_Stopera_vanaf_de_Blauwbrug_IMG_1096_2026-04-06_14.38.jpg",
+          "author": "Michielverbeek",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Amsterdam - Amstel - View East on Stopera Theatre - City Hall.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Amstel_-_View_East_on_Stopera_Theatre_-_City_Hall.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Waterlooplein - View West along the Stopera - City Hall & Opera House 1986.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Waterlooplein_-_View_West_along_the_Stopera_-_City_Hall_%26_Opera_House_1986.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hôtel Ville - Amsterdam (NL32) - 2024-11-25 - 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_-_Amsterdam_(NL32)_-_2024-11-25_-_2.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "3D BAG, NL.IMBAG.Pand.0363100012186092",
+          "url": "https://3dbag.nl/",
+          "author": "TU Delft 3D geoinformation group / 3DGI",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-stopera.glb",
+      "source": "generators/amsterdam-stopera.ts"
+    },
+    {
+      "id": "amsterdam-tuschinski",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "cinema",
+        "theatre",
+        "art-deco",
+        "amsterdam-school",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q599272",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Tuschinski Theater-Amsterdam-2025-msu-9137",
+          "url": "https://commons.wikimedia.org/wiki/File:Tuschinski_Theater-Amsterdam-2025-msu-9137.jpg",
+          "author": "Matthias Süßen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Het Tuschinski Theater aan de grotendeels lege Reguliersbreestraat tijdens de coronacrisis (2021)",
+          "url": "https://commons.wikimedia.org/wiki/File:Het_Tuschinski_Theater_aan_de_grotendeels_lege_Reguliersbreestraat_tijdens_de_coronacrisis_(2021).jpg",
+          "author": "MatteoNL97",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Het Tuschinski Theater aan de grotendeels lege Reguliersbreestraat tijdens de coronacrisis (2021) 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Het_Tuschinski_Theater_aan_de_grotendeels_lege_Reguliersbreestraat_tijdens_de_coronacrisis_(2021)_2.jpg",
+          "author": "MatteoNL97",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Amsterdam - Reguliersbreestraat - View West on Tuschinski Theatre 1921",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Reguliersbreestraat_-_View_West_on_Tuschinski_Theatre_1921.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Reguliersbreestraat - View South on Theater Tuschinski",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Reguliersbreestraat_-_View_South_on_Theater_Tuschinski.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Reguliersbreestraat - Theater Tuschinski - Panoramic Photocompilation",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Reguliersbreestraat_-_Theater_Tuschinski_-_Panoramic_Photocompilation.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tuschinski Theater in de Reguliersbreestraat in Amsterdam, Bestanddeelnr 931-8038",
+          "url": "https://commons.wikimedia.org/wiki/File:Tuschinski_Theater_in_de_Reguliersbreestraat_in_Amsterdam,_Bestanddeelnr_931-8038.jpg",
+          "author": "Anefo",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/amsterdam-tuschinski.glb",
+      "source": "generators/amsterdam-tuschinski.ts"
+    },
+    {
+      "id": "amsterdam-van-gogh-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modernist",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Exterior of the Van Gogh Museum 20180702.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Van_Gogh_Museum_20180702.jpg",
+          "author": "Suicasmo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Van Gogh Museum 2537.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum_2537.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Van Gogh Museum, Pedaalemmer foto 1.jpg (and 2, 3)",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum,_Pedaalemmer_foto_1.jpg",
+          "author": "Alf van Beem",
+          "license": "Public domain"
+        },
+        {
+          "title": "Van Gogh Museum, Kurokawa wing.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum,_Kurokawa_wing.jpg",
+          "author": "Sebastian Koppehel",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Exterior of the Kurokawavleugel Van Gogh Museum IMG 5159.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Kurokawavleugel_Van_Gogh_Museum_IMG_5159.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterior of Rietveldgebouw Van Gogh Museum IMG 5158.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Rietveldgebouw_Van_Gogh_Museum_IMG_5158.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Van Gogh Museum (42514015642).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum_(42514015642).jpg",
+          "author": "Julien Chatelain",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Van Gogh Museum (41843540794).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum_(41843540794).jpg",
+          "author": "Julien Chatelain",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Van Gogh Museum by night Amsterdam 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum_by_night_Amsterdam_2017.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nederland Amsterdam 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Nederland_Amsterdam_02.jpg",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "3D BAG NL.IMBAG.Pand.0363100012098679, 0363100012211564 (LoD2.2 from AHN lidar)",
+          "url": "https://3dbag.nl/en/viewer?bagid=NL.IMBAG.Pand.0363100012098679",
+          "author": "3D geoinformation group, TU Delft / 3DBAG",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-van-gogh-museum.glb",
+      "source": "generators/amsterdam-van-gogh-museum.ts"
+    },
+    {
+      "id": "amsterdam-waag",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "medieval",
+        "city-gate",
+        "weigh-house"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam (NL), Waag -- 2015 -- 7258.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Waag_--_2015_--_7258.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Oude Kerk Blick vom Turm auf De Waag.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Oude_Kerk_Blick_vom_Turm_auf_De_Waag.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam De Waag 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_De_Waag_2.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Waag 2107.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Waag_2107.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Waag 2115.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Waag_2115.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "De Waag Nieuwmarkt Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:De_Waag_Nieuwmarkt_Amsterdam.jpg",
+          "author": "Gouwenaar",
+          "license": "CC0"
+        },
+        {
+          "title": "Uit het zuid-westen - Amsterdam - 20011129 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Uit_het_zuid-westen_-_Amsterdam_-_20011129_-_RCE.jpg",
+          "author": "Unknown author (Rijksdienst voor het Cultureel Erfgoed)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam (NL), Waag -- 2015 -- 7261.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Waag_--_2015_--_7261.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-waag.glb",
+      "source": "generators/amsterdam-waag.ts"
+    },
+    {
+      "id": "amsterdam-westerkerk",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "historic",
+        "renaissance",
+        "tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "WestertorenAmsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:WestertorenAmsterdam.jpg",
+          "author": "Massimo Catarinella",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam (NL), Westerkerk -- 2015 -- 7179.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Westerkerk_--_2015_--_7179.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": ".00 3014 Westerkerk (West Church) of Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:.00_3014_Westerkerk_(West_Church)_of_Amsterdam.jpg",
+          "author": "W. Bulach",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Westerkerk 2008.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Westerkerk_2008.jpg",
+          "author": "Hnapel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Prinsengracht westerkerk amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prinsengracht_westerkerk_amsterdam.jpg",
+          "author": "Jvhertum",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Westerkerk Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westerkerk_Amsterdam.jpg",
+          "author": "Kamanasish Debnath",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Westerkerk at Night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westerkerk_at_Night.jpg",
+          "author": "Eden, Janine and Jim",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/amsterdam-westerkerk.glb",
+      "source": "generators/amsterdam-westerkerk.ts"
+    },
+    {
+      "id": "amsterdam-zuiderkerk",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "historic",
+        "renaissance",
+        "tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam Zuiderkerk seen from Zwanenburgwal.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Zuiderkerk_seen_from_Zwanenburgwal.jpg",
+          "author": "Ymblanter",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Zuiderkerk Amsterdam 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Zuiderkerk_Amsterdam_2018.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam, de Zuiderkerktoren RM6498 foto2 2014-01-12 12.50.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_de_Zuiderkerktoren_RM6498_foto2_2014-01-12_12.50.jpg",
+          "author": "Michielverbeek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam, Zuiderkerk 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Zuiderkerk_01.jpg",
+          "author": "Parsifall",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam-652-Zuiderkerk-2011-gje.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam-652-Zuiderkerk-2011-gje.jpg",
+          "author": "Gerd Eichmann",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam, the tower of the Zuiderkerk.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_the_tower_of_the_Zuiderkerk.jpg",
+          "author": "Dguendel",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-zuiderkerk.glb",
+      "source": "generators/amsterdam-zuiderkerk.ts"
+    },
+    {
       "id": "ascendus",
       "file": "models/ascendus.glb",
       "license": "CC0-1.0",
@@ -14143,6 +17109,204 @@
         }
       ],
       "tags": [],
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "giza-great-pyramid",
+      "file": "models/giza-great-pyramid.glb",
+      "license": "CC0-1.0",
+      "source": "generators/giza-great-pyramid.ts",
+      "type": "monument",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "pyramid",
+        "ancient-egypt",
+        "tomb",
+        "unesco-world-heritage"
+      ],
+      "description": "The largest of the Giza pyramids, built c. 2560 BC for Khufu: 230 m square and 138.5 m high, its casing gone to show the stepped core courses.",
+      "references": [
+        {
+          "title": "All Gizah Pyramids.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+          "author": "Ricardo Liberato",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Great Sphinx of Giza, Giza, Egypt6.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Giza,_Giza,_Egypt6.jpg",
+          "author": "Diego Delso",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "The Sphinx and Pyramid of Khafre.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Sphinx_and_Pyramid_of_Khafre.jpg",
+          "author": "kallerna",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "giza-great-sphinx",
+      "file": "models/giza-great-sphinx.glb",
+      "license": "CC0-1.0",
+      "source": "generators/giza-great-sphinx.ts",
+      "type": "sculpture",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "sphinx",
+        "ancient-egypt",
+        "statue",
+        "unesco-world-heritage"
+      ],
+      "description": "A recumbent lion with a human head in a nemes headdress, 73 m long and 20 m high, carved c. 2500 BC from the bedrock in a quarried hollow facing east.",
+      "references": [
+        {
+          "title": "Great Sphinx of Giza, Giza, Egypt6.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Giza,_Giza,_Egypt6.jpg",
+          "author": "Diego Delso",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Great Sphinx of Giza (أبو الهول).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Giza_(%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%87%D9%88%D9%84).jpg",
+          "author": "Petar Milošević",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "The Sphinx and Pyramid of Khafre.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Sphinx_and_Pyramid_of_Khafre.jpg",
+          "author": "kallerna",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "giza-pyramid-of-khafre",
+      "file": "models/giza-pyramid-of-khafre.glb",
+      "license": "CC0-1.0",
+      "source": "generators/giza-pyramid-of-khafre.ts",
+      "type": "monument",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "pyramid",
+        "ancient-egypt",
+        "tomb",
+        "unesco-world-heritage"
+      ],
+      "description": "The second pyramid of Giza, built c. 2570 BC for Khafre: 215 m square and 136 m high, the only one keeping part of its smooth casing, on its top fifth.",
+      "references": [
+        {
+          "title": "Pyramid of Khafre Giza Egypt in 2015 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pyramid_of_Khafre_Giza_Egypt_in_2015_2.jpg",
+          "author": "MusikAnimal",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "All Gizah Pyramids.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+          "author": "Ricardo Liberato",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "The Sphinx and Pyramid of Khafre.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Sphinx_and_Pyramid_of_Khafre.jpg",
+          "author": "kallerna",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "giza-pyramid-of-menkaure",
+      "file": "models/giza-pyramid-of-menkaure.glb",
+      "license": "CC0-1.0",
+      "source": "generators/giza-pyramid-of-menkaure.ts",
+      "type": "monument",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "pyramid",
+        "ancient-egypt",
+        "tomb",
+        "unesco-world-heritage"
+      ],
+      "description": "The smallest of the three great Giza pyramids, built c. 2510 BC for Menkaure: 61 m high, with remnants of red granite casing and a breach in its north face.",
+      "references": [
+        {
+          "title": "Pyramid of Menkaure in Giza May 2015.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Pyramid_of_Menkaure_in_Giza_May_2015.JPG",
+          "author": "MusikAnimal",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "All Gizah Pyramids.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+          "author": "Ricardo Liberato",
+          "license": "CC-BY-SA-2.0"
+        }
+      ],
       "reviewStatus": "unreviewed"
     },
     {
@@ -30202,6 +33366,177 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "samarkand-sher-dor-madrasa",
+      "file": "models/samarkand-sher-dor-madrasa.glb",
+      "license": "CC0-1.0",
+      "source": "generators/samarkand-sher-dor-madrasa.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "madrasa",
+        "historic",
+        "islamic-architecture",
+        "unesco-world-heritage"
+      ],
+      "description": "Madrasa of 1619-1636 on the east side of the Registan, mirroring Ulugh Beg's: a tiger-mosaic pishtaq between two minarets, with two fluted turquoise domes.",
+      "references": [
+        {
+          "title": "Registan 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Registan_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Самарканд. Площадь-Регистан.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4._%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C-%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D0%B0%D0%BD.jpg",
+          "author": "Kraftabbas",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Registan, Samarkand (8590116140).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Registan,_Samarkand_(8590116140).jpg",
+          "author": "Aleksandr Zykov",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Sher-Dor Madrasah Samarkand.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sher-Dor_Madrasah_Samarkand.jpg",
+          "author": "Ekrem Canli",
+          "license": "CC-BY-SA-3.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "samarkand-tilya-kori-madrasa",
+      "file": "models/samarkand-tilya-kori-madrasa.glb",
+      "license": "CC0-1.0",
+      "source": "generators/samarkand-tilya-kori-madrasa.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "madrasa",
+        "historic",
+        "islamic-architecture",
+        "unesco-world-heritage"
+      ],
+      "description": "Madrasa and mosque of 1646-1660 on the north side of the Registan: a two-storey arcaded front either side of a pishtaq, and a turquoise dome over the mosque.",
+      "references": [
+        {
+          "title": "Registan 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Registan_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Самарканд. Площадь-Регистан.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4._%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C-%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D0%B0%D0%BD.jpg",
+          "author": "Kraftabbas",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Registan, Samarkand (8590116140).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Registan,_Samarkand_(8590116140).jpg",
+          "author": "Aleksandr Zykov",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Tilya Kori Madrasah (220363333).jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tilya_Kori_Madrasah_(220363333).jpeg",
+          "author": "Francisco Anzola",
+          "license": "CC-BY-3.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "samarkand-ulugh-beg-madrasa",
+      "file": "models/samarkand-ulugh-beg-madrasa.glb",
+      "license": "CC0-1.0",
+      "source": "generators/samarkand-ulugh-beg-madrasa.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "madrasa",
+        "historic",
+        "islamic-architecture",
+        "unesco-world-heritage"
+      ],
+      "description": "Timurid madrasa of 1417-1420 on the west side of the Registan: a lancet-arched pishtaq between four tall minarets, with ribbed domes over its corner lecture rooms.",
+      "references": [
+        {
+          "title": "Registan 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Registan_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Самарканд. Площадь-Регистан.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4._%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C-%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D0%B0%D0%BD.jpg",
+          "author": "Kraftabbas",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Registan, Samarkand (8590116140).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Registan,_Samarkand_(8590116140).jpg",
+          "author": "Aleksandr Zykov",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Ulugh beg Madrasah.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ulugh_beg_Madrasah.jpg",
+          "author": "Nassima Chahboun",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
       "id": "sd-12th-imperial-clock-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -35429,6 +38764,68 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "singapore-marina-bay-sands",
+      "file": "models/singapore-marina-bay-sands.glb",
+      "license": "CC0-1.0",
+      "source": "generators/singapore-marina-bay-sands.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "hotel",
+        "skyscraper",
+        "integrated-resort"
+      ],
+      "description": "Moshe Safdie's 2010 hotel: three 55-storey towers, each a straight and a curving leg, joined at the top by the 340 m SkyPark with its cantilevered north end.",
+      "references": [
+        {
+          "title": "Hotel Marina Bay Sands, Marina Bay, Singapur, 2023-08-17, DD 30.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Marina_Bay_Sands,_Marina_Bay,_Singapur,_2023-08-17,_DD_30.jpg",
+          "author": "Diego Delso",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Cricket match and Marina Bay Sands Hotel in Singapore.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cricket_match_and_Marina_Bay_Sands_Hotel_in_Singapore.jpg",
+          "author": "Basile Morin",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Marina Bay Sands Singapore 2026 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Marina_Bay_Sands_Singapore_2026_2.jpg",
+          "author": "kallerna",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Singapore (SG), Marina Bay Sands Hotel -- 2019 -- 4535.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Singapore_(SG),_Marina_Bay_Sands_Hotel_--_2019_--_4535.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "2016 Singapur, Downtown Core, Marina Bay Sands (02).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2016_Singapur,_Downtown_Core,_Marina_Bay_Sands_(02).jpg",
+          "author": "Marcin Konsek",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
       "id": "snug-harbor",
       "file": "models/snug-harbor.glb",
       "license": "CC0-1.0",
@@ -35558,6 +38955,68 @@
         }
       ],
       "tags": [],
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "sydney-opera-house",
+      "file": "models/sydney-opera-house.glb",
+      "license": "CC0-1.0",
+      "source": "generators/sydney-opera-house.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "opera-house",
+        "performing-arts",
+        "unesco-world-heritage"
+      ],
+      "description": "Jørn Utzon's performing arts centre of 1973 on Bennelong Point: white tiled shells cut from one sphere, in three groups on a granite podium above the Monumental Steps.",
+      "references": [
+        {
+          "title": "Sydney opera house side view.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sydney_opera_house_side_view.jpg",
+          "author": "Matthew Field",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Sydney Opera House - Dec 2008.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_-_Dec_2008.jpg",
+          "author": "Diliff",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "MC Sydney Opera House.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MC_Sydney_Opera_House.jpg",
+          "author": "Christian Mehlführer",
+          "license": "CC-BY-2.5"
+        },
+        {
+          "title": "Sydney Opera House 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Sydney Opera House in 2011.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_in_2011.jpg",
+          "author": "Bernard Spragg",
+          "license": "Public domain"
+        }
+      ],
       "reviewStatus": "unreviewed"
     },
     {
@@ -36975,6 +40434,69 @@
       ],
       "tags": [],
       "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "yosemite-ahwahnee",
+      "file": "models/yosemite-ahwahnee.glb",
+      "license": "CC0-1.0",
+      "source": "generators/yosemite-ahwahnee.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "hotel",
+        "national-park-rustic",
+        "historic",
+        "national-historic-landmark"
+      ],
+      "description": "The rustic 1927 hotel in Yosemite Valley by Gilbert Stanley Underwood: concrete stained to look like redwood, granite piers, a six-storey centre with angled wings and a long dining room.",
+      "references": [
+        {
+          "title": "Ahwahnee-from-glacier-point.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ahwahnee-from-glacier-point.jpg",
+          "author": "Eric Polk",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Ahwahnee Hotel Half Dome.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ahwahnee_Hotel_Half_Dome.jpg",
+          "author": "Mark James Miller",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Ahwahnee Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ahwahnee_Hotel.jpg",
+          "author": "Almonroth",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Ahwahnee Hotel (405515808).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ahwahnee_Hotel_(405515808).jpg",
+          "author": "Bryce Edwards",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Yosemite - Ahwahnee Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yosemite_-_Ahwahnee_Hotel.jpg",
+          "author": "Chris Dunstan",
+          "license": "public-domain"
+        }
+      ],
+      "reviewStatus": "unreviewed"
     }
   ],
   "landmarks": [
@@ -37035,6 +40557,929 @@
         "way/432937734"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "amsterdam-adam-toren",
+      "name": "A'DAM Toren",
+      "model": "amsterdam-adam-toren",
+      "place": "amsterdam",
+      "lng": 4.902205,
+      "lat": 52.383779,
+      "bearing": 8.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/44824385",
+        "way/593068473",
+        "way/593068474",
+        "way/750257534",
+        "way/750257535",
+        "way/750257536",
+        "way/750257537",
+        "way/750296019",
+        "way/750296020"
+      ],
+      "wikidata": "Q2529795"
+    },
+    {
+      "id": "amsterdam-amstel-hotel",
+      "name": "InterContinental Amstel Hotel",
+      "model": "amsterdam-amstel-hotel",
+      "place": "amsterdam",
+      "lng": 4.905128,
+      "lat": 52.359981,
+      "bearing": 73.2,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/268998398"
+      ],
+      "wikidata": "Q478198"
+    },
+    {
+      "id": "amsterdam-beurs-van-berlage",
+      "name": "Beurs van Berlage",
+      "model": "amsterdam-beurs-van-berlage",
+      "place": "amsterdam",
+      "lng": 4.896282,
+      "lat": 52.375056,
+      "bearing": 37.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q851200",
+      "replaces": [
+        "way/57858502",
+        "way/749918629",
+        "way/749918630",
+        "way/749918631",
+        "way/749918632",
+        "way/749918633",
+        "way/749918634",
+        "way/749918635",
+        "way/749918636",
+        "way/749918637",
+        "way/749918638",
+        "way/749918639",
+        "way/749918641",
+        "way/749918642",
+        "way/749918643",
+        "way/749918644",
+        "way/749918645",
+        "way/749918646",
+        "way/749918647",
+        "way/749918648",
+        "way/749918649",
+        "way/749918650",
+        "way/749918651",
+        "way/749918652",
+        "way/749918653",
+        "way/749918654",
+        "way/749931375",
+        "way/749931376",
+        "way/749931377",
+        "way/749931378",
+        "way/749931379",
+        "way/749931380",
+        "way/749931381",
+        "way/749931382",
+        "way/749931383",
+        "way/750005616",
+        "way/750005617",
+        "way/750166476",
+        "way/750166477",
+        "way/750166478",
+        "way/750166479"
+      ]
+    },
+    {
+      "id": "amsterdam-carre",
+      "name": "Koninklijk Theater Carré",
+      "model": "amsterdam-carre",
+      "place": "amsterdam",
+      "lng": 4.904281,
+      "lat": 52.362424,
+      "bearing": 73.2,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/269000174"
+      ],
+      "wikidata": "Q1106490"
+    },
+    {
+      "id": "amsterdam-concertgebouw",
+      "name": "Concertgebouw",
+      "model": "amsterdam-concertgebouw",
+      "place": "amsterdam",
+      "lng": 4.879027,
+      "lat": 52.35624,
+      "bearing": 66.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q849957",
+      "replaces": [
+        "way/46696080",
+        "way/754269603",
+        "way/754269604",
+        "way/754269605",
+        "way/754269606",
+        "way/754269607",
+        "way/754269608",
+        "way/754269609",
+        "way/754269610",
+        "way/754269611",
+        "way/754276795",
+        "way/754276796",
+        "way/754276797"
+      ]
+    },
+    {
+      "id": "amsterdam-de-bazel",
+      "name": "De Bazel (Stadsarchief)",
+      "model": "amsterdam-de-bazel",
+      "place": "amsterdam",
+      "lng": 4.892229,
+      "lat": 52.36458,
+      "bearing": 12,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1977799",
+      "replaces": [
+        "way/114542356"
+      ]
+    },
+    {
+      "id": "amsterdam-de-gooyer",
+      "name": "De Gooyer",
+      "model": "amsterdam-de-gooyer",
+      "place": "amsterdam",
+      "lng": 4.926173,
+      "lat": 52.366808,
+      "bearing": 45,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/269052487"
+      ],
+      "wikidata": "Q2756543"
+    },
+    {
+      "id": "amsterdam-eye-filmmuseum",
+      "name": "Eye Filmmuseum",
+      "model": "amsterdam-eye-filmmuseum",
+      "place": "amsterdam",
+      "lng": 4.900839,
+      "lat": 52.384367,
+      "bearing": 5.4,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/127505497",
+        "way/1206726812",
+        "way/1207014127"
+      ],
+      "wikidata": "Q1538389"
+    },
+    {
+      "id": "amsterdam-haarlemmerpoort",
+      "name": "Haarlemmerpoort",
+      "model": "amsterdam-haarlemmerpoort",
+      "place": "amsterdam",
+      "lng": 4.88308,
+      "lat": 52.384967,
+      "bearing": 43,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/33202039"
+      ],
+      "wikidata": "Q2343931"
+    },
+    {
+      "id": "amsterdam-hart-museum",
+      "name": "H'ART Museum (Amstelhof)",
+      "model": "amsterdam-hart-museum",
+      "place": "amsterdam",
+      "lng": 4.902875,
+      "lat": 52.365395,
+      "bearing": 73,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/3604193"
+      ],
+      "wikidata": "Q1350009"
+    },
+    {
+      "id": "amsterdam-ing-house",
+      "name": "ING House",
+      "model": "amsterdam-ing-house",
+      "place": "amsterdam",
+      "lng": 4.855211,
+      "lat": 52.337168,
+      "bearing": 85.1,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/57856367"
+      ],
+      "wikidata": "Q645881"
+    },
+    {
+      "id": "amsterdam-johan-cruijff-arena",
+      "name": "Johan Cruijff ArenA",
+      "model": "amsterdam-johan-cruijff-arena",
+      "place": "amsterdam",
+      "lng": 4.941771,
+      "lat": 52.314318,
+      "bearing": 330.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/1458682",
+        "way/282372120",
+        "way/282372125"
+      ],
+      "wikidata": "Q207109"
+    },
+    {
+      "id": "amsterdam-krijtberg",
+      "name": "De Krijtberg",
+      "model": "amsterdam-krijtberg",
+      "place": "amsterdam",
+      "lng": 4.88807,
+      "lat": 52.367761,
+      "bearing": 49.2,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/267123478",
+        "way/751713218",
+        "way/751713219",
+        "way/751713220",
+        "way/751713221",
+        "way/751713222",
+        "way/751713223",
+        "way/751905303",
+        "way/751905304",
+        "way/751905305",
+        "way/751979070"
+      ],
+      "wikidata": "Q1180056"
+    },
+    {
+      "id": "amsterdam-magere-brug",
+      "name": "Magere Brug",
+      "model": "amsterdam-magere-brug",
+      "place": "amsterdam",
+      "lng": 4.902358,
+      "lat": 52.363581,
+      "bearing": 73.2,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/601096321"
+      ],
+      "wikidata": "Q1344400"
+    },
+    {
+      "id": "amsterdam-magna-plaza",
+      "name": "Magna Plaza",
+      "model": "amsterdam-magna-plaza",
+      "place": "amsterdam",
+      "lng": 4.890249,
+      "lat": 52.373635,
+      "bearing": 17.2,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1962448",
+      "replaces": [
+        "way/57861220"
+      ]
+    },
+    {
+      "id": "amsterdam-montelbaanstoren",
+      "name": "Montelbaanstoren",
+      "model": "amsterdam-montelbaanstoren",
+      "place": "amsterdam",
+      "lng": 4.905661,
+      "lat": 52.372036,
+      "bearing": 12,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/57864086",
+        "way/751647817",
+        "way/751647818",
+        "way/751647819",
+        "way/751647820"
+      ],
+      "wikidata": "Q1946061"
+    },
+    {
+      "id": "amsterdam-muiderpoort",
+      "name": "Muiderpoort",
+      "model": "amsterdam-muiderpoort",
+      "place": "amsterdam",
+      "lng": 4.919481,
+      "lat": 52.363727,
+      "bearing": 56.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/45038672"
+      ],
+      "wikidata": "Q1976404"
+    },
+    {
+      "id": "amsterdam-munttoren",
+      "name": "Munttoren",
+      "model": "amsterdam-munttoren",
+      "place": "amsterdam",
+      "lng": 4.893212,
+      "lat": 52.367057,
+      "bearing": 32,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/57862728",
+        "way/751683816",
+        "way/751683817",
+        "way/751683819",
+        "way/751698382",
+        "way/751698383",
+        "way/751698384"
+      ],
+      "wikidata": "Q1429748"
+    },
+    {
+      "id": "amsterdam-national-monument",
+      "name": "National Monument",
+      "model": "amsterdam-national-monument",
+      "place": "amsterdam",
+      "lng": 4.893689,
+      "lat": 52.37282,
+      "bearing": 1.5,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q473851",
+      "replaces": [
+        "way/168680619",
+        "way/1320477257",
+        "way/1320477258",
+        "way/1320477259",
+        "way/1320477260",
+        "way/1320477261",
+        "way/940729263"
+      ]
+    },
+    {
+      "id": "amsterdam-nemo",
+      "name": "NEMO Science Museum",
+      "model": "amsterdam-nemo",
+      "place": "amsterdam",
+      "lng": 4.912322,
+      "lat": 52.374196,
+      "bearing": 3,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/57856769",
+        "way/1390692763",
+        "way/1390692764",
+        "way/1390692765",
+        "way/1390692766",
+        "way/1390692767",
+        "way/1390692768",
+        "way/1390692769",
+        "way/1390692770",
+        "way/1390692771",
+        "way/1390692772"
+      ],
+      "wikidata": "Q1422000"
+    },
+    {
+      "id": "amsterdam-nieuwe-kerk",
+      "name": "Nieuwe Kerk",
+      "model": "amsterdam-nieuwe-kerk",
+      "place": "amsterdam",
+      "lng": 4.891778,
+      "lat": 52.373946,
+      "bearing": 71.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1419675",
+      "replaces": [
+        "way/220749328",
+        "way/174987150",
+        "way/747911435",
+        "way/747911436",
+        "way/747911437",
+        "way/747911438",
+        "way/747911439",
+        "way/747911440",
+        "way/747911441",
+        "way/747924617",
+        "way/747924618",
+        "way/747924619",
+        "way/747924621",
+        "way/747924622",
+        "way/747924623",
+        "way/747924624",
+        "way/747924625",
+        "way/747924626",
+        "way/748997143",
+        "way/748997144"
+      ]
+    },
+    {
+      "id": "amsterdam-oba",
+      "name": "OBA Oosterdok",
+      "model": "amsterdam-oba",
+      "place": "amsterdam",
+      "lng": 4.908236,
+      "lat": 52.376077,
+      "bearing": 8,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q50413436",
+      "replaces": [
+        "way/779659694",
+        "way/240467636",
+        "way/1487606300",
+        "way/1487606301",
+        "way/1487606302",
+        "way/1487606304",
+        "way/1487606305",
+        "way/1487606306",
+        "way/1487606307",
+        "way/1487606308",
+        "way/1487606309",
+        "way/1487606310",
+        "way/1487606311"
+      ]
+    },
+    {
+      "id": "amsterdam-olympic-stadium",
+      "name": "Olympisch Stadion",
+      "model": "amsterdam-olympic-stadium",
+      "place": "amsterdam",
+      "lng": 4.85408,
+      "lat": 52.343488,
+      "bearing": 346.9,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/898908",
+        "way/126786236",
+        "way/126786371",
+        "way/338974687",
+        "way/98662844"
+      ],
+      "wikidata": "Q503319"
+    },
+    {
+      "id": "amsterdam-oude-kerk",
+      "name": "Oude Kerk",
+      "model": "amsterdam-oude-kerk",
+      "place": "amsterdam",
+      "lng": 4.898064,
+      "lat": 52.374365,
+      "bearing": 356,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/57857592",
+        "way/747868957",
+        "way/747868958",
+        "way/747868959",
+        "way/747868960",
+        "way/747868962",
+        "way/747868963",
+        "way/747868964",
+        "way/747868965",
+        "way/747868966",
+        "way/747868968",
+        "way/747868969",
+        "way/747868970",
+        "way/747868971",
+        "way/747868972",
+        "way/747868973",
+        "way/747868974",
+        "way/747868975",
+        "way/747868976",
+        "way/747868977",
+        "way/747868978",
+        "way/747868979",
+        "way/747868980",
+        "way/747868981",
+        "way/747868982",
+        "way/747868984",
+        "way/747868985",
+        "way/747868986",
+        "way/747868987",
+        "way/747868988",
+        "way/747868989",
+        "way/747868990",
+        "way/747868991",
+        "way/747868992",
+        "way/747868993",
+        "way/747868994",
+        "way/747868995",
+        "way/749242499",
+        "way/749242500",
+        "way/749242501"
+      ],
+      "wikidata": "Q623558"
+    },
+    {
+      "id": "amsterdam-portuguese-synagogue",
+      "name": "Portuguese Synagogue",
+      "model": "amsterdam-portuguese-synagogue",
+      "place": "amsterdam",
+      "lng": 4.905338,
+      "lat": 52.367536,
+      "bearing": 28.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/57861363",
+        "way/268783384",
+        "way/268783311",
+        "way/268783350",
+        "way/268783415"
+      ],
+      "wikidata": "Q1853707"
+    },
+    {
+      "id": "amsterdam-rembrandt-tower",
+      "name": "Rembrandttoren",
+      "model": "amsterdam-rembrandt-tower",
+      "place": "amsterdam",
+      "lng": 4.917058,
+      "lat": 52.345125,
+      "bearing": 339.3,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/44451577",
+        "way/754399962",
+        "way/754399963",
+        "way/754399964",
+        "way/754399965",
+        "way/754399966",
+        "way/754399967",
+        "way/754399968",
+        "way/754399969",
+        "way/754399970",
+        "way/754399971",
+        "way/754399972",
+        "way/754399973"
+      ],
+      "wikidata": "Q2361620"
+    },
+    {
+      "id": "amsterdam-rijksmuseum",
+      "name": "Rijksmuseum",
+      "model": "amsterdam-rijksmuseum",
+      "place": "amsterdam",
+      "lng": 4.8852147,
+      "lat": 52.3599747,
+      "bearing": 39.55,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q190804",
+      "replaces": [
+        "way/431070185",
+        "way/431070791",
+        "way/431070942",
+        "way/517791046",
+        "way/749429987",
+        "way/749429988",
+        "way/749429989",
+        "way/749429990",
+        "way/749429991",
+        "way/749429992",
+        "way/749429993",
+        "way/749429994",
+        "way/749429995",
+        "way/749429996",
+        "way/749429997",
+        "way/749429998",
+        "way/749429999",
+        "way/749430000",
+        "way/749430001",
+        "way/749805753",
+        "way/749805754",
+        "way/749805755",
+        "way/749805756",
+        "way/749805757",
+        "way/749805758",
+        "way/749805759",
+        "way/749805760",
+        "way/749805761",
+        "way/749805762",
+        "way/749805763",
+        "way/749805764"
+      ]
+    },
+    {
+      "id": "amsterdam-royal-palace",
+      "name": "Royal Palace (Koninklijk Paleis)",
+      "model": "amsterdam-royal-palace",
+      "place": "amsterdam",
+      "lng": 4.891336,
+      "lat": 52.373148,
+      "bearing": 1.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1056152",
+      "replaces": [
+        "relation/3580875",
+        "way/748659170",
+        "way/748659171",
+        "way/748659172",
+        "way/748659173",
+        "way/748659174",
+        "way/748659175",
+        "way/748659176",
+        "way/748659177",
+        "way/748659178",
+        "way/748659179",
+        "way/748659180",
+        "way/748659181",
+        "way/748659182",
+        "way/748659183",
+        "way/748659184",
+        "way/748659185",
+        "way/748659186",
+        "way/748659187"
+      ]
+    },
+    {
+      "id": "amsterdam-scheepvaarthuis",
+      "name": "Scheepvaarthuis",
+      "model": "amsterdam-scheepvaarthuis",
+      "place": "amsterdam",
+      "lng": 4.90406,
+      "lat": 52.374338,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2078885",
+      "replaces": [
+        "way/57863677"
+      ]
+    },
+    {
+      "id": "amsterdam-scheepvaartmuseum",
+      "name": "Het Scheepvaartmuseum",
+      "model": "amsterdam-scheepvaartmuseum",
+      "place": "amsterdam",
+      "lng": 4.9148,
+      "lat": 52.371716,
+      "bearing": 331.6,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/3604837",
+        "way/269078550"
+      ],
+      "wikidata": "Q1616123"
+    },
+    {
+      "id": "amsterdam-schreierstoren",
+      "name": "Schreierstoren",
+      "model": "amsterdam-schreierstoren",
+      "place": "amsterdam",
+      "lng": 4.902242,
+      "lat": 52.376358,
+      "bearing": 21,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/57859248"
+      ],
+      "wikidata": "Q610402"
+    },
+    {
+      "id": "amsterdam-ship-amsterdam",
+      "name": "Replica ship Amsterdam",
+      "model": "amsterdam-ship-amsterdam",
+      "place": "amsterdam",
+      "lng": 4.914232,
+      "lat": 52.372342,
+      "bearing": 3,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/324827054"
+      ],
+      "wikidata": "Q478353"
+    },
+    {
+      "id": "amsterdam-sint-nicolaaskerk",
+      "name": "Basilica of Saint Nicholas",
+      "model": "amsterdam-sint-nicolaaskerk",
+      "place": "amsterdam",
+      "lng": 4.901162,
+      "lat": 52.376435,
+      "bearing": 150.1,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/174996833",
+        "way/645534930",
+        "way/645534931",
+        "way/749289632",
+        "way/749289633",
+        "way/749289634",
+        "way/750217059",
+        "way/750217060",
+        "way/750217061",
+        "way/750217062",
+        "way/750217063",
+        "way/750217064",
+        "way/750591088",
+        "way/750591090"
+      ],
+      "wikidata": "Q1350750"
+    },
+    {
+      "id": "amsterdam-stedelijk-museum",
+      "name": "Stedelijk Museum",
+      "model": "amsterdam-stedelijk-museum",
+      "place": "amsterdam",
+      "lng": 4.879842,
+      "lat": 52.357903,
+      "bearing": 66.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q924335",
+      "replaces": [
+        "way/44508819",
+        "way/754299888",
+        "way/754299889",
+        "way/754299890",
+        "way/754299892",
+        "way/754299893",
+        "way/754299894",
+        "way/754299895",
+        "way/754299896",
+        "way/754299897",
+        "way/754299898",
+        "way/754299891"
+      ]
+    },
+    {
+      "id": "amsterdam-stopera",
+      "name": "Stopera (Stadhuis-Muziektheater)",
+      "model": "amsterdam-stopera",
+      "place": "amsterdam",
+      "lng": 4.900865,
+      "lat": 52.367799,
+      "bearing": 37.7,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/751591420",
+        "way/268782345",
+        "way/751559653",
+        "way/751559654",
+        "way/751559655",
+        "way/751559656",
+        "way/751559657",
+        "way/751559658",
+        "way/751559659",
+        "way/751559660",
+        "way/751559661",
+        "way/751559663",
+        "way/751559664",
+        "way/751559665",
+        "way/751567319",
+        "way/751567320",
+        "way/751567321",
+        "way/751573304",
+        "way/751573305",
+        "way/751573306",
+        "way/751591418",
+        "way/751591419",
+        "way/751612860",
+        "way/751612861",
+        "way/751612862"
+      ],
+      "wikidata": "Q1325514"
+    },
+    {
+      "id": "amsterdam-tuschinski",
+      "name": "Pathé Tuschinski",
+      "model": "amsterdam-tuschinski",
+      "place": "amsterdam",
+      "lng": 4.894516,
+      "lat": 52.366237,
+      "bearing": 25,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q599272",
+      "replaces": [
+        "way/267116768"
+      ]
+    },
+    {
+      "id": "amsterdam-van-gogh-museum",
+      "name": "Van Gogh Museum",
+      "model": "amsterdam-van-gogh-museum",
+      "place": "amsterdam",
+      "lng": 4.881171,
+      "lat": 52.358218,
+      "bearing": 66.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q224124",
+      "replaces": [
+        "relation/6577680",
+        "way/754324679",
+        "way/754324680",
+        "way/754324681",
+        "way/754324682",
+        "way/754324683",
+        "way/754324684",
+        "way/754324685",
+        "way/441830027",
+        "way/1230401241",
+        "way/1230401242"
+      ]
+    },
+    {
+      "id": "amsterdam-waag",
+      "name": "De Waag",
+      "model": "amsterdam-waag",
+      "place": "amsterdam",
+      "lng": 4.900323,
+      "lat": 52.372771,
+      "bearing": 64,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/57857390",
+        "way/749066938",
+        "way/749066939",
+        "way/749066940",
+        "way/749066941",
+        "way/749066942",
+        "way/749066943",
+        "way/749066944",
+        "way/749066945",
+        "way/749066946",
+        "way/749066947",
+        "way/749066948",
+        "way/749066949",
+        "way/749066950"
+      ],
+      "wikidata": "Q2466999"
+    },
+    {
+      "id": "amsterdam-westerkerk",
+      "name": "Westerkerk",
+      "model": "amsterdam-westerkerk",
+      "place": "amsterdam",
+      "lng": 4.883934,
+      "lat": 52.374542,
+      "bearing": 3.1,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/99205257",
+        "way/749268115",
+        "way/749268116",
+        "way/749268117",
+        "way/749268118",
+        "way/749287964",
+        "way/751083595",
+        "way/751083596",
+        "way/751083597",
+        "way/751083598",
+        "way/751083599"
+      ],
+      "wikidata": "Q1130722"
+    },
+    {
+      "id": "amsterdam-zuiderkerk",
+      "name": "Zuiderkerk",
+      "model": "amsterdam-zuiderkerk",
+      "place": "amsterdam",
+      "lng": 4.899756,
+      "lat": 52.370292,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/114120359",
+        "way/749385556",
+        "way/749385557",
+        "way/749385558"
+      ],
+      "wikidata": "Q228629"
     },
     {
       "id": "ascendus",
@@ -43936,6 +48381,70 @@
       "place": "charlotte-area"
     },
     {
+      "id": "giza-great-pyramid",
+      "name": "Great Pyramid of Giza",
+      "model": "giza-great-pyramid",
+      "lng": 31.1342199,
+      "lat": 29.9793725,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q37200",
+      "replaces": [
+        "way/4420397"
+      ],
+      "place": "giza"
+    },
+    {
+      "id": "giza-great-sphinx",
+      "name": "Great Sphinx of Giza",
+      "model": "giza-great-sphinx",
+      "lng": 31.1375619,
+      "lat": 29.9752803,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q130958",
+      "replaces": [
+        "relation/7728526",
+        "way/540058405",
+        "way/24585237",
+        "way/540058406",
+        "way/540058407"
+      ],
+      "place": "giza"
+    },
+    {
+      "id": "giza-pyramid-of-khafre",
+      "name": "Pyramid of Khafre",
+      "model": "giza-pyramid-of-khafre",
+      "lng": 31.1303453,
+      "lat": 29.9759933,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q208358",
+      "replaces": [
+        "way/4420396"
+      ],
+      "place": "giza"
+    },
+    {
+      "id": "giza-pyramid-of-menkaure",
+      "name": "Pyramid of Menkaure",
+      "model": "giza-pyramid-of-menkaure",
+      "lng": 31.1284007,
+      "lat": 29.9725865,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q238623",
+      "replaces": [
+        "way/4420398"
+      ],
+      "place": "giza"
+    },
+    {
       "id": "grand-central-terminal",
       "name": "Grand Central Terminal",
       "model": "grand-central-terminal",
@@ -50640,6 +55149,98 @@
       "place": "rio-de-janeiro"
     },
     {
+      "id": "samarkand-sher-dor-madrasa",
+      "name": "Sher-Dor Madrasa",
+      "model": "samarkand-sher-dor-madrasa",
+      "lng": 66.9765002,
+      "lat": 39.6549061,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2278212",
+      "replaces": [
+        "relation/2437666",
+        "way/1296464135",
+        "way/1296464136",
+        "way/1296464137",
+        "way/1296464138",
+        "way/1296464139",
+        "way/1296464140",
+        "way/1296464141",
+        "way/1296464142",
+        "way/1297399179",
+        "relation/17771198"
+      ],
+      "place": "samarkand"
+    },
+    {
+      "id": "samarkand-tilya-kori-madrasa",
+      "name": "Tilya-Kori Madrasa",
+      "model": "samarkand-tilya-kori-madrasa",
+      "lng": 66.9755509,
+      "lat": 39.6555791,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1713936",
+      "replaces": [
+        "relation/2437664",
+        "way/1296476618",
+        "way/1296476619",
+        "way/1296476620",
+        "way/1296476621",
+        "way/1296476622",
+        "way/1296476623",
+        "way/1296476624",
+        "way/1296476625",
+        "way/1296476626",
+        "way/1296476627",
+        "way/1296476628",
+        "way/1296476629",
+        "way/1296476630",
+        "way/1296476631",
+        "way/1296476633",
+        "way/1296476634",
+        "way/1296476635",
+        "way/1296476636",
+        "way/1297399180",
+        "relation/17771378",
+        "relation/19074574"
+      ],
+      "place": "samarkand"
+    },
+    {
+      "id": "samarkand-ulugh-beg-madrasa",
+      "name": "Ulugh Beg Madrasa",
+      "model": "samarkand-ulugh-beg-madrasa",
+      "lng": 66.9748979,
+      "lat": 39.6546404,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q492144",
+      "replaces": [
+        "relation/2437665",
+        "way/1296455126",
+        "way/1296455129",
+        "way/1296455130",
+        "way/1296455132",
+        "way/1296455133",
+        "way/1296455135",
+        "way/1296455136",
+        "way/1296455137",
+        "way/1296455138",
+        "way/1296455139",
+        "way/1296455140",
+        "way/1296464127",
+        "way/1296464144",
+        "way/1297399177",
+        "way/1297399178",
+        "relation/19074575"
+      ],
+      "place": "samarkand"
+    },
+    {
       "id": "sd-12th-imperial-clock-tower",
       "name": "12th & Imperial Transit Center Clock Tower",
       "model": "sd-12th-imperial-clock-tower",
@@ -53108,6 +57709,26 @@
       "place": "san-francisco-bay-area"
     },
     {
+      "id": "singapore-marina-bay-sands",
+      "name": "Marina Bay Sands",
+      "model": "singapore-marina-bay-sands",
+      "lng": 103.8606406,
+      "lat": 1.2836364,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q548679",
+      "replaces": [
+        "way/116801004",
+        "way/172307472",
+        "way/172307471",
+        "way/116800998",
+        "way/827847308",
+        "way/827847309"
+      ],
+      "place": "singapore"
+    },
+    {
       "id": "snug-harbor",
       "name": "Snug Harbor",
       "model": "snug-harbor",
@@ -53215,6 +57836,32 @@
         "way/229651147"
       ],
       "place": "new-york-area"
+    },
+    {
+      "id": "sydney-opera-house",
+      "name": "Sydney Opera House",
+      "model": "sydney-opera-house",
+      "lng": 151.2151244,
+      "lat": -33.8571126,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q45178",
+      "replaces": [
+        "relation/9596872",
+        "relation/9596873",
+        "relation/9596874",
+        "relation/9596876",
+        "relation/9596878",
+        "relation/9596879",
+        "relation/9596880",
+        "relation/9596881",
+        "relation/9596883",
+        "relation/9677501",
+        "relation/9677503",
+        "relation/9677509"
+      ],
+      "place": "sydney"
     },
     {
       "id": "terrace-on-the-park",
@@ -54309,9 +58956,30 @@
         "way/274782336"
       ],
       "place": "new-york-area"
+    },
+    {
+      "id": "yosemite-ahwahnee",
+      "name": "The Ahwahnee",
+      "model": "yosemite-ahwahnee",
+      "lng": -119.5743716,
+      "lat": 37.7462562,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q4696448",
+      "replaces": [
+        "way/164025859"
+      ],
+      "place": "yosemite"
     }
   ],
   "places": [
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "kind": "city",
+      "wikidata": "Q727"
+    },
     {
       "id": "astana",
       "name": "Astana",
@@ -54368,6 +59036,12 @@
       "wikidata": "Q612"
     },
     {
+      "id": "giza",
+      "name": "Giza",
+      "kind": "city",
+      "wikidata": "Q81788"
+    },
+    {
       "id": "houston-area",
       "name": "Houston area",
       "kind": "region"
@@ -54405,6 +59079,12 @@
       "wikidata": "Q8678"
     },
     {
+      "id": "samarkand",
+      "name": "Samarkand",
+      "kind": "city",
+      "wikidata": "Q5753"
+    },
+    {
       "id": "san-diego-area",
       "name": "San Diego area",
       "kind": "region"
@@ -54420,10 +59100,22 @@
       "kind": "region"
     },
     {
+      "id": "singapore",
+      "name": "Singapore",
+      "kind": "city",
+      "wikidata": "Q334"
+    },
+    {
       "id": "six-flags-over-texas",
       "name": "Six Flags Over Texas",
       "kind": "site",
       "parent": "dallas-area"
+    },
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "kind": "city",
+      "wikidata": "Q3130"
     },
     {
       "id": "times-square",
@@ -54447,6 +59139,12 @@
       "id": "washington-area",
       "name": "Washington, DC area",
       "kind": "region"
+    },
+    {
+      "id": "yosemite",
+      "name": "Yosemite National Park",
+      "kind": "region",
+      "wikidata": "Q180402"
     }
   ]
 }
