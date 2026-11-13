@@ -90,6 +90,15 @@ export type CatalogLandmark = {
 export type Catalog = { places?: Place[]; models: CatalogModel[]; landmarks: CatalogLandmark[] }
 export const creditsFor = (model: CatalogModel): Credit[] => model.credits ?? (model.author ? [{ name: model.author, kind: 'organization' }] : [])
 export const licenseFor = (model: CatalogModel) => model.license ?? DEFAULT_LICENSE
+/** catalog.json as stored: every list sorted by id, two-space indent. Kept
+ * sorted so that pull requests adding different landmarks edit different
+ * parts of the file and merge without conflicts. */
+export function formatCatalog(catalog: Catalog): string {
+  const byId = <T extends { id: string }>(rows: T[]) => [...rows].sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))
+  const sorted: Catalog = { ...catalog, models: byId(catalog.models), landmarks: byId(catalog.landmarks) }
+  if (catalog.places) sorted.places = byId(catalog.places)
+  return JSON.stringify(sorted, null, 2) + '\n'
+}
 const webUrl = (value: string) => { try { return ['https:', 'http:'].includes(new URL(value).protocol) } catch { return false } }
 const safePath = (file: string) => !file.includes('..') && !file.startsWith('/') && !file.includes('\\') && !file.includes(':')
 

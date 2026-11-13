@@ -11,6 +11,7 @@ import { copyFileSync, readFileSync, mkdirSync, rmSync, writeFileSync } from 'no
 import { createHash } from 'node:crypto'
 import { basename, dirname, join, resolve } from 'node:path'
 import { buildRelease, CatalogError } from './release'
+import { formatCatalog } from './catalog'
 import { buildHistory } from './history'
 
 const args = process.argv.slice(2)
@@ -18,6 +19,12 @@ const check = args.includes('--check')
 const outAt = args.indexOf('--out')
 const out = resolve(outAt >= 0 ? args[outAt + 1] : join(import.meta.dir, '../dist'))
 const root = join(import.meta.dir, '..')
+
+const stored = readFileSync(join(root, 'catalog.json'), 'utf8')
+if (formatCatalog(JSON.parse(stored)) !== stored) {
+  console.error('catalog.json is not sorted by id: run bun tools/sort-catalog.ts')
+  process.exit(1)
+}
 
 let release
 try {

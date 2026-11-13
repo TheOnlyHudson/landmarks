@@ -1,7 +1,11 @@
 /** Refresh the demo's OSM replacement footprints. Never runs during a static build.
- * bun tools/replacement-footprints.ts [--input saved-overpass.json]
+ * bun tools/replacement-footprints.ts [--all] [--input saved-overpass.json] [id ...]
+ *
+ * Fetches only landmarks whose `replaces` differ from the stored refs, plus
+ * any ids named; --all refetches every one. The file holds one landmark per
+ * line, sorted by id, so pull requests adding different landmarks merge.
  */
-import { readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import clipping, { type MultiPolygon, type Pair, type Ring } from 'polygon-clipping'
 import type { Catalog } from '../src/catalog'
@@ -10,12 +14,20 @@ type Coord = { lon: number; lat: number }
 type Element = { type: string; id: number; tags?: Record<string, string>; geometry?: Coord[];
   members?: { type: string; ref: number; role: string; geometry?: Coord[] }[] }
 const root = join(import.meta.dir, '..')
+const out = join(root, 'web/replacement-footprints.json')
 const catalog: Catalog = JSON.parse(readFileSync(join(root, 'catalog.json'), 'utf8'))
-const inputAt = process.argv.indexOf('--input')
-let data: { osm3s: { timestamp_osm_base: string }; elements: Element[]; remark?: string }
-if (inputAt >= 0) data = JSON.parse(readFileSync(process.argv[inputAt + 1], 'utf8'))
-else {
-  const refs = [...new Set(catalog.landmarks.flatMap(a => a.replaces ?? []))]
+const stored: { refs?: Record<string, string[]>; assets?: Record<string, MultiPolygon> } =
+  existsSync(out) ? JSON.parse(readFileSync(out, 'utf8')) : {}
+const args = process.argv.slice(2)
+const inputAt = args.indexOf('--input')
+const named = new Set(args.filter((a, i) => !a.startsWith('--') && (inputAt < 0 || i !== inputAt + 1)))
+const placed = catalog.landmarks.filter(a => a.replaces?.length)
+const stale = placed.filter(a => args.includes('--all') || named.has(a.id) ||
+  JSON.stringify(stored.refs?.[a.id]) !== JSON.stringify(a.replaces))
+let data: { elements: Element[]; remark?: string } = { elements: [] }
+if (inputAt >= 0) data = JSON.parse(readFileSync(args[inputAt + 1], 'utf8'))
+else if (stale.length) {
+  const refs = [...new Set(stale.flatMap(a => a.replaces!))]
   const query = ['[out:json][timeout:90];(', ...['way', 'relation'].map(type =>
     `${type}(id:${refs.filter(r => r.startsWith(`${type}/`)).map(r => r.split('/')[1]).join(',')});`), ');out geom;'].join('')
   const response = await fetch('https://overpass-api.de/api/interpreter', {
@@ -61,13 +73,26 @@ for (const e of data.elements) {
   }
   if (geometry.length) geometries.set(`${e.type}/${e.id}`, geometry)
 }
+const refs: Record<string, string[]> = {}
 const assets: Record<string, MultiPolygon> = {}
-for (const a of catalog.landmarks) {
-  const shapes = (a.replaces ?? []).flatMap(ref => geometries.get(ref) ?? [])
+const fresh = new Set(stale.map(a => a.id))
+for (const a of placed) {
+  refs[a.id] = a.replaces!
+  if (!fresh.has(a.id)) {
+    if (stored.assets?.[a.id]) assets[a.id] = stored.assets[a.id]
+    continue
+  }
+  const shapes = a.replaces!.flatMap(ref => geometries.get(ref) ?? [])
   if (shapes.length) assets[a.id] = clipping.union(shapes)
 }
-writeFileSync(join(root, 'web/replacement-footprints.json'), JSON.stringify({
-  schemaVersion: 1, source: 'OpenStreetMap', license: 'ODbL-1.0',
-  timestamp: data.osm3s.timestamp_osm_base, assets,
-}))
-console.log(`${Object.keys(assets).length} landmark footprints from ${geometries.size} OSM building geometries`)
+const lines = (record: Record<string, unknown>) =>
+  Object.keys(record).sort().map(id => `${JSON.stringify(id)}:${JSON.stringify(record[id])}`).join(',\n')
+writeFileSync(out, `{"schemaVersion":1,"source":"OpenStreetMap","license":"ODbL-1.0",
+"refs":{
+${lines(refs)}
+},
+"assets":{
+${lines(assets)}
+}}
+`)
+console.log(`${fresh.size} landmarks refreshed from ${geometries.size} OSM building geometries; ${Object.keys(assets).length} footprints stored`)
