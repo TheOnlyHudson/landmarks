@@ -18005,6 +18005,69 @@
       "source": "generators/istanbul-hagia-sophia.ts"
     },
     {
+      "id": "istanbul-kilic-ali-pasha-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "mimar-sinan",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kılıç Ali Paşa Camii",
+          "url": "https://commons.wikimedia.org/wiki/File:K%C4%B1l%C4%B1%C3%A7_Ali_Pa%C5%9Fa_Camii.jpg",
+          "author": "Alicembasli",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kilic Ali Pasha Mosque DSCF5119",
+          "url": "https://commons.wikimedia.org/wiki/File:Kilic_Ali_Pasha_Mosque_DSCF5119.jpg",
+          "author": "R Prazeres",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul, moschea di Kılıç Ali Pasha, di sinan, 1580-87, esterno 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul,_moschea_di_K%C4%B1l%C4%B1%C3%A7_Ali_Pasha,_di_sinan,_1580-87,_esterno_01.jpg",
+          "author": "Francesco Bini",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kilic Ali Pasha Mosque 8462b",
+          "url": "https://commons.wikimedia.org/wiki/File:Kilic_Ali_Pasha_Mosque_8462b.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kılıç Ali Pasha Complex",
+          "url": "https://commons.wikimedia.org/wiki/File:K%C4%B1l%C4%B1%C3%A7_Ali_Pasha_Complex.jpg",
+          "author": "Metuboy",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-kilic-ali-pasha-mosque.glb",
+      "source": "generators/istanbul-kilic-ali-pasha-mosque.ts"
+    },
+    {
       "id": "istanbul-little-hagia-sophia",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46284,6 +46347,21 @@
         "way/776086648",
         "way/776086649",
         "way/776211441"
+      ]
+    },
+    {
+      "id": "istanbul-kilic-ali-pasha-mosque",
+      "name": "Kılıç Ali Pasha Mosque",
+      "model": "istanbul-kilic-ali-pasha-mosque",
+      "place": "istanbul",
+      "lng": 28.980947,
+      "lat": 41.026416,
+      "bearing": 131,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q862848",
+      "replaces": [
+        "way/165574748"
       ]
     },
     {
