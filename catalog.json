@@ -26425,6 +26425,99 @@
       ]
     },
     {
+      "id": "london-westminster-cathedral",
+      "file": "models/london-westminster-cathedral.glb",
+      "source": "generators/london-westminster-cathedral.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "cathedral",
+        "byzantine-revival",
+        "historic",
+        "campanile"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Westminster Cathedral at Dusk, London, UK",
+          "url": "https://commons.wikimedia.org/wiki/File:Westminster_Cathedral_at_Dusk,_London,_UK_-_Diliff.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Catedral de Westminster, Londres, Inglaterra, 2022-11-23, DD 22-24 HDR",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_de_Westminster,_Londres,_Inglaterra,_2022-11-23,_DD_22-24_HDR.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Westminster Cathedral London, 4th May 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Westminster_Cathedral_London,_4th_May_2024_-_53708806889.jpg",
+          "author": "Frank Kovalchek",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Roofs of Westminster Cathedral 2011 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Roofs_of_Westminster_Cathedral_2011_01.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Roofs of Westminster Cathedral 2011 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Roofs_of_Westminster_Cathedral_2011_02.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "London - Ambrosden Avenue - View South on Westminster Cathedral",
+          "url": "https://commons.wikimedia.org/wiki/File:London_-_Ambrosden_Avenue_-_View_South_on_Westminster_Cathedral_1895-1903_by_John_Francis_Bentley_-_The_Neo-Byzantine_Tower_is_87_m_high.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Westminster Cathedral - east side",
+          "url": "https://commons.wikimedia.org/wiki/File:Westminster_Cathedral_-_east_side_-_geograph.org.uk_-_2353924.jpg",
+          "author": "Mike Quinn",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Westminster Cathedral (geograph 2958684)",
+          "url": "https://commons.wikimedia.org/wiki/File:Westminster_Cathedral_-_geograph.org.uk_-_2958684.jpg",
+          "author": "John Salmon",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Westminster Cathedral (geograph 3370447)",
+          "url": "https://commons.wikimedia.org/wiki/File:Westminster_Cathedral_-_geograph.org.uk_-_3370447.jpg",
+          "author": "Jonathan Billinger",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Environment Agency LIDAR Composite DSM/DTM 1 m",
+          "url": "https://environment.data.gov.uk/dataset/9ba4d5ac-d596-445a-9056-dae3ddec0178",
+          "author": "Environment Agency",
+          "license": "OGL-UK-3.0"
+        }
+      ]
+    },
+    {
       "id": "london-white-tower",
       "file": "models/london-white-tower.glb",
       "source": "generators/london-white-tower.ts",
@@ -56755,6 +56848,37 @@
         "way/1150157565",
         "way/1150157566",
         "way/1150157567"
+      ]
+    },
+    {
+      "id": "london-westminster-cathedral",
+      "name": "Westminster Cathedral",
+      "model": "london-westminster-cathedral",
+      "place": "london",
+      "lng": -0.1394625,
+      "lat": 51.4958499,
+      "bearing": 58,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q739364",
+      "replaces": [
+        "way/10810446",
+        "way/316505885",
+        "way/316505886",
+        "way/450215204",
+        "way/450215205",
+        "way/450215208",
+        "way/450215210",
+        "way/450215212",
+        "way/450215213",
+        "way/450215218",
+        "way/450215219",
+        "way/450215222",
+        "way/1149738194",
+        "way/1149738195",
+        "way/1149738196",
+        "way/1436670422",
+        "way/1436670424"
       ]
     },
     {
