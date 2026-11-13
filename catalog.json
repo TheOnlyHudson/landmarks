@@ -20343,6 +20343,92 @@
       "source": "generators/mexico-city-metropolitan-cathedral.ts"
     },
     {
+      "id": "mexico-city-munal",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "renaissance-revival",
+        "palace",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fachada MUNAL",
+          "url": "https://commons.wikimedia.org/wiki/File:Fachada_MUNAL.jpg",
+          "author": "Covadongino",
+          "license": "CC0"
+        },
+        {
+          "title": "Main facade - Museo Nacional de Arte - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_facade_-_Museo_Nacional_de_Arte_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Main facade - Museo Nacional de Arte - Mexico 2024 (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_facade_-_Museo_Nacional_de_Arte_-_Mexico_2024_(2).jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Nacional de Arte (MUNAL) - Ciudad de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Arte_(MUNAL)_-_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Nacional de Arte (MUNAL) - Ciudad de México - 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Arte_(MUNAL)_-_Ciudad_de_M%C3%A9xico_-_3.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Nacional de Arte (MUNAL) - Ciudad de México - Nocturna",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Arte_(MUNAL)_-_Ciudad_de_M%C3%A9xico_-_Nocturna.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Nacional de Arte and El Caballito, Plaza Manuel Tolsá",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Arte_and_El_Caballito,_Plaza_Manuel_Tols%C3%A1,_Mexico_City.jpg",
+          "author": "JonathanVitela",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "El Caballito and Museo Nacional de Arte, Mexico City, 2017",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Caballito_and_Museo_Nacional_de_Arte,_Mexico_City,_2017.jpg",
+          "author": "Secretaría de Cultura de la Ciudad de México",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Museo Nacional De Arte- front",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_De_Arte-_front.jpg",
+          "author": "Thayne Tuason",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/mexico-city-munal.glb",
+      "source": "generators/mexico-city-munal.ts"
+    },
+    {
       "id": "mexico-city-palacio-de-bellas-artes",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47534,6 +47620,21 @@
         "way/1050204077",
         "way/1050204882"
       ]
+    },
+    {
+      "id": "mexico-city-munal",
+      "name": "Museo Nacional de Arte",
+      "model": "mexico-city-munal",
+      "place": "mexico-city",
+      "lng": -99.139401,
+      "lat": 19.436463,
+      "bearing": 8.9,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/14592229"
+      ],
+      "wikidata": "Q1138147"
     },
     {
       "id": "mexico-city-palacio-de-bellas-artes",
