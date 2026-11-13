@@ -36301,6 +36301,67 @@
       ],
       "file": "models/dubai-rose-tower.glb",
       "source": "generators/dubai-rose-tower.ts"
+    },
+    {
+      "id": "dubai-index-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "mixed-use",
+        "difc",
+        "foster-and-partners"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Index Tower - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Index_Tower_-_panoramio.jpg",
+          "author": "Aidas U.",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Index Tower @ Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15793308966",
+          "author": "*_* (flickr 22539273@N00)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Index Tower @ Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15793317266",
+          "author": "*_* (flickr 22539273@N00)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Norman Foster's Index Tower",
+          "url": "https://www.flickr.com/photos/11381771@N04/2316941922",
+          "author": "Tim Brown Architecture",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Aerial photographs of Dubai (taken from Burj Khalifa) 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_photographs_of_Dubai_(taken_from_Burj_Khalifa_)_01.jpg",
+          "author": "Paasikivi",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/dubai-index-tower.glb",
+      "source": "generators/dubai-index-tower.ts"
     }
   ],
   "landmarks": [
@@ -53389,6 +53450,52 @@
         "way/64890199"
       ],
       "wikidata": "Q648338"
+    },
+    {
+      "id": "dubai-index-tower",
+      "name": "The Index",
+      "model": "dubai-index-tower",
+      "place": "dubai",
+      "lng": 55.2777181,
+      "lat": 25.2074618,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/182071958",
+        "way/936115283",
+        "way/937048146",
+        "way/935572013",
+        "way/935572014",
+        "way/935572015",
+        "way/935572016",
+        "way/935572017",
+        "way/935572018",
+        "way/935572019",
+        "way/935572020",
+        "way/935572021",
+        "way/935572022",
+        "way/935572023",
+        "way/935572024",
+        "way/935572025",
+        "way/935572026",
+        "way/935572027",
+        "way/935572028",
+        "way/935572029",
+        "way/935572030",
+        "way/935572031",
+        "way/935572032",
+        "way/935572033",
+        "way/935572034",
+        "way/935572035",
+        "way/935572036",
+        "way/935572037",
+        "way/935572038",
+        "way/935572039",
+        "way/935572040",
+        "way/935572041"
+      ],
+      "wikidata": "Q1264855"
     }
   ],
   "places": [
