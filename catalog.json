@@ -43613,6 +43613,92 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "seoul-lotte-world-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "supertall",
+        "observation-deck",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Lotte World day view 5",
+          "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_day_view_5.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lotte World morning view 8",
+          "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_morning_view_8.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lotte World Tower from Seongsu Bridge",
+          "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_Tower_from_Seongsu_Bridge.jpg",
+          "author": "Ox1997cow",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Lotte World Tower near Cheongdam Bridge 2022",
+          "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_Tower_near_Cheongdam_Bridge_2022.jpg",
+          "author": "Ox1997cow",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Olympic Bridge and Lotte World Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympic_Bridge_and_Lotte_World_Tower.jpg",
+          "author": "lazy fri13th",
+          "license": "Public domain"
+        },
+        {
+          "title": "Han River and Lotte World Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Han_River_and_Lotte_World_Tower.jpg",
+          "author": "mauveine.kim",
+          "license": "CC0"
+        },
+        {
+          "title": "Lotte World Tower 09",
+          "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_Tower_09_(33435692451).jpg",
+          "author": "Republic of Korea (KOREA.NET)",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Lotte World Tower (3)",
+          "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_Tower_(3).jpg",
+          "author": "Шохбоз",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lotte World Tower In Jamsil (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_Tower_In_Jamsil_(144738473).jpeg",
+          "author": "Jongjin Lee",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/seoul-lotte-world-tower.glb",
+      "source": "generators/seoul-lotte-world-tower.ts"
+    },
+    {
       "id": "sf-101-california",
       "file": "models/sf-101-california.glb",
       "license": "CC0-1.0",
@@ -64913,6 +64999,53 @@
         "way/770565573"
       ],
       "place": "seattle-area"
+    },
+    {
+      "id": "seoul-lotte-world-tower",
+      "name": "Lotte World Tower",
+      "model": "seoul-lotte-world-tower",
+      "place": "seoul",
+      "lng": 127.1026585,
+      "lat": 37.5125414,
+      "bearing": 67.3,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q12616233",
+      "replaces": [
+        "way/914963586",
+        "way/879571752",
+        "way/888605473",
+        "way/888605472",
+        "way/879798717",
+        "way/888605471",
+        "way/879798716",
+        "way/888605470",
+        "way/879571750",
+        "way/635073462",
+        "way/635073469",
+        "way/635073470",
+        "way/878620802",
+        "way/879798696",
+        "way/879798698",
+        "way/879798699",
+        "way/879798700",
+        "way/879798702",
+        "way/879798703",
+        "way/879798704",
+        "way/879798705",
+        "way/879798706",
+        "way/879798707",
+        "way/879798708",
+        "way/879798710",
+        "way/879798711",
+        "way/879798712",
+        "way/879798713",
+        "way/879798714",
+        "way/879798715",
+        "way/879808331",
+        "way/879808332",
+        "way/879808333"
+      ]
     },
     {
       "id": "sf-101-california",
