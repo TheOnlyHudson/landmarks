@@ -978,6 +978,80 @@
       "source": "generators/amsterdam-krijtberg.ts"
     },
     {
+      "id": "amsterdam-magere-brug",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "historic",
+        "drawbridge",
+        "bascule-bridge",
+        "canal"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Magere Brug 2042.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magere_Brug_2042.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Magere Brug 2048.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magere_Brug_2048.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Magere Brug 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Magere_Brug_1.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Magere Brug 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Magere_Brug_2.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Magere Brug 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Magere_Brug_3.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Magere Brug 20180702.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Magere_Brug_20180702.jpg",
+          "author": "Suicasmo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Night Bridge Reflection (228162771).jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:Night_Bridge_Reflection_(228162771).jpeg",
+          "author": "Max Piletski",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/amsterdam-magere-brug.glb",
+      "source": "generators/amsterdam-magere-brug.ts"
+    },
+    {
       "id": "amsterdam-magna-plaza",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -39821,6 +39895,21 @@
         "way/751979070"
       ],
       "wikidata": "Q1180056"
+    },
+    {
+      "id": "amsterdam-magere-brug",
+      "name": "Magere Brug",
+      "model": "amsterdam-magere-brug",
+      "place": "amsterdam",
+      "lng": 4.902358,
+      "lat": 52.363581,
+      "bearing": 73.2,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/601096321"
+      ],
+      "wikidata": "Q1344400"
     },
     {
       "id": "amsterdam-magna-plaza",
