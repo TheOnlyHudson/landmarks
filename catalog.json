@@ -10696,6 +10696,93 @@
       "source": "generators/cpt-rhodes-memorial.ts"
     },
     {
+      "id": "cpt-st-georges-cathedral",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "cathedral",
+        "gothic-revival",
+        "historic",
+        "herbert-baker"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "00000-St Georges Cathedral-Cape Town-s.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:00000-St_Georges_Cathedral-Cape_Town-s.jpg",
+          "author": "Janek Szymanowski",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "StGeorgesCathedral02.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:StGeorgesCathedral02.JPG",
+          "author": "Mike Hayes",
+          "license": "Public domain"
+        },
+        {
+          "title": "Catedral de San Jorge, Ciudad del Cabo, Sudáfrica, 2018-07-19, DD 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_de_San_Jorge,_Ciudad_del_Cabo,_Sud%C3%A1frica,_2018-07-19,_DD_10.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St George's Cathedral from inside The Company's Gardens.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St_George%27s_Cathedral_from_inside_The_Company%27s_Gardens.jpg",
+          "author": "Lara van Dyk",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "At Cape Town (MP) 2018 266.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:At_Cape_Town_(MP)_2018_266.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. George's Cathedral, Cape Town.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:St._George%27s_Cathedral,_Cape_Town.JPG",
+          "author": "EaFeya",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "St Goerge Cathedral.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St_Goerge_Cathedral.jpg",
+          "author": "David Henry Emslie",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "St George's Cathedral, Wale Street, Cape Town.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:St_George%27s_Cathedral,_Wale_Street,_Cape_Town.jpg",
+          "author": "Danie van der Merwe",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Cape Town (ZA), St George's Cathedral -- 2024 -- 3492.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_St_George%27s_Cathedral_--_2024_--_3492.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/cpt-st-georges-cathedral.glb",
+      "source": "generators/cpt-st-georges-cathedral.ts"
+    },
+    {
       "id": "cpt-zeitz-mocaa",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46415,6 +46502,22 @@
         "way/1290642871"
       ],
       "wikidata": "Q3429602"
+    },
+    {
+      "id": "cpt-st-georges-cathedral",
+      "name": "St George's Cathedral",
+      "model": "cpt-st-georges-cathedral",
+      "place": "cape-town",
+      "lng": 18.4194365,
+      "lat": -33.9248907,
+      "bearing": 41,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/141281671",
+        "way/141281674"
+      ],
+      "wikidata": "Q2499579"
     },
     {
       "id": "cpt-zeitz-mocaa",
