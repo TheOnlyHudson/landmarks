@@ -154,6 +154,61 @@
       "source": "generators/amsterdam-beurs-van-berlage.ts"
     },
     {
+      "id": "amsterdam-haarlemmerpoort",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "city-gate",
+        "neoclassical"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam Haarlemmerpoort 001.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Haarlemmerpoort_001.JPG",
+          "author": "Janericloebe",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Overzicht voorzijde poortgebouw - Amsterdam - 20536555 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_voorzijde_poortgebouw_-_Amsterdam_-_20536555_-_RCE.jpg",
+          "author": "Bert van As",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Haarlemmerpoort @ Amsterdam (21748858698).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Haarlemmerpoort_@_Amsterdam_(21748858698).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Amsterdam Haarlemmerpoort 002.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Haarlemmerpoort_002.JPG",
+          "author": "Janericloebe",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/amsterdam-haarlemmerpoort.glb",
+      "source": "generators/amsterdam-haarlemmerpoort.ts"
+    },
+    {
       "id": "amsterdam-krijtberg",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -38125,6 +38180,21 @@
         "way/750166478",
         "way/750166479"
       ]
+    },
+    {
+      "id": "amsterdam-haarlemmerpoort",
+      "name": "Haarlemmerpoort",
+      "model": "amsterdam-haarlemmerpoort",
+      "place": "amsterdam",
+      "lng": 4.88308,
+      "lat": 52.384967,
+      "bearing": 43,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/33202039"
+      ],
+      "wikidata": "Q2343931"
     },
     {
       "id": "amsterdam-krijtberg",
