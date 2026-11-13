@@ -17389,6 +17389,87 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "istanbul-beyazit-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "historic",
+        "ottoman",
+        "fire-lookout",
+        "university"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The 1828 Seraskerat fire-watch tower on Istanbul University's campus: a slender white stone column on an octagonal plinth, with a swelling fluted foot, a flared capital, the round watch room with its ring of arched windows, three diminishing octagonal storeys and the iron mast.",
+      "references": [
+        {
+          "title": "Torre de Beyazıt, Estambul, Turquía, 2024-09-29, DD 20.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Beyazıt,_Estambul,_Turquía,_2024-09-29,_DD_20.jpg",
+          "author": "Diego Delso",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Beyazıt Kulesi - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beyazıt_Kulesi_-_panoramio.jpg",
+          "author": "Mister No",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "BeyazıtTower01.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:BeyazıtTower01.JPG",
+          "author": "CeeGee",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Watchtower Istanbul University.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Watchtower_Istanbul_University.jpg",
+          "author": "İhsan Deniz Kılıçoğlu",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Beyazit Kule by OTANSEV - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beyazit_Kule_by_OTANSEV_-_panoramio.jpg",
+          "author": "otansev",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "İstanbul Üniversitesi.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:İstanbul_Üniversitesi.JPG",
+          "author": "Danbury",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Beyazıt Kulesi - panoramio (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beyazıt_Kulesi_-_panoramio_(2).jpg",
+          "author": "Aziz Akbiyik",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Beyazıt Kulesi Karaköy vapurundan.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beyazıt_Kulesi_Karaköy_vapurundan.jpg",
+          "author": "Çokiyi",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/istanbul-beyazit-tower.glb",
+      "source": "generators/istanbul-beyazit-tower.ts"
+    },
+    {
       "id": "istanbul-blue-mosque",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45601,6 +45682,21 @@
       "minzoom": 16,
       "replaces": [],
       "place": "charlotte-area"
+    },
+    {
+      "id": "istanbul-beyazit-tower",
+      "name": "Beyazıt Tower",
+      "model": "istanbul-beyazit-tower",
+      "place": "istanbul",
+      "lng": 28.964896,
+      "lat": 41.012786,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q853029",
+      "replaces": [
+        "way/639302102"
+      ]
     },
     {
       "id": "istanbul-blue-mosque",
