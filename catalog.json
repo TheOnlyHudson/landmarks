@@ -58925,6 +58925,12 @@
       "parent": "charlotte-area"
     },
     {
+      "id": "cape-town",
+      "name": "Cape Town",
+      "kind": "city",
+      "wikidata": "Q5465"
+    },
+    {
       "id": "carowinds",
       "name": "Carowinds",
       "kind": "site",
