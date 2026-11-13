@@ -22814,6 +22814,62 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "nyc-manhattan-bridge-arch",
+      "file": "models/nyc-manhattan-bridge-arch.glb",
+      "license": "CC0-1.0",
+      "source": "generators/nyc-manhattan-bridge-arch.ts",
+      "type": "monument",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "Colin",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "historic",
+        "arch",
+        "colonnade",
+        "beaux-arts",
+        "bridge"
+      ],
+      "references": [
+        {
+          "title": "Manhattan Bridge Arch and Colonnade.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Manhattan_Bridge_Arch_and_Colonnade.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Manhattan Bridge Arch.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Manhattan_Bridge_Arch.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Manhattan Bridge Arch - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Manhattan_Bridge_Arch_-_panoramio.jpg",
+          "author": "Pablo Costa Tirado",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Manhattan Bridge Plaza, Canal. St. and Bowery, N.Y.C.",
+          "url": "https://commons.wikimedia.org/wiki/File:Manhattan_Bridge_Plaza,_Canal._St._and_Bowery,_N.Y.C._LCCN2002712602.jpg",
+          "author": "Library of Congress",
+          "license": "Public domain"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
       "id": "nyc-marriott-marquis-screen",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46690,6 +46746,21 @@
         "way/283108471",
         "way/283108472",
         "way/283108476"
+      ],
+      "place": "new-york-area"
+    },
+    {
+      "id": "nyc-manhattan-bridge-arch",
+      "name": "Manhattan Bridge Arch and Colonnade",
+      "model": "nyc-manhattan-bridge-arch",
+      "lng": -73.9951141,
+      "lat": 40.7152971,
+      "bearing": 337.1,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/278241774",
+        "way/1255354003"
       ],
       "place": "new-york-area"
     },
