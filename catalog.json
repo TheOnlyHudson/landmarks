@@ -19904,6 +19904,116 @@
       "source": "generators/mexico-city-casa-de-los-azulejos.ts"
     },
     {
+      "id": "mexico-city-chapultepec-castle",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "castle",
+        "palace",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_2.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_3.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 4.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_4.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 5.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_5.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 6.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_6.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 7.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_7.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 8.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_8.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Castillo de Chapultepec T.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Castillo_de_Chapultepec_T.jpg",
+          "author": "Olivier Bruchez",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Jardín del Alcazar - Chapultepec Castle - Mexico 2024 (6).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_del_Alcazar_-_Chapultepec_Castle_-_Mexico_2024_(6).jpg",
+          "author": "Jbribeiro1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Catillo de chapultepec III.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catillo_de_chapultepec_III.jpg",
+          "author": "OliAzor",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Southwest facade - Chapultepec Castle - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Southwest_facade_-_Chapultepec_Castle_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sobrevuelos CDMX HJ2A6114 (40386199871).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_HJ2A6114_(40386199871).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/mexico-city-chapultepec-castle.glb",
+      "source": "generators/mexico-city-chapultepec-castle.ts"
+    },
+    {
       "id": "mexico-city-edificio-la-nacional",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46921,6 +47031,22 @@
         "way/158032444"
       ],
       "wikidata": "Q1267814"
+    },
+    {
+      "id": "mexico-city-chapultepec-castle",
+      "name": "Chapultepec Castle",
+      "model": "mexico-city-chapultepec-castle",
+      "place": "mexico-city",
+      "lng": -99.1818705,
+      "lat": 19.4204881,
+      "bearing": 339.7,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1072510",
+      "replaces": [
+        "relation/17314437",
+        "way/1191952512"
+      ]
     },
     {
       "id": "mexico-city-edificio-la-nacional",
