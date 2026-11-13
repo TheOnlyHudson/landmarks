@@ -18331,6 +18331,70 @@
       "source": "generators/istanbul-topkapi-justice-tower.ts"
     },
     {
+      "id": "istanbul-university-gate",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "historic",
+        "gate",
+        "ottoman",
+        "university",
+        "moorish-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The 1866 Seraskerat gate of Istanbul University on Beyazıt Square: a tall central block with a great horseshoe arch of striped red-and-white voussoirs, smaller horseshoe arches between green marble columns, inscription panels and a crenellated crest, between two lower crenellated pavilions with clocks.",
+      "references": [
+        {
+          "title": "Main gate of Istanbul University-.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_gate_of_Istanbul_University-.jpg",
+          "author": "Yair Haklai",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Istanbul University Entrance Gate, 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_University_Entrance_Gate,_2025.jpg",
+          "author": "Medelam",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "İstanbul Üniversitesi Seraskerat Kapısı.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:İstanbul_Üniversitesi_Seraskerat_Kapısı.jpg",
+          "author": "Sezenkerem",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "İstanbul Üniversitesi.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:İstanbul_Üniversitesi.JPG",
+          "author": "Danbury",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Main gate of Istanbul University.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_gate_of_Istanbul_University.jpg",
+          "author": "Radosław Botev",
+          "license": "CC-BY-3.0-PL"
+        }
+      ],
+      "file": "models/istanbul-university-gate.glb",
+      "source": "generators/istanbul-university-gate.ts"
+    },
+    {
       "id": "istanbul-walled-obelisk",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46004,6 +46068,21 @@
       "wikidata": "Q20470393",
       "replaces": [
         "way/335402653"
+      ]
+    },
+    {
+      "id": "istanbul-university-gate",
+      "name": "Istanbul University Gate",
+      "model": "istanbul-university-gate",
+      "place": "istanbul",
+      "lng": 28.964231,
+      "lat": 41.010991,
+      "bearing": 349,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q134728582",
+      "replaces": [
+        "way/110016998"
       ]
     },
     {
