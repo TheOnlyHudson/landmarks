@@ -14197,6 +14197,57 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "giza-great-sphinx",
+      "file": "models/giza-great-sphinx.glb",
+      "license": "CC0-1.0",
+      "source": "generators/giza-great-sphinx.ts",
+      "type": "sculpture",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "sphinx",
+        "ancient-egypt",
+        "statue",
+        "unesco-world-heritage"
+      ],
+      "description": "A recumbent lion with a human head in a nemes headdress, 73 m long and 20 m high, carved c. 2500 BC from the bedrock in a quarried hollow facing east.",
+      "references": [
+        {
+          "title": "Great Sphinx of Giza, Giza, Egypt6.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Giza,_Giza,_Egypt6.jpg",
+          "author": "Diego Delso",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Great Sphinx of Giza (أبو الهول).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Giza_(%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%87%D9%88%D9%84).jpg",
+          "author": "Petar Milošević",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "The Sphinx and Pyramid of Khafre.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Sphinx_and_Pyramid_of_Khafre.jpg",
+          "author": "kallerna",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
       "id": "giza-pyramid-of-khafre",
       "file": "models/giza-pyramid-of-khafre.glb",
       "license": "CC0-1.0",
@@ -44029,6 +44080,25 @@
       "wikidata": "Q37200",
       "replaces": [
         "way/4420397"
+      ],
+      "place": "giza"
+    },
+    {
+      "id": "giza-great-sphinx",
+      "name": "Great Sphinx of Giza",
+      "model": "giza-great-sphinx",
+      "lng": 31.1375619,
+      "lat": 29.9752803,
+      "bearing": 0,
+      "elevation": -7,
+      "minzoom": 15,
+      "wikidata": "Q130958",
+      "replaces": [
+        "relation/7728526",
+        "way/540058405",
+        "way/24585237",
+        "way/540058406",
+        "way/540058407"
       ],
       "place": "giza"
     },
