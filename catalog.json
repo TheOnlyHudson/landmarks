@@ -6731,6 +6731,68 @@
       "source": "generators/barcelona-sagrada-familia.ts"
     },
     {
+      "id": "barcelona-santa-maria-del-mar",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "basilica",
+        "gothic",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Església de Santa Maria del Mar vista des del Passeig del Born.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Esgl%C3%A9sia_de_Santa_Maria_del_Mar_vista_des_del_Passeig_del_Born.jpg",
+          "author": "Kippelboy",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Fossar de les Moreres and Basilica de Santa Maria del Mar - Barcelona 2014.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fossar_de_les_Moreres_and_Basilica_de_Santa_Maria_del_Mar_-_Barcelona_2014.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "335 Santa Maria del Mar (Barcelona), façana sud, i peveter del Fossar de les Moreres.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:335_Santa_Maria_del_Mar_(Barcelona),_fa%C3%A7ana_sud,_i_peveter_del_Fossar_de_les_Moreres.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "057 Santa Maria del Mar (Barcelona), des del c. Argenteria.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:057_Santa_Maria_del_Mar_(Barcelona),_des_del_c._Argenteria.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "006 Santa Maria del Mar (Barcelona), absis, des del passeig del Born.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:006_Santa_Maria_del_Mar_(Barcelona),_absis,_des_del_passeig_del_Born.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-santa-maria-del-mar.glb",
+      "source": "generators/barcelona-santa-maria-del-mar.ts"
+    },
+    {
       "id": "beatties-ford-water-tower",
       "file": "models/beatties-ford-water-tower.glb",
       "license": "CC0-1.0",
@@ -42669,6 +42731,40 @@
         "relation/16329174",
         "relation/16329175"
       ]
+    },
+    {
+      "id": "barcelona-santa-maria-del-mar",
+      "name": "Santa Maria del Mar",
+      "model": "barcelona-santa-maria-del-mar",
+      "place": "barcelona",
+      "lng": 2.182031,
+      "lat": 41.383813,
+      "bearing": 209.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/51260215",
+        "way/337762059",
+        "way/337762060",
+        "way/337762061",
+        "way/337762290",
+        "way/337762583",
+        "way/337762683",
+        "way/337801171",
+        "way/337801172",
+        "way/337801173",
+        "way/337856621",
+        "way/337857086",
+        "way/337857336",
+        "way/337857339",
+        "way/337858088",
+        "way/337858090",
+        "way/337858093",
+        "way/337858235",
+        "way/337858236",
+        "way/337858237"
+      ],
+      "wikidata": "Q908802"
     },
     {
       "id": "beatties-ford-water-tower",
