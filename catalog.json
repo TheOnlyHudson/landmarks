@@ -6679,6 +6679,76 @@
       "source": "generators/barcelona-casa-batllo.ts"
     },
     {
+      "id": "barcelona-casa-mila",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "gaudi",
+        "historic",
+        "modernisme",
+        "museum",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Gaudí's 1912 apartment block on the corner of Passeig de Gràcia and Provença: a waving cream limestone facade with wrought-iron balconies, a white attic and the warrior chimneys on its roof.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Casa Milà, general view.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg",
+          "author": "Thomas Ledl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa Milà - Barcelona, Spain - Jan 2007.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0_-_Barcelona,_Spain_-_Jan_2007.jpg",
+          "author": "Diliff",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Casa Milà 2877.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0_2877.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Roof of Casa Milà 20171227.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Roof_of_Casa_Mil%C3%A0_20171227.jpg",
+          "author": "Suicasmo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "La Pedrera (Casa Milà) des-de l'Hotel Condes de Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:La_Pedrera_(Casa_Mil%C3%A0)_des-de_l'Hotel_Condes_de_Barcelona.jpg",
+          "author": "PepPepet",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Milà planta 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mil%C3%A0_planta_3.jpg",
+          "author": "Antoni Gaudí",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/barcelona-casa-mila.glb",
+      "source": "generators/barcelona-casa-mila.ts"
+    },
+    {
       "id": "barcelona-cathedral",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -42960,6 +43030,39 @@
         "way/679019137"
       ],
       "wikidata": "Q461371"
+    },
+    {
+      "id": "barcelona-casa-mila",
+      "name": "Casa Milà (La Pedrera)",
+      "model": "barcelona-casa-mila",
+      "place": "barcelona",
+      "lng": 2.161881,
+      "lat": 41.395377,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/8974896",
+        "way/646020439",
+        "way/646020507",
+        "way/646020528",
+        "way/646020560",
+        "way/646020649",
+        "way/646020670",
+        "way/646020710",
+        "way/646020720",
+        "way/646020740",
+        "way/646020768",
+        "way/646020803",
+        "way/646020806",
+        "way/646020814",
+        "relation/8974885",
+        "relation/8974887",
+        "relation/8974890",
+        "relation/8974893",
+        "relation/8974894"
+      ],
+      "wikidata": "Q207870"
     },
     {
       "id": "barcelona-cathedral",
