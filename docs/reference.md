@@ -56,16 +56,19 @@ Models accept the following fields in addition to geometry paths:
 - `license`: an SPDX identifier, default `CC0-1.0`. Keep `attribution` for
   licenses requiring credit. `licenseUrl` links custom licenses.
 - `credits`: named contributors with `kind` (`person`, `organization`, or `ai`),
-  an optional `role`, optional HTTP(S) `url`, and optional `github` username.
+  an optional `role`, optional HTTP(S) `url`, and an optional username on
+  `github`, `gitlab`, `codeberg` or `bitbucket`.
   The legacy `author` is accepted when `credits` is absent. Published `authors` remains an array of names for
   Open Landmarks clients. Every AI credit must include a separate `model` field
   naming the actual model used, such as `Claude Opus 5.5`; `name` identifies
   the assistant (for example `Claude`). Never infer the model from a default.
-  GitHub identities link to the profile and use its avatar. Claude uses the
-  bundled Claude icon; other contributors without GitHub identities use initials.
+  GitHub identities link to the profile and use its avatar. GitLab, Codeberg
+  and Bitbucket usernames link to the profile (picked in that order, after
+  GitHub) and show initials. Claude uses the bundled Claude icon; other
+  contributors without GitHub identities use initials.
   Failed image loads also fall back to initials. GitHub logins accept an optional
   `@` prefix; use `alexwohlbruck` as the stored form. A GitHub identity takes
-  precedence over a custom profile URL and the default avatar. Current local
+  precedence over the other hosts, a custom profile URL and the default avatar. Current local
   models credit Alex Wohlbruck (`github: "alexwohlbruck"`) and Claude (`model: "Claude Opus 5.5"`).
 - `type`: `landmark` (default), `building`, `bridge`, `coaster`, `ride`,
   `monument`, `sculpture`, `tower`, `fountain`, `stadium`, `infrastructure`,

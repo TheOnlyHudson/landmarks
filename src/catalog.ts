@@ -17,6 +17,11 @@ export type Credit = {
   url?: string
   /** GitHub login; the viewer uses its profile link and avatar. */
   github?: string
+  /** GitLab, Codeberg or Bitbucket username, for authors not on GitHub; the
+   * viewer links the profile. Any other host goes in `url`. */
+  gitlab?: string
+  codeberg?: string
+  bitbucket?: string
   /** Actual LLM used, required for AI credits. Separate from the author's name. */
   model?: string
 }
@@ -159,6 +164,8 @@ export function validateCatalog(catalog: Catalog): string[] {
       if (credit.kind === 'ai' && !credit.model?.trim()) problems.push(`model "${m.id}": AI credit needs the model used`)
       if (credit.model !== undefined && (credit.kind !== 'ai' || !credit.model.trim())) problems.push(`model "${m.id}": model used belongs on an AI credit`)
       if (credit.github && !/^@?[a-z\d](?:[a-z\d]|-(?=[a-z\d])){0,38}$/i.test(credit.github)) problems.push(`model "${m.id}": invalid GitHub username`)
+      for (const host of ['gitlab', 'codeberg', 'bitbucket'] as const)
+        if (credit[host] !== undefined && !/^@?[a-z\d][a-z\d._-]{0,254}$/i.test(credit[host]!)) problems.push(`model "${m.id}": invalid ${host} username`)
       if (credit.url && !webUrl(credit.url)) problems.push(`model "${m.id}": credit URL must be http(s)`)
     }
     if (m.type && !MODEL_TYPES.includes(m.type)) problems.push(`model "${m.id}": unknown type "${m.type}"`)

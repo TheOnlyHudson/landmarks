@@ -63,8 +63,10 @@ Before starting builders, choose the stable `place` IDs for the batch. Add and
 commit missing `catalog.places` records, including parents, first. Supply the
 IDs and contributor identities to builders. Every AI credit must have a separate
 `model` field; do not substitute an assistant brand name for the LLM version.
-The current local attribution is Alex Wohlbruck (`github: "alexwohlbruck"`) and
-Claude (`model: "Claude Opus 5.5"`); record the actual contributors for new work.
+Credit the person the user named, with the username they gave (`github`,
+`gitlab`, `codeberg` or `bitbucket`, or a profile `url`); never guess one. For
+example, Alex Wohlbruck (`github: "alexwohlbruck"`) and Claude
+(`model: "Claude Opus 5.5"`).
 
 ## 2. Build with sub-agents
 

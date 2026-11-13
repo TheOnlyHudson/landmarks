@@ -11,6 +11,9 @@ const catalog = (credits: Credit[]): Catalog => ({ models: [{ id: 'tower', file:
 test('GitHub authors use their profile avatar and accept an optional @ prefix', () => {
   expect(creditPresentation(alex)).toMatchObject({ initials: 'AW', avatarUrl: 'https://github.com/alexwohlbruck.png?size=80', profileUrl: 'https://github.com/alexwohlbruck' })
   expect(creditPresentation({ ...alex, github: '@alexwohlbruck' })).toEqual(creditPresentation(alex))
+  const gitlab: Credit = { name: 'Ada Lovelace', kind: 'person', gitlab: 'ada.l', url: 'https://example.com/' }
+  expect(creditPresentation(gitlab)).toMatchObject({ profileUrl: 'https://gitlab.com/ada.l', avatarUrl: undefined, detail: '@ada.l' })
+  expect(creditPresentation({ ...gitlab, github: 'ada' }).profileUrl).toBe('https://github.com/ada')
 })
 test('Claude uses its icon and displays the model separately from the author name', () => {
   const profile = creditPresentation(claude)
@@ -27,6 +30,8 @@ test('AI credits require the model used, and GitHub usernames must be valid', ()
   expect(validateCatalog(catalog([{ name: 'Claude', kind: 'ai' }])).join()).toContain('AI credit needs the model used')
   expect(validateCatalog(catalog([{ ...alex, github: 'https://github.com/alexwohlbruck' }])).join()).toContain('invalid GitHub username')
   expect(validateCatalog(catalog([{ ...alex, github: 'bad--login' }])).join()).toContain('invalid GitHub username')
+  expect(validateCatalog(catalog([{ name: 'Ada', kind: 'person', codeberg: 'ada_l' }]))).toEqual([])
+  expect(validateCatalog(catalog([{ name: 'Ada', kind: 'person', bitbucket: 'https://bitbucket.org/ada' }])).join()).toContain('invalid bitbucket username')
   expect(validateCatalog(catalog([{ ...alex, model: 'Claude Opus 5.5' }])).join()).toContain('model used belongs on an AI credit')
 })
 test('published metadata retains GitHub identity and LLM provenance', () => {
