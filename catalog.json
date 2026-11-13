@@ -22461,6 +22461,73 @@
       "source": "generators/mexico-city-plaza-mexico.ts"
     },
     {
+      "id": "mexico-city-polyforum-siqueiros",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "modernist",
+        "public-art",
+        "performing-arts"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Exterior del Polyforum Cultural Siqueiros 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_del_Polyforum_Cultural_Siqueiros_01.jpg",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterior del Polyforum Cultural Siqueiros 09.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_del_Polyforum_Cultural_Siqueiros_09.jpg",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterior del Polyforum Cultural Siqueiros 12.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_del_Polyforum_Cultural_Siqueiros_12.jpg",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "PolyforumSiqueiros01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PolyforumSiqueiros01.jpg",
+          "author": "AlejandroLinaresGarcia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Polyforum Siquieros and WTC in background.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Polyforum_Siquieros_and_WTC_in_background.jpg",
+          "author": "Keizers",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Polyforum - WTC - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Polyforum_-_WTC_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-polyforum-siqueiros.glb",
+      "source": "generators/mexico-city-polyforum-siqueiros.ts"
+    },
+    {
       "id": "mexico-city-san-hipolito",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -50804,6 +50871,21 @@
       "wikidata": "Q2525012",
       "replaces": [
         "relation/8726671"
+      ]
+    },
+    {
+      "id": "mexico-city-polyforum-siqueiros",
+      "name": "Polyforum Cultural Siqueiros",
+      "model": "mexico-city-polyforum-siqueiros",
+      "place": "mexico-city",
+      "lng": -99.1734362,
+      "lat": 19.3933153,
+      "bearing": 13,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2265075",
+      "replaces": [
+        "way/227708275"
       ]
     },
     {
