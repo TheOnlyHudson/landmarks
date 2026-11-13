@@ -52587,6 +52587,12 @@
       "id": "austin-area",
       "name": "Austin area",
       "kind": "region"
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai",
+      "kind": "city",
+      "wikidata": "Q612"
     }
   ]
 }
