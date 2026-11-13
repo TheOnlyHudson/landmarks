@@ -624,6 +624,62 @@
       "source": "generators/amsterdam-royal-palace.ts"
     },
     {
+      "id": "amsterdam-sint-nicolaaskerk",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "basilica",
+        "historic",
+        "dome"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam, Sint Nicolaasbasiliek vanaf brug bij Centraal Station.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Sint_Nicolaasbasiliek_vanaf_brug_bij_Centraal_Station.JPG",
+          "author": "A.A.W.J. Rietman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam, Sint Nicolaasbasiliek.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Sint_Nicolaasbasiliek.jpg",
+          "author": "Parsifall",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam, Sint Nicolaasbasiliek, exterieur front 02.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Sint_Nicolaasbasiliek,_exterieur_front_02.JPG",
+          "author": "A.A.W.J. Rietman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam, Sint Nicolaasbasiliek, achterzijde 00 koepel 02.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Sint_Nicolaasbasiliek,_achterzijde_00_koepel_02.JPG",
+          "author": "A.A.W.J. Rietman",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-sint-nicolaaskerk.glb",
+      "source": "generators/amsterdam-sint-nicolaaskerk.ts"
+    },
+    {
       "id": "amsterdam-westerkerk",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -37914,6 +37970,34 @@
         "way/748659186",
         "way/748659187"
       ]
+    },
+    {
+      "id": "amsterdam-sint-nicolaaskerk",
+      "name": "Basilica of Saint Nicholas",
+      "model": "amsterdam-sint-nicolaaskerk",
+      "place": "amsterdam",
+      "lng": 4.901162,
+      "lat": 52.376435,
+      "bearing": 150.1,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/174996833",
+        "way/645534930",
+        "way/645534931",
+        "way/749289632",
+        "way/749289633",
+        "way/749289634",
+        "way/750217059",
+        "way/750217060",
+        "way/750217061",
+        "way/750217062",
+        "way/750217063",
+        "way/750217064",
+        "way/750591088",
+        "way/750591090"
+      ],
+      "wikidata": "Q1350750"
     },
     {
       "id": "amsterdam-westerkerk",
