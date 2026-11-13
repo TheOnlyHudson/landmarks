@@ -20918,6 +20918,57 @@
       "source": "generators/mexico-city-munal.ts"
     },
     {
+      "id": "mexico-city-ninos-heroes",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "memorial",
+        "columns",
+        "sculpture",
+        "marble",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Monumento a los Niños Heroes - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_los_Ni%C3%B1os_Heroes_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monumento a los Niños Heroes - Mexico 2024 (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_los_Ni%C3%B1os_Heroes_-_Mexico_2024_(2).jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mexico City (2018) - 030",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_City_(2018)_-_030.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-ninos-heroes.glb",
+      "source": "generators/mexico-city-ninos-heroes.ts"
+    },
+    {
       "id": "mexico-city-palacio-de-bellas-artes",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -48335,6 +48386,19 @@
         "relation/14592229"
       ],
       "wikidata": "Q1138147"
+    },
+    {
+      "id": "mexico-city-ninos-heroes",
+      "name": "Monumento a los Niños Héroes",
+      "model": "mexico-city-ninos-heroes",
+      "place": "mexico-city",
+      "lng": -99.1793014,
+      "lat": 19.4215103,
+      "bearing": 63.2,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q19381838"
     },
     {
       "id": "mexico-city-palacio-de-bellas-artes",
