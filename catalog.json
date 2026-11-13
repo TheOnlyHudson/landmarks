@@ -22957,6 +22957,73 @@
       "source": "generators/mexico-city-unam-rectoria.ts"
     },
     {
+      "id": "mexico-city-world-trade-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "World Trade Center - Mexico City",
+          "url": "https://commons.wikimedia.org/wiki/File:World_Trade_Center_-_Mexico_City.jpg",
+          "author": "EneasMx",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre wtc mexico",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_wtc_mexico.jpg",
+          "author": "Daniel Manrique",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Aerial view World Trade Center Mexico 03 2014 MEX 7842",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_World_Trade_Center_Mexico_03_2014_MEX_7842.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Antena del World Trade Center México",
+          "url": "https://commons.wikimedia.org/wiki/File:Antena_del_World_Trade_Center_M%C3%A9xico.JPG",
+          "author": "Felipe Alfonso Castillo Vázquez",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Sobrevuelos CDMX HJ2A6040",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_HJ2A6040_(39675330524).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "WTC Ciudad de México - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:WTC_Ciudad_de_M%C3%A9xico_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-world-trade-center.glb",
+      "source": "generators/mexico-city-world-trade-center.ts"
+    },
+    {
       "id": "milestone-club",
       "file": "models/milestone-club.glb",
       "license": "CC0-1.0",
@@ -50422,6 +50489,30 @@
         "way/1341387913",
         "way/260241576"
       ]
+    },
+    {
+      "id": "mexico-city-world-trade-center",
+      "name": "World Trade Center Mexico City",
+      "model": "mexico-city-world-trade-center",
+      "place": "mexico-city",
+      "lng": -99.173854,
+      "lat": 19.394418,
+      "bearing": 13,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/362824952",
+        "way/312315753",
+        "way/227708277",
+        "way/312329507",
+        "way/312315752",
+        "way/312329506",
+        "way/312329508",
+        "way/312329503",
+        "way/312329504",
+        "way/312329505"
+      ],
+      "wikidata": "Q2712478"
     },
     {
       "id": "milestone-club",
