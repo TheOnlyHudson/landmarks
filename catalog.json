@@ -21402,6 +21402,99 @@
       "source": "generators/mexico-city-ninos-heroes.ts"
     },
     {
+      "id": "mexico-city-old-basilica",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "religious",
+        "church",
+        "basilica",
+        "baroque",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Templo Expiatorio a Cristo Rey (Antigua Basílica de Guadalupe) - Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_Expiatorio_a_Cristo_Rey_(Antigua_Bas%C3%ADlica_de_Guadalupe)_-_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Antigua Basílica de Nuestra Señora de Guadalupe 2026 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Antigua_Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_Guadalupe_2026_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Templo Expiatorio a Cristo Rey (Antigua Basílica de Guadalupe) - Costado.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_Expiatorio_a_Cristo_Rey_(Antigua_Bas%C3%ADlica_de_Guadalupe)_-_Costado.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fachada del Templo Expiatorio de Cristo Rey al atardecer.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fachada_del_Templo_Expiatorio_de_Cristo_Rey_al_atardecer.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Antigua Basílica de Nuestra Señora de Guadalupe front.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Antigua_Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_Guadalupe_front.jpg",
+          "author": "Polimerek",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "West facade - Old Basilica of Our Lady of Guadalupe - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:West_facade_-_Old_Basilica_of_Our_Lady_of_Guadalupe_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Basílica de Guadalupe desde el aire 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Guadalupe_desde_el_aire_2.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista de la Plaza Mariana desde el Cerro del Tepeyac 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Plaza_Mariana_desde_el_Cerro_del_Tepeyac_03.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Basílica de Guadalupe CDMX 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Guadalupe_CDMX_2024.jpg",
+          "author": "PlanoAbierto",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Atrio de las Américas - La Villa - Basílica de Guadalupe - Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atrio_de_las_Am%C3%A9ricas_-_La_Villa_-_Bas%C3%ADlica_de_Guadalupe_-_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-old-basilica.glb",
+      "source": "generators/mexico-city-old-basilica.ts"
+    },
+    {
       "id": "mexico-city-palacio-de-bellas-artes",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -49199,6 +49292,20 @@
       "minzoom": 16,
       "replaces": [],
       "wikidata": "Q19381838"
+    },
+    {
+      "id": "mexico-city-old-basilica",
+      "name": "Old Basilica of Guadalupe",
+      "model": "mexico-city-old-basilica",
+      "place": "mexico-city",
+      "lng": -99.116855,
+      "lat": 19.485217,
+      "bearing": 23,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/120733637"
+      ]
     },
     {
       "id": "mexico-city-palacio-de-bellas-artes",
