@@ -36910,6 +36910,69 @@
       ],
       "tags": [],
       "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "yosemite-ahwahnee",
+      "file": "models/yosemite-ahwahnee.glb",
+      "license": "CC0-1.0",
+      "source": "generators/yosemite-ahwahnee.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "hotel",
+        "national-park-rustic",
+        "historic",
+        "national-historic-landmark"
+      ],
+      "description": "The rustic 1927 hotel in Yosemite Valley by Gilbert Stanley Underwood: concrete stained to look like redwood, granite piers, a six-storey centre with angled wings and a long dining room.",
+      "references": [
+        {
+          "title": "Ahwahnee-from-glacier-point.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ahwahnee-from-glacier-point.jpg",
+          "author": "Eric Polk",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Ahwahnee Hotel Half Dome.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ahwahnee_Hotel_Half_Dome.jpg",
+          "author": "Mark James Miller",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Ahwahnee Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ahwahnee_Hotel.jpg",
+          "author": "Almonroth",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Ahwahnee Hotel (405515808).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ahwahnee_Hotel_(405515808).jpg",
+          "author": "Bryce Edwards",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Yosemite - Ahwahnee Hotel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yosemite_-_Ahwahnee_Hotel.jpg",
+          "author": "Chris Dunstan",
+          "license": "public-domain"
+        }
+      ],
+      "reviewStatus": "unreviewed"
     }
   ],
   "landmarks": [
@@ -54231,6 +54294,21 @@
         "way/274782336"
       ],
       "place": "new-york-area"
+    },
+    {
+      "id": "yosemite-ahwahnee",
+      "name": "The Ahwahnee",
+      "model": "yosemite-ahwahnee",
+      "lng": -119.5743716,
+      "lat": 37.7462562,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q4696448",
+      "replaces": [
+        "way/164025859"
+      ],
+      "place": "yosemite"
     }
   ],
   "places": [
@@ -54363,6 +54441,12 @@
       "id": "washington-area",
       "name": "Washington, DC area",
       "kind": "region"
+    },
+    {
+      "id": "yosemite",
+      "name": "Yosemite National Park",
+      "kind": "region",
+      "wikidata": "Q180402"
     }
   ]
 }
