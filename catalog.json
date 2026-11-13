@@ -36074,6 +36074,84 @@
       ],
       "file": "models/dubai-fountain.glb",
       "source": "generators/dubai-fountain.ts"
+    },
+    {
+      "id": "dubai-burj-al-arab",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "skyscraper",
+        "island"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Burj al Arab and the Beach (14535539076).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_al_Arab_and_the_Beach_(14535539076).jpg",
+          "author": "Wings and Petals",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Burj Al Arab, Dubai.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Al_Arab,_Dubai.jpg",
+          "author": "Heba Hashem",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Burj Al Arab and the beach (Pexels 823696).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Al_Arab_and_the_beach_(Pexels_823696).jpg",
+          "author": "Aleksandar Pasaric",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Jumeirah Beach - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jumeirah_Beach_-_panoramio_(1).jpg",
+          "author": "Aidas U.",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Madinat Jumeirah-Dubai3303.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Madinat_Jumeirah-Dubai3303.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dubai in January 2025 12.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_in_January_2025_12.jpg",
+          "author": "Renek78",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "A burjalrab green view.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A_burjalrab_green_view.jpg",
+          "author": "Afk2007",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "New Year in Dubai - Burj Al Arab (31865708942).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Year_in_Dubai_-_Burj_Al_Arab_(31865708942).jpg",
+          "author": "Bengin Ahmad",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dubai-burj-al-arab.glb",
+      "source": "generators/dubai-burj-al-arab.ts"
     }
   ],
   "landmarks": [
@@ -53114,6 +53192,24 @@
       "minzoom": 15,
       "replaces": [],
       "wikidata": "Q2384491"
+    },
+    {
+      "id": "dubai-burj-al-arab",
+      "name": "Burj Al Arab",
+      "model": "dubai-burj-al-arab",
+      "place": "dubai",
+      "wikidata": "Q62939",
+      "lng": 55.1853463,
+      "lat": 25.1413059,
+      "bearing": 127.3,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/12700546",
+        "way/1173799867",
+        "way/1054051580",
+        "way/1054051581"
+      ]
     }
   ],
   "places": [
