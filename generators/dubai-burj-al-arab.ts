@@ -305,7 +305,28 @@ white.quad(P(-BACK, 0, 0), P(BACK, 0, 0), P(BACK, 0, ROOF), P(-BACK, 0, ROOF))
     ring.push(P(p.xB * Math.cos(phi), p.uB + p.d * Math.sin(phi), ROOF))
   }
   ring.push(P(-p.xA, p.uA, ROOF), P(-BACK, 0, ROOF))
-  roof.cap(ring, true)
+  // The ring isn't convex where the wings meet the back line, so a fan
+  // would turn a triangle over; ear-clip it instead.
+  for (const [i, j, k] of earClip(ring)) roof.tri(ring[i], ring[j], ring[k])
+}
+
+/** Ear-clipping triangulation of a simple ring, counter-clockwise from above. */
+function earClip(ring: V3[]): [number, number, number][] {
+  const cz = (a: V3, b: V3, c: V3) => (b[0] - a[0]) * (c[1] - a[1]) - (b[1] - a[1]) * (c[0] - a[0])
+  const idx = ring.map((_, i) => i), out: [number, number, number][] = []
+  while (idx.length > 3) {
+    const k = idx.findIndex((i1, k) => {
+      const i0 = idx[(k + idx.length - 1) % idx.length], i2 = idx[(k + 1) % idx.length]
+      const [a, b, c] = [ring[i0], ring[i1], ring[i2]]
+      return cz(a, b, c) > 1e-9 && !idx.some((j) => j !== i0 && j !== i1 && j !== i2 &&
+        cz(a, b, ring[j]) >= 0 && cz(b, c, ring[j]) >= 0 && cz(c, a, ring[j]) >= 0)
+    })
+    if (k < 0) throw new Error('earClip: ring is not simple')
+    out.push([idx[(k + idx.length - 1) % idx.length], idx[k], idx[(k + 1) % idx.length]])
+    idx.splice(k, 1)
+  }
+  out.push([idx[0], idx[1], idx[2]])
+  return out
 }
 
 // ---------- spine core and the shaft above the roof ----------
@@ -409,8 +430,8 @@ for (const sx of [1, -1]) tube(white, legPath(sx), 2.6, 8)
       const zmid = (a[2] + b[2]) / 2
       const isGlass = k === 1 && (i === 2 || i === 6) && Math.abs(zmid - ZC) < 4
       const part = isGlass ? podGlass : white
-      // section points run ccw in (u, z), i.e. clockwise seen from +x; quad (a, d, c, b) faces out
-      part.quad(a, d, c, b)
+      // section points run ccw in (u, z), i.e. ccw seen from +x (y x z = x); quad (a, b, c, d) faces out
+      part.quad(a, b, c, d)
     }
   // end faces: glazed ovals
   const endL = rings[0], endR = rings[3]

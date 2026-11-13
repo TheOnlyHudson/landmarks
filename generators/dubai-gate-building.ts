@@ -149,7 +149,7 @@ box(stone, [-H, -OW, -H, H], 0, Z.open + 0.5, 0.5, { top: false })
 box(stone, [OW, H, -H, H], 0, Z.open + 0.5, 0.5, { top: false })
 // Attic: stone band (with the opening's ceiling under it), the recessed
 // X-braced glass storey, then the parapet band with a bevelled top.
-box(stone, [-H, H, -H, H], Z.open, Z.band1, 0.5, { top: false, bottom: true })
+box(stone, [-H, H, -H, H], Z.open, Z.band1, 0.5, { bottom: true })
 box(dark, [-H + RECESS, H - RECESS, -H + RECESS, H - RECESS], Z.band1, Z.band2, 0.3, { top: false })
 box(stone, [-H, H, -H, H], Z.band2, Z.roof, 0.5, { bottomBevel: true })
 // Roof pavilion, set back.

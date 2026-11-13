@@ -196,6 +196,8 @@ function triangulate(poly: V2[]): [number, number, number][] {
     if (!clipped) break
   }
   if (idx.length === 3) tris.push([idx[0], idx[1], idx[2]])
+  // A polygon that won't clip (self-intersecting, or wound clockwise) would leave a roof out.
+  if (tris.length !== poly.length - 2) throw new Error(`triangulate: ${tris.length} of ${poly.length - 2} triangles`)
   return tris
 }
 
@@ -262,7 +264,9 @@ function bevelPrism(p: Part, poly: V2[], z0: number, topZ: (q: V2) => number, be
     }
     p.quad(at(a, za), at(b, zb), at(bi, topZ(bi)), at(ai, topZ(ai)))
   }
-  for (const [i, j, k] of triangulate(inner)) {
+  // The inset can fold over a chamfer as short as the bevel, so triangulate
+  // the outer plan; the inner ring has the same corners in the same order.
+  for (const [i, j, k] of triangulate(poly)) {
     p.tri(at(inner[i], topZ(inner[i])), at(inner[j], topZ(inner[j])), at(inner[k], topZ(inner[k])))
     if (bottom) p.tri(at(poly[i], z0), at(poly[k], z0), at(poly[j], z0))
   }

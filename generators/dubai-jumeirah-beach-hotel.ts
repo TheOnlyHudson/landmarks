@@ -204,7 +204,7 @@ for (let k = 0; k < ST.length - 1; k++) {
 // end caps
 for (const [st, dir] of [[ST[0], -1], [ST[ST.length - 1], 1]] as [St, number][]) {
   const pts: V3[] = [[st.x0, st.y, 0], [st.x1, st.y, 0], [st.x1, st.y, st.h1], [st.x0, st.y, st.h0]]
-  if (dir > 0) roof.quad(pts[0], pts[1], pts[2], pts[3])
+  if (dir < 0) roof.quad(pts[0], pts[1], pts[2], pts[3])
   else roof.quad(pts[1], pts[0], pts[3], pts[2])
 }
 
