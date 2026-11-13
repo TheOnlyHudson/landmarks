@@ -234,6 +234,73 @@
       "source": "generators/amsterdam-beurs-van-berlage.ts"
     },
     {
+      "id": "amsterdam-carre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "theatre",
+        "circus"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Carre Theatre 2038.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Carre_Theatre_2038.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Carré Amstelsluizen.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Carr%C3%A9_Amstelsluizen.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam Carré entrance at night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Carr%C3%A9_entrance_at_night.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Onbekendegracht carre.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Onbekendegracht_carre.jpg",
+          "author": "Jvhertum",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Amsterdam - Amstel - Hoge Sluis - View North towards Carré Theatre.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Amstel_-_Hoge_Sluis_-_View_North_towards_Carr%C3%A9_Theatre.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "3D BAG, NL.IMBAG.Pand.0363100012165489",
+          "url": "https://3dbag.nl/",
+          "author": "TU Delft 3D geoinformation group / 3DGI",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-carre.glb",
+      "source": "generators/amsterdam-carre.ts"
+    },
+    {
       "id": "amsterdam-concertgebouw",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -38887,6 +38954,21 @@
         "way/750166478",
         "way/750166479"
       ]
+    },
+    {
+      "id": "amsterdam-carre",
+      "name": "Koninklijk Theater Carré",
+      "model": "amsterdam-carre",
+      "place": "amsterdam",
+      "lng": 4.904281,
+      "lat": 52.362424,
+      "bearing": 73.2,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/269000174"
+      ],
+      "wikidata": "Q1106490"
     },
     {
       "id": "amsterdam-concertgebouw",
