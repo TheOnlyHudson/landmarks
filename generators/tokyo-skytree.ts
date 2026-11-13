@@ -38,34 +38,48 @@
  * distant, near-level view, scaled at 1.96 px/m: the base reads 66 m wide,
  * matching OSM's triangle, and the 634 m tip and 447 m Galleria give the
  * same scale.
- * - trunk projected width 66 m at the ground, ~52 m at 176 m, ~40 m at
- *   320 m: half-width w = 33 - 0.0406 z;
- * - Tembo Deck pod 329-372 m, ~59 m across at its lip (OSM's 35 m looks
- *   too small against every photo; the photos are followed);
+ * - trunk projected width 66 m at the ground, 59 m at 60 m, 49 m at 120 m,
+ *   45 m at 176 m, 41 m at 200 m, 37 m at 250 m, 33 m at 300 m, measured
+ *   against the sky (below 150 m against the haze): a concave curve,
+ *   half-width w = 15.5 + 17.5 (1 - z/360)^1.6. The pod's underside flares
+ *   out from this waist from ~322 m;
+ * - Tembo Deck pod 320-372 m: an inverted cone from the trunk's waist,
+ *   42 m across at 329 m, 50 m at 341 m, widest ~58 m at 356-363 m, then a
+ *   roof sloping in by 371 m (OSM's 35 m looks too small against every
+ *   photo; the photos are followed);
  * - lattice between the decks ~30 m across;
- * - Galleria ring 439-461 m, ~40 m across; the lattice above it ~22 m
- *   across, to the mast at 497 m; the mast ~10 m across, banded, to 634 m;
+ * - Galleria ring 439-461 m, ~36 m across (38 m at its flared underside);
+ *   the lattice above it ~22 m across, to the mast at 497 m; the mast
+ *   tapering from ~11 m to ~7 m, banded, under a ~11 m cap, to 634 m;
  * - the frame: columns on the surface, horizontal ring beams and X-bracing
  *   in every bay, heavier members at the three corners of the tripod.
  *
  * Estimated: the triangle-to-circle blend (complete by 320 m); the frame's
  * spacing (the real one is finer still: about 30 columns round, storeys of
  * ~10 m); member sizes, drawn heavier than real so the frame reads (low
- * model: legs 6 m, columns and rings ~2.7 m, diagonals 2.3 m; detail model
- * about two thirds of that); the core drawn 14 m across to 372 m and 10 m
- * above (the shaft with its lifts and stairs, which read as one pale mass
- * inside the frame; published as a shaft, not dimensioned); the pods' profiles
- * between the photo measurements; the mast's bands.
+ * model: legs 6 m at the foot, thinning to columns by 320 m, columns and
+ * rings ~2.7 m, diagonals 2.3 m; detail model about two thirds of that); the
+ * core, drawn at ~55% of the trunk's width up to 320 m, 14 m across to 372 m
+ * and 10 m above (the shaft with its lifts and stairs and the lattice's inner
+ * faces, which read as one pale mass inside the frame by day and glow in
+ * the night scheme's colour; the shaft itself is not dimensioned); the
+ * pods' profiles between the photo measurements; the mast's bands.
  * Left out: the elevator shafts and stairs inside the frame, the base
  * station and lobby (separate buildings in OSM), the Galleria's spiral tube.
  * Terrain: `tools/terrain.ts check` passes; elevation 0.
  *
  * Night: in the "Iki" scheme (Kakidai's "Tokyo Skytree at night (Iki).jpg",
  * CC BY-SA 3.0) the frame is washed warm white and the core glows sky blue
- * through it. The frame, pods and mast carry a white `floodlight` wash; the
- * core is `neon-skytree-iki`, a soft sky blue that reads as the shaft's
- * shadowed blue-grey by day and glows blue at night. The decks' glazing is
- * `window`.
+ * through it, filling most of the trunk's width. The frame, pods and mast
+ * carry a white `floodlight` wash; the core is `neon-skytree-iki`, a pale sky
+ * blue that reads as the shaded interior by day and glows blue at night (a
+ * stronger blue would read blue by day). The decks' glazing is `window`:
+ * the decks are open and lit at night, though under Iki they show dimmer,
+ * ringed with blue LEDs, which are left out.
+ *
+ * Colours (photo, in sun): the lattice members are near white (#fcffff);
+ * the pods and mast are a silver grey (#a0b1bf-#a7a9b6 in the photo, drawn
+ * #c6ced6 since the map's lighting darkens them).
  *
  * Photos (Wikimedia Commons):
  * - "2019 Tokyo Skytree.jpg", Kakidai, CC BY-SA 4.0 (distant, proportions)
@@ -157,8 +171,12 @@ function member(p: Part, a: V3, b: V3, r: number, sides = 3) {
 // --------------------------------------------------------------- the shape ---
 const TOP = 329            // the trunk meets the Tembo Deck pod
 const BLEND_TOP = 320      // triangle fully rounded into a circle by here
-/** Projected half-width (photo): 33 m at the ground, 20 m at 320 m. */
-const halfW = (z: number) => 33 - 0.0406 * z
+/**
+ * Projected half-width (photo): the trunk curves in, from 33 m at the ground
+ * to a waist of ~16 m under the Tembo Deck, steep low down and nearly
+ * straight above 250 m. Fits the photo's widths to within a metre.
+ */
+const halfW = (z: number) => 15.5 + 17.5 * (1 - z / 360) ** 1.6
 const smoothstep = (t: number) => t * t * (3 - 2 * t)
 const CORNER0 = Math.PI / 2 // a corner due north
 /** The trunk's radius at angle a and height z: a triangle easing into a circle. */
@@ -189,7 +207,9 @@ function frame(p: Part, radius: (a: number, z: number) => number, z0: number, z1
   for (let k = 0; k < storeys; k++)
     for (let i = 0; i < n; i++) {
       const isLeg = legEvery > 0 && i % legEvery === 0
-      member(p, node(i, k), node(i, k + 1), isLeg ? s.leg : s.col, isLeg ? 4 : s.sides)
+      // The legs thin into ordinary columns as the triangle rounds out.
+      const legR = s.col + (s.leg - s.col) * Math.max(0, 1 - (z0 + ((z1 - z0) * (k + 0.5)) / storeys) / BLEND_TOP)
+      member(p, node(i, k), node(i, k + 1), isLeg ? legR : s.col, isLeg ? 4 : s.sides)
       member(p, node(i, k + 1), node(i + 1, k + 1), s.ring, s.sides)
       member(p, node(i, k), node(i + 1, k + 1), s.diag, s.sides)
       member(p, node(i + 1, k), node(i, k + 1), s.diag, s.sides)
@@ -208,44 +228,57 @@ function build(s: Sizes) {
 
   // The trunk: an open frame round the core, the three corners as legs.
   frame(lattice, trunkR, 0, TOP, s.cols, s.storeys, s, s.cols / 3)
-  lathe([[7, 0], [7, 372], [0, 372]], () => core, 16)
+  // The glow inside the frame: the shaft and the lit inner faces of the
+  // lattice, which by day read as a pale mass behind the members and at
+  // night fill the trunk with the scheme's colour (Iki photo). Drawn as one
+  // surface at ~55% of the trunk's width.
+  const coreProfile: [number, number][] = []
+  for (const z of [0, 110, 220, 320]) coreProfile.push([Math.max(7, 0.55 * halfW(z)), z])
+  coreProfile.push([7, 372], [0, 372])
+  lathe(coreProfile, () => core, 12)
 
-  // Tembo Deck pod: a cone flaring out from the trunk, a band of glass, a
-  // broad lip, and a sloped roof in to the frame above.
+  // Tembo Deck pod (photo): an inverted cone flaring steadily out of the
+  // trunk's waist from ~320 m, its window band on the slope at 339-351 m,
+  // widest (~58 m) at 356-363 m, and a sloped roof in to the frame above.
   const R_TOP = halfW(BLEND_TOP)
-  lathe([[R_TOP - 0.3, TOP - 0.5], [24, 338], [28.5, 342]], () => white, K)
-  lathe([[28.5, 342], [28.8, 357]], () => glass, K)
-  lathe([[28.8, 357], [29.5, 358], [29.5, 362.5], [28, 363.5], [24, 366], [15.5, 372]], () => white, K, 50)
+  lathe([[R_TOP - 0.3, 319], [18.6, 323], [24, 339]], () => white, K)
+  lathe([[24, 339], [27.6, 351]], () => glass, K)
+  lathe([[27.6, 351], [29, 356], [29, 363], [27.5, 366], [23, 369], [15.5, 372]], () => white, K, 50)
 
-  // The frame between the decks round the upper shaft.
-  const UP0 = 372, UP1 = 437, R_UP = 15
-  frame(lattice, () => R_UP, UP0, UP1, Math.round(s.cols * 0.84), Math.round(s.storeys * 0.28), s)
+  // The frame between the decks round the upper shaft, narrowing from ~31 m
+  // across over the pod to ~25 m under the Galleria (photo).
+  const UP0 = 372, UP1 = 437, R_UP0 = 15.5, R_UP = 12.5
+  frame(lattice, (_a, z) => R_UP0 + ((R_UP - R_UP0) * Math.min(1, (z - UP0) / 58)), UP0, UP1, Math.round(s.cols * 0.84), Math.round(s.storeys * 0.28), s)
   lathe([[5, UP0], [5, 497]], () => core, 12)
 
   // Tembo Galleria: a flared underside, a glass ring, and its roof.
-  lathe([[R_UP - 0.2, UP1], [19.5, 441]], () => white, K)
-  lathe([[19.5, 441], [19.8, 455]], () => glass, K)
-  lathe([[19.8, 455], [20.2, 456], [20.2, 458.5], [18, 460], [11.5, 462]], () => white, K, 50)
+  // (photo: 38 m across at the underside's lip at 440 m, the glass leaning in
+  // from 36 to 34 m, the roof sloping in to the frame above by 461 m)
+  lathe([[R_UP - 0.2, 433], [18.9, 440], [17.9, 442]], () => white, K)
+  lathe([[17.9, 442], [16.9, 451]], () => glass, K)
+  lathe([[16.9, 451], [17.2, 452], [17, 454], [14, 457], [10.8, 461], [10.8, 462]], () => white, K, 50)
 
   // The frame above the Galleria, tapering a little to the mast.
   const TOPL0 = 462, TOPL1 = 497
-  frame(lattice, (_a, z) => 11.2 - (1.2 * (z - TOPL0)) / (TOPL1 - TOPL0), TOPL0, TOPL1, Math.round(s.cols * 0.67), Math.max(2, Math.round(s.storeys * 0.18)), s)
+  frame(lattice, (_a, z) => 10.8 - (0.8 * (z - TOPL0)) / (TOPL1 - TOPL0), TOPL0, TOPL1, Math.round(s.cols * 0.67), Math.max(2, Math.round(s.storeys * 0.18)), s)
   lathe([[10, TOPL1], [10.6, 498], [10.6, 500], [5.2, 502]], () => white, 24, 50)
 
   // The gain tower: a white mast, a darker band every 16 m (its antenna
   // sections), and a cap.
+  const mastR = (z: number) => 5.2 - (1.6 * (z - 502)) / 112
   for (let z = 502; z < 612; z += 16) {
-    lathe([[5.0, z], [5.0, z + 12.5]], () => white, 16)
-    lathe([[5.0, z + 12.5], [5.4, z + 13], [5.4, z + 16]], () => bands, 16, 30)
+    const r0 = mastR(z), r1 = mastR(z + 12.5)
+    lathe([[r0, z], [r1, z + 12.5]], () => white, 16)
+    lathe([[r1, z + 12.5], [r1 + 0.4, z + 13], [r1 + 0.4, z + 16]], () => bands, 16, 30)
   }
-  lathe([[5.4, 614], [5.4, 626], [4.0, 628.5], [2.2, 631.5], [0.6, 634], [0, 634]], () => white, 16, 40)
+  lathe([[mastR(608.5) + 0.4, 614], [5.4, 615], [5.4, 626], [4.0, 628.5], [2.2, 631.5], [0.6, 634], [0, 634]], () => white, 16, 40)
 
   // Colours from daylight photos: Skytree White is a pale bluish white.
   const lit = (_p: V3, n: V3) => (n[2] > 0.8 ? 0.35 : 0.95)
   const parts: Array<{ part: Part; material: MaterialSpec }> = [
     { part: lattice, material: { ...finish('skytree-white', 0xeef4f8), floodlight: lit } },
     { part: core, material: finish('neon-skytree-iki', 0xa9c3da) },
-    { part: white, material: { ...PALETTE.trim, color: 0xeef2f4, floodlight: lit } },
+    { part: white, material: { ...PALETTE.trim, color: 0xc6ced6, floodlight: lit } },
     { part: glass, material: PALETTE.window },
     { part: bands, material: finish('skytree-band', 0xa6b3bd) },
   ]
