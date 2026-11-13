@@ -19829,6 +19829,87 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "mexico-city-angel-de-la-independencia",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "column",
+        "statue",
+        "memorial",
+        "mausoleum",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vista ote a pte del Monumento a la Independencia DF MEX",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_ote_a_pte_del_Monumento_a_la_Independencia_DF_MEX.JPG",
+          "author": "Sarumo74",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Monumento a la Independencia, México D.F., 2014-10-13, DD 19",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Independencia,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_19.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Monumento a la Independencia, México D.F., 2014-10-13, DD 22",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Independencia,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_22.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Glorieta del Ángel de la Independencia desde el aire",
+          "url": "https://commons.wikimedia.org/wiki/File:Glorieta_del_%C3%81ngel_de_la_Independencia_desde_el_aire.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monumento de la Independencia (El Angel) 03 2014 Mex 8107",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_de_la_Independencia_(El_Angel)_03_2014_Mex_8107.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Monumento de la Independencia (El Angel) 03 2014 Mex 8113",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_de_la_Independencia_(El_Angel)_03_2014_Mex_8113.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Monumento a la Independencia, Ciudad de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Independencia,_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Sergio Estrada Flores",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Angel Dorado",
+          "url": "https://commons.wikimedia.org/wiki/File:Angel_Dorado.jpg",
+          "author": "ChaneekPhotography",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-angel-de-la-independencia.glb",
+      "source": "generators/mexico-city-angel-de-la-independencia.ts"
+    },
+    {
       "id": "mexico-city-carlos-iv",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47854,6 +47935,22 @@
       "wikidata": "Q28455368",
       "replaces": [],
       "place": "charlotte-area"
+    },
+    {
+      "id": "mexico-city-angel-de-la-independencia",
+      "name": "Ángel de la Independencia",
+      "model": "mexico-city-angel-de-la-independencia",
+      "place": "mexico-city",
+      "lng": -99.1676677,
+      "lat": 19.4270037,
+      "bearing": 65.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/19438330",
+        "way/176477230"
+      ],
+      "wikidata": "Q928541"
     },
     {
       "id": "mexico-city-carlos-iv",
