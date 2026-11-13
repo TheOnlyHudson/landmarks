@@ -20163,6 +20163,98 @@
       "source": "generators/mexico-city-edificio-la-nacional.ts"
     },
     {
+      "id": "mexico-city-la-profesa",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "religious",
+        "church",
+        "baroque",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Portada Iglesia de la Profesa Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Portada_Iglesia_de_la_Profesa_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Temple of San Felipe Neri \"La Profesa\" 2015 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_of_San_Felipe_Neri_%22La_Profesa%22_2015_01.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Temple of San Felipe Neri \"La Profesa\" 2015 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_of_San_Felipe_Neri_%22La_Profesa%22_2015_02.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Temple of San Felipe Neri \"La Profesa\" 2015 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_of_San_Felipe_Neri_%22La_Profesa%22_2015_04.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Temple of San Felipe Neri \"La Profesa\" 2015 22.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_of_San_Felipe_Neri_%22La_Profesa%22_2015_22.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de la Profesa 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_la_Profesa_2.jpg",
+          "author": "Ricardo Daniel Huerta Garrido",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Avenida Francisco I. Madero, Centro Histórico, Ciudad de México - La Profesa.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Avenida_Francisco_I._Madero,_Centro_Hist%C3%B3rico,_Ciudad_de_M%C3%A9xico_-_La_Profesa.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de La Profesa desde el hotel 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_La_Profesa_desde_el_hotel_01.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de La Profesa desde el hotel 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_La_Profesa_desde_el_hotel_02.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de la Profesa..JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_la_Profesa..JPG",
+          "author": "CPeralta",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-la-profesa.glb",
+      "source": "generators/mexico-city-la-profesa.ts"
+    },
+    {
       "id": "mexico-city-metropolitan-cathedral",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47328,6 +47420,25 @@
         "way/217470226"
       ],
       "wikidata": "Q5338052"
+    },
+    {
+      "id": "mexico-city-la-profesa",
+      "name": "Templo de La Profesa",
+      "model": "mexico-city-la-profesa",
+      "place": "mexico-city",
+      "lng": -99.1365278,
+      "lat": 19.4338421,
+      "bearing": 8,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q7698749",
+      "replaces": [
+        "way/158032448",
+        "way/1300593819",
+        "way/1300593820",
+        "way/1300593821",
+        "way/1300593822"
+      ]
     },
     {
       "id": "mexico-city-metropolitan-cathedral",
