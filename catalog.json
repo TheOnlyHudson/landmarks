@@ -21667,6 +21667,91 @@
       "source": "generators/mexico-city-torre-latinoamericana.ts"
     },
     {
+      "id": "mexico-city-torre-reforma",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre Reforma 1707",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Reforma1707.jpg",
+          "author": "Cvmontuy",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Reforma",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Reforma_.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Mayor y Torre Reforma 1612",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mayor_y_Torre_Reforma1612.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reforma towers 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Reforma_towers2019.jpg",
+          "author": "Cvmontuy",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torres del Paseo de la Reforma desde el Hotel Sonder Aria 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Torres_del_Paseo_de_la_Reforma_desde_el_Hotel_Sonder_Aria_01.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torres del Paseo de la Reforma desde el Hotel Sonder Aria 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Torres_del_Paseo_de_la_Reforma_desde_el_Hotel_Sonder_Aria_03.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sobrevuelos CDMX HJ2A5055",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_HJ2A5055_(40386345631).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Vista aérea de la Ciudad de México desde el Auditorio Nacional 10",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Ciudad_de_M%C3%A9xico_desde_el_Auditorio_Nacional_10.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Torre Reforma 2016",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Reforma_2016.jpg",
+          "author": "Monstruodelinfierno",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-reforma.glb",
+      "source": "generators/mexico-city-torre-reforma.ts"
+    },
+    {
       "id": "milestone-club",
       "file": "models/milestone-club.glb",
       "license": "CC0-1.0",
@@ -48745,6 +48830,21 @@
         "relation/19455323"
       ],
       "wikidata": "Q947870"
+    },
+    {
+      "id": "mexico-city-torre-reforma",
+      "name": "Torre Reforma",
+      "model": "mexico-city-torre-reforma",
+      "place": "mexico-city",
+      "lng": -99.17442,
+      "lat": 19.424815,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/217330154"
+      ],
+      "wikidata": "Q3433389"
     },
     {
       "id": "milestone-club",
