@@ -25477,6 +25477,95 @@
       "source": "generators/london-leadenhall-building.ts"
     },
     {
+      "id": "london-lloyds-building",
+      "detail": "models/london-lloyds-building.detail.glb",
+      "detailZoom": 16,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "high-tech",
+        "listed-building",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q1814818",
+      "references": [
+        {
+          "title": "Lloyd's Building from St Mary Axe",
+          "url": "https://commons.wikimedia.org/wiki/File:Lloyd%27s_Building_from_St_Mary_Axe.jpg",
+          "author": "DanielMichaelPerry",
+          "license": "CC0"
+        },
+        {
+          "title": "Lloyd's building in City of London",
+          "url": "https://commons.wikimedia.org/wiki/File:Lloyd%27s_building_in_City_of_London.jpg",
+          "author": "Choinowski",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lloyd's Building 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Lloyd%27s_Building_01.jpg",
+          "author": "Rafa Esteve",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lloyd's Building and Company 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Lloyd%27s_Building_and_Company_02.jpg",
+          "author": "Rafa Esteve",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lloyd's Building Silhouette",
+          "url": "https://commons.wikimedia.org/wiki/File:Lloyd%27s_Building_Silhouette.jpg",
+          "author": "Jordon Houston",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cheesegrater and Gherkin",
+          "url": "https://commons.wikimedia.org/wiki/File:Cheesegrater_and_Gherkin.jpg",
+          "author": "Colin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Southeastern view from The Look Out, the 50th floor of 8 Bishopsgate, London",
+          "url": "https://commons.wikimedia.org/wiki/File:Southeastern_view_from_The_Look_Out,_the_50th_floor_of_8_Bishopsgate,_London.jpg",
+          "author": "Paul W",
+          "license": "CC0"
+        },
+        {
+          "title": "Lloyd's building at night 2023-11-16",
+          "url": "https://commons.wikimedia.org/wiki/File:Lloyd%27s_building_at_night_2023-11-16.jpg",
+          "author": "Matt Brown",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Lloyd's building at night IMG 1341",
+          "url": "https://commons.wikimedia.org/wiki/File:Lloyd%27s_building_at_night_IMG_1341.JPG",
+          "author": "Deror_avi",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/london-lloyds-building.glb",
+      "source": "generators/london-lloyds-building.ts"
+    },
+    {
       "id": "london-one-canada-square",
       "file": "models/london-one-canada-square.glb",
       "source": "generators/london-one-canada-square.ts",
@@ -55237,6 +55326,30 @@
         "way/1138764583"
       ],
       "wikidata": "Q2742547"
+    },
+    {
+      "id": "london-lloyds-building",
+      "name": "Lloyd's Building",
+      "model": "london-lloyds-building",
+      "place": "london",
+      "lng": -0.0824276,
+      "lat": 51.5130062,
+      "bearing": 23,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/23988892",
+        "way/310187362",
+        "way/310187363",
+        "way/310187364",
+        "way/310187365",
+        "way/310187366",
+        "way/310187367",
+        "way/310187370",
+        "way/445330146",
+        "way/445330148"
+      ],
+      "wikidata": "Q1814818"
     },
     {
       "id": "london-one-canada-square",
