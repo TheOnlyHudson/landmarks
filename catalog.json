@@ -19983,6 +19983,91 @@
       "source": "generators/mexico-city-anthropology-museum.ts"
     },
     {
+      "id": "mexico-city-auditorio-nacional",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "theatre",
+        "concert-hall",
+        "brutalist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Ciudad de Mexico - 1194 - Auditorio Nacional",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciudad_de_Mexico_-_1194_-_Auditorio_Nacional.jpg",
+          "author": "Pierre-Selim Huard",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "AUDITORIO NACIONAL CDMEXICO",
+          "url": "https://commons.wikimedia.org/wiki/File:AUDITORIO_NACIONAL_CDMEXICO.JPG",
+          "author": "Sarumo74",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Auditorio Nacional (México) - Fachada",
+          "url": "https://commons.wikimedia.org/wiki/File:Auditorio_Nacional_(M%C3%A9xico)_-_Fachada.JPG",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Auditorio Nacional México 2011",
+          "url": "https://commons.wikimedia.org/wiki/File:Auditorio_Nacional_M%C3%A9xico_2011.jpg",
+          "author": "Nacho Facello",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Auditorio nacional - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Auditorio_nacional_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "VistaAereaAuditorioNacional",
+          "url": "https://commons.wikimedia.org/wiki/File:VistaAereaAuditorioNacional.jpg",
+          "author": "Daniel Lobo",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Vista aérea de la Ciudad de México desde el Auditorio Nacional 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Ciudad_de_M%C3%A9xico_desde_el_Auditorio_Nacional_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Auditorio Nacional - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Auditorio_Nacional_-_panoramio.jpg",
+          "author": "Wiper México",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Auditorio Nacional de México por la noche",
+          "url": "https://commons.wikimedia.org/wiki/File:Auditorio_Nacional_de_M%C3%A9xico_por_la_noche.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-auditorio-nacional.glb",
+      "source": "generators/mexico-city-auditorio-nacional.ts"
+    },
+    {
       "id": "mexico-city-carlos-iv",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -48777,6 +48862,22 @@
         "relation/17310243"
       ],
       "wikidata": "Q524249"
+    },
+    {
+      "id": "mexico-city-auditorio-nacional",
+      "name": "Auditorio Nacional",
+      "model": "mexico-city-auditorio-nacional",
+      "place": "mexico-city",
+      "lng": -99.19484,
+      "lat": 19.4248059,
+      "bearing": 352.1,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/30373468",
+        "way/1279187823"
+      ],
+      "wikidata": "Q286179"
     },
     {
       "id": "mexico-city-carlos-iv",
