@@ -19658,6 +19658,68 @@
       "source": "generators/istanbul-rustem-pasha-mosque.ts"
     },
     {
+      "id": "istanbul-sapphire",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "residential",
+        "shopping-mall",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "IstanbulSapphireOverall straighten",
+          "url": "https://commons.wikimedia.org/wiki/File:IstanbulSapphireOverall_straighten.jpg",
+          "author": "Mimar77",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Sapphire 2024 (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Sapphire_2024_(cropped).jpg",
+          "author": "Hello40339",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sapphire building 7375",
+          "url": "https://commons.wikimedia.org/wiki/File:Sapphire_building_7375.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sapphire building 9010",
+          "url": "https://commons.wikimedia.org/wiki/File:Sapphire_building_9010.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Sapphire4",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Sapphire4.jpg",
+          "author": "Scott Dexter",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/istanbul-sapphire.glb",
+      "source": "generators/istanbul-sapphire.ts"
+    },
+    {
       "id": "istanbul-serpent-column",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -48204,6 +48266,22 @@
       "wikidata": "Q1137511",
       "replaces": [
         "way/175518494"
+      ]
+    },
+    {
+      "id": "istanbul-sapphire",
+      "name": "Istanbul Sapphire",
+      "model": "istanbul-sapphire",
+      "place": "istanbul",
+      "lng": 29.00605,
+      "lat": 41.084961,
+      "bearing": 357.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q166882",
+      "replaces": [
+        "way/156828034",
+        "way/673790538"
       ]
     },
     {
