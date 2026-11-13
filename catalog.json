@@ -22722,6 +22722,73 @@
       "source": "generators/mexico-city-torre-mayor.ts"
     },
     {
+      "id": "mexico-city-torre-pemex",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre ejecutiva de PEMEX",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_ejecutiva_de_PEMEX.jpg",
+          "author": "Omar David Sandoval Sida",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "TorreDePemex1907p1",
+          "url": "https://commons.wikimedia.org/wiki/File:TorreDePemex1907p1.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aerial view Torre Pemex 03 2014 MEX 7827",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_Torre_Pemex_03_2014_MEX_7827.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Aerial view Torre Pemex 03 2014 MEX 7828",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_Torre_Pemex_03_2014_MEX_7828.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Torre Pemex (5)",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Pemex_(5).jpg",
+          "author": "Eneas",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Torre de Pemex 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Pemex_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-pemex.glb",
+      "source": "generators/mexico-city-torre-pemex.ts"
+    },
+    {
       "id": "mexico-city-torre-reforma",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -50435,6 +50502,23 @@
         "way/1137741013"
       ],
       "wikidata": "Q844813"
+    },
+    {
+      "id": "mexico-city-torre-pemex",
+      "name": "Torre Ejecutiva Pemex",
+      "model": "mexico-city-torre-pemex",
+      "place": "mexico-city",
+      "lng": -99.174897,
+      "lat": 19.439073,
+      "bearing": 32,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/181713097",
+        "way/1187396041",
+        "way/1185609790"
+      ],
+      "wikidata": "Q948178"
     },
     {
       "id": "mexico-city-torre-reforma",
