@@ -18696,6 +18696,70 @@
       "source": "generators/istanbul-little-hagia-sophia.ts"
     },
     {
+      "id": "istanbul-maidens-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "historic",
+        "ottoman",
+        "lighthouse",
+        "island",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The stone tower on its islet off Salacak as restored in 2023: square rubble shaft with the exposed steel X-bracing, cantilevered balcony, cream lantern storey, lead bell dome, top gallery and flagpole; the crenellated stone hall, the white pavilion, the little lighthouse and the quay.",
+      "references": [
+        {
+          "title": "Maiden tower, Istanbul (P1100207).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Maiden_tower,_Istanbul_(P1100207).jpg",
+          "author": "Matti Blume",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Maiden tower, Istanbul (P1100204).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Maiden_tower,_Istanbul_(P1100204).jpg",
+          "author": "Matti Blume",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "İstanbul Kız Kulesi.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:İstanbul_Kız_Kulesi.jpg",
+          "author": "OkanKeskin",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Maiden's Tower (Istanbul) - May 22, 2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Maiden's_Tower_(Istanbul)_-_May_22,_2023.jpg",
+          "author": "HuseynAZE99",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Kız-Kulesi-01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kız-Kulesi-01.jpg",
+          "author": "muhammad ali baloch",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/istanbul-maidens-tower.glb",
+      "source": "generators/istanbul-maidens-tower.ts"
+    },
+    {
       "id": "istanbul-mihrimah-sultan-edirnekapi",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47422,6 +47486,28 @@
       "wikidata": "Q1144576",
       "replaces": [
         "way/303179753"
+      ]
+    },
+    {
+      "id": "istanbul-maidens-tower",
+      "name": "Maiden's Tower",
+      "model": "istanbul-maidens-tower",
+      "place": "istanbul",
+      "lng": 29.004117,
+      "lat": 41.021088,
+      "bearing": 351,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q848397",
+      "replaces": [
+        "way/103821246",
+        "relation/4429796",
+        "way/103821245",
+        "way/398210642",
+        "way/398210643",
+        "way/398219280",
+        "way/398303494",
+        "way/398303919"
       ]
     },
     {
