@@ -20188,6 +20188,87 @@
       "source": "generators/mexico-city-chapultepec-castle.ts"
     },
     {
+      "id": "mexico-city-chapultepec-uno",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel",
+        "office",
+        "residential",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Paseo de la Reforma y Chapultepec",
+          "url": "https://commons.wikimedia.org/wiki/File:Paseo_de_la_Reforma_y_Chapultepec.jpg",
+          "author": "Crancket",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Chapultepec UNO CDMX",
+          "url": "https://commons.wikimedia.org/wiki/File:Chapultepec_UNO_CDMX.jpg",
+          "author": "Secretaría de Cultura Ciudad de México",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Hotel Ritz Carlton Ciudad de México 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Ritz_Carlton_Ciudad_de_M%C3%A9xico_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Chapultepec Uno y la Torre Mayor",
+          "url": "https://commons.wikimedia.org/wiki/File:Chapultepec_Uno_y_la_Torre_Mayor.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista del edificio Chapultepec Uno y la Torre Mayor 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_del_edificio_Chapultepec_Uno_y_la_Torre_Mayor_03.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Paseo de la Reforma Torre Reforma, Chapultepec Uno and Torre Mayor",
+          "url": "https://commons.wikimedia.org/wiki/File:Paseo_de_la_Reforma_Torre_Reforma,_Chapultepec_Uno_and_Torre_Mayor.jpg",
+          "author": "Tyrv",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reforma Corner",
+          "url": "https://commons.wikimedia.org/wiki/File:Reforma_Corner.jpg",
+          "author": "Dead.rabbit",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Chapultepec Uno (under construction)",
+          "url": "https://commons.wikimedia.org/wiki/File:Chapultepec_Uno.jpg",
+          "author": "Memo198",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-chapultepec-uno.glb",
+      "source": "generators/mexico-city-chapultepec-uno.ts"
+    },
+    {
       "id": "mexico-city-diana-cazadora",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -48188,6 +48269,21 @@
         "relation/17314437",
         "way/1191952512"
       ]
+    },
+    {
+      "id": "mexico-city-chapultepec-uno",
+      "name": "Chapultepec Uno",
+      "model": "mexico-city-chapultepec-uno",
+      "place": "mexico-city",
+      "lng": -99.175781,
+      "lat": 19.424162,
+      "bearing": 333.9,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/508030259"
+      ],
+      "wikidata": "Q6093171"
     },
     {
       "id": "mexico-city-diana-cazadora",
