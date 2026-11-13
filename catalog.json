@@ -9935,6 +9935,79 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "cpt-cape-point-lighthouse",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "lighthouse",
+        "historic",
+        "cast-iron"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Antiguo faro, Cape Point (Delso DD 100)",
+          "url": "https://commons.wikimedia.org/wiki/File:Antiguo_faro,_Cape_Point,_Sud%C3%A1frica,_2018-07-23,_DD_100.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Point Lighthouse 1860-1919. 05",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Point_Lighthouse_1860-1919._05.JPG",
+          "author": "A3alb",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Point Lighthouse 1860-1919. 07",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Point_Lighthouse_1860-1919._07.JPG",
+          "author": "A3alb",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Old Lighthouse in the Cape of Good Hope",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Old_Lighthouse_in_the_Cape_of_Good_Hope.jpg",
+          "author": "Reem Al-Kashif",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Lighthouse Cape Point, South Africa",
+          "url": "https://commons.wikimedia.org/wiki/File:Lighthouse_Cape_Point,_South_Africa.JPG",
+          "author": "S. Lukas",
+          "license": "Public domain"
+        },
+        {
+          "title": "Cape point old lighthouse",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_point_old_lighthouse.jpg",
+          "author": "thomas_sly",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Old Cape Point Lighthouse (Rabich 3373)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Cape_Point_Nature_Reserve,_Old_Cape_Point_Lighthouse_--_2024_--_3373.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/cpt-cape-point-lighthouse.glb",
+      "source": "generators/cpt-cape-point-lighthouse.ts"
+    },
+    {
       "id": "cpt-cape-town-stadium",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45780,6 +45853,21 @@
         "way/849535273"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "cpt-cape-point-lighthouse",
+      "name": "Cape Point Old Lighthouse",
+      "model": "cpt-cape-point-lighthouse",
+      "place": "cape-town",
+      "lng": 18.4902513,
+      "lat": -34.3538204,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/350143420"
+      ],
+      "wikidata": "Q10966914"
     },
     {
       "id": "cpt-cape-town-stadium",
