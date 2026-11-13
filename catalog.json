@@ -63120,6 +63120,12 @@
       "kind": "region"
     },
     {
+      "id": "london",
+      "name": "London",
+      "kind": "city",
+      "wikidata": "Q84"
+    },
+    {
       "id": "los-angeles-area",
       "name": "Los Angeles area",
       "kind": "region"
