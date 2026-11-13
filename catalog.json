@@ -35942,6 +35942,72 @@
       ],
       "file": "models/dubai-museum-of-the-future.glb",
       "source": "generators/dubai-museum-of-the-future.ts"
+    },
+    {
+      "id": "dubai-mall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "shopping-mall",
+        "retail"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The low, sprawling mall at the foot of the Burj Khalifa, with its waterfront drums, glass vaults and the white vault over the cinema block.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dep Sec Brouillette visited the Burj Khalifa (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dep_Sec_Brouillette_visited_the_Burj_Khalifa_(2).jpg",
+          "author": "Office of U.S. Deputy Energy Secretary",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dubai Mall 2012-09-11 (13109074034).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Mall_2012-09-11_(13109074034).jpg",
+          "author": "remundo",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Dubai Fountain 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Dubai_Fountain_01.jpg",
+          "author": "Donaldytong",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dubai Mall (15691005768).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Mall_(15691005768).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Square in from of Dubai Burj Arab Burj Khalifa Mall UAE - 043 (15656282153).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Square_in_from_of_Dubai_Burj_Arab_Burj_Khalifa_Mall_UAE_-_043_(15656282153).jpg",
+          "author": "Wasif Malik",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "13 Dubai Mall night view exterior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:13_Dubai_Mall_night_view_exterior.jpg",
+          "author": "Marek Ślusarczyk (Tupungato)",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/dubai-mall.glb",
+      "source": "generators/dubai-mall.ts"
     }
   ],
   "landmarks": [
@@ -52952,6 +53018,23 @@
         "way/1054289435"
       ],
       "wikidata": "Q22948398"
+    },
+    {
+      "id": "dubai-mall",
+      "name": "The Dubai Mall",
+      "model": "dubai-mall",
+      "place": "dubai",
+      "lng": 55.2788104,
+      "lat": 25.1972178,
+      "bearing": 120.1,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/18195959",
+        "way/240462845",
+        "way/1184630707"
+      ],
+      "wikidata": "Q1133309"
     }
   ],
   "places": [
