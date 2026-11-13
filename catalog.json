@@ -20412,6 +20412,69 @@
       "source": "generators/mexico-city-metropolitan-cathedral.ts"
     },
     {
+      "id": "mexico-city-monumento-a-la-revolucion",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "historic",
+        "art-deco",
+        "arch",
+        "dome",
+        "mausoleum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Monumento a la revolución2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_revoluci%C3%B3n2017.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monumento a la Revolución 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_1.jpg",
+          "author": "Haakon S. Krohn",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Monumento a la Revolución Mexico.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_Mexico.jpg",
+          "author": "ismael villafranco",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Monumento a la Revolución 2012.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_2012.JPG",
+          "author": "Nviascan",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Monumento a la Revolución CDMX 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_CDMX_1.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-monumento-a-la-revolucion.glb",
+      "source": "generators/mexico-city-monumento-a-la-revolucion.ts"
+    },
+    {
       "id": "mexico-city-munal",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47703,6 +47766,44 @@
         "way/1050204076",
         "way/1050204077",
         "way/1050204882"
+      ]
+    },
+    {
+      "id": "mexico-city-monumento-a-la-revolucion",
+      "name": "Monumento a la Revolución",
+      "model": "mexico-city-monumento-a-la-revolucion",
+      "place": "mexico-city",
+      "lng": -99.154622,
+      "lat": 19.4361714,
+      "bearing": 9.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1389520",
+      "replaces": [
+        "way/158032450",
+        "way/1084964141",
+        "way/1084964142",
+        "way/1420329389",
+        "way/1420337631",
+        "way/1420337632",
+        "way/1420337633",
+        "way/1420337634",
+        "way/1420337635",
+        "way/1420337636",
+        "way/1420337637",
+        "way/1420337638",
+        "way/1420337639",
+        "way/1420337640",
+        "way/1420337641",
+        "way/1435759880",
+        "way/1435817879",
+        "way/1435817880",
+        "way/1435817881",
+        "way/1435817882",
+        "way/1435817883",
+        "way/1435817884",
+        "way/1435817885",
+        "way/1435817886"
       ]
     },
     {
