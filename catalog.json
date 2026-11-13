@@ -9935,6 +9935,99 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "cpt-cape-town-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "stadium",
+        "football",
+        "rugby",
+        "world-cup-2010",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kapské město, fotbalový stadion - Jihoafrická republika - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kapsk%C3%A9_m%C4%9Bsto,_fotbalov%C3%BD_stadion_-_Jihoafrick%C3%A1_republika_-_panoramio.jpg",
+          "author": "Pavel Špindler",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Cape Town Stadium - South Africa.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_Stadium_-_South_Africa.jpg",
+          "author": "Nicolearends16",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cape Town 2012 05 15 0175 (7365148808).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_2012_05_15_0175_(7365148808).jpg",
+          "author": "Harvey Barrison",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Cape Town stadium - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_stadium_-_panoramio_(1).jpg",
+          "author": "landagent",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "New stadium - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_stadium_-_panoramio.jpg",
+          "author": "Hendrik van den Berg",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Cape Town Stadium wza2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_Stadium_wza2.jpg",
+          "author": "Winstonza",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Green Point Stadiun - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Green_Point_Stadiun_-_panoramio.jpg",
+          "author": "Azwi",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Green Point Park to V&A (54277163098).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Green_Point_Park_to_V%26A_(54277163098).jpg",
+          "author": "Dennis Sylvester Hurd",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Table Mountain from Cape Town Stadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Table_Mountain_from_Cape_Town_Stadium.jpg",
+          "author": "Nkansahrexford",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Town Stadium, Cape Town, South Africa (Unsplash).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_Stadium,_Cape_Town,_South_Africa_(Unsplash).jpg",
+          "author": "Deklerk Basson",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/cpt-cape-town-stadium.glb",
+      "source": "generators/cpt-cape-town-stadium.ts"
+    },
+    {
       "id": "dal-adolphus-hotel",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45098,6 +45191,21 @@
         "way/849535273"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "cpt-cape-town-stadium",
+      "name": "Cape Town Stadium",
+      "model": "cpt-cape-town-stadium",
+      "place": "cape-town",
+      "lng": 18.4111472,
+      "lat": -33.9034476,
+      "bearing": 12.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/8706182"
+      ],
+      "wikidata": "Q173559"
     },
     {
       "id": "dal-adolphus-hotel",
