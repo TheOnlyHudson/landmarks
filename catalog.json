@@ -550,6 +550,80 @@
       "source": "generators/amsterdam-royal-palace.ts"
     },
     {
+      "id": "amsterdam-westerkerk",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "historic",
+        "renaissance",
+        "tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "WestertorenAmsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:WestertorenAmsterdam.jpg",
+          "author": "Massimo Catarinella",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam (NL), Westerkerk -- 2015 -- 7179.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Westerkerk_--_2015_--_7179.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": ".00 3014 Westerkerk (West Church) of Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:.00_3014_Westerkerk_(West_Church)_of_Amsterdam.jpg",
+          "author": "W. Bulach",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Westerkerk 2008.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Westerkerk_2008.jpg",
+          "author": "Hnapel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Prinsengracht westerkerk amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prinsengracht_westerkerk_amsterdam.jpg",
+          "author": "Jvhertum",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Westerkerk Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westerkerk_Amsterdam.jpg",
+          "author": "Kamanasish Debnath",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Westerkerk at Night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Westerkerk_at_Night.jpg",
+          "author": "Eden, Janine and Jim",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/amsterdam-westerkerk.glb",
+      "source": "generators/amsterdam-westerkerk.ts"
+    },
+    {
       "id": "ascendus",
       "file": "models/ascendus.glb",
       "license": "CC0-1.0",
@@ -37644,6 +37718,31 @@
         "way/748659186",
         "way/748659187"
       ]
+    },
+    {
+      "id": "amsterdam-westerkerk",
+      "name": "Westerkerk",
+      "model": "amsterdam-westerkerk",
+      "place": "amsterdam",
+      "lng": 4.883934,
+      "lat": 52.374542,
+      "bearing": 3.1,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/99205257",
+        "way/749268115",
+        "way/749268116",
+        "way/749268117",
+        "way/749268118",
+        "way/749287964",
+        "way/751083595",
+        "way/751083596",
+        "way/751083597",
+        "way/751083598",
+        "way/751083599"
+      ],
+      "wikidata": "Q1130722"
     },
     {
       "id": "ascendus",
