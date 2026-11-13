@@ -17458,6 +17458,74 @@
       "source": "generators/istanbul-anadolu-hisari.ts"
     },
     {
+      "id": "istanbul-ataturk-cultural-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "opera-house",
+        "theatre",
+        "culture",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Atatürk Kültür Merkezi (52118111728)",
+          "url": "https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_K%C3%BClt%C3%BCr_Merkezi_(52118111728).jpg",
+          "author": "Metro Centric",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Atatürk Cultural Center (AKM)",
+          "url": "https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_Cultural_Center_(AKM).jpg",
+          "author": "Maurice Flesier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterior of Atatürk Cultural Center 20220607 (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Atat%C3%BCrk_Cultural_Center_20220607_(2).jpg",
+          "author": "Jelican9",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "TaksimAKM",
+          "url": "https://commons.wikimedia.org/wiki/File:TaksimAKM.jpg",
+          "author": "Metuboy",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul, Turkey (November 2023) - 758",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul,_Turkey_(November_2023)_-_758.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Akm Night photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Akm_Night_photo.jpg",
+          "author": "Kübradereli1",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/istanbul-ataturk-cultural-center.glb",
+      "source": "generators/istanbul-ataturk-cultural-center.ts"
+    },
+    {
       "id": "istanbul-beyazit-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47748,6 +47816,21 @@
         "way/984747660",
         "way/984747661",
         "way/984747664"
+      ]
+    },
+    {
+      "id": "istanbul-ataturk-cultural-center",
+      "name": "Atatürk Cultural Center",
+      "model": "istanbul-ataturk-cultural-center",
+      "place": "istanbul",
+      "lng": 28.988264,
+      "lat": 41.036578,
+      "bearing": 285,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q551685",
+      "replaces": [
+        "way/1033333873"
       ]
     },
     {
