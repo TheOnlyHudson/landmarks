@@ -6679,6 +6679,75 @@
       "source": "generators/barcelona-casa-batllo.ts"
     },
     {
+      "id": "barcelona-casa-de-les-punxes",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "brick",
+        "gothic-revival",
+        "historic",
+        "modernisme"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Puig i Cadafalch's 1905 brick 'castle' filling a triangular block on the Diagonal: six round towers with red-tiled spires and steep white-edged gables.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Casa de les Punxes .jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_les_Punxes_.jpg",
+          "author": "CasaPunxes",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de les Punxes actual.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_les_Punxes_actual.JPG",
+          "author": "Casadelespunxes2016",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de les Punxes by Josep Puig i Cadafalch.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_les_Punxes_by_Josep_Puig_i_Cadafalch.jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de les Punxes (Barcelona) 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_les_Punxes_(Barcelona)_02.jpg",
+          "author": "Nicholas Gemini",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de les Punxes (Barcelona) 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_les_Punxes_(Barcelona)_10.jpg",
+          "author": "Nicholas Gemini",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de les Punxes, Barcelona - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_les_Punxes,_Barcelona_-_panoramio_(1).jpg",
+          "author": "Carlos Cunha",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/barcelona-casa-de-les-punxes.glb",
+      "source": "generators/barcelona-casa-de-les-punxes.ts"
+    },
+    {
       "id": "barcelona-casa-mila",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -43030,6 +43099,73 @@
         "way/679019137"
       ],
       "wikidata": "Q461371"
+    },
+    {
+      "id": "barcelona-casa-de-les-punxes",
+      "name": "Casa de les Punxes",
+      "model": "barcelona-casa-de-les-punxes",
+      "place": "barcelona",
+      "lng": 2.164014,
+      "lat": 41.398028,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/1288798874",
+        "way/646115372",
+        "way/646115379",
+        "way/646115388",
+        "way/646115390",
+        "way/646115391",
+        "way/646115392",
+        "way/646115393",
+        "way/646115394",
+        "way/646115397",
+        "way/646115399",
+        "way/646115400",
+        "way/646115401",
+        "way/646115402",
+        "way/646115406",
+        "way/646115407",
+        "way/646115408",
+        "way/646115409",
+        "way/646115411",
+        "way/646115412",
+        "way/646115413",
+        "way/646115414",
+        "way/646115415",
+        "way/646115416",
+        "way/646115417",
+        "way/646115418",
+        "way/646115419",
+        "way/646115420",
+        "way/646115421",
+        "way/646115423",
+        "way/646115424",
+        "way/646115425",
+        "way/646115426",
+        "way/646115427",
+        "way/646115428",
+        "way/939668024",
+        "way/939668025",
+        "way/939668026",
+        "way/939668027",
+        "way/939668033",
+        "way/939668035",
+        "way/939668036",
+        "way/939668039",
+        "way/939668040",
+        "way/939668041",
+        "way/939668042",
+        "way/939668043",
+        "way/939668045",
+        "way/939668046",
+        "way/951265177",
+        "way/951265178",
+        "relation/8975927",
+        "relation/8975929"
+      ],
+      "wikidata": "Q2561516"
     },
     {
       "id": "barcelona-casa-mila",
