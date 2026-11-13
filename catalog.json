@@ -54295,6 +54295,12 @@
       "kind": "region"
     },
     {
+      "id": "istanbul",
+      "name": "Istanbul",
+      "kind": "city",
+      "wikidata": "Q406"
+    },
+    {
       "id": "las-vegas-area",
       "name": "Las Vegas area",
       "kind": "region"
