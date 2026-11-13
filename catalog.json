@@ -35865,6 +35865,83 @@
       ],
       "file": "models/dubai-emirates-hotel-tower.glb",
       "source": "generators/dubai-emirates-hotel-tower.ts"
+    },
+    {
+      "id": "dubai-museum-of-the-future",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Museum of the Future, Dubai",
+          "url": "https://www.flickr.com/photos/39551170@N02/52070688089",
+          "author": "Simon_sees",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Museum of the Future, Dubai",
+          "url": "https://www.flickr.com/photos/39551170@N02/52070466153",
+          "author": "Simon_sees",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Museum of the future Dubai UAE.",
+          "url": "https://www.flickr.com/photos/49399018@N00/51973473427",
+          "author": "amanderson2",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Museum of the Future 8.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Future_8.jpg",
+          "author": "EditQ",
+          "license": "CC0"
+        },
+        {
+          "title": "Museum of the Future 9.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Future_9.jpg",
+          "author": "EditQ",
+          "license": "CC0"
+        },
+        {
+          "title": "Museum of the Future 11.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Future_11.jpg",
+          "author": "EditQ",
+          "license": "CC0"
+        },
+        {
+          "title": "Museum of the Future.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Future.jpg",
+          "author": "Александр Сигачёв",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Emirates Towers Shk Zayed Road.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_Shk_Zayed_Road.jpg",
+          "author": "Ahmed Al Habesh",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dubai-museum-of-the-future.glb",
+      "source": "generators/dubai-museum-of-the-future.ts"
     }
   ],
   "landmarks": [
@@ -52860,6 +52937,21 @@
         "way/1001192984"
       ],
       "wikidata": "Q1049027"
+    },
+    {
+      "id": "dubai-museum-of-the-future",
+      "name": "Museum of the Future",
+      "model": "dubai-museum-of-the-future",
+      "place": "dubai",
+      "lng": 55.2818293,
+      "lat": 25.2191117,
+      "bearing": 38.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/1054289435"
+      ],
+      "wikidata": "Q22948398"
     }
   ],
   "places": [
