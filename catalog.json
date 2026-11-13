@@ -17593,6 +17593,110 @@
       "source": "generators/istanbul-hagia-sophia.ts"
     },
     {
+      "id": "istanbul-suleymaniye",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Süleymaniye Mosque viewed from Galata Tower, Istanbul, 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_viewed_from_Galata_Tower,_Istanbul,_2024.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0"
+        },
+        {
+          "title": "Süleymaniye Mosque, Istanbul, 20260606 0805 1307",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque,_Istanbul,_20260606_0805_1307.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Istanbul Province - Süleymaniye Mosque - 20240128150219",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Province_-_S%C3%BCleymaniye_Mosque_-_20240128150219.jpg",
+          "author": "Canercangul",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Süleymaniye Mosque February 2013 03",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_February_2013_03.jpg",
+          "author": "Arild Vågen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Süleymaniye Mosque February 2013 02",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_February_2013_02.jpg",
+          "author": "Arild Vågen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Domes of the Süleymaniye Mosque",
+          "url": "https://commons.wikimedia.org/wiki/File:Domes_of_the_S%C3%BCleymaniye_Mosque.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Süleymaniye Mosque exterior view",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_exterior_view.JPG",
+          "author": "İhsan Deniz Kılıçoğlu",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Süleymaniye Mosque 2",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_2.jpg",
+          "author": "İhsan Deniz Kılıçoğlu",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Süleymaniye Mosque, 22 January 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque,_22_January_2025.jpg",
+          "author": "Dr.Suskun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Süleymaniye Mosque (29070459418)",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_(29070459418).jpg",
+          "author": "Brad Hostetler",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Süleymaniye Camii - İstanbul Üniversitesi - Aerial view",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Camii_-_%C4%B0stanbul_%C3%9Cniversitesi_-_Aerial_view.jpg",
+          "author": "Carlos Delgado",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Süleymaniye Camii rölövesi (survey plan)",
+          "url": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BB%D0%B0%D0%BD_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D1%83_%D0%A1%D1%83%D0%BB%D0%B5%D0%B9%D0%BC%D0%B0%D0%BD%D1%96%D1%94.jpg",
+          "author": "Ali Saim Ülgen",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/istanbul-suleymaniye.glb",
+      "source": "generators/istanbul-suleymaniye.ts"
+    },
+    {
       "id": "knight-theater",
       "file": "models/knight-theater.glb",
       "license": "CC0-1.0",
@@ -45052,6 +45156,30 @@
         "way/776086648",
         "way/776086649",
         "way/776211441"
+      ]
+    },
+    {
+      "id": "istanbul-suleymaniye",
+      "name": "Süleymaniye Mosque",
+      "model": "istanbul-suleymaniye",
+      "place": "istanbul",
+      "lng": 28.963825,
+      "lat": 41.01624,
+      "bearing": 137.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q178643",
+      "replaces": [
+        "relation/1564032",
+        "way/121471149",
+        "way/642004197",
+        "way/642004198",
+        "way/642004946",
+        "way/642004947",
+        "way/642004948",
+        "way/642004949",
+        "way/642004950",
+        "way/642004951"
       ]
     },
     {
