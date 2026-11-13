@@ -22020,6 +22020,73 @@
       "source": "generators/mexico-city-palacio-de-bellas-artes.ts"
     },
     {
+      "id": "mexico-city-palacio-de-los-deportes",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "modernist",
+        "arena",
+        "dome"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vista aérea del Palacio de los Deportes 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Palacio_de_los_Deportes_05.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Palacio de los Deportes 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Palacio_de_los_Deportes_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palacio de los Deportes.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_Deportes.JPG",
+          "author": "unknown author",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de los deportes + sky.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_deportes_%2B_sky.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de los Deportes - panoramio - pacomexico.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_Deportes_-_panoramio_-_pacomexico.jpg",
+          "author": "pacomexico",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Palacio de los Deportes, domo - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_Deportes,_domo_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-palacio-de-los-deportes.glb",
+      "source": "generators/mexico-city-palacio-de-los-deportes.ts"
+    },
+    {
       "id": "mexico-city-palacio-de-mineria",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -50500,6 +50567,22 @@
         "way/1436127890",
         "way/1436128176",
         "way/1466114121"
+      ]
+    },
+    {
+      "id": "mexico-city-palacio-de-los-deportes",
+      "name": "Palacio de los Deportes",
+      "model": "mexico-city-palacio-de-los-deportes",
+      "place": "mexico-city",
+      "lng": -99.0997553,
+      "lat": 19.405277,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q301937",
+      "replaces": [
+        "relation/20951534",
+        "way/1527624820"
       ]
     },
     {
