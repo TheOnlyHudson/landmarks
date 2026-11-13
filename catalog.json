@@ -17608,6 +17608,75 @@
       "source": "generators/istanbul-bulgarian-church.ts"
     },
     {
+      "id": "istanbul-chora",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "byzantine",
+        "mosque",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Chora Church 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Chora_Church_2024.jpg",
+          "author": "Tadam",
+          "license": "CC0"
+        },
+        {
+          "title": "Chora Church Constantinople 2007 panorama 003",
+          "url": "https://commons.wikimedia.org/wiki/File:Chora_Church_Constantinople_2007_panorama_003.jpg",
+          "author": "Gryffindor",
+          "license": "Public domain"
+        },
+        {
+          "title": "Exterior of Chora Church-Kariye Mosque",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Chora_Church-Kariye_Mosque.jpg",
+          "author": "Alexander Hatley",
+          "license": "Public domain"
+        },
+        {
+          "title": "Exterior of Chora Church (04)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Chora_Church_(04).jpeg",
+          "author": "onceinawhile",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Exterior of Chora Church (03)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Chora_Church_(03).jpeg",
+          "author": "onceinawhile",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Chora Church exterior 16-06-2024 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Chora_Church_exterior_16-06-2024_02.jpg",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-chora.glb",
+      "source": "generators/istanbul-chora.ts"
+    },
+    {
       "id": "istanbul-fatih-mosque",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46519,6 +46588,22 @@
       "wikidata": "Q2094950",
       "replaces": [
         "way/175519383"
+      ]
+    },
+    {
+      "id": "istanbul-chora",
+      "name": "Chora Church (Kariye Camii)",
+      "model": "istanbul-chora",
+      "place": "istanbul",
+      "lng": 28.939023,
+      "lat": 41.031204,
+      "bearing": 14.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q849489",
+      "replaces": [
+        "relation/7614527",
+        "way/1408839170"
       ]
     },
     {
