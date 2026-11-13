@@ -51,8 +51,8 @@
  * hillside ground; the roofs behind the battlements; heights are photo
  * estimates against OSM's 40 m.
  */
-import { Part, writeGlb, type V3 } from './mesh.ts'
-import { PALETTE, finish } from './palette.ts'
+import { Part, writeGlb, type V3 } from './mesh'
+import { PALETTE, finish } from './palette'
 
 // ---------------------------------------------------------------------------
 // Helpers. Map frame: x, y horizontal (y along the model's axis), z up.

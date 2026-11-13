@@ -53,9 +53,9 @@
  * - The east side, inland, is seen in no photo; it is drawn from OSM alone.
  * - Merlon spacing and slit windows are schematic.
  */
-import { Part, writeGlb, type V3 } from './mesh.ts'
-import { PALETTE, finish } from './palette.ts'
-import { type P2, TAU, ccw, lathe, merlons, panel, ringMerlons, solid } from './istanbul-maidens-tower.ts'
+import { Part, writeGlb, type V3 } from './mesh'
+import { PALETTE, finish } from './palette'
+import { type P2, TAU, ccw, lathe, merlons, panel, ringMerlons, solid } from './istanbul-maidens-tower'
 
 const A0: P2 = [-0.6, 0.4] // anchor, metres east/north of 29.06705, 41.08209
 const R = (pts: number[][]): P2[] => ccw(pts.map(([e, n]) => [e - A0[0], n - A0[1]] as P2))

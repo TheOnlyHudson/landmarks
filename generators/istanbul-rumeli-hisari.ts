@@ -63,9 +63,9 @@
  * - Watchtower shapes are all drawn round; six are polygonal in reality.
  * - Restoration hoardings in the 2025 photos; caps may be added later.
  */
-import { Part, writeGlb, type V3 } from './mesh.ts'
-import { PALETTE, finish } from './palette.ts'
-import { type P2, TAU, ccw, lathe, merlons, panel, ringMerlons, wall } from './istanbul-maidens-tower.ts'
+import { Part, writeGlb, type V3 } from './mesh'
+import { PALETTE, finish } from './palette'
+import { type P2, TAU, ccw, lathe, merlons, panel, ringMerlons, wall } from './istanbul-maidens-tower'
 
 const A0: P2 = [-49.5, -17.4] // anchor, metres east/north of 29.05671, 41.08492
 const C = (e: number, n: number): P2 => [e - A0[0], n - A0[1]]

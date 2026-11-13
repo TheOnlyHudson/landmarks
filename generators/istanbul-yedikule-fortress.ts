@@ -59,9 +59,9 @@
  *   faceted in one photo; all three are drawn round.
  * - The small mosque and its minaret inside the court are left to the map.
  */
-import { Part, writeGlb, type V3 } from './mesh.ts'
-import { PALETTE, finish } from './palette.ts'
-import { type P2, TAU, ccw, centroid, lathe, merlons, obox, panel, prism, ringMerlons, wall } from './istanbul-maidens-tower.ts'
+import { Part, writeGlb, type V3 } from './mesh'
+import { PALETTE, finish } from './palette'
+import { type P2, TAU, ccw, centroid, lathe, merlons, obox, panel, prism, ringMerlons, wall } from './istanbul-maidens-tower'
 
 const RAW = [[2.1, 95.9], [6.6, 96.0], [7.6, 94.6], [31.4, 61.4], [51.7, 45.8], [67.8, 33.5], [69.6, 30.0], [71.3, 28.4], [55.5, -8.3], [51.4, -60.4], [50.3, -61.7], [4.5, -70.2], [-34.2, -89.9], [-42.0, -93.9], [-65.2, -105.7], [-61.6, -88.0], [-51.2, -37.2], [-50.1, -31.9], [-54.3, -18.3], [-55.8, -13.6], [-62.3, 8.1], [-68.2, 27.2], [-81.7, 71.3], [-86.6, 76.7], [-83.4, 77.0], [-77.8, 77.5], [-29.4, 81.5], [0.1, 96.8]]
 const A0 = centroid(RAW.map(([e, n]) => [e, n] as P2)) // metres east/north of 28.92330, 40.99308

@@ -53,8 +53,8 @@
  * minaret features); the extent of the side annexes and the sultan's
  * pavilion's roof.
  */
-import { Part, writeGlb, type V3 } from './mesh.ts'
-import { PALETTE, finish } from './palette.ts'
+import { Part, writeGlb, type V3 } from './mesh'
+import { PALETTE, finish } from './palette'
 
 // ---------------------------------------------------------------------------
 // Helpers. Map frame: x, y horizontal (y along the model's axis), z up.

@@ -60,8 +60,8 @@
  *   off. The steel bracing is drawn bolder and simpler than real (two X per
  *   face, one band).
  */
-import { Part, writeGlb, type V3 } from './mesh.ts'
-import { PALETTE, finish } from './palette.ts'
+import { Part, writeGlb, type V3 } from './mesh'
+import { PALETTE, finish } from './palette'
 
 // ---------------------------------------------------------------------------
 // Kit. Map frame: x east, y north, z up. Faces are given outward normals;

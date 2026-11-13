@@ -54,8 +54,8 @@
  * side (the published text says two half-domes on the qibla axis; the
  * photos show a tympanum on the north-west face, which is what is drawn).
  */
-import { Part, writeGlb, type V3 } from './mesh.ts'
-import { PALETTE, finish } from './palette.ts'
+import { Part, writeGlb, type V3 } from './mesh'
+import { PALETTE, finish } from './palette'
 
 // ---------------------------------------------------------------------------
 // Helpers. Map frame: x, y horizontal (y along the model's axis), z up.

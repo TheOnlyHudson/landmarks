@@ -48,9 +48,9 @@
  *   the sea front's rhythm. Carved ornament, balustrades and the lattice of
  *   the attic are reduced to panels.
  */
-import { Part, writeGlb, type V3 } from './mesh.ts'
-import { PALETTE, finish } from './palette.ts'
-import { box, panel, quad, norm, tri } from './istanbul-maidens-tower.ts'
+import { Part, writeGlb, type V3 } from './mesh'
+import { PALETTE, finish } from './palette'
+import { box, panel, quad, norm, tri } from './istanbul-maidens-tower'
 
 const marble = new Part(), trimP = new Part(), roofP = new Part(), glaze = new Part(), lattice = new Part()
 const PL = 1.6, G1 = 9.0, CORN = 17.6, ATT = 19.6, ATT2 = 21.0

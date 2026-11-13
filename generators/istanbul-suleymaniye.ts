@@ -86,8 +86,8 @@
  * though it may be the inside height); the short minarets' şerefe heights;
  * the qibla side and the hall's south-west face rest on oblique photos.
  */
-import { Part, writeGlb, type V3 } from './mesh.ts'
-import { PALETTE, finish } from './palette.ts'
+import { Part, writeGlb, type V3 } from './mesh'
+import { PALETTE, finish } from './palette'
 
 // ---------------------------------------------------------------------------
 // Parts, one per material.

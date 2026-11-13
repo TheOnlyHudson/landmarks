@@ -50,9 +50,9 @@
  * - The east (hill) side and the court are seen in no licensed photo; their
  *   windows are a plain repeat of the sea front's rhythm.
  */
-import { Part, writeGlb, type V3 } from './mesh.ts'
-import { PALETTE, finish } from './palette.ts'
-import { type P2, box, hipRoof, lathe, norm, panel, quad, tri } from './istanbul-maidens-tower.ts'
+import { Part, writeGlb, type V3 } from './mesh'
+import { PALETTE, finish } from './palette'
+import { type P2, box, hipRoof, lathe, norm, panel, quad, tri } from './istanbul-maidens-tower'
 
 const A0: P2 = [55.6, -1.6] // anchor in the turned frame: area centroid of both buildings (court excluded)
 const X = (x: number) => x - A0[0], Y = (y: number) => y - A0[1]

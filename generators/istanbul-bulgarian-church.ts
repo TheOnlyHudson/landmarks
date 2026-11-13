@@ -46,8 +46,8 @@
  * Doubts: heights are photo estimates except the tower's 40 m; the apse end
  * is drawn on the OSM chamfer, which no photo shows head-on.
  */
-import { Part, writeGlb, type V3 } from './mesh.ts'
-import { PALETTE, finish } from './palette.ts'
+import { Part, writeGlb, type V3 } from './mesh'
+import { PALETTE, finish } from './palette'
 
 // ---------------------------------------------------------------------------
 // Helpers. Map frame: x, y horizontal (y along the model's axis), z up.
