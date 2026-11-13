@@ -20945,6 +20945,79 @@
       "source": "generators/mexico-city-palacio-postal.ts"
     },
     {
+      "id": "mexico-city-san-hipolito",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "church",
+        "baroque"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Templo de San Hipólito.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_San_Hip%C3%B3lito.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Exterior - San Hipolito (Mexico City) - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_-_San_Hipolito_(Mexico_City)_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de San Hipólito y Casiano, Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_San_Hip%C3%B3lito_y_Casiano,_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista del Templo San Hipólito y Casiano en la Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_del_Templo_San_Hip%C3%B3lito_y_Casiano_en_la_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "B.jars",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Iglesia de San Hipólito, Ciudad de México, México, 2015-07-20, DD 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Hip%C3%B3lito,_Ciudad_de_M%C3%A9xico,_M%C3%A9xico,_2015-07-20,_DD_01.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torres del Templo de San Hipólito 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torres_del_Templo_de_San_Hip%C3%B3lito_01.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de San Hipólito - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_San_Hip%C3%B3lito_-_panoramio.jpg",
+          "author": "Bohao Zhao",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/mexico-city-san-hipolito.glb",
+      "source": "generators/mexico-city-san-hipolito.ts"
+    },
+    {
       "id": "mexico-city-santo-domingo",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47997,6 +48070,21 @@
         "way/157051114"
       ],
       "wikidata": "Q978161"
+    },
+    {
+      "id": "mexico-city-san-hipolito",
+      "name": "Templo de San Hipólito",
+      "model": "mexico-city-san-hipolito",
+      "place": "mexico-city",
+      "lng": -99.1468432,
+      "lat": 19.4379866,
+      "bearing": 9.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q215151",
+      "replaces": [
+        "way/1427820319"
+      ]
     },
     {
       "id": "mexico-city-santo-domingo",
