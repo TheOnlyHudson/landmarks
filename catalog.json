@@ -6547,6 +6547,68 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "barcelona-arc-de-triomf",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "triumphal-arch",
+        "neo-mudejar",
+        "brick",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arc de Triomf Barcelona 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomf_Barcelona_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Arc de Triomf de Barcelona (July 2022).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomf_de_Barcelona_(July_2022).jpg",
+          "author": "Maksim Sokolov (maxergon.com)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "097 Arc de Triomf (Barcelona), des del passeig de Sant Joan.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:097_Arc_de_Triomf_(Barcelona),_des_del_passeig_de_Sant_Joan.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Arc de Triomf 1888 - View NE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Arc_de_Triomf_1888_-_View_NE.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Arc de triomf at night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arc_de_triomf_at_night.jpg",
+          "author": "Thingstodoinbarcelona",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-arc-de-triomf.glb",
+      "source": "generators/barcelona-arc-de-triomf.ts"
+    },
+    {
       "id": "barcelona-arenas",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -43884,6 +43946,24 @@
         "relation/17917766"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "barcelona-arc-de-triomf",
+      "name": "Arc de Triomf",
+      "model": "barcelona-arc-de-triomf",
+      "place": "barcelona",
+      "lng": 2.180645,
+      "lat": 41.391042,
+      "bearing": 315.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/377875377",
+        "way/1557592573",
+        "way/1557592574",
+        "way/818382565"
+      ],
+      "wikidata": "Q631075"
     },
     {
       "id": "barcelona-arenas",
