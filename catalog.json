@@ -25321,6 +25321,75 @@
       ]
     },
     {
+      "id": "london-buckingham-palace",
+      "file": "models/london-buckingham-palace.glb",
+      "source": "generators/london-buckingham-palace.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "palace",
+        "royal",
+        "historic",
+        "neoclassical",
+        "portland-stone"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Buckingham Palace, London - April 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace,_London_-_April_2009.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Buckingham Palace from gardens, London, UK - Diliff",
+          "url": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace_from_gardens,_London,_UK_-_Diliff.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Buckingham Palace London Morning 2020 04",
+          "url": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace_London_Morning_2020_04.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Rear of Buckingham Palace in 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:Rear_of_Buckingham_Palace_in_2025.jpg",
+          "author": "Dgp4004",
+          "license": "CC0"
+        },
+        {
+          "title": "Buckingham Palace from the air (geograph 4597489)",
+          "url": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace_from_the_air_-_geograph.org.uk_-_4597489.jpg",
+          "author": "Thomas Nugent",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Buckingham Palace at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace_at_night.jpg",
+          "author": "Tristan Surtel",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "london-centre-point",
       "file": "models/london-centre-point.glb",
       "source": "generators/london-centre-point.ts",
@@ -55589,6 +55658,40 @@
         "way/331903531",
         "way/331901553",
         "way/192156427"
+      ]
+    },
+    {
+      "id": "london-buckingham-palace",
+      "name": "Buckingham Palace",
+      "model": "london-buckingham-palace",
+      "place": "london",
+      "lng": -0.14248,
+      "lat": 51.500872,
+      "bearing": 326.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q42182",
+      "replaces": [
+        "relation/5208404",
+        "way/1037796041",
+        "way/1213040567",
+        "way/1226754887",
+        "way/1226754888",
+        "way/1226754889",
+        "way/1226754890",
+        "way/1226754891",
+        "way/1226754892",
+        "way/1226754893",
+        "way/1226754894",
+        "way/1226754895",
+        "way/1226754896",
+        "way/1226754897",
+        "way/1226754898",
+        "way/1226754899",
+        "way/1226754900",
+        "way/1226754901",
+        "way/1226754902",
+        "way/1226905189"
       ]
     },
     {
