@@ -54305,6 +54305,12 @@
       "kind": "region"
     },
     {
+      "id": "mexico-city",
+      "name": "Mexico City",
+      "kind": "city",
+      "wikidata": "Q1489"
+    },
+    {
       "id": "new-york-area",
       "name": "New York metropolitan area",
       "kind": "region"
