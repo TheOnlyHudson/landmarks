@@ -95,6 +95,7 @@ what is estimated.
 - Add the `models` entry with `file`, `source`, `collection: "landmarks"`,
   `type`, `tags`, license (default CC0-1.0), and structured `credits`; every AI
   credit includes `model`. Record visual references and attribution as needed.
+- Keep every list in `catalog.json` sorted by id (`bun tools/sort-catalog.ts`).
 - Add the `landmarks` entry with explicit `place`, anchor, `bearing`, scale,
   optional Wikidata, and every covered OSM outline/part in `replaces`.
 - For updates, preserve model/placement IDs and existing metadata, and regenerate

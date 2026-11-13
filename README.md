@@ -2,7 +2,7 @@
 
 **Low-poly 3D landmarks for maps.**
 
-![Washington Square Arch and the Empire State Building at night](docs/images/washington-square.jpg)
+![Lower Manhattan and the Brooklyn Bridge across the East River, from above Brooklyn](docs/images/lower-manhattan.jpg)
 
 3D models of landmarks that replace a building's default extrusion on the
 map. Models use a shared color palette, usually have a few thousand triangles,
