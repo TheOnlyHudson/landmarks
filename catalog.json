@@ -17677,6 +17677,92 @@
       "source": "generators/istanbul-chora.ts"
     },
     {
+      "id": "istanbul-dolmabahce-palace",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "palace",
+        "ottoman",
+        "museum",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Istanbul Bosphorus Dolmabahce Palace IMG 7589 1800",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Bosphorus_Dolmabahce_Palace_IMG_7589_1800.jpg",
+          "author": "Alexxx1979",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dolmabahçe Palace 2007",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Palace_2007.jpg",
+          "author": "SBarnes",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de Dolmabahçe, Estambul, Turquía, 2024-09-29, DD 24",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Dolmabah%C3%A7e,_Estambul,_Turqu%C3%ADa,_2024-09-29,_DD_24.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dolmabahçe Palace from the sea 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Palace_from_the_sea_2.JPG",
+          "author": "Helge Høifødt",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "View of Dolmabahçe Palace from the Bosphorus",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Dolmabah%C3%A7e_Palace_from_the_Bosphorus.jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dolmabahce Mosque, Dolmabahce Palace and the Bosphorus Bridge in Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabahce_Mosque,_Dolmabahce_Palace_and_the_Bosphorus_Bridge_in_Istanbul.jpg",
+          "author": "ArildV",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "View of Dolmabahce palace from Tokpabi palace (13973967333)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Dolmabahce_palace_from_Tokpabi_palace_(13973967333).jpg",
+          "author": "Erik Cleves Kristensen",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Palacio de Dolmabahçe, Estambul, Turquía, 2024-09-28, DD 110",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Dolmabah%C3%A7e,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_110.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dolmabahce Palace plan",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabahce_Palace_plan.svg",
+          "author": "Gryffindor; vector Gothika",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-dolmabahce-palace.glb",
+      "source": "generators/istanbul-dolmabahce-palace.ts"
+    },
+    {
       "id": "istanbul-fatih-mosque",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46673,6 +46759,23 @@
       "replaces": [
         "relation/7614527",
         "way/1408839170"
+      ]
+    },
+    {
+      "id": "istanbul-dolmabahce-palace",
+      "name": "Dolmabahçe Palace",
+      "model": "istanbul-dolmabahce-palace",
+      "place": "istanbul",
+      "lng": 29.000826,
+      "lat": 41.039321,
+      "bearing": 338.7,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q274141",
+      "replaces": [
+        "way/175516451",
+        "way/263949162",
+        "way/263949137"
       ]
     },
     {
