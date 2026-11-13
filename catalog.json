@@ -20192,6 +20192,80 @@
       "source": "generators/mexico-city-palacio-postal.ts"
     },
     {
+      "id": "mexico-city-torre-latinoamericana",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "skyscraper",
+        "observation-deck",
+        "modernist",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre Latinoamericana from the Bellas Artes plaza",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_df_-_Torre_Latinoamerica.jpg",
+          "author": "Thomas Ledl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Latinoamericana, DD 11",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Latinoamericana,_Ciudad_de_M%C3%A9xico,_M%C3%A9xico,_2015-07-18,_DD_11.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Latinoamericana from Alameda Central promenade",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Latinoamericana_from_Alameda_Central_promenade.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "View of Torre Latinoamericana from Palacio de Bellas Artes",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Torre_Latinoamericana_from_Palacio_de_Bellas_Artes_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Latinoamerica tower 2022",
+          "url": "https://commons.wikimedia.org/wiki/File:Latinoamerica_tower,_Mexico_City_2022_p2.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Latinoamericana de lejos",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Latinoamericana_de_lejos.jpg",
+          "author": "Fer9324",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Torre Latinoamericana durante la noche",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Latinoamericana_durante_la_noche.JPG",
+          "author": "Adrián Cerón",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-latinoamericana.glb",
+      "source": "generators/mexico-city-torre-latinoamericana.ts"
+    },
+    {
       "id": "milestone-club",
       "file": "models/milestone-club.glb",
       "license": "CC0-1.0",
@@ -46932,6 +47006,28 @@
         "way/157051114"
       ],
       "wikidata": "Q978161"
+    },
+    {
+      "id": "mexico-city-torre-latinoamericana",
+      "name": "Torre Latinoamericana",
+      "model": "mexico-city-torre-latinoamericana",
+      "place": "mexico-city",
+      "lng": -99.140611,
+      "lat": 19.433866,
+      "bearing": 8.2,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "relation/6071992",
+        "way/1095452896",
+        "way/528548025",
+        "relation/19455319",
+        "relation/19455320",
+        "relation/19455321",
+        "relation/19455322",
+        "relation/19455323"
+      ],
+      "wikidata": "Q947870"
     },
     {
       "id": "milestone-club",
