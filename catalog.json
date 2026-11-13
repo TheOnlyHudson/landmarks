@@ -58919,6 +58919,12 @@
       "kind": "region"
     },
     {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "kind": "city",
+      "wikidata": "Q1492"
+    },
+    {
       "id": "camp-north-end",
       "name": "Camp North End",
       "kind": "site",
