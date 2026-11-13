@@ -6659,6 +6659,61 @@
       "source": "generators/barcelona-arenas.ts"
     },
     {
+      "id": "barcelona-camp-nou",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "stadium",
+        "under-construction"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Camp nou 2026.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Camp_nou_2026.png",
+          "author": "Elad Eisenhammer",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Camp Nou under renovation - Sept. 21, 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Camp_Nou_under_renovation_-_Sept._21,_2025.jpg",
+          "author": "SimpleObjects-9ei",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Obres del Camp Nou - 20250718 193920.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Obres_del_Camp_Nou_-_20250718_193920.jpg",
+          "author": "Pere López Brosa",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "ICGC orthophoto (ortofoto_color_vigent)",
+          "url": "https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/Orthophoto-of-Catalonia",
+          "author": "Institut Cartogràfic i Geològic de Catalunya",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/barcelona-camp-nou.glb",
+      "source": "generators/barcelona-camp-nou.ts"
+    },
+    {
       "id": "barcelona-casa-amatller",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -44315,6 +44370,26 @@
         "relation/14719693"
       ],
       "wikidata": "Q548566"
+    },
+    {
+      "id": "barcelona-camp-nou",
+      "name": "Spotify Camp Nou",
+      "model": "barcelona-camp-nou",
+      "place": "barcelona",
+      "lng": 2.122814,
+      "lat": 41.380885,
+      "bearing": 68.4,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "relation/5503051",
+        "relation/4094584",
+        "relation/4094585",
+        "relation/4094587",
+        "relation/4094588",
+        "way/34607291"
+      ],
+      "wikidata": "Q159848"
     },
     {
       "id": "barcelona-casa-amatller",
