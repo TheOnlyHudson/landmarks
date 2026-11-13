@@ -25634,6 +25634,81 @@
       ]
     },
     {
+      "id": "london-strata",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "residential",
+        "wind-turbines",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q2284719",
+      "references": [
+        {
+          "title": "Strata SE1 from Monument 2014",
+          "url": "https://commons.wikimedia.org/wiki/File:Strata_SE1_from_Monument_2014.jpg",
+          "author": "Colin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Strata SE1 from Kennington 2020",
+          "url": "https://commons.wikimedia.org/wiki/File:Strata_SE1_from_Kennington_2020.jpg",
+          "author": "TheFrog001",
+          "license": "CC0"
+        },
+        {
+          "title": "Strata SE1 - geograph.org.uk - 3971677",
+          "url": "https://commons.wikimedia.org/wiki/File:Strata_SE1_-_geograph.org.uk_-_3971677.jpg",
+          "author": "Mr Biz",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Strata SE1 from the London Eye - geograph.org.uk - 2948482",
+          "url": "https://commons.wikimedia.org/wiki/File:Strata_SE1_from_the_London_Eye_-_geograph.org.uk_-_2948482.jpg",
+          "author": "Keith Edkins",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "London - Strata SE1",
+          "url": "https://commons.wikimedia.org/wiki/File:London_-_Strata_SE1.jpg",
+          "author": "Fred Romero from Paris, France",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Cmglee Strata SE1 exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Cmglee_Strata_SE1_exterior.jpg",
+          "author": "Cmglee",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Floor plan for strata se1",
+          "url": "https://commons.wikimedia.org/wiki/File:Floor_plan_for_strata_se1.png",
+          "author": "Family Mosaic",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/london-strata.glb",
+      "source": "generators/london-strata.ts"
+    },
+    {
       "id": "london-the-scalpel",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -55367,6 +55442,23 @@
         "way/432777467",
         "way/432777466"
       ]
+    },
+    {
+      "id": "london-strata",
+      "name": "Strata SE1",
+      "model": "london-strata",
+      "place": "london",
+      "lng": -0.0994742,
+      "lat": 51.4929446,
+      "bearing": 13,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/37726480",
+        "way/347940186",
+        "way/347940185"
+      ],
+      "wikidata": "Q2284719"
     },
     {
       "id": "london-the-scalpel",
