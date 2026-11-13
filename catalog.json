@@ -17777,6 +17777,73 @@
       "source": "generators/istanbul-suleymaniye.ts"
     },
     {
+      "id": "istanbul-walled-obelisk",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "obelisk",
+        "byzantine",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Walled Obelisk",
+          "url": "https://commons.wikimedia.org/wiki/File:Walled_Obelisk.jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Turkey-03247 - Walled Obelisk (11312655706)",
+          "url": "https://commons.wikimedia.org/wiki/File:Turkey-03247_-_Walled_Obelisk_(11312655706).jpg",
+          "author": "Dennis G. Jarvis",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Obelisco de Constantino, Estambul, Turquía, 2024-09-28, DD 131",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisco_de_Constantino,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_131.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Walled Obelisk Front",
+          "url": "https://commons.wikimedia.org/wiki/File:Walled_Obelisk_Front.jpg",
+          "author": "Uğur Başak",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Walled Obelisk Back",
+          "url": "https://commons.wikimedia.org/wiki/File:Walled_Obelisk_Back.jpg",
+          "author": "Uğur Başak",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Walled Obelisk, Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Walled_Obelisk,_Istanbul.jpg",
+          "author": "Dudva",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-walled-obelisk.glb",
+      "source": "generators/istanbul-walled-obelisk.ts"
+    },
+    {
       "id": "knight-theater",
       "file": "models/knight-theater.glb",
       "license": "CC0-1.0",
@@ -45275,6 +45342,21 @@
         "way/642004949",
         "way/642004950",
         "way/642004951"
+      ]
+    },
+    {
+      "id": "istanbul-walled-obelisk",
+      "name": "Walled Obelisk",
+      "model": "istanbul-walled-obelisk",
+      "place": "istanbul",
+      "lng": 28.974842,
+      "lat": 41.005405,
+      "bearing": 41,
+      "elevation": -1.5,
+      "minzoom": 16,
+      "wikidata": "Q742474",
+      "replaces": [
+        "way/1120852418"
       ]
     },
     {
