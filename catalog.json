@@ -35668,6 +35668,49 @@
       ],
       "file": "models/dubai-burj-khalifa.glb",
       "source": "generators/dubai-burj-khalifa.ts"
+    },
+    {
+      "id": "dubai-opera",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "opera-house",
+        "theatre",
+        "performing-arts"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Dhow-shaped performing arts centre (Atkins, 2016): a glass hull under a sweeping roof that rises to a pointed prow.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dubai 32",
+          "url": "https://www.flickr.com/photos/96611469@N04/39669514691",
+          "author": "greger.ravik",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Dubai Opera",
+          "url": "https://www.flickr.com/photos/10345599@N03/49110938316",
+          "author": "Francisco Anzola",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dubai-opera.glb",
+      "source": "generators/dubai-opera.ts"
     }
   ],
   "landmarks": [
@@ -52607,6 +52650,21 @@
         "way/1094648916",
         "way/1094648917"
       ]
+    },
+    {
+      "id": "dubai-opera",
+      "name": "Dubai Opera",
+      "model": "dubai-opera",
+      "place": "dubai",
+      "lng": 55.2719218,
+      "lat": 25.1956437,
+      "bearing": 99.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/475848632"
+      ],
+      "wikidata": "Q2913336"
     }
   ],
   "places": [
