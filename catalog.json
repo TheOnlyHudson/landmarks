@@ -35524,6 +35524,8 @@
     {
       "id": "tokyo-skytree",
       "file": "models/tokyo-skytree.glb",
+      "detail": "models/tokyo-skytree.detail.glb",
+      "detailZoom": 16,
       "license": "CC0-1.0",
       "source": "generators/tokyo-skytree.ts",
       "type": "tower",
@@ -35548,7 +35550,7 @@
         "broadcast-tower",
         "lattice"
       ],
-      "description": "634 m broadcasting and observation tower whose white steel lattice morphs from a triangular tripod into a cylinder, with observation decks at 350 m and 450 m.",
+      "description": "634 m broadcasting and observation tower: a white steel space frame that morphs from a triangular tripod into a cylinder round a central core, with observation decks at 350 m and 450 m.",
       "references": [
         {
           "title": "2019 Tokyo Skytree.jpg",
