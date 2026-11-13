@@ -43755,6 +43755,62 @@
       "source": "generators/seoul-lotte-world-tower.ts"
     },
     {
+      "id": "seoul-parc1",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "hotel",
+        "shopping-mall"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Yeouido 14.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yeouido_14.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Yeouido 12.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yeouido_12.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Yeouido 9.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yeouido_9.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Yeouido Han River Park.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yeouido_Han_River_Park.jpg",
+          "author": "Brit in Seoul",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/seoul-parc1.glb",
+      "source": "generators/seoul-parc1.ts"
+    },
+    {
       "id": "sf-101-california",
       "file": "models/sf-101-california.glb",
       "license": "CC0-1.0",
@@ -65125,6 +65181,23 @@
         "way/879808331",
         "way/879808332",
         "way/879808333"
+      ]
+    },
+    {
+      "id": "seoul-parc1",
+      "name": "Parc.1",
+      "model": "seoul-parc1",
+      "place": "seoul",
+      "lng": 126.928288,
+      "lat": 37.526027,
+      "bearing": 51.5,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/874639189",
+        "way/874639190",
+        "way/874639191",
+        "way/874639192"
       ]
     },
     {
