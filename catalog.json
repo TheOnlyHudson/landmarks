@@ -36465,6 +36465,73 @@
       ],
       "file": "models/dubai-gate-building.glb",
       "source": "generators/dubai-gate-building.ts"
+    },
+    {
+      "id": "dubai-address-downtown",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "skyscraper",
+        "supertall"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "306 m hotel tower beside the Dubai Fountain lake (2008): a leaf-shaped plan stepping back to a pale curved hood and twin pins over its north tip.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Address Downtown Dubai",
+          "url": "https://www.flickr.com/photos/100083154@N03/11535177394",
+          "author": "kameraderie",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Address @ Downtown Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15617699028",
+          "author": "*_*",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Address Downtown Dubai",
+          "url": "https://www.flickr.com/photos/8107050@N02/16317989997",
+          "author": "oiva_eskola",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Address, Downtown Dubai",
+          "url": "https://www.flickr.com/photos/76562640@N00/30987941652",
+          "author": "Rob Young",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "View from Burj Khalifa (8667329327).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_from_Burj_Khalifa_(8667329327).jpg",
+          "author": "Rob Young",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Dubai Fountain from Burj Khalifa (15795939749).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Fountain_from_Burj_Khalifa_(15795939749).jpg",
+          "author": "edward stojakovic",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dubai-address-downtown.glb",
+      "source": "generators/dubai-address-downtown.ts"
     }
   ],
   "landmarks": [
@@ -53635,6 +53702,21 @@
         "way/1346109181",
         "way/1346109182"
       ]
+    },
+    {
+      "id": "dubai-address-downtown",
+      "name": "The Address Downtown",
+      "model": "dubai-address-downtown",
+      "place": "dubai",
+      "lng": 55.2788846,
+      "lat": 25.19399,
+      "bearing": 11,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/532836513"
+      ],
+      "wikidata": "Q677823"
     }
   ],
   "places": [
