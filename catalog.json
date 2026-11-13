@@ -20553,6 +20553,3200 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "istanbul-anadolu-hisari",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "ottoman",
+        "fortress",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "Bayezid I's fortress of 1393-94 on the Asian shore at the mouth of the Göksu: the square crenellated keep with its stair turret, the inner wall with round corner towers, and Mehmed II's outer curtain walls with three round towers.",
+      "references": [
+        {
+          "title": "Anadolu Hisarı Fortress.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Anadolu_Hisarı_Fortress.jpg",
+          "author": "mike",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Anadolu Hisarı in 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Anadolu_Hisarı_in_2024.jpg",
+          "author": "flowcomm",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Anadolu Hisarı, Summer of 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Anadolu_Hisarı,_Summer_of_2025.jpg",
+          "author": "Denizmiş",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Anadolu Hisari courtyard and tower Istanbul 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Anadolu_Hisari_courtyard_and_tower_Istanbul_2024.jpg",
+          "author": "Furkan Akkurt",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Anadolu Hisarı from Bosporus in 2012 6243.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Anadolu_Hisarı_from_Bosporus_in_2012_6243.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Anadolu Hisarı in 2015 0880.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Anadolu_Hisarı_in_2015_0880.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/istanbul-anadolu-hisari.glb",
+      "source": "generators/istanbul-anadolu-hisari.ts"
+    },
+    {
+      "id": "istanbul-ataturk-cultural-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "opera-house",
+        "theatre",
+        "culture",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Atatürk Kültür Merkezi (52118111728)",
+          "url": "https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_K%C3%BClt%C3%BCr_Merkezi_(52118111728).jpg",
+          "author": "Metro Centric",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Atatürk Cultural Center (AKM)",
+          "url": "https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_Cultural_Center_(AKM).jpg",
+          "author": "Maurice Flesier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterior of Atatürk Cultural Center 20220607 (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Atat%C3%BCrk_Cultural_Center_20220607_(2).jpg",
+          "author": "Jelican9",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "TaksimAKM",
+          "url": "https://commons.wikimedia.org/wiki/File:TaksimAKM.jpg",
+          "author": "Metuboy",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul, Turkey (November 2023) - 758",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul,_Turkey_(November_2023)_-_758.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Akm Night photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Akm_Night_photo.jpg",
+          "author": "Kübradereli1",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/istanbul-ataturk-cultural-center.glb",
+      "source": "generators/istanbul-ataturk-cultural-center.ts"
+    },
+    {
+      "id": "istanbul-ataturk-olympic-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "athletics",
+        "stadium",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Istanbul Ataturk Olympic Stadium",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Ataturk_Olympic_Stadium.JPG",
+          "author": "Bjørn Christian Tørrissen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Atatürk Olympic Stadium view from east 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_Olympic_Stadium_view_from_east_2026.jpg",
+          "author": "Zach1055",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Atatürk Olimpiyat Stadyumu'14 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_Olimpiyat_Stadyumu%2714_1.JPG",
+          "author": "Ultraslansi",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Istanbul Atatürk Olympic Stadium 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Atat%C3%BCrk_Olympic_Stadium_1.jpg",
+          "author": "Валерий Дед",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Istanbul Atatürk Olympic Stadium 4",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Atat%C3%BCrk_Olympic_Stadium_4.jpg",
+          "author": "Валерий Дед",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Istanbul Atatürk Olympic Stadium 5",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Atat%C3%BCrk_Olympic_Stadium_5.jpg",
+          "author": "Валерий Дед",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/istanbul-ataturk-olympic-stadium.glb",
+      "source": "generators/istanbul-ataturk-olympic-stadium.ts"
+    },
+    {
+      "id": "istanbul-beyazit-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "historic",
+        "ottoman",
+        "fire-lookout",
+        "university"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The 1828 Seraskerat fire-watch tower on Istanbul University's campus: a slender white stone column on an octagonal plinth, with a swelling fluted foot, a flared capital, the round watch room with its ring of arched windows, three diminishing octagonal storeys and the iron mast.",
+      "references": [
+        {
+          "title": "Torre de Beyazıt, Estambul, Turquía, 2024-09-29, DD 20.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Beyazıt,_Estambul,_Turquía,_2024-09-29,_DD_20.jpg",
+          "author": "Diego Delso",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Beyazıt Kulesi - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beyazıt_Kulesi_-_panoramio.jpg",
+          "author": "Mister No",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "BeyazıtTower01.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:BeyazıtTower01.JPG",
+          "author": "CeeGee",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Watchtower Istanbul University.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Watchtower_Istanbul_University.jpg",
+          "author": "İhsan Deniz Kılıçoğlu",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Beyazit Kule by OTANSEV - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beyazit_Kule_by_OTANSEV_-_panoramio.jpg",
+          "author": "otansev",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "İstanbul Üniversitesi.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:İstanbul_Üniversitesi.JPG",
+          "author": "Danbury",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Beyazıt Kulesi - panoramio (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beyazıt_Kulesi_-_panoramio_(2).jpg",
+          "author": "Aziz Akbiyik",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Beyazıt Kulesi Karaköy vapurundan.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beyazıt_Kulesi_Karaköy_vapurundan.jpg",
+          "author": "Çokiyi",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/istanbul-beyazit-tower.glb",
+      "source": "generators/istanbul-beyazit-tower.ts"
+    },
+    {
+      "id": "istanbul-beylerbeyi-palace",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "ottoman",
+        "palace",
+        "museum",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "Sarkis Balyan's white marble summer palace of 1861-65 on the Asian shore: a two-storey block with projecting sea pavilions, a recessed centre, entrance pavilions on the short sides, paired pilasters, arched windows and a latticed attic with segmental crowns.",
+      "references": [
+        {
+          "title": "Beylerbeyi Palace a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beylerbeyi_Palace_a.jpg",
+          "author": "Nedim Ardoğa",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Beylerbeyi Palace Exterior in 2014 8916.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beylerbeyi_Palace_Exterior_in_2014_8916.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Beylerbeyi Palace Exterior in 2014 8933.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beylerbeyi_Palace_Exterior_in_2014_8933.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Exterior view of Beylerbeyi Palace (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_Beylerbeyi_Palace_(1).jpg",
+          "author": "José Luiz",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Exterior view of Beylerbeyi Palace (3).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_Beylerbeyi_Palace_(3).jpg",
+          "author": "José Luiz",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Beylerbeyi Palace 106-1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beylerbeyi_Palace_106-1.jpg",
+          "author": "Stegop",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Beylerbeyi Palace - wide.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beylerbeyi_Palace_-_wide.jpg",
+          "author": "Eusebius",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Beylerbeyi Sarayı uzaktan bakış.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beylerbeyi_Sarayı_uzaktan_bakış.jpg",
+          "author": "KalafatElif",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/istanbul-beylerbeyi-palace.glb",
+      "source": "generators/istanbul-beylerbeyi-palace.ts"
+    },
+    {
+      "id": "istanbul-blue-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Exterior of Sultan Ahmed I Mosque in Istanbul, Turkey 002",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Sultan_Ahmed_I_Mosque_in_Istanbul,_Turkey_002.jpg",
+          "author": "Moonik",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Sultan Ahmed Mosque 2022 5",
+          "url": "https://commons.wikimedia.org/wiki/File:Sultan_Ahmed_Mosque_2022_5.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sultan Ahmed Mosque 2022 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Sultan_Ahmed_Mosque_2022_3.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View of the Blue Mosque from the Galata Tower (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_Blue_Mosque_from_the_Galata_Tower_(1).jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Blue Mosque (Sultan Ahmet Camii) DSCF4575",
+          "url": "https://commons.wikimedia.org/wiki/File:Blue_Mosque_(Sultan_Ahmet_Camii)_DSCF4575.jpg",
+          "author": "R Prazeres",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sultan Ahmed I Mosque in 2026 26",
+          "url": "https://commons.wikimedia.org/wiki/File:Sultan_Ahmed_I_Mosque_in_2026_26.jpg",
+          "author": "Joseolgon",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/istanbul-blue-mosque.glb",
+      "source": "generators/istanbul-blue-mosque.ts"
+    },
+    {
+      "id": "istanbul-bosphorus-bridge",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "suspension-bridge",
+        "bridge"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The 1973 suspension bridge from Ortaköy to Beylerbeyi: two light grey tapering portal towers on the shores with three box beams, the main cables and free back stays, the aerodynamic box deck and the side spans on column piers; vertical paired suspenders in the detail model, lit at night.",
+      "references": [
+        {
+          "title": "Bosphorus Bridge 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge_1.jpg",
+          "author": "Joseolgon",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Bosphorus Bridge 4.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge_4.jpg",
+          "author": "Joseolgon",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Bosphorus Bridge 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge_2.jpg",
+          "author": "Joseolgon",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Bosphorus Bridge 6.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge_6.jpg",
+          "author": "Joseolgon",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Bosphorus Bridge 7.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge_7.jpg",
+          "author": "Joseolgon",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "The first Bosphorus Bridge (1973) in Istanbul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_first_Bosphorus_Bridge_(1973)_in_Istanbul.jpg",
+          "author": "Huseyinakbas63",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Bosphorus-Bridge-night-view-Istanbul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bosphorus-Bridge-night-view-Istanbul.jpg",
+          "author": "SeablueTravelOfficial",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "detail": "models/istanbul-bosphorus-bridge.detail.glb",
+      "detailZoom": 16,
+      "file": "models/istanbul-bosphorus-bridge.glb",
+      "source": "generators/istanbul-bosphorus-bridge.ts"
+    },
+    {
+      "id": "istanbul-bulgarian-church",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "cast-iron",
+        "neo-gothic",
+        "orthodox",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "St. Stephen Church in Istanbul from the upstream side of the Golden Horn",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Stephen_Church_in_Istanbul_from_the_upstream_side_of_the_Golden_Horn.jpg",
+          "author": "Michael Kam Barngrover",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Stephen Church in Istanbul near the entrance",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Stephen_Church_in_Istanbul_near_the_entrance.jpg",
+          "author": "Michael Kam Barngrover",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sveti Stefan Kilisesi",
+          "url": "https://commons.wikimedia.org/wiki/File:Sveti_Stefan_Kilisesi.jpg",
+          "author": "Sadrettin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sveti Stefan Kilisesi 2022",
+          "url": "https://commons.wikimedia.org/wiki/File:Sveti_Stefan_Kilisesi_2022.jpg",
+          "author": "Afurkanakin",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "DEMİR KİLİSE (Sveti Stefan Kilisesi)",
+          "url": "https://commons.wikimedia.org/wiki/File:DEM%C4%B0R_K%C4%B0L%C4%B0SE_(Sveti_Stefan_Kilisesi).jpg",
+          "author": "ERHAN ALICI",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The Bulgarian St Stephen Church was made of cast iron in Istanbul - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Bulgarian_St_Stephen_Church_was_made_of_cast_iron_in_Istanbul_-_panoramio.jpg",
+          "author": "Laima Gūtmane",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/istanbul-bulgarian-church.glb",
+      "source": "generators/istanbul-bulgarian-church.ts"
+    },
+    {
+      "id": "istanbul-camlica-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "religious",
+        "neo-ottoman",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Çamlıca Mosque",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87aml%C4%B1ca_Mosque.jpg",
+          "author": "Kingbjelica",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Çamlıca Mosque viewed from Galata Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87aml%C4%B1ca_Mosque_viewed_from_Galata_Tower.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0"
+        },
+        {
+          "title": "Istanbul Big Çamlıca Mosque View from NW in 2019 2036",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Big_%C3%87aml%C4%B1ca_Mosque_View_from_NW_in_2019_2036.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Big Çamlıca Mosque View from SW in 2019 2021",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Big_%C3%87aml%C4%B1ca_Mosque_View_from_SW_in_2019_2021.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Camlica-2018-06-14",
+          "url": "https://commons.wikimedia.org/wiki/File:Camlica-2018-06-14.jpg",
+          "author": "Håkan Henriksson (Narking)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Çamlıca Mosque front view",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87aml%C4%B1ca_Mosque_front_view.jpg",
+          "author": "Mondo79 from Freiburg, Germany",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/istanbul-camlica-mosque.glb",
+      "source": "generators/istanbul-camlica-mosque.ts"
+    },
+    {
+      "id": "istanbul-camlica-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tv-tower",
+        "observation-deck",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Çamlıca Tower viewed from Galata Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87aml%C4%B1ca_Tower_viewed_from_Galata_Tower.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0"
+        },
+        {
+          "title": "Camlica Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Camlica_Tower.jpg",
+          "author": "Korybiko",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "TV tower, Istanbul ( 1100239)",
+          "url": "https://commons.wikimedia.org/wiki/File:TV_tower,_Istanbul_(_1100239).jpg",
+          "author": "Matti Blume",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Çamlıca Kulesi",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87aml%C4%B1ca_Kulesi.jpg",
+          "author": "Antoloji",
+          "license": "CC0"
+        },
+        {
+          "title": "View of Çamlıca Tower from the Kadikoy coast.IMG 1836",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_%C3%87aml%C4%B1ca_Tower_from_the_Kadikoy_coast.IMG_1836.jpg",
+          "author": "YG01",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/istanbul-camlica-tower.glb",
+      "source": "generators/istanbul-camlica-tower.ts"
+    },
+    {
+      "id": "istanbul-chora",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "byzantine",
+        "mosque",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Chora Church 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Chora_Church_2024.jpg",
+          "author": "Tadam",
+          "license": "CC0"
+        },
+        {
+          "title": "Chora Church Constantinople 2007 panorama 003",
+          "url": "https://commons.wikimedia.org/wiki/File:Chora_Church_Constantinople_2007_panorama_003.jpg",
+          "author": "Gryffindor",
+          "license": "Public domain"
+        },
+        {
+          "title": "Exterior of Chora Church-Kariye Mosque",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Chora_Church-Kariye_Mosque.jpg",
+          "author": "Alexander Hatley",
+          "license": "Public domain"
+        },
+        {
+          "title": "Exterior of Chora Church (04)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Chora_Church_(04).jpeg",
+          "author": "onceinawhile",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Exterior of Chora Church (03)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Chora_Church_(03).jpeg",
+          "author": "onceinawhile",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Chora Church exterior 16-06-2024 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Chora_Church_exterior_16-06-2024_02.jpg",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-chora.glb",
+      "source": "generators/istanbul-chora.ts"
+    },
+    {
+      "id": "istanbul-ciragan-palace",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "palace",
+        "ottoman",
+        "hotel",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Çırağan Palace from the Bosphorus - 20250825",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1ra%C4%9Fan_Palace_from_the_Bosphorus_-_20250825.jpg",
+          "author": "mike",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Çırağan Palace from the Bosphorus Strait (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1ra%C4%9Fan_Palace_from_the_Bosphorus_Strait_(cropped).jpg",
+          "author": "flowcomm",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Çırağan Palace - Istanbul, Turkey - October 11, 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1ra%C4%9Fan_Palace_-_Istanbul,_Turkey_-_October_11,_2025.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ciragan Palace 2014",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciragan_Palace_2014.JPG",
+          "author": "Wolfgang Moroder",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Çırağan Palace in 2008",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1ra%C4%9Fan_Palace_in_2008.jpg",
+          "author": "Sam amcalar",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/istanbul-ciragan-palace.glb",
+      "source": "generators/istanbul-ciragan-palace.ts"
+    },
+    {
+      "id": "istanbul-dolmabahce-clock-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "clock-tower",
+        "ottoman",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dolmabahçe Clock Tower in Istanbul, Turkey 001",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Clock_Tower_in_Istanbul,_Turkey_001.jpg",
+          "author": "Moonik",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de Dolmabahçe, Estambul, Turquía, 2024-09-28, DD 106",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Dolmabah%C3%A7e,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_106.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dolmabahçe Clock Tower, Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Clock_Tower,_Istanbul.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0"
+        },
+        {
+          "title": "Dolmabahçe Clock Tower 2014",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Clock_Tower_2014.jpg",
+          "author": "Radosław Botev",
+          "license": "CC BY 3.0 pl"
+        },
+        {
+          "title": "Dolmabahçe Clock Tower from the Bosphorus",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Clock_Tower_from_the_Bosphorus.jpg",
+          "author": "mike",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-dolmabahce-clock-tower.glb",
+      "source": "generators/istanbul-dolmabahce-clock-tower.ts"
+    },
+    {
+      "id": "istanbul-dolmabahce-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "baroque",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mezquita de Dolmabahçe, Estambul, Turquía, 2024-09-29, DD 22",
+          "url": "https://commons.wikimedia.org/wiki/File:Mezquita_de_Dolmabah%C3%A7e,_Estambul,_Turqu%C3%ADa,_2024-09-29,_DD_22.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dolmabahçe Mosque Mars 2013",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Mosque_Mars_2013.jpg",
+          "author": "Arild Vågen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Mezquita de Dolmabahçe, Estambul, Turquía, 2024-09-28, DD 127",
+          "url": "https://commons.wikimedia.org/wiki/File:Mezquita_de_Dolmabah%C3%A7e,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_127.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Bosphorus Dolmabahçe Mosque IMG 7904 1920",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Bosphorus_Dolmabah%C3%A7e_Mosque_IMG_7904_1920.jpg",
+          "author": "Alexxx1979",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dolmabahçe Mosque exterior in 2019 7190",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Mosque_exterior_in_2019_7190.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-dolmabahce-mosque.glb",
+      "source": "generators/istanbul-dolmabahce-mosque.ts"
+    },
+    {
+      "id": "istanbul-dolmabahce-palace",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "palace",
+        "ottoman",
+        "museum",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Istanbul Bosphorus Dolmabahce Palace IMG 7589 1800",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Bosphorus_Dolmabahce_Palace_IMG_7589_1800.jpg",
+          "author": "Alexxx1979",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dolmabahçe Palace 2007",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Palace_2007.jpg",
+          "author": "SBarnes",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de Dolmabahçe, Estambul, Turquía, 2024-09-29, DD 24",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Dolmabah%C3%A7e,_Estambul,_Turqu%C3%ADa,_2024-09-29,_DD_24.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dolmabahçe Palace from the sea 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Palace_from_the_sea_2.JPG",
+          "author": "Helge Høifødt",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "View of Dolmabahçe Palace from the Bosphorus",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Dolmabah%C3%A7e_Palace_from_the_Bosphorus.jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dolmabahce Mosque, Dolmabahce Palace and the Bosphorus Bridge in Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabahce_Mosque,_Dolmabahce_Palace_and_the_Bosphorus_Bridge_in_Istanbul.jpg",
+          "author": "ArildV",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "View of Dolmabahce palace from Tokpabi palace (13973967333)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Dolmabahce_palace_from_Tokpabi_palace_(13973967333).jpg",
+          "author": "Erik Cleves Kristensen",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Palacio de Dolmabahçe, Estambul, Turquía, 2024-09-28, DD 110",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Dolmabah%C3%A7e,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_110.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dolmabahce Palace plan",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabahce_Palace_plan.svg",
+          "author": "Gryffindor; vector Gothika",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-dolmabahce-palace.glb",
+      "source": "generators/istanbul-dolmabahce-palace.ts"
+    },
+    {
+      "id": "istanbul-fatih-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fatih Camii - Aerial view",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Camii_-_Aerial_view.jpg",
+          "author": "Carlos Delgado",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Sultan Muhammet Fatih camii (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:Sultan_Muhammet_Fatih_camii_(cropped).jpg",
+          "author": "Ezzeldin.Elbaksawy",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fatih camii DSCF6840",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_camii_DSCF6840.jpg",
+          "author": "Robert Prazeres",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fatih camii DSCF6684",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_camii_DSCF6684.jpg",
+          "author": "Robert Prazeres",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fatih camii DSCF6760",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_camii_DSCF6760.jpg",
+          "author": "Robert Prazeres",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fatih camii DSCF3849",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_camii_DSCF3849.jpg",
+          "author": "Robert Prazeres",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fatih Camii (Külliye)",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Camii_(K%C3%BClliye).JPG",
+          "author": "SeyyahLatif",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/istanbul-fatih-mosque.glb",
+      "source": "generators/istanbul-fatih-mosque.ts"
+    },
+    {
+      "id": "istanbul-fsm-bridge",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "suspension-bridge",
+        "bridge"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The 1988 Second Bosphorus Bridge between Rumelihisarı and Kavacık: two white portal towers on the hillsides with a deep top beam and a lower beam, the main cables and back stays to their anchorages, and the aerodynamic box deck; vertical suspenders in the detail model, cable lights at night.",
+      "references": [
+        {
+          "title": "Fatih Sultan Mehmet Bridge in 2026 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Sultan_Mehmet_Bridge_in_2026_02.jpg",
+          "author": "Joseolgon",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Fatih Sultan Mehmet Bridge in 2026 09.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Sultan_Mehmet_Bridge_in_2026_09.jpg",
+          "author": "Joseolgon",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Fatih Sultan Mehmet Bridge in 2026 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Sultan_Mehmet_Bridge_in_2026_01.jpg",
+          "author": "Joseolgon",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Fatih Sultan Mehmet Bridge in 2026 06.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Sultan_Mehmet_Bridge_in_2026_06.jpg",
+          "author": "Joseolgon",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Fatih Sultan Mehmet Bridge from Otagtepe.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Sultan_Mehmet_Bridge_from_Otagtepe.jpg",
+          "author": "Ibrahimferhadli",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Fatih Sultan Mehmet Bridge Night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fatih_Sultan_Mehmet_Bridge_Night.jpg",
+          "author": "Karaahmet",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "detail": "models/istanbul-fsm-bridge.detail.glb",
+      "detailZoom": 16,
+      "file": "models/istanbul-fsm-bridge.glb",
+      "source": "generators/istanbul-fsm-bridge.ts"
+    },
+    {
+      "id": "istanbul-galata-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tower",
+        "genoese",
+        "medieval",
+        "observation",
+        "museum",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Istanbul Galata Tower IMG 8211 1920",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Galata_Tower_IMG_8211_1920.jpg",
+          "author": "Alexxx1979",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Galata tower 01 23",
+          "url": "https://commons.wikimedia.org/wiki/File:Galata_tower_01_23.jpg",
+          "author": "GrandEscogriffe",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Galata Kulesi - 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Galata_Kulesi_-_01.jpg",
+          "author": "Carlos Delgado",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Galata Kulesi (07052023)",
+          "url": "https://commons.wikimedia.org/wiki/File:Galata_Kulesi_(07052023).jpg",
+          "author": "HuseynAZE99",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Galata Kulesi Museum",
+          "url": "https://commons.wikimedia.org/wiki/File:Galata_Kulesi_Museum.jpg",
+          "author": "Thehiddenphotographer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Galata Kulesi 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:Galata_Kulesi_2026.jpg",
+          "author": "Chromehoney",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-galata-tower.glb",
+      "source": "generators/istanbul-galata-tower.ts"
+    },
+    {
+      "id": "istanbul-german-fountain",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "fountain",
+      "tags": [
+        "fountain",
+        "pavilion",
+        "neo-byzantine",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fuente Alemana, Estambul, Turquía, 2024-09-30, DD 37",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_Alemana,_Estambul,_Turqu%C3%ADa,_2024-09-30,_DD_37.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fuente Alemana, Estambul, Turquía, 2024-09-29, DD 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_Alemana,_Estambul,_Turqu%C3%ADa,_2024-09-29,_DD_01.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fuente Alemana, Estambul, Turquía, 2024-09-30, DD 38",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_Alemana,_Estambul,_Turqu%C3%ADa,_2024-09-30,_DD_38.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "German Fountain (Istanbul)",
+          "url": "https://commons.wikimedia.org/wiki/File:German_Fountain_(Istanbul).jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sultanahmet Square, German Fountain, Istanbul (52121614824)",
+          "url": "https://commons.wikimedia.org/wiki/File:Sultanahmet_Square,_German_Fountain,_Istanbul_(52121614824).jpg",
+          "author": "Ninara",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "German Fountain (Istanbul) in 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:German_Fountain_(Istanbul)_in_2026.jpg",
+          "author": "Joseolgon",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Alman Çeşmesi (The German Fountain)",
+          "url": "https://commons.wikimedia.org/wiki/File:Alman_%C3%87e%C5%9Fmesi_(The_German_Fountain).jpg",
+          "author": "İlker R. Kapaç",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "German Fountain and Sultanahmet Mosque",
+          "url": "https://commons.wikimedia.org/wiki/File:German_Fountain_and_Sultanahmet_Mosque.jpg",
+          "author": "Scott Dexter",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/istanbul-german-fountain.glb",
+      "source": "generators/istanbul-german-fountain.ts"
+    },
+    {
+      "id": "istanbul-hagia-irene",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "byzantine",
+        "museum",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hagia Irene exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_exterior.JPG",
+          "author": "Mattias Hill",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hagia Irene, Istanbul (52112279404)",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene,_Istanbul_(52112279404).jpg",
+          "author": "Ninara",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Hagia Irene, Istanbul, 20260605 1123 1116",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene,_Istanbul,_20260605_1123_1116.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Hagia Irene, Istanbul, 20260605 1123 1115",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene,_Istanbul,_20260605_1123_1115.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Hagia Irene with Hagia Sophia at the back, İstanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_with_Hagia_Sophia_at_the_back,_%C4%B0stanbul.JPG",
+          "author": "Berkay0652",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hagia Irene (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_(1).jpg",
+          "author": "Jaba1977",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hagia Irene (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_(2).jpg",
+          "author": "Jaba1977",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hagia Irene church",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_church.JPG",
+          "author": "Mattias Hill",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Hagia Eirene SE Side in 2006 13 7532",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Hagia_Eirene_SE_Side_in_2006_13_7532.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Hagia Eirene SE Side in 2015 03 5534",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Hagia_Eirene_SE_Side_in_2015_03_5534.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hagia Irene - Topkapı Palace, Cankurtaran, Fatih, İstanbul, Turkey - October 10, 2025 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_-_Topkap%C4%B1_Palace,_Cankurtaran,_Fatih,_%C4%B0stanbul,_Turkey_-_October_10,_2025_01.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hagia Irene - Topkapı Palace, Cankurtaran, Fatih, İstanbul, Turkey - October 10, 2025 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_-_Topkap%C4%B1_Palace,_Cankurtaran,_Fatih,_%C4%B0stanbul,_Turkey_-_October_10,_2025_02.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aya İrini - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Aya_%C4%B0rini_-_panoramio.jpg",
+          "author": "Mister No",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/istanbul-hagia-irene.glb",
+      "source": "generators/istanbul-hagia-irene.ts"
+    },
+    {
+      "id": "istanbul-hagia-sophia",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "mosque",
+        "byzantine",
+        "dome",
+        "minaret",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "Justinian's 6th-century cathedral, a mosque since 1453: the 31 m lead dome on its ring of 40 windows, the east and west semi-domes with their exedrae, the red-orange tympanum arches between the pier towers, the great buttresses, and four different Ottoman minarets, the red-brick one at the south-east.",
+      "references": [
+        {
+          "title": "Hagia Sophia Mars 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013.jpg",
+          "author": "Arild Vågen",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Hagia Sophia Mars 2013 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013_01.jpg",
+          "author": "Arild Vågen",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Hagia Sophia in Istanbul (focused on the original Roman building).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_in_Istanbul_(focused_on_the_original_Roman_building).jpg",
+          "author": "Maskaravivek",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Hagia Sophia - Exterior with the sultans' tombs.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_-_Exterior_with_the_sultans'_tombs.jpg",
+          "author": "Alena Belova for Exhibo",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "View of Hagia Sophia from the Galata Tower (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Hagia_Sophia_from_the_Galata_Tower_(1).jpg",
+          "author": "José Luiz",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Hagia Sophia from Galata Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_from_Galata_Tower.jpg",
+          "author": "Vassillis",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Istanbul Hagia Sophia Sultanahmed.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Hagia_Sophia_Sultanahmed.JPG",
+          "author": "Julian Nyča",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Minarets of Hagia Sophia, Istanbul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Minarets_of_Hagia_Sophia,_Istanbul.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Hagia Sophia 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_2017.jpg",
+          "author": "Nserrano",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Hagia Sophia exterior SE side in 2016 9183.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_exterior_SE_side_in_2016_9183.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Hagia Sophia exterior 2007 005.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_exterior_2007_005.jpg",
+          "author": "Gryffindor",
+          "license": "Public domain"
+        },
+        {
+          "title": "Hagia Sophia - Blick vom Park des Topkapi-Palastes.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_-_Blick_vom_Park_des_Topkapi-Palastes.jpg",
+          "author": "Johann H. Addicks",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Hagia Sophia February 2013 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_February_2013_02.jpg",
+          "author": "Arild Vågen",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Hagia Sophia light.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_light.JPG",
+          "author": "Kirua",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "ETH-BIB-Hagia Sophia, Istanbul-Weitere-LBS MH02-27-0062.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Hagia_Sophia,_Istanbul-Weitere-LBS_MH02-27-0062.tif",
+          "author": "Walter Mittelholzer",
+          "license": "Public domain"
+        },
+        {
+          "title": "ETH-BIB-Hagia Sophia, Instanbul-Weitere-LBS MH02-27-0063.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Hagia_Sophia,_Instanbul-Weitere-LBS_MH02-27-0063.tif",
+          "author": "Walter Mittelholzer",
+          "license": "Public domain"
+        },
+        {
+          "title": "Hagia-Sophia-Laengsschnitt.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia-Sophia-Laengsschnitt.jpg",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/istanbul-hagia-sophia.glb",
+      "source": "generators/istanbul-hagia-sophia.ts"
+    },
+    {
+      "id": "istanbul-kilic-ali-pasha-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "mimar-sinan",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kılıç Ali Paşa Camii",
+          "url": "https://commons.wikimedia.org/wiki/File:K%C4%B1l%C4%B1%C3%A7_Ali_Pa%C5%9Fa_Camii.jpg",
+          "author": "Alicembasli",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kilic Ali Pasha Mosque DSCF5119",
+          "url": "https://commons.wikimedia.org/wiki/File:Kilic_Ali_Pasha_Mosque_DSCF5119.jpg",
+          "author": "R Prazeres",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul, moschea di Kılıç Ali Pasha, di sinan, 1580-87, esterno 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul,_moschea_di_K%C4%B1l%C4%B1%C3%A7_Ali_Pasha,_di_sinan,_1580-87,_esterno_01.jpg",
+          "author": "Francesco Bini",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kilic Ali Pasha Mosque 8462b",
+          "url": "https://commons.wikimedia.org/wiki/File:Kilic_Ali_Pasha_Mosque_8462b.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kılıç Ali Pasha Complex",
+          "url": "https://commons.wikimedia.org/wiki/File:K%C4%B1l%C4%B1%C3%A7_Ali_Pasha_Complex.jpg",
+          "author": "Metuboy",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-kilic-ali-pasha-mosque.glb",
+      "source": "generators/istanbul-kilic-ali-pasha-mosque.ts"
+    },
+    {
+      "id": "istanbul-kuleli-military-school",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "ottoman",
+        "school",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "Garabet Balyan's 1843 barracks on the Asian shore at Çengelköy: the long white waterfront range with its courtyard block and north wing under red-tile hipped roofs, the columned sea-gate pavilion, and the two tall square towers with round drums and slender lead spires.",
+      "references": [
+        {
+          "title": "Kuleli Military High School - Istanbul, Turkey - October 11, 2025 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kuleli_Military_High_School_-_Istanbul,_Turkey_-_October_11,_2025_03.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Kuleli Military High School - Istanbul, Turkey - October 11, 2025 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kuleli_Military_High_School_-_Istanbul,_Turkey_-_October_11,_2025_01.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Kuleli Military High School - Istanbul, Turkey - October 11, 2025 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kuleli_Military_High_School_-_Istanbul,_Turkey_-_October_11,_2025_02.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Kuleli Military High School in 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kuleli_Military_High_School_in_2024.jpg",
+          "author": "flowcomm",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Kuleli Askeri Lisesi.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kuleli_Askeri_Lisesi.jpg",
+          "author": "Eusebius",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Kuleli Askeri Lisesi Denizden Görünümü.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kuleli_Askeri_Lisesi_Denizden_Görünümü.jpg",
+          "author": "Canercangul",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "file": "models/istanbul-kuleli-military-school.glb",
+      "source": "generators/istanbul-kuleli-military-school.ts"
+    },
+    {
+      "id": "istanbul-little-hagia-sophia",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "church",
+        "byzantine",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Sergius and Bacchus",
+          "url": "https://commons.wikimedia.org/wiki/File:Sergius_and_Bacchus.jpg",
+          "author": "fusion-of-horizons",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Little Hagia Sophia",
+          "url": "https://commons.wikimedia.org/wiki/File:Little_Hagia_Sophia.JPG",
+          "author": "DavidConFran",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Little Aya Sophia 0982",
+          "url": "https://commons.wikimedia.org/wiki/File:Little_Aya_Sophia_0982.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Küçük Ayasofya Camii",
+          "url": "https://commons.wikimedia.org/wiki/File:K%C3%BC%C3%A7%C3%BCk_Ayasofya_Camii.jpg",
+          "author": "Loresue",
+          "license": "CC0"
+        },
+        {
+          "title": "Küçük Ayasofya Camii 02",
+          "url": "https://commons.wikimedia.org/wiki/File:K%C3%BC%C3%A7%C3%BCk_Ayasofya_Camii_02.jpg",
+          "author": "Alicembasli",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Küçük Ayasofya Camii 04",
+          "url": "https://commons.wikimedia.org/wiki/File:K%C3%BC%C3%A7%C3%BCk_Ayasofya_Camii_04.jpg",
+          "author": "Alicembasli",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-little-hagia-sophia.glb",
+      "source": "generators/istanbul-little-hagia-sophia.ts"
+    },
+    {
+      "id": "istanbul-maidens-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "historic",
+        "ottoman",
+        "lighthouse",
+        "island",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The stone tower on its islet off Salacak as restored in 2023: square rubble shaft with the exposed steel X-bracing, cantilevered balcony, cream lantern storey, lead bell dome, top gallery and flagpole; the crenellated stone hall, the white pavilion, the little lighthouse and the quay.",
+      "references": [
+        {
+          "title": "Maiden tower, Istanbul (P1100207).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Maiden_tower,_Istanbul_(P1100207).jpg",
+          "author": "Matti Blume",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Maiden tower, Istanbul (P1100204).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Maiden_tower,_Istanbul_(P1100204).jpg",
+          "author": "Matti Blume",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "İstanbul Kız Kulesi.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:İstanbul_Kız_Kulesi.jpg",
+          "author": "OkanKeskin",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Maiden's Tower (Istanbul) - May 22, 2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Maiden's_Tower_(Istanbul)_-_May_22,_2023.jpg",
+          "author": "HuseynAZE99",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Kız-Kulesi-01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kız-Kulesi-01.jpg",
+          "author": "muhammad ali baloch",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/istanbul-maidens-tower.glb",
+      "source": "generators/istanbul-maidens-tower.ts"
+    },
+    {
+      "id": "istanbul-mihrimah-sultan-edirnekapi",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "historic",
+        "religious",
+        "sinan"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mihrimah Sultan Mosque Edirnekapi Gurlitt 1912",
+          "url": "https://commons.wikimedia.org/wiki/File:Mihrimah_Sultan_Mosque_Edirnekapi_Gurlitt_1912.jpg",
+          "author": "Cornelius Gurlitt (1850-1938)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Istanbul - Mesquita de Mihrimah",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_-_Mesquita_de_Mihrimah.JPG",
+          "author": "Josep Renalias",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Istanbul Mihrimah Sultan Mosque (Edirnekapı) view from surroundings in 2015 0100",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Mihrimah_Sultan_Mosque_(Edirnekap%C4%B1)_view_from_surroundings_in_2015_0100.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Mihrimah Sultan Mosque (Edirnekapı) view from surroundings in 2004 1187",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Mihrimah_Sultan_Mosque_(Edirnekap%C4%B1)_view_from_surroundings_in_2004_1187.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Mihrimah Sultan Mosque (Edirnekapı) courtyard in 2018 9252 Panorama b",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Mihrimah_Sultan_Mosque_(Edirnekap%C4%B1)_courtyard_in_2018_9252_Panorama_b.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Mihrimah Sultan Mosque 2015 0101",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Mihrimah_Sultan_Mosque_2015_0101.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-mihrimah-sultan-edirnekapi.glb",
+      "source": "generators/istanbul-mihrimah-sultan-edirnekapi.ts"
+    },
+    {
+      "id": "istanbul-new-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "New Mosque, Istanbul, from Bosphorus",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Mosque,_Istanbul,_from_Bosphorus.jpg",
+          "author": "Till Niermann",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Yeni Cami in Istanbul..00",
+          "url": "https://commons.wikimedia.org/wiki/File:Yeni_Cami_in_Istanbul..00.jpg",
+          "author": "Ddovah",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The New Mosque (Yeni Cami) (8393797619)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_New_Mosque_(Yeni_Cami)_(8393797619).jpg",
+          "author": "Jorge Láscar from Australia",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "New Mosque Yeni Camii Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Mosque_Yeni_Camii_Istanbul.JPG",
+          "author": "Wolfgang Moroder",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "La Yeni Cami et le Galata Köprüsü",
+          "url": "https://commons.wikimedia.org/wiki/File:La_Yeni_Cami_et_le_Galata_K%C3%B6pr%C3%BCs%C3%BC.jpg",
+          "author": "Jpbazard Jean-Pierre Bazard",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Detail of the domes - The New Mosque (Yeni Cami) (8393800623)",
+          "url": "https://commons.wikimedia.org/wiki/File:Detail_of_the_domes_-_The_New_Mosque_(Yeni_Cami)_(8393800623).jpg",
+          "author": "Jorge Láscar from Australia",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "New-mosque-ottoman-night-scene-Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:New-mosque-ottoman-night-scene-Istanbul.jpg",
+          "author": "SeablueTravelOfficial",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-new-mosque.glb",
+      "source": "generators/istanbul-new-mosque.ts"
+    },
+    {
+      "id": "istanbul-nusretiye-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman-baroque",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Nusretiye Mosque in 2007 8489",
+          "url": "https://commons.wikimedia.org/wiki/File:Nusretiye_Mosque_in_2007_8489.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nusretiye mosque 8491",
+          "url": "https://commons.wikimedia.org/wiki/File:Nusretiye_mosque_8491.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nusretiye Mosque - March 2022",
+          "url": "https://commons.wikimedia.org/wiki/File:Nusretiye_Mosque_-_March_2022.jpg",
+          "author": "Maurice Flesier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nusretiye Mosque- panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Nusretiye_Mosque-_panoramio.jpg",
+          "author": "Mister No",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "07 Nusretiye Camii",
+          "url": "https://commons.wikimedia.org/wiki/File:07_Nusretiye_Camii.jpg",
+          "author": "Ali Osman Dilekoğlu",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Overview of Galataport from Cihangir showing Istanbul Painting and Sculpture Museum on left and Nusretiye Mosque on right with Asian shore and Princes' Islands in the background",
+          "url": "https://commons.wikimedia.org/wiki/File:Overview_of_Galataport_from_Cihangir_showing_Istanbul_Painting_and_Sculpture_Museum_on_left_and_Nusretiye_Mosque_on_right_with_Asian_shore_and_Princes%27_Islands_in_the_background.jpg",
+          "author": "Ealinggirl1954",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-nusretiye-mosque.glb",
+      "source": "generators/istanbul-nusretiye-mosque.ts"
+    },
+    {
+      "id": "istanbul-obelisk-of-theodosius",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "obelisk",
+        "egyptian",
+        "roman",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Obelisco de Teodosio, Estambul, Turquía, 2024-09-28, DD 128",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisco_de_Teodosio,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_128.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Obelisco de Teodosio, Estambul, Turquía, 2024-09-28, DD 129",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisco_de_Teodosio,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_129.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Obelisk of Theodosius-",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisk_of_Theodosius-.jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Base of Theodosius obelisk 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Base_of_Theodosius_obelisk_1.jpg",
+          "author": "Dudva",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Obelisk of Theodosius lower base northeast side (1991)",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisk_of_Theodosius_lower_base_northeast_side_(1991).jpg",
+          "author": "Mark Landon",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Obelisk of Theodosius lower base southwest side (1991)",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisk_of_Theodosius_lower_base_southwest_side_(1991).jpg",
+          "author": "Mark Landon",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Obelisk of Theodosius and Walled Obelisk",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisk_of_Theodosius_and_Walled_Obelisk.jpg",
+          "author": "Nan Palmero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Obelisk of Theodosius (8394685988)",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisk_of_Theodosius_(8394685988).jpg",
+          "author": "Jorge Láscar from Australia",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/istanbul-obelisk-of-theodosius.glb",
+      "source": "generators/istanbul-obelisk-of-theodosius.ts"
+    },
+    {
+      "id": "istanbul-ortakoy-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "baroque",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Büyük Mecidiye Camii - Ortaköy Mosque",
+          "url": "https://commons.wikimedia.org/wiki/File:B%C3%BCy%C3%BCk_Mecidiye_Camii_-_Ortak%C3%B6y_Mosque.jpg",
+          "author": "Eusebius",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Ortaköy Mosque, 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:Ortak%C3%B6y_Mosque,_2025.jpg",
+          "author": "Pragdon",
+          "license": "CC0"
+        },
+        {
+          "title": "Ortaköy Mosque, Istanbul 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Ortak%C3%B6y_Mosque,_Istanbul_2019.jpg",
+          "author": "Moataz1997",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ortaköy Mosque from the Bosporus, Istanbul, 20260606 1424 1504",
+          "url": "https://commons.wikimedia.org/wiki/File:Ortak%C3%B6y_Mosque_from_the_Bosporus,_Istanbul,_20260606_1424_1504.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Ortaköy Mosque in 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Ortak%C3%B6y_Mosque_in_2024.jpg",
+          "author": "flowcomm",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/istanbul-ortakoy-mosque.glb",
+      "source": "generators/istanbul-ortakoy-mosque.ts"
+    },
+    {
+      "id": "istanbul-phanar-greek-college",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "school",
+        "red-brick",
+        "eclectic",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fener Rum Erkek Lisesi 2025-03-13 09.59.58 1793127025",
+          "url": "https://commons.wikimedia.org/wiki/File:Fener_Rum_Erkek_Lisesi_2025-03-13_09.59.58_1793127025.jpg",
+          "author": "Mary Mavier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Phanar Greek Orthodox college from Halic",
+          "url": "https://commons.wikimedia.org/wiki/File:Phanar_Greek_Orthodox_college_from_Halic.jpg",
+          "author": "Canercangul",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Phanar Greek Orthodox college",
+          "url": "https://commons.wikimedia.org/wiki/File:Phanar_Greek_Orthodox_college.jpg",
+          "author": "Canercangul",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "20111225 Phanar Greek Orthodox College Fenar Istanbul Turkey Panoramic",
+          "url": "https://commons.wikimedia.org/wiki/File:20111225_Phanar_Greek_Orthodox_College_Fenar_Istanbul_Turkey_Panoramic.jpg",
+          "author": "Ggia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Fener Rum Erkek Lisesi 2018-08-23 14.40.37 1791800411",
+          "url": "https://commons.wikimedia.org/wiki/File:Fener_Rum_Erkek_Lisesi_2018-08-23_14.40.37_1791800411.jpg",
+          "author": "Antonina Vyshnevska",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fener Rum Erkek Lisesi",
+          "url": "https://commons.wikimedia.org/wiki/File:Fener_Rum_Erkek_Lisesi.jpg",
+          "author": "Ykarabulak",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-phanar-greek-college.glb",
+      "source": "generators/istanbul-phanar-greek-college.ts"
+    },
+    {
+      "id": "istanbul-rumeli-hisari",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "ottoman",
+        "fortress",
+        "museum",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "Mehmed II's fortress of 1452 climbing the European shore at the narrows: the round Sarıca Paşa and Zağanos Paşa towers up the hill and Halil Paşa's twelve-sided tower at the water, each with its upper drum, crenellated curtain walls following the slope and the small watchtowers.",
+      "references": [
+        {
+          "title": "Rumeli Hisarı - Otağtepeden Görünüşü.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rumeli_Hisarı_-_Otağtepeden_Görünüşü.jpg",
+          "author": "Hamdigumus",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Rumeli Hisarı - Istanbul, Turkey - October 11, 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rumeli_Hisarı_-_Istanbul,_Turkey_-_October_11,_2025.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Rumeli Hisarı Fortress in 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rumeli_Hisarı_Fortress_in_2025.jpg",
+          "author": "mike",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Rumeli Hisarı plan in 2006 3599b.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rumeli_Hisarı_plan_in_2006_3599b.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/istanbul-rumeli-hisari.glb",
+      "source": "generators/istanbul-rumeli-hisari.ts"
+    },
+    {
+      "id": "istanbul-rustem-pasha-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "historic",
+        "religious",
+        "sinan"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Rüstem Pasha Mosque in 2024 5321",
+          "url": "https://commons.wikimedia.org/wiki/File:R%C3%BCstem_Pasha_Mosque_in_2024_5321.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul - Rüstem-Pascha-Moschee - panoramio (cropped and retouched)",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_-_R%C3%BCstem-Pascha-Moschee_-_panoramio_(cropped_and_retouched).jpg",
+          "author": "giggel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "676-Istanbul Rüstem Pasha Mosque-0910-1836",
+          "url": "https://commons.wikimedia.org/wiki/File:676-Istanbul_R%C3%BCstem_Pasha_Mosque-0910-1836.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rüstem Pasha Mosque from street 236",
+          "url": "https://commons.wikimedia.org/wiki/File:R%C3%BCstem_Pasha_Mosque_from_street_236.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "RÜSTEM PAŞA CAMİİ2026-01-01 at 16.48.29 (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:R%C3%9CSTEM_PA%C5%9EA_CAM%C4%B0%C4%B02026-01-01_at_16.48.29_(1).jpg",
+          "author": "RramazanŞahin",
+          "license": "CC0"
+        },
+        {
+          "title": "Süleymaniye Mosque and Rüstem Pasha Mosque in 2024 6715",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_and_R%C3%BCstem_Pasha_Mosque_in_2024_6715.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-rustem-pasha-mosque.glb",
+      "source": "generators/istanbul-rustem-pasha-mosque.ts"
+    },
+    {
+      "id": "istanbul-sapphire",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "residential",
+        "shopping-mall",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "IstanbulSapphireOverall straighten",
+          "url": "https://commons.wikimedia.org/wiki/File:IstanbulSapphireOverall_straighten.jpg",
+          "author": "Mimar77",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Sapphire 2024 (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Sapphire_2024_(cropped).jpg",
+          "author": "Hello40339",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sapphire building 7375",
+          "url": "https://commons.wikimedia.org/wiki/File:Sapphire_building_7375.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sapphire building 9010",
+          "url": "https://commons.wikimedia.org/wiki/File:Sapphire_building_9010.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Sapphire4",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Sapphire4.jpg",
+          "author": "Scott Dexter",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/istanbul-sapphire.glb",
+      "source": "generators/istanbul-sapphire.ts"
+    },
+    {
+      "id": "istanbul-serpent-column",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "column",
+        "bronze",
+        "ancient-greek",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Serpent Column, Istanbul 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Serpent_Column,_Istanbul_1.jpg",
+          "author": "Dudva",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Serpent Column, Istanbul 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Serpent_Column,_Istanbul_2.jpg",
+          "author": "Dudva",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bronze Serpent Column in Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Bronze_Serpent_Column_in_Istanbul.jpg",
+          "author": "Ian Scott",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Serpent Column Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Serpent_Column_Istanbul.jpg",
+          "author": "Loriensong",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Yılanlı Sütun, Serpent Column Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Y%C4%B1lanl%C4%B1_S%C3%BCtun,_Serpent_Column_Istanbul.jpg",
+          "author": "Sonse",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Snake column Hippodrome Constantinople 2007",
+          "url": "https://commons.wikimedia.org/wiki/File:Snake_column_Hippodrome_Constantinople_2007.jpg",
+          "author": "Gryffindor  This",
+          "license": "Public domain"
+        },
+        {
+          "title": "Yılanlı Sütun (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Y%C4%B1lanl%C4%B1_S%C3%BCtun_(2).jpg",
+          "author": "Cobija",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Serpent Column - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Serpent_Column_-_panoramio.jpg",
+          "author": "Mister No",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/istanbul-serpent-column.glb",
+      "source": "generators/istanbul-serpent-column.ts"
+    },
+    {
+      "id": "istanbul-suleymaniye",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Süleymaniye Mosque viewed from Galata Tower, Istanbul, 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_viewed_from_Galata_Tower,_Istanbul,_2024.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0"
+        },
+        {
+          "title": "Süleymaniye Mosque, Istanbul, 20260606 0805 1307",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque,_Istanbul,_20260606_0805_1307.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Istanbul Province - Süleymaniye Mosque - 20240128150219",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Province_-_S%C3%BCleymaniye_Mosque_-_20240128150219.jpg",
+          "author": "Canercangul",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Süleymaniye Mosque February 2013 03",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_February_2013_03.jpg",
+          "author": "Arild Vågen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Süleymaniye Mosque February 2013 02",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_February_2013_02.jpg",
+          "author": "Arild Vågen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Domes of the Süleymaniye Mosque",
+          "url": "https://commons.wikimedia.org/wiki/File:Domes_of_the_S%C3%BCleymaniye_Mosque.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Süleymaniye Mosque exterior view",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_exterior_view.JPG",
+          "author": "İhsan Deniz Kılıçoğlu",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Süleymaniye Mosque 2",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_2.jpg",
+          "author": "İhsan Deniz Kılıçoğlu",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Süleymaniye Mosque, 22 January 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque,_22_January_2025.jpg",
+          "author": "Dr.Suskun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Süleymaniye Mosque (29070459418)",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_(29070459418).jpg",
+          "author": "Brad Hostetler",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Süleymaniye Camii - İstanbul Üniversitesi - Aerial view",
+          "url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Camii_-_%C4%B0stanbul_%C3%9Cniversitesi_-_Aerial_view.jpg",
+          "author": "Carlos Delgado",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Süleymaniye Camii rölövesi (survey plan)",
+          "url": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BB%D0%B0%D0%BD_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D1%83_%D0%A1%D1%83%D0%BB%D0%B5%D0%B9%D0%BC%D0%B0%D0%BD%D1%96%D1%94.jpg",
+          "author": "Ali Saim Ülgen",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/istanbul-suleymaniye.glb",
+      "source": "generators/istanbul-suleymaniye.ts"
+    },
+    {
+      "id": "istanbul-taksim-republic-monument",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "monument",
+        "sculpture",
+        "memorial"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Monument of the Republic - Taksim (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_of_the_Republic_-_Taksim_(1).jpg",
+          "author": "Kurmanbek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monument of the Republic - Taksim (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_of_the_Republic_-_Taksim_(2).jpg",
+          "author": "Kurmanbek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monument of the Republic, Istanbul, Taksim (48985971192)",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_of_the_Republic,_Istanbul,_Taksim_(48985971192).jpg",
+          "author": "Julien Maury",
+          "license": "Public domain"
+        },
+        {
+          "title": "Monument of the Republic in Taksim, Istanbul 29.10.2023 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_of_the_Republic_in_Taksim,_Istanbul_29.10.2023_01.jpg",
+          "author": "Wiki leylek",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Monument of the Republic, Istanbul 2014 (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_of_the_Republic,_Istanbul_2014_(2).jpg",
+          "author": "Radosław Botev",
+          "license": "CC BY 3.0 pl"
+        }
+      ],
+      "file": "models/istanbul-taksim-republic-monument.glb",
+      "source": "generators/istanbul-taksim-republic-monument.ts"
+    },
+    {
+      "id": "istanbul-topkapi-imperial-gate",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "historic",
+        "gate",
+        "ottoman",
+        "palace",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The 1478 outer gate of Topkapı Palace: a flat-topped brick wall-block with a dentilled cornice, the tall white marble portal with its deep pointed recess, gilt calligraphy and the round-arched passage through, and a niche frame each side.",
+      "references": [
+        {
+          "title": "Imperial Gate (Topkapı Palace).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Imperial_Gate_(Topkapı_Palace).jpg",
+          "author": "Yair Haklai",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Imperial Gate - Topkapı Palace, Cankurtaran, Fatih, İstanbul, Turkey - October 10, 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Imperial_Gate_-_Topkapı_Palace,_Cankurtaran,_Fatih,_İstanbul,_Turkey_-_October_10,_2025.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Topkapı Imperial Gate outer side 2006 01 0922.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Topkapı_Imperial_Gate_outer_side_2006_01_0922.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Topkapı Imperial Gate First Courtyard side 2018 06 6314.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Topkapı_Imperial_Gate_First_Courtyard_side_2018_06_6314.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "The Imperial Gate, Bâb-ı Hümâyûn, Topkapi Palace, Istanbul, Turkey. Shooting from the inner (first) courtyard.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Imperial_Gate,_Bâb-ı_Hümâyûn,_Topkapi_Palace,_Istanbul,_Turkey._Shooting_from_the_inner_(first)_courtyard.jpg",
+          "author": "Osama Shukir Muhammed Amin",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/istanbul-topkapi-imperial-gate.glb",
+      "source": "generators/istanbul-topkapi-imperial-gate.ts"
+    },
+    {
+      "id": "istanbul-topkapi-justice-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "historic",
+        "ottoman",
+        "palace",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The Tower of Justice over the Imperial Council hall in Topkapı Palace: a plain square stone shaft, a balcony cornice, the 1825 belvedere with corner columns, tall arched windows and curved pediments, and the tall lead cone with its gilt finial.",
+      "references": [
+        {
+          "title": "Tower of Justice Topkapi 2007.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Justice_Topkapi_2007.jpg",
+          "author": "Gryffindor",
+          "license": "Public domain"
+        },
+        {
+          "title": "Tower of Justice Topkapi 2007 001.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Justice_Topkapi_2007_001.jpg",
+          "author": "Gryffindor",
+          "license": "Public domain"
+        },
+        {
+          "title": "Second Court Topkapi Istanbul 2007 Pano.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Second_Court_Topkapi_Istanbul_2007_Pano.JPG",
+          "author": "Gryffindor",
+          "license": "Public domain"
+        },
+        {
+          "title": "Tower of Justice (Topkapı Palace)-.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Justice_(Topkapı_Palace)-.jpg",
+          "author": "Yair Haklai",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "2013-01-02 Topkapı Palace 83.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2013-01-02_Topkapı_Palace_83.jpg",
+          "author": "Maksym Kozlenko",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Tower of Justice seen from the Second Courtyard of Topkapi Palace.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Justice_seen_from_the_Second_Courtyard_of_Topkapi_Palace.jpg",
+          "author": "José Luiz",
+          "license": "CC-BY-SA-3.0"
+        }
+      ],
+      "file": "models/istanbul-topkapi-justice-tower.glb",
+      "source": "generators/istanbul-topkapi-justice-tower.ts"
+    },
+    {
+      "id": "istanbul-university-gate",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "historic",
+        "gate",
+        "ottoman",
+        "university",
+        "moorish-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The 1866 Seraskerat gate of Istanbul University on Beyazıt Square: a tall central block with a great horseshoe arch of striped red-and-white voussoirs, smaller horseshoe arches between green marble columns, inscription panels and a crenellated crest, between two lower crenellated pavilions with clocks.",
+      "references": [
+        {
+          "title": "Main gate of Istanbul University-.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_gate_of_Istanbul_University-.jpg",
+          "author": "Yair Haklai",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Istanbul University Entrance Gate, 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_University_Entrance_Gate,_2025.jpg",
+          "author": "Medelam",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "İstanbul Üniversitesi Seraskerat Kapısı.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:İstanbul_Üniversitesi_Seraskerat_Kapısı.jpg",
+          "author": "Sezenkerem",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "İstanbul Üniversitesi.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:İstanbul_Üniversitesi.JPG",
+          "author": "Danbury",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Main gate of Istanbul University.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_gate_of_Istanbul_University.jpg",
+          "author": "Radosław Botev",
+          "license": "CC-BY-3.0-PL"
+        }
+      ],
+      "file": "models/istanbul-university-gate.glb",
+      "source": "generators/istanbul-university-gate.ts"
+    },
+    {
+      "id": "istanbul-valens-aqueduct",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "historic",
+        "aqueduct",
+        "roman",
+        "byzantine"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The late-4th-century Roman aqueduct bridge across the valley of Atatürk Boulevard: a level-topped two-tier arcade of rough grey-buff stone, 74 bays along the mapped 592 m, its arches real openings, the lower tier sinking into the hill to the west.",
+      "references": [
+        {
+          "title": "The Valens Aqueduct Bozdoğan Kemeri - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Valens_Aqueduct_Bozdoğan_Kemeri_-_panoramio.jpg",
+          "author": "Maris Teteris",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Valens Aqueduct-2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Valens_Aqueduct-2.jpg",
+          "author": "Yair Haklai",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "AqueductofValensIstanbul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:AqueductofValensIstanbul.jpg",
+          "author": "Mondo79",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Valens Aqueduct.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Valens_Aqueduct.jpg",
+          "author": "José Luiz",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Valens 2012 DK.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Valens_2012_DK.jpg",
+          "author": "Lowcarb23",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Unkapanı -İstanbul - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Unkapanı_-İstanbul_-_panoramio.jpg",
+          "author": "Haluk Comertel",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Valens Aqueduct and Gazanfer Aga Madrasah.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Valens_Aqueduct_and_Gazanfer_Aga_Madrasah.jpg",
+          "author": "Metra pro",
+          "license": "CC0-1.0"
+        }
+      ],
+      "file": "models/istanbul-valens-aqueduct.glb",
+      "source": "generators/istanbul-valens-aqueduct.ts"
+    },
+    {
+      "id": "istanbul-vodafone-park",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "stadium",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vodafone Park",
+          "url": "https://commons.wikimedia.org/wiki/File:Vodafone_Park.jpg",
+          "author": "Matt Growcoot",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "20220606-L1000240",
+          "url": "https://commons.wikimedia.org/wiki/File:20220606-L1000240.jpg",
+          "author": "Thomas Berwing",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vodafone Park-",
+          "url": "https://commons.wikimedia.org/wiki/File:Vodafone_Park-.jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vodafone Park, Istanbul (from outside)",
+          "url": "https://commons.wikimedia.org/wiki/File:Vodafone_Park,_Istanbul_(from_outside).jpg",
+          "author": "Olos88",
+          "license": "CC0"
+        },
+        {
+          "title": "Besiktas Stadion - Istambul, 2014.10.24 (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Besiktas_Stadion_-_Istambul,_2014.10.24_(1).JPG",
+          "author": "Derzsi Elekes Andor",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-vodafone-park.glb",
+      "source": "generators/istanbul-vodafone-park.ts"
+    },
+    {
+      "id": "istanbul-walled-obelisk",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "obelisk",
+        "byzantine",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Walled Obelisk",
+          "url": "https://commons.wikimedia.org/wiki/File:Walled_Obelisk.jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Turkey-03247 - Walled Obelisk (11312655706)",
+          "url": "https://commons.wikimedia.org/wiki/File:Turkey-03247_-_Walled_Obelisk_(11312655706).jpg",
+          "author": "Dennis G. Jarvis",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Obelisco de Constantino, Estambul, Turquía, 2024-09-28, DD 131",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisco_de_Constantino,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_131.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Walled Obelisk Front",
+          "url": "https://commons.wikimedia.org/wiki/File:Walled_Obelisk_Front.jpg",
+          "author": "Uğur Başak",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Walled Obelisk Back",
+          "url": "https://commons.wikimedia.org/wiki/File:Walled_Obelisk_Back.jpg",
+          "author": "Uğur Başak",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Walled Obelisk, Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Walled_Obelisk,_Istanbul.jpg",
+          "author": "Dudva",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-walled-obelisk.glb",
+      "source": "generators/istanbul-walled-obelisk.ts"
+    },
+    {
+      "id": "istanbul-yedikule-fortress",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "ottoman",
+        "byzantine",
+        "fortress",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The Fortress of the Seven Towers against the land walls: a pentagon of high crenellated walls with three round Ottoman towers and their drums, the Golden Gate's two marble pylons and walled-up triple gate, the land-wall towers and the outer wall.",
+      "references": [
+        {
+          "title": "Yedikule Hisarı Hazine Kulesi.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule_Hisarı_Hazine_Kulesi.jpg",
+          "author": "Canercangul",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Yedikule Hisarı Top Kulesi.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule_Hisarı_Top_Kulesi.jpg",
+          "author": "Canercangul",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Yedikule Hisarı Zindan Kulesi.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule_Hisarı_Zindan_Kulesi.jpg",
+          "author": "Canercangul",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "YEDİKULE HİSARI.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:YEDİKULE_HİSARI.jpg",
+          "author": "Elif Erol9",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Yedikule Fortress, September 2025 07.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule_Fortress,_September_2025_07.jpg",
+          "author": "Richard Nevell",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Yedikule Fortress, September 2025 06.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule_Fortress,_September_2025_06.jpg",
+          "author": "Richard Nevell",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Yedikule Hisari - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule_Hisari_-_panoramio.jpg",
+          "author": "Mister No",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Yedikule-2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yedikule-2.jpg",
+          "author": "Dick Osseman",
+          "license": "CC-BY-SA-3.0"
+        }
+      ],
+      "file": "models/istanbul-yedikule-fortress.glb",
+      "source": "generators/istanbul-yedikule-fortress.ts"
+    },
+    {
       "id": "knight-theater",
       "file": "models/knight-theater.glb",
       "license": "CC0-1.0",
@@ -49184,6 +52378,874 @@
       "place": "charlotte-area"
     },
     {
+      "id": "istanbul-anadolu-hisari",
+      "name": "Anadolu Hisarı",
+      "model": "istanbul-anadolu-hisari",
+      "place": "istanbul",
+      "lng": 29.067043,
+      "lat": 41.082094,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q81650",
+      "replaces": [
+        "relation/13234926",
+        "way/984747660",
+        "way/984747661",
+        "way/984747664"
+      ]
+    },
+    {
+      "id": "istanbul-ataturk-cultural-center",
+      "name": "Atatürk Cultural Center",
+      "model": "istanbul-ataturk-cultural-center",
+      "place": "istanbul",
+      "lng": 28.988264,
+      "lat": 41.036578,
+      "bearing": 285,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q551685",
+      "replaces": [
+        "way/1033333873"
+      ]
+    },
+    {
+      "id": "istanbul-ataturk-olympic-stadium",
+      "name": "Atatürk Olympic Stadium",
+      "model": "istanbul-ataturk-olympic-stadium",
+      "place": "istanbul",
+      "lng": 28.765662,
+      "lat": 41.074474,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q221122",
+      "replaces": [
+        "relation/1661301",
+        "way/35875788",
+        "way/35875800"
+      ]
+    },
+    {
+      "id": "istanbul-beyazit-tower",
+      "name": "Beyazıt Tower",
+      "model": "istanbul-beyazit-tower",
+      "place": "istanbul",
+      "lng": 28.964896,
+      "lat": 41.012786,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q853029",
+      "replaces": [
+        "way/639302102"
+      ]
+    },
+    {
+      "id": "istanbul-beylerbeyi-palace",
+      "name": "Beylerbeyi Palace",
+      "model": "istanbul-beylerbeyi-palace",
+      "place": "istanbul",
+      "lng": 29.04004,
+      "lat": 41.04272,
+      "bearing": 323.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q794349",
+      "replaces": [
+        "way/61736367"
+      ]
+    },
+    {
+      "id": "istanbul-blue-mosque",
+      "name": "Sultan Ahmed Mosque (Blue Mosque)",
+      "model": "istanbul-blue-mosque",
+      "place": "istanbul",
+      "lng": 28.976653,
+      "lat": 41.005409,
+      "bearing": 313.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q80541",
+      "replaces": [
+        "relation/18055570",
+        "relation/6006925",
+        "relation/6961001",
+        "way/398738723",
+        "way/398738731",
+        "way/398738732",
+        "way/398738733",
+        "way/398738734",
+        "way/398738735",
+        "way/398738736",
+        "way/398738737",
+        "way/398738738",
+        "way/398738739",
+        "way/398738740",
+        "way/398738741",
+        "way/398738742",
+        "way/398745128",
+        "way/399370328",
+        "way/399525192",
+        "way/399525193",
+        "way/399525194",
+        "way/399525196",
+        "way/399525197",
+        "way/399525199",
+        "way/399525200",
+        "way/399525201",
+        "way/399525203",
+        "way/399525207",
+        "way/399525211",
+        "way/399525214",
+        "way/399525220",
+        "way/399525226",
+        "way/399525231",
+        "way/399525235",
+        "way/399525240",
+        "way/399525244",
+        "way/399525248",
+        "way/399525251",
+        "way/399525255",
+        "way/399525260",
+        "way/399900887",
+        "way/400057270",
+        "way/400057271",
+        "way/400057272",
+        "way/400057273",
+        "way/400057274",
+        "way/400319960",
+        "way/400319961",
+        "way/400319962",
+        "way/400319963",
+        "way/400319964",
+        "way/400319965",
+        "way/400319966",
+        "way/400319967",
+        "way/400319968",
+        "way/400555844",
+        "way/400562088",
+        "way/400743042",
+        "way/400743043",
+        "way/400743044",
+        "way/400743045",
+        "way/400743046",
+        "way/400851598",
+        "way/401078312",
+        "way/401078313",
+        "way/401078314",
+        "way/401078315",
+        "way/472957418",
+        "way/473420154",
+        "way/473433860",
+        "way/473433861",
+        "way/473433862",
+        "way/473433863",
+        "way/473433864",
+        "way/473433865",
+        "way/474067241",
+        "way/474453293",
+        "way/474455799",
+        "way/474455800",
+        "way/474455802",
+        "way/474455806",
+        "way/474459839",
+        "way/474459842",
+        "way/474459845",
+        "way/474459848",
+        "way/474464197",
+        "way/474464198",
+        "way/474777662",
+        "way/475315884",
+        "way/475318941",
+        "way/475387957",
+        "way/475390496",
+        "way/475390497",
+        "way/475390498",
+        "way/475390499",
+        "way/476162241",
+        "way/476162242",
+        "way/476162243",
+        "way/548576899"
+      ]
+    },
+    {
+      "id": "istanbul-bosphorus-bridge",
+      "name": "15 July Martyrs Bridge",
+      "model": "istanbul-bosphorus-bridge",
+      "place": "istanbul",
+      "lng": 29.0342407,
+      "lat": 41.0456261,
+      "bearing": 321.7,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q4484",
+      "replaces": [
+        "way/403255158",
+        "way/403255153",
+        "way/403255154",
+        "way/403255157",
+        "way/403142701",
+        "way/403142702",
+        "way/403142703"
+      ]
+    },
+    {
+      "id": "istanbul-bulgarian-church",
+      "name": "Bulgarian St. Stephen Church",
+      "model": "istanbul-bulgarian-church",
+      "place": "istanbul",
+      "lng": 28.949695,
+      "lat": 41.031784,
+      "bearing": 47.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2094950",
+      "replaces": [
+        "way/175519383"
+      ]
+    },
+    {
+      "id": "istanbul-camlica-mosque",
+      "name": "Büyük Çamlıca Mosque",
+      "model": "istanbul-camlica-mosque",
+      "place": "istanbul",
+      "lng": 29.070314,
+      "lat": 41.034436,
+      "bearing": 331.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q18341384",
+      "replaces": [
+        "relation/7534888",
+        "way/437761713",
+        "way/437761714",
+        "way/437761715",
+        "way/437761716",
+        "way/437761717",
+        "way/437761718",
+        "way/437761719",
+        "way/725800952"
+      ]
+    },
+    {
+      "id": "istanbul-camlica-tower",
+      "name": "Çamlıca Tower",
+      "model": "istanbul-camlica-tower",
+      "place": "istanbul",
+      "lng": 29.065541,
+      "lat": 41.016372,
+      "bearing": 44,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q28657490",
+      "replaces": [
+        "way/722961117"
+      ]
+    },
+    {
+      "id": "istanbul-chora",
+      "name": "Chora Church (Kariye Camii)",
+      "model": "istanbul-chora",
+      "place": "istanbul",
+      "lng": 28.939023,
+      "lat": 41.031204,
+      "bearing": 14.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q849489",
+      "replaces": [
+        "relation/7614527",
+        "way/1408839170"
+      ]
+    },
+    {
+      "id": "istanbul-ciragan-palace",
+      "name": "Çırağan Palace",
+      "model": "istanbul-ciragan-palace",
+      "place": "istanbul",
+      "lng": 29.01531,
+      "lat": 41.043471,
+      "bearing": 336.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q273225",
+      "replaces": [
+        "way/498861861"
+      ]
+    },
+    {
+      "id": "istanbul-dolmabahce-clock-tower",
+      "name": "Dolmabahçe Clock Tower",
+      "model": "istanbul-dolmabahce-clock-tower",
+      "place": "istanbul",
+      "lng": 28.996381,
+      "lat": 41.037683,
+      "bearing": 58.8,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q1818013",
+      "replaces": [
+        "way/263949143"
+      ]
+    },
+    {
+      "id": "istanbul-dolmabahce-mosque",
+      "name": "Dolmabahçe Mosque (Bezm-i Âlem Valide Sultan Mosque)",
+      "model": "istanbul-dolmabahce-mosque",
+      "place": "istanbul",
+      "lng": 28.995284,
+      "lat": 41.036721,
+      "bearing": 327.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2086068",
+      "replaces": [
+        "way/498861874",
+        "way/498861873",
+        "way/498861875",
+        "way/498861876",
+        "way/498861877",
+        "way/498861878"
+      ]
+    },
+    {
+      "id": "istanbul-dolmabahce-palace",
+      "name": "Dolmabahçe Palace",
+      "model": "istanbul-dolmabahce-palace",
+      "place": "istanbul",
+      "lng": 29.000826,
+      "lat": 41.039321,
+      "bearing": 338.7,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q274141",
+      "replaces": [
+        "way/175516451",
+        "way/263949162",
+        "way/263949137"
+      ]
+    },
+    {
+      "id": "istanbul-fatih-mosque",
+      "name": "Fatih Mosque",
+      "model": "istanbul-fatih-mosque",
+      "place": "istanbul",
+      "lng": 28.949762,
+      "lat": 41.019748,
+      "bearing": 322.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q756189",
+      "replaces": [
+        "relation/1661399",
+        "relation/4277472",
+        "relation/4277469"
+      ]
+    },
+    {
+      "id": "istanbul-fsm-bridge",
+      "name": "Fatih Sultan Mehmet Bridge",
+      "model": "istanbul-fsm-bridge",
+      "place": "istanbul",
+      "lng": 29.0614008,
+      "lat": 41.0912996,
+      "bearing": 86.5,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q369967",
+      "replaces": [
+        "way/403376607",
+        "way/403376602",
+        "way/403376605",
+        "way/403376606",
+        "way/403379442",
+        "way/403379443",
+        "way/403379444",
+        "way/403379446"
+      ]
+    },
+    {
+      "id": "istanbul-galata-tower",
+      "name": "Galata Tower",
+      "model": "istanbul-galata-tower",
+      "place": "istanbul",
+      "lng": 28.974213,
+      "lat": 41.025634,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q91274",
+      "replaces": [
+        "way/23236783"
+      ]
+    },
+    {
+      "id": "istanbul-german-fountain",
+      "name": "German Fountain",
+      "model": "istanbul-german-fountain",
+      "place": "istanbul",
+      "lng": 28.976676,
+      "lat": 41.007113,
+      "bearing": 37.6,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q322920",
+      "replaces": [
+        "way/109874498"
+      ]
+    },
+    {
+      "id": "istanbul-hagia-irene",
+      "name": "Hagia Irene",
+      "model": "istanbul-hagia-irene",
+      "place": "istanbul",
+      "lng": 28.980963,
+      "lat": 41.009835,
+      "bearing": 40.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q736676",
+      "replaces": [
+        "relation/4742554",
+        "way/776243839",
+        "way/776243840",
+        "way/776243841",
+        "way/776243842",
+        "way/776243843"
+      ]
+    },
+    {
+      "id": "istanbul-hagia-sophia",
+      "name": "Hagia Sophia",
+      "model": "istanbul-hagia-sophia",
+      "place": "istanbul",
+      "lng": 28.979973,
+      "lat": 41.008537,
+      "bearing": 33.2,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q12506",
+      "replaces": [
+        "way/109862851",
+        "way/227758675",
+        "way/305585921",
+        "way/335371711",
+        "way/335371713",
+        "way/335371715",
+        "way/776020481",
+        "way/776020482",
+        "way/776020483",
+        "way/776020484",
+        "way/776020485",
+        "way/776020486",
+        "way/776020487",
+        "way/776020488",
+        "way/776020489",
+        "way/776020490",
+        "way/776020491",
+        "way/776020492",
+        "way/776020495",
+        "way/776020496",
+        "way/776020497",
+        "way/776020498",
+        "way/776067023",
+        "way/776067024",
+        "way/776067025",
+        "way/776067026",
+        "way/776067027",
+        "way/776067028",
+        "way/776067029",
+        "way/776067030",
+        "way/776067031",
+        "way/776067032",
+        "way/776067033",
+        "way/776067034",
+        "way/776086635",
+        "way/776086636",
+        "way/776086637",
+        "way/776086638",
+        "way/776086639",
+        "way/776086640",
+        "way/776086641",
+        "way/776086642",
+        "way/776086643",
+        "way/776086644",
+        "way/776086646",
+        "way/776086647",
+        "way/776086648",
+        "way/776086649",
+        "way/776211441"
+      ]
+    },
+    {
+      "id": "istanbul-kilic-ali-pasha-mosque",
+      "name": "Kılıç Ali Pasha Mosque",
+      "model": "istanbul-kilic-ali-pasha-mosque",
+      "place": "istanbul",
+      "lng": 28.980947,
+      "lat": 41.026416,
+      "bearing": 131,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q862848",
+      "replaces": [
+        "way/165574748"
+      ]
+    },
+    {
+      "id": "istanbul-kuleli-military-school",
+      "name": "Kuleli Military High School",
+      "model": "istanbul-kuleli-military-school",
+      "place": "istanbul",
+      "lng": 29.054077,
+      "lat": 41.058644,
+      "bearing": 351,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q6442920",
+      "replaces": [
+        "relation/4465498",
+        "way/1086211304"
+      ]
+    },
+    {
+      "id": "istanbul-little-hagia-sophia",
+      "name": "Little Hagia Sophia",
+      "model": "istanbul-little-hagia-sophia",
+      "place": "istanbul",
+      "lng": 28.972207,
+      "lat": 41.002744,
+      "bearing": 20,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1144576",
+      "replaces": [
+        "way/303179753"
+      ]
+    },
+    {
+      "id": "istanbul-maidens-tower",
+      "name": "Maiden's Tower",
+      "model": "istanbul-maidens-tower",
+      "place": "istanbul",
+      "lng": 29.004117,
+      "lat": 41.021088,
+      "bearing": 351,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q848397",
+      "replaces": [
+        "way/103821246",
+        "relation/4429796",
+        "way/103821245",
+        "way/398210642",
+        "way/398210643",
+        "way/398219280",
+        "way/398303494",
+        "way/398303919"
+      ]
+    },
+    {
+      "id": "istanbul-mihrimah-sultan-edirnekapi",
+      "name": "Mihrimah Sultan Mosque (Edirnekapı)",
+      "model": "istanbul-mihrimah-sultan-edirnekapi",
+      "place": "istanbul",
+      "lng": 28.935707,
+      "lat": 41.029332,
+      "bearing": 318.1,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1581190",
+      "replaces": [
+        "relation/7318379"
+      ]
+    },
+    {
+      "id": "istanbul-new-mosque",
+      "name": "New Mosque (Yeni Cami)",
+      "model": "istanbul-new-mosque",
+      "place": "istanbul",
+      "lng": 28.972069,
+      "lat": 41.016953,
+      "bearing": 319,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q911720",
+      "replaces": [
+        "relation/7574356"
+      ]
+    },
+    {
+      "id": "istanbul-nusretiye-mosque",
+      "name": "Nusretiye Mosque",
+      "model": "istanbul-nusretiye-mosque",
+      "place": "istanbul",
+      "lng": 28.983152,
+      "lat": 41.027381,
+      "bearing": 146.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q614237",
+      "replaces": [
+        "way/498861882"
+      ]
+    },
+    {
+      "id": "istanbul-obelisk-of-theodosius",
+      "name": "Obelisk of Theodosius",
+      "model": "istanbul-obelisk-of-theodosius",
+      "place": "istanbul",
+      "lng": 28.9754,
+      "lat": 41.005928,
+      "bearing": 37.6,
+      "elevation": -2.2,
+      "minzoom": 16,
+      "wikidata": "Q763854",
+      "replaces": [
+        "way/1120852417"
+      ]
+    },
+    {
+      "id": "istanbul-ortakoy-mosque",
+      "name": "Ortaköy Mosque (Büyük Mecidiye Mosque)",
+      "model": "istanbul-ortakoy-mosque",
+      "place": "istanbul",
+      "lng": 29.026824,
+      "lat": 41.047303,
+      "bearing": 321,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q176380",
+      "replaces": [
+        "way/498861735"
+      ]
+    },
+    {
+      "id": "istanbul-phanar-greek-college",
+      "name": "Phanar Greek Orthodox College",
+      "model": "istanbul-phanar-greek-college",
+      "place": "istanbul",
+      "lng": 28.949358,
+      "lat": 41.029213,
+      "bearing": 40,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q3555000",
+      "replaces": [
+        "way/330352317"
+      ]
+    },
+    {
+      "id": "istanbul-rumeli-hisari",
+      "name": "Rumeli Hisarı",
+      "model": "istanbul-rumeli-hisari",
+      "place": "istanbul",
+      "lng": 29.05612,
+      "lat": 41.084763,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q90801",
+      "replaces": [
+        "relation/7318154"
+      ]
+    },
+    {
+      "id": "istanbul-rustem-pasha-mosque",
+      "name": "Rüstem Pasha Mosque",
+      "model": "istanbul-rustem-pasha-mosque",
+      "place": "istanbul",
+      "lng": 28.968738,
+      "lat": 41.017662,
+      "bearing": 315.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1137511",
+      "replaces": [
+        "way/175518494"
+      ]
+    },
+    {
+      "id": "istanbul-sapphire",
+      "name": "Istanbul Sapphire",
+      "model": "istanbul-sapphire",
+      "place": "istanbul",
+      "lng": 29.00605,
+      "lat": 41.084961,
+      "bearing": 357.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q166882",
+      "replaces": [
+        "way/156828034",
+        "way/673790538"
+      ]
+    },
+    {
+      "id": "istanbul-serpent-column",
+      "name": "Serpent Column",
+      "model": "istanbul-serpent-column",
+      "place": "istanbul",
+      "lng": 28.97511,
+      "lat": 41.005665,
+      "bearing": 0,
+      "elevation": -3.2,
+      "minzoom": 16,
+      "wikidata": "Q588892",
+      "replaces": []
+    },
+    {
+      "id": "istanbul-suleymaniye",
+      "name": "Süleymaniye Mosque",
+      "model": "istanbul-suleymaniye",
+      "place": "istanbul",
+      "lng": 28.963825,
+      "lat": 41.01624,
+      "bearing": 137.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q178643",
+      "replaces": [
+        "relation/1564032",
+        "way/121471149",
+        "way/642004197",
+        "way/642004198",
+        "way/642004946",
+        "way/642004947",
+        "way/642004948",
+        "way/642004949",
+        "way/642004950",
+        "way/642004951"
+      ]
+    },
+    {
+      "id": "istanbul-taksim-republic-monument",
+      "name": "Republic Monument",
+      "model": "istanbul-taksim-republic-monument",
+      "place": "istanbul",
+      "lng": 28.985118,
+      "lat": 41.036999,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q1143790",
+      "replaces": []
+    },
+    {
+      "id": "istanbul-topkapi-imperial-gate",
+      "name": "Imperial Gate (Bâb-ı Hümâyûn)",
+      "model": "istanbul-topkapi-imperial-gate",
+      "place": "istanbul",
+      "lng": 28.981487,
+      "lat": 41.008597,
+      "bearing": 43.2,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q21097852",
+      "replaces": [
+        "way/335364925"
+      ]
+    },
+    {
+      "id": "istanbul-topkapi-justice-tower",
+      "name": "Tower of Justice",
+      "model": "istanbul-topkapi-justice-tower",
+      "place": "istanbul",
+      "lng": 28.983341,
+      "lat": 41.012458,
+      "bearing": 26.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q20470393",
+      "replaces": [
+        "way/335402653"
+      ]
+    },
+    {
+      "id": "istanbul-university-gate",
+      "name": "Istanbul University Gate",
+      "model": "istanbul-university-gate",
+      "place": "istanbul",
+      "lng": 28.964231,
+      "lat": 41.010991,
+      "bearing": 349,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q134728582",
+      "replaces": [
+        "way/110016998"
+      ]
+    },
+    {
+      "id": "istanbul-valens-aqueduct",
+      "name": "Valens Aqueduct",
+      "model": "istanbul-valens-aqueduct",
+      "place": "istanbul",
+      "lng": 28.955149,
+      "lat": 41.016187,
+      "bearing": 35,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q952924",
+      "replaces": [
+        "way/23276526"
+      ]
+    },
+    {
+      "id": "istanbul-vodafone-park",
+      "name": "Tüpraş Stadium (Vodafone Park)",
+      "model": "istanbul-vodafone-park",
+      "place": "istanbul",
+      "lng": 28.994412,
+      "lat": 41.039443,
+      "bearing": 322.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q14914703",
+      "replaces": [
+        "relation/6554433",
+        "way/489743779"
+      ]
+    },
+    {
+      "id": "istanbul-walled-obelisk",
+      "name": "Walled Obelisk",
+      "model": "istanbul-walled-obelisk",
+      "place": "istanbul",
+      "lng": 28.974842,
+      "lat": 41.005405,
+      "bearing": 41,
+      "elevation": -1.5,
+      "minzoom": 16,
+      "wikidata": "Q742474",
+      "replaces": [
+        "way/1120852418"
+      ]
+    },
+    {
+      "id": "istanbul-yedikule-fortress",
+      "name": "Yedikule Fortress",
+      "model": "istanbul-yedikule-fortress",
+      "place": "istanbul",
+      "lng": 28.923205,
+      "lat": 40.993116,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q632795",
+      "replaces": [
+        "way/1035943038",
+        "way/23272351",
+        "way/23272349",
+        "way/23272345",
+        "way/23272337",
+        "way/23272338",
+        "way/23272340"
+      ]
+    },
+    {
       "id": "knight-theater",
       "name": "Knight Theater",
       "model": "knight-theater",
@@ -58967,6 +63029,12 @@
       "id": "houston-area",
       "name": "Houston area",
       "kind": "region"
+    },
+    {
+      "id": "istanbul",
+      "name": "Istanbul",
+      "kind": "city",
+      "wikidata": "Q406"
     },
     {
       "id": "las-vegas-area",
