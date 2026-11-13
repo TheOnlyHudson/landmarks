@@ -36583,6 +36583,48 @@
       ],
       "file": "models/dubai-address-sky-view.glb",
       "source": "generators/dubai-address-sky-view.ts"
+    },
+    {
+      "id": "dubai-millennium-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "residential"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "285 m residential tower on Sheikh Zayed Road (2006): dark glass between white braced end frames, a slotted silver crown and a needle spire.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "053-DSC07075",
+          "url": "https://www.flickr.com/photos/31929940@N00/24940164833",
+          "author": "Bazsi1979",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "037-DSC07004",
+          "url": "https://www.flickr.com/photos/31929940@N00/25448279882",
+          "author": "Bazsi1979",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dubai-millennium-tower.glb",
+      "source": "generators/dubai-millennium-tower.ts"
     }
   ],
   "landmarks": [
@@ -53802,6 +53844,21 @@
         "way/1099630423",
         "way/1099630424"
       ]
+    },
+    {
+      "id": "dubai-millennium-tower",
+      "name": "Millennium Tower",
+      "model": "dubai-millennium-tower",
+      "place": "dubai",
+      "lng": 55.265865,
+      "lat": 25.1948367,
+      "bearing": 41,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/203296254"
+      ],
+      "wikidata": "Q623517"
     }
   ],
   "places": [
