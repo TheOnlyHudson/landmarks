@@ -17538,6 +17538,76 @@
       "source": "generators/istanbul-blue-mosque.ts"
     },
     {
+      "id": "istanbul-galata-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tower",
+        "genoese",
+        "medieval",
+        "observation",
+        "museum",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Istanbul Galata Tower IMG 8211 1920",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Galata_Tower_IMG_8211_1920.jpg",
+          "author": "Alexxx1979",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Galata tower 01 23",
+          "url": "https://commons.wikimedia.org/wiki/File:Galata_tower_01_23.jpg",
+          "author": "GrandEscogriffe",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Galata Kulesi - 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Galata_Kulesi_-_01.jpg",
+          "author": "Carlos Delgado",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Galata Kulesi (07052023)",
+          "url": "https://commons.wikimedia.org/wiki/File:Galata_Kulesi_(07052023).jpg",
+          "author": "HuseynAZE99",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Galata Kulesi Museum",
+          "url": "https://commons.wikimedia.org/wiki/File:Galata_Kulesi_Museum.jpg",
+          "author": "Thehiddenphotographer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Galata Kulesi 2026",
+          "url": "https://commons.wikimedia.org/wiki/File:Galata_Kulesi_2026.jpg",
+          "author": "Chromehoney",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-galata-tower.glb",
+      "source": "generators/istanbul-galata-tower.ts"
+    },
+    {
       "id": "istanbul-german-fountain",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45948,6 +46018,21 @@
         "way/476162242",
         "way/476162243",
         "way/548576899"
+      ]
+    },
+    {
+      "id": "istanbul-galata-tower",
+      "name": "Galata Tower",
+      "model": "istanbul-galata-tower",
+      "place": "istanbul",
+      "lng": 28.974213,
+      "lat": 41.025634,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q91274",
+      "replaces": [
+        "way/23236783"
       ]
     },
     {
