@@ -21463,6 +21463,79 @@
       "source": "generators/mexico-city-metropolitan-cathedral.ts"
     },
     {
+      "id": "mexico-city-monumento-a-alvaro-obregon",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "art-deco",
+        "memorial",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "MonumentAlvaroObrgonDF.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:MonumentAlvaroObrgonDF.JPG",
+          "author": "Thelmadatter",
+          "license": "Public domain"
+        },
+        {
+          "title": "Monumento a Alvaro Obregon.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_Alvaro_Obregon.jpg",
+          "author": "Natalia.castilloo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "002304-001 MONUMENTO ÁLVARO OBREGÓN (32251569108).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:002304-001_MONUMENTO_%C3%81LVARO_OBREG%C3%93N_(32251569108).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Esquina Norte del Monumento a Álvaro Obregón 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Esquina_Norte_del_Monumento_a_%C3%81lvaro_Obreg%C3%B3n_2.jpg",
+          "author": "Matrodgian",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Costado del Monumento a Álvaro Obregón.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Costado_del_Monumento_a_%C3%81lvaro_Obreg%C3%B3n.jpg",
+          "author": "Ehécatl Cabrera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monumento a Obregón - 2026 - 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_Obreg%C3%B3n_-_2026_-_04.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Costado derecho del monumento a Álvaro Obregón.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Costado_derecho_del_monumento_a_%C3%81lvaro_Obreg%C3%B3n.jpg",
+          "author": "Leana.mg",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-monumento-a-alvaro-obregon.glb",
+      "source": "generators/mexico-city-monumento-a-alvaro-obregon.ts"
+    },
+    {
       "id": "mexico-city-monumento-a-la-raza",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -50465,6 +50538,18 @@
         "way/1050204077",
         "way/1050204882"
       ]
+    },
+    {
+      "id": "mexico-city-monumento-a-alvaro-obregon",
+      "name": "Monumento a Álvaro Obregón",
+      "model": "mexico-city-monumento-a-alvaro-obregon",
+      "place": "mexico-city",
+      "lng": -99.1859298,
+      "lat": 19.3471875,
+      "bearing": 107.4,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
     },
     {
       "id": "mexico-city-monumento-a-la-raza",
