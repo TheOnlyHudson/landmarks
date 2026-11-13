@@ -20895,6 +20895,63 @@
       "source": "generators/mexico-city-hemiciclo-a-juarez.ts"
     },
     {
+      "id": "mexico-city-kiosco-morisco",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "pavilion",
+        "kiosk",
+        "moorish-revival",
+        "cast-iron",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kiosco Morisco de Santa María la Ribera 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kiosco_Morisco_de_Santa_Mar%C3%ADa_la_Ribera_1.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kiosco Morisco de Santa María la Ribera 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kiosco_Morisco_de_Santa_Mar%C3%ADa_la_Ribera_3.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kiosco Morisco Mexico.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kiosco_Morisco_Mexico.jpg",
+          "author": "Ulisesmorales",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Kiosco Morisco dia.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Kiosco_Morisco_dia.JPG",
+          "author": "Tanke67",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-kiosco-morisco.glb",
+      "source": "generators/mexico-city-kiosco-morisco.ts"
+    },
+    {
       "id": "mexico-city-la-profesa",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -49296,6 +49353,22 @@
         "way/992941278"
       ],
       "wikidata": "Q4020213"
+    },
+    {
+      "id": "mexico-city-kiosco-morisco",
+      "name": "Kiosco Morisco",
+      "model": "mexico-city-kiosco-morisco",
+      "place": "mexico-city",
+      "lng": -99.156854,
+      "lat": 19.449664,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q54820837",
+      "replaces": [
+        "way/491159204",
+        "way/1137755090"
+      ]
     },
     {
       "id": "mexico-city-la-profesa",
