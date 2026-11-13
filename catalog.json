@@ -17457,6 +17457,117 @@
       "source": "generators/istanbul-blue-mosque.ts"
     },
     {
+      "id": "istanbul-hagia-irene",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "byzantine",
+        "museum",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hagia Irene exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_exterior.JPG",
+          "author": "Mattias Hill",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hagia Irene, Istanbul (52112279404)",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene,_Istanbul_(52112279404).jpg",
+          "author": "Ninara",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Hagia Irene, Istanbul, 20260605 1123 1116",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene,_Istanbul,_20260605_1123_1116.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Hagia Irene, Istanbul, 20260605 1123 1115",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene,_Istanbul,_20260605_1123_1115.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Hagia Irene with Hagia Sophia at the back, İstanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_with_Hagia_Sophia_at_the_back,_%C4%B0stanbul.JPG",
+          "author": "Berkay0652",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hagia Irene (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_(1).jpg",
+          "author": "Jaba1977",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hagia Irene (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_(2).jpg",
+          "author": "Jaba1977",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hagia Irene church",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_church.JPG",
+          "author": "Mattias Hill",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Hagia Eirene SE Side in 2006 13 7532",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Hagia_Eirene_SE_Side_in_2006_13_7532.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Hagia Eirene SE Side in 2015 03 5534",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Hagia_Eirene_SE_Side_in_2015_03_5534.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hagia Irene - Topkapı Palace, Cankurtaran, Fatih, İstanbul, Turkey - October 10, 2025 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_-_Topkap%C4%B1_Palace,_Cankurtaran,_Fatih,_%C4%B0stanbul,_Turkey_-_October_10,_2025_01.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hagia Irene - Topkapı Palace, Cankurtaran, Fatih, İstanbul, Turkey - October 10, 2025 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Irene_-_Topkap%C4%B1_Palace,_Cankurtaran,_Fatih,_%C4%B0stanbul,_Turkey_-_October_10,_2025_02.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aya İrini - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Aya_%C4%B0rini_-_panoramio.jpg",
+          "author": "Mister No",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/istanbul-hagia-irene.glb",
+      "source": "generators/istanbul-hagia-irene.ts"
+    },
+    {
       "id": "istanbul-hagia-sophia",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45320,6 +45431,26 @@
         "way/476162242",
         "way/476162243",
         "way/548576899"
+      ]
+    },
+    {
+      "id": "istanbul-hagia-irene",
+      "name": "Hagia Irene",
+      "model": "istanbul-hagia-irene",
+      "place": "istanbul",
+      "lng": 28.980963,
+      "lat": 41.009835,
+      "bearing": 40.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q736676",
+      "replaces": [
+        "relation/4742554",
+        "way/776243839",
+        "way/776243840",
+        "way/776243841",
+        "way/776243842",
+        "way/776243843"
       ]
     },
     {
