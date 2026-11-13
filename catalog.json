@@ -36532,6 +36532,57 @@
       ],
       "file": "models/dubai-address-downtown.glb",
       "source": "generators/dubai-address-downtown.ts"
+    },
+    {
+      "id": "dubai-address-sky-view",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "skyscraper",
+        "twin-towers",
+        "skybridge",
+        "observation-deck"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Twin hotel and residential towers (SOM, 2019) joined near the top by the cantilevered Sky Views bridge.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Burdg el Khalifa 20.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burdg_el_Khalifa_20.jpg",
+          "author": "Leon petrosyan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Burg ek Khalifa 23.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burg_ek_Khalifa_23.jpg",
+          "author": "Leon petrosyan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Burg el Khalifa 25.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burg_el_Khalifa_25.jpg",
+          "author": "Leon petrosyan",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dubai-address-sky-view.glb",
+      "source": "generators/dubai-address-sky-view.ts"
     }
   ],
   "landmarks": [
@@ -53717,6 +53768,40 @@
         "way/532836513"
       ],
       "wikidata": "Q677823"
+    },
+    {
+      "id": "dubai-address-sky-view",
+      "name": "Address Sky View",
+      "model": "dubai-address-sky-view",
+      "place": "dubai",
+      "lng": 55.2706598,
+      "lat": 25.2014355,
+      "bearing": 54,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/1041684723",
+        "way/723558047",
+        "way/723558400",
+        "way/723558399",
+        "way/934665040",
+        "way/934420755",
+        "way/934420756",
+        "way/934420757",
+        "way/946921563",
+        "way/946921564",
+        "way/946921565",
+        "way/946921566",
+        "way/946921567",
+        "way/946921568",
+        "way/946921569",
+        "way/946921570",
+        "way/1099630420",
+        "way/1099630421",
+        "way/1099630422",
+        "way/1099630423",
+        "way/1099630424"
+      ]
     }
   ],
   "places": [
