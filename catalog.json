@@ -10279,6 +10279,72 @@
       "source": "generators/cpt-clock-tower-va.ts"
     },
     {
+      "id": "cpt-green-point-lighthouse",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "lighthouse",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Green Point Lighthouse (Rabich 3566)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Green_Point_Lighthouse_--_2024_--_3566.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Green Point Lighthouse (Rabich 3569)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Green_Point_Lighthouse_--_2024_--_3569.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Green Point Lighthouse (Rabich 3575)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Green_Point_Lighthouse_--_2024_--_3575.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Green Point Lighthouse",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Green_Point_Lighthouse.jpg",
+          "author": "Hilton Teper",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Green Point Lighthouse (11270413295)",
+          "url": "https://commons.wikimedia.org/wiki/File:Green_Point_Lighthouse_(11270413295).jpg",
+          "author": "Darren Glanville",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Green Point Lighthouse - Side view",
+          "url": "https://commons.wikimedia.org/wiki/File:Green_Point_Lighthouse_Green_Point_Cape_Town_-_Side_view.JPG",
+          "author": "Debbie Louise Lloyd",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/cpt-green-point-lighthouse.glb",
+      "source": "generators/cpt-green-point-lighthouse.ts"
+    },
+    {
       "id": "cpt-groote-kerk",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46106,6 +46172,21 @@
         "way/158441581"
       ],
       "wikidata": "Q55634395"
+    },
+    {
+      "id": "cpt-green-point-lighthouse",
+      "name": "Green Point Lighthouse",
+      "model": "cpt-green-point-lighthouse",
+      "place": "cape-town",
+      "lng": 18.3999212,
+      "lat": -33.9014222,
+      "bearing": 55.6,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/134572381"
+      ],
+      "wikidata": "Q3642248"
     },
     {
       "id": "cpt-groote-kerk",
