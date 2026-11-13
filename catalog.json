@@ -17834,6 +17834,74 @@
       "source": "generators/istanbul-bulgarian-church.ts"
     },
     {
+      "id": "istanbul-camlica-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "religious",
+        "neo-ottoman",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Çamlıca Mosque",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87aml%C4%B1ca_Mosque.jpg",
+          "author": "Kingbjelica",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Çamlıca Mosque viewed from Galata Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87aml%C4%B1ca_Mosque_viewed_from_Galata_Tower.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0"
+        },
+        {
+          "title": "Istanbul Big Çamlıca Mosque View from NW in 2019 2036",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Big_%C3%87aml%C4%B1ca_Mosque_View_from_NW_in_2019_2036.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Istanbul Big Çamlıca Mosque View from SW in 2019 2021",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Big_%C3%87aml%C4%B1ca_Mosque_View_from_SW_in_2019_2021.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Camlica-2018-06-14",
+          "url": "https://commons.wikimedia.org/wiki/File:Camlica-2018-06-14.jpg",
+          "author": "Håkan Henriksson (Narking)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Çamlıca Mosque front view",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87aml%C4%B1ca_Mosque_front_view.jpg",
+          "author": "Mondo79 from Freiburg, Germany",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/istanbul-camlica-mosque.glb",
+      "source": "generators/istanbul-camlica-mosque.ts"
+    },
+    {
       "id": "istanbul-chora",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47614,6 +47682,29 @@
       "wikidata": "Q2094950",
       "replaces": [
         "way/175519383"
+      ]
+    },
+    {
+      "id": "istanbul-camlica-mosque",
+      "name": "Büyük Çamlıca Mosque",
+      "model": "istanbul-camlica-mosque",
+      "place": "istanbul",
+      "lng": 29.070314,
+      "lat": 41.034436,
+      "bearing": 331.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q18341384",
+      "replaces": [
+        "relation/7534888",
+        "way/437761713",
+        "way/437761714",
+        "way/437761715",
+        "way/437761716",
+        "way/437761717",
+        "way/437761718",
+        "way/437761719",
+        "way/725800952"
       ]
     },
     {
