@@ -25346,6 +25346,81 @@
       "source": "generators/london-leadenhall-building.ts"
     },
     {
+      "id": "london-trellick-tower",
+      "file": "models/london-trellick-tower.glb",
+      "source": "generators/london-trellick-tower.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "brutalist",
+        "residential",
+        "social-housing",
+        "listed"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "Ernő Goldfinger's 1972 council tower: a 31-storey slab and its separate service tower, joined by a bridge on every third floor, with the boiler house cantilevered from the top.",
+      "references": [
+        {
+          "title": "Trellick Tower front view.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Trellick_Tower_front_view.jpg",
+          "author": "Ethan Nunn",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Trellick Tower - 2025-11-02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Trellick_Tower_-_2025-11-02.jpg",
+          "author": "Sludge G",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Trellick Tower south.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Trellick_Tower_south.jpg",
+          "author": "Graeme Maclean",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Trellick Tower north side HDR.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Trellick_Tower_north_side_HDR.jpg",
+          "author": "Graeme Maclean",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Trellick Tower west side.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Trellick_Tower_west_side.jpg",
+          "author": "Graeme Maclean",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Trellick Tower 06.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Trellick_Tower_06.JPG",
+          "author": "Edwardx",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Trellick Tower 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Trellick_Tower_2.jpg",
+          "author": "Rc1959",
+          "license": "CC0-1.0"
+        }
+      ]
+    },
+    {
       "id": "lv-allegiant-stadium",
       "file": "models/lv-allegiant-stadium.glb",
       "license": "CC0-1.0",
@@ -54557,6 +54632,23 @@
         "way/1138764583"
       ],
       "wikidata": "Q2742547"
+    },
+    {
+      "id": "london-trellick-tower",
+      "name": "Trellick Tower",
+      "model": "london-trellick-tower",
+      "place": "london",
+      "lng": -0.2054234,
+      "lat": 51.5236249,
+      "bearing": 23,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1571416",
+      "replaces": [
+        "way/57721739",
+        "way/777427856",
+        "way/85866116"
+      ]
     },
     {
       "id": "lv-allegiant-stadium",
