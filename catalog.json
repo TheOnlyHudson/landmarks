@@ -79,6 +79,87 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "amsterdam-royal-palace",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "palace",
+        "historic",
+        "town-hall",
+        "classicism"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1056152",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Palacio Real, Ámsterdam, Países Bajos, 2016-05-30, DD 07-09 HDR",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Real,_%C3%81msterdam,_Pa%C3%ADses_Bajos,_2016-05-30,_DD_07-09_HDR.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Paleis op de Dam 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Paleis_op_de_Dam_1.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Paleis op de Dam Turm",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Paleis_op_de_Dam_Turm.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Overzicht Koninklijk Paleis op de Dam met rechts de Nieuwe Kerk (RCE 20528550)",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_Koninklijk_Paleis_op_de_Dam_met_rechts_de_Nieuwe_Kerk_-_Amsterdam_-_20528550_-_RCE.jpg",
+          "author": "Chris Booms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Overzicht Koninklijk Paleis Amsterdam, zijde Nieuwezijds Voorburgwal (RCE 20528557)",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_Koninklijk_Paleis_Amsterdam,_zijde_Nieuwezijds_Voorburgwal_-_Amsterdam_-_20528557_-_RCE.jpg",
+          "author": "Chris Booms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gezicht over de daken van het Koninklijk Paleis (RCE 20528588)",
+          "url": "https://commons.wikimedia.org/wiki/File:Gezicht_over_de_daken_van_het_Koninklijk_Paleis_in_noordwestelijke_richting_-_Amsterdam_-_20528588_-_RCE.jpg",
+          "author": "Chris Booms",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam (NL), Koninklijk Paleis -- 2015 -- 7193",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Koninklijk_Paleis_--_2015_--_7193.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Paleis op de Dam, Nieuwezijds Voorburgwal 147",
+          "url": "https://commons.wikimedia.org/wiki/File:Paleis_op_de_Dam,_Nieuwezijds_Voorburgwal_147.JPG",
+          "author": "Marcelmulder68",
+          "license": "CC BY-SA 3.0 NL"
+        }
+      ],
+      "file": "models/amsterdam-royal-palace.glb",
+      "source": "generators/amsterdam-royal-palace.ts"
+    },
+    {
       "id": "ascendus",
       "file": "models/ascendus.glb",
       "license": "CC0-1.0",
@@ -36970,6 +37051,39 @@
         "way/432937734"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "amsterdam-royal-palace",
+      "name": "Royal Palace (Koninklijk Paleis)",
+      "model": "amsterdam-royal-palace",
+      "place": "amsterdam",
+      "lng": 4.891336,
+      "lat": 52.373148,
+      "bearing": 1.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1056152",
+      "replaces": [
+        "relation/3580875",
+        "way/748659170",
+        "way/748659171",
+        "way/748659172",
+        "way/748659173",
+        "way/748659174",
+        "way/748659175",
+        "way/748659176",
+        "way/748659177",
+        "way/748659178",
+        "way/748659179",
+        "way/748659180",
+        "way/748659181",
+        "way/748659182",
+        "way/748659183",
+        "way/748659184",
+        "way/748659185",
+        "way/748659186",
+        "way/748659187"
+      ]
     },
     {
       "id": "ascendus",
