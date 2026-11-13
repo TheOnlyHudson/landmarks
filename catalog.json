@@ -17457,6 +17457,142 @@
       "source": "generators/istanbul-blue-mosque.ts"
     },
     {
+      "id": "istanbul-hagia-sophia",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "mosque",
+        "byzantine",
+        "dome",
+        "minaret",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "Justinian's 6th-century cathedral, a mosque since 1453: the 31 m lead dome on its ring of 40 windows, the east and west semi-domes with their exedrae, the red-orange tympanum arches between the pier towers, the great buttresses, and four different Ottoman minarets, the red-brick one at the south-east.",
+      "references": [
+        {
+          "title": "Hagia Sophia Mars 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013.jpg",
+          "author": "Arild Vågen",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Hagia Sophia Mars 2013 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013_01.jpg",
+          "author": "Arild Vågen",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Hagia Sophia in Istanbul (focused on the original Roman building).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_in_Istanbul_(focused_on_the_original_Roman_building).jpg",
+          "author": "Maskaravivek",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Hagia Sophia - Exterior with the sultans' tombs.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_-_Exterior_with_the_sultans'_tombs.jpg",
+          "author": "Alena Belova for Exhibo",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "View of Hagia Sophia from the Galata Tower (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Hagia_Sophia_from_the_Galata_Tower_(1).jpg",
+          "author": "José Luiz",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Hagia Sophia from Galata Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_from_Galata_Tower.jpg",
+          "author": "Vassillis",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Istanbul Hagia Sophia Sultanahmed.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Hagia_Sophia_Sultanahmed.JPG",
+          "author": "Julian Nyča",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Minarets of Hagia Sophia, Istanbul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Minarets_of_Hagia_Sophia,_Istanbul.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Hagia Sophia 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_2017.jpg",
+          "author": "Nserrano",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Hagia Sophia exterior SE side in 2016 9183.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_exterior_SE_side_in_2016_9183.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Hagia Sophia exterior 2007 005.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_exterior_2007_005.jpg",
+          "author": "Gryffindor",
+          "license": "Public domain"
+        },
+        {
+          "title": "Hagia Sophia - Blick vom Park des Topkapi-Palastes.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_-_Blick_vom_Park_des_Topkapi-Palastes.jpg",
+          "author": "Johann H. Addicks",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Hagia Sophia February 2013 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_February_2013_02.jpg",
+          "author": "Arild Vågen",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Hagia Sophia light.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_light.JPG",
+          "author": "Kirua",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "ETH-BIB-Hagia Sophia, Istanbul-Weitere-LBS MH02-27-0062.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Hagia_Sophia,_Istanbul-Weitere-LBS_MH02-27-0062.tif",
+          "author": "Walter Mittelholzer",
+          "license": "Public domain"
+        },
+        {
+          "title": "ETH-BIB-Hagia Sophia, Instanbul-Weitere-LBS MH02-27-0063.tif",
+          "url": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Hagia_Sophia,_Instanbul-Weitere-LBS_MH02-27-0063.tif",
+          "author": "Walter Mittelholzer",
+          "license": "Public domain"
+        },
+        {
+          "title": "Hagia-Sophia-Laengsschnitt.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hagia-Sophia-Laengsschnitt.jpg",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/istanbul-hagia-sophia.glb",
+      "source": "generators/istanbul-hagia-sophia.ts"
+    },
+    {
       "id": "knight-theater",
       "file": "models/knight-theater.glb",
       "license": "CC0-1.0",
@@ -44853,6 +44989,69 @@
         "way/476162242",
         "way/476162243",
         "way/548576899"
+      ]
+    },
+    {
+      "id": "istanbul-hagia-sophia",
+      "name": "Hagia Sophia",
+      "model": "istanbul-hagia-sophia",
+      "place": "istanbul",
+      "lng": 28.979973,
+      "lat": 41.008537,
+      "bearing": 33.2,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q12506",
+      "replaces": [
+        "way/109862851",
+        "way/227758675",
+        "way/305585921",
+        "way/335371711",
+        "way/335371713",
+        "way/335371715",
+        "way/776020481",
+        "way/776020482",
+        "way/776020483",
+        "way/776020484",
+        "way/776020485",
+        "way/776020486",
+        "way/776020487",
+        "way/776020488",
+        "way/776020489",
+        "way/776020490",
+        "way/776020491",
+        "way/776020492",
+        "way/776020495",
+        "way/776020496",
+        "way/776020497",
+        "way/776020498",
+        "way/776067023",
+        "way/776067024",
+        "way/776067025",
+        "way/776067026",
+        "way/776067027",
+        "way/776067028",
+        "way/776067029",
+        "way/776067030",
+        "way/776067031",
+        "way/776067032",
+        "way/776067033",
+        "way/776067034",
+        "way/776086635",
+        "way/776086636",
+        "way/776086637",
+        "way/776086638",
+        "way/776086639",
+        "way/776086640",
+        "way/776086641",
+        "way/776086642",
+        "way/776086643",
+        "way/776086644",
+        "way/776086646",
+        "way/776086647",
+        "way/776086648",
+        "way/776086649",
+        "way/776211441"
       ]
     },
     {
