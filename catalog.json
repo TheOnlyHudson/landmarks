@@ -6954,6 +6954,67 @@
       "source": "generators/barcelona-hotel-arts.ts"
     },
     {
+      "id": "barcelona-hotel-w",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vela Hotel W Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vela_Hotel_W_Barcelona.jpg",
+          "author": "Bj.schoenmakers",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "W Barcelona 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:W_Barcelona_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Hotel vela W, Barcelona, Catalunya, España.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_vela_W,_Barcelona,_Catalunya,_Espa%C3%B1a.jpg",
+          "author": "Iván Melenchón Serrano",
+          "license": "CC0"
+        },
+        {
+          "title": "Hotel Vela (1).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Vela_(1).JPG",
+          "author": "Ardfern",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "W Barcelona (Hotel Vela) des del mar 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:W_Barcelona_(Hotel_Vela)_des_del_mar_01.jpg",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-hotel-w.glb",
+      "source": "generators/barcelona-hotel-w.ts"
+    },
+    {
       "id": "barcelona-palau-musica",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -43502,6 +43563,72 @@
         "way/35816740"
       ],
       "wikidata": "Q1425790"
+    },
+    {
+      "id": "barcelona-hotel-w",
+      "name": "W Barcelona (Hotel Vela)",
+      "model": "barcelona-hotel-w",
+      "place": "barcelona",
+      "lng": 2.190056,
+      "lat": 41.368745,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "relation/21282017",
+        "way/908035013",
+        "relation/15019747",
+        "way/646553854",
+        "way/1123149966",
+        "way/1123149967",
+        "way/1123149968",
+        "way/1123149969",
+        "way/1123149970",
+        "way/1123149971",
+        "way/1123149972",
+        "way/1123149973",
+        "way/1123149974",
+        "way/1123149975",
+        "way/1123149976",
+        "way/1123149977",
+        "way/1123149978",
+        "way/1123149979",
+        "way/1123149980",
+        "way/1123149981",
+        "way/1123149982",
+        "way/1123149983",
+        "way/1123149984",
+        "way/1123149985",
+        "way/1123149986",
+        "way/1123149987",
+        "way/1123149988",
+        "way/1123149989",
+        "way/1123149990",
+        "way/1123149991",
+        "way/1123149992",
+        "way/1123149993",
+        "way/1123149994",
+        "way/1123149995",
+        "way/1123149996",
+        "way/1123149997",
+        "way/1123149998",
+        "way/1123149999",
+        "way/1123150000",
+        "way/1123150001",
+        "way/1123150002",
+        "way/1123150003",
+        "way/1123150004",
+        "way/1123150005",
+        "way/1123150006",
+        "way/1123150007",
+        "way/1123150008",
+        "way/1123150009",
+        "way/1123150010",
+        "way/1123150011",
+        "way/1123150012",
+        "way/1123150013"
+      ],
+      "wikidata": "Q2648632"
     },
     {
       "id": "barcelona-palau-musica",
