@@ -36152,6 +36152,83 @@
       ],
       "file": "models/dubai-burj-al-arab.glb",
       "source": "generators/dubai-burj-al-arab.ts"
+    },
+    {
+      "id": "dubai-jumeirah-beach-hotel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Picture 223 - Flickr - Ghayty.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Picture_223_-_Flickr_-_Ghayty.jpg",
+          "author": "ghaya alghaya",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Jumeira Beach Hotel (вид с аквапарка) - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jumeira_Beach_Hotel_(%D0%B2%D0%B8%D0%B4_%D1%81_%D0%B0%D0%BA%D0%B2%D0%B0%D0%BF%D0%B0%D1%80%D0%BA%D0%B0)_-_panoramio.jpg",
+          "author": "Валерий Дед",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Wild Wadi Water Park Dubai (42447767842).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wild_Wadi_Water_Park_Dubai_(42447767842).jpg",
+          "author": "Jeremy Thompson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Wild Wadi Water Park Dubai (27628724907).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wild_Wadi_Water_Park_Dubai_(27628724907).jpg",
+          "author": "Jeremy Thompson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Wild Wadi Water Park Dubai (40691481300).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wild_Wadi_Water_Park_Dubai_(40691481300).jpg",
+          "author": "Jeremy Thompson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Jumeirah beach hotel - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jumeirah_beach_hotel_-_panoramio_(1).jpg",
+          "author": "Simon Costello",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Burj al Arab and the Beach (14535539076).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_al_Arab_and_the_Beach_(14535539076).jpg",
+          "author": "Wings and Petals",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Burj Al Arab and Jumeirah Beach (9601659067).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Al_Arab_and_Jumeirah_Beach_(9601659067).jpg",
+          "author": "Yacine Hary",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dubai-jumeirah-beach-hotel.glb",
+      "source": "generators/dubai-jumeirah-beach-hotel.ts"
     }
   ],
   "landmarks": [
@@ -53209,6 +53286,21 @@
         "way/1173799867",
         "way/1054051580",
         "way/1054051581"
+      ]
+    },
+    {
+      "id": "dubai-jumeirah-beach-hotel",
+      "name": "Jumeirah Beach Hotel",
+      "model": "dubai-jumeirah-beach-hotel",
+      "place": "dubai",
+      "wikidata": "Q647585",
+      "lng": 55.1907292,
+      "lat": 25.141572,
+      "bearing": 26.1,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/10316322"
       ]
     }
   ],
