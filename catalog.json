@@ -19829,6 +19829,81 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "mexico-city-casa-de-los-azulejos",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "baroque",
+        "palace",
+        "restaurant",
+        "historic",
+        "talavera"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Casa de los Azulejos (5 de Mayo front)",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_los_Azulejos_-_Mexico_2024_(5).jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de los Azulejos - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_los_Azulejos_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de Azulejos 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_Azulejos_3.jpg",
+          "author": "Thomas Ledl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de los Azulejos, Ciudad de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_los_Azulejos,_Ciudad_de_M%C3%A9xico_MEX.jpg",
+          "author": "Stefano Vigorelli",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Avenida 5 de Mayo - Casa de los Azulejos",
+          "url": "https://commons.wikimedia.org/wiki/File:Avenida_5_de_Mayo,_Centro_Hist%C3%B3rico,_Ciudad_de_M%C3%A9xico_-_Casa_de_los_Azulejos.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "El Callejón de la Condesa",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Callej%C3%B3n_de_la_Condesa,_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de los Azulejos patio, DD 46",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_los_Azulejos,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_46.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-casa-de-los-azulejos.glb",
+      "source": "generators/mexico-city-casa-de-los-azulejos.ts"
+    },
+    {
       "id": "mexico-city-palacio-de-bellas-artes",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46550,6 +46625,21 @@
       "wikidata": "Q28455368",
       "replaces": [],
       "place": "charlotte-area"
+    },
+    {
+      "id": "mexico-city-casa-de-los-azulejos",
+      "name": "Casa de los Azulejos",
+      "model": "mexico-city-casa-de-los-azulejos",
+      "place": "mexico-city",
+      "lng": -99.140123,
+      "lat": 19.434351,
+      "bearing": 8.6,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/158032444"
+      ],
+      "wikidata": "Q1267814"
     },
     {
       "id": "mexico-city-palacio-de-bellas-artes",
