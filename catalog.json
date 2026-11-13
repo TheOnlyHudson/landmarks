@@ -6793,6 +6793,69 @@
       "source": "generators/barcelona-santa-maria-del-mar.ts"
     },
     {
+      "id": "barcelona-santa-maria-del-pi",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "basilica",
+        "gothic",
+        "bell-tower",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Facade of Church of Santa Maria del Pi - Barcelona - Spain (14353201766).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Facade_of_Church_of_Santa_Maria_del_Pi_-_Barcelona_-_Spain_(14353201766).jpg",
+          "author": "Adam Jones from Kelowna, BC, Canada",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Church of Santa Maria del Pi Barcelona (5832106071).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Church_of_Santa_Maria_del_Pi_Barcelona_(5832106071).jpg",
+          "author": "Tony Hisgett from Birmingham, UK",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "010 Església de Santa Maria del Pi (Barcelona), campanar i absis.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:010_Esgl%C3%A9sia_de_Santa_Maria_del_Pi_(Barcelona),_campanar_i_absis.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Santa María del Pi desde Ramblas 2017-12-27.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Santa_Mar%C3%ADa_del_Pi_desde_Ramblas_2017-12-27.jpg",
+          "author": "Rafa Esteve",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "945 El campanar de Santa Maria del Pi (Barcelona), des del Palau Nou de la Rambla.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:945_El_campanar_de_Santa_Maria_del_Pi_(Barcelona),_des_del_Palau_Nou_de_la_Rambla.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-santa-maria-del-pi.glb",
+      "source": "generators/barcelona-santa-maria-del-pi.ts"
+    },
+    {
       "id": "beatties-ford-water-tower",
       "file": "models/beatties-ford-water-tower.glb",
       "license": "CC0-1.0",
@@ -42765,6 +42828,23 @@
         "way/337858237"
       ],
       "wikidata": "Q908802"
+    },
+    {
+      "id": "barcelona-santa-maria-del-pi",
+      "name": "Santa Maria del Pi",
+      "model": "barcelona-santa-maria-del-pi",
+      "place": "barcelona",
+      "lng": 2.173934,
+      "lat": 41.382044,
+      "bearing": 308,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/625295824",
+        "way/821875781",
+        "way/625295823"
+      ],
+      "wikidata": "Q2293331"
     },
     {
       "id": "beatties-ford-water-tower",
