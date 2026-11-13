@@ -17593,6 +17593,86 @@
       "source": "generators/istanbul-hagia-sophia.ts"
     },
     {
+      "id": "istanbul-obelisk-of-theodosius",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "obelisk",
+        "egyptian",
+        "roman",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Obelisco de Teodosio, Estambul, Turquía, 2024-09-28, DD 128",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisco_de_Teodosio,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_128.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Obelisco de Teodosio, Estambul, Turquía, 2024-09-28, DD 129",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisco_de_Teodosio,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_129.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Obelisk of Theodosius-",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisk_of_Theodosius-.jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Base of Theodosius obelisk 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Base_of_Theodosius_obelisk_1.jpg",
+          "author": "Dudva",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Obelisk of Theodosius lower base northeast side (1991)",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisk_of_Theodosius_lower_base_northeast_side_(1991).jpg",
+          "author": "Mark Landon",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Obelisk of Theodosius lower base southwest side (1991)",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisk_of_Theodosius_lower_base_southwest_side_(1991).jpg",
+          "author": "Mark Landon",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Obelisk of Theodosius and Walled Obelisk",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisk_of_Theodosius_and_Walled_Obelisk.jpg",
+          "author": "Nan Palmero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Obelisk of Theodosius (8394685988)",
+          "url": "https://commons.wikimedia.org/wiki/File:Obelisk_of_Theodosius_(8394685988).jpg",
+          "author": "Jorge Láscar from Australia",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/istanbul-obelisk-of-theodosius.glb",
+      "source": "generators/istanbul-obelisk-of-theodosius.ts"
+    },
+    {
       "id": "istanbul-suleymaniye",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45156,6 +45236,21 @@
         "way/776086648",
         "way/776086649",
         "way/776211441"
+      ]
+    },
+    {
+      "id": "istanbul-obelisk-of-theodosius",
+      "name": "Obelisk of Theodosius",
+      "model": "istanbul-obelisk-of-theodosius",
+      "place": "istanbul",
+      "lng": 28.9754,
+      "lat": 41.005928,
+      "bearing": 37.6,
+      "elevation": -2.2,
+      "minzoom": 16,
+      "wikidata": "Q763854",
+      "replaces": [
+        "way/1120852417"
       ]
     },
     {
