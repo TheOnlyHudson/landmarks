@@ -20493,6 +20493,68 @@
       "source": "generators/mexico-city-palacio-postal.ts"
     },
     {
+      "id": "mexico-city-santo-domingo",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "religious",
+        "church",
+        "baroque",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Church of Santo Domingo (Mexico City) - 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Church_of_Santo_Domingo_(Mexico_City)_-_2.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "ChurchSantoDomingoDF.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:ChurchSantoDomingoDF.JPG",
+          "author": "Thelmadatter",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fachada del Templo de Santo Domingo de Guzmán (Cuauhtémoc).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fachada_del_Templo_de_Santo_Domingo_de_Guzm%C3%A1n_(Cuauht%C3%A9moc).jpg",
+          "author": "Huichol19",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "PlazaSantoDomingoDF.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:PlazaSantoDomingoDF.JPG",
+          "author": "Thelmadatter",
+          "license": "Public domain"
+        },
+        {
+          "title": "Iglesia de Santo Domingo, CDMX.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Santo_Domingo,_CDMX.jpg",
+          "author": "Muñoz LC",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-santo-domingo.glb",
+      "source": "generators/mexico-city-santo-domingo.ts"
+    },
+    {
       "id": "mexico-city-torre-latinoamericana",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47354,6 +47416,21 @@
         "way/157051114"
       ],
       "wikidata": "Q978161"
+    },
+    {
+      "id": "mexico-city-santo-domingo",
+      "name": "Templo de Santo Domingo",
+      "model": "mexico-city-santo-domingo",
+      "place": "mexico-city",
+      "lng": -99.133637,
+      "lat": 19.4385509,
+      "bearing": 7.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q7420507",
+      "replaces": [
+        "way/1422338549"
+      ]
     },
     {
       "id": "mexico-city-torre-latinoamericana",
