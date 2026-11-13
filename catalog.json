@@ -18137,6 +18137,74 @@
       "source": "generators/istanbul-little-hagia-sophia.ts"
     },
     {
+      "id": "istanbul-nusretiye-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman-baroque",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Nusretiye Mosque in 2007 8489",
+          "url": "https://commons.wikimedia.org/wiki/File:Nusretiye_Mosque_in_2007_8489.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nusretiye mosque 8491",
+          "url": "https://commons.wikimedia.org/wiki/File:Nusretiye_mosque_8491.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nusretiye Mosque - March 2022",
+          "url": "https://commons.wikimedia.org/wiki/File:Nusretiye_Mosque_-_March_2022.jpg",
+          "author": "Maurice Flesier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nusretiye Mosque- panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Nusretiye_Mosque-_panoramio.jpg",
+          "author": "Mister No",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "07 Nusretiye Camii",
+          "url": "https://commons.wikimedia.org/wiki/File:07_Nusretiye_Camii.jpg",
+          "author": "Ali Osman Dilekoğlu",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Overview of Galataport from Cihangir showing Istanbul Painting and Sculpture Museum on left and Nusretiye Mosque on right with Asian shore and Princes' Islands in the background",
+          "url": "https://commons.wikimedia.org/wiki/File:Overview_of_Galataport_from_Cihangir_showing_Istanbul_Painting_and_Sculpture_Museum_on_left_and_Nusretiye_Mosque_on_right_with_Asian_shore_and_Princes%27_Islands_in_the_background.jpg",
+          "author": "Ealinggirl1954",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-nusretiye-mosque.glb",
+      "source": "generators/istanbul-nusretiye-mosque.ts"
+    },
+    {
       "id": "istanbul-obelisk-of-theodosius",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46377,6 +46445,21 @@
       "wikidata": "Q1144576",
       "replaces": [
         "way/303179753"
+      ]
+    },
+    {
+      "id": "istanbul-nusretiye-mosque",
+      "name": "Nusretiye Mosque",
+      "model": "istanbul-nusretiye-mosque",
+      "place": "istanbul",
+      "lng": 28.983152,
+      "lat": 41.027381,
+      "bearing": 146.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q614237",
+      "replaces": [
+        "way/498861882"
       ]
     },
     {
