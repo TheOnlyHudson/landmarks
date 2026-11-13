@@ -28,8 +28,9 @@ let data: { elements: Element[]; remark?: string } = { elements: [] }
 if (inputAt >= 0) data = JSON.parse(readFileSync(args[inputAt + 1], 'utf8'))
 else if (stale.length) {
   const refs = [...new Set(stale.flatMap(a => a.replaces!))]
-  const query = ['[out:json][timeout:90];(', ...['way', 'relation'].map(type =>
-    `${type}(id:${refs.filter(r => r.startsWith(`${type}/`)).map(r => r.split('/')[1]).join(',')});`), ');out geom;'].join('')
+  const ids = (type: string) => refs.filter(r => r.startsWith(`${type}/`)).map(r => r.split('/')[1])
+  const query = ['[out:json][timeout:90];(', ...['way', 'relation'].filter(type => ids(type).length).map(type =>
+    `${type}(id:${ids(type).join(',')});`), ');out geom;'].join('')
   const response = await fetch('https://overpass-api.de/api/interpreter', {
     method: 'POST', body: new URLSearchParams({ data: query }),
     headers: { 'User-Agent': 'Landmarks-demo (https://github.com/alexwohlbruck/landmarks)' },
