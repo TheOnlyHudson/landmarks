@@ -36229,6 +36229,78 @@
       ],
       "file": "models/dubai-jumeirah-beach-hotel.glb",
       "source": "generators/dubai-jumeirah-beach-hotel.ts"
+    },
+    {
+      "id": "dubai-rose-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel",
+        "sheikh-zayed-road"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Aerial photographs of Dubai (taken from Burj Khalifa) 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_photographs_of_Dubai_(taken_from_Burj_Khalifa_)_01.jpg",
+          "author": "Paasikivi",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Financial District @ Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15197356673",
+          "author": "*_* (flickr 22539273@N00)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Financial District @ Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15631830027",
+          "author": "*_* (flickr 22539273@N00)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Rose Tower and 21st Century Tower",
+          "url": "https://www.flickr.com/photos/92134758@N00/3655669521",
+          "author": "Paul Fenwick (pjf.id.au)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Torres en el Centro Financiero de Dubai",
+          "url": "https://www.flickr.com/photos/124137421@N04/36406987746",
+          "author": "Edgardo W. Olivera",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Rose Tower, Dubai",
+          "url": "https://www.flickr.com/photos/30609972@N06/5559268624",
+          "author": "elisasophia",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Sheikh Zayed Road on 16 June 2007 Pict 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Sheikh_Zayed_Road_on_16_June_2007_Pict_2.jpg",
+          "author": "Imre Solt",
+          "license": "CC-BY-SA-3.0"
+        }
+      ],
+      "file": "models/dubai-rose-tower.glb",
+      "source": "generators/dubai-rose-tower.ts"
     }
   ],
   "landmarks": [
@@ -53302,6 +53374,21 @@
       "replaces": [
         "way/10316322"
       ]
+    },
+    {
+      "id": "dubai-rose-tower",
+      "name": "Rose Rayhaan by Rotana",
+      "model": "dubai-rose-tower",
+      "place": "dubai",
+      "lng": 55.2765922,
+      "lat": 25.2116707,
+      "bearing": 31.8,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/64890199"
+      ],
+      "wikidata": "Q648338"
     }
   ],
   "places": [
