@@ -35584,6 +35584,90 @@
         "bar"
       ],
       "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "dubai-burj-khalifa",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "supertall",
+        "observation-deck"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Burj Khalifa (16260269606).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(16260269606).jpg",
+          "author": "Laika ac",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Dubai Skyline mit Burj Khalifa (18241030269).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Skyline_mit_Burj_Khalifa_(18241030269).jpg",
+          "author": "Tim Reckmann",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Burj Khalifa from a ferry, Dubai.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_from_a_ferry,_Dubai.jpg",
+          "author": "Jpbowen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Burj Khalifa Dubai UAE (14159904937).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_Dubai_UAE_(14159904937).jpg",
+          "author": "Gary Bembridge",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Dubai Fountain & Burj Khalifa Pixabay.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Dubai_Fountain_%26_Burj_Khalifa_Pixabay.jpg",
+          "author": "Christian Raggini",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Front view from Burj Khalifa Metro Station.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Front_view_from_Burj_Khalifa_Metro_Station.jpg",
+          "author": "Aspere",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Dubai Design District View of Burj Khalifa Afternoon.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Design_District_View_of_Burj_Khalifa_Afternoon.jpg",
+          "author": "Leakingh",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Burj Khalifa Night View 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_Night_View_02.jpg",
+          "author": "Sergei Gussev",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "BurjKhalifaHeight.png (elevation diagram)",
+          "url": "https://commons.wikimedia.org/wiki/File:BurjKhalifaHeight.png",
+          "author": "Astronaut et al. (derivative by WelcometoJurassicPark)",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dubai-burj-khalifa.glb",
+      "source": "generators/dubai-burj-khalifa.ts"
     }
   ],
   "landmarks": [
@@ -52473,6 +52557,56 @@
       "minzoom": 16,
       "replaces": [],
       "place": "new-york-area"
+    },
+    {
+      "id": "dubai-burj-khalifa",
+      "name": "Burj Khalifa",
+      "model": "dubai-burj-khalifa",
+      "place": "dubai",
+      "wikidata": "Q12495",
+      "lng": 55.2741554,
+      "lat": 25.1972073,
+      "bearing": 6,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/446646206",
+        "way/137140331",
+        "way/137140334",
+        "way/137140336",
+        "way/137140340",
+        "way/137140345",
+        "way/137140348",
+        "way/137140354",
+        "way/137140355",
+        "way/137140358",
+        "way/137140361",
+        "way/137140363",
+        "way/137140366",
+        "way/137140368",
+        "way/137140371",
+        "way/137140374",
+        "way/137147712",
+        "way/137147715",
+        "way/137153127",
+        "way/137153131",
+        "way/137153135",
+        "way/137153136",
+        "way/137153137",
+        "way/137153138",
+        "way/137153139",
+        "way/137153140",
+        "way/137153141",
+        "way/137153142",
+        "way/137153143",
+        "way/137153144",
+        "way/617912395",
+        "way/1094648913",
+        "way/1094648914",
+        "way/1094648915",
+        "way/1094648916",
+        "way/1094648917"
+      ]
     }
   ],
   "places": [
