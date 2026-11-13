@@ -10616,6 +10616,92 @@
       "source": "generators/cpt-old-town-house.ts"
     },
     {
+      "id": "cpt-parliament",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "parliament",
+        "government",
+        "neoclassical",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cape Town, Houses of Parliament.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town,_Houses_of_Parliament.JPG",
+          "author": "Ossewa",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cape Town (ZA), Parliament of South Africa -- 2024 -- 3487.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Parliament_of_South_Africa_--_2024_--_3487.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Town (ZA), Parliament of South Africa -- 2024 -- 3484.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Parliament_of_South_Africa_--_2024_--_3484.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cape Town (ZA), Parliament of South Africa -- 2024 -- 3490.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Parliament_of_South_Africa_--_2024_--_3490.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Parliament WC ZA.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Parliament_WC_ZA.jpg",
+          "author": "Andresdewet",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Houses of Parliament (Cape Town).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Houses_of_Parliament_(Cape_Town).jpg",
+          "author": "PhilippN",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Parliament, Cape Town 2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Parliament,_Cape_Town_2023.jpg",
+          "author": "Discott",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Houses of Parliament from inside The Company's Gardens.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Houses_of_Parliament_from_inside_The_Company%27s_Gardens.JPG",
+          "author": "Lara van Dyk",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Parliament Fire 2022.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Parliament_Fire_2022.jpg",
+          "author": "Discott",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/cpt-parliament.glb",
+      "source": "generators/cpt-parliament.ts"
+    },
+    {
       "id": "cpt-rhodes-memorial",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46487,6 +46573,20 @@
         "way/609226195"
       ],
       "wikidata": "Q13034442"
+    },
+    {
+      "id": "cpt-parliament",
+      "name": "Houses of Parliament",
+      "model": "cpt-parliament",
+      "place": "cape-town",
+      "lng": 18.4197251,
+      "lat": -33.9257997,
+      "bearing": 41.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/141281524"
+      ]
     },
     {
       "id": "cpt-rhodes-memorial",
