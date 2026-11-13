@@ -21390,6 +21390,62 @@
       "source": "generators/mexico-city-metropolitan-cathedral.ts"
     },
     {
+      "id": "mexico-city-monumento-a-la-raza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "monument",
+        "pyramid",
+        "sculpture",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Monumento a La Raza 03 2014 MEX 8349.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_La_Raza_03_2014_MEX_8349.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Monumento a La Raza 03 2014 MEX 8352.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_La_Raza_03_2014_MEX_8352.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "VISTA DEL MONUMENTO A LA RAZA DEL AVENIDA DE LOS INSURGENTES NORTE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:VISTA_DEL_MONUMENTO_A_LA_RAZA_DEL_AVENIDA_DE_LOS_INSURGENTES_NORTE.jpg",
+          "author": "JEDIKNIGHT1970",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Monumento a la Raza (2023).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Raza_(2023).jpg",
+          "author": "Tbhotch",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-monumento-a-la-raza.glb",
+      "source": "generators/mexico-city-monumento-a-la-raza.ts"
+    },
+    {
       "id": "mexico-city-monumento-a-la-revolucion",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -49956,6 +50012,35 @@
         "way/1050204076",
         "way/1050204077",
         "way/1050204882"
+      ]
+    },
+    {
+      "id": "mexico-city-monumento-a-la-raza",
+      "name": "Monumento a la Raza",
+      "model": "mexico-city-monumento-a-la-raza",
+      "place": "mexico-city",
+      "lng": -99.142494,
+      "lat": 19.464425,
+      "bearing": 38,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q9034955",
+      "replaces": [
+        "way/1139108872",
+        "way/1144263096",
+        "way/1144263097",
+        "way/1144263098",
+        "way/1144263099",
+        "way/1144263100",
+        "way/1186267703",
+        "way/1186267704",
+        "way/1186267705",
+        "way/1186267706",
+        "way/1186267707",
+        "way/1186267708",
+        "way/1186267709",
+        "way/1186267710",
+        "way/1186267711"
       ]
     },
     {
