@@ -25346,6 +25346,74 @@
       "source": "generators/london-leadenhall-building.ts"
     },
     {
+      "id": "london-one-canada-square",
+      "file": "models/london-one-canada-square.glb",
+      "source": "generators/london-one-canada-square.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "César Pelli's 1991 Canary Wharf tower: a stainless-steel square with notched corners and a pyramid roof with a warning light at its apex.",
+      "references": [
+        {
+          "title": "1 Canada Square From Cabot Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1_Canada_Square_From_Cabot_Square.jpg",
+          "author": "Mark Gilbert",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "One Canada Square, Canary Wharf, London - geograph.org.uk - 2145747.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Canada_Square,_Canary_Wharf,_London_-_geograph.org.uk_-_2145747.jpg",
+          "author": "Richard Humphrey",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "One Canada Square - Canary Wharf.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Canada_Square_-_Canary_Wharf.jpg",
+          "author": "Edison McCullen",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "London MMB «B8 1 Canada Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:London_MMB_«B8_1_Canada_Square.jpg",
+          "author": "Mattbuck",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "London MMB «K5 1 Canada Square.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:London_MMB_«K5_1_Canada_Square.jpg",
+          "author": "Mattbuck",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "London MMB «R6 River Thames and Canary Wharf.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:London_MMB_«R6_River_Thames_and_Canary_Wharf.jpg",
+          "author": "Mattbuck",
+          "license": "CC-BY-SA-4.0"
+        }
+      ]
+    },
+    {
       "id": "london-trellick-tower",
       "file": "models/london-trellick-tower.glb",
       "source": "generators/london-trellick-tower.ts",
@@ -54632,6 +54700,23 @@
         "way/1138764583"
       ],
       "wikidata": "Q2742547"
+    },
+    {
+      "id": "london-one-canada-square",
+      "name": "One Canada Square",
+      "model": "london-one-canada-square",
+      "place": "london",
+      "lng": -0.0194693,
+      "lat": 51.5049363,
+      "bearing": 9.9,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q503477",
+      "replaces": [
+        "way/5986754",
+        "way/432777467",
+        "way/432777466"
+      ]
     },
     {
       "id": "london-trellick-tower",
