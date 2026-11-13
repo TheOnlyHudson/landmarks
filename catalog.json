@@ -35711,6 +35711,83 @@
       ],
       "file": "models/dubai-opera.glb",
       "source": "generators/dubai-opera.ts"
+    },
+    {
+      "id": "dubai-emirates-office-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Emirates Towers in Dubai at dawn.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_in_Dubai_at_dawn.jpg",
+          "author": "Jackardsiffant",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Emirates Towers - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_-_panoramio.jpg",
+          "author": "Aidas U.",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Emirates Towers - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_-_panoramio_(1).jpg",
+          "author": "Aidas U.",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Emirates Towers (4128598985).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_(4128598985).jpg",
+          "author": "Leandro Neumann Ciuffo",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Emirates Towers (9343061234).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_(9343061234).jpg",
+          "author": "ADTeasdale",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Emirates Towers Shk Zayed Road.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_Shk_Zayed_Road.jpg",
+          "author": "Ahmed Al Habesh",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dub-emtow.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dub-emtow.jpg",
+          "author": "Bgabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Emirates towers.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_towers.jpg",
+          "author": "Mujeebpully",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dubai-emirates-office-tower.glb",
+      "source": "generators/dubai-emirates-office-tower.ts"
     }
   ],
   "landmarks": [
@@ -52665,6 +52742,21 @@
         "way/475848632"
       ],
       "wikidata": "Q2913336"
+    },
+    {
+      "id": "dubai-emirates-office-tower",
+      "name": "Emirates Office Tower",
+      "model": "dubai-emirates-office-tower",
+      "place": "dubai",
+      "lng": 55.2836335,
+      "lat": 25.2176177,
+      "bearing": 180,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/393391115"
+      ],
+      "wikidata": "Q845182"
     }
   ],
   "places": [
