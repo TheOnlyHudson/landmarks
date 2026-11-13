@@ -353,6 +353,122 @@
       "source": "generators/amsterdam-nieuwe-kerk.ts"
     },
     {
+      "id": "amsterdam-rijksmuseum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "historic",
+        "gothic-revival",
+        "brick"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Rijksmuseum from Museumplein 2523.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_from_Museumplein_2523.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rijksmuseum Amsterdam.jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Amsterdam.jpeg",
+          "author": "olexdj",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rijksmuseum Amsterdam 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Amsterdam_01.jpg",
+          "author": "Derbrauni",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "North facade of the Rijksmuseum Amsterdam 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:North_facade_of_the_Rijksmuseum_Amsterdam_01.jpg",
+          "author": "Derbrauni",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "North facade of the Rijksmuseum Amsterdam (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:North_facade_of_the_Rijksmuseum_Amsterdam_(1).jpg",
+          "author": "Vasyatka1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rijksmuseum Amsterdam North facade at Stadhouderskade, clock tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Amsterdam_North_facade_at_Stadhouderskade,_clock_tower.jpg",
+          "author": "Charlotte Heineccius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rijksmuseum Amsterdam North facade at Stadhouderskade, east tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Amsterdam_North_facade_at_Stadhouderskade,_east_tower.jpg",
+          "author": "Charlotte Heineccius",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rijksmuseum vanaf de Hobbemakade pic1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_vanaf_de_Hobbemakade_pic1.JPG",
+          "author": "Alf van Beem",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rijksmuseum vanaf de Ruysdaelkade pic1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_vanaf_de_Ruysdaelkade_pic1.JPG",
+          "author": "Alf van Beem",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rijksmuseum (28692264928).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_(28692264928).jpg",
+          "author": "Julien Chatelain",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Rijksmuseum winter 7441.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_winter_7441.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Luchtfoto van het Rijksmuseum 1921.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Luchtfoto_van_het_Rijksmuseum_1921.jpg",
+          "author": "KLM Aerocarto NV",
+          "license": "Public domain"
+        },
+        {
+          "title": "Rijksmuseum Amsterdam by night 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Amsterdam_by_night_2017.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "3D BAG NL.IMBAG.Pand.0363100012237298 (LoD2.2 from AHN5 lidar)",
+          "url": "https://3dbag.nl/en/viewer?bagid=NL.IMBAG.Pand.0363100012237298",
+          "author": "3D geoinformation group, TU Delft / 3DBAG",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-rijksmuseum.glb",
+      "source": "generators/amsterdam-rijksmuseum.ts"
+    },
+    {
       "id": "amsterdam-royal-palace",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -37449,6 +37565,51 @@
         "way/747924626",
         "way/748997143",
         "way/748997144"
+      ]
+    },
+    {
+      "id": "amsterdam-rijksmuseum",
+      "name": "Rijksmuseum",
+      "model": "amsterdam-rijksmuseum",
+      "place": "amsterdam",
+      "lng": 4.8852147,
+      "lat": 52.3599747,
+      "bearing": 39.55,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q190804",
+      "replaces": [
+        "way/431070185",
+        "way/431070791",
+        "way/431070942",
+        "way/517791046",
+        "way/749429987",
+        "way/749429988",
+        "way/749429989",
+        "way/749429990",
+        "way/749429991",
+        "way/749429992",
+        "way/749429993",
+        "way/749429994",
+        "way/749429995",
+        "way/749429996",
+        "way/749429997",
+        "way/749429998",
+        "way/749429999",
+        "way/749430000",
+        "way/749430001",
+        "way/749805753",
+        "way/749805754",
+        "way/749805755",
+        "way/749805756",
+        "way/749805757",
+        "way/749805758",
+        "way/749805759",
+        "way/749805760",
+        "way/749805761",
+        "way/749805762",
+        "way/749805763",
+        "way/749805764"
       ]
     },
     {
