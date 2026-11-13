@@ -10089,6 +10089,80 @@
       "source": "generators/cpt-cape-wheel.ts"
     },
     {
+      "id": "cpt-zeitz-mocaa",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "hotel",
+        "industrial-heritage",
+        "adaptive-reuse"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Zeitz MOCAA, Waterfront (Rabich 2980)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Waterfront,_Zeitz_Museum_of_Contemporary_Art_Africa_--_2024_--_2980.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Zeitz Museum of Contemporary Art Africa, Cape Town ( 1050775)",
+          "url": "https://commons.wikimedia.org/wiki/File:Zeitz_Museum_of_Contemporary_Art_Africa,_Cape_Town_(_1050775).jpg",
+          "author": "Matti Blume",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Zeitz Museum of Contemporary Art Africa",
+          "url": "https://commons.wikimedia.org/wiki/File:Zeitz_Museum_of_Contemporary_Art_Africa.jpg",
+          "author": "Axxter99",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterior Zeitz MOCAA",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_Zeitz_MOCAA_-_Museum_of_Contermporary_Art_Africa.jpg",
+          "author": "Michael Rowe",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "At Cape Town (MP) 2018 115",
+          "url": "https://commons.wikimedia.org/wiki/File:At_Cape_Town_(MP)_2018_115.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Silos on the waterfront, Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Silos_on_the_waterfront,_Cape_Town.jpg",
+          "author": "Linton",
+          "license": "Public domain"
+        },
+        {
+          "title": "V&A Grain Silo 1",
+          "url": "https://commons.wikimedia.org/wiki/File:V%26A_Grain_Silo_1.jpg",
+          "author": "HelenOnline",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/cpt-zeitz-mocaa.glb",
+      "source": "generators/cpt-zeitz-mocaa.ts"
+    },
+    {
       "id": "dal-adolphus-hotel",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45279,6 +45353,21 @@
       "elevation": 0,
       "minzoom": 15,
       "replaces": []
+    },
+    {
+      "id": "cpt-zeitz-mocaa",
+      "name": "Zeitz MOCAA",
+      "model": "cpt-zeitz-mocaa",
+      "place": "cape-town",
+      "lng": 18.422994,
+      "lat": -33.9084045,
+      "bearing": 354.2,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/36852808"
+      ],
+      "wikidata": "Q28003638"
     },
     {
       "id": "dal-adolphus-hotel",
