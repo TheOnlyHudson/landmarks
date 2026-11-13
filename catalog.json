@@ -43715,6 +43715,83 @@
       "source": "generators/seoul-fki-tower.ts"
     },
     {
+      "id": "seoul-geunjeongjeon",
+      "file": "models/seoul-geunjeongjeon.glb",
+      "source": "generators/seoul-geunjeongjeon.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "palace",
+        "throne-hall",
+        "hanok",
+        "joseon",
+        "historic",
+        "national-treasure"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The throne hall of Gyeongbokgung (rebuilt 1867): a two-storey-looking hall under a double hipped-and-gabled roof, on a two-tier stone woldae with balustrades.",
+      "references": [
+        {
+          "title": "Front view of the Imperial Throne Hall Geunjeongjeon at Gyeongbokgung Palace with blue sky in Seoul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Front_view_of_the_Imperial_Throne_Hall_Geunjeongjeon_at_Gyeongbokgung_Palace_with_blue_sky_in_Seoul.jpg",
+          "author": "Basile Morin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Front view of the Eastern side of the Imperial Throne Hall Geunjeongjeon at Gyeongbokgung Palace in Seoul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Front_view_of_the_Eastern_side_of_the_Imperial_Throne_Hall_Geunjeongjeon_at_Gyeongbokgung_Palace_in_Seoul.jpg",
+          "author": "Basile Morin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Side of Geunjeongjeon.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Side_of_Geunjeongjeon.jpg",
+          "author": "AnbyG",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Geunjeongjeon Seoul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Geunjeongjeon_Seoul.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gyeongbokgung(palace) Geunjeongjeon(hall).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung(palace)_Geunjeongjeon(hall).jpg",
+          "author": "Brady Bellini",
+          "license": "CC0"
+        },
+        {
+          "title": "Seoul-Gyeongbokgung-Geunjeongjeon-01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul-Gyeongbokgung-Geunjeongjeon-01.jpg",
+          "author": "Richard Fisher",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Seoul Geunjeongjeon 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_Geunjeongjeon_01.jpg",
+          "author": "Spike",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "seoul-ifc",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65307,6 +65384,76 @@
         "way/681805210"
       ],
       "wikidata": "Q16099606"
+    },
+    {
+      "id": "seoul-geunjeongjeon",
+      "name": "Geunjeongjeon",
+      "model": "seoul-geunjeongjeon",
+      "place": "seoul",
+      "lng": 126.9769904,
+      "lat": 37.5785445,
+      "bearing": 2.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/170199428",
+        "way/1222920894",
+        "way/1569283607",
+        "way/1569283608",
+        "way/1569283609",
+        "way/1569283610",
+        "way/1569283611",
+        "way/1569283612",
+        "way/1569283613",
+        "way/1569283614",
+        "way/1569283615",
+        "way/1569283616",
+        "way/1569283617",
+        "way/1569283618",
+        "way/1569283619",
+        "way/1569283620",
+        "way/1569283621",
+        "way/1569283622",
+        "way/1569283623",
+        "way/1569283624",
+        "way/1569283625",
+        "way/1569283626",
+        "way/1569283627",
+        "way/1569283628",
+        "way/1569283629",
+        "way/1569283630",
+        "way/1569283631",
+        "way/1569283632",
+        "way/1569283633",
+        "way/1569283634",
+        "way/1569283635",
+        "way/1569283636",
+        "way/1569283637",
+        "way/1569283638",
+        "way/1569283639",
+        "way/1569283640",
+        "way/1569283641",
+        "way/1569283642",
+        "way/1569283643",
+        "way/1569283644",
+        "way/1569283645",
+        "way/1569283646",
+        "way/1569283647",
+        "way/1569283648",
+        "way/1569283649",
+        "way/1569283650",
+        "way/1569283651",
+        "way/1569283652",
+        "way/1569283653",
+        "way/1569283654",
+        "way/1569283655",
+        "way/1569283656",
+        "way/1569283657",
+        "way/1569283658",
+        "way/1569283659",
+        "way/1569283660"
+      ],
+      "wikidata": "Q10855678"
     },
     {
       "id": "seoul-ifc",
