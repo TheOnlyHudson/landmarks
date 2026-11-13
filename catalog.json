@@ -1726,6 +1726,74 @@
       "source": "generators/amsterdam-stedelijk-museum.ts"
     },
     {
+      "id": "amsterdam-stopera",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "modern",
+        "opera-house",
+        "city-hall",
+        "theatre"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam - Stopera (30213475601).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Stopera_(30213475601).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Amsterdam, de Stopera vanaf de Blauwbrug IMG 1096 2026-04-06 14.38.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_de_Stopera_vanaf_de_Blauwbrug_IMG_1096_2026-04-06_14.38.jpg",
+          "author": "Michielverbeek",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Amsterdam - Amstel - View East on Stopera Theatre - City Hall.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Amstel_-_View_East_on_Stopera_Theatre_-_City_Hall.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Waterlooplein - View West along the Stopera - City Hall & Opera House 1986.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Waterlooplein_-_View_West_along_the_Stopera_-_City_Hall_%26_Opera_House_1986.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hôtel Ville - Amsterdam (NL32) - 2024-11-25 - 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_-_Amsterdam_(NL32)_-_2024-11-25_-_2.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "3D BAG, NL.IMBAG.Pand.0363100012186092",
+          "url": "https://3dbag.nl/",
+          "author": "TU Delft 3D geoinformation group / 3DGI",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-stopera.glb",
+      "source": "generators/amsterdam-stopera.ts"
+    },
+    {
       "id": "amsterdam-van-gogh-museum",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -39510,6 +39578,45 @@
         "way/754299898",
         "way/754299891"
       ]
+    },
+    {
+      "id": "amsterdam-stopera",
+      "name": "Stopera (Stadhuis-Muziektheater)",
+      "model": "amsterdam-stopera",
+      "place": "amsterdam",
+      "lng": 4.900865,
+      "lat": 52.367799,
+      "bearing": 37.7,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/751591420",
+        "way/268782345",
+        "way/751559653",
+        "way/751559654",
+        "way/751559655",
+        "way/751559656",
+        "way/751559657",
+        "way/751559658",
+        "way/751559659",
+        "way/751559660",
+        "way/751559661",
+        "way/751559663",
+        "way/751559664",
+        "way/751559665",
+        "way/751567319",
+        "way/751567320",
+        "way/751567321",
+        "way/751573304",
+        "way/751573305",
+        "way/751573306",
+        "way/751591418",
+        "way/751591419",
+        "way/751612860",
+        "way/751612861",
+        "way/751612862"
+      ],
+      "wikidata": "Q1325514"
     },
     {
       "id": "amsterdam-van-gogh-museum",
