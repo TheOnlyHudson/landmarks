@@ -624,6 +624,74 @@
       "source": "generators/amsterdam-westerkerk.ts"
     },
     {
+      "id": "amsterdam-zuiderkerk",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "historic",
+        "renaissance",
+        "tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam Zuiderkerk seen from Zwanenburgwal.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Zuiderkerk_seen_from_Zwanenburgwal.jpg",
+          "author": "Ymblanter",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Zuiderkerk Amsterdam 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Zuiderkerk_Amsterdam_2018.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam, de Zuiderkerktoren RM6498 foto2 2014-01-12 12.50.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_de_Zuiderkerktoren_RM6498_foto2_2014-01-12_12.50.jpg",
+          "author": "Michielverbeek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam, Zuiderkerk 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Zuiderkerk_01.jpg",
+          "author": "Parsifall",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam-652-Zuiderkerk-2011-gje.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam-652-Zuiderkerk-2011-gje.jpg",
+          "author": "Gerd Eichmann",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam, the tower of the Zuiderkerk.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_the_tower_of_the_Zuiderkerk.jpg",
+          "author": "Dguendel",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-zuiderkerk.glb",
+      "source": "generators/amsterdam-zuiderkerk.ts"
+    },
+    {
       "id": "ascendus",
       "file": "models/ascendus.glb",
       "license": "CC0-1.0",
@@ -37743,6 +37811,24 @@
         "way/751083599"
       ],
       "wikidata": "Q1130722"
+    },
+    {
+      "id": "amsterdam-zuiderkerk",
+      "name": "Zuiderkerk",
+      "model": "amsterdam-zuiderkerk",
+      "place": "amsterdam",
+      "lng": 4.899756,
+      "lat": 52.370292,
+      "bearing": 29,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/114120359",
+        "way/749385556",
+        "way/749385557",
+        "way/749385558"
+      ],
+      "wikidata": "Q228629"
     },
     {
       "id": "ascendus",
