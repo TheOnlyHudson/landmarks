@@ -21193,6 +21193,79 @@
       "source": "generators/mexico-city-museo-jumex.ts"
     },
     {
+      "id": "mexico-city-museo-soumaya",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "contemporary",
+        "parametric"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Museo Soumaya, Ciudad de México, México, 2015-07-18, DD 12",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Soumaya,_Ciudad_de_M%C3%A9xico,_M%C3%A9xico,_2015-07-18,_DD_12.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Soumaya, Ciudad de México, México, 2015-07-18, DD 13",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Soumaya,_Ciudad_de_M%C3%A9xico,_M%C3%A9xico,_2015-07-18,_DD_13.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Soumaya Plaza",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Soumaya_Plaza.jpg",
+          "author": "Raystormxc",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Museo Soumaya from Museo Jumex - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Soumaya_from_Museo_Jumex_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Plaza Carso & Museo Soumaya - Mexico 2024 (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Plaza_Carso_%26_Museo_Soumaya_-_Mexico_2024_(2).jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Soumaya (Plaza Carso)",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Soumaya_(Plaza_Carso).jpg",
+          "author": "artotems",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Exterior of Museo Soumaya Plaza Carso - 2015",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Museo_Soumaya_Plaza_Carso_-_2015.jpg",
+          "author": "Benoît Prieur",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/mexico-city-museo-soumaya.glb",
+      "source": "generators/mexico-city-museo-soumaya.ts"
+    },
+    {
       "id": "mexico-city-ninos-heroes",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -48989,6 +49062,29 @@
         "way/885052520"
       ],
       "wikidata": "Q5142722"
+    },
+    {
+      "id": "mexico-city-museo-soumaya",
+      "name": "Museo Soumaya",
+      "model": "mexico-city-museo-soumaya",
+      "place": "mexico-city",
+      "lng": -99.2046085,
+      "lat": 19.4408033,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/158035385",
+        "way/1467517965",
+        "way/1467517966",
+        "way/1467517967",
+        "way/1467517968",
+        "way/1467517969",
+        "way/1467517970",
+        "way/1467517971",
+        "way/1467517972"
+      ],
+      "wikidata": "Q50413488"
     },
     {
       "id": "mexico-city-ninos-heroes",
