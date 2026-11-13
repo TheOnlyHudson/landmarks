@@ -14197,6 +14197,57 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "giza-pyramid-of-khafre",
+      "file": "models/giza-pyramid-of-khafre.glb",
+      "license": "CC0-1.0",
+      "source": "generators/giza-pyramid-of-khafre.ts",
+      "type": "monument",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "pyramid",
+        "ancient-egypt",
+        "tomb",
+        "unesco-world-heritage"
+      ],
+      "description": "The second pyramid of Giza, built c. 2570 BC for Khafre: 215 m square and 136 m high, the only one keeping part of its smooth casing, on its top fifth.",
+      "references": [
+        {
+          "title": "Pyramid of Khafre Giza Egypt in 2015 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pyramid_of_Khafre_Giza_Egypt_in_2015_2.jpg",
+          "author": "MusikAnimal",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "All Gizah Pyramids.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+          "author": "Ricardo Liberato",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "The Sphinx and Pyramid of Khafre.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Sphinx_and_Pyramid_of_Khafre.jpg",
+          "author": "kallerna",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
       "id": "grand-central-terminal",
       "file": "models/grand-central-terminal.glb",
       "license": "CC0-1.0",
@@ -43933,6 +43984,21 @@
       "wikidata": "Q37200",
       "replaces": [
         "way/4420397"
+      ],
+      "place": "giza"
+    },
+    {
+      "id": "giza-pyramid-of-khafre",
+      "name": "Pyramid of Khafre",
+      "model": "giza-pyramid-of-khafre",
+      "lng": 31.1303453,
+      "lat": 29.9759933,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q208358",
+      "replaces": [
+        "way/4420396"
       ],
       "place": "giza"
     },
