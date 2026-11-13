@@ -2595,6 +2595,82 @@
       "source": "generators/amsterdam-stopera.ts"
     },
     {
+      "id": "amsterdam-tuschinski",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "cinema",
+        "theatre",
+        "art-deco",
+        "amsterdam-school",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q599272",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Tuschinski Theater-Amsterdam-2025-msu-9137",
+          "url": "https://commons.wikimedia.org/wiki/File:Tuschinski_Theater-Amsterdam-2025-msu-9137.jpg",
+          "author": "Matthias Süßen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Het Tuschinski Theater aan de grotendeels lege Reguliersbreestraat tijdens de coronacrisis (2021)",
+          "url": "https://commons.wikimedia.org/wiki/File:Het_Tuschinski_Theater_aan_de_grotendeels_lege_Reguliersbreestraat_tijdens_de_coronacrisis_(2021).jpg",
+          "author": "MatteoNL97",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Het Tuschinski Theater aan de grotendeels lege Reguliersbreestraat tijdens de coronacrisis (2021) 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Het_Tuschinski_Theater_aan_de_grotendeels_lege_Reguliersbreestraat_tijdens_de_coronacrisis_(2021)_2.jpg",
+          "author": "MatteoNL97",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Amsterdam - Reguliersbreestraat - View West on Tuschinski Theatre 1921",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Reguliersbreestraat_-_View_West_on_Tuschinski_Theatre_1921.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Reguliersbreestraat - View South on Theater Tuschinski",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Reguliersbreestraat_-_View_South_on_Theater_Tuschinski.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Reguliersbreestraat - Theater Tuschinski - Panoramic Photocompilation",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Reguliersbreestraat_-_Theater_Tuschinski_-_Panoramic_Photocompilation.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tuschinski Theater in de Reguliersbreestraat in Amsterdam, Bestanddeelnr 931-8038",
+          "url": "https://commons.wikimedia.org/wiki/File:Tuschinski_Theater_in_de_Reguliersbreestraat_in_Amsterdam,_Bestanddeelnr_931-8038.jpg",
+          "author": "Anefo",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/amsterdam-tuschinski.glb",
+      "source": "generators/amsterdam-tuschinski.ts"
+    },
+    {
       "id": "amsterdam-van-gogh-museum",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -40590,6 +40666,21 @@
         "way/751612862"
       ],
       "wikidata": "Q1325514"
+    },
+    {
+      "id": "amsterdam-tuschinski",
+      "name": "Pathé Tuschinski",
+      "model": "amsterdam-tuschinski",
+      "place": "amsterdam",
+      "lng": 4.894516,
+      "lat": 52.366237,
+      "bearing": 25,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q599272",
+      "replaces": [
+        "way/267116768"
+      ]
     },
     {
       "id": "amsterdam-van-gogh-museum",
