@@ -43613,6 +43613,62 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "seoul-ifc",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "hotel",
+        "shopping-mall"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "IFC Seoul 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:IFC_Seoul_3.jpg",
+          "author": "Kimahrikku",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "IFC Seoul 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:IFC_Seoul_2.jpg",
+          "author": "Kimahrikku",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Yeouido 9.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yeouido_9.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Yeouido 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yeouido_1.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/seoul-ifc.glb",
+      "source": "generators/seoul-ifc.ts"
+    },
+    {
       "id": "seoul-lotte-world-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -64999,6 +65055,30 @@
         "way/770565573"
       ],
       "place": "seattle-area"
+    },
+    {
+      "id": "seoul-ifc",
+      "name": "IFC Seoul",
+      "model": "seoul-ifc",
+      "place": "seoul",
+      "lng": 126.925798,
+      "lat": 37.52529,
+      "bearing": 52,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/621752528",
+        "way/621752526",
+        "way/639943641",
+        "way/639943642",
+        "way/639943643",
+        "way/621752527",
+        "way/500362301",
+        "way/621752531",
+        "way/621752532",
+        "way/1465162036",
+        "way/1465162037"
+      ]
     },
     {
       "id": "seoul-lotte-world-tower",
