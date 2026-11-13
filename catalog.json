@@ -18137,6 +18137,80 @@
       "source": "generators/istanbul-little-hagia-sophia.ts"
     },
     {
+      "id": "istanbul-new-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "New Mosque, Istanbul, from Bosphorus",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Mosque,_Istanbul,_from_Bosphorus.jpg",
+          "author": "Till Niermann",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Yeni Cami in Istanbul..00",
+          "url": "https://commons.wikimedia.org/wiki/File:Yeni_Cami_in_Istanbul..00.jpg",
+          "author": "Ddovah",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The New Mosque (Yeni Cami) (8393797619)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_New_Mosque_(Yeni_Cami)_(8393797619).jpg",
+          "author": "Jorge Láscar from Australia",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "New Mosque Yeni Camii Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Mosque_Yeni_Camii_Istanbul.JPG",
+          "author": "Wolfgang Moroder",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "La Yeni Cami et le Galata Köprüsü",
+          "url": "https://commons.wikimedia.org/wiki/File:La_Yeni_Cami_et_le_Galata_K%C3%B6pr%C3%BCs%C3%BC.jpg",
+          "author": "Jpbazard Jean-Pierre Bazard",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Detail of the domes - The New Mosque (Yeni Cami) (8393800623)",
+          "url": "https://commons.wikimedia.org/wiki/File:Detail_of_the_domes_-_The_New_Mosque_(Yeni_Cami)_(8393800623).jpg",
+          "author": "Jorge Láscar from Australia",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "New-mosque-ottoman-night-scene-Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:New-mosque-ottoman-night-scene-Istanbul.jpg",
+          "author": "SeablueTravelOfficial",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-new-mosque.glb",
+      "source": "generators/istanbul-new-mosque.ts"
+    },
+    {
       "id": "istanbul-nusretiye-mosque",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46445,6 +46519,21 @@
       "wikidata": "Q1144576",
       "replaces": [
         "way/303179753"
+      ]
+    },
+    {
+      "id": "istanbul-new-mosque",
+      "name": "New Mosque (Yeni Cami)",
+      "model": "istanbul-new-mosque",
+      "place": "istanbul",
+      "lng": 28.972069,
+      "lat": 41.016953,
+      "bearing": 319,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q911720",
+      "replaces": [
+        "relation/7574356"
       ]
     },
     {
