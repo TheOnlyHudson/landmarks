@@ -17902,6 +17902,67 @@
       "source": "generators/istanbul-camlica-mosque.ts"
     },
     {
+      "id": "istanbul-camlica-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tv-tower",
+        "observation-deck",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Çamlıca Tower viewed from Galata Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87aml%C4%B1ca_Tower_viewed_from_Galata_Tower.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0"
+        },
+        {
+          "title": "Camlica Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Camlica_Tower.jpg",
+          "author": "Korybiko",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "TV tower, Istanbul ( 1100239)",
+          "url": "https://commons.wikimedia.org/wiki/File:TV_tower,_Istanbul_(_1100239).jpg",
+          "author": "Matti Blume",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Çamlıca Kulesi",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87aml%C4%B1ca_Kulesi.jpg",
+          "author": "Antoloji",
+          "license": "CC0"
+        },
+        {
+          "title": "View of Çamlıca Tower from the Kadikoy coast.IMG 1836",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_%C3%87aml%C4%B1ca_Tower_from_the_Kadikoy_coast.IMG_1836.jpg",
+          "author": "YG01",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/istanbul-camlica-tower.glb",
+      "source": "generators/istanbul-camlica-tower.ts"
+    },
+    {
       "id": "istanbul-chora",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47705,6 +47766,21 @@
         "way/437761718",
         "way/437761719",
         "way/725800952"
+      ]
+    },
+    {
+      "id": "istanbul-camlica-tower",
+      "name": "Çamlıca Tower",
+      "model": "istanbul-camlica-tower",
+      "place": "istanbul",
+      "lng": 29.065541,
+      "lat": 41.016372,
+      "bearing": 44,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q28657490",
+      "replaces": [
+        "way/722961117"
       ]
     },
     {
