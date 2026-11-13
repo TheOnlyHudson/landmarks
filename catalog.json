@@ -1414,6 +1414,99 @@
       "source": "generators/amsterdam-sint-nicolaaskerk.ts"
     },
     {
+      "id": "amsterdam-stedelijk-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "historic",
+        "neo-renaissance",
+        "brick",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Stedelijk museum, badkuip, foto 1.JPG (and 2, 4, 5, 6)",
+          "url": "https://commons.wikimedia.org/wiki/File:Stedelijk_museum,_badkuip,_foto_1.JPG",
+          "author": "Alf van Beem",
+          "license": "Public domain"
+        },
+        {
+          "title": "Van Baerlestraat, badkuip.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Baerlestraat,_badkuip.jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Stedelijk Museum Amsterdam 2017 2.jpg (and 3, 4)",
+          "url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_Amsterdam_2017_2.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Museumplein - View on Stedelijk Museum from Van Gogh Museum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Museumplein_-_View_on_Stedelijk_Museum_from_Van_Gogh_Museum.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Stedelijk Museum 1.jpg (and 3)",
+          "url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_1.jpg",
+          "author": "Editør",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Overzicht museum, middenpartij met risaliet en trapgevel - Amsterdam - 20409360 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_museum,_middenpartij_met_risaliet_en_trapgevel_-_Amsterdam_-_20409360_-_RCE.jpg",
+          "author": "Sergé Technau",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Paulus Potterstraat 13 Stedelijk.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Paulus_Potterstraat_13_Stedelijk.JPG",
+          "author": "A. Bakker",
+          "license": "CC BY-SA 3.0 nl"
+        },
+        {
+          "title": "Stedelijk Museum in Amsterdam 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_in_Amsterdam_03.jpg",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Stedelijk Museum Amsterdam 7173 HDR.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_Amsterdam_7173_HDR.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "3D BAG NL.IMBAG.Pand.0363100012077791, 0363100012251804, 0363100012251805 (LoD2.2 from AHN lidar)",
+          "url": "https://3dbag.nl/en/viewer?bagid=NL.IMBAG.Pand.0363100012077791",
+          "author": "3D geoinformation group, TU Delft / 3DBAG",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-stedelijk-museum.glb",
+      "source": "generators/amsterdam-stedelijk-museum.ts"
+    },
+    {
       "id": "amsterdam-waag",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -39018,6 +39111,32 @@
         "way/750591090"
       ],
       "wikidata": "Q1350750"
+    },
+    {
+      "id": "amsterdam-stedelijk-museum",
+      "name": "Stedelijk Museum",
+      "model": "amsterdam-stedelijk-museum",
+      "place": "amsterdam",
+      "lng": 4.879842,
+      "lat": 52.357903,
+      "bearing": 66.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q924335",
+      "replaces": [
+        "way/44508819",
+        "way/754299888",
+        "way/754299889",
+        "way/754299890",
+        "way/754299892",
+        "way/754299893",
+        "way/754299894",
+        "way/754299895",
+        "way/754299896",
+        "way/754299897",
+        "way/754299898",
+        "way/754299891"
+      ]
     },
     {
       "id": "amsterdam-waag",
