@@ -29104,6 +29104,3878 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "mexico-city-angel-de-la-independencia",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "column",
+        "statue",
+        "memorial",
+        "mausoleum",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vista ote a pte del Monumento a la Independencia DF MEX",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_ote_a_pte_del_Monumento_a_la_Independencia_DF_MEX.JPG",
+          "author": "Sarumo74",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Monumento a la Independencia, México D.F., 2014-10-13, DD 19",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Independencia,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_19.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Monumento a la Independencia, México D.F., 2014-10-13, DD 22",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Independencia,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_22.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Glorieta del Ángel de la Independencia desde el aire",
+          "url": "https://commons.wikimedia.org/wiki/File:Glorieta_del_%C3%81ngel_de_la_Independencia_desde_el_aire.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monumento de la Independencia (El Angel) 03 2014 Mex 8107",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_de_la_Independencia_(El_Angel)_03_2014_Mex_8107.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Monumento de la Independencia (El Angel) 03 2014 Mex 8113",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_de_la_Independencia_(El_Angel)_03_2014_Mex_8113.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Monumento a la Independencia, Ciudad de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Independencia,_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Sergio Estrada Flores",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Angel Dorado",
+          "url": "https://commons.wikimedia.org/wiki/File:Angel_Dorado.jpg",
+          "author": "ChaneekPhotography",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-angel-de-la-independencia.glb",
+      "source": "generators/mexico-city-angel-de-la-independencia.ts"
+    },
+    {
+      "id": "mexico-city-anthropology-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modernist",
+        "courtyard"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vista aérea del Museo Nacional de Antropología de México 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Museo_Nacional_de_Antropolog%C3%ADa_de_M%C3%A9xico_2.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista aérea del Museo Nacional de Antropología de México 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Museo_Nacional_de_Antropolog%C3%ADa_de_M%C3%A9xico_3.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista aérea del Museo Nacional de Antropología de México 4",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Museo_Nacional_de_Antropolog%C3%ADa_de_M%C3%A9xico_4.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista aérea del Museo Nacional de Antropología de México 5",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Museo_Nacional_de_Antropolog%C3%ADa_de_M%C3%A9xico_5.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Museo Nacional de Antropología (El Paragua) (8263441535)",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Antropolog%C3%ADa_(El_Paragua)_(8263441535).jpg",
+          "author": "Rob Young",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Museo Nacional de Antropología (46734417554)",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Antropolog%C3%ADa_(46734417554).jpg",
+          "author": "Nan Palmero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Paraguas del Museo Nacional de Antropología",
+          "url": "https://commons.wikimedia.org/wiki/File:Paraguas_del_Museo_Nacional_de_Antropolog%C3%ADa.jpg",
+          "author": "opheliarossetti",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-anthropology-museum.glb",
+      "source": "generators/mexico-city-anthropology-museum.ts"
+    },
+    {
+      "id": "mexico-city-arcos-bosques",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arcos Bosques Corporativo",
+          "url": "https://commons.wikimedia.org/wiki/File:Arcos_Bosques_Corporativo.jpg",
+          "author": "Grandmastermexica97",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Arcos Bosques (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Arcos_Bosques_(1).jpg",
+          "author": "gabofr",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Torre Arcos Bosques",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Arcos_Bosques.jpg",
+          "author": "gabofr",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Sobrevuelos CDMX HJ2A4665",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_HJ2A4665_(26515162908).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Conjunto Arcos Bosques - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Conjunto_Arcos_Bosques_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Arcos building mexico-city",
+          "url": "https://commons.wikimedia.org/wiki/File:Arcos_building_mexico-city.JPG",
+          "author": "Pptudela",
+          "license": "Public domain"
+        },
+        {
+          "title": "Ciudad de México Arcos B",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciudad_de_M%C3%A9xico_Arcos_B.jpg",
+          "author": "Travellete",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-arcos-bosques.glb",
+      "source": "generators/mexico-city-arcos-bosques.ts"
+    },
+    {
+      "id": "mexico-city-auditorio-nacional",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "theatre",
+        "concert-hall",
+        "brutalist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Ciudad de Mexico - 1194 - Auditorio Nacional",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciudad_de_Mexico_-_1194_-_Auditorio_Nacional.jpg",
+          "author": "Pierre-Selim Huard",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "AUDITORIO NACIONAL CDMEXICO",
+          "url": "https://commons.wikimedia.org/wiki/File:AUDITORIO_NACIONAL_CDMEXICO.JPG",
+          "author": "Sarumo74",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Auditorio Nacional (México) - Fachada",
+          "url": "https://commons.wikimedia.org/wiki/File:Auditorio_Nacional_(M%C3%A9xico)_-_Fachada.JPG",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Auditorio Nacional México 2011",
+          "url": "https://commons.wikimedia.org/wiki/File:Auditorio_Nacional_M%C3%A9xico_2011.jpg",
+          "author": "Nacho Facello",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Auditorio nacional - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Auditorio_nacional_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "VistaAereaAuditorioNacional",
+          "url": "https://commons.wikimedia.org/wiki/File:VistaAereaAuditorioNacional.jpg",
+          "author": "Daniel Lobo",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Vista aérea de la Ciudad de México desde el Auditorio Nacional 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Ciudad_de_M%C3%A9xico_desde_el_Auditorio_Nacional_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Auditorio Nacional - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Auditorio_Nacional_-_panoramio.jpg",
+          "author": "Wiper México",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Auditorio Nacional de México por la noche",
+          "url": "https://commons.wikimedia.org/wiki/File:Auditorio_Nacional_de_M%C3%A9xico_por_la_noche.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-auditorio-nacional.glb",
+      "source": "generators/mexico-city-auditorio-nacional.ts"
+    },
+    {
+      "id": "mexico-city-basilica-of-guadalupe",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "religious",
+        "church",
+        "basilica",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Main facade - New Basilica of Our Lady of Guadalupe - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_facade_-_New_Basilica_of_Our_Lady_of_Guadalupe_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rear view - New Basilica of Our Lady of Guadalupe - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rear_view_-_New_Basilica_of_Our_Lady_of_Guadalupe_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View from the street - New Basilica of Our Lady of Guadalupe - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_from_the_street_-_New_Basilica_of_Our_Lady_of_Guadalupe_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Basilica of Our Lady of Guadalupe, Mexico.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Basilica_of_Our_Lady_of_Guadalupe,_Mexico.jpg",
+          "author": "Eneas De Troya",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Basílica de Santa María de Guadalupe 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Santa_Mar%C3%ADa_de_Guadalupe_2018.jpg",
+          "author": "Drkgk",
+          "license": "CC0"
+        },
+        {
+          "title": "Nueva Basílica de Nuestra Señora de Guadalupe - Outside - 1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Nueva_Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_Guadalupe_-_Outside_-_1.JPG",
+          "author": "Jarek Tuszyński",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "2013-12-23 Nueva Basílica de Nuestra Señora de Guadalupe anagoria.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:2013-12-23_Nueva_Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_Guadalupe_anagoria.JPG",
+          "author": "Anagoria",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Basílica de Guadalupe desde el aire 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Guadalupe_desde_el_aire_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Basílica de Guadalupe desde el aire 6.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Guadalupe_desde_el_aire_6.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Basílica de Guadalupe desde el aire 7.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Guadalupe_desde_el_aire_7.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista de la Plaza Mariana desde el Cerro del Tepeyac 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Plaza_Mariana_desde_el_Cerro_del_Tepeyac_03.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Basílica de Guadalupe CDMX 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Guadalupe_CDMX_2024.jpg",
+          "author": "PlanoAbierto",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Atrio de las Américas - La Villa - Basílica de Guadalupe - Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atrio_de_las_Am%C3%A9ricas_-_La_Villa_-_Bas%C3%ADlica_de_Guadalupe_-_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Complejo Villa de Guadalupe.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Complejo_Villa_de_Guadalupe.JPG",
+          "author": "Erick Hershele Gallegos Galván",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-basilica-of-guadalupe.glb",
+      "source": "generators/mexico-city-basilica-of-guadalupe.ts"
+    },
+    {
+      "id": "mexico-city-biblioteca-vasconcelos",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "library",
+        "contemporary",
+        "public"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "role": "creator",
+          "github": "alexwohlbruck"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vista aérea de la Biblioteca Vasconcelos 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Biblioteca_Vasconcelos_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea de la Biblioteca Vasconcelos 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Biblioteca_Vasconcelos_02.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea de la Biblioteca Vasconcelos 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Biblioteca_Vasconcelos_03.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea de la Biblioteca Vasconcelos 04",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Biblioteca_Vasconcelos_04.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea de la Biblioteca Vasconcelos 05",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Biblioteca_Vasconcelos_05.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea de la Biblioteca Vasconcelos 06",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Biblioteca_Vasconcelos_06.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Biblioteca Vasconcelos e Insignia",
+          "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Vasconcelos_e_Insignia.jpg",
+          "author": "Omar_sansi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fachada de la Biblioteca Vasconcelos Buenavista Ciudad de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Fachada_de_la_Biblioteca_Vasconcelos_Buenavista_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Biblioteca Vasconcelos Mexico City 19",
+          "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Vasconcelos_Mexico_City_19.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "\"Vasconcelos\" Library - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:%22Vasconcelos%22_Library_-_panoramio.jpg",
+          "author": "ORamírezD",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Biblioteca Vasconcelos Mexico City 26",
+          "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Vasconcelos_Mexico_City_26.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-biblioteca-vasconcelos.glb",
+      "source": "generators/mexico-city-biblioteca-vasconcelos.ts"
+    },
+    {
+      "id": "mexico-city-carlos-iv",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "equestrian-statue",
+        "monument",
+        "bronze",
+        "neoclassical",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vista de la Estatua Ecuestre de Carlos IV (El Caballito) de Tolsá (CDMX) 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Estatua_Ecuestre_de_Carlos_IV_(El_Caballito)_de_Tols%C3%A1_(CDMX)_1.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista de la Estatua Ecuestre de Carlos IV (El Caballito) de Tolsá (CDMX) 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Estatua_Ecuestre_de_Carlos_IV_(El_Caballito)_de_Tols%C3%A1_(CDMX)_2.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista de la Estatua Ecuestre de Carlos IV (El Caballito) de Tolsá (CDMX) 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Estatua_Ecuestre_de_Carlos_IV_(El_Caballito)_de_Tols%C3%A1_(CDMX)_3.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Estatua Ecuestre de Carlos IV, Plaza Manuel Tolsá, Ciudad de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Estatua_Ecuestre_de_Carlos_IV,_Plaza_Manuel_Tols%C3%A1,_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Carlos IV, Plaza Tolsá",
+          "url": "https://commons.wikimedia.org/wiki/File:Carlos_IV,_Plaza_Tols%C3%A1.jpg",
+          "author": "Isaac Salvador Pérez",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Estatua ecuestre de Carlos IV - 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Estatua_ecuestre_de_Carlos_IV_-_1.jpg",
+          "author": "Commons uploader credited as Manuel Tolsá",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Nacional de Arte and El Caballito, Plaza Manuel Tolsá",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Arte_and_El_Caballito,_Plaza_Manuel_Tols%C3%A1,_Mexico_City.jpg",
+          "author": "JonathanVitela",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "El Caballito and Museo Nacional de Arte, Mexico City, 2017",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Caballito_and_Museo_Nacional_de_Arte,_Mexico_City,_2017.jpg",
+          "author": "Secretaría de Cultura de la Ciudad de México",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Escultura Carlos IV + Palacio de Minería",
+          "url": "https://commons.wikimedia.org/wiki/File:Escultura_Carlos_IV_%2B_Palacio_de_Miner%C3%ADa.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de Mineria",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Mineria.JPG",
+          "author": "Rafael Sánchez Guiris",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-carlos-iv.glb",
+      "source": "generators/mexico-city-carlos-iv.ts"
+    },
+    {
+      "id": "mexico-city-casa-de-los-azulejos",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "baroque",
+        "palace",
+        "restaurant",
+        "historic",
+        "talavera"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Casa de los Azulejos (5 de Mayo front)",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_los_Azulejos_-_Mexico_2024_(5).jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de los Azulejos - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_los_Azulejos_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de Azulejos 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_Azulejos_3.jpg",
+          "author": "Thomas Ledl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de los Azulejos, Ciudad de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_los_Azulejos,_Ciudad_de_M%C3%A9xico_MEX.jpg",
+          "author": "Stefano Vigorelli",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Avenida 5 de Mayo - Casa de los Azulejos",
+          "url": "https://commons.wikimedia.org/wiki/File:Avenida_5_de_Mayo,_Centro_Hist%C3%B3rico,_Ciudad_de_M%C3%A9xico_-_Casa_de_los_Azulejos.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "El Callejón de la Condesa",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Callej%C3%B3n_de_la_Condesa,_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de los Azulejos patio, DD 46",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_los_Azulejos,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_46.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-casa-de-los-azulejos.glb",
+      "source": "generators/mexico-city-casa-de-los-azulejos.ts"
+    },
+    {
+      "id": "mexico-city-chapultepec-castle",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "castle",
+        "palace",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_2.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_3.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 4.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_4.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 5.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_5.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 6.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_6.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 7.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_7.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Castillo de Chapultepec 8.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_8.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Castillo de Chapultepec T.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Castillo_de_Chapultepec_T.jpg",
+          "author": "Olivier Bruchez",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Jardín del Alcazar - Chapultepec Castle - Mexico 2024 (6).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_del_Alcazar_-_Chapultepec_Castle_-_Mexico_2024_(6).jpg",
+          "author": "Jbribeiro1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Catillo de chapultepec III.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catillo_de_chapultepec_III.jpg",
+          "author": "OliAzor",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Southwest facade - Chapultepec Castle - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Southwest_facade_-_Chapultepec_Castle_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sobrevuelos CDMX HJ2A6114 (40386199871).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_HJ2A6114_(40386199871).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/mexico-city-chapultepec-castle.glb",
+      "source": "generators/mexico-city-chapultepec-castle.ts"
+    },
+    {
+      "id": "mexico-city-chapultepec-uno",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel",
+        "office",
+        "residential",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Paseo de la Reforma y Chapultepec",
+          "url": "https://commons.wikimedia.org/wiki/File:Paseo_de_la_Reforma_y_Chapultepec.jpg",
+          "author": "Crancket",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Chapultepec UNO CDMX",
+          "url": "https://commons.wikimedia.org/wiki/File:Chapultepec_UNO_CDMX.jpg",
+          "author": "Secretaría de Cultura Ciudad de México",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Hotel Ritz Carlton Ciudad de México 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Ritz_Carlton_Ciudad_de_M%C3%A9xico_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Chapultepec Uno y la Torre Mayor",
+          "url": "https://commons.wikimedia.org/wiki/File:Chapultepec_Uno_y_la_Torre_Mayor.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista del edificio Chapultepec Uno y la Torre Mayor 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_del_edificio_Chapultepec_Uno_y_la_Torre_Mayor_03.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Paseo de la Reforma Torre Reforma, Chapultepec Uno and Torre Mayor",
+          "url": "https://commons.wikimedia.org/wiki/File:Paseo_de_la_Reforma_Torre_Reforma,_Chapultepec_Uno_and_Torre_Mayor.jpg",
+          "author": "Tyrv",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reforma Corner",
+          "url": "https://commons.wikimedia.org/wiki/File:Reforma_Corner.jpg",
+          "author": "Dead.rabbit",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Chapultepec Uno (under construction)",
+          "url": "https://commons.wikimedia.org/wiki/File:Chapultepec_Uno.jpg",
+          "author": "Memo198",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-chapultepec-uno.glb",
+      "source": "generators/mexico-city-chapultepec-uno.ts"
+    },
+    {
+      "id": "mexico-city-diana-cazadora",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "fountain",
+      "tags": [
+        "statue",
+        "sculpture",
+        "bronze",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Diana Fountain - Paseo de la Reforma",
+          "url": "https://commons.wikimedia.org/wiki/File:Diana_Fountain_-_Paseo_de_la_Reforma_(4610531848).jpg",
+          "author": "Jorge Láscar",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Fuente de la Diana Cazadora, México D.F., 2014-10-13, DD 15",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_de_la_Diana_Cazadora,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_15.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ciudad de México - Fuente de la Diana Cazadora 0388",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciudad_de_M%C3%A9xico_-_Fuente_de_la_Diana_Cazadora_0388.jpg",
+          "author": "Phyrexian",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mexico City (2018) - 020",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_City_(2018)_-_020.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mexico City (2018) - 022",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_City_(2018)_-_022.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Diana Cazadora Fountain",
+          "url": "https://commons.wikimedia.org/wiki/File:Diana_Cazadora_Fountain.jpg",
+          "author": "Andres Gil Ron",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "VistaDesdeTorreDianaPiso30 ohs05",
+          "url": "https://commons.wikimedia.org/wiki/File:VistaDesdeTorreDianaPiso30_ohs05.jpg",
+          "author": "PetrohsW",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-diana-cazadora.glb",
+      "source": "generators/mexico-city-diana-cazadora.ts"
+    },
+    {
+      "id": "mexico-city-edificio-la-nacional",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "art-deco",
+        "office",
+        "historic",
+        "skyscraper"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Edificio La Nacional",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_df_-_Edificio_La_Nacional.jpg",
+          "author": "Thomas Ledl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Edificio La Nacional 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:Edificio_La_Nacional_2009.JPG",
+          "author": "Felipe Alfonso Castillo Vázquez",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Edificio La Nacional I y II",
+          "url": "https://commons.wikimedia.org/wiki/File:Edificio_La_Nacional_I_y_II.JPG",
+          "author": "Felipe Alfonso Castillo Vázquez",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Torre Latinoamericana from the Bellas Artes plaza",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_df_-_Torre_Latinoamerica.jpg",
+          "author": "Thomas Ledl",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-edificio-la-nacional.glb",
+      "source": "generators/mexico-city-edificio-la-nacional.ts"
+    },
+    {
+      "id": "mexico-city-el-caballito",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "public-art",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "SculptureTorreCaballito3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SculptureTorreCaballito3.jpg",
+          "author": "AlejandroLinaresGarcia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "GLORIETA DEL CABALLITO SEBASTIAN.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:GLORIETA_DEL_CABALLITO_SEBASTIAN.JPG",
+          "author": "Sarumo74",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Caballito-sebastian.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Caballito-sebastian.jpg",
+          "author": "Jubilo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Caballito (The Horse).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Caballito_(The_Horse).jpg",
+          "author": "Victormendozad",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Glorieta de El Caballito, Reforma, Ciudad de méxico.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Glorieta_de_El_Caballito,_Reforma,_Ciudad_de_m%C3%A9xico.jpg",
+          "author": "Susana Colin",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-el-caballito.glb",
+      "source": "generators/mexico-city-el-caballito.ts"
+    },
+    {
+      "id": "mexico-city-el-moro",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "art-deco",
+        "office",
+        "tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Edificio El Moro 2010.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Edificio_El_Moro_2010.JPG",
+          "author": "Felipe Alfonso Castillo Vazquez",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Moro Building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Moro_Building.jpg",
+          "author": "Ymblanter",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Edificio Moro 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Edificio_Moro_05.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Edificio Moro 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Edificio_Moro_03.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Edificio Moro 08.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Edificio_Moro_08.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Edificio Moro 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Edificio_Moro_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Edificio de la Lotería Nacional.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Edificio_de_la_Loter%C3%ADa_Nacional.JPG",
+          "author": "Luis Lemus",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-el-moro.glb",
+      "source": "generators/mexico-city-el-moro.ts"
+    },
+    {
+      "id": "mexico-city-estadio-azteca",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "world-cup",
+        "modernist",
+        "concrete"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vista aérea del Estadio Azteca - 2026 - 19",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_19.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista aérea del Estadio Azteca - 2026 - 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Estadio Azteca 2026 - 04",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadio_Azteca_2026_-_04.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Mexico city Estadio Azteca estadio banorte fifa world cup 2026 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_city_Estadio_Azteca_estadio_banorte_fifa_world_cup_2026_1.JPG",
+          "author": "Arne Müseler",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "Estadio Azteca (detalle)",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadio_Azteca_(detalle).jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Interior Estadio Azteca CDMX",
+          "url": "https://commons.wikimedia.org/wiki/File:Interior_Estadio_Azteca_CDMX.jpg",
+          "author": "AnatGutman",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/mexico-city-estadio-azteca.glb",
+      "source": "generators/mexico-city-estadio-azteca.ts"
+    },
+    {
+      "id": "mexico-city-estadio-olimpico-universitario",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "olympic",
+        "modernist",
+        "unesco",
+        "university"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Estadio Olímpico Universitario - 2026 - 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadio_Ol%C3%ADmpico_Universitario_-_2026_-_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Estadio Olímpico Universitario - 2026 - 13",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadio_Ol%C3%ADmpico_Universitario_-_2026_-_13.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Estadio Olímpico Universitario - aerial view",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadio_Ol%C3%ADmpico_Universitario_-_aerial_view.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "ProtoplasmaKid"
+        },
+        {
+          "title": "Estadio Olímpico Universitario - Plano 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadio_Ol%C3%ADmpico_Universitario_-_Plano_01.jpg",
+          "author": "Revista Arquitectura No. 21",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Entrada Estadio Olímpico Universitario",
+          "url": "https://commons.wikimedia.org/wiki/File:Entrada_Estadio_Ol%C3%ADmpico_Universitario.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Estadio olimpico universitario",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadio_olimpico_universitario.jpg",
+          "author": "Espartaco Palma",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Estadio Olímpico Universitario, Ciudad Universitaria, UNAM",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadio_Ol%C3%ADmpico_Universitario,_Ciudad_Universitaria,_UNAM.jpg",
+          "author": "Lepog",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-estadio-olimpico-universitario.glb",
+      "source": "generators/mexico-city-estadio-olimpico-universitario.ts"
+    },
+    {
+      "id": "mexico-city-estela-de-luz",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "tower",
+        "contemporary",
+        "bicentennial",
+        "illuminated"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Estela de Luz y Torre Mayor, México D.F., 2014-10-13, DD 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Estela_de_Luz_y_Torre_Mayor,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_02.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Estela de Luz y Torre Mayor, México D.F., 2014-10-13, DD 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Estela_de_Luz_y_Torre_Mayor,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_03.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Vista de la Estela de Luz (conocida como Suavicrema) 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Estela_de_Luz_(conocida_como_Suavicrema)_01.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista de la Estela de Luz (conocida como Suavicrema) 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Estela_de_Luz_(conocida_como_Suavicrema)_02.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mexico City (2018) - 027",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_City_(2018)_-_027.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Estela de Luz Mexico City KR",
+          "url": "https://commons.wikimedia.org/wiki/File:Estela_de_Luz_Mexico_City_KR.jpg",
+          "author": "vladimix",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/mexico-city-estela-de-luz.glb",
+      "source": "generators/mexico-city-estela-de-luz.ts"
+    },
+    {
+      "id": "mexico-city-fuente-de-petroleos",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "fountain",
+        "sculpture",
+        "roundabout"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fuente de Petróleos - Ciudad de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_de_Petr%C3%B3leos_-_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fuente de Petróleos - Ciudad de México - Detalle",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_de_Petr%C3%B3leos_-_Ciudad_de_M%C3%A9xico_-_Detalle.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fuente de Petroleos Reforma Mex D.F.",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_de_Petroleos_Reforma_Mex_D.F.jpg",
+          "author": "Sarumo74",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monumento a Fuente de Petróleos DF",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_Fuente_de_Petr%C3%B3leos_DF.jpg",
+          "author": "Eric Menjívar",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Monumento a Fuente de Petróleos V",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_Fuente_de_Petr%C3%B3leos_V.jpg",
+          "author": "Eneas",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "GLORIETA DE PETROLEOS MEXICANOS",
+          "url": "https://commons.wikimedia.org/wiki/File:GLORIETA_DE_PETROLEOS_MEXICANOS.jpg",
+          "author": "JEDIKNIGHT1970",
+          "license": "CC BY 2.5"
+        }
+      ],
+      "file": "models/mexico-city-fuente-de-petroleos.glb",
+      "source": "generators/mexico-city-fuente-de-petroleos.ts"
+    },
+    {
+      "id": "mexico-city-hemiciclo-a-juarez",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "memorial",
+        "colonnade",
+        "marble",
+        "neoclassical",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hemiciclo a Juárez, México D.F., México, 2014-10-13, DD 35",
+          "url": "https://commons.wikimedia.org/wiki/File:Hemiciclo_a_Ju%C3%A1rez,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_35.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hemiciclo a Juárez (vista trasera), Ciudad de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Hemiciclo_a_Ju%C3%A1rez_(vista_trasera),_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hemiciclo Juarez 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Hemiciclo_Juarez_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hemiciclo a Juárez 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Hemiciclo_a_Ju%C3%A1rez_2024.jpg",
+          "author": "Dudva",
+          "license": "CC0"
+        },
+        {
+          "title": "Vista aérea del Hemiciclo a Juárez 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Hemiciclo_a_Ju%C3%A1rez_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hemiciclo a Juárez y Alameda Central 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Hemiciclo_a_Ju%C3%A1rez_y_Alameda_Central_03.jpg",
+          "author": "Correogsk",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-hemiciclo-a-juarez.glb",
+      "source": "generators/mexico-city-hemiciclo-a-juarez.ts"
+    },
+    {
+      "id": "mexico-city-kiosco-morisco",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "pavilion",
+        "kiosk",
+        "moorish-revival",
+        "cast-iron",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kiosco Morisco de Santa María la Ribera 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kiosco_Morisco_de_Santa_Mar%C3%ADa_la_Ribera_1.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kiosco Morisco de Santa María la Ribera 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kiosco_Morisco_de_Santa_Mar%C3%ADa_la_Ribera_3.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kiosco Morisco Mexico.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kiosco_Morisco_Mexico.jpg",
+          "author": "Ulisesmorales",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Kiosco Morisco dia.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Kiosco_Morisco_dia.JPG",
+          "author": "Tanke67",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-kiosco-morisco.glb",
+      "source": "generators/mexico-city-kiosco-morisco.ts"
+    },
+    {
+      "id": "mexico-city-la-profesa",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "religious",
+        "church",
+        "baroque",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Portada Iglesia de la Profesa Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Portada_Iglesia_de_la_Profesa_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Temple of San Felipe Neri \"La Profesa\" 2015 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_of_San_Felipe_Neri_%22La_Profesa%22_2015_01.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Temple of San Felipe Neri \"La Profesa\" 2015 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_of_San_Felipe_Neri_%22La_Profesa%22_2015_02.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Temple of San Felipe Neri \"La Profesa\" 2015 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_of_San_Felipe_Neri_%22La_Profesa%22_2015_04.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Temple of San Felipe Neri \"La Profesa\" 2015 22.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_of_San_Felipe_Neri_%22La_Profesa%22_2015_22.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de la Profesa 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_la_Profesa_2.jpg",
+          "author": "Ricardo Daniel Huerta Garrido",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Avenida Francisco I. Madero, Centro Histórico, Ciudad de México - La Profesa.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Avenida_Francisco_I._Madero,_Centro_Hist%C3%B3rico,_Ciudad_de_M%C3%A9xico_-_La_Profesa.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de La Profesa desde el hotel 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_La_Profesa_desde_el_hotel_01.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de La Profesa desde el hotel 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_La_Profesa_desde_el_hotel_02.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de la Profesa..JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_la_Profesa..JPG",
+          "author": "CPeralta",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-la-profesa.glb",
+      "source": "generators/mexico-city-la-profesa.ts"
+    },
+    {
+      "id": "mexico-city-metropolitan-cathedral",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "religious",
+        "church",
+        "cathedral",
+        "baroque",
+        "neoclassical",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Catedral Metropolitana de la Ciudad de México 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_de_la_Ciudad_de_M%C3%A9xico_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Catedral Metropolitana de la Ciudad de México 8.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_de_la_Ciudad_de_M%C3%A9xico_8.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CDMX Metropolitan Cathedral from above.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:CDMX_Metropolitan_Cathedral_from_above.jpg",
+          "author": "TonyBallioni",
+          "license": "CC0"
+        },
+        {
+          "title": "Catedral Metropolitana desde la Torre Latinoamericana, Ciudad de México.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_desde_la_Torre_Latinoamericana,_Ciudad_de_M%C3%A9xico.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torres de la Catedral Metropolitana desde la Torre Latinoamericana.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Torres_de_la_Catedral_Metropolitana_desde_la_Torre_Latinoamericana.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Catedral - cúpula, Ciudad de México MEX.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_-_c%C3%BApula,_Ciudad_de_M%C3%A9xico_MEX.jpg",
+          "author": "Stefano Vigorelli",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mexico City, Metropolitan Cathedral (20693413381).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_City,_Metropolitan_Cathedral_(20693413381).jpg",
+          "author": "Arian Zwegers",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Metropolitan Cathedral & Sagrario - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Metropolitan_Cathedral_%26_Sagrario_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "East Facade - Sagrario Metropolitano - Mexico 2024 (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Facade_-_Sagrario_Metropolitano_-_Mexico_2024_(2).jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-metropolitan-cathedral.glb",
+      "source": "generators/mexico-city-metropolitan-cathedral.ts"
+    },
+    {
+      "id": "mexico-city-monumento-a-alvaro-obregon",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "art-deco",
+        "memorial",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "MonumentAlvaroObrgonDF.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:MonumentAlvaroObrgonDF.JPG",
+          "author": "Thelmadatter",
+          "license": "Public domain"
+        },
+        {
+          "title": "Monumento a Alvaro Obregon.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_Alvaro_Obregon.jpg",
+          "author": "Natalia.castilloo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "002304-001 MONUMENTO ÁLVARO OBREGÓN (32251569108).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:002304-001_MONUMENTO_%C3%81LVARO_OBREG%C3%93N_(32251569108).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Esquina Norte del Monumento a Álvaro Obregón 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Esquina_Norte_del_Monumento_a_%C3%81lvaro_Obreg%C3%B3n_2.jpg",
+          "author": "Matrodgian",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Costado del Monumento a Álvaro Obregón.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Costado_del_Monumento_a_%C3%81lvaro_Obreg%C3%B3n.jpg",
+          "author": "Ehécatl Cabrera",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monumento a Obregón - 2026 - 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_Obreg%C3%B3n_-_2026_-_04.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Costado derecho del monumento a Álvaro Obregón.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Costado_derecho_del_monumento_a_%C3%81lvaro_Obreg%C3%B3n.jpg",
+          "author": "Leana.mg",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-monumento-a-alvaro-obregon.glb",
+      "source": "generators/mexico-city-monumento-a-alvaro-obregon.ts"
+    },
+    {
+      "id": "mexico-city-monumento-a-la-raza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "monument",
+        "pyramid",
+        "sculpture",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Monumento a La Raza 03 2014 MEX 8349.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_La_Raza_03_2014_MEX_8349.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Monumento a La Raza 03 2014 MEX 8352.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_La_Raza_03_2014_MEX_8352.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "VISTA DEL MONUMENTO A LA RAZA DEL AVENIDA DE LOS INSURGENTES NORTE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:VISTA_DEL_MONUMENTO_A_LA_RAZA_DEL_AVENIDA_DE_LOS_INSURGENTES_NORTE.jpg",
+          "author": "JEDIKNIGHT1970",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Monumento a la Raza (2023).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Raza_(2023).jpg",
+          "author": "Tbhotch",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-monumento-a-la-raza.glb",
+      "source": "generators/mexico-city-monumento-a-la-raza.ts"
+    },
+    {
+      "id": "mexico-city-monumento-a-la-revolucion",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "historic",
+        "art-deco",
+        "arch",
+        "dome",
+        "mausoleum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Monumento a la revolución2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_revoluci%C3%B3n2017.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monumento a la Revolución 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_1.jpg",
+          "author": "Haakon S. Krohn",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Monumento a la Revolución Mexico.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_Mexico.jpg",
+          "author": "ismael villafranco",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Monumento a la Revolución 2012.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_2012.JPG",
+          "author": "Nviascan",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Monumento a la Revolución CDMX 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_CDMX_1.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-monumento-a-la-revolucion.glb",
+      "source": "generators/mexico-city-monumento-a-la-revolucion.ts"
+    },
+    {
+      "id": "mexico-city-munal",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "renaissance-revival",
+        "palace",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fachada MUNAL",
+          "url": "https://commons.wikimedia.org/wiki/File:Fachada_MUNAL.jpg",
+          "author": "Covadongino",
+          "license": "CC0"
+        },
+        {
+          "title": "Main facade - Museo Nacional de Arte - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_facade_-_Museo_Nacional_de_Arte_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Main facade - Museo Nacional de Arte - Mexico 2024 (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_facade_-_Museo_Nacional_de_Arte_-_Mexico_2024_(2).jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Nacional de Arte (MUNAL) - Ciudad de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Arte_(MUNAL)_-_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Nacional de Arte (MUNAL) - Ciudad de México - 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Arte_(MUNAL)_-_Ciudad_de_M%C3%A9xico_-_3.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Nacional de Arte (MUNAL) - Ciudad de México - Nocturna",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Arte_(MUNAL)_-_Ciudad_de_M%C3%A9xico_-_Nocturna.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Nacional de Arte and El Caballito, Plaza Manuel Tolsá",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Arte_and_El_Caballito,_Plaza_Manuel_Tols%C3%A1,_Mexico_City.jpg",
+          "author": "JonathanVitela",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "El Caballito and Museo Nacional de Arte, Mexico City, 2017",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Caballito_and_Museo_Nacional_de_Arte,_Mexico_City,_2017.jpg",
+          "author": "Secretaría de Cultura de la Ciudad de México",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Museo Nacional De Arte- front",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_De_Arte-_front.jpg",
+          "author": "Thayne Tuason",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/mexico-city-munal.glb",
+      "source": "generators/mexico-city-munal.ts"
+    },
+    {
+      "id": "mexico-city-museo-jumex",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "DJI 0040-HDR cropped",
+          "url": "https://commons.wikimedia.org/wiki/File:DJI_0040-HDR_cropped.jpg",
+          "author": "Fundación Jumex",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista del Museo Jumex desde el Museo Soumaya",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_del_Museo_Jumex_desde_el_Museo_Soumaya.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Jumex exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Jumex_exterior.png",
+          "author": "Fundación Jumex",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista del museo Jumex",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_del_museo_Jumex.jpg",
+          "author": "OliAzor",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/mexico-city-museo-jumex.glb",
+      "source": "generators/mexico-city-museo-jumex.ts"
+    },
+    {
+      "id": "mexico-city-museo-soumaya",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "contemporary",
+        "parametric"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Museo Soumaya, Ciudad de México, México, 2015-07-18, DD 12",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Soumaya,_Ciudad_de_M%C3%A9xico,_M%C3%A9xico,_2015-07-18,_DD_12.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Soumaya, Ciudad de México, México, 2015-07-18, DD 13",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Soumaya,_Ciudad_de_M%C3%A9xico,_M%C3%A9xico,_2015-07-18,_DD_13.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Soumaya Plaza",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Soumaya_Plaza.jpg",
+          "author": "Raystormxc",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Museo Soumaya from Museo Jumex - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Soumaya_from_Museo_Jumex_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Plaza Carso & Museo Soumaya - Mexico 2024 (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Plaza_Carso_%26_Museo_Soumaya_-_Mexico_2024_(2).jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Museo Soumaya (Plaza Carso)",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_Soumaya_(Plaza_Carso).jpg",
+          "author": "artotems",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Exterior of Museo Soumaya Plaza Carso - 2015",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Museo_Soumaya_Plaza_Carso_-_2015.jpg",
+          "author": "Benoît Prieur",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/mexico-city-museo-soumaya.glb",
+      "source": "generators/mexico-city-museo-soumaya.ts"
+    },
+    {
+      "id": "mexico-city-ninos-heroes",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "memorial",
+        "columns",
+        "sculpture",
+        "marble",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Monumento a los Niños Heroes - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_los_Ni%C3%B1os_Heroes_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monumento a los Niños Heroes - Mexico 2024 (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_los_Ni%C3%B1os_Heroes_-_Mexico_2024_(2).jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mexico City (2018) - 030",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_City_(2018)_-_030.jpg",
+          "author": "Another Believer",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-ninos-heroes.glb",
+      "source": "generators/mexico-city-ninos-heroes.ts"
+    },
+    {
+      "id": "mexico-city-old-basilica",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "religious",
+        "church",
+        "basilica",
+        "baroque",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Templo Expiatorio a Cristo Rey (Antigua Basílica de Guadalupe) - Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_Expiatorio_a_Cristo_Rey_(Antigua_Bas%C3%ADlica_de_Guadalupe)_-_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Antigua Basílica de Nuestra Señora de Guadalupe 2026 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Antigua_Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_Guadalupe_2026_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Templo Expiatorio a Cristo Rey (Antigua Basílica de Guadalupe) - Costado.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_Expiatorio_a_Cristo_Rey_(Antigua_Bas%C3%ADlica_de_Guadalupe)_-_Costado.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fachada del Templo Expiatorio de Cristo Rey al atardecer.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fachada_del_Templo_Expiatorio_de_Cristo_Rey_al_atardecer.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Antigua Basílica de Nuestra Señora de Guadalupe front.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Antigua_Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_Guadalupe_front.jpg",
+          "author": "Polimerek",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "West facade - Old Basilica of Our Lady of Guadalupe - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:West_facade_-_Old_Basilica_of_Our_Lady_of_Guadalupe_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Basílica de Guadalupe desde el aire 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Guadalupe_desde_el_aire_2.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista de la Plaza Mariana desde el Cerro del Tepeyac 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Plaza_Mariana_desde_el_Cerro_del_Tepeyac_03.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Basílica de Guadalupe CDMX 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Guadalupe_CDMX_2024.jpg",
+          "author": "PlanoAbierto",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Atrio de las Américas - La Villa - Basílica de Guadalupe - Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Atrio_de_las_Am%C3%A9ricas_-_La_Villa_-_Bas%C3%ADlica_de_Guadalupe_-_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-old-basilica.glb",
+      "source": "generators/mexico-city-old-basilica.ts"
+    },
+    {
+      "id": "mexico-city-palacio-de-bellas-artes",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "theatre",
+        "museum",
+        "art-nouveau",
+        "dome"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Front view of Palacio de Bellas Artes at night",
+          "url": "https://commons.wikimedia.org/wiki/File:Front_view_of_Palacio_de_Bellas_Artes_at_night.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Main facade - Palacio de Bellas Artes - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_facade_-_Palacio_de_Bellas_Artes_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nortwest corner of Palacio de Bellas Artes - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Nortwest_corner_of_Palacio_de_Bellas_Artes_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palaco de Bellas Artes, Mexico City, from across Eje Central Lazaro Cardenas in evening",
+          "url": "https://commons.wikimedia.org/wiki/File:Palaco_de_Bellas_Artes,_Mexico_City,_from_across_Eje_Central_Lazaro_Cardenas_in_evening.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de Bellas Artes, Ciudad de México, México, 2015-07-18, DD 10",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Bellas_Artes,_Ciudad_de_M%C3%A9xico,_M%C3%A9xico,_2015-07-18,_DD_10.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View of Palacio de Bellas Artes from Torre Latinoamericana - 02",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Palacio_de_Bellas_Artes_from_Torre_Latinoamericana_-_Centro_-_Mexico_City_-_Mexico_-_02_(31214238467).jpg",
+          "author": "Adam Jones",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Mexico City Palacio de bellas artes",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_City_Palacio_de_bellas_artes.jpg",
+          "author": "Jeses",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Vista de Bellas Artes desde la Torre Latinoamericana 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_Bellas_Artes_desde_la_Torre_Latinoamericana_2.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-palacio-de-bellas-artes.glb",
+      "source": "generators/mexico-city-palacio-de-bellas-artes.ts"
+    },
+    {
+      "id": "mexico-city-palacio-de-los-deportes",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "modernist",
+        "arena",
+        "dome"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vista aérea del Palacio de los Deportes 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Palacio_de_los_Deportes_05.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea del Palacio de los Deportes 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Palacio_de_los_Deportes_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palacio de los Deportes.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_Deportes.JPG",
+          "author": "unknown author",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de los deportes + sky.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_deportes_%2B_sky.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de los Deportes - panoramio - pacomexico.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_Deportes_-_panoramio_-_pacomexico.jpg",
+          "author": "pacomexico",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Palacio de los Deportes, domo - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_Deportes,_domo_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-palacio-de-los-deportes.glb",
+      "source": "generators/mexico-city-palacio-de-los-deportes.ts"
+    },
+    {
+      "id": "mexico-city-palacio-de-mineria",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "neoclassical",
+        "palace",
+        "museum",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Main facade - Palacio de Mineria - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_facade_-_Palacio_de_Mineria_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Escultura Carlos IV + Palacio de Minería",
+          "url": "https://commons.wikimedia.org/wiki/File:Escultura_Carlos_IV_%2B_Palacio_de_Miner%C3%ADa.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de Mineria",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Mineria.JPG",
+          "author": "Rafael Sánchez Guiris",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "East side (Calle Filomeno) - Palacio de Minería - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:East_side_(Calle_Filomeno)_-_Palacio_de_Miner%C3%ADa_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Plaza Manuel Tolsá - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Plaza_Manuel_Tols%C3%A1_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palacio de Minería - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Miner%C3%ADa_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-palacio-de-mineria.glb",
+      "source": "generators/mexico-city-palacio-de-mineria.ts"
+    },
+    {
+      "id": "mexico-city-palacio-nacional",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "palace",
+        "government",
+        "baroque",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fachada del Palacio Nacional, Ciudad de México 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fachada_del_Palacio_Nacional,_Ciudad_de_M%C3%A9xico_02.jpg",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fachada del Palacio Nacional, Ciudad de México 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fachada_del_Palacio_Nacional,_Ciudad_de_M%C3%A9xico_03.jpg",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palacio Nacional, fachada.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional,_fachada.JPG",
+          "author": "Marioli925",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Palacio Nacional.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Palacio_Nacional.JPG",
+          "author": "Patricia Alzuarte Díaz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio Nacional Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "MichaelCamacho",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Zócalo desde la Torre Latinoamericana, Ciudad de México.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Z%C3%B3calo_desde_la_Torre_Latinoamericana,_Ciudad_de_M%C3%A9xico.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Plaza de la Constitución - Zócalo de la Ciudad de México - 6.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Plaza_de_la_Constituci%C3%B3n_-_Z%C3%B3calo_de_la_Ciudad_de_M%C3%A9xico_-_6.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Plaza de la Constitución - Zócalo de la Ciudad de México - 4.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Plaza_de_la_Constituci%C3%B3n_-_Z%C3%B3calo_de_la_Ciudad_de_M%C3%A9xico_-_4.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palacio Nacional - Calle Corregidora - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_-_Calle_Corregidora_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Patio Central en Palacio Nacional Mexico 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Patio_Central_en_Palacio_Nacional_Mexico_2019.jpg",
+          "author": "Drkgk",
+          "license": "CC0"
+        },
+        {
+          "title": "Palacio Nacional 20201.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_20201.jpg",
+          "author": "Carlos Contreras",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-palacio-nacional.glb",
+      "source": "generators/mexico-city-palacio-nacional.ts"
+    },
+    {
+      "id": "mexico-city-palacio-postal",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "post-office",
+        "eclectic",
+        "gothic-revival",
+        "museum",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Palacio Postal",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Postal_Version_2.jpg",
+          "author": "Thomas Ledl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palacio Postal - Eje Central",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Postal,_Centro_Hist%C3%B3rico,_Ciudad_de_M%C3%A9xico_-_Eje_Central.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palacio Postal - Mexico 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Postal_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palacio Postal, DD 49",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Postal,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2013-10-16,_DD_49.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Vista cubo de luz del Palacio Postal",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_cubo_de_luz_del_Palacio_Postal.jpg",
+          "author": "Palacio Postal",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/mexico-city-palacio-postal.glb",
+      "source": "generators/mexico-city-palacio-postal.ts"
+    },
+    {
+      "id": "mexico-city-plaza-mexico",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "bullring",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mexico city Monumental Plaza de Toros México.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_city_Monumental_Plaza_de_Toros_M%C3%A9xico.JPG",
+          "author": "Arne Müseler",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "Mexico city Estadio Ciudad de los Deportes Monumental Plaza de Toros México.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_city_Estadio_Ciudad_de_los_Deportes_Monumental_Plaza_de_Toros_M%C3%A9xico.JPG",
+          "author": "Arne Müseler",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "Interior de la Monumental Plaza de Toros México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Interior_de_la_Monumental_Plaza_de_Toros_M%C3%A9xico.jpg",
+          "author": "Mario Yaír TS",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "EntrancePlazaTorosDF.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:EntrancePlazaTorosDF.JPG",
+          "author": "AlejandroLinaresGarcia",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Main entrance - Plaza Mexico.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_entrance_-_Plaza_Mexico.jpg",
+          "author": "Jorge De la Vega",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "La Plaza Mexico view.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:La_Plaza_Mexico_view.jpg",
+          "author": "Jorge De la Vega",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Plaza México - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Plaza_M%C3%A9xico_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-plaza-mexico.glb",
+      "source": "generators/mexico-city-plaza-mexico.ts"
+    },
+    {
+      "id": "mexico-city-polyforum-siqueiros",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "modernist",
+        "public-art",
+        "performing-arts"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Exterior del Polyforum Cultural Siqueiros 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_del_Polyforum_Cultural_Siqueiros_01.jpg",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterior del Polyforum Cultural Siqueiros 09.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_del_Polyforum_Cultural_Siqueiros_09.jpg",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterior del Polyforum Cultural Siqueiros 12.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_del_Polyforum_Cultural_Siqueiros_12.jpg",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "PolyforumSiqueiros01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PolyforumSiqueiros01.jpg",
+          "author": "AlejandroLinaresGarcia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Polyforum Siquieros and WTC in background.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Polyforum_Siquieros_and_WTC_in_background.jpg",
+          "author": "Keizers",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Polyforum - WTC - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Polyforum_-_WTC_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-polyforum-siqueiros.glb",
+      "source": "generators/mexico-city-polyforum-siqueiros.ts"
+    },
+    {
+      "id": "mexico-city-san-hipolito",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "church",
+        "baroque"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Templo de San Hipólito.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_San_Hip%C3%B3lito.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Exterior - San Hipolito (Mexico City) - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_-_San_Hipolito_(Mexico_City)_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de San Hipólito y Casiano, Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_San_Hip%C3%B3lito_y_Casiano,_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista del Templo San Hipólito y Casiano en la Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_del_Templo_San_Hip%C3%B3lito_y_Casiano_en_la_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "B.jars",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Iglesia de San Hipólito, Ciudad de México, México, 2015-07-20, DD 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Hip%C3%B3lito,_Ciudad_de_M%C3%A9xico,_M%C3%A9xico,_2015-07-20,_DD_01.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torres del Templo de San Hipólito 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torres_del_Templo_de_San_Hip%C3%B3lito_01.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de San Hipólito - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_San_Hip%C3%B3lito_-_panoramio.jpg",
+          "author": "Bohao Zhao",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/mexico-city-san-hipolito.glb",
+      "source": "generators/mexico-city-san-hipolito.ts"
+    },
+    {
+      "id": "mexico-city-san-juan-bautista-coyoacan",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "church",
+        "religious",
+        "baroque"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Iglesia de San Juan Bautista (Centro de Coyoacán).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Juan_Bautista_(Centro_de_Coyoac%C3%A1n).jpg",
+          "author": "Omar Ulises Ruiz Casas",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Main Facade - San Juan Bautista de Coyoacan - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_Facade_-_San_Juan_Bautista_de_Coyoacan_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Iglesia San Juan Bautista de costado.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_San_Juan_Bautista_de_costado.jpg",
+          "author": "Ines Suarez R.",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Iglesia y ex Convento de San Juan Bautista in Coyoacan.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_y_ex_Convento_de_San_Juan_Bautista_in_Coyoacan.jpg",
+          "author": "Vicmunz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Iglesia de San Juan Bautista, Centro de Coyoacán.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Juan_Bautista,_Centro_de_Coyoac%C3%A1n.jpg",
+          "author": "Raymundo Perera",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Iglesia de San Juan Bautista por la parte de atrás.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Juan_Bautista_por_la_parte_de_atr%C3%A1s.jpg",
+          "author": "Diana Paola Milla Perdomo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Church tower and former convent of San Juan Bautista.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Church_tower_and_former_convent_of_San_Juan_Bautista.jpg",
+          "author": "A01650377",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-san-juan-bautista-coyoacan.glb",
+      "source": "generators/mexico-city-san-juan-bautista-coyoacan.ts"
+    },
+    {
+      "id": "mexico-city-santiago-tlatelolco",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "religious",
+        "church",
+        "colonial",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Tlatelolco e iglesia de Santiago Tlatelolco, México D.F., México, 2013-10-16, DD 22.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tlatelolco_e_iglesia_de_Santiago_Tlatelolco,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2013-10-16,_DD_22.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Tlatelolco e iglesia de Santiago Tlatelolco, México D.F., México, 2013-10-16, DD 25.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Tlatelolco_e_iglesia_de_Santiago_Tlatelolco,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2013-10-16,_DD_25.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Vista aérea de la Zona Arqueológica de Tlatelolco.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Zona_Arqueol%C3%B3gica_de_Tlatelolco.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Iglesia de Tlatelolco.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Tlatelolco.jpg",
+          "author": "Socrackdown",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Templo de Santiago Tlatelolco (vista lateral) 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_de_Santiago_Tlatelolco_(vista_lateral)_01.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fachada del Templo de Santiago Tlatelolco 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fachada_del_Templo_de_Santiago_Tlatelolco_02.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tlatelolco Templo de Santiago.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tlatelolco_Templo_de_Santiago.jpg",
+          "author": "Karycocco",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-santiago-tlatelolco.glb",
+      "source": "generators/mexico-city-santiago-tlatelolco.ts"
+    },
+    {
+      "id": "mexico-city-santo-domingo",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "religious",
+        "church",
+        "baroque",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Church of Santo Domingo (Mexico City) - 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Church_of_Santo_Domingo_(Mexico_City)_-_2.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "ChurchSantoDomingoDF.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:ChurchSantoDomingoDF.JPG",
+          "author": "Thelmadatter",
+          "license": "Public domain"
+        },
+        {
+          "title": "Fachada del Templo de Santo Domingo de Guzmán (Cuauhtémoc).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fachada_del_Templo_de_Santo_Domingo_de_Guzm%C3%A1n_(Cuauht%C3%A9moc).jpg",
+          "author": "Huichol19",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "PlazaSantoDomingoDF.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:PlazaSantoDomingoDF.JPG",
+          "author": "Thelmadatter",
+          "license": "Public domain"
+        },
+        {
+          "title": "Iglesia de Santo Domingo, CDMX.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Santo_Domingo,_CDMX.jpg",
+          "author": "Muñoz LC",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-santo-domingo.glb",
+      "source": "generators/mexico-city-santo-domingo.ts"
+    },
+    {
+      "id": "mexico-city-torre-bbva",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "high-tech",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre BBVA Mexico 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_BBVA_Mexico_2019.jpg",
+          "author": "Drkgk",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre bancomer 1612",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_bancomer_1612.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reforma 3 skycrappers",
+          "url": "https://commons.wikimedia.org/wiki/File:Reforma_3_skycrappers.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Bancomer 2016 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Bancomer_2016_2.jpg",
+          "author": "Monstruodelinfierno",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre BBVA CDMX",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_BBVA_CDMX.jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Sobrevuelos CDMX IMG 0224",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_IMG_0224_(40386052191).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Sobrevuelos CDMX IMG 5816",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_IMG_5816_(40385952891).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Sobrevuelos CDMX IMG 0226",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_IMG_0226_(40340949152).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Sobrevuelos CDMX HJ2A5458",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_HJ2A5458_(39675459174).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Paseo de la Reforma from Chapultepec Castle (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Paseo_de_la_Reforma_from_Chapultepec_Castle_-_Mexico_2024_(2).jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre BBVA",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_BBVA.jpg",
+          "author": "AnghelGarcia",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-bbva.glb",
+      "source": "generators/mexico-city-torre-bbva.ts"
+    },
+    {
+      "id": "mexico-city-torre-insignia",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "skyscraper",
+        "modernist",
+        "carillon",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre Insignia desde el aire 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Insignia_desde_el_aire_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Insignia desde el aire 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Insignia_desde_el_aire_3.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Insignia desde el aire 4.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Insignia_desde_el_aire_4.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Insignia fachada norte.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Insignia_fachada_norte.JPG",
+          "author": "Felipe Alfonso Castillo Vazquez",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Torre Insignia, desde la Torre Latinoamericana.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Insignia,_desde_la_Torre_Latinoamericana.JPG",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista de la cara sur de la Torre Insignia desde la av. Ricardo Flores Magón 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_cara_sur_de_la_Torre_Insignia_desde_la_av._Ricardo_Flores_Mag%C3%B3n_01.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista de la cara norte de la Torre Insignia desde un puente peatonal en Insurgentes Nte. 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_cara_norte_de_la_Torre_Insignia_desde_un_puente_peatonal_en_Insurgentes_Nte._01.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Banobras desde el edif 10 - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Banobras_desde_el_edif_10_-_panoramio.jpg",
+          "author": "Arturinho10",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-insignia.glb",
+      "source": "generators/mexico-city-torre-insignia.ts"
+    },
+    {
+      "id": "mexico-city-torre-latinoamericana",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "skyscraper",
+        "observation-deck",
+        "modernist",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre Latinoamericana from the Bellas Artes plaza",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_df_-_Torre_Latinoamerica.jpg",
+          "author": "Thomas Ledl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Latinoamericana, DD 11",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Latinoamericana,_Ciudad_de_M%C3%A9xico,_M%C3%A9xico,_2015-07-18,_DD_11.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Latinoamericana from Alameda Central promenade",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Latinoamericana_from_Alameda_Central_promenade.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "View of Torre Latinoamericana from Palacio de Bellas Artes",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Torre_Latinoamericana_from_Palacio_de_Bellas_Artes_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Latinoamerica tower 2022",
+          "url": "https://commons.wikimedia.org/wiki/File:Latinoamerica_tower,_Mexico_City_2022_p2.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Latinoamericana de lejos",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Latinoamericana_de_lejos.jpg",
+          "author": "Fer9324",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Torre Latinoamericana durante la noche",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Latinoamericana_durante_la_noche.JPG",
+          "author": "Adrián Cerón",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-latinoamericana.glb",
+      "source": "generators/mexico-city-torre-latinoamericana.ts"
+    },
+    {
+      "id": "mexico-city-torre-mayor",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre Mayor, DD 11",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mayor,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_11.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Estela de Luz y Torre Mayor, DD 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Estela_de_Luz_y_Torre_Mayor,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_02.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Torre Mayor desde el Castillo de Chapultepec",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mayor_desde_el_Castillo_de_Chapultepec_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Torre Mayor, parte trasera",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mayor,_parte_trasera_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Torre Mayor y anexo",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mayor_y_anexo.JPG",
+          "author": "Felipe Alfonso Castillo Vázquez",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Torre Mayor y Torre Reforma 1612",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mayor_y_Torre_Reforma1612.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "East Skyline Torre Mayor Reforma",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Skyline_Torre_Mayor_Reforma_-_panoramio.jpg",
+          "author": "JAGarcia",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Paseo de la Reforma: Torre Reforma, Chapultepec Uno and Torre Mayor",
+          "url": "https://commons.wikimedia.org/wiki/File:Paseo_de_la_Reforma_Torre_Reforma,_Chapultepec_Uno_and_Torre_Mayor.jpg",
+          "author": "Tyrv",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea de la Ciudad de México desde el Auditorio Nacional 10",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Ciudad_de_M%C3%A9xico_desde_el_Auditorio_Nacional_10.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-mayor.glb",
+      "source": "generators/mexico-city-torre-mayor.ts"
+    },
+    {
+      "id": "mexico-city-torre-mitikah",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "residential",
+        "office",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre Mitikah (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mitikah_(cropped).jpg",
+          "author": "Eneas de Troya",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Mitikah",
+          "url": "https://commons.wikimedia.org/wiki/File:Mitikah.jpg",
+          "author": "Eneas de Troya",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Torre Mitikah (2026) 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mitikah_(2026)_2.jpg",
+          "author": "Tbhotch",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Mitikah (2026) 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mitikah_(2026)_3.jpg",
+          "author": "Tbhotch",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Mitikah, Coyoacan, CDMX",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mitikah,_Coyoacan,_CDMX.jpg",
+          "author": "Calypso9X",
+          "license": "CC0"
+        },
+        {
+          "title": "Torre Mitikah 1, Coyoacan, CDMX",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mitikah_1,_Coyoacan,_CDMX.jpg",
+          "author": "Calypso9X",
+          "license": "CC0"
+        },
+        {
+          "title": "Mitikah tower from north Mexico City 2020",
+          "url": "https://commons.wikimedia.org/wiki/File:Mitikah_tower_from_north_Mexico_City_2020.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mitika tower 2020",
+          "url": "https://commons.wikimedia.org/wiki/File:Mitika_tower_2020.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Alberca Olímpica Francisco Márquez y Gimnasio Juan de la Barrera - 9",
+          "url": "https://commons.wikimedia.org/wiki/File:Alberca_Ol%C3%ADmpica_Francisco_M%C3%A1rquez_y_Gimnasio_Juan_de_la_Barrera_-_9.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-mitikah.glb",
+      "source": "generators/mexico-city-torre-mitikah.ts"
+    },
+    {
+      "id": "mexico-city-torre-pemex",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre ejecutiva de PEMEX",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_ejecutiva_de_PEMEX.jpg",
+          "author": "Omar David Sandoval Sida",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "TorreDePemex1907p1",
+          "url": "https://commons.wikimedia.org/wiki/File:TorreDePemex1907p1.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aerial view Torre Pemex 03 2014 MEX 7827",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_Torre_Pemex_03_2014_MEX_7827.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Aerial view Torre Pemex 03 2014 MEX 7828",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_Torre_Pemex_03_2014_MEX_7828.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Torre Pemex (5)",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Pemex_(5).jpg",
+          "author": "Eneas",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Torre de Pemex 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Pemex_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-pemex.glb",
+      "source": "generators/mexico-city-torre-pemex.ts"
+    },
+    {
+      "id": "mexico-city-torre-reforma",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre Reforma 1707",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Reforma1707.jpg",
+          "author": "Cvmontuy",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Reforma",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Reforma_.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Mayor y Torre Reforma 1612",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mayor_y_Torre_Reforma1612.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reforma towers 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Reforma_towers2019.jpg",
+          "author": "Cvmontuy",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torres del Paseo de la Reforma desde el Hotel Sonder Aria 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Torres_del_Paseo_de_la_Reforma_desde_el_Hotel_Sonder_Aria_01.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torres del Paseo de la Reforma desde el Hotel Sonder Aria 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Torres_del_Paseo_de_la_Reforma_desde_el_Hotel_Sonder_Aria_03.jpg",
+          "author": "Luis Alvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sobrevuelos CDMX HJ2A5055",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_HJ2A5055_(40386345631).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Vista aérea de la Ciudad de México desde el Auditorio Nacional 10",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Ciudad_de_M%C3%A9xico_desde_el_Auditorio_Nacional_10.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Torre Reforma 2016",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Reforma_2016.jpg",
+          "author": "Monstruodelinfierno",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-reforma.glb",
+      "source": "generators/mexico-city-torre-reforma.ts"
+    },
+    {
+      "id": "mexico-city-unam-central-library",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "library",
+        "university",
+        "mural",
+        "modernist",
+        "unesco"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "CU-Mexico-biblioteca-2",
+          "url": "https://commons.wikimedia.org/wiki/File:CU-Mexico-biblioteca-2.jpg",
+          "author": "Régis Lachaume",
+          "license": "Public domain"
+        },
+        {
+          "title": "Biblioteca Central de la UNAM (night)",
+          "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Central_de_la_UNAM.jpg",
+          "author": "Esparta Palma",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Remate de la Biblioteca Central de la UNAM 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Remate_de_la_Biblioteca_Central_de_la_UNAM_01.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Biblioteca Central de la UNAM, ArmAg",
+          "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Central_de_la_UNAM,_ArmAg.JPG",
+          "author": "Armineaghayan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Biblioteca Central, UNAM",
+          "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Central,_UNAM.JPG",
+          "author": "Muñoz LC",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Biblioteca Central de la UNAM - 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Central_de_la_UNAM_-_2019.jpg",
+          "author": "Andrea Juárez",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Biblioteca Central de la Universidad Nacional Autónoma de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Central_de_la_Universidad_Nacional_Aut%C3%B3noma_de_M%C3%A9xico.jpg",
+          "author": "Armando Olivo Martín del Campo",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-unam-central-library.glb",
+      "source": "generators/mexico-city-unam-central-library.ts"
+    },
+    {
+      "id": "mexico-city-unam-rectoria",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "university",
+        "office",
+        "mural",
+        "modernist",
+        "unesco"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "UNAM administration building, Ciudad Universitaria",
+          "url": "https://commons.wikimedia.org/wiki/File:UNAM_administration_building,_Ciudad_Universitaria.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Conjunto de la Torre de Rectoría de la UNAM 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Conjunto_de_la_Torre_de_Rector%C3%ADa_de_la_UNAM_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ciudad Universitaria UNAM - Torre de Rectoría - 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciudad_Universitaria_UNAM_-_Torre_de_Rector%C3%ADa_-_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ciudad Universitaria con dron 2025 - 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciudad_Universitaria_con_dron_2025_-_3.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CU-Mexico-rectoria-2",
+          "url": "https://commons.wikimedia.org/wiki/File:CU-Mexico-rectoria-2.jpg",
+          "author": "Régis Lachaume",
+          "license": "Public domain"
+        },
+        {
+          "title": "Torre de rectoría de la UNAM con murales de Siqueiros 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_rector%C3%ADa_de_la_UNAM_con_murales_de_Siqueiros_01.jpg",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre de Rectoría y Biblioteca Central UNAM al fondo",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Rector%C3%ADa_y_Biblioteca_Central_UNAM_al_fondo.jpg",
+          "author": "Androide rockero",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/mexico-city-unam-rectoria.glb",
+      "source": "generators/mexico-city-unam-rectoria.ts"
+    },
+    {
+      "id": "mexico-city-world-trade-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "World Trade Center - Mexico City",
+          "url": "https://commons.wikimedia.org/wiki/File:World_Trade_Center_-_Mexico_City.jpg",
+          "author": "EneasMx",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre wtc mexico",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_wtc_mexico.jpg",
+          "author": "Daniel Manrique",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Aerial view World Trade Center Mexico 03 2014 MEX 7842",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_World_Trade_Center_Mexico_03_2014_MEX_7842.JPG",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Antena del World Trade Center México",
+          "url": "https://commons.wikimedia.org/wiki/File:Antena_del_World_Trade_Center_M%C3%A9xico.JPG",
+          "author": "Felipe Alfonso Castillo Vázquez",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Sobrevuelos CDMX HJ2A6040",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_HJ2A6040_(39675330524).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "WTC Ciudad de México - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:WTC_Ciudad_de_M%C3%A9xico_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/mexico-city-world-trade-center.glb",
+      "source": "generators/mexico-city-world-trade-center.ts"
+    },
+    {
       "id": "milestone-club",
       "file": "models/milestone-club.glb",
       "license": "CC0-1.0",
@@ -59288,6 +63160,998 @@
       "place": "charlotte-area"
     },
     {
+      "id": "mexico-city-angel-de-la-independencia",
+      "name": "Ángel de la Independencia",
+      "model": "mexico-city-angel-de-la-independencia",
+      "place": "mexico-city",
+      "lng": -99.1676677,
+      "lat": 19.4270037,
+      "bearing": 65.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/19438330",
+        "way/176477230"
+      ],
+      "wikidata": "Q928541"
+    },
+    {
+      "id": "mexico-city-anthropology-museum",
+      "name": "Museo Nacional de Antropología",
+      "model": "mexico-city-anthropology-museum",
+      "place": "mexico-city",
+      "lng": -99.1864177,
+      "lat": 19.4260625,
+      "bearing": 9.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/433753690",
+        "way/433753691",
+        "relation/17310243"
+      ],
+      "wikidata": "Q524249"
+    },
+    {
+      "id": "mexico-city-arcos-bosques",
+      "name": "Torre Arcos Bosques I",
+      "model": "mexico-city-arcos-bosques",
+      "place": "mexico-city",
+      "lng": -99.251017,
+      "lat": 19.387702,
+      "bearing": 323.4,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/220412303",
+        "way/1137999543",
+        "way/1137999544",
+        "way/1137999545",
+        "way/1172892443",
+        "way/1172892444"
+      ],
+      "wikidata": "Q16641519"
+    },
+    {
+      "id": "mexico-city-auditorio-nacional",
+      "name": "Auditorio Nacional",
+      "model": "mexico-city-auditorio-nacional",
+      "place": "mexico-city",
+      "lng": -99.19484,
+      "lat": 19.4248059,
+      "bearing": 352.1,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/30373468",
+        "way/1279187823"
+      ],
+      "wikidata": "Q286179"
+    },
+    {
+      "id": "mexico-city-basilica-of-guadalupe",
+      "name": "Basilica of Our Lady of Guadalupe",
+      "model": "mexico-city-basilica-of-guadalupe",
+      "place": "mexico-city",
+      "lng": -99.117857,
+      "lat": 19.484845,
+      "bearing": 290,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q305419",
+      "replaces": [
+        "way/120733641"
+      ]
+    },
+    {
+      "id": "mexico-city-biblioteca-vasconcelos",
+      "name": "Biblioteca Vasconcelos",
+      "model": "mexico-city-biblioteca-vasconcelos",
+      "place": "mexico-city",
+      "lng": -99.1508078,
+      "lat": 19.4474232,
+      "bearing": 2.25,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/153883455"
+      ],
+      "wikidata": "Q6294156"
+    },
+    {
+      "id": "mexico-city-carlos-iv",
+      "name": "El Caballito (Carlos IV)",
+      "model": "mexico-city-carlos-iv",
+      "place": "mexico-city",
+      "lng": -99.139478,
+      "lat": 19.436059,
+      "bearing": 8.7,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q3968677"
+    },
+    {
+      "id": "mexico-city-casa-de-los-azulejos",
+      "name": "Casa de los Azulejos",
+      "model": "mexico-city-casa-de-los-azulejos",
+      "place": "mexico-city",
+      "lng": -99.140123,
+      "lat": 19.434351,
+      "bearing": 8.6,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/158032444"
+      ],
+      "wikidata": "Q1267814"
+    },
+    {
+      "id": "mexico-city-chapultepec-castle",
+      "name": "Chapultepec Castle",
+      "model": "mexico-city-chapultepec-castle",
+      "place": "mexico-city",
+      "lng": -99.1818705,
+      "lat": 19.4204881,
+      "bearing": 339.7,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1072510",
+      "replaces": [
+        "relation/17314437",
+        "way/1191952512"
+      ]
+    },
+    {
+      "id": "mexico-city-chapultepec-uno",
+      "name": "Chapultepec Uno",
+      "model": "mexico-city-chapultepec-uno",
+      "place": "mexico-city",
+      "lng": -99.175781,
+      "lat": 19.424162,
+      "bearing": 333.9,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/508030259"
+      ],
+      "wikidata": "Q6093171"
+    },
+    {
+      "id": "mexico-city-diana-cazadora",
+      "name": "Fuente de la Diana Cazadora",
+      "model": "mexico-city-diana-cazadora",
+      "place": "mexico-city",
+      "lng": -99.1716396,
+      "lat": 19.4251273,
+      "bearing": 152,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q2323702"
+    },
+    {
+      "id": "mexico-city-edificio-la-nacional",
+      "name": "Edificio La Nacional",
+      "model": "mexico-city-edificio-la-nacional",
+      "place": "mexico-city",
+      "lng": -99.141222,
+      "lat": 19.434014,
+      "bearing": 8.9,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/217470226"
+      ],
+      "wikidata": "Q5338052"
+    },
+    {
+      "id": "mexico-city-el-caballito",
+      "name": "El Caballito",
+      "model": "mexico-city-el-caballito",
+      "place": "mexico-city",
+      "lng": -99.1494009,
+      "lat": 19.4360946,
+      "bearing": 16,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "mexico-city-el-moro",
+      "name": "Edificio El Moro",
+      "model": "mexico-city-el-moro",
+      "place": "mexico-city",
+      "lng": -99.1500983,
+      "lat": 19.4360967,
+      "bearing": 330,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5818084",
+      "replaces": [
+        "way/176476753",
+        "way/313853815",
+        "way/1139736162",
+        "way/1139736163",
+        "way/1139736164",
+        "way/1139736165",
+        "way/1139736166",
+        "way/1139736167",
+        "way/1139736168",
+        "way/1139736169",
+        "way/1139736170",
+        "way/1139736172"
+      ]
+    },
+    {
+      "id": "mexico-city-estadio-azteca",
+      "name": "Estadio Azteca",
+      "model": "mexico-city-estadio-azteca",
+      "place": "mexico-city",
+      "lng": -99.150474,
+      "lat": 19.302934,
+      "bearing": 6,
+      "elevation": -9.5,
+      "minzoom": 14,
+      "replaces": [
+        "way/4758704",
+        "relation/8774593",
+        "relation/9715516"
+      ],
+      "wikidata": "Q320454"
+    },
+    {
+      "id": "mexico-city-estadio-olimpico-universitario",
+      "name": "Estadio Olímpico Universitario",
+      "model": "mexico-city-estadio-olimpico-universitario",
+      "place": "mexico-city",
+      "lng": -99.192125,
+      "lat": 19.331933,
+      "bearing": 8,
+      "elevation": -7.5,
+      "minzoom": 14,
+      "replaces": [
+        "relation/14549034",
+        "relation/15446589",
+        "relation/8821488",
+        "relation/18447234",
+        "way/1088610112",
+        "way/1138995229",
+        "way/1138995241",
+        "way/1174428577",
+        "way/1174428578",
+        "way/1174428579",
+        "way/1174428580",
+        "way/1174428581",
+        "way/1174428583",
+        "way/1174428584",
+        "way/1174428585",
+        "way/1174428586",
+        "way/1174428587",
+        "way/1174428590",
+        "way/1174428591",
+        "way/1174428592",
+        "way/1174428593",
+        "way/1174428594",
+        "way/1174428595",
+        "way/1174428596",
+        "way/1174428597",
+        "way/1174428598",
+        "way/1174428599",
+        "way/1174428600",
+        "way/1188143328",
+        "way/1188143329",
+        "way/1188143330",
+        "way/1188143331",
+        "way/1188143332",
+        "way/1188143333",
+        "way/1188143334",
+        "way/1341431807",
+        "way/1341435744",
+        "way/1341435745",
+        "way/1344491682",
+        "way/1344491683",
+        "way/1344491684",
+        "way/1344491685",
+        "way/1344491686",
+        "way/1344491687",
+        "way/1344491688",
+        "way/1344491689",
+        "way/1344491690",
+        "way/1344491691",
+        "way/1344491692",
+        "way/1344622377",
+        "way/1344622386",
+        "way/1344622392",
+        "way/1344622394",
+        "way/1344622396",
+        "way/1344622397",
+        "way/1344622398",
+        "way/1344622402",
+        "way/1523069256",
+        "way/1523069258",
+        "way/1523069259",
+        "way/1523069260",
+        "way/1523069262",
+        "way/1523069263",
+        "way/1523069264",
+        "way/1523069265",
+        "way/1523069266",
+        "way/1523069267",
+        "way/1523069268",
+        "way/1523069269",
+        "way/1523069270",
+        "way/1523069271",
+        "way/1523069272",
+        "way/1523069273",
+        "way/1523069274",
+        "way/1523069275",
+        "way/1523069276",
+        "way/1523069277",
+        "way/1523069278",
+        "way/1523069279",
+        "way/1523069280",
+        "way/1523069281",
+        "way/1523069282",
+        "way/1523069283",
+        "way/1523069284",
+        "way/1523069285",
+        "way/1523069286",
+        "way/1523069287",
+        "way/1523075596"
+      ],
+      "wikidata": "Q767558"
+    },
+    {
+      "id": "mexico-city-estela-de-luz",
+      "name": "Estela de Luz",
+      "model": "mexico-city-estela-de-luz",
+      "place": "mexico-city",
+      "lng": -99.1758528,
+      "lat": 19.4229409,
+      "bearing": 333.8,
+      "elevation": -4.5,
+      "minzoom": 14,
+      "replaces": [
+        "way/311593047",
+        "way/1228354771",
+        "way/1228354772",
+        "way/1228354773"
+      ],
+      "wikidata": "Q8843219"
+    },
+    {
+      "id": "mexico-city-fuente-de-petroleos",
+      "name": "Fuente de Petróleos",
+      "model": "mexico-city-fuente-de-petroleos",
+      "place": "mexico-city",
+      "lng": -99.2031067,
+      "lat": 19.4274587,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q6023025"
+    },
+    {
+      "id": "mexico-city-hemiciclo-a-juarez",
+      "name": "Hemiciclo a Juárez",
+      "model": "mexico-city-hemiciclo-a-juarez",
+      "place": "mexico-city",
+      "lng": -99.144097,
+      "lat": 19.435063,
+      "bearing": 8.5,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/992941278"
+      ],
+      "wikidata": "Q4020213"
+    },
+    {
+      "id": "mexico-city-kiosco-morisco",
+      "name": "Kiosco Morisco",
+      "model": "mexico-city-kiosco-morisco",
+      "place": "mexico-city",
+      "lng": -99.156854,
+      "lat": 19.449664,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q54820837",
+      "replaces": [
+        "way/491159204",
+        "way/1137755090"
+      ]
+    },
+    {
+      "id": "mexico-city-la-profesa",
+      "name": "Templo de La Profesa",
+      "model": "mexico-city-la-profesa",
+      "place": "mexico-city",
+      "lng": -99.1365278,
+      "lat": 19.4338421,
+      "bearing": 8,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q7698749",
+      "replaces": [
+        "way/158032448",
+        "way/1300593819",
+        "way/1300593820",
+        "way/1300593821",
+        "way/1300593822"
+      ]
+    },
+    {
+      "id": "mexico-city-metropolitan-cathedral",
+      "name": "Metropolitan Cathedral of Mexico City",
+      "model": "mexico-city-metropolitan-cathedral",
+      "place": "mexico-city",
+      "lng": -99.1331213,
+      "lat": 19.4344032,
+      "bearing": 7.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q610961",
+      "replaces": [
+        "way/862852010",
+        "way/862873648",
+        "way/1050213473",
+        "way/1050213474",
+        "way/462287918",
+        "way/862366582",
+        "way/862366583",
+        "way/862420735",
+        "way/1050202443",
+        "way/1050202444",
+        "way/1050204076",
+        "way/1050204077",
+        "way/1050204882"
+      ]
+    },
+    {
+      "id": "mexico-city-monumento-a-alvaro-obregon",
+      "name": "Monumento a Álvaro Obregón",
+      "model": "mexico-city-monumento-a-alvaro-obregon",
+      "place": "mexico-city",
+      "lng": -99.1859298,
+      "lat": 19.3471875,
+      "bearing": 107.4,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
+    },
+    {
+      "id": "mexico-city-monumento-a-la-raza",
+      "name": "Monumento a la Raza",
+      "model": "mexico-city-monumento-a-la-raza",
+      "place": "mexico-city",
+      "lng": -99.142494,
+      "lat": 19.464425,
+      "bearing": 38,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q9034955",
+      "replaces": [
+        "way/1139108872",
+        "way/1144263096",
+        "way/1144263097",
+        "way/1144263098",
+        "way/1144263099",
+        "way/1144263100",
+        "way/1186267703",
+        "way/1186267704",
+        "way/1186267705",
+        "way/1186267706",
+        "way/1186267707",
+        "way/1186267708",
+        "way/1186267709",
+        "way/1186267710",
+        "way/1186267711"
+      ]
+    },
+    {
+      "id": "mexico-city-monumento-a-la-revolucion",
+      "name": "Monumento a la Revolución",
+      "model": "mexico-city-monumento-a-la-revolucion",
+      "place": "mexico-city",
+      "lng": -99.154622,
+      "lat": 19.4361714,
+      "bearing": 9.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1389520",
+      "replaces": [
+        "way/158032450",
+        "way/1084964141",
+        "way/1084964142",
+        "way/1420329389",
+        "way/1420337631",
+        "way/1420337632",
+        "way/1420337633",
+        "way/1420337634",
+        "way/1420337635",
+        "way/1420337636",
+        "way/1420337637",
+        "way/1420337638",
+        "way/1420337639",
+        "way/1420337640",
+        "way/1420337641",
+        "way/1435759880",
+        "way/1435817879",
+        "way/1435817880",
+        "way/1435817881",
+        "way/1435817882",
+        "way/1435817883",
+        "way/1435817884",
+        "way/1435817885",
+        "way/1435817886"
+      ]
+    },
+    {
+      "id": "mexico-city-munal",
+      "name": "Museo Nacional de Arte",
+      "model": "mexico-city-munal",
+      "place": "mexico-city",
+      "lng": -99.139401,
+      "lat": 19.436463,
+      "bearing": 8.9,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/14592229"
+      ],
+      "wikidata": "Q1138147"
+    },
+    {
+      "id": "mexico-city-museo-jumex",
+      "name": "Museo Jumex",
+      "model": "mexico-city-museo-jumex",
+      "place": "mexico-city",
+      "lng": -99.2035926,
+      "lat": 19.4404617,
+      "bearing": 346.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/885052520"
+      ],
+      "wikidata": "Q5142722"
+    },
+    {
+      "id": "mexico-city-museo-soumaya",
+      "name": "Museo Soumaya",
+      "model": "mexico-city-museo-soumaya",
+      "place": "mexico-city",
+      "lng": -99.2046085,
+      "lat": 19.4408033,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/158035385",
+        "way/1467517965",
+        "way/1467517966",
+        "way/1467517967",
+        "way/1467517968",
+        "way/1467517969",
+        "way/1467517970",
+        "way/1467517971",
+        "way/1467517972"
+      ],
+      "wikidata": "Q50413488"
+    },
+    {
+      "id": "mexico-city-ninos-heroes",
+      "name": "Monumento a los Niños Héroes",
+      "model": "mexico-city-ninos-heroes",
+      "place": "mexico-city",
+      "lng": -99.1793014,
+      "lat": 19.4215103,
+      "bearing": 63.2,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q19381838"
+    },
+    {
+      "id": "mexico-city-old-basilica",
+      "name": "Old Basilica of Guadalupe",
+      "model": "mexico-city-old-basilica",
+      "place": "mexico-city",
+      "lng": -99.116855,
+      "lat": 19.485217,
+      "bearing": 23,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/120733637"
+      ]
+    },
+    {
+      "id": "mexico-city-palacio-de-bellas-artes",
+      "name": "Palacio de Bellas Artes",
+      "model": "mexico-city-palacio-de-bellas-artes",
+      "place": "mexico-city",
+      "lng": -99.141263,
+      "lat": 19.4354684,
+      "bearing": 9,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1139081",
+      "replaces": [
+        "way/157051087",
+        "way/1436125222",
+        "way/1436125225",
+        "way/1436125226",
+        "way/1436125227",
+        "way/1436125228",
+        "way/1436125229",
+        "way/1436125230",
+        "way/1436125231",
+        "way/1436125232",
+        "way/1436127889",
+        "way/1436127890",
+        "way/1436128176",
+        "way/1466114121"
+      ]
+    },
+    {
+      "id": "mexico-city-palacio-de-los-deportes",
+      "name": "Palacio de los Deportes",
+      "model": "mexico-city-palacio-de-los-deportes",
+      "place": "mexico-city",
+      "lng": -99.0997553,
+      "lat": 19.405277,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q301937",
+      "replaces": [
+        "relation/20951534",
+        "way/1527624820"
+      ]
+    },
+    {
+      "id": "mexico-city-palacio-de-mineria",
+      "name": "Palacio de Minería",
+      "model": "mexico-city-palacio-de-mineria",
+      "place": "mexico-city",
+      "lng": -99.139579,
+      "lat": 19.435459,
+      "bearing": 9.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/14592228",
+        "way/1095452897"
+      ],
+      "wikidata": "Q3431087"
+    },
+    {
+      "id": "mexico-city-palacio-nacional",
+      "name": "Palacio Nacional",
+      "model": "mexico-city-palacio-nacional",
+      "place": "mexico-city",
+      "lng": -99.1312869,
+      "lat": 19.4324595,
+      "bearing": 6.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1517884",
+      "replaces": [
+        "relation/6191295",
+        "way/1424006945",
+        "way/1424006946",
+        "way/1424006947"
+      ]
+    },
+    {
+      "id": "mexico-city-palacio-postal",
+      "name": "Palacio Postal",
+      "model": "mexico-city-palacio-postal",
+      "place": "mexico-city",
+      "lng": -99.14029,
+      "lat": 19.43563,
+      "bearing": 9.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/157051114"
+      ],
+      "wikidata": "Q978161"
+    },
+    {
+      "id": "mexico-city-plaza-mexico",
+      "name": "Plaza México",
+      "model": "mexico-city-plaza-mexico",
+      "place": "mexico-city",
+      "lng": -99.180102,
+      "lat": 19.3829771,
+      "bearing": 0,
+      "elevation": -20,
+      "minzoom": 15,
+      "wikidata": "Q2525012",
+      "replaces": [
+        "relation/8726671"
+      ]
+    },
+    {
+      "id": "mexico-city-polyforum-siqueiros",
+      "name": "Polyforum Cultural Siqueiros",
+      "model": "mexico-city-polyforum-siqueiros",
+      "place": "mexico-city",
+      "lng": -99.1734362,
+      "lat": 19.3933153,
+      "bearing": 13,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2265075",
+      "replaces": [
+        "way/227708275"
+      ]
+    },
+    {
+      "id": "mexico-city-san-hipolito",
+      "name": "Templo de San Hipólito",
+      "model": "mexico-city-san-hipolito",
+      "place": "mexico-city",
+      "lng": -99.1468432,
+      "lat": 19.4379866,
+      "bearing": 9.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q215151",
+      "replaces": [
+        "way/1427820319"
+      ]
+    },
+    {
+      "id": "mexico-city-san-juan-bautista-coyoacan",
+      "name": "Parroquia de San Juan Bautista",
+      "model": "mexico-city-san-juan-bautista-coyoacan",
+      "place": "mexico-city",
+      "lng": -99.162375,
+      "lat": 19.3487889,
+      "bearing": 15,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5910431",
+      "replaces": [
+        "relation/2168347",
+        "way/1373754345",
+        "way/1373754346",
+        "way/1373754347"
+      ]
+    },
+    {
+      "id": "mexico-city-santiago-tlatelolco",
+      "name": "Templo de Santiago Tlatelolco",
+      "model": "mexico-city-santiago-tlatelolco",
+      "place": "mexico-city",
+      "lng": -99.136655,
+      "lat": 19.451126,
+      "bearing": 10.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/1298615719"
+      ]
+    },
+    {
+      "id": "mexico-city-santo-domingo",
+      "name": "Templo de Santo Domingo",
+      "model": "mexico-city-santo-domingo",
+      "place": "mexico-city",
+      "lng": -99.133637,
+      "lat": 19.4385509,
+      "bearing": 7.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q7420507",
+      "replaces": [
+        "way/1422338549"
+      ]
+    },
+    {
+      "id": "mexico-city-torre-bbva",
+      "name": "Torre BBVA México",
+      "model": "mexico-city-torre-bbva",
+      "place": "mexico-city",
+      "lng": -99.17481,
+      "lat": 19.422822,
+      "bearing": 56.4,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/427833539",
+        "way/1138584854",
+        "way/1138584858",
+        "way/1138584859",
+        "way/1173440067",
+        "way/1173440068",
+        "way/1185622772",
+        "way/1484777440",
+        "way/1484777441"
+      ],
+      "wikidata": "Q6150039"
+    },
+    {
+      "id": "mexico-city-torre-insignia",
+      "name": "Torre Insignia",
+      "model": "mexico-city-torre-insignia",
+      "place": "mexico-city",
+      "lng": -99.15099,
+      "lat": 19.454566,
+      "bearing": 11.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/217662117",
+        "way/1152230371",
+        "way/1152230372"
+      ]
+    },
+    {
+      "id": "mexico-city-torre-latinoamericana",
+      "name": "Torre Latinoamericana",
+      "model": "mexico-city-torre-latinoamericana",
+      "place": "mexico-city",
+      "lng": -99.140611,
+      "lat": 19.433866,
+      "bearing": 8.2,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "relation/6071992",
+        "way/1095452896",
+        "way/528548025",
+        "relation/19455319",
+        "relation/19455320",
+        "relation/19455321",
+        "relation/19455322",
+        "relation/19455323"
+      ],
+      "wikidata": "Q947870"
+    },
+    {
+      "id": "mexico-city-torre-mayor",
+      "name": "Torre Mayor",
+      "model": "mexico-city-torre-mayor",
+      "place": "mexico-city",
+      "lng": -99.175301,
+      "lat": 19.42435,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/217330156",
+        "way/1173145877",
+        "way/1173145878",
+        "way/1187884777",
+        "way/1151277352",
+        "way/1137741007",
+        "way/1137741008",
+        "way/1137741009",
+        "way/1137741010",
+        "way/1137741011",
+        "way/1137741012",
+        "way/1137741013"
+      ],
+      "wikidata": "Q844813"
+    },
+    {
+      "id": "mexico-city-torre-mitikah",
+      "name": "Torre Mítikah",
+      "model": "mexico-city-torre-mitikah",
+      "place": "mexico-city",
+      "lng": -99.16846,
+      "lat": 19.359233,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/674370738"
+      ],
+      "wikidata": "Q6150196"
+    },
+    {
+      "id": "mexico-city-torre-pemex",
+      "name": "Torre Ejecutiva Pemex",
+      "model": "mexico-city-torre-pemex",
+      "place": "mexico-city",
+      "lng": -99.174897,
+      "lat": 19.439073,
+      "bearing": 32,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/181713097",
+        "way/1187396041",
+        "way/1185609790"
+      ],
+      "wikidata": "Q948178"
+    },
+    {
+      "id": "mexico-city-torre-reforma",
+      "name": "Torre Reforma",
+      "model": "mexico-city-torre-reforma",
+      "place": "mexico-city",
+      "lng": -99.17442,
+      "lat": 19.424815,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/217330154"
+      ],
+      "wikidata": "Q3433389"
+    },
+    {
+      "id": "mexico-city-unam-central-library",
+      "name": "Biblioteca Central UNAM",
+      "model": "mexico-city-unam-central-library",
+      "place": "mexico-city",
+      "lng": -99.187331,
+      "lat": 19.3334,
+      "bearing": 354,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/437171951",
+        "way/1173176555",
+        "way/1173176556",
+        "way/1173176557",
+        "way/1173176558"
+      ],
+      "wikidata": "Q5061367"
+    },
+    {
+      "id": "mexico-city-unam-rectoria",
+      "name": "Torre de Rectoría UNAM",
+      "model": "mexico-city-unam-rectoria",
+      "place": "mexico-city",
+      "lng": -99.188074,
+      "lat": 19.332399,
+      "bearing": 354,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/73147253",
+        "way/1173156544",
+        "way/1173156545",
+        "way/1173156546",
+        "way/1173156548",
+        "way/1341387913",
+        "way/260241576"
+      ]
+    },
+    {
+      "id": "mexico-city-world-trade-center",
+      "name": "World Trade Center Mexico City",
+      "model": "mexico-city-world-trade-center",
+      "place": "mexico-city",
+      "lng": -99.173854,
+      "lat": 19.394418,
+      "bearing": 13,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/362824952",
+        "way/312315753",
+        "way/227708277",
+        "way/312329507",
+        "way/312315752",
+        "way/312329506",
+        "way/312329508",
+        "way/312329503",
+        "way/312329504",
+        "way/312329505"
+      ],
+      "wikidata": "Q2712478"
+    },
+    {
       "id": "milestone-club",
       "name": "The Milestone Club",
       "model": "milestone-club",
@@ -67316,6 +72180,12 @@
       "id": "los-angeles-area",
       "name": "Los Angeles area",
       "kind": "region"
+    },
+    {
+      "id": "mexico-city",
+      "name": "Mexico City",
+      "kind": "city",
+      "wikidata": "Q1489"
     },
     {
       "id": "new-york-area",
