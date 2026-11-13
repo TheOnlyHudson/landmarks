@@ -36362,6 +36362,67 @@
       ],
       "file": "models/dubai-index-tower.glb",
       "source": "generators/dubai-index-tower.ts"
+    },
+    {
+      "id": "dubai-al-yaqoub-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "residential",
+        "clock-tower",
+        "sheikh-zayed-road"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Emirates Towers in Dubai at dawn",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_in_Dubai_at_dawn.jpg",
+          "author": "Jackardsiffant",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Financial District @ Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15631830027",
+          "author": "*_* (flickr 22539273@N00)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Dubai Skyline from Dubai Metro",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Skyline_from_Dubai_Metro.jpg",
+          "author": "Leo Rodman",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "DIFC (Dubai International Financial Centre)",
+          "url": "https://www.flickr.com/photos/104021946@N05/28724198092",
+          "author": "EuroSlice",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Aerial photographs of Dubai (taken from Burj Khalifa) 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_photographs_of_Dubai_(taken_from_Burj_Khalifa_)_01.jpg",
+          "author": "Paasikivi",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/dubai-al-yaqoub-tower.glb",
+      "source": "generators/dubai-al-yaqoub-tower.ts"
     }
   ],
   "landmarks": [
@@ -53496,6 +53557,21 @@
         "way/935572041"
       ],
       "wikidata": "Q1264855"
+    },
+    {
+      "id": "dubai-al-yaqoub-tower",
+      "name": "Al Yaqoub Tower",
+      "model": "dubai-al-yaqoub-tower",
+      "place": "dubai",
+      "lng": 55.279777,
+      "lat": 25.2164029,
+      "bearing": 32.8,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/238284900"
+      ],
+      "wikidata": "Q1808295"
     }
   ],
   "places": [
