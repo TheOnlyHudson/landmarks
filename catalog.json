@@ -17673,6 +17673,86 @@
       "source": "generators/istanbul-obelisk-of-theodosius.ts"
     },
     {
+      "id": "istanbul-serpent-column",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "column",
+        "bronze",
+        "ancient-greek",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Serpent Column, Istanbul 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Serpent_Column,_Istanbul_1.jpg",
+          "author": "Dudva",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Serpent Column, Istanbul 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Serpent_Column,_Istanbul_2.jpg",
+          "author": "Dudva",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bronze Serpent Column in Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Bronze_Serpent_Column_in_Istanbul.jpg",
+          "author": "Ian Scott",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Serpent Column Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Serpent_Column_Istanbul.jpg",
+          "author": "Loriensong",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Yılanlı Sütun, Serpent Column Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Y%C4%B1lanl%C4%B1_S%C3%BCtun,_Serpent_Column_Istanbul.jpg",
+          "author": "Sonse",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Snake column Hippodrome Constantinople 2007",
+          "url": "https://commons.wikimedia.org/wiki/File:Snake_column_Hippodrome_Constantinople_2007.jpg",
+          "author": "Gryffindor  This",
+          "license": "Public domain"
+        },
+        {
+          "title": "Yılanlı Sütun (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Y%C4%B1lanl%C4%B1_S%C3%BCtun_(2).jpg",
+          "author": "Cobija",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Serpent Column - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Serpent_Column_-_panoramio.jpg",
+          "author": "Mister No",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/istanbul-serpent-column.glb",
+      "source": "generators/istanbul-serpent-column.ts"
+    },
+    {
       "id": "istanbul-suleymaniye",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45319,6 +45399,19 @@
       "replaces": [
         "way/1120852417"
       ]
+    },
+    {
+      "id": "istanbul-serpent-column",
+      "name": "Serpent Column",
+      "model": "istanbul-serpent-column",
+      "place": "istanbul",
+      "lng": 28.97511,
+      "lat": 41.005665,
+      "bearing": 0,
+      "elevation": -3.2,
+      "minzoom": 16,
+      "wikidata": "Q588892",
+      "replaces": []
     },
     {
       "id": "istanbul-suleymaniye",
