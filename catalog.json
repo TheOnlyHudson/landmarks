@@ -6547,6 +6547,115 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "barcelona-sagrada-familia",
+      "detail": "models/barcelona-sagrada-familia.detail.glb",
+      "detailZoom": 16,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "basilica",
+        "church",
+        "gaudi",
+        "modernisme",
+        "unesco",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q48435",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Sagrada Família construction april 2026 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Fam%C3%ADlia_construction_april_2026_02.jpg",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sagrada Família construction april 2026 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Fam%C3%ADlia_construction_april_2026_04.jpg",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View of Sagrada Familia 2026 corrected.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Sagrada_Familia_2026_corrected.jpg",
+          "author": "ほっきー",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Sagrada Família exterior Barcelona 2026.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Fam%C3%ADlia_exterior_Barcelona_2026.jpg",
+          "author": "Wikipsico43",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sagrada Familia, December 2025, Day.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia,_December_2025,_Day.jpg",
+          "author": "Hendrik Manuels Stoops Lugo",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Sagrada Familia, December 2025, Night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia,_December_2025,_Night.jpg",
+          "author": "Hendrik Manuels Stoops Lugo",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Sagrada Familia back side.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_back_side.jpg",
+          "author": "Blablabalooo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sagrada Família side view 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Fam%C3%ADlia_side_view_1.jpg",
+          "author": "Reda Kerbush",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sagrada Família, Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Fam%C3%ADlia,_Barcelona.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Temple Expiatori de la Sagrada Familia de Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_Expiatori_de_la_Sagrada_Familia_de_Barcelona.jpg",
+          "author": "Manel Subirats Ferrer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "SF - Gloria (2022).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SF_-_Gloria_(2022).jpg",
+          "author": "Canaan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Basilique Sagrada Familia Barcelone. Vue sud-est 12.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Basilique_Sagrada_Familia_Barcelone._Vue_sud-est_12.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-sagrada-familia.glb",
+      "source": "generators/barcelona-sagrada-familia.ts"
+    },
+    {
       "id": "beatties-ford-water-tower",
       "file": "models/beatties-ford-water-tower.glb",
       "license": "CC0-1.0",
@@ -42416,6 +42525,46 @@
         "relation/17917766"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "barcelona-sagrada-familia",
+      "name": "Basílica de la Sagrada Família",
+      "model": "barcelona-sagrada-familia",
+      "place": "barcelona",
+      "lng": 2.17434,
+      "lat": 41.40354,
+      "bearing": 314,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q48435",
+      "replaces": [
+        "relation/9194723",
+        "way/359084975",
+        "way/359084980",
+        "way/359084982",
+        "way/359084983",
+        "way/359084987",
+        "way/359084990",
+        "way/359084991",
+        "way/359084993",
+        "way/359086378",
+        "way/359086380",
+        "way/661321474",
+        "way/1207779418",
+        "way/1207779425",
+        "way/1207779426",
+        "way/1207779427",
+        "way/1207779428",
+        "way/1207779447",
+        "way/1207779448",
+        "way/1207779469",
+        "relation/16329170",
+        "relation/16329171",
+        "relation/16329172",
+        "relation/16329173",
+        "relation/16329174",
+        "relation/16329175"
+      ]
     },
     {
       "id": "beatties-ford-water-tower",
