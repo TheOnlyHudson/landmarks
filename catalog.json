@@ -17389,6 +17389,75 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "istanbul-anadolu-hisari",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "ottoman",
+        "fortress",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "Bayezid I's fortress of 1393-94 on the Asian shore at the mouth of the Göksu: the square crenellated keep with its stair turret, the inner wall with round corner towers, and Mehmed II's outer curtain walls with three round towers.",
+      "references": [
+        {
+          "title": "Anadolu Hisarı Fortress.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Anadolu_Hisarı_Fortress.jpg",
+          "author": "mike",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Anadolu Hisarı in 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Anadolu_Hisarı_in_2024.jpg",
+          "author": "flowcomm",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Anadolu Hisarı, Summer of 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Anadolu_Hisarı,_Summer_of_2025.jpg",
+          "author": "Denizmiş",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "title": "Anadolu Hisari courtyard and tower Istanbul 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Anadolu_Hisari_courtyard_and_tower_Istanbul_2024.jpg",
+          "author": "Furkan Akkurt",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Anadolu Hisarı from Bosporus in 2012 6243.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Anadolu_Hisarı_from_Bosporus_in_2012_6243.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Anadolu Hisarı in 2015 0880.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Anadolu_Hisarı_in_2015_0880.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/istanbul-anadolu-hisari.glb",
+      "source": "generators/istanbul-anadolu-hisari.ts"
+    },
+    {
       "id": "istanbul-beyazit-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47267,6 +47336,24 @@
       "minzoom": 16,
       "replaces": [],
       "place": "charlotte-area"
+    },
+    {
+      "id": "istanbul-anadolu-hisari",
+      "name": "Anadolu Hisarı",
+      "model": "istanbul-anadolu-hisari",
+      "place": "istanbul",
+      "lng": 29.067043,
+      "lat": 41.082094,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q81650",
+      "replaces": [
+        "relation/13234926",
+        "way/984747660",
+        "way/984747661",
+        "way/984747664"
+      ]
     },
     {
       "id": "istanbul-beyazit-tower",
