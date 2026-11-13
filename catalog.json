@@ -20674,6 +20674,73 @@
       "source": "generators/mexico-city-estela-de-luz.ts"
     },
     {
+      "id": "mexico-city-fuente-de-petroleos",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "fountain",
+        "sculpture",
+        "roundabout"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fuente de Petróleos - Ciudad de México",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_de_Petr%C3%B3leos_-_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fuente de Petróleos - Ciudad de México - Detalle",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_de_Petr%C3%B3leos_-_Ciudad_de_M%C3%A9xico_-_Detalle.jpg",
+          "author": "Juan Carlos Fonseca Mata",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fuente de Petroleos Reforma Mex D.F.",
+          "url": "https://commons.wikimedia.org/wiki/File:Fuente_de_Petroleos_Reforma_Mex_D.F.jpg",
+          "author": "Sarumo74",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monumento a Fuente de Petróleos DF",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_Fuente_de_Petr%C3%B3leos_DF.jpg",
+          "author": "Eric Menjívar",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Monumento a Fuente de Petróleos V",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_Fuente_de_Petr%C3%B3leos_V.jpg",
+          "author": "Eneas",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "GLORIETA DE PETROLEOS MEXICANOS",
+          "url": "https://commons.wikimedia.org/wiki/File:GLORIETA_DE_PETROLEOS_MEXICANOS.jpg",
+          "author": "JEDIKNIGHT1970",
+          "license": "CC BY 2.5"
+        }
+      ],
+      "file": "models/mexico-city-fuente-de-petroleos.glb",
+      "source": "generators/mexico-city-fuente-de-petroleos.ts"
+    },
+    {
       "id": "mexico-city-hemiciclo-a-juarez",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -48780,6 +48847,19 @@
         "way/1228354773"
       ],
       "wikidata": "Q8843219"
+    },
+    {
+      "id": "mexico-city-fuente-de-petroleos",
+      "name": "Fuente de Petróleos",
+      "model": "mexico-city-fuente-de-petroleos",
+      "place": "mexico-city",
+      "lng": -99.2031067,
+      "lat": 19.4274587,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [],
+      "wikidata": "Q6023025"
     },
     {
       "id": "mexico-city-hemiciclo-a-juarez",
