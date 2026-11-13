@@ -7559,6 +7559,67 @@
       "source": "generators/barcelona-torre-mapfre.ts"
     },
     {
+      "id": "barcelona-torre-mare-nostrum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Edifici Gas Natural - P1100469.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Edifici_Gas_Natural_-_P1100469.jpg",
+          "author": "Pere López Brosa",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Edifici Gas Natural (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Edifici_Gas_Natural_(1).jpg",
+          "author": "Grzegorz Gigol",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Edifici Gas Natural (Torre Mare Nostrum) 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Edifici_Gas_Natural_(Torre_Mare_Nostrum)_01.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        },
+        {
+          "title": "Edifici Gas Natural - Barcelona (Catalunya).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Edifici_Gas_Natural_-_Barcelona_(Catalunya).jpg",
+          "author": "Puigalder",
+          "license": "Public domain"
+        },
+        {
+          "title": "Barcelona - Edifici Gas Natural (Torre Mare Nostrum) 13.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Edifici_Gas_Natural_(Torre_Mare_Nostrum)_13.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/barcelona-torre-mare-nostrum.glb",
+      "source": "generators/barcelona-torre-mare-nostrum.ts"
+    },
+    {
       "id": "beatties-ford-water-tower",
       "file": "models/beatties-ford-water-tower.glb",
       "license": "CC0-1.0",
@@ -43858,6 +43919,36 @@
         "way/308013864"
       ],
       "wikidata": "Q568353"
+    },
+    {
+      "id": "barcelona-torre-mare-nostrum",
+      "name": "Torre Mare Nostrum",
+      "model": "barcelona-torre-mare-nostrum",
+      "place": "barcelona",
+      "lng": 2.190511,
+      "lat": 41.38318,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/21213758",
+        "way/306118990",
+        "way/306118991",
+        "way/306118992",
+        "way/306118993",
+        "way/306118994",
+        "way/306118995",
+        "way/306118996",
+        "way/306118997",
+        "way/306118998",
+        "way/306118999",
+        "way/306119000",
+        "way/306119001",
+        "way/306119002",
+        "way/306119003",
+        "way/306119762"
+      ],
+      "wikidata": "Q5338037"
     },
     {
       "id": "beatties-ford-water-tower",
