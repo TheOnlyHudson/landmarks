@@ -25190,6 +25190,93 @@
       ]
     },
     {
+      "id": "london-centre-point",
+      "file": "models/london-centre-point.glb",
+      "source": "generators/london-centre-point.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "brutalist",
+        "residential",
+        "listed"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "Richard Seifert's 1966 slab at St Giles Circus: gently convex long faces of precast honeycomb units, glazed end strips, and the stilted base.",
+      "references": [
+        {
+          "title": "Centre Point.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Centre_Point.jpg",
+          "author": "Tiia Monto",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Centre Point, London, August 2023 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Centre_Point,_London,_August_2023_01.jpg",
+          "author": "No Swan So Fine",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "At London 2026 0166 - Centre Point.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:At_London_2026_0166_-_Centre_Point.jpg",
+          "author": "Mike Peel",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Centre Point, London, UK - Flickr - John Briody Photography.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Centre_Point,_London,_UK_-_Flickr_-_John_Briody_Photography.jpg",
+          "author": "John Briody",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Centre Point and the BT Tower from the air - geograph.org.uk - 6255011.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Centre_Point_and_the_BT_Tower_from_the_air_-_geograph.org.uk_-_6255011.jpg",
+          "author": "Thomas Nugent",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Centre Point - geograph.org.uk - 3255089.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Centre_Point_-_geograph.org.uk_-_3255089.jpg",
+          "author": "Andrew Wilson",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Centre Point, London.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Centre_Point,_London.jpg",
+          "author": "Mike Peel",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Centre Point from New Oxford Street, London (25th September 2014).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Centre_Point_from_New_Oxford_Street,_London_(25th_September_2014).JPG",
+          "author": "Mtaylor848",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "London Centre Point Tower von SE 201008.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Centre_Point_Tower_von_SE_201008.jpg",
+          "author": "Karlunun",
+          "license": "CC-BY-SA-4.0"
+        }
+      ]
+    },
+    {
       "id": "london-leadenhall-building",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -54431,6 +54518,21 @@
         "way/331903531",
         "way/331901553",
         "way/192156427"
+      ]
+    },
+    {
+      "id": "london-centre-point",
+      "name": "Centre Point",
+      "model": "london-centre-point",
+      "place": "london",
+      "lng": -0.1297371,
+      "lat": 51.5161858,
+      "bearing": 346.7,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q2339039",
+      "replaces": [
+        "way/41117907"
       ]
     },
     {
