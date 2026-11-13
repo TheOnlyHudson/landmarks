@@ -14248,6 +14248,51 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "giza-pyramid-of-menkaure",
+      "file": "models/giza-pyramid-of-menkaure.glb",
+      "license": "CC0-1.0",
+      "source": "generators/giza-pyramid-of-menkaure.ts",
+      "type": "monument",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "pyramid",
+        "ancient-egypt",
+        "tomb",
+        "unesco-world-heritage"
+      ],
+      "description": "The smallest of the three great Giza pyramids, built c. 2510 BC for Menkaure: 61 m high, with remnants of red granite casing and a breach in its north face.",
+      "references": [
+        {
+          "title": "Pyramid of Menkaure in Giza May 2015.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Pyramid_of_Menkaure_in_Giza_May_2015.JPG",
+          "author": "MusikAnimal",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "All Gizah Pyramids.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+          "author": "Ricardo Liberato",
+          "license": "CC-BY-SA-2.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
       "id": "grand-central-terminal",
       "file": "models/grand-central-terminal.glb",
       "license": "CC0-1.0",
@@ -43999,6 +44044,21 @@
       "wikidata": "Q208358",
       "replaces": [
         "way/4420396"
+      ],
+      "place": "giza"
+    },
+    {
+      "id": "giza-pyramid-of-menkaure",
+      "name": "Pyramid of Menkaure",
+      "model": "giza-pyramid-of-menkaure",
+      "lng": 31.1284007,
+      "lat": 29.9725865,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q238623",
+      "replaces": [
+        "way/4420398"
       ],
       "place": "giza"
     },
