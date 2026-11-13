@@ -2027,6 +2027,88 @@
       "source": "generators/amsterdam-royal-palace.ts"
     },
     {
+      "id": "amsterdam-scheepvaarthuis",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "hotel",
+        "amsterdam-school",
+        "brick",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q2078885",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "20111020 foto 791",
+          "url": "https://commons.wikimedia.org/wiki/File:20111020_foto_791.jpg",
+          "author": "Enrique Munoz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2024 Grand Hotel Amrâth Amsterdam 42",
+          "url": "https://commons.wikimedia.org/wiki/File:2024_Grand_Hotel_Amr%C3%A2th_Amsterdam_42.jpg",
+          "author": "Gillfoto",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2024 Grand Hotel Amrâth gf71",
+          "url": "https://commons.wikimedia.org/wiki/File:2024_Grand_Hotel_Amr%C3%A2th_gf71.jpg",
+          "author": "Gillfoto",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Scheepvaarthuis 001",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Scheepvaarthuis_001.JPG",
+          "author": "Janericloebe",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam Scheepvaarthuis 002",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Scheepvaarthuis_002.JPG",
+          "author": "Janericloebe",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "DSC00344, Canal Cruise, Amsterdam, Netherlands (339017945)",
+          "url": "https://commons.wikimedia.org/wiki/File:DSC00344,_Canal_Cruise,_Amsterdam,_Netherlands_(339017945).jpg",
+          "author": "Lyn Gateley",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Exterieur Scheepvaarthuis 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_Scheepvaarthuis_02.jpg",
+          "author": "Hanno Lans",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "'t Scheepvaarthuis - Amsterdam - 20011111 - RCE",
+          "url": "https://commons.wikimedia.org/wiki/File:%27t_Scheepvaarthuis_-_Amsterdam_-_20011111_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-scheepvaarthuis.glb",
+      "source": "generators/amsterdam-scheepvaarthuis.ts"
+    },
+    {
       "id": "amsterdam-scheepvaartmuseum",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -40256,6 +40338,21 @@
         "way/748659185",
         "way/748659186",
         "way/748659187"
+      ]
+    },
+    {
+      "id": "amsterdam-scheepvaarthuis",
+      "name": "Scheepvaarthuis",
+      "model": "amsterdam-scheepvaarthuis",
+      "place": "amsterdam",
+      "lng": 4.90406,
+      "lat": 52.374338,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2078885",
+      "replaces": [
+        "way/57863677"
       ]
     },
     {
