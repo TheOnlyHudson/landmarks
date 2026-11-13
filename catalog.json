@@ -38330,6 +38330,68 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "singapore-marina-bay-sands",
+      "file": "models/singapore-marina-bay-sands.glb",
+      "license": "CC0-1.0",
+      "source": "generators/singapore-marina-bay-sands.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "hotel",
+        "skyscraper",
+        "integrated-resort"
+      ],
+      "description": "Moshe Safdie's 2010 hotel: three 55-storey towers, each a straight and a curving leg, joined at the top by the 340 m SkyPark with its cantilevered north end.",
+      "references": [
+        {
+          "title": "Hotel Marina Bay Sands, Marina Bay, Singapur, 2023-08-17, DD 30.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Marina_Bay_Sands,_Marina_Bay,_Singapur,_2023-08-17,_DD_30.jpg",
+          "author": "Diego Delso",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Cricket match and Marina Bay Sands Hotel in Singapore.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cricket_match_and_Marina_Bay_Sands_Hotel_in_Singapore.jpg",
+          "author": "Basile Morin",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Marina Bay Sands Singapore 2026 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Marina_Bay_Sands_Singapore_2026_2.jpg",
+          "author": "kallerna",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Singapore (SG), Marina Bay Sands Hotel -- 2019 -- 4535.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Singapore_(SG),_Marina_Bay_Sands_Hotel_--_2019_--_4535.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "2016 Singapur, Downtown Core, Marina Bay Sands (02).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2016_Singapur,_Downtown_Core,_Marina_Bay_Sands_(02).jpg",
+          "author": "Marcin Konsek",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
       "id": "snug-harbor",
       "file": "models/snug-harbor.glb",
       "license": "CC0-1.0",
@@ -56919,6 +56981,26 @@
       "place": "san-francisco-bay-area"
     },
     {
+      "id": "singapore-marina-bay-sands",
+      "name": "Marina Bay Sands",
+      "model": "singapore-marina-bay-sands",
+      "lng": 103.8606406,
+      "lat": 1.2836364,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q548679",
+      "replaces": [
+        "way/116801004",
+        "way/172307472",
+        "way/172307471",
+        "way/116800998",
+        "way/827847308",
+        "way/827847309"
+      ],
+      "place": "singapore"
+    },
+    {
       "id": "snug-harbor",
       "name": "Snug Harbor",
       "model": "snug-harbor",
@@ -58229,6 +58311,12 @@
       "id": "seattle-area",
       "name": "Seattle area",
       "kind": "region"
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "kind": "city",
+      "wikidata": "Q334"
     },
     {
       "id": "six-flags-over-texas",
