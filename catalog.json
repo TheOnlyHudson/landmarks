@@ -20332,6 +20332,104 @@
       "source": "generators/mexico-city-palacio-de-bellas-artes.ts"
     },
     {
+      "id": "mexico-city-palacio-nacional",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "palace",
+        "government",
+        "baroque",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fachada del Palacio Nacional, Ciudad de México 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fachada_del_Palacio_Nacional,_Ciudad_de_M%C3%A9xico_02.jpg",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fachada del Palacio Nacional, Ciudad de México 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fachada_del_Palacio_Nacional,_Ciudad_de_M%C3%A9xico_03.jpg",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palacio Nacional, fachada.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional,_fachada.JPG",
+          "author": "Marioli925",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Palacio Nacional.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Palacio_Nacional.JPG",
+          "author": "Patricia Alzuarte Díaz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio Nacional Ciudad de México.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_Ciudad_de_M%C3%A9xico.jpg",
+          "author": "MichaelCamacho",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Zócalo desde la Torre Latinoamericana, Ciudad de México.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Z%C3%B3calo_desde_la_Torre_Latinoamericana,_Ciudad_de_M%C3%A9xico.JPG",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Plaza de la Constitución - Zócalo de la Ciudad de México - 6.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Plaza_de_la_Constituci%C3%B3n_-_Z%C3%B3calo_de_la_Ciudad_de_M%C3%A9xico_-_6.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Plaza de la Constitución - Zócalo de la Ciudad de México - 4.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Plaza_de_la_Constituci%C3%B3n_-_Z%C3%B3calo_de_la_Ciudad_de_M%C3%A9xico_-_4.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palacio Nacional - Calle Corregidora - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_-_Calle_Corregidora_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Patio Central en Palacio Nacional Mexico 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Patio_Central_en_Palacio_Nacional_Mexico_2019.jpg",
+          "author": "Drkgk",
+          "license": "CC0"
+        },
+        {
+          "title": "Palacio Nacional 20201.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_20201.jpg",
+          "author": "Carlos Contreras",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-palacio-nacional.glb",
+      "source": "generators/mexico-city-palacio-nacional.ts"
+    },
+    {
       "id": "mexico-city-palacio-postal",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47222,6 +47320,24 @@
         "way/1436127890",
         "way/1436128176",
         "way/1466114121"
+      ]
+    },
+    {
+      "id": "mexico-city-palacio-nacional",
+      "name": "Palacio Nacional",
+      "model": "mexico-city-palacio-nacional",
+      "place": "mexico-city",
+      "lng": -99.1312869,
+      "lat": 19.4324595,
+      "bearing": 6.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1517884",
+      "replaces": [
+        "relation/6191295",
+        "way/1424006945",
+        "way/1424006946",
+        "way/1424006947"
       ]
     },
     {
