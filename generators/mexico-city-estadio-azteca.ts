@@ -264,7 +264,7 @@ function build() {
   }
   for (const t of TC) rib(t, RI(t) + 0.8, RO(t) - 3.2, 2.4, 0.5, 2)
   // the ring truss along the roof's inner edge
-  loftRing(T, [{ r: C(0), z: 0, part: null }].slice(1).concat([
+  loftRing(T, ([] as Prof[]).concat([
     { r: (k) => ri(k) + 0.3, z: Z.roofIn + 0.05, part: white },
     { r: (k) => ri(k) + 1.2, z: Z.roofIn + 2.6, part: white },
     { r: (k) => ri(k) + 2.1, z: Z.roofIn + 0.4, part: null },
