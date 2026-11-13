@@ -21495,6 +21495,104 @@
       "source": "generators/mexico-city-santo-domingo.ts"
     },
     {
+      "id": "mexico-city-torre-bbva",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "high-tech",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre BBVA Mexico 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_BBVA_Mexico_2019.jpg",
+          "author": "Drkgk",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre bancomer 1612",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_bancomer_1612.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Reforma 3 skycrappers",
+          "url": "https://commons.wikimedia.org/wiki/File:Reforma_3_skycrappers.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre Bancomer 2016 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Bancomer_2016_2.jpg",
+          "author": "Monstruodelinfierno",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre BBVA CDMX",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_BBVA_CDMX.jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Sobrevuelos CDMX IMG 0224",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_IMG_0224_(40386052191).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Sobrevuelos CDMX IMG 5816",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_IMG_5816_(40385952891).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Sobrevuelos CDMX IMG 0226",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_IMG_0226_(40340949152).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Sobrevuelos CDMX HJ2A5458",
+          "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_HJ2A5458_(39675459174).jpg",
+          "author": "Gobierno CDMX",
+          "license": "CC0"
+        },
+        {
+          "title": "Paseo de la Reforma from Chapultepec Castle (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Paseo_de_la_Reforma_from_Chapultepec_Castle_-_Mexico_2024_(2).jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre BBVA",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_BBVA.jpg",
+          "author": "AnghelGarcia",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-bbva.glb",
+      "source": "generators/mexico-city-torre-bbva.ts"
+    },
+    {
       "id": "mexico-city-torre-latinoamericana",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -48602,6 +48700,29 @@
       "replaces": [
         "way/1422338549"
       ]
+    },
+    {
+      "id": "mexico-city-torre-bbva",
+      "name": "Torre BBVA México",
+      "model": "mexico-city-torre-bbva",
+      "place": "mexico-city",
+      "lng": -99.17481,
+      "lat": 19.422822,
+      "bearing": 56.4,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/427833539",
+        "way/1138584854",
+        "way/1138584858",
+        "way/1138584859",
+        "way/1173440067",
+        "way/1173440068",
+        "way/1185622772",
+        "way/1484777440",
+        "way/1484777441"
+      ],
+      "wikidata": "Q6150039"
     },
     {
       "id": "mexico-city-torre-latinoamericana",
