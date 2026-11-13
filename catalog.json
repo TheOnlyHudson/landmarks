@@ -10151,6 +10151,60 @@
       "source": "generators/cpt-clock-tower-va.ts"
     },
     {
+      "id": "cpt-old-town-house",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cape Town (ZA), Iziko Old Town House Museum -- 2024 -- 3524",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Iziko_Old_Town_House_Museum_--_2024_--_3524.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Old Town House, Greenmarket Square, Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Town_House,_Greenmarket_Square,_Cape_Town.JPG",
+          "author": "Ossewa",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "800px-Old Town House - Le Cap",
+          "url": "https://commons.wikimedia.org/wiki/File:800px-Old_Town_House_-_Le_Cap.jpg",
+          "author": "Georgio",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Old Town House Greenmarket Square, Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Town_House_Greenmarket_Square,_Cape_Town.JPG",
+          "author": "NegativeC",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/cpt-old-town-house.glb",
+      "source": "generators/cpt-old-town-house.ts"
+    },
+    {
       "id": "cpt-zeitz-mocaa",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45430,6 +45484,21 @@
         "way/158441581"
       ],
       "wikidata": "Q55634395"
+    },
+    {
+      "id": "cpt-old-town-house",
+      "name": "Old Town House",
+      "model": "cpt-old-town-house",
+      "place": "cape-town",
+      "lng": 18.4198823,
+      "lat": -33.9231258,
+      "bearing": 41.6,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/609226195"
+      ],
+      "wikidata": "Q13034442"
     },
     {
       "id": "cpt-zeitz-mocaa",
