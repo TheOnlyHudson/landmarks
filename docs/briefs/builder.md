@@ -217,8 +217,10 @@ terrain or lidar ground. Note the value and its source in the header.
 ```
 
 Replace the example credits with the actual contributors and LLM model used.
-Every AI credit requires its own `model` field. `github` is optional and accepts
-an optional `@` prefix. Choose a primary `type`, descriptive slug `tags`, and
+Use the creator and username the lead gave you; never guess one. Every AI
+credit requires its own `model` field. A person's profile is optional: a
+`github`, `gitlab`, `codeberg` or `bitbucket` username (an `@` prefix is
+accepted), or any other profile as `url`. Choose a primary `type`, descriptive slug `tags`, and
 the real license (CC0-1.0 is the default). CC-BY models need `attribution`;
 custom licenses need `licenseUrl`. Include `wikidata` only when known.
 The lead must prepare `<place-id>` in `catalog.places` before merging models;
@@ -275,7 +277,8 @@ build:
 Follow `docs/reference.md`: choose a durable explicit `place` for every placement;
 include `type`, `tags`, `collection: "landmarks"`, and structured `credits` for
 the actual human/organization and AI assistant. Each AI credit must have a
-separate `model` field identifying the LLM used; use `github` for known contributor
-usernames so the viewer can link their profile and display their avatar.
+separate `model` field identifying the LLM used; use the contributor's `github`
+username so the viewer can link their profile and display their avatar
+(`gitlab`, `codeberg` and `bitbucket` link the profile only).
 Keep existing IDs when updating a model so the website can show its Git-backed version history. Preserve existing
 High LOD paths, tags, places, attribution, and references when making a rework.

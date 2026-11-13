@@ -16,7 +16,12 @@ Build one landmark model end to end. The user may have named it already:
 ## 1. Ask
 
 If the landmark isn't named above, ask the user which landmark to build and
-in which city. Ask nothing else up front. Work the rest out yourself:
+in which city. Unless the user has already said, also ask who to credit as the
+model's creator and their GitHub username (or a GitLab, Codeberg or Bitbucket
+username, or a profile URL; it's fine to have none). Suggest the login from
+`gh api user --jq .login` if it works, but let the user confirm it: the
+person building the model may not be the one signed in. Ask nothing else up
+front. Work the rest out yourself:
 
 - **Location.** `python3 tools/osm.py search "<name>, <city>"` gives the OSM
   element, centre, height and wikidata. If it returns several plausible
@@ -25,10 +30,12 @@ in which city. Ask nothing else up front. Work the rest out yourself:
   from `catalog.json` (`nyc`, `chi`, `la`, `sf`, `clt`, `dc`, `lv`, `sea`,
   `wdw`, `dlr`, `carowinds`, …). For a new city, propose a short prefix.
   Check the id isn't taken.
-- **Credits.** Record the human/organization creating the model and the actual
-  AI assistant used, with their roles. Every AI credit requires a separate
-  `model` field naming the actual LLM. Add `github` for known usernames.
-  Preserve existing credit when updating a model.
+- **Credits.** Record the human/organization creating the model, with the
+  username they gave (`github`, `gitlab`, `codeberg` or `bitbucket`; any
+  other profile goes in `url`), and the actual AI assistant used, with their
+  roles. Every AI credit requires a separate `model` field naming the actual
+  LLM. Never guess a username. Preserve existing credit when updating a
+  model.
 - **Place.** Reuse an explicit `catalog.places` ID or add a durable record for
   the city, town, site, or remote region; include its parents when needed.
 

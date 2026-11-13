@@ -1,16 +1,21 @@
 import type { Credit } from '../src/catalog'
 
+/** Profile hosts other than GitHub, in the order one is picked when several are given. */
+const HOSTS = [['gitlab', 'https://gitlab.com/'], ['codeberg', 'https://codeberg.org/'], ['bitbucket', 'https://bitbucket.org/']] as const
+
 export function creditPresentation(credit: Credit) {
   const github = credit.github?.replace(/^@/, '')
+  const other = HOSTS.map(([key, base]) => [credit[key]?.replace(/^@/, ''), base] as const).find(([user]) => user)
+  const handle = github ?? other?.[0]
   const words = credit.name.trim().split(/\s+/).filter(Boolean)
   const initials = (words.length > 1 ? words[0][0] + words.at(-1)![0] : words[0]?.slice(0, 2) ?? '?').toLocaleUpperCase()
   const claude = credit.kind === 'ai' && /^claude\b/i.test(credit.name)
   return {
     initials,
     github,
-    profileUrl: github ? `https://github.com/${github}` : credit.url,
+    profileUrl: github ? `https://github.com/${github}` : other ? other[1] + other[0] : credit.url,
     avatarUrl: github ? `https://github.com/${github}.png?size=80` : claude ? 'claude.ico' : undefined,
-    detail: [github ? `@${github}` : '', credit.role, credit.kind === 'ai' ? credit.model ?? 'AI' : ''].filter(Boolean).join(' · '),
+    detail: [handle ? `@${handle}` : '', credit.role, credit.kind === 'ai' ? credit.model ?? 'AI' : ''].filter(Boolean).join(' · '),
   }
 }
 

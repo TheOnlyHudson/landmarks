@@ -40,5 +40,8 @@ Anywhere else, read the file and follow it step by step. Ignore the
 - **Compare renders with photos.** Render with `bun run preview` and put
   each view beside a photo from the same direction. Don't call a model done
   until you have named what still differs.
+- **Credit the author.** Ask who to credit as a model's creator and their
+  GitHub username (or GitLab, Codeberg or Bitbucket username, or profile
+  URL) unless the user has said. Never guess one.
 - Bun runs everything: `bun install` once, then `bun run validate` and
   `bun test` before handing back.
