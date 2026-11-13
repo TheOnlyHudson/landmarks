@@ -12780,6 +12780,1108 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "dubai-address-downtown",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "skyscraper",
+        "supertall"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "306 m hotel tower beside the Dubai Fountain lake (2008): a leaf-shaped plan stepping back to a pale curved hood and twin pins over its north tip.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Address Downtown Dubai",
+          "url": "https://www.flickr.com/photos/100083154@N03/11535177394",
+          "author": "kameraderie",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Address @ Downtown Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15617699028",
+          "author": "*_*",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Address Downtown Dubai",
+          "url": "https://www.flickr.com/photos/8107050@N02/16317989997",
+          "author": "oiva_eskola",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Address, Downtown Dubai",
+          "url": "https://www.flickr.com/photos/76562640@N00/30987941652",
+          "author": "Rob Young",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "View from Burj Khalifa (8667329327).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_from_Burj_Khalifa_(8667329327).jpg",
+          "author": "Rob Young",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Dubai Fountain from Burj Khalifa (15795939749).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Fountain_from_Burj_Khalifa_(15795939749).jpg",
+          "author": "edward stojakovic",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dubai-address-downtown.glb",
+      "source": "generators/dubai-address-downtown.ts"
+    },
+    {
+      "id": "dubai-address-sky-view",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "skyscraper",
+        "twin-towers",
+        "skybridge",
+        "observation-deck"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Twin hotel and residential towers (SOM, 2019) joined near the top by the cantilevered Sky Views bridge.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Burdg el Khalifa 20.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burdg_el_Khalifa_20.jpg",
+          "author": "Leon petrosyan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Burg ek Khalifa 23.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burg_ek_Khalifa_23.jpg",
+          "author": "Leon petrosyan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Burg el Khalifa 25.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burg_el_Khalifa_25.jpg",
+          "author": "Leon petrosyan",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dubai-address-sky-view.glb",
+      "source": "generators/dubai-address-sky-view.ts"
+    },
+    {
+      "id": "dubai-al-yaqoub-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "residential",
+        "clock-tower",
+        "sheikh-zayed-road"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Emirates Towers in Dubai at dawn",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_in_Dubai_at_dawn.jpg",
+          "author": "Jackardsiffant",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Financial District @ Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15631830027",
+          "author": "*_* (flickr 22539273@N00)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Dubai Skyline from Dubai Metro",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Skyline_from_Dubai_Metro.jpg",
+          "author": "Leo Rodman",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "DIFC (Dubai International Financial Centre)",
+          "url": "https://www.flickr.com/photos/104021946@N05/28724198092",
+          "author": "EuroSlice",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Aerial photographs of Dubai (taken from Burj Khalifa) 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_photographs_of_Dubai_(taken_from_Burj_Khalifa_)_01.jpg",
+          "author": "Paasikivi",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/dubai-al-yaqoub-tower.glb",
+      "source": "generators/dubai-al-yaqoub-tower.ts"
+    },
+    {
+      "id": "dubai-burj-al-arab",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "skyscraper",
+        "island"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Burj al Arab and the Beach (14535539076).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_al_Arab_and_the_Beach_(14535539076).jpg",
+          "author": "Wings and Petals",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Burj Al Arab, Dubai.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Al_Arab,_Dubai.jpg",
+          "author": "Heba Hashem",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Burj Al Arab and the beach (Pexels 823696).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Al_Arab_and_the_beach_(Pexels_823696).jpg",
+          "author": "Aleksandar Pasaric",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Jumeirah Beach - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jumeirah_Beach_-_panoramio_(1).jpg",
+          "author": "Aidas U.",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Madinat Jumeirah-Dubai3303.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Madinat_Jumeirah-Dubai3303.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dubai in January 2025 12.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_in_January_2025_12.jpg",
+          "author": "Renek78",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "A burjalrab green view.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A_burjalrab_green_view.jpg",
+          "author": "Afk2007",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "New Year in Dubai - Burj Al Arab (31865708942).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Year_in_Dubai_-_Burj_Al_Arab_(31865708942).jpg",
+          "author": "Bengin Ahmad",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dubai-burj-al-arab.glb",
+      "source": "generators/dubai-burj-al-arab.ts"
+    },
+    {
+      "id": "dubai-burj-khalifa",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "supertall",
+        "observation-deck"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Burj Khalifa (16260269606).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(16260269606).jpg",
+          "author": "Laika ac",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Dubai Skyline mit Burj Khalifa (18241030269).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Skyline_mit_Burj_Khalifa_(18241030269).jpg",
+          "author": "Tim Reckmann",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Burj Khalifa from a ferry, Dubai.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_from_a_ferry,_Dubai.jpg",
+          "author": "Jpbowen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Burj Khalifa Dubai UAE (14159904937).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_Dubai_UAE_(14159904937).jpg",
+          "author": "Gary Bembridge",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Dubai Fountain & Burj Khalifa Pixabay.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Dubai_Fountain_%26_Burj_Khalifa_Pixabay.jpg",
+          "author": "Christian Raggini",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Front view from Burj Khalifa Metro Station.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Front_view_from_Burj_Khalifa_Metro_Station.jpg",
+          "author": "Aspere",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Dubai Design District View of Burj Khalifa Afternoon.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Design_District_View_of_Burj_Khalifa_Afternoon.jpg",
+          "author": "Leakingh",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Burj Khalifa Night View 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_Night_View_02.jpg",
+          "author": "Sergei Gussev",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "BurjKhalifaHeight.png (elevation diagram)",
+          "url": "https://commons.wikimedia.org/wiki/File:BurjKhalifaHeight.png",
+          "author": "Astronaut et al. (derivative by WelcometoJurassicPark)",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/dubai-burj-khalifa.glb",
+      "source": "generators/dubai-burj-khalifa.ts"
+    },
+    {
+      "id": "dubai-emirates-hotel-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Emirates Towers in Dubai at dawn.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_in_Dubai_at_dawn.jpg",
+          "author": "Jackardsiffant",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Emirates Towers - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_-_panoramio.jpg",
+          "author": "Aidas U.",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Emirates Towers - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_-_panoramio_(1).jpg",
+          "author": "Aidas U.",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Emirates Towers (4128598985).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_(4128598985).jpg",
+          "author": "Leandro Neumann Ciuffo",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Emirates Towers (9343061234).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_(9343061234).jpg",
+          "author": "ADTeasdale",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Emirates Towers Shk Zayed Road.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_Shk_Zayed_Road.jpg",
+          "author": "Ahmed Al Habesh",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dub-emtow.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dub-emtow.jpg",
+          "author": "Bgabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Emirates towers.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_towers.jpg",
+          "author": "Mujeebpully",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dubai-emirates-hotel-tower.glb",
+      "source": "generators/dubai-emirates-hotel-tower.ts"
+    },
+    {
+      "id": "dubai-emirates-office-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Emirates Towers in Dubai at dawn.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_in_Dubai_at_dawn.jpg",
+          "author": "Jackardsiffant",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Emirates Towers - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_-_panoramio.jpg",
+          "author": "Aidas U.",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Emirates Towers - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_-_panoramio_(1).jpg",
+          "author": "Aidas U.",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Emirates Towers (4128598985).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_(4128598985).jpg",
+          "author": "Leandro Neumann Ciuffo",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Emirates Towers (9343061234).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_(9343061234).jpg",
+          "author": "ADTeasdale",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Emirates Towers Shk Zayed Road.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_Shk_Zayed_Road.jpg",
+          "author": "Ahmed Al Habesh",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dub-emtow.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dub-emtow.jpg",
+          "author": "Bgabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Emirates towers.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_towers.jpg",
+          "author": "Mujeebpully",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dubai-emirates-office-tower.glb",
+      "source": "generators/dubai-emirates-office-tower.ts"
+    },
+    {
+      "id": "dubai-fountain",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "fountain",
+      "tags": [
+        "fountain",
+        "water-show"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "A static mid-show pose of the choreographed fountain's jets, laid out on its real two arcs and five rings.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Nozzle distribution of Dubai Fountain.svg",
+          "url": "https://commons.wikimedia.org/wiki/File:Nozzle_distribution_of_Dubai_Fountain.svg",
+          "author": "Toby3169, vector by Sarang",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dubai fountain show.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_fountain_show.jpg",
+          "author": "Amzexplorersfamily",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dubai Fountain show (Pexels 692105).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Fountain_show_(Pexels_692105).jpg",
+          "author": "Aleksandar Pasaric",
+          "license": "CC0"
+        },
+        {
+          "title": "DUBAI WATER FOUNTAIN.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DUBAI_WATER_FOUNTAIN.jpg",
+          "author": "Smilesnmore Digital Photography",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The huge fountain view from KhalifaBurj - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_huge_fountain_view_from_KhalifaBurj_-_panoramio.jpg",
+          "author": "patano",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dubai Fountain from Burj Khalifa (15795939749).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Fountain_from_Burj_Khalifa_(15795939749).jpg",
+          "author": "edward stojakovic",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dubai-fountain.glb",
+      "source": "generators/dubai-fountain.ts"
+    },
+    {
+      "id": "dubai-gate-building",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "difc",
+        "gateway"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "DIFC @ Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15628595748",
+          "author": "*_* (flickr 22539273@N00)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Emirates Towers in Dubai at dawn",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_in_Dubai_at_dawn.jpg",
+          "author": "Jackardsiffant",
+          "license": "CC-BY-3.0"
+        }
+      ],
+      "file": "models/dubai-gate-building.glb",
+      "source": "generators/dubai-gate-building.ts"
+    },
+    {
+      "id": "dubai-index-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "mixed-use",
+        "difc",
+        "foster-and-partners"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Index Tower - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Index_Tower_-_panoramio.jpg",
+          "author": "Aidas U.",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Index Tower @ Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15793308966",
+          "author": "*_* (flickr 22539273@N00)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Index Tower @ Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15793317266",
+          "author": "*_* (flickr 22539273@N00)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Norman Foster's Index Tower",
+          "url": "https://www.flickr.com/photos/11381771@N04/2316941922",
+          "author": "Tim Brown Architecture",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Aerial photographs of Dubai (taken from Burj Khalifa) 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_photographs_of_Dubai_(taken_from_Burj_Khalifa_)_01.jpg",
+          "author": "Paasikivi",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/dubai-index-tower.glb",
+      "source": "generators/dubai-index-tower.ts"
+    },
+    {
+      "id": "dubai-jumeirah-beach-hotel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Picture 223 - Flickr - Ghayty.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Picture_223_-_Flickr_-_Ghayty.jpg",
+          "author": "ghaya alghaya",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Jumeira Beach Hotel (вид с аквапарка) - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jumeira_Beach_Hotel_(%D0%B2%D0%B8%D0%B4_%D1%81_%D0%B0%D0%BA%D0%B2%D0%B0%D0%BF%D0%B0%D1%80%D0%BA%D0%B0)_-_panoramio.jpg",
+          "author": "Валерий Дед",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Wild Wadi Water Park Dubai (42447767842).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wild_Wadi_Water_Park_Dubai_(42447767842).jpg",
+          "author": "Jeremy Thompson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Wild Wadi Water Park Dubai (27628724907).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wild_Wadi_Water_Park_Dubai_(27628724907).jpg",
+          "author": "Jeremy Thompson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Wild Wadi Water Park Dubai (40691481300).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wild_Wadi_Water_Park_Dubai_(40691481300).jpg",
+          "author": "Jeremy Thompson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Jumeirah beach hotel - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jumeirah_beach_hotel_-_panoramio_(1).jpg",
+          "author": "Simon Costello",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Burj al Arab and the Beach (14535539076).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_al_Arab_and_the_Beach_(14535539076).jpg",
+          "author": "Wings and Petals",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Burj Al Arab and Jumeirah Beach (9601659067).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Burj_Al_Arab_and_Jumeirah_Beach_(9601659067).jpg",
+          "author": "Yacine Hary",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dubai-jumeirah-beach-hotel.glb",
+      "source": "generators/dubai-jumeirah-beach-hotel.ts"
+    },
+    {
+      "id": "dubai-mall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "shopping-mall",
+        "retail"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The low, sprawling mall at the foot of the Burj Khalifa, with its waterfront drums, glass vaults and the white vault over the cinema block.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dep Sec Brouillette visited the Burj Khalifa (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dep_Sec_Brouillette_visited_the_Burj_Khalifa_(2).jpg",
+          "author": "Office of U.S. Deputy Energy Secretary",
+          "license": "Public domain"
+        },
+        {
+          "title": "Dubai Mall 2012-09-11 (13109074034).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Mall_2012-09-11_(13109074034).jpg",
+          "author": "remundo",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Dubai Fountain 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Dubai_Fountain_01.jpg",
+          "author": "Donaldytong",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dubai Mall (15691005768).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Mall_(15691005768).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Square in from of Dubai Burj Arab Burj Khalifa Mall UAE - 043 (15656282153).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Square_in_from_of_Dubai_Burj_Arab_Burj_Khalifa_Mall_UAE_-_043_(15656282153).jpg",
+          "author": "Wasif Malik",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "13 Dubai Mall night view exterior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:13_Dubai_Mall_night_view_exterior.jpg",
+          "author": "Marek Ślusarczyk (Tupungato)",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/dubai-mall.glb",
+      "source": "generators/dubai-mall.ts"
+    },
+    {
+      "id": "dubai-millennium-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "residential"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "285 m residential tower on Sheikh Zayed Road (2006): dark glass between white braced end frames, a slotted silver crown and a needle spire.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "053-DSC07075",
+          "url": "https://www.flickr.com/photos/31929940@N00/24940164833",
+          "author": "Bazsi1979",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "037-DSC07004",
+          "url": "https://www.flickr.com/photos/31929940@N00/25448279882",
+          "author": "Bazsi1979",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/dubai-millennium-tower.glb",
+      "source": "generators/dubai-millennium-tower.ts"
+    },
+    {
+      "id": "dubai-museum-of-the-future",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Museum of the Future, Dubai",
+          "url": "https://www.flickr.com/photos/39551170@N02/52070688089",
+          "author": "Simon_sees",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Museum of the Future, Dubai",
+          "url": "https://www.flickr.com/photos/39551170@N02/52070466153",
+          "author": "Simon_sees",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Museum of the future Dubai UAE.",
+          "url": "https://www.flickr.com/photos/49399018@N00/51973473427",
+          "author": "amanderson2",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Museum of the Future 8.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Future_8.jpg",
+          "author": "EditQ",
+          "license": "CC0"
+        },
+        {
+          "title": "Museum of the Future 9.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Future_9.jpg",
+          "author": "EditQ",
+          "license": "CC0"
+        },
+        {
+          "title": "Museum of the Future 11.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Future_11.jpg",
+          "author": "EditQ",
+          "license": "CC0"
+        },
+        {
+          "title": "Museum of the Future.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Future.jpg",
+          "author": "Александр Сигачёв",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Emirates Towers Shk Zayed Road.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Emirates_Towers_Shk_Zayed_Road.jpg",
+          "author": "Ahmed Al Habesh",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/dubai-museum-of-the-future.glb",
+      "source": "generators/dubai-museum-of-the-future.ts"
+    },
+    {
+      "id": "dubai-opera",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "opera-house",
+        "theatre",
+        "performing-arts"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Dhow-shaped performing arts centre (Atkins, 2016): a glass hull under a sweeping roof that rises to a pointed prow.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dubai 32",
+          "url": "https://www.flickr.com/photos/96611469@N04/39669514691",
+          "author": "greger.ravik",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Dubai Opera",
+          "url": "https://www.flickr.com/photos/10345599@N03/49110938316",
+          "author": "Francisco Anzola",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dubai-opera.glb",
+      "source": "generators/dubai-opera.ts"
+    },
+    {
+      "id": "dubai-opus",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "hotel",
+        "office",
+        "zaha-hadid",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Zaha Hadid's glass block in Business Bay (2020), split into two towers by a free-form void and joined by a bridge at the top.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "A view from the Parking",
+          "url": "https://www.flickr.com/photos/58227652@N02/41570854404",
+          "author": "Gabby Canonizado",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Dubai Skyline from Business Bay - Dubai, UAE",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Skyline_from_Business_Bay_-_Dubai,_UAE.jpg",
+          "author": "Lxs",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/dubai-opus.glb",
+      "source": "generators/dubai-opus.ts"
+    },
+    {
+      "id": "dubai-rose-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel",
+        "sheikh-zayed-road"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Aerial photographs of Dubai (taken from Burj Khalifa) 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_photographs_of_Dubai_(taken_from_Burj_Khalifa_)_01.jpg",
+          "author": "Paasikivi",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Financial District @ Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15197356673",
+          "author": "*_* (flickr 22539273@N00)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Financial District @ Dubai",
+          "url": "https://www.flickr.com/photos/22539273@N00/15631830027",
+          "author": "*_* (flickr 22539273@N00)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Rose Tower and 21st Century Tower",
+          "url": "https://www.flickr.com/photos/92134758@N00/3655669521",
+          "author": "Paul Fenwick (pjf.id.au)",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Torres en el Centro Financiero de Dubai",
+          "url": "https://www.flickr.com/photos/124137421@N04/36406987746",
+          "author": "Edgardo W. Olivera",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Rose Tower, Dubai",
+          "url": "https://www.flickr.com/photos/30609972@N06/5559268624",
+          "author": "elisasophia",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "Sheikh Zayed Road on 16 June 2007 Pict 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Sheikh_Zayed_Road_on_16_June_2007_Pict_2.jpg",
+          "author": "Imre Solt",
+          "license": "CC-BY-SA-3.0"
+        }
+      ],
+      "file": "models/dubai-rose-tower.glb",
+      "source": "generators/dubai-rose-tower.ts"
+    },
+    {
       "id": "duke-energy-center",
       "file": "models/duke-energy-center.glb",
       "license": "CC0-1.0",
@@ -42146,6 +43248,369 @@
       "place": "disneyland"
     },
     {
+      "id": "dubai-address-downtown",
+      "name": "The Address Downtown",
+      "model": "dubai-address-downtown",
+      "place": "dubai",
+      "lng": 55.2788846,
+      "lat": 25.19399,
+      "bearing": 11,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/532836513"
+      ],
+      "wikidata": "Q677823"
+    },
+    {
+      "id": "dubai-address-sky-view",
+      "name": "Address Sky View",
+      "model": "dubai-address-sky-view",
+      "place": "dubai",
+      "lng": 55.2706598,
+      "lat": 25.2014355,
+      "bearing": 54,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/1041684723",
+        "way/723558047",
+        "way/723558400",
+        "way/723558399",
+        "way/934665040",
+        "way/934420755",
+        "way/934420756",
+        "way/934420757",
+        "way/946921563",
+        "way/946921564",
+        "way/946921565",
+        "way/946921566",
+        "way/946921567",
+        "way/946921568",
+        "way/946921569",
+        "way/946921570",
+        "way/1099630420",
+        "way/1099630421",
+        "way/1099630422",
+        "way/1099630423",
+        "way/1099630424"
+      ]
+    },
+    {
+      "id": "dubai-al-yaqoub-tower",
+      "name": "Al Yaqoub Tower",
+      "model": "dubai-al-yaqoub-tower",
+      "place": "dubai",
+      "lng": 55.279777,
+      "lat": 25.2164029,
+      "bearing": 32.8,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/238284900"
+      ],
+      "wikidata": "Q1808295"
+    },
+    {
+      "id": "dubai-burj-al-arab",
+      "name": "Burj Al Arab",
+      "model": "dubai-burj-al-arab",
+      "place": "dubai",
+      "wikidata": "Q62939",
+      "lng": 55.1853463,
+      "lat": 25.1413059,
+      "bearing": 127.3,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/12700546",
+        "way/1173799867",
+        "way/1054051580",
+        "way/1054051581"
+      ]
+    },
+    {
+      "id": "dubai-burj-khalifa",
+      "name": "Burj Khalifa",
+      "model": "dubai-burj-khalifa",
+      "place": "dubai",
+      "wikidata": "Q12495",
+      "lng": 55.2741554,
+      "lat": 25.1972073,
+      "bearing": 6,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/446646206",
+        "way/137140331",
+        "way/137140334",
+        "way/137140336",
+        "way/137140340",
+        "way/137140345",
+        "way/137140348",
+        "way/137140354",
+        "way/137140355",
+        "way/137140358",
+        "way/137140361",
+        "way/137140363",
+        "way/137140366",
+        "way/137140368",
+        "way/137140371",
+        "way/137140374",
+        "way/137147712",
+        "way/137147715",
+        "way/137153127",
+        "way/137153131",
+        "way/137153135",
+        "way/137153136",
+        "way/137153137",
+        "way/137153138",
+        "way/137153139",
+        "way/137153140",
+        "way/137153141",
+        "way/137153142",
+        "way/137153143",
+        "way/137153144",
+        "way/617912395",
+        "way/1094648913",
+        "way/1094648914",
+        "way/1094648915",
+        "way/1094648916",
+        "way/1094648917"
+      ]
+    },
+    {
+      "id": "dubai-emirates-hotel-tower",
+      "name": "Jumeirah Emirates Towers Hotel",
+      "model": "dubai-emirates-hotel-tower",
+      "place": "dubai",
+      "lng": 55.2823759,
+      "lat": 25.2175816,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/393391114",
+        "way/1001192974",
+        "way/1001192975",
+        "way/1001192976",
+        "way/1001192977",
+        "way/1001192978",
+        "way/1001192979",
+        "way/1001192980",
+        "way/1001192981",
+        "way/1001192982",
+        "way/1001192983",
+        "way/1001192984"
+      ],
+      "wikidata": "Q1049027"
+    },
+    {
+      "id": "dubai-emirates-office-tower",
+      "name": "Emirates Office Tower",
+      "model": "dubai-emirates-office-tower",
+      "place": "dubai",
+      "lng": 55.2836335,
+      "lat": 25.2176177,
+      "bearing": 180,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/393391115"
+      ],
+      "wikidata": "Q845182"
+    },
+    {
+      "id": "dubai-fountain",
+      "name": "The Dubai Fountain",
+      "model": "dubai-fountain",
+      "place": "dubai",
+      "lng": 55.2756455,
+      "lat": 25.1954088,
+      "bearing": 63.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [],
+      "wikidata": "Q2384491"
+    },
+    {
+      "id": "dubai-gate-building",
+      "name": "The Gate",
+      "model": "dubai-gate-building",
+      "place": "dubai",
+      "lng": 55.281157,
+      "lat": 25.2145569,
+      "bearing": 28,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/256973497",
+        "way/1346109176",
+        "way/1346109177",
+        "way/1346109178",
+        "way/1346109179",
+        "way/1346109180",
+        "way/1346109181",
+        "way/1346109182"
+      ]
+    },
+    {
+      "id": "dubai-index-tower",
+      "name": "The Index",
+      "model": "dubai-index-tower",
+      "place": "dubai",
+      "lng": 55.2777181,
+      "lat": 25.2074618,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/182071958",
+        "way/936115283",
+        "way/937048146",
+        "way/935572013",
+        "way/935572014",
+        "way/935572015",
+        "way/935572016",
+        "way/935572017",
+        "way/935572018",
+        "way/935572019",
+        "way/935572020",
+        "way/935572021",
+        "way/935572022",
+        "way/935572023",
+        "way/935572024",
+        "way/935572025",
+        "way/935572026",
+        "way/935572027",
+        "way/935572028",
+        "way/935572029",
+        "way/935572030",
+        "way/935572031",
+        "way/935572032",
+        "way/935572033",
+        "way/935572034",
+        "way/935572035",
+        "way/935572036",
+        "way/935572037",
+        "way/935572038",
+        "way/935572039",
+        "way/935572040",
+        "way/935572041"
+      ],
+      "wikidata": "Q1264855"
+    },
+    {
+      "id": "dubai-jumeirah-beach-hotel",
+      "name": "Jumeirah Beach Hotel",
+      "model": "dubai-jumeirah-beach-hotel",
+      "place": "dubai",
+      "wikidata": "Q647585",
+      "lng": 55.1907292,
+      "lat": 25.141572,
+      "bearing": 26.1,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/10316322"
+      ]
+    },
+    {
+      "id": "dubai-mall",
+      "name": "The Dubai Mall",
+      "model": "dubai-mall",
+      "place": "dubai",
+      "lng": 55.2788104,
+      "lat": 25.1972178,
+      "bearing": 120.1,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/18195959",
+        "way/240462845",
+        "way/1184630707"
+      ],
+      "wikidata": "Q1133309"
+    },
+    {
+      "id": "dubai-millennium-tower",
+      "name": "Millennium Tower",
+      "model": "dubai-millennium-tower",
+      "place": "dubai",
+      "lng": 55.265865,
+      "lat": 25.1948367,
+      "bearing": 41,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/203296254"
+      ],
+      "wikidata": "Q623517"
+    },
+    {
+      "id": "dubai-museum-of-the-future",
+      "name": "Museum of the Future",
+      "model": "dubai-museum-of-the-future",
+      "place": "dubai",
+      "lng": 55.2818293,
+      "lat": 25.2191117,
+      "bearing": 38.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/1054289435"
+      ],
+      "wikidata": "Q22948398"
+    },
+    {
+      "id": "dubai-opera",
+      "name": "Dubai Opera",
+      "model": "dubai-opera",
+      "place": "dubai",
+      "lng": 55.2719218,
+      "lat": 25.1956437,
+      "bearing": 99.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/475848632"
+      ],
+      "wikidata": "Q2913336"
+    },
+    {
+      "id": "dubai-opus",
+      "name": "The Opus",
+      "model": "dubai-opus",
+      "place": "dubai",
+      "lng": 55.2668518,
+      "lat": 25.1886276,
+      "bearing": 337,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/723560004",
+        "way/1528428013",
+        "way/1528428014",
+        "way/1528428015",
+        "way/1528428016"
+      ]
+    },
+    {
+      "id": "dubai-rose-tower",
+      "name": "Rose Rayhaan by Rotana",
+      "model": "dubai-rose-tower",
+      "place": "dubai",
+      "lng": 55.2765922,
+      "lat": 25.2116707,
+      "bearing": 31.8,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/64890199"
+      ],
+      "wikidata": "Q648338"
+    },
+    {
       "id": "duke-energy-center",
       "name": "Duke Energy Center",
       "model": "duke-energy-center",
@@ -52733,6 +54198,12 @@
       "name": "Disneyland Resort",
       "kind": "site",
       "parent": "los-angeles-area"
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai",
+      "kind": "city",
+      "wikidata": "Q612"
     },
     {
       "id": "houston-area",
