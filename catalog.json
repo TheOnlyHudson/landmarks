@@ -6930,6 +6930,74 @@
       "source": "generators/barcelona-casa-mila.ts"
     },
     {
+      "id": "barcelona-castell-tres-dragons",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "modernisme",
+        "brick",
+        "museum",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Castell dels Tres Dragons 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Castell_dels_Tres_Dragons_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Castell dels Tres Dragons 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Castell_dels_Tres_Dragons_02.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Tres Dragons 2022.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tres_Dragons_2022.jpg",
+          "author": "Canaan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Castell dels Tres Dragons (3).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Castell_dels_Tres_Dragons_(3).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "714 Castell dels Tres Dragons, pg. Picasso 5 - parc de la Ciutadella (Barcelona).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:714_Castell_dels_Tres_Dragons,_pg._Picasso_5_-_parc_de_la_Ciutadella_(Barcelona).jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "ICGC orthophoto (ortofoto_color_vigent)",
+          "url": "https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/Orthophoto-of-Catalonia",
+          "author": "Institut Cartogràfic i Geològic de Catalunya",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/barcelona-castell-tres-dragons.glb",
+      "source": "generators/barcelona-castell-tres-dragons.ts"
+    },
+    {
       "id": "barcelona-cathedral",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -44199,6 +44267,21 @@
         "relation/8974894"
       ],
       "wikidata": "Q207870"
+    },
+    {
+      "id": "barcelona-castell-tres-dragons",
+      "name": "Castell dels Tres Dragons",
+      "model": "barcelona-castell-tres-dragons",
+      "place": "barcelona",
+      "lng": 2.183352,
+      "lat": 41.388082,
+      "bearing": 46.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/33570474"
+      ],
+      "wikidata": "Q1048705"
     },
     {
       "id": "barcelona-cathedral",
