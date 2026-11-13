@@ -43874,6 +43874,95 @@
       ]
     },
     {
+      "id": "seoul-gyeonghoeru",
+      "file": "models/seoul-gyeonghoeru.glb",
+      "source": "generators/seoul-gyeonghoeru.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "pavilion",
+        "palace",
+        "hanok",
+        "joseon",
+        "historic",
+        "national-treasure"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The royal banquet pavilion of Gyeongbokgung (rebuilt 1867): an open upper hall under a great hipped-and-gabled roof, raised on 48 stone pillars in its pond.",
+      "references": [
+        {
+          "title": "Gyeonghoeru (Royal Banquet Hall).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gyeonghoeru_(Royal_Banquet_Hall).jpg",
+          "author": "AnbyG",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gyeonghoeru (Royal Banquet Hall) at Gyeongbokgung Palace, Seoul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gyeonghoeru_(Royal_Banquet_Hall)_at_Gyeongbokgung_Palace,_Seoul.jpg",
+          "author": "Frank Schulenburg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gyeonghoeru Seoul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gyeonghoeru_Seoul.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gyeonghoeru 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gyeonghoeru_1.jpg",
+          "author": "Kim Dae Jeung",
+          "license": "CC0"
+        },
+        {
+          "title": "Gyeonghoeru bridge.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gyeonghoeru_bridge.jpg",
+          "author": "Tristan Surtel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Eastern Side of the Gyeonghoeru Pavilion in Gyeongbokgung Palace.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eastern_Side_of_the_Gyeonghoeru_Pavilion_in_Gyeongbokgung_Palace.jpg",
+          "author": "Ethan Doyle White",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gyeongbokgung Gyeonghoeru Front.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Gyeonghoeru_Front.jpg",
+          "author": "Tungdangthanh",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gyeongbokgung Gyeonghoeru Lake Side.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Gyeonghoeru_Lake_Side.jpg",
+          "author": "Tungdangthanh",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Gyeonghoeru with Blue Sky.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gyeonghoeru_with_Blue_Sky.jpg",
+          "author": "Smin630",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "seoul-ifc",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65717,6 +65806,20 @@
         "way/1415432347"
       ],
       "wikidata": "Q485034"
+    },
+    {
+      "id": "seoul-gyeonghoeru",
+      "name": "Gyeonghoeru",
+      "model": "seoul-gyeonghoeru",
+      "place": "seoul",
+      "lng": 126.9759667,
+      "lat": 37.5797502,
+      "bearing": 272,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/170199469"
+      ]
     },
     {
       "id": "seoul-ifc",
