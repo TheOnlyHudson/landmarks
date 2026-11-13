@@ -6856,6 +6856,63 @@
       "source": "generators/barcelona-santa-maria-del-pi.ts"
     },
     {
+      "id": "barcelona-tibidabo-sagrat-cor",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "basilica",
+        "gothic-revival",
+        "hilltop",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Temple Expiatori del Sagrat Cor 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_Expiatori_del_Sagrat_Cor_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Temple Expiatori del Sagrat Cor from atop Talaia del Tibidabo, Barcelona, 2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_Expiatori_del_Sagrat_Cor_from_atop_Talaia_del_Tibidabo,_Barcelona,_2023.jpg",
+          "author": "DimiTalen",
+          "license": "CC0"
+        },
+        {
+          "title": "007 Temple expiatori del Sagrat Cor del Tibidabo (Barcelona), vista posterior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:007_Temple_expiatori_del_Sagrat_Cor_del_Tibidabo_(Barcelona),_vista_posterior.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mount Tibidabo, Barcelona (50933741101).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mount_Tibidabo,_Barcelona_(50933741101).jpg",
+          "author": "Mike McBey",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/barcelona-tibidabo-sagrat-cor.glb",
+      "source": "generators/barcelona-tibidabo-sagrat-cor.ts"
+    },
+    {
       "id": "beatties-ford-water-tower",
       "file": "models/beatties-ford-water-tower.glb",
       "license": "CC0-1.0",
@@ -42845,6 +42902,22 @@
         "way/625295823"
       ],
       "wikidata": "Q2293331"
+    },
+    {
+      "id": "barcelona-tibidabo-sagrat-cor",
+      "name": "Temple Expiatori del Sagrat Cor",
+      "model": "barcelona-tibidabo-sagrat-cor",
+      "place": "barcelona",
+      "lng": 2.118801,
+      "lat": 41.4221,
+      "bearing": 162,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/486759610",
+        "way/387589500"
+      ],
+      "wikidata": "Q1189293"
     },
     {
       "id": "beatties-ford-water-tower",
