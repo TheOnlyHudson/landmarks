@@ -6547,6 +6547,56 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "barcelona-arenas",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "bullring",
+        "shopping-mall",
+        "neo-mudejar"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arenas de Barcelona 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arenas_de_Barcelona_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Plaza de toros de las Arenas from Palau Nacional - Barcelona 2014.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Plaza_de_toros_de_las_Arenas_from_Palau_Nacional_-_Barcelona_2014.JPG",
+          "author": "José Luiz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona - Arenas de Barcelona 002.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Arenas_de_Barcelona_002.jpg",
+          "author": "Mummelgrummel",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/barcelona-arenas.glb",
+      "source": "generators/barcelona-arenas.ts"
+    },
+    {
       "id": "barcelona-casa-amatller",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -43601,6 +43651,33 @@
         "relation/17917766"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "barcelona-arenas",
+      "name": "Arenas de Barcelona",
+      "model": "barcelona-arenas",
+      "place": "barcelona",
+      "lng": 2.149312,
+      "lat": 41.376307,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/1105997329",
+        "way/305821928",
+        "way/618800604",
+        "way/618800605",
+        "way/618800606",
+        "way/618800607",
+        "way/618800608",
+        "way/1105997319",
+        "way/1105997320",
+        "way/1105997321",
+        "way/1105997322",
+        "relation/14719692",
+        "relation/14719693"
+      ],
+      "wikidata": "Q548566"
     },
     {
       "id": "barcelona-casa-amatller",
