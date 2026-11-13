@@ -21667,6 +21667,91 @@
       "source": "generators/mexico-city-torre-latinoamericana.ts"
     },
     {
+      "id": "mexico-city-torre-mayor",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre Mayor, DD 11",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mayor,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_11.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Estela de Luz y Torre Mayor, DD 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Estela_de_Luz_y_Torre_Mayor,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_02.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Torre Mayor desde el Castillo de Chapultepec",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mayor_desde_el_Castillo_de_Chapultepec_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Torre Mayor, parte trasera",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mayor,_parte_trasera_-_panoramio.jpg",
+          "author": "JavierDo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Torre Mayor y anexo",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mayor_y_anexo.JPG",
+          "author": "Felipe Alfonso Castillo Vázquez",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Torre Mayor y Torre Reforma 1612",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mayor_y_Torre_Reforma1612.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "East Skyline Torre Mayor Reforma",
+          "url": "https://commons.wikimedia.org/wiki/File:East_Skyline_Torre_Mayor_Reforma_-_panoramio.jpg",
+          "author": "JAGarcia",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Paseo de la Reforma: Torre Reforma, Chapultepec Uno and Torre Mayor",
+          "url": "https://commons.wikimedia.org/wiki/File:Paseo_de_la_Reforma_Torre_Reforma,_Chapultepec_Uno_and_Torre_Mayor.jpg",
+          "author": "Tyrv",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Vista aérea de la Ciudad de México desde el Auditorio Nacional 10",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Ciudad_de_M%C3%A9xico_desde_el_Auditorio_Nacional_10.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/mexico-city-torre-mayor.glb",
+      "source": "generators/mexico-city-torre-mayor.ts"
+    },
+    {
       "id": "mexico-city-torre-reforma",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -48830,6 +48915,32 @@
         "relation/19455323"
       ],
       "wikidata": "Q947870"
+    },
+    {
+      "id": "mexico-city-torre-mayor",
+      "name": "Torre Mayor",
+      "model": "mexico-city-torre-mayor",
+      "place": "mexico-city",
+      "lng": -99.175301,
+      "lat": 19.42435,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/217330156",
+        "way/1173145877",
+        "way/1173145878",
+        "way/1187884777",
+        "way/1151277352",
+        "way/1137741007",
+        "way/1137741008",
+        "way/1137741009",
+        "way/1137741010",
+        "way/1137741011",
+        "way/1137741012",
+        "way/1137741013"
+      ],
+      "wikidata": "Q844813"
     },
     {
       "id": "mexico-city-torre-reforma",
