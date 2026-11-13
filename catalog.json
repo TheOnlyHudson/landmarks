@@ -30139,6 +30139,8 @@
     {
       "id": "rio-christ-the-redeemer",
       "file": "models/rio-christ-the-redeemer.glb",
+      "detail": "models/rio-christ-the-redeemer.detail.glb",
+      "detailZoom": 17,
       "license": "CC0-1.0",
       "source": "generators/rio-christ-the-redeemer.ts",
       "type": "sculpture",
