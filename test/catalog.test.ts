@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'bun:test'
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { validateCatalog, type Catalog } from '../src/catalog'
+import { formatCatalog, validateCatalog, type Catalog } from '../src/catalog'
 import { glbBounds } from '../src/glb'
 import { checkCatalog } from '../src/release'
 import { box, material, writeGlb } from './helpers'
@@ -14,6 +14,11 @@ describe('the catalog', () => {
   test('is valid, and every model it lists exists and stands on its origin', () => {
     const catalog = JSON.parse(readFileSync(join(ROOT, 'catalog.json'), 'utf8')) as Catalog
     expect(checkCatalog(ROOT, catalog)).toEqual([])
+  })
+
+  test('is stored sorted by id, so pull requests adding landmarks merge', () => {
+    const stored = readFileSync(join(ROOT, 'catalog.json'), 'utf8')
+    expect(formatCatalog(JSON.parse(stored)) === stored).toBe(true)
   })
 })
 

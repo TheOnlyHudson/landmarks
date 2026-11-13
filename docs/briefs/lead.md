@@ -130,13 +130,12 @@ One commit per model. Merge a model whose generator holds a shared helper
 before the models that import it; the script refuses the wrong order.
 
 The merge helper does not add place records or stage High LOD files; commit
-those explicitly. Reconcile `places` manually when using the catalog merge
-driver, which only unions models and placements. Run `bun run typecheck`,
+those explicitly, keeping `places` sorted by id. Run `bun run typecheck`,
 `bun test`, `bun run validate`, and `bun run build` at the end. Smoke-check the
 [website behavior](../website.md), including credits/model-used metadata,
 High/Low LOD, version history, all replaced OSM IDs, avatars, and day/night views.
-If `catalog.json` conflicts with `main` or another batch, merge model/placement
-lists by ID with `tools/merge-catalog.py` and reconcile places before validation.
+If `catalog.json` conflicts with `main` or another batch, merge it by id with
+`tools/merge-catalog.py`, then rerun `bun tools/replacement-footprints.ts`.
 
 ## 5. The pull request
 

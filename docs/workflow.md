@@ -263,19 +263,22 @@ alongside the generator, Low LOD and catalog changes; this helper stages only
 metadata unless the change intentionally updates them. Do not replace an entry
 with a stripped-down scratch record.
 
-**Catalog conflicts.** Two batch branches both append to `catalog.json`, so
-rebasing one onto the other conflicts at the end of each list. Merge the
-file by id with `tools/merge-catalog.py`. `.gitattributes` names it as the
-merge driver for `catalog.json`; enable it once per clone:
+**Catalog conflicts.** `catalog.json` is kept sorted by id (`bun run
+validate` refuses it otherwise; `bun tools/sort-catalog.ts` fixes it), and
+`web/replacement-footprints.json` holds one landmark per line, sorted by id.
+Branches adding different landmarks therefore edit different lines and
+merge cleanly. When two add neighbouring ids and do conflict, merge the
+catalog by id with `tools/merge-catalog.py` and rerun
+`bun tools/replacement-footprints.ts`. `.gitattributes` names the script
+as the merge driver for `catalog.json`; enable it once per clone:
 
 ```bash
 git config merge.catalog.name "catalog.json, merged by id"
 git config merge.catalog.driver "python3 tools/merge-catalog.py %O %A %B"
 ```
 
-The current merge driver unions `models` and `landmarks`, but takes other
-root fields, including `places`, from ours. Manually reconcile place records
-from both branches by ID before accepting a conflict resolution; verify parent
+The merge driver unions `places`, `models` and `landmarks` by id; where both
+branches changed the same id, ours wins, so check those records, parent
 links and each placement's `place`. Then run `bun run validate`. The script's
 header shows how to run it by hand mid-conflict.
 
@@ -401,7 +404,8 @@ release host.
 | `tools/merge-model.sh <placement.json> "<msg>"` | Merge and commit one model |
 | `bun run sync:sources` | Refresh the pinned OpenLandmarks metadata snapshot |
 | `bun tools/replacement-footprints.ts` | Refresh stored OSM replacement outlines after `replaces` changes |
-| `python3 tools/merge-catalog.py` | Merge model/placement lists by id; reconcile `places` manually |
+| `bun tools/sort-catalog.ts` | Sort `catalog.json` by id, as `bun run validate` requires |
+| `python3 tools/merge-catalog.py` | Merge places, models and placements by id |
 | `python3 tools/osm.py buildings\|named\|search` | OSM outlines and parts, named features, Nominatim |
 | `python3 tools/photos.py commons\|openverse` | Licensed photo search, tagged evidence or look-only |
 | `python3 tools/mapillary.py` | Street photos aimed at a landmark, one per side |
