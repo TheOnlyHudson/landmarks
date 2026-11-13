@@ -17704,6 +17704,75 @@
       "source": "generators/istanbul-hagia-sophia.ts"
     },
     {
+      "id": "istanbul-little-hagia-sophia",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "church",
+        "byzantine",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Sergius and Bacchus",
+          "url": "https://commons.wikimedia.org/wiki/File:Sergius_and_Bacchus.jpg",
+          "author": "fusion-of-horizons",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Little Hagia Sophia",
+          "url": "https://commons.wikimedia.org/wiki/File:Little_Hagia_Sophia.JPG",
+          "author": "DavidConFran",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Little Aya Sophia 0982",
+          "url": "https://commons.wikimedia.org/wiki/File:Little_Aya_Sophia_0982.jpg",
+          "author": "Dosseman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Küçük Ayasofya Camii",
+          "url": "https://commons.wikimedia.org/wiki/File:K%C3%BC%C3%A7%C3%BCk_Ayasofya_Camii.jpg",
+          "author": "Loresue",
+          "license": "CC0"
+        },
+        {
+          "title": "Küçük Ayasofya Camii 02",
+          "url": "https://commons.wikimedia.org/wiki/File:K%C3%BC%C3%A7%C3%BCk_Ayasofya_Camii_02.jpg",
+          "author": "Alicembasli",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Küçük Ayasofya Camii 04",
+          "url": "https://commons.wikimedia.org/wiki/File:K%C3%BC%C3%A7%C3%BCk_Ayasofya_Camii_04.jpg",
+          "author": "Alicembasli",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-little-hagia-sophia.glb",
+      "source": "generators/istanbul-little-hagia-sophia.ts"
+    },
+    {
       "id": "istanbul-obelisk-of-theodosius",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45514,6 +45583,21 @@
         "way/776086648",
         "way/776086649",
         "way/776211441"
+      ]
+    },
+    {
+      "id": "istanbul-little-hagia-sophia",
+      "name": "Little Hagia Sophia",
+      "model": "istanbul-little-hagia-sophia",
+      "place": "istanbul",
+      "lng": 28.972207,
+      "lat": 41.002744,
+      "bearing": 20,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1144576",
+      "replaces": [
+        "way/303179753"
       ]
     },
     {
