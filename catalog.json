@@ -36008,6 +36008,72 @@
       ],
       "file": "models/dubai-mall.glb",
       "source": "generators/dubai-mall.ts"
+    },
+    {
+      "id": "dubai-fountain",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "fountain",
+      "tags": [
+        "fountain",
+        "water-show"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "A static mid-show pose of the choreographed fountain's jets, laid out on its real two arcs and five rings.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Nozzle distribution of Dubai Fountain.svg",
+          "url": "https://commons.wikimedia.org/wiki/File:Nozzle_distribution_of_Dubai_Fountain.svg",
+          "author": "Toby3169, vector by Sarang",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dubai fountain show.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_fountain_show.jpg",
+          "author": "Amzexplorersfamily",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dubai Fountain show (Pexels 692105).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Fountain_show_(Pexels_692105).jpg",
+          "author": "Aleksandar Pasaric",
+          "license": "CC0"
+        },
+        {
+          "title": "DUBAI WATER FOUNTAIN.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DUBAI_WATER_FOUNTAIN.jpg",
+          "author": "Smilesnmore Digital Photography",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The huge fountain view from KhalifaBurj - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_huge_fountain_view_from_KhalifaBurj_-_panoramio.jpg",
+          "author": "patano",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Dubai Fountain from Burj Khalifa (15795939749).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dubai_Fountain_from_Burj_Khalifa_(15795939749).jpg",
+          "author": "edward stojakovic",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/dubai-fountain.glb",
+      "source": "generators/dubai-fountain.ts"
     }
   ],
   "landmarks": [
@@ -53035,6 +53101,19 @@
         "way/1184630707"
       ],
       "wikidata": "Q1133309"
+    },
+    {
+      "id": "dubai-fountain",
+      "name": "The Dubai Fountain",
+      "model": "dubai-fountain",
+      "place": "dubai",
+      "lng": 55.2756455,
+      "lat": 25.1954088,
+      "bearing": 63.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [],
+      "wikidata": "Q2384491"
     }
   ],
   "places": [
