@@ -59,7 +59,7 @@
  *   o00/o01/o02/o03/o04 ProtoplasmaKid, "Estadio Olímpico Universitario -
  *     2026 - 01, 02, 05, 09, 13.jpg", CC BY 4.0, 2026-05-14 (drone, all
  *     sides; o00 and o04 from the east over the mural);
- *   o07 "Estadio Olímpico Universitario - aerial view.jpg", CC BY-SA 4.0,
+ *   o07 "Estadio Olímpico Universitario - aerial view.jpg", ProtoplasmaKid, CC BY-SA 4.0,
  *     2023 (from the north: the sign wall, El Palomar, the towers);
  *   o08 ProtoplasmaKid, "Entrada Estadio Olímpico Universitario.jpg",
  *     CC BY-SA 3.0, 2011 (the north sign wall on pilotis);
