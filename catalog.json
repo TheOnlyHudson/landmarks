@@ -1193,6 +1193,61 @@
       "source": "generators/amsterdam-oude-kerk.ts"
     },
     {
+      "id": "amsterdam-portuguese-synagogue",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "synagogue",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "EsnogaAmsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:EsnogaAmsterdam.jpg",
+          "author": "Massimo Catarinella",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Amsterdam - Portuguese Synagoge.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Portuguese_Synagoge.jpg",
+          "author": "A. Bakker",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Exterieur van de nieuwe Portugese Synagoge te Amsterdam. NL-HlmNHA 53008850.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_van_de_nieuwe_Portugese_Synagoge_te_Amsterdam._NL-HlmNHA_53008850.JPG",
+          "author": "Romeyn de Hooghe",
+          "license": "Public domain"
+        },
+        {
+          "title": "3D BAG, NL.IMBAG.Pand.0363100012170255",
+          "url": "https://3dbag.nl/",
+          "author": "TU Delft 3D geoinformation group / 3DGI",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-portuguese-synagogue.glb",
+      "source": "generators/amsterdam-portuguese-synagogue.ts"
+    },
+    {
       "id": "amsterdam-rijksmuseum",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -39400,6 +39455,25 @@
         "way/749242501"
       ],
       "wikidata": "Q623558"
+    },
+    {
+      "id": "amsterdam-portuguese-synagogue",
+      "name": "Portuguese Synagogue",
+      "model": "amsterdam-portuguese-synagogue",
+      "place": "amsterdam",
+      "lng": 4.905338,
+      "lat": 52.367536,
+      "bearing": 28.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/57861363",
+        "way/268783384",
+        "way/268783311",
+        "way/268783350",
+        "way/268783415"
+      ],
+      "wikidata": "Q1853707"
     },
     {
       "id": "amsterdam-rijksmuseum",
