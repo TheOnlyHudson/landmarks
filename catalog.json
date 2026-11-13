@@ -890,6 +890,86 @@
       "source": "generators/amsterdam-sint-nicolaaskerk.ts"
     },
     {
+      "id": "amsterdam-waag",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "medieval",
+        "city-gate",
+        "weigh-house"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam (NL), Waag -- 2015 -- 7258.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Waag_--_2015_--_7258.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Oude Kerk Blick vom Turm auf De Waag.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Oude_Kerk_Blick_vom_Turm_auf_De_Waag.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam De Waag 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_De_Waag_2.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Waag 2107.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Waag_2107.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Waag 2115.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Waag_2115.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "De Waag Nieuwmarkt Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:De_Waag_Nieuwmarkt_Amsterdam.jpg",
+          "author": "Gouwenaar",
+          "license": "CC0"
+        },
+        {
+          "title": "Uit het zuid-westen - Amsterdam - 20011129 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Uit_het_zuid-westen_-_Amsterdam_-_20011129_-_RCE.jpg",
+          "author": "Unknown author (Rijksdienst voor het Cultureel Erfgoed)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam (NL), Waag -- 2015 -- 7261.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Waag_--_2015_--_7261.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-waag.glb",
+      "source": "generators/amsterdam-waag.ts"
+    },
+    {
       "id": "amsterdam-westerkerk",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -38273,6 +38353,34 @@
         "way/750591090"
       ],
       "wikidata": "Q1350750"
+    },
+    {
+      "id": "amsterdam-waag",
+      "name": "De Waag",
+      "model": "amsterdam-waag",
+      "place": "amsterdam",
+      "lng": 4.900323,
+      "lat": 52.372771,
+      "bearing": 64,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/57857390",
+        "way/749066938",
+        "way/749066939",
+        "way/749066940",
+        "way/749066941",
+        "way/749066942",
+        "way/749066943",
+        "way/749066944",
+        "way/749066945",
+        "way/749066946",
+        "way/749066947",
+        "way/749066948",
+        "way/749066949",
+        "way/749066950"
+      ],
+      "wikidata": "Q2466999"
     },
     {
       "id": "amsterdam-westerkerk",
