@@ -20691,6 +20691,74 @@
       "source": "generators/mexico-city-el-moro.ts"
     },
     {
+      "id": "mexico-city-estadio-azteca",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "world-cup",
+        "modernist",
+        "concrete"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vista aérea del Estadio Azteca - 2026 - 19",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_19.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Vista aérea del Estadio Azteca - 2026 - 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Estadio Azteca 2026 - 04",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadio_Azteca_2026_-_04.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Mexico city Estadio Azteca estadio banorte fifa world cup 2026 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexico_city_Estadio_Azteca_estadio_banorte_fifa_world_cup_2026_1.JPG",
+          "author": "Arne Müseler",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "Estadio Azteca (detalle)",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadio_Azteca_(detalle).jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Interior Estadio Azteca CDMX",
+          "url": "https://commons.wikimedia.org/wiki/File:Interior_Estadio_Azteca_CDMX.jpg",
+          "author": "AnatGutman",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/mexico-city-estadio-azteca.glb",
+      "source": "generators/mexico-city-estadio-azteca.ts"
+    },
+    {
       "id": "mexico-city-estela-de-luz",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -49307,6 +49375,23 @@
         "way/1139736170",
         "way/1139736172"
       ]
+    },
+    {
+      "id": "mexico-city-estadio-azteca",
+      "name": "Estadio Azteca",
+      "model": "mexico-city-estadio-azteca",
+      "place": "mexico-city",
+      "lng": -99.150474,
+      "lat": 19.302934,
+      "bearing": 6,
+      "elevation": -9.5,
+      "minzoom": 14,
+      "replaces": [
+        "way/4758704",
+        "relation/8774593",
+        "relation/9715516"
+      ],
+      "wikidata": "Q320454"
     },
     {
       "id": "mexico-city-estela-de-luz",
