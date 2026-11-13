@@ -79,6 +79,86 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "amsterdam-adam-toren",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tower",
+        "observation-deck",
+        "office",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "A'DAM Toren-01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A'DAM_Toren-01.jpg",
+          "author": "Muck",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "A'DAM Toren en de skyline van Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A'DAM_Toren_en_de_skyline_van_Amsterdam.jpg",
+          "author": "MrAronymous",
+          "license": "CC0"
+        },
+        {
+          "title": "A'DAM Toren.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:A'DAM_Toren.JPG",
+          "author": "Marion Golsteijn",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "IJpromenade A'dam toren.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:IJpromenade_A'dam_toren.jpg",
+          "author": "Frank Markesteijn",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Top A'DAM Toren.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Top_A'DAM_Toren.JPG",
+          "author": "Marion Golsteijn",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Shell toren.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Shell_toren.jpg",
+          "author": "Arjen Kruisman",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "A'DAM Toren avond.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A'DAM_Toren_avond.jpg",
+          "author": "Marion Golsteijn",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "A'DAM Toren-03-Night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A'DAM_Toren-03-Night.jpg",
+          "author": "Muck",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-adam-toren.glb",
+      "source": "generators/amsterdam-adam-toren.ts"
+    },
+    {
       "id": "amsterdam-beurs-van-berlage",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -38188,6 +38268,29 @@
         "way/432937734"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "amsterdam-adam-toren",
+      "name": "A'DAM Toren",
+      "model": "amsterdam-adam-toren",
+      "place": "amsterdam",
+      "lng": 4.902205,
+      "lat": 52.383779,
+      "bearing": 8.6,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/44824385",
+        "way/593068473",
+        "way/593068474",
+        "way/750257534",
+        "way/750257535",
+        "way/750257536",
+        "way/750257537",
+        "way/750296019",
+        "way/750296020"
+      ],
+      "wikidata": "Q2529795"
     },
     {
       "id": "amsterdam-beurs-van-berlage",
