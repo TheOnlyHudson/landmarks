@@ -643,6 +643,103 @@
       "source": "generators/amsterdam-hart-museum.ts"
     },
     {
+      "id": "amsterdam-ing-house",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "modern",
+        "stilts"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "ING House @ Zuidas @ Amsterdam (20203855735).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING_House_@_Zuidas_@_Amsterdam_(20203855735).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "ING House @ Zuidas @ Amsterdam (19581199544).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING_House_@_Zuidas_@_Amsterdam_(19581199544).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "2009 ING House.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2009_ING_House.jpg",
+          "author": "FaceMePLS",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "ING House Amsterdam 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING_House_Amsterdam_2017.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "ING-House - Amsterdam 20060903 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING-House_-_Amsterdam_20060903_01.jpg",
+          "author": "Pudding4brains",
+          "license": "Public domain"
+        },
+        {
+          "title": "ING-House - Amsterdam 20060903 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING-House_-_Amsterdam_20060903_02.jpg",
+          "author": "Pudding4brains",
+          "license": "Public domain"
+        },
+        {
+          "title": "ING-House - Amsterdam 20060903 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING-House_-_Amsterdam_20060903_04.jpg",
+          "author": "Pudding4brains",
+          "license": "Public domain"
+        },
+        {
+          "title": "ING-House - Amsterdam 20060903 05.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ING-House_-_Amsterdam_20060903_05.jpg",
+          "author": "Pudding4brains",
+          "license": "Public domain"
+        },
+        {
+          "title": "INGHouse1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:INGHouse1.jpg",
+          "author": "unknown (Wikimedia Commons)",
+          "license": "Public domain"
+        },
+        {
+          "title": "ING House Amsterdam.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:ING_House_Amsterdam.JPG",
+          "author": "unknown (Wikimedia Commons)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Infinity Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Infinity_Amsterdam.jpg",
+          "author": "Choinowski",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-ing-house.glb",
+      "source": "generators/amsterdam-ing-house.ts"
+    },
+    {
       "id": "amsterdam-johan-cruijff-arena",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -39579,6 +39676,21 @@
         "relation/3604193"
       ],
       "wikidata": "Q1350009"
+    },
+    {
+      "id": "amsterdam-ing-house",
+      "name": "ING House",
+      "model": "amsterdam-ing-house",
+      "place": "amsterdam",
+      "lng": 4.855211,
+      "lat": 52.337168,
+      "bearing": 85.1,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/57856367"
+      ],
+      "wikidata": "Q645881"
     },
     {
       "id": "amsterdam-johan-cruijff-arena",
