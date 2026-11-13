@@ -10616,6 +10616,86 @@
       "source": "generators/cpt-old-town-house.ts"
     },
     {
+      "id": "cpt-rhodes-memorial",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "memorial",
+        "historic",
+        "neoclassical",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cecil Rhodes Memorial Elevated View 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Cecil_Rhodes_Memorial_Elevated_View_2.jpg",
+          "author": "SkyPixels",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cecil Rhodes Memorial Elevated View 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Cecil_Rhodes_Memorial_Elevated_View_1.jpg",
+          "author": "SkyPixels",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rhodes memorial, aerial photograph (cropped N.1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_memorial_in_Cape_Town,_South_Africa,_aerial_photograph_(cropped_N.1).jpg",
+          "author": "JasonSmuts",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rhodes Memorial Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Memorial_Cape_Town.jpg",
+          "author": "Samir insta",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rhodes Memorial, Cape Town (South Africa)",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Memorial,_Cape_Town_(South_Africa).jpg",
+          "author": "Olga Ernst",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rhodes Memorial, Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Memorial,_Cape_Town.jpg",
+          "author": "Steven Morrow",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Rhodes Memorial (11209962564)",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Memorial_(11209962564).jpg",
+          "author": "Darren Glanville",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Energy. Rhodes Memorial Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Energy._Rhodes_Memorial_Cape_Town.jpg",
+          "author": "Andrew Massyn",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/cpt-rhodes-memorial.glb",
+      "source": "generators/cpt-rhodes-memorial.ts"
+    },
+    {
       "id": "cpt-zeitz-mocaa",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46320,6 +46400,21 @@
         "way/609226195"
       ],
       "wikidata": "Q13034442"
+    },
+    {
+      "id": "cpt-rhodes-memorial",
+      "name": "Rhodes Memorial",
+      "model": "cpt-rhodes-memorial",
+      "place": "cape-town",
+      "lng": 18.4589723,
+      "lat": -33.952356,
+      "bearing": 96.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/1290642871"
+      ],
+      "wikidata": "Q3429602"
     },
     {
       "id": "cpt-zeitz-mocaa",
