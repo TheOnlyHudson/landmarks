@@ -1507,6 +1507,103 @@
       "source": "generators/amsterdam-stedelijk-museum.ts"
     },
     {
+      "id": "amsterdam-van-gogh-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modernist",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Exterior of the Van Gogh Museum 20180702.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Van_Gogh_Museum_20180702.jpg",
+          "author": "Suicasmo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Van Gogh Museum 2537.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum_2537.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Van Gogh Museum, Pedaalemmer foto 1.jpg (and 2, 3)",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum,_Pedaalemmer_foto_1.jpg",
+          "author": "Alf van Beem",
+          "license": "Public domain"
+        },
+        {
+          "title": "Van Gogh Museum, Kurokawa wing.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum,_Kurokawa_wing.jpg",
+          "author": "Sebastian Koppehel",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Exterior of the Kurokawavleugel Van Gogh Museum IMG 5159.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Kurokawavleugel_Van_Gogh_Museum_IMG_5159.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterior of Rietveldgebouw Van Gogh Museum IMG 5158.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Rietveldgebouw_Van_Gogh_Museum_IMG_5158.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Van Gogh Museum (42514015642).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum_(42514015642).jpg",
+          "author": "Julien Chatelain",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Van Gogh Museum (41843540794).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum_(41843540794).jpg",
+          "author": "Julien Chatelain",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Van Gogh Museum by night Amsterdam 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum_by_night_Amsterdam_2017.jpg",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nederland Amsterdam 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Nederland_Amsterdam_02.jpg",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "3D BAG NL.IMBAG.Pand.0363100012098679, 0363100012211564 (LoD2.2 from AHN lidar)",
+          "url": "https://3dbag.nl/en/viewer?bagid=NL.IMBAG.Pand.0363100012098679",
+          "author": "3D geoinformation group, TU Delft / 3DBAG",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-van-gogh-museum.glb",
+      "source": "generators/amsterdam-van-gogh-museum.ts"
+    },
+    {
       "id": "amsterdam-waag",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -39136,6 +39233,31 @@
         "way/754299897",
         "way/754299898",
         "way/754299891"
+      ]
+    },
+    {
+      "id": "amsterdam-van-gogh-museum",
+      "name": "Van Gogh Museum",
+      "model": "amsterdam-van-gogh-museum",
+      "place": "amsterdam",
+      "lng": 4.881171,
+      "lat": 52.358218,
+      "bearing": 66.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q224124",
+      "replaces": [
+        "relation/6577680",
+        "way/754324679",
+        "way/754324680",
+        "way/754324681",
+        "way/754324682",
+        "way/754324683",
+        "way/754324684",
+        "way/754324685",
+        "way/441830027",
+        "way/1230401241",
+        "way/1230401242"
       ]
     },
     {
