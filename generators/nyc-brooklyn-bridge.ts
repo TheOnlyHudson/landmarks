@@ -129,7 +129,7 @@
  */
 import { Part, cross, sub, writeGlb, type V3 } from './mesh'
 import {
-  along, band, bead, footedWall, groundAt, merged, parabola, piecewise, rod, stations, truss, tube, type GroundGrid,
+  along, band, bead, face, footedWall, groundAt, merged, parabola, piecewise, rod, stations, truss, tube, type GroundGrid,
 } from './bridge-kit'
 
 // ---- Towers -------------------------------------------------------------------
@@ -522,22 +522,43 @@ const MANHATTAN_GROUND: GroundGrid = { y0: 524, x0: -20, step: 5, z: [
 const AW = 17.2 // anchorage half-width (OSM, 34.3 m)
 
 /**
- * An anchorage: a masonry block from its river face at `y0` back to `y1`,
- * walls footed on the ground grid, its top just under the map's approach
- * roadway (`top`), with corner piers, a cornice, and blind arches on the
- * river face and along the sides.
+ * The anchorages' landward faces, west to east (OSM). Each is cut on the skew
+ * of the street it backs onto: the Brooklyn one runs beside the
+ * Brooklyn-Queens Expressway, which passes under the approach's girders there.
  */
-function anchorage(y0: number, y1: number, ground: GroundGrid, topAt: (y: number) => number) {
+const BACK_FACE_B: [number, number][] = [[-AW, -585.0], [-14.0, -586.1], [14.7, -617.0], [AW, -617.0]]
+const BACK_FACE_M: [number, number][] = [[-AW, 590.6], [-12.2, 590.6], [13.0, 580.3], [AW, 580.3]]
+
+/**
+ * An anchorage: a masonry block from its river face at `y0` back to its
+ * landward face `back`, walls footed on the ground grid, its top just under
+ * the map's approach roadway (`top`), with corner piers, a cornice, and
+ * blind arches on the river face and along the sides.
+ */
+function anchorage(y0: number, back: [number, number][], ground: GroundGrid, topAt: (y: number) => number) {
   const g = (x: number, y: number) => groundAt(ground, x, y)
-  const dir = Math.sign(y1 - y0)
+  const dir = Math.sign(back[0][1] - y0)
   const t = (_x: number, y: number) => topAt(y)
-  const front: V3 = [0, -dir, 0], back: V3 = [0, dir, 0]
+  const front: V3 = [0, -dir, 0]
+  const backAt = piecewise(back)
+  const sideEnd = (s: number) => (s < 0 ? back[0][1] : back[back.length - 1][1])
   footedWall(stone, [-AW, y0], [AW, y0], g, t, front)
-  footedWall(stone, [-AW, y1], [AW, y1], g, t, back)
-  for (const s of [-1, 1]) footedWall(stone, [s * AW, y0], [s * AW, y1], g, t, [s, 0, 0])
-  // The top, in strips along the bridge so it follows a sloping approach.
-  const ys = stations(y0, y1, 6)
-  band(roof, -AW, AW, ys, (y) => topAt(y), (y) => topAt(y), { top: true })
+  for (let i = 0; i < back.length - 1; i++) {
+    const [a, b] = [back[i], back[i + 1]]
+    const k = dir / Math.hypot(b[0] - a[0], b[1] - a[1])
+    footedWall(stone, a, b, g, t, [(a[1] - b[1]) * k, (b[0] - a[0]) * k, 0])
+  }
+  for (const s of [-1, 1]) footedWall(stone, [s * AW, y0], [s * AW, sideEnd(s)], g, t, [s, 0, 0])
+  // The top, in strips across the bridge between the landward face's corners, each running back to it so it follows a sloping approach.
+  const xs = back.map(([x]) => x)
+  const at = (x: number, u: number): V3 => {
+    const y = y0 + (backAt(x) - y0) * u
+    return [x, y, topAt(y)]
+  }
+  const us = stations(0, 1, 6 / Math.abs(sideEnd(-1) - y0))
+  for (let i = 0; i < xs.length - 1; i++)
+    for (let j = 0; j < us.length - 1; j++)
+      face(roof, at(xs[i], us[j]), at(xs[i + 1], us[j]), at(xs[i + 1], us[j + 1]), at(xs[i], us[j + 1]), [0, 0, 1])
 
   const P = 0.5   // pier and cornice projection
   const CORN = 1.6 // cornice depth below the top
@@ -548,12 +569,12 @@ function anchorage(y0: number, y1: number, ground: GroundGrid, topAt: (y: number
     footedWall(stone, [xi, yf], [xo, yf], g, pierTop, front)
     footedWall(stone, [xo, yf], [xo, yb], g, pierTop, [s, 0, 0])
     footedWall(stone, [xi, yf], [xi, y0], g, pierTop, [-s, 0, 0])
-    footedWall(stone, [s * AW, yb], [xo, yb], g, pierTop, back)
+    footedWall(stone, [s * AW, yb], [xo, yb], g, pierTop, [0, dir, 0])
   }
   // Cornice: a proud band round the top.
   const c0 = (y: number) => topAt(y) - CORN, c1 = (y: number) => topAt(y) - .3
   band(trim, -AW - P, AW + P, [y0 - dir * P, y0], () => c1(y0), () => c0(y0))
-  for (const s of [-1, 1]) band(trim, s * AW, s * (AW + P), ys, c1, c0, { out: true, top: true, bottom: true })
+  for (const s of [-1, 1]) band(trim, s * AW, s * (AW + P), stations(y0, sideEnd(s), 6), c1, c0, { out: true, top: true, bottom: true })
 
   // Blind arches: flush panels in the curtain's shade, round-headed.
   const arch = (cx: number, cy: number, w: number, z0: number, z1: number, n: V3, along: boolean) => {
@@ -581,17 +602,18 @@ function anchorage(y0: number, y1: number, ground: GroundGrid, topAt: (y: number
   const archTop = (y: number) => topAt(y) - CORN - 2.5
   const foot = (x: number, y: number) => g(x, y) + 2
   for (const s of [-1, 1]) arch(s * 7.6, y0 - dir * .01, 9.5, foot(s * 7.6, y0), archTop(y0), front, false)
-  const len = Math.abs(y1 - y0), n = Math.max(2, Math.round(len / 19))
-  for (const s of [-1, 1])
+  for (const s of [-1, 1]) {
+    const len = Math.abs(sideEnd(s) - y0), n = Math.max(2, Math.round(len / 19))
     for (let i = 0; i < n; i++) {
       const cy = y0 + dir * (len * (i + .5)) / n
       arch(s * (AW + .01), cy, Math.min(11, len / n - 4), foot(s * AW, cy), archTop(cy), [s, 0, 0], true)
     }
+  }
 }
 
 // Their roofs stay 0.4 m under the lower of the map's two roadways over them.
-anchorage(YB, BACK_B, BROOKLYN_GROUND, (y) => lower(y) - .4)
-anchorage(YM, BACK_M, MANHATTAN_GROUND, (y) => lower(y) - .4)
+anchorage(YB, BACK_FACE_B, BROOKLYN_GROUND, (y) => lower(y) - .4)
+anchorage(YM, BACK_FACE_M, MANHATTAN_GROUND, (y) => lower(y) - .4)
 
 // ---- Night lights ------------------------------------------------------------------
 // The necklace: 166 lights on the cables (NYC DOT), on the two outer cables
