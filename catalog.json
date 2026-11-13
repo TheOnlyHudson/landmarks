@@ -43930,6 +43930,77 @@
       "source": "generators/seoul-ifc.ts"
     },
     {
+      "id": "seoul-injeongjeon",
+      "file": "models/seoul-injeongjeon.glb",
+      "source": "generators/seoul-injeongjeon.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "palace",
+        "throne-hall",
+        "hanok",
+        "joseon",
+        "historic",
+        "national-treasure"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The throne hall of Changdeokgung (rebuilt 1804): a double hipped-and-gabled roof over ochre lattice, on a plain two-tier stone platform.",
+      "references": [
+        {
+          "title": "Injeongjeon Hall 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Injeongjeon_Hall_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC0"
+        },
+        {
+          "title": "Injeongjeon Hall 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Injeongjeon_Hall_02.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC0"
+        },
+        {
+          "title": "Changdeokgung Injeongjeon in 2026 (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Changdeokgung_Injeongjeon_in_2026_(1).jpg",
+          "author": "Sadopaul",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Changdeokgung Injeongjeon in 2026 (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Changdeokgung_Injeongjeon_in_2026_(2).jpg",
+          "author": "Sadopaul",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Seoul, Jongno District, Changdeokgung Palace (Injeongjeon).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul,_Jongno_District,_Changdeokgung_Palace_(Injeongjeon).jpg",
+          "author": "Dr. Thomas Liptak",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Korea-Seoul-Changdeokgung-Injeongjeon-Frontal view-01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea-Seoul-Changdeokgung-Injeongjeon-Frontal_view-01.jpg",
+          "author": "Alain Seguin",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
       "id": "seoul-lotte-world-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65588,6 +65659,20 @@
         "way/621752532",
         "way/1465162036",
         "way/1465162037"
+      ]
+    },
+    {
+      "id": "seoul-injeongjeon",
+      "name": "Injeongjeon",
+      "model": "seoul-injeongjeon",
+      "place": "seoul",
+      "lng": 126.9910907,
+      "lat": 37.579449,
+      "bearing": 353.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/380863259"
       ]
     },
     {
