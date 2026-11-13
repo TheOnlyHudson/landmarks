@@ -234,6 +234,80 @@
       "source": "generators/amsterdam-beurs-van-berlage.ts"
     },
     {
+      "id": "amsterdam-eye-filmmuseum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "cinema",
+        "modern",
+        "contemporary"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "EYE Film Institute Amsterdam from tour boat 2016-09-12-6548.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:EYE_Film_Institute_Amsterdam_from_tour_boat_2016-09-12-6548.jpg",
+          "author": "Slaunger",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Eye filmmuseum with magnificent skies at 11 Februari 2016 - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Eye_filmmuseum_with_magnificent_skies_at_11_Februari_2016_-_panoramio.jpg",
+          "author": "Henk Monster",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "EYE Filmmuseum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:EYE_Filmmuseum.jpg",
+          "author": "Jvhertum",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Eye (filmmuseum).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Eye_(filmmuseum).JPG",
+          "author": "Marion Golsteijn",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "EYE Filmmuseum @ Amsterdam-Noord @ Amsterdam (16000621439).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:EYE_Filmmuseum_@_Amsterdam-Noord_@_Amsterdam_(16000621439).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "EYE Filmmuseum @ Amsterdam (22563494720).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:EYE_Filmmuseum_@_Amsterdam_(22563494720).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Eye filmmuseum, Amsterdam in the Netherlands, by night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Eye_filmmuseum,_Amsterdam_in_the_Netherlands,_by_night.jpg",
+          "author": "Gadogado123",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-eye-filmmuseum.glb",
+      "source": "generators/amsterdam-eye-filmmuseum.ts"
+    },
+    {
       "id": "amsterdam-haarlemmerpoort",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -38531,6 +38605,23 @@
         "way/750166478",
         "way/750166479"
       ]
+    },
+    {
+      "id": "amsterdam-eye-filmmuseum",
+      "name": "Eye Filmmuseum",
+      "model": "amsterdam-eye-filmmuseum",
+      "place": "amsterdam",
+      "lng": 4.900839,
+      "lat": 52.384367,
+      "bearing": 5.4,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/127505497",
+        "way/1206726812",
+        "way/1207014127"
+      ],
+      "wikidata": "Q1538389"
     },
     {
       "id": "amsterdam-haarlemmerpoort",
