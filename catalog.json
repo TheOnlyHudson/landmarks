@@ -20163,6 +20163,66 @@
       "source": "generators/mexico-city-edificio-la-nacional.ts"
     },
     {
+      "id": "mexico-city-el-caballito",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "public-art",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "SculptureTorreCaballito3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SculptureTorreCaballito3.jpg",
+          "author": "AlejandroLinaresGarcia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "GLORIETA DEL CABALLITO SEBASTIAN.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:GLORIETA_DEL_CABALLITO_SEBASTIAN.JPG",
+          "author": "Sarumo74",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Caballito-sebastian.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Caballito-sebastian.jpg",
+          "author": "Jubilo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "El Caballito (The Horse).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Caballito_(The_Horse).jpg",
+          "author": "Victormendozad",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Glorieta de El Caballito, Reforma, Ciudad de méxico.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Glorieta_de_El_Caballito,_Reforma,_Ciudad_de_m%C3%A9xico.jpg",
+          "author": "Susana Colin",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-el-caballito.glb",
+      "source": "generators/mexico-city-el-caballito.ts"
+    },
+    {
       "id": "mexico-city-el-moro",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47853,6 +47913,18 @@
         "way/217470226"
       ],
       "wikidata": "Q5338052"
+    },
+    {
+      "id": "mexico-city-el-caballito",
+      "name": "El Caballito",
+      "model": "mexico-city-el-caballito",
+      "place": "mexico-city",
+      "lng": -99.1494009,
+      "lat": 19.4360946,
+      "bearing": 16,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": []
     },
     {
       "id": "mexico-city-el-moro",
