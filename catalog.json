@@ -1513,6 +1513,79 @@
       "source": "generators/amsterdam-portuguese-synagogue.ts"
     },
     {
+      "id": "amsterdam-rembrandt-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Rembrandt toren vanuit het noordwesten.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rembrandt_toren_vanuit_het_noordwesten.jpg",
+          "author": "S Sepp",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Rembrandttoren in 2021.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rembrandttoren_in_2021.jpg",
+          "author": "Choinowski",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rembrandttoren in 2019 (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rembrandttoren_in_2019_(1).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rembrandttoren in 2019 (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rembrandttoren_in_2019_(2).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam omval rembrandt breitner mondriaan toren.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_omval_rembrandt_breitner_mondriaan_toren.jpg",
+          "author": "S Sepp",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The Amsterdam Amstel station with the Rembrandt tower left of it - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Amsterdam_Amstel_station_with_the_Rembrandt_tower_left_of_it_-_panoramio.jpg",
+          "author": "Henk Monster",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Rembrandt Tower with Amstel.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rembrandt_Tower_with_Amstel.jpg",
+          "author": "Tinelot Wittermans",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/amsterdam-rembrandt-tower.glb",
+      "source": "generators/amsterdam-rembrandt-tower.ts"
+    },
+    {
       "id": "amsterdam-rijksmuseum",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -39790,6 +39863,33 @@
         "way/268783415"
       ],
       "wikidata": "Q1853707"
+    },
+    {
+      "id": "amsterdam-rembrandt-tower",
+      "name": "Rembrandttoren",
+      "model": "amsterdam-rembrandt-tower",
+      "place": "amsterdam",
+      "lng": 4.917058,
+      "lat": 52.345125,
+      "bearing": 339.3,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/44451577",
+        "way/754399962",
+        "way/754399963",
+        "way/754399964",
+        "way/754399965",
+        "way/754399966",
+        "way/754399967",
+        "way/754399968",
+        "way/754399969",
+        "way/754399970",
+        "way/754399971",
+        "way/754399972",
+        "way/754399973"
+      ],
+      "wikidata": "Q2361620"
     },
     {
       "id": "amsterdam-rijksmuseum",
