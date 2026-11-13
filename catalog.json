@@ -10339,6 +10339,90 @@
       "source": "generators/cpt-groote-kerk.ts"
     },
     {
+      "id": "cpt-iziko-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "planetarium",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Iziko South Africa Museum.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Iziko_South_Africa_Museum.JPG",
+          "author": "Discott",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Iziko South African Museum at the Company's Gardens.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Iziko_South_African_Museum_at_the_Company%27s_Gardens.JPG",
+          "author": "Lara van Dyk",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Iziko South African Museum.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Iziko_South_African_Museum.JPG",
+          "author": "Josephou",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Iziko South African Museum Panorama.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iziko_South_African_Museum_Panorama.jpg",
+          "author": "Nkansahrexford",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Iziko SA museum CT jeh HDR.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iziko_SA_museum_CT_jeh_HDR.jpg",
+          "author": "Jim.henderson",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Company Gardens. SA Museum Entrance.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Company_Gardens._SA_Museum_Entrance.jpg",
+          "author": "Chris Snelling",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "South African Museum & Planeterium.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:South_African_Museum_%26_Planeterium.JPG",
+          "author": "Josephou",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "South African Museum postcard.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:South_African_Museum_postcard.jpg",
+          "license": "Public domain"
+        },
+        {
+          "title": "Iziko South African Museum in July, 2018 - 15.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iziko_South_African_Museum_in_July,_2018_-_15.jpg",
+          "author": "Jnanaranjan Sahu",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/cpt-iziko-museum.glb",
+      "source": "generators/cpt-iziko-museum.ts"
+    },
+    {
       "id": "cpt-old-town-house",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46037,6 +46121,21 @@
         "way/48801576"
       ],
       "wikidata": "Q13035555"
+    },
+    {
+      "id": "cpt-iziko-museum",
+      "name": "Iziko South African Museum",
+      "model": "cpt-iziko-museum",
+      "place": "cape-town",
+      "lng": 18.4149595,
+      "lat": -33.9288842,
+      "bearing": 41,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/24010045"
+      ],
+      "wikidata": "Q6102031"
     },
     {
       "id": "cpt-old-town-house",
