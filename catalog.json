@@ -22710,6 +22710,81 @@
       "source": "generators/mexico-city-unam-central-library.ts"
     },
     {
+      "id": "mexico-city-unam-rectoria",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "university",
+        "office",
+        "mural",
+        "modernist",
+        "unesco"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "UNAM administration building, Ciudad Universitaria",
+          "url": "https://commons.wikimedia.org/wiki/File:UNAM_administration_building,_Ciudad_Universitaria.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Conjunto de la Torre de Rectoría de la UNAM 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Conjunto_de_la_Torre_de_Rector%C3%ADa_de_la_UNAM_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ciudad Universitaria UNAM - Torre de Rectoría - 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciudad_Universitaria_UNAM_-_Torre_de_Rector%C3%ADa_-_1.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ciudad Universitaria con dron 2025 - 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciudad_Universitaria_con_dron_2025_-_3.jpg",
+          "author": "ProtoplasmaKid",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CU-Mexico-rectoria-2",
+          "url": "https://commons.wikimedia.org/wiki/File:CU-Mexico-rectoria-2.jpg",
+          "author": "Régis Lachaume",
+          "license": "Public domain"
+        },
+        {
+          "title": "Torre de rectoría de la UNAM con murales de Siqueiros 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_rector%C3%ADa_de_la_UNAM_con_murales_de_Siqueiros_01.jpg",
+          "author": "Luisalvaz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre de Rectoría y Biblioteca Central UNAM al fondo",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Rector%C3%ADa_y_Biblioteca_Central_UNAM_al_fondo.jpg",
+          "author": "Androide rockero",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/mexico-city-unam-rectoria.glb",
+      "source": "generators/mexico-city-unam-rectoria.ts"
+    },
+    {
       "id": "milestone-club",
       "file": "models/milestone-club.glb",
       "license": "CC0-1.0",
@@ -50111,6 +50186,26 @@
         "way/1173176558"
       ],
       "wikidata": "Q5061367"
+    },
+    {
+      "id": "mexico-city-unam-rectoria",
+      "name": "Torre de Rectoría UNAM",
+      "model": "mexico-city-unam-rectoria",
+      "place": "mexico-city",
+      "lng": -99.188074,
+      "lat": 19.332399,
+      "bearing": 354,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/73147253",
+        "way/1173156544",
+        "way/1173156545",
+        "way/1173156546",
+        "way/1173156548",
+        "way/1341387913",
+        "way/260241576"
+      ]
     },
     {
       "id": "milestone-club",
