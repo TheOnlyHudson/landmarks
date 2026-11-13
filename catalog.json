@@ -18395,6 +18395,81 @@
       "source": "generators/istanbul-university-gate.ts"
     },
     {
+      "id": "istanbul-valens-aqueduct",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "historic",
+        "aqueduct",
+        "roman",
+        "byzantine"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The late-4th-century Roman aqueduct bridge across the valley of Atatürk Boulevard: a level-topped two-tier arcade of rough grey-buff stone, 74 bays along the mapped 592 m, its arches real openings, the lower tier sinking into the hill to the west.",
+      "references": [
+        {
+          "title": "The Valens Aqueduct Bozdoğan Kemeri - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Valens_Aqueduct_Bozdoğan_Kemeri_-_panoramio.jpg",
+          "author": "Maris Teteris",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Valens Aqueduct-2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Valens_Aqueduct-2.jpg",
+          "author": "Yair Haklai",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "AqueductofValensIstanbul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:AqueductofValensIstanbul.jpg",
+          "author": "Mondo79",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Valens Aqueduct.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Valens_Aqueduct.jpg",
+          "author": "José Luiz",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Valens 2012 DK.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Valens_2012_DK.jpg",
+          "author": "Lowcarb23",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Unkapanı -İstanbul - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Unkapanı_-İstanbul_-_panoramio.jpg",
+          "author": "Haluk Comertel",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Valens Aqueduct and Gazanfer Aga Madrasah.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Valens_Aqueduct_and_Gazanfer_Aga_Madrasah.jpg",
+          "author": "Metra pro",
+          "license": "CC0-1.0"
+        }
+      ],
+      "file": "models/istanbul-valens-aqueduct.glb",
+      "source": "generators/istanbul-valens-aqueduct.ts"
+    },
+    {
       "id": "istanbul-walled-obelisk",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46083,6 +46158,21 @@
       "wikidata": "Q134728582",
       "replaces": [
         "way/110016998"
+      ]
+    },
+    {
+      "id": "istanbul-valens-aqueduct",
+      "name": "Valens Aqueduct",
+      "model": "istanbul-valens-aqueduct",
+      "place": "istanbul",
+      "lng": 28.955149,
+      "lat": 41.016187,
+      "bearing": 35,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q952924",
+      "replaces": [
+        "way/23276526"
       ]
     },
     {
