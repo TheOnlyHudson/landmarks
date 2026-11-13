@@ -54235,6 +54235,12 @@
   ],
   "places": [
     {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "kind": "city",
+      "wikidata": "Q727"
+    },
+    {
       "id": "astana",
       "name": "Astana",
       "kind": "city",
