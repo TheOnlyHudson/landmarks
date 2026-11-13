@@ -10089,6 +10089,68 @@
       "source": "generators/cpt-cape-wheel.ts"
     },
     {
+      "id": "cpt-clock-tower-va",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "clock-tower",
+        "historic",
+        "gothic-revival",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Clock Tower, Waterfront (Rabich 2902)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Waterfront,_Clock_Tower_--_2024_--_2902.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Clock Tower, Waterfront (Rabich 3036)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Waterfront,_Clock_Tower_--_2024_--_3036.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Victoria & Alfred Waterfront clock tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Victoria_%26_Alfred_Waterfront_clock_tower.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Clock Tower V&A - Cape Town, South Africa",
+          "url": "https://commons.wikimedia.org/wiki/File:Clock_Tower_V%26A_-_Cape_Town,_South_Africa_(4029342324).jpg",
+          "author": "South African Tourism",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "V&A Waterfront Clock Tower - 2",
+          "url": "https://commons.wikimedia.org/wiki/File:V%26A_Waterfront_Clock_Tower_-_2.jpg",
+          "author": "De Zuid-Afrikaan",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/cpt-clock-tower-va.glb",
+      "source": "generators/cpt-clock-tower-va.ts"
+    },
+    {
       "id": "cpt-zeitz-mocaa",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45353,6 +45415,21 @@
       "elevation": 0,
       "minzoom": 15,
       "replaces": []
+    },
+    {
+      "id": "cpt-clock-tower-va",
+      "name": "Clock Tower",
+      "model": "cpt-clock-tower-va",
+      "place": "cape-town",
+      "lng": 18.4221627,
+      "lat": -33.9064795,
+      "bearing": 17.7,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/158441581"
+      ],
+      "wikidata": "Q55634395"
     },
     {
       "id": "cpt-zeitz-mocaa",
