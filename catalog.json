@@ -17677,6 +17677,67 @@
       "source": "generators/istanbul-chora.ts"
     },
     {
+      "id": "istanbul-dolmabahce-clock-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "clock-tower",
+        "ottoman",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dolmabahçe Clock Tower in Istanbul, Turkey 001",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Clock_Tower_in_Istanbul,_Turkey_001.jpg",
+          "author": "Moonik",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palacio de Dolmabahçe, Estambul, Turquía, 2024-09-28, DD 106",
+          "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Dolmabah%C3%A7e,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_106.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dolmabahçe Clock Tower, Istanbul",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Clock_Tower,_Istanbul.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0"
+        },
+        {
+          "title": "Dolmabahçe Clock Tower 2014",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Clock_Tower_2014.jpg",
+          "author": "Radosław Botev",
+          "license": "CC BY 3.0 pl"
+        },
+        {
+          "title": "Dolmabahçe Clock Tower from the Bosphorus",
+          "url": "https://commons.wikimedia.org/wiki/File:Dolmabah%C3%A7e_Clock_Tower_from_the_Bosphorus.jpg",
+          "author": "mike",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-dolmabahce-clock-tower.glb",
+      "source": "generators/istanbul-dolmabahce-clock-tower.ts"
+    },
+    {
       "id": "istanbul-dolmabahce-palace",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46759,6 +46820,21 @@
       "replaces": [
         "relation/7614527",
         "way/1408839170"
+      ]
+    },
+    {
+      "id": "istanbul-dolmabahce-clock-tower",
+      "name": "Dolmabahçe Clock Tower",
+      "model": "istanbul-dolmabahce-clock-tower",
+      "place": "istanbul",
+      "lng": 28.996381,
+      "lat": 41.037683,
+      "bearing": 58.8,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q1818013",
+      "replaces": [
+        "way/263949143"
       ]
     },
     {
