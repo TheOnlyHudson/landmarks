@@ -44001,6 +44001,87 @@
       ]
     },
     {
+      "id": "seoul-junghwajeon",
+      "file": "models/seoul-junghwajeon.glb",
+      "source": "generators/seoul-junghwajeon.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "palace",
+        "throne-hall",
+        "hanok",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The throne hall of Deoksugung (rebuilt 1906 with one storey): a hipped-and-gabled roof over red columns and ochre lattice doors, on a low two-tier stone platform.",
+      "references": [
+        {
+          "title": "Deoksugung Palace 20240409 084.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Deoksugung_Palace_20240409_084.jpg",
+          "author": "Mobius6",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Deoksugung Palace 20240409 037.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Deoksugung_Palace_20240409_037.jpg",
+          "author": "Mobius6",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Junghwajeon Front.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Junghwajeon_Front.jpg",
+          "author": "Tungdangthanh",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Junghwajeon - Deoksugung Palace.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Junghwajeon_-_Deoksugung_Palace.jpg",
+          "author": "이창로",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Deoksugung Palace - Junghwajeon.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Deoksugung_Palace_-_Junghwajeon.jpg",
+          "author": "이창로",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Deoksugung Palace, Seoul (32) (39307393550).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Deoksugung_Palace,_Seoul_(32)_(39307393550).jpg",
+          "author": "Richard Mortel",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Junghwajeon.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Junghwajeon.JPG",
+          "author": "Lawinc82",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Junghwajeon Hall IMG 2078.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Junghwajeon_Hall_IMG_2078.jpg",
+          "author": "G41rn8",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "seoul-lotte-world-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65673,6 +65754,26 @@
       "minzoom": 15,
       "replaces": [
         "way/380863259"
+      ]
+    },
+    {
+      "id": "seoul-junghwajeon",
+      "name": "Junghwajeon",
+      "model": "seoul-junghwajeon",
+      "place": "seoul",
+      "lng": 126.9748217,
+      "lat": 37.5658068,
+      "bearing": 12.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/181574577",
+        "way/772263216",
+        "way/772263217",
+        "way/772263218",
+        "way/772263219",
+        "way/772263220",
+        "way/772263221"
       ]
     },
     {
