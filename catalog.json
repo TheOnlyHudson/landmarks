@@ -18843,6 +18843,69 @@
       "source": "generators/istanbul-obelisk-of-theodosius.ts"
     },
     {
+      "id": "istanbul-ortakoy-mosque",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "mosque",
+        "ottoman",
+        "baroque",
+        "historic",
+        "religious"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Büyük Mecidiye Camii - Ortaköy Mosque",
+          "url": "https://commons.wikimedia.org/wiki/File:B%C3%BCy%C3%BCk_Mecidiye_Camii_-_Ortak%C3%B6y_Mosque.jpg",
+          "author": "Eusebius",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Ortaköy Mosque, 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:Ortak%C3%B6y_Mosque,_2025.jpg",
+          "author": "Pragdon",
+          "license": "CC0"
+        },
+        {
+          "title": "Ortaköy Mosque, Istanbul 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Ortak%C3%B6y_Mosque,_Istanbul_2019.jpg",
+          "author": "Moataz1997",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ortaköy Mosque from the Bosporus, Istanbul, 20260606 1424 1504",
+          "url": "https://commons.wikimedia.org/wiki/File:Ortak%C3%B6y_Mosque_from_the_Bosporus,_Istanbul,_20260606_1424_1504.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Ortaköy Mosque in 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Ortak%C3%B6y_Mosque_in_2024.jpg",
+          "author": "flowcomm",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/istanbul-ortakoy-mosque.glb",
+      "source": "generators/istanbul-ortakoy-mosque.ts"
+    },
+    {
       "id": "istanbul-phanar-greek-college",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47232,6 +47295,21 @@
       "wikidata": "Q763854",
       "replaces": [
         "way/1120852417"
+      ]
+    },
+    {
+      "id": "istanbul-ortakoy-mosque",
+      "name": "Ortaköy Mosque (Büyük Mecidiye Mosque)",
+      "model": "istanbul-ortakoy-mosque",
+      "place": "istanbul",
+      "lng": 29.026824,
+      "lat": 41.047303,
+      "bearing": 321,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q176380",
+      "replaces": [
+        "way/498861735"
       ]
     },
     {
