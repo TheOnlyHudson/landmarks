@@ -6547,6 +6547,76 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "barcelona-casa-batllo",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "gaudi",
+        "historic",
+        "modernisme",
+        "museum",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Gaudí's 1906 remodelling on Passeig de Gràcia: a blue-green trencadís facade with white mask balconies under a scaled dragon's-back roof and a turret with a cross.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Casa Amatller & Batlló 2955.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Amatller_&_Batll%C3%B3_2955.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa Batlló 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona - Passeig de Gràcia - View NW on Casa Amatller 1900 & Casa Batlló 1907.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_NW_on_Casa_Amatller_1900_&_Casa_Batll%C3%B3_1907.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa Amatller Casa Batlló, Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Amatller_Casa_Batll%C3%B3,_Barcelona.jpg",
+          "author": "МаратД",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rear facade of Casa Batlló - Barcelona 2014.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Rear_facade_of_Casa_Batll%C3%B3_-_Barcelona_2014.JPG",
+          "author": "José Luiz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Main facade of Casa Batlló.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_facade_of_Casa_Batll%C3%B3.JPG",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-casa-batllo.glb",
+      "source": "generators/barcelona-casa-batllo.ts"
+    },
+    {
       "id": "barcelona-cathedral",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -42782,6 +42852,28 @@
         "relation/17917766"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "barcelona-casa-batllo",
+      "name": "Casa Batlló",
+      "model": "barcelona-casa-batllo",
+      "place": "barcelona",
+      "lng": 2.164755,
+      "lat": 41.391538,
+      "bearing": 226.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/9427554",
+        "way/940163405",
+        "way/679019170",
+        "way/679019193",
+        "way/679019107",
+        "way/679019197",
+        "way/679019117",
+        "way/679019137"
+      ],
+      "wikidata": "Q461371"
     },
     {
       "id": "barcelona-cathedral",
