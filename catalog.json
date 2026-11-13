@@ -697,6 +697,67 @@
       "source": "generators/amsterdam-national-monument.ts"
     },
     {
+      "id": "amsterdam-nemo",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "science-museum",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "NEMO (Amsterdam).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NEMO_(Amsterdam).jpg",
+          "author": "Gamekeeper at Dutch Wikipedia",
+          "license": "Public domain"
+        },
+        {
+          "title": "2018 - NEMO Science Museum, Amsterdam, Netherlands ( Ank Kumar ) 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2018_-_NEMO_Science_Museum,_Amsterdam,_Netherlands_(_Ank_Kumar_)_03.jpg",
+          "author": "Ank Kumar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nemo Science Museum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Nemo_Science_Museum.jpg",
+          "author": "Elekes Andor",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Oosterdok - NEMO Science Centre 1997 by Renzo Piano - View North on IJtunnel & NEMO.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Oosterdok_-_NEMO_Science_Centre_1997_by_Renzo_Piano_-_View_North_on_IJtunnel_&_NEMO.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Oosterdok - NEMO Science Centre 1997 by Renzo Piano - View NNE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Oosterdok_-_NEMO_Science_Centre_1997_by_Renzo_Piano_-_View_NNE.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-nemo.glb",
+      "source": "generators/amsterdam-nemo.ts"
+    },
+    {
       "id": "amsterdam-nieuwe-kerk",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -38477,6 +38538,31 @@
         "way/1320477261",
         "way/940729263"
       ]
+    },
+    {
+      "id": "amsterdam-nemo",
+      "name": "NEMO Science Museum",
+      "model": "amsterdam-nemo",
+      "place": "amsterdam",
+      "lng": 4.912322,
+      "lat": 52.374196,
+      "bearing": 3,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/57856769",
+        "way/1390692763",
+        "way/1390692764",
+        "way/1390692765",
+        "way/1390692766",
+        "way/1390692767",
+        "way/1390692768",
+        "way/1390692769",
+        "way/1390692770",
+        "way/1390692771",
+        "way/1390692772"
+      ],
+      "wikidata": "Q1422000"
     },
     {
       "id": "amsterdam-nieuwe-kerk",
