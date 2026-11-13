@@ -43803,6 +43803,61 @@
       "source": "generators/seoul-lotte-world-tower.ts"
     },
     {
+      "id": "seoul-national-assembly",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "government",
+        "parliament",
+        "dome"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Republic of Korea capitol.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_of_Korea_capitol.jpg",
+          "author": "Cjb8293",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fountain in National Assembly Building of South Korea.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fountain_in_National_Assembly_Building_of_South_Korea.jpg",
+          "author": "AnbyG",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Korea-Seoul-Yeouido-National Assembly Building-03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea-Seoul-Yeouido-National_Assembly_Building-03.jpg",
+          "author": "Alain Seguin",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Pond of the National Assembly in South Korea.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pond_of_the_National_Assembly_in_South_Korea.jpg",
+          "author": "Cjb8293",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/seoul-national-assembly.glb",
+      "source": "generators/seoul-national-assembly.ts"
+    },
+    {
       "id": "seoul-parc1",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65245,6 +65300,77 @@
         "way/879808332",
         "way/879808333"
       ]
+    },
+    {
+      "id": "seoul-national-assembly",
+      "name": "National Assembly Proceeding Hall",
+      "model": "seoul-national-assembly",
+      "place": "seoul",
+      "lng": 126.914197,
+      "lat": 37.531849,
+      "bearing": 52,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/270596342",
+        "way/270594679",
+        "way/608162297",
+        "way/608162749",
+        "way/639632935",
+        "way/639626344",
+        "way/639626347",
+        "way/639626348",
+        "way/639626350",
+        "way/639626351",
+        "way/875733797",
+        "way/875733798",
+        "way/875733799",
+        "way/875733801",
+        "way/876004835",
+        "way/877104966",
+        "way/877104967",
+        "way/877104968",
+        "way/877104969",
+        "way/608164568",
+        "way/608164569",
+        "way/608164570",
+        "way/608164571",
+        "way/608164572",
+        "way/608164573",
+        "way/608164574",
+        "way/608164575",
+        "way/608164576",
+        "way/608164577",
+        "way/608164578",
+        "way/608164579",
+        "way/608164580",
+        "way/608164581",
+        "way/608164582",
+        "way/608164583",
+        "way/608164584",
+        "way/608164585",
+        "way/608164586",
+        "way/608164587",
+        "way/608164588",
+        "way/608164589",
+        "way/608164590",
+        "way/608164591",
+        "way/877366975",
+        "way/877366976",
+        "way/877366977",
+        "way/877366978",
+        "way/877366979",
+        "way/877366980",
+        "way/877366981",
+        "way/877366982",
+        "way/877366983",
+        "way/877366984",
+        "way/877366985",
+        "way/877366986",
+        "way/877366987",
+        "way/877366988"
+      ],
+      "wikidata": "Q488748"
     },
     {
       "id": "seoul-parc1",
