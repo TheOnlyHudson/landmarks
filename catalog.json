@@ -7005,6 +7005,68 @@
       "source": "generators/barcelona-cathedral.ts"
     },
     {
+      "id": "barcelona-columbus-monument",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "column",
+        "statue",
+        "viewpoint",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Monument a Colom, Barcelona, Spain - Jan 07.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_a_Colom,_Barcelona,_Spain_-_Jan_07.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona. Monument a Colom, GD008907.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona._Monument_a_Colom,_GD008907.jpg",
+          "author": "Rafael Atché (Université de Louvain lantern slide)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Barcelona - Monument a Colom (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Monument_a_Colom_(2).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Monument a Colom (Barcelona) 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_a_Colom_(Barcelona)_01.jpg",
+          "author": "Nicholas Gemini",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monument a Colom i rambla de Mar.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_a_Colom_i_rambla_de_Mar.jpg",
+          "author": "Pere prlpz",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/barcelona-columbus-monument.glb",
+      "source": "generators/barcelona-columbus-monument.ts"
+    },
+    {
       "id": "barcelona-hotel-arts",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -44166,6 +44228,25 @@
         "way/1075852646"
       ],
       "wikidata": "Q17155"
+    },
+    {
+      "id": "barcelona-columbus-monument",
+      "name": "Columbus Monument",
+      "model": "barcelona-columbus-monument",
+      "place": "barcelona",
+      "lng": 2.177774,
+      "lat": 41.375803,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/126451774",
+        "way/301766618",
+        "way/301766620",
+        "way/301766623",
+        "way/301766625"
+      ],
+      "wikidata": "Q2288815"
     },
     {
       "id": "barcelona-hotel-arts",
