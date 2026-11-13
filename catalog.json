@@ -1598,6 +1598,61 @@
       "source": "generators/amsterdam-nieuwe-kerk.ts"
     },
     {
+      "id": "amsterdam-oba",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "library",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q50413436",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam - Oosterdokskade - Amsterdam Public Library 2007 by Jo Coenen - Conservatorium van Amsterdam 2008 by Frits van Dongen 05",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Oosterdokskade_-_Amsterdam_Public_Library_2007_by_Jo_Coenen_-_Conservatorium_van_Amsterdam_2008_by_Frits_van_Dongen_05.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Oosterdokskade - Amsterdam Public Library 2007 by Jo Coenen - Conservatorium van Amsterdam 2008 by Frits van Dongen 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Oosterdokskade_-_Amsterdam_Public_Library_2007_by_Jo_Coenen_-_Conservatorium_van_Amsterdam_2008_by_Frits_van_Dongen_01.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "OBA building side view",
+          "url": "https://commons.wikimedia.org/wiki/File:OBA_building_side_view.jpg",
+          "author": "Ciell",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "750-slinger OBA 1",
+          "url": "https://commons.wikimedia.org/wiki/File:750-slinger_OBA_1.jpg",
+          "author": "VrijMokum",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-oba.glb",
+      "source": "generators/amsterdam-oba.ts"
+    },
+    {
       "id": "amsterdam-olympic-stadium",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -40314,6 +40369,33 @@
         "way/747924626",
         "way/748997143",
         "way/748997144"
+      ]
+    },
+    {
+      "id": "amsterdam-oba",
+      "name": "OBA Oosterdok",
+      "model": "amsterdam-oba",
+      "place": "amsterdam",
+      "lng": 4.908236,
+      "lat": 52.376077,
+      "bearing": 8,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q50413436",
+      "replaces": [
+        "way/779659694",
+        "way/240467636",
+        "way/1487606300",
+        "way/1487606301",
+        "way/1487606302",
+        "way/1487606304",
+        "way/1487606305",
+        "way/1487606306",
+        "way/1487606307",
+        "way/1487606308",
+        "way/1487606309",
+        "way/1487606310",
+        "way/1487606311"
       ]
     },
     {
