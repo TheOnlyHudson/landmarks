@@ -10279,6 +10279,66 @@
       "source": "generators/cpt-clock-tower-va.ts"
     },
     {
+      "id": "cpt-groote-kerk",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "church"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Groote Kerk Adderley Street Cape Town - Frontal view",
+          "url": "https://commons.wikimedia.org/wiki/File:Groote_Kerk_Adderley_Street_Cape_Town_-_Frontal_view.JPG",
+          "author": "Debbie Louise Lloyd",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Groote Kerk Adderley Street Cape Town - Side view from the front",
+          "url": "https://commons.wikimedia.org/wiki/File:Groote_Kerk_Adderley_Street_Cape_Town_-_Side_view_from_the_front.JPG",
+          "author": "Debbie Louise Lloyd",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Groote Kerk Adderley Street Cape Town - Side view from the back",
+          "url": "https://commons.wikimedia.org/wiki/File:Groote_Kerk_Adderley_Street_Cape_Town_-_Side_view_from_the_back.JPG",
+          "author": "Debbie Louise Lloyd",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Groote Kerk, Adderley Street, Cape Town",
+          "url": "https://commons.wikimedia.org/wiki/File:Groote_Kerk,_Adderley_Street,_Cape_Town.JPG",
+          "author": "Ossewa",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Groote Kerk 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Groote_Kerk_1.jpg",
+          "author": "HelenOnline",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/cpt-groote-kerk.glb",
+      "source": "generators/cpt-groote-kerk.ts"
+    },
+    {
       "id": "cpt-old-town-house",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -45962,6 +46022,21 @@
         "way/158441581"
       ],
       "wikidata": "Q55634395"
+    },
+    {
+      "id": "cpt-groote-kerk",
+      "name": "Groote Kerk",
+      "model": "cpt-groote-kerk",
+      "place": "cape-town",
+      "lng": 18.420928,
+      "lat": -33.9247652,
+      "bearing": 310.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/48801576"
+      ],
+      "wikidata": "Q13035555"
     },
     {
       "id": "cpt-old-town-house",
