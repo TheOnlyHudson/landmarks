@@ -79,6 +79,74 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "amsterdam-nieuwe-kerk",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "gothic",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1419675",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Amsterdam Nieuwe Kerk 1697",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_1697.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Nieuwe Kerk 5",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_5.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Nieuwe Kerk 6",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_6.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Nieuwe Kerk 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_1.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Nieuwe Kerk 3",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_3.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam Nieuwe Kerk Chor 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_Chor_2.jpg",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-nieuwe-kerk.glb",
+      "source": "generators/amsterdam-nieuwe-kerk.ts"
+    },
+    {
       "id": "amsterdam-royal-palace",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -37051,6 +37119,40 @@
         "way/432937734"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "amsterdam-nieuwe-kerk",
+      "name": "Nieuwe Kerk",
+      "model": "amsterdam-nieuwe-kerk",
+      "place": "amsterdam",
+      "lng": 4.891778,
+      "lat": 52.373946,
+      "bearing": 71.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1419675",
+      "replaces": [
+        "way/220749328",
+        "way/174987150",
+        "way/747911435",
+        "way/747911436",
+        "way/747911437",
+        "way/747911438",
+        "way/747911439",
+        "way/747911440",
+        "way/747911441",
+        "way/747924617",
+        "way/747924618",
+        "way/747924619",
+        "way/747924621",
+        "way/747924622",
+        "way/747924623",
+        "way/747924624",
+        "way/747924625",
+        "way/747924626",
+        "way/748997143",
+        "way/748997144"
+      ]
     },
     {
       "id": "amsterdam-royal-palace",
