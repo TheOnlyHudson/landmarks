@@ -234,6 +234,98 @@
       "source": "generators/amsterdam-beurs-van-berlage.ts"
     },
     {
+      "id": "amsterdam-concertgebouw",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "concert-hall",
+        "historic",
+        "neoclassical",
+        "brick"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Concertgebouw, Van Baerlestraat.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw,_Van_Baerlestraat.jpg",
+          "author": "Alf van Beem",
+          "license": "Public domain"
+        },
+        {
+          "title": "Concertgebouw, Van Baerlestraat, Concertgebouwplein.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw,_Van_Baerlestraat,_Concertgebouwplein.jpg",
+          "author": "Alf van Beem",
+          "license": "Public domain"
+        },
+        {
+          "title": "Exterieur NIEUWE AANBOUW, OVERZICHT - Amsterdam - 20260226 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_NIEUWE_AANBOUW,_OVERZICHT_-_Amsterdam_-_20260226_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Concertgebouw, Ámsterdam, Países Bajos, 2016-05-30, DD 22-24 HDR.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw,_%C3%81msterdam,_Pa%C3%ADses_Bajos,_2016-05-30,_DD_22-24_HDR.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Concertgebouw from Museumplein 2539.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw_from_Museumplein_2539.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Concertgebouw in Amsterdam April 2015.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw_in_Amsterdam_April_2015.jpg",
+          "author": "yisris",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Concertgebouw in Amsterdam Nederland.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw_in_Amsterdam_Nederland.jpg",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Concertgebouw detail.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Concertgebouw_detail.jpg",
+          "author": "roberto rembrandt",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "A.L. van Gendt Concertgebouw 0.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A.L._van_Gendt_Concertgebouw_0.jpg",
+          "author": "Adolf Leonard van Gendt",
+          "license": "Public domain"
+        },
+        {
+          "title": "3D BAG NL.IMBAG.Pand.0363100012233435 (LoD2.2 from AHN lidar)",
+          "url": "https://3dbag.nl/en/viewer?bagid=NL.IMBAG.Pand.0363100012233435",
+          "author": "3D geoinformation group, TU Delft / 3DBAG",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/amsterdam-concertgebouw.glb",
+      "source": "generators/amsterdam-concertgebouw.ts"
+    },
+    {
       "id": "amsterdam-eye-filmmuseum",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -38794,6 +38886,33 @@
         "way/750166477",
         "way/750166478",
         "way/750166479"
+      ]
+    },
+    {
+      "id": "amsterdam-concertgebouw",
+      "name": "Concertgebouw",
+      "model": "amsterdam-concertgebouw",
+      "place": "amsterdam",
+      "lng": 4.879027,
+      "lat": 52.35624,
+      "bearing": 66.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q849957",
+      "replaces": [
+        "way/46696080",
+        "way/754269603",
+        "way/754269604",
+        "way/754269605",
+        "way/754269606",
+        "way/754269607",
+        "way/754269608",
+        "way/754269609",
+        "way/754269610",
+        "way/754269611",
+        "way/754276795",
+        "way/754276796",
+        "way/754276797"
       ]
     },
     {
