@@ -17470,6 +17470,88 @@
       "source": "generators/istanbul-beyazit-tower.ts"
     },
     {
+      "id": "istanbul-beylerbeyi-palace",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "ottoman",
+        "palace",
+        "museum",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "Sarkis Balyan's white marble summer palace of 1861-65 on the Asian shore: a two-storey block with projecting sea pavilions, a recessed centre, entrance pavilions on the short sides, paired pilasters, arched windows and a latticed attic with segmental crowns.",
+      "references": [
+        {
+          "title": "Beylerbeyi Palace a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beylerbeyi_Palace_a.jpg",
+          "author": "Nedim Ardoğa",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Beylerbeyi Palace Exterior in 2014 8916.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beylerbeyi_Palace_Exterior_in_2014_8916.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Beylerbeyi Palace Exterior in 2014 8933.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beylerbeyi_Palace_Exterior_in_2014_8933.jpg",
+          "author": "Dosseman",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Exterior view of Beylerbeyi Palace (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_Beylerbeyi_Palace_(1).jpg",
+          "author": "José Luiz",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Exterior view of Beylerbeyi Palace (3).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_Beylerbeyi_Palace_(3).jpg",
+          "author": "José Luiz",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Beylerbeyi Palace 106-1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beylerbeyi_Palace_106-1.jpg",
+          "author": "Stegop",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Beylerbeyi Palace - wide.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beylerbeyi_Palace_-_wide.jpg",
+          "author": "Eusebius",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Beylerbeyi Sarayı uzaktan bakış.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beylerbeyi_Sarayı_uzaktan_bakış.jpg",
+          "author": "KalafatElif",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/istanbul-beylerbeyi-palace.glb",
+      "source": "generators/istanbul-beylerbeyi-palace.ts"
+    },
+    {
       "id": "istanbul-blue-mosque",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -47072,6 +47154,21 @@
       "wikidata": "Q853029",
       "replaces": [
         "way/639302102"
+      ]
+    },
+    {
+      "id": "istanbul-beylerbeyi-palace",
+      "name": "Beylerbeyi Palace",
+      "model": "istanbul-beylerbeyi-palace",
+      "place": "istanbul",
+      "lng": 29.04004,
+      "lat": 41.04272,
+      "bearing": 323.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q794349",
+      "replaces": [
+        "way/61736367"
       ]
     },
     {
