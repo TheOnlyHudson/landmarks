@@ -18154,6 +18154,74 @@
       "source": "generators/istanbul-obelisk-of-theodosius.ts"
     },
     {
+      "id": "istanbul-phanar-greek-college",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "school",
+        "red-brick",
+        "eclectic",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Fener Rum Erkek Lisesi 2025-03-13 09.59.58 1793127025",
+          "url": "https://commons.wikimedia.org/wiki/File:Fener_Rum_Erkek_Lisesi_2025-03-13_09.59.58_1793127025.jpg",
+          "author": "Mary Mavier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Phanar Greek Orthodox college from Halic",
+          "url": "https://commons.wikimedia.org/wiki/File:Phanar_Greek_Orthodox_college_from_Halic.jpg",
+          "author": "Canercangul",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Phanar Greek Orthodox college",
+          "url": "https://commons.wikimedia.org/wiki/File:Phanar_Greek_Orthodox_college.jpg",
+          "author": "Canercangul",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "20111225 Phanar Greek Orthodox College Fenar Istanbul Turkey Panoramic",
+          "url": "https://commons.wikimedia.org/wiki/File:20111225_Phanar_Greek_Orthodox_College_Fenar_Istanbul_Turkey_Panoramic.jpg",
+          "author": "Ggia",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Fener Rum Erkek Lisesi 2018-08-23 14.40.37 1791800411",
+          "url": "https://commons.wikimedia.org/wiki/File:Fener_Rum_Erkek_Lisesi_2018-08-23_14.40.37_1791800411.jpg",
+          "author": "Antonina Vyshnevska",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Fener Rum Erkek Lisesi",
+          "url": "https://commons.wikimedia.org/wiki/File:Fener_Rum_Erkek_Lisesi.jpg",
+          "author": "Ykarabulak",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/istanbul-phanar-greek-college.glb",
+      "source": "generators/istanbul-phanar-greek-college.ts"
+    },
+    {
       "id": "istanbul-serpent-column",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46246,6 +46314,21 @@
       "wikidata": "Q763854",
       "replaces": [
         "way/1120852417"
+      ]
+    },
+    {
+      "id": "istanbul-phanar-greek-college",
+      "name": "Phanar Greek Orthodox College",
+      "model": "istanbul-phanar-greek-college",
+      "place": "istanbul",
+      "lng": 28.949358,
+      "lat": 41.029213,
+      "bearing": 40,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q3555000",
+      "replaces": [
+        "way/330352317"
       ]
     },
     {
