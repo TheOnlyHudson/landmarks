@@ -17677,6 +17677,68 @@
       "source": "generators/istanbul-chora.ts"
     },
     {
+      "id": "istanbul-ciragan-palace",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "palace",
+        "ottoman",
+        "hotel",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Çırağan Palace from the Bosphorus - 20250825",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1ra%C4%9Fan_Palace_from_the_Bosphorus_-_20250825.jpg",
+          "author": "mike",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Çırağan Palace from the Bosphorus Strait (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1ra%C4%9Fan_Palace_from_the_Bosphorus_Strait_(cropped).jpg",
+          "author": "flowcomm",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Çırağan Palace - Istanbul, Turkey - October 11, 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1ra%C4%9Fan_Palace_-_Istanbul,_Turkey_-_October_11,_2025.jpg",
+          "author": "Giorgio Galeotti",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Ciragan Palace 2014",
+          "url": "https://commons.wikimedia.org/wiki/File:Ciragan_Palace_2014.JPG",
+          "author": "Wolfgang Moroder",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Çırağan Palace in 2008",
+          "url": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1ra%C4%9Fan_Palace_in_2008.jpg",
+          "author": "Sam amcalar",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/istanbul-ciragan-palace.glb",
+      "source": "generators/istanbul-ciragan-palace.ts"
+    },
+    {
       "id": "istanbul-dolmabahce-clock-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -46883,6 +46945,21 @@
       "replaces": [
         "relation/7614527",
         "way/1408839170"
+      ]
+    },
+    {
+      "id": "istanbul-ciragan-palace",
+      "name": "Çırağan Palace",
+      "model": "istanbul-ciragan-palace",
+      "place": "istanbul",
+      "lng": 29.01531,
+      "lat": 41.043471,
+      "bearing": 336.7,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q273225",
+      "replaces": [
+        "way/498861861"
       ]
     },
     {
