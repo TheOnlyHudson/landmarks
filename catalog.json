@@ -358,6 +358,73 @@
       "source": "generators/amsterdam-montelbaanstoren.ts"
     },
     {
+      "id": "amsterdam-muiderpoort",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "city-gate",
+        "neoclassical"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Muiderpoort @ Amsterdam (17278319481).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Muiderpoort_@_Amsterdam_(17278319481).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Muiderpoort @ Amsterdam (17277017432).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Muiderpoort_@_Amsterdam_(17277017432).jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Muiderpoort 2019 (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Muiderpoort_2019_(2).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Muiderpoort, veldzijde - Amsterdam - 20292267 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Muiderpoort,_veldzijde_-_Amsterdam_-_20292267_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "De Muiderpoort, gezien vanuirt het zuiden - Amsterdam - 20292265 - RCE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:De_Muiderpoort,_gezien_vanuirt_het_zuiden_-_Amsterdam_-_20292265_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Muiderpoort from NW.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Muiderpoort_from_NW.jpg",
+          "author": "Spider",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/amsterdam-muiderpoort.glb",
+      "source": "generators/amsterdam-muiderpoort.ts"
+    },
+    {
       "id": "amsterdam-munttoren",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -38117,6 +38184,21 @@
         "way/751647820"
       ],
       "wikidata": "Q1946061"
+    },
+    {
+      "id": "amsterdam-muiderpoort",
+      "name": "Muiderpoort",
+      "model": "amsterdam-muiderpoort",
+      "place": "amsterdam",
+      "lng": 4.919481,
+      "lat": 52.363727,
+      "bearing": 56.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/45038672"
+      ],
+      "wikidata": "Q1976404"
     },
     {
       "id": "amsterdam-munttoren",
