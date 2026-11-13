@@ -6547,6 +6547,1915 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "barcelona-arc-de-triomf",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "triumphal-arch",
+        "neo-mudejar",
+        "brick",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arc de Triomf Barcelona 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomf_Barcelona_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Arc de Triomf de Barcelona (July 2022).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomf_de_Barcelona_(July_2022).jpg",
+          "author": "Maksim Sokolov (maxergon.com)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "097 Arc de Triomf (Barcelona), des del passeig de Sant Joan.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:097_Arc_de_Triomf_(Barcelona),_des_del_passeig_de_Sant_Joan.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Arc de Triomf 1888 - View NE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Arc_de_Triomf_1888_-_View_NE.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Arc de triomf at night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arc_de_triomf_at_night.jpg",
+          "author": "Thingstodoinbarcelona",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-arc-de-triomf.glb",
+      "source": "generators/barcelona-arc-de-triomf.ts"
+    },
+    {
+      "id": "barcelona-arenas",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "bullring",
+        "shopping-mall",
+        "neo-mudejar"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arenas de Barcelona 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arenas_de_Barcelona_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Plaza de toros de las Arenas from Palau Nacional - Barcelona 2014.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Plaza_de_toros_de_las_Arenas_from_Palau_Nacional_-_Barcelona_2014.JPG",
+          "author": "José Luiz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona - Arenas de Barcelona 002.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Arenas_de_Barcelona_002.jpg",
+          "author": "Mummelgrummel",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/barcelona-arenas.glb",
+      "source": "generators/barcelona-arenas.ts"
+    },
+    {
+      "id": "barcelona-camp-nou",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "football",
+        "stadium",
+        "under-construction"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Camp nou 2026.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Camp_nou_2026.png",
+          "author": "Elad Eisenhammer",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Camp Nou under renovation - Sept. 21, 2025.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Camp_Nou_under_renovation_-_Sept._21,_2025.jpg",
+          "author": "SimpleObjects-9ei",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Obres del Camp Nou - 20250718 193920.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Obres_del_Camp_Nou_-_20250718_193920.jpg",
+          "author": "Pere López Brosa",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "ICGC orthophoto (ortofoto_color_vigent)",
+          "url": "https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/Orthophoto-of-Catalonia",
+          "author": "Institut Cartogràfic i Geològic de Catalunya",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/barcelona-camp-nou.glb",
+      "source": "generators/barcelona-camp-nou.ts"
+    },
+    {
+      "id": "barcelona-casa-amatller",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "modernisme",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Puig i Cadafalch's 1900 remodelling next to Casa Batlló: a pale sgraffito facade under a stepped Flemish gable edged in glazed tiles.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Casa Amatller & Batlló 2955.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Amatller_&_Batll%C3%B3_2955.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CasaAmatller.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:CasaAmatller.jpg",
+          "author": "G. Argyriou",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona - Passeig de Gràcia - Casa Amatller & Casa Batlló.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_Casa_Amatller_&_Casa_Batll%C3%B3.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Passeig de Gràcia - View NW on Casa Amatller 1900 & Casa Batlló 1907.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_NW_on_Casa_Amatller_1900_&_Casa_Batll%C3%B3_1907.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa Amatller Casa Batlló, Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Amatller_Casa_Batll%C3%B3,_Barcelona.jpg",
+          "author": "МаратД",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-casa-amatller.glb",
+      "source": "generators/barcelona-casa-amatller.ts"
+    },
+    {
+      "id": "barcelona-casa-batllo",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "gaudi",
+        "historic",
+        "modernisme",
+        "museum",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Gaudí's 1906 remodelling on Passeig de Gràcia: a blue-green trencadís facade with white mask balconies under a scaled dragon's-back roof and a turret with a cross.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Casa Amatller & Batlló 2955.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Amatller_&_Batll%C3%B3_2955.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa Batlló 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona - Passeig de Gràcia - View NW on Casa Amatller 1900 & Casa Batlló 1907.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_NW_on_Casa_Amatller_1900_&_Casa_Batll%C3%B3_1907.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa Amatller Casa Batlló, Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Amatller_Casa_Batll%C3%B3,_Barcelona.jpg",
+          "author": "МаратД",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rear facade of Casa Batlló - Barcelona 2014.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Rear_facade_of_Casa_Batll%C3%B3_-_Barcelona_2014.JPG",
+          "author": "José Luiz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Main facade of Casa Batlló.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_facade_of_Casa_Batll%C3%B3.JPG",
+          "author": "Steven Lek",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-casa-batllo.glb",
+      "source": "generators/barcelona-casa-batllo.ts"
+    },
+    {
+      "id": "barcelona-casa-de-les-punxes",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "brick",
+        "gothic-revival",
+        "historic",
+        "modernisme"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Puig i Cadafalch's 1905 brick 'castle' filling a triangular block on the Diagonal: six round towers with red-tiled spires and steep white-edged gables.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Casa de les Punxes .jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_les_Punxes_.jpg",
+          "author": "CasaPunxes",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de les Punxes actual.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_les_Punxes_actual.JPG",
+          "author": "Casadelespunxes2016",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de les Punxes by Josep Puig i Cadafalch.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_les_Punxes_by_Josep_Puig_i_Cadafalch.jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de les Punxes (Barcelona) 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_les_Punxes_(Barcelona)_02.jpg",
+          "author": "Nicholas Gemini",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de les Punxes (Barcelona) 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_les_Punxes_(Barcelona)_10.jpg",
+          "author": "Nicholas Gemini",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa de les Punxes, Barcelona - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_de_les_Punxes,_Barcelona_-_panoramio_(1).jpg",
+          "author": "Carlos Cunha",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/barcelona-casa-de-les-punxes.glb",
+      "source": "generators/barcelona-casa-de-les-punxes.ts"
+    },
+    {
+      "id": "barcelona-casa-mila",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "gaudi",
+        "historic",
+        "modernisme",
+        "museum",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Gaudí's 1912 apartment block on the corner of Passeig de Gràcia and Provença: a waving cream limestone facade with wrought-iron balconies, a white attic and the warrior chimneys on its roof.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Casa Milà, general view.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg",
+          "author": "Thomas Ledl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa Milà - Barcelona, Spain - Jan 2007.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0_-_Barcelona,_Spain_-_Jan_2007.jpg",
+          "author": "Diliff",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Casa Milà 2877.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0_2877.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Roof of Casa Milà 20171227.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Roof_of_Casa_Mil%C3%A0_20171227.jpg",
+          "author": "Suicasmo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "La Pedrera (Casa Milà) des-de l'Hotel Condes de Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:La_Pedrera_(Casa_Mil%C3%A0)_des-de_l'Hotel_Condes_de_Barcelona.jpg",
+          "author": "PepPepet",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Milà planta 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mil%C3%A0_planta_3.jpg",
+          "author": "Antoni Gaudí",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/barcelona-casa-mila.glb",
+      "source": "generators/barcelona-casa-mila.ts"
+    },
+    {
+      "id": "barcelona-castell-tres-dragons",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "modernisme",
+        "brick",
+        "museum",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Castell dels Tres Dragons 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Castell_dels_Tres_Dragons_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Castell dels Tres Dragons 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Castell_dels_Tres_Dragons_02.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Tres Dragons 2022.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tres_Dragons_2022.jpg",
+          "author": "Canaan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Castell dels Tres Dragons (3).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Castell_dels_Tres_Dragons_(3).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "714 Castell dels Tres Dragons, pg. Picasso 5 - parc de la Ciutadella (Barcelona).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:714_Castell_dels_Tres_Dragons,_pg._Picasso_5_-_parc_de_la_Ciutadella_(Barcelona).jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "ICGC orthophoto (ortofoto_color_vigent)",
+          "url": "https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/Orthophoto-of-Catalonia",
+          "author": "Institut Cartogràfic i Geològic de Catalunya",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/barcelona-castell-tres-dragons.glb",
+      "source": "generators/barcelona-castell-tres-dragons.ts"
+    },
+    {
+      "id": "barcelona-cathedral",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "cathedral",
+        "church",
+        "gothic",
+        "gothic-revival",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Façana principal de la Catedral de Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ana_principal_de_la_Catedral_de_Barcelona.jpg",
+          "author": "Matrixlanau",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Catedral de Barcelona, vista desde Plaça Nova.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_de_Barcelona,_vista_desde_Pla%C3%A7a_Nova.jpg",
+          "author": "Simon Burchell",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona Cathedral from Carrer dels Comtes 01.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_Cathedral_from_Carrer_dels_Comtes_01.JPG",
+          "author": "Simon Burchell",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona 2016-218.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_2016-218.jpg",
+          "author": "Victor Grigas",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona Cathedral - Roof of Cathedral.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_Cathedral_-_Roof_of_Cathedral.jpg",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torres i cimbori catedral Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torres_i_cimbori_catedral_Barcelona.jpg",
+          "author": "Pere López",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Catedral Barcelona (0).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_Barcelona_(0).JPG",
+          "author": "MarisaLR",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/barcelona-cathedral.glb",
+      "source": "generators/barcelona-cathedral.ts"
+    },
+    {
+      "id": "barcelona-columbus-monument",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "column",
+        "statue",
+        "viewpoint",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Monument a Colom, Barcelona, Spain - Jan 07.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_a_Colom,_Barcelona,_Spain_-_Jan_07.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona. Monument a Colom, GD008907.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona._Monument_a_Colom,_GD008907.jpg",
+          "author": "Rafael Atché (Université de Louvain lantern slide)",
+          "license": "Public domain"
+        },
+        {
+          "title": "Barcelona - Monument a Colom (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Monument_a_Colom_(2).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Monument a Colom (Barcelona) 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_a_Colom_(Barcelona)_01.jpg",
+          "author": "Nicholas Gemini",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monument a Colom i rambla de Mar.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_a_Colom_i_rambla_de_Mar.jpg",
+          "author": "Pere prlpz",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/barcelona-columbus-monument.glb",
+      "source": "generators/barcelona-columbus-monument.ts"
+    },
+    {
+      "id": "barcelona-hotel-arts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hotel Arts i Torre Mapfre des del mar.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Arts_i_Torre_Mapfre_des_del_mar.jpg",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Hotel Arts y Torre Mapre 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Hotel_Arts_y_Torre_Mapre_01.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        },
+        {
+          "title": "Hotel Arts.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Arts.jpg",
+          "author": "Borkur Sigurbjornsson from Barcelona",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Barcelona - Hotel Arts 09.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Hotel_Arts_09.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        },
+        {
+          "title": "242 Port Olímpic de Barcelona, Hotel Arts i Torre Mapfre, des del moll de Xaloc.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:242_Port_Ol%C3%ADmpic_de_Barcelona,_Hotel_Arts_i_Torre_Mapfre,_des_del_moll_de_Xaloc.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-hotel-arts.glb",
+      "source": "generators/barcelona-hotel-arts.ts"
+    },
+    {
+      "id": "barcelona-hotel-w",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "hotel",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vela Hotel W Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Vela_Hotel_W_Barcelona.jpg",
+          "author": "Bj.schoenmakers",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "W Barcelona 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:W_Barcelona_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Hotel vela W, Barcelona, Catalunya, España.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_vela_W,_Barcelona,_Catalunya,_Espa%C3%B1a.jpg",
+          "author": "Iván Melenchón Serrano",
+          "license": "CC0"
+        },
+        {
+          "title": "Hotel Vela (1).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Vela_(1).JPG",
+          "author": "Ardfern",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "W Barcelona (Hotel Vela) des del mar 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:W_Barcelona_(Hotel_Vela)_des_del_mar_01.jpg",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-hotel-w.glb",
+      "source": "generators/barcelona-hotel-w.ts"
+    },
+    {
+      "id": "barcelona-mnac",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "museum",
+        "palace"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Palau Nacional, Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_Nacional,_Barcelona.jpg",
+          "author": "Juanedc from Zaragoza, España",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "(Barcelona) Palau Nacional - National Museum of Art of Catalunya.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Palau_Nacional_-_National_Museum_of_Art_of_Catalunya.jpg",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "093 El Palau Nacional des del Castell de Montjuïc (Barcelona).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:093_El_Palau_Nacional_des_del_Castell_de_Montju%C3%AFc_(Barcelona).jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Montjuïc - Mirador del Palau Nacional - View East on Palau Nacional 1929 by Eugeni Pere Cendoya & Enric Català i Català under the supervision of Pere Domènech i Roura.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Mirador_del_Palau_Nacional_-_View_East_on_Palau_Nacional_1929_by_Eugeni_Pere_Cendoya_%26_Enric_Cat%C3%A0_i_Cat%C3%A0_under_the_supervision_of_Pere_Dom%C3%A8nech_i_Roura.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-mnac.glb",
+      "source": "generators/barcelona-mnac.ts"
+    },
+    {
+      "id": "barcelona-montjuic-castle",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "fortress",
+        "castle"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Castell de Montjuïc 2023-09-13.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Castell_de_Montju%C3%AFc_2023-09-13.jpg",
+          "author": "Horcrux",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Barcelona - Montjuïc - Castell de Montjuïc 1799 by Juan Martin Cermeño - Courtyard - View ENE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Castell_de_Montju%C3%AFc_1799_by_Juan_Martin_Cerme%C3%B1o_-_Courtyard_-_View_ENE.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Montjuïc - Castell de Montjuïc 1799 - Carretera de Montjuïc - Panorama View of the Castle 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Castell_de_Montju%C3%AFc_1799_-_Carretera_de_Montju%C3%AFc_-_Panorama_View_of_the_Castle_01.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Castell Montjuic, Barcelona (P1170651).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Castell_Montjuic,_Barcelona_(P1170651).jpg",
+          "author": "Matti Blume",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-montjuic-castle.glb",
+      "source": "generators/barcelona-montjuic-castle.ts"
+    },
+    {
+      "id": "barcelona-montjuic-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "communications-tower",
+        "modern",
+        "olympic",
+        "calatrava"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre de comunicacions de Montjuïc 2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_comunicacions_de_Montju%C3%AFc_2010.jpg",
+          "author": "Gabriel GG.",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Barcelona - Montjuïc - Anella Olímpica - 1992 Summer Olympics site - View West on Torre de comunicacions de Montjuïc 1992 by Santiago Calatrava.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Anella_Ol%C3%ADmpica_-_1992_Summer_Olympics_site_-_View_West_on_Torre_de_comunicacions_de_Montju%C3%AFc_1992_by_Santiago_Calatrava.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Montjuïc - Anella Olímpica - View SW on Palau Sant Jordi & Torre de comunicacions de Montjuïc 1992 by Santiago Calatrava.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Anella_Ol%C3%ADmpica_-_View_SW_on_Palau_Sant_Jordi_%26_Torre_de_comunicacions_de_Montju%C3%AFc_1992_by_Santiago_Calatrava.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "204 Torre de comunicacions de Montjuïc, Esplanada Olímpica (Barcelona).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:204_Torre_de_comunicacions_de_Montju%C3%AFc,_Esplanada_Ol%C3%ADmpica_(Barcelona).jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-montjuic-tower.glb",
+      "source": "generators/barcelona-montjuic-tower.ts"
+    },
+    {
+      "id": "barcelona-olympic-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "historic",
+        "olympic",
+        "football",
+        "athletics"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Estadi Olímpic Lluís Companys - Barcelona, Spain - Jan 2007.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys_-_Barcelona,_Spain_-_Jan_2007.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Estadi Olímpic Lluís Companys Mai 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys_Mai_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "202 Estadi Olímpic Lluís Companys (Barcelona), façana nord i peveter.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:202_Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys_(Barcelona),_fa%C3%A7ana_nord_i_peveter.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "186 Estadi Olímpic Lluís Companys (Barcelona), façana est.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:186_Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys_(Barcelona),_fa%C3%A7ana_est.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "211 Estadi Olímpic Lluís Companys (Barcelona), façana oest i torre.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:211_Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys_(Barcelona),_fa%C3%A7ana_oest_i_torre.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-olympic-stadium.glb",
+      "source": "generators/barcelona-olympic-stadium.ts"
+    },
+    {
+      "id": "barcelona-palau-musica",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "concert-hall",
+        "historic",
+        "modernisme",
+        "performing-arts",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Domènech i Montaner's 1908 concert hall: a red-brick corner with its sculpture group and tower, mosaic-clad columns on the main front, and Tusquets' brick extension behind.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Palau música catalana exterior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_m%C3%BAsica_catalana_exterior.jpg",
+          "author": "Doomuu",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona-Palau de la Música Catalana (I).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona-Palau_de_la_M%C3%BAsica_Catalana_(I).jpg",
+          "author": "Javi Guerra Hernando",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palau de la Musica Catalana - façana modernista.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_de_la_Musica_Catalana_-_fa%C3%A7ana_modernista.JPG",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona - Palau de la Música Catalana (32).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Palau_de_la_M%C3%BAsica_Catalana_(32).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Barcelona, Palau de la Música Catalana (side view) - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona,_Palau_de_la_M%C3%BAsica_Catalana_(side_view)_-_panoramio.jpg",
+          "author": "Patroc",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "004 Palau de la Música, ampliació d'Òscar Tusquets.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:004_Palau_de_la_M%C3%BAsica,_ampliaci%C3%B3_d'%C3%92scar_Tusquets.jpg",
+          "author": "Enfo",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Domènech.i.Montaner.Palau.Musica.Catalana.2.Barcelona.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Dom%C3%A8nech.i.Montaner.Palau.Musica.Catalana.2.Barcelona.JPG",
+          "author": "Yearofthedragon (assumed by Commons)",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Palau de la Música Catalana ( Vidrera).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_de_la_M%C3%BAsica_Catalana_(_Vidrera).jpg",
+          "author": "Pili Redondo Rodríguez",
+          "license": "CC BY-SA 3.0 es"
+        }
+      ],
+      "file": "models/barcelona-palau-musica.glb",
+      "source": "generators/barcelona-palau-musica.ts"
+    },
+    {
+      "id": "barcelona-palau-sant-jordi",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "modern",
+        "olympic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Palau Sant Jordi Barcelona 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_Sant_Jordi_Barcelona_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Palau Sant Jordi des de l'estadi - P1250756.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_Sant_Jordi_des_de_l%27estadi_-_P1250756.jpg",
+          "author": "pere prlpz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palau Sant Jordi 2013.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_Sant_Jordi_2013.JPG",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Barcelona - Montjuïc - Anella Olímpica - 1992 Summer Olympics site - View SSW on Palau Sant Jordi 1990 by Arata Isozaki.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Anella_Ol%C3%ADmpica_-_1992_Summer_Olympics_site_-_View_SSW_on_Palau_Sant_Jordi_1990_by_Arata_Isozaki.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Palau Sant Jordi vist des del mirador de migdia",
+          "url": "https://commons.wikimedia.org/wiki/File:Palau_Sant_Jordi_vist_des_del_mirador_de_migdia.JPG",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/barcelona-palau-sant-jordi.glb",
+      "source": "generators/barcelona-palau-sant-jordi.ts"
+    },
+    {
+      "id": "barcelona-peix-d-or",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "sculpture",
+        "public-art",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Barcelona Gehry fish.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_Gehry_fish.jpg",
+          "author": "Till Niermann",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona Frank Gehrys Peix.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_Frank_Gehrys_Peix.jpg",
+          "author": "Isiwal",
+          "license": "CC BY-SA 3.0 at"
+        },
+        {
+          "title": "El Peix d Or , Barcelona (P1170710).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Peix_d_Or_,_Barcelona_(P1170710).jpg",
+          "author": "Matti Blume",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aerial view of Somorrostro Beach and Port Olympic in Barcelona, Spain (51227006624).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Somorrostro_Beach_and_Port_Olympic_in_Barcelona,_Spain_(51227006624).jpg",
+          "author": "dronepicr",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/barcelona-peix-d-or.glb",
+      "source": "generators/barcelona-peix-d-or.ts"
+    },
+    {
+      "id": "barcelona-sagrada-familia",
+      "detail": "models/barcelona-sagrada-familia.detail.glb",
+      "detailZoom": 16,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "basilica",
+        "church",
+        "gaudi",
+        "modernisme",
+        "unesco",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q48435",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Sagrada Família construction april 2026 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Fam%C3%ADlia_construction_april_2026_02.jpg",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sagrada Família construction april 2026 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Fam%C3%ADlia_construction_april_2026_04.jpg",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View of Sagrada Familia 2026 corrected.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Sagrada_Familia_2026_corrected.jpg",
+          "author": "ほっきー",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Sagrada Família exterior Barcelona 2026.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Fam%C3%ADlia_exterior_Barcelona_2026.jpg",
+          "author": "Wikipsico43",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sagrada Familia, December 2025, Day.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia,_December_2025,_Day.jpg",
+          "author": "Hendrik Manuels Stoops Lugo",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Sagrada Familia, December 2025, Night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia,_December_2025,_Night.jpg",
+          "author": "Hendrik Manuels Stoops Lugo",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Sagrada Familia back side.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_back_side.jpg",
+          "author": "Blablabalooo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sagrada Família side view 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Fam%C3%ADlia_side_view_1.jpg",
+          "author": "Reda Kerbush",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sagrada Família, Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Fam%C3%ADlia,_Barcelona.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Temple Expiatori de la Sagrada Familia de Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_Expiatori_de_la_Sagrada_Familia_de_Barcelona.jpg",
+          "author": "Manel Subirats Ferrer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "SF - Gloria (2022).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:SF_-_Gloria_(2022).jpg",
+          "author": "Canaan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Basilique Sagrada Familia Barcelone. Vue sud-est 12.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Basilique_Sagrada_Familia_Barcelone._Vue_sud-est_12.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-sagrada-familia.glb",
+      "source": "generators/barcelona-sagrada-familia.ts"
+    },
+    {
+      "id": "barcelona-sant-pau-administration",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "modernisme",
+        "hospital",
+        "brick",
+        "unesco-world-heritage",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hospital de Sant Pau, Façade, Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hospital_de_Sant_Pau,_Fa%C3%A7ade,_Barcelona.jpg",
+          "author": "Julian Lupyan",
+          "license": "CC0"
+        },
+        {
+          "title": "Hospital de Sant Pau - façana 2014.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Hospital_de_Sant_Pau_-_fa%C3%A7ana_2014.JPG",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hospital de Sant Pau 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hospital_de_Sant_Pau_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hospital de Sant Pau 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hospital_de_Sant_Pau_02.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hospital Sant Pau panorama.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hospital_Sant_Pau_panorama.jpg",
+          "author": "Jesús Arpón",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "ICGC orthophoto (ortofoto_color_vigent)",
+          "url": "https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/Orthophoto-of-Catalonia",
+          "author": "Institut Cartogràfic i Geològic de Catalunya",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/barcelona-sant-pau-administration.glb",
+      "source": "generators/barcelona-sant-pau-administration.ts"
+    },
+    {
+      "id": "barcelona-santa-maria-del-mar",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "basilica",
+        "gothic",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Església de Santa Maria del Mar vista des del Passeig del Born.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Esgl%C3%A9sia_de_Santa_Maria_del_Mar_vista_des_del_Passeig_del_Born.jpg",
+          "author": "Kippelboy",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Fossar de les Moreres and Basilica de Santa Maria del Mar - Barcelona 2014.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Fossar_de_les_Moreres_and_Basilica_de_Santa_Maria_del_Mar_-_Barcelona_2014.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "335 Santa Maria del Mar (Barcelona), façana sud, i peveter del Fossar de les Moreres.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:335_Santa_Maria_del_Mar_(Barcelona),_fa%C3%A7ana_sud,_i_peveter_del_Fossar_de_les_Moreres.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "057 Santa Maria del Mar (Barcelona), des del c. Argenteria.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:057_Santa_Maria_del_Mar_(Barcelona),_des_del_c._Argenteria.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "006 Santa Maria del Mar (Barcelona), absis, des del passeig del Born.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:006_Santa_Maria_del_Mar_(Barcelona),_absis,_des_del_passeig_del_Born.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-santa-maria-del-mar.glb",
+      "source": "generators/barcelona-santa-maria-del-mar.ts"
+    },
+    {
+      "id": "barcelona-santa-maria-del-pi",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "basilica",
+        "gothic",
+        "bell-tower",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Facade of Church of Santa Maria del Pi - Barcelona - Spain (14353201766).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Facade_of_Church_of_Santa_Maria_del_Pi_-_Barcelona_-_Spain_(14353201766).jpg",
+          "author": "Adam Jones from Kelowna, BC, Canada",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Church of Santa Maria del Pi Barcelona (5832106071).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Church_of_Santa_Maria_del_Pi_Barcelona_(5832106071).jpg",
+          "author": "Tony Hisgett from Birmingham, UK",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "010 Església de Santa Maria del Pi (Barcelona), campanar i absis.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:010_Esgl%C3%A9sia_de_Santa_Maria_del_Pi_(Barcelona),_campanar_i_absis.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Santa María del Pi desde Ramblas 2017-12-27.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Santa_Mar%C3%ADa_del_Pi_desde_Ramblas_2017-12-27.jpg",
+          "author": "Rafa Esteve",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "945 El campanar de Santa Maria del Pi (Barcelona), des del Palau Nou de la Rambla.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:945_El_campanar_de_Santa_Maria_del_Pi_(Barcelona),_des_del_Palau_Nou_de_la_Rambla.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-santa-maria-del-pi.glb",
+      "source": "generators/barcelona-santa-maria-del-pi.ts"
+    },
+    {
+      "id": "barcelona-tibidabo-sagrat-cor",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "basilica",
+        "gothic-revival",
+        "hilltop",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Temple Expiatori del Sagrat Cor 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_Expiatori_del_Sagrat_Cor_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Temple Expiatori del Sagrat Cor from atop Talaia del Tibidabo, Barcelona, 2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Temple_Expiatori_del_Sagrat_Cor_from_atop_Talaia_del_Tibidabo,_Barcelona,_2023.jpg",
+          "author": "DimiTalen",
+          "license": "CC0"
+        },
+        {
+          "title": "007 Temple expiatori del Sagrat Cor del Tibidabo (Barcelona), vista posterior.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:007_Temple_expiatori_del_Sagrat_Cor_del_Tibidabo_(Barcelona),_vista_posterior.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Mount Tibidabo, Barcelona (50933741101).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Mount_Tibidabo,_Barcelona_(50933741101).jpg",
+          "author": "Mike McBey",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/barcelona-tibidabo-sagrat-cor.glb",
+      "source": "generators/barcelona-tibidabo-sagrat-cor.ts"
+    },
+    {
+      "id": "barcelona-torre-collserola",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "telecommunications",
+        "guyed-tower",
+        "high-tech",
+        "viewpoint"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre de Collserola 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Collserola_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Barcelona - Torre de Collserola from Tibidabo.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Torre_de_Collserola_from_Tibidabo.jpg",
+          "author": "Joe Mabel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre de Collserola from Tibidabo.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Collserola_from_Tibidabo.jpg",
+          "author": "Jaipasdepseudo",
+          "license": "CC0"
+        },
+        {
+          "title": "Torre de Collserola in 2026.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Collserola_in_2026.jpg",
+          "author": "Bravodelnorte",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torre de Collserola - 002.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Collserola_-_002.jpg",
+          "author": "Mutari",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/barcelona-torre-collserola.glb",
+      "source": "generators/barcelona-torre-collserola.ts"
+    },
+    {
+      "id": "barcelona-torre-glories",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre Agbar - Barcelona, Spain - Jan 2007.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Agbar_-_Barcelona,_Spain_-_Jan_2007.jpg",
+          "author": "Diliff",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Torre Glòries 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Gl%C3%B2ries_10.jpg",
+          "author": "Kent Wang",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Torre Agbar Barcelona 2015.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Agbar_Barcelona_2015.jpg",
+          "author": "Bjørn Erik Pedersen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Torre Agbar 06.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Torre_Agbar_06.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        },
+        {
+          "title": "Barcelona - Torre Agbar 21.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Torre_Agbar_21.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/barcelona-torre-glories.glb",
+      "source": "generators/barcelona-torre-glories.ts"
+    },
+    {
+      "id": "barcelona-torre-jaume-i",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "aerial-tramway",
+        "lattice-tower",
+        "steel",
+        "viewpoint",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torre de Jaume I (Barcelona)1788.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Jaume_I_(Barcelona)1788.JPG",
+          "author": "João Carvalho",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "2017 Torre de Jaume I vista des del WTC.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2017_Torre_de_Jaume_I_vista_des_del_WTC.jpg",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Base de la Torre Jaume I.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Base_de_la_Torre_Jaume_I.jpg",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Torre Jaume I del Teleférico del Puerto de Barcelona 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Torre_Jaume_I_del_Tel%C3%A9ferico_del_Puerto_de_Barcelona_1.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        },
+        {
+          "title": "Torre de Jaume I - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Jaume_I_-_panoramio.jpg",
+          "author": "Mister No",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/barcelona-torre-jaume-i.glb",
+      "source": "generators/barcelona-torre-jaume-i.ts"
+    },
+    {
+      "id": "barcelona-torre-mapfre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Hotel Arts i Torre Mapfre des del mar.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Arts_i_Torre_Mapfre_des_del_mar.jpg",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Hotel Arts y Torre Mapre 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Hotel_Arts_y_Torre_Mapre_01.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        },
+        {
+          "title": "Torre Mapfre Barcelona corregida.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torre_Mapfre_Barcelona_corregida.jpg",
+          "author": "Imelenchon",
+          "license": "CC0"
+        },
+        {
+          "title": "Barcelona - Torre Mapfre 11.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Torre_Mapfre_11.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/barcelona-torre-mapfre.glb",
+      "source": "generators/barcelona-torre-mapfre.ts"
+    },
+    {
+      "id": "barcelona-torre-mare-nostrum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Edifici Gas Natural - P1100469.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Edifici_Gas_Natural_-_P1100469.jpg",
+          "author": "Pere López Brosa",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Edifici Gas Natural (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Edifici_Gas_Natural_(1).jpg",
+          "author": "Grzegorz Gigol",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Edifici Gas Natural (Torre Mare Nostrum) 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Edifici_Gas_Natural_(Torre_Mare_Nostrum)_01.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        },
+        {
+          "title": "Edifici Gas Natural - Barcelona (Catalunya).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Edifici_Gas_Natural_-_Barcelona_(Catalunya).jpg",
+          "author": "Puigalder",
+          "license": "Public domain"
+        },
+        {
+          "title": "Barcelona - Edifici Gas Natural (Torre Mare Nostrum) 13.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Edifici_Gas_Natural_(Torre_Mare_Nostrum)_13.jpg",
+          "author": "Zarateman",
+          "license": "CC0"
+        }
+      ],
+      "file": "models/barcelona-torre-mare-nostrum.glb",
+      "source": "generators/barcelona-torre-mare-nostrum.ts"
+    },
+    {
+      "id": "barcelona-venetian-towers",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "historic",
+        "bell-tower",
+        "brick",
+        "plaza"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Torres venecianes 20230913.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torres_venecianes_20230913.jpg",
+          "author": "Horcrux",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Torres venecianes Barcelona 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Torres_venecianes_Barcelona_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Barcelona - Torres Venecianes.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Torres_Venecianes.jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Avinguda de la Reina Maria Cristina 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Avinguda_de_la_Reina_Maria_Cristina_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/barcelona-venetian-towers.glb",
+      "source": "generators/barcelona-venetian-towers.ts"
+    },
+    {
       "id": "beatties-ford-water-tower",
       "file": "models/beatties-ford-water-tower.glb",
       "license": "CC0-1.0",
@@ -45677,6 +47586,743 @@
       "place": "charlotte-area"
     },
     {
+      "id": "barcelona-arc-de-triomf",
+      "name": "Arc de Triomf",
+      "model": "barcelona-arc-de-triomf",
+      "place": "barcelona",
+      "lng": 2.180645,
+      "lat": 41.391042,
+      "bearing": 315.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/377875377",
+        "way/1557592573",
+        "way/1557592574",
+        "way/818382565"
+      ],
+      "wikidata": "Q631075"
+    },
+    {
+      "id": "barcelona-arenas",
+      "name": "Arenas de Barcelona",
+      "model": "barcelona-arenas",
+      "place": "barcelona",
+      "lng": 2.149312,
+      "lat": 41.376307,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/1105997329",
+        "way/305821928",
+        "way/618800604",
+        "way/618800605",
+        "way/618800606",
+        "way/618800607",
+        "way/618800608",
+        "way/1105997319",
+        "way/1105997320",
+        "way/1105997321",
+        "way/1105997322",
+        "relation/14719692",
+        "relation/14719693"
+      ],
+      "wikidata": "Q548566"
+    },
+    {
+      "id": "barcelona-camp-nou",
+      "name": "Spotify Camp Nou",
+      "model": "barcelona-camp-nou",
+      "place": "barcelona",
+      "lng": 2.122814,
+      "lat": 41.380885,
+      "bearing": 68.4,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "relation/5503051",
+        "relation/4094584",
+        "relation/4094585",
+        "relation/4094587",
+        "relation/4094588",
+        "way/34607291"
+      ],
+      "wikidata": "Q159848"
+    },
+    {
+      "id": "barcelona-casa-amatller",
+      "name": "Casa Amatller",
+      "model": "barcelona-casa-amatller",
+      "place": "barcelona",
+      "lng": 2.164772,
+      "lat": 41.391337,
+      "bearing": 226.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/9427552",
+        "way/679019101",
+        "way/679019116",
+        "way/679019180",
+        "way/679019099",
+        "way/679019202",
+        "way/679019145",
+        "way/679019097",
+        "way/679019098",
+        "way/679019176"
+      ],
+      "wikidata": "Q506814"
+    },
+    {
+      "id": "barcelona-casa-batllo",
+      "name": "Casa Batlló",
+      "model": "barcelona-casa-batllo",
+      "place": "barcelona",
+      "lng": 2.164755,
+      "lat": 41.391538,
+      "bearing": 226.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/9427554",
+        "way/940163405",
+        "way/679019170",
+        "way/679019193",
+        "way/679019107",
+        "way/679019197",
+        "way/679019117",
+        "way/679019137"
+      ],
+      "wikidata": "Q461371"
+    },
+    {
+      "id": "barcelona-casa-de-les-punxes",
+      "name": "Casa de les Punxes",
+      "model": "barcelona-casa-de-les-punxes",
+      "place": "barcelona",
+      "lng": 2.164014,
+      "lat": 41.398028,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/1288798874",
+        "way/646115372",
+        "way/646115379",
+        "way/646115388",
+        "way/646115390",
+        "way/646115391",
+        "way/646115392",
+        "way/646115393",
+        "way/646115394",
+        "way/646115397",
+        "way/646115399",
+        "way/646115400",
+        "way/646115401",
+        "way/646115402",
+        "way/646115406",
+        "way/646115407",
+        "way/646115408",
+        "way/646115409",
+        "way/646115411",
+        "way/646115412",
+        "way/646115413",
+        "way/646115414",
+        "way/646115415",
+        "way/646115416",
+        "way/646115417",
+        "way/646115418",
+        "way/646115419",
+        "way/646115420",
+        "way/646115421",
+        "way/646115423",
+        "way/646115424",
+        "way/646115425",
+        "way/646115426",
+        "way/646115427",
+        "way/646115428",
+        "way/939668024",
+        "way/939668025",
+        "way/939668026",
+        "way/939668027",
+        "way/939668033",
+        "way/939668035",
+        "way/939668036",
+        "way/939668039",
+        "way/939668040",
+        "way/939668041",
+        "way/939668042",
+        "way/939668043",
+        "way/939668045",
+        "way/939668046",
+        "way/951265177",
+        "way/951265178",
+        "relation/8975927",
+        "relation/8975929"
+      ],
+      "wikidata": "Q2561516"
+    },
+    {
+      "id": "barcelona-casa-mila",
+      "name": "Casa Milà (La Pedrera)",
+      "model": "barcelona-casa-mila",
+      "place": "barcelona",
+      "lng": 2.161881,
+      "lat": 41.395377,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/8974896",
+        "way/646020439",
+        "way/646020507",
+        "way/646020528",
+        "way/646020560",
+        "way/646020649",
+        "way/646020670",
+        "way/646020710",
+        "way/646020720",
+        "way/646020740",
+        "way/646020768",
+        "way/646020803",
+        "way/646020806",
+        "way/646020814",
+        "relation/8974885",
+        "relation/8974887",
+        "relation/8974890",
+        "relation/8974893",
+        "relation/8974894"
+      ],
+      "wikidata": "Q207870"
+    },
+    {
+      "id": "barcelona-castell-tres-dragons",
+      "name": "Castell dels Tres Dragons",
+      "model": "barcelona-castell-tres-dragons",
+      "place": "barcelona",
+      "lng": 2.183352,
+      "lat": 41.388082,
+      "bearing": 46.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/33570474"
+      ],
+      "wikidata": "Q1048705"
+    },
+    {
+      "id": "barcelona-cathedral",
+      "name": "Barcelona Cathedral",
+      "model": "barcelona-cathedral",
+      "place": "barcelona",
+      "lng": 2.17636,
+      "lat": 41.38391,
+      "bearing": 313,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/3298476",
+        "way/305857549",
+        "way/305857551",
+        "way/305857552",
+        "way/305857553",
+        "way/305857554",
+        "way/305857555",
+        "way/305857557",
+        "way/305857558",
+        "way/305857559",
+        "way/305857560",
+        "way/305857563",
+        "way/305857564",
+        "way/305857565",
+        "way/1075852646"
+      ],
+      "wikidata": "Q17155"
+    },
+    {
+      "id": "barcelona-columbus-monument",
+      "name": "Columbus Monument",
+      "model": "barcelona-columbus-monument",
+      "place": "barcelona",
+      "lng": 2.177774,
+      "lat": 41.375803,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/126451774",
+        "way/301766618",
+        "way/301766620",
+        "way/301766623",
+        "way/301766625"
+      ],
+      "wikidata": "Q2288815"
+    },
+    {
+      "id": "barcelona-hotel-arts",
+      "name": "Hotel Arts",
+      "model": "barcelona-hotel-arts",
+      "place": "barcelona",
+      "lng": 2.196221,
+      "lat": 41.386892,
+      "bearing": 45,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/35816740"
+      ],
+      "wikidata": "Q1425790"
+    },
+    {
+      "id": "barcelona-hotel-w",
+      "name": "W Barcelona (Hotel Vela)",
+      "model": "barcelona-hotel-w",
+      "place": "barcelona",
+      "lng": 2.190056,
+      "lat": 41.368745,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "relation/21282017",
+        "way/908035013",
+        "relation/15019747",
+        "way/646553854",
+        "way/1123149966",
+        "way/1123149967",
+        "way/1123149968",
+        "way/1123149969",
+        "way/1123149970",
+        "way/1123149971",
+        "way/1123149972",
+        "way/1123149973",
+        "way/1123149974",
+        "way/1123149975",
+        "way/1123149976",
+        "way/1123149977",
+        "way/1123149978",
+        "way/1123149979",
+        "way/1123149980",
+        "way/1123149981",
+        "way/1123149982",
+        "way/1123149983",
+        "way/1123149984",
+        "way/1123149985",
+        "way/1123149986",
+        "way/1123149987",
+        "way/1123149988",
+        "way/1123149989",
+        "way/1123149990",
+        "way/1123149991",
+        "way/1123149992",
+        "way/1123149993",
+        "way/1123149994",
+        "way/1123149995",
+        "way/1123149996",
+        "way/1123149997",
+        "way/1123149998",
+        "way/1123149999",
+        "way/1123150000",
+        "way/1123150001",
+        "way/1123150002",
+        "way/1123150003",
+        "way/1123150004",
+        "way/1123150005",
+        "way/1123150006",
+        "way/1123150007",
+        "way/1123150008",
+        "way/1123150009",
+        "way/1123150010",
+        "way/1123150011",
+        "way/1123150012",
+        "way/1123150013"
+      ],
+      "wikidata": "Q2648632"
+    },
+    {
+      "id": "barcelona-mnac",
+      "name": "Palau Nacional (MNAC)",
+      "model": "barcelona-mnac",
+      "place": "barcelona",
+      "lng": 2.153616,
+      "lat": 41.368364,
+      "bearing": 333,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/21195792",
+        "way/214445439",
+        "way/214445442",
+        "way/214445445",
+        "way/214445446",
+        "way/214445447",
+        "way/214445448",
+        "way/666599310",
+        "way/666599312",
+        "way/666599313",
+        "way/666599314",
+        "way/666599319",
+        "way/666599320",
+        "way/666599321",
+        "way/666599336",
+        "way/666599338"
+      ],
+      "wikidata": "Q2341107"
+    },
+    {
+      "id": "barcelona-montjuic-castle",
+      "name": "Castell de Montjuïc",
+      "model": "barcelona-montjuic-castle",
+      "place": "barcelona",
+      "lng": 2.166003,
+      "lat": 41.363346,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/5739196",
+        "relation/1574427",
+        "way/646482521",
+        "way/243594655",
+        "way/646482911"
+      ],
+      "wikidata": "Q2500125"
+    },
+    {
+      "id": "barcelona-montjuic-tower",
+      "name": "Torre de Comunicacions de Montjuïc",
+      "model": "barcelona-montjuic-tower",
+      "place": "barcelona",
+      "lng": 2.150607,
+      "lat": 41.364279,
+      "bearing": 330,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/163393541"
+      ],
+      "wikidata": "Q202530"
+    },
+    {
+      "id": "barcelona-olympic-stadium",
+      "name": "Estadi Olímpic Lluís Companys",
+      "model": "barcelona-olympic-stadium",
+      "place": "barcelona",
+      "lng": 2.155652,
+      "lat": 41.364758,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/155422",
+        "way/126784791",
+        "way/35764760"
+      ],
+      "wikidata": "Q275715"
+    },
+    {
+      "id": "barcelona-palau-musica",
+      "name": "Palau de la Música Catalana",
+      "model": "barcelona-palau-musica",
+      "place": "barcelona",
+      "lng": 2.175226,
+      "lat": 41.387586,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/671830491",
+        "way/671830503",
+        "way/671830481",
+        "way/671830496",
+        "way/671830501",
+        "way/671830502",
+        "way/951336755"
+      ],
+      "wikidata": "Q327940"
+    },
+    {
+      "id": "barcelona-palau-sant-jordi",
+      "name": "Palau Sant Jordi",
+      "model": "barcelona-palau-sant-jordi",
+      "place": "barcelona",
+      "lng": 2.152562,
+      "lat": 41.363225,
+      "bearing": 2,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/35793637",
+        "way/146825150",
+        "way/146825159"
+      ],
+      "wikidata": "Q630630"
+    },
+    {
+      "id": "barcelona-peix-d-or",
+      "name": "El Peix d'Or",
+      "model": "barcelona-peix-d-or",
+      "place": "barcelona",
+      "lng": 2.196951,
+      "lat": 41.386074,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/1219078280"
+      ],
+      "wikidata": "Q28027474"
+    },
+    {
+      "id": "barcelona-sagrada-familia",
+      "name": "Basílica de la Sagrada Família",
+      "model": "barcelona-sagrada-familia",
+      "place": "barcelona",
+      "lng": 2.17434,
+      "lat": 41.40354,
+      "bearing": 314,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q48435",
+      "replaces": [
+        "relation/9194723",
+        "way/359084975",
+        "way/359084980",
+        "way/359084982",
+        "way/359084983",
+        "way/359084987",
+        "way/359084990",
+        "way/359084991",
+        "way/359084993",
+        "way/359086378",
+        "way/359086380",
+        "way/661321474",
+        "way/1207779418",
+        "way/1207779425",
+        "way/1207779426",
+        "way/1207779427",
+        "way/1207779428",
+        "way/1207779447",
+        "way/1207779448",
+        "way/1207779469",
+        "relation/16329170",
+        "relation/16329171",
+        "relation/16329172",
+        "relation/16329173",
+        "relation/16329174",
+        "relation/16329175"
+      ]
+    },
+    {
+      "id": "barcelona-sant-pau-administration",
+      "name": "Sant Pau Administration Pavilion",
+      "model": "barcelona-sant-pau-administration",
+      "place": "barcelona",
+      "lng": 2.17434,
+      "lat": 41.411802,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/7422815",
+        "way/645290929",
+        "way/645290930",
+        "way/645290931",
+        "way/645290932",
+        "way/645290933",
+        "way/645290934"
+      ]
+    },
+    {
+      "id": "barcelona-santa-maria-del-mar",
+      "name": "Santa Maria del Mar",
+      "model": "barcelona-santa-maria-del-mar",
+      "place": "barcelona",
+      "lng": 2.182031,
+      "lat": 41.383813,
+      "bearing": 209.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/51260215",
+        "way/337762059",
+        "way/337762060",
+        "way/337762061",
+        "way/337762290",
+        "way/337762583",
+        "way/337762683",
+        "way/337801171",
+        "way/337801172",
+        "way/337801173",
+        "way/337856621",
+        "way/337857086",
+        "way/337857336",
+        "way/337857339",
+        "way/337858088",
+        "way/337858090",
+        "way/337858093",
+        "way/337858235",
+        "way/337858236",
+        "way/337858237"
+      ],
+      "wikidata": "Q908802"
+    },
+    {
+      "id": "barcelona-santa-maria-del-pi",
+      "name": "Santa Maria del Pi",
+      "model": "barcelona-santa-maria-del-pi",
+      "place": "barcelona",
+      "lng": 2.173934,
+      "lat": 41.382044,
+      "bearing": 308,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/625295824",
+        "way/821875781",
+        "way/625295823"
+      ],
+      "wikidata": "Q2293331"
+    },
+    {
+      "id": "barcelona-tibidabo-sagrat-cor",
+      "name": "Temple Expiatori del Sagrat Cor",
+      "model": "barcelona-tibidabo-sagrat-cor",
+      "place": "barcelona",
+      "lng": 2.118801,
+      "lat": 41.4221,
+      "bearing": 162,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/486759610",
+        "way/387589500"
+      ],
+      "wikidata": "Q1189293"
+    },
+    {
+      "id": "barcelona-torre-collserola",
+      "name": "Torre de Collserola",
+      "model": "barcelona-torre-collserola",
+      "place": "barcelona",
+      "lng": 2.114264,
+      "lat": 41.417255,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "relation/20725097",
+        "way/305960310",
+        "way/305960311",
+        "way/305960312",
+        "way/305960313",
+        "way/305960314"
+      ],
+      "wikidata": "Q1147977"
+    },
+    {
+      "id": "barcelona-torre-glories",
+      "name": "Torre Glòries",
+      "model": "barcelona-torre-glories",
+      "place": "barcelona",
+      "lng": 2.189521,
+      "lat": 41.403513,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/44213122"
+      ],
+      "wikidata": "Q336246"
+    },
+    {
+      "id": "barcelona-torre-jaume-i",
+      "name": "Torre de Jaume I",
+      "model": "barcelona-torre-jaume-i",
+      "place": "barcelona",
+      "lng": 2.18011,
+      "lat": 41.372075,
+      "bearing": 32,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/8997201",
+        "way/646563787",
+        "way/646563774"
+      ],
+      "wikidata": "Q2736529"
+    },
+    {
+      "id": "barcelona-torre-mapfre",
+      "name": "Torre Mapfre",
+      "model": "barcelona-torre-mapfre",
+      "place": "barcelona",
+      "lng": 2.19735,
+      "lat": 41.38778,
+      "bearing": 45,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/54747170",
+        "way/308013864"
+      ],
+      "wikidata": "Q568353"
+    },
+    {
+      "id": "barcelona-torre-mare-nostrum",
+      "name": "Torre Mare Nostrum",
+      "model": "barcelona-torre-mare-nostrum",
+      "place": "barcelona",
+      "lng": 2.190511,
+      "lat": 41.38318,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/21213758",
+        "way/306118990",
+        "way/306118991",
+        "way/306118992",
+        "way/306118993",
+        "way/306118994",
+        "way/306118995",
+        "way/306118996",
+        "way/306118997",
+        "way/306118998",
+        "way/306118999",
+        "way/306119000",
+        "way/306119001",
+        "way/306119002",
+        "way/306119003",
+        "way/306119762"
+      ],
+      "wikidata": "Q5338037"
+    },
+    {
+      "id": "barcelona-venetian-towers",
+      "name": "Torres Venecianes",
+      "model": "barcelona-venetian-towers",
+      "place": "barcelona",
+      "lng": 2.1498,
+      "lat": 41.374033,
+      "bearing": 333,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/21193576",
+        "way/305825427",
+        "way/305825428",
+        "way/305825429",
+        "way/305825430",
+        "way/305825431",
+        "way/305825432",
+        "way/305825433",
+        "way/35816010"
+      ],
+      "wikidata": "Q7919738"
+    },
+    {
       "id": "beatties-ford-water-tower",
       "name": "Vest Station Water Towers",
       "model": "beatties-ford-water-tower",
@@ -63057,6 +65703,12 @@
       "id": "austin-area",
       "name": "Austin area",
       "kind": "region"
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "kind": "city",
+      "wikidata": "Q1492"
     },
     {
       "id": "camp-north-end",
