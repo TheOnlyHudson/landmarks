@@ -7121,6 +7121,68 @@
       "source": "generators/barcelona-montjuic-tower.ts"
     },
     {
+      "id": "barcelona-olympic-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "historic",
+        "olympic",
+        "football",
+        "athletics"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Estadi Olímpic Lluís Companys - Barcelona, Spain - Jan 2007.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys_-_Barcelona,_Spain_-_Jan_2007.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Estadi Olímpic Lluís Companys Mai 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys_Mai_2013.jpg",
+          "author": "Felix König",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "202 Estadi Olímpic Lluís Companys (Barcelona), façana nord i peveter.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:202_Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys_(Barcelona),_fa%C3%A7ana_nord_i_peveter.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "186 Estadi Olímpic Lluís Companys (Barcelona), façana est.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:186_Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys_(Barcelona),_fa%C3%A7ana_est.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "211 Estadi Olímpic Lluís Companys (Barcelona), façana oest i torre.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:211_Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys_(Barcelona),_fa%C3%A7ana_oest_i_torre.jpg",
+          "author": "Enric",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-olympic-stadium.glb",
+      "source": "generators/barcelona-olympic-stadium.ts"
+    },
+    {
       "id": "barcelona-palau-musica",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -43949,6 +44011,23 @@
         "way/163393541"
       ],
       "wikidata": "Q202530"
+    },
+    {
+      "id": "barcelona-olympic-stadium",
+      "name": "Estadi Olímpic Lluís Companys",
+      "model": "barcelona-olympic-stadium",
+      "place": "barcelona",
+      "lng": 2.155652,
+      "lat": 41.364758,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/155422",
+        "way/126784791",
+        "way/35764760"
+      ],
+      "wikidata": "Q275715"
     },
     {
       "id": "barcelona-palau-musica",
