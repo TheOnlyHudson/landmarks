@@ -26325,6 +26325,75 @@
       "detailZoom": 16
     },
     {
+      "id": "london-white-tower",
+      "file": "models/london-white-tower.glb",
+      "source": "generators/london-white-tower.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "castle",
+        "keep",
+        "norman",
+        "historic",
+        "unesco"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Tower of London White Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Tower_of_London_White_Tower.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Tower of London viewed from the River Thames",
+          "url": "https://commons.wikimedia.org/wiki/File:Tower_of_London_viewed_from_the_River_Thames.jpg",
+          "author": "Bob Collowan",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "London, Tower of London, White Tower -- 2016 -- 4663",
+          "url": "https://commons.wikimedia.org/wiki/File:London,_Tower_of_London,_White_Tower_--_2016_--_4663.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "La Torre, Londres, Inglaterra, 2022-11-26, DD 140",
+          "url": "https://commons.wikimedia.org/wiki/File:La_Torre,_Londres,_Inglaterra,_2022-11-26,_DD_140.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The White Tower, Tower of London",
+          "url": "https://commons.wikimedia.org/wiki/File:The_White_Tower,_Tower_of_London.jpg",
+          "author": "Edward Swift",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Tower of London, White Tower City of London 1260258 20230824 0271",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Tower_of_London,_White_Tower_City_of_London_1260258_20230824_0271.jpg",
+          "author": "Tilman2007",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "lv-allegiant-stadium",
       "file": "models/lv-allegiant-stadium.glb",
       "license": "CC0-1.0",
@@ -56242,6 +56311,32 @@
         "way/554703203",
         "way/554703204",
         "way/554703205"
+      ]
+    },
+    {
+      "id": "london-white-tower",
+      "name": "White Tower",
+      "model": "london-white-tower",
+      "place": "london",
+      "lng": -0.076078,
+      "lat": 51.508075,
+      "bearing": 6,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q1528473",
+      "replaces": [
+        "way/369135772",
+        "way/717251841",
+        "way/717251842",
+        "way/717251843",
+        "way/717251844",
+        "way/932808903",
+        "way/932980667",
+        "way/932980668",
+        "way/932980669",
+        "way/932980670",
+        "way/932980671",
+        "way/932980672"
       ]
     },
     {
