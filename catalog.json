@@ -79,6 +79,75 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "amsterdam-magna-plaza",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "neo-gothic",
+        "historic",
+        "post-office",
+        "shopping-centre"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1962448",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Magna Plaza 2665",
+          "url": "https://commons.wikimedia.org/wiki/File:Magna_Plaza_2665.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Voormalig Hoofdpostkantoor N.Z.Voorburgwal Amsterdam",
+          "url": "https://commons.wikimedia.org/wiki/File:Voormalig_Hoofdpostkantoor_N.Z.Voorburgwal_Amsterdam.JPG",
+          "author": "11joop",
+          "license": "CC BY-SA 3.0 NL"
+        },
+        {
+          "title": "Exterieur OVERZICHT, (MAGNA PLAZA) (RCE 20285821)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_OVERZICHT,_(MAGNA_PLAZA)_-_Amsterdam_-_20285821_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterieur OVERZICHT, (MAGNA PLAZA) (RCE 20285822)",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterieur_OVERZICHT,_(MAGNA_PLAZA)_-_Amsterdam_-_20285822_-_RCE.jpg",
+          "author": "Gerard Dukker",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amsterdam - Raadhuisstraat - View ENE on Former Hoofdpostkantoor 1895-99 by C.H.Peters",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Raadhuisstraat_-_View_ENE_on_Former_Hoofdpostkantoor_1895-99_by_C.H.Peters.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Torens met peervormige torenbekroningen van het voormalige Hoofdpostkantoor (RCE 20528589)",
+          "url": "https://commons.wikimedia.org/wiki/File:Torens_met_peervormige_torenbekroningen_van_het_voormalige_Hoofdpostkantoor,_gezien_vanaf_het_dak_van_het_Koninklijk_Paleis_-_Amsterdam_-_20528589_-_RCE.jpg",
+          "author": "Chris Booms",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/amsterdam-magna-plaza.glb",
+      "source": "generators/amsterdam-magna-plaza.ts"
+    },
+    {
       "id": "amsterdam-national-monument",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -37181,6 +37250,21 @@
         "way/432937734"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "amsterdam-magna-plaza",
+      "name": "Magna Plaza",
+      "model": "amsterdam-magna-plaza",
+      "place": "amsterdam",
+      "lng": 4.890249,
+      "lat": 52.373635,
+      "bearing": 17.2,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1962448",
+      "replaces": [
+        "way/57861220"
+      ]
     },
     {
       "id": "amsterdam-national-monument",
