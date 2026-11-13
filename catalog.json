@@ -296,6 +296,81 @@
       "source": "generators/amsterdam-magna-plaza.ts"
     },
     {
+      "id": "amsterdam-munttoren",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tower",
+        "historic",
+        "city-gate",
+        "renaissance",
+        "carillon"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Munttoren Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Munttoren_Amsterdam.jpg",
+          "author": "Massimo Catarinella",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Amsterdam, de Munttoren RM3729 IMG 3346 2024-06-24 11.41.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_de_Munttoren_RM3729_IMG_3346_2024-06-24_11.41.jpg",
+          "author": "Michielverbeek",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Amsterdam (NL), Munttoren -- 2015 -- 7236.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Munttoren_--_2015_--_7236.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Belfry of Munttoren - Muntplein - Amsterdam - 2016-09-13-6642.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Belfry_of_Munttoren_-_Muntplein_-_Amsterdam_-_2016-09-13-6642.jpg",
+          "author": "Slaunger",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Munttoren 2085.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Munttoren_2085.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Munttoren-Amsterdam.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Munttoren-Amsterdam.jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Amsterdam - De Munttoren v1.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_De_Munttoren_v1.JPG",
+          "author": "Rudolphous",
+          "license": "CC BY-SA 3.0 NL"
+        }
+      ],
+      "file": "models/amsterdam-munttoren.glb",
+      "source": "generators/amsterdam-munttoren.ts"
+    },
+    {
       "id": "amsterdam-national-monument",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -37881,6 +37956,27 @@
       "replaces": [
         "way/57861220"
       ]
+    },
+    {
+      "id": "amsterdam-munttoren",
+      "name": "Munttoren",
+      "model": "amsterdam-munttoren",
+      "place": "amsterdam",
+      "lng": 4.893212,
+      "lat": 52.367057,
+      "bearing": 32,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/57862728",
+        "way/751683816",
+        "way/751683817",
+        "way/751683819",
+        "way/751698382",
+        "way/751698383",
+        "way/751698384"
+      ],
+      "wikidata": "Q1429748"
     },
     {
       "id": "amsterdam-national-monument",
