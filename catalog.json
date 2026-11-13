@@ -6547,6 +6547,68 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "barcelona-casa-amatller",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "modernisme",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "Puig i Cadafalch's 1900 remodelling next to Casa Batlló: a pale sgraffito facade under a stepped Flemish gable edged in glazed tiles.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Casa Amatller & Batlló 2955.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Amatller_&_Batll%C3%B3_2955.jpg",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CasaAmatller.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:CasaAmatller.jpg",
+          "author": "G. Argyriou",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Barcelona - Passeig de Gràcia - Casa Amatller & Casa Batlló.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_Casa_Amatller_&_Casa_Batll%C3%B3.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Barcelona - Passeig de Gràcia - View NW on Casa Amatller 1900 & Casa Batlló 1907.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_NW_on_Casa_Amatller_1900_&_Casa_Batll%C3%B3_1907.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Casa Amatller Casa Batlló, Barcelona.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Amatller_Casa_Batll%C3%B3,_Barcelona.jpg",
+          "author": "МаратД",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/barcelona-casa-amatller.glb",
+      "source": "generators/barcelona-casa-amatller.ts"
+    },
+    {
       "id": "barcelona-casa-batllo",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -42852,6 +42914,30 @@
         "relation/17917766"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "barcelona-casa-amatller",
+      "name": "Casa Amatller",
+      "model": "barcelona-casa-amatller",
+      "place": "barcelona",
+      "lng": 2.164772,
+      "lat": 41.391337,
+      "bearing": 226.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/9427552",
+        "way/679019101",
+        "way/679019116",
+        "way/679019180",
+        "way/679019099",
+        "way/679019202",
+        "way/679019145",
+        "way/679019097",
+        "way/679019098",
+        "way/679019176"
+      ],
+      "wikidata": "Q506814"
     },
     {
       "id": "barcelona-casa-batllo",
