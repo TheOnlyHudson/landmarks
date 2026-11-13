@@ -22601,6 +22601,80 @@
       "source": "generators/mexico-city-san-hipolito.ts"
     },
     {
+      "id": "mexico-city-san-juan-bautista-coyoacan",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "church",
+        "religious",
+        "baroque"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Iglesia de San Juan Bautista (Centro de Coyoacán).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Juan_Bautista_(Centro_de_Coyoac%C3%A1n).jpg",
+          "author": "Omar Ulises Ruiz Casas",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Main Facade - San Juan Bautista de Coyoacan - Mexico 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_Facade_-_San_Juan_Bautista_de_Coyoacan_-_Mexico_2024.jpg",
+          "author": "José Luiz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Iglesia San Juan Bautista de costado.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_San_Juan_Bautista_de_costado.jpg",
+          "author": "Ines Suarez R.",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Iglesia y ex Convento de San Juan Bautista in Coyoacan.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_y_ex_Convento_de_San_Juan_Bautista_in_Coyoacan.jpg",
+          "author": "Vicmunz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Iglesia de San Juan Bautista, Centro de Coyoacán.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Juan_Bautista,_Centro_de_Coyoac%C3%A1n.jpg",
+          "author": "Raymundo Perera",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Iglesia de San Juan Bautista por la parte de atrás.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Juan_Bautista_por_la_parte_de_atr%C3%A1s.jpg",
+          "author": "Diana Paola Milla Perdomo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Church tower and former convent of San Juan Bautista.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Church_tower_and_former_convent_of_San_Juan_Bautista.jpg",
+          "author": "A01650377",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/mexico-city-san-juan-bautista-coyoacan.glb",
+      "source": "generators/mexico-city-san-juan-bautista-coyoacan.ts"
+    },
+    {
       "id": "mexico-city-santiago-tlatelolco",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -50901,6 +50975,24 @@
       "wikidata": "Q215151",
       "replaces": [
         "way/1427820319"
+      ]
+    },
+    {
+      "id": "mexico-city-san-juan-bautista-coyoacan",
+      "name": "Parroquia de San Juan Bautista",
+      "model": "mexico-city-san-juan-bautista-coyoacan",
+      "place": "mexico-city",
+      "lng": -99.162375,
+      "lat": 19.3487889,
+      "bearing": 15,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5910431",
+      "replaces": [
+        "relation/2168347",
+        "way/1373754345",
+        "way/1373754346",
+        "way/1373754347"
       ]
     },
     {
