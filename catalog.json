@@ -87787,6 +87787,13 @@
       "wikidata": "Q1490"
     },
     {
+      "id": "ucla",
+      "name": "UCLA",
+      "kind": "site",
+      "parent": "los-angeles-area",
+      "wikidata": "Q174710"
+    },
+    {
       "id": "walt-disney-world",
       "name": "Walt Disney World",
       "kind": "site"
