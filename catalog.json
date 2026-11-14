@@ -72210,6 +72210,12 @@
       "wikidata": "Q8678"
     },
     {
+      "id": "rome",
+      "name": "Rome",
+      "kind": "city",
+      "wikidata": "Q220"
+    },
+    {
       "id": "samarkand",
       "name": "Samarkand",
       "kind": "city",
