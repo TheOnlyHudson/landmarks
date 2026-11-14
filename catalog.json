@@ -43256,6 +43256,89 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "prague-charles-bridge",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "historic",
+        "gothic",
+        "stone-arch-bridge",
+        "statues",
+        "gate-tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "detail": "models/prague-charles-bridge.detail.glb",
+      "detailZoom": 16,
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "North view of Charles Bridge from Mánesův most, Prague 20160808 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:North_view_of_Charles_Bridge_from_M%C3%A1nes%C5%AFv_most,_Prague_20160808_1.jpg",
+          "author": "DXR",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Charles bridge from Vltava, Prague.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Charles_bridge_from_Vltava,_Prague.jpg",
+          "author": "Slyronit",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Praha Charles Bridge from Malá Strana Bridge Tower 20170430 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Praha_Charles_Bridge_from_Mal%C3%A1_Strana_Bridge_Tower_20170430_01.jpg",
+          "author": "Uoaei1",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Vltava, Charles Bridge, Old Town Bridge Tower and Church of St. Francis of Assisi",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Vltava,_Charles_Bridge,_Old_Town_Bridge_Tower_and_Church_of_St._Francis_of_Assisi._Prague,_Czech_Republic.jpg",
+          "author": "Ввласенко",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "20190816 Most Karola w Pradze 1713 5404 DxO.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20190816_Most_Karola_w_Pradze_1713_5404_DxO.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Prag, Karlsbrücke, Kleinseitner Brückenturm -- 2019 -- 6561.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prag,_Karlsbr%C3%BCcke,_Kleinseitner_Br%C3%BCckenturm_--_2019_--_6561.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Prag, Karlsbrücke, Altstädter Brückenturm -- 2019 -- 6566.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prag,_Karlsbr%C3%BCcke,_Altst%C3%A4dter_Br%C3%BCckenturm_--_2019_--_6566.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Malostranské mostecké věže v Praze.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Malostransk%C3%A9_mosteck%C3%A9_v%C4%9B%C5%BEe_v_Praze.jpg",
+          "author": "Jo Venezia",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/prague-charles-bridge.glb",
+      "source": "generators/prague-charles-bridge.ts"
+    },
+    {
       "id": "prague-dancing-house",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -68791,6 +68874,45 @@
         "way/577606076"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "prague-charles-bridge",
+      "name": "Charles Bridge",
+      "model": "prague-charles-bridge",
+      "place": "prague",
+      "lng": 14.41015,
+      "lat": 50.08663,
+      "bearing": 12.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q204871",
+      "replaces": [
+        "way/119016167",
+        "way/839278890",
+        "way/93479848",
+        "way/482247472",
+        "way/482247473",
+        "way/482247474",
+        "way/482247475",
+        "way/482247476",
+        "way/482247477",
+        "way/482247478",
+        "way/482247479",
+        "way/482310110",
+        "way/839278891",
+        "way/389652949",
+        "way/482310111",
+        "way/482310112",
+        "way/482310113",
+        "way/482310114",
+        "way/482310115",
+        "way/482310116",
+        "way/389652950",
+        "way/482310118",
+        "way/460016966",
+        "way/460016964",
+        "way/460016965"
+      ]
     },
     {
       "id": "prague-dancing-house",
