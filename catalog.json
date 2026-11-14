@@ -27606,6 +27606,67 @@
       "source": "generators/la-janss-steps.ts"
     },
     {
+      "id": "la-kerckhoff-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "university",
+        "collegiate-gothic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kerckhoff Hall",
+          "url": "https://commons.wikimedia.org/wiki/File:Kerckhoff_Hall.JPG",
+          "author": "Josh Lee",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Kerckhoff Hall behind tree",
+          "url": "https://commons.wikimedia.org/wiki/File:Kerckhoff_Hall_behind_tree.JPG",
+          "author": "Josh Lee",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Legally Blonde filming location at Kerckhoff Hall at UCLA",
+          "url": "https://commons.wikimedia.org/wiki/File:Legally_Blonde_filming_location_at_Kerckhoff_Hall_at_UCLA.jpg",
+          "author": "Logan Ward",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Kerckhoff Hall, UCLA (2007)",
+          "url": "https://commons.wikimedia.org/wiki/File:Kerckhoff_Hall,_UCLA_(2007).jpg",
+          "author": "Nikhil Kulkarni",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Kerkhoff Hall, night, UCLA",
+          "url": "https://commons.wikimedia.org/wiki/File:Kerkhoff_Hall,_night,_UCLA.jpg",
+          "author": "sebi ryffel",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/la-kerckhoff-hall.glb",
+      "source": "generators/la-kerckhoff-hall.ts"
+    },
+    {
       "id": "la-kia-forum",
       "file": "models/la-kia-forum.glb",
       "license": "CC0-1.0",
@@ -72413,6 +72474,21 @@
       "elevation": 0,
       "minzoom": 16,
       "replaces": []
+    },
+    {
+      "id": "la-kerckhoff-hall",
+      "name": "Kerckhoff Hall",
+      "model": "la-kerckhoff-hall",
+      "place": "ucla",
+      "lng": -118.44357,
+      "lat": 34.070435,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/422876581"
+      ],
+      "wikidata": "Q105414656"
     },
     {
       "id": "la-kia-forum",
