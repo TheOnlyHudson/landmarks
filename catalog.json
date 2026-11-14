@@ -33058,6 +33058,79 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "munich-deutsches-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "historic",
+        "tower"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Aerial image of the Deutsches Museum Munich.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_Deutsches_Museum_Munich.jpg",
+          "author": "Carsten Steger",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aerial image of the Deutsches Museum Munich (cropped to building).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_Deutsches_Museum_Munich_(cropped_to_building).jpg",
+          "author": "Carsten Steger",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Deutsches Museum Munich 2014 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Deutsches_Museum_Munich_2014_01.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Deutsches Museum - Isar.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Deutsches_Museum_-_Isar.jpg",
+          "author": "Tiia Monto",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "20230410 Deutsches Museum 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20230410_Deutsches_Museum_01.jpg",
+          "author": "Flocci Nivis",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Deutsches Museum in the Evening.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Deutsches_Museum_in_the_Evening.JPG",
+          "author": "Martin Falbisoner",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Deutsches Museum Portrait 4.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Deutsches_Museum_Portrait_4.jpg",
+          "author": "Burkhard Mücke",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/munich-deutsches-museum.glb",
+      "source": "generators/munich-deutsches-museum.ts"
+    },
+    {
       "id": "munich-schloss-nymphenburg",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -64269,6 +64342,40 @@
         "way/131139755"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "munich-deutsches-museum",
+      "name": "Deutsches Museum",
+      "model": "munich-deutsches-museum",
+      "place": "munich",
+      "lng": 11.5830455,
+      "lat": 48.1297894,
+      "bearing": 52,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/3866522",
+        "relation/11809799",
+        "relation/7293787",
+        "relation/7293788",
+        "relation/7293789",
+        "relation/11809800",
+        "way/867308786",
+        "way/865229092",
+        "way/865229093",
+        "relation/11809716",
+        "way/867309371",
+        "relation/11809718",
+        "relation/11809719",
+        "relation/11809717",
+        "way/1077052062",
+        "relation/11809538",
+        "relation/11809537",
+        "relation/11809536",
+        "relation/11809510",
+        "way/30046693"
+      ],
+      "wikidata": "Q131617"
     },
     {
       "id": "munich-schloss-nymphenburg",
