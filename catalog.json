@@ -43256,6 +43256,75 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "prague-dancing-house",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "deconstructivism",
+        "office",
+        "architecture"
+      ],
+      "reviewStatus": "unreviewed",
+      "detail": "models/prague-dancing-house.detail.glb",
+      "detailZoom": 17,
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Dancing House in Prague.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Dancing_House_in_Prague.jpg",
+          "author": "LenaSevcikova",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Dancing house in 2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dancing_house_in_2010.jpg",
+          "author": "Speedbump49",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Jiráskovo náměstí, Tatra T3R.P a Tančící dům.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jir%C3%A1skovo_n%C3%A1m%C4%9Bst%C3%AD,_Tatra_T3R.P_a_Tan%C4%8D%C3%ADc%C3%AD_d%C5%AFm.jpg",
+          "author": "Honza Groh (Jagro)",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Casa Danzante, Praga, República Checa, 2022-07-01, DD 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Danzante,_Praga,_Rep%C3%BAblica_Checa,_2022-07-01,_DD_01.jpg",
+          "author": "Diego Delso",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Prague - Dancing House (20743403790).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prague_-_Dancing_House_(20743403790).jpg",
+          "author": "Ștefan Jurcă",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Dancing House in Prague, at night.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dancing_House_in_Prague,_at_night.jpg",
+          "author": "Simon Lyngshede",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/prague-dancing-house.glb",
+      "source": "generators/prague-dancing-house.ts"
+    },
+    {
       "id": "queens-museum",
       "file": "models/queens-museum.glb",
       "license": "CC0-1.0",
@@ -68226,6 +68295,40 @@
         "way/577606076"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "prague-dancing-house",
+      "name": "Dancing House",
+      "model": "prague-dancing-house",
+      "place": "prague",
+      "lng": 14.41417,
+      "lat": 50.07543,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q244816",
+      "replaces": [
+        "relation/6751056",
+        "way/456783389",
+        "way/456783390",
+        "way/456783391",
+        "way/456783392",
+        "way/1201366338",
+        "way/1201366339",
+        "way/1201366340",
+        "way/1201366341",
+        "way/319383482",
+        "way/319383483",
+        "way/319383484",
+        "way/319383486",
+        "way/319383487",
+        "way/319383488",
+        "way/319383489",
+        "way/319383490",
+        "way/319383491",
+        "way/319383492",
+        "way/319383493"
+      ]
     },
     {
       "id": "queens-museum",
