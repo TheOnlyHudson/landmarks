@@ -33761,6 +33761,80 @@
       "source": "generators/munich-glyptothek.ts"
     },
     {
+      "id": "munich-hofbraeuhaus",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "beer-hall",
+        "restaurant",
+        "renaissance-revival",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "München Platzl 9 Hofbräuhaus BW 2017-03-13 19-12-27",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_Platzl_9_Hofbr%C3%A4uhaus_BW_2017-03-13_19-12-27.jpg",
+          "author": "Berthold Werner",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Hofbräuhaus am Platzl München",
+          "url": "https://commons.wikimedia.org/wiki/File:Hofbr%C3%A4uhaus_am_Platzl_M%C3%BCnchen.jpg",
+          "author": "H.Helmlechner",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "München, Hofbräuhaus am Platzl 01",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_Hofbr%C3%A4uhaus_am_Platzl_01.jpg",
+          "author": "Bayreuth2009",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "München, Hofbräuhaus am Platzl 02",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_Hofbr%C3%A4uhaus_am_Platzl_02.jpg",
+          "author": "Bayreuth2009",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "2023-02-03 Hofbräuhaus am Platzl 07",
+          "url": "https://commons.wikimedia.org/wiki/File:2023-02-03_Hofbr%C3%A4uhaus_am_Platzl_07.jpg",
+          "author": "Burkhard Mücke",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Hofbräuhaus München 2023",
+          "url": "https://commons.wikimedia.org/wiki/File:Hofbr%C3%A4uhaus_M%C3%BCnchen_2023.jpg",
+          "author": "Dr. Frank Gaeth",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "München, die Münzstraße mit Hofbräuhaus",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_die_M%C3%BCnzstra%C3%9Fe_mit_Hofbr%C3%A4uhaus.JPG",
+          "author": "Dguendel",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/munich-hofbraeuhaus.glb",
+      "source": "generators/munich-hofbraeuhaus.ts"
+    },
+    {
       "id": "munich-hvb-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65939,6 +66013,25 @@
         "relation/532621",
         "way/1576459171",
         "way/1576459172"
+      ]
+    },
+    {
+      "id": "munich-hofbraeuhaus",
+      "name": "Hofbräuhaus am Platzl",
+      "model": "munich-hofbraeuhaus",
+      "place": "munich",
+      "lng": 11.579929,
+      "lat": 48.137636,
+      "bearing": -51,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q152971",
+      "replaces": [
+        "way/1273939826",
+        "way/1273939823",
+        "way/1273939822",
+        "way/1273939825",
+        "way/1273939824"
       ]
     },
     {
