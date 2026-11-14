@@ -72188,6 +72188,12 @@
       "wikidata": "Q1489"
     },
     {
+      "id": "munich",
+      "name": "Munich",
+      "kind": "city",
+      "wikidata": "Q1726"
+    },
+    {
       "id": "new-york-area",
       "name": "New York metropolitan area",
       "kind": "region"
