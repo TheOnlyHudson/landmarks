@@ -43558,6 +43558,69 @@
       "source": "generators/prague-national-theatre.ts"
     },
     {
+      "id": "prague-old-town-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "gothic",
+        "town-hall",
+        "clock-tower",
+        "astronomical-clock"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "20190816 Ratusz staromiejski w Pradze 1147 5234.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20190816_Ratusz_staromiejski_w_Pradze_1147_5234.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Prague Old Town Square, Czech Republic - Oct 2010.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prague_Old_Town_Square,_Czech_Republic_-_Oct_2010.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Old Town Hall Prague September 2016-1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Town_Hall_Prague_September_2016-1.jpg",
+          "author": "Alvesgaspar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Prague Town Hall Clock 2021 16.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prague_Town_Hall_Clock_2021_16.jpg",
+          "author": "Scotch Mist",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Prag, Altstädter Rathaus -- 2019 -- 6723.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prag,_Altst%C3%A4dter_Rathaus_--_2019_--_6723.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/prague-old-town-hall.glb",
+      "source": "generators/prague-old-town-hall.ts"
+    },
+    {
       "id": "prague-petrin-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -69048,6 +69111,42 @@
         "way/481972520",
         "way/565056632",
         "way/565056633"
+      ]
+    },
+    {
+      "id": "prague-old-town-hall",
+      "name": "Old Town Hall and Astronomical Clock",
+      "model": "prague-old-town-hall",
+      "place": "prague",
+      "lng": 14.42029,
+      "lat": 50.08698,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/255771323",
+        "way/754559121",
+        "way/754559123",
+        "way/754559124",
+        "way/479289484",
+        "way/479289485",
+        "way/479289486",
+        "way/479289487",
+        "way/479289488",
+        "way/1229641326",
+        "way/391354925",
+        "way/481986568",
+        "way/481986569",
+        "way/481986570",
+        "way/481986571",
+        "way/481986572",
+        "way/481986573",
+        "way/481986574",
+        "way/482235438",
+        "way/462411198",
+        "way/462411199",
+        "way/321115101",
+        "way/482235437"
       ]
     },
     {
