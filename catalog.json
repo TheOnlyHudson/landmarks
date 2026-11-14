@@ -27227,6 +27227,89 @@
       "detailZoom": 16
     },
     {
+      "id": "london-wellington-arch",
+      "file": "models/london-wellington-arch.glb",
+      "source": "generators/london-wellington-arch.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "triumphal-arch",
+        "sculpture",
+        "quadriga",
+        "neoclassical",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Wellington Arch, Hyde Park Corner (2)",
+          "url": "https://commons.wikimedia.org/wiki/File:Wellington_Arch,_Hyde_Park_Corner_(2).jpg",
+          "author": "Harry Mitchell",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Wellington Arch, Hyde Park Corner (4)",
+          "url": "https://commons.wikimedia.org/wiki/File:Wellington_Arch,_Hyde_Park_Corner_(4).jpg",
+          "author": "Harry Mitchell",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Wellington Monument, Wellington Arch Hyde Park Corner City of Westminster 1231514, 1278092 20230821 0061",
+          "url": "https://commons.wikimedia.org/wiki/File:Wellington_Monument,_Wellington_Arch_Hyde_Park_Corner_City_of_Westminster_1231514,_1278092_20230821_0061.jpg",
+          "author": "Tilman2007",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Wellington Arch Quadriga (Detail)",
+          "url": "https://commons.wikimedia.org/wiki/File:Wellington_Arch_Quadriga_(Detail).jpg",
+          "author": "Phlizz",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Quadriga, Wellington Arch - 2012-12-27",
+          "url": "https://commons.wikimedia.org/wiki/File:Quadriga,_Wellington_Arch_-_2012-12-27.jpg",
+          "author": "Daniel X. O'Neil",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Quadriga, Wellington Arch, London",
+          "url": "https://commons.wikimedia.org/wiki/File:Quadriga,_Wellington_Arch,_London.jpg",
+          "author": "Eluveitie",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "View of Quadriga from the West Viewing Platform of the Wellington Arch (01)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Quadriga_from_the_West_Viewing_Platform_of_the_Wellington_Arch_(01).jpg",
+          "author": "Doyle of London",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View of Quadriga from the East Viewing Platform of the Wellington Arch (01)",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Quadriga_from_the_East_Viewing_Platform_of_the_Wellington_Arch_(01).jpg",
+          "author": "Doyle of London",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "detail": "models/london-wellington-arch.detail.glb",
+      "detailZoom": 16
+    },
+    {
       "id": "london-westminster-abbey",
       "file": "models/london-westminster-abbey.glb",
       "source": "generators/london-westminster-abbey.ts",
@@ -58309,6 +58392,21 @@
         "way/554703203",
         "way/554703204",
         "way/554703205"
+      ]
+    },
+    {
+      "id": "london-wellington-arch",
+      "name": "Wellington Arch",
+      "model": "london-wellington-arch",
+      "place": "london",
+      "lng": -0.150818,
+      "lat": 51.502536,
+      "bearing": 1.6,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q526804",
+      "replaces": [
+        "way/24923117"
       ]
     },
     {
