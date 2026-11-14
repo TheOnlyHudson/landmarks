@@ -26529,6 +26529,94 @@
       "detailZoom": 16
     },
     {
+      "id": "london-millennium-bridge",
+      "file": "models/london-millennium-bridge.glb",
+      "detail": "models/london-millennium-bridge.detail.glb",
+      "detailZoom": 16,
+      "source": "generators/london-millennium-bridge.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "footbridge",
+        "suspension-bridge",
+        "thames",
+        "high-tech"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "From the top of St Paul's Cathedral - Looking down at the Millennium Bridge (geograph 8158026)",
+          "url": "https://commons.wikimedia.org/wiki/File:From_the_top_of_St_Paul%27s_Cathedral_-_Looking_down_at_the_Millennium_Bridge_-_geograph.org.uk_-_8158026.jpg",
+          "author": "Chris Gorringe",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "2017 London Millennium Bridge from tour boat 01",
+          "url": "https://commons.wikimedia.org/wiki/File:2017_London_Millennium_Bridge_from_tour_boat_01.jpg",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Millennium Bridge from the Tate Modern, London (geograph 5416819)",
+          "url": "https://commons.wikimedia.org/wiki/File:Millennium_Bridge_from_the_Tate_Modern,_London_-_geograph.org.uk_-_5416819.jpg",
+          "author": "Christine Matthews",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Millennium Bridge and St Paul's Cathedral from the Tate Modern (geograph 1882810)",
+          "url": "https://commons.wikimedia.org/wiki/File:Millennium_Bridge_and_St_Paul%27s_Cathedral_from_the_Tate_Modern_-_geograph.org.uk_-_1882810.jpg",
+          "author": "Robert Lamb",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "End of the Millennium Bridge",
+          "url": "https://commons.wikimedia.org/wiki/File:End_of_the_Millennium_Bridge.jpg",
+          "author": "Matt Brown",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Millennium Bridge River Thames London England from Paul's Walk 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Millennium_Bridge_River_Thames_London_England_from_Paul%27s_Walk_01.jpg",
+          "author": "Acabashi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Millennium Bridge River Thames London England from Paul's Walk 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Millennium_Bridge_River_Thames_London_England_from_Paul%27s_Walk_03.jpg",
+          "author": "Acabashi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "London Millennium Bridge at night 2025-01-24",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Millennium_Bridge_at_night_2025-01-24.jpg",
+          "author": "LimeSpiked",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Environment Agency LIDAR Composite DSM/DTM 1 m",
+          "url": "https://environment.data.gov.uk/dataset/9ba4d5ac-d596-445a-9056-dae3ddec0178",
+          "author": "Environment Agency",
+          "license": "OGL-UK-3.0"
+        }
+      ]
+    },
+    {
       "id": "london-national-gallery",
       "file": "models/london-national-gallery.glb",
       "detail": "models/london-national-gallery.detail.glb",
@@ -58926,6 +59014,27 @@
       "wikidata": "Q845529",
       "replaces": [
         "way/41772567"
+      ]
+    },
+    {
+      "id": "london-millennium-bridge",
+      "name": "Millennium Bridge",
+      "model": "london-millennium-bridge",
+      "place": "london",
+      "lng": -0.0985194,
+      "lat": 51.5096933,
+      "bearing": 2.41,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q44057",
+      "replaces": [
+        "relation/10224724",
+        "way/659424463",
+        "way/166458268",
+        "way/166458270",
+        "way/166319260",
+        "way/166319319",
+        "relation/5606794"
       ]
     },
     {
