@@ -34392,6 +34392,88 @@
       "source": "generators/munich-schloss-nymphenburg.ts"
     },
     {
+      "id": "munich-siegestor",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "triumphal-arch",
+        "quadriga",
+        "sculpture",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Puerta de la Victoria, Múnich, Alemania, 2012-04-30, DD 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Puerta_de_la_Victoria,_M%C3%BAnich,_Alemania,_2012-04-30,_DD_01.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Puerta de la Victoria, Múnich, Alemania, 2012-04-30, DD 03",
+          "url": "https://commons.wikimedia.org/wiki/File:Puerta_de_la_Victoria,_M%C3%BAnich,_Alemania,_2012-04-30,_DD_03.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "20221007 Siegestor 01",
+          "url": "https://commons.wikimedia.org/wiki/File:20221007_Siegestor_01.jpg",
+          "author": "Flocci Nivis",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Quadriga Siegestor",
+          "url": "https://commons.wikimedia.org/wiki/File:Quadriga_Siegestor.jpg",
+          "author": "Olli1800",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Muestquadriga062019c99",
+          "url": "https://commons.wikimedia.org/wiki/File:Muestquadriga062019c99.jpg",
+          "author": "Fentriss",
+          "license": "CC0"
+        },
+        {
+          "title": "München - Siegestor",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Siegestor.jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "München, Siegestor v S, 13",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_Siegestor_v_S,_13.jpeg",
+          "author": "Renardo la vulpo",
+          "license": "CC0"
+        },
+        {
+          "title": "Siegestor Munich at Dusk",
+          "url": "https://commons.wikimedia.org/wiki/File:Siegestor_Munich_at_Dusk.JPG",
+          "author": "Martin Falbisoner",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "detail": "models/munich-siegestor.detail.glb",
+      "detailZoom": 17,
+      "file": "models/munich-siegestor.glb",
+      "source": "generators/munich-siegestor.ts"
+    },
+    {
       "id": "munich-st-peter",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -66489,6 +66571,21 @@
         "way/311978910",
         "relation/12127738",
         "relation/12127745"
+      ]
+    },
+    {
+      "id": "munich-siegestor",
+      "name": "Siegestor",
+      "model": "munich-siegestor",
+      "place": "munich",
+      "lng": 11.58214,
+      "lat": 48.15235,
+      "bearing": 18.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q254294",
+      "replaces": [
+        "way/22727580"
       ]
     },
     {
