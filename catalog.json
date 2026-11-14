@@ -27867,6 +27867,80 @@
       ]
     },
     {
+      "id": "london-tottenham-hotspur-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "stadium",
+        "football",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q55074091",
+      "references": [
+        {
+          "title": "London Tottenham Hotspur Stadium",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Tottenham_Hotspur_Stadium.jpg",
+          "author": "Arne Müseler",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "Spurs cockerel on the roof at Tottenham Hotspur Stadium 2020",
+          "url": "https://commons.wikimedia.org/wiki/File:Spurs_cockerel_on_the_roof_at_Tottenham_Hotspur_Stadium_2020.jpg",
+          "author": "Hzh",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tottenham Hotspur Stadium - view from High Road - June 2019",
+          "url": "https://commons.wikimedia.org/wiki/File:Tottenham_Hotspur_Stadium_-_view_from_High_Road_-_June_2019.jpg",
+          "author": "Hzh",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tottenham Hotspur Stadium June 2019, view from East",
+          "url": "https://commons.wikimedia.org/wiki/File:Tottenham_Hotspur_Stadium_June_2019,_view_from_East.jpg",
+          "author": "Hzh",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tottenham Hotspur Stadium",
+          "url": "https://commons.wikimedia.org/wiki/File:Tottenham_Hotspur_Stadium.jpg",
+          "author": "Stadium spotter",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tottenham Hotspur Stadium Dec 2022 - DxO",
+          "url": "https://commons.wikimedia.org/wiki/File:Tottenham_Hotspur_Stadium_Dec_2022_-_DxO.jpg",
+          "author": "Acabashi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Tottenham Hotspur Stadium South Stand",
+          "url": "https://commons.wikimedia.org/wiki/File:Tottenham_Hotspur_Stadium_South_Stand.jpg",
+          "author": "Bluejam",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/london-tottenham-hotspur-stadium.glb",
+      "source": "generators/london-tottenham-hotspur-stadium.ts"
+    },
+    {
       "id": "london-tower-bridge",
       "file": "models/london-tower-bridge.glb",
       "detail": "models/london-tower-bridge.detail.glb",
@@ -59595,6 +59669,22 @@
         "way/666124831",
         "way/666124832"
       ]
+    },
+    {
+      "id": "london-tottenham-hotspur-stadium",
+      "name": "Tottenham Hotspur Stadium",
+      "model": "london-tottenham-hotspur-stadium",
+      "place": "london",
+      "lng": -0.0662354,
+      "lat": 51.6041771,
+      "bearing": 357.4,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/7708006",
+        "way/538300255"
+      ],
+      "wikidata": "Q55074091"
     },
     {
       "id": "london-tower-bridge",
