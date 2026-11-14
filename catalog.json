@@ -33696,6 +33696,77 @@
       "source": "generators/munich-frauenkirche.ts"
     },
     {
+      "id": "munich-friedensengel",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "column",
+        "statue",
+        "sculpture",
+        "terrace",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Luitpold terrasse with drone",
+          "url": "https://commons.wikimedia.org/wiki/File:Luitpold_terrasse_with_drone.jpg",
+          "author": "AuHaidhausen",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Friedensengel, München",
+          "url": "https://commons.wikimedia.org/wiki/File:Friedensengel,_M%C3%BCnchen.jpg",
+          "author": "S nova",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "München-Bogenhausen Friedensengel 186",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen-Bogenhausen_Friedensengel_186.jpg",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Muefriedensengel04072013d95b1",
+          "url": "https://commons.wikimedia.org/wiki/File:Muefriedensengel04072013d95b1.jpg",
+          "author": "Fentriss",
+          "license": "CC0"
+        },
+        {
+          "title": "Friedensengel Muenchen-14",
+          "url": "https://commons.wikimedia.org/wiki/File:Friedensengel_Muenchen-14.jpg",
+          "author": "Rufus46",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "München - Friedensengel mit Fontäne (tone-mapping)",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Friedensengel_mit_Font%C3%A4ne_(tone-mapping).jpg",
+          "author": "Guido Radig",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "detail": "models/munich-friedensengel.detail.glb",
+      "detailZoom": 17,
+      "file": "models/munich-friedensengel.glb",
+      "source": "generators/munich-friedensengel.ts"
+    },
+    {
       "id": "munich-glyptothek",
       "detail": "models/munich-glyptothek.detail.glb",
       "detailZoom": 17,
@@ -66231,6 +66302,37 @@
         "way/222512600",
         "way/222512601",
         "way/222512602"
+      ]
+    },
+    {
+      "id": "munich-friedensengel",
+      "name": "Friedensengel",
+      "model": "munich-friedensengel",
+      "place": "munich",
+      "lng": 11.596993,
+      "lat": 48.141344,
+      "bearing": 18.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q504642",
+      "replaces": [
+        "way/48441018",
+        "way/256336566",
+        "way/256182387",
+        "way/256182388",
+        "way/256182389",
+        "way/256182390",
+        "way/256182392",
+        "way/256182393",
+        "way/256182394",
+        "way/256182395",
+        "way/256182396",
+        "way/256182397",
+        "way/256182398",
+        "way/256182399",
+        "way/256182400",
+        "way/256182401",
+        "way/256182402"
       ]
     },
     {
