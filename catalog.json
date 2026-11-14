@@ -25387,6 +25387,101 @@
       "detailZoom": 16
     },
     {
+      "id": "london-arcelormittal-orbit",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "observation-tower",
+        "sculpture",
+        "olympic-park",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "detail": "models/london-arcelormittal-orbit.detail.glb",
+      "detailZoom": 16,
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q631871",
+      "references": [
+        {
+          "title": "ArcelorMittal Orbit - geograph.org.uk - 3372259",
+          "url": "https://commons.wikimedia.org/wiki/File:ArcelorMittal_Orbit_-_geograph.org.uk_-_3372259.jpg",
+          "author": "Mr Biz",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "ArcelorMittal Orbit and access to the stadium - geograph.org.uk - 5077128",
+          "url": "https://commons.wikimedia.org/wiki/File:ArcelorMittal_Orbit_and_access_to_the_stadium_-_geograph.org.uk_-_5077128.jpg",
+          "author": "David Smith",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "ArcelorMittal Orbit - geograph.org.uk - 6402523",
+          "url": "https://commons.wikimedia.org/wiki/File:ArcelorMittal_Orbit_-_geograph.org.uk_-_6402523.jpg",
+          "author": "Ian S",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "ArcelorMittal Orbit, Queen Elizabeth Olympic Park - geograph.org.uk - 6559856",
+          "url": "https://commons.wikimedia.org/wiki/File:ArcelorMittal_Orbit,_Queen_Elizabeth_Olympic_Park_-_geograph.org.uk_-_6559856.jpg",
+          "author": "Oast House Archive",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "ArcelorMittal Orbit - geograph.org.uk - 6220805",
+          "url": "https://commons.wikimedia.org/wiki/File:ArcelorMittal_Orbit_-_geograph.org.uk_-_6220805.jpg",
+          "author": "Ian Capper",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "ArcelorMittal Orbit, Olympic Park - geograph.org.uk - 7405842",
+          "url": "https://commons.wikimedia.org/wiki/File:ArcelorMittal_Orbit,_Olympic_Park_-_geograph.org.uk_-_7405842.jpg",
+          "author": "Bryn Holmes",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "ArcelorMittal Orbit from Victoria Park 2024-08-02",
+          "url": "https://commons.wikimedia.org/wiki/File:ArcelorMittal_Orbit_from_Victoria_Park_2024-08-02.jpg",
+          "author": "Matt Brown",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "ArcelorMittal Orbit 08112025 (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:ArcelorMittal_Orbit_08112025_(1).jpg",
+          "author": "Timmy96",
+          "license": "CC0"
+        },
+        {
+          "title": "ArcelorMittal Orbit 2015",
+          "url": "https://commons.wikimedia.org/wiki/File:ArcelorMittal_Orbit_2015.jpg",
+          "author": "Barney Moss",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Orbit2",
+          "url": "https://commons.wikimedia.org/wiki/File:Orbit2.jpg",
+          "author": "Danesman1",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/london-arcelormittal-orbit.glb",
+      "source": "generators/london-arcelormittal-orbit.ts"
+    },
+    {
       "id": "london-british-museum",
       "file": "models/london-british-museum.glb",
       "detail": "models/london-british-museum.detail.glb",
@@ -57296,6 +57391,21 @@
         "way/372965960",
         "way/372965961"
       ]
+    },
+    {
+      "id": "london-arcelormittal-orbit",
+      "name": "ArcelorMittal Orbit",
+      "model": "london-arcelormittal-orbit",
+      "place": "london",
+      "lng": -0.0130133,
+      "lat": 51.5382909,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/149637725"
+      ],
+      "wikidata": "Q631871"
     },
     {
       "id": "london-british-museum",
