@@ -44472,6 +44472,57 @@
       ]
     },
     {
+      "id": "seoul-kspo-dome",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "arena",
+        "dome",
+        "cable-dome",
+        "sports",
+        "1988-olympics"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Seoul Olympic Park from Lotte World Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_Olympic_Park_from_Lotte_World_Tower.jpg",
+          "author": "Tristan Surtel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "View of Seoul Olympic Park from the Lotte World Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Seoul_Olympic_Park_from_the_Lotte_World_Tower.jpg",
+          "author": "Christophe95",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Interior of gymnastics arena",
+          "url": "https://www.flickr.com/photos/37996647372@N01/2812629703",
+          "author": "bryangeek",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/seoul-kspo-dome.glb",
+      "source": "generators/seoul-kspo-dome.ts"
+    },
+    {
       "id": "seoul-kyobo-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -66845,6 +66896,21 @@
         "way/772263219",
         "way/772263220",
         "way/772263221"
+      ]
+    },
+    {
+      "id": "seoul-kspo-dome",
+      "name": "KSPO Dome",
+      "model": "seoul-kspo-dome",
+      "place": "seoul",
+      "lng": 127.1274701,
+      "lat": 37.5192312,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q487224",
+      "replaces": [
+        "way/75956855"
       ]
     },
     {
