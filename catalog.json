@@ -33598,6 +33598,71 @@
       "source": "generators/munich-frauenkirche.ts"
     },
     {
+      "id": "munich-glyptothek",
+      "detail": "models/munich-glyptothek.detail.glb",
+      "detailZoom": 17,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "neoclassical",
+        "historic",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q162077",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Glyptothek München Front.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Glyptothek_M%C3%BCnchen_Front.JPG",
+          "author": "Martin Falbisoner",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "20221202 Glyptothek Munich.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20221202_Glyptothek_Munich.jpg",
+          "author": "Flocci Nivis",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Glyptothek, Königsplatz, Múnich, Alemania06.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Glyptothek,_K%C3%B6nigsplatz,_M%C3%BAnich,_Alemania06.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "München Glyptothek Seite.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_Glyptothek_Seite.jpg",
+          "author": "Andreas Praefcke",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Exterior of Glyptothek (München)-rear facade.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Glyptothek_(M%C3%BCnchen)-rear_facade.jpg",
+          "author": "Yair Haklai",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/munich-glyptothek.glb",
+      "source": "generators/munich-glyptothek.ts"
+    },
+    {
       "id": "munich-neues-rathaus",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65508,6 +65573,23 @@
         "way/222512600",
         "way/222512601",
         "way/222512602"
+      ]
+    },
+    {
+      "id": "munich-glyptothek",
+      "name": "Glyptothek",
+      "model": "munich-glyptothek",
+      "place": "munich",
+      "lng": 11.5658254,
+      "lat": 48.1465609,
+      "bearing": 23.1,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q162077",
+      "replaces": [
+        "relation/532621",
+        "way/1576459171",
+        "way/1576459172"
       ]
     },
     {
