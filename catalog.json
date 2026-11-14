@@ -25641,6 +25641,75 @@
       "source": "generators/london-arcelormittal-orbit.ts"
     },
     {
+      "id": "london-battersea-power-station",
+      "file": "models/london-battersea-power-station.glb",
+      "source": "generators/london-battersea-power-station.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "power-station",
+        "art-deco",
+        "brick",
+        "historic",
+        "shopping-centre"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Helicopter Trip views 24th August 2022 - 11",
+          "url": "https://commons.wikimedia.org/wiki/File:Helicopter_Trip_views_24th_August_2022_-_11.jpg",
+          "author": "Brian Adamson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Battersea Power Station front 2023",
+          "url": "https://commons.wikimedia.org/wiki/File:Battersea_Power_Station_front_2023.jpg",
+          "author": "Bartholomeus Thoth",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Battersea Power Station (6) - 2022-04-30",
+          "url": "https://commons.wikimedia.org/wiki/File:Battersea_Power_Station_(6)_-_2022-04-30.jpg",
+          "author": "The wub",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Grosvenor Bridge and Battersea Power Station (geograph 8256373)",
+          "url": "https://commons.wikimedia.org/wiki/File:Grosvenor_Bridge_and_Battersea_Power_Station_-_geograph.org.uk_-_8256373.jpg",
+          "author": "Steve Daniels",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Battersea Power Station 40",
+          "url": "https://commons.wikimedia.org/wiki/File:Battersea_Power_Station_40.jpg",
+          "author": "Francisco Anzola",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Environment Agency LIDAR Composite DSM/DTM 1 m",
+          "url": "https://environment.data.gov.uk/dataset/9ba4d5ac-d596-445a-9056-dae3ddec0178",
+          "author": "Environment Agency",
+          "license": "OGL-UK-3.0"
+        }
+      ]
+    },
+    {
       "id": "london-british-museum",
       "file": "models/london-british-museum.glb",
       "detail": "models/london-british-museum.detail.glb",
@@ -58431,6 +58500,33 @@
         "way/149637725"
       ],
       "wikidata": "Q631871"
+    },
+    {
+      "id": "london-battersea-power-station",
+      "name": "Battersea Power Station",
+      "model": "london-battersea-power-station",
+      "place": "london",
+      "lng": -0.1445137,
+      "lat": 51.4817302,
+      "bearing": 12.4,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q810953",
+      "replaces": [
+        "way/4965216",
+        "way/223254725",
+        "way/223255111",
+        "way/223255300",
+        "way/223255478",
+        "way/452939926",
+        "way/452939927",
+        "way/452939928",
+        "way/452939929",
+        "way/452939930",
+        "way/452939931",
+        "way/452939932",
+        "way/452939933"
+      ]
     },
     {
       "id": "london-british-museum",
