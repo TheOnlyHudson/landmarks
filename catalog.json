@@ -33909,6 +33909,92 @@
       "source": "generators/munich-hvb-tower.ts"
     },
     {
+      "id": "munich-isartor",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "city-gate",
+        "medieval",
+        "fresco",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Isartor, Múnich, Alemania, 2024-04-02, DD 06",
+          "url": "https://commons.wikimedia.org/wiki/File:Isartor,_M%C3%BAnich,_Alemania,_2024-04-02,_DD_06.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Isartor, Múnich, Alemania, 2024-04-02, DD 05",
+          "url": "https://commons.wikimedia.org/wiki/File:Isartor,_M%C3%BAnich,_Alemania,_2024-04-02,_DD_05.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Isartor München, ohne Autos",
+          "url": "https://commons.wikimedia.org/wiki/File:Isartor_M%C3%BCnchen,_ohne_Autos.jpg",
+          "author": "Burkhard Mücke",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "München, Isartor -- 2011 -- 1011",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_Isartor_--_2011_--_1011.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Isartor (München) - Panorama",
+          "url": "https://commons.wikimedia.org/wiki/File:Isartor_(M%C3%BCnchen)_-_Panorama.jpg",
+          "author": "Guido Radig",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Innenhof Isartor München 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Innenhof_Isartor_M%C3%BCnchen_01.jpg",
+          "author": "Burkhard Mücke",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "München, die Straße Tal, Blick zum Isartor",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_die_Stra%C3%9Fe_%22Tal%22,_Blick_zum_Isartor.JPG",
+          "author": "Dguendel",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Rückseite Isartor München von Tal aus",
+          "url": "https://commons.wikimedia.org/wiki/File:R%C3%BCckseite_Isartor_M%C3%BCnchen_von_Tal_aus_mit_Coffee_Fellows_und_Hotel_Torbr%C3%A4u_2023-10-30.jpg",
+          "author": "Strubbl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "München-Altstadt Isartor 704",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen-Altstadt_Isartor_704.jpg",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/munich-isartor.glb",
+      "source": "generators/munich-isartor.ts"
+    },
+    {
       "id": "munich-karlstor",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -66209,6 +66295,34 @@
         "way/196660574",
         "way/196660575",
         "way/211450796"
+      ]
+    },
+    {
+      "id": "munich-isartor",
+      "name": "Isartor",
+      "model": "munich-isartor",
+      "place": "munich",
+      "lng": 11.581787,
+      "lat": 48.135116,
+      "bearing": -36.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q260660",
+      "replaces": [
+        "relation/6035286",
+        "way/30982596",
+        "way/222558900",
+        "way/222558901",
+        "way/222558902",
+        "way/402399610",
+        "way/402399611",
+        "way/402456104",
+        "way/402456105",
+        "way/402456106",
+        "way/402456107",
+        "way/402456108",
+        "way/402456109",
+        "way/402456110"
       ]
     },
     {
