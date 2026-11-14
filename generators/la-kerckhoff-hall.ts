@@ -73,7 +73,7 @@
  * pavilion's canted bay from the OSM outline. The tower's east face is
  * drawn like its north face above the range.
  */
-import { Part, type V3 } from './mesh'
+import { Part, type MaterialSpec, type V3 } from './mesh'
 import { PALETTE, finish } from './palette'
 import { type XY, rect, prism, panel, archPanel, cap, cylinder, save, wallLen, onWall, walls } from './la-getty-center'
 
@@ -674,9 +674,12 @@ function buildKerckhoff() {
     return 0
   }
 
+  // Typed apart: `save` takes a Swatch, and the floodlight field rides along to writeGlb.
+  const brickLit: MaterialSpec = { ...finish('kerckhoff-brick', 0xbb897b), floodlight: lit }
+  const stoneLit: MaterialSpec = { ...finish('kerckhoff-stone', 0xe2d8c5), floodlight: lit }
   save('la-kerckhoff-hall', 'Kerckhoff Hall', [
-    { part: brick, material: { ...finish('kerckhoff-brick', 0xbb897b), floodlight: lit } },
-    { part: stone, material: { ...finish('kerckhoff-stone', 0xe2d8c5), floodlight: lit } },
+    { part: brick, material: brickLit },
+    { part: stone, material: stoneLit },
     { part: roof, material: finish('kerckhoff-roof', 0xaeaca5) },
     { part: win, material: { ...PALETTE.window, color: 0x5f6870 } },
     { part: door, material: PALETTE.entrance },
