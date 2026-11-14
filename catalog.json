@@ -33197,6 +33197,77 @@
       "source": "generators/munich-altes-rathaus.ts"
     },
     {
+      "id": "munich-bavaria",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "statue",
+        "sculpture",
+        "colonnade",
+        "neoclassical",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Bavaria Statue and Ruhmeshalle Munich, April 2019 -01",
+          "url": "https://commons.wikimedia.org/wiki/File:Bavaria_Statue_and_Ruhmeshalle_Munich,_April_2019_-01.jpg",
+          "author": "Martin Falbisoner",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bavaria, Patronin von Bayern",
+          "url": "https://commons.wikimedia.org/wiki/File:Bavaria,_Patronin_von_Bayern.jpg",
+          "author": "Karl Schillinger",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "München-Schwanthalerhöhe Bavaria 670",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen-Schwanthalerh%C3%B6he_Bavaria_670.jpg",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Ruhmeshalle und Bavaria München Schwanthalerhöhe",
+          "url": "https://commons.wikimedia.org/wiki/File:Ruhmeshalle_und_Bavaria_M%C3%BCnchen_Schwanthalerh%C3%B6he.jpg",
+          "author": "Schlaier",
+          "license": "Public domain"
+        },
+        {
+          "title": "2407 - München - Bavaria Statue",
+          "url": "https://commons.wikimedia.org/wiki/File:2407_-_M%C3%BCnchen_-_Bavaria_Statue.JPG",
+          "author": "Andrew Bossi",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Munich Bavaria im Gegenlicht (Luftaufnahme)",
+          "url": "https://commons.wikimedia.org/wiki/File:Munich_Bavaria_im_Gegenlicht_(Luftaufnahme).jpg",
+          "author": "Bahnmoeller",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "detail": "models/munich-bavaria.detail.glb",
+      "detailZoom": 17,
+      "file": "models/munich-bavaria.glb",
+      "source": "generators/munich-bavaria.ts"
+    },
+    {
       "id": "munich-bmw-museum",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -66126,6 +66197,24 @@
         "way/291585569",
         "way/291585570",
         "way/291585572"
+      ]
+    },
+    {
+      "id": "munich-bavaria",
+      "name": "Bavaria and Ruhmeshalle",
+      "model": "munich-bavaria",
+      "place": "munich",
+      "lng": 11.545742,
+      "lat": 48.130712,
+      "bearing": 10.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/400345387",
+        "way/28683728",
+        "way/305422543",
+        "way/305421905",
+        "way/1544870146"
       ]
     },
     {
