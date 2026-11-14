@@ -33207,6 +33207,64 @@
       "source": "generators/munich-deutsches-museum.ts"
     },
     {
+      "id": "munich-olympiaturm",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tower",
+        "communications-tower",
+        "observation-deck",
+        "olympic",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q599148",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Olympiaturm Munich 2014 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympiaturm_Munich_2014_01.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Olympiaturm Munich 2014 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympiaturm_Munich_2014_02.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "München, Olympiaturm -- 2011 -- 1015.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_Olympiaturm_--_2011_--_1015.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "München - Olympiapark (Luftbild).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Olympiapark_(Luftbild).jpg",
+          "author": "Maximilian Dörrbecker (Chumwa)",
+          "license": "CC BY-SA 2.5"
+        }
+      ],
+      "file": "models/munich-olympiaturm.glb",
+      "source": "generators/munich-olympiaturm.ts"
+    },
+    {
       "id": "munich-schloss-nymphenburg",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -64632,6 +64690,23 @@
         "way/30046693"
       ],
       "wikidata": "Q131617"
+    },
+    {
+      "id": "munich-olympiaturm",
+      "name": "Olympiaturm",
+      "model": "munich-olympiaturm",
+      "place": "munich",
+      "lng": 11.5537639,
+      "lat": 48.1744112,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "way/164084344",
+        "way/18894695",
+        "way/164084343",
+        "way/1049578248"
+      ]
     },
     {
       "id": "munich-schloss-nymphenburg",
