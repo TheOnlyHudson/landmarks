@@ -28258,6 +28258,89 @@
       "detailZoom": 16
     },
     {
+      "id": "london-wembley-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "stadium",
+        "football",
+        "arch",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "detail": "models/london-wembley-stadium.detail.glb",
+      "detailZoom": 17,
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q128468",
+      "references": [
+        {
+          "title": "London Wembley",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Wembley.jpg",
+          "author": "Arne Müseler",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "Wembley Stadium from the air - geograph.org.uk - 5891299",
+          "url": "https://commons.wikimedia.org/wiki/File:Wembley_Stadium_from_the_air_-_geograph.org.uk_-_5891299.jpg",
+          "author": "Mike Pennington",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Cmglee London Wembley aerial",
+          "url": "https://commons.wikimedia.org/wiki/File:Cmglee_London_Wembley_aerial.jpg",
+          "author": "Cmglee",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "New Wembley Stadium and Arch from Olympic Way - geograph.org.uk - 2406320",
+          "url": "https://commons.wikimedia.org/wiki/File:New_Wembley_Stadium_and_Arch_from_Olympic_Way_-_geograph.org.uk_-_2406320.jpg",
+          "author": "David Hawgood",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Wembley Stadium - geograph.org.uk - 2281511",
+          "url": "https://commons.wikimedia.org/wiki/File:Wembley_Stadium_-_geograph.org.uk_-_2281511.jpg",
+          "author": "David Howard",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Wembley Stadium, north stand and the arch - geograph.org.uk - 6440986",
+          "url": "https://commons.wikimedia.org/wiki/File:Wembley_Stadium,_north_stand_and_the_arch_-_geograph.org.uk_-_6440986.jpg",
+          "author": "Christopher Hilton",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Wembley Stadium aerial 2011",
+          "url": "https://commons.wikimedia.org/wiki/File:Wembley_Stadium_aerial_2011.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        },
+        {
+          "title": "Wembley Stadium. London (26986246028)",
+          "url": "https://commons.wikimedia.org/wiki/File:Wembley_Stadium._London_(26986246028).jpg",
+          "author": "Mike McBey",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/london-wembley-stadium.glb",
+      "source": "generators/london-wembley-stadium.ts"
+    },
+    {
       "id": "london-westminster-abbey",
       "file": "models/london-westminster-abbey.glb",
       "source": "generators/london-westminster-abbey.ts",
@@ -59620,6 +59703,25 @@
       "replaces": [
         "way/24923117"
       ]
+    },
+    {
+      "id": "london-wembley-stadium",
+      "name": "Wembley Stadium",
+      "model": "london-wembley-stadium",
+      "place": "london",
+      "lng": -0.2796,
+      "lat": 51.556038,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "relation/912489",
+        "relation/12942436",
+        "way/27784957",
+        "way/116537666",
+        "way/377915368"
+      ],
+      "wikidata": "Q128468"
     },
     {
       "id": "london-westminster-abbey",
