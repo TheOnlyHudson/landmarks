@@ -43417,6 +43417,108 @@
       "source": "generators/rome-arch-of-constantine.ts"
     },
     {
+      "id": "rome-colosseum",
+      "file": "models/rome-colosseum.glb",
+      "detail": "models/rome-colosseum.detail.glb",
+      "detailZoom": 16,
+      "source": "generators/rome-colosseum.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "historic",
+        "ancient-roman",
+        "amphitheatre",
+        "ruin",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The Flavian Amphitheatre (AD 70-80) as it stands: the four-storey outer wall on the north between Stern's and Valadier's buttresses, the inner ring as the face of the south side, the broken cavea, the podium and the hypogeum with the rebuilt arena floor.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Rome Colosseum exterior 2",
+          "url": "https://commons.wikimedia.org/wiki/File:Rome_Colosseum_exterior_2.jpg",
+          "author": "Nicholas Hartmann",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rome Colosseum exterior 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Rome_Colosseum_exterior_1.jpg",
+          "author": "Nicholas Hartmann",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rome Colosseum exterior panorama",
+          "url": "https://commons.wikimedia.org/wiki/File:Rome_Colosseum_exterior_panorama.jpg",
+          "author": "Nicholas Hartmann",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Foto aerea del Colosseo",
+          "url": "https://commons.wikimedia.org/wiki/File:Foto_aerea_del_Colosseo.jpg",
+          "author": "Aeroshot.it",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Colosseum Roma 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:Colosseum_Roma_2009.jpg",
+          "author": "Urse Ovidiu",
+          "license": "Public domain"
+        },
+        {
+          "title": "Colosseum-Rome-May-2009",
+          "url": "https://commons.wikimedia.org/wiki/File:Colosseum-Rome-May-2009.jpg",
+          "author": "Acediscovery",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Colosseum and Arch of Constantine seen from Palatine",
+          "url": "https://commons.wikimedia.org/wiki/File:Colosseum_and_Arch_of_Constantine_seen_from_Palatine.jpg",
+          "author": "Livioandronico2013",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Colosseum of Rome and Roman forum",
+          "url": "https://commons.wikimedia.org/wiki/File:Colosseum_of_Rome_and_Roman_forum.jpg",
+          "author": "Wilfredor",
+          "license": "CC0"
+        },
+        {
+          "title": "Colosseum seen from Palatine Hill (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Colosseum_seen_from_Palatine_Hill_(1).jpg",
+          "author": "Tournasol7",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Rome Colosseum interior panorama 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Rome_Colosseum_interior_panorama_1.jpg",
+          "author": "Nicholas Hartmann",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Colosseum exterior at night, Rome, Italy (Ank Kumar) 11",
+          "url": "https://commons.wikimedia.org/wiki/File:Colosseum_exterior_at_night,_Rome,_Italy_(Ank_Kumar)_11.jpg",
+          "author": "Ank Kumar",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "rome-trajans-column",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -68416,6 +68518,32 @@
       "wikidata": "Q5786",
       "replaces": [
         "way/23590989"
+      ]
+    },
+    {
+      "id": "rome-colosseum",
+      "name": "Colosseum",
+      "model": "rome-colosseum",
+      "place": "rome",
+      "lng": 12.492322,
+      "lat": 41.89021,
+      "bearing": 19.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q10285",
+      "replaces": [
+        "relation/1834818",
+        "relation/1834825",
+        "relation/1834826",
+        "relation/1834827",
+        "relation/1834828",
+        "relation/1834829",
+        "relation/1834830",
+        "relation/1834831",
+        "relation/3371742",
+        "relation/19666834",
+        "relation/19666835",
+        "relation/19666836"
       ]
     },
     {
