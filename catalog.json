@@ -25744,6 +25744,69 @@
       ]
     },
     {
+      "id": "london-imperial-war-museum",
+      "file": "models/london-imperial-war-museum.glb",
+      "source": "generators/london-imperial-war-museum.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "neoclassical",
+        "dome",
+        "grade-ii-listed",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Imperial War Museum, London - north view",
+          "url": "https://commons.wikimedia.org/wiki/File:Imperial_War_Museum,_London_-_north_view.jpg",
+          "author": "DeFacto",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Imperial War Museum. London, UK",
+          "url": "https://commons.wikimedia.org/wiki/File:Imperial_War_Museum._London,_UK.jpg",
+          "author": "Ввласенко",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Imperial War Museum, London 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Imperial_War_Museum,_London_1.jpg",
+          "author": "Jwslubbock",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Guns in front of the Imperial War Museum (geograph 2788057)",
+          "url": "https://commons.wikimedia.org/wiki/File:Guns_in_front_of_the_Imperial_War_Museum_(geograph_2788057).jpg",
+          "author": "Marathon",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "15 inch Naval Guns - Imperial War Museum - Joy of Museum",
+          "url": "https://commons.wikimedia.org/wiki/File:15_inch_Naval_Guns_-_Imperial_War_Museum_-_Joy_of_Museum.jpg",
+          "author": "Joyofmuseums",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "london-leadenhall-building",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -57337,6 +57400,21 @@
         "way/1420435890",
         "way/1420435891",
         "way/1420435892"
+      ]
+    },
+    {
+      "id": "london-imperial-war-museum",
+      "name": "Imperial War Museum",
+      "model": "london-imperial-war-museum",
+      "place": "london",
+      "lng": -0.108594,
+      "lat": 51.4958202,
+      "bearing": 1,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q749808",
+      "replaces": [
+        "way/8614496"
       ]
     },
     {
