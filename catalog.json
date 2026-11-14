@@ -44460,6 +44460,88 @@
       ]
     },
     {
+      "id": "seoul-jongmyo-jeongjeon",
+      "file": "models/seoul-jongmyo-jeongjeon.glb",
+      "source": "generators/seoul-jongmyo-jeongjeon.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "shrine",
+        "hanok",
+        "joseon",
+        "unesco",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The main hall of Jongmyo, the Joseon royal ancestral shrine: 19 bays of red columns and plank doors under one long, low gabled roof, with its lower end rooms and the two wings turning forward, on its stone terrace.",
+      "references": [
+        {
+          "title": "Jongmyo.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jongmyo.jpg",
+          "author": "Oskar Alexanderson",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Jongmyo-Jeongjeon.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jongmyo-Jeongjeon.jpg",
+          "author": "João Trindade",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Jongmyo-001.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jongmyo-001.jpg",
+          "author": "sean",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Jongmyo-002.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jongmyo-002.jpg",
+          "author": "sean",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Jeongjeon, Jongmyo Shrine (oblique) - Seoul, Korea.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jeongjeon,_Jongmyo_Shrine_(oblique)_-_Seoul,_Korea.jpg",
+          "author": "Daderot",
+          "license": "Public domain"
+        },
+        {
+          "title": "Jeongjeon, Jongmyo Shrine (close up) - Seoul, Korea.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jeongjeon,_Jongmyo_Shrine_(close_up)_-_Seoul,_Korea.jpg",
+          "author": "Daderot",
+          "license": "Public domain"
+        },
+        {
+          "title": "Hall de confort éternel, Jongmyo.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Hall_de_confort_%C3%A9ternel,_Jongmyo.jpg",
+          "author": "SpaceFox",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Jongmyo Shrine 06.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jongmyo_Shrine_06.jpg",
+          "author": "Bgag",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
       "id": "seoul-jongno-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -67010,6 +67092,22 @@
       "minzoom": 15,
       "replaces": [
         "way/380863259"
+      ]
+    },
+    {
+      "id": "seoul-jongmyo-jeongjeon",
+      "name": "Jongmyo Jeongjeon",
+      "model": "seoul-jongmyo-jeongjeon",
+      "place": "seoul",
+      "lng": 126.9939744,
+      "lat": 37.574901,
+      "bearing": 22.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/170403802",
+        "way/382428476",
+        "way/382428479"
       ]
     },
     {
