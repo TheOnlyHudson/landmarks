@@ -44280,6 +44280,61 @@
       ]
     },
     {
+      "id": "seoul-jongno-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "high-tech"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Jongno Tower Seoul - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jongno_Tower_Seoul_-_panoramio.jpg",
+          "author": "Schölla Schwarz",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Bosingak Bell Pavilion, Seoul (1) (26259311707).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bosingak_Bell_Pavilion,_Seoul_(1)_(26259311707).jpg",
+          "author": "Richard Mortel",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Incidental view of Jongno Tower in August 2024.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Incidental_view_of_Jongno_Tower_in_August_2024.jpg",
+          "author": "Immanuelle",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Jongno Tower ―Rafael Viñoly Architects",
+          "url": "https://www.flickr.com/photos/30760976@N04/6281928827",
+          "author": "anokarina",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/seoul-jongno-tower.glb",
+      "source": "generators/seoul-jongno-tower.ts"
+    },
+    {
       "id": "seoul-junghwajeon",
       "file": "models/seoul-junghwajeon.glb",
       "source": "generators/seoul-junghwajeon.ts",
@@ -66412,6 +66467,26 @@
       "minzoom": 15,
       "replaces": [
         "way/380863259"
+      ]
+    },
+    {
+      "id": "seoul-jongno-tower",
+      "name": "Jongno Tower",
+      "model": "seoul-jongno-tower",
+      "place": "seoul",
+      "lng": 126.983621,
+      "lat": 37.570745,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/1206228046",
+        "way/142096703",
+        "way/1203371172",
+        "way/1203371173",
+        "way/1203368744",
+        "way/1203368745",
+        "relation/21361312"
       ]
     },
     {
