@@ -44257,6 +44257,74 @@
       "source": "generators/seoul-lotte-world-tower.ts"
     },
     {
+      "id": "seoul-n-seoul-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "observation-tower",
+        "telecommunications",
+        "observation-deck",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Namsan and Han River 2022",
+          "url": "https://commons.wikimedia.org/wiki/File:Namsan_and_Han_River_2022.jpg",
+          "author": "Ox1997cow",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Seoul Tower (4394893276)",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_Tower_(4394893276).jpg",
+          "author": "Christopher from Shanghai, China",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Namsan Seoul Tower (49174492933)",
+          "url": "https://commons.wikimedia.org/wiki/File:Namsan_Seoul_Tower_(49174492933).jpg",
+          "author": "Matt Kieffer",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "N Seoul Tower from far",
+          "url": "https://commons.wikimedia.org/wiki/File:N_Seoul_Tower_from_far.jpg",
+          "author": "Devianagloria",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "N Seoul Tower (13952097192)",
+          "url": "https://commons.wikimedia.org/wiki/File:N_Seoul_Tower_(13952097192).jpg",
+          "author": "Eugene Lim",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Seoul tower - panoramio - yamarhythm",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_tower_-_panoramio_-_yamarhythm.jpg",
+          "author": "yamarhythm",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/seoul-n-seoul-tower.glb",
+      "source": "generators/seoul-n-seoul-tower.ts"
+    },
+    {
       "id": "seoul-national-assembly",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65924,6 +65992,29 @@
         "way/879808331",
         "way/879808332",
         "way/879808333"
+      ]
+    },
+    {
+      "id": "seoul-n-seoul-tower",
+      "name": "N Seoul Tower",
+      "model": "seoul-n-seoul-tower",
+      "place": "seoul",
+      "lng": 126.9882091,
+      "lat": 37.5512447,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q69134",
+      "replaces": [
+        "relation/16474080",
+        "relation/16474081",
+        "way/1214950316",
+        "relation/5501624",
+        "way/370286010",
+        "way/1214950322",
+        "way/1214950323",
+        "relation/19360917",
+        "relation/19360918"
       ]
     },
     {
