@@ -43982,6 +43982,62 @@
       ]
     },
     {
+      "id": "seoul-gocheok-sky-dome",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "stadium",
+        "baseball",
+        "dome",
+        "sports"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "首爾高尺巨蛋（Gocheok SkyDome）",
+          "url": "https://www.flickr.com/photos/56814157@N03/40167119121",
+          "author": "genewang0123",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Gocheok Dome Baseball Stadium",
+          "url": "https://www.flickr.com/photos/124876385@N03/14256118317",
+          "author": "iparkstory",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "경기장 - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%EA%B2%BD%EA%B8%B0%EC%9E%A5_-_panoramio.jpg",
+          "author": "Bohao Zhao",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Gocheok Sky Dome (36530170325).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gocheok_Sky_Dome_(36530170325).jpg",
+          "author": "redlegsfan21",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/seoul-gocheok-sky-dome.glb",
+      "source": "generators/seoul-gocheok-sky-dome.ts"
+    },
+    {
       "id": "seoul-gwanghwamun",
       "file": "models/seoul-gwanghwamun.glb",
       "source": "generators/seoul-gwanghwamun.ts",
@@ -66597,6 +66653,22 @@
         "way/1569283660"
       ],
       "wikidata": "Q10855678"
+    },
+    {
+      "id": "seoul-gocheok-sky-dome",
+      "name": "Gocheok Sky Dome",
+      "model": "seoul-gocheok-sky-dome",
+      "place": "seoul",
+      "lng": 126.8670477,
+      "lat": 37.4981957,
+      "bearing": 0,
+      "elevation": -5.6,
+      "minzoom": 14,
+      "wikidata": "Q10855359",
+      "replaces": [
+        "way/258637347",
+        "way/842076947"
+      ]
     },
     {
       "id": "seoul-gwanghwamun",
