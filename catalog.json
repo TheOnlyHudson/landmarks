@@ -45232,6 +45232,77 @@
       "source": "generators/seoul-lotte-world-tower.ts"
     },
     {
+      "id": "seoul-myeongdong-cathedral",
+      "file": "models/seoul-myeongdong-cathedral.glb",
+      "source": "generators/seoul-myeongdong-cathedral.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "cathedral",
+        "church",
+        "gothic-revival",
+        "brick",
+        "historic",
+        "spire"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The red and grey brick Gothic Revival cathedral of Seoul (1898): its 45 m front tower and green spire, the clerestoried nave, transepts and apse.",
+      "references": [
+        {
+          "title": "Myeongdong Cathedral front",
+          "url": "https://commons.wikimedia.org/wiki/File:Myeongdong_Cathedral_front.jpg",
+          "author": "Tristan Surtel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Myeongdong Cathedral 01 (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:Myeongdong_Cathedral_01_(cropped).jpg",
+          "author": "Asacyan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Korea Myeongdong Cathedral 08",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea_Myeongdong_Cathedral_08.jpg",
+          "author": "korea.net",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Korea Myeongdong Cathedral 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea_Myeongdong_Cathedral_02.jpg",
+          "author": "korea.net",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Myeongdong Cathedral 6",
+          "url": "https://commons.wikimedia.org/wiki/File:Myeongdong_Cathedral_6.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Myeongdong Cathedral at night 20231223",
+          "url": "https://commons.wikimedia.org/wiki/File:Myeongdong_Cathedral_at_night_20231223.jpg",
+          "author": "Nat4Eben",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "seoul-n-seoul-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -67834,6 +67905,22 @@
         "way/879808332",
         "way/879808333"
       ]
+    },
+    {
+      "id": "seoul-myeongdong-cathedral",
+      "name": "Myeongdong Cathedral",
+      "model": "seoul-myeongdong-cathedral",
+      "place": "seoul",
+      "lng": 126.9873401,
+      "lat": 37.5632617,
+      "bearing": 150,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/210335697",
+        "way/1139745172"
+      ],
+      "wikidata": "Q487036"
     },
     {
       "id": "seoul-n-seoul-tower",
