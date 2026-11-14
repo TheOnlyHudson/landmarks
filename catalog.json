@@ -43519,6 +43519,93 @@
       ]
     },
     {
+      "id": "rome-pantheon",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "ancient-roman",
+        "temple",
+        "church",
+        "dome"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Rome Pantheon facade.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rome_Pantheon_facade.jpg",
+          "author": "Nicholas Hartmann",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Pantheon in Rome (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pantheon_in_Rome_(1).jpg",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Pantheon (Rome) - Exterior 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_-_Exterior_04.jpg",
+          "author": "John Samuel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Pantheon (Rome) - Exterior 10.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_-_Exterior_10.jpg",
+          "author": "John Samuel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Pantheon roof 1, Rome.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pantheon_roof_1,_Rome.jpg",
+          "author": "Nhartmannphotos",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Pantheon-Roof-from-Gianicolo-2012.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Pantheon-Roof-from-Gianicolo-2012.JPG",
+          "author": "Bjørn Christian Tørrissen",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Pantheon (Rome) E 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_E_2.jpg",
+          "author": "Wknight94",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "0 Pantheon - Rome (1a).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:0_Pantheon_-_Rome_(1a).JPG",
+          "author": "Jean-Pol Grandmont",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "14 494 Pantheon, Vittoriano, San Agnese.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:14_494_Pantheon,_Vittoriano,_San_Agnese.jpg",
+          "author": "Falk2",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/rome-pantheon.glb",
+      "source": "generators/rome-pantheon.ts"
+    },
+    {
       "id": "rome-trajans-column",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -68544,6 +68631,48 @@
         "relation/19666834",
         "relation/19666835",
         "relation/19666836"
+      ]
+    },
+    {
+      "id": "rome-pantheon",
+      "name": "Pantheon",
+      "model": "rome-pantheon",
+      "place": "rome",
+      "lng": 12.476829,
+      "lat": 41.898602,
+      "bearing": 356.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q99309",
+      "replaces": [
+        "relation/3374342",
+        "way/23840631",
+        "way/30967221",
+        "way/245621144",
+        "way/251373427",
+        "way/251373434",
+        "way/251373429",
+        "way/251373430",
+        "way/251373431",
+        "way/251373432",
+        "way/251373433",
+        "way/251373435",
+        "way/251373449",
+        "way/251373451",
+        "relation/3373088",
+        "relation/3373279",
+        "relation/3373280",
+        "relation/3373281",
+        "relation/3373282",
+        "relation/3373283",
+        "relation/3373284",
+        "relation/3373285",
+        "relation/3373286",
+        "relation/3373287",
+        "relation/3373288",
+        "relation/3373289",
+        "relation/3373316",
+        "relation/3374343"
       ]
     },
     {
