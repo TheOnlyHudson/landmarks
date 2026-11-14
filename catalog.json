@@ -44460,6 +44460,75 @@
       ]
     },
     {
+      "id": "seoul-jogyesa",
+      "file": "models/seoul-jogyesa.glb",
+      "source": "generators/seoul-jogyesa.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "temple",
+        "buddhist",
+        "hanok",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The main hall of Jogyesa (1938), head temple of the Jogye Order: a tall single-storey hall of 7 × 4 bays with green lattice doors between red columns under a huge hipped-and-gabled roof, the order's emblem on its gables.",
+      "references": [
+        {
+          "title": "Jogyesa temple.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jogyesa_temple.jpg",
+          "author": "Irma2403",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Jogyesa Temple with Two Dragons.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jogyesa_Temple_with_Two_Dragons.jpg",
+          "author": "Ethan Doyle White",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Seoul, Jongno & Jogyesa Temple (조계사) (15239723850).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul,_Jongno_%26_Jogyesa_Temple_(%EC%A1%B0%EA%B3%84%EC%82%AC)_(15239723850).jpg",
+          "author": "Michael Sean Gallagher",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Jogyesa Temple (1509839597).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jogyesa_Temple_(1509839597).jpg",
+          "author": "Francisco Anzola",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Jogyesa temple in 2026 (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jogyesa_temple_in_2026_(2).jpg",
+          "author": "Sadopaul",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Jogyesa temple in 2026 (4).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jogyesa_temple_in_2026_(4).jpg",
+          "author": "Sadopaul",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "seoul-jongmyo-jeongjeon",
       "file": "models/seoul-jongmyo-jeongjeon.glb",
       "source": "generators/seoul-jongmyo-jeongjeon.ts",
@@ -67092,6 +67161,20 @@
       "minzoom": 15,
       "replaces": [
         "way/380863259"
+      ]
+    },
+    {
+      "id": "seoul-jogyesa",
+      "name": "Jogyesa Daeungjeon",
+      "model": "seoul-jogyesa",
+      "place": "seoul",
+      "lng": 126.9818575,
+      "lat": 37.5739071,
+      "bearing": 357.2,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/432721256"
       ]
     },
     {
