@@ -25917,6 +25917,118 @@
       "source": "generators/london-city-hall.ts"
     },
     {
+      "id": "london-cutty-sark",
+      "file": "models/london-cutty-sark.glb",
+      "source": "generators/london-cutty-sark.ts",
+      "detail": "models/london-cutty-sark.detail.glb",
+      "detailZoom": 17,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "ship",
+        "museum-ship",
+        "clipper",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "The Cutty Sark -2",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Cutty_Sark_-2.jpg",
+          "author": "Donnchadh H",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The Cutty Sark, Greenwich - geograph.org.uk - 3150174",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Cutty_Sark,_Greenwich_-_geograph.org.uk_-_3150174.jpg",
+          "author": "PAUL FARMER",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Cutty Sark -1",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Cutty_Sark_-1.jpg",
+          "author": "Donnchadh H",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Helicopter Trip views 24th August 2022 - 06",
+          "url": "https://commons.wikimedia.org/wiki/File:Helicopter_Trip_views_24th_August_2022_-_06.jpg",
+          "author": "Brian Adamson",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "London MMB »0A5 River Thames and Cutty Sark",
+          "url": "https://commons.wikimedia.org/wiki/File:London_MMB_»0A5_River_Thames_and_Cutty_Sark.jpg",
+          "author": "mattbuck",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cutty Sark 26-06-2012 (7471551668)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cutty_Sark_26-06-2012_(7471551668).jpg",
+          "author": "Karen Roe",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Cutty Sark 26-06-2012 (7471554106)",
+          "url": "https://commons.wikimedia.org/wiki/File:Cutty_Sark_26-06-2012_(7471554106).jpg",
+          "author": "Karen Roe",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Cutty Sark stern",
+          "url": "https://commons.wikimedia.org/wiki/File:Cutty_Sark_stern.jpg",
+          "author": "Cmglee",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cutty Sark Greenwich - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Cutty_Sark_Greenwich_-_panoramio.jpg",
+          "author": "Lobster1",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Cutty Sark at night from King William Walk, Greenwich 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Cutty_Sark_at_night_from_King_William_Walk,_Greenwich_01.jpg",
+          "author": "Acabashi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The Cutty Sark, Greenwich - geograph.org.uk - 3448033",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Cutty_Sark,_Greenwich_-_geograph.org.uk_-_3448033.jpg",
+          "author": "S.C.C.Bate",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Cutty Sark at Greenwich - geograph.org.uk - 3516966",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Cutty_Sark_at_Greenwich_-_geograph.org.uk_-_3516966.jpg",
+          "author": "Steve Daniels",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Cutty Sark rigging 17RM0464",
+          "url": "https://commons.wikimedia.org/wiki/File:Cutty_Sark_rigging_17RM0464.jpg",
+          "author": "Ermell",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "london-harrods",
       "file": "models/london-harrods.glb",
       "source": "generators/london-harrods.ts",
@@ -58084,6 +58196,22 @@
         "way/1408628142"
       ],
       "wikidata": "Q1093950"
+    },
+    {
+      "id": "london-cutty-sark",
+      "name": "Cutty Sark",
+      "model": "london-cutty-sark",
+      "place": "london",
+      "lng": -0.0095754,
+      "lat": 51.4828451,
+      "bearing": 343.5,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q171255",
+      "replaces": [
+        "way/25608663",
+        "way/969672514"
+      ]
     },
     {
       "id": "london-harrods",
