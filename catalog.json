@@ -44416,6 +44416,68 @@
       ]
     },
     {
+      "id": "seoul-kyobo-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "postmodern",
+        "brick"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mario Botta - Kyobo Tower 01",
+          "url": "https://www.flickr.com/photos/44343967@N00/5052325759",
+          "author": "Forgemind ArchiMedia",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Mario Botta - Kyobo Tower 02",
+          "url": "https://www.flickr.com/photos/44343967@N00/5052943862",
+          "author": "Forgemind ArchiMedia",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Mario Botta - Kyobo Tower 03",
+          "url": "https://www.flickr.com/photos/44343967@N00/5052326237",
+          "author": "Forgemind ArchiMedia",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Gangnam Mario Botta Tower",
+          "url": "https://www.flickr.com/photos/97114498@N04/37078168201",
+          "author": "TCA Think Tank",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Gangnam Mario Botta Tower",
+          "url": "https://www.flickr.com/photos/97114498@N04/37048801152",
+          "author": "TCA Think Tank",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/seoul-kyobo-tower.glb",
+      "source": "generators/seoul-kyobo-tower.ts"
+    },
+    {
       "id": "seoul-lotte-world-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -66507,6 +66569,26 @@
         "way/772263219",
         "way/772263220",
         "way/772263221"
+      ]
+    },
+    {
+      "id": "seoul-kyobo-tower",
+      "name": "Kyobo Tower",
+      "model": "seoul-kyobo-tower",
+      "place": "seoul",
+      "lng": 127.024118,
+      "lat": 37.503787,
+      "bearing": 339.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q134561816",
+      "replaces": [
+        "relation/7747040",
+        "way/304366173",
+        "way/541900102",
+        "way/541900101",
+        "way/541900103",
+        "way/541900105"
       ]
     },
     {
