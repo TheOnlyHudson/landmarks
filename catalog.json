@@ -45611,6 +45611,70 @@
       "source": "generators/seoul-parc1.ts"
     },
     {
+      "id": "seoul-sejong-center",
+      "file": "models/seoul-sejong-center.glb",
+      "source": "generators/seoul-sejong-center.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "theatre",
+        "concert-hall",
+        "modern",
+        "granite",
+        "colonnade"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The Grand Theater of the Sejong Center (1978): tall granite piers with bracket capitals, a beam, rafter ends and a deep hipped eave, abstracting a Korean timber hall in stone and concrete.",
+      "references": [
+        {
+          "title": "Sejong Center for the Performing Arts(20240413)",
+          "url": "https://commons.wikimedia.org/wiki/File:Sejong_Center_for_the_Performing_Arts(20240413).jpg",
+          "author": "YellowTurtle9",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sejong Center (세종문화회관) - panoramio - 골뱅이",
+          "url": "https://commons.wikimedia.org/wiki/File:Sejong_Center_(%EC%84%B8%EC%A2%85%EB%AC%B8%ED%99%94%ED%9A%8C%EA%B4%80)_-_panoramio_-_%EA%B3%A8%EB%B1%85%EC%9D%B4.jpg",
+          "author": "골뱅이",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Night view of the Sejong Center in May 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:Night_view_of_the_Sejong_Center_in_May_2025.jpg",
+          "author": "DtSeoul",
+          "license": "CC0"
+        },
+        {
+          "title": "Sejongno, Jongno-gu, Seoul, South Korea - panoramio (7)",
+          "url": "https://commons.wikimedia.org/wiki/File:Sejongno,_Jongno-gu,_Seoul,_South_Korea_-_panoramio_(7).jpg",
+          "author": "Schölla Schwarz",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Sejong-daero, Seoul",
+          "url": "https://commons.wikimedia.org/wiki/File:Sejong-daero,_Seoul.jpg",
+          "author": "Tristan Surtel",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "seoul-seokjojeon",
       "file": "models/seoul-seokjojeon.glb",
       "source": "generators/seoul-seokjojeon.ts",
@@ -68064,6 +68128,21 @@
         "way/874639191",
         "way/874639192"
       ]
+    },
+    {
+      "id": "seoul-sejong-center",
+      "name": "Sejong Center for the Performing Arts",
+      "model": "seoul-sejong-center",
+      "place": "seoul",
+      "lng": 126.9756165,
+      "lat": 37.572553,
+      "bearing": 359,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/223158436"
+      ],
+      "wikidata": "Q496974"
     },
     {
       "id": "seoul-seokjojeon",
