@@ -25827,6 +25827,75 @@
       ]
     },
     {
+      "id": "london-royal-albert-hall",
+      "file": "models/london-royal-albert-hall.glb",
+      "source": "generators/london-royal-albert-hall.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "concert-hall",
+        "historic",
+        "victorian",
+        "dome",
+        "grade-i-listed"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Royal Albert Hall, London - Nov 2012",
+          "url": "https://commons.wikimedia.org/wiki/File:Royal_Albert_Hall,_London_-_Nov_2012.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Royal Albert Hall Rear, London, England - Diliff",
+          "url": "https://commons.wikimedia.org/wiki/File:Royal_Albert_Hall_Rear,_London,_England_-_Diliff.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "At Hyde Park 2023 036",
+          "url": "https://commons.wikimedia.org/wiki/File:At_Hyde_Park_2023_036.jpg",
+          "author": "Mike Peel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Royal Albert Hall, Londres, Inglaterra, 2022-11-25, DD 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Royal_Albert_Hall,_Londres,_Inglaterra,_2022-11-25,_DD_02.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Royal Albert Hall from the air (geograph 2624007)",
+          "url": "https://commons.wikimedia.org/wiki/File:Royal_Albert_Hall_from_the_air_-_geograph.org.uk_-_2624007.jpg",
+          "author": "Thomas Nugent",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Kensington Museums aerial 2011 a",
+          "url": "https://commons.wikimedia.org/wiki/File:Kensington_Museums_aerial_2011_a.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        }
+      ]
+    },
+    {
       "id": "london-st-martin-in-the-fields",
       "file": "models/london-st-martin-in-the-fields.glb",
       "source": "generators/london-st-martin-in-the-fields.ts",
@@ -56353,6 +56422,32 @@
         "way/5986754",
         "way/432777467",
         "way/432777466"
+      ]
+    },
+    {
+      "id": "london-royal-albert-hall",
+      "name": "Royal Albert Hall",
+      "model": "london-royal-albert-hall",
+      "place": "london",
+      "lng": -0.177403,
+      "lat": 51.501013,
+      "bearing": 352.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q193639",
+      "replaces": [
+        "way/372860405",
+        "way/952279000",
+        "way/952279001",
+        "way/952279002",
+        "way/952279003",
+        "way/952279004",
+        "way/952279005",
+        "way/952279006",
+        "way/372860406",
+        "way/372860407",
+        "way/372860408",
+        "way/372860409"
       ]
     },
     {
