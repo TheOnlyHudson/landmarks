@@ -43771,6 +43771,80 @@
       "source": "generators/seoul-arts-center.ts"
     },
     {
+      "id": "seoul-bosingak",
+      "file": "models/seoul-bosingak.glb",
+      "source": "generators/seoul-bosingak.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "bell-pavilion",
+        "hanok",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The bell pavilion on Jongno (rebuilt 1979): an open two-storey pavilion of 5 × 4 bays with a balcony railing and the great bell inside, under one hipped-and-gabled roof on a granite platform.",
+      "references": [
+        {
+          "title": "Bosingak(20240413).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bosingak(20240413).jpg",
+          "author": "YellowTurtle9",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Bosingak Bell Pavilion, Seoul (1) (26259311707).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bosingak_Bell_Pavilion,_Seoul_(1)_(26259311707).jpg",
+          "author": "Richard Mortel",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Bosingak Bell Pavilion, Seoul (2) (40419747494).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bosingak_Bell_Pavilion,_Seoul_(2)_(40419747494).jpg",
+          "author": "Richard Mortel",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Bosingak Bell Pavilion, Seoul (3) (27257575928).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bosingak_Bell_Pavilion,_Seoul_(3)_(27257575928).jpg",
+          "author": "Richard Mortel",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "20240413 Bosingak 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20240413_Bosingak_01.jpg",
+          "author": "Jjw",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Bosingak, Seoul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Bosingak,_Seoul.jpg",
+          "author": "Tristan Surtel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Boshingak.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Boshingak.jpg",
+          "author": "Bcody80",
+          "license": "Public domain"
+        }
+      ]
+    },
+    {
       "id": "seoul-ddp",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -66710,6 +66784,21 @@
       "replaces": [
         "relation/8439129"
       ]
+    },
+    {
+      "id": "seoul-bosingak",
+      "name": "Bosingak",
+      "model": "seoul-bosingak",
+      "place": "seoul",
+      "lng": 126.9836789,
+      "lat": 37.5697883,
+      "bearing": 129.1,
+      "elevation": 0,
+      "minzoom": 16,
+      "replaces": [
+        "way/708772637"
+      ],
+      "wikidata": "Q487603"
     },
     {
       "id": "seoul-ddp",
