@@ -72204,6 +72204,12 @@
       "kind": "region"
     },
     {
+      "id": "quito",
+      "name": "Quito",
+      "kind": "city",
+      "wikidata": "Q2900"
+    },
+    {
       "id": "rio-de-janeiro",
       "name": "Rio de Janeiro",
       "kind": "city",
