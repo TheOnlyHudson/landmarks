@@ -25675,6 +25675,75 @@
       ]
     },
     {
+      "id": "london-hms-belfast",
+      "file": "models/london-hms-belfast.glb",
+      "source": "generators/london-hms-belfast.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "other",
+      "tags": [
+        "ship",
+        "museum-ship",
+        "warship",
+        "cruiser",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "London, HMS Belfast -- 2016 -- 4797",
+          "url": "https://commons.wikimedia.org/wiki/File:London,_HMS_Belfast_--_2016_--_4797.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "HMS Belfast near Tower Bridge. London",
+          "url": "https://commons.wikimedia.org/wiki/File:HMS_Belfast_near_Tower_Bridge._London.jpg",
+          "author": "Ввласенко",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "HMS Belfast. London",
+          "url": "https://commons.wikimedia.org/wiki/File:HMS_Belfast._London.jpg",
+          "author": "Ввласенко",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "HMS Belfast from London Bridge City of London England",
+          "url": "https://commons.wikimedia.org/wiki/File:HMS_Belfast_from_London_Bridge_City_of_London_England.jpg",
+          "author": "Acabashi",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "London, Southwark - HMS Belfast from The Shard (geograph 4819897)",
+          "url": "https://commons.wikimedia.org/wiki/File:London_,_Southwark_-_HMS_Belfast_from_The_Shard_-_geograph.org.uk_-_4819897.jpg",
+          "author": "Lewis Clarke",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Bows of HMS Belfast, London (geograph 2332967)",
+          "url": "https://commons.wikimedia.org/wiki/File:Bows_of_HMS_Belfast,_London_-_geograph.org.uk_-_2332967.jpg",
+          "author": "Peter Trimming",
+          "license": "CC BY-SA 2.0"
+        }
+      ]
+    },
+    {
       "id": "london-leadenhall-building",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -57220,6 +57289,54 @@
       "replaces": [
         "way/25739565",
         "way/1370140203"
+      ]
+    },
+    {
+      "id": "london-hms-belfast",
+      "name": "HMS Belfast",
+      "model": "london-hms-belfast",
+      "place": "london",
+      "lng": -0.0812909,
+      "lat": 51.5065686,
+      "bearing": 286.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q757178",
+      "replaces": [
+        "way/5006061",
+        "way/203708832",
+        "way/203708834",
+        "way/203708835",
+        "way/203708840",
+        "way/203708844",
+        "way/1367195722",
+        "way/1367195723",
+        "way/1420435867",
+        "way/1420435868",
+        "way/1420435869",
+        "way/1420435870",
+        "way/1420435871",
+        "way/1420435872",
+        "way/1420435873",
+        "way/1420435874",
+        "way/1420435875",
+        "way/1420435876",
+        "way/1420435877",
+        "way/1420435878",
+        "way/1420435879",
+        "way/1420435880",
+        "way/1420435881",
+        "way/1420435882",
+        "way/1420435883",
+        "way/1420435884",
+        "way/1420435885",
+        "way/1420435886",
+        "way/1420435887",
+        "way/1420435888",
+        "way/1420435889",
+        "way/1420435890",
+        "way/1420435891",
+        "way/1420435892"
       ]
     },
     {
