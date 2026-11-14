@@ -43349,6 +43349,74 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "rome-arch-of-constantine",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "historic",
+        "ancient-roman",
+        "triumphal-arch",
+        "sculpture"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arch of Constantine (Rome) - South side, from Via triumphalis.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arch_of_Constantine_(Rome)_-_South_side,_from_Via_triumphalis.jpg",
+          "author": "NikonZ7II (Paris Orlando)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Arch of Constantine, North face, Rome (8130476116).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arch_of_Constantine,_North_face,_Rome_(8130476116).jpg",
+          "author": "Carole Raddato",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Arch of Constantine (Rome) ,lateral view.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arch_of_Constantine_(Rome)_,lateral_view.jpg",
+          "author": "Livioandronico2013",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Colosseum and Arch of Constantine seen from Palatine.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Colosseum_and_Arch_of_Constantine_seen_from_Palatine.jpg",
+          "author": "Livioandronico2013",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "ArcoCostDaceN1profilo.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:ArcoCostDaceN1profilo.jpg",
+          "author": "MM",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Arch of Constantine from the Colosseum - Rome, Italy - DSC01410.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Arch_of_Constantine_from_the_Colosseum_-_Rome,_Italy_-_DSC01410.jpg",
+          "author": "Daderot",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/rome-arch-of-constantine.glb",
+      "source": "generators/rome-arch-of-constantine.ts"
+    },
+    {
       "id": "samarkand-sher-dor-madrasa",
       "file": "models/samarkand-sher-dor-madrasa.glb",
       "license": "CC0-1.0",
@@ -68254,6 +68322,21 @@
       "wikidata": "Q79961",
       "replaces": [],
       "place": "rio-de-janeiro"
+    },
+    {
+      "id": "rome-arch-of-constantine",
+      "name": "Arch of Constantine",
+      "model": "rome-arch-of-constantine",
+      "place": "rome",
+      "lng": 12.490667,
+      "lat": 41.889762,
+      "bearing": 12.9,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q5786",
+      "replaces": [
+        "way/23590989"
+      ]
     },
     {
       "id": "samarkand-sher-dor-madrasa",
