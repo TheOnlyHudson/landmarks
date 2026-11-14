@@ -33511,6 +33511,104 @@
       "source": "generators/munich-deutsches-museum.ts"
     },
     {
+      "id": "munich-feldherrnhalle",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "loggia",
+        "memorial",
+        "sculpture",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Feldherrnhalle München",
+          "url": "https://commons.wikimedia.org/wiki/File:Feldherrnhalle_M%C3%BCnchen.jpg",
+          "author": "Thomas Wolf, www.foto-tw.de",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "20230122 Feldherrnhalle",
+          "url": "https://commons.wikimedia.org/wiki/File:20230122_Feldherrnhalle.jpg",
+          "author": "Flocci Nivis",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "2007 Feldherrnhalle 01",
+          "url": "https://commons.wikimedia.org/wiki/File:2007_Feldherrnhalle_01.jpg",
+          "author": "Flocci Nivis",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Feldherrnhalle Muenchen-7",
+          "url": "https://commons.wikimedia.org/wiki/File:Feldherrnhalle_Muenchen-7.jpg",
+          "author": "Rufus46",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Feldherrnhalle Muenchen 2 Loewen-1",
+          "url": "https://commons.wikimedia.org/wiki/File:Feldherrnhalle_Muenchen_2_Loewen-1.jpg",
+          "author": "Rufus46",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Feldherrnhalle in München",
+          "url": "https://commons.wikimedia.org/wiki/File:Feldherrnhalle_in_M%C3%BCnchen.jpg",
+          "author": "Guido Radig",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Feldherrnhalle - Odeonsplatz",
+          "url": "https://commons.wikimedia.org/wiki/File:Feldherrnhalle_-_Odeonsplatz.jpg",
+          "author": "Rafael Fernandes de Oliveira",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "Feldherrnhalle Muenchen",
+          "url": "https://commons.wikimedia.org/wiki/File:Feldherrnhalle_Muenchen.jpg",
+          "author": "Fritz Rudolf Loewa",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Tilly Feldherrnhalle Munich",
+          "url": "https://commons.wikimedia.org/wiki/File:Tilly_Feldherrnhalle_Munich.jpg",
+          "author": "Jebulon",
+          "license": "CC0"
+        },
+        {
+          "title": "Monument Bavarian army Feldherrnhalle Munich",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_Bavarian_army_Feldherrnhalle_Munich.jpg",
+          "author": "Jebulon",
+          "license": "CC0"
+        },
+        {
+          "title": "Feldherrnhalle München 2022-09-10 1",
+          "url": "https://commons.wikimedia.org/wiki/File:Feldherrnhalle_M%C3%BCnchen_2022-09-10_1.jpg",
+          "author": "Z thomas",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/munich-feldherrnhalle.glb",
+      "source": "generators/munich-feldherrnhalle.ts"
+    },
+    {
       "id": "munich-frauenkirche",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65702,6 +65800,22 @@
         "way/30046693"
       ],
       "wikidata": "Q131617"
+    },
+    {
+      "id": "munich-feldherrnhalle",
+      "name": "Feldherrnhalle",
+      "model": "munich-feldherrnhalle",
+      "place": "munich",
+      "lng": 11.57731,
+      "lat": 48.141655,
+      "bearing": 17.3,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q251712",
+      "replaces": [
+        "way/25505402",
+        "way/312008138"
+      ]
     },
     {
       "id": "munich-frauenkirche",
