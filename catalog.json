@@ -45385,6 +45385,82 @@
       "source": "generators/seoul-some-sevit.ts"
     },
     {
+      "id": "seoul-sungnyemun",
+      "file": "models/seoul-sungnyemun.glb",
+      "source": "generators/seoul-sungnyemun.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "gate",
+        "city-wall",
+        "hanok",
+        "joseon",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The south gate of Seoul's Joseon city wall (1398, restored 2013 after the 2008 fire): a granite base with one arched passage and a brick parapet under a two-storey pavilion with double hipped roofs and a vertical name board.",
+      "references": [
+        {
+          "title": "Korea-Seoul-Namdaemun-Sungnyemun-11.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea-Seoul-Namdaemun-Sungnyemun-11.jpg",
+          "author": "lwy",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Namdaemun Gate-5.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Namdaemun_Gate-5.jpg",
+          "author": "Immanuelle",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Sungnyemun Gate, front, 2013.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sungnyemun_Gate,_front,_2013.jpg",
+          "author": "DoulosCore",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Sungnyemun Gate in Seoul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sungnyemun_Gate_in_Seoul.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC0"
+        },
+        {
+          "title": "Korea-Seoul-Namdaemun-Sungnyemun-12.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea-Seoul-Namdaemun-Sungnyemun-12.jpg",
+          "author": "lwy",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Korea-Seoul-Namdaemun-Sungnyemun-26.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea-Seoul-Namdaemun-Sungnyemun-26.jpg",
+          "author": "m-louis",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Korea-Seoul-Namdaemun-Sungnyemun-18.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea-Seoul-Namdaemun-Sungnyemun-18.jpg",
+          "author": "AndrewEick",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
       "id": "seoul-trade-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -67565,6 +67641,26 @@
         "way/320797228",
         "way/320797229"
       ]
+    },
+    {
+      "id": "seoul-sungnyemun",
+      "name": "Sungnyemun",
+      "model": "seoul-sungnyemun",
+      "place": "seoul",
+      "lng": 126.9753602,
+      "lat": 37.559988,
+      "bearing": 41.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/10647050",
+        "relation/10647048",
+        "relation/10647049",
+        "way/767663123",
+        "way/767663127",
+        "way/767663128"
+      ],
+      "wikidata": "Q465345"
     },
     {
       "id": "seoul-trade-tower",
