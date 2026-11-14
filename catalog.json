@@ -44761,6 +44761,60 @@
       "source": "generators/seoul-some-sevit.ts"
     },
     {
+      "id": "seoul-trade-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Park Hyatt Seoul view.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Park_Hyatt_Seoul_view.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Yeongdong-daero, Gangnam-gu, Seoul, South Korea.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yeongdong-daero,_Gangnam-gu,_Seoul,_South_Korea.jpg",
+          "author": "张元柏",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Korea-Seoul-Bongeunsa-13.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea-Seoul-Bongeunsa-13.jpg",
+          "author": "Gaël Chardon",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "World Trade Center Seoul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:World_Trade_Center_Seoul.jpg",
+          "author": "Seoul Institute",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/seoul-trade-tower.glb",
+      "source": "generators/seoul-trade-tower.ts"
+    },
+    {
       "id": "seoul-war-memorial",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -66570,6 +66624,37 @@
         "way/414267182",
         "way/320797228",
         "way/320797229"
+      ]
+    },
+    {
+      "id": "seoul-trade-tower",
+      "name": "Trade Tower",
+      "model": "seoul-trade-tower",
+      "place": "seoul",
+      "lng": 127.060983,
+      "lat": 37.510315,
+      "bearing": 66.87,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q486183",
+      "replaces": [
+        "way/74056379",
+        "way/380067752",
+        "way/380067758",
+        "way/637098865",
+        "way/637098866",
+        "way/637098867",
+        "way/637098868",
+        "way/637098869",
+        "way/637098870",
+        "way/637098871",
+        "way/637098872",
+        "way/637098873",
+        "way/637098874",
+        "way/637098875",
+        "way/637098876",
+        "way/637098877",
+        "way/637322920"
       ]
     },
     {
