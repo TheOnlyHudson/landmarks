@@ -27214,6 +27214,75 @@
       "detailZoom": 17
     },
     {
+      "id": "london-thames-barrier",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "infrastructure",
+      "tags": [
+        "flood-barrier",
+        "river-thames",
+        "engineering",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q948363",
+      "references": [
+        {
+          "title": "Thames Barrier, London, England - Feb 2010",
+          "url": "https://commons.wikimedia.org/wiki/File:Thames_Barrier,_London,_England_-_Feb_2010.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Thames Barrier 2024-10-27 (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:Thames_Barrier_2024-10-27_(1).jpg",
+          "author": "The wub",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Thames Barrier - 2023-09-03",
+          "url": "https://commons.wikimedia.org/wiki/File:Thames_Barrier_-_2023-09-03.jpg",
+          "author": "The wub",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Thames Barrier gate closed (1) - 2023-09-03",
+          "url": "https://commons.wikimedia.org/wiki/File:Thames_Barrier_gate_closed_(1)_-_2023-09-03.jpg",
+          "author": "The wub",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Thames Barrier from a boat",
+          "url": "https://commons.wikimedia.org/wiki/File:Thames_Barrier_from_a_boat.jpg",
+          "author": "Secretlondon",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Thames Barrier - 2020-01-18",
+          "url": "https://commons.wikimedia.org/wiki/File:Thames_Barrier_-_2020-01-18.jpg",
+          "author": "The wub",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/london-thames-barrier.glb",
+      "source": "generators/london-thames-barrier.ts"
+    },
+    {
       "id": "london-the-monument",
       "file": "models/london-the-monument.glb",
       "source": "generators/london-the-monument.ts",
@@ -58756,6 +58825,29 @@
         "way/542122686",
         "way/542122687"
       ]
+    },
+    {
+      "id": "london-thames-barrier",
+      "name": "Thames Barrier",
+      "model": "london-thames-barrier",
+      "place": "london",
+      "lng": 0.0369293,
+      "lat": 51.4973342,
+      "bearing": 355.06,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/4970600",
+        "way/4970589",
+        "way/4970587",
+        "way/4970572",
+        "way/4970577",
+        "way/4970578",
+        "way/4970580",
+        "way/4970583",
+        "way/4970585"
+      ],
+      "wikidata": "Q948363"
     },
     {
       "id": "london-the-monument",
