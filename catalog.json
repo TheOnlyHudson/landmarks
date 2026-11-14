@@ -33481,6 +33481,81 @@
       "source": "generators/munich-schloss-nymphenburg.ts"
     },
     {
+      "id": "munich-st-peter",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "gothic",
+        "baroque",
+        "clock-tower",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Alter Peter und Rindermarkt",
+          "url": "https://commons.wikimedia.org/wiki/File:Alter_Peter_und_Rindermarkt.jpg",
+          "author": "Richard Huber",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Alter-peter vom-rathaus",
+          "url": "https://commons.wikimedia.org/wiki/File:Alter-peter_vom-rathaus.jpg",
+          "author": "Softeis",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Alter Peter (Seitenansicht)",
+          "url": "https://commons.wikimedia.org/wiki/File:Alter_Peter_(Seitenansicht).jpg",
+          "author": "Meister Eiskalt",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Turm St. Peter München 2024-11-09",
+          "url": "https://commons.wikimedia.org/wiki/File:Turm_St._Peter_M%C3%BCnchen_2024-11-09.jpg",
+          "author": "Strubbl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "St. Peter und Turm vom Talburgtor München 2022-12-17",
+          "url": "https://commons.wikimedia.org/wiki/File:St._Peter_und_Turm_vom_Talburgtor_M%C3%BCnchen_2022-12-17.jpg",
+          "author": "Strubbl",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "München, Alter Peter 2007-10",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_Alter_Peter_2007-10.jpg",
+          "author": "HerrAdams",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "20230304 St. Peter church Munich",
+          "url": "https://commons.wikimedia.org/wiki/File:20230304_St._Peter_church_Munich.jpg",
+          "author": "Flocci Nivis",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/munich-st-peter.glb",
+      "source": "generators/munich-st-peter.ts"
+    },
+    {
       "id": "music-factory-amphitheatre",
       "file": "models/music-factory-amphitheatre.glb",
       "license": "CC0-1.0",
@@ -64929,6 +65004,37 @@
         "way/311978910",
         "relation/12127738",
         "relation/12127745"
+      ]
+    },
+    {
+      "id": "munich-st-peter",
+      "name": "St. Peter (Alter Peter)",
+      "model": "munich-st-peter",
+      "place": "munich",
+      "lng": 11.576031,
+      "lat": 48.136473,
+      "bearing": 14,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q707645",
+      "replaces": [
+        "way/228534603",
+        "way/35903317",
+        "way/225717101",
+        "way/225717105",
+        "way/225910817",
+        "way/225910818",
+        "way/225910819",
+        "way/225910820",
+        "way/225910821",
+        "way/225910822",
+        "way/225910823",
+        "way/225984495",
+        "way/225984496",
+        "way/225987427",
+        "way/225987428",
+        "way/225987429",
+        "way/228534639"
       ]
     },
     {
