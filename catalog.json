@@ -33134,6 +33134,61 @@
       "source": "generators/munich-allianz-arena.ts"
     },
     {
+      "id": "munich-bmw-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q703212",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "München, BMW-Museum vom Olympiaberg, 1.jpeg",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_BMW-Museum_vom_Olympiaberg,_1.jpeg",
+          "license": "CC BY-SA 4.0",
+          "author": "Renardo la vulpo"
+        },
+        {
+          "title": "20221108 BMW Museum.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20221108_BMW_Museum.jpg",
+          "author": "Flocci Nivis",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "BMW tower seen from Olympic tower on a sunny November afternoon.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BMW_tower_seen_from_Olympic_tower_on_a_sunny_November_afternoon.jpg",
+          "author": "Markus Matern",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "BMW Vierzylinder Tower Munich 2014 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BMW_Vierzylinder_Tower_Munich_2014_01.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/munich-bmw-museum.glb",
+      "source": "generators/munich-bmw-museum.ts"
+    },
+    {
       "id": "munich-deutsches-museum",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -64655,6 +64710,32 @@
         "way/1257888138",
         "way/1257888139",
         "way/1257888140"
+      ]
+    },
+    {
+      "id": "munich-bmw-museum",
+      "name": "BMW Museum",
+      "model": "munich-bmw-museum",
+      "place": "munich",
+      "lng": 11.5590845,
+      "lat": 48.1767642,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/298266716",
+        "way/302324251",
+        "way/5216004",
+        "way/303382182",
+        "way/305310591",
+        "way/286002864",
+        "way/286002866",
+        "way/286002868",
+        "way/286002869",
+        "way/1435773753",
+        "way/1435773754",
+        "relation/4002450",
+        "way/163408029"
       ]
     },
     {
