@@ -33262,6 +33262,93 @@
       "source": "generators/munich-deutsches-museum.ts"
     },
     {
+      "id": "munich-frauenkirche",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "cathedral",
+        "gothic",
+        "brick-gothic",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Frauenkirche Munich - View from Peterskirche Tower",
+          "url": "https://commons.wikimedia.org/wiki/File:Frauenkirche_Munich_-_View_from_Peterskirche_Tower.jpg",
+          "author": "Diliff",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Frauenkirche (Munich) 20150830",
+          "url": "https://commons.wikimedia.org/wiki/File:Frauenkirche_(Munich)_20150830.jpg",
+          "author": "Suicasmo",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Frauenkirche Munich March 2013",
+          "url": "https://commons.wikimedia.org/wiki/File:Frauenkirche_Munich_March_2013.JPG",
+          "author": "Martin Falbisoner",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Frauenkirche Munich, March 2018",
+          "url": "https://commons.wikimedia.org/wiki/File:Frauenkirche_Munich,_March_2018.jpg",
+          "author": "Martin Falbisoner",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Luftbild Frauenkirche (DSC07307)",
+          "url": "https://commons.wikimedia.org/wiki/File:Luftbild_Frauenkirche_Liebfrauendom_Dom_zu_Unserer_Lieben_Frau_1494_-_Kathedral-Bau_in_M%C3%BCnchen_Bayern_-_Foto_Wolfgang_Pehlemann_DSC07307.jpg",
+          "author": "Wolfgang Pehlemann",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "West facade of the Frauenkirche Munich",
+          "url": "https://commons.wikimedia.org/wiki/File:West_facade_of_the_Frauenkirche_Munich.jpg",
+          "author": "AuHaidhausen",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Modell der Frauenkirche vor der Frauenkirche",
+          "url": "https://commons.wikimedia.org/wiki/File:Modell_der_Frauenkirche_vor_der_Frauenkirche.jpg",
+          "author": "Ankermast",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Frauenkirche Munich Tower WLM 2015",
+          "url": "https://commons.wikimedia.org/wiki/File:Frauenkirche_Munich_Tower_WLM_2015.jpg",
+          "author": "Jebulon",
+          "license": "CC0"
+        },
+        {
+          "title": "Frauenkirche München abends",
+          "url": "https://commons.wikimedia.org/wiki/File:Frauenkirche_M%C3%BCnchen_abends.jpg",
+          "author": "Thomas Wolf, www.foto-tw.de",
+          "license": "CC BY-SA 3.0 de"
+        }
+      ],
+      "file": "models/munich-frauenkirche.glb",
+      "source": "generators/munich-frauenkirche.ts"
+    },
+    {
       "id": "munich-olympiaturm",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -64771,6 +64858,33 @@
         "way/30046693"
       ],
       "wikidata": "Q131617"
+    },
+    {
+      "id": "munich-frauenkirche",
+      "name": "Frauenkirche",
+      "model": "munich-frauenkirche",
+      "place": "munich",
+      "lng": 11.573598,
+      "lat": 48.138593,
+      "bearing": -1,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q167193",
+      "replaces": [
+        "way/225698612",
+        "way/108429818",
+        "way/209452724",
+        "way/222512591",
+        "way/222512592",
+        "way/222512593",
+        "way/222512594",
+        "way/222512595",
+        "way/222512597",
+        "way/222512599",
+        "way/222512600",
+        "way/222512601",
+        "way/222512602"
+      ]
     },
     {
       "id": "munich-olympiaturm",
