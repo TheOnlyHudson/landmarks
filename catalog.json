@@ -33909,6 +33909,73 @@
       "source": "generators/munich-hvb-tower.ts"
     },
     {
+      "id": "munich-karlstor",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "city-gate",
+        "gothic-revival",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Karlstor night",
+          "url": "https://commons.wikimedia.org/wiki/File:Karlstor_night.jpg",
+          "author": "Jensens",
+          "license": "Public domain"
+        },
+        {
+          "title": "Munich, the Karlstor",
+          "url": "https://commons.wikimedia.org/wiki/File:Munich,_the_Karlstor.JPG",
+          "author": "Dguendel",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Karlstor Munich",
+          "url": "https://commons.wikimedia.org/wiki/File:Karlstor_Munich.jpg",
+          "author": "Rob Faulkner",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Karlstor 2021-06-27",
+          "url": "https://commons.wikimedia.org/wiki/File:Karlstor_2021-06-27.jpg",
+          "author": "Strubbl",
+          "license": "CC0"
+        },
+        {
+          "title": "20180113 Karlstor",
+          "url": "https://commons.wikimedia.org/wiki/File:20180113_Karlstor.jpg",
+          "author": "Flocci Nivis",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Karlsplatz Karlstor Stachus München",
+          "url": "https://commons.wikimedia.org/wiki/File:Karlsplatz_Karlstor_Stachus_M%C3%BCnchen.jpg",
+          "author": "böhringer friedrich",
+          "license": "CC BY-SA 2.5"
+        }
+      ],
+      "file": "models/munich-karlstor.glb",
+      "source": "generators/munich-karlstor.ts"
+    },
+    {
       "id": "munich-nationaltheater",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -66060,6 +66127,102 @@
         "way/196660574",
         "way/196660575",
         "way/211450796"
+      ]
+    },
+    {
+      "id": "munich-karlstor",
+      "name": "Karlstor",
+      "model": "munich-karlstor",
+      "place": "munich",
+      "lng": 11.566763,
+      "lat": 48.13901,
+      "bearing": 23.2,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q567400",
+      "replaces": [
+        "way/52103816",
+        "way/379998304",
+        "way/379998305",
+        "way/379998306",
+        "way/379998307",
+        "way/379998308",
+        "way/379998309",
+        "way/379998310",
+        "way/379998311",
+        "way/379998312",
+        "way/379998313",
+        "way/379998314",
+        "way/379998315",
+        "way/379998316",
+        "way/379998317",
+        "way/379998320",
+        "way/379998323",
+        "way/379998327",
+        "way/379998329",
+        "way/379998333",
+        "way/379998336",
+        "way/379998340",
+        "way/379998344",
+        "way/379998346",
+        "way/379998347",
+        "way/379998348",
+        "way/379998349",
+        "way/379998350",
+        "way/379998351",
+        "way/379998352",
+        "way/379998353",
+        "way/379998354",
+        "way/379998355",
+        "way/379998356",
+        "way/379998357",
+        "way/379998358",
+        "way/379998359",
+        "way/379998360",
+        "way/379998361",
+        "way/379998362",
+        "way/379998363",
+        "way/379998364",
+        "way/379998365",
+        "way/379998366",
+        "way/379998367",
+        "way/379998368",
+        "way/379998369",
+        "way/379998370",
+        "way/379998371",
+        "way/379998372",
+        "way/379998373",
+        "way/379998374",
+        "way/379998375",
+        "way/379998377",
+        "way/379998378",
+        "way/379998379",
+        "way/379998380",
+        "way/379998381",
+        "way/379998382",
+        "way/380096805",
+        "way/380096806",
+        "way/380096807",
+        "way/380096808",
+        "way/380096809",
+        "way/380096810",
+        "way/380096811",
+        "way/380096812",
+        "way/380096813",
+        "way/380096814",
+        "way/380096815",
+        "way/380096816",
+        "way/380096817",
+        "way/380096818",
+        "way/380096819",
+        "way/380096820",
+        "way/380096821",
+        "way/380096822",
+        "way/380096823",
+        "way/380096824",
+        "way/380096825",
+        "way/380096826",
+        "way/380096827"
       ]
     },
     {
