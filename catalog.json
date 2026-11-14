@@ -26659,6 +26659,106 @@
       ]
     },
     {
+      "id": "london-old-royal-naval-college",
+      "file": "models/london-old-royal-naval-college.glb",
+      "source": "generators/london-old-royal-naval-college.ts",
+      "detail": "models/london-old-royal-naval-college.detail.glb",
+      "detailZoom": 17,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "baroque",
+        "university",
+        "world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Old Royal Naval College 2017-08-06 cropped",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Royal_Naval_College_2017-08-06_cropped.jpg",
+          "author": "Colin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Royal Naval College Greenwich view from the Thames",
+          "url": "https://commons.wikimedia.org/wiki/File:Royal_Naval_College_Greenwich_view_from_the_Thames.jpg",
+          "author": "Dmitry Tonkonog",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Greenwich - Grand Square - View SSE on King William Court Dome & Painted Hall - Old Royal Naval College",
+          "url": "https://commons.wikimedia.org/wiki/File:Greenwich_-_Grand_Square_-_View_SSE_on_King_William_Court_Dome_&_Painted_Hall_-_Old_Royal_Naval_College.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dome, Old Royal Naval College - geograph.org.uk - 2599903",
+          "url": "https://commons.wikimedia.org/wiki/File:Dome,_Old_Royal_Naval_College_-_geograph.org.uk_-_2599903.jpg",
+          "author": "Jim Osley",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Greenwich - Old Royal Naval College 1712 Sir Christopher Wren - Queen Mary Court - View NW on Dome & Chapel",
+          "url": "https://commons.wikimedia.org/wiki/File:Greenwich_-_Old_Royal_Naval_College_1712_Sir_Christopher_Wren_-_Queen_Mary_Court_-_View_NW_on_Dome_&_Chapel.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Old Royal Naval College, Greenwich, colonnade - 2022-04-24",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Royal_Naval_College,_Greenwich,_colonnade_-_2022-04-24.jpg",
+          "author": "The wub",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Old Royal Naval College (January 2024) 06",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Royal_Naval_College_(January_2024)_06.jpg",
+          "author": "DiscoA340",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Greenwich - Romney Road - View North on Old Royal Naval College 1712 by Sir Christopher Wren",
+          "url": "https://commons.wikimedia.org/wiki/File:Greenwich_-_Romney_Road_-_View_North_on_Old_Royal_Naval_College_1712_by_Sir_Christopher_Wren.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "HE1290044 Royal Naval College North East Building Queen Anne's Quarter",
+          "url": "https://commons.wikimedia.org/wiki/File:HE1290044_Royal_Naval_College_North_East_Building_Queen_Anne's_Quarter.jpg",
+          "author": "Katie Chan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Greenwich - Royal Observatory - View NNW on Queen's House, Old Royal Naval College, Canary Wharf Docklands & Millennium Dome",
+          "url": "https://commons.wikimedia.org/wiki/File:Greenwich_-_Royal_Observatory_-_View_NNW_on_Queen's_House,_Old_Royal_Naval_College,_Canary_Wharf_Docklands_&_Millennium_Dome.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "London, Greenwich, Blick vom Hügel des Royal Greenwich Observatory -- 2016 -- 4736-8",
+          "url": "https://commons.wikimedia.org/wiki/File:London,_Greenwich,_Blick_vom_Hügel_des_Royal_Greenwich_Observatory_--_2016_--_4736-8.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "london-olympic-stadium",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -58511,6 +58611,42 @@
       "wikidata": "Q309388",
       "replaces": [
         "way/24436446"
+      ]
+    },
+    {
+      "id": "london-old-royal-naval-college",
+      "name": "Old Royal Naval College",
+      "model": "london-old-royal-naval-college",
+      "place": "london",
+      "lng": -0.0055263,
+      "lat": 51.4832213,
+      "bearing": 333,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1753590",
+      "replaces": [
+        "relation/3206882",
+        "relation/14291264",
+        "relation/14291263",
+        "relation/3206883",
+        "way/1105881559",
+        "way/1105881560",
+        "way/1125965428",
+        "way/1125965429",
+        "way/1125965430",
+        "way/1125965431",
+        "way/1125965432",
+        "way/1125965433",
+        "way/1125965434",
+        "way/1125965435",
+        "way/1125965436",
+        "way/1125965437",
+        "way/1125965438",
+        "way/1125965439",
+        "way/1183675921",
+        "way/1183675922",
+        "way/1183675923",
+        "way/1183675924"
       ]
     },
     {
