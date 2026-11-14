@@ -43845,6 +43845,63 @@
       ]
     },
     {
+      "id": "seoul-cheong-wa-dae",
+      "file": "models/seoul-cheong-wa-dae.glb",
+      "source": "generators/seoul-cheong-wa-dae.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "presidential-residence",
+        "government",
+        "hanok",
+        "landmark"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The main building of Cheong Wa Dae, the Blue House (1991): a white two-storey hall under a wide hipped-and-gabled roof of blue-glazed tile, flanked by two forward wings under their own blue roofs with terracotta gables.",
+      "references": [
+        {
+          "title": "Blue House, Seoul (cropped).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Blue_House,_Seoul_(cropped).jpg",
+          "author": "Rtflakfizer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Blue House Seoul 3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Blue_House_Seoul_3.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Blue House buildings Aug 2022.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Blue_House_buildings_Aug_2022.jpg",
+          "author": "Takipoint123",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "CheongWaDae 청와대 14.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:CheongWaDae_%EC%B2%AD%EC%99%80%EB%8C%80_14.jpg",
+          "author": "Republic of Korea",
+          "license": "CC BY-SA 2.0"
+        }
+      ]
+    },
+    {
       "id": "seoul-ddp",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -66950,6 +67007,40 @@
         "way/708772637"
       ],
       "wikidata": "Q487603"
+    },
+    {
+      "id": "seoul-cheong-wa-dae",
+      "name": "Cheong Wa Dae",
+      "model": "seoul-cheong-wa-dae",
+      "place": "seoul",
+      "lng": 126.9748842,
+      "lat": 37.5865051,
+      "bearing": 353.4,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/19333673",
+        "relation/19338601",
+        "way/636449773",
+        "way/1222729682",
+        "way/1222729683",
+        "way/1222729684",
+        "way/1222729685",
+        "way/1222729686",
+        "way/1222729687",
+        "way/1222729688",
+        "way/1222729689",
+        "way/1222729690",
+        "way/1222729691",
+        "way/1222729692",
+        "way/1222729693",
+        "way/1413176341",
+        "way/1413179871",
+        "way/1413179872",
+        "way/1413179873",
+        "way/1413179874",
+        "way/1413179875"
+      ]
     },
     {
       "id": "seoul-ddp",
