@@ -33835,6 +33835,86 @@
       "source": "generators/munich-hvb-tower.ts"
     },
     {
+      "id": "munich-nationaltheater",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "opera-house",
+        "theatre",
+        "neoclassical",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Nationaltheater München",
+          "url": "https://commons.wikimedia.org/wiki/File:Nationaltheater_M%C3%BCnchen.jpg",
+          "author": "Wilfredor",
+          "license": "CC0"
+        },
+        {
+          "title": "2019-01-26 Bayerische Nationaltheater 03",
+          "url": "https://commons.wikimedia.org/wiki/File:2019-01-26_Bayerische_Nationaltheater_03.jpg",
+          "author": "Burkhard Mücke",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nationaltheater 2014-08-02",
+          "url": "https://commons.wikimedia.org/wiki/File:Nationaltheater_2014-08-02.jpg",
+          "author": "M(e)ister Eiskalt",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Nationaltheater in München",
+          "url": "https://commons.wikimedia.org/wiki/File:Nationaltheater_in_M%C3%BCnchen.JPG",
+          "author": "Guido Radig",
+          "license": "CC BY 3.0"
+        },
+        {
+          "title": "Muemaxistrnatthea2017c99",
+          "url": "https://commons.wikimedia.org/wiki/File:Muemaxistrnatthea2017c99.jpg",
+          "author": "Fentriss",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "München, St. Peter, Blick zum Opernhaus und zur Residenz",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_St._Peter,_Blick_zum_Opernhaus_und_zur_Residenz.jpg",
+          "author": "Dguendel",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "München - Nationaltheater (Luftbild)",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Nationaltheater_(Luftbild).jpg",
+          "author": "Maximilian Dörrbecker (Chumwa)",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "2022-08-01 Nationaltheater München bei Nacht",
+          "url": "https://commons.wikimedia.org/wiki/File:2022-08-01_Nationaltheater_M%C3%BCnchen_bei_Nacht.jpg",
+          "author": "Burkhard Mücke",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/munich-nationaltheater.glb",
+      "source": "generators/munich-nationaltheater.ts"
+    },
+    {
       "id": "munich-neues-rathaus",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65887,6 +65967,21 @@
         "way/196660574",
         "way/196660575",
         "way/211450796"
+      ]
+    },
+    {
+      "id": "munich-nationaltheater",
+      "name": "Nationaltheater (Bavarian State Opera)",
+      "model": "munich-nationaltheater",
+      "place": "munich",
+      "lng": 11.57951,
+      "lat": 48.139567,
+      "bearing": 15.8,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q707679",
+      "replaces": [
+        "way/23458583"
       ]
     },
     {
