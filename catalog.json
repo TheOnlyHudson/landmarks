@@ -43771,6 +43771,92 @@
       "source": "generators/seoul-arts-center.ts"
     },
     {
+      "id": "seoul-ddp",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "exhibition-centre",
+        "contemporary",
+        "zaha-hadid"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Dongdaemun, Seoul (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dongdaemun,_Seoul_(1).jpg",
+          "author": "Brit in Seoul",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dongdaemun, Seoul (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dongdaemun,_Seoul_(2).jpg",
+          "author": "Brit in Seoul",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Dongdaemun Design Plaza grass.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dongdaemun_Design_Plaza_grass.jpg",
+          "author": "Tristan Surtel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "20240601 144028 Dongdaemun Design Plaza, Seoul 08.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20240601_144028_Dongdaemun_Design_Plaza,_Seoul_08.jpg",
+          "author": "Dwxn",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Zaha Hadid - Dongdaemun Design Plaza & Park - Photo",
+          "url": "https://www.flickr.com/photos/44343967@N00/13371251053",
+          "author": "Forgemind ArchiMedia",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Zaha Hadid - Dongdaemun Design Plaza & Park - Photo",
+          "url": "https://www.flickr.com/photos/44343967@N00/13371087825",
+          "author": "Forgemind ArchiMedia",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Dongdaemun Design Plaza (site model)",
+          "url": "https://www.flickr.com/photos/86137128@N07/8404096587",
+          "author": "Seoul Guide Korea",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Dongdaemun Design Plaza (site model)",
+          "url": "https://www.flickr.com/photos/86137128@N07/8405189774",
+          "author": "Seoul Guide Korea",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Dongdaemun Design Plaza at night, Seoul, Korea.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dongdaemun_Design_Plaza_at_night,_Seoul,_Korea.jpg",
+          "author": "Eugene Lim",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/seoul-ddp.glb",
+      "source": "generators/seoul-ddp.ts"
+    },
+    {
       "id": "seoul-fki-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -66091,6 +66177,21 @@
       "minzoom": 15,
       "replaces": [
         "relation/8439129"
+      ]
+    },
+    {
+      "id": "seoul-ddp",
+      "name": "Dongdaemun Design Plaza",
+      "model": "seoul-ddp",
+      "place": "seoul",
+      "lng": 127.009646,
+      "lat": 37.566813,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q5295847",
+      "replaces": [
+        "relation/10647068"
       ]
     },
     {
