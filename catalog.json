@@ -43325,6 +43325,82 @@
       "source": "generators/prague-dancing-house.ts"
     },
     {
+      "id": "prague-zizkov-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "tower",
+      "tags": [
+        "tv-tower",
+        "observation-tower",
+        "sculpture",
+        "brutalism"
+      ],
+      "reviewStatus": "unreviewed",
+      "detail": "models/prague-zizkov-tower.detail.glb",
+      "detailZoom": 16,
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Žižkov Television Tower (Jan 2014).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%C5%BDi%C5%BEkov_Television_Tower_(Jan_2014).jpg",
+          "author": "Sebaso",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Žižkov tv tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%C5%BDi%C5%BEkov_tv_tower.jpg",
+          "author": "Norbert Požár",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Žižkov Television Tower (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%C5%BDi%C5%BEkov_Television_Tower_(1).jpg",
+          "author": "Huhulenik",
+          "license": "CC-BY-3.0"
+        },
+        {
+          "title": "Wide angle view of Žižkov Television Tower from street level, 2014-03-09.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wide_angle_view_of_%C5%BDi%C5%BEkov_Television_Tower_from_street_level,_2014-03-09.jpg",
+          "author": "Sage Ross",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Žižkov Television Tower Prague - babies by David Černý-6446.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%C5%BDi%C5%BEkov_Television_Tower_Prague_-_babies_by_David_%C4%8Cern%C3%BD-6446.jpg",
+          "author": "Raimond Spekking",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "CZ-Prag-zizkov-tv-turm-babies.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:CZ-Prag-zizkov-tv-turm-babies.jpg",
+          "author": "Balou46",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Zizkov tower from Vitkov.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Zizkov_tower_from_Vitkov.jpg",
+          "author": "Bystroushaak",
+          "license": "CC-BY-SA-4.0"
+        }
+      ],
+      "file": "models/prague-zizkov-tower.glb",
+      "source": "generators/prague-zizkov-tower.ts"
+    },
+    {
       "id": "queens-museum",
       "file": "models/queens-museum.glb",
       "license": "CC0-1.0",
@@ -68328,6 +68404,33 @@
         "way/319383491",
         "way/319383492",
         "way/319383493"
+      ]
+    },
+    {
+      "id": "prague-zizkov-tower",
+      "name": "Žižkov Television Tower",
+      "model": "prague-zizkov-tower",
+      "place": "prague",
+      "lng": 14.45106,
+      "lat": 50.08102,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "wikidata": "Q1413217",
+      "replaces": [
+        "way/457404360",
+        "relation/3917957",
+        "way/294809058",
+        "way/294809059",
+        "way/98887860",
+        "way/98887857",
+        "way/98887854",
+        "way/4929921",
+        "way/50938190",
+        "way/50938191",
+        "way/50938192",
+        "way/654993103",
+        "way/660445112"
       ]
     },
     {
