@@ -33412,6 +33412,68 @@
       "source": "generators/munich-frauenkirche.ts"
     },
     {
+      "id": "munich-neues-rathaus",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "town-hall",
+        "gothic-revival",
+        "clock-tower",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Neues Rathaus München 2018",
+          "url": "https://commons.wikimedia.org/wiki/File:Neues_Rathaus_M%C3%BCnchen_2018.jpg",
+          "author": "Steffen Flor",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Neues Rathaus Munich March 2013",
+          "url": "https://commons.wikimedia.org/wiki/File:Neues_Rathaus_Munich_March_2013.JPG",
+          "author": "Martin Falbisoner",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Neues Rathaus München - 2014 - Alter Peter",
+          "url": "https://commons.wikimedia.org/wiki/File:Neues_Rathaus_M%C3%BCnchen_-_2014_-_Alter_Peter.jpg",
+          "author": "High Contrast",
+          "license": "CC BY 3.0 de"
+        },
+        {
+          "title": "München - Marienplatz (Luftbild)",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Marienplatz_(Luftbild).jpg",
+          "author": "Maximilian Dörrbecker (Chumwa)",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Turm Neues Rathaus München",
+          "url": "https://commons.wikimedia.org/wiki/File:Turm_Neues_Rathaus_M%C3%BCnchen.jpg",
+          "author": "Flocci Nivis",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/munich-neues-rathaus.glb",
+      "source": "generators/munich-neues-rathaus.ts"
+    },
+    {
       "id": "munich-olympiaturm",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65045,6 +65107,56 @@
         "way/222512600",
         "way/222512601",
         "way/222512602"
+      ]
+    },
+    {
+      "id": "munich-neues-rathaus",
+      "name": "Neues Rathaus",
+      "model": "munich-neues-rathaus",
+      "place": "munich",
+      "lng": 11.575929,
+      "lat": 48.137797,
+      "bearing": 18,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q152979",
+      "replaces": [
+        "relation/147095",
+        "way/219431689",
+        "way/222518027",
+        "way/222518028",
+        "way/222518030",
+        "way/223907239",
+        "way/223907241",
+        "way/223907242",
+        "way/223907278",
+        "way/223907279",
+        "way/223907281",
+        "way/223907284",
+        "way/223907285",
+        "way/224138001",
+        "way/224138002",
+        "way/224138003",
+        "way/224138004",
+        "way/224138007",
+        "way/224138008",
+        "way/224138009",
+        "way/224138010",
+        "way/224138012",
+        "way/224253364",
+        "way/224253365",
+        "way/224253366",
+        "way/224253367",
+        "way/224253368",
+        "way/224253369",
+        "way/224253371",
+        "way/224253375",
+        "way/224253380",
+        "way/224253381",
+        "way/224253385",
+        "way/224253386",
+        "way/224253387",
+        "way/497647021"
       ]
     },
     {
