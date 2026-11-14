@@ -33058,6 +33058,80 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "munich-schloss-nymphenburg",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "palace",
+        "baroque",
+        "historic",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Image-Schloss Nymphenburg Munich CC.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Image-Schloss_Nymphenburg_Munich_CC.jpg",
+          "author": "Richard Bartz",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Schloss Nymphenburg main building.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Schloss_Nymphenburg_main_building.jpg",
+          "author": "Peulle",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Aerial image of Schloss Nymphenburg.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Schloss_Nymphenburg.jpg",
+          "author": "Carsten Steger",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "20220923 Nymphenburg Palace 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20220923_Nymphenburg_Palace_01.jpg",
+          "author": "Flocci Nivis",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Schloss Nymphenburg, Weitwinkelansicht.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Schloss_Nymphenburg,_Weitwinkelansicht.jpg",
+          "author": "Burkhard Mücke",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Wide Panorama of Schloss Nymphenburg in Winter.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wide_Panorama_of_Schloss_Nymphenburg_in_Winter.jpg",
+          "author": "Lucas Garron",
+          "license": "CC0"
+        },
+        {
+          "title": "Schloss Nymphenburg main entrance.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Schloss_Nymphenburg_main_entrance.jpg",
+          "author": "Peulle",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/munich-schloss-nymphenburg.glb",
+      "source": "generators/munich-schloss-nymphenburg.ts"
+    },
+    {
       "id": "music-factory-amphitheatre",
       "file": "models/music-factory-amphitheatre.glb",
       "license": "CC0-1.0",
@@ -64195,6 +64269,34 @@
         "way/131139755"
       ],
       "place": "charlotte-area"
+    },
+    {
+      "id": "munich-schloss-nymphenburg",
+      "name": "Schloss Nymphenburg",
+      "model": "munich-schloss-nymphenburg",
+      "place": "munich",
+      "lng": 11.5045175,
+      "lat": 48.1583221,
+      "bearing": 357,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q131631",
+      "replaces": [
+        "relation/2144986",
+        "way/160265535",
+        "way/311978908",
+        "way/311978909",
+        "way/311978905",
+        "way/311978913",
+        "way/311978907",
+        "way/311978914",
+        "way/312000915",
+        "way/311978911",
+        "way/311978915",
+        "way/311978910",
+        "relation/12127738",
+        "relation/12127745"
+      ]
     },
     {
       "id": "music-factory-amphitheatre",
