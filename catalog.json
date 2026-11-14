@@ -25246,6 +25246,83 @@
       "source": "generators/london-22-bishopsgate.ts"
     },
     {
+      "id": "london-albert-memorial",
+      "file": "models/london-albert-memorial.glb",
+      "source": "generators/london-albert-memorial.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "memorial",
+        "gothic-revival",
+        "sculpture",
+        "gilded",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Albert Memorial, London - May 2008",
+          "url": "https://commons.wikimedia.org/wiki/File:Albert_Memorial,_London_-_May_2008.jpg",
+          "author": "David Iliff (Diliff)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Albert Memorial London July 2015-4",
+          "url": "https://commons.wikimedia.org/wiki/File:Albert_Memorial_London_July_2015-4.jpg",
+          "author": "Alvesgaspar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Albert Memorial London 2020 03 Detail",
+          "url": "https://commons.wikimedia.org/wiki/File:Albert_Memorial_London_2020_03_Detail.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Albert Memorial London 2020 04",
+          "url": "https://commons.wikimedia.org/wiki/File:Albert_Memorial_London_2020_04.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Albert Memorial, Londres, Inglaterra, 2022-11-25, DD 04",
+          "url": "https://commons.wikimedia.org/wiki/File:Albert_Memorial,_Londres,_Inglaterra,_2022-11-25,_DD_04.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Albert Memorial, Londres, Inglaterra, 2022-11-25, DD 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Albert_Memorial,_Londres,_Inglaterra,_2022-11-25,_DD_01.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Albert Memorial, Londres, Inglaterra, 2022-11-25, DD 93-95 HDR",
+          "url": "https://commons.wikimedia.org/wiki/File:Albert_Memorial,_Londres,_Inglaterra,_2022-11-25,_DD_93-95_HDR.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "detail": "models/london-albert-memorial.detail.glb",
+      "detailZoom": 16
+    },
+    {
       "id": "london-british-museum",
       "file": "models/london-british-museum.glb",
       "detail": "models/london-british-museum.detail.glb",
@@ -56813,6 +56890,26 @@
         "way/717374380"
       ],
       "wikidata": "Q18602"
+    },
+    {
+      "id": "london-albert-memorial",
+      "name": "Albert Memorial",
+      "model": "london-albert-memorial",
+      "place": "london",
+      "lng": -0.177682,
+      "lat": 51.502384,
+      "bearing": 353.5,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q281465",
+      "replaces": [
+        "way/372965954",
+        "way/372965957",
+        "way/372965958",
+        "way/372965959",
+        "way/372965960",
+        "way/372965961"
+      ]
     },
     {
       "id": "london-british-museum",
