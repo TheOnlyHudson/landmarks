@@ -33474,6 +33474,77 @@
       "source": "generators/munich-neues-rathaus.ts"
     },
     {
+      "id": "munich-olympiastadion",
+      "detail": "models/munich-olympiastadion.detail.glb",
+      "detailZoom": 16,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "stadium",
+        "olympic",
+        "tensile-structure",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q131610",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Blick vom Olympiaberg auf das Olympiastadion.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Blick_vom_Olympiaberg_auf_das_Olympiastadion.jpg",
+          "author": "Amrei-Marie",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Olympiastadion München von oben.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympiastadion_M%C3%BCnchen_von_oben.jpg",
+          "author": "Deaq",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "20220923 Olympic Stadium Munich.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20220923_Olympic_Stadium_Munich.jpg",
+          "author": "Flocci Nivis",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "München - Olympiapark (Luftbild).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Olympiapark_(Luftbild).jpg",
+          "author": "Maximilian Dörrbecker (Chumwa)",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "title": "Munich - Frei Otto Tensed structures - 5293.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Munich_-_Frei_Otto_Tensed_structures_-_5293.jpg",
+          "author": "Jorge Royan",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Zeltdach Olympiastadion München.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Zeltdach_Olympiastadion_M%C3%BCnchen.JPG",
+          "author": "Wikiolo",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/munich-olympiastadion.glb",
+      "source": "generators/munich-olympiastadion.ts"
+    },
+    {
       "id": "munich-olympiaturm",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65157,6 +65228,60 @@
         "way/224253386",
         "way/224253387",
         "way/497647021"
+      ]
+    },
+    {
+      "id": "munich-olympiastadion",
+      "name": "Olympiastadion",
+      "model": "munich-olympiastadion",
+      "place": "munich",
+      "lng": 11.5464863,
+      "lat": 48.1731055,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/419656920",
+        "way/25001469",
+        "way/25000070",
+        "way/25000074",
+        "way/25000084",
+        "way/25000101",
+        "way/25000127",
+        "way/25000134",
+        "way/25000142",
+        "way/25000190",
+        "way/25000257",
+        "way/25000275",
+        "way/25000346",
+        "way/25000499",
+        "way/25000506",
+        "way/25000513",
+        "way/25000581",
+        "way/25000591",
+        "way/25001707",
+        "way/25001709",
+        "way/51366119",
+        "way/51366120",
+        "way/51366121",
+        "way/51366122",
+        "way/51366123",
+        "way/51366124",
+        "way/51366125",
+        "way/51366126",
+        "way/51366127",
+        "way/117515278",
+        "way/117515279",
+        "way/117477617",
+        "way/117477619",
+        "way/117479842",
+        "way/117479845",
+        "way/117479850",
+        "way/117479852",
+        "way/117479855",
+        "way/117479858",
+        "way/117479843",
+        "way/117479856"
       ]
     },
     {
