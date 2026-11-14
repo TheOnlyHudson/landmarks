@@ -25246,6 +25246,70 @@
       "source": "generators/london-22-bishopsgate.ts"
     },
     {
+      "id": "london-admiralty-arch",
+      "file": "models/london-admiralty-arch.glb",
+      "source": "generators/london-admiralty-arch.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "arch",
+        "edwardian-baroque",
+        "portland-stone",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Admiralty Arch, London, England - June 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:Admiralty_Arch,_London,_England_-_June_2009.jpg",
+          "author": "David Iliff (Diliff)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Admiralty Arch from the Mall",
+          "url": "https://commons.wikimedia.org/wiki/File:Admiralty_Arch_from_the_Mall.jpg",
+          "author": "VirtuallyLondonBecky",
+          "license": "CC0"
+        },
+        {
+          "title": "Admiralty Arch, City of Westminster",
+          "url": "https://commons.wikimedia.org/wiki/File:Admiralty_Arch,_City_of_Westminster.jpg",
+          "author": "Tristan Surtel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Admiralty Arch, Trafalgar Square",
+          "url": "https://commons.wikimedia.org/wiki/File:Admiralty_Arch,_Trafalgar_Square.jpg",
+          "author": "Garry Knight",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Admiralty Arch - geograph.org.uk - 2988086",
+          "url": "https://commons.wikimedia.org/wiki/File:Admiralty_Arch_-_geograph.org.uk_-_2988086.jpg",
+          "author": "Len Williams",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "detail": "models/london-admiralty-arch.detail.glb",
+      "detailZoom": 16
+    },
+    {
       "id": "london-albert-memorial",
       "file": "models/london-albert-memorial.glb",
       "source": "generators/london-albert-memorial.ts",
@@ -57037,6 +57101,32 @@
         "way/717374380"
       ],
       "wikidata": "Q18602"
+    },
+    {
+      "id": "london-admiralty-arch",
+      "name": "Admiralty Arch",
+      "model": "london-admiralty-arch",
+      "place": "london",
+      "lng": -0.128579,
+      "lat": 51.506709,
+      "bearing": 56.8,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q359256",
+      "replaces": [
+        "relation/17074208",
+        "way/1242515121",
+        "way/1242515122",
+        "way/1242515123",
+        "way/1242515124",
+        "way/1242515125",
+        "way/1242515126",
+        "way/1242515127",
+        "way/1242515128",
+        "way/1242515129",
+        "way/1242515130",
+        "way/1242515131"
+      ]
     },
     {
       "id": "london-albert-memorial",
