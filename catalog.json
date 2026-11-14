@@ -26042,6 +26042,70 @@
       "source": "generators/london-lloyds-building.ts"
     },
     {
+      "id": "london-marble-arch",
+      "file": "models/london-marble-arch.glb",
+      "source": "generators/london-marble-arch.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "triumphal-arch",
+        "marble",
+        "neoclassical",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Marble Arch, London",
+          "url": "https://commons.wikimedia.org/wiki/File:Marble_Arch,_London.jpg",
+          "author": "Tristan Surtel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "London - Marble Arch - View North on Marble Arch 1825-33 by John Nash - Triumphal arch moved here in 1851",
+          "url": "https://commons.wikimedia.org/wiki/File:London_-_Marble_Arch_-_View_North_on_Marble_Arch_1825-33_by_John_Nash_-_Triumphal_arch_moved_here_in_1851.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Marble Arch London",
+          "url": "https://commons.wikimedia.org/wiki/File:Marble_Arch_London.jpg",
+          "author": "Unodeaquí",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Marble Arch in London, spring 2013 (4)",
+          "url": "https://commons.wikimedia.org/wiki/File:Marble_Arch_in_London,_spring_2013_(4).JPG",
+          "author": "Chmee2",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "London - Oxford Street - View West on Marble Arch %26 Bayswater Road",
+          "url": "https://commons.wikimedia.org/wiki/File:London_-_Oxford_Street_-_View_West_on_Marble_Arch_%26_Bayswater_Road.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "detail": "models/london-marble-arch.detail.glb",
+      "detailZoom": 16
+    },
+    {
       "id": "london-national-gallery",
       "file": "models/london-national-gallery.glb",
       "detail": "models/london-national-gallery.detail.glb",
@@ -57643,6 +57707,21 @@
         "way/445330148"
       ],
       "wikidata": "Q1814818"
+    },
+    {
+      "id": "london-marble-arch",
+      "name": "Marble Arch",
+      "model": "london-marble-arch",
+      "place": "london",
+      "lng": -0.158906,
+      "lat": 51.513184,
+      "bearing": 78.1,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q845529",
+      "replaces": [
+        "way/41772567"
+      ]
     },
     {
       "id": "london-national-gallery",
