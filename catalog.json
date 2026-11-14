@@ -25833,6 +25833,72 @@
       "source": "generators/london-lloyds-building.ts"
     },
     {
+      "id": "london-national-gallery",
+      "file": "models/london-national-gallery.glb",
+      "detail": "models/london-national-gallery.detail.glb",
+      "detailZoom": 17,
+      "source": "generators/london-national-gallery.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "art-gallery",
+        "neoclassical",
+        "listed",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "Wilkins's Portland stone front on Trafalgar Square (1832–38): the octastyle Corinthian portico on its podium, the small lead dome and the two pepperpot turrets, the long pilastered ranges with their balustrade and side porticos.",
+      "references": [
+        {
+          "title": "Galería Nacional, Londres, Inglaterra, 2014-08-07, DD 035.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Galería_Nacional,_Londres,_Inglaterra,_2014-08-07,_DD_035.JPG",
+          "author": "Diego Delso",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Façade de la National Gallery.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Façade_de_la_National_Gallery.jpg",
+          "author": "Thomon",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "East wing of the National Gallery, London (exterior).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:East_wing_of_the_National_Gallery,_London_(exterior).jpg",
+          "author": "Freepenguin",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Dome, National Gallery, Trafalgar Square - geograph.org.uk - 5843168.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dome,_National_Gallery,_Trafalgar_Square_-_geograph.org.uk_-_5843168.jpg",
+          "author": "Jim Osley",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "City of Westminster , National Gallery, Trafalgar Square - geograph.org.uk - 7665816.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:City_of_Westminster_,_National_Gallery,_Trafalgar_Square_-_geograph.org.uk_-_7665816.jpg",
+          "author": "Jim Osley",
+          "license": "CC-BY-SA-2.0"
+        }
+      ]
+    },
+    {
       "id": "london-natural-history-museum",
       "file": "models/london-natural-history-museum.glb",
       "source": "generators/london-natural-history-museum.ts",
@@ -56985,6 +57051,53 @@
         "way/445330148"
       ],
       "wikidata": "Q1814818"
+    },
+    {
+      "id": "london-national-gallery",
+      "name": "National Gallery",
+      "model": "london-national-gallery",
+      "place": "london",
+      "lng": -0.128631,
+      "lat": 51.509002,
+      "bearing": 345,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q180788",
+      "replaces": [
+        "way/1387097848",
+        "way/1145174506",
+        "way/1145174469",
+        "way/1145174470",
+        "way/1145174471",
+        "way/1145174472",
+        "way/1145174473",
+        "way/1145174474",
+        "way/1145174475",
+        "way/1145174476",
+        "way/1145174477",
+        "way/1145174478",
+        "way/1145174479",
+        "way/1145174480",
+        "way/1145174481",
+        "way/1145174482",
+        "way/1145174483",
+        "way/1145174484",
+        "way/1145174485",
+        "way/1145174486",
+        "way/1145174487",
+        "way/1145174488",
+        "way/1145174489",
+        "way/1145174490",
+        "way/1145174491",
+        "way/1145174492",
+        "way/1145174493",
+        "way/1145174494",
+        "way/1145174495",
+        "way/1145174496",
+        "way/1145174497",
+        "way/1145174498",
+        "way/1145174499"
+      ]
     },
     {
       "id": "london-natural-history-museum",
