@@ -27461,6 +27461,55 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "la-haines-hall",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "historic",
+        "university",
+        "romanesque-revival"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "2019 UCLA Haines Hall 1",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_UCLA_Haines_Hall_1.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2019 UCLA Haines Hall 2",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_UCLA_Haines_Hall_2.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2019 UCLA Royce Hall and Haines Hall",
+          "url": "https://commons.wikimedia.org/wiki/File:2019_UCLA_Royce_Hall_and_Haines_Hall.jpg",
+          "author": "Beyond My Ken",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/la-haines-hall.glb",
+      "source": "generators/la-haines-hall.ts"
+    },
+    {
       "id": "la-hollywood-bowl",
       "file": "models/la-hollywood-bowl.glb",
       "license": "CC0-1.0",
@@ -72403,6 +72452,21 @@
         "way/422130705"
       ],
       "place": "los-angeles-area"
+    },
+    {
+      "id": "la-haines-hall",
+      "name": "Haines Hall",
+      "model": "la-haines-hall",
+      "place": "ucla",
+      "lng": -118.441239,
+      "lat": 34.072898,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/422876570"
+      ],
+      "wikidata": "Q102957109"
     },
     {
       "id": "la-hollywood-bowl",
