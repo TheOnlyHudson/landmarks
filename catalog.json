@@ -43902,6 +43902,89 @@
       ]
     },
     {
+      "id": "seoul-city-hall",
+      "file": "models/seoul-city-hall.glb",
+      "source": "generators/seoul-city-hall.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "government",
+        "city-hall",
+        "glass",
+        "contemporary",
+        "historic",
+        "library"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The 2012 Seoul City Hall, its glass front curling over the plaza like a breaking wave, with the 1926 old City Hall (now the Seoul Metropolitan Library) and its clock tower in front.",
+      "references": [
+        {
+          "title": "Seoul City Hall from Plaza",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_City_Hall_from_Plaza.jpg",
+          "author": "Tristan Surtel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Seoul Metropolitan Library and Seoul City Hall during Seoul Spring Festa in May 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_Metropolitan_Library_and_Seoul_City_Hall_during_Seoul_Spring_Festa_in_May_2025.jpg",
+          "author": "DtSeoul",
+          "license": "CC0"
+        },
+        {
+          "title": "Seoul City Hall 20190608 001",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_City_Hall_20190608_001.jpg",
+          "author": "Mobius6",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Seoul City Hall (39321822950)",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_City_Hall_(39321822950).jpg",
+          "author": "Richard Mortel",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Seoul City Hall A01",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_City_Hall_A01.JPG",
+          "author": "분당선M",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Seoul-City.Hall-02",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul-City.Hall-02.jpg",
+          "author": "ddol-mang",
+          "license": "Public domain"
+        },
+        {
+          "title": "Seoul Metropolitan Library 20191221 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_Metropolitan_Library_20191221_01.jpg",
+          "author": "Ahmed",
+          "license": "CC0"
+        },
+        {
+          "title": "Seoul City Hall At Night",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_City_Hall_At_Night.jpg",
+          "author": "jungwon seo",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
       "id": "seoul-ddp",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -67193,6 +67276,30 @@
         "way/1413179874",
         "way/1413179875"
       ]
+    },
+    {
+      "id": "seoul-city-hall",
+      "name": "Seoul City Hall",
+      "model": "seoul-city-hall",
+      "place": "seoul",
+      "lng": 126.9784227,
+      "lat": 37.5666902,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/198561926",
+        "way/768398467",
+        "way/1275728634",
+        "relation/10757525",
+        "relation/10757526",
+        "relation/18722759",
+        "way/1203368740",
+        "way/1203368741",
+        "way/1415361891",
+        "way/1415361892"
+      ],
+      "wikidata": "Q623908"
     },
     {
       "id": "seoul-ddp",
