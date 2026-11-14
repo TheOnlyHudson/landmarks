@@ -25387,6 +25387,76 @@
       "detailZoom": 16
     },
     {
+      "id": "london-aquatics-centre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "sports",
+        "swimming",
+        "olympic-park",
+        "modern",
+        "zaha-hadid"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q308874",
+      "references": [
+        {
+          "title": "Aquatics Centre - geograph.org.uk - 4038483",
+          "url": "https://commons.wikimedia.org/wiki/File:Aquatics_Centre_-_geograph.org.uk_-_4038483.jpg",
+          "author": "Oast House Archive",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "London Aquatics Centre, 2023",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Aquatics_Centre,_2023.jpg",
+          "author": "Thomas Dahlstrøm Nielsen",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "London Aquatics Centre 2025-05-05",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Aquatics_Centre_2025-05-05.jpg",
+          "author": "The wub",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "London Aquatics Centre - Olympic Park",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Aquatics_Centre_-_Olympic_Park.jpg",
+          "author": "Sumit Surai",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "London Aquatics Centre (25266696922)",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Aquatics_Centre_(25266696922).jpg",
+          "author": "Tom Parnell",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "London Aquatics Centre exterior",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Aquatics_Centre_exterior.jpg",
+          "author": "Cmglee",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/london-aquatics-centre.glb",
+      "source": "generators/london-aquatics-centre.ts"
+    },
+    {
       "id": "london-arcelormittal-orbit",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -57460,6 +57530,21 @@
         "way/372965960",
         "way/372965961"
       ]
+    },
+    {
+      "id": "london-aquatics-centre",
+      "name": "London Aquatics Centre",
+      "model": "london-aquatics-centre",
+      "place": "london",
+      "lng": -0.0105766,
+      "lat": 51.5401562,
+      "bearing": 316.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/1169737833"
+      ],
+      "wikidata": "Q308874"
     },
     {
       "id": "london-arcelormittal-orbit",
