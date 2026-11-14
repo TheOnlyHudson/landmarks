@@ -44571,6 +44571,62 @@
       "source": "generators/seoul-some-sevit.ts"
     },
     {
+      "id": "seoul-war-memorial",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "memorial",
+        "granite",
+        "colonnade"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Korean.War.Memorial.01",
+          "url": "https://commons.wikimedia.org/wiki/File:Korean.War.Memorial.01.jpg",
+          "author": "Andrew Currie",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "KOCIS Korea War Memorial of Korea 20140107 23",
+          "url": "https://commons.wikimedia.org/wiki/File:KOCIS_Korea_War_Memorial_of_Korea_20140107_23_(11850465733).jpg",
+          "author": "Korea.net / Korean Culture and Information Service",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "KOCIS Korea War Memorial of Korea 20140107 27",
+          "url": "https://commons.wikimedia.org/wiki/File:KOCIS_Korea_War_Memorial_of_Korea_20140107_27_(11850464113).jpg",
+          "author": "Korea.net / Korean Culture and Information Service",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "KOCIS Korea War Memorial of Korea 20140107 16",
+          "url": "https://commons.wikimedia.org/wiki/File:KOCIS_Korea_War_Memorial_of_Korea_20140107_16_(11850467443).jpg",
+          "author": "Korea.net / Korean Culture and Information Service",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/seoul-war-memorial.glb",
+      "source": "generators/seoul-war-memorial.ts"
+    },
+    {
       "id": "sf-101-california",
       "file": "models/sf-101-california.glb",
       "license": "CC0-1.0",
@@ -66272,6 +66328,23 @@
         "way/414267182",
         "way/320797228",
         "way/320797229"
+      ]
+    },
+    {
+      "id": "seoul-war-memorial",
+      "name": "War Memorial of Korea",
+      "model": "seoul-war-memorial",
+      "place": "seoul",
+      "lng": 126.9770556,
+      "lat": 37.5370245,
+      "bearing": -1.42,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q489764",
+      "replaces": [
+        "way/229891120",
+        "way/229995726",
+        "way/229995728"
       ]
     },
     {
