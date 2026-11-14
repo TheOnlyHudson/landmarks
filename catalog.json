@@ -44380,6 +44380,67 @@
       "source": "generators/seoul-national-assembly.ts"
     },
     {
+      "id": "seoul-national-museum",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "modern",
+        "granite"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "National Museum of Korea (4)",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Korea_(4).jpg",
+          "author": "SJ Yang",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Front view of national museum of korea",
+          "url": "https://commons.wikimedia.org/wiki/File:Front_view_of_national_museum_of_korea.jpg",
+          "author": "Jinah78",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Exterior of the National Museum of Korea in Seoul",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_National_Museum_of_Korea_in_Seoul.jpg",
+          "author": "Ethan Doyle White",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "National Museum of Korea",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Korea.jpg",
+          "author": "sarahkim",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "National Museum of Korea (KOREA.NET)",
+          "url": "https://www.flickr.com/photos/42438955@N05/6387720685",
+          "author": "KOREA.NET - Official page of the Republic of Korea",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/seoul-national-museum.glb",
+      "source": "generators/seoul-national-museum.ts"
+    },
+    {
       "id": "seoul-parc1",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -66161,6 +66222,23 @@
         "way/877366988"
       ],
       "wikidata": "Q488748"
+    },
+    {
+      "id": "seoul-national-museum",
+      "name": "National Museum of Korea",
+      "model": "seoul-national-museum",
+      "place": "seoul",
+      "lng": 126.9800554,
+      "lat": 37.523902,
+      "bearing": 3.42,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q494407",
+      "replaces": [
+        "way/168364800",
+        "way/382079361",
+        "way/382079351"
+      ]
     },
     {
       "id": "seoul-parc1",
