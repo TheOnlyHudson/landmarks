@@ -43325,6 +43325,75 @@
       "source": "generators/prague-dancing-house.ts"
     },
     {
+      "id": "prague-national-theatre",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "theatre",
+        "neo-renaissance",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "detail": "models/prague-national-theatre.detail.glb",
+      "detailZoom": 17,
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Národní divadlo z Kampy.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:N%C3%A1rodn%C3%AD_divadlo_z_Kampy.jpg",
+          "author": "Tadeáš Gregor",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "National Theatre, Prague (189067931).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Theatre,_Prague_(189067931).jpg",
+          "author": "Luca Florio",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Lascar Národní Divadlo (National Theatre in Prague) (4504575648).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lascar_N%C3%A1rodn%C3%AD_Divadlo_(National_Theatre_in_Prague)_(4504575648).jpg",
+          "author": "Jorge Láscar",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Národní divadlo Praha, Nové Město 20170907 001.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:N%C3%A1rodn%C3%AD_divadlo_Praha,_Nov%C3%A9_M%C4%9Bsto_20170907_001.jpg",
+          "author": "Tilman2007",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Národní divadlo-Prague-2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:N%C3%A1rodn%C3%AD_divadlo-Prague-2.jpg",
+          "author": "Yair Haklai",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Národní divadlo, Škoda 15T.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:N%C3%A1rodn%C3%AD_divadlo,_%C5%A0koda_15T.jpg",
+          "author": "Honza Groh (Jagro)",
+          "license": "CC-BY-SA-3.0"
+        }
+      ],
+      "file": "models/prague-national-theatre.glb",
+      "source": "generators/prague-national-theatre.ts"
+    },
+    {
       "id": "prague-st-vitus-cathedral",
       "detail": "models/prague-st-vitus-cathedral.detail.glb",
       "detailZoom": 17,
@@ -68593,6 +68662,29 @@
         "way/319383491",
         "way/319383492",
         "way/319383493"
+      ]
+    },
+    {
+      "id": "prague-national-theatre",
+      "name": "National Theatre",
+      "model": "prague-national-theatre",
+      "place": "prague",
+      "lng": 14.41357,
+      "lat": 50.08086,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q23042822",
+      "replaces": [
+        "way/7649971",
+        "way/379386264",
+        "way/379386266",
+        "way/454893462",
+        "relation/16202318",
+        "way/481972519",
+        "way/481972520",
+        "way/565056632",
+        "way/565056633"
       ]
     },
     {
