@@ -25310,6 +25310,95 @@
       "detailZoom": 16
     },
     {
+      "id": "london-albert-bridge",
+      "file": "models/london-albert-bridge.glb",
+      "detail": "models/london-albert-bridge.detail.glb",
+      "detailZoom": 16,
+      "source": "generators/london-albert-bridge.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "bridge",
+      "tags": [
+        "cable-stayed-bridge",
+        "suspension-bridge",
+        "thames",
+        "victorian",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Albert Bridge, London - Oct 2012",
+          "url": "https://commons.wikimedia.org/wiki/File:Albert_Bridge,_London_-_Oct_2012.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Albert Bridge at night, London, UK - Diliff",
+          "url": "https://commons.wikimedia.org/wiki/File:Albert_Bridge_at_night,_London,_UK_-_Diliff.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Albert Bridge London 2020 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Albert_Bridge_London_2020_01.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "1358138 II Star Albert Bridge, from N Kensington and Chelsea London 20250611 0001",
+          "url": "https://commons.wikimedia.org/wiki/File:1358138_II_Star_Albert_Bridge,_from_N_Kensington_and_Chelsea_London_20250611_0001.jpg",
+          "author": "Tilman2007",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "1358138 II Star Albert Bridge Kensington and Chelsea London 20250609 0007",
+          "url": "https://commons.wikimedia.org/wiki/File:1358138_II_Star_Albert_Bridge_Kensington_and_Chelsea_London_20250609_0007.jpg",
+          "author": "Tilman2007",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "1358138 II Star Albert Bridge, NW tollbooth Kensington and Chelsea London 20250611 0001",
+          "url": "https://commons.wikimedia.org/wiki/File:1358138_II_Star_Albert_Bridge,_NW_tollbooth_Kensington_and_Chelsea_London_20250611_0001.jpg",
+          "author": "Tilman2007",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Albert Bridge, London, from the northwest",
+          "url": "https://commons.wikimedia.org/wiki/File:Albert_Bridge,_London,_from_the_northwest.jpg",
+          "author": "ketrin1407",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Albert Bridge in close up",
+          "url": "https://commons.wikimedia.org/wiki/File:Albert_Bridge_in_close_up.jpg",
+          "author": "Mermayden",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Environment Agency LIDAR Composite DSM/DTM 1 m",
+          "url": "https://environment.data.gov.uk/dataset/9ba4d5ac-d596-445a-9056-dae3ddec0178",
+          "author": "Environment Agency",
+          "license": "OGL-UK-3.0"
+        }
+      ]
+    },
+    {
       "id": "london-albert-memorial",
       "file": "models/london-albert-memorial.glb",
       "source": "generators/london-albert-memorial.ts",
@@ -58268,6 +58357,29 @@
         "way/1242515129",
         "way/1242515130",
         "way/1242515131"
+      ]
+    },
+    {
+      "id": "london-albert-bridge",
+      "name": "Albert Bridge",
+      "model": "london-albert-bridge",
+      "place": "london",
+      "lng": -0.1666954,
+      "lat": 51.4822554,
+      "bearing": 342.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q1972207",
+      "replaces": [
+        "way/378295023",
+        "way/857860925",
+        "way/857860926",
+        "way/857860923",
+        "way/857860924",
+        "way/250356517",
+        "way/250356518",
+        "way/378295025",
+        "way/378295026"
       ]
     },
     {
