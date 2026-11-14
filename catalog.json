@@ -27035,6 +27035,71 @@
       "detailZoom": 17
     },
     {
+      "id": "london-the-monument",
+      "file": "models/london-the-monument.glb",
+      "source": "generators/london-the-monument.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "column",
+        "memorial",
+        "portland-stone",
+        "gilded",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Monument great fire of London 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Monument_great_fire_of_London_01.jpg",
+          "author": "MatthiasKabel",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Top of Monument to the Great Fire of London",
+          "url": "https://commons.wikimedia.org/wiki/File:Top_of_Monument_to_the_Great_Fire_of_London.jpg",
+          "author": "Colin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Base of Monument to the Great Fire of London",
+          "url": "https://commons.wikimedia.org/wiki/File:Base_of_Monument_to_the_Great_Fire_of_London.jpg",
+          "author": "Colin",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Monumento al Gran Incendio de Londres, Londres, Inglaterra, 2014-08-11, DD 150",
+          "url": "https://commons.wikimedia.org/wiki/File:Monumento_al_Gran_Incendio_de_Londres,_Londres,_Inglaterra,_2014-08-11,_DD_150.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "London - Monument to the Great Fire of London (1666) 1671-1677",
+          "url": "https://commons.wikimedia.org/wiki/File:London_-_Monument_to_the_Great_Fire_of_London_(1666)_1671-1677.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "detail": "models/london-the-monument.detail.glb",
+      "detailZoom": 16
+    },
+    {
       "id": "london-the-scalpel",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -58478,6 +58543,34 @@
         "way/542122685",
         "way/542122686",
         "way/542122687"
+      ]
+    },
+    {
+      "id": "london-the-monument",
+      "name": "The Monument",
+      "model": "london-the-monument",
+      "place": "london",
+      "lng": -0.085949,
+      "lat": 51.510141,
+      "bearing": 23.6,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q607700",
+      "replaces": [
+        "relation/3374550",
+        "relation/3374552",
+        "relation/3374553",
+        "way/128359205",
+        "way/215575154",
+        "way/218598666",
+        "way/218598667",
+        "way/251489943",
+        "way/251489944",
+        "way/251489945",
+        "way/251489946",
+        "way/251489949",
+        "way/251489950",
+        "way/251489953"
       ]
     },
     {
