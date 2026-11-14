@@ -33309,6 +33309,69 @@
       "source": "generators/munich-bmw-vierzylinder.ts"
     },
     {
+      "id": "munich-bmw-welt",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "exhibition",
+        "showroom",
+        "modern",
+        "deconstructivist"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q699614",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "BMW-Welt 9425.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BMW-Welt_9425.jpg",
+          "author": "Henning Schlottmann (User:H-stt)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "München - BMW-Welt - Panorama.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_BMW-Welt_-_Panorama.jpg",
+          "author": "Guido Radig",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "BMW Welt, Múnich, Alemania16.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BMW_Welt,_M%C3%BAnich,_Alemania16.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "BMW Welt, Múnich, Alemania, 2013-04-22, DD 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BMW_Welt,_M%C3%BAnich,_Alemania,_2013-04-22,_DD_03.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "BMW Welt Side.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:BMW_Welt_Side.jpg",
+          "author": "Aepryus",
+          "license": "Public domain"
+        }
+      ],
+      "file": "models/munich-bmw-welt.glb",
+      "source": "generators/munich-bmw-welt.ts"
+    },
+    {
       "id": "munich-deutsches-museum",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65206,6 +65269,27 @@
         "way/193654797",
         "way/193654798",
         "way/310279165"
+      ]
+    },
+    {
+      "id": "munich-bmw-welt",
+      "name": "BMW Welt",
+      "model": "munich-bmw-welt",
+      "place": "munich",
+      "lng": 11.5563861,
+      "lat": 48.1772239,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "way/15804929",
+        "way/307305449",
+        "way/307330230",
+        "way/307345439",
+        "way/307479203",
+        "way/307627834",
+        "way/307634074",
+        "way/617633780"
       ]
     },
     {
