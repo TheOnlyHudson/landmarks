@@ -43716,6 +43716,61 @@
       "source": "generators/seoul-amorepacific.ts"
     },
     {
+      "id": "seoul-arts-center",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "opera-house",
+        "theatre",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Seoul Arts Center 20",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_Arts_Center_20.JPG",
+          "author": "Piotrus",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Korea-Seoul.Arts.Center-02",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea-Seoul.Arts.Center-02.jpg",
+          "author": "Kai Hendry",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Seoul Arts Center 10",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_Arts_Center_10.JPG",
+          "author": "Piotrus",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Seoul Arts Center 12",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_Arts_Center_12.JPG",
+          "author": "Piotrus",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/seoul-arts-center.glb",
+      "source": "generators/seoul-arts-center.ts"
+    },
+    {
       "id": "seoul-fki-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -66022,6 +66077,20 @@
         "way/641711402",
         "way/641711403",
         "way/641711404"
+      ]
+    },
+    {
+      "id": "seoul-arts-center",
+      "name": "Seoul Arts Center Opera House",
+      "model": "seoul-arts-center",
+      "place": "seoul",
+      "lng": 127.0137681,
+      "lat": 37.4792498,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/8439129"
       ]
     },
     {
