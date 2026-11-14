@@ -26546,6 +26546,89 @@
       "source": "generators/london-strata.ts"
     },
     {
+      "id": "london-tate-modern",
+      "file": "models/london-tate-modern.glb",
+      "source": "generators/london-tate-modern.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "art-gallery",
+        "power-station",
+        "industrial-heritage",
+        "brick"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Millennium Bridge and Tate Modern from St Paul's Cathedral, London",
+          "url": "https://commons.wikimedia.org/wiki/File:Millennium_Bridge_and_Tate_Modern_from_St_Paul%27s_Cathedral,_London.jpg",
+          "author": "orangeaurochs",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "London - Bankside - Jubilee Walkway - View SE on Tate Modern",
+          "url": "https://commons.wikimedia.org/wiki/File:London_-_Bankside_-_Jubilee_Walkway_-_View_SE_on_Tate_Modern.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "London - Tate Modern The Switch House (1)",
+          "url": "https://commons.wikimedia.org/wiki/File:London_-_Tate_Modern_The_Switch_House_(1).jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Tate Modern Switch House (27633103611)",
+          "url": "https://commons.wikimedia.org/wiki/File:Tate_Modern_Switch_House_(27633103611).jpg",
+          "author": "Jim Linwood",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Tate Modern exterior 2025-09-27",
+          "url": "https://commons.wikimedia.org/wiki/File:Tate_Modern_exterior_2025-09-27.jpg",
+          "author": "kp-snaps",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Panorama of the Exterior of Tate Modern (January 2024)",
+          "url": "https://commons.wikimedia.org/wiki/File:Panorama_of_the_Exterior_of_Tate_Modern_(January_2024).jpg",
+          "author": "DiscoA340",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Blavatnik Building, Tate Modern (geograph 8008005)",
+          "url": "https://commons.wikimedia.org/wiki/File:Blavatnik_Building,_Tate_Modern_-_geograph.org.uk_-_8008005.jpg",
+          "author": "Philip Halling",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Switch House, Tate Modern 2025-08-07",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Switch_House,_Tate_Modern_2025-08-07.jpg",
+          "author": "Alex Hoekerd",
+          "license": "CC0"
+        }
+      ],
+      "detail": "models/london-tate-modern.detail.glb",
+      "detailZoom": 17
+    },
+    {
       "id": "london-the-scalpel",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -57612,6 +57695,36 @@
         "way/347940185"
       ],
       "wikidata": "Q2284719"
+    },
+    {
+      "id": "london-tate-modern",
+      "name": "Tate Modern",
+      "model": "london-tate-modern",
+      "place": "london",
+      "lng": -0.0995125,
+      "lat": 51.5075455,
+      "bearing": 4.6,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q193375",
+      "replaces": [
+        "way/24642569",
+        "way/123075369",
+        "way/123075376",
+        "way/123075366",
+        "way/1391642133",
+        "way/1391642134",
+        "way/542253509",
+        "way/542122679",
+        "way/542122680",
+        "way/542122681",
+        "way/542122682",
+        "way/542122683",
+        "way/542122684",
+        "way/542122685",
+        "way/542122686",
+        "way/542122687"
+      ]
     },
     {
       "id": "london-the-scalpel",
