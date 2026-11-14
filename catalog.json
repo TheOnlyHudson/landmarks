@@ -43284,6 +43284,125 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "quito-virgen-del-panecillo",
+      "file": "models/quito-virgen-del-panecillo.glb",
+      "detail": "models/quito-virgen-del-panecillo.detail.glb",
+      "detailZoom": 17,
+      "source": "generators/quito-virgen-del-panecillo.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "sculpture",
+      "tags": [
+        "statue",
+        "religious",
+        "aluminium",
+        "viewpoint"
+      ],
+      "reviewStatus": "unreviewed",
+      "description": "The 41 m winged Virgin of Quito on El Panecillo: Agustín de la Herrán Matorras's 1975 statue in 7,400 aluminium plates, after Bernardo de Legarda's carving, dancing on a crescent moon and a chained serpent coiled on the globe, above a tapering twelve-sided tower of volcanic stone.",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Virgen de Quito Panecillo from the roof of the Centro Cultural Metropolitano.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Virgen_de_Quito_Panecillo_from_the_roof_of_the_Centro_Cultural_Metropolitano.JPG",
+          "author": "David Adam Kess",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Quito El Panecillo monument entrance.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Quito_El_Panecillo_monument_entrance.jpg",
+          "author": "Cayambe",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "El Panecillo, Quito - 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Panecillo,_Quito_-_1.jpg",
+          "author": "Maros Mraz",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Quito-IMG 8722.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Quito-IMG_8722.JPG",
+          "author": "C T Johansson",
+          "license": "CC-BY-SA-3.0"
+        },
+        {
+          "title": "Quito - Virgen del Panecillo",
+          "url": "https://www.flickr.com/photos/154314265@N04/33554220464",
+          "author": "peter_swaine",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Virgin of el Panecillo, Quito, Ecuador (day)",
+          "url": "https://www.flickr.com/photos/52450054@N04/52217180704",
+          "author": "Judy Gallagher",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Virgin of el Panecillo, Quito, Ecuador (night)",
+          "url": "https://www.flickr.com/photos/52450054@N04/48656714962",
+          "author": "Judy Gallagher",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Virgen de Quito",
+          "url": "https://www.flickr.com/photos/43555660@N00/16068384973",
+          "author": "Carine06",
+          "license": "CC-BY-SA-2.0"
+        },
+        {
+          "title": "The Virgin of Quito",
+          "url": "https://www.flickr.com/photos/7408004@N06/10580327863",
+          "author": "barspiller",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "La Virgen de Quito",
+          "url": "https://www.flickr.com/photos/47983324@N00/3143830032",
+          "author": "maveric2003",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Virgen del Panecillo",
+          "url": "https://www.flickr.com/photos/83949127@N00/3626250400",
+          "author": "dj_Hans",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "The Panecillo - Quito (side)",
+          "url": "https://www.flickr.com/photos/78362459@N00/8659249127",
+          "author": "HansNYC",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "The Panecillo - Quito (wing)",
+          "url": "https://www.flickr.com/photos/78362459@N00/8660349738",
+          "author": "HansNYC",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "The Panecillo - Quito (leaves)",
+          "url": "https://www.flickr.com/photos/78362459@N00/8660349578",
+          "author": "HansNYC",
+          "license": "CC-BY-2.0"
+        }
+      ]
+    },
+    {
       "id": "rio-christ-the-redeemer",
       "file": "models/rio-christ-the-redeemer.glb",
       "detail": "models/rio-christ-the-redeemer.detail.glb",
@@ -68241,6 +68360,21 @@
         "way/284856409"
       ],
       "place": "new-york-area"
+    },
+    {
+      "id": "quito-virgen-del-panecillo",
+      "name": "Virgen de El Panecillo",
+      "model": "quito-virgen-del-panecillo",
+      "place": "quito",
+      "lng": -78.5185747,
+      "lat": -0.2288561,
+      "bearing": 20,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q6163386",
+      "replaces": [
+        "way/302693995"
+      ]
     },
     {
       "id": "rio-christ-the-redeemer",
