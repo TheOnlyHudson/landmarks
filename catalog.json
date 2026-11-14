@@ -44436,6 +44436,80 @@
       "source": "generators/seoul-parc1.ts"
     },
     {
+      "id": "seoul-some-sevit",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "floating-islands",
+        "cultural-center",
+        "modern",
+        "waterfront"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Korea Sevit Island 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea_Sevit_Island_02_(15354607748).jpg",
+          "author": "Republic of Korea (KOREA.NET)",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Korea Sevit Island 04",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea_Sevit_Island_04_(15541583392).jpg",
+          "author": "Republic of Korea (KOREA.NET)",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Korea Sevit Island 07",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea_Sevit_Island_07_(14920001864).jpg",
+          "author": "Republic of Korea (KOREA.NET)",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Korea Sevit Island 12",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea_Sevit_Island_12_(15537998931).jpg",
+          "author": "Republic of Korea (KOREA.NET)",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Korea Sevit Island 13",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea_Sevit_Island_13_(15516982386).jpg",
+          "author": "Republic of Korea (KOREA.NET)",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Korea Sevit Island 15",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea_Sevit_Island_15_(15540663165).jpg",
+          "author": "Republic of Korea (KOREA.NET)",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Han river architecture - as seen on TV - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Han_river_architecture_-_as_seen_on_TV_-_panoramio.jpg",
+          "author": "gary4now",
+          "license": "CC BY 3.0"
+        }
+      ],
+      "file": "models/seoul-some-sevit.glb",
+      "source": "generators/seoul-some-sevit.ts"
+    },
+    {
       "id": "sf-101-california",
       "file": "models/sf-101-california.glb",
       "license": "CC0-1.0",
@@ -66103,6 +66177,23 @@
         "way/874639190",
         "way/874639191",
         "way/874639192"
+      ]
+    },
+    {
+      "id": "seoul-some-sevit",
+      "name": "Some Sevit",
+      "model": "seoul-some-sevit",
+      "place": "seoul",
+      "lng": 126.9951856,
+      "lat": 37.5119725,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q7451660",
+      "replaces": [
+        "way/414267182",
+        "way/320797228",
+        "way/320797229"
       ]
     },
     {
