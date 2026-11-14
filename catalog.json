@@ -44988,6 +44988,86 @@
       "source": "generators/seoul-war-memorial.ts"
     },
     {
+      "id": "seoul-world-cup-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "stadium",
+        "football",
+        "sports",
+        "membrane-roof"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Seoul World Cup Stadium (from the west)",
+          "url": "https://www.flickr.com/photos/99958070@N02/14887745963",
+          "author": "travel oriented",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Seoul World Cup Stadium (from the west)",
+          "url": "https://www.flickr.com/photos/99958070@N02/14864366542",
+          "author": "travel oriented",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "서울월드컵경기장 Seoul World Cup Stadium",
+          "url": "https://www.flickr.com/photos/56619626@N05/5505348528",
+          "author": "InSapphoWeTrust",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Seoul World Cup Stadium 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_World_Cup_Stadium_01.jpg",
+          "author": "Exj",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "서울월드컵경기장.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%EC%84%9C%EC%9A%B8%EC%9B%94%EB%93%9C%EC%BB%B5%EA%B2%BD%EA%B8%B0%EC%9E%A5.jpg",
+          "author": "Dan820526",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Seongsan-dong, Mapo-gu, Seoul, South Korea - panoramio.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Seongsan-dong,_Mapo-gu,_Seoul,_South_Korea_-_panoramio.jpg",
+          "author": "张元柏",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Seoul-Worldcupstadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul-Worldcupstadium.jpg",
+          "author": "Yanikor",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Seoul World Cup Stadium after K-pop Super Live - 2023-08-11 WSJ 2023.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_World_Cup_Stadium_after_K-pop_Super_Live_-_2023-08-11_WSJ_2023.jpg",
+          "author": "Wvdp",
+          "license": "CC0-1.0"
+        }
+      ],
+      "file": "models/seoul-world-cup-stadium.glb",
+      "source": "generators/seoul-world-cup-stadium.ts"
+    },
+    {
       "id": "sf-101-california",
       "file": "models/sf-101-california.glb",
       "license": "CC0-1.0",
@@ -66829,6 +66909,23 @@
         "way/229891120",
         "way/229995726",
         "way/229995728"
+      ]
+    },
+    {
+      "id": "seoul-world-cup-stadium",
+      "name": "Seoul World Cup Stadium",
+      "model": "seoul-world-cup-stadium",
+      "place": "seoul",
+      "lng": 126.8972922,
+      "lat": 37.5683503,
+      "bearing": 15,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q175477",
+      "replaces": [
+        "relation/2241251",
+        "relation/2241252",
+        "relation/9176866"
       ]
     },
     {
