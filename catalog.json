@@ -43667,6 +43667,55 @@
       "source": "generators/seoul-63-building.ts"
     },
     {
+      "id": "seoul-amorepacific",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "office",
+        "modern",
+        "headquarters"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Seoul-metro-429-Sinyongsan-station-entrance-3-20191022-153642",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul-metro-429-Sinyongsan-station-entrance-3-20191022-153642.jpg",
+          "author": "LERK",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Sinyongsan Station 20230408 001",
+          "url": "https://commons.wikimedia.org/wiki/File:Sinyongsan_Station_20230408_001.jpg",
+          "author": "Mobius6",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Amore Pacific World HQ",
+          "url": "https://commons.wikimedia.org/wiki/File:Amore_Pacific_World_HQ.jpg",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/seoul-amorepacific.glb",
+      "source": "generators/seoul-amorepacific.ts"
+    },
+    {
       "id": "seoul-fki-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65950,6 +65999,29 @@
         "way/463613650",
         "way/463613651",
         "way/463613652"
+      ]
+    },
+    {
+      "id": "seoul-amorepacific",
+      "name": "Amorepacific Headquarters",
+      "model": "seoul-amorepacific",
+      "place": "seoul",
+      "lng": 126.9686221,
+      "lat": 37.5287964,
+      "bearing": 36.6,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q55732357",
+      "replaces": [
+        "way/363982568",
+        "way/641066081",
+        "way/641066083",
+        "way/641066085",
+        "way/641066087",
+        "way/641711401",
+        "way/641711402",
+        "way/641711403",
+        "way/641711404"
       ]
     },
     {
