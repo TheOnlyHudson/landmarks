@@ -43985,6 +43985,76 @@
       ]
     },
     {
+      "id": "seoul-culture-station-284",
+      "file": "models/seoul-culture-station-284.glb",
+      "source": "generators/seoul-culture-station-284.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "railway-station",
+        "historic",
+        "brick",
+        "dome",
+        "museum"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The old Seoul Station (1925), now a cultural venue: red brick and granite under slate mansards, with the green copper dome over its central hall and small domed turrets.",
+      "references": [
+        {
+          "title": "Old-Seoul-station-20181122-072336",
+          "url": "https://commons.wikimedia.org/wiki/File:Old-Seoul-station-20181122-072336.jpg",
+          "author": "LERK",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Old Seoul Station - 1998",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Seoul_Station_-_1998.jpg",
+          "author": "Yusuke Kawasaki",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Old Seoul Station",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Seoul_Station.jpg",
+          "author": "콩가루",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "KNR-Seoul-Station-old-other-side-over-view",
+          "url": "https://commons.wikimedia.org/wiki/File:KNR-Seoul-Station-old-other-side-over-view.JPG",
+          "author": "Kanchi1979",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "KNR-Seoul-Station-old-other-side-over-view-center-hall",
+          "url": "https://commons.wikimedia.org/wiki/File:KNR-Seoul-Station-old-other-side-over-view-center-hall.JPG",
+          "author": "Kanchi1979",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "Old Seoul Station at night 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Seoul_Station_at_night_01.JPG",
+          "author": "Abasaa",
+          "license": "Public domain"
+        }
+      ]
+    },
+    {
       "id": "seoul-ddp",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -67371,6 +67441,20 @@
         "way/1415361892"
       ],
       "wikidata": "Q623908"
+    },
+    {
+      "id": "seoul-culture-station-284",
+      "name": "Culture Station Seoul 284",
+      "model": "seoul-culture-station-284",
+      "place": "seoul",
+      "lng": 126.9715612,
+      "lat": 37.5559594,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/759569673"
+      ]
     },
     {
       "id": "seoul-ddp",
