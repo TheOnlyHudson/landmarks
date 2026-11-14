@@ -26300,6 +26300,90 @@
       ]
     },
     {
+      "id": "london-olympic-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "stadium",
+        "football",
+        "athletics",
+        "olympic-park",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "detail": "models/london-olympic-stadium.detail.glb",
+      "detailZoom": 17,
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q172190",
+      "references": [
+        {
+          "title": "London Queen Elizabeth Olympic Park",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Queen_Elizabeth_Olympic_Park.jpg",
+          "author": "Arne Müseler",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "title": "Queen Elizabeth Olympic Park from the air - geograph.org.uk - 4642613",
+          "url": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_Olympic_Park_from_the_air_-_geograph.org.uk_-_4642613.jpg",
+          "author": "Thomas Nugent",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Greenway overlooking London Stadium and ArcelorMittal Orbit",
+          "url": "https://commons.wikimedia.org/wiki/File:Greenway_overlooking_London_Stadium_and_ArcelorMittal_Orbit.jpg",
+          "author": "Uthoang",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "London Stadium, Queen Elizabeth Olympic Park (geograph 6561224)",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Stadium,_Queen_Elizabeth_Olympic_Park_(geograph_6561224).jpg",
+          "author": "Oast House Archive",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "London Stadium (39580217711)",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Stadium_(39580217711).jpg",
+          "author": "Daniel from Glasgow",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "London Stadium, Olympic Park - geograph.org.uk - 7405855",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Stadium,_Olympic_Park_-_geograph.org.uk_-_7405855.jpg",
+          "author": "Bryn Holmes",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "London Stadium panorama picture",
+          "url": "https://commons.wikimedia.org/wiki/File:London_Stadium_panorama_picture.jpg",
+          "author": "Hammersfan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Olympic Stadium and the Arcelor Orbit - geograph.org.uk - 7748365",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympic_Stadium_and_the_Arcelor_Orbit_-_geograph.org.uk_-_7748365.jpg",
+          "author": "Bikeboy",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "file": "models/london-olympic-stadium.glb",
+      "source": "generators/london-olympic-stadium.ts"
+    },
+    {
       "id": "london-one-blackfriars",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -57939,6 +58023,24 @@
       "replaces": [
         "way/24436446"
       ]
+    },
+    {
+      "id": "london-olympic-stadium",
+      "name": "London Stadium",
+      "model": "london-olympic-stadium",
+      "place": "london",
+      "lng": -0.0165665,
+      "lat": 51.5386748,
+      "bearing": 354.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "replaces": [
+        "relation/10266378",
+        "way/486297861",
+        "way/843430380",
+        "way/843430381"
+      ],
+      "wikidata": "Q172190"
     },
     {
       "id": "london-one-blackfriars",
