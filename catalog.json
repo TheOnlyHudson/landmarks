@@ -27712,6 +27712,83 @@
       "detailZoom": 16
     },
     {
+      "id": "london-the-o2",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "arena",
+        "dome",
+        "tensile-structure",
+        "modern"
+      ],
+      "reviewStatus": "unreviewed",
+      "detail": "models/london-the-o2.detail.glb",
+      "detailZoom": 17,
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "wikidata": "Q29014",
+      "references": [
+        {
+          "title": "The O2, Greenwich, London",
+          "url": "https://commons.wikimedia.org/wiki/File:The_O2,_Greenwich,_London.jpg",
+          "author": "Lewis Hulbert",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "O2 Arena",
+          "url": "https://commons.wikimedia.org/wiki/File:O2_Arena.jpg",
+          "author": "Heuschrecke",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "London MMB «R8 Millennium Dome",
+          "url": "https://commons.wikimedia.org/wiki/File:London_MMB_«R8_Millennium_Dome.jpg",
+          "author": "mattbuck",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "London millennium dome 02",
+          "url": "https://commons.wikimedia.org/wiki/File:London_millennium_dome_02.jpg",
+          "author": "Ad Meskens",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "The Millennium Dome, taken during flight back to Heathrow (100455649)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Millennium_Dome,_taken_during_flight_back_to_Heathrow_(100455649).jpg",
+          "author": "Paul Holloway",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "The Millennium Dome at the O2 Arena, London (Ank Kumar, Infosys Limited) 05",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Millennium_Dome_at_the_O2_Arena,_London_(Ank_Kumar,_Infosys_Limited)_05.jpg",
+          "author": "Ank Kumar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Millenium Dome and Canary Wharf, London, 17 September 2005 (83730952)",
+          "url": "https://commons.wikimedia.org/wiki/File:Millenium_Dome_and_Canary_Wharf,_London,_17_September_2005_(83730952).jpg",
+          "author": "Phillip Capper",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "file": "models/london-the-o2.glb",
+      "source": "generators/london-the-o2.ts"
+    },
+    {
       "id": "london-the-scalpel",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -59622,6 +59699,21 @@
         "way/251489950",
         "way/251489953"
       ]
+    },
+    {
+      "id": "london-the-o2",
+      "name": "The O2",
+      "model": "london-the-o2",
+      "place": "london",
+      "lng": 0.0032048,
+      "lat": 51.5029354,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 13,
+      "replaces": [
+        "relation/1895281"
+      ],
+      "wikidata": "Q29014"
     },
     {
       "id": "london-the-scalpel",
