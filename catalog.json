@@ -33663,6 +33663,80 @@
       "source": "generators/munich-glyptothek.ts"
     },
     {
+      "id": "munich-hvb-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "modernist"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q896364",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "HVB-Tower in München.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:HVB-Tower_in_M%C3%BCnchen.jpg",
+          "author": "HypoVereinsbank / HG Esch",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "HVB-Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:HVB-Tower.jpg",
+          "author": "HypoVereinsbank / HG Esch",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "2019-03-04-Hypo-Bank-Hochhaus-1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2019-03-04-Hypo-Bank-Hochhaus-1.jpg",
+          "author": "Gunnar Klack",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "München - Hypohaus - August 2016.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Hypohaus_-_August_2016.jpg",
+          "author": "Kajebi II.",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "HypoHochhaus01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:HypoHochhaus01.jpg",
+          "author": "Ordercrazy",
+          "license": "Public domain"
+        },
+        {
+          "title": "HVB-Tower Munich, June 2017.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:HVB-Tower_Munich,_June_2017.jpg",
+          "author": "Martin Falbisoner",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Digitales Orthophoto DOP40 (Bayerische Vermessungsverwaltung)",
+          "url": "https://geodaten.bayern.de/opengeodata/",
+          "author": "Bayerische Vermessungsverwaltung",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "file": "models/munich-hvb-tower.glb",
+      "source": "generators/munich-hvb-tower.ts"
+    },
+    {
       "id": "munich-neues-rathaus",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -65590,6 +65664,34 @@
         "relation/532621",
         "way/1576459171",
         "way/1576459172"
+      ]
+    },
+    {
+      "id": "munich-hvb-tower",
+      "name": "HVB Tower",
+      "model": "munich-hvb-tower",
+      "place": "munich",
+      "lng": 11.6173211,
+      "lat": 48.1498111,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q896364",
+      "replaces": [
+        "relation/2833590",
+        "way/211447642",
+        "way/210584887",
+        "way/135353407",
+        "way/210584885",
+        "way/196660576",
+        "way/135350828",
+        "way/196660573",
+        "way/210584882",
+        "way/135353405",
+        "way/210584883",
+        "way/196660574",
+        "way/196660575",
+        "way/211450796"
       ]
     },
     {
