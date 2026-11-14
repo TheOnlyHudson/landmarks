@@ -45192,6 +45192,62 @@
       "source": "generators/seoul-world-cup-stadium.ts"
     },
     {
+      "id": "seoul-world-peace-gate",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "monument",
+      "tags": [
+        "monument",
+        "gate",
+        "1988-olympics",
+        "public-art"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "올림픽공원 Olympic Park, Seoul (World Peace Gate)",
+          "url": "https://www.flickr.com/photos/56619626@N05/5678836656",
+          "author": "InSapphoWeTrust (Rachel K. So)",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Seoul Olympic Park from Lotte World Tower.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_Olympic_Park_from_Lotte_World_Tower.jpg",
+          "author": "Tristan Surtel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Olympic Park Seoul 2005.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympic_Park_Seoul_2005.jpg",
+          "author": "M. Öcalan",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Olympic Park Seoul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Olympic_Park_Seoul.jpg",
+          "author": "Silas Low",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/seoul-world-peace-gate.glb",
+      "source": "generators/seoul-world-peace-gate.ts"
+    },
+    {
       "id": "sf-101-california",
       "file": "models/sf-101-california.glb",
       "license": "CC0-1.0",
@@ -67081,6 +67137,21 @@
         "relation/2241251",
         "relation/2241252",
         "relation/9176866"
+      ]
+    },
+    {
+      "id": "seoul-world-peace-gate",
+      "name": "World Peace Gate",
+      "model": "seoul-world-peace-gate",
+      "place": "seoul",
+      "lng": 127.1153972,
+      "lat": 37.5183104,
+      "bearing": 68.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q12621853",
+      "replaces": [
+        "relation/16563734"
       ]
     },
     {
