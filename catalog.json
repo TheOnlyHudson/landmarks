@@ -34148,6 +34148,87 @@
       "source": "generators/munich-st-peter.ts"
     },
     {
+      "id": "munich-theatinerkirche",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "baroque",
+        "dome",
+        "clock-tower",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Exterior of Theatinerkirche, Munich",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Theatinerkirche,_Munich.jpg",
+          "author": "Wilfredor",
+          "license": "CC0"
+        },
+        {
+          "title": "Theatinerkirche München 2014",
+          "url": "https://commons.wikimedia.org/wiki/File:Theatinerkirche_M%C3%BCnchen_2014.jpg",
+          "author": "High Contrast",
+          "license": "CC BY 3.0 de"
+        },
+        {
+          "title": "Theatinerkirche Munich, March 2018",
+          "url": "https://commons.wikimedia.org/wiki/File:Theatinerkirche_Munich,_March_2018.jpg",
+          "author": "Martin Falbisoner",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Theatinerkirche Hofgarten Munich München 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:Theatinerkirche_Hofgarten_Munich_M%C3%BCnchen_2009.jpg",
+          "author": "Schlaier",
+          "license": "Public domain"
+        },
+        {
+          "title": "20210102 Theatinerkirche Munich 01",
+          "url": "https://commons.wikimedia.org/wiki/File:20210102_Theatinerkirche_Munich_01.jpg",
+          "author": "Flocci Nivis",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Theatinerstrasse Theatinerkirche Munich",
+          "url": "https://commons.wikimedia.org/wiki/File:Theatinerstrasse_Theatinerkirche_Munich.jpg",
+          "author": "Jebulon",
+          "license": "CC0"
+        },
+        {
+          "title": "München, Theatinerkirche, Turm-Voluten, 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_Theatinerkirche,_Turm-Voluten,_2024.jpg",
+          "author": "Rendor Thuces Al'Nachkar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Theatinerkirche - Colegiata de San Cayetano",
+          "url": "https://commons.wikimedia.org/wiki/File:Theatinerkirche_-_Colegiata_de_San_Cayetano.jpg",
+          "author": "Pedro J Pacheco",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/munich-theatinerkirche.glb",
+      "source": "generators/munich-theatinerkirche.ts"
+    },
+    {
       "id": "music-factory-amphitheatre",
       "file": "models/music-factory-amphitheatre.glb",
       "license": "CC0-1.0",
@@ -65974,6 +66055,25 @@
         "way/225987428",
         "way/225987429",
         "way/228534639"
+      ]
+    },
+    {
+      "id": "munich-theatinerkirche",
+      "name": "Theatinerkirche St. Kajetan",
+      "model": "munich-theatinerkirche",
+      "place": "munich",
+      "lng": 11.576617,
+      "lat": 48.142069,
+      "bearing": 14.5,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q259799",
+      "replaces": [
+        "way/25514390",
+        "way/312008156",
+        "way/312008157",
+        "way/497670959",
+        "way/1193085484"
       ]
     },
     {
