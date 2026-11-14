@@ -44748,6 +44748,74 @@
       "source": "generators/seoul-national-museum.ts"
     },
     {
+      "id": "seoul-olympic-stadium",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "stadium",
+      "tags": [
+        "stadium",
+        "olympic",
+        "sports",
+        "1988-olympics"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Seoul Sports Complex.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_Sports_Complex.jpg",
+          "author": "Seoul Institute",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "View of the Seoul Sports Complex from the Jamsil Baseball Stadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_Seoul_Sports_Complex_from_the_Jamsil_Baseball_Stadium.jpg",
+          "author": "Christophe95",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Toward Seoul Olympic Stadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Toward_Seoul_Olympic_Stadium.jpg",
+          "author": "Danleo",
+          "license": "CC BY 2.5"
+        },
+        {
+          "title": "2014-04-18 15.08.40 종합운동장.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2014-04-18_15.08.40_%EC%A2%85%ED%95%A9%EC%9A%B4%EB%8F%99%EC%9E%A5.jpg",
+          "author": "최광모 (Choe Kwangmo)",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "Seoul Jamsil Main Stadium.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_Jamsil_Main_Stadium.jpg",
+          "author": "Jeong seolah",
+          "license": "CC0-1.0"
+        },
+        {
+          "title": "蚕室 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%E8%9A%95%E5%AE%A4_04.jpg",
+          "author": "MCFC795",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/seoul-olympic-stadium.glb",
+      "source": "generators/seoul-olympic-stadium.ts"
+    },
+    {
       "id": "seoul-parc1",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -66827,6 +66895,21 @@
         "way/168364800",
         "way/382079361",
         "way/382079351"
+      ]
+    },
+    {
+      "id": "seoul-olympic-stadium",
+      "name": "Seoul Olympic Stadium",
+      "model": "seoul-olympic-stadium",
+      "place": "seoul",
+      "lng": 127.0727668,
+      "lat": 37.515831,
+      "bearing": 355.6,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q392086",
+      "replaces": [
+        "relation/20348235"
       ]
     },
     {
