@@ -43393,6 +43393,74 @@
       "source": "generators/quito-basilica-del-voto-nacional.ts"
     },
     {
+      "id": "quito-la-compania",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "baroque",
+        "historic",
+        "unesco-world-heritage"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Iglesia de la Compañía (Quito) photographed from Plaza San Francisco",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_la_Compa%C3%B1%C3%ADa_(Quito)_photographed_from_Plaza_San_Francisco.JPG",
+          "author": "David Adam Kess",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Iglesia de la Compañia - panoramio - Quito magnífico (4)",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_la_Compa%C3%B1ia_-_panoramio_-_Quito_magn%C3%ADfico_(4).jpg",
+          "author": "Quito magnífico",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Iglesia La Compania, Quito, Ecuador",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_La_Compania,_Quito,_Ecuador.JPG",
+          "author": "Shoestring (Wikivoyage)",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Compañía de Jesús, Quito 14",
+          "url": "https://commons.wikimedia.org/wiki/File:Compa%C3%B1%C3%ADa_de_Jes%C3%BAs,_Quito_14.jpg",
+          "author": "Ranoutofusername",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Iglesia de la Compañía, Quito, Ecuador, 2015-07-22, DD 220-222 HDR",
+          "url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_la_Compa%C3%B1%C3%ADa,_Quito,_Ecuador,_2015-07-22,_DD_220-222_HDR.JPG",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Cupulas de la Iglesia de la Compañia - panoramio",
+          "url": "https://commons.wikimedia.org/wiki/File:Cupulas_de_la_Iglesia_de_la_Compa%C3%B1ia_-_panoramio.jpg",
+          "author": "Quito magnífico",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/quito-la-compania.glb",
+      "source": "generators/quito-la-compania.ts"
+    },
+    {
       "id": "quito-virgen-del-panecillo",
       "file": "models/quito-virgen-del-panecillo.glb",
       "detail": "models/quito-virgen-del-panecillo.detail.glb",
@@ -68494,6 +68562,26 @@
         "way/673325418",
         "way/673325419",
         "way/673473133"
+      ]
+    },
+    {
+      "id": "quito-la-compania",
+      "name": "Iglesia de la Compañía de Jesús",
+      "model": "quito-la-compania",
+      "place": "quito",
+      "lng": -78.513841,
+      "lat": -0.2207742,
+      "bearing": 310,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q3075573",
+      "replaces": [
+        "way/673869411",
+        "way/673869408",
+        "way/673869409",
+        "way/673869410",
+        "way/1118492144",
+        "way/1118492145"
       ]
     },
     {
