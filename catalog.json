@@ -25539,6 +25539,70 @@
       "source": "generators/london-city-hall.ts"
     },
     {
+      "id": "london-harrods",
+      "file": "models/london-harrods.glb",
+      "source": "generators/london-harrods.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "department-store",
+        "historic",
+        "edwardian",
+        "terracotta",
+        "dome",
+        "grade-ii-star-listed"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Harrods at Night, London - Nov 2012",
+          "url": "https://commons.wikimedia.org/wiki/File:Harrods_at_Night,_London_-_Nov_2012.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "London, Harrods -- 2016 -- 4605",
+          "url": "https://commons.wikimedia.org/wiki/File:London,_Harrods_--_2016_--_4605.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Harrods, London - June 2009 (cropped)",
+          "url": "https://commons.wikimedia.org/wiki/File:Harrods,_London_-_June_2009_(cropped).jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Harrods from Hans Road, Knightsbridge, September 2024",
+          "url": "https://commons.wikimedia.org/wiki/File:Harrods_from_Hans_Road,_Knightsbridge,_September_2024.jpg",
+          "author": "No Swan So Fine",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Exterior of Harrods on Hans Crescent, London 2012-12-27",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Harrods_on_Hans_Crescent,_London_2012-12-27.jpg",
+          "author": "Daniel X. O'Neil",
+          "license": "CC BY 2.0"
+        }
+      ]
+    },
+    {
       "id": "london-leadenhall-building",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -56380,6 +56444,22 @@
         "way/1408628142"
       ],
       "wikidata": "Q1093950"
+    },
+    {
+      "id": "london-harrods",
+      "name": "Harrods",
+      "model": "london-harrods",
+      "place": "london",
+      "lng": -0.162907,
+      "lat": 51.499186,
+      "bearing": 317.8,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q332474",
+      "replaces": [
+        "way/25739565",
+        "way/1370140203"
+      ]
     },
     {
       "id": "london-leadenhall-building",
