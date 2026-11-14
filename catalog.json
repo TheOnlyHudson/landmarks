@@ -25697,6 +25697,70 @@
       "source": "generators/london-lloyds-building.ts"
     },
     {
+      "id": "london-natural-history-museum",
+      "file": "models/london-natural-history-museum.glb",
+      "source": "generators/london-natural-history-museum.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "museum",
+        "historic",
+        "victorian",
+        "romanesque-revival",
+        "terracotta",
+        "grade-i-listed"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Natural History Museum London Jan 2006",
+          "url": "https://commons.wikimedia.org/wiki/File:Natural_History_Museum_London_Jan_2006.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Natural History Museum London South Facade 2020 01",
+          "url": "https://commons.wikimedia.org/wiki/File:Natural_History_Museum_London_South_Facade_2020_01.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "Natural History Museum London South Facade 2020 02",
+          "url": "https://commons.wikimedia.org/wiki/File:Natural_History_Museum_London_South_Facade_2020_02.jpg",
+          "author": "Julian Herzog",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "The Natural History Museum and The Royal Albert Hall from the air (geograph 4641862)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Natural_History_Museum_and_The_Royal_Albert_Hall_from_the_air_(geograph_4641862).jpg",
+          "author": "Thomas Nugent",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Kensington Museums aerial 2011 a",
+          "url": "https://commons.wikimedia.org/wiki/File:Kensington_Museums_aerial_2011_a.jpg",
+          "author": "Andreas Praefcke",
+          "license": "Public domain"
+        }
+      ]
+    },
+    {
       "id": "london-one-blackfriars",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -56363,6 +56427,21 @@
         "way/445330148"
       ],
       "wikidata": "Q1814818"
+    },
+    {
+      "id": "london-natural-history-museum",
+      "name": "Natural History Museum",
+      "model": "london-natural-history-museum",
+      "place": "london",
+      "lng": -0.176209,
+      "lat": 51.496485,
+      "bearing": 353,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q309388",
+      "replaces": [
+        "way/24436446"
+      ]
     },
     {
       "id": "london-one-blackfriars",
