@@ -26225,6 +26225,88 @@
       ]
     },
     {
+      "id": "london-kew-palm-house",
+      "file": "models/london-kew-palm-house.glb",
+      "source": "generators/london-kew-palm-house.ts",
+      "detail": "models/london-kew-palm-house.detail.glb",
+      "detailZoom": 17,
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "glasshouse",
+        "victorian",
+        "botanical-garden",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Rear of Palm House, Kew Gardens",
+          "url": "https://commons.wikimedia.org/wiki/File:Rear_of_Palm_House,_Kew_Gardens.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Kew Gardens Palm House, London - July 2009",
+          "url": "https://commons.wikimedia.org/wiki/File:Kew_Gardens_Palm_House,_London_-_July_2009.jpg",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Palm House, Kew - geograph.org.uk - 3086137",
+          "url": "https://commons.wikimedia.org/wiki/File:Palm_House,_Kew_-_geograph.org.uk_-_3086137.jpg",
+          "author": "Colin Smith",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "London - Kew Gardens - Palm House Pond - Broad Walk - View West on Palm House 1848 by Decimus Burton & Richard Turner",
+          "url": "https://commons.wikimedia.org/wiki/File:London_-_Kew_Gardens_-_Palm_House_Pond_-_Broad_Walk_-_View_West_on_Palm_House_1848_by_Decimus_Burton_&_Richard_Turner.jpg",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Kew Gardens Palm House 2025-05-14",
+          "url": "https://commons.wikimedia.org/wiki/File:Kew_Gardens_Palm_House_2025-05-14.jpg",
+          "author": "Andy Li",
+          "license": "CC0"
+        },
+        {
+          "title": "Kew Garden from the air - geograph.org.uk - 4262100",
+          "url": "https://commons.wikimedia.org/wiki/File:Kew_Garden_from_the_air_-_geograph.org.uk_-_4262100.jpg",
+          "author": "Thomas Nugent",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Kew Gardens from the air - geograph.org.uk - 6080455",
+          "url": "https://commons.wikimedia.org/wiki/File:Kew_Gardens_from_the_air_-_geograph.org.uk_-_6080455.jpg",
+          "author": "Thomas Nugent",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "View to roof in center of Palm House, Kew Gardens",
+          "url": "https://commons.wikimedia.org/wiki/File:View_to_roof_in_center_of_Palm_House,_Kew_Gardens.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    {
       "id": "london-leadenhall-building",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -58290,6 +58372,21 @@
       "wikidata": "Q749808",
       "replaces": [
         "way/8614496"
+      ]
+    },
+    {
+      "id": "london-kew-palm-house",
+      "name": "Palm House, Kew",
+      "model": "london-kew-palm-house",
+      "place": "london",
+      "lng": -0.2927483,
+      "lat": 51.4790564,
+      "bearing": 341.3,
+      "elevation": 0,
+      "minzoom": 16,
+      "wikidata": "Q17528039",
+      "replaces": [
+        "way/4803632"
       ]
     },
     {
