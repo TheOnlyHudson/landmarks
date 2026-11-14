@@ -44038,6 +44038,56 @@
       "source": "generators/seoul-gocheok-sky-dome.ts"
     },
     {
+      "id": "seoul-gt-tower",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "skyscraper",
+        "office",
+        "contemporary",
+        "glass"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Gangnam",
+          "url": "https://www.flickr.com/photos/69327687@N03/19547142271",
+          "author": "AntheaAtlas",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "The wave of G Tower",
+          "url": "https://www.flickr.com/photos/27284887@N03/7111561555",
+          "author": "seafaringwoman",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Gangman,Seúl, Corea Del Sur - panoramio (3).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gangman,Se%C3%BAl,_Corea_Del_Sur_-_panoramio_(3).jpg",
+          "author": "Nelson Pérez",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "file": "models/seoul-gt-tower.glb",
+      "source": "generators/seoul-gt-tower.ts"
+    },
+    {
       "id": "seoul-gwanghwamun",
       "file": "models/seoul-gwanghwamun.glb",
       "source": "generators/seoul-gwanghwamun.ts",
@@ -66775,6 +66825,21 @@
       "replaces": [
         "way/258637347",
         "way/842076947"
+      ]
+    },
+    {
+      "id": "seoul-gt-tower",
+      "name": "GT Tower",
+      "model": "seoul-gt-tower",
+      "place": "seoul",
+      "lng": 127.025944,
+      "lat": 37.498063,
+      "bearing": 159.43,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q17063396",
+      "replaces": [
+        "way/301605795"
       ]
     },
     {
