@@ -43325,6 +43325,87 @@
       "source": "generators/prague-dancing-house.ts"
     },
     {
+      "id": "prague-municipal-house",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "art-nouveau",
+        "concert-hall",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "detail": "models/prague-municipal-house.detail.glb",
+      "detailZoom": 17,
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Prague Municipal House 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prague_Municipal_House_01.jpg",
+          "author": "Uoaei1",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Casa municipal, Praga, República Checa, 2022-07-02, DD 09.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_municipal,_Praga,_Rep%C3%BAblica_Checa,_2022-07-02,_DD_09.jpg",
+          "author": "Diego Delso",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Municipal House (Prague).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Municipal_House_(Prague).jpg",
+          "author": "Yair Haklai",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Obecní dům in Prague, 2018.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Obecn%C3%AD_d%C5%AFm_in_Prague,_2018.jpg",
+          "author": "Szczecinolog",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Obecní dům in Prague, 2018 (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Obecn%C3%AD_d%C5%AFm_in_Prague,_2018_(2).jpg",
+          "author": "Szczecinolog",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Lascar Obecní dům (Municipal House) (4502264288).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Lascar_Obecn%C3%AD_d%C5%AFm_(Municipal_House)_(4502264288).jpg",
+          "author": "Jorge Láscar",
+          "license": "CC-BY-2.0"
+        },
+        {
+          "title": "Municipal House in Prague, Czech Republic, September 2019.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Municipal_House_in_Prague,_Czech_Republic,_September_2019.jpg",
+          "author": "MichalPL",
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "title": "Municipal House (Prague) 01(js).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Municipal_House_(Prague)_01(js).jpg",
+          "author": "Jerzy Strzelecki",
+          "license": "CC-BY-SA-3.0"
+        }
+      ],
+      "file": "models/prague-municipal-house.glb",
+      "source": "generators/prague-municipal-house.ts"
+    },
+    {
       "id": "prague-national-theatre",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -68662,6 +68743,27 @@
         "way/319383491",
         "way/319383492",
         "way/319383493"
+      ]
+    },
+    {
+      "id": "prague-municipal-house",
+      "name": "Municipal House",
+      "model": "prague-municipal-house",
+      "place": "prague",
+      "lng": 14.42776,
+      "lat": 50.08776,
+      "bearing": 0,
+      "elevation": 0,
+      "minzoom": 15,
+      "wikidata": "Q2334312",
+      "replaces": [
+        "way/27124435",
+        "way/482524690",
+        "way/482524691",
+        "way/482524692",
+        "way/482524693",
+        "way/482524694",
+        "way/482524695"
       ]
     },
     {
