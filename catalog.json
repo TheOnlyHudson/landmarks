@@ -43421,6 +43421,99 @@
       "source": "generators/prague-st-vitus-cathedral.ts"
     },
     {
+      "id": "prague-tyn-church",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "church",
+        "gothic",
+        "historic",
+        "unesco"
+      ],
+      "reviewStatus": "unreviewed",
+      "wikidata": "Q1453427",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Our Lady before Tyn Prague September 2016-1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Our_Lady_before_Tyn_Prague_September_2016-1.jpg",
+          "author": "Alvesgaspar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Our Lady before Tyn Prague September 2016-2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Our_Lady_before_Tyn_Prague_September_2016-2.jpg",
+          "author": "Alvesgaspar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Our Lady before Tyn Prague September 2016-3.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Our_Lady_before_Tyn_Prague_September_2016-3.jpg",
+          "author": "Alvesgaspar",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Prag - Blick vom Altstädter Rathausturm auf die Kirche der Jungfrau Maria vor dem Tein - Pohled z věže Staré radnice na kostel Panny Marie před Týnem - panoramio (1).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prag_-_Blick_vom_Altst%C3%A4dter_Rathausturm_auf_die_Kirche_der_Jungfrau_Maria_vor_dem_Tein_-_Pohled_z_v%C4%9B%C5%BEe_Star%C3%A9_radnice_na_kostel_Panny_Marie_p%C5%99ed_T%C3%BDnem_-_panoramio_(1).jpg",
+          "author": "Edgar El",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Praha, Týnský chrám z Celetné.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Praha,_T%C3%BDnsk%C3%BD_chr%C3%A1m_z_Celetn%C3%A9.jpg",
+          "author": "PatrikPaprika",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Praha Týnský chrám z Letné.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Praha_T%C3%BDnsk%C3%BD_chr%C3%A1m_z_Letn%C3%A9.jpg",
+          "author": "VitVit",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Prag, Teynkirche -- 2019 -- 6584.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prag,_Teynkirche_--_2019_--_6584.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Prag, Teynkirche -- 2019 -- 6588.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Prag,_Teynkirche_--_2019_--_6588.jpg",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Týnský chrám z Orloje.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:T%C3%BDnsk%C3%BD_chr%C3%A1m_z_Orloje.JPG",
+          "author": "VitVit",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "title": "Praha 1, Kostel Matky Boží před Týnem 20170809 005.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Praha_1,_Kostel_Matky_Bo%C5%BE%C3%AD_p%C5%99ed_T%C3%BDnem_20170809_005.jpg",
+          "author": "Tilman2007",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "file": "models/prague-tyn-church.glb",
+      "source": "generators/prague-tyn-church.ts"
+    },
+    {
       "id": "prague-zizkov-tower",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -68649,6 +68742,48 @@
         "way/901190408",
         "way/901190409",
         "way/1568419065"
+      ]
+    },
+    {
+      "id": "prague-tyn-church",
+      "name": "Church of Our Lady before Týn",
+      "model": "prague-tyn-church",
+      "place": "prague",
+      "lng": 14.4227209,
+      "lat": 50.0877144,
+      "bearing": 342.3,
+      "elevation": 0,
+      "minzoom": 14,
+      "wikidata": "Q1453427",
+      "replaces": [
+        "way/379512802",
+        "way/455314030",
+        "way/455314031",
+        "way/455314032",
+        "way/462196624",
+        "way/492321205",
+        "way/492321213",
+        "way/492321216",
+        "way/492321218",
+        "way/492486635",
+        "way/492486636",
+        "way/492486637",
+        "way/492486638",
+        "way/492486639",
+        "way/492486640",
+        "way/492486641",
+        "way/492486642",
+        "way/492486643",
+        "way/492486644",
+        "way/492486646",
+        "way/492486647",
+        "way/492486648",
+        "way/492486649",
+        "way/492486650",
+        "way/492486651",
+        "way/950050198",
+        "way/950050199",
+        "way/951078829"
       ]
     },
     {
