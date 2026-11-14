@@ -44390,6 +44390,82 @@
       ]
     },
     {
+      "id": "seoul-heunginjimun",
+      "file": "models/seoul-heunginjimun.glb",
+      "source": "generators/seoul-heunginjimun.ts",
+      "license": "CC0-1.0",
+      "collection": "landmarks",
+      "type": "building",
+      "tags": [
+        "gate",
+        "city-wall",
+        "hanok",
+        "joseon",
+        "historic"
+      ],
+      "reviewStatus": "unreviewed",
+      "credits": [
+        {
+          "name": "OnlyHudson",
+          "kind": "person",
+          "role": "creator",
+          "github": "TheOnlyHudson"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "description": "The east gate of Seoul's Joseon city wall (pavilion 1869): a granite base with one arched passage under a two-storey pavilion with double hipped roofs, wrapped in front by its semicircular crenellated ongseong.",
+      "references": [
+        {
+          "title": "Korea-Seoul-Dongdaemun-02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Korea-Seoul-Dongdaemun-02.jpg",
+          "author": "Gaël Chardon",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "title": "Heunginjimun Gate, Seoul, 1869 (5) (27243613568).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Heunginjimun_Gate,_Seoul,_1869_(5)_(27243613568).jpg",
+          "author": "Richard Mortel",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Heunginjimun Gate, Seoul, 1869 (6) (39307626730).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Heunginjimun_Gate,_Seoul,_1869_(6)_(39307626730).jpg",
+          "author": "Richard Mortel",
+          "license": "CC BY 2.0"
+        },
+        {
+          "title": "Dongdaemun, Seoul.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Dongdaemun,_Seoul.jpg",
+          "author": "Rtflakfizer",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "Heunginjimun, Seoul 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Heunginjimun,_Seoul_02.jpg",
+          "author": "Tristan Surtel",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "20240601 144028 Heunginjimun, Seoul 07.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:20240601_144028_Heunginjimun,_Seoul_07.jpg",
+          "author": "Dwxn",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "흥인지문 (Heunginjimun Gate).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:%ED%9D%A5%EC%9D%B8%EC%A7%80%EB%AC%B8_(Heunginjimun_Gate).jpg",
+          "author": "Jiyounnng",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "seoul-ifc",
       "license": "CC0-1.0",
       "collection": "landmarks",
@@ -67291,6 +67367,21 @@
       "replaces": [
         "way/170199469"
       ]
+    },
+    {
+      "id": "seoul-heunginjimun",
+      "name": "Heunginjimun",
+      "model": "seoul-heunginjimun",
+      "place": "seoul",
+      "lng": 127.0096849,
+      "lat": 37.5711281,
+      "bearing": 260.5,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/320783808"
+      ],
+      "wikidata": "Q482721"
     },
     {
       "id": "seoul-ifc",
