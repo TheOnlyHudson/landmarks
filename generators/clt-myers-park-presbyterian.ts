@@ -47,6 +47,8 @@
  * Sources
  * - Campus model by Josh Richard (SketchUp, exported as GLB; supplied by
  *   the church through Alex Wohlbruck, openly licensed with permission).
+ *   Additional source campus model credit: Thiencg
+ *   (https://www.fiverr.com/thiencfv).
  *   Used for the plan, the forms of every block and the facade pattern:
  *   lancet and buttress rhythm, tower openings, crenellations, gable
  *   windows, porches, window rows on the wings. Fitted to OSM by plan
