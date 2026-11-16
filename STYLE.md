@@ -44,7 +44,8 @@ and photos. Every rule here fixes something that went wrong.
   make it feel finished.
 - **Big readable forms, little detail.** No mullions, ledges, thin ribs,
   railings, fine sculpture or lettering. If it won't read at 200 px on a
-  phone, leave it out.
+  phone, leave it out. Two exceptions, below: the tracery of a big
+  window, and doors (see Windows and facades).
 - **Bridges are the exception, in their detail model.** A suspension
   bridge's cables, suspenders and stays are what make it itself, so they
   are modelled, along with trusses and railings, in a detail GLB the map
@@ -105,6 +106,28 @@ and photos. Every rule here fixes something that went wrong.
 - **Special windows are flush shapes.** Triangles, portholes and rosettes are
   flat `window` (or `glass`) geometry set into the wall, never spikes or
   cones standing proud.
+- **Match the window's real shape.** A pointed lancet is pointed, a
+  round-headed window is a semicircle on its jambs, a square window is
+  square. Take the head, the width and the sill and head heights from the
+  evidence, light by light, rather than one generic window repeated
+  everywhere. A pale stone surround around a window is fine where the
+  building has one.
+- **Tracery is the exception to "no mullions".** Where a big window's
+  tracery is what people recognise (a church's great window, its lancets,
+  a belfry opening), draw it as a few bold `trim` bars set flush in the
+  window: mullions dividing it into its real lights (two to four), the
+  fork of Y tracery, a transom or two. Bars 0.14–0.2 m wide, stopped under
+  the arch, never poking past it. No cusps, foils or fine glazing grids;
+  small windows stay plain panels, a cross of bars at most.
+- **Doors and entryways are modelled.** A landmark's real entrances (the
+  main portal, side doors, porches, steps and entry canopies) are part of
+  how it reads from the street and are drawn, where the evidence shows
+  them: door leaves as a flush panel in a door finish (one material, such
+  as a muted oak), a pale stone surround, and a glazed fanlight or transom
+  over them in `window`, following the real head shape (round, pointed or
+  flat). A gabled porch is a small gabled mass; an open canopy is a slab
+  on posts, not a solid block. Doors sit at the real ground of their wall,
+  not at y = 0. Don't invent a door no evidence shows.
 
 ## Translucent glass
 
@@ -370,6 +393,12 @@ almost all data.
 
 ### Towers, rides, sculpture and signs
 
+- **Towers keep their real stages and parapet.** Model a tower's stages as
+  the evidence shows them: a wider lower stage with a ledge where it steps
+  in, the belfry openings at their real height and shape, string courses,
+  and the parapet as it is (solid, crenellated, raised at the corners).
+  Never add pinnacles, spirelets or finials that no photo or source model
+  shows.
 - **Small, famous objects** (sculpture, statues, signs, vehicles) can spend
   more of their budget on detail. Keep every part a bold, simple mass that
   reads at 200 px. Real dimensions and the real pose matter more than
@@ -443,6 +472,11 @@ Each of these was built, reviewed and rejected. Don't repeat them.
   short spiky coronet and pale granite with punched windows. It was merged
   from a contact sheet without opening the reference photos.
 - **A rework that redesigns an approved crown** (see above).
+- **Invented pinnacles and generic windows on a church.** Myers Park
+  Presbyterian's first pass gave its bell tower cone pinnacles it doesn't
+  have and drew every opening as the same plain lancet, losing the
+  two-stage tower, the Y-traceried lancets, the round-headed windows and
+  every door. Read each opening's shape from the evidence.
 
 ## Checking a model
 
