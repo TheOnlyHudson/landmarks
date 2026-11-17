@@ -36,11 +36,18 @@
  *    137 m; the podium 32 m, with a 20 m strip on the west.
  *  - published: 515 ft (157 m) roof, 33 storeys (Wikipedia, "Frost Bank
  *    Tower"; OSM height 157); logo at 420 ft (128 m).
- *  - estimated from the photos: the corner setbacks at 60 and 80 m (the
- *    lidar sees only the top of each corner), the shoulder slopes, the
- *    logo's size (about 6 m) and the floor-line spacing.
+ *  - estimated from the photos ("dad2" at about 0.21 m/px above the podium,
+ *    "dad1", "lsm"): the taper, three tiers stepping in at 66 and 104 m
+ *    (half-widths 21.5, 19.8, 18.2 m with corner chamfers 2.5, 5, 7 m; the
+ *    central bays 23.5, 22, 20.5 m out). The lidar's top outline (bays 21 m
+ *    out at 127 m, 2 m proud strips to 104 m) fits within about 1.5 m. The
+ *    crown is one faceted cap whose skyline on every face is the photo's
+ *    zigzag: the logo V at 138 m, ears at 157 m, gables at 146.5 and
+ *    137.5 m, the eave at 124 m. The logo's size (about 7 m) and the 6 x
+ *    12 m mullion grid.
  *  - colours: the bright reflective blue glass, the pale crown and white logo, from the
- *    daylight photos; the podium's buff precast from "dad2".
+ *    daylight photos; the podium's buff precast from "dad2", drawn plain (its fine window
+ *    grid is too small to draw).
  *
  * Photos (Wikimedia Commons, all EVIDENCE):
  *  dad1  "Frost Bank Tower - Austin, Texas - DSC08342.jpg", Daderot, CC0
@@ -56,14 +63,15 @@
  *  cmbj  "Frostbanktoweraustintx.jpg", CMBJ, CC BY-SA 2.5 (from below)
  * No look-only sources. No commercial imagery.
  *
- * Doubts: the corner setbacks below 96 m are read off oblique photos. The
- * crown's many small facets are reduced to one connected set: chamfered
- * flank facets from 96 to 127 m, a sloped gable on each bay top, and four
- * spires; the real crown steps through more, smaller facets. The podium's facades are drawn plainly.
+ * Doubts: the tier heights and setbacks are read off oblique photos and
+ * drawn a little bolder than the lidar's top outline so they read at phone
+ * size. The crown's real facets are smaller and more numerous; here every
+ * gable is a pitched pair of planes of one cap (height = min(zig(x),
+ * zig(y)) about the centre). The podium is plain.
  */
 import { Part, type V3 } from './mesh'
 import { PALETTE, finish } from './palette'
-import { capPoly, prism, save, type XY } from './atl-flatiron-building'
+import { capPoly, ccw, prism, save, type XY } from './atl-flatiron-building'
 
 // Small helpers, copied from atx-google-tower.ts so this generator stands alone.
 const sub3 = (a: V3, b: V3): V3 => [a[0] - b[0], a[1] - b[1], a[2] - b[2]]
@@ -78,6 +86,20 @@ function triOut(p: Part, a: V3, b: V3, c: V3, out: V3) {
 function quadOut(p: Part, a: V3, b: V3, c: V3, d: V3, out: V3) {
   triOut(p, a, b, c, out)
   triOut(p, a, c, d, out)
+}
+
+const lerpXY = (a: XY, b: XY, t: number): XY => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t]
+
+/** Clip a counter-clockwise ring to the half-plane n·p <= c. */
+function clipHalf(ring: XY[], n: XY, c: number): XY[] {
+  const out: XY[] = []
+  const f = (p: XY) => n[0] * p[0] + n[1] * p[1] - c
+  for (let i = 0; i < ring.length; i++) {
+    const a = ring[i], b = ring[(i + 1) % ring.length], fa = f(a), fb = f(b)
+    if (fa <= 0) out.push(a)
+    if ((fa < 0 && fb > 0) || (fa > 0 && fb < 0)) out.push(lerpXY(a, b, fa / (fa - fb)))
+  }
+  return out.filter((p, i) => Math.hypot(p[0] - out[(i + 1) % out.length][0], p[1] - out[(i + 1) % out.length][1]) > 0.05)
 }
 
 /** A flat band standing `o` off a wall from a to b (outside to the right of a→b), z0..z1. */
@@ -104,137 +126,134 @@ const WEST = -40.4 // the low west strip, 20 m
   const west: XY[] = [[-48.05, -30.9], [WEST, -30.85], [WEST, 38.45], [-48.17, 38.39]]
   prism(podium, main, 0, 32, roof, 0.4)
   prism(podium, west, 0, 20, roof, 0.4)
-  // the garage's openings: long dark bands on the street faces
-  const bands = (ring: XY[], top: number) => {
-    for (let i = 0; i < ring.length; i++) {
-      const a = ring[i], b = ring[(i + 1) % ring.length]
-      for (let z = 4; z < top - 3; z += 6.5) wallBand(glass, a, b, z, z + 3.2, 0.06, 1.5)
-    }
-  }
-  bands(main, 32); bands(west, 20)
+  // plain buff precast: the photos show a fine grid of small windows, too
+  // fine to draw, so the podium stays a quiet base under the tower
   void OUTLINE
 }
 
 // ─────────────────────────────── the tower ─────────────────────────────────
-const sq = (h: number, notch = 0): XY[] => {
-  const [cx, cy] = C
-  if (notch <= 0) return [[cx - h, cy - h], [cx + h, cy - h], [cx + h, cy + h], [cx - h, cy + h]]
-  const n = notch
-  return [
-    [cx - h + n, cy - h], [cx + h - n, cy - h], [cx + h - n, cy - h + n], [cx + h, cy - h + n],
-    [cx + h, cy + h - n], [cx + h - n, cy + h - n], [cx + h - n, cy + h], [cx - h + n, cy + h],
-    [cx - h + n, cy + h - n], [cx - h, cy + h - n], [cx - h, cy - h + n], [cx - h + n, cy - h + n],
-  ]
-}
-
-// The body: full square to 60 m, corners notched 3 m to 96 m.
-prism(glass, sq(HALF), 32, 60, roof, 0.3)
-prism(glass, sq(HALF, 3), 60, 80, roof, 0.3)
-prism(glass, sq(HALF, 3), 80, Zc, null, 0)
-// The central bays' projecting lower parts, 2 m proud, to 104 m.
 const [cx, cy] = C
-const bays: XY[][] = [
-  [[cx - ARM, cy - HALF - 2], [cx + ARM, cy - HALF - 2], [cx + ARM, cy - HALF], [cx - ARM, cy - HALF]],
-  [[cx + HALF, cy - ARM], [cx + HALF + 2, cy - ARM], [cx + HALF + 2, cy + ARM], [cx + HALF, cy + ARM]],
-  [[cx - ARM, cy + HALF], [cx + ARM, cy + HALF], [cx + ARM, cy + HALF + 2], [cx - ARM, cy + HALF + 2]],
-  [[cx - HALF - 2, cy - ARM], [cx - HALF, cy - ARM], [cx - HALF, cy + ARM], [cx - HALF - 2, cy + ARM]],
+const TIERS = [ // [z0, z1, half-width, corner chamfer]: the corners step in at about 1/3 and 2/3 height
+  [32, 66, 21.5, 2.5],
+  [66, 104, 19.8, 5],
+  [104, 124, 18.2, 7],
+] as const
+// the central bays' faces on each tier: they step back with the tiers
+const BAYS = [[32, 66, 23.5], [66, 104, 22], [104, 124, 20.5]] as const
+const ZE = 124, BAYOUT = 20.5 // the crown's eave; the top bays' face
+/** A square of half-width h about the centre with its corners chamfered c, counter-clockwise. */
+const oct = (h: number, c: number): XY[] => [
+  [cx - h + c, cy - h], [cx + h - c, cy - h], [cx + h, cy - h + c], [cx + h, cy + h - c],
+  [cx + h - c, cy + h], [cx - h + c, cy + h], [cx - h, cy + h - c], [cx - h, cy - h + c],
 ]
-for (const b of bays) prism(glass, b, 32, Zb, roof, 0.3)
+// The four faces: u out of the face, v along it.
+const DIRS = [0, 1, 2, 3].map((k) => { const a = (k * Math.PI) / 2 - Math.PI / 2; return { u: [Math.cos(a), Math.sin(a)] as XY, v: [-Math.sin(a), Math.cos(a)] as XY } })
+const F = (d: { u: XY; v: XY }, along: number, out: number): XY => [cx + d.v[0] * along + d.u[0] * out, cy + d.v[1] * along + d.u[1] * out]
+
+// The shaft: three tiers, each set back and with bigger chamfered corners,
+// so the tower tapers toward the crown; a pale ledge at each setback.
+for (const [z0, z1, h, c] of TIERS) prism(glass, oct(h, c), z0, z1, roof, 0.3)
+// The central bays: 24 m wide, standing proud of every tier, straight from
+// the podium to the crown (they run full height in every photo).
+for (const d of DIRS) for (const [z0, z1, o] of BAYS) prism(glass, ccw([F(d, -ARM, 15), F(d, ARM, 15), F(d, ARM, o), F(d, -ARM, o)]), z0, z1, roof, 0.3)
 // The east wing: 72 m, its middle 80 m.
 prism(glass, [[cx + HALF + 2, cy - 19], [cx + HALF + 10, cy - 19], [cx + HALF + 10, cy + 19], [cx + HALF + 2, cy + 19]], 32, 72, roof, 0.3)
 prism(glass, [[cx + HALF + 2, cy - ARM], [cx + HALF + 10, cy - ARM], [cx + HALF + 10, cy + ARM], [cx + HALF + 2, cy + ARM]], 72, 80, roof, 0.3)
 
-// Above 96 m: the cross of the four central bays, to 127 m.
-const CROSS: XY[] = [
-  [cx - ARM, cy - HALF], [cx + ARM, cy - HALF], [cx + ARM, cy - ARM], [cx + HALF, cy - ARM],
-  [cx + HALF, cy + ARM], [cx + ARM, cy + ARM], [cx + ARM, cy + HALF], [cx - ARM, cy + HALF],
-  [cx - ARM, cy + ARM], [cx - HALF, cy + ARM], [cx - HALF, cy - ARM], [cx - ARM, cy - ARM],
-]
-// 96 to 127 m: a faceted transition from the notched square to the cross.
-// Each bay face stays vertical, narrowing from 36 to 24 m as its flanks
-// chamfer back; over each corner the flanks become sloped glass facets
-// rising to the cross's inner corner. One connected surface, no loose
-// pieces (the photos' "shoulders").
-{
-  const r0 = sq(HALF, 3), r1 = CROSS
-  for (let i = 0; i < 12; i++) {
-    const j = (i + 1) % 12
-    const A: V3 = [...r0[i], Zc] as V3, B: V3 = [...r0[j], Zc] as V3, Cc: V3 = [...r1[j], Zt] as V3, D: V3 = [...r1[i], Zt] as V3
-    const m0: XY = [(r0[i][0] + r0[j][0]) / 2 - cx, (r0[i][1] + r0[j][1]) / 2 - cy]
-    const vertical = i % 3 === 0 // the four bay faces
-    const part = vertical ? glass : crown
-    quadOut(part, A, B, Cc, D, [m0[0], m0[1], vertical ? 0 : 0.6])
+// The crown: one faceted glass cap over the top tier and the bays. Its
+// height is min(zig(|x|), zig(|y|)) about the centre, where zig is the
+// zigzag skyline every face shows: the V with the logo, the two tall ears,
+// then a lower gable and a lower one again on each side, down to the
+// eave. So from every side the skyline is that zigzag, every point is a
+// pitched gable (two sloped faces meeting on a ridge running back into the
+// cap), and neighbouring gables meet below their peaks with no sky between.
+const ZIG: [number, number][] = [[0, 138], [5.5, 157], [10.5, 138], [12.6, 146.5], [14.6, 133], [16.4, 137.5], [18.2, 129], [BAYOUT, ZE]]
+const zig = (s: number) => {
+  s = Math.abs(s)
+  for (let i = 0; i < ZIG.length - 1; i++) {
+    const [s0, z0] = ZIG[i], [s1, z1] = ZIG[i + 1]
+    if (s <= s1) return z0 + ((z1 - z0) * (s - s0)) / (s1 - s0)
   }
-  capPoly(roof, CROSS, Zt, true)
+  return ZE
+}
+const capZ = (x: number, y: number) => Math.min(zig(x - cx), zig(y - cy))
+{
+  const [, , H3, C3] = TIERS[2]
+  const br = [0, 5.5, 10.5, 12, 12.6, 14.6, 16.4, 18.2, BAYOUT]
+  const grid = [...br.slice(1).reverse().map((v) => -v), ...br]
+  const inBay = (x: number, y: number) => (Math.abs(x) <= ARM && Math.abs(y) <= BAYOUT) || (Math.abs(y) <= ARM && Math.abs(x) <= BAYOUT)
+  const inTop = (x: number, y: number) => Math.abs(x) <= H3 && Math.abs(y) <= H3
+  const edges = new Map<string, { a: XY; b: XY; n: number }>()
+  const key = (p: XY) => `${p[0].toFixed(3)},${p[1].toFixed(3)}`
+  for (let i = 0; i < grid.length - 1; i++) for (let j = 0; j < grid.length - 1; j++) {
+    const x0 = grid[i], x1 = grid[i + 1], y0 = grid[j], y1 = grid[j + 1], mx = (x0 + x1) / 2, my = (y0 + y1) / 2
+    let poly: XY[]
+    if (inBay(mx, my)) poly = [[x0, y0], [x1, y0], [x1, y1], [x0, y1]]
+    else if (inTop(mx, my)) {
+      // the top tier's chamfered corners: |x| + |y| <= 2 H3 - C3
+      const sx = Math.sign(mx), sy = Math.sign(my)
+      poly = clipHalf([[x0, y0], [x1, y0], [x1, y1], [x0, y1]], [sx, sy], 2 * H3 - C3)
+      if (poly.length < 3) continue
+    } else continue
+    const P = poly.map(([x, y]) => [x + cx, y + cy] as XY)
+    const m: XY = [P.reduce((t, q) => t + q[0], 0) / P.length, P.reduce((t, q) => t + q[1], 0) / P.length]
+    const M: V3 = [m[0], m[1], capZ(...m)]
+    for (let k = 0; k < P.length; k++) {
+      const a = P[k], b = P[(k + 1) % P.length]
+      triOut(crown, [a[0], a[1], capZ(...a)], [b[0], b[1], capZ(...b)], M, [0, 0, 1])
+      const ka = key(a), kb = key(b), kk = ka < kb ? ka + '|' + kb : kb + '|' + ka
+      const e = edges.get(kk)
+      if (e) e.n++
+      else edges.set(kk, { a, b, n: 1 })
+    }
+  }
+  // the cap's sides, from the eave up to the cap, round its outline
+  for (const { a, b, n } of edges.values()) {
+    if (n !== 1) continue
+    const za = capZ(...a), zb = capZ(...b)
+    if (za <= ZE + 0.01 && zb <= ZE + 0.01) continue
+    const mid: XY = [(a[0] + b[0]) / 2 - cx, (a[1] + b[1]) / 2 - cy]
+    // outward: away from the centre, across the edge
+    const t: XY = [b[0] - a[0], b[1] - a[1]], nn: XY = [t[1], -t[0]]
+    const out: V3 = nn[0] * mid[0] + nn[1] * mid[1] > 0 ? [nn[0], nn[1], 0] : [-nn[0], -nn[1], 0]
+    quadOut(crown, [a[0], a[1], ZE], [b[0], b[1], ZE], [b[0], b[1], zb], [a[0], a[1], za], out)
+  }
 }
 
-// Above 127 m: on each arm a sloped glass gable rising back from the bay top
-// into the spires, and four steep pyramidal spires, one on each quarter of
-// the 24 m centre, to 157 m; from every side two of them stand up as the
-// "ears", with the logo between them.
-for (let k = 0; k < 4; k++) {
-  const ang = (k * Math.PI) / 2, u: XY = [Math.cos(ang), Math.sin(ang)], v: XY = [-u[1], u[0]]
-  const P = (along: number, out: number, z: number): V3 => [cx + v[0] * along + u[0] * out, cy + v[1] * along + u[1] * out, z]
-  const A = P(-ARM, HALF, Zt), B = P(ARM, HALF, Zt), Cc = P(8, 9, 137), D = P(-8, 9, 137)
-  quadOut(crown, A, B, Cc, D, [u[0], u[1], 0.8])
-  triOut(crown, B, P(ARM, 9, Zt), Cc, [v[0], v[1], 0.3])
-  triOut(crown, A, D, P(-ARM, 9, Zt), [-v[0], -v[1], 0.3])
-}
-for (const [sx, sy] of [[-1, -1], [1, -1], [1, 1], [-1, 1]] as [number, number][]) {
-  const qc: XY = [cx + sx * ARM / 2, cy + sy * ARM / 2]
-  const apex: V3 = [cx + sx * 5, cy + sy * 5, TIP]
-  const base: XY[] = [[qc[0] - ARM / 2, qc[1] - ARM / 2], [qc[0] + ARM / 2, qc[1] - ARM / 2], [qc[0] + ARM / 2, qc[1] + ARM / 2], [qc[0] - ARM / 2, qc[1] + ARM / 2]]
-  for (let i = 0; i < 4; i++) {
-    const a = base[i], b = base[(i + 1) % 4]
-    const m: XY = [(a[0] + b[0]) / 2 - qc[0], (a[1] + b[1]) / 2 - qc[1]]
-    triOut(crown, [...a, Zt] as V3, [...b, Zt] as V3, apex, [m[0], m[1], 0.4])
-  }
-}
-// A light mullion grid on the body: floor lines every three storeys round
-// the shaft and across the bays.
-for (let z = 44; z < Zc; z += 12) {
-  const ring = z < 60 ? sq(HALF) : sq(HALF, 3)
-  for (let i = 0; i < ring.length; i++) wallBand(trim, ring[i], ring[(i + 1) % ring.length], z, z + 0.5, 0.06, 0)
-  for (const b of bays) for (let i = 0; i < 4; i++) wallBand(trim, b[i], b[(i + 1) % 4], z, z + 0.5, 0.06, 0)
-}
-// The bay tops: a parapet on each face carrying the logo.
-const faces: [XY, XY][] = [
-  [[cx - ARM, cy - HALF], [cx + ARM, cy - HALF]], [[cx + HALF, cy - ARM], [cx + HALF, cy + ARM]],
-  [[cx + ARM, cy + HALF], [cx - ARM, cy + HALF]], [[cx - HALF, cy + ARM], [cx - HALF, cy - ARM]],
-]
-for (const [a, b] of faces) {
-  const L = Math.hypot(b[0] - a[0], b[1] - a[1]), t: XY = [(b[0] - a[0]) / L, (b[1] - a[1]) / L], n: XY = [t[1], -t[0]]
-  const m: XY = [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2]
-  // parapet: 10 m wide, 127 to 134 m, its face flush with the bay
-  const p0: XY = [m[0] - t[0] * 5, m[1] - t[1] * 5], p1: XY = [m[0] + t[0] * 5, m[1] + t[1] * 5]
-  const q0: XY = [p0[0] - n[0] * 1, p0[1] - n[1] * 1], q1: XY = [p1[0] - n[0] * 1, p1[1] - n[1] * 1]
-  prism(crown, [p0, p1, q1, q0].reverse() as XY[], Zt, 134, crown, 0.2)
-  // the sunburst logo: a disc 6 m across on the parapet's face
-  const R = 3.4, zc = 130.6, o = 0.08, seg = 14
+// The bay tops: a parapet on each face carrying the logo, and the light
+// mullion grid: broad panels, about 6 m by 12 m.
+for (const d of DIRS) {
+  const t = d.v, n = d.u, m = F(d, 0, BAYOUT)
+  prism(crown, ccw([F(d, -5, BAYOUT), F(d, 5, BAYOUT), F(d, 5, BAYOUT - 1), F(d, -5, BAYOUT - 1)]), ZE, 136, crown, 0.2)
+  const R = 3.4, zc = 130.5, o = 0.08, seg = 14
   for (let i = 0; i < seg; i++) {
     const a0 = (i / seg) * Math.PI * 2, a1 = ((i + 1) / seg) * Math.PI * 2
     const P = (ang: number, r: number): V3 => [m[0] + t[0] * Math.cos(ang) * r + n[0] * o, m[1] + t[1] * Math.cos(ang) * r + n[1] * o, zc + Math.sin(ang) * r]
     triOut(logo, P(0, 0), P(a0, R), P(a1, R), [n[0], n[1], 0])
   }
-  // pale mullion lines: the bay's edges and two lines inside it, 32 to 127 m
-  for (const s of [-ARM + 0.3, -4, 4, ARM - 0.3]) {
-    const A: XY = [m[0] + t[0] * (s - 0.3), m[1] + t[1] * (s - 0.3)], B: XY = [m[0] + t[0] * (s + 0.3), m[1] + t[1] * (s + 0.3)]
-    const off = Math.abs(s) > ARM - 1 ? 0 : 2
-    // the projecting lower part stands 2 m further out
-    const lift = (q: XY, d: number): XY => [q[0] + n[0] * d, q[1] + n[1] * d]
-    wallBand(trim, lift(A, off), lift(B, off), 33, Zb - 0.6, 0.06)
-    wallBand(trim, A, B, Zb, Zt - 0.6, 0.06)
+  for (const [z0, z1, ob] of BAYS) for (const sv of [-ARM, -6, 0, 6, ARM]) {
+    const e = Math.sign(sv) * 0.3
+    wallBand(trim, F(d, sv - 0.3 - e, ob), F(d, sv + 0.3 - e, ob), z0 + 1, z1 - 0.6, 0.06)
+  }
+  for (let z = 44; z < ZE - 4; z += 12) {
+    const ob = BAYS.find(([z0, z1]) => z >= z0 && z < z1)![2]
+    wallBand(trim, F(d, -ARM, ob), F(d, ARM, ob), z, z + 0.5, 0.06)
+    const tier = TIERS.find(([z0, z1]) => z > z0 + 1 && z < z1 - 1)
+    if (!tier) continue
+    const [, , h, c] = tier
+    if (h - c > ARM + 1) for (const sg of [-1, 1]) wallBand(trim, F(d, sg < 0 ? -(h - c) : ARM, h), F(d, sg < 0 ? -ARM : h - c, h), z, z + 0.5, 0.06)
   }
 }
 void capPoly
+void Zc; void Zb; void Zt
 
 if (import.meta.main) {
   await save('atx-frost-bank-tower', 'Frost Bank Tower', [
-    { part: glass, material: { ...PALETTE.window, color: 0x86afd6 } },
+    { part: glass, material: { ...PALETTE.window, color: 0x76a7d8 } },
     { part: crown, material: finish('neon-frost-crown', 0xc9dde6, 0.3) },
     { part: logo, material: finish('neon-frost-logo', 0xf6f2e6, 0.5) },
     { part: trim, material: PALETTE.trim },
     { part: roof, material: PALETTE.roof },
-    { part: podium, material: finish('frost-precast', 0xe2d6c0) },
+    { part: podium, material: finish('frost-precast', 0xcdbd9f) },
   ], { bearing: 17.7, height: TIP, replaces: ['way/37546502'] })
 }
