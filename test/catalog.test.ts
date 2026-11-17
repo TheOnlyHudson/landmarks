@@ -15,7 +15,8 @@ describe('the catalog', () => {
   test('is valid, and every model it lists exists and stands on its origin', () => {
     const catalog = readCatalog(ROOT)
     expect(checkCatalog(ROOT, catalog)).toEqual([])
-  })
+    // Reads and measures every GLB: about 5 s for 1,200 models, longer under load.
+  }, 30_000)
 
   test('is stored one formatted file per entry, named by id, so pull requests merge', () => {
     expect(storageProblems(ROOT)).toEqual([])
