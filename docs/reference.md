@@ -357,12 +357,14 @@ park, usually 20 to 50 models.
 - **Contact sheets in the PR description.** Reviewers look at the sheets
   first. Make them with:
 
-      bun run sheet --branch-diff --out review/<batch>
+      bun run sheet --terrain --branch-diff --out review/<batch>
 
   Each image holds 8 landmarks (`--per` changes it), one card each: a
   three-quarter view turned to the landmark's real bearing, by day and at
   night side by side, titled with its name, id, triangles, size, height and
-  the side it is seen from.
+  the side it is seen from. `--terrain` stands each model on the map's
+  Mapterhorn terrain at its real height (drape, fill, base sink and
+  `elevation`), with the ground around it drawn; always pass it.
 
 GitHub has no API for attaching images to a pull request, so the sheets are
 committed on the PR branch and linked by commit:

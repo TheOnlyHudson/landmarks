@@ -120,7 +120,7 @@ views. Name every difference you can still see between the renders and the
 photos; never say it looks right without putting a render next to a photo.
 List the sources, the estimates and any doubts. Ask whether to iterate or to
 commit and open a pull request with a contact sheet
-(`bun run sheet <id>`).
+(`bun run sheet --terrain <id>`).
 
 ## Public catalog metadata
 

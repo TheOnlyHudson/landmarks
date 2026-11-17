@@ -70,7 +70,7 @@ bun install
 |---|---|
 | `bun generators/<id>.ts` | Build one model into `models/<id>.glb` |
 | `bun run preview <id> [--night]` | Render a model from every side into `preview/<id>/` |
-| `bun run sheet <id ...>` | Contact sheets for a list of landmarks |
+| `bun run sheet --terrain <id ...>` | Contact sheets for a list of landmarks, on the map's terrain |
 | `bun run sync:sources` | Refresh the checked-in OpenLandmarks metadata snapshot |
 | `bun run validate` | Check the catalog and every model |
 | `bun test` / `bun run typecheck` | Tests and types |
@@ -149,7 +149,7 @@ model from boxes, prisms and curves, and writes a GLB.
 6. **Check it** with `bun run validate`, `bun run typecheck`, and `bun test`.
    Build the site and inspect both LODs, day/night lighting, credits, and OSM IDs.
 7. **Open a pull request** with a contact sheet
-   (`bun run sheet --branch-diff`).
+   (`bun run sheet --terrain --branch-diff`).
 
 For an update, keep the existing model and placement IDs, regenerate the GLBs,
 and commit geometry, generator, and metadata together. Git supplies history;

@@ -117,7 +117,7 @@ If a model still can't be made good, keep it and flag it as weak in the PR.
 
 Make a contact sheet of the batch so far now and then, to see the models
 together by day and at night:
-`bun run sheet --branch-diff --out <scratch>/<prefix>/sheets`. Check phone
+`bun run sheet --terrain --branch-diff --out <scratch>/<prefix>/sheets`. Check phone
 sizes in each model's `bun run preview` views.
 
 ## 4. Merge accepted models
@@ -143,7 +143,7 @@ If `catalog.json` conflicts with `main` or another batch, merge it by id with
 
 Follow `docs/workflow.md`, "Pull request":
 
-1. `bun run sheet --branch-diff --out review/<city>`; for reworks, before and
+1. `bun run sheet --terrain --branch-diff --out review/<city>`; for reworks, before and
    after sheets.
 2. Commit the sheets ("Contact sheets for <city>") and push the branch.
 3. `gh pr create --draft --repo alexwohlbruck/landmarks --base main --head batch/<city> --title "<City> landmarks"`.

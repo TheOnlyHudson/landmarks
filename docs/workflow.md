@@ -235,8 +235,18 @@ stays in the batch, marked as weak in the PR table; it is not dropped.
 A contact sheet of the whole batch so far, by day and by night:
 
 ```bash
-bun run sheet --branch-diff --out <scratch>/<prefix>/sheets
+bun run sheet --terrain --branch-diff --out <scratch>/<prefix>/sheets
 ```
+
+Always pass `--terrain`: each model then stands on the map's Mapterhorn
+terrain exactly as the map places it (the same drape, fill and base sink,
+and the catalog `elevation`), with the ground around it drawn, so a model
+that floats, sinks or is set at the wrong height shows on the sheet. The
+height on the card is then the top above the lowest ground. The terrain is
+read from Mapterhorn and cached under `~/.cache/landmarks/mapterhorn`.
+Buildings around it (Fort Wood under the Statue of Liberty, say) are not
+drawn, so a model raised onto one by `elevation` is seen floating over the
+bare ground by that much.
 
 Each landmark gets a card with one three-quarter view, turned to its real
 bearing, drawn by day and at night side by side. The view is taken from the
@@ -287,7 +297,7 @@ header shows how to run it by hand mid-conflict.
 1. Contact sheets into the branch:
 
    ```bash
-   bun run sheet --branch-diff --out review/<city>
+   bun run sheet --terrain --branch-diff --out review/<city>
    git add review/<city> && git commit -m "Contact sheets for <city>"
    git push -u origin batch/<city>
    ```
@@ -297,8 +307,8 @@ header shows how to run it by hand mid-conflict.
 
    ```bash
    git -C <landmarks> worktree add --detach <scratch>/main origin/main
-   (cd <scratch>/main && bun install && bun run sheet <ids> --out <worktree>/review/<city>/before)
-   bun run sheet <ids> --out review/<city>/after
+   (cd <scratch>/main && bun install && bun run sheet --terrain <ids> --out <worktree>/review/<city>/before)
+   bun run sheet --terrain <ids> --out review/<city>/after
    ```
 
    Remove the `main` worktree afterwards.
@@ -396,7 +406,7 @@ release host.
 | Tool | Does |
 |---|---|
 | `bun run preview <id> [dir] [photo.png ...] [--night]` | Every review view of one model, plus photo side-by-sides |
-| `bun run sheet <id ...>` / `--branch-diff` | Contact sheets, each model by day and at night |
+| `bun run sheet --terrain <id ...>` / `--branch-diff` | Contact sheets, each model by day and at night, on the map's terrain |
 | `bun tools/view.ts <id> <out> <from> [el]` | One render from any compass side, to match a photo |
 | `bun tools/montage.ts <out> <img[=label]> ...` | Photos and renders side by side, PNG or JPEG |
 | `bun tools/glb-stats.ts <id ...>` | Triangles, size, materials, bounds, budget flags |

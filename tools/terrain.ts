@@ -52,6 +52,7 @@ import type { Catalog } from '../src/catalog'
 import { fillAt, groundFill, type GroundFill } from './parchment/fill'
 import { planCoverage } from './parchment/landmark-coverage'
 import { readCatalog } from '../src/catalog-files'
+import type { Scene } from './render'
 
 const ROOT = join(import.meta.dir, '..')
 const TILES = 'https://tiles.mapterhorn.com/{z}/{x}/{y}.webp'
@@ -178,7 +179,7 @@ export async function height(lng: number, lat: number): Promise<number> {
   return (a * (1 - fx) + b * fx) * (1 - fy) + (c * (1 - fx) + d * fx) * fy
 }
 
-type Place = { lng: number; lat: number; bearing: number; elevation: number }
+export type Place = { lng: number; lat: number; bearing: number; elevation: number }
 
 /** As `modelToLngLat` in Parchment: x east, z south, turned clockwise by the bearing. */
 export function toLngLat({ lng, lat, bearing }: Place, x: number, z: number): [number, number] {
@@ -214,33 +215,13 @@ async function grid() {
   rows.forEach((row, j) => console.log(String(coords[j]).padStart(7) + row.map((h) => f1(h - lowest).padStart(6)).join('')))
 }
 
-async function check() {
-  const lngO = option('--lng'), latO = option('--lat'), bearingO = option('--bearing'), elevationO = option('--elevation')
-  // old: the map before this change (whole model sunk); sink: base-only sink; new: base-only sink and the terrain filled.
-  const mapMode = option('--map') ?? 'new'
-  const entrances = args.includes('--entrances')
-  const sceneOut = option('--scene-out')
-  const what = args[1]
-  if (!what) usage()
-  let file = what
-  let place: Place = { lng: NaN, lat: NaN, bearing: 0, elevation: 0 }
-  if (!what.endsWith('.glb')) {
-    const catalog = readCatalog(ROOT)
-    const placed: any = catalog.landmarks.find((l) => l.id === what) ?? catalog.landmarks.find((l) => l.model === what)
-    const model = catalog.models.find((m) => m.id === (placed?.model ?? what))
-    file = join(ROOT, model?.file ?? `models/${what}.glb`)
-    if (placed) place = { lng: placed.lng, lat: placed.lat, bearing: placed.bearing ?? 0, elevation: placed.elevation ?? 0 }
-  }
-  if (lngO) place.lng = Number(lngO)
-  if (latO) place.lat = Number(latO)
-  if (bearingO) place.bearing = Number(bearingO)
-  if (elevationO) place.elevation = Number(elevationO)
-  if (!Number.isFinite(place.lng) || !Number.isFinite(place.lat)) {
-    console.error(`${what}: not placed in the catalog; give --lng, --lat and --bearing`)
-    process.exit(1)
-  }
-
-  const prims = readGlb(new Uint8Array(readFileSync(file)))
+/**
+ * Stand a model on the terrain the way the map does: returns `lift`, which
+ * takes a vertex in the model's frame (x east, y up, z south) to its drawn
+ * height, in metres above `lowest`, the lowest filled ground under the
+ * model; and `ground`, the filled ground height at a point.
+ */
+export async function placeOnTerrain(prims: ReturnType<typeof readGlb>, place: Place, mapMode = 'new') {
   let minX = Infinity, maxX = -Infinity, minZ = Infinity, maxZ = -Infinity
   for (const { position: p } of prims)
     for (let i = 0; i < p.length; i += 3) {
@@ -251,7 +232,6 @@ async function check() {
   let minY = Infinity, maxY = -Infinity
   for (const { position: p } of prims) for (let i = 1; i < p.length; i += 3) minY = Math.min(minY, p[i]), maxY = Math.max(maxY, p[i])
   const fill = mapMode === 'new' && place.elevation <= 0 ? await fillUnder(prims, place, [minX, minY, minZ], [maxX, maxY, maxZ]) : null
-  if (mapMode === 'new' && place.elevation <= 0 && !fill) console.log('warning: no fill (ground did not load)')
   const ground = (lng: number, lat: number) => filledHeight(lng, lat, fill)
 
   // The map's view of the ground: a 7 x 7 grid over the plan extent, exaggerated.
@@ -286,6 +266,102 @@ async function check() {
     const fillDrop = rigid ? 0 : filled * (1 - Math.min(1, Math.max(0, above / FILL_FADE)))
     return y + mean + (rise + filled - built - mean) * follow - fillDrop - sunk + place.elevation
   }
+  return { lift, ground, lowest, own, fill, raw, rise, n, bounds: { minX, maxX, minY, maxY, minZ, maxZ } }
+}
+
+/** The ground drawn around a model in a terrain scene: how far past its plan, as a share of its size, and at least this many metres. */
+const SURROUND = 0.35, SURROUND_MIN = 12
+const TERRAIN_COLOUR = [0.37, 0.42, 0.31]
+
+/**
+ * Put a render scene on the map's terrain, as the map draws it: every vertex
+ * lifted by `placeOnTerrain` (the same drape, fill and base sink the map
+ * applies, and the placement's `elevation`), and the filled Mapterhorn
+ * ground around it added as a surface. Materials, floodlighting and lamps are
+ * kept, so the night view still works. The scene stays in the model's own
+ * frame; turn it to its bearing afterwards. Returns the model's height above
+ * the lowest ground, as placed.
+ */
+export async function drapeScene(scene: Scene, glb: Uint8Array, place: Place): Promise<number> {
+  const { lift, ground, lowest, bounds: { minX, maxX, minZ, maxZ } } = await placeOnTerrain(readGlb(glb), place)
+  let top = -Infinity
+  for (const pr of scene.primitives) {
+    for (let k = 0; k < pr.p.length; k += 3) {
+      pr.p[k + 1] = lift(pr.p[k], pr.p[k + 1], pr.p[k + 2])
+      top = Math.max(top, pr.p[k + 1])
+    }
+  }
+  const margin = Math.max(SURROUND_MIN, SURROUND * Math.max(maxX - minX, maxZ - minZ))
+  const x0 = minX - margin, z0 = minZ - margin, span = Math.max(maxX - minX, maxZ - minZ) + 2 * margin
+  const cells = Math.min(80, Math.max(16, Math.ceil(span / 2))), step = span / cells
+  const row = cells + 1, p = new Float32Array(row * row * 3), nrm = new Float32Array(row * row * 3)
+  const h = await Promise.all(Array.from({ length: row * row }, (_, k) =>
+    ground(...toLngLat(place, x0 + (k % row) * step, z0 + Math.floor(k / row) * step))))
+  for (let k = 0; k < row * row; k++) {
+    const i = k % row, j = Math.floor(k / row)
+    p.set([x0 + i * step, h[k] - lowest, z0 + j * step], k * 3)
+    const dx = (h[j * row + Math.min(i + 1, cells)] - h[j * row + Math.max(i - 1, 0)]) / (2 * step)
+    const dz = (h[Math.min(j + 1, cells) * row + i] - h[Math.max(j - 1, 0) * row + i]) / (2 * step)
+    const l = Math.hypot(dx, 1, dz)
+    nrm.set([-dx / l, 1 / l, -dz / l], k * 3)
+  }
+  const ix = new Uint32Array(cells * cells * 6)
+  for (let j = 0, t = 0; j < cells; j++) for (let i = 0; i < cells; i++) {
+    const a = j * row + i, b = a + 1, c = a + row, d = c + 1
+    ix.set([a, c, b, b, c, d], t); t += 6
+  }
+  const mat = { name: 'terrain', doubleSided: true, pbrMetallicRoughness: { baseColorFactor: [...TERRAIN_COLOUR, 1], roughnessFactor: 1 } }
+  scene.primitives.unshift({ p, n: nrm, uv: null, ix, mat, flood: null })
+  return top
+}
+
+/** Turn a scene to a placement's bearing (degrees clockwise from north) and refresh its bounds. */
+export function turnScene(scene: Scene, bearing: number) {
+  const t = (bearing * Math.PI) / 180, c = Math.cos(t), s = Math.sin(t)
+  for (const pr of scene.primitives) for (const a of [pr.p, pr.n]) for (let k = 0; k < a.length; k += 3) {
+    const x = a[k], z = a[k + 2]
+    a[k] = x * c - z * s
+    a[k + 2] = x * s + z * c
+  }
+  const lo = [Infinity, Infinity, Infinity], hi = [-Infinity, -Infinity, -Infinity]
+  for (const pr of scene.primitives) for (let k = 0; k < pr.p.length; k += 3) {
+    const v = [pr.p[k], -pr.p[k + 2], pr.p[k + 1]]
+    for (let i = 0; i < 3; i++) { lo[i] = Math.min(lo[i], v[i]); hi[i] = Math.max(hi[i], v[i]) }
+  }
+  scene.lo = lo; scene.hi = hi
+  scene.centre = lo.map((v, i) => (v + hi[i]) / 2)
+  scene.radius = Math.hypot(hi[0] - lo[0], hi[1] - lo[1], hi[2] - lo[2]) / 2
+}
+
+async function check() {
+  const lngO = option('--lng'), latO = option('--lat'), bearingO = option('--bearing'), elevationO = option('--elevation')
+  // old: the map before this change (whole model sunk); sink: base-only sink; new: base-only sink and the terrain filled.
+  const mapMode = option('--map') ?? 'new'
+  const entrances = args.includes('--entrances')
+  const sceneOut = option('--scene-out')
+  const what = args[1]
+  if (!what) usage()
+  let file = what
+  let place: Place = { lng: NaN, lat: NaN, bearing: 0, elevation: 0 }
+  if (!what.endsWith('.glb')) {
+    const catalog = readCatalog(ROOT)
+    const placed: any = catalog.landmarks.find((l) => l.id === what) ?? catalog.landmarks.find((l) => l.model === what)
+    const model = catalog.models.find((m) => m.id === (placed?.model ?? what))
+    file = join(ROOT, model?.file ?? `models/${what}.glb`)
+    if (placed) place = { lng: placed.lng, lat: placed.lat, bearing: placed.bearing ?? 0, elevation: placed.elevation ?? 0 }
+  }
+  if (lngO) place.lng = Number(lngO)
+  if (latO) place.lat = Number(latO)
+  if (bearingO) place.bearing = Number(bearingO)
+  if (elevationO) place.elevation = Number(elevationO)
+  if (!Number.isFinite(place.lng) || !Number.isFinite(place.lat)) {
+    console.error(`${what}: not placed in the catalog; give --lng, --lat and --bearing`)
+    process.exit(1)
+  }
+
+  const prims = readGlb(new Uint8Array(readFileSync(file)))
+  const { lift, ground, lowest, own, fill, raw, rise, n, bounds: { minX, maxX, minZ, maxZ } } = await placeOnTerrain(prims, place, mapMode)
+  if (mapMode === 'new' && place.elevation <= 0 && !fill) console.log('warning: no fill (ground did not load)')
   console.log(`model ground: ${JSON.stringify(own)}; minimum ${lowest}`)
 
   // Optional review scene: the actual draped geometry with filled Mapterhorn.
