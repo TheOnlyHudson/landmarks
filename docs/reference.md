@@ -8,7 +8,7 @@ every tool in `tools/`, see [`workflow.md`](workflow.md).
 
 | Path | What |
 |---|---|
-| `catalog.json` | Every model and every placement of it |
+| `catalog/` | Every model and every placement of it, one file per entry: `places/<id>.json`, `models/<id>.json`, `landmarks/<id>.json` |
 | `models/<id>.glb` | The models, as the generators write them |
 | `generators/<id>.ts` | One generator per model: the source of truth for its GLB |
 | `generators/mesh.ts`, `palette.ts`, `coaster-kit.ts`, `bridge-kit.ts` | The shared kit the generators build with |

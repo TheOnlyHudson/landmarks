@@ -83,7 +83,7 @@ read in 3D from above.
 
 Skip:
 
-- anything already in `catalog.json` or in Open Landmarks;
+- anything already in `catalog/` or in Open Landmarks;
 - plain boxes with nothing distinctive;
 - things too small to read at zoom 16;
 - landmarks whose identity is signage, a mural or neon alone.
@@ -182,7 +182,7 @@ Every AI credit requires its own `model` field. `github` is optional and accepts
 an optional `@` prefix. Choose a primary `type`, descriptive slug `tags`, and
 the real license (CC0-1.0 is the default). CC-BY models need `attribution`;
 custom licenses need `licenseUrl`. Include `wikidata` only when known.
-The lead must prepare `<place-id>` in `catalog.places` before merging models;
+The lead must prepare `<place-id>` in `catalog/places/` before merging models;
 the scratch file does not create place records. Keep contributor/source credits
 separate from photo references. Put publishable visual-reference credits in
 `model.references` as well as the generator header.
@@ -264,33 +264,23 @@ tools/merge-model.sh <scratch>/<prefix>/new/<id>.json "Add <Name>"
 
 It regenerates the GLB, adds or replaces the catalog entries by id,
 validates, typechecks the generator and commits the generator, the model
-and `catalog.json`: one commit per model. Then run `bun test` once the batch
+and its `catalog/` files: one commit per model. Then run `bun test` once the batch
 is merged. New place records must already be committed: the helper only
-upserts model/placement records, and its failure rollback restores `catalog.json`
-from Git. For High LOD additions/updates, commit the detail GLB explicitly
+upserts model/placement records, and its failure rollback restores the catalog files
+it wrote from Git. For High LOD additions/updates, commit the detail GLB explicitly
 alongside the generator, Low LOD and catalog changes; this helper stages only
 `models/<id>.glb`. Reworks keep their existing IDs, `detail`, credits, and other
 metadata unless the change intentionally updates them. Do not replace an entry
 with a stripped-down scratch record.
 
-**Catalog conflicts.** `catalog.json` is kept sorted by id (`bun run
-validate` refuses it otherwise; `bun tools/sort-catalog.ts` fixes it), and
-`web/replacement-footprints.json` holds one landmark per line, sorted by id.
-Branches adding different landmarks therefore edit different lines and
-merge cleanly. When two add neighbouring ids and do conflict, merge the
-catalog by id with `tools/merge-catalog.py` and rerun
-`bun tools/replacement-footprints.ts`. `.gitattributes` names the script
-as the merge driver for `catalog.json`; enable it once per clone:
-
-```bash
-git config merge.catalog.name "catalog.json, merged by id"
-git config merge.catalog.driver "python3 tools/merge-catalog.py %O %A %B"
-```
-
-The merge driver unions `places`, `models` and `landmarks` by id; where both
-branches changed the same id, ours wins, so check those records, parent
-links and each placement's `place`. Then run `bun run validate`. The script's
-header shows how to run it by hand mid-conflict.
+**Catalog conflicts.** The catalog is one file per entry
+(`catalog/places/<id>.json`, `catalog/models/<id>.json`,
+`catalog/landmarks/<id>.json`), so branches adding different landmarks never
+touch the same file and merge cleanly, however close their ids sort. Two
+branches only conflict if they edit the same entry; resolve that file by
+hand and run `bun run validate`. `web/replacement-footprints.json` holds one
+landmark per line, sorted by id; if it conflicts, take either side and rerun
+`bun tools/replacement-footprints.ts`.
 
 ## 7. Pull request
 
@@ -414,8 +404,7 @@ release host.
 | `tools/merge-model.sh <placement.json> "<msg>"` | Merge and commit one model |
 | `bun run sync:sources` | Refresh the pinned OpenLandmarks metadata snapshot |
 | `bun tools/replacement-footprints.ts` | Refresh stored OSM replacement outlines after `replaces` changes |
-| `bun tools/sort-catalog.ts` | Sort `catalog.json` by id, as `bun run validate` requires |
-| `python3 tools/merge-catalog.py` | Merge places, models and placements by id |
+| `bun tools/format-catalog.ts` | Format every `catalog/` file, as `bun run validate` requires |
 | `python3 tools/osm.py buildings\|named\|search` | OSM outlines and parts, named features, Nominatim |
 | `python3 tools/photos.py commons\|openverse` | Licensed photo search, tagged evidence or look-only |
 | `python3 tools/mapillary.py` | Street photos aimed at a landmark, one per side |

@@ -27,7 +27,7 @@ front. Work the rest out yourself:
   element, centre, height and wikidata. If it returns several plausible
   matches, show them and ask the user which one.
 - **Id.** `<prefix>-<slug>`, lowercase. Reuse the city's existing prefix
-  from `catalog.json` (`nyc`, `chi`, `la`, `sf`, `clt`, `dc`, `lv`, `sea`,
+  from `catalog/landmarks/` (`nyc`, `chi`, `la`, `sf`, `clt`, `dc`, `lv`, `sea`,
   `wdw`, `dlr`, `carowinds`, …). For a new city, propose a short prefix.
   Check the id isn't taken.
 - **Credits.** Record the human/organization creating the model, with the
@@ -36,7 +36,7 @@ front. Work the rest out yourself:
   roles. Every AI credit requires a separate `model` field naming the actual
   LLM. Never guess a username. Preserve existing credit when updating a
   model.
-- **Place.** Reuse an explicit `catalog.places` ID or add a durable record for
+- **Place.** Reuse an explicit `catalog/places/` ID or add a durable record for
   the city, town, site, or remote region; include its parents when needed.
 
 Then confirm in one short message: name, id, coordinates, the OSM outline
@@ -102,7 +102,9 @@ what is estimated.
 - Add the `models` entry with `file`, `source`, `collection: "landmarks"`,
   `type`, `tags`, license (default CC0-1.0), and structured `credits`; every AI
   credit includes `model`. Record visual references and attribution as needed.
-- Keep every list in `catalog.json` sorted by id (`bun tools/sort-catalog.ts`).
+- Each entry is its own file, named by id: `catalog/models/<id>.json`,
+  `catalog/landmarks/<id>.json`, `catalog/places/<id>.json`
+  (`bun tools/format-catalog.ts` formats them).
 - Add the `landmarks` entry with explicit `place`, anchor, `bearing`, scale,
   optional Wikidata, and every covered OSM outline/part in `replaces`.
 - For updates, preserve model/placement IDs and existing metadata, and regenerate

@@ -140,10 +140,10 @@ model from boxes, prisms and curves, and writes a GLB.
    copy from: `eiffel-tower.ts`, `chrysler-building.ts`,
    `carowinds-fury-325.ts`. Then run `bun generators/<id>.ts`.
 4. **Look at it** with `bun run preview <id>`, and compare against photos.
-5. **Add it to `catalog.json`**: a model with `type`, `tags`, `collection`,
+5. **Add it to the catalog**: `catalog/models/<id>.json`, a model with `type`, `tags`, `collection`,
    license (default CC0-1.0), and structured `credits`. Give each AI credit a
    separate `model` field; use `github` for known contributor usernames. Add a
-   placement referencing an explicit `place`, with every OSM feature it `replaces`.
+   placement in `catalog/landmarks/<id>.json` referencing an explicit `place`, with every OSM feature it `replaces`.
    Reuse a place or add one for the city, town, site, or remote region.
    See the [complete example](docs/reference.md#public-metadata).
 6. **Check it** with `bun run validate`, `bun run typecheck`, and `bun test`.
@@ -206,7 +206,7 @@ Review the renders against the photos before merging. The commands live in
 ## Licence
 
 Code and models default to [CC0-1.0](LICENSE). A model can declare a different
-license in `catalog.json`; its published metadata and inspector show that
+license in its `catalog/models/<id>.json`; its published metadata and inspector show that
 license and any required attribution. OpenLandmarks models keep their upstream
 licenses and credits; the repository's CC0 dedication does not cover them.
 Placements are derived from OpenStreetMap and are ODbL-1.0,
