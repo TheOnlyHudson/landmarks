@@ -7,9 +7,15 @@
  * which run at bearings 64° and 334°: +y points along 334° (the placement's
  * bearing), +x along 64°. The anchor is on the main complex, at the old
  * campus-frame point (-77, 27); positions are rebased before export.
- * y = 0 is the lowest ground under this building, 6.7 m above the lidar
- * box's ground_min (204.2 m NAVD88), measured under its OSM footprints.
- * Walls run to y = 0; facade detail starts at each wall's real ground.
+ * Source heights use a 6.7 m reference above the lidar box's ground_min
+ * (204.2 m NAVD88); this datum is removed during local-ground normalization.
+ * The source heights are converted to local heights above bare-earth ground
+ * with clt-mppc-ground.ts before export. Entrances are explicitly grounded
+ * relative to their local ground, keeping original leaf/fanlight heights.
+ * After rebasing, feet follow native Mapterhorn z15 samples recorded in
+ * clt-mppc-mapterhorn.ts. The map detects this own ground and does not add
+ * its slope again. Thresholds compensate its 0.5 m base sink; steps are
+ * 0.3 m above their entrance terrain. The lowest foot remains at y = 0.
  * The detached Outreach Center has its own generator, anchor and placement:
  * clt-myers-park-presbyterian-outreach-center.ts.
  *
@@ -86,6 +92,8 @@
  * Night: windows and fanlights glow; doors and stone stay dark (no night evidence).
  */
 import { Part, type V3 } from './mesh'
+import { campusGround } from './clt-mppc-ground'
+import { mapterhorn } from './clt-mppc-mapterhorn'
 import { PALETTE, finish } from './palette'
 import { type XY, type Face, prism, rect, chamfer, flatShape, extrudeShape, arc, archShape, ccw, finishGlb, writeModel } from './sea-tacoma-union-station'
 
@@ -218,12 +226,35 @@ function crossWindow(trim: Part, win: Part, f: Face, sc: number, w: number, z0: 
   framed(trim, win, f, sc - w / 2, z0, sc + w / 2, z1, 0.18)
   tracery(trim, f, sc, w, z0, z1, 2, 'flat', [(z0 + z1) / 2], 0.14)
 }
+/** Geometry explicitly based at an entrance's local ground, already flattened. */
+const grounded = new WeakMap<Part, Map<number, number>>()
+export function onGround(parts: Part[], ground: number, draw: () => void, adjustment = 0) {
+  const starts = parts.map(p => p.pos.length)
+  draw()
+  parts.forEach((p, k) => {
+    let marked = grounded.get(p)
+    if (!marked) grounded.set(p, marked = new Map())
+    for (let i = starts[k]; i < p.pos.length; i += 3) {
+      p.pos[i + 1] = Math.max(0, p.pos[i + 1] - ground)
+      marked.set(i, adjustment)
+    }
+  })
+}
+/** Remove source terrain offsets before the map drapes this flat-based model. */
+export function terrainRelative(parts: Part[], baseline: number) {
+  for (const p of parts) for (let i = 0; i < p.pos.length; i += 3) {
+    if (grounded.get(p)?.has(i)) continue
+    p.pos[i + 1] = Math.max(0, p.pos[i + 1] - (campusGround(p.pos[i], -p.pos[i + 2]) - baseline))
+  }
+}
+
 /**
  * A doorway: a pale stone surround, the door leaves, and over them a glazed
  * head (fanlight) when the opening is arched: `head` 'round', 'pointed' or
  * 'flat'. The leaves rise to `zs`; an arched head springs there.
  */
-export function doorway(trim: Part, door: Part, win: Part, f: Face, sc: number, w: number, z0: number, zs: number, head: 'round' | 'pointed' | 'flat', m = 0.3) {
+export function doorway(trim: Part, door: Part, win: Part, f: Face, sc: number, w: number, z0: number, zs: number, head: 'round' | 'pointed' | 'flat', m = 0.3, terrainAdjustment = 0) {
+  onGround([trim, door, win], z0, () => {
   const shape = (ww: number, a: number) => head === 'round' ? archShape(sc, ww, a, zs, 8) : head === 'pointed' ? pointed(sc, ww, a, zs, 5) : R(sc - ww / 2, a, sc + ww / 2, zs + 0.5)
   flatShape(trim, f, shape(w + 2 * m, z0), 0.03)
   flatShape(door, f, R(sc - w / 2, z0, sc + w / 2, zs), 0.06)
@@ -233,6 +264,7 @@ export function doorway(trim: Part, door: Part, win: Part, f: Face, sc: number, 
     flatShape(win, f, [[sc - w / 2, zs + 0.1], [sc + w / 2, zs + 0.1], ...fan.slice(1, -1)], 0.06)
   }
   flatShape(trim, f, R(sc - 0.07, z0, sc + 0.07, zs), 0.09) // the meeting stile of a pair of leaves
+  }, terrainAdjustment)
 }
 /** A chimney stack with a pale cap. */
 function chimney(stone: Part, trim: Part, x: number, y: number, top: number) {
@@ -262,6 +294,24 @@ function tower(stone: Part, trim: Part, cx: number, cy: number, half: number, de
   box(stone, trim, cx - c, cy + h - t, cx + c, cy + h, deck + 0.6, deck + 1.0, 0.03)
   box(stone, trim, cx - h, cy - c, cx - h + t, cy + c, deck + 0.6, deck + 1.0, 0.03)
   box(stone, trim, cx + h - t, cy - c, cx + h, cy + c, deck + 0.6, deck + 1.0, 0.03)
+}
+
+/** Feet follow the actual DEM; the map detects and subtracts this own ground. */
+export function followMapterhorn(parts: Part[], id: string) {
+  const samples = mapterhorn[id]
+  let lowest = Infinity
+  for (const p of parts) for (let i = 0; i < p.pos.length; i += 3) {
+    const x = p.pos[i], z = p.pos[i + 2]
+    let h = samples[`${x.toFixed(3)},${z.toFixed(3)}`]
+    // Float32 export can round a coordinate across a half-mm boundary.
+    if (h === undefined) for (const dx of [-0.001, 0, 0.001]) for (const dz of [-0.001, 0, 0.001]) {
+      h ??= samples[`${(x + dx).toFixed(3)},${(z + dz).toFixed(3)}`]
+    }
+    if (h === undefined) throw new Error(`Resample Mapterhorn for ${id}: ${x},${z}`)
+    p.pos[i + 1] += h + (grounded.get(p)?.has(i) ? 0.5 + grounded.get(p)!.get(i)! : 0)
+    lowest = Math.min(lowest, p.pos[i + 1])
+  }
+  for (const p of parts) for (let i = 1; i < p.pos.length; i += 3) p.pos[i] -= lowest
 }
 
 /** Rebase plan coordinates; Part stores glTF (x, up, -plan-y) positions. */
@@ -363,7 +413,7 @@ function build() {
     flatShape(trim, tf0, archShape(ts, 1.2, Z(17.9), Z(19.2), 6), 0.03)
     flatShape(win, tf0, archShape(ts, 0.9, Z(18.1), Z(19.2), 6), 0.06)
     crossWindow(trim, win, tf0, ts, 1.6, Z(15.6), Z(17.0))
-    doorway(trim, door, win, tf0, ts, 1.6, Z(10.0), Z(12.6), 'flat')
+    doorway(trim, door, win, tf0, ts, 1.6, Z(10.0), Z(12.6), 'flat', 0.3, -0.85) // native terrain falls below the coarse fill here
     // part 1208917851: the chapel end, a tall cross gable with ridge along y
     gabledXY(-40.6, 13.5, -28.3, 34.7, 'y', 0, Z(19.6), Z(23.4), stone, slate, { bevel: 0.15 })
     const c = faceY(13.5, -1), cs = sAt(c, [-34.45, 13.5])
@@ -416,8 +466,8 @@ function build() {
     gabledXY(-99.5, 4.4, -96.5, 7.6, 'y', 0, Z(13.2), Z(15.0), stone, slate, { over: 0.25, ends: [true, false] })
     const pf = faceY(4.4, -1), ps = sAt(pf, [-98.0, 4.4])
     extrudeShape(trim, pf, [[ps - 1.65, Z(13.2)], [ps, Z(15.2)], [ps + 1.65, Z(13.2)], [ps + 1.2, Z(13.2)], [ps, Z(14.7)], [ps - 1.2, Z(13.2)]], 0, 0.2)
-    flatShape(door, pf, pointed(ps, 2.0, GROUND, Z(12.4), 5), 0.06)
-    box(trim, trim, -99.3, 3.4, -96.7, 4.4, 0, GROUND + 0.3, 0.04) // the steps
+    onGround([door], GROUND, () => flatShape(door, pf, pointed(ps, 2.0, GROUND, Z(12.4), 5), 0.06))
+    onGround([trim], GROUND, () => box(trim, trim, -99.3, 3.4, -96.7, 4.4, 0, GROUND + 0.3, 0.04), 0.35) // step clearance over the coarse terrain fill
   }
   // part 1208917834: the long low wing, flat, with its rooftop monitors
   const low: XY[] = [[-123.0, 35.4], [-125.0, 33.4], [-125.0, 27.7], [-126.1, 23.6], [-111.6, 9.1], [-109.7, 7.4], [-109.9, 14.0], [-106.7, 14.2], [-103.7, 17.2], [-103.7, 20.5], [-96.8, 20.6], [-96.8, 21.9], [-91.7, 22.1], [-86.2, 22.3], [-86.2, 27.1], [-96.8, 26.8], [-96.9, 39.1], [-89.1, 47.2], [-96.9, 54.7], [-116.5, 34.7], [-117.2, 35.4]]
@@ -456,7 +506,7 @@ function build() {
     doorway(trim, door, win, sw, 0, 2.2, GROUND, Z(12.4), 'flat')
     {
       const a = at(f, -L / 2 - 1.0, -1.6), b = at(f, -L / 2 - 1.0, 1.6), c2 = at(f, -L / 2, 1.6), d = at(f, -L / 2, -1.6)
-      prism(trim, trim, ccw([a, b, c2, d]), 0, GROUND + 0.3)
+      onGround([trim], GROUND, () => prism(trim, trim, ccw([a, b, c2, d]), 0, GROUND + 0.3))
     }
     // the buttress walls standing forward at the gable's corners
     for (const v of [-hw, hw]) prism(stone, trim, ccw(chamfer([at(f, -L / 2 - 1.6, v - 1.0), at(f, -L / 2 + 0.4, v - 1.0), at(f, -L / 2 + 0.4, v + 1.0), at(f, -L / 2 - 1.6, v + 1.0)], 0.08)), 0, Z(21.6))
@@ -502,7 +552,9 @@ function build() {
     framedRows(ee, sAt(ee, [-9.2, 67.2]), sAt(ee, [-9.7, 81.6]), 4.5, 1.1)
   }
 
+  terrainRelative([stone, trim, slate, shingle, win, door], G)
   reanchor([stone, trim, slate, shingle, win, door], -77, 27)
+  followMapterhorn([stone, trim, slate, shingle, win, door], 'clt-myers-park-presbyterian')
   return finishGlb('Myers Park Presbyterian Church', [
     { part: stone, material: finish('mppc-stone', 0xe4d5c3) },
     { part: trim, material: PALETTE.trim },

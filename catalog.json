@@ -11651,7 +11651,7 @@
         {
           "name": "Codex",
           "kind": "ai",
-          "role": "building separation and placement",
+          "role": "building separation, placement and terrain grounding",
           "model": "GPT-6.1 Sol"
         }
       ],
@@ -11699,7 +11699,7 @@
         {
           "name": "Codex",
           "kind": "ai",
-          "role": "building separation and placement",
+          "role": "building separation, placement and terrain grounding",
           "model": "GPT-6.1 Sol"
         }
       ],

@@ -12,7 +12,11 @@
  * annex 11.5 m above the original lidar box's ground_min (204.2 m NAVD88).
  * Ground under the OSM outline is at least 4.45 m above that minimum;
  * rounded down to 4.4 m for this building's own y = 0. Original facade
- * ground estimate 4.6 m retained. Walls and posts extend to the ground.
+ * ground estimate 4.6 m is used only to recover door/fanlight dimensions.
+ * Source terrain offsets are removed using clt-mppc-ground.ts before the
+ * map applies Mapterhorn draping. This flatter site keeps a flat base;
+ * both entrance leaves start at y = 0, with the map's ordinary 0.5 m sink
+ * hiding their lower edge below terrain. Canopy posts extend to y = 0.
  * Roof finish: USGS NAIP orthophoto (public domain). Window shapes and
  * spacing, gables, pilasters, doors and canopy follow the supplied model.
  * Estimated: window dimensions and bay counts, west-side facade ground.
@@ -27,7 +31,7 @@
 import { Part } from './mesh'
 import { PALETTE, finish } from './palette'
 import { type XY, prism, ccw, flatShape, extrudeShape, archShape, finishGlb, writeModel } from './sea-tacoma-union-station'
-import { type Frame, gabled, flatBlock, sideFace, sAt, doorway, R, windowRows, framed, tracery, at, dir, reanchor } from './clt-myers-park-presbyterian'
+import { type Frame, gabled, flatBlock, sideFace, sAt, doorway, R, windowRows, framed, tracery, at, dir, reanchor, terrainRelative } from './clt-myers-park-presbyterian'
 
 const Z = (h: number) => h - 4.4
 
@@ -95,6 +99,7 @@ function build() {
     }
   }
 
+  terrainRelative([stone, trim, shingle, win, door], 4.4)
   const a = 5.4 * Math.PI / 180
   reanchor([stone, trim, shingle, win, door], 81.2 + 16.7 * Math.cos(a) - 29 * Math.sin(a), -87.4 + 16.7 * Math.sin(a) + 29 * Math.cos(a))
   return finishGlb('Myers Park Presbyterian Church Outreach Center', [
