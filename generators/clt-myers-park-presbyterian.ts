@@ -5,15 +5,13 @@
  *
  * Map frame: x, y, z up, metres, built square to the church's own walls,
  * which run at bearings 64° and 334°: +y points along 334° (the placement's
- * bearing), +x along 64°. The anchor (-80.82570, 35.19366) sits between the
- * main complex (x -146..-9) and the Outreach Center (x 65..120), so both
- * stand in one model. y = 0 is the lowest ground under the footprint, at
- * the Outreach Center's east side (lidar ground 3.4 m above the box's
- * ground_min of 204.2 m NAVD88). The main complex stands 6-7 m higher, on
- * the crest along Oxford Place: lidar ground about 10 m above ground_min at
- * the nave and Oxford Hall, falling to 7.5-8 m at the east wing. Every wall
- * runs down to y = 0 and sinks into the hill there; facade detail starts at
- * each wall's real ground.
+ * bearing), +x along 64°. The anchor is on the main complex, at the old
+ * campus-frame point (-77, 27); positions are rebased before export.
+ * y = 0 is the lowest ground under this building, 6.7 m above the lidar
+ * box's ground_min (204.2 m NAVD88), measured under its OSM footprints.
+ * Walls run to y = 0; facade detail starts at each wall's real ground.
+ * The detached Outreach Center has its own generator, anchor and placement:
+ * clt-myers-park-presbyterian-outreach-center.ts.
  *
  * Form: a Gothic Revival church in pale tan stone with grey slate roofs.
  * The long gabled nave (Sanctuary): a narthex bay at the south end with a
@@ -37,12 +35,7 @@
  * walls at its corners, and low flat-roofed wings with rooftop monitors.
  * North: a two-storey flat-roofed wing with doors on both sides and the
  * three-storey education block with framed windows and three doors on its
- * south front. 170 m east, across the lawn on Providence Road: the Outreach
- * Center, a big shingled hall with a cross gable: six bays of tall
- * round-headed windows under square ones between pilasters on its long
- * sides, a tall round-headed window and a door on the cross gable's west
- * end, paired windows on its south gable, an open flat canopy on posts over
- * the glazed north entrance, and a low annex.
+ * south front.
  *
  * Sources
  * - Campus model by Josh Richard (SketchUp, exported as GLB; supplied by
@@ -96,8 +89,8 @@ import { Part, type V3 } from './mesh'
 import { PALETTE, finish } from './palette'
 import { type XY, type Face, prism, rect, chamfer, flatShape, extrudeShape, arc, archShape, ccw, finishGlb, writeModel } from './sea-tacoma-union-station'
 
-/** Lidar heights are above the box's ground_min; y = 0 is 3.4 m above it. */
-const G = 3.4
+/** Lowest ground under the church's OSM footprints: 6.73 m above the lidar box minimum, rounded down. */
+const G = 6.7
 const Z = (h: number) => h - G
 
 // ---------------------------------------------------------------- helpers
@@ -117,7 +110,7 @@ function tf(part: Part, a: V3, b: V3, c: V3, want: V3) {
 function box(wall: Part, top: Part | null, x0: number, y0: number, x1: number, y1: number, z0: number, z1: number, bevel = 0.3) {
   prism(wall, top, bevel > 0 ? chamfer(rect(x0, y0, x1, y1), bevel) : rect(x0, y0, x1, y1), z0, z1)
 }
-const R = (s0: number, z0: number, s1: number, z1: number): XY[] => [[s0, z0], [s1, z0], [s1, z1], [s0, z1]]
+export const R = (s0: number, z0: number, s1: number, z1: number): XY[] => [[s0, z0], [s1, z0], [s1, z1], [s0, z1]]
 /** A pointed (equilateral) arch's outline: jambs from z0, springing at zs. */
 function pointed(sc: number, w: number, z0: number, zs: number, segs = 4): XY[] {
   const h = w / 2
@@ -125,16 +118,16 @@ function pointed(sc: number, w: number, z0: number, zs: number, segs = 4): XY[] 
 }
 
 /** A block's own frame: centre (cx, cy), local u along angle `a` (radians from +x), v 90° left of it. */
-type Frame = { cx: number; cy: number; a: number }
-const at = (f: Frame, u: number, v: number): XY => [f.cx + u * Math.cos(f.a) - v * Math.sin(f.a), f.cy + u * Math.sin(f.a) + v * Math.cos(f.a)]
-const dir = (f: Frame, u: number, v: number): XY => [u * Math.cos(f.a) - v * Math.sin(f.a), u * Math.sin(f.a) + v * Math.cos(f.a)]
+export type Frame = { cx: number; cy: number; a: number }
+export const at = (f: Frame, u: number, v: number): XY => [f.cx + u * Math.cos(f.a) - v * Math.sin(f.a), f.cy + u * Math.sin(f.a) + v * Math.cos(f.a)]
+export const dir = (f: Frame, u: number, v: number): XY => [u * Math.cos(f.a) - v * Math.sin(f.a), u * Math.sin(f.a) + v * Math.cos(f.a)]
 /** The face on a block's side: `side` is the outward local direction (±1, 0) or (0, ±1), at half-extent `d`. */
-function sideFace(f: Frame, side: XY, d: number): Face {
+export function sideFace(f: Frame, side: XY, d: number): Face {
   const o = at(f, side[0] * d, side[1] * d)
   return { o: [o[0], o[1], 0], n: dir(f, side[0], side[1]) }
 }
 /** Position along a face (its s axis) of a world point. */
-const sAt = (f: Face, p: XY) => (p[0] - f.o[0]) * -f.n[1] + (p[1] - f.o[1]) * f.n[0]
+export const sAt = (f: Face, p: XY) => (p[0] - f.o[0]) * -f.n[1] + (p[1] - f.o[1]) * f.n[0]
 /** A face on an axis-aligned wall: x = c facing ±x, or y = c facing ±y. */
 const faceX = (x: number, sgn: 1 | -1): Face => ({ o: [x, 0, 0], n: [sgn, 0] })
 const faceY = (y: number, sgn: 1 | -1): Face => ({ o: [0, y, 0], n: [0, sgn] })
@@ -150,7 +143,7 @@ function edgeFace(a: XY, b: XY): Face {
  * overhang. `ends` false leaves the gable ends off (a block butting into
  * another).
  */
-function gabled(f: Frame, L: number, Wd: number, z0: number, eave: number, ridge: number, wall: Part, roof: Part, opts: { over?: number; bevel?: number; ends?: [boolean, boolean] } = {}) {
+export function gabled(f: Frame, L: number, Wd: number, z0: number, eave: number, ridge: number, wall: Part, roof: Part, opts: { over?: number; bevel?: number; ends?: [boolean, boolean] } = {}) {
   const over = opts.over ?? 0.45, ends = opts.ends ?? [true, true]
   const ring = [at(f, -L / 2, -Wd / 2), at(f, L / 2, -Wd / 2), at(f, L / 2, Wd / 2), at(f, -L / 2, Wd / 2)]
   prism(wall, null, opts.bevel ? chamfer(ring, opts.bevel) : ring, z0, eave)
@@ -176,13 +169,13 @@ function gabledXY(x0: number, y0: number, x1: number, y1: number, axis: 'x' | 'y
   gabled(f, axis === 'x' ? x1 - x0 : y1 - y0, axis === 'x' ? y1 - y0 : x1 - x0, z0, eave, ridge, wall, roof, opts)
 }
 /** A flat-roofed block from a plan ring, with a pale coping band at the top. */
-function flatBlock(wall: Part, trim: Part, flat: Part, ring: XY[], top: number, coping = 0.45) {
+export function flatBlock(wall: Part, trim: Part, flat: Part, ring: XY[], top: number, coping = 0.45) {
   const r = ccw(ring)
   prism(wall, null, r, 0, top - coping)
   prism(trim, flat, r, top - coping, top)
 }
 /** Rectangular windows in rows along a face between s0 and s1, grouped in bays. */
-function windowRows(win: Part, f: Face, s0: number, s1: number, rows: [number, number][], bay: number, inset = 0.8) {
+export function windowRows(win: Part, f: Face, s0: number, s1: number, rows: [number, number][], bay: number, inset = 0.8) {
   const a = Math.min(s0, s1), b = Math.max(s0, s1), n = Math.max(1, Math.round((b - a) / bay)), st = (b - a) / n
   for (let k = 0; k < n; k++) for (const [z0, z1] of rows) flatShape(win, f, R(a + st * k + inset, z0, a + st * (k + 1) - inset, z1), 0.06)
 }
@@ -197,7 +190,7 @@ const roundAt = (w: number, zs: number, d: number) => zs + Math.sqrt(Math.max(0,
  * stopped under the arch, and transoms across. Bold pale bars, a few to a
  * window (STYLE.md, "Tracery").
  */
-function tracery(trim: Part, f: Face, sc: number, w: number, z0: number, zs: number, n: number, head: 'pointed' | 'round' | 'flat', transoms: number[] = [], bar = 0.18) {
+export function tracery(trim: Part, f: Face, sc: number, w: number, z0: number, zs: number, n: number, head: 'pointed' | 'round' | 'flat', transoms: number[] = [], bar = 0.18) {
   const top = (d: number) => head === 'pointed' ? pointedAt(w, zs, d) : head === 'round' ? roundAt(w, zs, d) : zs
   for (let k = 1; k < n; k++) {
     const d = -w / 2 + (w * k) / n
@@ -216,7 +209,7 @@ function lancet2(trim: Part, win: Part, f: Face, sc: number, w: number, z0: numb
   for (const z of transoms) flatShape(trim, f, R(sc - w / 2, z - b, sc + w / 2, z + b), 0.09)
 }
 /** A window panel with a pale stone surround behind it. */
-function framed(trim: Part, win: Part, f: Face, s0: number, z0: number, s1: number, z1: number, m = 0.25) {
+export function framed(trim: Part, win: Part, f: Face, s0: number, z0: number, s1: number, z1: number, m = 0.25) {
   flatShape(trim, f, R(s0 - m, z0 - m, s1 + m, z1 + m), 0.03)
   flatShape(win, f, R(s0, z0, s1, z1), 0.06)
 }
@@ -230,7 +223,7 @@ function crossWindow(trim: Part, win: Part, f: Face, sc: number, w: number, z0: 
  * head (fanlight) when the opening is arched: `head` 'round', 'pointed' or
  * 'flat'. The leaves rise to `zs`; an arched head springs there.
  */
-function doorway(trim: Part, door: Part, win: Part, f: Face, sc: number, w: number, z0: number, zs: number, head: 'round' | 'pointed' | 'flat', m = 0.3) {
+export function doorway(trim: Part, door: Part, win: Part, f: Face, sc: number, w: number, z0: number, zs: number, head: 'round' | 'pointed' | 'flat', m = 0.3) {
   const shape = (ww: number, a: number) => head === 'round' ? archShape(sc, ww, a, zs, 8) : head === 'pointed' ? pointed(sc, ww, a, zs, 5) : R(sc - ww / 2, a, sc + ww / 2, zs + 0.5)
   flatShape(trim, f, shape(w + 2 * m, z0), 0.03)
   flatShape(door, f, R(sc - w / 2, z0, sc + w / 2, zs), 0.06)
@@ -269,6 +262,14 @@ function tower(stone: Part, trim: Part, cx: number, cy: number, half: number, de
   box(stone, trim, cx - c, cy + h - t, cx + c, cy + h, deck + 0.6, deck + 1.0, 0.03)
   box(stone, trim, cx - h, cy - c, cx - h + t, cy + c, deck + 0.6, deck + 1.0, 0.03)
   box(stone, trim, cx + h - t, cy - c, cx + h, cy + c, deck + 0.6, deck + 1.0, 0.03)
+}
+
+/** Rebase plan coordinates; Part stores glTF (x, up, -plan-y) positions. */
+export function reanchor(parts: Part[], x: number, y: number) {
+  for (const part of parts) for (let i = 0; i < part.pos.length; i += 3) {
+    part.pos[i] -= x
+    part.pos[i + 2] += y
+  }
 }
 
 // ---------------------------------------------------------------- the church
@@ -501,67 +502,7 @@ function build() {
     framedRows(ee, sAt(ee, [-9.2, 67.2]), sAt(ee, [-9.7, 81.6]), 4.5, 1.1)
   }
 
-  // ---- the Outreach Center (way/369312110), 170 m east, its walls turned 5.4° from the church's
-  {
-    const a = (5.4 * Math.PI) / 180, O: XY = [81.2, -87.4]
-    const W = (p: number, q: number): XY => [O[0] + p * Math.cos(a) - q * Math.sin(a), O[1] + p * Math.sin(a) + q * Math.cos(a)]
-    const fr = (p0: number, q0: number, p1: number, q1: number, along: 'p' | 'q'): [Frame, number, number] => {
-      const c = W((p0 + p1) / 2, (q0 + q1) / 2)
-      return along === 'p' ? [{ cx: c[0], cy: c[1], a }, p1 - p0, q1 - q0] : [{ cx: c[0], cy: c[1], a: a + Math.PI / 2 }, q1 - q0, p1 - p0]
-    }
-    const OG = Z(4.6) // its ground
-    const [mf, mL, mW] = fr(0, 0, 33.4, 38.6, 'q')
-    gabled(mf, mL, mW, 0, Z(13.9), Z(19.2), stone, shingle, { over: 0.5, bevel: 0.2, ends: [true, false] })
-    const [cf, cL, cW] = fr(-11.9, 29.5, 33.6, 47.8, 'p')
-    gabled(cf, cL, cW, 0, Z(14.5), Z(20.3), stone, shingle, { over: 0.5, bevel: 0.2 })
-    flatBlock(stone, trim, flat, [W(33.3, 4.1), W(39.1, 4.2), W(38.5, 27.0), W(33.3, 27.0)], Z(11.5))
-    // the north entry: an open flat canopy on posts over the glazed doors in the cross gable
-    {
-      const top = Z(9.3)
-      prism(trim, trim, ccw([W(13.3, 47.8), W(20.1, 47.8), W(20.1, 58.0), W(13.3, 58.0)]), top - 0.6, top)
-      for (const [p, q] of [[13.7, 57.6], [19.7, 57.6], [13.7, 52.7], [19.7, 52.7]]) {
-        const c = W(p, q), d = 0.22
-        prism(trim, null, ccw([[c[0] - d, c[1] - d], [c[0] + d, c[1] - d], [c[0] + d, c[1] + d], [c[0] - d, c[1] + d]]), 0, top - 0.6)
-      }
-      const nf = sideFace(cf, [0, 1], cW / 2)
-      doorway(trim, door, win, nf, sAt(nf, W(16.7, 47.8)), 2.6, OG, OG + 2.6, 'flat', 0.3)
-      flatShape(win, nf, R(sAt(nf, W(16.7, 47.8)) - 1.3, OG + 3.3, sAt(nf, W(16.7, 47.8)) + 1.3, OG + 4.0), 0.06)
-      windowRows(win, nf, -cL / 2 + 1.5, -cL / 2 + 24.0, [[OG + 1.4, OG + 3.4], [OG + 5.0, OG + 7.6]], 4.2, 0.8)
-    }
-    // the south gable: two rows of windows in pairs, a round-headed louvre in the apex
-    const sg = sideFace(mf, [-1, 0], mL / 2)
-    extrudeShape(trim, sg, [[-mW / 2 - 0.2, Z(13.9)], [0, Z(19.55)], [mW / 2 + 0.2, Z(13.9)], [mW / 2 - 0.6, Z(13.9)], [0, Z(19.0)], [-mW / 2 + 0.6, Z(13.9)]], 0, 0.3)
-    for (const d of [-14.4, -1.4, 1.4, 14.4]) for (const [z0, z1] of [[1.1, 3.1], [5.1, 7.1]]) framed(trim, win, sg, d - 0.65, OG + z0, d + 0.65, OG + z1, 0.15)
-    flatShape(win, sg, archShape(0, 1.2, OG + 9.1, OG + 10.5, 6), 0.06)
-    // the long sides: six bays of tall round-headed windows under square ones, pilasters between
-    for (const v of [-1, 1] as const) {
-      const side = sideFace(mf, [0, v], mW / 2), u0 = -mL / 2 + 0.6, u1 = -mL / 2 + 29.4, bay = (u1 - u0) / 6
-      for (let k = 0; k < 6; k++) {
-        const s = -v * (u0 + bay * (k + 0.5))
-        flatShape(trim, side, archShape(s, 2.6, OG + 0.3, OG + 3.4, 8), 0.03)
-        flatShape(win, side, archShape(s, 2.2, OG + 0.5, OG + 3.4, 8), 0.06)
-        tracery(trim, side, s, 2.2, OG + 0.5, OG + 3.4, 2, 'round', [OG + 2.6], 0.14)
-        framed(trim, win, side, s - 0.8, OG + 5.2, s + 0.8, OG + 7.2, 0.16)
-      }
-      for (let k = 0; k <= 6; k++) {
-        const u = u0 + bay * k, c = at(mf, u, v * (mW / 2 + 0.2)), d = dir(mf, 1, 0), nn = dir(mf, 0, v)
-        prism(trim, trim, ccw([[c[0] - d[0] * 0.35 - nn[0] * 0.2, c[1] - d[1] * 0.35 - nn[1] * 0.2], [c[0] + d[0] * 0.35 - nn[0] * 0.2, c[1] + d[1] * 0.35 - nn[1] * 0.2], [c[0] + d[0] * 0.35 + nn[0] * 0.2, c[1] + d[1] * 0.35 + nn[1] * 0.2], [c[0] - d[0] * 0.35 + nn[0] * 0.2, c[1] - d[1] * 0.35 + nn[1] * 0.2]]), 0, Z(13.6))
-      }
-    }
-    // the cross gable's ends: the tall round-headed centre window, windows either side, the west door
-    for (const e of [-1, 1] as const) {
-      const end = sideFace(cf, [e, 0], cL / 2)
-      extrudeShape(trim, end, [[-cW / 2 - 0.2, Z(14.5)], [0, Z(20.65)], [cW / 2 + 0.2, Z(14.5)], [cW / 2 - 0.6, Z(14.5)], [0, Z(20.1)], [-cW / 2 + 0.6, Z(14.5)]], 0, 0.3)
-      flatShape(trim, end, archShape(0, 2.8, OG + 0.2, OG + 6.9, 8), 0.03)
-      flatShape(win, end, archShape(0, 2.3, OG + 0.4, OG + 6.9, 8), 0.06)
-      tracery(trim, end, 0, 2.3, OG + 0.4, OG + 6.9, 2, 'round', [OG + 2.8, OG + 5.2], 0.14)
-      for (const d of [-7.4, -3.0, 3.0, 7.4]) framed(trim, win, end, d - 0.65, OG + 5.0, d + 0.65, OG + 7.2, 0.15)
-      for (const d of [-7.4, 3.0, 7.4]) framed(trim, win, end, d - 0.65, OG + 1.0, d + 0.65, OG + 3.2, 0.15)
-      if (e === -1) doorway(trim, door, win, end, -3.0, 2.0, OG, OG + 2.7, 'flat', 0.25)
-      else framed(trim, win, end, -3.65, OG + 1.0, -2.35, OG + 3.2, 0.15)
-    }
-  }
-
+  reanchor([stone, trim, slate, shingle, win, door], -77, 27)
   return finishGlb('Myers Park Presbyterian Church', [
     { part: stone, material: finish('mppc-stone', 0xe4d5c3) },
     { part: trim, material: PALETTE.trim },

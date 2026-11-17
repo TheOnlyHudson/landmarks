@@ -11621,7 +11621,7 @@
       "source": "generators/clt-myers-park-presbyterian.ts",
       "type": "building",
       "collection": "landmarks",
-      "description": "Myers Park Presbyterian Church's campus: the 1927 Gothic Revival sanctuary and bell tower by James M. McMichael, Oxford Hall, the education wings and the Outreach Center.",
+      "description": "Myers Park Presbyterian Church's main complex: the 1927 Gothic Revival sanctuary and bell tower by James M. McMichael, Oxford Hall and the education wings.",
       "credits": [
         {
           "name": "Alex Wohlbruck",
@@ -11647,12 +11647,65 @@
           "role": "procedural modeling",
           "model": "Claude Opus 5.5",
           "url": "https://claude.ai/"
+        },
+        {
+          "name": "Codex",
+          "kind": "ai",
+          "role": "building separation and placement",
+          "model": "GPT-6.1 Sol"
         }
       ],
       "tags": [
         "church",
         "gothic-revival",
         "campus"
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "id": "clt-myers-park-presbyterian-outreach-center",
+      "file": "models/clt-myers-park-presbyterian-outreach-center.glb",
+      "license": "CC0-1.0",
+      "source": "generators/clt-myers-park-presbyterian-outreach-center.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "description": "Myers Park Presbyterian Church Outreach Center, a detached cross-gabled building at 1073 Providence Road.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "role": "creator",
+          "github": "alexwohlbruck"
+        },
+        {
+          "name": "Josh Richard",
+          "kind": "person",
+          "role": "source campus model",
+          "url": "https://www.linkedin.com/in/richardjosh/"
+        },
+        {
+          "name": "Thiencg",
+          "kind": "person",
+          "role": "source campus model",
+          "url": "https://www.fiverr.com/thiencfv"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        },
+        {
+          "name": "Codex",
+          "kind": "ai",
+          "role": "building separation and placement",
+          "model": "GPT-6.1 Sol"
+        }
+      ],
+      "tags": [
+        "church",
+        "outreach-center"
       ],
       "reviewStatus": "unreviewed"
     },
@@ -66754,8 +66807,8 @@
       "id": "clt-myers-park-presbyterian",
       "name": "Myers Park Presbyterian Church",
       "model": "clt-myers-park-presbyterian",
-      "lng": -80.8257,
-      "lat": 35.19366,
+      "lng": -80.826590862,
+      "lat": 35.193574175,
       "bearing": 334,
       "elevation": 0,
       "minzoom": 15,
@@ -66765,7 +66818,6 @@
         "way/1498142162",
         "way/1498142164",
         "way/836183794",
-        "way/369312110",
         "way/1208917845",
         "way/1208917831",
         "way/1208917833",
@@ -66792,6 +66844,20 @@
         "way/1208917855",
         "way/1208917856",
         "way/1208917857"
+      ],
+      "place": "charlotte-area"
+    },
+    {
+      "id": "clt-myers-park-presbyterian-outreach-center",
+      "name": "Myers Park Presbyterian Church Outreach Center",
+      "model": "clt-myers-park-presbyterian-outreach-center",
+      "lng": -80.824485988,
+      "lat": 35.193574013,
+      "bearing": 334,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "way/369312110"
       ],
       "place": "charlotte-area"
     },
