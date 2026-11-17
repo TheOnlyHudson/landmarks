@@ -11615,6 +11615,48 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "id": "clt-myers-park-presbyterian",
+      "file": "models/clt-myers-park-presbyterian.glb",
+      "license": "CC0-1.0",
+      "source": "generators/clt-myers-park-presbyterian.ts",
+      "type": "building",
+      "collection": "landmarks",
+      "description": "Myers Park Presbyterian Church's campus: the 1927 Gothic Revival sanctuary and bell tower by James M. McMichael, Oxford Hall, the education wings and the Outreach Center.",
+      "credits": [
+        {
+          "name": "Alex Wohlbruck",
+          "kind": "person",
+          "role": "creator",
+          "github": "alexwohlbruck"
+        },
+        {
+          "name": "Josh Richard",
+          "kind": "person",
+          "role": "source campus model",
+          "url": "https://www.linkedin.com/in/richardjosh/"
+        },
+        {
+          "name": "Thiencg",
+          "kind": "person",
+          "role": "source campus model",
+          "url": "https://www.fiverr.com/thiencfv"
+        },
+        {
+          "name": "Claude",
+          "kind": "ai",
+          "role": "procedural modeling",
+          "model": "Claude Opus 5.5",
+          "url": "https://claude.ai/"
+        }
+      ],
+      "tags": [
+        "church",
+        "gothic-revival",
+        "campus"
+      ],
+      "reviewStatus": "unreviewed"
+    },
+    {
       "id": "clt-noda-mills",
       "file": "models/clt-noda-mills.glb",
       "license": "CC0-1.0",
@@ -66705,6 +66747,51 @@
       "minzoom": 15,
       "replaces": [
         "relation/5933200"
+      ],
+      "place": "charlotte-area"
+    },
+    {
+      "id": "clt-myers-park-presbyterian",
+      "name": "Myers Park Presbyterian Church",
+      "model": "clt-myers-park-presbyterian",
+      "lng": -80.8257,
+      "lat": 35.19366,
+      "bearing": 334,
+      "elevation": 0,
+      "minzoom": 15,
+      "replaces": [
+        "relation/20429396",
+        "way/1498142165",
+        "way/1498142162",
+        "way/1498142164",
+        "way/836183794",
+        "way/369312110",
+        "way/1208917845",
+        "way/1208917831",
+        "way/1208917833",
+        "way/1208917834",
+        "way/1208917835",
+        "way/1208917836",
+        "way/1208917837",
+        "way/1208917838",
+        "way/1208917839",
+        "way/1208917840",
+        "way/1208917841",
+        "way/1208917842",
+        "way/1208917843",
+        "way/1208917844",
+        "way/1208917846",
+        "way/1208917847",
+        "way/1208917848",
+        "way/1208917849",
+        "way/1208917850",
+        "way/1208917851",
+        "way/1208917852",
+        "way/1208917853",
+        "way/1208917854",
+        "way/1208917855",
+        "way/1208917856",
+        "way/1208917857"
       ],
       "place": "charlotte-area"
     },
