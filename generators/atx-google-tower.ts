@@ -31,9 +31,13 @@
  *  3. The north (2nd Street) and east (Nueces) faces are plain vertical
  *     blue glass to about 0.9 of the peak, under a sloped glass cap that
  *     rises west to the peak over the sail.
- * Drawn as tiers of two storeys, each cut back to the terrace line and the
- * leaning west face at its top, a pyramid cap, and the sail as a smooth
- * 0.6 m glass sheet a little proud of the stepped tiers.
+ * Drawn as tiers of one storey, each cut back to the terrace line (white
+ * slab edge on every terrace front), a steep pyramid cap to the point, and
+ * the sail as a 0.6 m glass sheet on a grid of 8 x 26 facets: bowed 2.6 m
+ * toward the creek in plan, leaning back 12 m in section. The terraces
+ * trail the sail's leading edge (16 m at the ground, nothing at the peak),
+ * so low down the sail stands south of them as a free glass blade: the band
+ * between the two diagonals in the east-south-east photos.
  *
  * Evidence:
  *  - plan: OSM way/961789209 in the turned frame (the west side's two small
@@ -44,8 +48,10 @@
  *    OSM height 181.05), 35 storeys. The lidar (USGS 3DEP
  *    USGS_LPC_TX_Central_B1_2017, 2017 flight) predates the tower (the site
  *    was an empty lot) and is used only for the ground.
- *  - photo-scaled (from "lake", "ajay", "farbod1/2", "oleg1/2"): the peak
- *    60% of the way up the west side from the south; the glass peak at
+ *  - photo-scaled (from "pfl22", "cap10k", "lake", "ajay", "farbod1/2",
+ *    "oleg1/2"): the peak 78% of the way up the west side from the south
+ *    (the far west-south-west photo "pfl22" puts it close to the north
+ *    end); the glass peak at
  *    174 m, the blade the rest; the north and east walls 0.9 of the peak;
  *    the sail curve z/H = t^1.25 (t the fraction of the way from the south
  *    end to the peak); the west face's lean, 12 m at the top, is estimated
@@ -74,13 +80,20 @@
  *          CC BY-SA 4.0 (the sail face's fins)
  *  ne      "Block 185 construction, NE corner 2021-08-10.jpg", Xnatedawgx,
  *          CC BY-SA 4.0 (the 2nd / Nueces corner)
+ *  pfl22   "Downtown Austin from Pfluger Pedestrian Bridge, October 2022.jpg",
+ *          Ryan (Flickr), CC BY-SA 4.0 (from the west-south-west, far)
+ *  col22   "Downtown Austin, Texas from the Colorado River, October 2022.jpg",
+ *          Ryan (Flickr), CC BY-SA 4.0
+ *  cap10k  "Waiting for Cap10K to Start 2022.jpg", Larry D. Moore, CC BY 4.0
+ *          (from the east-south-east, the terraces and the cap)
+ *  sky23   "Austin Texas skyline, December 2023 - Day.jpg", Steve, CC BY-SA 2.0
+ *  se22    "Austin Skyline from the Southeast 2022.jpg", Larry D. Moore, CC BY 4.0
  * No look-only sources. No commercial imagery.
  *
- * Doubts: the terraces are drawn two storeys to a step (the real ones are
- * one storey, with notched corners). The exact
+ * Doubts: the terraces' notched corners are left out. The exact
  * position of the peak and the heights of the north corners are read off
  * oblique photos (a few metres either way). The west face's lean and
- * swoop are estimated; its slight curvature in plan is drawn flat. The
+ * swoop are estimated; its bow in plan is estimated. The
  * glass cap's facets are reduced to one pyramid. No photo shows the north face squarely.
  * The lobby (recessed behind columns on 2nd and Nueces) is not drawn.
  */
@@ -137,65 +150,77 @@ if (import.meta.main) {
   // Plan corners (OSM way/961789209 in the frame, simplified).
   const SW: XY = [-34.27, -38.64], SEa: XY = [25.07, -38.95], SEb: XY = [27.6, -33.0]
   const NE: XY = [28.08, 42.05], NW: XY = [-20.73, 41.64]
-  const PLAN: XY[] = [SW, SEa, SEb, NE, NW]
 
   const Z0 = 3 // street level above the model's base (the creek-bank corner)
   const TIP = Z0 + 181 // published top
   const H = Z0 + 174 // glass peak
-  const VP = 0.6 // the peak, as a fraction of the west side from SW to NW
-  const P = 1.25 // the sail curve's swoop
-  const zSW = 0, zNW = Z0 + 0.9 * 174
+  const VP = 0.78 // the peak, as a fraction of the west side from SW to NW
+  const P = 1.25 // the sail edge's swoop
+  const zNW = Z0 + 0.9 * 174 // the flat roof of the north and east walls
   const BASE = Z0 + 9 // the full-plate base (lobby and first office floors)
-  const PEAK = lerpXY(SW, NW, VP)
-  const westX = (y: number) => SW[0] + ((NW[0] - SW[0]) * (y - SW[1])) / (NW[1] - SW[1])
+  const ST = 4.75 // storey
 
-  // The sail edge, up the west side from SW to the peak.
-  const sailV = (z: number) => VP * Math.pow(Math.max(0, (z - zSW) / (H - zSW)), 1 / P)
-  const yS = (z: number) => lerpXY(SW, NW, sailV(z))[1]
-  const LEAN = 12, xoff = (z: number) => LEAN * Math.pow(Math.max(0, z) / H, 1.8)
-  // The glass cap: above the flat-topped north and east walls (0.9 of the
-  // peak) the top closes in, up and west, to the peak over the sail.
-  const xTop = westX(PEAK[1]) + LEAN + 3
-  const xE = (z: number) => (z <= zNW ? 99 : NE[0] + ((xTop - NE[0]) * (z - zNW)) / (H - zNW))
-  const yN = (z: number) => (z <= zNW ? 99 : NW[1] + ((PEAK[1] + 2 - NW[1]) * (z - zNW)) / (H - zNW))
+  // The sail: a curved glass surface over the west side. In plan it bows
+  // out toward the creek (BOW at mid-length); in section it leans back to
+  // the east, more steeply toward the top (LEAN at the peak).
+  const BOW = 2.6, LEAN = 12
   const wd = unit3([NW[0] - SW[0], NW[1] - SW[1], 0]), wo: V3 = [-wd[1], wd[0], 0] // along the west side, and out of it
-  // The west face leans back to the east as it rises (it is seen from above
-  // in the aerial, and leans in every photo from the south and south-west).
-  const plate = (z: number) => clipHalf(clipHalf(clipHalf(clipHalf(PLAN, [0, -1], -yS(z)), [1, 0], xE(z)), [0, 1], yN(z)), [wo[0], wo[1]], wo[0] * SW[0] + wo[1] * SW[1] - xoff(z))
+  const xoff = (z: number) => LEAN * Math.pow(Math.max(0, z) / H, 1.8)
+  const S = (v: number, z: number, off = 0): V3 => {
+    const q = lerpXY(SW, NW, v), d = BOW * Math.sin(Math.PI * v) - xoff(z) + off
+    return [q[0] + wo[0] * d, q[1] + wo[1] * d, z]
+  }
+  // The leading edge: up the west side from SW to the peak, concave.
+  const sailV = (z: number) => VP * Math.pow(Math.max(0, z / H), 1 / P)
+  const sailZ = (v: number) => H * Math.pow(Math.min(1, v / VP), P)
+  // the top edge, from the peak down to the north-west corner
+  const topZ = (v: number) => (v <= VP ? sailZ(v) : H + ((zNW - H) * (v - VP)) / (1 - VP))
+  // The terraces run east-west, but trail the sail's leading edge: low down
+  // the sail stands well south of them as a free glass blade (LAG at the
+  // ground, closing to nothing at the peak), which is the band between the
+  // two diagonals in the east-south-east photos.
+  const LAG = 16
+  const yS = (z: number) => S(sailV(z), z)[1] + LAG * (1 - Math.min(1, z / H))
 
-  // Tiers of two storeys (4.75 m), each set back to the plate at its top:
-  // the terraces on the south, the steps on the east.
-  const ST = 4.75
+  // A floor plate at height z: the plan with the sail curve as its west
+  // side, cut back on the south to the terrace line yS(z).
+  const NB = 8
+  const plate = (z: number): XY[] => {
+    const west: XY[] = []
+    for (let i = NB; i >= 0; i--) { const p = S(i / NB, z); west.push([p[0], p[1]]) }
+    const ring: XY[] = [west[west.length - 1], SEa, SEb, NE, ...west.slice(0, -1)]
+    return clipHalf(ring, [0, -1], -yS(z))
+  }
+
+  // Tiers of one storey, each set back to the terrace line at its top: the
+  // fine stepped diagonal of white slab edges on the south.
   const levels = [0, BASE]
-  for (let z = BASE + 2 * ST; z < zNW - 2; z += 2 * ST) levels.push(z)
+  for (let z = BASE + ST; z < zNW - 1; z += ST) levels.push(z)
   levels.push(zNW)
   const up: V3 = [0, 0, 1]
   for (let k = 0; k < levels.length - 1; k++) {
-    const z0 = levels[k], z1 = levels[k + 1], ring = plate(Math.min(z1, H - 0.8))
+    const z0 = levels[k], z1 = levels[k + 1], ring = plate(z1)
     if (ring.length < 3) continue
-    const cap = z0 >= zNW - 0.01, wallP = cap ? sail : glass
-    // walls (west walls are hidden behind the sail; drawn anyway, they close the solid)
     for (let i = 0; i < ring.length; i++) {
       const a = ring[i], b = ring[(i + 1) % ring.length], n = unit3([b[1] - a[1], a[0] - b[0], 0])
-      // Terrace fronts (facing south) get a white slab edge on every tier;
-      // the plain north and east walls one every third tier (three panels of
-      // about 9.5 m between pale floor lines would be too busy).
-      const front = n[1] < -0.7, band = front || k % 3 === 0 || z1 >= zNW - 0.01
-      const zb = front ? z1 - 1.8 : band ? z1 - 0.9 : z1
-      quadOut(wallP, [a[0], a[1], z0], [b[0], b[1], z0], [b[0], b[1], zb], [a[0], a[1], zb], n)
+      if (n[0] * wo[0] + n[1] * wo[1] > 0.8) continue // behind the sail
+      // terrace fronts (facing south): a white slab edge on every storey;
+      // the plain north and east walls one every third storey
+      const front = n[1] < -0.7, band = front || k % 3 === 0 || k === levels.length - 2
+      const zb = front ? z1 - 1.1 : band ? z1 - 0.6 : z1
+      quadOut(glass, [a[0], a[1], z0], [b[0], b[1], z0], [b[0], b[1], zb], [a[0], a[1], zb], n)
       if (band) quadOut(white, [a[0], a[1], zb], [b[0], b[1], zb], [b[0], b[1], z1], [a[0], a[1], z1], n)
     }
-    // the deck on top (the terrace in front of the next tier, or the roof)
     const tri = (A: XY, B: XY, C: XY) => triOut(deck, [A[0], A[1], z1], [B[0], B[1], z1], [C[0], C[1], z1], up)
     for (let i = 1; i < ring.length - 1; i++) tri(ring[0], ring[i], ring[i + 1])
   }
 
   // The glass cap: a steep pyramid over the west 16 m of the roof, rising to
-  // a sharp point over the sail (the rest of the roof stays flat at 0.9 of
+  // the sharp point over the sail (the rest of the roof stays flat at 0.9 of
   // the peak, as the north-east corner does in the south-east photos).
+  const apex = S(VP, H, -0.3)
   {
-    const ring = clipHalf(plate(zNW), [1, 0], westX(PEAK[1]) + xoff(zNW) + 16), apex: V3 = [...lerpXY(SW, NW, VP), H] as V3
-    apex[0] += wo[0] * -xoff(H) - wo[0] * 0.3; apex[1] += wo[1] * -xoff(H) - wo[1] * 0.3
+    const ring = clipHalf(plate(zNW), [1, 0], apex[0] + 16)
     const c: V3 = [ring.reduce((t, q) => t + q[0], 0) / ring.length, ring.reduce((t, q) => t + q[1], 0) / ring.length, zNW]
     for (let i = 0; i < ring.length; i++) {
       const a = ring[i], b = ring[(i + 1) % ring.length]
@@ -205,86 +230,88 @@ if (import.meta.main) {
     }
   }
 
-  // The sail: a smooth glass sheet on the west side, 0.6 m thick, whose
-  // south edge is the swooping curve. It stands a little proud of the
-  // stepped tiers, as the real glass blade does over the terraces.
-  const T = 0.6
-  const ws = Math.hypot(NW[0] - SW[0], NW[1] - SW[1])
-  const at = (v: number, z: number, off: number): V3 => {
-    const q = lerpXY(SW, NW, v), d = off - xoff(z)
-    return [q[0] + wo[0] * d, q[1] + wo[1] * d, z]
-  }
-  const N = 24
-  const curve: [number, number][] = [] // (v, z) from the bottom to the peak
-  for (let i = 0; i <= N; i++) { const z = zSW + ((H - zSW) * i) / N; curve.push([sailV(z), z]) }
-  curve[0] = [0, 0]
-  // outline of the sheet in (v, z): bottom from NW to SW, up the curve, then the top edge back to NW
-  const vTip = VP + 0.035
-  const outline: [number, number][] = [[1, 0], [0, 0], ...curve.slice(1), [vTip, TIP], [vTip + 0.012, TIP - 2.5], [1, zNW]]
-  // triangulate as a fan of strips: each curve point paired with the north edge at the same height
-  const north = (z: number): number => 1
-  void north
+  // The sail sheet, 0.6 m thick: a grid of NB strips across, between the
+  // leading edge and the north-west corner, at each level.
+  const T = 0.6, NZ = 26
+  const zs = Array.from({ length: NZ + 1 }, (_, i) => (H * i) / NZ)
+  const vN = (z: number) => (z <= zNW ? 1 : 1 - ((1 - VP) * (z - zNW)) / (H - zNW))
   for (const off of [0.05, -T]) {
     const out: V3 = off > 0 ? wo : [-wo[0], -wo[1], 0]
-    for (let i = 0; i < curve.length - 1; i++) {
-      const [v0, z0] = curve[i], [v1, z1] = curve[i + 1]
-      const n0 = z0 <= zNW ? 1 : 1 - ((1 - VP) * (z0 - zNW)) / (H - zNW), n1 = z1 <= zNW ? 1 : 1 - ((1 - VP) * (z1 - zNW)) / (H - zNW)
-      if (z1 <= zNW || z0 >= zNW) quadOut(sail, at(v0, z0, off), at(n0, z0, off), at(n1, z1, off), at(v1, z1, off), out)
-      else {
-        const nm = 1
-        quadOut(sail, at(v0, z0, off), at(n0, z0, off), at(nm, zNW, off), at(v0 + ((v1 - v0) * (zNW - z0)) / (z1 - z0), zNW, off), out)
-        quadOut(sail, at(v0 + ((v1 - v0) * (zNW - z0)) / (z1 - z0), zNW, off), at(nm, zNW, off), at(n1, z1, off), at(v1, z1, off), out)
+    for (let j = 0; j < NZ; j++) {
+      const z0 = zs[j], z1 = zs[j + 1]
+      // split the band at zNW so the top edge is followed exactly
+      const cuts = z0 < zNW && z1 > zNW ? [z0, zNW, z1] : [z0, z1]
+      for (let c = 0; c < cuts.length - 1; c++) {
+        const za = cuts[c], zb = cuts[c + 1], a0 = sailV(za), a1 = sailV(zb), b0 = vN(za), b1 = vN(zb)
+        for (let i = 0; i < NB; i++) {
+          const t0 = i / NB, t1 = (i + 1) / NB
+          quadOut(sail, S(a0 + (b0 - a0) * t0, za, off), S(a0 + (b0 - a0) * t1, za, off), S(a1 + (b1 - a1) * t1, zb, off), S(a1 + (b1 - a1) * t0, zb, off), out)
+        }
       }
     }
   }
-  void outline
-  // the sheet's edges: the north end, and the sail edge (white, the blade)
-  for (let i = 0; i < 12; i++) {
-    const z0 = (zNW * i) / 12, z1 = (zNW * (i + 1)) / 12
-    quadOut(sail, at(1, z0, 0.05), at(1, z0, -T), at(1, z1, -T), at(1, z1, 0.05), [wd[0], wd[1], 0])
-  }
-  for (let i = 0; i < curve.length - 1; i++) {
-    const [v0, z0] = curve[i], [v1, z1] = curve[i + 1]
-    const d0 = 0.004, edgeOut: V3 = unit3(add3(cross3(sub3(at(v1, z1, 0), at(v0, z0, 0)), wo), [0, 0, 0]))
-    const o: V3 = dot3(edgeOut, [-wd[0], -wd[1], 0]) > 0 ? edgeOut : [-edgeOut[0], -edgeOut[1], -edgeOut[2]]
-    // the edge face, and a white strip down each face of the sheet along it
-    quadOut(white, at(v0, z0, 0.1), at(v0, z0, -T - 0.05), at(v1, z1, -T - 0.05), at(v1, z1, 0.1), o)
-    for (const off of [0.1, -T - 0.05]) {
-      const out: V3 = off > 0 ? wo : [-wo[0], -wo[1], 0]
-      quadOut(white, at(v0 - d0, z0, off), at(v0 + 0.028, z0, off), at(v1 + 0.028, z1, off), at(v1 - d0, z1, off), out)
-    }
+  // the sheet's north end
+  for (let j = 0; j < NZ; j++) {
+    const z0 = zs[j], z1 = Math.min(zs[j + 1], zNW)
+    if (z0 >= zNW) break
+    quadOut(sail, S(1, z0, 0.05), S(1, z0, -T), S(1, z1, -T), S(1, z1, 0.05), [wd[0], wd[1], 0])
   }
   // the top edge from the peak down to NW
-  {
-    const a = at(VP, H, 0.05), b = at(1, zNW, 0.05), c = at(1, zNW, -T), d = at(VP, H, -T)
-    quadOut(white, a, b, c, d, up)
+  quadOut(white, S(VP, H, 0.05), S(1, zNW, 0.05), S(1, zNW, -T), S(VP, H, -T), up)
+
+  // The leading edge: a white blade up the curve, standing a little proud
+  // of the sail on both faces, and on past the peak to the top.
+  for (let j = 0; j < NZ; j++) {
+    const z0 = zs[j], z1 = zs[j + 1], v0 = sailV(z0), v1 = sailV(z1)
+    const e0 = S(v0, z0, 0), e1 = S(v1, z1, 0)
+    const n = unit3(cross3(sub3(e1, e0), wo)), o: V3 = n[1] < 0 ? n : [-n[0], -n[1], -n[2]]
+    quadOut(white, S(v0, z0, 0.15), S(v0, z0, -T - 0.1), S(v1, z1, -T - 0.1), S(v1, z1, 0.15), o)
+    for (const off of [0.15, -T - 0.1]) {
+      const out: V3 = off > 0 ? wo : [-wo[0], -wo[1], 0]
+      quadOut(white, S(v0, z0, off), S(v0 + 0.03, z0, off), S(v1 + 0.03, z1, off), S(v1, z1, off), out)
+    }
   }
-  // the blade past the peak: a thin white fin to the top
   {
-    const pts: [number, number][] = [[VP, H - 1], [VP - 0.004, H + 2], [vTip - 0.01, TIP], [vTip + 0.01, TIP - 1.5], [VP + 0.03, H - 1]]
-    for (const off of [0.1, -T - 0.05]) {
-      const out: V3 = off > 0 ? wo : [-wo[0], -wo[1], 0], q = pts.map(([v, z]) => at(v, z, off))
+    const pts: [number, number][] = [[VP, H - 1], [VP - 0.004, H + 2], [VP + 0.025, TIP], [VP + 0.045, TIP - 1.5], [VP + 0.03, H - 1]]
+    for (const off of [0.15, -T - 0.1]) {
+      const out: V3 = off > 0 ? wo : [-wo[0], -wo[1], 0], q = pts.map(([v, z]) => S(v, z, off))
       triOut(white, q[0], q[1], q[4], out); triOut(white, q[1], q[2], q[4], out); triOut(white, q[2], q[3], q[4], out)
     }
   }
 
-  // The fins on the sail: a few pale vertical lines.
-  for (let s = 6; s < ws - 2; s += 7) {
-    const v = s / ws
-    let top: number
-    if (v <= VP) { const t = v / VP; top = zSW + (H - zSW) * Math.pow(t, P) } else top = H + ((zNW - H) * (v - VP)) / (1 - VP)
+  // The sail's fins: pale vertical lines every 6 m, following the curve.
+  const ws = Math.hypot(NW[0] - SW[0], NW[1] - SW[1])
+  for (let s = 5; s < ws - 2; s += 6) {
+    const v = s / ws, top = topZ(v) - 2.5, w = 0.35 / ws
     if (top < 12) continue
-    const w = 0.4 / ws
-    const n = Math.max(1, Math.ceil((top - 3) / 15))
-    for (let i = 0; i < n; i++) {
-      const z0 = 1 + ((top - 3) * i) / n, z1 = 1 + ((top - 3) * (i + 1)) / n
-      quadOut(fins, at(v - w, z0, 0.11), at(v + w, z0, 0.11), at(v + w, z1, 0.11), at(v - w, z1, 0.11), wo)
+    for (let j = 0; j < NZ && zs[j] < top; j++) {
+      const z0 = Math.max(1, zs[j]), z1 = Math.min(top, zs[j + 1])
+      quadOut(fins, S(v - w, z0, 0.11), S(v + w, z0, 0.11), S(v + w, z1, 0.11), S(v - w, z1, 0.11), wo)
     }
   }
 
+  // A light grid on the plain east and north walls: mullion lines every 9 m.
+  const eastTop = (y: number) => {
+    // the terraces reach the east wall where yS(z) passes y
+    if (y >= yS(zNW)) return zNW
+    let z = 0
+    while (z < zNW && yS(z) < y) z += 0.5
+    return Math.floor(Math.max(0, z - BASE) / ST) * ST + BASE
+  }
+  for (let y = SEb[1] + 6; y < NE[1] - 2; y += 9) {
+    const top = eastTop(y) - 1.2
+    if (top < BASE + 4) continue
+    const x = SEb[0] + ((NE[0] - SEb[0]) * (y - SEb[1])) / (NE[1] - SEb[1])
+    wallBand(white, [x, y - 0.3], [x, y + 0.3], BASE, top, 0.07)
+  }
+  for (let s = 6; s < NE[0] - NW[0] - 2; s += 9) {
+    const x = NE[0] - s, y = NE[1] + ((NW[1] - NE[1]) * s) / (NE[0] - NW[0])
+    wallBand(white, [x + 0.3, y], [x - 0.3, y], BASE, zNW - 1.2, 0.07)
+  }
+
   await save('atx-google-tower', 'Google Tower (Block 185)', [
-    { part: glass, material: { ...PALETTE.window, color: 0x7d97ad } },
-    { part: sail, material: windowVariant(2, 0x8aa2b8) },
+    { part: glass, material: { ...PALETTE.window, color: 0x6f96c2 } },
+    { part: sail, material: windowVariant(2, 0x8eaecd) },
     { part: deck, material: finish('google-terrace', 0xebebe6) },
     { part: white, material: PALETTE.trim },
     { part: fins, material: finish('google-sail-fins', 0xe4ebef) },
