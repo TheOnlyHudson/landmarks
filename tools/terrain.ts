@@ -1,8 +1,8 @@
 /**
  * The map's 3D terrain under a model: Mapterhorn, the DEM the map draws.
  *
- *   bun tools/terrain.ts grid <lon> <lat> [half-m=60] [step-m=5] [--bearing <deg>]
- *   bun tools/terrain.ts check <id|model.glb> [--lng <deg> --lat <deg> --bearing <deg>] [--elevation <m>] [--map new|sink|old]
+ *   bun tools/terrain.ts grid <lon> <lat> [half-m=60] [step-m=5] [--bearing <deg>] [--zoom <z>]
+ *   bun tools/terrain.ts check <id|model.glb> [--entrances] [--scene-out review.glb] [--lng <deg> --lat <deg> --bearing <deg>] [--elevation <m>] [--map new|sink|old] [--zoom <z>]
  *
  * `grid` prints the ground in a model's own frame (x east, z south, metres,
  * turned by --bearing like a placement) as heights above the lowest point
@@ -17,10 +17,11 @@
  * the ground just outside, never higher than the real ground, so podiums,
  * steps and rockwork that lidar counts as ground don't poke through the
  * model. It then reads that ground on a 7 x 7 grid over the plan extent,
- * puts y = 0 on the lowest point, and lifts every vertex by the ground's
- * rise under it, fully at the model's own ground and fading to the
- * footprint's mean rise by y = 25 m. Only the base (within 0.05 m of its
- * ground) is sunk a further 0.5 m. The terrain is drawn life-size
+ * puts the base on the lowest point, detects whether the model already
+ * follows the DEM with landmark-ground.ts, and drapes relative to that own
+ * ground. The drape fades to the mean lift over 25 m; terrain-following
+ * feet also fade out the fill's depth over 6 m. The base is sunk 0.5 m
+ * (within 0.05 m for flat bases, 1 m for terrain-following feet). The terrain is drawn life-size
  * (Parchment PR #913). `fill.ts` and `landmark-coverage.ts` under `tools/parchment/` are
  * copies of the map's own code. `--map old` checks against the map before
  * that PR (the whole model sunk 0.5 m, no fill), `--map sink` with only the
@@ -43,7 +44,9 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { homedir } from 'node:os'
 import { join } from 'node:path'
 import sharp from 'sharp'
-import { readGlb } from '../generators/mesh'
+import { readGlb, Part, writeGlb, type V3 } from '../generators/mesh'
+import { entranceThresholds } from './entrances'
+import { groundContacts, modelGround, groundLifts, baseSink, FILL_FADE, GROUND_STRIDE } from '../web/landmark-ground'
 import type { Catalog } from '../src/catalog'
 // Parchment's own fill and coverage, so this mirrors the map exactly.
 import { fillAt, groundFill, type GroundFill } from './parchment/fill'
@@ -51,7 +54,8 @@ import { planCoverage } from './parchment/landmark-coverage'
 
 const ROOT = join(import.meta.dir, '..')
 const TILES = 'https://tiles.mapterhorn.com/{z}/{x}/{y}.webp'
-const Z = 15
+/** Mapterhorn's z15 covers lidar countries; elsewhere it stops lower (z12 at Giza), so `--zoom` reads that. */
+let Z = 15
 const SIZE = 512
 const CACHE = join(homedir(), '.cache', 'landmarks', 'mapterhorn')
 
@@ -156,7 +160,7 @@ async function loadTile(x: number, y: number): Promise<Float32Array> {
 }
 
 /** Metres above sea level at a point, bilinear between pixel centres, as the map samples it. */
-async function height(lng: number, lat: number): Promise<number> {
+export async function height(lng: number, lat: number): Promise<number> {
   const n = 2 ** Z
   const u = ((lng + 180) / 360) * n
   const s = Math.sin((lat * Math.PI) / 180)
@@ -176,7 +180,7 @@ async function height(lng: number, lat: number): Promise<number> {
 type Place = { lng: number; lat: number; bearing: number; elevation: number }
 
 /** As `modelToLngLat` in Parchment: x east, z south, turned clockwise by the bearing. */
-function toLngLat({ lng, lat, bearing }: Place, x: number, z: number): [number, number] {
+export function toLngLat({ lng, lat, bearing }: Place, x: number, z: number): [number, number] {
   const k = Math.cos((lat * Math.PI) / 180) * 111320
   const b = (bearing * Math.PI) / 180
   const east = Math.cos(b) * x - Math.sin(b) * z
@@ -189,6 +193,7 @@ const option = (name: string) => {
   const at = args.indexOf(name)
   return at < 0 ? undefined : args.splice(at, 2)[1]
 }
+Z = Number(option('--zoom') ?? Z)
 const f1 = (v: number) => v.toFixed(1)
 const f2 = (v: number) => v.toFixed(2)
 
@@ -212,6 +217,8 @@ async function check() {
   const lngO = option('--lng'), latO = option('--lat'), bearingO = option('--bearing'), elevationO = option('--elevation')
   // old: the map before this change (whole model sunk); sink: base-only sink; new: base-only sink and the terrain filled.
   const mapMode = option('--map') ?? 'new'
+  const entrances = args.includes('--entrances')
+  const sceneOut = option('--scene-out')
   const what = args[1]
   if (!what) usage()
   let file = what
@@ -251,26 +258,72 @@ async function check() {
   const gridAt = (i: number, j: number): [number, number] => [minX + ((maxX - minX) * i) / n, minZ + ((maxZ - minZ) * j) / n]
   const raw: number[] = []
   for (let j = 0; j <= n; j++) for (let i = 0; i <= n; i++) raw.push(await ground(...toLngLat(place, ...gridAt(i, j))))
-  const drawn = raw.map((h) => h * EXAGGERATION)
-  const lowest = Math.min(...drawn)
-  const rise = drawn.map((h) => h - lowest)
-  const mean = rise.reduce((a, b) => a + b, 0) / rise.length
-  const riseUnder = (x: number, z: number) => {
+  const bare = await Promise.all(Array.from({ length: GROUND_GRID ** 2 }, (_, k) =>
+    height(...toLngLat(place, ...gridAt(k % GROUND_GRID, Math.floor(k / GROUND_GRID))))))
+  const contacts = groundContacts(prims.map(p => ({ ...p, node: -1 })), { minX, maxX, minZ, maxZ })
+  const contactGround = await Promise.all(contacts.map(([x, , z]) => height(...toLngLat(place, x, z))))
+  const own = modelGround(contacts, contactGround, 1)
+  const lifts = groundLifts(raw.map(h => h * EXAGGERATION), EXAGGERATION, own, 1, bare)
+  const lowest = lifts.lowest, mean = lifts.mean
+  const rise = raw.map(h => h * EXAGGERATION - lowest)
+  const gridUnder = (x: number, z: number, channel: number) => {
     const gx = Math.min(n, Math.max(0, ((x - minX) / Math.max(maxX - minX, 1e-3)) * n))
     const gz = Math.min(n, Math.max(0, ((z - minZ) / Math.max(maxZ - minZ, 1e-3)) * n))
     const i = Math.min(n - 1, Math.floor(gx)), j = Math.min(n - 1, Math.floor(gz))
     const fx = gx - i, fz = gz - j
-    const r = (a: number, b: number) => rise[b * GROUND_GRID + a]
+    const r = (a: number, b: number) => lifts.lifts[(b * GROUND_GRID + a) * GROUND_STRIDE + channel]
     return (r(i, j) * (1 - fx) + r(i + 1, j) * fx) * (1 - fz) + (r(i, j + 1) * (1 - fx) + r(i + 1, j + 1) * fx) * fz
   }
-  // A vertex as drawn, relative to the drawn terrain's lowest grid point (GROUND_SINK and elevation included).
-  const rigid = place.elevation > 0
-  const groundAt = Math.max(-place.elevation, 0)
+  const rigid = place.elevation > 0, groundAt = Math.max(-place.elevation, 0)
+  const sink = baseSink(own, 1, true)
   const lift = (x: number, y: number, z: number) => {
-    const follow = rigid ? 0 : 1 - Math.min(1, Math.max(0, (y - groundAt) / GROUND_BLEND))
-    if (mapMode === 'old') return y + mean + (riseUnder(x, z) - mean) * follow - GROUND_SINK + place.elevation
-    const sunk = !rigid && y - groundAt <= BASE_BAND ? GROUND_SINK : 0
-    return y + mean + (riseUnder(x, z) - mean) * follow - sunk + place.elevation
+    const rise = gridUnder(x, z, 0), built = gridUnder(x, z, 1), filled = gridUnder(x, z, 2)
+    const above = y - built - groundAt
+    const follow = rigid ? 0 : 1 - Math.min(1, Math.max(0, above / GROUND_BLEND))
+    if (mapMode === 'old') return y + mean + (rise + filled - built - mean) * follow - GROUND_SINK + place.elevation
+    const sunk = !rigid && above <= sink.band ? sink.depth : 0
+    const fillDrop = rigid ? 0 : filled * (1 - Math.min(1, Math.max(0, above / FILL_FADE)))
+    return y + mean + (rise + filled - built - mean) * follow - fillDrop - sunk + place.elevation
+  }
+  console.log(`model ground: ${JSON.stringify(own)}; minimum ${lowest}`)
+
+  // Optional review scene: the actual draped geometry with filled Mapterhorn.
+  if (sceneOut) {
+    const parts = prims.map(({ position: p, index, material }) => {
+      const part = new Part()
+      for (let t = 0; t < index.length; t += 3) {
+        const v = [...index.slice(t, t + 3)].map(k =>
+          [p[k * 3], -p[k * 3 + 2], lift(p[k * 3], p[k * 3 + 1], p[k * 3 + 2])] as V3)
+        part.tri(v[0], v[1], v[2])
+      }
+      const rgb = material.color.slice(0, 3).map(c => Math.round(255 * c ** (1 / 2.2)))
+      return { part, material: { name: material.name, color: (rgb[0] << 16) | (rgb[1] << 8) | rgb[2] } }
+    })
+    const terrain = new Part(), step = 2
+    for (let z = minZ - 6; z < maxZ + 6; z += step) for (let x = minX - 6; x < maxX + 6; x += step) {
+      const corners = [[x, z], [x, z + step], [x + step, z + step], [x + step, z]]
+      const v = await Promise.all(corners.map(async ([x, z]) =>
+        [x, -z, await ground(...toLngLat(place, x, z)) - lowest] as V3))
+      terrain.quad(v[0], v[1], v[2], v[3])
+    }
+    parts.push({ part: terrain, material: { name: 'review-terrain', color: 0xa3ad96 } })
+    writeFileSync(sceneOut, writeGlb('Terrain grounding review', parts))
+    console.log(`terrain review scene: ${sceneOut}`)
+  }
+
+  // Unlike the top-surface check, this catches floating entrance thresholds.
+  if (entrances) {
+    const doors = entranceThresholds(prims)
+    if (!doors.length) throw new Error('No door material found for entrance verification')
+    console.log(`entrances: checking ${doors.length} connected door leaves against Mapterhorn`)
+    for (const [i, door] of doors.entries()) {
+      const gaps = await Promise.all(door.points.map(async ([x, y, z]) =>
+        lowest + lift(x, y, z) - await ground(...toLngLat(place, x, z))))
+      const highest = Math.max(...gaps)
+      const lowestGap = Math.min(...gaps)
+      console.log(`  door ${i + 1}: threshold ${f2(lowestGap)}..${f2(highest)} m relative to terrain`)
+      if (highest > BURIED || lowestGap < -0.75) process.exitCode = 1
+    }
   }
 
   // Visible tops: up-facing triangles above the base, sampled about every metre.
@@ -338,6 +391,8 @@ function usage(): never {
   process.exit(1)
 }
 
-if (args[0] === 'grid') await grid()
-else if (args[0] === 'check') await check()
-else usage()
+if (import.meta.main) {
+  if (args[0] === 'grid') await grid()
+  else if (args[0] === 'check') await check()
+  else usage()
+}
