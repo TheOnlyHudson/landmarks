@@ -1,0 +1,17 @@
+{
+  "id": "nyc-hoboken-terminal",
+  "name": "Hoboken Terminal",
+  "model": "nyc-hoboken-terminal",
+  "lng": -74.028196,
+  "lat": 40.7350212,
+  "bearing": -1,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6128305",
+  "replaces": [
+    "way/26808027",
+    "way/331072207",
+    "way/331072208"
+  ],
+  "place": "new-york-area"
+}

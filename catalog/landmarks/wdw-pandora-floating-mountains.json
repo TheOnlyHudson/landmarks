@@ -1,0 +1,18 @@
+{
+  "id": "wdw-pandora-floating-mountains",
+  "name": "Floating Mountains of Pandora",
+  "model": "wdw-pandora-floating-mountains",
+  "lng": -81.5919766,
+  "lat": 28.3554349,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/668089393",
+    "way/668089395",
+    "way/668089396",
+    "way/668089397",
+    "way/668089398"
+  ],
+  "place": "walt-disney-world"
+}

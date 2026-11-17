@@ -1,0 +1,15 @@
+{
+  "id": "nyc-ewr-terminal-a",
+  "name": "Newark Liberty Terminal A",
+  "model": "nyc-ewr-terminal-a",
+  "place": "new-york-area",
+  "lng": -74.1868567,
+  "lat": 40.6839044,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q55889597",
+  "replaces": [
+    "way/802991914"
+  ]
+}

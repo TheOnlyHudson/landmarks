@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-scheepvaarthuis",
+  "name": "Scheepvaarthuis",
+  "model": "amsterdam-scheepvaarthuis",
+  "place": "amsterdam",
+  "lng": 4.90406,
+  "lat": 52.374338,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2078885",
+  "replaces": [
+    "way/57863677"
+  ]
+}

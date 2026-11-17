@@ -1,0 +1,66 @@
+{
+  "id": "hou-pennzoil-place",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Pennzoil Place in Houston.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Pennzoil_Place_in_Houston.JPG",
+      "author": "Agsftw",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Pennzoil Place in Houston - Dec 2013.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Pennzoil_Place_in_Houston_-_Dec_2013.JPG",
+      "author": "Agsftw",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Pennzoil Place 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pennzoil_Place_1.jpg",
+      "author": "Rick Kimpel from Spring, TX, USA",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Pennzoil Place, Houston, Texas LCCN2011630051.tif",
+      "url": "https://commons.wikimedia.org/wiki/File:Pennzoil_Place,_Houston,_Texas_LCCN2011630051.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "PennzoilPlace.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:PennzoilPlace.jpg",
+      "author": "Rick Kimpel",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Building6 houston.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Building6_houston.jpg",
+      "author": "Anders Lagerås",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/hou-pennzoil-place.glb",
+  "source": "generators/hou-pennzoil-place.ts"
+}

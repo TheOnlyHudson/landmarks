@@ -1,0 +1,19 @@
+{
+  "id": "mexico-city-unam-central-library",
+  "name": "Biblioteca Central UNAM",
+  "model": "mexico-city-unam-central-library",
+  "place": "mexico-city",
+  "lng": -99.187331,
+  "lat": 19.3334,
+  "bearing": 354,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/437171951",
+    "way/1173176555",
+    "way/1173176556",
+    "way/1173176557",
+    "way/1173176558"
+  ],
+  "wikidata": "Q5061367"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cpt-green-point-lighthouse",
+  "name": "Green Point Lighthouse",
+  "model": "cpt-green-point-lighthouse",
+  "place": "cape-town",
+  "lng": 18.3999212,
+  "lat": -33.9014222,
+  "bearing": 55.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/134572381"
+  ],
+  "wikidata": "Q3642248"
+}

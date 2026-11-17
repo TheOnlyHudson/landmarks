@@ -1,0 +1,15 @@
+{
+  "id": "phl-xfinity-mobile-arena",
+  "name": "Xfinity Mobile Arena",
+  "model": "phl-xfinity-mobile-arena",
+  "place": "philadelphia-area",
+  "lng": -75.171919,
+  "lat": 39.901166,
+  "bearing": 9,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q818735",
+  "replaces": [
+    "way/25312366"
+  ]
+}

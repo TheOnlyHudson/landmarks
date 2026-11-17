@@ -1,0 +1,12 @@
+{
+  "id": "nyc-tsx-broadway-screen",
+  "name": "TSX Broadway Screen",
+  "model": "nyc-tsx-broadway-screen",
+  "place": "times-square",
+  "lng": -73.984604,
+  "lat": 40.758994,
+  "bearing": 29,
+  "elevation": 7.8,
+  "minzoom": 16,
+  "replaces": []
+}

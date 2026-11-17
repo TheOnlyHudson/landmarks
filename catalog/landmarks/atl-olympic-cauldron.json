@@ -1,0 +1,15 @@
+{
+  "id": "atl-olympic-cauldron",
+  "name": "1996 Olympic Cauldron",
+  "model": "atl-olympic-cauldron",
+  "place": "atlanta-area",
+  "lng": -84.388095,
+  "lat": 33.741641,
+  "bearing": 48,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/260646639",
+    "way/536777369"
+  ]
+}

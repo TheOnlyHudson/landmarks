@@ -1,0 +1,24 @@
+{
+  "id": "seoul-63-building",
+  "name": "63 Building",
+  "model": "seoul-63-building",
+  "place": "seoul",
+  "lng": 126.940251,
+  "lat": 37.519849,
+  "bearing": 51.8,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/64989671",
+    "way/463188395",
+    "way/463188396",
+    "way/463188397",
+    "way/463384207",
+    "way/463384208",
+    "way/463384209",
+    "way/385228664",
+    "way/463613650",
+    "way/463613651",
+    "way/463613652"
+  ]
+}

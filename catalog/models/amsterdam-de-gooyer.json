@@ -1,0 +1,73 @@
+{
+  "id": "amsterdam-de-gooyer",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "windmill",
+    "historic",
+    "rijksmonument"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Amsterdam De Gooyer 06.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_De_Gooyer_06.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amsterdam De Gooyer 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_De_Gooyer_03.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "De Gooyer, Amsterdam 20180702.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:De_Gooyer,_Amsterdam_20180702.jpg",
+      "author": "Suicasmo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "De Gooyer Windmill.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:De_Gooyer_Windmill.jpg",
+      "author": "Swimmerguy269",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "De Gooyer windmill AMS 12 2016 0436.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:De_Gooyer_windmill_AMS_12_2016_0436.jpg",
+      "author": "Mariordo (Mario Roberto Durán Ortiz)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "De Gooyer windmill AMS 12 2016 0474.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:De_Gooyer_windmill_AMS_12_2016_0474.jpg",
+      "author": "Mariordo (Mario Roberto Durán Ortiz)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "\"De Gooyer\" windmill @ Amsterdam (19010316813).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:%22De_Gooyer%22_windmill_@_Amsterdam_(19010316813).jpg",
+      "author": "Guilhem Vellut",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/amsterdam-de-gooyer.glb",
+  "source": "generators/amsterdam-de-gooyer.ts"
+}

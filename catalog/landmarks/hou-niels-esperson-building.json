@@ -1,0 +1,15 @@
+{
+  "id": "hou-niels-esperson-building",
+  "name": "Niels Esperson Building",
+  "model": "hou-niels-esperson-building",
+  "place": "houston-area",
+  "lng": -95.365085,
+  "lat": 29.758898,
+  "bearing": 34.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/510322923"
+  ],
+  "wikidata": "Q3341282"
+}

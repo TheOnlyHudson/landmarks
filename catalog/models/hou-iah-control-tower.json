@@ -1,0 +1,54 @@
+{
+  "id": "hou-iah-control-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "airport",
+    "control-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "KIAH Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:KIAH_Tower.jpg",
+      "author": "PSE02 at en.wikipedia",
+      "license": "Public domain"
+    },
+    {
+      "title": "Patio de operaciones y torre del control del IAH",
+      "url": "https://commons.wikimedia.org/wiki/File:Patio_de_operaciones_y_torre_del_control_del_IAH.jpg",
+      "author": "Oficial K",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bush Intercontinental Airport - Tower",
+      "url": "https://www.flickr.com/photos/12734746@N00/398750162",
+      "author": "hyku",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Air Traffic Control Tower, IAH 1901061509",
+      "url": "https://www.flickr.com/photos/32345848@N07/31899271857",
+      "author": "Patrick Feller",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/hou-iah-control-tower.glb",
+  "source": "generators/hou-iah-control-tower.ts"
+}

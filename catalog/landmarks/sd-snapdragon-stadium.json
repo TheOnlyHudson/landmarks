@@ -1,0 +1,15 @@
+{
+  "id": "sd-snapdragon-stadium",
+  "name": "Snapdragon Stadium",
+  "model": "sd-snapdragon-stadium",
+  "place": "san-diego-area",
+  "lng": -117.12244,
+  "lat": 32.78422,
+  "bearing": 7,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q100272042",
+  "replaces": [
+    "relation/14552060"
+  ]
+}

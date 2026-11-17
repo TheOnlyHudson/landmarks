@@ -1,0 +1,16 @@
+{
+  "id": "mexico-city-chapultepec-castle",
+  "name": "Chapultepec Castle",
+  "model": "mexico-city-chapultepec-castle",
+  "place": "mexico-city",
+  "lng": -99.1818705,
+  "lat": 19.4204881,
+  "bearing": 339.7,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1072510",
+  "replaces": [
+    "relation/17314437",
+    "way/1191952512"
+  ]
+}

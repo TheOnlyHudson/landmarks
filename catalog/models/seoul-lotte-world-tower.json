@@ -1,0 +1,86 @@
+{
+  "id": "seoul-lotte-world-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "supertall",
+    "observation-deck",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Lotte World day view 5",
+      "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_day_view_5.jpg",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Lotte World morning view 8",
+      "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_morning_view_8.jpg",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Lotte World Tower from Seongsu Bridge",
+      "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_Tower_from_Seongsu_Bridge.jpg",
+      "author": "Ox1997cow",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Lotte World Tower near Cheongdam Bridge 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_Tower_near_Cheongdam_Bridge_2022.jpg",
+      "author": "Ox1997cow",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Olympic Bridge and Lotte World Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Olympic_Bridge_and_Lotte_World_Tower.jpg",
+      "author": "lazy fri13th",
+      "license": "Public domain"
+    },
+    {
+      "title": "Han River and Lotte World Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Han_River_and_Lotte_World_Tower.jpg",
+      "author": "mauveine.kim",
+      "license": "CC0"
+    },
+    {
+      "title": "Lotte World Tower 09",
+      "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_Tower_09_(33435692451).jpg",
+      "author": "Republic of Korea (KOREA.NET)",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Lotte World Tower (3)",
+      "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_Tower_(3).jpg",
+      "author": "Шохбоз",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Lotte World Tower In Jamsil (night)",
+      "url": "https://commons.wikimedia.org/wiki/File:Lotte_World_Tower_In_Jamsil_(144738473).jpeg",
+      "author": "Jongjin Lee",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/seoul-lotte-world-tower.glb",
+  "source": "generators/seoul-lotte-world-tower.ts"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "nyc-1540-broadway-signs",
+  "name": "1540 Broadway Signs",
+  "model": "nyc-1540-broadway-signs",
+  "place": "times-square",
+  "lng": -73.9851818,
+  "lat": 40.7581793,
+  "bearing": 28.36,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

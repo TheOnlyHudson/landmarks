@@ -1,0 +1,13 @@
+{
+  "id": "chi-buckingham-fountain",
+  "name": "Buckingham Fountain",
+  "model": "chi-buckingham-fountain",
+  "lng": -87.618972,
+  "lat": 41.875802,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q158989",
+  "replaces": [],
+  "place": "chicago-area"
+}

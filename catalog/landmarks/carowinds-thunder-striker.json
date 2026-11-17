@@ -1,0 +1,25 @@
+{
+  "id": "carowinds-thunder-striker",
+  "name": "Thunder Striker",
+  "model": "carowinds-thunder-striker",
+  "lng": -80.9390471,
+  "lat": 35.1012365,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1671491",
+  "replaces": [
+    "way/239268383",
+    "way/669991776",
+    "way/890902047",
+    "way/890902049",
+    "way/890902050",
+    "way/890902046",
+    "way/890902048",
+    "way/890902052",
+    "way/890902053",
+    "way/890902045",
+    "way/890901418"
+  ],
+  "place": "carowinds"
+}

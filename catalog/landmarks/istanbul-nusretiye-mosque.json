@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-nusretiye-mosque",
+  "name": "Nusretiye Mosque",
+  "model": "istanbul-nusretiye-mosque",
+  "place": "istanbul",
+  "lng": 28.983152,
+  "lat": 41.027381,
+  "bearing": 146.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q614237",
+  "replaces": [
+    "way/498861882"
+  ]
+}

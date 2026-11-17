@@ -1,0 +1,15 @@
+{
+  "id": "atl-state-farm-arena",
+  "name": "State Farm Arena",
+  "model": "atl-state-farm-arena",
+  "place": "atlanta-area",
+  "lng": -84.396365,
+  "lat": 33.757234,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/25312494"
+  ],
+  "wikidata": "Q1123297"
+}

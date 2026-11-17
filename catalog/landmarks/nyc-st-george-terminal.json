@@ -1,0 +1,15 @@
+{
+  "id": "nyc-st-george-terminal",
+  "name": "St. George Ferry Terminal",
+  "model": "nyc-st-george-terminal",
+  "place": "new-york-area",
+  "lng": -74.0727943,
+  "lat": 40.6441873,
+  "bearing": 56,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5927015",
+  "replaces": [
+    "way/241853804"
+  ]
+}

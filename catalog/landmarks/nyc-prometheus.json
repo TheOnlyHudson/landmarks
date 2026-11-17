@@ -1,0 +1,13 @@
+{
+  "id": "nyc-prometheus",
+  "name": "Prometheus",
+  "model": "nyc-prometheus",
+  "place": "new-york-area",
+  "lng": -73.978578,
+  "lat": 40.758705,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "wikidata": "Q17182277"
+}

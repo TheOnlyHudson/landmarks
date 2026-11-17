@@ -1,0 +1,29 @@
+{
+  "id": "atl-1180-peachtree",
+  "name": "1180 Peachtree",
+  "model": "atl-1180-peachtree",
+  "place": "atlanta-area",
+  "lng": -84.38416,
+  "lat": 33.786925,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/885660351",
+    "way/1451518608",
+    "way/1451518603",
+    "way/1451518604",
+    "way/885660381",
+    "way/885660360",
+    "way/1424485361",
+    "way/1424485362",
+    "way/1424485363",
+    "way/1424485364",
+    "way/1451133448",
+    "way/1451133449",
+    "way/1451518605",
+    "way/1451518606",
+    "way/1451518607"
+  ],
+  "wikidata": "Q1960906"
+}

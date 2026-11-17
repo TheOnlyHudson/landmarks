@@ -1,0 +1,13 @@
+{
+  "id": "nyc-uss-maine-monument",
+  "name": "USS Maine National Monument",
+  "model": "nyc-uss-maine-monument",
+  "lng": -73.980975,
+  "lat": 40.768238,
+  "bearing": 76,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q17198579",
+  "replaces": [],
+  "place": "new-york-area"
+}

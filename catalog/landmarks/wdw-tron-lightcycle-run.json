@@ -1,0 +1,18 @@
+{
+  "id": "wdw-tron-lightcycle-run",
+  "name": "TRON Lightcycle / Run",
+  "model": "wdw-tron-lightcycle-run",
+  "lng": -81.5771401,
+  "lat": 28.4203863,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q123594444",
+  "replaces": [
+    "way/804994339",
+    "way/1089770163",
+    "way/1283031001",
+    "way/1283031000"
+  ],
+  "place": "walt-disney-world"
+}

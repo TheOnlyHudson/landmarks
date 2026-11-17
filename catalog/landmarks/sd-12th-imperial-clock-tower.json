@@ -1,0 +1,14 @@
+{
+  "id": "sd-12th-imperial-clock-tower",
+  "name": "12th & Imperial Transit Center Clock Tower",
+  "model": "sd-12th-imperial-clock-tower",
+  "place": "san-diego-area",
+  "lng": -117.1537224,
+  "lat": 32.7060156,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/613166333"
+  ]
+}

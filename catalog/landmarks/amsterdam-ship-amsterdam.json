@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-ship-amsterdam",
+  "name": "Replica ship Amsterdam",
+  "model": "amsterdam-ship-amsterdam",
+  "place": "amsterdam",
+  "lng": 4.914232,
+  "lat": 52.372342,
+  "bearing": 3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/324827054"
+  ],
+  "wikidata": "Q478353"
+}

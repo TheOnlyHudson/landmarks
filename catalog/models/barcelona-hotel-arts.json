@@ -1,0 +1,61 @@
+{
+  "id": "barcelona-hotel-arts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "hotel",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hotel Arts i Torre Mapfre des del mar.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hotel_Arts_i_Torre_Mapfre_des_del_mar.jpg",
+      "author": "Jordiferrer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Barcelona - Hotel Arts y Torre Mapre 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Hotel_Arts_y_Torre_Mapre_01.jpg",
+      "author": "Zarateman",
+      "license": "CC0"
+    },
+    {
+      "title": "Hotel Arts.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hotel_Arts.jpg",
+      "author": "Borkur Sigurbjornsson from Barcelona",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Barcelona - Hotel Arts 09.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Hotel_Arts_09.jpg",
+      "author": "Zarateman",
+      "license": "CC0"
+    },
+    {
+      "title": "242 Port Olímpic de Barcelona, Hotel Arts i Torre Mapfre, des del moll de Xaloc.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:242_Port_Ol%C3%ADmpic_de_Barcelona,_Hotel_Arts_i_Torre_Mapfre,_des_del_moll_de_Xaloc.jpg",
+      "author": "Enric",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/barcelona-hotel-arts.glb",
+  "source": "generators/barcelona-hotel-arts.ts"
+}

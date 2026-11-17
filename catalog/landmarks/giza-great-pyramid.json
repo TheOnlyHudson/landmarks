@@ -1,0 +1,15 @@
+{
+  "id": "giza-great-pyramid",
+  "name": "Great Pyramid of Giza",
+  "model": "giza-great-pyramid",
+  "lng": 31.1342199,
+  "lat": 29.9793725,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q37200",
+  "replaces": [
+    "way/4420397"
+  ],
+  "place": "giza"
+}

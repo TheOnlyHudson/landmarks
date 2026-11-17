@@ -1,0 +1,17 @@
+{
+  "id": "dlr-haunted-mansion",
+  "name": "The Haunted Mansion",
+  "model": "dlr-haunted-mansion",
+  "lng": -117.9221698,
+  "lat": 33.8117211,
+  "bearing": 327,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2030983",
+  "replaces": [
+    "way/178238274",
+    "way/122193484",
+    "way/122193472"
+  ],
+  "place": "disneyland"
+}

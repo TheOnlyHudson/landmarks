@@ -1,0 +1,15 @@
+{
+  "id": "phl-museum-of-art",
+  "name": "Philadelphia Museum of Art",
+  "model": "phl-museum-of-art",
+  "place": "philadelphia-area",
+  "lng": -75.18106,
+  "lat": 39.96568,
+  "bearing": 43.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q510324",
+  "replaces": [
+    "way/28533972"
+  ]
+}

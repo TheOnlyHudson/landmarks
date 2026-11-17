@@ -1,0 +1,13 @@
+{
+  "id": "nyc-soarin-eagle",
+  "name": "Soarin' Eagle",
+  "model": "nyc-soarin-eagle",
+  "place": "new-york-area",
+  "lng": -73.9805793,
+  "lat": 40.5737903,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q7549857",
+  "replaces": []
+}

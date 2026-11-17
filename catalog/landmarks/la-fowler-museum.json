@@ -1,0 +1,15 @@
+{
+  "id": "la-fowler-museum",
+  "name": "Fowler Museum",
+  "model": "la-fowler-museum",
+  "place": "ucla",
+  "lng": -118.443193,
+  "lat": 34.072951,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/6287586"
+  ],
+  "wikidata": "Q7864026"
+}

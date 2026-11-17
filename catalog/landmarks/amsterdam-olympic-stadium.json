@@ -1,0 +1,19 @@
+{
+  "id": "amsterdam-olympic-stadium",
+  "name": "Olympisch Stadion",
+  "model": "amsterdam-olympic-stadium",
+  "place": "amsterdam",
+  "lng": 4.85408,
+  "lat": 52.343488,
+  "bearing": 346.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/898908",
+    "way/126786236",
+    "way/126786371",
+    "way/338974687",
+    "way/98662844"
+  ],
+  "wikidata": "Q503319"
+}

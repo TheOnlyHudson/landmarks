@@ -1,0 +1,19 @@
+{
+  "id": "phl-free-library-parkway",
+  "name": "Parkway Central Library",
+  "model": "phl-free-library-parkway",
+  "place": "philadelphia-area",
+  "lng": -75.171018,
+  "lat": 39.959592,
+  "bearing": 9,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q48977201",
+  "replaces": [
+    "way/32122450",
+    "way/343581381",
+    "way/349397345",
+    "way/349876639",
+    "way/349876640"
+  ]
+}

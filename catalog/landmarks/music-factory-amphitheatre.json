@@ -1,0 +1,14 @@
+{
+  "id": "music-factory-amphitheatre",
+  "name": "Skyla Credit Union Amphitheatre",
+  "model": "music-factory-amphitheatre",
+  "lng": -80.8450652,
+  "lat": 35.2397754,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1202433678"
+  ],
+  "place": "charlotte-area"
+}

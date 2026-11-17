@@ -1,0 +1,14 @@
+{
+  "id": "sd-san-ysidro-ped-west",
+  "name": "San Ysidro Port of Entry, PedWest",
+  "model": "sd-san-ysidro-ped-west",
+  "place": "san-diego-area",
+  "lng": -117.03604,
+  "lat": 32.5423361,
+  "bearing": 354.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/438083299"
+  ]
+}

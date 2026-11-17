@@ -41,6 +41,7 @@ import { basename, join } from 'node:path'
 import { DEFAULT_MIN_ZOOM, creditsFor, licenseFor, validateCatalog, type Catalog, type CatalogLandmark, type CatalogModel, type Credit, type Place, type ModelType, type Reference } from './catalog'
 import { bakePlacement, glbBounds, invertedFaces, triangleCount } from './glb'
 import { inspectGlb, type ModelInfo } from './model-info'
+import { readCatalog } from './catalog-files'
 
 export const SCHEMA_VERSION = 1
 export const AXES = 'X east / Y up / Z south'
@@ -195,7 +196,7 @@ export function checkCatalog(root: string, catalog: Catalog, readFile?: ReadFile
  * Build the release for the catalog at `root`. Throws a CatalogError listing
  * every problem rather than publishing a partial release.
  */
-export function buildRelease(root: string, catalog: Catalog = JSON.parse(readFileSync(join(root, 'catalog.json'), 'utf8')), readFile: ReadFile = file => new Uint8Array(readFileSync(join(root, file)))): Release {
+export function buildRelease(root: string, catalog: Catalog = readCatalog(root), readFile: ReadFile = file => new Uint8Array(readFileSync(join(root, file)))): Release {
   const problems = checkCatalog(root, catalog, readFile)
   if (problems.length) throw new CatalogError(problems)
 

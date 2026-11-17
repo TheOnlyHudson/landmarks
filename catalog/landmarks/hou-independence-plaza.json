@@ -1,0 +1,16 @@
+{
+  "id": "hou-independence-plaza",
+  "name": "Independence Plaza",
+  "model": "hou-independence-plaza",
+  "place": "houston-area",
+  "lng": -95.09721,
+  "lat": 29.552121,
+  "bearing": 187.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q994165",
+  "replaces": [
+    "way/894077621",
+    "way/894077622"
+  ]
+}

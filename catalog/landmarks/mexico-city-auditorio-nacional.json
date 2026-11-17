@@ -1,0 +1,16 @@
+{
+  "id": "mexico-city-auditorio-nacional",
+  "name": "Auditorio Nacional",
+  "model": "mexico-city-auditorio-nacional",
+  "place": "mexico-city",
+  "lng": -99.19484,
+  "lat": 19.4248059,
+  "bearing": 352.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/30373468",
+    "way/1279187823"
+  ],
+  "wikidata": "Q286179"
+}

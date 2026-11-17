@@ -1,0 +1,63 @@
+{
+  "id": "istanbul-kilic-ali-pasha-mosque",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "mosque",
+    "ottoman",
+    "mimar-sinan",
+    "historic",
+    "religious"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Kılıç Ali Paşa Camii",
+      "url": "https://commons.wikimedia.org/wiki/File:K%C4%B1l%C4%B1%C3%A7_Ali_Pa%C5%9Fa_Camii.jpg",
+      "author": "Alicembasli",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kilic Ali Pasha Mosque DSCF5119",
+      "url": "https://commons.wikimedia.org/wiki/File:Kilic_Ali_Pasha_Mosque_DSCF5119.jpg",
+      "author": "R Prazeres",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Istanbul, moschea di Kılıç Ali Pasha, di sinan, 1580-87, esterno 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Istanbul,_moschea_di_K%C4%B1l%C4%B1%C3%A7_Ali_Pasha,_di_sinan,_1580-87,_esterno_01.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kilic Ali Pasha Mosque 8462b",
+      "url": "https://commons.wikimedia.org/wiki/File:Kilic_Ali_Pasha_Mosque_8462b.jpg",
+      "author": "Dosseman",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kılıç Ali Pasha Complex",
+      "url": "https://commons.wikimedia.org/wiki/File:K%C4%B1l%C4%B1%C3%A7_Ali_Pasha_Complex.jpg",
+      "author": "Metuboy",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/istanbul-kilic-ali-pasha-mosque.glb",
+  "source": "generators/istanbul-kilic-ali-pasha-mosque.ts"
+}

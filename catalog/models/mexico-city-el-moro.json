@@ -1,0 +1,74 @@
+{
+  "id": "mexico-city-el-moro",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "art-deco",
+    "office",
+    "tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Edificio El Moro 2010.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Edificio_El_Moro_2010.JPG",
+      "author": "Felipe Alfonso Castillo Vazquez",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "El Moro Building.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:El_Moro_Building.jpg",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vista aérea del Edificio Moro 05.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Edificio_Moro_05.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vista aérea del Edificio Moro 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Edificio_Moro_03.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vista aérea del Edificio Moro 08.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Edificio_Moro_08.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vista aérea del Edificio Moro 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Edificio_Moro_01.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Edificio de la Lotería Nacional.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Edificio_de_la_Loter%C3%ADa_Nacional.JPG",
+      "author": "Luis Lemus",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/mexico-city-el-moro.glb",
+  "source": "generators/mexico-city-el-moro.ts"
+}

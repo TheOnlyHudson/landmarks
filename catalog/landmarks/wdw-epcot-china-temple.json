@@ -1,0 +1,15 @@
+{
+  "id": "wdw-epcot-china-temple",
+  "name": "Temple of Heaven (China, EPCOT)",
+  "model": "wdw-epcot-china-temple",
+  "lng": -81.5463174,
+  "lat": 28.3697663,
+  "bearing": 286,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2681898",
+  "replaces": [
+    "way/383670241"
+  ],
+  "place": "walt-disney-world"
+}

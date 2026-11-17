@@ -1,0 +1,18 @@
+{
+  "id": "la-queen-mary",
+  "name": "RMS Queen Mary",
+  "model": "la-queen-mary",
+  "lng": -118.1897081,
+  "lat": 33.7528576,
+  "bearing": 293.7,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q752939",
+  "replaces": [
+    "way/438331516",
+    "way/439768915",
+    "way/439768916",
+    "way/439768917"
+  ],
+  "place": "los-angeles-area"
+}

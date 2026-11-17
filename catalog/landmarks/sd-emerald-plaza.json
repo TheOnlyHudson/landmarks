@@ -1,0 +1,23 @@
+{
+  "id": "sd-emerald-plaza",
+  "name": "Emerald Plaza",
+  "model": "sd-emerald-plaza",
+  "place": "san-diego-area",
+  "lng": -117.16695,
+  "lat": 32.71626,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/498796492",
+    "way/305926737",
+    "way/305926738",
+    "way/305926739",
+    "way/305926740",
+    "way/305926741",
+    "way/305926742",
+    "way/305926743",
+    "way/305927637",
+    "way/608703250"
+  ]
+}

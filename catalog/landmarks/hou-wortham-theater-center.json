@@ -1,0 +1,15 @@
+{
+  "id": "hou-wortham-theater-center",
+  "name": "Wortham Theater Center",
+  "model": "hou-wortham-theater-center",
+  "place": "houston-area",
+  "lng": -95.3656831,
+  "lat": 29.7633673,
+  "bearing": 34.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q8037195",
+  "replaces": [
+    "way/54044832"
+  ]
+}

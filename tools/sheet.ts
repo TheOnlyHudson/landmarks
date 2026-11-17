@@ -23,6 +23,7 @@ import sharp, { type OverlayOptions } from 'sharp'
 import type { Catalog, CatalogLandmark } from '../src/catalog'
 import { bakePlacement, triangleCount } from '../src/glb'
 import { BACKGROUND, NIGHT_BACKGROUND, loadScene, render, type Bitmap, type Scene } from './render'
+import { catalogAt, readCatalog } from '../src/catalog-files'
 
 const ROOT = join(import.meta.dir, '..')
 const args = process.argv.slice(2)
@@ -35,7 +36,7 @@ const option = (name: string, fallback: string) => {
 const out = resolve(option('--out', join(ROOT, 'preview/sheets')))
 const per = Math.max(1, Number(option('--per', '8')))
 const fromArg = option('--from', '')
-const catalog = JSON.parse(readFileSync(join(ROOT, 'catalog.json'), 'utf8')) as Catalog
+const catalog = readCatalog(ROOT)
 
 function git(...cmd: string[]): string {
   const r = Bun.spawnSync(['git', ...cmd], { cwd: ROOT })
@@ -52,7 +53,7 @@ function branchDiff(base: string): CatalogLandmark[] {
   ].filter(Boolean))
   const before = (() => {
     try {
-      return JSON.parse(git('show', `${since}:catalog.json`)) as Catalog
+      return catalogAt(ROOT, since) ?? ({ models: [], landmarks: [] } as Catalog)
     } catch {
       return { models: [], landmarks: [] } as Catalog
     }

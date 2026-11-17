@@ -1,0 +1,19 @@
+{
+  "id": "amsterdam-portuguese-synagogue",
+  "name": "Portuguese Synagogue",
+  "model": "amsterdam-portuguese-synagogue",
+  "place": "amsterdam",
+  "lng": 4.905338,
+  "lat": 52.367536,
+  "bearing": 28.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/57861363",
+    "way/268783384",
+    "way/268783311",
+    "way/268783350",
+    "way/268783415"
+  ],
+  "wikidata": "Q1853707"
+}

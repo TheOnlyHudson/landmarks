@@ -1,0 +1,21 @@
+{
+  "id": "dal-new-texas-giant",
+  "name": "New Texas Giant",
+  "model": "dal-new-texas-giant",
+  "place": "six-flags-over-texas",
+  "lng": -97.0729239,
+  "lat": 32.7570031,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1353100",
+  "replaces": [
+    "way/104655707",
+    "way/603559513",
+    "way/603559514",
+    "way/104655706",
+    "way/603559507",
+    "way/603559508",
+    "way/104655708"
+  ]
+}

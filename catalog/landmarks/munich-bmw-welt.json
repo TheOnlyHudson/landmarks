@@ -1,0 +1,21 @@
+{
+  "id": "munich-bmw-welt",
+  "name": "BMW Welt",
+  "model": "munich-bmw-welt",
+  "place": "munich",
+  "lng": 11.5563861,
+  "lat": 48.1772239,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/15804929",
+    "way/307305449",
+    "way/307330230",
+    "way/307345439",
+    "way/307479203",
+    "way/307627834",
+    "way/307634074",
+    "way/617633780"
+  ]
+}

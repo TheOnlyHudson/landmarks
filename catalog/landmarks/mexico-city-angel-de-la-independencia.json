@@ -1,0 +1,16 @@
+{
+  "id": "mexico-city-angel-de-la-independencia",
+  "name": "Ángel de la Independencia",
+  "model": "mexico-city-angel-de-la-independencia",
+  "place": "mexico-city",
+  "lng": -99.1676677,
+  "lat": 19.4270037,
+  "bearing": 65.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/19438330",
+    "way/176477230"
+  ],
+  "wikidata": "Q928541"
+}

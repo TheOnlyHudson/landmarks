@@ -1,0 +1,13 @@
+{
+  "id": "istanbul-taksim-republic-monument",
+  "name": "Republic Monument",
+  "model": "istanbul-taksim-republic-monument",
+  "place": "istanbul",
+  "lng": 28.985118,
+  "lat": 41.036999,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1143790",
+  "replaces": []
+}

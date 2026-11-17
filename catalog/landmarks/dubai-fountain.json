@@ -1,0 +1,13 @@
+{
+  "id": "dubai-fountain",
+  "name": "The Dubai Fountain",
+  "model": "dubai-fountain",
+  "place": "dubai",
+  "lng": 55.2756455,
+  "lat": 25.1954088,
+  "bearing": 63.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [],
+  "wikidata": "Q2384491"
+}

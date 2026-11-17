@@ -1,0 +1,63 @@
+{
+  "id": "mexico-city-monumento-a-la-revolucion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "art-deco",
+    "arch",
+    "dome",
+    "mausoleum"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Monumento a la revolución2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_revoluci%C3%B3n2017.jpg",
+      "author": "Carlos Valenzuela",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Monumento a la Revolución 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_1.jpg",
+      "author": "Haakon S. Krohn",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Monumento a la Revolución Mexico.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_Mexico.jpg",
+      "author": "ismael villafranco",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Monumento a la Revolución 2012.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_2012.JPG",
+      "author": "Nviascan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Monumento a la Revolución CDMX 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_CDMX_1.jpg",
+      "author": "Luis Alvaz",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/mexico-city-monumento-a-la-revolucion.glb",
+  "source": "generators/mexico-city-monumento-a-la-revolucion.ts"
+}

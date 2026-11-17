@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-little-hagia-sophia",
+  "name": "Little Hagia Sophia",
+  "model": "istanbul-little-hagia-sophia",
+  "place": "istanbul",
+  "lng": 28.972207,
+  "lat": 41.002744,
+  "bearing": 20,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1144576",
+  "replaces": [
+    "way/303179753"
+  ]
+}

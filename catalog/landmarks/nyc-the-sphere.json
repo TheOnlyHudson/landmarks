@@ -1,0 +1,13 @@
+{
+  "id": "nyc-the-sphere",
+  "name": "The Sphere",
+  "model": "nyc-the-sphere",
+  "place": "new-york-area",
+  "lng": -74.013889,
+  "lat": 40.710497,
+  "bearing": 0,
+  "elevation": 7,
+  "minzoom": 16,
+  "replaces": [],
+  "wikidata": "Q2164298"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "phl-girard-college-founders-hall",
+  "name": "Founder's Hall, Girard College",
+  "model": "phl-girard-college-founders-hall",
+  "place": "philadelphia-area",
+  "lng": -75.170093,
+  "lat": 39.974061,
+  "bearing": 9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/49891387"
+  ]
+}

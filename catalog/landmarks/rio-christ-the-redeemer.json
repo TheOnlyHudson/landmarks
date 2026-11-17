@@ -1,0 +1,13 @@
+{
+  "id": "rio-christ-the-redeemer",
+  "name": "Christ the Redeemer",
+  "model": "rio-christ-the-redeemer",
+  "lng": -43.2104585,
+  "lat": -22.9519173,
+  "bearing": 84,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q79961",
+  "replaces": [],
+  "place": "rio-de-janeiro"
+}

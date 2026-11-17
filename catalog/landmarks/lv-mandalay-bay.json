@@ -1,0 +1,16 @@
+{
+  "id": "lv-mandalay-bay",
+  "name": "Mandalay Bay",
+  "model": "lv-mandalay-bay",
+  "lng": -115.174814,
+  "lat": 36.091804,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1368043",
+  "replaces": [
+    "way/27858550",
+    "way/118347176"
+  ],
+  "place": "las-vegas-area"
+}

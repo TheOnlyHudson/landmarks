@@ -1,0 +1,15 @@
+{
+  "id": "giza-pyramid-of-khafre",
+  "name": "Pyramid of Khafre",
+  "model": "giza-pyramid-of-khafre",
+  "lng": 31.1303453,
+  "lat": 29.9759933,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q208358",
+  "replaces": [
+    "way/4420396"
+  ],
+  "place": "giza"
+}

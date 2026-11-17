@@ -1,0 +1,18 @@
+{
+  "id": "sf-davies-symphony-hall",
+  "name": "Louise M. Davies Symphony Hall",
+  "model": "sf-davies-symphony-hall",
+  "lng": -122.4205864,
+  "lat": 37.7776139,
+  "bearing": 350.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6688842",
+  "replaces": [
+    "way/32865746",
+    "way/679356534",
+    "way/679356535",
+    "way/679356536"
+  ],
+  "place": "san-francisco-bay-area"
+}

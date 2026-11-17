@@ -1,0 +1,12 @@
+{
+  "id": "nyc-1500-broadway-signs",
+  "name": "1500 Broadway Signs (Times Square Studios)",
+  "model": "nyc-1500-broadway-signs",
+  "place": "times-square",
+  "lng": -73.9858711,
+  "lat": 40.7568613,
+  "bearing": 16.51,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

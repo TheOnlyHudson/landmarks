@@ -1,0 +1,15 @@
+{
+  "id": "london-centre-point",
+  "name": "Centre Point",
+  "model": "london-centre-point",
+  "place": "london",
+  "lng": -0.1297371,
+  "lat": 51.5161858,
+  "bearing": 346.7,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q2339039",
+  "replaces": [
+    "way/41117907"
+  ]
+}

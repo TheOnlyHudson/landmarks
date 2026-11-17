@@ -1,0 +1,15 @@
+{
+  "id": "new-york-hall-of-science",
+  "name": "New York Hall of Science",
+  "model": "new-york-hall-of-science",
+  "lng": -73.8516846,
+  "lat": 40.7472904,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q2306200",
+  "replaces": [
+    "way/284860788"
+  ],
+  "place": "new-york-area"
+}

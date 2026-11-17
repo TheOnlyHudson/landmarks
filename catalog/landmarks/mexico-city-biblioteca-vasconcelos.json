@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-biblioteca-vasconcelos",
+  "name": "Biblioteca Vasconcelos",
+  "model": "mexico-city-biblioteca-vasconcelos",
+  "place": "mexico-city",
+  "lng": -99.1508078,
+  "lat": 19.4474232,
+  "bearing": 2.25,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/153883455"
+  ],
+  "wikidata": "Q6294156"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "atl-swan-house",
+  "name": "Swan House",
+  "model": "atl-swan-house",
+  "place": "atlanta-area",
+  "lng": -84.3875494,
+  "lat": 33.8404422,
+  "bearing": 31,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/267926896"
+  ],
+  "wikidata": "Q3506419"
+}

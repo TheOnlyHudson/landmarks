@@ -1,0 +1,22 @@
+{
+  "id": "istanbul-maidens-tower",
+  "name": "Maiden's Tower",
+  "model": "istanbul-maidens-tower",
+  "place": "istanbul",
+  "lng": 29.004117,
+  "lat": 41.021088,
+  "bearing": 351,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q848397",
+  "replaces": [
+    "way/103821246",
+    "relation/4429796",
+    "way/103821245",
+    "way/398210642",
+    "way/398210643",
+    "way/398219280",
+    "way/398303494",
+    "way/398303919"
+  ]
+}

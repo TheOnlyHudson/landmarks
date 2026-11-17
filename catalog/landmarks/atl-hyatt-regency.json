@@ -1,0 +1,15 @@
+{
+  "id": "atl-hyatt-regency",
+  "name": "Hyatt Regency Atlanta",
+  "model": "atl-hyatt-regency",
+  "place": "atlanta-area",
+  "lng": -84.386805,
+  "lat": 33.76159,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/39448958",
+    "way/536754033"
+  ]
+}

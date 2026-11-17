@@ -1,0 +1,23 @@
+{
+  "id": "nyc-deutsche-bank-center",
+  "name": "Deutsche Bank Center",
+  "model": "nyc-deutsche-bank-center",
+  "lng": -73.982817,
+  "lat": 40.768278,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q842578",
+  "replaces": [
+    "way/167923911",
+    "way/183199498",
+    "way/183199499",
+    "way/183199500",
+    "way/183199501",
+    "way/183199502",
+    "way/183199503",
+    "way/183199504",
+    "way/183199505"
+  ],
+  "place": "new-york-area"
+}

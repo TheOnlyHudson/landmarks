@@ -1,0 +1,15 @@
+{
+  "id": "bos-paul-revere-house",
+  "name": "Paul Revere House",
+  "model": "bos-paul-revere-house",
+  "place": "boston-area",
+  "lng": -71.05369,
+  "lat": 42.3637345,
+  "bearing": 292,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2061878",
+  "replaces": [
+    "way/240376785"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "bos-old-north-church",
+  "name": "Old North Church",
+  "model": "bos-old-north-church",
+  "place": "boston-area",
+  "lng": -71.054457,
+  "lat": 42.3663199,
+  "bearing": 30,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1321240",
+  "replaces": [
+    "way/29650592",
+    "way/240382943",
+    "way/240382944",
+    "way/240382950",
+    "way/240382953",
+    "way/240382958",
+    "way/240395586",
+    "way/240544068",
+    "way/240544069",
+    "way/240544070",
+    "way/240545288",
+    "way/240545289",
+    "way/240545290",
+    "way/240545291",
+    "way/240545292",
+    "way/240545293",
+    "way/240545294",
+    "way/240545295"
+  ]
+}

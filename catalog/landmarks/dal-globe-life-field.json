@@ -1,0 +1,15 @@
+{
+  "id": "dal-globe-life-field",
+  "name": "Globe Life Field",
+  "model": "dal-globe-life-field",
+  "place": "dallas-area",
+  "lng": -97.084199,
+  "lat": 32.747465,
+  "bearing": 0,
+  "elevation": -15.2,
+  "minzoom": 14,
+  "wikidata": "Q24284037",
+  "replaces": [
+    "way/704674261"
+  ]
+}

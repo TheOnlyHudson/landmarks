@@ -1,0 +1,15 @@
+{
+  "id": "sf-bay-bridge-west-w3",
+  "name": "Bay Bridge west span (tower W3)",
+  "model": "sf-bay-bridge-west-inner",
+  "lng": -122.3806476,
+  "lat": 37.795588,
+  "bearing": 40.4,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q130699957",
+  "replaces": [
+    "way/432712477"
+  ],
+  "place": "san-francisco-bay-area"
+}

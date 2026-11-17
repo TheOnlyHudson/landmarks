@@ -1,0 +1,15 @@
+{
+  "id": "nyc-jfk-terminal-4",
+  "name": "JFK Airport Terminal 4",
+  "model": "nyc-jfk-terminal-4",
+  "place": "new-york-area",
+  "lng": -73.7813875,
+  "lat": 40.6421766,
+  "bearing": -29.2,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/284907688"
+  ],
+  "wikidata": "Q55855382"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "seoul-sungnyemun",
+  "name": "Sungnyemun",
+  "model": "seoul-sungnyemun",
+  "place": "seoul",
+  "lng": 126.9753602,
+  "lat": 37.559988,
+  "bearing": 41.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/10647050",
+    "relation/10647048",
+    "relation/10647049",
+    "way/767663123",
+    "way/767663127",
+    "way/767663128"
+  ],
+  "wikidata": "Q465345"
+}

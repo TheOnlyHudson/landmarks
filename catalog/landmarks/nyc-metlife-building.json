@@ -1,0 +1,22 @@
+{
+  "id": "nyc-metlife-building",
+  "name": "MetLife Building",
+  "model": "nyc-metlife-building",
+  "lng": -73.976653,
+  "lat": 40.7535134,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q464482",
+  "replaces": [
+    "way/137564642",
+    "way/137564641",
+    "way/137565295",
+    "way/1487962789",
+    "way/1487962790",
+    "way/1487962791",
+    "way/1487962792",
+    "way/1487962793"
+  ],
+  "place": "new-york-area"
+}

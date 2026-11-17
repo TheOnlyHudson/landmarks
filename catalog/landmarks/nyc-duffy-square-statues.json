@@ -1,0 +1,12 @@
+{
+  "id": "nyc-duffy-square-statues",
+  "name": "Father Duffy and George M. Cohan Statues",
+  "model": "nyc-duffy-square-statues",
+  "place": "times-square",
+  "lng": -73.9850675,
+  "lat": 40.758908,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 17,
+  "replaces": []
+}

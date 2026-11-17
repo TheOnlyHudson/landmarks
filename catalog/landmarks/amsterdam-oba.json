@@ -1,0 +1,27 @@
+{
+  "id": "amsterdam-oba",
+  "name": "OBA Oosterdok",
+  "model": "amsterdam-oba",
+  "place": "amsterdam",
+  "lng": 4.908236,
+  "lat": 52.376077,
+  "bearing": 8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q50413436",
+  "replaces": [
+    "way/779659694",
+    "way/240467636",
+    "way/1487606300",
+    "way/1487606301",
+    "way/1487606302",
+    "way/1487606304",
+    "way/1487606305",
+    "way/1487606306",
+    "way/1487606307",
+    "way/1487606308",
+    "way/1487606309",
+    "way/1487606310",
+    "way/1487606311"
+  ]
+}

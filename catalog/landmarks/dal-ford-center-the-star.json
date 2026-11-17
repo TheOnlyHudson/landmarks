@@ -1,0 +1,15 @@
+{
+  "id": "dal-ford-center-the-star",
+  "name": "Ford Center at The Star",
+  "model": "dal-ford-center-the-star",
+  "place": "dallas-area",
+  "lng": -96.828335,
+  "lat": 33.110625,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/518594979",
+    "way/1197569929"
+  ]
+}

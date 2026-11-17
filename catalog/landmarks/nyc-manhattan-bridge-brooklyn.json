@@ -1,0 +1,15 @@
+{
+  "id": "nyc-manhattan-bridge-brooklyn",
+  "name": "Manhattan Bridge (Brooklyn tower)",
+  "model": "nyc-manhattan-bridge",
+  "lng": -73.989436,
+  "lat": 40.7051153,
+  "bearing": 337,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q125050",
+  "replaces": [
+    "way/317352033"
+  ],
+  "place": "new-york-area"
+}

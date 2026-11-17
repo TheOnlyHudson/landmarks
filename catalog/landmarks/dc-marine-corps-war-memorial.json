@@ -1,0 +1,13 @@
+{
+  "id": "dc-marine-corps-war-memorial",
+  "name": "Marine Corps War Memorial",
+  "model": "dc-marine-corps-war-memorial",
+  "lng": -77.0697239,
+  "lat": 38.8904362,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1403946",
+  "replaces": [],
+  "place": "washington-area"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "dal-att-stadium",
+  "name": "AT&T Stadium",
+  "model": "dal-att-stadium",
+  "place": "dallas-area",
+  "lng": -97.092837,
+  "lat": 32.747842,
+  "bearing": 339,
+  "elevation": -15,
+  "minzoom": 13,
+  "wikidata": "Q838284",
+  "replaces": [
+    "way/47086748",
+    "way/126702663",
+    "way/126702664",
+    "way/126704934",
+    "way/126704935",
+    "way/126704936",
+    "way/126705089"
+  ]
+}

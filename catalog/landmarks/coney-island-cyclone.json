@@ -1,0 +1,18 @@
+{
+  "id": "coney-island-cyclone",
+  "name": "Coney Island Cyclone",
+  "model": "coney-island-cyclone",
+  "lng": -73.9777072,
+  "lat": 40.5745994,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q677558",
+  "replaces": [
+    "way/248496353",
+    "way/248496460",
+    "way/376073239",
+    "way/656566282"
+  ],
+  "place": "new-york-area"
+}

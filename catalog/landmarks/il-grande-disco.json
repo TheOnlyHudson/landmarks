@@ -1,0 +1,12 @@
+{
+  "id": "il-grande-disco",
+  "name": "Il Grande Disco",
+  "model": "il-grande-disco",
+  "lng": -80.8431653,
+  "lat": 35.2268965,
+  "bearing": 20,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "place": "charlotte-area"
+}

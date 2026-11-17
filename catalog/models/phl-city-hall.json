@@ -1,0 +1,105 @@
+{
+  "id": "phl-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "civic",
+    "second-empire",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q1138183",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Philadelphia City Hall, aerial view, cropped",
+      "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall,_aerial_view,_cropped.png",
+      "author": "Toniklemm",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Philadelphia city hall",
+      "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_city_hall.jpg",
+      "author": "Toniklemm",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Philadelphia City Hall, Tower (S Broad St View)",
+      "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall,_Tower(S_Broad_St_View).jpg",
+      "author": "Zhicheng Zhao",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Philadelphia City Hall South",
+      "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_South.jpg",
+      "author": "Magiluke",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Philadelphia City Hall Cloudy",
+      "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_Cloudy.jpg",
+      "author": "Nate Lee",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Philadelphia City Hall - 3",
+      "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_-_3.JPG",
+      "author": "Max Binder",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "City Hall and Masonic Temple, Philadelphia",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Hall_and_Masonic_Temple,_Philadelphia.jpg",
+      "author": "Peetlesnumber1",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "City Hall, Philadelphia PA",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Hall,_Philadelphia_PA.jpg",
+      "author": "John Phelan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Philadelphia City Hall courtyard",
+      "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_courtyard.jpg",
+      "author": "Nickvud",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Philadelphia City Hall at night",
+      "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_at_night.jpg",
+      "author": "David Torres",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Spectacular Philadelphia City Hall",
+      "url": "https://commons.wikimedia.org/wiki/File:Spectacular_Philadelphia_City_Hall.jpg",
+      "author": "Weizheng Fang",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "HABS PA-1530, The New Public Buildings (Philadelphia City Hall)",
+      "url": "https://www.loc.gov/item/pa1054/",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/phl-city-hall.glb",
+  "source": "generators/phl-city-hall.ts"
+}

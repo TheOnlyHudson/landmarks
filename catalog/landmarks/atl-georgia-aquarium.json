@@ -1,0 +1,16 @@
+{
+  "id": "atl-georgia-aquarium",
+  "name": "Georgia Aquarium",
+  "model": "atl-georgia-aquarium",
+  "place": "atlanta-area",
+  "lng": -84.394946,
+  "lat": 33.763237,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/28912103",
+    "way/1359126494"
+  ],
+  "wikidata": "Q1155919"
+}

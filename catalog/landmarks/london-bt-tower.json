@@ -1,0 +1,23 @@
+{
+  "id": "london-bt-tower",
+  "name": "BT Tower",
+  "model": "london-bt-tower",
+  "place": "london",
+  "lng": -0.1388019,
+  "lat": 51.5214431,
+  "bearing": 328,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q797085",
+  "replaces": [
+    "way/5022282",
+    "way/331901551",
+    "way/331901552",
+    "way/331903528",
+    "way/331903529",
+    "way/331903530",
+    "way/331903531",
+    "way/331901553",
+    "way/192156427"
+  ]
+}

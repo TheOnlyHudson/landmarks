@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-german-fountain",
+  "name": "German Fountain",
+  "model": "istanbul-german-fountain",
+  "place": "istanbul",
+  "lng": 28.976676,
+  "lat": 41.007113,
+  "bearing": 37.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q322920",
+  "replaces": [
+    "way/109874498"
+  ]
+}

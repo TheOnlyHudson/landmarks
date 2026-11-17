@@ -1,0 +1,15 @@
+{
+  "id": "atl-equitable-building",
+  "name": "Equitable Building",
+  "model": "atl-equitable-building",
+  "place": "atlanta-area",
+  "lng": -84.388606,
+  "lat": 33.756863,
+  "bearing": 49.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/1389861153"
+  ],
+  "wikidata": "Q5384613"
+}

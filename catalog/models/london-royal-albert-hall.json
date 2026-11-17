@@ -1,0 +1,69 @@
+{
+  "id": "london-royal-albert-hall",
+  "file": "models/london-royal-albert-hall.glb",
+  "source": "generators/london-royal-albert-hall.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "concert-hall",
+    "historic",
+    "victorian",
+    "dome",
+    "grade-i-listed"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Royal Albert Hall, London - Nov 2012",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Albert_Hall,_London_-_Nov_2012.jpg",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Royal Albert Hall Rear, London, England - Diliff",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Albert_Hall_Rear,_London,_England_-_Diliff.jpg",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "At Hyde Park 2023 036",
+      "url": "https://commons.wikimedia.org/wiki/File:At_Hyde_Park_2023_036.jpg",
+      "author": "Mike Peel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Royal Albert Hall, Londres, Inglaterra, 2022-11-25, DD 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Albert_Hall,_Londres,_Inglaterra,_2022-11-25,_DD_02.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Royal Albert Hall from the air (geograph 2624007)",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Albert_Hall_from_the_air_-_geograph.org.uk_-_2624007.jpg",
+      "author": "Thomas Nugent",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Kensington Museums aerial 2011 a",
+      "url": "https://commons.wikimedia.org/wiki/File:Kensington_Museums_aerial_2011_a.jpg",
+      "author": "Andreas Praefcke",
+      "license": "Public domain"
+    }
+  ]
+}

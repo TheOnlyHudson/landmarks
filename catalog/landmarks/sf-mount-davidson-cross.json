@@ -1,0 +1,13 @@
+{
+  "id": "sf-mount-davidson-cross",
+  "name": "Mount Davidson Cross",
+  "model": "sf-mount-davidson-cross",
+  "lng": -122.4547473,
+  "lat": 37.7383418,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q20508607",
+  "replaces": [],
+  "place": "san-francisco-bay-area"
+}

@@ -51,6 +51,7 @@ import type { Catalog } from '../src/catalog'
 // Parchment's own fill and coverage, so this mirrors the map exactly.
 import { fillAt, groundFill, type GroundFill } from './parchment/fill'
 import { planCoverage } from './parchment/landmark-coverage'
+import { readCatalog } from '../src/catalog-files'
 
 const ROOT = join(import.meta.dir, '..')
 const TILES = 'https://tiles.mapterhorn.com/{z}/{x}/{y}.webp'
@@ -224,7 +225,7 @@ async function check() {
   let file = what
   let place: Place = { lng: NaN, lat: NaN, bearing: 0, elevation: 0 }
   if (!what.endsWith('.glb')) {
-    const catalog = JSON.parse(readFileSync(join(ROOT, 'catalog.json'), 'utf8')) as Catalog
+    const catalog = readCatalog(ROOT)
     const placed: any = catalog.landmarks.find((l) => l.id === what) ?? catalog.landmarks.find((l) => l.model === what)
     const model = catalog.models.find((m) => m.id === (placed?.model ?? what))
     file = join(ROOT, model?.file ?? `models/${what}.glb`)
@@ -235,7 +236,7 @@ async function check() {
   if (bearingO) place.bearing = Number(bearingO)
   if (elevationO) place.elevation = Number(elevationO)
   if (!Number.isFinite(place.lng) || !Number.isFinite(place.lat)) {
-    console.error(`${what}: not placed in catalog.json; give --lng, --lat and --bearing`)
+    console.error(`${what}: not placed in the catalog; give --lng, --lat and --bearing`)
     process.exit(1)
   }
 

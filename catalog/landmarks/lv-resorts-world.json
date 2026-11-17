@@ -1,0 +1,15 @@
+{
+  "id": "lv-resorts-world",
+  "name": "Resorts World Las Vegas",
+  "model": "lv-resorts-world",
+  "lng": -115.166194,
+  "lat": 36.134767,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q14705265",
+  "replaces": [
+    "way/316303708"
+  ],
+  "place": "las-vegas-area"
+}

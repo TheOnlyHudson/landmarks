@@ -1,0 +1,55 @@
+{
+  "id": "barcelona-montjuic-castle",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "fortress",
+    "castle"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Castell de Montjuïc 2023-09-13.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Castell_de_Montju%C3%AFc_2023-09-13.jpg",
+      "author": "Horcrux",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Barcelona - Montjuïc - Castell de Montjuïc 1799 by Juan Martin Cermeño - Courtyard - View ENE.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Castell_de_Montju%C3%AFc_1799_by_Juan_Martin_Cerme%C3%B1o_-_Courtyard_-_View_ENE.jpg",
+      "author": "Txllxt TxllxT",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Barcelona - Montjuïc - Castell de Montjuïc 1799 - Carretera de Montjuïc - Panorama View of the Castle 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Castell_de_Montju%C3%AFc_1799_-_Carretera_de_Montju%C3%AFc_-_Panorama_View_of_the_Castle_01.jpg",
+      "author": "Txllxt TxllxT",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Castell Montjuic, Barcelona (P1170651).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Castell_Montjuic,_Barcelona_(P1170651).jpg",
+      "author": "Matti Blume",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/barcelona-montjuic-castle.glb",
+  "source": "generators/barcelona-montjuic-castle.ts"
+}

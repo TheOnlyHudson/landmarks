@@ -1,0 +1,16 @@
+{
+  "id": "dal-will-rogers-memorial-center",
+  "name": "Will Rogers Memorial Center",
+  "model": "dal-will-rogers-memorial-center",
+  "place": "dallas-area",
+  "lng": -97.36613,
+  "lat": 32.7458,
+  "bearing": 0.9,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/178613280",
+    "way/178613282",
+    "way/614113504"
+  ]
+}

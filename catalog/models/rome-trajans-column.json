@@ -1,0 +1,80 @@
+{
+  "id": "rome-trajans-column",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "ancient-roman",
+    "column",
+    "sculpture"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Trajan's Column HD.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Trajan%27s_Column_HD.jpg",
+      "author": "Livioandronico2013",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trajans column from north.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Trajans_column_from_north.jpg",
+      "author": "MatthiasKabel",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Trajan's Column (48423825027).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Trajan%27s_Column_(48423825027).jpg",
+      "author": "Gary Todd",
+      "license": "Public domain"
+    },
+    {
+      "title": "Column Base 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Column_Base_01.jpg",
+      "author": "MumblerJamie",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Roma, Colonna Traiana, San Pietro.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roma,_Colonna_Traiana,_San_Pietro.jpg",
+      "author": "Palickap",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trajan's Column-Trajan's Forum.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Trajan%27s_Column-Trajan%27s_Forum.jpg",
+      "author": "Yair Haklai",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Colonna Traiana Santissimo Nome di Maria dome Rome.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Colonna_Traiana_Santissimo_Nome_di_Maria_dome_Rome.jpg",
+      "author": "Jebulon",
+      "license": "CC0"
+    },
+    {
+      "title": "Base de la Columna de Trajano (Colonna Traiana). Roma, Italia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Base_de_la_Columna_de_Trajano_(Colonna_Traiana)._Roma,_Italia.jpg",
+      "author": "Carlos Teixidor Cadenas",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/rome-trajans-column.glb",
+  "source": "generators/rome-trajans-column.ts"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "la-central-library",
+  "name": "Los Angeles Central Library",
+  "model": "la-central-library",
+  "lng": -118.2550325,
+  "lat": 34.0502845,
+  "bearing": 38.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q27676389",
+  "replaces": [
+    "way/428021732",
+    "way/495571355",
+    "way/1106887040"
+  ],
+  "place": "los-angeles-area"
+}

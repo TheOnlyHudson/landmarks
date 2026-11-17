@@ -1,0 +1,16 @@
+{
+  "id": "chi-chicago-theatre",
+  "name": "Chicago Theatre",
+  "model": "chi-chicago-theatre",
+  "lng": -87.627238,
+  "lat": 41.885396,
+  "bearing": 359.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q642866",
+  "replaces": [
+    "way/124873919",
+    "way/1176843051"
+  ],
+  "place": "chicago-area"
+}

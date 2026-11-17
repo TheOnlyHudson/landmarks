@@ -1,0 +1,14 @@
+{
+  "id": "seoul-culture-station-284",
+  "name": "Culture Station Seoul 284",
+  "model": "seoul-culture-station-284",
+  "place": "seoul",
+  "lng": 126.9715612,
+  "lat": 37.5559594,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/759569673"
+  ]
+}

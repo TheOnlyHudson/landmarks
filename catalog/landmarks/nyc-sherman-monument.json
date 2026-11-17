@@ -1,0 +1,13 @@
+{
+  "id": "nyc-sherman-monument",
+  "name": "William Tecumseh Sherman Monument",
+  "model": "nyc-sherman-monument",
+  "lng": -73.973061,
+  "lat": 40.764811,
+  "bearing": 28,
+  "elevation": 0,
+  "minzoom": 17,
+  "wikidata": "Q18159288",
+  "replaces": [],
+  "place": "new-york-area"
+}

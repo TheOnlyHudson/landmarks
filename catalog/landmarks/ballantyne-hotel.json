@@ -1,0 +1,14 @@
+{
+  "id": "ballantyne-hotel",
+  "name": "The Ballantyne Hotel",
+  "model": "ballantyne-hotel",
+  "lng": -80.8481864,
+  "lat": 35.0565504,
+  "bearing": 346,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/322618546"
+  ],
+  "place": "charlotte-area"
+}

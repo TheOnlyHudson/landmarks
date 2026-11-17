@@ -1,0 +1,19 @@
+{
+  "id": "giza-great-sphinx",
+  "name": "Great Sphinx of Giza",
+  "model": "giza-great-sphinx",
+  "lng": 31.1375619,
+  "lat": 29.9752803,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q130958",
+  "replaces": [
+    "relation/7728526",
+    "way/540058405",
+    "way/24585237",
+    "way/540058406",
+    "way/540058407"
+  ],
+  "place": "giza"
+}

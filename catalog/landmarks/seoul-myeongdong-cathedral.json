@@ -1,0 +1,16 @@
+{
+  "id": "seoul-myeongdong-cathedral",
+  "name": "Myeongdong Cathedral",
+  "model": "seoul-myeongdong-cathedral",
+  "place": "seoul",
+  "lng": 126.9873401,
+  "lat": 37.5632617,
+  "bearing": 150,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/210335697",
+    "way/1139745172"
+  ],
+  "wikidata": "Q487036"
+}

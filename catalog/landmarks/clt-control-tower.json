@@ -1,0 +1,14 @@
+{
+  "id": "clt-control-tower",
+  "name": "Charlotte Douglas Air Traffic Control Tower",
+  "model": "clt-control-tower",
+  "lng": -80.9432826,
+  "lat": 35.2039381,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/589068976"
+  ],
+  "place": "charlotte-area"
+}

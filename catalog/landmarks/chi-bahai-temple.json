@@ -1,0 +1,15 @@
+{
+  "id": "chi-bahai-temple",
+  "name": "Baháʼí House of Worship",
+  "model": "chi-bahai-temple",
+  "lng": -87.68429,
+  "lat": 42.074437,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q4843063",
+  "replaces": [
+    "way/369160462"
+  ],
+  "place": "chicago-area"
+}

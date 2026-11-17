@@ -1,0 +1,26 @@
+{
+  "id": "phl-one-liberty-place",
+  "name": "One Liberty Place",
+  "model": "phl-one-liberty-place",
+  "place": "philadelphia-area",
+  "lng": -75.168136,
+  "lat": 39.95257,
+  "bearing": 9.2,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1449747",
+  "replaces": [
+    "way/42784982",
+    "way/333013556",
+    "way/333012828",
+    "way/333012829",
+    "way/345594709",
+    "way/345594710",
+    "way/345594711",
+    "way/332974959",
+    "way/345594720",
+    "way/345594721",
+    "way/345594723",
+    "way/333012830"
+  ]
+}

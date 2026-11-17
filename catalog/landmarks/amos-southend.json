@@ -1,0 +1,14 @@
+{
+  "id": "amos-southend",
+  "name": "Amos' Southend",
+  "model": "amos-southend",
+  "lng": -80.8551394,
+  "lat": 35.2167061,
+  "bearing": 130,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/432937734"
+  ],
+  "place": "charlotte-area"
+}

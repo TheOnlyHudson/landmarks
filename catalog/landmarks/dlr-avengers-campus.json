@@ -1,0 +1,16 @@
+{
+  "id": "dlr-avengers-campus",
+  "name": "Avengers Headquarters",
+  "model": "dlr-avengers-campus",
+  "lng": -117.9175306,
+  "lat": 33.8064138,
+  "bearing": 315,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/980770821",
+    "way/797193567",
+    "way/983358329"
+  ],
+  "place": "disneyland"
+}

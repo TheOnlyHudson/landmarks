@@ -1,0 +1,14 @@
+{
+  "id": "clt-concourse-a",
+  "name": "Charlotte Douglas International Airport Concourse A",
+  "model": "clt-concourse-a",
+  "lng": -80.9471865,
+  "lat": 35.2226718,
+  "bearing": 355.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/1414163869"
+  ],
+  "place": "charlotte-area"
+}

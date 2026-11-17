@@ -1,0 +1,21 @@
+{
+  "id": "atl-rhodes-hall",
+  "name": "Rhodes Hall",
+  "model": "atl-rhodes-hall",
+  "place": "atlanta-area",
+  "lng": -84.388339,
+  "lat": 33.795963,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/269637579",
+    "way/1450958391",
+    "way/1450958392",
+    "way/1450958393",
+    "way/1450958394",
+    "way/1450958395",
+    "way/1455901692"
+  ],
+  "wikidata": "Q7321015"
+}

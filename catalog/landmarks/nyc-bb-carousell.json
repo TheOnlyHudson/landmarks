@@ -1,0 +1,15 @@
+{
+  "id": "nyc-bb-carousell",
+  "name": "B&B Carousell",
+  "model": "nyc-bb-carousell",
+  "place": "new-york-area",
+  "lng": -73.9832374,
+  "lat": 40.5730603,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q55887486",
+  "replaces": [
+    "way/230062419"
+  ]
+}

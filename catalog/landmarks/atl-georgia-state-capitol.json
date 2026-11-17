@@ -1,0 +1,16 @@
+{
+  "id": "atl-georgia-state-capitol",
+  "name": "Georgia State Capitol",
+  "model": "atl-georgia-state-capitol",
+  "place": "atlanta-area",
+  "lng": -84.3881566,
+  "lat": 33.7490589,
+  "bearing": 33,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/113041732",
+    "way/536753432"
+  ],
+  "wikidata": "Q1509326"
+}

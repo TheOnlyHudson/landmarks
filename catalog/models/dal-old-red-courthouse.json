@@ -1,0 +1,86 @@
+{
+  "id": "dal-old-red-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "courthouse",
+    "museum",
+    "romanesque-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "The former Dallas County Courthouse, fondly known locally as the \"Old Red Courthouse,\" is now a museum in downtown Dallas, Texas LCCN2014632167",
+      "url": "https://commons.wikimedia.org/wiki/File:The_former_Dallas_County_Courthouse,_fondly_known_locally_as_the_%22Old_Red_Courthouse,%22_is_now_a_museum_in_downtown_Dallas,_Texas_LCCN2014632167.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "Overhead view of the former Dallas County Courthouse, fondly known locally as the \"Old Red Courthouse,\" now a museum in downtown Dallas, Texas LCCN201",
+      "url": "https://commons.wikimedia.org/wiki/File:Overhead_view_of_the_former_Dallas_County_Courthouse,_fondly_known_locally_as_the_%22Old_Red_Courthouse,%22_now_a_museum_in_downtown_Dallas,_Texas_LCCN2014632609.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "View of Old Red Museum from Reunion Tower August 2015 04",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Old_Red_Museum_from_Reunion_Tower_August_2015_04.jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old Red from Dealey Plaza",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Red_from_Dealey_Plaza.JPG",
+      "author": "Fredlyfish4",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Dallas County Courthouse with Texas Flag",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_County_Courthouse_with_Texas_Flag.jpg",
+      "author": "Martin Alon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old Red Museum of Dallas County History %26 Culture",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Red_Museum_of_Dallas_County_History_%26_Culture.png",
+      "author": "MichaelMeyers",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Dallas - Old Red Museum 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_-_Old_Red_Museum_01.jpg",
+      "author": "Joe Mabel",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Dallas - Old Red Museum 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_-_Old_Red_Museum_02.jpg",
+      "author": "Joe Mabel",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Old Red Courthouse - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Red_Courthouse_-_panoramio.jpg",
+      "author": "Michael Laferriere",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/dal-old-red-courthouse.glb",
+  "source": "generators/dal-old-red-courthouse.ts"
+}

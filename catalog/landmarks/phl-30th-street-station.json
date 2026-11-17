@@ -1,0 +1,17 @@
+{
+  "id": "phl-30th-street-station",
+  "name": "30th Street Station",
+  "model": "phl-30th-street-station",
+  "place": "philadelphia-area",
+  "lng": -75.182025,
+  "lat": 39.956019,
+  "bearing": 9.2,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q224214",
+  "replaces": [
+    "way/32272623",
+    "way/749651799",
+    "way/749651800"
+  ]
+}

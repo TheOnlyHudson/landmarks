@@ -1,0 +1,14 @@
+{
+  "id": "vessel",
+  "model": "vessel",
+  "name": "Vessel",
+  "lng": -74.0021788,
+  "lat": 40.7538029,
+  "bearing": 0,
+  "minzoom": 15,
+  "wikidata": "Q27988215",
+  "replaces": [
+    "relation/16231018"
+  ],
+  "place": "new-york-area"
+}

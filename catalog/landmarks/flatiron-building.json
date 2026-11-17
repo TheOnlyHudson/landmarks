@@ -1,0 +1,16 @@
+{
+  "id": "flatiron-building",
+  "name": "Flatiron Building",
+  "model": "flatiron-building",
+  "lng": -73.9896529,
+  "lat": 40.7410024,
+  "bearing": 18,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q220728",
+  "replaces": [
+    "way/264768896",
+    "way/764237515"
+  ],
+  "place": "new-york-area"
+}

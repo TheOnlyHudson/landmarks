@@ -1,0 +1,22 @@
+{
+  "id": "sf-555-california",
+  "name": "555 California Street",
+  "model": "sf-555-california",
+  "lng": -122.4037122,
+  "lat": 37.7921133,
+  "bearing": 351,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q243921",
+  "replaces": [
+    "way/288511106",
+    "way/1243267628",
+    "way/1244283830",
+    "way/1244283832",
+    "way/1244283833",
+    "way/1244283834",
+    "way/1244283835",
+    "way/1244283836"
+  ],
+  "place": "san-francisco-bay-area"
+}

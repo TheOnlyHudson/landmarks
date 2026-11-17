@@ -1,0 +1,16 @@
+{
+  "id": "atl-world-of-coca-cola",
+  "name": "World of Coca-Cola",
+  "model": "atl-world-of-coca-cola",
+  "place": "atlanta-area",
+  "lng": -84.392734,
+  "lat": 33.762892,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/270358205",
+    "way/810387778"
+  ],
+  "wikidata": "Q2201410"
+}

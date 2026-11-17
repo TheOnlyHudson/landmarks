@@ -1,0 +1,14 @@
+{
+  "id": "washington-square-arch",
+  "model": "washington-square-arch",
+  "name": "Washington Square Arch",
+  "lng": -73.9971025,
+  "lat": 40.7312347,
+  "bearing": 32,
+  "minzoom": 15,
+  "wikidata": "Q2550491",
+  "replaces": [
+    "way/248166269"
+  ],
+  "place": "new-york-area"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "clt-cne-kahn-boilerhouse",
+  "name": "Kahn Boilerhouse",
+  "model": "clt-cne-kahn-boilerhouse",
+  "lng": -80.834421,
+  "lat": 35.247782,
+  "bearing": 6.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/324609976"
+  ],
+  "place": "camp-north-end"
+}

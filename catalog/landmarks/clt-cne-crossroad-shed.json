@@ -1,0 +1,16 @@
+{
+  "id": "clt-cne-crossroad-shed",
+  "name": "Crossroad Shed, Camp North End",
+  "model": "clt-cne-crossroad-shed",
+  "lng": -80.8305513,
+  "lat": 35.2480828,
+  "bearing": 31.8,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/324608641",
+    "way/835850905",
+    "way/835850906"
+  ],
+  "place": "camp-north-end"
+}

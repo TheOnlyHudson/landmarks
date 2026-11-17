@@ -1,0 +1,57 @@
+{
+  "id": "munich-bmw-vierzylinder",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "office",
+    "skyscraper",
+    "modern",
+    "headquarters"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q526963",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "BMW Vierzylinder Tower Munich 2014 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:BMW_Vierzylinder_Tower_Munich_2014_01.jpg",
+      "author": "Julian Herzog",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "BMW tower seen from Olympic tower on a sunny November afternoon.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:BMW_tower_seen_from_Olympic_tower_on_a_sunny_November_afternoon.jpg",
+      "author": "Markus Matern",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "BMW Museum und BMW AG Vierzylindergebäude.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:BMW_Museum_und_BMW_AG_Vierzylindergeb%C3%A4ude.jpg",
+      "author": "Herokk",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "BMW tower seen from the West in Munich.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:BMW_tower_seen_from_the_West_in_Munich.jpg",
+      "author": "Alex Sirac",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/munich-bmw-vierzylinder.glb",
+  "source": "generators/munich-bmw-vierzylinder.ts"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "dal-renaissance-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Dallas Renaissance Tower 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_Renaissance_Tower_1.jpg",
+      "author": "Andreas Praefcke",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Dallas Renaissance Tower, June of 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_Renaissance_Tower,_June_of_2025.jpg",
+      "author": "Johnny plane 1",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Dallas Elm Place Renaissance Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_Elm_Place_Renaissance_Tower.jpg",
+      "author": "Andreas Praefcke",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Dallas West End Station Renaissance Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_West_End_Station_Renaissance_Tower.jpg",
+      "author": "Justin Cozart",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "View of Bank of America Plaza from Reunion Tower August 2015 20",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Bank_of_America_Plaza_from_Reunion_Tower_August_2015_20.jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/dal-renaissance-tower.glb",
+  "source": "generators/dal-renaissance-tower.ts"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "london-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "modern",
+    "high-tech"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "wikidata": "Q1093950",
+  "references": [
+    {
+      "title": "Ayuntamiento y Shard, Londres, Inglaterra, 2014-08-11, DD 076",
+      "url": "https://commons.wikimedia.org/wiki/File:Ayuntamiento_y_Shard,_Londres,_Inglaterra,_2014-08-11,_DD_076.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "London City Hall",
+      "url": "https://commons.wikimedia.org/wiki/File:London_City_Hall.jpg",
+      "author": "Garry Knight",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "City Hall, London",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Hall,_London.jpg",
+      "author": "DaringDonna",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Former London City Hall 2026-05-17",
+      "url": "https://commons.wikimedia.org/wiki/File:Former_London_City_Hall_2026-05-17.jpg",
+      "author": "The wub",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "London City Hall and Tower Bridge",
+      "url": "https://commons.wikimedia.org/wiki/File:London_City_Hall_and_Tower_Bridge.jpg",
+      "author": "Băng Tỏa",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/london-city-hall.glb",
+  "source": "generators/london-city-hall.ts"
+}

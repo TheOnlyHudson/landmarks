@@ -1,0 +1,14 @@
+{
+  "id": "dal-cathedral-guadalupe",
+  "name": "Cathedral Shrine of the Virgin of Guadalupe",
+  "model": "dal-cathedral-guadalupe",
+  "place": "dallas-area",
+  "lng": -96.797973,
+  "lat": 32.7888705,
+  "bearing": 136,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/31265522"
+  ]
+}

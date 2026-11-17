@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-kilic-ali-pasha-mosque",
+  "name": "Kılıç Ali Pasha Mosque",
+  "model": "istanbul-kilic-ali-pasha-mosque",
+  "place": "istanbul",
+  "lng": 28.980947,
+  "lat": 41.026416,
+  "bearing": 131,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q862848",
+  "replaces": [
+    "way/165574748"
+  ]
+}

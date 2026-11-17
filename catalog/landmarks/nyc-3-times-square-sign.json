@@ -1,0 +1,12 @@
+{
+  "id": "nyc-3-times-square-sign",
+  "name": "3 Times Square Sign",
+  "model": "nyc-3-times-square-sign",
+  "place": "times-square",
+  "lng": -73.9870797,
+  "lat": 40.7563699,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

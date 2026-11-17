@@ -1,0 +1,21 @@
+{
+  "id": "wdw-haunted-mansion",
+  "name": "The Haunted Mansion",
+  "model": "wdw-haunted-mansion",
+  "lng": -81.583103,
+  "lat": 28.4204763,
+  "bearing": 8,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2030983",
+  "replaces": [
+    "way/41831418",
+    "way/1107979231",
+    "way/1107979232",
+    "way/1107979233",
+    "way/1107979234",
+    "way/1107979235",
+    "way/1107979236"
+  ],
+  "place": "walt-disney-world"
+}

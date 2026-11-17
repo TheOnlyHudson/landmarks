@@ -1,0 +1,15 @@
+{
+  "id": "nyc-ewr-control-tower",
+  "name": "Newark Airport Control Tower",
+  "model": "nyc-ewr-control-tower",
+  "place": "new-york-area",
+  "lng": -74.1827497,
+  "lat": 40.692581,
+  "bearing": 26,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/437257662",
+    "way/537070755"
+  ]
+}

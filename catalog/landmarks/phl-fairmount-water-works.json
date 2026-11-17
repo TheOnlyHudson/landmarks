@@ -1,0 +1,22 @@
+{
+  "id": "phl-fairmount-water-works",
+  "name": "Fairmount Water Works",
+  "model": "phl-fairmount-water-works",
+  "place": "philadelphia-area",
+  "lng": -75.183648,
+  "lat": 39.966381,
+  "bearing": 352.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5430659",
+  "replaces": [
+    "relation/11817436",
+    "way/865740088",
+    "way/865740087",
+    "way/865740089",
+    "way/74728243",
+    "way/74728259",
+    "way/74728242",
+    "way/74728261"
+  ]
+}

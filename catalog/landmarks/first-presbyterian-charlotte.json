@@ -1,0 +1,15 @@
+{
+  "id": "first-presbyterian-charlotte",
+  "name": "First Presbyterian Church",
+  "model": "first-presbyterian-charlotte",
+  "lng": -80.843849,
+  "lat": 35.2291133,
+  "bearing": 47.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5453546",
+  "replaces": [
+    "way/502718740"
+  ],
+  "place": "charlotte-area"
+}

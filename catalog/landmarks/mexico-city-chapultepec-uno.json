@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-chapultepec-uno",
+  "name": "Chapultepec Uno",
+  "model": "mexico-city-chapultepec-uno",
+  "place": "mexico-city",
+  "lng": -99.175781,
+  "lat": 19.424162,
+  "bearing": 333.9,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/508030259"
+  ],
+  "wikidata": "Q6093171"
+}

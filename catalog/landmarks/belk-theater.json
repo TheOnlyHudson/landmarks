@@ -1,0 +1,14 @@
+{
+  "id": "belk-theater",
+  "name": "Belk Theater",
+  "model": "belk-theater",
+  "lng": -80.8415226,
+  "lat": 35.2272934,
+  "bearing": 317,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/502718738"
+  ],
+  "place": "charlotte-area"
+}

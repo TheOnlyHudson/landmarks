@@ -1,0 +1,15 @@
+{
+  "id": "nyc-castle-williams",
+  "name": "Castle Williams",
+  "model": "nyc-castle-williams",
+  "lng": -74.0193366,
+  "lat": 40.6928249,
+  "bearing": -3.2,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1049532",
+  "replaces": [
+    "relation/3700068"
+  ],
+  "place": "new-york-area"
+}

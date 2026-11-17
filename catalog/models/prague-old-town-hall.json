@@ -1,0 +1,63 @@
+{
+  "id": "prague-old-town-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "gothic",
+    "town-hall",
+    "clock-tower",
+    "astronomical-clock"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "20190816 Ratusz staromiejski w Pradze 1147 5234.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:20190816_Ratusz_staromiejski_w_Pradze_1147_5234.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prague Old Town Square, Czech Republic - Oct 2010.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prague_Old_Town_Square,_Czech_Republic_-_Oct_2010.jpg",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Old Town Hall Prague September 2016-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Town_Hall_Prague_September_2016-1.jpg",
+      "author": "Alvesgaspar",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prague Town Hall Clock 2021 16.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prague_Town_Hall_Clock_2021_16.jpg",
+      "author": "Scotch Mist",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prag, Altstädter Rathaus -- 2019 -- 6723.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prag,_Altst%C3%A4dter_Rathaus_--_2019_--_6723.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/prague-old-town-hall.glb",
+  "source": "generators/prague-old-town-hall.ts"
+}

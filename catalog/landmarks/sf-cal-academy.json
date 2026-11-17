@@ -1,0 +1,15 @@
+{
+  "id": "sf-cal-academy",
+  "name": "California Academy of Sciences",
+  "model": "sf-cal-academy",
+  "lng": -122.46609147,
+  "lat": 37.76982799,
+  "bearing": 317.9,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q134486471",
+  "replaces": [
+    "way/28695389"
+  ],
+  "place": "san-francisco-bay-area"
+}

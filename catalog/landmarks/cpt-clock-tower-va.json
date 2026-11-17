@@ -1,0 +1,15 @@
+{
+  "id": "cpt-clock-tower-va",
+  "name": "Clock Tower",
+  "model": "cpt-clock-tower-va",
+  "place": "cape-town",
+  "lng": 18.4221627,
+  "lat": -33.9064795,
+  "bearing": 17.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/158441581"
+  ],
+  "wikidata": "Q55634395"
+}

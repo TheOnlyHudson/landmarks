@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-casa-de-los-azulejos",
+  "name": "Casa de los Azulejos",
+  "model": "mexico-city-casa-de-los-azulejos",
+  "place": "mexico-city",
+  "lng": -99.140123,
+  "lat": 19.434351,
+  "bearing": 8.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/158032444"
+  ],
+  "wikidata": "Q1267814"
+}

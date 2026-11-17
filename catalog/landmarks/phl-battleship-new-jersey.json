@@ -1,0 +1,22 @@
+{
+  "id": "phl-battleship-new-jersey",
+  "name": "Battleship New Jersey",
+  "model": "phl-battleship-new-jersey",
+  "place": "philadelphia-area",
+  "lng": -75.133034,
+  "lat": 39.939334,
+  "bearing": 343.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q507603",
+  "replaces": [
+    "way/29667862",
+    "way/857248280",
+    "way/857248281",
+    "way/857248282",
+    "way/857248283",
+    "way/857248284",
+    "way/857248285",
+    "way/857248286"
+  ]
+}

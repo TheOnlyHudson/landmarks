@@ -1,0 +1,18 @@
+{
+  "id": "carowinds-carolina-cyclone",
+  "name": "Carolina Cyclone",
+  "model": "carowinds-carolina-cyclone",
+  "lng": -80.943571,
+  "lat": 35.1040581,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1044389",
+  "replaces": [
+    "way/241199374",
+    "way/650270619",
+    "way/670967409",
+    "way/670967410"
+  ],
+  "place": "carowinds"
+}

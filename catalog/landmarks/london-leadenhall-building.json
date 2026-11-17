@@ -1,0 +1,23 @@
+{
+  "id": "london-leadenhall-building",
+  "name": "The Leadenhall Building (Cheesegrater)",
+  "model": "london-leadenhall-building",
+  "place": "london",
+  "lng": -0.0822949,
+  "lat": 51.51387,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/309413981",
+    "way/309413982",
+    "way/309415707",
+    "way/309415710",
+    "way/717955963",
+    "way/717955964",
+    "way/717955965",
+    "way/1138764582",
+    "way/1138764583"
+  ],
+  "wikidata": "Q2742547"
+}

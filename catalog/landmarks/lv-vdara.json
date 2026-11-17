@@ -1,0 +1,19 @@
+{
+  "id": "lv-vdara",
+  "name": "Vdara Hotel & Spa",
+  "model": "lv-vdara",
+  "lng": -115.178022,
+  "lat": 36.109526,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q280910",
+  "replaces": [
+    "relation/20214578",
+    "way/1481167211",
+    "way/52175577",
+    "way/134932949",
+    "way/134932948"
+  ],
+  "place": "las-vegas-area"
+}

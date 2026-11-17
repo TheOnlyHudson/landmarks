@@ -1,0 +1,15 @@
+{
+  "id": "london-the-o2",
+  "name": "The O2",
+  "model": "london-the-o2",
+  "place": "london",
+  "lng": 0.0032048,
+  "lat": 51.5029354,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "relation/1895281"
+  ],
+  "wikidata": "Q29014"
+}

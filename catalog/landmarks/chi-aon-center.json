@@ -1,0 +1,16 @@
+{
+  "id": "chi-aon-center",
+  "name": "Aon Center",
+  "model": "chi-aon-center",
+  "lng": -87.621548,
+  "lat": 41.885281,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q271695",
+  "replaces": [
+    "way/64388609",
+    "way/284775635"
+  ],
+  "place": "chicago-area"
+}

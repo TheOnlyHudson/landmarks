@@ -1,0 +1,19 @@
+{
+  "id": "dal-mercantile-national-bank",
+  "name": "Mercantile National Bank Building",
+  "model": "dal-mercantile-national-bank",
+  "place": "dallas-area",
+  "lng": -96.796635,
+  "lat": 32.780798,
+  "bearing": 346,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q6818031",
+  "replaces": [
+    "way/30897787",
+    "way/1396179853",
+    "way/1396179854",
+    "way/1396179855",
+    "way/1396179856"
+  ]
+}

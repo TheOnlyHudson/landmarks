@@ -1,0 +1,21 @@
+{
+  "id": "prague-municipal-house",
+  "name": "Municipal House",
+  "model": "prague-municipal-house",
+  "place": "prague",
+  "lng": 14.42776,
+  "lat": 50.08776,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2334312",
+  "replaces": [
+    "way/27124435",
+    "way/482524690",
+    "way/482524691",
+    "way/482524692",
+    "way/482524693",
+    "way/482524694",
+    "way/482524695"
+  ]
+}

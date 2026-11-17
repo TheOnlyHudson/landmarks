@@ -1,0 +1,19 @@
+{
+  "id": "nyc-brooklyn-bridge",
+  "name": "Brooklyn Bridge",
+  "model": "nyc-brooklyn-bridge",
+  "lng": -73.9963446,
+  "lat": 40.7056859,
+  "bearing": 316.18,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q125006",
+  "replaces": [
+    "way/375157262",
+    "way/1255363983",
+    "way/317352708",
+    "way/888759002",
+    "way/1255363984"
+  ],
+  "place": "new-york-area"
+}

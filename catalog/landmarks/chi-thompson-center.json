@@ -1,0 +1,15 @@
+{
+  "id": "chi-thompson-center",
+  "name": "James R. Thompson Center",
+  "model": "chi-thompson-center",
+  "lng": -87.6317257,
+  "lat": 41.8851748,
+  "bearing": 358.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3161356",
+  "replaces": [
+    "way/230926922"
+  ],
+  "place": "chicago-area"
+}
