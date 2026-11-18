@@ -145,6 +145,16 @@ export function simplify(r: XY[], tol: number): XY[] {
   return out.length >= 3 && Math.abs(area(out)) > 0.9 * Math.abs(area(r)) ? out : r
 }
 
+/** Point in polygon (even-odd). */
+export function inside(p: XY, ring: XY[]) {
+  let c = false
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const a = ring[i], b = ring[j]
+    if ((a[1] > p[1]) !== (b[1] > p[1]) && p[0] < ((b[0] - a[0]) * (p[1] - a[1])) / (b[1] - a[1]) + a[0]) c = !c
+  }
+  return c
+}
+
 /** True when a ring doesn't cross itself (an inset of a concave plan can). */
 export function isSimple(r: XY[]) {
   const u = clipping.union([[[...r, r[0]]]] as any) as unknown as XY[][][]
