@@ -1,0 +1,48 @@
+{
+  "id": "moscow-kremlin-pavilions",
+  "file": "models/moscow-kremlin-pavilions.glb",
+  "source": "generators/moscow-kremlin-pavilions.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "pavilion",
+    "kremlin"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Small modern one-storey stone-and-glass pavilions on the Moscow Kremlin's central squares: before the Senate, in the Ivanovskaya Square garden, and the museum shop by the Patriarch's Palace.",
+  "references": [
+    {
+      "title": "Kremlin Senate 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Senate_02.jpg",
+      "author": "Angel Miklashevsky",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kremlin Senate 20190430.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Senate_20190430.jpg",
+      "author": "Suicasmo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Moscow Kremlin, site of recently demolished Block 14 building (31356625280).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Kremlin,_site_of_recently_demolished_Block_14_building_(31356625280).jpg",
+      "author": "Gennady Grachev",
+      "license": "CC BY 2.0"
+    }
+  ]
+}

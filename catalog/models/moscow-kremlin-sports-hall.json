@@ -1,0 +1,36 @@
+{
+  "id": "moscow-kremlin-sports-hall",
+  "file": "models/moscow-kremlin-sports-hall.glb",
+  "source": "generators/moscow-kremlin-sports-hall.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "sports-hall",
+    "kremlin"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The one-storey government sports hall in the Moscow Kremlin's Tainitsky Garden, drawn plain from its OSM outline.",
+  "references": [
+    {
+      "title": "Moscow - Taynitsky Garden.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_Taynitsky_Garden.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC BY 4.0"
+    }
+  ]
+}
