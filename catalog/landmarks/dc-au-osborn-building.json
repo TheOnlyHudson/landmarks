@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-osborn-building",
+  "name": "Osborn Building",
+  "model": "dc-au-osborn-building",
+  "place": "american-university",
+  "lng": -77.090985,
+  "lat": 38.9374567,
+  "bearing": 33.66,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190449"
+  ]
+}
