@@ -1,0 +1,25 @@
+{
+  "id": "sf-apple-park",
+  "name": "Apple Park",
+  "model": "sf-apple-park",
+  "place": "san-francisco-bay-area",
+  "lng": -122.0089917,
+  "lat": 37.3348521,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q22041180",
+  "replaces": [
+    "relation/5281838",
+    "way/785258427",
+    "way/736351416",
+    "way/736351418",
+    "way/736351419",
+    "way/736351422",
+    "way/736351424",
+    "way/736351426",
+    "way/736351427",
+    "way/736351429",
+    "way/736351432"
+  ]
+}

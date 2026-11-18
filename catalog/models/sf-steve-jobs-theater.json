@@ -1,0 +1,43 @@
+{
+  "id": "sf-steve-jobs-theater",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theater",
+    "pavilion",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Steve Jobs Theater - external",
+      "url": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Theater_-_external.jpg",
+      "author": "Justin Ormont",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Apple Park Steve Jobs Theater",
+      "url": "https://commons.wikimedia.org/wiki/File:Apple_Park_Steve_Jobs_Theater.jpg",
+      "author": "Nicolapps",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/sf-steve-jobs-theater.glb",
+  "source": "generators/sf-steve-jobs-theater.ts"
+}
