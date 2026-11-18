@@ -1,0 +1,71 @@
+{
+  "id": "riyadh-masmak-fortress",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "fort",
+    "museum",
+    "mud-brick",
+    "najdi"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/riyadh-masmak-fortress.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Masmak Fortress (6329473680).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masmak_Fortress_(6329473680).jpg",
+      "author": "Sammy Six",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "المصمك.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D9%85%D8%B5%D9%85%D9%83.jpg",
+      "author": "Heritage Commission",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Masmak Fort (12753717253).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masmak_Fort_(12753717253).jpg",
+      "author": "Francisco Anzola",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Masmak castle.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masmak_castle.jpg",
+      "author": "Baptiste Marcel",
+      "license": "Public domain"
+    },
+    {
+      "title": "Masmak Castle from Thumairi.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masmak_Castle_from_Thumairi.jpg",
+      "author": "Dainomite",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Masmak Citadel, Riyadh (14372839641).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masmak_Citadel,_Riyadh_(14372839641).jpg",
+      "author": "Rick McCharles",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/riyadh-masmak-fortress.glb",
+  "source": "generators/riyadh-masmak-fortress.ts"
+}
