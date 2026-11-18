@@ -1,0 +1,14 @@
+{
+  "id": "sf-apple-park-rainbow",
+  "name": "Apple Park rainbow",
+  "model": "sf-apple-park-rainbow",
+  "place": "san-francisco-bay-area",
+  "lng": -122.0089378,
+  "lat": 37.3345434,
+  "bearing": 32,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/744204115"
+  ]
+}

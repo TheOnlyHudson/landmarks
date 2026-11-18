@@ -1,0 +1,69 @@
+{
+  "id": "sf-apple-park",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "office",
+    "headquarters",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/sf-apple-park.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "Aerial view of Apple Park dllu",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Apple_Park_dllu.jpg",
+      "author": "Daniel L. Lu",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Apple park cupertino 2019 (cropped)",
+      "url": "https://commons.wikimedia.org/wiki/File:Apple_park_cupertino_2019_(cropped).jpg",
+      "author": "Arne Müseler",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "Apple Park view from the Steve Jobs Theater",
+      "url": "https://commons.wikimedia.org/wiki/File:Apple_Park_view_from_the_Steve_Jobs_Theater.jpg",
+      "author": "Nicolapps",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Apple Park Inner",
+      "url": "https://commons.wikimedia.org/wiki/File:Apple_Park_Inner.jpg",
+      "author": "Nicolapps",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Apple Park dusk aerial",
+      "url": "https://commons.wikimedia.org/wiki/File:Apple_Park_dusk_aerial.jpg",
+      "author": "Dicklyon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Apple Park 1 2018-01-23",
+      "url": "https://commons.wikimedia.org/wiki/File:Apple_Park_1_2018-01-23.jpg",
+      "author": "FASTILY",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/sf-apple-park.glb",
+  "source": "generators/sf-apple-park.ts"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sf-apple-park-rainbow",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "sculpture",
+    "stage",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Apple Park Stage",
+      "url": "https://commons.wikimedia.org/wiki/File:Apple_Park_Stage.jpg",
+      "author": "Nicolapps",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/sf-apple-park-rainbow.glb",
+  "source": "generators/sf-apple-park-rainbow.ts"
+}

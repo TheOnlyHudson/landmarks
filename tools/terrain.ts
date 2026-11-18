@@ -81,7 +81,7 @@ function tileNow(x: number, y: number): Float32Array | null {
   const key = `${Z}/${x}/${y}`
   const found = loadedTiles.get(key)
   if (found) return found
-  void tile(x, y).then(d => loadedTiles.set(key, d))
+  void tile(x, y).then(d => loadedTiles.set(key, d), () => {})
   return null
 }
 
@@ -114,7 +114,7 @@ async function fillUnder(prims: ReturnType<typeof readGlb>, place: Place, min: n
   for (let tries = 0; tries < 20; tries++) {
     const fill = groundFill(coverage, (x, z) => mercator(...toLngLat(place, x, z)), 1, heightNow)
     if (fill) return fill
-    await Promise.all([...tiles.values()])
+    await Promise.all([...tiles].filter(([key]) => key.startsWith(`${Z}/`)).map(([, t]) => t))
     await new Promise(r => setTimeout(r, 0))
   }
   return null
@@ -283,6 +283,20 @@ const TERRAIN_COLOUR = [0.37, 0.42, 0.31]
  * the lowest ground, as placed.
  */
 export async function drapeScene(scene: Scene, glb: Uint8Array, place: Place): Promise<number> {
+  // Mapterhorn's z15 covers lidar countries only (not Mexico City, not Giza):
+  // step down a zoom where a tile is missing, as the map does.
+  const start = Z
+  try {
+    for (let z = start; ; z--) {
+      Z = z
+      try { return await drapeAt(scene, glb, place) } catch (err) {
+        if (z <= 10 || !/: 404$/.test((err as Error).message)) throw err
+      }
+    }
+  } finally { Z = start }
+}
+
+async function drapeAt(scene: Scene, glb: Uint8Array, place: Place): Promise<number> {
   const { lift, ground, lowest, bounds: { minX, maxX, minZ, maxZ } } = await placeOnTerrain(readGlb(glb), place)
   let top = -Infinity
   for (const pr of scene.primitives) {
