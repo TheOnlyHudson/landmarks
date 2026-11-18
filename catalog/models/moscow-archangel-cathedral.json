@@ -1,0 +1,66 @@
+{
+  "id": "moscow-archangel-cathedral",
+  "file": "models/moscow-archangel-cathedral.glb",
+  "source": "generators/moscow-archangel-cathedral.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cathedral",
+    "church",
+    "russian-orthodox",
+    "onion-dome",
+    "renaissance",
+    "kremlin",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Aloisio the New's burial cathedral of the tsars (1505-08): a white two-tier box with Venetian scallop shells in its keeled zakomary, a heavy cornice between the tiers and pilasters on the bay lines; a gilded central onion and four silver domes; the round chapels at the east corners, the south gallery and barrel-roofed chapel, and the south-east buttress.",
+  "references": [
+    {
+      "title": "Exterior of Cathedral of the Archangel in Moscow 20190430-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Cathedral_of_the_Archangel_in_Moscow_20190430-1.jpg",
+      "author": "Suicasmo",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Exterior of Cathedral of the Archangel in Moscow 20190430-2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Cathedral_of_the_Archangel_in_Moscow_20190430-2.jpg",
+      "author": "Suicasmo",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Exterior of Cathedral of the Archangel in Moscow 20190430-3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Cathedral_of_the_Archangel_in_Moscow_20190430-3.jpg",
+      "author": "Suicasmo",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Moscow. Southern facade of the Archangel Cathedral and the Ivan the Great Bell Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow._Southern_facade_of_the_Archangel_Cathedral_and_the_Ivan_the_Great_Bell_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Cathedral of the Archangel in Moscow 01 by shakko.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Archangel_in_Moscow_01_by_shakko.jpg",
+      "author": "shakko",
+      "license": "CC-BY-SA-3.0"
+    }
+  ]
+}

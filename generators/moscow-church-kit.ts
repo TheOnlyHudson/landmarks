@@ -50,6 +50,8 @@ export function zakomaraBlock(o: {
   xb: number[]; yb: number[]; z0: number; zs: number
   rise: (span: number) => number
   n?: number; overhang?: number; walls?: Sides; arcs?: Sides
+  /** a pointed keel on each gable: extra height at the bay's middle */
+  keel?: number
 }) {
   const { wall, roof, edge, xb, yb, z0, zs } = o
   const n = o.n ?? 6, ov = o.overhang ?? 0.35
@@ -57,7 +59,10 @@ export function zakomaraBlock(o: {
   const X0 = xb[0], X1 = xb[xb.length - 1], Y0 = yb[0], Y1 = yb[yb.length - 1]
   const arc1 = (v: number, bs: number[]) => {
     const c = Math.min(bs[bs.length - 1], Math.max(bs[0], v))
-    for (let i = 0; i < bs.length - 1; i++) if (c >= bs[i] && c <= bs[i + 1]) return arcAt(c, bs[i], bs[i + 1], o.rise(bs[i + 1] - bs[i]))
+    for (let i = 0; i < bs.length - 1; i++) if (c >= bs[i] && c <= bs[i + 1]) {
+      const w = bs[i + 1] - bs[i], m = (bs[i] + bs[i + 1]) / 2
+      return arcAt(c, bs[i], bs[i + 1], o.rise(w)) + (o.keel ?? 0) * Math.max(0, 1 - Math.abs(c - m) / (0.3 * w))
+    }
     return 0
   }
   const h = (x: number, y: number) => zs + Math.max(arc1(x, xb), arc1(y, yb))
@@ -68,16 +73,26 @@ export function zakomaraBlock(o: {
     const out = i === 0 || j === 0 || i === gx.length - 1 || j === gy.length - 1
     return h(x, y) - (out ? 0.12 : 0)
   }
+  // smooth-shaded: each grid point takes the mean of the faces round it, so
+  // the barrels read round and the file stays small
+  const P = (i: number, j: number): V3 => [gx[i], gy[j], zr(i, j)]
+  const tris: Array<[number[], number[], number[]]> = []
   for (let i = 0; i < gx.length - 1; i++)
     for (let j = 0; j < gy.length - 1; j++) {
-      const p00: V3 = [gx[i], gy[j], zr(i, j)], p10: V3 = [gx[i + 1], gy[j], zr(i + 1, j)]
-      const p11: V3 = [gx[i + 1], gy[j + 1], zr(i + 1, j + 1)], p01: V3 = [gx[i], gy[j + 1], zr(i, j + 1)]
       // split each cell along the diagonal nearer the true surface at its centre
       const cx = (gx[i] + gx[i + 1]) / 2, cy = (gy[j] + gy[j + 1]) / 2, hc = h(cx, cy)
-      const d1 = Math.abs((p00[2] + p11[2]) / 2 - hc), d2 = Math.abs((p10[2] + p01[2]) / 2 - hc)
-      if (d1 <= d2) { roof.tri(p00, p10, p11); roof.tri(p00, p11, p01) }
-      else { roof.tri(p00, p10, p01); roof.tri(p10, p11, p01) }
+      const d1 = Math.abs((zr(i, j) + zr(i + 1, j + 1)) / 2 - hc), d2 = Math.abs((zr(i + 1, j) + zr(i, j + 1)) / 2 - hc)
+      if (d1 <= d2) tris.push([[i, j], [i + 1, j], [i + 1, j + 1]], [[i, j], [i + 1, j + 1], [i, j + 1]])
+      else tris.push([[i, j], [i + 1, j], [i, j + 1]], [[i + 1, j], [i + 1, j + 1], [i, j + 1]])
     }
+  const acc = new Map<string, V3>()
+  for (const t of tris) {
+    const [a, b, c] = t.map(([i, j]) => P(i, j))
+    const u: V3 = [b[0] - a[0], b[1] - a[1], b[2] - a[2]], v: V3 = [c[0] - a[0], c[1] - a[1], c[2] - a[2]]
+    const f: V3 = [u[1] * v[2] - u[2] * v[1], u[2] * v[0] - u[0] * v[2], u[0] * v[1] - u[1] * v[0]]
+    for (const [i, j] of t) { const k = `${i},${j}`; const q = acc.get(k) ?? [0, 0, 0]; acc.set(k, [q[0] + f[0], q[1] + f[1], q[2] + f[2]]) }
+  }
+  for (const t of tris) roof.tri(P(t[0][0], t[0][1]), P(t[1][0], t[1][1]), P(t[2][0], t[2][1]), undefined, undefined, undefined, t.map(([i, j]) => unit(acc.get(`${i},${j}`)!)) as V3[])
   // rim: a fascia under the roof's outer edge, and the underside back to the wall
   const rim = edge ?? roof, t = 0.3
   const ring: Array<[number, number]> = []
@@ -197,12 +212,13 @@ const PROFILES: Record<Exclude<DomeShape, 'tent'>, Array<[number, number]>> = {
  * A dome on a drum top at z0: its bulb `H` tall with widest radius `R`, then
  * a spike `spike` tall. Returns the spike's top.
  */
-export function dome(p: Part, c: XY, z0: number, R: number, H: number, shape: DomeShape, n = 16, spike = 0.8, rFoot?: number) {
+export function dome(p: Part, c: XY, z0: number, R: number, H: number, shape: DomeShape, n = 16, spike = 0.8, rFoot?: number, coarse = false) {
   if (shape === 'tent') {
     lathe(p, [[R, z0], [0.08, z0 + H], [0, z0 + H + spike]], n, c, 0, false)
     return z0 + H + spike
   }
-  const prof: Array<[number, number]> = PROFILES[shape].map(([r, z]) => [r * R, z0 + z * H])
+  const base = PROFILES[shape].filter((_, i, a) => !coarse || i % 2 === 0 || i === a.length - 1)
+  const prof: Array<[number, number]> = base.map(([r, z]) => [r * R, z0 + z * H])
   if (rFoot !== undefined) prof.unshift([rFoot, z0 - 0.25])
   prof.push([0.035 * R + 0.04, z0 + H + spike * 0.7], [0, z0 + H + spike])
   lathe(p, prof, n, c)
@@ -284,6 +300,14 @@ export function block(p: Part, x0: number, y0: number, z0: number, x1: number, y
   box(p, [(x0 + x1) / 2, (y0 + y1) / 2, (z0 + z1) / 2], (x1 - x0) / 2, (y1 - y0) / 2, (z1 - z0) / 2, 0, top, bevel)
 }
 
+/** A triangle wound so it faces along `out`. */
+export function triOut(p: Part, a: V3, b: V3, c: V3, out: V3) {
+  const u: V3 = [b[0] - a[0], b[1] - a[1], b[2] - a[2]], v: V3 = [c[0] - a[0], c[1] - a[1], c[2] - a[2]]
+  const n = [u[1] * v[2] - u[2] * v[1], u[2] * v[0] - u[0] * v[2], u[0] * v[1] - u[1] * v[0]]
+  if (n[0] * out[0] + n[1] * out[1] + n[2] * out[2] >= 0) p.tri(a, b, c)
+  else p.tri(a, c, b)
+}
+
 /** A quad wound so it faces along `out`. */
 export function quadOut(p: Part, a: V3, b: V3, c: V3, d: V3, out: V3) {
   const u: V3 = [b[0] - a[0], b[1] - a[1], b[2] - a[2]], v: V3 = [c[0] - a[0], c[1] - a[1], c[2] - a[2]]
@@ -339,6 +363,7 @@ export const floodDomes = (_p: V3, n: V3) => (n[2] > 0.85 ? 0.4 : 0.65)
 
 /** Write the GLB, check the budget and print a line. */
 export async function finishModel(id: string, name: string, parts: Array<{ part: Part; material: MaterialSpec }>, meta: Record<string, unknown>, limit = 6500) {
+  if (process.env.PARTS) console.log(parts.map((q) => `${q.material.name}:${q.part.triangles}`).join(' '))
   const glb = writeGlb(name, parts, { license: 'CC0-1.0', frame: 'Y up, -Z north, +X east, metres; origin at the ground anchor', ...meta })
   const tris = report(name, parts, glb, limit)
   const out = new URL(`../models/${id}.glb`, import.meta.url).pathname
@@ -364,4 +389,42 @@ export function hood(p: Part, o: V3, u: V3, nrm: V3, r: number, w: number, depth
   }
   // feet
   for (const t of [0, Math.PI]) quadOut(p, at(t, r, 0), at(t, r + w, 0), at(t, r + w, depth), at(t, r, depth), [0, 0, -1])
+}
+
+/**
+ * A scallop shell filling a round gable (the Archangel Cathedral's
+ * zakomary): a half-disc of radius r about `o` on a wall facing `nrm`,
+ * its ribs drawn as a fan of facets alternately standing `depth` proud and
+ * sitting back, so they catch the light like the carved flutes.
+ */
+export function shell(p: Part, o: V3, u: V3, nrm: V3, r: number, ribs = 9, depth = 0.3) {
+  const nn = unit(nrm), uu = unit(u)
+  const at = (t: number, rr: number, d: number): V3 => [
+    o[0] + uu[0] * rr * Math.cos(t) + nn[0] * d, o[1] + uu[1] * rr * Math.cos(t) + nn[1] * d, o[2] + rr * Math.sin(t),
+  ]
+  const hub = at(0, 0, 0.05)
+  for (let k = 0; k < ribs; k++) {
+    const a = (Math.PI * k) / ribs, b = (Math.PI * (k + 1)) / ribs, m = (a + b) / 2
+    // each flute: two facets meeting along a ridge out at `depth`
+    const ridge = at(m, r, depth)
+    const fa = at(a, r, 0.05), fb = at(b, r, 0.05)
+    triOut(p, hub, fa, ridge, nn); triOut(p, hub, ridge, fb, nn)
+    // close the flute's outer edge back to the wall
+    triOut(p, fa, fb, ridge, [Math.cos(m) * uu[0], Math.cos(m) * uu[1], Math.sin(m)])
+  }
+}
+
+/** A wedge buttress: a rectangle in plan, its top sloping from zHigh along one edge down to zLow at the opposite one. */
+export function wedge(p: Part, x0: number, y0: number, x1: number, y1: number, zHigh: number, zLow: number, highAt: 'x0' | 'x1' | 'y0' | 'y1', top: Part = p) {
+  const z = (x: number, y: number) => {
+    const t = highAt === 'x0' ? (x - x0) / (x1 - x0) : highAt === 'x1' ? (x1 - x) / (x1 - x0) : highAt === 'y0' ? (y - y0) / (y1 - y0) : (y1 - y) / (y1 - y0)
+    return zHigh + (zLow - zHigh) * t
+  }
+  const c: Array<[number, number]> = [[x0, y0], [x1, y0], [x1, y1], [x0, y1]]
+  const outs: V3[] = [[0, -1, 0], [1, 0, 0], [0, 1, 0], [-1, 0, 0]]
+  for (let i = 0; i < 4; i++) {
+    const a = c[i], b = c[(i + 1) % 4]
+    quadOut(p, [a[0], a[1], 0], [b[0], b[1], 0], [b[0], b[1], z(b[0], b[1])], [a[0], a[1], z(a[0], a[1])], outs[i])
+  }
+  quadOut(top, [x0, y0, z(x0, y0)], [x1, y0, z(x1, y0)], [x1, y1, z(x1, y1)], [x0, y1, z(x0, y1)], [0, 0, 1])
 }
