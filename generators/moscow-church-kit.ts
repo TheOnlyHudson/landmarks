@@ -52,6 +52,8 @@ export function zakomaraBlock(o: {
   n?: number; overhang?: number; walls?: Sides; arcs?: Sides
   /** a pointed keel on each gable: extra height at the bay's middle */
   keel?: number
+  /** draw the overhang's underside (default true) */
+  underside?: boolean
 }) {
   const { wall, roof, edge, xb, yb, z0, zs } = o
   const n = o.n ?? 6, ov = o.overhang ?? 0.35
@@ -111,7 +113,7 @@ export function zakomaraBlock(o: {
     const ai: V3 = [Math.min(X1, Math.max(X0, a[0])), Math.min(Y1, Math.max(Y0, a[1])), 0]
     const bi: V3 = [Math.min(X1, Math.max(X0, b[0])), Math.min(Y1, Math.max(Y0, b[1])), 0]
     ai[2] = h(ai[0], ai[1]) - 0.05; bi[2] = h(bi[0], bi[1]) - 0.05
-    quadOut(rim, [b[0], b[1], b[2] - t], [a[0], a[1], a[2] - t], ai, bi, [0, 0, -1])
+    if (o.underside !== false) quadOut(rim, [b[0], b[1], b[2] - t], [a[0], a[1], a[2] - t], ai, bi, [0, 0, -1])
   }
   // walls, their tops following the gables
   const side = (pts: XY[]) => {

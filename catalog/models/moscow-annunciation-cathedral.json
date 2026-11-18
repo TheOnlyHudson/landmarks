@@ -1,0 +1,65 @@
+{
+  "id": "moscow-annunciation-cathedral",
+  "file": "models/moscow-annunciation-cathedral.glb",
+  "source": "generators/moscow-annunciation-cathedral.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cathedral",
+    "church",
+    "russian-orthodox",
+    "onion-dome",
+    "kremlin",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The grand princes' house church (1484-89, enlarged in the 1560s): a small core on a high basement ringed by galleries and four corner chapels, nine gilded onion domes on tall white drums, roofs of gilded keeled kokoshniks, three tall apses under gilded cones and the south-east stair porch.",
+  "references": [
+    {
+      "title": "The Cathedral of the Annunciation.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Cathedral_of_the_Annunciation.jpg",
+      "author": "Holger Zscheyge",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Annunciation Cathedral in Moscow 20190430.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Annunciation_Cathedral_in_Moscow_20190430.jpg",
+      "author": "Suicasmo",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Russia-Moscow-Annunciation Cathedral.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Russia-Moscow-Annunciation_Cathedral.jpg",
+      "author": "Alex Zelenko",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Cathedral of the Annunciation, Moscow.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Annunciation,_Moscow.jpg",
+      "author": "Pedro Szekely",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Moscow - 2026 - Annunciation Cathedral of the Moscow Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2026_-_Annunciation_Cathedral_of_the_Moscow_Kremlin.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}
