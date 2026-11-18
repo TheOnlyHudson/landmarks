@@ -1,0 +1,70 @@
+{
+  "id": "tokyo-gate-bridge",
+  "file": "models/tokyo-gate-bridge.glb",
+  "detail": "models/tokyo-gate-bridge.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-gate-bridge.ts",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "truss-bridge",
+    "cantilever",
+    "illuminated"
+  ],
+  "description": "Tokyo Gate Bridge (2012): the 760 m three-span continuous truss-and-box main bridge whose two trusses face each other across the fairway like a pair of dinosaurs.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tokyo Gate Bridge -05.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Gate_Bridge_-05.jpg",
+      "author": "Aimaimyi",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Tokyo Gate Bridge 2018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Gate_Bridge_2018.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Gate Bridge in Tokyo Bay.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Gate_Bridge_in_Tokyo_Bay.jpg",
+      "author": "IketaniDaisei",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo-Gate-Bridge Bird's-eye-view.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo-Gate-Bridge_Bird%27s-eye-view.jpg",
+      "author": "MaedaAkihiko",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Gate Bridge @ Wakasu Island @ Tokyo (9508161275).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Gate_Bridge_@_Wakasu_Island_@_Tokyo_(9508161275).jpg",
+      "author": "Guilhem Vellut",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "東京ゲートブリッジ 夜景1 - Tokyo Gate-Bridge - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:東京ゲートブリッジ_夜景1_-_Tokyo_Gate-Bridge_-_panoramio.jpg",
+      "author": "shinohal",
+      "license": "CC-BY-SA-3.0"
+    }
+  ]
+}
