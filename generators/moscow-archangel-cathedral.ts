@@ -56,9 +56,11 @@
  * the central drum 6.2 m across to 31.5 m, its gold onion 7.5 m wide and
  * 6.8 m tall, the spike to 39.9 m (OSM's top part is at 41), a 2.6 m cross.
  * Estimated: the cornices at 9.9-10.9 and 18.7-19.5 m; the zakomary
- * half-round over their bays (OSM's rises are within 0.5 m) with a 0.8 m
- * keel at the top, as the photos' pointed gables; window sizes; the lower
- * tier's blind arches. The shells are fans of nine flutes (eleven in the
+ * half-round over their bays (OSM's rises are within 0.5 m) drawn up to a
+ * sharp ogee keel 1.9 m above the half-round, as the photos' pointed gables,
+ * the roof behind them sinking towards the middle (a guess: the photos show
+ * the gables standing clear, the roof only as dark lines between them); window sizes; the lower
+ * tier's blind arches. The shells are fans of seven flutes (nine in the
  * taller middle gables). The buttress is a wedge from 11.5 m down to the
  * ground (OSM tags it a 19.5 m pyramid, which the photos do not show).
  * Published: tourist sources (azbyka.ru and others) give a height of
@@ -88,7 +90,7 @@ const AX: V3 = [1, 0, 0], AY: V3 = [0, 1, 0]
 const bayC = (b: number[], i: number) => (b[i] + b[i + 1]) / 2
 
 // ---------------------------------------------------------------- body: two tiers under the zakomary
-zakomaraBlock({ wall: white, roof, edge: roof, xb, yb, z0: 0, zs: ZS, rise: (w) => w / 2, n: 5, overhang: 0.45, keel: 0.8 })
+zakomaraBlock({ wall: white, roof, edge: roof, xb, yb, z0: 0, zs: ZS, rise: (w) => w / 2, n: 6, overhang: 0.25, keel: 1.9, keelWidth: 0.4, keelPow: 1.5, sag: 0.35, sagDepth: 5 })
 
 // plinth, the cornice between the tiers, the cornice under the gables
 const band = (z0: number, z1: number, d: number) => {
@@ -108,7 +110,7 @@ for (const y of yb.slice(1, -1)) for (const [x0, x1] of [[X0 - 0.35, X0], [X1, X
 // shells in every zakomara, and the windows of both tiers
 for (const [y, n] of [[Y0, S], [Y1, N]] as [number, V3][]) for (let i = 0; i < 5; i++) {
   const x = bayC(xb, i), span = xb[i + 1] - xb[i]
-  shell(trim, [x, y, ZS + 0.1], AX, n, span / 2 - 0.45, 9, 0.35)
+  shell(trim, [x, y, ZS + 0.1], AX, n, span / 2 - 0.45, 7, 0.35)
   archPanel(win, [x, y, 13.2], AX, n, 0.9, 1.6)
   if (n[1] > 0 || i < 1) {
     archPanel(win, [x, y, 4.0], AX, n, 1.3, 2.6)
@@ -118,7 +120,7 @@ for (const [y, n] of [[Y0, S], [Y1, N]] as [number, V3][]) for (let i = 0; i < 5
 }
 for (const [x, n] of [[X0, W], [X1, E]] as [number, V3][]) for (let i = 0; i < 3; i++) {
   const y = bayC(yb, i), span = yb[i + 1] - yb[i]
-  shell(trim, [x, y, ZS + 0.1], AY, n, span / 2 - 0.45, i === 1 ? 11 : 9, 0.35)
+  shell(trim, [x, y, ZS + 0.1], AY, n, span / 2 - 0.45, i === 1 ? 9 : 7, 0.35)
   if (n[0] < 0) {
     if (i !== 1) {
       archPanel(win, [x, y, 13.2], AY, n, 0.9, 1.6)
@@ -164,8 +166,8 @@ drum({ wall: white, win, trim, c: [1.9, 2.6], z0: ZS + 2, z1: 31.5, r: 3.1, n: 1
 lathe2(trim, [1.9, 2.6], 26.2, 3.1, 0.25)
 { const t = dome(gold, [1.9, 2.6], 31.5, 3.75, 6.8, 'onion', 16, 1.6, 3.4); cross(gold, [1.9, 2.6], t - 0.1, 2.6, 'y') }
 for (const c of [[-3.9, -5.1], [7.8, -5.1], [7.7, 10.7], [-4.0, 10.7]] as [number, number][]) {
-  drum({ wall: white, win, trim, c, z0: ZS + 1, z1: 27.5, r: 2.3, n: 14, windows: 7, winW: 0.5, winH: 1.5, sill: 25.2, cornice: 0.25 })
-  const t = dome(silver, c, 27.5, 2.6, 3.4, 'bulb', 14, 0.9, 2.55, true)
+  drum({ wall: white, win, trim, c, z0: ZS + 1, z1: 27.5, r: 2.3, n: 12, windows: 6, winW: 0.5, winH: 1.5, sill: 25.2, cornice: 0.25 })
+  const t = dome(silver, c, 27.5, 2.6, 3.4, 'bulb', 12, 0.9, 2.55, true)
   cross(gold, c, t - 0.1, 1.9, 'y', 0.18)
 }
 

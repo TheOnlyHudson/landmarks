@@ -52,6 +52,12 @@ export function zakomaraBlock(o: {
   n?: number; overhang?: number; walls?: Sides; arcs?: Sides
   /** a pointed keel on each gable: extra height at the bay's middle */
   keel?: number
+  /** the keel's half-width as a share of the bay (0.3) and its curve: 1 straight, above 1 concave, an ogee point */
+  keelWidth?: number; keelPow?: number
+  /** how far the barrels sink towards the middle of the block (0: not at all), so the gables stand above the roof behind them */
+  sag?: number
+  /** over how many metres from the facade the sag sets in (half the block's depth by default) */
+  sagDepth?: number
   /** draw the overhang's underside (default true) */
   underside?: boolean
 }) {
@@ -63,11 +69,13 @@ export function zakomaraBlock(o: {
     const c = Math.min(bs[bs.length - 1], Math.max(bs[0], v))
     for (let i = 0; i < bs.length - 1; i++) if (c >= bs[i] && c <= bs[i + 1]) {
       const w = bs[i + 1] - bs[i], m = (bs[i] + bs[i + 1]) / 2
-      return arcAt(c, bs[i], bs[i + 1], o.rise(w)) + (o.keel ?? 0) * Math.max(0, 1 - Math.abs(c - m) / (0.3 * w))
+      return arcAt(c, bs[i], bs[i + 1], o.rise(w)) + (o.keel ?? 0) * Math.max(0, 1 - Math.abs(c - m) / ((o.keelWidth ?? 0.3) * w)) ** (o.keelPow ?? 1)
     }
     return 0
   }
-  const h = (x: number, y: number) => zs + Math.max(arc1(x, xb), arc1(y, yb))
+  const sag = o.sag ?? 0
+  const fall = (v: number, a: number, b: number) => 1 - sag * Math.min(1, Math.max(0, Math.min(v - a, b - v)) / (o.sagDepth ?? (b - a) / 2))
+  const h = (x: number, y: number) => zs + Math.max(arc1(x, xb) * fall(y, Y0, Y1), arc1(y, yb) * fall(x, X0, X1))
   // roof grid: the wall lines and an overhang strip outside them, which drops a little
   const gx = [X0 - ov, ...samples(xb, n), X1 + ov], gy = [Y0 - ov, ...samples(yb, n), Y1 + ov]
   const zr = (i: number, j: number) => {
