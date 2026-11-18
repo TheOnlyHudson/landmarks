@@ -1,0 +1,15 @@
+{
+  "id": "sd-viejas-arena",
+  "name": "Viejas Arena",
+  "model": "sd-viejas-arena",
+  "place": "san-diego-area",
+  "lng": -117.07454,
+  "lat": 32.77381,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3557958",
+  "replaces": [
+    "way/31248345"
+  ]
+}

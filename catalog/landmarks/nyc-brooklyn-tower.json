@@ -1,0 +1,16 @@
+{
+  "id": "nyc-brooklyn-tower",
+  "name": "The Brooklyn Tower",
+  "model": "nyc-brooklyn-tower",
+  "lng": -73.9822394,
+  "lat": 40.690548,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q22329554",
+  "place": "new-york-area",
+  "replaces": [
+    "way/1229206093",
+    "way/1039403183"
+  ]
+}

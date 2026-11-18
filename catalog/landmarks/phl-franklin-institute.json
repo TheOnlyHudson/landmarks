@@ -1,0 +1,29 @@
+{
+  "id": "phl-franklin-institute",
+  "name": "The Franklin Institute",
+  "model": "phl-franklin-institute",
+  "place": "philadelphia-area",
+  "lng": -75.173123,
+  "lat": 39.958276,
+  "bearing": 9.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q339484",
+  "replaces": [
+    "way/50189935",
+    "way/340218748",
+    "way/348799949",
+    "way/348799950",
+    "way/348799951",
+    "way/348799956",
+    "way/348799961",
+    "way/348861027",
+    "way/348861046",
+    "way/349265879",
+    "way/349265880",
+    "way/349265882",
+    "way/349265906",
+    "way/349325913",
+    "way/349325914"
+  ]
+}

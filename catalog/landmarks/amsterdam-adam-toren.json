@@ -1,0 +1,23 @@
+{
+  "id": "amsterdam-adam-toren",
+  "name": "A'DAM Toren",
+  "model": "amsterdam-adam-toren",
+  "place": "amsterdam",
+  "lng": 4.902205,
+  "lat": 52.383779,
+  "bearing": 8.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/44824385",
+    "way/593068473",
+    "way/593068474",
+    "way/750257534",
+    "way/750257535",
+    "way/750257536",
+    "way/750257537",
+    "way/750296019",
+    "way/750296020"
+  ],
+  "wikidata": "Q2529795"
+}

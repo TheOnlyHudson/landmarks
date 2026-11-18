@@ -1,0 +1,15 @@
+{
+  "id": "dc-national-building-museum",
+  "name": "National Building Museum",
+  "model": "dc-national-building-museum",
+  "lng": -77.0175512,
+  "lat": 38.8977548,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q624008",
+  "replaces": [
+    "way/48040795"
+  ],
+  "place": "washington-area"
+}

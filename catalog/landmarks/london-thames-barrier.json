@@ -1,0 +1,23 @@
+{
+  "id": "london-thames-barrier",
+  "name": "Thames Barrier",
+  "model": "london-thames-barrier",
+  "place": "london",
+  "lng": 0.0369293,
+  "lat": 51.4973342,
+  "bearing": 355.06,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/4970600",
+    "way/4970589",
+    "way/4970587",
+    "way/4970572",
+    "way/4970577",
+    "way/4970578",
+    "way/4970580",
+    "way/4970583",
+    "way/4970585"
+  ],
+  "wikidata": "Q948363"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "barcelona-santa-maria-del-pi",
+  "name": "Santa Maria del Pi",
+  "model": "barcelona-santa-maria-del-pi",
+  "place": "barcelona",
+  "lng": 2.173934,
+  "lat": 41.382044,
+  "bearing": 308,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/625295824",
+    "way/821875781",
+    "way/625295823"
+  ],
+  "wikidata": "Q2293331"
+}

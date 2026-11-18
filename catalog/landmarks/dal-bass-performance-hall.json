@@ -1,0 +1,15 @@
+{
+  "id": "dal-bass-performance-hall",
+  "name": "Bass Performance Hall",
+  "model": "dal-bass-performance-hall",
+  "place": "dallas-area",
+  "lng": -97.3297758,
+  "lat": 32.7547781,
+  "bearing": 330,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/483466355"
+  ],
+  "wikidata": "Q2887300"
+}

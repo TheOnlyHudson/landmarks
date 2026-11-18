@@ -1,0 +1,54 @@
+{
+  "id": "hou-mfah-beck-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Beck Building MFAH",
+      "url": "https://commons.wikimedia.org/wiki/File:Beck_Building_MFAH.jpg",
+      "author": "WhisperToMe",
+      "license": "CC0"
+    },
+    {
+      "title": "Beck Building B",
+      "url": "https://commons.wikimedia.org/wiki/File:Beck_Building_B.jpg",
+      "author": "WhisperToMe",
+      "license": "CC0"
+    },
+    {
+      "title": "MFAH Beck Bldg",
+      "url": "https://commons.wikimedia.org/wiki/File:MFAH_Beck_Bldg.jpg",
+      "author": "WhisperToMe",
+      "license": "CC0"
+    },
+    {
+      "title": "Housmfa",
+      "url": "https://commons.wikimedia.org/wiki/File:Housmfa.jpg",
+      "author": "Judson Dunn",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/hou-mfah-beck-building.glb",
+  "source": "generators/hou-mfah-beck-building.ts"
+}

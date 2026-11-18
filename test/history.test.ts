@@ -7,6 +7,7 @@ import { buildHistory, type AssetHistory } from '../src/history'
 import { buildRelease } from '../src/release'
 import type { Catalog } from '../src/catalog'
 import { box, material, writeGlb } from './helpers'
+import { writeCatalog } from '../src/catalog-files'
 
 test('publishes real Git versions with their original geometry, source, placement, and license', () => {
   const root = mkdtempSync(join(tmpdir(), 'landmarks-history-'))
@@ -16,25 +17,28 @@ test('publishes real Git versions with their original geometry, source, placemen
     mkdirSync(join(root, 'models'))
     mkdirSync(join(root, 'generators'))
     const c: Catalog = { models: [{ id: 'tower', file: 'models/tower.glb', source: 'generators/tower.ts', license: 'CC-BY-4.0', author: 'Original author', attribution: 'Original credit' }], landmarks: [{ id: 'tower', name: 'Tower', model: 'tower', lng: 2, lat: 48, bearing: 30 }] }
-    const save = (height: number) => {
+    // The first version uses the old single catalog.json, the second the
+    // one-file-per-entry layout: history has to read both.
+    const save = (height: number, layout: 'legacy' | 'files') => {
       writeFileSync(join(root, 'models/tower.glb'), writeGlb('tower', [{ part: box([-1, -1, 0], [1, 1, height]), material }]))
       writeFileSync(join(root, 'generators/tower.ts'), `// height ${height}`)
-      writeFileSync(join(root, 'catalog.json'), JSON.stringify(c))
+      if (layout === 'legacy') writeFileSync(join(root, 'catalog.json'), JSON.stringify(c))
+      else { rmSync(join(root, 'catalog.json'), { force: true }); writeCatalog(root, c) }
     }
     const commit = (message: string) => {
-      git('add', '.')
+      git('add', '-A')
       git('-c', 'user.name=Test', '-c', 'user.email=test@example.com', 'commit', '-m', message)
       return git('rev-parse', 'HEAD')
     }
-    save(10)
+    save(10, 'legacy')
     const first = commit('First tower')
     const mainBranch = git('branch', '--show-current')
-    const before = buildRelease(root).assets[0]
+    const before = buildRelease(root, structuredClone(c)).assets[0]
     git('checkout', '-b', 'model-update')
     c.models[0].license = 'CC0-1.0'
     c.models[0].author = 'New author'
     c.landmarks[0].bearing = 60
-    save(20)
+    save(20, 'files')
     const second = commit('Update tower')
     git('checkout', mainBranch)
     git('-c', 'user.name=Test', '-c', 'user.email=test@example.com', 'merge', '--no-ff', 'model-update', '-m', 'Merge updated tower')

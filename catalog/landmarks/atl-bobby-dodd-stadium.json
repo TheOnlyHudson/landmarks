@@ -1,0 +1,17 @@
+{
+  "id": "atl-bobby-dodd-stadium",
+  "name": "Bobby Dodd Stadium",
+  "model": "atl-bobby-dodd-stadium",
+  "place": "atlanta-area",
+  "lng": -84.392982,
+  "lat": 33.772616,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/42706712",
+    "way/245699027",
+    "way/42706714"
+  ],
+  "wikidata": "Q2907951"
+}

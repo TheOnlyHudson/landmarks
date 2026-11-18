@@ -1,0 +1,17 @@
+{
+  "id": "seoul-some-sevit",
+  "name": "Some Sevit",
+  "model": "seoul-some-sevit",
+  "place": "seoul",
+  "lng": 126.9951856,
+  "lat": 37.5119725,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7451660",
+  "replaces": [
+    "way/414267182",
+    "way/320797228",
+    "way/320797229"
+  ]
+}

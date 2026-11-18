@@ -1,0 +1,15 @@
+{
+  "id": "london-marble-arch",
+  "name": "Marble Arch",
+  "model": "london-marble-arch",
+  "place": "london",
+  "lng": -0.158906,
+  "lat": 51.513184,
+  "bearing": 78.1,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q845529",
+  "replaces": [
+    "way/41772567"
+  ]
+}

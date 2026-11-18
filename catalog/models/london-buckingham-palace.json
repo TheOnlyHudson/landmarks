@@ -1,0 +1,69 @@
+{
+  "id": "london-buckingham-palace",
+  "file": "models/london-buckingham-palace.glb",
+  "source": "generators/london-buckingham-palace.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "palace",
+    "royal",
+    "historic",
+    "neoclassical",
+    "portland-stone"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Buckingham Palace, London - April 2009",
+      "url": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace,_London_-_April_2009.jpg",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Buckingham Palace from gardens, London, UK - Diliff",
+      "url": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace_from_gardens,_London,_UK_-_Diliff.jpg",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Buckingham Palace London Morning 2020 04",
+      "url": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace_London_Morning_2020_04.jpg",
+      "author": "Julian Herzog",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Rear of Buckingham Palace in 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:Rear_of_Buckingham_Palace_in_2025.jpg",
+      "author": "Dgp4004",
+      "license": "CC0"
+    },
+    {
+      "title": "Buckingham Palace from the air (geograph 4597489)",
+      "url": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace_from_the_air_-_geograph.org.uk_-_4597489.jpg",
+      "author": "Thomas Nugent",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Buckingham Palace at night",
+      "url": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace_at_night.jpg",
+      "author": "Tristan Surtel",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}

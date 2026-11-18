@@ -1,0 +1,16 @@
+{
+  "id": "london-harrods",
+  "name": "Harrods",
+  "model": "london-harrods",
+  "place": "london",
+  "lng": -0.162907,
+  "lat": 51.499186,
+  "bearing": 317.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q332474",
+  "replaces": [
+    "way/25739565",
+    "way/1370140203"
+  ]
+}

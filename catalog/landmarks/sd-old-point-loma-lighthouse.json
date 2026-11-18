@@ -1,0 +1,15 @@
+{
+  "id": "sd-old-point-loma-lighthouse",
+  "name": "Old Point Loma Lighthouse",
+  "model": "sd-old-point-loma-lighthouse",
+  "place": "san-diego-area",
+  "lng": -117.24098,
+  "lat": 32.67199,
+  "bearing": 6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/90687227"
+  ],
+  "wikidata": "Q7084751"
+}

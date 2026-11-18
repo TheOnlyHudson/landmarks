@@ -1,0 +1,29 @@
+{
+  "id": "bos-old-state-house",
+  "name": "Old State House",
+  "model": "bos-old-state-house",
+  "place": "boston-area",
+  "lng": -71.0574679,
+  "lat": 42.3587304,
+  "bearing": 357,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1320533",
+  "replaces": [
+    "way/29608515",
+    "way/240370259",
+    "way/240370263",
+    "way/240370267",
+    "way/240370271",
+    "way/240370272",
+    "way/240370273",
+    "way/240370275",
+    "way/240370281",
+    "way/240370282",
+    "way/240370285",
+    "way/240370294",
+    "way/240370295",
+    "way/240370301",
+    "way/240370304"
+  ]
+}

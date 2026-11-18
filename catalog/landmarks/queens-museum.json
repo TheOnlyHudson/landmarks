@@ -1,0 +1,15 @@
+{
+  "id": "queens-museum",
+  "name": "Queens Museum",
+  "model": "queens-museum",
+  "lng": -73.8467451,
+  "lat": 40.7458734,
+  "bearing": 337.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1320229",
+  "replaces": [
+    "way/284856409"
+  ],
+  "place": "new-york-area"
+}

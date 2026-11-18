@@ -1,0 +1,16 @@
+{
+  "id": "hou-shell-energy-stadium",
+  "name": "Shell Energy Stadium",
+  "model": "hou-shell-energy-stadium",
+  "place": "houston-area",
+  "lng": -95.35231,
+  "lat": 29.752107,
+  "bearing": 34.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q176460",
+  "replaces": [
+    "relation/4829389",
+    "way/261098257"
+  ]
+}

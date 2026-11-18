@@ -1,0 +1,18 @@
+{
+  "id": "london-olympic-stadium",
+  "name": "London Stadium",
+  "model": "london-olympic-stadium",
+  "place": "london",
+  "lng": -0.0165665,
+  "lat": 51.5386748,
+  "bearing": 354.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/10266378",
+    "way/486297861",
+    "way/843430380",
+    "way/843430381"
+  ],
+  "wikidata": "Q172190"
+}

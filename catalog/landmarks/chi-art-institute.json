@@ -1,0 +1,17 @@
+{
+  "id": "chi-art-institute",
+  "name": "Art Institute of Chicago",
+  "model": "chi-art-institute",
+  "lng": -87.62366,
+  "lat": 41.879567,
+  "bearing": 359.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q239303",
+  "replaces": [
+    "way/765296570",
+    "way/765296577",
+    "way/765296578"
+  ],
+  "place": "chicago-area"
+}

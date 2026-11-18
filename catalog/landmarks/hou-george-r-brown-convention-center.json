@@ -1,0 +1,15 @@
+{
+  "id": "hou-george-r-brown-convention-center",
+  "name": "George R. Brown Convention Center",
+  "model": "hou-george-r-brown-convention-center",
+  "place": "houston-area",
+  "lng": -95.3578636,
+  "lat": 29.7521387,
+  "bearing": 34.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q5543614",
+  "replaces": [
+    "way/44129959"
+  ]
+}

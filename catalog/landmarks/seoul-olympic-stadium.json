@@ -1,0 +1,15 @@
+{
+  "id": "seoul-olympic-stadium",
+  "name": "Seoul Olympic Stadium",
+  "model": "seoul-olympic-stadium",
+  "place": "seoul",
+  "lng": 127.0727668,
+  "lat": 37.515831,
+  "bearing": 355.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q392086",
+  "replaces": [
+    "relation/20348235"
+  ]
+}

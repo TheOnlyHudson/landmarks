@@ -1,0 +1,69 @@
+{
+  "id": "london-leadenhall-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "high-tech",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "wikidata": "Q2742547",
+  "references": [
+    {
+      "title": "Cheesegrater and Gherkin",
+      "url": "https://commons.wikimedia.org/wiki/File:Cheesegrater_and_Gherkin.jpg",
+      "author": "Colin",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "London MMB »2B1 122 Leadenhall Street",
+      "url": "https://commons.wikimedia.org/wiki/File:London_MMB_%C2%BB2B1_122_Leadenhall_Street.jpg",
+      "author": "mattbuck",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "22 Bishopsgate and 122 Leadenhall Street from Bloomberg London",
+      "url": "https://commons.wikimedia.org/wiki/File:22_Bishopsgate_and_122_Leadenhall_Street_from_Bloomberg_London.jpg",
+      "author": "The wub",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Leadenhall and Lloyd's Buildings",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Leadenhall_and_Lloyd%27s_Buildings.jpg",
+      "author": "Maksim Sokolov",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "London 122 Leadenhall Street lifts 1",
+      "url": "https://commons.wikimedia.org/wiki/File:London_122_Leadenhall_Street_lifts_1.jpg",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "City of London as seen from The Shard, 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:City_of_London_as_seen_from_The_Shard,_2026.jpg",
+      "author": "ThatsTheBoss",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/london-leadenhall-building.glb",
+  "source": "generators/london-leadenhall-building.ts"
+}

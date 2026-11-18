@@ -1,0 +1,67 @@
+{
+  "id": "cpt-castle-of-good-hope",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "fort",
+    "museum"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "The Castle of Good Hope Cape Town - Arial view",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Castle_of_Good_Hope_Cape_Town_-_Arial_view.JPG",
+      "author": "Debbielouise",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Castle of Good Hope, Cape Town 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Castle_of_Good_Hope,_Cape_Town_01.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Castle of Good Hope, Cape Town 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Castle_of_Good_Hope,_Cape_Town_02.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cape Town's Castle of Good Hope",
+      "url": "https://commons.wikimedia.org/wiki/File:Cape_Town%27s_Castle_of_Good_Hope.jpg",
+      "author": "Witstinkhout",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Castle of Good Hope, Cape Town, South Africa",
+      "url": "https://commons.wikimedia.org/wiki/File:Castle_of_Good_Hope,_Cape_Town,_South_Africa.jpg",
+      "author": "CivArmy",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Castle of Good Hope Cape Town - View of Leerdam 1",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Castle_of_Good_Hope_Cape_Town_-_View_of_Leerdam_1.JPG",
+      "author": "Debbielouise",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/cpt-castle-of-good-hope.glb",
+  "source": "generators/cpt-castle-of-good-hope.ts"
+}

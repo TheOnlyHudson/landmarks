@@ -1,0 +1,15 @@
+{
+  "id": "sd-coronado-bridge",
+  "name": "San Diego–Coronado Bridge",
+  "model": "sd-coronado-bridge",
+  "place": "san-diego-area",
+  "lng": -117.1522448,
+  "lat": 32.6921275,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q2062395",
+  "replaces": [
+    "way/1538967145"
+  ]
+}

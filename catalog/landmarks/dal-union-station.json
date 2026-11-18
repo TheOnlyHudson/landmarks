@@ -1,0 +1,15 @@
+{
+  "id": "dal-union-station",
+  "name": "Dallas Union Station",
+  "model": "dal-union-station",
+  "place": "dallas-area",
+  "lng": -96.8075375,
+  "lat": 32.7761299,
+  "bearing": 345,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5371609",
+  "replaces": [
+    "way/25699224"
+  ]
+}

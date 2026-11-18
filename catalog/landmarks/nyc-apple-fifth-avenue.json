@@ -1,0 +1,15 @@
+{
+  "id": "nyc-apple-fifth-avenue",
+  "name": "Apple Fifth Avenue",
+  "model": "nyc-apple-fifth-avenue",
+  "place": "new-york-area",
+  "lng": -73.9729641,
+  "lat": 40.7638426,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q105695664",
+  "replaces": [
+    "way/156958129"
+  ]
+}

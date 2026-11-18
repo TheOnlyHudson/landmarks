@@ -1,0 +1,61 @@
+{
+  "id": "amsterdam-hart-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum",
+    "almshouse"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hermitage amsterdam panorama.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hermitage_amsterdam_panorama.jpg",
+      "author": "S Sepp",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Amsterdam Amstelhof seen from Blauwbrug.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Amstelhof_seen_from_Blauwbrug.jpg",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "H'ART Museum letters in the Amstelhof garden, Amsterdam, October 2026.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:H%27ART_Museum_letters_in_the_Amstelhof_garden,_Amsterdam,_October_2026.jpg",
+      "author": "ThoseIcons",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amsterdam Amstelhof Southern part of the eastern wing.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Amstelhof_Southern_part_of_the_eastern_wing.jpg",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "3D BAG, NL.IMBAG.Pand.0363100012165553",
+      "url": "https://3dbag.nl/",
+      "author": "TU Delft 3D geoinformation group / 3DGI",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/amsterdam-hart-museum.glb",
+  "source": "generators/amsterdam-hart-museum.ts"
+}

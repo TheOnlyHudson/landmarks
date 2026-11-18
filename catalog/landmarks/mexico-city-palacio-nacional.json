@@ -1,0 +1,18 @@
+{
+  "id": "mexico-city-palacio-nacional",
+  "name": "Palacio Nacional",
+  "model": "mexico-city-palacio-nacional",
+  "place": "mexico-city",
+  "lng": -99.1312869,
+  "lat": 19.4324595,
+  "bearing": 6.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1517884",
+  "replaces": [
+    "relation/6191295",
+    "way/1424006945",
+    "way/1424006946",
+    "way/1424006947"
+  ]
+}

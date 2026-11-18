@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-walled-obelisk",
+  "name": "Walled Obelisk",
+  "model": "istanbul-walled-obelisk",
+  "place": "istanbul",
+  "lng": 28.974842,
+  "lat": 41.005405,
+  "bearing": 41,
+  "elevation": -1.5,
+  "minzoom": 16,
+  "wikidata": "Q742474",
+  "replaces": [
+    "way/1120852418"
+  ]
+}

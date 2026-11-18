@@ -1,0 +1,71 @@
+{
+  "id": "seoul-seokjojeon",
+  "file": "models/seoul-seokjojeon.glb",
+  "source": "generators/seoul-seokjojeon.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "palace",
+    "museum",
+    "neoclassical",
+    "historic",
+    "colonnade",
+    "granite"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The neoclassical stone palace of Deoksugung (1910): a giant Ionic order on a raised basement, the pedimented central portico, and colonnaded verandas on both floors.",
+  "references": [
+    {
+      "title": "Seokjojeon 20240409 081",
+      "url": "https://commons.wikimedia.org/wiki/File:Seokjojeon_20240409_081.jpg",
+      "author": "Mobius6",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Deoksugung, Seoul - Seoul3231",
+      "url": "https://commons.wikimedia.org/wiki/File:Deoksugung,_Seoul_-_Seoul3231.jpg",
+      "author": "lumoplank",
+      "license": "CC0"
+    },
+    {
+      "title": "Seokjojeon (Korean Empire History Museum) 20191221 19",
+      "url": "https://commons.wikimedia.org/wiki/File:Seokjojeon_(Korean_Empire_History_Museum)_20191221_19.jpg",
+      "author": "Ahmed",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Seokjojeon (Korean Empire History Museum) 20191221 16",
+      "url": "https://commons.wikimedia.org/wiki/File:Seokjojeon_(Korean_Empire_History_Museum)_20191221_16.jpg",
+      "author": "Ahmed",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Seokjojeon of Deoksugung palace",
+      "url": "https://commons.wikimedia.org/wiki/File:Seokjojeon_of_Deoksugung_palace.jpg",
+      "author": "Pip1024",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Seokjojeon IMG 2079",
+      "url": "https://commons.wikimedia.org/wiki/File:Seokjojeon_IMG_2079.jpg",
+      "author": "G41rn8",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}

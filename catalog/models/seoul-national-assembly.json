@@ -1,0 +1,55 @@
+{
+  "id": "seoul-national-assembly",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "parliament",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Republic of Korea capitol.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Republic_of_Korea_capitol.jpg",
+      "author": "Cjb8293",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Fountain in National Assembly Building of South Korea.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fountain_in_National_Assembly_Building_of_South_Korea.jpg",
+      "author": "AnbyG",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Korea-Seoul-Yeouido-National Assembly Building-03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Seoul-Yeouido-National_Assembly_Building-03.jpg",
+      "author": "Alain Seguin",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Pond of the National Assembly in South Korea.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pond_of_the_National_Assembly_in_South_Korea.jpg",
+      "author": "Cjb8293",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/seoul-national-assembly.glb",
+  "source": "generators/seoul-national-assembly.ts"
+}

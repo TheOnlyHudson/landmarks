@@ -1,0 +1,14 @@
+{
+  "id": "phl-memorial-hall",
+  "name": "Memorial Hall",
+  "model": "phl-memorial-hall",
+  "place": "philadelphia-area",
+  "lng": -75.209047,
+  "lat": 39.979462,
+  "bearing": 25.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/49916202"
+  ]
+}

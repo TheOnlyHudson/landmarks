@@ -1,0 +1,21 @@
+{
+  "id": "dc-national-archives",
+  "name": "National Archives Building",
+  "model": "dc-national-archives",
+  "lng": -77.0229196,
+  "lat": 38.8928207,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q518155",
+  "replaces": [
+    "way/66418953",
+    "way/427815124",
+    "way/427815125",
+    "way/427815126",
+    "way/427815127",
+    "way/427815128",
+    "way/427815129"
+  ],
+  "place": "washington-area"
+}

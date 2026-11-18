@@ -1,0 +1,15 @@
+{
+  "id": "guggenheim-museum",
+  "model": "guggenheim-museum",
+  "name": "Guggenheim Museum",
+  "lng": -73.958925,
+  "lat": 40.7829932,
+  "bearing": 29,
+  "minzoom": 15,
+  "wikidata": "Q201469",
+  "replaces": [
+    "way/170149134",
+    "way/266938639"
+  ],
+  "place": "new-york-area"
+}

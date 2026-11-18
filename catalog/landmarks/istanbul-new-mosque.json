@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-new-mosque",
+  "name": "New Mosque (Yeni Cami)",
+  "model": "istanbul-new-mosque",
+  "place": "istanbul",
+  "lng": 28.972069,
+  "lat": 41.016953,
+  "bearing": 319,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q911720",
+  "replaces": [
+    "relation/7574356"
+  ]
+}

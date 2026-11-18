@@ -1,0 +1,60 @@
+{
+  "id": "hou-hobby-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theatre",
+    "performing-arts",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hobby Center, Houston",
+      "url": "https://commons.wikimedia.org/wiki/File:Hobby_Center,_Houston.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Houston May 2022 17 (Hobby Center for the Performing Arts)",
+      "url": "https://commons.wikimedia.org/wiki/File:Houston_May_2022_17_(Hobby_Center_for_the_Performing_Arts).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "HoustonTX HobbyCenter",
+      "url": "https://commons.wikimedia.org/wiki/File:HoustonTX_HobbyCenter.jpg",
+      "license": "Public domain"
+    },
+    {
+      "title": "Hobby Center Houston",
+      "url": "https://commons.wikimedia.org/wiki/File:Hobby_Center_Houston.jpg",
+      "author": "Ed Schipul",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "The Hobby Center White Christmas",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Hobby_Center_White_Christmas.jpg",
+      "author": "Ed Schipul",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/hou-hobby-center.glb",
+  "source": "generators/hou-hobby-center.ts"
+}

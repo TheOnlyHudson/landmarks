@@ -1,0 +1,17 @@
+{
+  "id": "barcelona-torre-jaume-i",
+  "name": "Torre de Jaume I",
+  "model": "barcelona-torre-jaume-i",
+  "place": "barcelona",
+  "lng": 2.18011,
+  "lat": 41.372075,
+  "bearing": 32,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/8997201",
+    "way/646563787",
+    "way/646563774"
+  ],
+  "wikidata": "Q2736529"
+}

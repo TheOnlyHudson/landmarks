@@ -1,0 +1,15 @@
+{
+  "id": "chi-fourth-presbyterian",
+  "name": "Fourth Presbyterian Church",
+  "model": "chi-fourth-presbyterian",
+  "lng": -87.624753,
+  "lat": 41.898995,
+  "bearing": 358.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q4290682",
+  "replaces": [
+    "way/129575948"
+  ],
+  "place": "chicago-area"
+}

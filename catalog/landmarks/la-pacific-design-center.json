@@ -1,0 +1,20 @@
+{
+  "id": "la-pacific-design-center",
+  "name": "Pacific Design Center",
+  "model": "la-pacific-design-center",
+  "lng": -118.382418,
+  "lat": 34.0823702,
+  "bearing": 63,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q7122426",
+  "replaces": [
+    "way/31439559",
+    "way/429370081",
+    "way/535093304",
+    "way/535093308",
+    "way/535093311",
+    "way/390777734"
+  ],
+  "place": "los-angeles-area"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "carowinds-carolina-goldrusher",
+  "name": "Carolina Goldrusher",
+  "model": "carowinds-carolina-goldrusher",
+  "lng": -80.9422424,
+  "lat": 35.1029548,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q5044835",
+  "replaces": [
+    "way/668730923",
+    "way/669205940",
+    "way/895071507",
+    "way/895071508",
+    "way/895071510",
+    "way/895071511",
+    "way/895071512",
+    "way/895071506",
+    "way/895071509",
+    "way/891133321"
+  ],
+  "place": "carowinds"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "la-griffith-observatory",
+  "name": "Griffith Observatory",
+  "model": "la-griffith-observatory",
+  "lng": -118.300348,
+  "lat": 34.1182539,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q575901",
+  "replaces": [
+    "way/422130705"
+  ],
+  "place": "los-angeles-area"
+}

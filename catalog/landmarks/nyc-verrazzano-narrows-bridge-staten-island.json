@@ -1,0 +1,15 @@
+{
+  "id": "nyc-verrazzano-narrows-bridge-staten-island",
+  "name": "Verrazzano-Narrows Bridge (Staten Island tower)",
+  "model": "nyc-verrazzano-narrows-bridge",
+  "lng": -74.0524966,
+  "lat": 40.6040508,
+  "bearing": 247.1,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q125673",
+  "replaces": [
+    "way/1016642058"
+  ],
+  "place": "new-york-area"
+}

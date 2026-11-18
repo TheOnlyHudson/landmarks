@@ -1,0 +1,15 @@
+{
+  "id": "chi-field-museum",
+  "name": "Field Museum",
+  "model": "chi-field-museum",
+  "lng": -87.6170432,
+  "lat": 41.8662113,
+  "bearing": 358.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1122595",
+  "replaces": [
+    "way/24825537"
+  ],
+  "place": "chicago-area"
+}

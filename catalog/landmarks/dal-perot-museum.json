@@ -1,0 +1,16 @@
+{
+  "id": "dal-perot-museum",
+  "name": "Perot Museum of Nature and Science",
+  "model": "dal-perot-museum",
+  "place": "dallas-area",
+  "lng": -96.8063744,
+  "lat": 32.786905,
+  "bearing": 32,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7169478",
+  "replaces": [
+    "way/618964796",
+    "way/1188705976"
+  ]
+}

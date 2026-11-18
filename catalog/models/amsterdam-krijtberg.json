@@ -1,0 +1,73 @@
+{
+  "id": "amsterdam-krijtberg",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "historic",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Krijtberg 2856.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Krijtberg_2856.jpg",
+      "author": "C messier",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amsterdam - De Krijtberg church - 1308.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_De_Krijtberg_church_-_1308.jpg",
+      "author": "Jorge Royan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Overzicht neogotische kruisbasiliek - Amsterdam - 20369642 - RCE.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Overzicht_neogotische_kruisbasiliek_-_Amsterdam_-_20369642_-_RCE.jpg",
+      "author": "Rijksdienst voor het Cultureel Erfgoed",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Overzicht met R.K. kerk De Krijtberg - Amsterdam - 20020935 - RCE.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Overzicht_met_R.K._kerk_De_Krijtberg_-_Amsterdam_-_20020935_-_RCE.jpg",
+      "author": "Gerard Dukker",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amsterdam De Krijtberg Fassade 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_De_Krijtberg_Fassade_2.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "De Krijtberg, Singel.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:De_Krijtberg,_Singel.JPG",
+      "author": "Alf van Beem",
+      "license": "CC0"
+    },
+    {
+      "title": "De Krijtberg (5821469239).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:De_Krijtberg_(5821469239).jpg",
+      "author": "Jorge Láscar",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/amsterdam-krijtberg.glb",
+  "source": "generators/amsterdam-krijtberg.ts"
+}

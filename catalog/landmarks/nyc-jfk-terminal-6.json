@@ -1,0 +1,15 @@
+{
+  "id": "nyc-jfk-terminal-6",
+  "name": "JFK Airport Terminal 6",
+  "model": "nyc-jfk-terminal-6",
+  "place": "new-york-area",
+  "lng": -73.7802563,
+  "lat": 40.6480739,
+  "bearing": 39,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/1556624971",
+    "way/1556624970"
+  ]
+}

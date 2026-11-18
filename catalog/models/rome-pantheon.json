@@ -1,0 +1,87 @@
+{
+  "id": "rome-pantheon",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "ancient-roman",
+    "temple",
+    "church",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Rome Pantheon facade.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rome_Pantheon_facade.jpg",
+      "author": "Nicholas Hartmann",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pantheon in Rome (1).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pantheon_in_Rome_(1).jpg",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pantheon (Rome) - Exterior 04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_-_Exterior_04.jpg",
+      "author": "John Samuel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pantheon (Rome) - Exterior 10.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_-_Exterior_10.jpg",
+      "author": "John Samuel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pantheon roof 1, Rome.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pantheon_roof_1,_Rome.jpg",
+      "author": "Nhartmannphotos",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pantheon-Roof-from-Gianicolo-2012.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Pantheon-Roof-from-Gianicolo-2012.JPG",
+      "author": "Bjørn Christian Tørrissen",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Pantheon (Rome) E 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_E_2.jpg",
+      "author": "Wknight94",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "0 Pantheon - Rome (1a).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:0_Pantheon_-_Rome_(1a).JPG",
+      "author": "Jean-Pol Grandmont",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "14 494 Pantheon, Vittoriano, San Agnese.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:14_494_Pantheon,_Vittoriano,_San_Agnese.jpg",
+      "author": "Falk2",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/rome-pantheon.glb",
+  "source": "generators/rome-pantheon.ts"
+}

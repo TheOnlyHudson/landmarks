@@ -1,0 +1,17 @@
+{
+  "id": "nyc-ellis-island",
+  "name": "Ellis Island Immigration Museum",
+  "model": "nyc-ellis-island",
+  "lng": -74.0394915,
+  "lat": 40.6991381,
+  "bearing": 44.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q102312434",
+  "replaces": [
+    "way/95161971",
+    "way/1177355003",
+    "way/1177355004"
+  ],
+  "place": "new-york-area"
+}

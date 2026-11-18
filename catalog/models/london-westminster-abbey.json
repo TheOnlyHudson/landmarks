@@ -1,0 +1,100 @@
+{
+  "id": "london-westminster-abbey",
+  "file": "models/london-westminster-abbey.glb",
+  "source": "generators/london-westminster-abbey.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "gothic",
+    "historic",
+    "abbey"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/london-westminster-abbey.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Westminster from the dome on Methodist Central Hall",
+      "url": "https://commons.wikimedia.org/wiki/File:Westminster_from_the_dome_on_Methodist_Central_Hall.jpg",
+      "author": "Colin",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "London - View from London Eye - Westminster Abbey",
+      "url": "https://commons.wikimedia.org/wiki/File:London_-_View_from_London_Eye_-_Westminster_Abbey_-_panoramio.jpg",
+      "author": "giggel",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Westminster Abbey from inside the London Eye",
+      "url": "https://commons.wikimedia.org/wiki/File:Westminster_Abbey_from_inside_the_London_Eye_(8658660241).jpg",
+      "author": "Mikey from Wythenshawe, Manchester, UK",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "The West front of Westminster Abbey and Victoria Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:The_West_front_of_Westminster_Abbey_and_Victoria_Tower.jpg",
+      "author": "Ozeye",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "North Transept, Westminster Abbey",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Transept,_Westminster_Abbey_-_geograph.org.uk_-_2517097.jpg",
+      "author": "Philip Pankhurst",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "London, Westminster Abbey -- 2016 -- 4811",
+      "url": "https://commons.wikimedia.org/wiki/File:London,_Westminster_Abbey_--_2016_--_4811.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Westminster Abbey and St Margaret's",
+      "url": "https://commons.wikimedia.org/wiki/File:Westminster_Abbey_and_St_Margaret%27s.jpg",
+      "author": "Tristan Surtel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "View of Westminster Abbey from Parliament Square",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Westminster_Abbey_from_Parliament_Square_-_geograph.org.uk_-_4112697.jpg",
+      "author": "Robert Lamb",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "London - Old Palace Yard - Henry VII Lady Chapel of Westminster Abbey",
+      "url": "https://commons.wikimedia.org/wiki/File:London_-_Old_Palace_Yard_-_Henry_VII_Lady_Chapel_of_Westminster_Abbey_-_Retouched_by_Gothic_Revival_Architect_Sir_George_Gilbert_Scott.jpg",
+      "author": "Txllxt TxllxT",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "London - St Margaret Street - Henry VII Lady Chapel of Westminster Abbey",
+      "url": "https://commons.wikimedia.org/wiki/File:London_-_St_Margaret_Street_-_Henry_VII_Lady_Chapel_of_Westminster_Abbey_-_Retouched_by_Gothic_Revival_Architect_Sir_George_Gilbert_Scott.jpg",
+      "author": "Txllxt TxllxT",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Environment Agency LIDAR Composite DSM/DTM 1 m",
+      "url": "https://environment.data.gov.uk/dataset/9ba4d5ac-d596-445a-9056-dae3ddec0178",
+      "author": "Environment Agency",
+      "license": "OGL-UK-3.0"
+    }
+  ]
+}

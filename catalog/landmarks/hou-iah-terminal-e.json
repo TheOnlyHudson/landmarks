@@ -1,0 +1,15 @@
+{
+  "id": "hou-iah-terminal-e",
+  "name": "George Bush Intercontinental Airport Terminal E",
+  "model": "hou-iah-terminal-e",
+  "place": "houston-area",
+  "lng": -95.333833,
+  "lat": 29.985221,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q56100816",
+  "replaces": [
+    "way/191969986"
+  ]
+}

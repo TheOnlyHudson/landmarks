@@ -1,0 +1,20 @@
+{
+  "id": "sf-paramount-theatre",
+  "name": "Paramount Theatre",
+  "model": "sf-paramount-theatre",
+  "lng": -122.2685961,
+  "lat": 37.8098546,
+  "bearing": 27.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q14683611",
+  "replaces": [
+    "way/666976181",
+    "way/666976187",
+    "way/666974159",
+    "way/666974169",
+    "way/666976173",
+    "way/666976174"
+  ],
+  "place": "san-francisco-bay-area"
+}

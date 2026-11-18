@@ -1,0 +1,22 @@
+{
+  "id": "clt-design-center",
+  "name": "Design Center of the Carolinas",
+  "model": "clt-design-center",
+  "lng": -80.86029,
+  "lat": 35.21151,
+  "bearing": 30,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q19461793",
+  "replaces": [
+    "relation/16116037",
+    "way/1416657152",
+    "way/1416657153",
+    "way/1416657154",
+    "way/1416657155",
+    "way/1416657156",
+    "way/1416657157",
+    "way/1416657158"
+  ],
+  "place": "charlotte-area"
+}

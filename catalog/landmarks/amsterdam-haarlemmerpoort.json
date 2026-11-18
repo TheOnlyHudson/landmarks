@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-haarlemmerpoort",
+  "name": "Haarlemmerpoort",
+  "model": "amsterdam-haarlemmerpoort",
+  "place": "amsterdam",
+  "lng": 4.88308,
+  "lat": 52.384967,
+  "bearing": 43,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/33202039"
+  ],
+  "wikidata": "Q2343931"
+}

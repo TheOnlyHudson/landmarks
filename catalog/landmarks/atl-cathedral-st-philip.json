@@ -1,0 +1,16 @@
+{
+  "id": "atl-cathedral-st-philip",
+  "name": "Cathedral of St. Philip",
+  "model": "atl-cathedral-st-philip",
+  "place": "atlanta-area",
+  "lng": -84.3871372,
+  "lat": 33.830824,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/267773373",
+    "relation/3591730"
+  ],
+  "wikidata": "Q5383288"
+}

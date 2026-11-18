@@ -1,0 +1,16 @@
+{
+  "id": "sd-mission-san-diego",
+  "name": "Mission Basilica San Diego de Alcalá",
+  "model": "sd-mission-san-diego",
+  "place": "san-diego-area",
+  "lng": -117.10631,
+  "lat": 32.78479,
+  "bearing": 43,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q617891",
+  "replaces": [
+    "relation/14963099",
+    "way/1119076937"
+  ]
+}

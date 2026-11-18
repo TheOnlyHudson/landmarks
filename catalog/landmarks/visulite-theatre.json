@@ -1,0 +1,14 @@
+{
+  "id": "visulite-theatre",
+  "name": "Visulite Theatre",
+  "model": "visulite-theatre",
+  "lng": -80.8259955,
+  "lat": 35.2136047,
+  "bearing": 46,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/957552031"
+  ],
+  "place": "charlotte-area"
+}

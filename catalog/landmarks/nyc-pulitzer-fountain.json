@@ -1,0 +1,13 @@
+{
+  "id": "nyc-pulitzer-fountain",
+  "name": "Pulitzer Fountain",
+  "model": "nyc-pulitzer-fountain",
+  "lng": -73.97362,
+  "lat": 40.764043,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 17,
+  "wikidata": "Q18157051",
+  "replaces": [],
+  "place": "new-york-area"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "london-22-bishopsgate",
+  "name": "22 Bishopsgate",
+  "model": "london-22-bishopsgate",
+  "place": "london",
+  "lng": -0.0830161,
+  "lat": 51.5144222,
+  "bearing": 36,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/717332347",
+    "way/717373627",
+    "way/717373628",
+    "way/717373629",
+    "way/717373630",
+    "way/717374379",
+    "way/717374380"
+  ],
+  "wikidata": "Q18602"
+}

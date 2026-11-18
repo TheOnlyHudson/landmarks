@@ -1,0 +1,19 @@
+{
+  "id": "chi-shedd-aquarium",
+  "name": "Shedd Aquarium",
+  "model": "chi-shedd-aquarium",
+  "lng": -87.6140757,
+  "lat": 41.8676081,
+  "bearing": 358.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2166515",
+  "replaces": [
+    "relation/17430414",
+    "way/766506552",
+    "way/766511382",
+    "way/766511383",
+    "way/766511381"
+  ],
+  "place": "chicago-area"
+}

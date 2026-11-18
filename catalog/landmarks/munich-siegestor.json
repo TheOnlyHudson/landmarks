@@ -1,0 +1,15 @@
+{
+  "id": "munich-siegestor",
+  "name": "Siegestor",
+  "model": "munich-siegestor",
+  "place": "munich",
+  "lng": 11.58214,
+  "lat": 48.15235,
+  "bearing": 18.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q254294",
+  "replaces": [
+    "way/22727580"
+  ]
+}

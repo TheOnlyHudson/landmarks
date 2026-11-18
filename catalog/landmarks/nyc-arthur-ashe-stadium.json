@@ -1,0 +1,15 @@
+{
+  "id": "nyc-arthur-ashe-stadium",
+  "name": "Arthur Ashe Stadium",
+  "model": "nyc-arthur-ashe-stadium",
+  "lng": -73.8470437,
+  "lat": 40.7498907,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q609551",
+  "replaces": [
+    "way/284859611"
+  ],
+  "place": "new-york-area"
+}

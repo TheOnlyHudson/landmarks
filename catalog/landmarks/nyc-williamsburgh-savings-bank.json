@@ -1,0 +1,33 @@
+{
+  "id": "nyc-williamsburgh-savings-bank",
+  "name": "Williamsburgh Savings Bank Tower",
+  "model": "nyc-williamsburgh-savings-bank",
+  "lng": -73.9777183,
+  "lat": 40.6855095,
+  "bearing": -6.7,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q8021187",
+  "replaces": [
+    "way/250979509",
+    "way/700246652",
+    "way/1517819427",
+    "way/1517819428",
+    "way/1517819429",
+    "way/1517819432",
+    "way/1517819433",
+    "way/1517819434",
+    "way/1517819435",
+    "way/1517819436",
+    "way/1517819437",
+    "way/1517819438",
+    "way/1517819439",
+    "way/1517819440",
+    "way/1517819441",
+    "way/1517819442",
+    "way/1517819443",
+    "way/1517819444",
+    "relation/20712618"
+  ],
+  "place": "new-york-area"
+}

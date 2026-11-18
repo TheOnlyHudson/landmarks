@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-de-gooyer",
+  "name": "De Gooyer",
+  "model": "amsterdam-de-gooyer",
+  "place": "amsterdam",
+  "lng": 4.926173,
+  "lat": 52.366808,
+  "bearing": 45,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/269052487"
+  ],
+  "wikidata": "Q2756543"
+}

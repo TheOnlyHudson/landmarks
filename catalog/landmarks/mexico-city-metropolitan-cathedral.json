@@ -1,0 +1,27 @@
+{
+  "id": "mexico-city-metropolitan-cathedral",
+  "name": "Metropolitan Cathedral of Mexico City",
+  "model": "mexico-city-metropolitan-cathedral",
+  "place": "mexico-city",
+  "lng": -99.1331213,
+  "lat": 19.4344032,
+  "bearing": 7.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q610961",
+  "replaces": [
+    "way/862852010",
+    "way/862873648",
+    "way/1050213473",
+    "way/1050213474",
+    "way/462287918",
+    "way/862366582",
+    "way/862366583",
+    "way/862420735",
+    "way/1050202443",
+    "way/1050202444",
+    "way/1050204076",
+    "way/1050204077",
+    "way/1050204882"
+  ]
+}

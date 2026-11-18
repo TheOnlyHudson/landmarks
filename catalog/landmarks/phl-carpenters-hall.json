@@ -1,0 +1,19 @@
+{
+  "id": "phl-carpenters-hall",
+  "name": "Carpenters' Hall",
+  "model": "phl-carpenters-hall",
+  "place": "philadelphia-area",
+  "lng": -75.147214,
+  "lat": 39.948142,
+  "bearing": 10,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1093592",
+  "replaces": [
+    "way/261314259",
+    "way/335689522",
+    "way/335689523",
+    "way/335689524",
+    "way/335799889"
+  ]
+}

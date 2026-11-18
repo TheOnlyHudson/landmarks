@@ -1,0 +1,15 @@
+{
+  "id": "quito-virgen-del-panecillo",
+  "name": "Virgen de El Panecillo",
+  "model": "quito-virgen-del-panecillo",
+  "place": "quito",
+  "lng": -78.5185747,
+  "lat": -0.2288561,
+  "bearing": 20,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q6163386",
+  "replaces": [
+    "way/302693995"
+  ]
+}

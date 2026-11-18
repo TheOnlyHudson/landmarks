@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-museo-jumex",
+  "name": "Museo Jumex",
+  "model": "mexico-city-museo-jumex",
+  "place": "mexico-city",
+  "lng": -99.2035926,
+  "lat": 19.4404617,
+  "bearing": 346.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/885052520"
+  ],
+  "wikidata": "Q5142722"
+}

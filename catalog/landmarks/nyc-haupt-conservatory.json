@@ -1,0 +1,29 @@
+{
+  "id": "nyc-haupt-conservatory",
+  "name": "Enid A. Haupt Conservatory",
+  "model": "nyc-haupt-conservatory",
+  "lng": -73.8821292,
+  "lat": 40.8639038,
+  "bearing": -31.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5378850",
+  "replaces": [
+    "way/284835739",
+    "way/333933247",
+    "way/335587477",
+    "way/334959161",
+    "way/334959164",
+    "way/334960333",
+    "way/334961377",
+    "way/334961620",
+    "way/334961621",
+    "way/334962878",
+    "way/334962999",
+    "way/334963049",
+    "way/334963115",
+    "way/334963825",
+    "way/334963826"
+  ],
+  "place": "new-york-area"
+}

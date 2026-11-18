@@ -1,0 +1,16 @@
+{
+  "id": "cpt-st-georges-cathedral",
+  "name": "St George's Cathedral",
+  "model": "cpt-st-georges-cathedral",
+  "place": "cape-town",
+  "lng": 18.4194365,
+  "lat": -33.9248907,
+  "bearing": 41,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/141281671",
+    "way/141281674"
+  ],
+  "wikidata": "Q2499579"
+}

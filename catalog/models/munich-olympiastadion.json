@@ -1,0 +1,71 @@
+{
+  "id": "munich-olympiastadion",
+  "detail": "models/munich-olympiastadion.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "olympic",
+    "tensile-structure",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q131610",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Blick vom Olympiaberg auf das Olympiastadion.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Blick_vom_Olympiaberg_auf_das_Olympiastadion.jpg",
+      "author": "Amrei-Marie",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Olympiastadion München von oben.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Olympiastadion_M%C3%BCnchen_von_oben.jpg",
+      "author": "Deaq",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "20220923 Olympic Stadium Munich.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:20220923_Olympic_Stadium_Munich.jpg",
+      "author": "Flocci Nivis",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "München - Olympiapark (Luftbild).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Olympiapark_(Luftbild).jpg",
+      "author": "Maximilian Dörrbecker (Chumwa)",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "Munich - Frei Otto Tensed structures - 5293.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Munich_-_Frei_Otto_Tensed_structures_-_5293.jpg",
+      "author": "Jorge Royan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Zeltdach Olympiastadion München.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Zeltdach_Olympiastadion_M%C3%BCnchen.JPG",
+      "author": "Wikiolo",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/munich-olympiastadion.glb",
+  "source": "generators/munich-olympiastadion.ts"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "barcelona-sant-pau-administration",
+  "name": "Sant Pau Administration Pavilion",
+  "model": "barcelona-sant-pau-administration",
+  "place": "barcelona",
+  "lng": 2.17434,
+  "lat": 41.411802,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/7422815",
+    "way/645290929",
+    "way/645290930",
+    "way/645290931",
+    "way/645290932",
+    "way/645290933",
+    "way/645290934"
+  ]
+}

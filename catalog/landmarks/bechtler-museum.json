@@ -1,0 +1,15 @@
+{
+  "id": "bechtler-museum",
+  "name": "Bechtler Museum of Modern Art",
+  "model": "bechtler-museum",
+  "lng": -80.8474056,
+  "lat": 35.2245867,
+  "bearing": 50,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q4878575",
+  "replaces": [
+    "way/131139728"
+  ],
+  "place": "charlotte-area"
+}

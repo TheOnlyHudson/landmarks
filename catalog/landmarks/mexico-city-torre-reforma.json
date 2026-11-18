@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-torre-reforma",
+  "name": "Torre Reforma",
+  "model": "mexico-city-torre-reforma",
+  "place": "mexico-city",
+  "lng": -99.17442,
+  "lat": 19.424815,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/217330154"
+  ],
+  "wikidata": "Q3433389"
+}

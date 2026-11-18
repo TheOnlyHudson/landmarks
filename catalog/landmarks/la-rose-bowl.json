@@ -1,0 +1,15 @@
+{
+  "id": "la-rose-bowl",
+  "name": "Rose Bowl",
+  "model": "la-rose-bowl",
+  "lng": -118.1676656,
+  "lat": 34.1613117,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q582280",
+  "replaces": [
+    "way/5208863"
+  ],
+  "place": "los-angeles-area"
+}

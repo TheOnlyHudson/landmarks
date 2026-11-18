@@ -1,0 +1,15 @@
+{
+  "id": "barcelona-torre-glories",
+  "name": "Torre Glòries",
+  "model": "barcelona-torre-glories",
+  "place": "barcelona",
+  "lng": 2.189521,
+  "lat": 41.403513,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/44213122"
+  ],
+  "wikidata": "Q336246"
+}

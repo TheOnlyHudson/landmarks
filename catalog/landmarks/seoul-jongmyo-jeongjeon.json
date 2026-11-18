@@ -1,0 +1,16 @@
+{
+  "id": "seoul-jongmyo-jeongjeon",
+  "name": "Jongmyo Jeongjeon",
+  "model": "seoul-jongmyo-jeongjeon",
+  "place": "seoul",
+  "lng": 126.9939744,
+  "lat": 37.574901,
+  "bearing": 22.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/170403802",
+    "way/382428476",
+    "way/382428479"
+  ]
+}

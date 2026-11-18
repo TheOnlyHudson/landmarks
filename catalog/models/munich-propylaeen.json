@@ -1,0 +1,71 @@
+{
+  "id": "munich-propylaeen",
+  "detail": "models/munich-propylaeen.detail.glb",
+  "detailZoom": 17,
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "gate",
+    "neoclassical",
+    "historic",
+    "sculpture"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q822301",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Propyläen München.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Propyl%C3%A4en_M%C3%BCnchen.jpg",
+      "author": "Burkhard Mücke",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Propyläen, Königsplatz, Múnich, Alemania, 2023-12-03, DD 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Propyl%C3%A4en,_K%C3%B6nigsplatz,_M%C3%BAnich,_Alemania,_2023-12-03,_DD_02.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Propyläen (München) - Ansicht von Westen.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Propyl%C3%A4en_(M%C3%BCnchen)_-_Ansicht_von_Westen.JPG",
+      "author": "Guido Radig",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "München Propyläen Seite.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_Propyl%C3%A4en_Seite.jpg",
+      "author": "Andreas Praefcke",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "2019-11-16, Seitenansicht, Propyläen, München, IMG 7535 edit Christoph Braun.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:2019-11-16,_Seitenansicht,_Propyl%C3%A4en,_M%C3%BCnchen,_IMG_7535_edit_Christoph_Braun.JPG",
+      "author": "Christoph Braun",
+      "license": "CC0"
+    },
+    {
+      "title": "Propyläen München - detail - 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Propyl%C3%A4en_M%C3%BCnchen_-_detail_-_2013.jpg",
+      "author": "High Contrast",
+      "license": "CC BY 3.0 de"
+    }
+  ],
+  "file": "models/munich-propylaeen.glb",
+  "source": "generators/munich-propylaeen.ts"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "clt-myers-park-presbyterian",
+  "file": "models/clt-myers-park-presbyterian.glb",
+  "license": "CC0-1.0",
+  "source": "generators/clt-myers-park-presbyterian.ts",
+  "type": "building",
+  "collection": "landmarks",
+  "description": "Myers Park Presbyterian Church's main complex: the 1927 Gothic Revival sanctuary and bell tower by James M. McMichael, Oxford Hall and the education wings.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "role": "creator",
+      "github": "alexwohlbruck"
+    },
+    {
+      "name": "Josh Richard",
+      "kind": "person",
+      "role": "source campus model",
+      "url": "https://www.linkedin.com/in/richardjosh/"
+    },
+    {
+      "name": "Thiencg",
+      "kind": "person",
+      "role": "source campus model",
+      "url": "https://www.fiverr.com/thiencfv"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    },
+    {
+      "name": "Codex",
+      "kind": "ai",
+      "role": "building separation, placement and terrain grounding",
+      "model": "GPT-6.1 Sol"
+    }
+  ],
+  "tags": [
+    "church",
+    "gothic-revival",
+    "campus"
+  ],
+  "reviewStatus": "unreviewed"
+}

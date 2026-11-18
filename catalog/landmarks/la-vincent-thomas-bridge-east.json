@@ -1,0 +1,13 @@
+{
+  "id": "la-vincent-thomas-bridge-east",
+  "name": "Vincent Thomas Bridge (east tower)",
+  "model": "la-vincent-thomas-bridge",
+  "lng": -118.2689686,
+  "lat": 33.7491062,
+  "bearing": 100.2,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q496944",
+  "replaces": [],
+  "place": "los-angeles-area"
+}

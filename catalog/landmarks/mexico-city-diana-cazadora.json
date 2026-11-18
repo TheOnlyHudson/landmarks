@@ -1,0 +1,13 @@
+{
+  "id": "mexico-city-diana-cazadora",
+  "name": "Fuente de la Diana Cazadora",
+  "model": "mexico-city-diana-cazadora",
+  "place": "mexico-city",
+  "lng": -99.1716396,
+  "lat": 19.4251273,
+  "bearing": 152,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "wikidata": "Q2323702"
+}

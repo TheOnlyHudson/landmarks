@@ -1,0 +1,21 @@
+{
+  "id": "sf-transamerica-pyramid",
+  "name": "Transamerica Pyramid",
+  "model": "sf-transamerica-pyramid",
+  "lng": -122.4027858,
+  "lat": 37.7951663,
+  "bearing": 351,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q216865",
+  "replaces": [
+    "way/24222973",
+    "way/451336893",
+    "way/451336895",
+    "way/451336898",
+    "way/451336901",
+    "way/451336902",
+    "way/136615987"
+  ],
+  "place": "san-francisco-bay-area"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "seoul-geunjeongjeon",
+  "file": "models/seoul-geunjeongjeon.glb",
+  "source": "generators/seoul-geunjeongjeon.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "palace",
+    "throne-hall",
+    "hanok",
+    "joseon",
+    "historic",
+    "national-treasure"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The throne hall of Gyeongbokgung (rebuilt 1867): a two-storey-looking hall under a double hipped-and-gabled roof, on a two-tier stone woldae with balustrades.",
+  "references": [
+    {
+      "title": "Front view of the Imperial Throne Hall Geunjeongjeon at Gyeongbokgung Palace with blue sky in Seoul.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Front_view_of_the_Imperial_Throne_Hall_Geunjeongjeon_at_Gyeongbokgung_Palace_with_blue_sky_in_Seoul.jpg",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Front view of the Eastern side of the Imperial Throne Hall Geunjeongjeon at Gyeongbokgung Palace in Seoul.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Front_view_of_the_Eastern_side_of_the_Imperial_Throne_Hall_Geunjeongjeon_at_Gyeongbokgung_Palace_in_Seoul.jpg",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Side of Geunjeongjeon.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Side_of_Geunjeongjeon.jpg",
+      "author": "AnbyG",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Geunjeongjeon Seoul.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Geunjeongjeon_Seoul.jpg",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gyeongbokgung(palace) Geunjeongjeon(hall).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung(palace)_Geunjeongjeon(hall).jpg",
+      "author": "Brady Bellini",
+      "license": "CC0"
+    },
+    {
+      "title": "Seoul-Gyeongbokgung-Geunjeongjeon-01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Seoul-Gyeongbokgung-Geunjeongjeon-01.jpg",
+      "author": "Richard Fisher",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Seoul Geunjeongjeon 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Seoul_Geunjeongjeon_01.jpg",
+      "author": "Spike",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}

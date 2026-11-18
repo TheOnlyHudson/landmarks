@@ -1,0 +1,14 @@
+{
+  "id": "atl-king-tower",
+  "name": "The King (Concourse Corporate Center VI)",
+  "model": "atl-king-tower",
+  "place": "atlanta-area",
+  "lng": -84.355811,
+  "lat": 33.917047,
+  "bearing": 45.5,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/197315978"
+  ]
+}

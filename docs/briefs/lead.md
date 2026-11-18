@@ -60,7 +60,7 @@ named. Write the list with ids, names, coordinates and one line on why to
 candidates you didn't build, with reasons, for the PR.
 
 Before starting builders, choose the stable `place` IDs for the batch. Add and
-commit missing `catalog.places` records, including parents, first. Supply the
+commit missing `catalog/places/` records, including parents, first. Supply the
 IDs and contributor identities to builders. Every AI credit must have a separate
 `model` field; do not substitute an assistant brand name for the LLM version.
 Credit the person the user named, with the username they gave (`github`,
@@ -109,6 +109,12 @@ Send a model back to the same builder, with specific fixes, when:
 - the placement, `replaces` or elevation is wrong;
 - `bun tools/terrain.ts check <id>` reports visible tops under the map's
   terrain;
+- `bun tools/overlap.ts --branch-diff` reports an OSM building the model
+  draws over that isn't in `replaces` (a roof, canopy, podium or entrance
+  block it covers only partly is the usual miss; it draws through the model
+  as a box);
+- `web/replacement-footprints.json` wasn't refreshed after `replaces`
+  changed (`bun run validate` fails);
 - for a rework, the approved form changed without clear evidence.
 
 A builder's "it reads well" is not evidence. Accept only models you would
@@ -117,7 +123,7 @@ If a model still can't be made good, keep it and flag it as weak in the PR.
 
 Make a contact sheet of the batch so far now and then, to see the models
 together by day and at night:
-`bun run sheet --branch-diff --out <scratch>/<prefix>/sheets`. Check phone
+`bun run sheet --terrain --branch-diff --out <scratch>/<prefix>/sheets`. Check phone
 sizes in each model's `bun run preview` views.
 
 ## 4. Merge accepted models
@@ -132,18 +138,19 @@ One commit per model. Merge a model whose generator holds a shared helper
 before the models that import it; the script refuses the wrong order.
 
 The merge helper does not add place records or stage High LOD files; commit
-those explicitly, keeping `places` sorted by id. Run `bun run typecheck`,
+those explicitly, as `catalog/places/<id>.json`. Run `bun run typecheck`,
 `bun test`, `bun run validate`, and `bun run build` at the end. Smoke-check the
 [website behavior](../website.md), including credits/model-used metadata,
 High/Low LOD, version history, all replaced OSM IDs, avatars, and day/night views.
-If `catalog.json` conflicts with `main` or another batch, merge it by id with
-`tools/merge-catalog.py`, then rerun `bun tools/replacement-footprints.ts`.
+Catalog files are one per entry, so batches only conflict where they edit the
+same entry. If `web/replacement-footprints.json` conflicts, rerun
+`bun tools/replacement-footprints.ts`.
 
 ## 5. The pull request
 
 Follow `docs/workflow.md`, "Pull request":
 
-1. `bun run sheet --branch-diff --out review/<city>`; for reworks, before and
+1. `bun run sheet --terrain --branch-diff --out review/<city>`; for reworks, before and
    after sheets.
 2. Commit the sheets ("Contact sheets for <city>") and push the branch.
 3. `gh pr create --draft --repo alexwohlbruck/landmarks --base main --head batch/<city> --title "<City> landmarks"`.

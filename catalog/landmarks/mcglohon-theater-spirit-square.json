@@ -1,0 +1,15 @@
+{
+  "id": "mcglohon-theater-spirit-square",
+  "name": "McGlohon Theater at Spirit Square",
+  "model": "mcglohon-theater-spirit-square",
+  "lng": -80.8398834,
+  "lat": 35.2289106,
+  "bearing": 48.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q22061093",
+  "replaces": [
+    "way/131139724"
+  ],
+  "place": "charlotte-area"
+}

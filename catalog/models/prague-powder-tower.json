@@ -1,0 +1,58 @@
+{
+  "id": "prague-powder-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "historic",
+    "gothic",
+    "city-gate",
+    "gate-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/prague-powder-tower.detail.glb",
+  "detailZoom": 17,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Praha Prašná brána 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Praha_Pra%C5%A1n%C3%A1_br%C3%A1na_01.jpg",
+      "author": "Uoaei1",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "20190816 Brama Prochowa w Pradze 1859 5460 DxO.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:20190816_Brama_Prochowa_w_Pradze_1859_5460_DxO.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prašná brána in Prague, 2018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pra%C5%A1n%C3%A1_br%C3%A1na_in_Prague,_2018.jpg",
+      "author": "Szczecinolog",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prag, Pulverturm -- 2019 -- 6602.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prag,_Pulverturm_--_2019_--_6602.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/prague-powder-tower.glb",
+  "source": "generators/prague-powder-tower.ts"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "dlr-small-world",
+  "name": "\"it's a small world\"",
+  "model": "dlr-small-world",
+  "lng": -117.9178443,
+  "lat": 33.8146742,
+  "bearing": 13,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q137529132",
+  "replaces": [
+    "way/135699826",
+    "way/135489209"
+  ],
+  "place": "disneyland"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "tor-cn-tower",
+  "name": "CN Tower",
+  "model": "tor-cn-tower",
+  "place": "toronto",
+  "wikidata": "Q134883",
+  "lng": -79.3870828,
+  "lat": 43.6425876,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/32742038",
+    "way/288273451",
+    "way/288273452",
+    "way/288273453",
+    "way/288273454",
+    "way/288273455",
+    "way/288273456",
+    "way/288273458",
+    "way/288273459",
+    "way/288273460",
+    "way/288273461",
+    "way/288273793",
+    "way/288273794",
+    "way/288273795"
+  ]
+}

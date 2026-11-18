@@ -1,0 +1,15 @@
+{
+  "id": "hou-609-main",
+  "name": "609 Main at Texas",
+  "model": "hou-609-main",
+  "place": "houston-area",
+  "lng": -95.362524,
+  "lat": 29.759155,
+  "bearing": 34.9,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q18148228",
+  "replaces": [
+    "way/503660106"
+  ]
+}

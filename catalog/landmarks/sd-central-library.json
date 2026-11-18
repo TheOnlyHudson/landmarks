@@ -1,0 +1,16 @@
+{
+  "id": "sd-central-library",
+  "name": "San Diego Central Library",
+  "model": "sd-central-library",
+  "place": "san-diego-area",
+  "lng": -117.1542,
+  "lat": 32.70892,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/377357193",
+    "way/498788614"
+  ],
+  "wikidata": "Q33104628"
+}

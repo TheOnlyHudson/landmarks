@@ -1,0 +1,62 @@
+{
+  "id": "dubai-index-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "mixed-use",
+    "difc",
+    "foster-and-partners"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "The Index Tower - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Index_Tower_-_panoramio.jpg",
+      "author": "Aidas U.",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "title": "Index Tower @ Dubai",
+      "url": "https://www.flickr.com/photos/22539273@N00/15793308966",
+      "author": "*_* (flickr 22539273@N00)",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Index Tower @ Dubai",
+      "url": "https://www.flickr.com/photos/22539273@N00/15793317266",
+      "author": "*_* (flickr 22539273@N00)",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Norman Foster's Index Tower",
+      "url": "https://www.flickr.com/photos/11381771@N04/2316941922",
+      "author": "Tim Brown Architecture",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Aerial photographs of Dubai (taken from Burj Khalifa) 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_photographs_of_Dubai_(taken_from_Burj_Khalifa_)_01.jpg",
+      "author": "Paasikivi",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/dubai-index-tower.glb",
+  "source": "generators/dubai-index-tower.ts"
+}

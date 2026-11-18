@@ -83,7 +83,7 @@ read in 3D from above.
 
 Skip:
 
-- anything already in `catalog.json` or in Open Landmarks;
+- anything already in `catalog/` or in Open Landmarks;
 - plain boxes with nothing distinctive;
 - things too small to read at zoom 16;
 - landmarks whose identity is signage, a mural or neon alone.
@@ -182,7 +182,7 @@ Every AI credit requires its own `model` field. `github` is optional and accepts
 an optional `@` prefix. Choose a primary `type`, descriptive slug `tags`, and
 the real license (CC0-1.0 is the default). CC-BY models need `attribution`;
 custom licenses need `licenseUrl`. Include `wikidata` only when known.
-The lead must prepare `<place-id>` in `catalog.places` before merging models;
+The lead must prepare `<place-id>` in `catalog/places/` before merging models;
 the scratch file does not create place records. Keep contributor/source credits
 separate from photo references. Put publishable visual-reference credits in
 `model.references` as well as the generator header.
@@ -194,7 +194,7 @@ A model placed more than once (the Eiffel Tower, in Paris and Las Vegas) uses
 - `bearing`: the building's main axis, clockwise from north. Build the
   model in that turned frame.
 - `replaces`: the outline and every `building` or `building:part` the model
-  covers; for a coaster, its track ways and station too. Empty when OSM has
+  covers, even partly (`bun tools/overlap.ts` lists any left out); for a coaster, its track ways and station too. Empty when OSM has
   no building (a statue).
 - `minzoom`: 13 for supertall or skyline-defining, 14 large, 15 mid-size,
   16 small.
@@ -221,7 +221,12 @@ For each model:
 6. Check the placement: anchor, bearing, `replaces` against
    `tools/osm.py buildings`, elevation, and explicit place/parent references.
    Run `bun tools/terrain.ts check <id>`: no visible top may end up under
-   the map's terrain (see "The map's terrain" in `evidence.md`).
+   the map's terrain (see "The map's terrain" in `evidence.md`). Run
+   `bun tools/overlap.ts <id>`: every OSM building or part the model draws
+   over must be in `replaces`, or the map draws it through the model; a
+   roof, canopy, podium or entrance block the model covers only partly is
+   the usual miss. Then `bun tools/replacement-footprints.ts`; `bun run
+   validate` fails if the stored footprints don't match `replaces`.
 7. Check both LODs, textures and animation, and night lighting with
    `bun run preview <id> --night`. Build the site for interactive inspection.
    Check credits, the required AI model-used field, GitHub identity, tags, license,
@@ -235,8 +240,18 @@ stays in the batch, marked as weak in the PR table; it is not dropped.
 A contact sheet of the whole batch so far, by day and by night:
 
 ```bash
-bun run sheet --branch-diff --out <scratch>/<prefix>/sheets
+bun run sheet --terrain --branch-diff --out <scratch>/<prefix>/sheets
 ```
+
+Always pass `--terrain`: each model then stands on the map's Mapterhorn
+terrain exactly as the map places it (the same drape, fill and base sink,
+and the catalog `elevation`), with the ground around it drawn, so a model
+that floats, sinks or is set at the wrong height shows on the sheet. The
+height on the card is then the top above the lowest ground. The terrain is
+read from Mapterhorn and cached under `~/.cache/landmarks/mapterhorn`.
+Buildings around it (Fort Wood under the Statue of Liberty, say) are not
+drawn, so a model raised onto one by `elevation` is seen floating over the
+bare ground by that much.
 
 Each landmark gets a card with one three-quarter view, turned to its real
 bearing, drawn by day and at night side by side. The view is taken from the
@@ -254,40 +269,30 @@ tools/merge-model.sh <scratch>/<prefix>/new/<id>.json "Add <Name>"
 
 It regenerates the GLB, adds or replaces the catalog entries by id,
 validates, typechecks the generator and commits the generator, the model
-and `catalog.json`: one commit per model. Then run `bun test` once the batch
+and its `catalog/` files: one commit per model. Then run `bun test` once the batch
 is merged. New place records must already be committed: the helper only
-upserts model/placement records, and its failure rollback restores `catalog.json`
-from Git. For High LOD additions/updates, commit the detail GLB explicitly
+upserts model/placement records, and its failure rollback restores the catalog files
+it wrote from Git. For High LOD additions/updates, commit the detail GLB explicitly
 alongside the generator, Low LOD and catalog changes; this helper stages only
 `models/<id>.glb`. Reworks keep their existing IDs, `detail`, credits, and other
 metadata unless the change intentionally updates them. Do not replace an entry
 with a stripped-down scratch record.
 
-**Catalog conflicts.** `catalog.json` is kept sorted by id (`bun run
-validate` refuses it otherwise; `bun tools/sort-catalog.ts` fixes it), and
-`web/replacement-footprints.json` holds one landmark per line, sorted by id.
-Branches adding different landmarks therefore edit different lines and
-merge cleanly. When two add neighbouring ids and do conflict, merge the
-catalog by id with `tools/merge-catalog.py` and rerun
-`bun tools/replacement-footprints.ts`. `.gitattributes` names the script
-as the merge driver for `catalog.json`; enable it once per clone:
-
-```bash
-git config merge.catalog.name "catalog.json, merged by id"
-git config merge.catalog.driver "python3 tools/merge-catalog.py %O %A %B"
-```
-
-The merge driver unions `places`, `models` and `landmarks` by id; where both
-branches changed the same id, ours wins, so check those records, parent
-links and each placement's `place`. Then run `bun run validate`. The script's
-header shows how to run it by hand mid-conflict.
+**Catalog conflicts.** The catalog is one file per entry
+(`catalog/places/<id>.json`, `catalog/models/<id>.json`,
+`catalog/landmarks/<id>.json`), so branches adding different landmarks never
+touch the same file and merge cleanly, however close their ids sort. Two
+branches only conflict if they edit the same entry; resolve that file by
+hand and run `bun run validate`. `web/replacement-footprints.json` holds one
+landmark per line, sorted by id; if it conflicts, take either side and rerun
+`bun tools/replacement-footprints.ts`.
 
 ## 7. Pull request
 
 1. Contact sheets into the branch:
 
    ```bash
-   bun run sheet --branch-diff --out review/<city>
+   bun run sheet --terrain --branch-diff --out review/<city>
    git add review/<city> && git commit -m "Contact sheets for <city>"
    git push -u origin batch/<city>
    ```
@@ -297,8 +302,8 @@ header shows how to run it by hand mid-conflict.
 
    ```bash
    git -C <landmarks> worktree add --detach <scratch>/main origin/main
-   (cd <scratch>/main && bun install && bun run sheet <ids> --out <worktree>/review/<city>/before)
-   bun run sheet <ids> --out review/<city>/after
+   (cd <scratch>/main && bun install && bun run sheet --terrain <ids> --out <worktree>/review/<city>/before)
+   bun run sheet --terrain <ids> --out review/<city>/after
    ```
 
    Remove the `main` worktree afterwards.
@@ -396,16 +401,16 @@ release host.
 | Tool | Does |
 |---|---|
 | `bun run preview <id> [dir] [photo.png ...] [--night]` | Every review view of one model, plus photo side-by-sides |
-| `bun run sheet <id ...>` / `--branch-diff` | Contact sheets, each model by day and at night |
+| `bun run sheet --terrain <id ...>` / `--branch-diff` | Contact sheets, each model by day and at night, on the map's terrain |
 | `bun tools/view.ts <id> <out> <from> [el]` | One render from any compass side, to match a photo |
 | `bun tools/montage.ts <out> <img[=label]> ...` | Photos and renders side by side, PNG or JPEG |
 | `bun tools/glb-stats.ts <id ...>` | Triangles, size, materials, bounds, budget flags |
 | `bun tools/pr-table.ts --prefix <p>` | The PR's model table |
 | `tools/merge-model.sh <placement.json> "<msg>"` | Merge and commit one model |
 | `bun run sync:sources` | Refresh the pinned OpenLandmarks metadata snapshot |
+| `bun tools/overlap.ts <id ...>` / `--branch-diff` | OSM buildings a model draws over that `replaces` leaves out |
 | `bun tools/replacement-footprints.ts` | Refresh stored OSM replacement outlines after `replaces` changes |
-| `bun tools/sort-catalog.ts` | Sort `catalog.json` by id, as `bun run validate` requires |
-| `python3 tools/merge-catalog.py` | Merge places, models and placements by id |
+| `bun tools/format-catalog.ts` | Format every `catalog/` file, as `bun run validate` requires |
 | `python3 tools/osm.py buildings\|named\|search` | OSM outlines and parts, named features, Nominatim |
 | `python3 tools/photos.py commons\|openverse` | Licensed photo search, tagged evidence or look-only |
 | `python3 tools/mapillary.py` | Street photos aimed at a landmark, one per side |

@@ -1,0 +1,23 @@
+{
+  "id": "munich-altes-rathaus",
+  "name": "Altes Rathaus",
+  "model": "munich-altes-rathaus",
+  "place": "munich",
+  "lng": 11.577061,
+  "lat": 48.136825,
+  "bearing": 43,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q439458",
+  "replaces": [
+    "relation/15091588",
+    "relation/3872201",
+    "way/4054817",
+    "way/869099324",
+    "way/869099325",
+    "way/291585566",
+    "way/291585569",
+    "way/291585570",
+    "way/291585572"
+  ]
+}

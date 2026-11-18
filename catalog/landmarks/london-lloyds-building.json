@@ -1,0 +1,24 @@
+{
+  "id": "london-lloyds-building",
+  "name": "Lloyd's Building",
+  "model": "london-lloyds-building",
+  "place": "london",
+  "lng": -0.0824276,
+  "lat": 51.5130062,
+  "bearing": 23,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/23988892",
+    "way/310187362",
+    "way/310187363",
+    "way/310187364",
+    "way/310187365",
+    "way/310187366",
+    "way/310187367",
+    "way/310187370",
+    "way/445330146",
+    "way/445330148"
+  ],
+  "wikidata": "Q1814818"
+}

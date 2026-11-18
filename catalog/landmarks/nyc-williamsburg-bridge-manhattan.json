@@ -1,0 +1,15 @@
+{
+  "id": "nyc-williamsburg-bridge-manhattan",
+  "name": "Williamsburg Bridge (Manhattan tower)",
+  "model": "nyc-williamsburg-bridge",
+  "lng": -73.9748202,
+  "lat": 40.7143946,
+  "bearing": 291.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q125068",
+  "replaces": [
+    "way/1016434034"
+  ],
+  "place": "new-york-area"
+}

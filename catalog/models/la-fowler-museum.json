@@ -1,0 +1,60 @@
+{
+  "id": "la-fowler-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fowler Museum UCLA",
+      "url": "https://commons.wikimedia.org/wiki/File:Fowler_Museum_UCLA.JPG",
+      "author": "Josh Lee",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Fowler",
+      "url": "https://commons.wikimedia.org/wiki/File:Fowler.JPG",
+      "author": "Fuzzy901",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Fowler courtyard",
+      "url": "https://commons.wikimedia.org/wiki/File:Fowler_courtyard.jpg",
+      "author": "Caterpillar84",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Fowler front",
+      "url": "https://commons.wikimedia.org/wiki/File:Fowler_front.jpg",
+      "author": "Caterpillar84",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "UCLA tower",
+      "url": "https://commons.wikimedia.org/wiki/File:UCLA_tower.jpg",
+      "author": "Alboychenko08",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/la-fowler-museum.glb",
+  "source": "generators/la-fowler-museum.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "one-wells-fargo-center",
+  "name": "One Wells Fargo Center",
+  "model": "one-wells-fargo-center",
+  "lng": -80.844673,
+  "lat": 35.2239253,
+  "bearing": 5,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q3352669",
+  "replaces": [
+    "way/380092606"
+  ],
+  "place": "charlotte-area"
+}

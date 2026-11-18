@@ -1,0 +1,31 @@
+{
+  "id": "nyc-citigroup-center",
+  "name": "Citigroup Center",
+  "model": "nyc-citigroup-center",
+  "lng": -73.9699362,
+  "lat": 40.7583409,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q391243",
+  "replaces": [
+    "way/164105516",
+    "way/258744590",
+    "way/258744593",
+    "way/258744594",
+    "way/258744595",
+    "way/258744596",
+    "way/258744597",
+    "way/258744599",
+    "way/258744600",
+    "way/258744601",
+    "way/258744602",
+    "way/258744603",
+    "way/258744605",
+    "way/258744606",
+    "way/258744608",
+    "way/258744609",
+    "way/258744612"
+  ],
+  "place": "new-york-area"
+}

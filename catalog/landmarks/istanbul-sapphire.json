@@ -1,0 +1,16 @@
+{
+  "id": "istanbul-sapphire",
+  "name": "Istanbul Sapphire",
+  "model": "istanbul-sapphire",
+  "place": "istanbul",
+  "lng": 29.00605,
+  "lat": 41.084961,
+  "bearing": 357.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q166882",
+  "replaces": [
+    "way/156828034",
+    "way/673790538"
+  ]
+}

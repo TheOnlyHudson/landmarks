@@ -1,0 +1,14 @@
+{
+  "id": "clt-trolley-barn",
+  "name": "Trolley Barn Fermentory & Food Hall",
+  "model": "clt-trolley-barn",
+  "lng": -80.8615582,
+  "lat": 35.2086705,
+  "bearing": 33,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/146307369"
+  ],
+  "place": "charlotte-area"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-ortakoy-mosque",
+  "name": "Ortaköy Mosque (Büyük Mecidiye Mosque)",
+  "model": "istanbul-ortakoy-mosque",
+  "place": "istanbul",
+  "lng": 29.026824,
+  "lat": 41.047303,
+  "bearing": 321,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q176380",
+  "replaces": [
+    "way/498861735"
+  ]
+}

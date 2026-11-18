@@ -1,0 +1,19 @@
+{
+  "id": "hou-tc-energy-center",
+  "name": "TC Energy Center",
+  "model": "hou-tc-energy-center",
+  "place": "houston-area",
+  "lng": -95.3664587,
+  "lat": 29.7606448,
+  "bearing": 34.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q806669",
+  "replaces": [
+    "way/54169596",
+    "way/469467449",
+    "way/469474539",
+    "way/469560065",
+    "way/470270252"
+  ]
+}

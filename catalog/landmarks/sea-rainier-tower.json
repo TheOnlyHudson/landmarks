@@ -1,0 +1,17 @@
+{
+  "id": "sea-rainier-tower",
+  "name": "Rainier Tower",
+  "model": "sea-rainier-tower",
+  "lng": -122.3343526,
+  "lat": 47.6088171,
+  "bearing": 328.8,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q7284914",
+  "replaces": [
+    "way/35824879",
+    "way/686348090",
+    "way/686348091"
+  ],
+  "place": "seattle-area"
+}

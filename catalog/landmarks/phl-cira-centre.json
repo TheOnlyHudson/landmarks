@@ -1,0 +1,15 @@
+{
+  "id": "phl-cira-centre",
+  "name": "Cira Centre",
+  "model": "phl-cira-centre",
+  "place": "philadelphia-area",
+  "lng": -75.182432,
+  "lat": 39.957332,
+  "bearing": 9,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/333367697"
+  ],
+  "wikidata": "Q5121334"
+}

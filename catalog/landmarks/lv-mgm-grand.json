@@ -1,0 +1,23 @@
+{
+  "id": "lv-mgm-grand",
+  "name": "MGM Grand Las Vegas",
+  "model": "lv-mgm-grand",
+  "lng": -115.169646,
+  "lat": 36.10242,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q713960",
+  "replaces": [
+    "way/115093734",
+    "way/115095169",
+    "way/115095172",
+    "way/115095167",
+    "way/115095174",
+    "way/115095166",
+    "way/115095173",
+    "way/115095160",
+    "way/115095161"
+  ],
+  "place": "las-vegas-area"
+}

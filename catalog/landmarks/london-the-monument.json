@@ -1,0 +1,28 @@
+{
+  "id": "london-the-monument",
+  "name": "The Monument",
+  "model": "london-the-monument",
+  "place": "london",
+  "lng": -0.085949,
+  "lat": 51.510141,
+  "bearing": 23.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q607700",
+  "replaces": [
+    "relation/3374550",
+    "relation/3374552",
+    "relation/3374553",
+    "way/128359205",
+    "way/215575154",
+    "way/218598666",
+    "way/218598667",
+    "way/251489943",
+    "way/251489944",
+    "way/251489945",
+    "way/251489946",
+    "way/251489949",
+    "way/251489950",
+    "way/251489953"
+  ]
+}

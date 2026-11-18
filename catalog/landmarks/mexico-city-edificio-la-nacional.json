@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-edificio-la-nacional",
+  "name": "Edificio La Nacional",
+  "model": "mexico-city-edificio-la-nacional",
+  "place": "mexico-city",
+  "lng": -99.141222,
+  "lat": 19.434014,
+  "bearing": 8.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/217470226"
+  ],
+  "wikidata": "Q5338052"
+}

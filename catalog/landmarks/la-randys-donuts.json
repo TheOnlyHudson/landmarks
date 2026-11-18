@@ -1,0 +1,15 @@
+{
+  "id": "la-randys-donuts",
+  "name": "Randy's Donuts",
+  "model": "la-randys-donuts",
+  "lng": -118.370379,
+  "lat": 33.961852,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2130840",
+  "replaces": [
+    "way/420317805"
+  ],
+  "place": "los-angeles-area"
+}

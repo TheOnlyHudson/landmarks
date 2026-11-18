@@ -1,0 +1,15 @@
+{
+  "id": "sea-great-wheel",
+  "name": "Seattle Great Wheel",
+  "model": "sea-great-wheel",
+  "lng": -122.3424857,
+  "lat": 47.6061437,
+  "bearing": 336.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7442108",
+  "replaces": [
+    "way/396606878"
+  ],
+  "place": "seattle-area"
+}

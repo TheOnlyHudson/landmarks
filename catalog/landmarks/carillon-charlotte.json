@@ -1,0 +1,15 @@
+{
+  "id": "carillon-charlotte",
+  "name": "The Carillon",
+  "model": "carillon-charlotte",
+  "lng": -80.8453018,
+  "lat": 35.2285233,
+  "bearing": 49.5,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q5039570",
+  "replaces": [
+    "way/90480703"
+  ],
+  "place": "charlotte-area"
+}

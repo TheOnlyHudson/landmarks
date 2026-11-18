@@ -1,0 +1,14 @@
+{
+  "id": "nyc-tkts-red-steps",
+  "name": "TKTS Booth and Red Steps",
+  "model": "nyc-tkts-red-steps",
+  "place": "times-square",
+  "lng": -73.984936,
+  "lat": 40.7591526,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/258619240"
+  ]
+}

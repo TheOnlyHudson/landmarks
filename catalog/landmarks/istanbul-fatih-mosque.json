@@ -1,0 +1,17 @@
+{
+  "id": "istanbul-fatih-mosque",
+  "name": "Fatih Mosque",
+  "model": "istanbul-fatih-mosque",
+  "place": "istanbul",
+  "lng": 28.949762,
+  "lat": 41.019748,
+  "bearing": 322.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q756189",
+  "replaces": [
+    "relation/1661399",
+    "relation/4277472",
+    "relation/4277469"
+  ]
+}

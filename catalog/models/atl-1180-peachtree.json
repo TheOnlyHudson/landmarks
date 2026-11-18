@@ -1,0 +1,79 @@
+{
+  "id": "atl-1180-peachtree",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "glass",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "1180 Peachtree.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:1180_Peachtree.jpg",
+      "author": "Mark Larson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Promenade 2-1180 Peachtree.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Promenade_2-1180_Peachtree.jpg",
+      "author": "Mark Larson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Promenade 2, 1180 Peachtree cropped.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Promenade_2,_1180_Peachtree_cropped.jpg",
+      "author": "AAK",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "A1180PchtrMT2511-0726.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:A1180PchtrMT2511-0726.jpg",
+      "author": "AtlChampion",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Symphony Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Symphony_Tower.jpg",
+      "author": "Atlantacitizen",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "View of the midtown Atlanta skyline from Freedom Parkway above the Eastside Trail.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_the_midtown_Atlanta_skyline_from_Freedom_Parkway_above_the_Eastside_Trail.jpg",
+      "author": "Marc Merlin",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Midtown Atlanta skyline from Piedmont Park, March 2018 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Midtown_Atlanta_skyline_from_Piedmont_Park,_March_2018_1.jpg",
+      "author": "Thomson200",
+      "license": "CC0"
+    },
+    {
+      "title": "Atlanta Midtown at night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Atlanta_Midtown_at_night.jpg",
+      "author": "Royian",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/atl-1180-peachtree.glb",
+  "source": "generators/atl-1180-peachtree.ts"
+}

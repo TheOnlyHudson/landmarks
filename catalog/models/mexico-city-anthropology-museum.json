@@ -1,0 +1,73 @@
+{
+  "id": "mexico-city-anthropology-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "modernist",
+    "courtyard"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Vista aérea del Museo Nacional de Antropología de México 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Museo_Nacional_de_Antropolog%C3%ADa_de_M%C3%A9xico_2.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Vista aérea del Museo Nacional de Antropología de México 3",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Museo_Nacional_de_Antropolog%C3%ADa_de_M%C3%A9xico_3.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Vista aérea del Museo Nacional de Antropología de México 4",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Museo_Nacional_de_Antropolog%C3%ADa_de_M%C3%A9xico_4.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Vista aérea del Museo Nacional de Antropología de México 5",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Museo_Nacional_de_Antropolog%C3%ADa_de_M%C3%A9xico_5.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Museo Nacional de Antropología (El Paragua) (8263441535)",
+      "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Antropolog%C3%ADa_(El_Paragua)_(8263441535).jpg",
+      "author": "Rob Young",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Museo Nacional de Antropología (46734417554)",
+      "url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Antropolog%C3%ADa_(46734417554).jpg",
+      "author": "Nan Palmero",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Paraguas del Museo Nacional de Antropología",
+      "url": "https://commons.wikimedia.org/wiki/File:Paraguas_del_Museo_Nacional_de_Antropolog%C3%ADa.jpg",
+      "author": "opheliarossetti",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/mexico-city-anthropology-museum.glb",
+  "source": "generators/mexico-city-anthropology-museum.ts"
+}

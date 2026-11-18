@@ -1,0 +1,17 @@
+{
+  "id": "munich-olympiaturm",
+  "name": "Olympiaturm",
+  "model": "munich-olympiaturm",
+  "place": "munich",
+  "lng": 11.5537639,
+  "lat": 48.1744112,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/164084344",
+    "way/18894695",
+    "way/164084343",
+    "way/1049578248"
+  ]
+}

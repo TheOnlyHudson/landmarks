@@ -1,0 +1,14 @@
+{
+  "id": "carowinds-windseeker",
+  "name": "WindSeeker",
+  "model": "carowinds-windseeker",
+  "lng": -80.9413603,
+  "lat": 35.1021552,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/893187005"
+  ],
+  "place": "carowinds"
+}

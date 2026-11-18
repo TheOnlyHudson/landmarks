@@ -1,0 +1,18 @@
+{
+  "id": "dubai-opus",
+  "name": "The Opus",
+  "model": "dubai-opus",
+  "place": "dubai",
+  "lng": 55.2668518,
+  "lat": 25.1886276,
+  "bearing": 337,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/723560004",
+    "way/1528428013",
+    "way/1528428014",
+    "way/1528428015",
+    "way/1528428016"
+  ]
+}

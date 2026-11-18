@@ -1,0 +1,17 @@
+{
+  "id": "barcelona-olympic-stadium",
+  "name": "Estadi Olímpic Lluís Companys",
+  "model": "barcelona-olympic-stadium",
+  "place": "barcelona",
+  "lng": 2.155652,
+  "lat": 41.364758,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/155422",
+    "way/126784791",
+    "way/35764760"
+  ],
+  "wikidata": "Q275715"
+}

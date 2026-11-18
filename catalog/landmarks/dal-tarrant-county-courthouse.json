@@ -1,0 +1,15 @@
+{
+  "id": "dal-tarrant-county-courthouse",
+  "name": "Tarrant County Courthouse",
+  "model": "dal-tarrant-county-courthouse",
+  "place": "dallas-area",
+  "lng": -97.333193,
+  "lat": 32.7574803,
+  "bearing": 330,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q570870",
+  "replaces": [
+    "way/178593785"
+  ]
+}

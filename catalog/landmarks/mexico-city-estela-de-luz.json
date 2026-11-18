@@ -1,0 +1,18 @@
+{
+  "id": "mexico-city-estela-de-luz",
+  "name": "Estela de Luz",
+  "model": "mexico-city-estela-de-luz",
+  "place": "mexico-city",
+  "lng": -99.1758528,
+  "lat": 19.4229409,
+  "bearing": 333.8,
+  "elevation": -4.5,
+  "minzoom": 14,
+  "replaces": [
+    "way/311593047",
+    "way/1228354771",
+    "way/1228354772",
+    "way/1228354773"
+  ],
+  "wikidata": "Q8843219"
+}

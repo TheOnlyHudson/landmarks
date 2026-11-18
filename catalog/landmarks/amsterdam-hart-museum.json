@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-hart-museum",
+  "name": "H'ART Museum (Amstelhof)",
+  "model": "amsterdam-hart-museum",
+  "place": "amsterdam",
+  "lng": 4.902875,
+  "lat": 52.365395,
+  "bearing": 73,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/3604193"
+  ],
+  "wikidata": "Q1350009"
+}

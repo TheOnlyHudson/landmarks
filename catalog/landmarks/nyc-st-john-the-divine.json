@@ -1,0 +1,15 @@
+{
+  "id": "nyc-st-john-the-divine",
+  "name": "Cathedral of St. John the Divine",
+  "model": "nyc-st-john-the-divine",
+  "lng": -73.961648,
+  "lat": 40.803753,
+  "bearing": 118.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q865655",
+  "replaces": [
+    "relation/3624833"
+  ],
+  "place": "new-york-area"
+}

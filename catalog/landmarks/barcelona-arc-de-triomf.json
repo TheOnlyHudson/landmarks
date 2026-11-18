@@ -1,0 +1,18 @@
+{
+  "id": "barcelona-arc-de-triomf",
+  "name": "Arc de Triomf",
+  "model": "barcelona-arc-de-triomf",
+  "place": "barcelona",
+  "lng": 2.180645,
+  "lat": 41.391042,
+  "bearing": 315.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/377875377",
+    "way/1557592573",
+    "way/1557592574",
+    "way/818382565"
+  ],
+  "wikidata": "Q631075"
+}

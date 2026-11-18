@@ -1,0 +1,21 @@
+{
+  "id": "chi-rate-field",
+  "name": "Rate Field",
+  "model": "chi-rate-field",
+  "lng": -87.633696,
+  "lat": 41.829874,
+  "bearing": 308,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q633613",
+  "replaces": [
+    "relation/8167350",
+    "way/1285778036",
+    "way/1285755804",
+    "way/1285755828",
+    "way/1285755829",
+    "way/1285778007",
+    "way/1285778008"
+  ],
+  "place": "chicago-area"
+}

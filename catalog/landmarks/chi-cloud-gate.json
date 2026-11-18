@@ -1,0 +1,15 @@
+{
+  "id": "chi-cloud-gate",
+  "name": "Cloud Gate",
+  "model": "chi-cloud-gate",
+  "lng": -87.623339,
+  "lat": 41.882686,
+  "bearing": 359.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q589099",
+  "replaces": [
+    "way/137060274"
+  ],
+  "place": "chicago-area"
+}

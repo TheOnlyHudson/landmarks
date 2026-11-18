@@ -1,0 +1,15 @@
+{
+  "id": "dal-comerica-bank-tower",
+  "name": "Comerica Bank Tower",
+  "model": "dal-comerica-bank-tower",
+  "place": "dallas-area",
+  "lng": -96.796528,
+  "lat": 32.781611,
+  "bearing": 346,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q2743574",
+  "replaces": [
+    "way/28015874"
+  ]
+}

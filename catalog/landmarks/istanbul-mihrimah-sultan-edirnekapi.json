@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-mihrimah-sultan-edirnekapi",
+  "name": "Mihrimah Sultan Mosque (Edirnekapı)",
+  "model": "istanbul-mihrimah-sultan-edirnekapi",
+  "place": "istanbul",
+  "lng": 28.935707,
+  "lat": 41.029332,
+  "bearing": 318.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1581190",
+  "replaces": [
+    "relation/7318379"
+  ]
+}

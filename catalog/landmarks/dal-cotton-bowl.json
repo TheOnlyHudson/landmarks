@@ -1,0 +1,16 @@
+{
+  "id": "dal-cotton-bowl",
+  "name": "Cotton Bowl Stadium",
+  "model": "dal-cotton-bowl",
+  "place": "dallas-area",
+  "lng": -96.7595899,
+  "lat": 32.7795954,
+  "bearing": 314,
+  "elevation": -7,
+  "minzoom": 14,
+  "wikidata": "Q1136764",
+  "replaces": [
+    "relation/1640835",
+    "way/27112448"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "london-british-museum",
+  "file": "models/london-british-museum.glb",
+  "detail": "models/london-british-museum.detail.glb",
+  "detailZoom": 17,
+  "source": "generators/london-british-museum.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "greek-revival",
+    "neoclassical",
+    "listed",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Smirke's Greek Revival museum (1823–52): the deep Ionic colonnade and octastyle portico with its sculpted pediment on Great Russell Street, the forecourt between the projecting wings, Foster's glass and steel Great Court roof (2000) round the domed Reading Room.",
+  "references": [
+    {
+      "title": "British Museum (aerial).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:British_Museum_(aerial).jpg",
+      "author": "Luke Massey & the Greater London National Park City Initiative",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "The roof of the British Museum from tower of Senate House, University of London (46742488414).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_roof_of_the_British_Museum_from_tower_of_Senate_House,_University_of_London_(46742488414).jpg",
+      "author": "Orangeaurochs",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "London - Great Russell Street - British Museum 1823 by Robert Smirke - ICE Photocompilation Viewing frm WSW to NNE on Neo-Classical Museum Front.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:London_-_Great_Russell_Street_-_British_Museum_1823_by_Robert_Smirke_-_ICE_Photocompilation_Viewing_frm_WSW_to_NNE_on_Neo-Classical_Museum_Front.jpg",
+      "author": "Txllxt TxllxT",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "British Museum London 2016 Facade 02.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:British_Museum_London_2016_Facade_02.JPG",
+      "author": "Paasikivi",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "British Museum from NE 2.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:British_Museum_from_NE_2.JPG",
+      "author": "Ham",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "British Museum 2018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:British_Museum_2018.jpg",
+      "author": "Tiia Monto",
+      "license": "CC-BY-SA-3.0"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "munich-bavaria",
+  "name": "Bavaria and Ruhmeshalle",
+  "model": "munich-bavaria",
+  "place": "munich",
+  "lng": 11.545742,
+  "lat": 48.130712,
+  "bearing": 10.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/400345387",
+    "way/28683728",
+    "way/305422543",
+    "way/305421905",
+    "way/1544870146"
+  ]
+}

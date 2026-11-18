@@ -1,0 +1,15 @@
+{
+  "id": "seoul-kspo-dome",
+  "name": "KSPO Dome",
+  "model": "seoul-kspo-dome",
+  "place": "seoul",
+  "lng": 127.1274701,
+  "lat": 37.5192312,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q487224",
+  "replaces": [
+    "way/75956855"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "clt-design-center-tower",
+  "name": "Design Center Tower",
+  "model": "clt-design-center-tower",
+  "lng": -80.8600897,
+  "lat": 35.2121411,
+  "bearing": 30,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q106726569",
+  "replaces": [
+    "way/990903147",
+    "way/990903148"
+  ],
+  "place": "charlotte-area"
+}

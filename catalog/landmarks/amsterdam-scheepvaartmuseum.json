@@ -1,0 +1,16 @@
+{
+  "id": "amsterdam-scheepvaartmuseum",
+  "name": "Het Scheepvaartmuseum",
+  "model": "amsterdam-scheepvaartmuseum",
+  "place": "amsterdam",
+  "lng": 4.9148,
+  "lat": 52.371716,
+  "bearing": 331.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/3604837",
+    "way/269078550"
+  ],
+  "wikidata": "Q1616123"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "london-admiralty-arch",
+  "name": "Admiralty Arch",
+  "model": "london-admiralty-arch",
+  "place": "london",
+  "lng": -0.128579,
+  "lat": 51.506709,
+  "bearing": 56.8,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q359256",
+  "replaces": [
+    "relation/17074208",
+    "way/1242515121",
+    "way/1242515122",
+    "way/1242515123",
+    "way/1242515124",
+    "way/1242515125",
+    "way/1242515126",
+    "way/1242515127",
+    "way/1242515128",
+    "way/1242515129",
+    "way/1242515130",
+    "way/1242515131"
+  ]
+}

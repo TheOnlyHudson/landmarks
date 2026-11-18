@@ -1,0 +1,16 @@
+{
+  "id": "london-tottenham-hotspur-stadium",
+  "name": "Tottenham Hotspur Stadium",
+  "model": "london-tottenham-hotspur-stadium",
+  "place": "london",
+  "lng": -0.0662354,
+  "lat": 51.6041771,
+  "bearing": 357.4,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/7708006",
+    "way/538300255"
+  ],
+  "wikidata": "Q55074091"
+}

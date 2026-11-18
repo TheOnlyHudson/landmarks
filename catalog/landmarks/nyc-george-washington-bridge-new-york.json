@@ -1,0 +1,15 @@
+{
+  "id": "nyc-george-washington-bridge-new-york",
+  "name": "George Washington Bridge (New York tower)",
+  "model": "nyc-george-washington-bridge-new-york",
+  "lng": -73.946519,
+  "lat": 40.8504589,
+  "bearing": 284.4,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q125821",
+  "replaces": [
+    "way/741784700"
+  ],
+  "place": "new-york-area"
+}

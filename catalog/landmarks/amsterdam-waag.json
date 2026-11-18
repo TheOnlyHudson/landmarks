@@ -1,0 +1,28 @@
+{
+  "id": "amsterdam-waag",
+  "name": "De Waag",
+  "model": "amsterdam-waag",
+  "place": "amsterdam",
+  "lng": 4.900323,
+  "lat": 52.372771,
+  "bearing": 64,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/57857390",
+    "way/749066938",
+    "way/749066939",
+    "way/749066940",
+    "way/749066941",
+    "way/749066942",
+    "way/749066943",
+    "way/749066944",
+    "way/749066945",
+    "way/749066946",
+    "way/749066947",
+    "way/749066948",
+    "way/749066949",
+    "way/749066950"
+  ],
+  "wikidata": "Q2466999"
+}

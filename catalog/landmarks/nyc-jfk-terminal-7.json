@@ -1,0 +1,15 @@
+{
+  "id": "nyc-jfk-terminal-7",
+  "name": "JFK Airport Terminal 7",
+  "model": "nyc-jfk-terminal-7",
+  "place": "new-york-area",
+  "lng": -73.7828117,
+  "lat": 40.6494974,
+  "bearing": 13.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/3778808"
+  ],
+  "wikidata": "Q55855385"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sydney-opera-house",
+  "name": "Sydney Opera House",
+  "model": "sydney-opera-house",
+  "lng": 151.2151244,
+  "lat": -33.8571126,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q45178",
+  "replaces": [
+    "relation/9596872",
+    "relation/9596873",
+    "relation/9596874",
+    "relation/9596876",
+    "relation/9596878",
+    "relation/9596879",
+    "relation/9596880",
+    "relation/9596881",
+    "relation/9596883",
+    "relation/9677501",
+    "relation/9677503",
+    "relation/9677509"
+  ],
+  "place": "sydney"
+}

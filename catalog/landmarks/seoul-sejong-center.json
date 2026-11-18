@@ -1,0 +1,15 @@
+{
+  "id": "seoul-sejong-center",
+  "name": "Sejong Center for the Performing Arts",
+  "model": "seoul-sejong-center",
+  "place": "seoul",
+  "lng": 126.9756165,
+  "lat": 37.572553,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/223158436"
+  ],
+  "wikidata": "Q496974"
+}

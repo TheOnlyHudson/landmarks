@@ -1,0 +1,20 @@
+{
+  "id": "chi-pritzker-pavilion",
+  "name": "Jay Pritzker Pavilion",
+  "model": "chi-pritzker-pavilion",
+  "lng": -87.621892,
+  "lat": 41.883512,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3180096",
+  "replaces": [
+    "way/126978545",
+    "way/764598205",
+    "way/764598206",
+    "way/764598207",
+    "way/764598208",
+    "way/764598209"
+  ],
+  "place": "chicago-area"
+}

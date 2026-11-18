@@ -1,0 +1,27 @@
+{
+  "id": "munich-frauenkirche",
+  "name": "Frauenkirche",
+  "model": "munich-frauenkirche",
+  "place": "munich",
+  "lng": 11.573598,
+  "lat": 48.138593,
+  "bearing": -1,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q167193",
+  "replaces": [
+    "way/225698612",
+    "way/108429818",
+    "way/209452724",
+    "way/222512591",
+    "way/222512592",
+    "way/222512593",
+    "way/222512594",
+    "way/222512595",
+    "way/222512597",
+    "way/222512599",
+    "way/222512600",
+    "way/222512601",
+    "way/222512602"
+  ]
+}

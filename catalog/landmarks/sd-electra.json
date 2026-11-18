@@ -1,0 +1,16 @@
+{
+  "id": "sd-electra",
+  "name": "Electra",
+  "model": "sd-electra",
+  "place": "san-diego-area",
+  "lng": -117.16953,
+  "lat": 32.71502,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/305374761",
+    "way/305925605"
+  ],
+  "wikidata": "Q3050546"
+}

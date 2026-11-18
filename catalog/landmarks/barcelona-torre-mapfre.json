@@ -1,0 +1,16 @@
+{
+  "id": "barcelona-torre-mapfre",
+  "name": "Torre Mapfre",
+  "model": "barcelona-torre-mapfre",
+  "place": "barcelona",
+  "lng": 2.19735,
+  "lat": 41.38778,
+  "bearing": 45,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/54747170",
+    "way/308013864"
+  ],
+  "wikidata": "Q568353"
+}

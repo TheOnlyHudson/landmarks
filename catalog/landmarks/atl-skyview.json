@@ -1,0 +1,14 @@
+{
+  "id": "atl-skyview",
+  "name": "SkyView Atlanta",
+  "model": "atl-skyview",
+  "place": "atlanta-area",
+  "lng": -84.391852,
+  "lat": 33.758831,
+  "bearing": 313,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1292668916"
+  ]
+}

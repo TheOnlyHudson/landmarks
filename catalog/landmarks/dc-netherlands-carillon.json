@@ -1,0 +1,15 @@
+{
+  "id": "dc-netherlands-carillon",
+  "name": "Netherlands Carillon",
+  "model": "dc-netherlands-carillon",
+  "lng": -77.0694954,
+  "lat": 38.8882159,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2901761",
+  "replaces": [
+    "way/41273627"
+  ],
+  "place": "washington-area"
+}

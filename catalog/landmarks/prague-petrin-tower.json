@@ -1,0 +1,21 @@
+{
+  "id": "prague-petrin-tower",
+  "name": "Petřín Lookout Tower",
+  "model": "prague-petrin-tower",
+  "place": "prague",
+  "lng": 14.395086,
+  "lat": 50.083506,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q12256",
+  "replaces": [
+    "way/7645353",
+    "way/27337091",
+    "way/456174848",
+    "way/467431208",
+    "way/467431211",
+    "way/453258654",
+    "way/453258656"
+  ]
+}

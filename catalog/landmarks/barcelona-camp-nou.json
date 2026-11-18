@@ -1,0 +1,20 @@
+{
+  "id": "barcelona-camp-nou",
+  "name": "Spotify Camp Nou",
+  "model": "barcelona-camp-nou",
+  "place": "barcelona",
+  "lng": 2.122814,
+  "lat": 41.380885,
+  "bearing": 68.4,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "relation/5503051",
+    "relation/4094584",
+    "relation/4094585",
+    "relation/4094587",
+    "relation/4094588",
+    "way/34607291"
+  ],
+  "wikidata": "Q159848"
+}

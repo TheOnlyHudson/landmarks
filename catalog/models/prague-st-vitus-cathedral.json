@@ -1,0 +1,96 @@
+{
+  "id": "prague-st-vitus-cathedral",
+  "detail": "models/prague-st-vitus-cathedral.detail.glb",
+  "detailZoom": 17,
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cathedral",
+    "church",
+    "gothic",
+    "historic",
+    "unesco"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q5949",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "St Vitus Prague September 2016-30b.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Vitus_Prague_September_2016-30b.jpg",
+      "author": "Alvesgaspar",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St Vitus Prague September 2016-21.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Vitus_Prague_September_2016-21.jpg",
+      "author": "Alvesgaspar",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St Vitus Prague September 2016-27.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Vitus_Prague_September_2016-27.jpg",
+      "author": "Alvesgaspar",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St Vitus Prague September 2016-5.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Vitus_Prague_September_2016-5.jpg",
+      "author": "Alvesgaspar",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "PragueCathedral03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:PragueCathedral03.jpg",
+      "author": "MathKnight and Zachi Evenor",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Prag, Prager Burg, Veitsdom -- 2019 -- 6621.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prag,_Prager_Burg,_Veitsdom_--_2019_--_6621.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prag, Prager Burg, Veitsdom -- 2019 -- 6625.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prag,_Prager_Burg,_Veitsdom_--_2019_--_6625.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prag, Prager Burg, Veitsdom -- 2019 -- 6662.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prag,_Prager_Burg,_Veitsdom_--_2019_--_6662.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. Vitus Cathedral – roof and spires over Hradčany from the Great South Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Vitus_Cathedral_%E2%80%93_roof_and_spires_over_Hrad%C4%8Dany_from_the_Great_South_Tower.jpg",
+      "author": "Punteador",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. Vitus Cathedral in Prague 2016.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Vitus_Cathedral_in_Prague_2016.jpg",
+      "author": "JohnCayne",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/prague-st-vitus-cathedral.glb",
+  "source": "generators/prague-st-vitus-cathedral.ts"
+}

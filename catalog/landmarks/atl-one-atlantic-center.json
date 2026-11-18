@@ -1,0 +1,18 @@
+{
+  "id": "atl-one-atlantic-center",
+  "name": "One Atlantic Center",
+  "model": "atl-one-atlantic-center",
+  "place": "atlanta-area",
+  "lng": -84.387369,
+  "lat": 33.787081,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/39450314",
+    "way/1425865538",
+    "way/1451518610",
+    "way/1451518611"
+  ],
+  "wikidata": "Q2023960"
+}

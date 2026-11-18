@@ -1,0 +1,55 @@
+{
+  "id": "la-ronald-reagan-medical-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "hospital",
+    "university",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Ronald Reagan UCLA Medical Center",
+      "url": "https://commons.wikimedia.org/wiki/File:Ronald_Reagan_UCLA_Medical_Center.jpg",
+      "author": "Coolcaesar",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "UCLA Reagan Medical Center",
+      "url": "https://commons.wikimedia.org/wiki/File:UCLA_Reagan_Medical_Center.JPG",
+      "author": "Fuzzy901",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Ronald Reagan UCLA Medical Center June 2012 001",
+      "url": "https://commons.wikimedia.org/wiki/File:Ronald_Reagan_UCLA_Medical_Center_June_2012_001.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Ronald Reagan UCLA Medical Center June 2012 002",
+      "url": "https://commons.wikimedia.org/wiki/File:Ronald_Reagan_UCLA_Medical_Center_June_2012_002.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/la-ronald-reagan-medical-center.glb",
+  "source": "generators/la-ronald-reagan-medical-center.ts"
+}

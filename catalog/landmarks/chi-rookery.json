@@ -1,0 +1,15 @@
+{
+  "id": "chi-rookery",
+  "name": "The Rookery",
+  "model": "chi-rookery",
+  "lng": -87.63183,
+  "lat": 41.879082,
+  "bearing": 359.1,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q3441853",
+  "replaces": [
+    "way/73706154"
+  ],
+  "place": "chicago-area"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "phl-kimmel-center",
+  "name": "Kimmel Center",
+  "model": "phl-kimmel-center",
+  "place": "philadelphia-area",
+  "lng": -75.165754,
+  "lat": 39.946708,
+  "bearing": 9.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/183519384",
+    "way/340439795"
+  ]
+}

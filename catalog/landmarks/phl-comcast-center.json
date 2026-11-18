@@ -1,0 +1,26 @@
+{
+  "id": "phl-comcast-center",
+  "name": "Comcast Center",
+  "model": "phl-comcast-center",
+  "place": "philadelphia-area",
+  "wikidata": "Q1113808",
+  "lng": -75.168615,
+  "lat": 39.954736,
+  "bearing": 9,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/42785026",
+    "way/333339072",
+    "way/336855440",
+    "way/336855442",
+    "way/336855449",
+    "way/336855450",
+    "way/336855451",
+    "way/336855441",
+    "way/336875906",
+    "way/336855448",
+    "way/336875907",
+    "way/336875908"
+  ]
+}
