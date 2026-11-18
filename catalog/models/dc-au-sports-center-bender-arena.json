@@ -1,0 +1,49 @@
+{
+  "id": "dc-au-sports-center-bender-arena",
+  "file": "models/dc-au-sports-center-bender-arena.glb",
+  "source": "generators/dc-au-sports-center-bender-arena.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "athletics"
+  ],
+  "description": "Bender Arena and the Reeves Aquatic Center occupy the stepped sports complex adjoining Butler Pavilion and the Sports Center Parking Garage.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Building outline (May 2026)",
+      "url": "https://www.openstreetmap.org/way/33899314",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "Complex and component buildings",
+      "url": "https://aueagles.com/sports/2019/8/15/information-facilities-bender-arena.aspx?id=18",
+      "author": "American University Athletics"
+    },
+    {
+      "title": "Photovoltaic array across Bender and Meltzer roofs",
+      "url": "https://www.american.edu/about/sustainability/buildings/meltzer-athletic-center.cfm",
+      "author": "American University"
+    },
+    {
+      "title": "2022 DC lidar, archived processing source",
+      "url": "https://github.com/kameronlee/heat-aware-pedestrian-routing/blob/456fd09d67aae857907e8c2b7fa6c19332734bd5/data/metadata/lidar_sources.md",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    }
+  ],
+  "reviewStatus": "draft"
+}
