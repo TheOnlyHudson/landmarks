@@ -56,6 +56,9 @@
  * are placed at every second bay from Láscar's photo; the roof's cresting
  * is left out.
  *
+ * Roof green #76b9a6: the sunlit painted metal of the Kremlin palace roofs
+ * (sampled with the Grand Kremlin Palace's), pulled light.
+ *
  * Materials (five): Thon yellow, white trim and stone, window, the green
  * roof, granite grey for the plinth. Floodlit at night like the palace.
  */
@@ -148,7 +151,7 @@ const parts: { part: Part; material: MaterialSpec }[] = [
   { part: yellow, material: { ...finish('gkp-yellow', 0xe8cc8a), floodlight: lit } },
   { part: trim, material: { ...finish('gkp-white', 0xf6f0e4), floodlight: lit } },
   { part: win, material: PALETTE.window },
-  { part: roof, material: finish('gkp-green-roof', 0x86ad98) },
+  { part: roof, material: finish('gkp-green-roof', 0x76b9a6) },
   { part: granite, material: finish('armoury-granite', 0x8d8c88) },
 ]
 finishModel('Armoury', 'moscow-armoury', parts, { bearing: -41.7, osm: 'relation/1359335', height: 30 }, 5000)
