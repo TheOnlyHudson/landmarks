@@ -180,14 +180,17 @@ if (import.meta.main) {
   const granite = new Part() // pier
   const road = new Part()    // deck stub
 
-  // Heights (m above the water).
-  const PIER = 6.2, COPE = 7.0, PED = 8.6   // pier, coping, granite pedestal under the columns
-  const FLARE = 30                           // the column feet flare out below this
-  const DECK0 = 36.0, DECK = 42.7, UPPER = 48.9 // deck stub: underside, lower level's outer paths, upper roadways
-  const LAT0 = 49.0                          // bracing above the deck starts at the truss tops
-  const SPRING = 85.0                        // centre arch
-  const COR0 = 92.0, FRIEZE = 96.6, COR1 = 98.6 // lattice frieze under the cornice, cornice
-  const CAPTOP = 101.2, FIN = 103.7         // finial pedestals, ball tops
+  // Heights (m above the water). The lidar's water is -0.84 m NAVD88; the
+  // map's terrain lays the river, where the pier stands, at -1.63 m, so every
+  // lidar height is lifted by the difference to stand at its NAVD88 height there.
+  const LIFT = 0.79
+  const PIER = 6.2 + LIFT, COPE = 7.0 + LIFT, PED = 8.6 + LIFT   // pier, coping, granite pedestal under the columns
+  const FLARE = 30 + LIFT                    // the column feet flare out below this
+  const DECK0 = 36.0 + LIFT, DECK = 42.7 + LIFT, UPPER = 48.9 + LIFT // deck stub: underside, lower level's outer paths, upper roadways
+  const LAT0 = 49.0 + LIFT                   // bracing above the deck starts at the truss tops
+  const SPRING = 85.0 + LIFT                 // centre arch
+  const COR0 = 92.0 + LIFT, FRIEZE = 96.6 + LIFT, COR1 = 98.6 + LIFT // lattice frieze under the cornice, cornice
+  const CAPTOP = 101.2 + LIFT, FIN = 103.7 + LIFT // finial pedestals, ball tops
 
   // Plan (OSM, bridge frame).
   const COLS = [6.1, 14.55]  // column centre lines, |x| (lidar: the finials)

@@ -51,7 +51,7 @@
  *   (maroon in shade, pink at sunset), drawn at the palette's terracotta
  *   lightness; the towers' granite buff-grey (#c5b9a9 to #d4cdbb lit).
  * - y = 0 is the river as the lidar reads it, -1 m NAVD88, and every height
- *   above is a lidar height over it, so the track (46.5 m) is 45.5 m NAVD88.
+ *   above is a lidar height over it, so the track bed (45.8 m) is 44.8 m NAVD88.
  *
  * Standing on the terrain: the towers stand on ground 4–11 m up (Mapterhorn,
  * the map's terrain, which reads the river itself at -1.6 m). Their bases run
@@ -80,7 +80,7 @@ const road = new Part()   // the deck's top
 const SPAN = 151                 // springing at the towers' inner faces, |y|
 const TOWER_IN = 154             // where the top chord meets the towers
 const TRUSS = 10                 // truss planes, |x|
-const DECK0 = 41, DECK = 46.5    // deck girders, top of deck
+const DECK0 = 40.3, DECK = 45.8  // deck girders, top of deck: the track bed, 44.8 m NAVD88 (lidar)
 
 const zb = (y: number) => 78.5 - 0.00295 * y * y
 function zt(y: number) {
