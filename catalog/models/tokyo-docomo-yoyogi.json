@@ -1,0 +1,65 @@
+{
+  "id": "tokyo-docomo-yoyogi",
+  "file": "models/tokyo-docomo-yoyogi.glb",
+  "detail": "models/tokyo-docomo-yoyogi.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-docomo-yoyogi.ts",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "clock-tower",
+    "telecommunications",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "240 m telecom tower (2000): a dark granite shaft under a pale stepped crown with a clock on its first tier and a red-and-white lattice mast; the upper tiers glow purple and blue at night.",
+  "references": [
+    {
+      "title": "NTT DoCoMo Yoyogi Building 2009.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:NTT_DoCoMo_Yoyogi_Building_2009.jpg",
+      "author": "Wiiii",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Shinjuku Gyoen National Garden and NTT DoCoMo Yoyogi Building, Tokyo, Japan.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Shinjuku_Gyoen_National_Garden_and_NTT_DoCoMo_Yoyogi_Building,_Tokyo,_Japan.jpg",
+      "author": "Basile Morin",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "NTT Docomo Yoyogi Building clock tower at 7 pm with color lighting Shibuya Tokyo Japan.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:NTT_Docomo_Yoyogi_Building_clock_tower_at_7_pm_with_color_lighting_Shibuya_Tokyo_Japan.jpg",
+      "author": "Basile Morin",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "NTT Docomo Yoyogi Building Uhr.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:NTT_Docomo_Yoyogi_Building_Uhr.jpg",
+      "author": "Zairon",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "NTT Docomo Yoyogi Building 3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:NTT_Docomo_Yoyogi_Building_3.jpg",
+      "author": "Zairon",
+      "license": "CC-BY-SA-4.0"
+    }
+  ]
+}
