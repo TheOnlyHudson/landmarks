@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-constitution-hall",
+  "name": "Constitution Hall",
+  "model": "dc-au-constitution-hall",
+  "place": "american-university",
+  "lng": -77.0866055,
+  "lat": 38.9365044,
+  "bearing": 35.0704,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/517997411"
+  ]
+}
