@@ -1,0 +1,93 @@
+{
+  "id": "nyc-new-york-stock-exchange",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "beaux-arts",
+    "neoclassical",
+    "stock-exchange",
+    "skyscraper"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "The New York Stock Exchange",
+      "url": "https://www.flickr.com/photos/8256808@N02/1613548865",
+      "author": "epicharmus",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "New York Stock Exchange August 2017 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_August_2017_02.jpg",
+      "author": "Arild Vågen",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New York Stock Exchange August 2017 04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_August_2017_04.jpg",
+      "author": "Arild Vågen",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New York City (New York, USA), Wall Street -- 2012 -- 6614.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_York_City_(New_York,_USA),_Wall_Street_--_2012_--_6614.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New York Stock Exchange Flag.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_Flag.jpg",
+      "author": "Balon Greyjoy",
+      "license": "CC0"
+    },
+    {
+      "title": "NEW YORK STOCK EXCHANGE 20240521.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:NEW_YORK_STOCK_EXCHANGE_20240521.jpg",
+      "author": "颐园居",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New York Stock Exchange Building 2010.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_Building_2010.jpg",
+      "author": "LeoTar",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "New York Stock Exchange building, 20231002 171816.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_building,_20231002_171816.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "11 Wall Street - New York Stock Exchange",
+      "url": "https://www.flickr.com/photos/85145727@N00/8044923705",
+      "author": "pixelgrey",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "NYSE lit up at night (3122761205).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:NYSE_lit_up_at_night_(3122761205).jpg",
+      "author": "Georgio",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nyc-new-york-stock-exchange.glb",
+  "source": "generators/nyc-new-york-stock-exchange.ts"
+}
