@@ -57,7 +57,9 @@
  *   Palace (in Norin's photo) is not modelled; its outline is the palace
  *   builder's or this wing's, and OSM doesn't separate it.
  *
- * Materials (six): ochre, white trim, roof, window, glass (the pavilion).
+ * Materials (five): ochre, white trim, the painted green roof (#76b9a6, as
+ * on the Senate and Arsenal; OSM roof:colour #5a7364, green in the aerial),
+ * window, glass (the pavilion).
  * Night: walls floodlit lightly, windows lit.
  */
 import { Part, type V3 } from './mesh'
