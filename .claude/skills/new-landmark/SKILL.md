@@ -109,8 +109,13 @@ what is estimated.
   optional Wikidata, and every covered OSM outline/part in `replaces`.
 - For updates, preserve model/placement IDs and existing metadata, and regenerate
   both Low and High LOD files when present. Git supplies revision history.
+- Run `bun tools/overlap.ts <id>`. It lists every OSM building or
+  building:part the model draws over that `replaces` leaves out. Add each one
+  the model stands in for (roofs, canopies, podiums and entrance blocks it
+  covers only partly are the usual misses); anything unlisted draws through
+  the model as a box. Only a separate neighbour may stay, and say so.
 - Refresh stored building outlines with `bun tools/replacement-footprints.ts`
-  when `replaces` changes.
+  when `replaces` changes; `bun run validate` fails until you do.
 - `bun run validate`, `bun run typecheck`, `bun test`, and `bun run build` must
   pass. Inspect the built site for LODs, history, credits/avatars, all metadata,
   and day/night rendering. See `docs/website.md`.

@@ -109,6 +109,12 @@ Send a model back to the same builder, with specific fixes, when:
 - the placement, `replaces` or elevation is wrong;
 - `bun tools/terrain.ts check <id>` reports visible tops under the map's
   terrain;
+- `bun tools/overlap.ts --branch-diff` reports an OSM building the model
+  draws over that isn't in `replaces` (a roof, canopy, podium or entrance
+  block it covers only partly is the usual miss; it draws through the model
+  as a box);
+- `web/replacement-footprints.json` wasn't refreshed after `replaces`
+  changed (`bun run validate` fails);
 - for a rework, the approved form changed without clear evidence.
 
 A builder's "it reads well" is not evidence. Accept only models you would
