@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-mckinley-building",
+  "name": "McKinley Building",
+  "model": "dc-au-mckinley-building",
+  "place": "american-university",
+  "lng": -77.0894665,
+  "lat": 38.9362744,
+  "bearing": 34,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190512"
+  ]
+}
