@@ -67,7 +67,9 @@
  * - Window heads use 6 segments per semicircle (STYLE says 8-12) to keep
  *   300-odd windows inside the 250 KB file budget.
  *
- * Materials (five): ochre, white trim, the grey-green roof, window, and a
+ * Materials (five): ochre, white trim, the painted green roof (#76b9a6, the
+ * sunlit roofs of the 2018 Ministry of Defence aerial lightened to the
+ * palette; shared with the Senate and the palaces), window, and a
  * dark gate passage. Night: the fronts floodlit, as the Kremlin's are.
  */
 import { Part, type V3 } from './mesh'
