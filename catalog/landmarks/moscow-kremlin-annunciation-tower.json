@@ -1,0 +1,33 @@
+{
+  "id": "moscow-kremlin-annunciation-tower",
+  "name": "Annunciation Tower",
+  "model": "moscow-kremlin-annunciation-tower",
+  "place": "moscow",
+  "lng": 37.6151857,
+  "lat": 55.7486886,
+  "bearing": -31.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/3229300",
+    "relation/3229301",
+    "relation/3229302",
+    "relation/9359432",
+    "way/239454725",
+    "way/239454726",
+    "way/239454727",
+    "way/239454728",
+    "way/239454729",
+    "way/239454730",
+    "way/239454732",
+    "way/239454733",
+    "way/239454734",
+    "way/239454735",
+    "way/239454740",
+    "way/239454741",
+    "way/239454742",
+    "way/239454743",
+    "way/239454744"
+  ],
+  "wikidata": "Q4087733"
+}
