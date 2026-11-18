@@ -1,0 +1,15 @@
+{
+  "id": "atl-central-library",
+  "name": "Atlanta Central Library",
+  "model": "atl-central-library",
+  "place": "atlanta-area",
+  "lng": -84.388478,
+  "lat": 33.757762,
+  "bearing": 49.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/192941643"
+  ],
+  "wikidata": "Q105751960"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ascendus",
+  "name": "Ascendus",
+  "model": "ascendus",
+  "lng": -80.9232622,
+  "lat": 35.2191714,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "place": "charlotte-area"
+}

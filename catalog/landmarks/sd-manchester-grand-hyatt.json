@@ -1,0 +1,17 @@
+{
+  "id": "sd-manchester-grand-hyatt",
+  "name": "Manchester Grand Hyatt",
+  "model": "sd-manchester-grand-hyatt",
+  "place": "san-diego-area",
+  "lng": -117.16795,
+  "lat": 32.70982,
+  "bearing": 33.4,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/30929700",
+    "way/611726997",
+    "way/611726918"
+  ],
+  "wikidata": "Q935272"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mexico-city-palacio-de-bellas-artes",
+  "name": "Palacio de Bellas Artes",
+  "model": "mexico-city-palacio-de-bellas-artes",
+  "place": "mexico-city",
+  "lng": -99.141263,
+  "lat": 19.4354684,
+  "bearing": 9,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1139081",
+  "replaces": [
+    "way/157051087",
+    "way/1436125222",
+    "way/1436125225",
+    "way/1436125226",
+    "way/1436125227",
+    "way/1436125228",
+    "way/1436125229",
+    "way/1436125230",
+    "way/1436125231",
+    "way/1436125232",
+    "way/1436127889",
+    "way/1436127890",
+    "way/1436128176",
+    "way/1466114121"
+  ]
+}

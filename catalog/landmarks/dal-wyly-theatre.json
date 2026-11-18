@@ -1,0 +1,17 @@
+{
+  "id": "dal-wyly-theatre",
+  "name": "Wyly Theatre",
+  "model": "dal-wyly-theatre",
+  "place": "dallas-area",
+  "lng": -96.7963821,
+  "lat": 32.7900031,
+  "bearing": 46,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5249965",
+  "replaces": [
+    "way/361449421",
+    "way/1396184197",
+    "way/1396184198"
+  ]
+}

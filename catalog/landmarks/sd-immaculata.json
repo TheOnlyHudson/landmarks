@@ -1,0 +1,15 @@
+{
+  "id": "sd-immaculata",
+  "name": "The Immaculata",
+  "model": "sd-immaculata",
+  "place": "san-diego-area",
+  "lng": -117.19075,
+  "lat": 32.77227,
+  "bearing": 343.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/31843063",
+    "way/1207657025"
+  ]
+}

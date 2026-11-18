@@ -1,0 +1,14 @@
+{
+  "id": "hou-jpmorgan-chase-tower",
+  "name": "JPMorgan Chase Tower",
+  "model": "hou-jpmorgan-chase-tower",
+  "place": "houston-area",
+  "lng": -95.364005,
+  "lat": 29.760399,
+  "bearing": 34.9,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/44130644"
+  ]
+}

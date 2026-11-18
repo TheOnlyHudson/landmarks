@@ -1,0 +1,19 @@
+{
+  "id": "lv-venetian",
+  "name": "The Venetian",
+  "model": "lv-venetian",
+  "lng": -115.1692833,
+  "lat": 36.1217638,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1049209",
+  "replaces": [
+    "relation/7770314",
+    "way/30618090",
+    "way/111322067",
+    "way/43875964",
+    "way/543728945"
+  ],
+  "place": "las-vegas-area"
+}

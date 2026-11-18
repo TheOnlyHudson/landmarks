@@ -1,0 +1,17 @@
+{
+  "id": "barcelona-palau-sant-jordi",
+  "name": "Palau Sant Jordi",
+  "model": "barcelona-palau-sant-jordi",
+  "place": "barcelona",
+  "lng": 2.152562,
+  "lat": 41.363225,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/35793637",
+    "way/146825150",
+    "way/146825159"
+  ],
+  "wikidata": "Q630630"
+}

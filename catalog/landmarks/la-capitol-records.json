@@ -1,0 +1,17 @@
+{
+  "id": "la-capitol-records",
+  "name": "Capitol Records Building",
+  "model": "la-capitol-records",
+  "lng": -118.3263646,
+  "lat": 34.1031194,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2937482",
+  "replaces": [
+    "way/422141102",
+    "way/907834019",
+    "way/907834020"
+  ],
+  "place": "los-angeles-area"
+}

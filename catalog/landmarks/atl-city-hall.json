@@ -1,0 +1,18 @@
+{
+  "id": "atl-city-hall",
+  "name": "Atlanta City Hall",
+  "model": "atl-city-hall",
+  "place": "atlanta-area",
+  "lng": -84.3905268,
+  "lat": 33.7486235,
+  "bearing": 33.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/113041909",
+    "way/883956342",
+    "way/883956343",
+    "way/883956344"
+  ],
+  "wikidata": "Q4816038"
+}

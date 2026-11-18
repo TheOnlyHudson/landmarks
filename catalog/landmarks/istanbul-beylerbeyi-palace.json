@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-beylerbeyi-palace",
+  "name": "Beylerbeyi Palace",
+  "model": "istanbul-beylerbeyi-palace",
+  "place": "istanbul",
+  "lng": 29.04004,
+  "lat": 41.04272,
+  "bearing": 323.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q794349",
+  "replaces": [
+    "way/61736367"
+  ]
+}

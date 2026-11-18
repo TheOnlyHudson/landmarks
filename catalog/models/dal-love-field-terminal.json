@@ -1,0 +1,60 @@
+{
+  "id": "dal-love-field-terminal",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "airport",
+    "terminal"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Main terminal at Dallas Love Field Airport",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_terminal_at_Dallas_Love_Field_Airport.jpg",
+      "author": "EEJCC",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Dallas Love Field gate concourse",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_Love_Field_gate_concourse.jpg",
+      "author": "EEJCC",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Dallas Love Field (40736439252)",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_Love_Field_(40736439252).jpg",
+      "author": "formulanone",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Dallas Love Field 2013",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_Love_Field_2013.jpg",
+      "author": "Danazar",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Dallas Love Field",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_Love_Field.jpg",
+      "author": "Billyjayb",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/dal-love-field-terminal.glb",
+  "source": "generators/dal-love-field-terminal.ts"
+}

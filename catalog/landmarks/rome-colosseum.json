@@ -1,0 +1,26 @@
+{
+  "id": "rome-colosseum",
+  "name": "Colosseum",
+  "model": "rome-colosseum",
+  "place": "rome",
+  "lng": 12.492322,
+  "lat": 41.89021,
+  "bearing": 19.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q10285",
+  "replaces": [
+    "relation/1834818",
+    "relation/1834825",
+    "relation/1834826",
+    "relation/1834827",
+    "relation/1834828",
+    "relation/1834829",
+    "relation/1834830",
+    "relation/1834831",
+    "relation/3371742",
+    "relation/19666834",
+    "relation/19666835",
+    "relation/19666836"
+  ]
+}

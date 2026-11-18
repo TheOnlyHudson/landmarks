@@ -1,0 +1,12 @@
+{
+  "id": "nyc-revson-fountain",
+  "name": "Revson Fountain",
+  "model": "nyc-revson-fountain",
+  "place": "new-york-area",
+  "lng": -73.9833951,
+  "lat": 40.7723103,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

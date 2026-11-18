@@ -1,0 +1,16 @@
+{
+  "id": "nyc-carnegie-hall",
+  "name": "Carnegie Hall",
+  "model": "nyc-carnegie-hall",
+  "lng": -73.9799197,
+  "lat": 40.7650035,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q200959",
+  "replaces": [
+    "way/265148502",
+    "way/1039811293"
+  ],
+  "place": "new-york-area"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "carowinds-skytower",
+  "name": "Carolina Skytower",
+  "model": "carowinds-skytower",
+  "lng": -80.9406908,
+  "lat": 35.1035924,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [],
+  "place": "carowinds"
+}

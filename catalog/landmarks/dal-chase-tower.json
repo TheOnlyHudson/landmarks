@@ -1,0 +1,15 @@
+{
+  "id": "dal-chase-tower",
+  "name": "Chase Tower",
+  "model": "dal-chase-tower",
+  "place": "dallas-area",
+  "lng": -96.7966344,
+  "lat": 32.7879509,
+  "bearing": 135,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q579403",
+  "replaces": [
+    "way/28781114"
+  ]
+}

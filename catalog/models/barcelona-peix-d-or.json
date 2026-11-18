@@ -1,0 +1,55 @@
+{
+  "id": "barcelona-peix-d-or",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "sculpture",
+    "public-art",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Barcelona Gehry fish.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Barcelona_Gehry_fish.jpg",
+      "author": "Till Niermann",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Barcelona Frank Gehrys Peix.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Barcelona_Frank_Gehrys_Peix.jpg",
+      "author": "Isiwal",
+      "license": "CC BY-SA 3.0 at"
+    },
+    {
+      "title": "El Peix d Or , Barcelona (P1170710).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:El_Peix_d_Or_,_Barcelona_(P1170710).jpg",
+      "author": "Matti Blume",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Aerial view of Somorrostro Beach and Port Olympic in Barcelona, Spain (51227006624).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Somorrostro_Beach_and_Port_Olympic_in_Barcelona,_Spain_(51227006624).jpg",
+      "author": "dronepicr",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/barcelona-peix-d-or.glb",
+  "source": "generators/barcelona-peix-d-or.ts"
+}

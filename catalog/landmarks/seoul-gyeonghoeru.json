@@ -1,0 +1,14 @@
+{
+  "id": "seoul-gyeonghoeru",
+  "name": "Gyeonghoeru",
+  "model": "seoul-gyeonghoeru",
+  "place": "seoul",
+  "lng": 126.9759667,
+  "lat": 37.5797502,
+  "bearing": 272,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/170199469"
+  ]
+}

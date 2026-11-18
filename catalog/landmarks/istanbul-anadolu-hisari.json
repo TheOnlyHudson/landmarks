@@ -1,0 +1,18 @@
+{
+  "id": "istanbul-anadolu-hisari",
+  "name": "Anadolu Hisarı",
+  "model": "istanbul-anadolu-hisari",
+  "place": "istanbul",
+  "lng": 29.067043,
+  "lat": 41.082094,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q81650",
+  "replaces": [
+    "relation/13234926",
+    "way/984747660",
+    "way/984747661",
+    "way/984747664"
+  ]
+}

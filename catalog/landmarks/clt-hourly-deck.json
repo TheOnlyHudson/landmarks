@@ -1,0 +1,14 @@
+{
+  "id": "clt-hourly-deck",
+  "name": "CLT Hourly Parking Deck",
+  "model": "clt-hourly-deck",
+  "lng": -80.9442092,
+  "lat": 35.2222097,
+  "bearing": 355.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/5933200"
+  ],
+  "place": "charlotte-area"
+}

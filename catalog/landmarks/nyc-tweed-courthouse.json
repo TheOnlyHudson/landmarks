@@ -1,0 +1,25 @@
+{
+  "id": "nyc-tweed-courthouse",
+  "name": "Tweed Courthouse",
+  "model": "nyc-tweed-courthouse",
+  "lng": -74.0055424,
+  "lat": 40.7133991,
+  "bearing": 31,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1105773",
+  "replaces": [
+    "way/575213948",
+    "way/1101512867",
+    "way/214791739",
+    "way/214791740",
+    "way/214791741",
+    "way/214791742",
+    "way/214791743",
+    "way/214791744",
+    "way/1016246198",
+    "way/1016246199",
+    "way/1016246200"
+  ],
+  "place": "new-york-area"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mexico-city-el-caballito",
+  "name": "El Caballito",
+  "model": "mexico-city-el-caballito",
+  "place": "mexico-city",
+  "lng": -99.1494009,
+  "lat": 19.4360946,
+  "bearing": 16,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

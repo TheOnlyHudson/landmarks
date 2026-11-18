@@ -1,0 +1,27 @@
+{
+  "id": "amsterdam-concertgebouw",
+  "name": "Concertgebouw",
+  "model": "amsterdam-concertgebouw",
+  "place": "amsterdam",
+  "lng": 4.879027,
+  "lat": 52.35624,
+  "bearing": 66.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q849957",
+  "replaces": [
+    "way/46696080",
+    "way/754269603",
+    "way/754269604",
+    "way/754269605",
+    "way/754269606",
+    "way/754269607",
+    "way/754269608",
+    "way/754269609",
+    "way/754269610",
+    "way/754269611",
+    "way/754276795",
+    "way/754276796",
+    "way/754276797"
+  ]
+}

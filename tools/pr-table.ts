@@ -15,6 +15,7 @@ import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import type { Catalog } from '../src/catalog'
 import { glbBounds } from '../src/glb'
+import { readCatalog } from '../src/catalog-files'
 
 const ROOT = join(import.meta.dir, '..')
 const args = process.argv.slice(2)
@@ -25,10 +26,10 @@ const option = (name: string) => {
 const notesFile = option('--notes')
 const prefix = option('--prefix')
 const notes: Record<string, [string, string]> = notesFile ? JSON.parse(readFileSync(notesFile, 'utf8')) : {}
-const catalog = JSON.parse(readFileSync(join(ROOT, 'catalog.json'), 'utf8')) as Catalog
+const catalog = readCatalog(ROOT)
 const picked = prefix ? catalog.landmarks.filter((l) => l.id.startsWith(prefix)) : args.map((id) => catalog.landmarks.find((l) => l.id === id)!)
 if (!picked.length || picked.some((l) => !l)) {
-  console.error('usage: bun tools/pr-table.ts [--notes notes.json] [--prefix <p>] [id ...]   (every id must be a landmark in catalog.json)')
+  console.error('usage: bun tools/pr-table.ts [--notes notes.json] [--prefix <p>] [id ...]   (every id must be a landmark in the catalog)')
   process.exit(1)
 }
 

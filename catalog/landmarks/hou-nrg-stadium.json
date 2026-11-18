@@ -1,0 +1,15 @@
+{
+  "id": "hou-nrg-stadium",
+  "name": "NRG Stadium",
+  "model": "hou-nrg-stadium",
+  "place": "houston-area",
+  "lng": -95.410834,
+  "lat": 29.684858,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1058864",
+  "replaces": [
+    "way/119422708"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "mexico-city-kiosco-morisco",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "pavilion",
+    "kiosk",
+    "moorish-revival",
+    "cast-iron",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Kiosco Morisco de Santa María la Ribera 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kiosco_Morisco_de_Santa_Mar%C3%ADa_la_Ribera_1.jpg",
+      "author": "Juan Carlos Fonseca Mata",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kiosco Morisco de Santa María la Ribera 3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kiosco_Morisco_de_Santa_Mar%C3%ADa_la_Ribera_3.jpg",
+      "author": "Juan Carlos Fonseca Mata",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kiosco Morisco Mexico.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kiosco_Morisco_Mexico.jpg",
+      "author": "Ulisesmorales",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Kiosco Morisco dia.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Kiosco_Morisco_dia.JPG",
+      "author": "Tanke67",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/mexico-city-kiosco-morisco.glb",
+  "source": "generators/mexico-city-kiosco-morisco.ts"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sd-el-cortez",
+  "name": "El Cortez",
+  "model": "sd-el-cortez",
+  "place": "san-diego-area",
+  "lng": -117.1579151,
+  "lat": 32.7204475,
+  "bearing": 45,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/132936848",
+    "way/305671135",
+    "way/612697753",
+    "way/305671137"
+  ]
+}

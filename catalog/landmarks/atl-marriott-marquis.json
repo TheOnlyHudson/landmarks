@@ -1,0 +1,14 @@
+{
+  "id": "atl-marriott-marquis",
+  "name": "Atlanta Marriott Marquis",
+  "model": "atl-marriott-marquis",
+  "place": "atlanta-area",
+  "lng": -84.384846,
+  "lat": 33.761597,
+  "bearing": 1,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/536787107"
+  ]
+}

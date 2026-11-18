@@ -1,0 +1,19 @@
+{
+  "id": "london-victoria-memorial",
+  "name": "Victoria Memorial",
+  "model": "london-victoria-memorial",
+  "place": "london",
+  "lng": -0.140587,
+  "lat": 51.50184,
+  "bearing": 55,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1333411",
+  "replaces": [
+    "way/374945234",
+    "way/554703202",
+    "way/554703203",
+    "way/554703204",
+    "way/554703205"
+  ]
+}

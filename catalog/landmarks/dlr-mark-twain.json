@@ -1,0 +1,13 @@
+{
+  "id": "dlr-mark-twain",
+  "name": "Mark Twain Riverboat",
+  "model": "dlr-mark-twain",
+  "lng": -117.920704,
+  "lat": 33.812227,
+  "bearing": 180,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q3006137",
+  "replaces": [],
+  "place": "disneyland"
+}

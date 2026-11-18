@@ -1,0 +1,17 @@
+{
+  "id": "mexico-city-torre-pemex",
+  "name": "Torre Ejecutiva Pemex",
+  "model": "mexico-city-torre-pemex",
+  "place": "mexico-city",
+  "lng": -99.174897,
+  "lat": 19.439073,
+  "bearing": 32,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/181713097",
+    "way/1187396041",
+    "way/1185609790"
+  ],
+  "wikidata": "Q948178"
+}

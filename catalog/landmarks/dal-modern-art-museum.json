@@ -1,0 +1,15 @@
+{
+  "id": "dal-modern-art-museum",
+  "name": "Modern Art Museum of Fort Worth",
+  "model": "dal-modern-art-museum",
+  "place": "dallas-area",
+  "lng": -97.363118,
+  "lat": 32.749266,
+  "bearing": 0.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/141506526"
+  ],
+  "wikidata": "Q1414796"
+}

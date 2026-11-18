@@ -1,0 +1,17 @@
+{
+  "id": "istanbul-dolmabahce-palace",
+  "name": "Dolmabahçe Palace",
+  "model": "istanbul-dolmabahce-palace",
+  "place": "istanbul",
+  "lng": 29.000826,
+  "lat": 41.039321,
+  "bearing": 338.7,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q274141",
+  "replaces": [
+    "way/175516451",
+    "way/263949162",
+    "way/263949137"
+  ]
+}

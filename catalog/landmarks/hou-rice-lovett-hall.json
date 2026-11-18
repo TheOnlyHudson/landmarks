@@ -1,0 +1,14 @@
+{
+  "id": "hou-rice-lovett-hall",
+  "name": "Lovett Hall, Rice University",
+  "model": "hou-rice-lovett-hall",
+  "place": "houston-area",
+  "lng": -95.397826,
+  "lat": 29.719023,
+  "bearing": 335.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/44896261"
+  ]
+}

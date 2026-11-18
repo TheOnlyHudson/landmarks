@@ -1,0 +1,12 @@
+{
+  "id": "mexico-city-monumento-a-alvaro-obregon",
+  "name": "Monumento a Álvaro Obregón",
+  "model": "mexico-city-monumento-a-alvaro-obregon",
+  "place": "mexico-city",
+  "lng": -99.1859298,
+  "lat": 19.3471875,
+  "bearing": 107.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

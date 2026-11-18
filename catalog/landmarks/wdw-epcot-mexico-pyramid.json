@@ -1,0 +1,16 @@
+{
+  "id": "wdw-epcot-mexico-pyramid",
+  "name": "Mexico Pavilion",
+  "model": "wdw-epcot-mexico-pyramid",
+  "lng": -81.54695,
+  "lat": 28.37185,
+  "bearing": 54,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2776455",
+  "replaces": [
+    "way/295598769",
+    "way/529602448"
+  ],
+  "place": "walt-disney-world"
+}

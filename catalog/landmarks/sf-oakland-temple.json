@@ -1,0 +1,17 @@
+{
+  "id": "sf-oakland-temple",
+  "name": "Oakland California Temple",
+  "model": "sf-oakland-temple",
+  "lng": -122.199095,
+  "lat": 37.807815,
+  "bearing": 5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1541513",
+  "replaces": [
+    "way/52391545",
+    "way/894014038",
+    "way/894014037"
+  ],
+  "place": "san-francisco-bay-area"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "nyc-city-hall",
+  "name": "New York City Hall",
+  "model": "nyc-city-hall",
+  "lng": -74.0059933,
+  "lat": 40.712751,
+  "bearing": 33.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1065206",
+  "replaces": [
+    "way/575213527",
+    "way/1015701476",
+    "way/1015701477",
+    "way/1015701478",
+    "way/1015701479",
+    "way/1015701480",
+    "way/1015701481",
+    "way/1015701482",
+    "way/214788062",
+    "way/214788063",
+    "way/214788064",
+    "way/214788065",
+    "way/214788066",
+    "way/214788067",
+    "way/214788068"
+  ],
+  "place": "new-york-area"
+}

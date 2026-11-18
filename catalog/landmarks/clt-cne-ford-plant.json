@@ -1,0 +1,26 @@
+{
+  "id": "clt-cne-ford-plant",
+  "name": "Historic Ford Factory",
+  "model": "clt-cne-ford-plant",
+  "lng": -80.8342425,
+  "lat": 35.2471457,
+  "bearing": 6.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/835067654",
+    "way/324608492",
+    "way/835064741",
+    "way/835064742",
+    "way/835067653",
+    "way/835800986",
+    "way/835800987",
+    "way/835800988",
+    "way/838339976",
+    "way/835828574",
+    "way/835828575",
+    "way/835828576",
+    "way/835828577"
+  ],
+  "place": "camp-north-end"
+}

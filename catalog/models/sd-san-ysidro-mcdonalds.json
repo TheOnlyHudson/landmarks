@@ -1,0 +1,50 @@
+{
+  "id": "sd-san-ysidro-mcdonalds",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "restaurant",
+    "commercial",
+    "sign"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The two-storey restaurant building beside the San Ysidro trolley platforms and its curved, stacked maroon sign, drawn without branding.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "San Ysidro, San Diego, CA, USA - panoramio (6).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Ysidro,_San_Diego,_CA,_USA_-_panoramio_(6).jpg",
+      "author": "Roman Eugeniusz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "San Ysidro, San Diego, CA, USA - panoramio (5).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Ysidro,_San_Diego,_CA,_USA_-_panoramio_(5).jpg",
+      "author": "Roman Eugeniusz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "San Ysidro, San Diego, CA, USA - panoramio (7).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Ysidro,_San_Diego,_CA,_USA_-_panoramio_(7).jpg",
+      "author": "Roman Eugeniusz",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/sd-san-ysidro-mcdonalds.glb",
+  "source": "generators/sd-san-ysidro-mcdonalds.ts"
+}

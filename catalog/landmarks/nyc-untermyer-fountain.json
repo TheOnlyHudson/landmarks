@@ -1,0 +1,13 @@
+{
+  "id": "nyc-untermyer-fountain",
+  "name": "Untermyer Fountain",
+  "model": "nyc-untermyer-fountain",
+  "place": "new-york-area",
+  "lng": -73.95195,
+  "lat": 40.794264,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q17151590",
+  "replaces": []
+}

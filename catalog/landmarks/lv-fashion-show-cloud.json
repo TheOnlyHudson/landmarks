@@ -1,0 +1,14 @@
+{
+  "id": "lv-fashion-show-cloud",
+  "name": "The Cloud at Fashion Show",
+  "model": "lv-fashion-show-cloud",
+  "lng": -115.1688864,
+  "lat": 36.1269765,
+  "bearing": 29.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/19447588"
+  ],
+  "place": "las-vegas-area"
+}

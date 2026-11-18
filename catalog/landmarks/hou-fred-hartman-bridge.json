@@ -1,0 +1,13 @@
+{
+  "id": "hou-fred-hartman-bridge",
+  "name": "Fred Hartman Bridge",
+  "model": "hou-fred-hartman-bridge",
+  "place": "houston-area",
+  "lng": -95.016704,
+  "lat": 29.703716,
+  "bearing": 47,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q4115158",
+  "replaces": []
+}

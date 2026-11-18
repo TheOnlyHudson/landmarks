@@ -1,0 +1,17 @@
+{
+  "id": "hou-one-shell-plaza",
+  "name": "One Shell Plaza",
+  "model": "hou-one-shell-plaza",
+  "place": "houston-area",
+  "lng": -95.367664,
+  "lat": 29.759151,
+  "bearing": 34.9,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/44821986",
+    "relation/12711404",
+    "way/260365758"
+  ],
+  "wikidata": "Q1537698"
+}

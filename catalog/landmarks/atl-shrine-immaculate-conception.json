@@ -1,0 +1,15 @@
+{
+  "id": "atl-shrine-immaculate-conception",
+  "name": "Shrine of the Immaculate Conception",
+  "model": "atl-shrine-immaculate-conception",
+  "place": "atlanta-area",
+  "lng": -84.3895634,
+  "lat": 33.7503597,
+  "bearing": 33,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/96273719"
+  ],
+  "wikidata": "Q7504083"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dc-mlk-memorial",
+  "name": "Martin Luther King Jr. Memorial",
+  "model": "dc-mlk-memorial",
+  "lng": -77.0442258,
+  "lat": 38.8862254,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q536802",
+  "replaces": [
+    "relation/12268799"
+  ],
+  "place": "washington-area"
+}

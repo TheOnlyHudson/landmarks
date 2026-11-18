@@ -1,0 +1,15 @@
+{
+  "id": "chi-two-prudential-plaza",
+  "name": "Two Prudential Plaza",
+  "model": "chi-two-prudential-plaza",
+  "lng": -87.62272,
+  "lat": 41.885419,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1121971",
+  "replaces": [
+    "way/64388666"
+  ],
+  "place": "chicago-area"
+}

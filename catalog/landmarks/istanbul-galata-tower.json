@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-galata-tower",
+  "name": "Galata Tower",
+  "model": "istanbul-galata-tower",
+  "place": "istanbul",
+  "lng": 28.974213,
+  "lat": 41.025634,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q91274",
+  "replaces": [
+    "way/23236783"
+  ]
+}

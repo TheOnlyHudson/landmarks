@@ -1,0 +1,22 @@
+{
+  "id": "phl-two-liberty-place",
+  "name": "Two Liberty Place",
+  "model": "phl-two-liberty-place",
+  "place": "philadelphia-area",
+  "lng": -75.167451,
+  "lat": 39.951674,
+  "bearing": 9.2,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q2301082",
+  "replaces": [
+    "way/42785013",
+    "way/341324304",
+    "way/333339065",
+    "way/333339067",
+    "way/333204579",
+    "way/333339059",
+    "way/333339064",
+    "way/333204568"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "chi-tribune-tower",
+  "name": "Tribune Tower",
+  "model": "chi-tribune-tower",
+  "lng": -87.623308,
+  "lat": 41.89055,
+  "bearing": 358.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2143136",
+  "replaces": [
+    "way/150407241",
+    "way/127107038"
+  ],
+  "place": "chicago-area"
+}

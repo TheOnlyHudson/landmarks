@@ -1,0 +1,21 @@
+{
+  "id": "new-york-state-pavilion",
+  "name": "New York State Pavilion",
+  "model": "new-york-state-pavilion",
+  "lng": -73.8443487,
+  "lat": 40.7435173,
+  "bearing": 336,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q4571746",
+  "replaces": [
+    "relation/13317338",
+    "way/992130157",
+    "way/992130158",
+    "way/284856408",
+    "way/596614135",
+    "way/596614136",
+    "way/284856410"
+  ],
+  "place": "new-york-area"
+}

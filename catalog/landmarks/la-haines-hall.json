@@ -1,0 +1,15 @@
+{
+  "id": "la-haines-hall",
+  "name": "Haines Hall",
+  "model": "la-haines-hall",
+  "place": "ucla",
+  "lng": -118.441239,
+  "lat": 34.072898,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/422876570"
+  ],
+  "wikidata": "Q102957109"
+}

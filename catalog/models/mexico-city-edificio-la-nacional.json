@@ -1,0 +1,56 @@
+{
+  "id": "mexico-city-edificio-la-nacional",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "art-deco",
+    "office",
+    "historic",
+    "skyscraper"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Edificio La Nacional",
+      "url": "https://commons.wikimedia.org/wiki/File:Mexico_df_-_Edificio_La_Nacional.jpg",
+      "author": "Thomas Ledl",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Edificio La Nacional 2009",
+      "url": "https://commons.wikimedia.org/wiki/File:Edificio_La_Nacional_2009.JPG",
+      "author": "Felipe Alfonso Castillo Vázquez",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Edificio La Nacional I y II",
+      "url": "https://commons.wikimedia.org/wiki/File:Edificio_La_Nacional_I_y_II.JPG",
+      "author": "Felipe Alfonso Castillo Vázquez",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Torre Latinoamericana from the Bellas Artes plaza",
+      "url": "https://commons.wikimedia.org/wiki/File:Mexico_df_-_Torre_Latinoamerica.jpg",
+      "author": "Thomas Ledl",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/mexico-city-edificio-la-nacional.glb",
+  "source": "generators/mexico-city-edificio-la-nacional.ts"
+}

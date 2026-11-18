@@ -1,0 +1,15 @@
+{
+  "id": "ovens-auditorium",
+  "name": "Ovens Auditorium",
+  "model": "ovens-auditorium",
+  "lng": -80.7942755,
+  "lat": 35.2038475,
+  "bearing": 42,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7113349",
+  "replaces": [
+    "way/836535412"
+  ],
+  "place": "charlotte-area"
+}

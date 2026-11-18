@@ -1,0 +1,15 @@
+{
+  "id": "london-wellington-arch",
+  "name": "Wellington Arch",
+  "model": "london-wellington-arch",
+  "place": "london",
+  "lng": -0.150818,
+  "lat": 51.502536,
+  "bearing": 1.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q526804",
+  "replaces": [
+    "way/24923117"
+  ]
+}

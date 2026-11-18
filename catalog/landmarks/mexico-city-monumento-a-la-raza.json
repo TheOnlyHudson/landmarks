@@ -1,0 +1,29 @@
+{
+  "id": "mexico-city-monumento-a-la-raza",
+  "name": "Monumento a la Raza",
+  "model": "mexico-city-monumento-a-la-raza",
+  "place": "mexico-city",
+  "lng": -99.142494,
+  "lat": 19.464425,
+  "bearing": 38,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q9034955",
+  "replaces": [
+    "way/1139108872",
+    "way/1144263096",
+    "way/1144263097",
+    "way/1144263098",
+    "way/1144263099",
+    "way/1144263100",
+    "way/1186267703",
+    "way/1186267704",
+    "way/1186267705",
+    "way/1186267706",
+    "way/1186267707",
+    "way/1186267708",
+    "way/1186267709",
+    "way/1186267710",
+    "way/1186267711"
+  ]
+}

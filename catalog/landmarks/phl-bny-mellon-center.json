@@ -1,0 +1,23 @@
+{
+  "id": "phl-bny-mellon-center",
+  "name": "BNY Mellon Center",
+  "model": "phl-bny-mellon-center",
+  "place": "philadelphia-area",
+  "wikidata": "Q2743527",
+  "lng": -75.16952,
+  "lat": 39.953647,
+  "bearing": 9,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/42785094",
+    "way/332801483",
+    "way/332801484",
+    "way/332801485",
+    "way/336875905",
+    "way/336875903",
+    "way/336875904",
+    "way/336855444",
+    "way/336855454"
+  ]
+}

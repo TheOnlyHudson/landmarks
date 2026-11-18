@@ -1,0 +1,15 @@
+{
+  "id": "dc-supreme-court",
+  "name": "Supreme Court of the United States",
+  "model": "dc-supreme-court",
+  "lng": -77.0044385,
+  "lat": 38.8906244,
+  "bearing": 0.11,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1579670",
+  "replaces": [
+    "relation/286501"
+  ],
+  "place": "washington-area"
+}

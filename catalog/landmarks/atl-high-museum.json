@@ -1,0 +1,24 @@
+{
+  "id": "atl-high-museum",
+  "name": "High Museum of Art",
+  "model": "atl-high-museum",
+  "place": "atlanta-area",
+  "lng": -84.385959,
+  "lat": 33.789731,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/28961738",
+    "way/1453239398",
+    "way/1424891402",
+    "way/1424891388",
+    "way/1424891448",
+    "way/1424891449",
+    "way/1453239397",
+    "way/1424891450",
+    "way/1453239393",
+    "way/1453239394"
+  ],
+  "wikidata": "Q953345"
+}

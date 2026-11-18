@@ -1,0 +1,15 @@
+{
+  "id": "cpt-zeitz-mocaa",
+  "name": "Zeitz MOCAA",
+  "model": "cpt-zeitz-mocaa",
+  "place": "cape-town",
+  "lng": 18.422994,
+  "lat": -33.9084045,
+  "bearing": 354.2,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/36852808"
+  ],
+  "wikidata": "Q28003638"
+}

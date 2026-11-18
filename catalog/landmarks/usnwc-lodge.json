@@ -1,0 +1,15 @@
+{
+  "id": "usnwc-lodge",
+  "name": "U.S. National Whitewater Center",
+  "model": "usnwc-lodge",
+  "lng": -81.0051949,
+  "lat": 35.2726166,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7863251",
+  "replaces": [
+    "way/223914934"
+  ],
+  "place": "charlotte-area"
+}

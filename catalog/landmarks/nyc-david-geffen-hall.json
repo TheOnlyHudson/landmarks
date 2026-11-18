@@ -1,0 +1,17 @@
+{
+  "id": "nyc-david-geffen-hall",
+  "name": "David Geffen Hall",
+  "model": "nyc-david-geffen-hall",
+  "lng": -73.9830164,
+  "lat": 40.7728215,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q790654",
+  "replaces": [
+    "way/265354527",
+    "way/330177539",
+    "way/1475173701"
+  ],
+  "place": "new-york-area"
+}

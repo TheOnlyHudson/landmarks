@@ -1,0 +1,18 @@
+{
+  "id": "amsterdam-zuiderkerk",
+  "name": "Zuiderkerk",
+  "model": "amsterdam-zuiderkerk",
+  "place": "amsterdam",
+  "lng": 4.899756,
+  "lat": 52.370292,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/114120359",
+    "way/749385556",
+    "way/749385557",
+    "way/749385558"
+  ],
+  "wikidata": "Q228629"
+}

@@ -4,7 +4,7 @@ import { execFileSync } from 'node:child_process'
 import { createHash } from 'node:crypto'
 import { buildRelease, type Asset, type Release } from './release'
 import { basename } from 'node:path'
-import type { Catalog } from './catalog'
+import { catalogAt, treeAt } from './catalog-files'
 
 export type HistoryEntry = { commit: string; date: string; message: string; asset: Asset }
 export type AssetHistory = { complete: boolean; unavailable: number; versions: HistoryEntry[] }
@@ -19,19 +19,17 @@ export function buildHistory(root: string, current: Release): HistorySummary {
   let commits: string[] = []
   try {
     complete = git('rev-parse', '--is-shallow-repository').toString().trim() === 'false'
-    commits = git('log', '--topo-order', '--reverse', '--format=%H', '--', 'catalog.json', 'models', 'generators').toString().trim().split('\n').filter(Boolean)
+    commits = git('log', '--topo-order', '--reverse', '--format=%H', '--', 'catalog.json', 'catalog', 'models', 'generators').toString().trim().split('\n').filter(Boolean)
   } catch { /* Source archives can still build a current-only collection. */ }
   const fingerprints = new Map<string, Set<string>>()
   const revisions = new Map<string, Set<string>>()
   let unavailable = 0
   let versions = 0
+  const entries = new Map<string, string>()
   for (const commit of commits) {
-    const tree = new Map(git('ls-tree', '-r', commit).toString().trim().split('\n').map(line => {
-      const [entry, path] = line.split('\t')
-      return [path, entry.split(' ')[2]]
-    }))
-    if (!tree.has('catalog.json')) continue
-    const catalog = JSON.parse(git('cat-file', 'blob', tree.get('catalog.json')!).toString()) as Catalog
+    const tree = treeAt(root, commit)
+    const catalog = catalogAt(root, commit, tree, entries)
+    if (!catalog) continue
     const [date, ...message] = git('show', '-s', '--format=%cI%n%s', commit).toString().trim().split('\n')
     // Blob reads are shared within the commit, including replicated placements.
     const bytes = new Map<string, Uint8Array>()

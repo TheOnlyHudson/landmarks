@@ -1,0 +1,14 @@
+{
+  "id": "la-pacific-wheel",
+  "name": "Pacific Wheel",
+  "model": "la-pacific-wheel",
+  "lng": -118.497834,
+  "lat": 34.0082275,
+  "bearing": 91,
+  "elevation": 7.5,
+  "minzoom": 15,
+  "replaces": [
+    "way/742372514"
+  ],
+  "place": "los-angeles-area"
+}

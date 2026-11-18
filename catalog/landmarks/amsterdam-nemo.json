@@ -1,0 +1,25 @@
+{
+  "id": "amsterdam-nemo",
+  "name": "NEMO Science Museum",
+  "model": "amsterdam-nemo",
+  "place": "amsterdam",
+  "lng": 4.912322,
+  "lat": 52.374196,
+  "bearing": 3,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/57856769",
+    "way/1390692763",
+    "way/1390692764",
+    "way/1390692765",
+    "way/1390692766",
+    "way/1390692767",
+    "way/1390692768",
+    "way/1390692769",
+    "way/1390692770",
+    "way/1390692771",
+    "way/1390692772"
+  ],
+  "wikidata": "Q1422000"
+}

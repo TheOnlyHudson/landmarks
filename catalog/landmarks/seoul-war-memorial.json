@@ -1,0 +1,17 @@
+{
+  "id": "seoul-war-memorial",
+  "name": "War Memorial of Korea",
+  "model": "seoul-war-memorial",
+  "place": "seoul",
+  "lng": 126.9770556,
+  "lat": 37.5370245,
+  "bearing": -1.42,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q489764",
+  "replaces": [
+    "way/229891120",
+    "way/229995726",
+    "way/229995728"
+  ]
+}

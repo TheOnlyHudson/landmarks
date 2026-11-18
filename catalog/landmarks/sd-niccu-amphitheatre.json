@@ -1,0 +1,14 @@
+{
+  "id": "sd-niccu-amphitheatre",
+  "name": "North Island Credit Union Amphitheatre",
+  "model": "sd-niccu-amphitheatre",
+  "place": "san-diego-area",
+  "lng": -117.00636,
+  "lat": 32.58765,
+  "bearing": 48,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/223961641"
+  ]
+}

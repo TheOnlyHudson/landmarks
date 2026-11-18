@@ -1,0 +1,15 @@
+{
+  "id": "milestone-club",
+  "name": "The Milestone Club",
+  "model": "milestone-club",
+  "lng": -80.8834408,
+  "lat": 35.2446744,
+  "bearing": 28,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q138333281",
+  "replaces": [
+    "way/867520324"
+  ],
+  "place": "charlotte-area"
+}

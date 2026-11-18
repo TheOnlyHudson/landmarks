@@ -1,0 +1,14 @@
+{
+  "id": "hou-gulf-building",
+  "name": "Gulf Building",
+  "model": "hou-gulf-building",
+  "place": "houston-area",
+  "lng": -95.363857,
+  "lat": 29.758864,
+  "bearing": 34.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/510321974"
+  ]
+}

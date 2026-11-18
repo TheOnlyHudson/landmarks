@@ -1,0 +1,15 @@
+{
+  "id": "dc-house-of-the-temple",
+  "name": "House of the Temple",
+  "model": "dc-house-of-the-temple",
+  "lng": -77.0358382,
+  "lat": 38.9137036,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q176356",
+  "replaces": [
+    "way/67086344"
+  ],
+  "place": "washington-area"
+}

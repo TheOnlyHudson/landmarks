@@ -1,0 +1,14 @@
+{
+  "id": "hou-waterwall",
+  "name": "Gerald D. Hines Waterwall",
+  "model": "hou-waterwall",
+  "place": "houston-area",
+  "lng": -95.46129,
+  "lat": 29.735775,
+  "bearing": 359.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/49591461"
+  ]
+}

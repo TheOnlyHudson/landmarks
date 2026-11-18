@@ -1,0 +1,24 @@
+{
+  "id": "mexico-city-world-trade-center",
+  "name": "World Trade Center Mexico City",
+  "model": "mexico-city-world-trade-center",
+  "place": "mexico-city",
+  "lng": -99.173854,
+  "lat": 19.394418,
+  "bearing": 13,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/362824952",
+    "way/312315753",
+    "way/227708277",
+    "way/312329507",
+    "way/312315752",
+    "way/312329506",
+    "way/312329508",
+    "way/312329503",
+    "way/312329504",
+    "way/312329505"
+  ],
+  "wikidata": "Q2712478"
+}

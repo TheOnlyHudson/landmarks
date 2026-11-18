@@ -1,0 +1,54 @@
+{
+  "id": "hou-mfah-kinder-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Nancy and Rich Kinder Building 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Nancy_and_Rich_Kinder_Building_03.jpg",
+      "author": "WhisperToMe",
+      "license": "CC0"
+    },
+    {
+      "title": "Nancy and Rich Kinder Building 06",
+      "url": "https://commons.wikimedia.org/wiki/File:Nancy_and_Rich_Kinder_Building_06.jpg",
+      "author": "WhisperToMe",
+      "license": "CC0"
+    },
+    {
+      "title": "Nancy and Rich Kinder Building 09",
+      "url": "https://commons.wikimedia.org/wiki/File:Nancy_and_Rich_Kinder_Building_09.jpg",
+      "author": "WhisperToMe",
+      "license": "CC0"
+    },
+    {
+      "title": "Nancy and Rich Kinder Building 10",
+      "url": "https://commons.wikimedia.org/wiki/File:Nancy_and_Rich_Kinder_Building_10.jpg",
+      "author": "WhisperToMe",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/hou-mfah-kinder-building.glb",
+  "source": "generators/hou-mfah-kinder-building.ts"
+}

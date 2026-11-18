@@ -1,0 +1,15 @@
+{
+  "id": "hou-astrodome",
+  "name": "Astrodome",
+  "model": "hou-astrodome",
+  "place": "houston-area",
+  "lng": -95.407742,
+  "lat": 29.684871,
+  "bearing": 0,
+  "elevation": -7.6,
+  "minzoom": 14,
+  "wikidata": "Q1025406",
+  "replaces": [
+    "way/119420928"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "nyc-one-times-square",
+  "name": "One Times Square",
+  "model": "nyc-one-times-square",
+  "place": "times-square",
+  "lng": -73.9865372,
+  "lat": 40.7561966,
+  "bearing": 29.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1139633",
+  "replaces": [
+    "way/266170825",
+    "way/109285744",
+    "way/109285746",
+    "way/266774911"
+  ]
+}

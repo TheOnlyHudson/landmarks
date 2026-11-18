@@ -1,0 +1,17 @@
+{
+  "id": "sea-st-james-cathedral",
+  "name": "St. James Cathedral",
+  "model": "sea-st-james-cathedral",
+  "lng": -122.3258402,
+  "lat": 47.6076789,
+  "bearing": 328.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7588439",
+  "replaces": [
+    "way/108384951",
+    "way/1363023932",
+    "way/1363023933"
+  ],
+  "place": "seattle-area"
+}

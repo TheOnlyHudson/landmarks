@@ -1,0 +1,26 @@
+{
+  "id": "mexico-city-el-moro",
+  "name": "Edificio El Moro",
+  "model": "mexico-city-el-moro",
+  "place": "mexico-city",
+  "lng": -99.1500983,
+  "lat": 19.4360967,
+  "bearing": 330,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5818084",
+  "replaces": [
+    "way/176476753",
+    "way/313853815",
+    "way/1139736162",
+    "way/1139736163",
+    "way/1139736164",
+    "way/1139736165",
+    "way/1139736166",
+    "way/1139736167",
+    "way/1139736168",
+    "way/1139736169",
+    "way/1139736170",
+    "way/1139736172"
+  ]
+}

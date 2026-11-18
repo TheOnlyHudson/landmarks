@@ -1,0 +1,27 @@
+{
+  "id": "london-battersea-power-station",
+  "name": "Battersea Power Station",
+  "model": "london-battersea-power-station",
+  "place": "london",
+  "lng": -0.1445137,
+  "lat": 51.4817302,
+  "bearing": 12.4,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q810953",
+  "replaces": [
+    "way/4965216",
+    "way/223254725",
+    "way/223255111",
+    "way/223255300",
+    "way/223255478",
+    "way/452939926",
+    "way/452939927",
+    "way/452939928",
+    "way/452939929",
+    "way/452939930",
+    "way/452939931",
+    "way/452939932",
+    "way/452939933"
+  ]
+}

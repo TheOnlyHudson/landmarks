@@ -1,0 +1,28 @@
+{
+  "id": "munich-hvb-tower",
+  "name": "HVB Tower",
+  "model": "munich-hvb-tower",
+  "place": "munich",
+  "lng": 11.6173211,
+  "lat": 48.1498111,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q896364",
+  "replaces": [
+    "relation/2833590",
+    "way/211447642",
+    "way/210584887",
+    "way/135353407",
+    "way/210584885",
+    "way/196660576",
+    "way/135350828",
+    "way/196660573",
+    "way/210584882",
+    "way/135353405",
+    "way/210584883",
+    "way/196660574",
+    "way/196660575",
+    "way/211450796"
+  ]
+}

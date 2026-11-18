@@ -1,0 +1,25 @@
+{
+  "id": "amsterdam-van-gogh-museum",
+  "name": "Van Gogh Museum",
+  "model": "amsterdam-van-gogh-museum",
+  "place": "amsterdam",
+  "lng": 4.881171,
+  "lat": 52.358218,
+  "bearing": 66.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q224124",
+  "replaces": [
+    "relation/6577680",
+    "way/754324679",
+    "way/754324680",
+    "way/754324681",
+    "way/754324682",
+    "way/754324683",
+    "way/754324684",
+    "way/754324685",
+    "way/441830027",
+    "way/1230401241",
+    "way/1230401242"
+  ]
+}

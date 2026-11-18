@@ -9,13 +9,14 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import clipping, { type MultiPolygon, type Pair, type Ring } from 'polygon-clipping'
 import type { Catalog } from '../src/catalog'
+import { readCatalog } from '../src/catalog-files'
 
 type Coord = { lon: number; lat: number }
 type Element = { type: string; id: number; tags?: Record<string, string>; geometry?: Coord[];
   members?: { type: string; ref: number; role: string; geometry?: Coord[] }[] }
 const root = join(import.meta.dir, '..')
 const out = join(root, 'web/replacement-footprints.json')
-const catalog: Catalog = JSON.parse(readFileSync(join(root, 'catalog.json'), 'utf8'))
+const catalog: Catalog = readCatalog(root)
 const stored: { refs?: Record<string, string[]>; assets?: Record<string, MultiPolygon> } =
   existsSync(out) ? JSON.parse(readFileSync(out, 'utf8')) : {}
 const args = process.argv.slice(2)

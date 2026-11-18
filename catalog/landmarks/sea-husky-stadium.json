@@ -1,0 +1,15 @@
+{
+  "id": "sea-husky-stadium",
+  "name": "Husky Stadium",
+  "model": "sea-husky-stadium",
+  "lng": -122.301596,
+  "lat": 47.650316,
+  "bearing": 16,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1136463",
+  "replaces": [
+    "relation/3389103"
+  ],
+  "place": "seattle-area"
+}

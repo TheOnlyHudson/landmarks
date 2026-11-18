@@ -1,0 +1,14 @@
+{
+  "id": "hou-mfah-kinder-building",
+  "name": "Nancy and Rich Kinder Building",
+  "model": "hou-mfah-kinder-building",
+  "place": "houston-area",
+  "lng": -95.3897256,
+  "lat": 29.7266049,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/945257970"
+  ]
+}

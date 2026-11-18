@@ -1,0 +1,12 @@
+{
+  "id": "freedom-park-locomotive",
+  "name": "Gainesville Midland No. 301",
+  "model": "freedom-park-locomotive",
+  "lng": -80.8431885,
+  "lat": 35.1925923,
+  "bearing": 307,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "place": "charlotte-area"
+}

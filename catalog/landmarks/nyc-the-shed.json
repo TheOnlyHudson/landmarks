@@ -1,0 +1,17 @@
+{
+  "id": "nyc-the-shed",
+  "name": "The Shed",
+  "model": "nyc-the-shed",
+  "lng": -74.0027245,
+  "lat": 40.7532544,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q15961661",
+  "replaces": [
+    "way/681503639",
+    "way/1220655932",
+    "way/1220614724"
+  ],
+  "place": "new-york-area"
+}

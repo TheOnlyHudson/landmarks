@@ -1,0 +1,21 @@
+{
+  "id": "sea-1201-third-avenue",
+  "name": "1201 Third Avenue",
+  "model": "sea-1201-third-avenue",
+  "lng": -122.336163,
+  "lat": 47.6072043,
+  "bearing": 328.8,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q2301069",
+  "replaces": [
+    "way/140436171",
+    "way/331322651",
+    "way/331322649",
+    "way/331424981",
+    "way/488923802",
+    "way/331322650",
+    "way/331324934"
+  ],
+  "place": "seattle-area"
+}

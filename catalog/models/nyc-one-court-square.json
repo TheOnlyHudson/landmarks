@@ -1,0 +1,66 @@
+{
+  "id": "nyc-one-court-square",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Citicorp Building by David Shankbone.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Citicorp_Building_by_David_Shankbone.jpg",
+      "author": "David Shankbone",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "One Court Square 018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Court_Square_018.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "One Court Square 024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Court_Square_024.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "One Court Square 047.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Court_Square_047.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "44th Dr Crescent St Hunter St td (2023-06-26) 12 - One Court Square.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:44th_Dr_Crescent_St_Hunter_St_td_(2023-06-26)_12_-_One_Court_Square.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Long Island City New York October 2016.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Long_Island_City_New_York_October_2016.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-one-court-square.glb",
+  "source": "generators/nyc-one-court-square.ts"
+}

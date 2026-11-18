@@ -1,0 +1,30 @@
+{
+  "id": "barcelona-mnac",
+  "name": "Palau Nacional (MNAC)",
+  "model": "barcelona-mnac",
+  "place": "barcelona",
+  "lng": 2.153616,
+  "lat": 41.368364,
+  "bearing": 333,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/21195792",
+    "way/214445439",
+    "way/214445442",
+    "way/214445445",
+    "way/214445446",
+    "way/214445447",
+    "way/214445448",
+    "way/666599310",
+    "way/666599312",
+    "way/666599313",
+    "way/666599314",
+    "way/666599319",
+    "way/666599320",
+    "way/666599321",
+    "way/666599336",
+    "way/666599338"
+  ],
+  "wikidata": "Q2341107"
+}

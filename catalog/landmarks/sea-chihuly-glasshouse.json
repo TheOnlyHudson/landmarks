@@ -1,0 +1,15 @@
+{
+  "id": "sea-chihuly-glasshouse",
+  "name": "Chihuly Garden and Glass Glasshouse",
+  "model": "sea-chihuly-glasshouse",
+  "lng": -122.3500188,
+  "lat": 47.6206252,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q5097315",
+  "replaces": [
+    "way/329416207"
+  ],
+  "place": "seattle-area"
+}

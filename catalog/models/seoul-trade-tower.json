@@ -1,0 +1,54 @@
+{
+  "id": "seoul-trade-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Park Hyatt Seoul view.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Park_Hyatt_Seoul_view.jpg",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Yeongdong-daero, Gangnam-gu, Seoul, South Korea.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yeongdong-daero,_Gangnam-gu,_Seoul,_South_Korea.jpg",
+      "author": "张元柏",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Korea-Seoul-Bongeunsa-13.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Seoul-Bongeunsa-13.jpg",
+      "author": "Gaël Chardon",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "World Trade Center Seoul.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:World_Trade_Center_Seoul.jpg",
+      "author": "Seoul Institute",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/seoul-trade-tower.glb",
+  "source": "generators/seoul-trade-tower.ts"
+}

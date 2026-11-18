@@ -1,0 +1,15 @@
+{
+  "id": "atl-tech-tower",
+  "name": "Tech Tower",
+  "model": "atl-tech-tower",
+  "place": "atlanta-area",
+  "lng": -84.394686,
+  "lat": 33.772472,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/42706709",
+    "way/28951319"
+  ]
+}

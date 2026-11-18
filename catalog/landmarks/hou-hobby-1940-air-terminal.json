@@ -1,0 +1,15 @@
+{
+  "id": "hou-hobby-1940-air-terminal",
+  "name": "1940 Air Terminal Museum",
+  "model": "hou-hobby-1940-air-terminal",
+  "place": "houston-area",
+  "lng": -95.2862199,
+  "lat": 29.6470272,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q4564680",
+  "replaces": [
+    "way/45765445"
+  ]
+}

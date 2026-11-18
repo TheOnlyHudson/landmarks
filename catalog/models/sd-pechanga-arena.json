@@ -1,0 +1,56 @@
+{
+  "id": "sd-pechanga-arena",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "ice-hockey",
+    "new-formalism",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "San Diego Sports Arena.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Sports_Arena.jpg",
+      "author": "Nehrams2020",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "San Diego,California,USA. - panoramio (36).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Diego,California,USA._-_panoramio_(36).jpg",
+      "author": "Roman Eugeniusz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Pechanga Arena Panorama.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pechanga_Arena_Panorama.jpg",
+      "author": "Pink Floyd Fan 101",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "VVCasinoCtr.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:VVCasinoCtr.jpeg",
+      "author": "Gateman1997",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/sd-pechanga-arena.glb",
+  "source": "generators/sd-pechanga-arena.ts"
+}

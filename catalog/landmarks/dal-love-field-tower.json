@@ -1,0 +1,15 @@
+{
+  "id": "dal-love-field-tower",
+  "name": "Dallas Love Field Air Traffic Control Tower",
+  "model": "dal-love-field-tower",
+  "place": "dallas-area",
+  "lng": -96.8494,
+  "lat": 32.84518,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/744685687",
+    "way/443151009"
+  ]
+}

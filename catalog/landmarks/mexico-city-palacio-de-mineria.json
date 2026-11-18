@@ -1,0 +1,16 @@
+{
+  "id": "mexico-city-palacio-de-mineria",
+  "name": "Palacio de Minería",
+  "model": "mexico-city-palacio-de-mineria",
+  "place": "mexico-city",
+  "lng": -99.139579,
+  "lat": 19.435459,
+  "bearing": 9.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/14592228",
+    "way/1095452897"
+  ],
+  "wikidata": "Q3431087"
+}

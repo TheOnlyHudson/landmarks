@@ -1,0 +1,14 @@
+{
+  "id": "sd-america-plaza-station",
+  "name": "America Plaza station",
+  "model": "sd-america-plaza-station",
+  "place": "san-diego-area",
+  "lng": -117.16878,
+  "lat": 32.71652,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1078598878"
+  ]
+}

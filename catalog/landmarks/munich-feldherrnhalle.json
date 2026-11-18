@@ -1,0 +1,16 @@
+{
+  "id": "munich-feldherrnhalle",
+  "name": "Feldherrnhalle",
+  "model": "munich-feldherrnhalle",
+  "place": "munich",
+  "lng": 11.57731,
+  "lat": 48.141655,
+  "bearing": 17.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q251712",
+  "replaces": [
+    "way/25505402",
+    "way/312008138"
+  ]
+}

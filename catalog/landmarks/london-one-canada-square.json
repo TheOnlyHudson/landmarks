@@ -1,0 +1,17 @@
+{
+  "id": "london-one-canada-square",
+  "name": "One Canada Square",
+  "model": "london-one-canada-square",
+  "place": "london",
+  "lng": -0.0194693,
+  "lat": 51.5049363,
+  "bearing": 9.9,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q503477",
+  "replaces": [
+    "way/5986754",
+    "way/432777467",
+    "way/432777466"
+  ]
+}

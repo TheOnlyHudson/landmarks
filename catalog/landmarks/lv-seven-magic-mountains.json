@@ -1,0 +1,13 @@
+{
+  "id": "lv-seven-magic-mountains",
+  "name": "Seven Magic Mountains",
+  "model": "lv-seven-magic-mountains",
+  "lng": -115.2709478,
+  "lat": 35.838299,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q124059502",
+  "replaces": [],
+  "place": "las-vegas-area"
+}

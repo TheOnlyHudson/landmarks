@@ -1,0 +1,55 @@
+{
+  "id": "astana-bayterek",
+  "file": "models/astana-bayterek.glb",
+  "license": "CC0-1.0",
+  "source": "generators/astana-bayterek.ts",
+  "type": "tower",
+  "collection": "landmarks",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "tags": [
+    "monument",
+    "observation-tower"
+  ],
+  "description": "White steel 'tree of life' monument cradling a 22 m gold glass orb, built 1997-2002 as the symbol of Kazakhstan's new capital.",
+  "references": [
+    {
+      "title": "Baiterek August.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Baiterek_August.jpg",
+      "author": "Quarot",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Baiterek monument at night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Baiterek_monument_at_night.jpg",
+      "author": "Dauren Nabijan",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "DSC01482",
+      "url": "https://www.flickr.com/photos/86372598@N00/4469502769",
+      "author": "thedakotakid",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Baiterek Tower",
+      "url": "https://www.flickr.com/photos/10345599@N03/48884588892",
+      "author": "Francisco Anzola",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "reviewStatus": "unreviewed"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dal-jfk-memorial",
+  "name": "John F. Kennedy Memorial",
+  "model": "dal-jfk-memorial",
+  "place": "dallas-area",
+  "lng": -96.8064416,
+  "lat": 32.7787216,
+  "bearing": 345.3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1390843350",
+    "way/1390843351",
+    "way/1390843352"
+  ],
+  "wikidata": "Q6233329"
+}

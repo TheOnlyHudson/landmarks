@@ -1,0 +1,44 @@
+{
+  "id": "nyc-untermyer-fountain",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "fountain",
+  "tags": [
+    "sculpture",
+    "bronze",
+    "park",
+    "garden"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Untermyer Fountain 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Untermyer_Fountain_1.jpg",
+      "author": "Station1",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Untermeyer fountain1-Walter Schott",
+      "url": "https://commons.wikimedia.org/wiki/File:Untermeyer_fountain1-Walter_Schott.jpg",
+      "author": "Ralph Hockens",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "wikidata": "Q17151590",
+  "file": "models/nyc-untermyer-fountain.glb",
+  "source": "generators/nyc-untermyer-fountain.ts"
+}

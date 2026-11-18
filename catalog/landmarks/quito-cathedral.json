@@ -1,0 +1,20 @@
+{
+  "id": "quito-cathedral",
+  "name": "Metropolitan Cathedral of Quito",
+  "model": "quito-cathedral",
+  "place": "quito",
+  "lng": -78.5124679,
+  "lat": -0.2205004,
+  "bearing": 216,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5758380",
+  "replaces": [
+    "way/253234080",
+    "way/673325427",
+    "way/673325429",
+    "way/673325420",
+    "way/673325421",
+    "way/673325424"
+  ]
+}

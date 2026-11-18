@@ -1,0 +1,16 @@
+{
+  "id": "sd-convention-center",
+  "name": "San Diego Convention Center",
+  "model": "sd-convention-center",
+  "place": "san-diego-area",
+  "lng": -117.16183,
+  "lat": 32.70643,
+  "bearing": 303.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/30929677",
+    "way/1154864702"
+  ],
+  "wikidata": "Q2236617"
+}

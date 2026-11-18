@@ -1,0 +1,17 @@
+{
+  "id": "dc-old-post-office",
+  "name": "Old Post Office",
+  "model": "dc-old-post-office",
+  "lng": -77.0275777,
+  "lat": 38.8940953,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1141542",
+  "replaces": [
+    "way/66418840",
+    "way/452899001",
+    "way/452899002"
+  ],
+  "place": "washington-area"
+}

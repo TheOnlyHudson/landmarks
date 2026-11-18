@@ -1,0 +1,20 @@
+{
+  "id": "dlr-pirates-blue-bayou",
+  "name": "Pirates of the Caribbean and Blue Bayou",
+  "model": "dlr-pirates-blue-bayou",
+  "lng": -117.920831,
+  "lat": 33.811236,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1713564",
+  "replaces": [
+    "way/824031784",
+    "way/123303434",
+    "way/123303445",
+    "way/123303466",
+    "way/123303460",
+    "way/123303438"
+  ],
+  "place": "disneyland"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "clt-urban-district-market",
+  "name": "Urban District Market",
+  "model": "clt-urban-district-market",
+  "lng": -80.8144199,
+  "lat": 35.2407037,
+  "bearing": 316.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/323201452"
+  ],
+  "place": "charlotte-area"
+}

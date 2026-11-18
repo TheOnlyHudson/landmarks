@@ -1,0 +1,15 @@
+{
+  "id": "atl-cathedral-christ-the-king",
+  "name": "Cathedral of Christ the King",
+  "model": "atl-cathedral-christ-the-king",
+  "place": "atlanta-area",
+  "lng": -84.3869172,
+  "lat": 33.8280134,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/267773212"
+  ],
+  "wikidata": "Q2840738"
+}

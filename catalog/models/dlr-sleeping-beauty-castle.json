@@ -1,0 +1,28 @@
+{
+  "id": "dlr-sleeping-beauty-castle",
+  "file": "models/dlr-sleeping-beauty-castle.glb",
+  "license": "CC0-1.0",
+  "author": "Alex Wohlbruck",
+  "source": "generators/dlr-sleeping-beauty-castle.ts",
+  "type": "building",
+  "collection": "landmarks",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "role": "creator",
+      "github": "alexwohlbruck"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "tags": [
+    "theme-park"
+  ],
+  "reviewStatus": "unreviewed"
+}

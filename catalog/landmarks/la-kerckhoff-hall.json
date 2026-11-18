@@ -1,0 +1,15 @@
+{
+  "id": "la-kerckhoff-hall",
+  "name": "Kerckhoff Hall",
+  "model": "la-kerckhoff-hall",
+  "place": "ucla",
+  "lng": -118.44357,
+  "lat": 34.070435,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/422876581"
+  ],
+  "wikidata": "Q105414656"
+}

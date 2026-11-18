@@ -1,0 +1,15 @@
+{
+  "id": "seoul-gt-tower",
+  "name": "GT Tower",
+  "model": "seoul-gt-tower",
+  "place": "seoul",
+  "lng": 127.025944,
+  "lat": 37.498063,
+  "bearing": 159.43,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q17063396",
+  "replaces": [
+    "way/301605795"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "phl-independence-hall",
+  "name": "Independence Hall",
+  "model": "phl-independence-hall",
+  "place": "philadelphia-area",
+  "lng": -75.150028,
+  "lat": 39.948904,
+  "bearing": 9.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q390028",
+  "replaces": [
+    "way/25271595",
+    "way/335689527",
+    "way/335689528",
+    "way/335689529",
+    "way/335689530",
+    "way/335689531",
+    "way/335689532",
+    "way/335689533",
+    "way/335689534",
+    "way/335689535",
+    "way/335689536",
+    "way/335689537",
+    "way/336004603"
+  ]
+}

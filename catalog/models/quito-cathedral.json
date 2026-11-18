@@ -1,0 +1,80 @@
+{
+  "id": "quito-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cathedral",
+    "church",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Metropolitan Cathedral of Quito",
+      "url": "https://commons.wikimedia.org/wiki/File:Metropolitan_Cathedral_of_Quito.jpg",
+      "author": "Ángel M. Felicísimo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Catedral metropolitana Quito",
+      "url": "https://commons.wikimedia.org/wiki/File:Catedral_metropolitana_Quito.jpg",
+      "author": "putneymark",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Cathedral, Quito, Ecuador",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral,_Quito,_Ecuador.JPG",
+      "author": "Shoestring (Wikivoyage)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Catedral Metropolitana (Quito), steps facing Plaza de la Independencia",
+      "url": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_(Quito),_steps_facing_Plaza_de_la_Independencia.JPG",
+      "author": "David Adam Kess",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Metropolitan Cathedral of Quito from the roof of the Centro Cultural Metropolitano pic b03",
+      "url": "https://commons.wikimedia.org/wiki/File:Metropolitan_Cathedral_of_Quito_from_the_roof_of_the_Centro_Cultural_Metropolitano_pic_b03.JPG",
+      "author": "David Adam Kess",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Catedral Metropolitana (Quito), facing Plaza de la Independencia",
+      "url": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_(Quito),_facing_Plaza_de_la_Independencia.JPG",
+      "author": "David Adam Kess",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Catedral metropolitana de Quito de noche - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:Catedral_metropolitana_de_Quito_de_noche_-_panoramio.jpg",
+      "author": "Quito magnífico",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "(Catedral Metropolitana, Quito) exterior. pic. aa",
+      "url": "https://commons.wikimedia.org/wiki/File:(Catedral_Metropolitana,_Quito)_exterior._pic._aa.jpg",
+      "author": "David Adam Kess",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/quito-cathedral.glb",
+  "source": "generators/quito-cathedral.ts"
+}

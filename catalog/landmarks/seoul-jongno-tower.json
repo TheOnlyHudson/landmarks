@@ -1,0 +1,20 @@
+{
+  "id": "seoul-jongno-tower",
+  "name": "Jongno Tower",
+  "model": "seoul-jongno-tower",
+  "place": "seoul",
+  "lng": 126.983621,
+  "lat": 37.570745,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1206228046",
+    "way/142096703",
+    "way/1203371172",
+    "way/1203371173",
+    "way/1203368744",
+    "way/1203368745",
+    "relation/21361312"
+  ]
+}

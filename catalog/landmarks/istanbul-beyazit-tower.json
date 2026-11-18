@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-beyazit-tower",
+  "name": "Beyazıt Tower",
+  "model": "istanbul-beyazit-tower",
+  "place": "istanbul",
+  "lng": 28.964896,
+  "lat": 41.012786,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q853029",
+  "replaces": [
+    "way/639302102"
+  ]
+}

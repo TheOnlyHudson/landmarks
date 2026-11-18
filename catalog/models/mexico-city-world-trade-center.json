@@ -1,0 +1,67 @@
+{
+  "id": "mexico-city-world-trade-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "World Trade Center - Mexico City",
+      "url": "https://commons.wikimedia.org/wiki/File:World_Trade_Center_-_Mexico_City.jpg",
+      "author": "EneasMx",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Torre wtc mexico",
+      "url": "https://commons.wikimedia.org/wiki/File:Torre_wtc_mexico.jpg",
+      "author": "Daniel Manrique",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Aerial view World Trade Center Mexico 03 2014 MEX 7842",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_World_Trade_Center_Mexico_03_2014_MEX_7842.JPG",
+      "author": "Mariordo (Mario Roberto Durán Ortiz)",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Antena del World Trade Center México",
+      "url": "https://commons.wikimedia.org/wiki/File:Antena_del_World_Trade_Center_M%C3%A9xico.JPG",
+      "author": "Felipe Alfonso Castillo Vázquez",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Sobrevuelos CDMX HJ2A6040",
+      "url": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_HJ2A6040_(39675330524).jpg",
+      "author": "Gobierno CDMX",
+      "license": "CC0"
+    },
+    {
+      "title": "WTC Ciudad de México - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:WTC_Ciudad_de_M%C3%A9xico_-_panoramio.jpg",
+      "author": "JavierDo",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/mexico-city-world-trade-center.glb",
+  "source": "generators/mexico-city-world-trade-center.ts"
+}

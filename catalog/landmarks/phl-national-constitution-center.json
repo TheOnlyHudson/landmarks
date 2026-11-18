@@ -1,0 +1,24 @@
+{
+  "id": "phl-national-constitution-center",
+  "name": "National Constitution Center",
+  "model": "phl-national-constitution-center",
+  "place": "philadelphia-area",
+  "lng": -75.149083,
+  "lat": 39.95372,
+  "bearing": 9.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q538275",
+  "replaces": [
+    "way/40083914",
+    "way/335387043",
+    "way/333316197",
+    "way/338020144",
+    "way/338020145",
+    "way/338020146",
+    "way/338020147",
+    "way/338029304",
+    "way/338029305",
+    "way/1314909585"
+  ]
+}

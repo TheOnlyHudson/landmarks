@@ -1,0 +1,17 @@
+{
+  "id": "mexico-city-anthropology-museum",
+  "name": "Museo Nacional de Antropología",
+  "model": "mexico-city-anthropology-museum",
+  "place": "mexico-city",
+  "lng": -99.1864177,
+  "lat": 19.4260625,
+  "bearing": 9.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/433753690",
+    "way/433753691",
+    "relation/17310243"
+  ],
+  "wikidata": "Q524249"
+}

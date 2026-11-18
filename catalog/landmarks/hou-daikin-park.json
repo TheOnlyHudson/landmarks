@@ -1,0 +1,15 @@
+{
+  "id": "hou-daikin-park",
+  "name": "Daikin Park",
+  "model": "hou-daikin-park",
+  "place": "houston-area",
+  "lng": -95.355253,
+  "lat": 29.757215,
+  "bearing": 34.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/129025430"
+  ],
+  "wikidata": "Q1193671"
+}

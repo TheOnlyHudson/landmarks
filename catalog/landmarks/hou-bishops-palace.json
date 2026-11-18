@@ -1,0 +1,15 @@
+{
+  "id": "hou-bishops-palace",
+  "name": "Bishop's Palace",
+  "model": "hou-bishops-palace",
+  "place": "houston-area",
+  "lng": -94.7821595,
+  "lat": 29.303073,
+  "bearing": 345,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q3728690",
+  "replaces": [
+    "way/56044910"
+  ]
+}

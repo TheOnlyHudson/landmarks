@@ -1,0 +1,19 @@
+{
+  "id": "amsterdam-montelbaanstoren",
+  "name": "Montelbaanstoren",
+  "model": "amsterdam-montelbaanstoren",
+  "place": "amsterdam",
+  "lng": 4.905661,
+  "lat": 52.372036,
+  "bearing": 12,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/57864086",
+    "way/751647817",
+    "way/751647818",
+    "way/751647819",
+    "way/751647820"
+  ],
+  "wikidata": "Q1946061"
+}

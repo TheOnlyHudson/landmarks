@@ -1,0 +1,16 @@
+{
+  "id": "dc-washington-hilton",
+  "name": "Washington Hilton",
+  "model": "dc-washington-hilton",
+  "lng": -77.0449051,
+  "lat": 38.91651,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q4260660",
+  "replaces": [
+    "way/66981885",
+    "way/1549399804"
+  ],
+  "place": "washington-area"
+}

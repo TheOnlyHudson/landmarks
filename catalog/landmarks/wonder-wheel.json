@@ -1,0 +1,13 @@
+{
+  "id": "wonder-wheel",
+  "name": "Wonder Wheel",
+  "model": "wonder-wheel",
+  "lng": -73.979145,
+  "lat": 40.5740414,
+  "bearing": 6,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1465377",
+  "replaces": [],
+  "place": "new-york-area"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mexico-city-torre-insignia",
+  "name": "Torre Insignia",
+  "model": "mexico-city-torre-insignia",
+  "place": "mexico-city",
+  "lng": -99.15099,
+  "lat": 19.454566,
+  "bearing": 11.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/217662117",
+    "way/1152230371",
+    "way/1152230372"
+  ]
+}

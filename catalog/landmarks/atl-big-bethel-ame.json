@@ -1,0 +1,14 @@
+{
+  "id": "atl-big-bethel-ame",
+  "name": "Big Bethel AME Church",
+  "model": "atl-big-bethel-ame",
+  "place": "atlanta-area",
+  "lng": -84.3806444,
+  "lat": 33.7559047,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/97337613"
+  ]
+}

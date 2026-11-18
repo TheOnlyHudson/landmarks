@@ -1,0 +1,15 @@
+{
+  "id": "atl-carter-center",
+  "name": "The Carter Center",
+  "model": "atl-carter-center",
+  "place": "atlanta-area",
+  "lng": -84.3569535,
+  "lat": 33.7669847,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/29094121"
+  ],
+  "wikidata": "Q386481"
+}

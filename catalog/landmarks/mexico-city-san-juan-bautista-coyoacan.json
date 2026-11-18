@@ -1,0 +1,18 @@
+{
+  "id": "mexico-city-san-juan-bautista-coyoacan",
+  "name": "Parroquia de San Juan Bautista",
+  "model": "mexico-city-san-juan-bautista-coyoacan",
+  "place": "mexico-city",
+  "lng": -99.162375,
+  "lat": 19.3487889,
+  "bearing": 15,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5910431",
+  "replaces": [
+    "relation/2168347",
+    "way/1373754345",
+    "way/1373754346",
+    "way/1373754347"
+  ]
+}

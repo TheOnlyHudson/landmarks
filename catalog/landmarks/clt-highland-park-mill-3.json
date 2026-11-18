@@ -1,0 +1,17 @@
+{
+  "id": "clt-highland-park-mill-3",
+  "name": "Highland Park Mill No. 3",
+  "model": "clt-highland-park-mill-3",
+  "lng": -80.8095799,
+  "lat": 35.2460371,
+  "bearing": 55,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q14707968",
+  "replaces": [
+    "way/323193350",
+    "way/323201833",
+    "way/323192273"
+  ],
+  "place": "charlotte-area"
+}

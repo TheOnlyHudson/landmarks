@@ -1,0 +1,15 @@
+{
+  "id": "dubai-millennium-tower",
+  "name": "Millennium Tower",
+  "model": "dubai-millennium-tower",
+  "place": "dubai",
+  "lng": 55.265865,
+  "lat": 25.1948367,
+  "bearing": 41,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/203296254"
+  ],
+  "wikidata": "Q623517"
+}

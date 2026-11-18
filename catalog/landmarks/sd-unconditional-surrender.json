@@ -1,0 +1,12 @@
+{
+  "id": "sd-unconditional-surrender",
+  "name": "Unconditional Surrender",
+  "model": "sd-unconditional-surrender",
+  "place": "san-diego-area",
+  "lng": -117.17517,
+  "lat": 32.7129,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

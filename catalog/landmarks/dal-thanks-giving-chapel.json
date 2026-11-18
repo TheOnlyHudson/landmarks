@@ -1,0 +1,15 @@
+{
+  "id": "dal-thanks-giving-chapel",
+  "name": "Chapel of Thanksgiving",
+  "model": "dal-thanks-giving-chapel",
+  "place": "dallas-area",
+  "lng": -96.7982737,
+  "lat": 32.7829429,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q124117919",
+  "replaces": [
+    "way/654112871"
+  ]
+}

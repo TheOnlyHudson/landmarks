@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-torre-mitikah",
+  "name": "Torre Mítikah",
+  "model": "mexico-city-torre-mitikah",
+  "place": "mexico-city",
+  "lng": -99.16846,
+  "lat": 19.359233,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/674370738"
+  ],
+  "wikidata": "Q6150196"
+}

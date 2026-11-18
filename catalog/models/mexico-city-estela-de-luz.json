@@ -1,0 +1,68 @@
+{
+  "id": "mexico-city-estela-de-luz",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "tower",
+    "contemporary",
+    "bicentennial",
+    "illuminated"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Estela de Luz y Torre Mayor, México D.F., 2014-10-13, DD 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Estela_de_Luz_y_Torre_Mayor,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_02.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Estela de Luz y Torre Mayor, México D.F., 2014-10-13, DD 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Estela_de_Luz_y_Torre_Mayor,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2014-10-13,_DD_03.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Vista de la Estela de Luz (conocida como Suavicrema) 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Estela_de_Luz_(conocida_como_Suavicrema)_01.jpg",
+      "author": "Luis Alvaz",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vista de la Estela de Luz (conocida como Suavicrema) 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Estela_de_Luz_(conocida_como_Suavicrema)_02.jpg",
+      "author": "Luis Alvaz",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Mexico City (2018) - 027",
+      "url": "https://commons.wikimedia.org/wiki/File:Mexico_City_(2018)_-_027.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Estela de Luz Mexico City KR",
+      "url": "https://commons.wikimedia.org/wiki/File:Estela_de_Luz_Mexico_City_KR.jpg",
+      "author": "vladimix",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/mexico-city-estela-de-luz.glb",
+  "source": "generators/mexico-city-estela-de-luz.ts"
+}

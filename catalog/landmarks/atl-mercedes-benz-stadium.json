@@ -1,0 +1,15 @@
+{
+  "id": "atl-mercedes-benz-stadium",
+  "name": "Mercedes-Benz Stadium",
+  "model": "atl-mercedes-benz-stadium",
+  "place": "atlanta-area",
+  "lng": -84.400848,
+  "lat": 33.755415,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/536744534"
+  ],
+  "wikidata": "Q7007552"
+}

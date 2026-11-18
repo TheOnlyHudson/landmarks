@@ -1,0 +1,14 @@
+{
+  "id": "phl-masonic-temple",
+  "name": "Masonic Temple",
+  "model": "phl-masonic-temple",
+  "place": "philadelphia-area",
+  "lng": -75.162657,
+  "lat": 39.95362,
+  "bearing": 9.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/309294828"
+  ]
+}

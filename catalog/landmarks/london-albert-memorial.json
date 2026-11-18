@@ -1,0 +1,20 @@
+{
+  "id": "london-albert-memorial",
+  "name": "Albert Memorial",
+  "model": "london-albert-memorial",
+  "place": "london",
+  "lng": -0.177682,
+  "lat": 51.502384,
+  "bearing": 353.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q281465",
+  "replaces": [
+    "way/372965954",
+    "way/372965957",
+    "way/372965958",
+    "way/372965959",
+    "way/372965960",
+    "way/372965961"
+  ]
+}

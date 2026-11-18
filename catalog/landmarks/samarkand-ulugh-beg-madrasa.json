@@ -1,0 +1,31 @@
+{
+  "id": "samarkand-ulugh-beg-madrasa",
+  "name": "Ulugh Beg Madrasa",
+  "model": "samarkand-ulugh-beg-madrasa",
+  "lng": 66.9748979,
+  "lat": 39.6546404,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q492144",
+  "replaces": [
+    "relation/2437665",
+    "way/1296455126",
+    "way/1296455129",
+    "way/1296455130",
+    "way/1296455132",
+    "way/1296455133",
+    "way/1296455135",
+    "way/1296455136",
+    "way/1296455137",
+    "way/1296455138",
+    "way/1296455139",
+    "way/1296455140",
+    "way/1296464127",
+    "way/1296464144",
+    "way/1297399177",
+    "way/1297399178",
+    "relation/19074575"
+  ],
+  "place": "samarkand"
+}

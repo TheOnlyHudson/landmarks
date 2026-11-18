@@ -1,0 +1,89 @@
+{
+  "id": "moscow-kremlin",
+  "file": "models/moscow-kremlin.glb",
+  "detail": "models/moscow-kremlin.detail.glb",
+  "license": "CC0-1.0",
+  "source": "generators/moscow-kremlin.ts",
+  "type": "landmark",
+  "collection": "landmarks",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "tags": [
+    "fortress",
+    "kremlin",
+    "cathedral",
+    "palace",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The fortress on Borovitsky Hill: a 2.2 km triangle of red-brick wall with swallowtail merlons and twenty towers, five crowned by ruby stars, round the gold-domed cathedrals of Cathedral Square, the 81 m Ivan the Great Bell Tower, the Grand Kremlin Palace, the Senate and the Arsenal.",
+  "references": [
+    {
+      "title": "Kremlin birds eye view-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_birds_eye_view-1.jpg",
+      "author": "Георгий Надеждин / ITAR-TASS",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Kremlin birds eye view-3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_birds_eye_view-3.jpg",
+      "author": "ITAR-TASS",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - Spasskaya Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Spasskaya_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - General view of the Kremlin from the Bolshoy Moskvoretsky Bridge1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_General_view_of_the_Kremlin_from_the_Bolshoy_Moskvoretsky_Bridge1.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Annunciation Cathedral in Moscow, Cathedral of the Archangel and the Bell Tower of Ivan the Great.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Annunciation_Cathedral_in_Moscow,_Cathedral_of_the_Archangel_and_the_Bell_Tower_of_Ivan_the_Great.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Cathedral square inside the Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_square_inside_the_Kremlin.jpg",
+      "author": "Pedro Szekely",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "The Troitskaya Tower (19775954258).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Troitskaya_Tower_(19775954258).jpg",
+      "author": "Jorge Láscar",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Vista general del Kremlin, Moscú, Rusia, 2016-10-03, DD 18-19 HDR.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_general_del_Kremlin,_Mosc%C3%BA,_Rusia,_2016-10-03,_DD_18-19_HDR.jpg",
+      "author": "Diego Delso",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Kremlin and Red Square.1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_and_Red_Square.1.jpg",
+      "author": "mos.ru",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "reviewStatus": "unreviewed"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "london-admiralty-arch",
+  "file": "models/london-admiralty-arch.glb",
+  "source": "generators/london-admiralty-arch.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "arch",
+    "edwardian-baroque",
+    "portland-stone",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Admiralty Arch, London, England - June 2009",
+      "url": "https://commons.wikimedia.org/wiki/File:Admiralty_Arch,_London,_England_-_June_2009.jpg",
+      "author": "David Iliff (Diliff)",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Admiralty Arch from the Mall",
+      "url": "https://commons.wikimedia.org/wiki/File:Admiralty_Arch_from_the_Mall.jpg",
+      "author": "VirtuallyLondonBecky",
+      "license": "CC0"
+    },
+    {
+      "title": "Admiralty Arch, City of Westminster",
+      "url": "https://commons.wikimedia.org/wiki/File:Admiralty_Arch,_City_of_Westminster.jpg",
+      "author": "Tristan Surtel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Admiralty Arch, Trafalgar Square",
+      "url": "https://commons.wikimedia.org/wiki/File:Admiralty_Arch,_Trafalgar_Square.jpg",
+      "author": "Garry Knight",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Admiralty Arch - geograph.org.uk - 2988086",
+      "url": "https://commons.wikimedia.org/wiki/File:Admiralty_Arch_-_geograph.org.uk_-_2988086.jpg",
+      "author": "Len Williams",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "detail": "models/london-admiralty-arch.detail.glb",
+  "detailZoom": 16
+}

@@ -1,0 +1,13 @@
+{
+  "id": "nyc-cleopatras-needle",
+  "name": "Cleopatra's Needle",
+  "model": "nyc-cleopatras-needle",
+  "lng": -73.965396,
+  "lat": 40.779636,
+  "bearing": 16.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q23889472",
+  "replaces": [],
+  "place": "new-york-area"
+}

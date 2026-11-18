@@ -1,0 +1,14 @@
+{
+  "id": "mexico-city-santiago-tlatelolco",
+  "name": "Templo de Santiago Tlatelolco",
+  "model": "mexico-city-santiago-tlatelolco",
+  "place": "mexico-city",
+  "lng": -99.136655,
+  "lat": 19.451126,
+  "bearing": 10.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1298615719"
+  ]
+}

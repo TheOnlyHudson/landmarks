@@ -1,0 +1,15 @@
+{
+  "id": "dubai-emirates-office-tower",
+  "name": "Emirates Office Tower",
+  "model": "dubai-emirates-office-tower",
+  "place": "dubai",
+  "lng": 55.2836335,
+  "lat": 25.2176177,
+  "bearing": 180,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/393391115"
+  ],
+  "wikidata": "Q845182"
+}

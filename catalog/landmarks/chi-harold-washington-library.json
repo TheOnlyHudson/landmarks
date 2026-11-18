@@ -1,0 +1,15 @@
+{
+  "id": "chi-harold-washington-library",
+  "name": "Harold Washington Library Center",
+  "model": "chi-harold-washington-library",
+  "lng": -87.6282122,
+  "lat": 41.8763227,
+  "bearing": 359.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3127656",
+  "replaces": [
+    "way/28292694"
+  ],
+  "place": "chicago-area"
+}

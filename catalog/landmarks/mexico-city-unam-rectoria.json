@@ -1,0 +1,20 @@
+{
+  "id": "mexico-city-unam-rectoria",
+  "name": "Torre de Rectoría UNAM",
+  "model": "mexico-city-unam-rectoria",
+  "place": "mexico-city",
+  "lng": -99.188074,
+  "lat": 19.332399,
+  "bearing": 354,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/73147253",
+    "way/1173156544",
+    "way/1173156545",
+    "way/1173156546",
+    "way/1173156548",
+    "way/1341387913",
+    "way/260241576"
+  ]
+}

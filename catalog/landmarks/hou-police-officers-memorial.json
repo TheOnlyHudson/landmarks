@@ -1,0 +1,13 @@
+{
+  "id": "hou-police-officers-memorial",
+  "name": "Houston Police Officers' Memorial",
+  "model": "hou-police-officers-memorial",
+  "place": "houston-area",
+  "lng": -95.3830605,
+  "lat": 29.7628379,
+  "bearing": 67.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q5916674",
+  "replaces": []
+}

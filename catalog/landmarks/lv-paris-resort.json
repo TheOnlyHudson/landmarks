@@ -1,0 +1,21 @@
+{
+  "id": "lv-paris-resort",
+  "name": "Paris Las Vegas",
+  "model": "lv-paris-resort",
+  "lng": -115.17049,
+  "lat": 36.1123056,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q691491",
+  "replaces": [
+    "way/33974140",
+    "way/27831697",
+    "way/114722037",
+    "way/114697072",
+    "way/114697073",
+    "way/114697074",
+    "way/364846544"
+  ],
+  "place": "las-vegas-area"
+}

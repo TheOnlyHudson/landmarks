@@ -1,0 +1,30 @@
+{
+  "id": "soldiers-sailors-arch",
+  "model": "soldiers-sailors-arch",
+  "name": "Soldiers' and Sailors' Arch",
+  "lng": -73.9699033,
+  "lat": 40.6729891,
+  "bearing": 81,
+  "minzoom": 15,
+  "wikidata": "Q7557372",
+  "replaces": [
+    "way/20679503",
+    "way/296157578",
+    "way/296157580",
+    "way/296157595",
+    "way/296157596",
+    "way/296157602",
+    "way/296157605",
+    "way/296157599",
+    "way/553599365",
+    "way/553599366",
+    "way/553599367",
+    "way/553599368",
+    "way/553599369",
+    "way/553599370",
+    "way/553599371",
+    "way/553599373",
+    "way/553599376"
+  ],
+  "place": "new-york-area"
+}

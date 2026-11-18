@@ -1,0 +1,61 @@
+{
+  "id": "atx-the-independent",
+  "license": "CC0-1.0",
+  "author": "Colin",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "residential",
+    "skyscraper",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "The Independent - Austin, TX (54987491874).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Independent_-_Austin,_TX_(54987491874).jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "The Independent Austin Texas NE Corner 2020.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Independent_Austin_Texas_NE_Corner_2020.jpg",
+      "author": "Larry D. Moore",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "The Independent, Austin, TX 2021-08-10.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Independent,_Austin,_TX_2021-08-10.jpg",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Independent.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Independent.jpg",
+      "author": "Luxbaumann23",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Independent from the Stacks Austin Texas 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Independent_from_the_Stacks_Austin_Texas_2023.jpg",
+      "author": "Larry D. Moore",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/atx-the-independent.glb",
+  "source": "generators/atx-the-independent.ts"
+}

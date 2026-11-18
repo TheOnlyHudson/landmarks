@@ -1,0 +1,18 @@
+{
+  "id": "dubai-burj-al-arab",
+  "name": "Burj Al Arab",
+  "model": "dubai-burj-al-arab",
+  "place": "dubai",
+  "wikidata": "Q62939",
+  "lng": 55.1853463,
+  "lat": 25.1413059,
+  "bearing": 127.3,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/12700546",
+    "way/1173799867",
+    "way/1054051580",
+    "way/1054051581"
+  ]
+}

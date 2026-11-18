@@ -1,0 +1,20 @@
+{
+  "id": "clt-bank-of-america-tower",
+  "name": "Bank of America Tower",
+  "model": "clt-bank-of-america-tower",
+  "lng": -80.8499841,
+  "lat": 35.2236852,
+  "bearing": 49.7,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/715062087",
+    "way/1351689077",
+    "way/1351689080",
+    "way/1409111131",
+    "way/1409111132",
+    "way/1413181399",
+    "way/1413181400"
+  ],
+  "place": "charlotte-area"
+}

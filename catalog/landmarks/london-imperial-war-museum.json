@@ -1,0 +1,15 @@
+{
+  "id": "london-imperial-war-museum",
+  "name": "Imperial War Museum",
+  "model": "london-imperial-war-museum",
+  "place": "london",
+  "lng": -0.108594,
+  "lat": 51.4958202,
+  "bearing": 1,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q749808",
+  "replaces": [
+    "way/8614496"
+  ]
+}

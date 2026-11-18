@@ -1,0 +1,14 @@
+{
+  "id": "freedom-park-bandshell",
+  "name": "Freedom Park Bandshell",
+  "model": "freedom-park-bandshell",
+  "lng": -80.8446895,
+  "lat": 35.1900072,
+  "bearing": 320,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/921811959"
+  ],
+  "place": "charlotte-area"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "nyc-ewr-building-1",
+  "name": "Newark Airport Administration Building (Building One)",
+  "model": "nyc-ewr-building-1",
+  "place": "new-york-area",
+  "lng": -74.1700616,
+  "lat": 40.7044114,
+  "bearing": 1.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/232382759"
+  ]
+}

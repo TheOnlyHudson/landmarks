@@ -1,0 +1,15 @@
+{
+  "id": "sf-dutch-windmill",
+  "name": "Dutch Windmill",
+  "model": "sf-dutch-windmill",
+  "lng": -122.5094058,
+  "lat": 37.77044089,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q54799943",
+  "replaces": [
+    "way/287921407"
+  ],
+  "place": "san-francisco-bay-area"
+}

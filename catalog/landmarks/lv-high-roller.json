@@ -1,0 +1,15 @@
+{
+  "id": "lv-high-roller",
+  "name": "High Roller",
+  "model": "lv-high-roller",
+  "lng": -115.168164,
+  "lat": 36.117694,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q892103",
+  "replaces": [
+    "way/402543930"
+  ],
+  "place": "las-vegas-area"
+}

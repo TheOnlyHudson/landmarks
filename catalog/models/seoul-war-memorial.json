@@ -1,0 +1,56 @@
+{
+  "id": "seoul-war-memorial",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "memorial",
+    "granite",
+    "colonnade"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Korean.War.Memorial.01",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean.War.Memorial.01.jpg",
+      "author": "Andrew Currie",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "KOCIS Korea War Memorial of Korea 20140107 23",
+      "url": "https://commons.wikimedia.org/wiki/File:KOCIS_Korea_War_Memorial_of_Korea_20140107_23_(11850465733).jpg",
+      "author": "Korea.net / Korean Culture and Information Service",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "KOCIS Korea War Memorial of Korea 20140107 27",
+      "url": "https://commons.wikimedia.org/wiki/File:KOCIS_Korea_War_Memorial_of_Korea_20140107_27_(11850464113).jpg",
+      "author": "Korea.net / Korean Culture and Information Service",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "KOCIS Korea War Memorial of Korea 20140107 16",
+      "url": "https://commons.wikimedia.org/wiki/File:KOCIS_Korea_War_Memorial_of_Korea_20140107_16_(11850467443).jpg",
+      "author": "Korea.net / Korean Culture and Information Service",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/seoul-war-memorial.glb",
+  "source": "generators/seoul-war-memorial.ts"
+}

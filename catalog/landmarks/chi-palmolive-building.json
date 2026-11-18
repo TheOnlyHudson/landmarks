@@ -1,0 +1,15 @@
+{
+  "id": "chi-palmolive-building",
+  "name": "Palmolive Building",
+  "model": "chi-palmolive-building",
+  "lng": -87.623512,
+  "lat": 41.899771,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3387206",
+  "replaces": [
+    "way/143756601"
+  ],
+  "place": "chicago-area"
+}

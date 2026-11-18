@@ -1,0 +1,16 @@
+{
+  "id": "sea-washington-state-capitol",
+  "name": "Washington State Capitol",
+  "model": "sea-washington-state-capitol",
+  "lng": -122.9048534,
+  "lat": 47.0357611,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q2620186",
+  "replaces": [
+    "way/31494476",
+    "way/612617948"
+  ],
+  "place": "seattle-area"
+}

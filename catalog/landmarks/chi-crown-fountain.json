@@ -1,0 +1,16 @@
+{
+  "id": "chi-crown-fountain",
+  "name": "Crown Fountain",
+  "model": "chi-crown-fountain",
+  "lng": -87.623744,
+  "lat": 41.881486,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q3005469",
+  "replaces": [
+    "way/126945440",
+    "way/126945441"
+  ],
+  "place": "chicago-area"
+}

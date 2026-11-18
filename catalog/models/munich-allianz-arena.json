@@ -1,0 +1,76 @@
+{
+  "id": "munich-allianz-arena",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "football",
+    "stadium",
+    "contemporary",
+    "etfe"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/munich-allianz-arena.detail.glb",
+  "detailZoom": 17,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Allianz arena daylight Richard Bartz.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Allianz_arena_daylight_Richard_Bartz.jpg",
+      "author": "Richard Bartz",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "Allianz arena at night Richard Bartz.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Allianz_arena_at_night_Richard_Bartz.jpg",
+      "author": "Richard Bartz",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "Allianz-Arena-München.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Allianz-Arena-M%C3%BCnchen.jpg",
+      "author": "Tobias Alt",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "München - Allianz-Arena (Luftbild) (25205631686).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Allianz-Arena_(Luftbild)_(25205631686).jpg",
+      "author": "Phuoc Nguyen",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Allianz Arena Exterior Detail.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Allianz_Arena_Exterior_Detail.JPG",
+      "author": "Martin Falbisoner",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "20200228 Allianz Arena 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:20200228_Allianz_Arena_02.jpg",
+      "author": "Flocci Nivis",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "München, Allianz Arena, innen 2019-11 (3).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_Allianz_Arena,_innen_2019-11_(3).jpg",
+      "author": "HerrAdams",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/munich-allianz-arena.glb",
+  "source": "generators/munich-allianz-arena.ts"
+}

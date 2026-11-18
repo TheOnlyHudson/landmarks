@@ -1,0 +1,18 @@
+{
+  "id": "nyc-columbia-low-library",
+  "name": "Low Memorial Library (Columbia University)",
+  "model": "nyc-columbia-low-library",
+  "lng": -73.9618351,
+  "lat": 40.8082225,
+  "bearing": 29.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6692918",
+  "replaces": [
+    "way/274995757",
+    "way/901695414",
+    "way/901695415",
+    "way/901695416"
+  ],
+  "place": "new-york-area"
+}

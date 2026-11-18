@@ -1,0 +1,15 @@
+{
+  "id": "dubai-address-downtown",
+  "name": "The Address Downtown",
+  "model": "dubai-address-downtown",
+  "place": "dubai",
+  "lng": 55.2788846,
+  "lat": 25.19399,
+  "bearing": 11,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/532836513"
+  ],
+  "wikidata": "Q677823"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-topkapi-justice-tower",
+  "name": "Tower of Justice",
+  "model": "istanbul-topkapi-justice-tower",
+  "place": "istanbul",
+  "lng": 28.983341,
+  "lat": 41.012458,
+  "bearing": 26.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q20470393",
+  "replaces": [
+    "way/335402653"
+  ]
+}

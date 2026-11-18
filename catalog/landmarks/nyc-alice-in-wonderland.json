@@ -1,0 +1,13 @@
+{
+  "id": "nyc-alice-in-wonderland",
+  "name": "Alice in Wonderland",
+  "model": "nyc-alice-in-wonderland",
+  "place": "new-york-area",
+  "lng": -73.966534,
+  "lat": 40.775038,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q93316612",
+  "replaces": []
+}

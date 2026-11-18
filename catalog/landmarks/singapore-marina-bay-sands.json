@@ -1,0 +1,20 @@
+{
+  "id": "singapore-marina-bay-sands",
+  "name": "Marina Bay Sands",
+  "model": "singapore-marina-bay-sands",
+  "lng": 103.8606406,
+  "lat": 1.2836364,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q548679",
+  "replaces": [
+    "way/116801004",
+    "way/172307472",
+    "way/172307471",
+    "way/116800998",
+    "way/827847308",
+    "way/827847309"
+  ],
+  "place": "singapore"
+}

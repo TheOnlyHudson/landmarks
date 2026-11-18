@@ -1,0 +1,19 @@
+{
+  "id": "sd-spreckels-organ-pavilion",
+  "name": "Spreckels Organ Pavilion",
+  "model": "sd-spreckels-organ-pavilion",
+  "place": "san-diego-area",
+  "lng": -117.15043,
+  "lat": 32.72945,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/31240523",
+    "way/1511054492",
+    "way/1574361364",
+    "way/1574361371",
+    "way/1574361373"
+  ],
+  "wikidata": "Q7580302"
+}

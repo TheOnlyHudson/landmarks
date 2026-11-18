@@ -1,0 +1,14 @@
+{
+  "id": "nyc-new-amsterdam-theatre-sign",
+  "name": "New Amsterdam Theatre Sign",
+  "model": "nyc-new-amsterdam-theatre-sign",
+  "place": "times-square",
+  "lng": -73.9877076,
+  "lat": 40.7562137,
+  "bearing": 208.55,
+  "elevation": 0,
+  "minzoom": 17,
+  "replaces": [
+    "way/591988931"
+  ]
+}
