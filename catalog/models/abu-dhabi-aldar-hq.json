@@ -1,0 +1,50 @@
+{
+  "id": "abu-dhabi-aldar-hq",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "office",
+    "contemporary",
+    "diagrid",
+    "glass"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Aldar headquarters building",
+      "url": "https://www.flickr.com/photos/14184479@N02/24481460592",
+      "author": "Christoph Derndorfer",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "The 'Wafer' at Al Raha Beach from distance, Abu Dhabi",
+      "url": "https://www.flickr.com/photos/12316147@N05/8584317200",
+      "author": "lam_chihang",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "The Aldar building in Abu Dhabi",
+      "url": "https://www.flickr.com/photos/25588248@N00/7088180501",
+      "author": "ciamabue",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/abu-dhabi-aldar-hq.glb",
+  "source": "generators/abu-dhabi-aldar-hq.ts"
+}
