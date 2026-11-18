@@ -53,10 +53,16 @@
  * the chapels' kokoshnik bays, the apses' walls at 14 m under 2.6 m
  * gilded cones, gallery window sizes, the porch's height (6 m).
  *
+ * The kokoshniks are white keel-arched gables standing on the cornices,
+ * their curved tops gilded, with gilded pyramid roofs rising behind them:
+ * three on each front of the chapels, three over the core's bays and a
+ * second row of two a side round the central drum (keels 0.5-0.9 m, from
+ * the photos). The south gallery's arcade: five large round arches on the
+ * upper storey with the gallery windows in them, small windows below.
+ *
  * Doubts: OSM's south gallery outline takes in the basement under the
- * terrace; it is drawn as one 11 m block. The kokoshnik tiers are drawn as
- * one row of keeled gables over each block, where the real core has two
- * stepped rows round the central drum. The roofs of the galleries are
+ * terrace; it is drawn as one 11 m block. The core's kokoshnik rows are
+ * simplified (the real ones overlap in several steps). The roofs of the galleries are
  * drawn dark (they are hardly seen from the ground); the gilded roofs are
  * the core's, the chapels' and the apses'.
  *
@@ -65,7 +71,7 @@
 import { Part, type V3 } from './mesh'
 import { PALETTE, finish } from './palette'
 import {
-  apse, archPanel, barrelBlock, block, cross, dome, drum, finishModel, floodDomes, floodWalls, hood, wedge, zakomaraBlock,
+  apse, archPanel, barrelBlock, block, cross, dome, drum, finishModel, floodDomes, floodWalls, hood, kokoshnik, pyramidRoof, wedge,
 } from './moscow-church-kit'
 
 const white = new Part(), trim = new Part(), gold = new Part(), roof = new Part(), win = new Part(), door = new Part()
@@ -79,14 +85,21 @@ block(white, -9.9, -2.6, 0, -4.5, 8.1, 9.5, roof)                     // west ga
 block(white, -4.0, 9.6, 0, 3.1, 13.9, 9.5, roof)                      // north gallery
 for (const [x0, y0, x1, y1, z] of [[-9.9, -12.6, 10.2, -8.6, 10.2], [-9.9, -2.6, -4.5, 8.1, 9.5], [-4.0, 9.6, 3.1, 13.9, 9.5]])
   block(trim, x0 - 0.2, y0 - 0.2, z - 0.6, x1 + 0.2, y1 + 0.2, z - 0.2, trim)  // cornice band
-// the gallery's arcade: large round-headed windows, blind arches between
-for (const x of [-7.4, -2.6, 2.4, 7.2]) {
-  archPanel(win, [x, -12.6, 5.2], AX, S, 2.0, 2.6, 8)
-  hood(trim, [x, -12.6, 5.2 + 2.6], AX, S, 1.35, 0.3, 0.2, 6)
-  archPanel(win, [x, -12.6, 1.3], AX, S, 0.9, 1.0, 6)
+// the gallery's arcade: on the upper storey large round arches with the gallery's windows in
+// them under deep reveals, blind arches on the basement below (south front, photo-S)
+for (const x of [-7.6, -3.75, 0.1, 3.95, 7.8]) {
+  archPanel(win, [x, -12.6, 5.0], AX, S, 2.4, 2.4, 8)
+  hood(trim, [x, -12.6, 7.4], AX, S, 1.45, 0.35, 0.35, 6)
+  archPanel(win, [x, -12.6, 1.0], AX, S, 0.8, 0.9, 6)
 }
-for (const y of [-0.2, 3.0, 6.2]) archPanel(win, [-9.9, y, 4.6], AY, W, 1.9, 2.4, 8)
-for (const x of [-2.2, 1.3]) archPanel(win, [x, 13.9, 4.6], AX, N, 1.9, 2.4, 8)
+for (const y of [-0.2, 3.0, 6.2]) {
+  archPanel(win, [-9.9, y, 4.6], AY, W, 1.9, 2.4, 8)
+  hood(trim, [-9.9, y, 7.0], AY, W, 1.2, 0.3, 0.3, 6)
+}
+for (const x of [-2.6, 1.9]) {
+  archPanel(win, [x, 13.9, 4.6], AX, N, 1.9, 2.4, 8)
+  hood(trim, [x, 13.9, 7.0], AX, N, 1.2, 0.3, 0.3, 6)
+}
 // doors: west and north portals, and the south basement door
 archPanel(door, [-9.9, 2.9 - 6.2 + 6.2, 0.2], AY, W, 1.6, 2.3, 6, 0.06)
 archPanel(door, [-0.4, 13.9, 3.2], AX, N, 1.6, 2.4, 6, 0.06)
@@ -95,12 +108,30 @@ archPanel(door, [3.0, -12.6, 0.2], AX, S, 1.3, 2.0, 6, 0.06)
 // the north stair up to the gallery portal
 wedge(white, -2.4, 13.9, 1.6, 17.0, 3.2, 0.3, 'y0', trim)
 
-// ---------------------------------------------------------------- corner chapels under gilded kokoshniks
+// ---------------------------------------------------------------- corner chapels under kokoshniks
+// Each front ends in three white keel-arched kokoshniks on the cornice, their
+// curved tops gilded, a gilded roof rising behind them to the drum.
+/** A row of kokoshniks along one front: from a to b (along u), facing n. */
+function row(a: number, b: number, at: (s: number) => [number, number], u: V3, n: V3, z: number, k: number, keel: number, t = 0.3, seg = 6) {
+  const w = (b - a) / k
+  for (let i = 0; i < k; i++) {
+    const [x, y] = at(a + w * (i + 0.5))
+    kokoshnik(white, gold, [x, y, z], u, n, w - 0.12, keel, t, seg)
+  }
+}
+/** Kokoshniks all round a rectangle. */
+function ring(x0: number, y0: number, x1: number, y1: number, z: number, kx: number, ky: number, keel: number, seg = 6) {
+  row(x0, x1, (s) => [s, y0], AX, S, z, kx, keel, 0.3, seg)
+  row(x0, x1, (s) => [s, y1], AX, N, z, kx, keel, 0.3, seg)
+  row(y0, y1, (s) => [x0, s], AY, W, z, ky, keel, 0.3, seg)
+  row(y0, y1, (s) => [x1, s], AY, E, z, ky, keel, 0.3, seg)
+}
 const CH: Array<[number, number, number, number]> = [[-9.9, -8.6, -4.0, -2.6], [4.3, -8.6, 10.2, -2.6], [-9.9, 8.1, -4.0, 13.9], [3.1, 8.9, 7.8, 14.0]]
 for (const [x0, y0, x1, y1] of CH) {
-  const xm = (x0 + x1) / 2, ym = (y0 + y1) / 2
-  zakomaraBlock({ wall: white, roof: gold, edge: gold, xb: [x0, xm - 1, xm + 1, x1], yb: [y0, ym - 1, ym + 1, y1], z0: 0, zs: 13.4, rise: (w) => w / 2, n: 2, overhang: 0.3, keel: 0.5, underside: false })
+  block(white, x0, y0, 0, x1, y1, 13.4, null)
   block(trim, x0 - 0.25, y0 - 0.25, 12.9, x1 + 0.25, y1 + 0.25, 13.4, null)
+  pyramidRoof(gold, x0, y0, x1, y1, 13.4, 1.9, 0)
+  ring(x0 + 0.1, y0 + 0.1, x1 - 0.1, y1 - 0.1, 13.4, 3, 3, 0.5, 4)
 }
 // chapel windows facing out
 for (const [x, y, n, u] of [[-6.95, -8.6, S, AX], [7.25, -8.6, S, AX], [-6.95, 13.9, N, AX], [5.45, 14.0, N, AX], [-9.9, -5.6, W, AY], [-9.9, 11.0, W, AY], [10.2, -5.6, E, AY], [7.8, 11.45, E, AY]] as [number, number, V3, V3][]) {
@@ -109,10 +140,26 @@ for (const [x, y, n, u] of [[-6.95, -8.6, S, AX], [7.25, -8.6, S, AX], [-6.95, 1
 }
 
 // ---------------------------------------------------------------- the core
-zakomaraBlock({ wall: white, roof: gold, edge: gold, xb: [-4.5, -0.55, 4.0, 7.9], yb: [-3.9, 0.3, 5.6, 9.6], z0: 0, zs: 16.3, rise: (w) => w / 2, n: 4, overhang: 0.35, keel: 1.0 })
+// Two stepped rows of kokoshniks: three large ones on each front over the
+// bays, then a second row of two round the central drum, the gilded roof
+// rising in steps behind them.
+block(white, -4.5, -3.9, 0, 7.9, 9.6, 16.3, null)
 block(trim, -4.75, -4.15, 15.8, 8.15, 9.85, 16.3, null)
+pyramidRoof(gold, -4.5, -3.9, 7.9, 9.6, 16.3, 4.3, 0.1)
+{
+  const xb = [-4.5, -0.55, 4.0, 7.9], yb = [-3.9, 0.3, 5.6, 9.6]
+  for (let i = 0; i < 3; i++) {
+    const xm = (xb[i] + xb[i + 1]) / 2, wx = xb[i + 1] - xb[i] - 0.15, ym = (yb[i] + yb[i + 1]) / 2, wy = yb[i + 1] - yb[i] - 0.15
+    kokoshnik(white, gold, [xm, -3.75, 16.3], AX, S, wx, 0.9)
+    kokoshnik(white, gold, [xm, 9.45, 16.3], AX, N, wx, 0.9)
+    kokoshnik(white, gold, [-4.35, ym, 16.3], AY, W, wy, 0.9)
+    kokoshnik(white, gold, [7.75, ym, 16.3], AY, E, wy, 0.9)
+  }
+}
+ring(-1.2, -0.1, 4.8, 5.9, 18.3, 2, 2, 0.6, 6)
 for (const [x, y, n, u] of [[1.8, -3.9, S, AX], [1.8, 9.6, N, AX], [-4.5, 2.9, W, AY]] as [number, number, V3, V3][])
   for (const d of [-0.8, 0.8]) archPanel(win, [x + d * u[0], y + d * u[1], 12.6], u, n, 0.7, 1.4, 6)
+
 
 // apses, tall, under gilded cones
 for (const [cy, ry, rx] of [[7.25, 1.65, 1.0], [2.95, 2.65, 2.1], [-1.3, 1.6, 1.3]])

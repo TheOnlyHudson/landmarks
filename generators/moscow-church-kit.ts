@@ -440,3 +440,44 @@ export function wedge(p: Part, x0: number, y0: number, x1: number, y1: number, z
   }
   quadOut(top, [x0, y0, z(x0, y0)], [x1, y0, z(x1, y0)], [x1, y1, z(x1, y1)], [x0, y1, z(x0, y1)], [0, 0, 1])
 }
+
+/**
+ * A kokoshnik: a free-standing keel-arched gable, `w` wide, its half-round
+ * shoulders rising `w / 2` and drawn up into a keel `keel` higher, standing
+ * on a cornice at o (the middle of its foot), facing `nrm`. The face and
+ * back are drawn in `face`; the curved top, `t` thick, in `edge` (the
+ * gilded roofing that follows the keel).
+ */
+export function kokoshnik(face: Part, edge: Part | null, o: V3, u: V3, nrm: V3, w: number, keel: number, t = 0.35, seg = 8) {
+  const nn = unit(nrm), uu = unit(u)
+  const r = w / 2
+  const prof: XY[] = []
+  for (let k = 0; k <= seg; k++) {
+    const a = Math.PI - (Math.PI * k) / seg, x = r * Math.cos(a)
+    prof.push([x, r * Math.sin(a) + keel * Math.max(0, 1 - Math.abs(x) / (0.35 * w)) ** 1.5])
+  }
+  const outline: XY[] = [[-r, 0], ...prof.slice(1, -1), [r, 0]]
+  const zc: V3 = [0, 0, 1]
+  const cr: V3 = [uu[1], -uu[0], 0]
+  const su = cr[0] * nn[0] + cr[1] * nn[1] >= 0 ? uu : ([-uu[0], -uu[1], 0] as V3)
+  planar(face, add(o, nn, t / 2), su, zc, outline)
+  planar(face, add(o, nn, -t / 2), [-su[0], -su[1], 0], zc, outline)
+  if (edge) {
+    const P = (q: XY, s: number): V3 => [o[0] + uu[0] * q[0] + nn[0] * s, o[1] + uu[1] * q[0] + nn[1] * s, o[2] + q[1]]
+    for (let k = 0; k < prof.length - 1; k++) {
+      const a = prof[k], b = prof[k + 1]
+      const out: V3 = [uu[0] * (b[1] - a[1]) * -1 + 0, uu[1] * (b[1] - a[1]) * -1, b[0] - a[0]]
+      quadOut(edge, P(a, -t / 2 - 0.08), P(b, -t / 2 - 0.08), P(b, t / 2 + 0.08), P(a, t / 2 + 0.08), [-out[0], -out[1], -out[2]].map((v) => -v) as V3)
+    }
+  }
+}
+
+/** A pyramid roof over a rectangle from z up to an apex `rise` higher (a hip when the rectangle is long). */
+export function pyramidRoof(p: Part, x0: number, y0: number, x1: number, y1: number, z: number, rise: number, ov = 0.2) {
+  x0 -= ov; y0 -= ov; x1 += ov; y1 += ov
+  const c: V3 = [(x0 + x1) / 2, (y0 + y1) / 2, z + rise]
+  const q: V3[] = [[x0, y0, z], [x1, y0, z], [x1, y1, z], [x0, y1, z]]
+  const outs: V3[] = [[0, -1, 1], [1, 0, 1], [0, 1, 1], [-1, 0, 1]]
+  for (let i = 0; i < 4; i++) triOut(p, q[i], q[(i + 1) % 4], c, outs[i])
+  quadOut(p, q[0], q[1], q[2], q[3], [0, 0, -1])
+}
