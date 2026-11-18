@@ -1096,6 +1096,7 @@
 "tokyo-gate-bridge":["way/105230115","way/105230127","way/105230124","way/105230122"],
 "tokyo-international-forum":["way/144508545","way/287736170","way/287736171","way/287736172","way/287736174","way/144508541","way/287732855"],
 "tokyo-kabukiza":["relation/4859313","relation/4859314","relation/4859315","relation/4859316","way/662901403"],
+"tokyo-kachidoki-bridge":["way/549492916"],
 "tokyo-kaminarimon":["way/173154849"],
 "tokyo-metropolitan-government-building":["way/89877471","way/568387704","way/568387705","way/568387706","way/568387707","way/568387708","way/568387709","way/89877420","way/568465171","way/568465175","way/568465180","way/89878322","way/245962672","way/245962673","way/245962674","way/245962675","way/572510171","way/572510172"],
 "tokyo-midtown-tower":["way/103007069"],
