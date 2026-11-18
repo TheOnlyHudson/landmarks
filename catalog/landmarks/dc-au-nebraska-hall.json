@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-nebraska-hall",
+  "name": "Nebraska Hall",
+  "model": "dc-au-nebraska-hall",
+  "place": "american-university",
+  "lng": -77.0855228,
+  "lat": 38.9393634,
+  "bearing": 34.2645,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38606608"
+  ]
+}
