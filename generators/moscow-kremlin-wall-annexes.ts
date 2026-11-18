@@ -26,7 +26,8 @@
  * red-brick block inside the Trinity Gate over the wall. Windows (one per
  * 3.6 m bay and 3.8 m storey) are estimated.
  *
- * Materials (four): Kremlin brick, white trim, roof, window.
+ * Materials (four): Kremlin brick, white trim, the painted green roof
+ * metal (#76b9a6, as on the Senate), window.
  */
 import { Part, type V3 } from './mesh'
 import { PALETTE, finish } from './palette'
