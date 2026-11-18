@@ -1,0 +1,44 @@
+{
+  "id": "dc-au-sports-center-parking-garage",
+  "file": "models/dc-au-sports-center-parking-garage.glb",
+  "source": "generators/dc-au-sports-center-parking-garage.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "parking"
+  ],
+  "description": "The seven-level parking garage adjoins the Sports Center and Butler Pavilion.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Building outline (May 2026)",
+      "url": "https://www.openstreetmap.org/way/38075679",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "Seven parking levels and the sports complex",
+      "url": "https://aueagles.com/sports/2019/8/15/information-facilities-bender-arena.aspx?id=18",
+      "author": "American University Athletics"
+    },
+    {
+      "title": "2022 DC lidar, archived processing source",
+      "url": "https://github.com/kameronlee/heat-aware-pedestrian-routing/blob/456fd09d67aae857907e8c2b7fa6c19332734bd5/data/metadata/lidar_sources.md",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    }
+  ],
+  "reviewStatus": "draft"
+}
