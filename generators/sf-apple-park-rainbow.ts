@@ -57,10 +57,19 @@
  *   rebuilt arches): from underneath; ribs about as deep as they are wide.
  *
  * Measured (lidar): crown heights, radii, the 2.15 m sunken centre, the row
- * spacing (averaged to an even 1.95 m) and the bearing. Estimated: each rib
- * 1.0 m deep (lidar rib width) and 1.0 m from inner to outer edge (scaled in
- * the Commons photo against the green crown and a visitor at its foot);
- * 0.18 m rounded edges. The colours are from the photo, a little muted.
+ * spacing (averaged to an even 1.95 m), each rib's ~1 m depth along the row,
+ * and the bearing. Estimated: each band 2.0 m from inner to outer edge. The
+ * DSM sees only the top of the arch, so it can't give this; it is scaled in
+ * the Commons photo from the green leg's face beside a visitor at its foot
+ * (about 1.4 visitor-heights across, seen ~30 degrees off the row axis, so
+ * band x cos 30 + depth x sin 30). Flat faces with crisp edges (0.04 m
+ * chamfer), as the photo shows. Colours: the photo's front faces are in shade
+ * (the sun is behind them), so each colour is taken from its sunlit edges and
+ * legs: a vivid green, lemon yellow, bright orange, crimson, magenta-purple
+ * and royal blue. Straight on from the front, a perspective photo shows all
+ * six bands nested with thin gaps because the back arches are up to 10 m
+ * farther away; an orthographic front view hides most of each band behind
+ * the one in front, which is what 0.6 m radius steps under 2 m bands give.
  * Doubts: the lidar is of the 2019 arches; the 2025 rebuild is reported as
  * "slightly modified" and the 2026 photo shows the same layout, size and
  * colours, but its exact dimensions are not published. No open night photo
@@ -81,19 +90,19 @@ const SUNK = 2.15 // every arc's centre lies this far below the lawn (lidar fits
 const R_GREEN = 15.4 // outer radius of the front (green) arch
 const STEP_R = 0.6 // each arch behind is this much smaller
 const PITCH = 1.95 // centre to centre along the row
-const BAND = 1.0 // inner to outer edge
+const BAND = 2.0 // inner to outer edge: the green leg beside a visitor in the Commons photo, corrected for the oblique view
 const DEPTH = 1.0 // front to back of each rib
-const ROUND = 0.18 // the rounded edges, drawn as a chamfer
+const ROUND = 0.04 // crisp edges: a hairline chamfer, so each face catches its own light
 const SEGMENTS = 24 // along each arch
 
 // Front to back: the old Apple logo's stripes, top to bottom.
 const COLOURS = [
-  finish('rainbow-green', 0x6fae4c),
-  finish('rainbow-yellow', 0xe2cc4a),
-  finish('rainbow-orange', 0xe8823a),
-  finish('rainbow-red', 0xd4474a),
-  finish('rainbow-purple', 0xa3428a),
-  finish('rainbow-blue', 0x4a7cc4),
+  finish('rainbow-green', 0x5cc23c),
+  finish('rainbow-yellow', 0xf0cc22),
+  finish('rainbow-orange', 0xf2741a),
+  finish('rainbow-red', 0xde2c36),
+  finish('rainbow-purple', 0xa52a8e),
+  finish('rainbow-blue', 0x2a6fd0),
 ]
 
 /**
