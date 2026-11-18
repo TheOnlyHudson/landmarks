@@ -1,0 +1,72 @@
+{
+  "id": "berlin-altes-museum",
+  "file": "models/berlin-altes-museum.glb",
+  "detail": "models/berlin-altes-museum.detail.glb",
+  "detailZoom": 17,
+  "source": "generators/berlin-altes-museum.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "neoclassical",
+    "museum-island",
+    "world-heritage",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Schinkel's museum on the Lustgarten (1823–30): the long colonnade of 18 Ionic columns before the red-walled hall, the 18 eagles on the cornice, the square attic over the rotunda with Tieck's horse tamers and the Pegasus groups, and the open stair with Kiss's Amazon and Wolff's Lion fighter.",
+  "references": [
+    {
+      "title": "Altes Museum, Berlín, Alemania, 2026-05-02, DD 37.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Altes_Museum,_Berl%C3%ADn,_Alemania,_2026-05-02,_DD_37.jpg",
+      "author": "Diego Delso",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Altes Museum, Berlin-Mitte, 170117, ako.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Altes_Museum,_Berlin-Mitte,_170117,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Berlin, Altes Museum -- 2013 -- 4531.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Altes_Museum_--_2013_--_4531.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Berlin Altes Museum sculptures from Berliner Dom 05.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Altes_Museum_sculptures_from_Berliner_Dom_05.jpg",
+      "author": "Ad Meskens",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Altes Museum seen from NW 1338.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Altes_Museum_seen_from_NW_1338.jpg",
+      "author": "Dosseman",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2015-10 Berlin-Mitte (36).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2015-10_Berlin-Mitte_(36).jpg",
+      "author": "Marek Mróz",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}
