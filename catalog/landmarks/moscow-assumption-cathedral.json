@@ -1,0 +1,30 @@
+{
+  "id": "moscow-assumption-cathedral",
+  "name": "Assumption Cathedral",
+  "model": "moscow-assumption-cathedral",
+  "place": "moscow",
+  "lng": 37.6170592,
+  "lat": 55.7509265,
+  "bearing": 343.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q748910",
+  "replaces": [
+    "relation/3028585",
+    "relation/3028594",
+    "relation/3058445",
+    "relation/3058446",
+    "relation/3058447",
+    "relation/3058448",
+    "relation/3058449",
+    "relation/3058450",
+    "relation/3058451",
+    "relation/3058452",
+    "relation/16456002",
+    "relation/19652235",
+    "relation/19652236",
+    "relation/19652237",
+    "relation/19652238",
+    "relation/19652239"
+  ]
+}
