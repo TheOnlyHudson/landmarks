@@ -1,0 +1,80 @@
+{
+  "id": "berlin-deutscher-dom",
+  "file": "models/berlin-deutscher-dom.glb",
+  "detail": "models/berlin-deutscher-dom.detail.glb",
+  "detailZoom": 17,
+  "source": "generators/berlin-deutscher-dom.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "tower",
+    "dome",
+    "baroque",
+    "gendarmenmarkt",
+    "museum",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The twin of the Französischer Dom: Gontard's domed tower with three Corinthian porticoes, the colonnaded drum and the gilt figure of Virtue, with the pentagonal church body and its dark slate dome.",
+  "references": [
+    {
+      "title": "Berlin, Deutscher Dom -- 2013 -- 4576.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Deutscher_Dom_--_2013_--_4576.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Deutscher Dom (Berlin-Mitte).Blick von Westen.4.09065016.ajb.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Deutscher_Dom_(Berlin-Mitte).Blick_von_Westen.4.09065016.ajb.jpg",
+      "author": "Ajepbah",
+      "license": "CC-BY-SA-3.0-de"
+    },
+    {
+      "title": "Deutscher Dom, Gendarmenmarkt, Berlin-Mitte, 150926, ako.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Deutscher_Dom,_Gendarmenmarkt,_Berlin-Mitte,_150926,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC-BY-3.0-de"
+    },
+    {
+      "title": "Deutscher Dom (Berlin), 2024 (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Deutscher_Dom_(Berlin),_2024_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Deutscher Dom East side 9102.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Deutscher_Dom_East_side_9102.jpg",
+      "author": "Dosseman",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Deutscher Dom (Berlin-Mitte).Nordfassade.2.09065016.ajb.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Deutscher_Dom_(Berlin-Mitte).Nordfassade.2.09065016.ajb.jpg",
+      "author": "Ajepbah",
+      "license": "CC-BY-SA-3.0-de"
+    },
+    {
+      "title": "Deutscher Dom at night 2021-01-17 04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Deutscher_Dom_at_night_2021-01-17_04.jpg",
+      "author": "Leonhard Lenz",
+      "license": "CC0"
+    }
+  ]
+}
