@@ -87,8 +87,13 @@
  * triangular pediments to 12.9, upper windows 14.4-18.2 under kokoshnik
  * pediments to 19.7, main cornice 20.6-21.6, attic to 23.6 (OSM 22.5; the
  * photo reads 24), roof ridge 27.6 (OSM 27), belvedere attic 30.2 with its
- * balustrade, a broad green dome 18 m across rising to 35 m, the gilt crown
- * to about 41 m and the flagpole to 47 m (published).
+ * balustrade, a 2.6 m drum with the clocks, a green dome 16 m across rising
+ * 6 m to about 39 m, the gilt crown to about 44 m and the flagpole to 47 m
+ * (published). The dome is drawn a little taller than Delso's photo reads,
+ * as the photos from the south-west show it prominent over the roofs.
+ *
+ * Roof green: the sunlit painted metal sampled from Don-vip's and
+ * Юрий Д.К.'s photos (#5f9389-#6fa699 in sun), pulled light: #76b9a6.
  *
  * Estimated or simplified:
  * - The podium is drawn as OSM maps it, 4.6 m proud of the upper wall on
@@ -389,20 +394,15 @@ function build() {
     { z0: 8.2, z1: 11.6, w: 1.9, head: 'rect' },
     { z0: 14.6, z1: 18.2, w: 1.9, head: 'rect' },
   ]
-  bayWall({ win, trim, a: [-0.6, Nr], b: [-0.6, 6.2], bays: 8, rows: plain, pil: [0, 20.6, 0.8] })
-  bayWall({ win, trim, a: [-0.6, 6.2], b: [-24.8, 6.2], bays: 5, rows: plain, pil: [0, 20.6, 0.8] })
-  bayWall({ win, trim, a: [-24.8, 6.2], b: [-24.8, -25], bays: 7, rows: plain, pil: [0, 20.6, 0.8] })
+  bayWall({ win, trim, a: [-0.6, Nr], b: [-0.6, 6.2], bays: 8, rows: plain })
+  bayWall({ win, trim, a: [-0.6, 6.2], b: [-24.8, 6.2], bays: 5, rows: plain })
+  bayWall({ win, trim, a: [-24.8, 6.2], b: [-24.8, -25], bays: 7, rows: plain })
 
   // Cornices and string course round the main block (river, east and the hall wing).
   const main: XY[] = [[Wx, S], [Ex, S], [Ex, 3.9], [22.4, 3.9], [22.4, Nr], [-0.6, Nr], [-0.6, 6.2], [-24.8, 6.2], [-24.8, Nr], [Wx, Nr]]
   band(trim, main, 13.0, 13.6, 0.22)
   band(trim, main, 20.6, 21.6, 0.5)
   band(trim, main, EAVE - 0.45, EAVE, 0.32)
-  // attic pilaster stubs on the river and east fronts
-  for (const [a, b, n] of [[[Wx, S], [Ex, S], 24]] as [XY, XY, number][]) {
-    const f = frame(a, b)
-    for (const s of spread(0.5, f.L - 0.5, n)) panel(trim, a, b, s, 0.8, 21.6, EAVE - 0.45, 0.02)
-  }
 
   // ------------------------------------------------------------ main roofs
   // The river range, the east range and St George's Hall as one hipped
@@ -427,19 +427,24 @@ function build() {
     }
   }
   // the dome: round, 18 m across, rising 4.8 m (Delso, Kamenny)
-  const DR = 8.6, DZ = BT, DH = 4.9
-  lathe(roof, bcx, bcy, [[DR, DZ], [DR * 0.97, DZ + DH * 0.35], [DR * 0.8, DZ + DH * 0.7], [DR * 0.45, DZ + DH * 0.94], [3.0, DZ + DH]], 12)
-  capPoly(roof, circle(bcx, bcy, 3.0, 12), DZ + DH)
-  // four gilt clocks at the dome's foot, one on each axis
+  // A drum 2.6 m tall carries the clocks, the dome rises 6 m above it (Refine:
+  // the photos show a prominent dome, not a low cap).
+  const DR = 8.2, DZ = BT + 2.6, DH = 6.0
+  walls(yellow, circle(bcx, bcy, DR - 0.3, 12, Math.PI / 12), BT, DZ)
+  band(trim, ccw(circle(bcx, bcy, DR - 0.3, 12, Math.PI / 12)), DZ - 0.4, DZ, 0.3)
+  lathe(roof, bcx, bcy, [[DR, DZ], [DR * 0.98, DZ + DH * 0.3], [DR * 0.85, DZ + DH * 0.62], [DR * 0.55, DZ + DH * 0.88], [2.6, DZ + DH]], 12)
+  capPoly(roof, circle(bcx, bcy, 2.6, 12), DZ + DH)
+  // four gilt clocks on the drum and the dome's foot, one on each axis
   for (const [dx, dy] of [[0, -1], [1, 0], [0, 1], [-1, 0]]) {
-    const cx = bcx + dx * (DR - 0.9), cy = bcy + dy * (DR - 0.9), hw = 1.5, t = 0.5
+    const cx = bcx + dx * (DR - 0.4), cy = bcy + dy * (DR - 0.4), hw = 1.6, t = 0.5
     const r: XY[] = dx === 0 ? rect(cx - hw, cy - t, cx + hw, cy + t) : rect(cx - t, cy - hw, cx + t, cy + hw)
-    slab(gold, r, DZ, DZ + 3.6)
-    pyramid(gold, r, DZ + 3.6, [cx, cy, DZ + 4.4])
+    slab(gold, r, BT + 0.6, DZ + 2.4)
+    pyramid(gold, r, DZ + 2.4, [cx, cy, DZ + 3.3])
   }
   // the crown: a gilt lantern, crown band, orb and the flagpole to 47 m
-  lathe(gold, bcx, bcy, [[3.0, DZ + DH - 0.1], [3.2, 35.8], [2.0, 36.9], [2.4, 37.9], [0.8, 39.7], [0.85, 40.3], [0, 41.4]], 8)
-  lathe(gold, bcx, bcy, [[0.2, 41.0], [0.12, 47.0], [0, 47.05]], 6)
+  const CZ = DZ + DH - 0.1
+  lathe(gold, bcx, bcy, [[2.6, CZ], [2.8, CZ + 0.8], [1.8, CZ + 1.8], [2.1, CZ + 2.6], [0.7, CZ + 4.0], [0.75, CZ + 4.5], [0, CZ + 5.4]], 8)
+  lathe(gold, bcx, bcy, [[0.2, CZ + 5.0], [0.12, 47.0], [0, 47.05]], 6)
 
   // ------------------------------------------------------------ west wing
   // Lower (15.5 m, roofs to 18), round a courtyard; yellow like the front.
@@ -617,7 +622,7 @@ if (import.meta.main) {
     { part: yellow, material: { ...finish('gkp-yellow', 0xe8cc8a), floodlight: lit } },
     { part: trim, material: { ...finish('gkp-white', 0xf6f0e4), floodlight: lit } },
     { part: win, material: PALETTE.window },
-    { part: roof, material: finish('gkp-green-roof', 0x86ad98) },
+    { part: roof, material: finish('gkp-green-roof', 0x76b9a6) },
     { part: gold, material: { ...finish('gkp-gold', 0xd9b552), floodlight: (p) => (p[2] > 25 ? 0.8 : 0.3) } },
     { part: red, material: { ...finish('gkp-terem-red', 0xbd6b5e), floodlight: (p, n) => (n[2] > 0.7 ? 0.1 : 0.3) } },
   ]
