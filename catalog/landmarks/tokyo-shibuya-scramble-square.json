@@ -1,0 +1,15 @@
+{
+  "id": "tokyo-shibuya-scramble-square",
+  "name": "Shibuya Scramble Square",
+  "model": "tokyo-shibuya-scramble-square",
+  "place": "tokyo",
+  "lng": 139.70222,
+  "lat": 35.65838,
+  "bearing": 338.2,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q64026922",
+  "replaces": [
+    "way/617560918"
+  ]
+}
