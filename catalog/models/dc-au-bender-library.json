@@ -1,0 +1,48 @@
+{
+  "id": "dc-au-bender-library",
+  "file": "models/dc-au-bender-library.glb",
+  "source": "generators/dc-au-bender-library.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university"
+  ],
+  "description": "AU’s main library has angled corners and deep recesses along its concrete façades.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Building footprint, OpenStreetMap (May 22, 2026 extract)",
+      "url": "https://www.openstreetmap.org/way/90190152",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "American University Historic District nomination",
+      "url": "https://planning.dc.gov/publication/26-07-american-university-historic-district",
+      "author": "District of Columbia Office of Planning"
+    },
+    {
+      "title": "Bender Library (2006, public domain)",
+      "url": "https://commons.wikimedia.org/wiki/File:LibraryRevamp.jpg",
+      "author": "Senordesupremo"
+    },
+    {
+      "title": "2022 District of Columbia LiDAR, NOAA Digital Coast dataset 9837",
+      "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    }
+  ],
+  "reviewStatus": "draft"
+}
