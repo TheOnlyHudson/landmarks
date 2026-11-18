@@ -98,16 +98,26 @@
  * - The rotunda's courtyard colonnade: eight columns over the arc that
  *   stands into the main courtyard, on the ground-floor podium, as the
  *   Presidential Office photo shows; the drum's sixteen arched windows.
- * - Left out: the ground floor's rustication stripes (they shimmer at map
- *   distance), window pediments, the frieze medallions, roof railings,
+ * - The rusticated ground storey of the outer fronts: a white plinth and
+ *   two broad white bands over the ochre (the real wall has five or six
+ *   narrower ones, which would shimmer at map distance); the cut-corner
+ *   pavilions' ground storey all white, with round-headed windows, as in
+ *   Bahnfrend's and Suicasmo's photos. Ground-floor windows 1.6 x 3.1 m.
+ *   Their upper storeys stay ochre, as every photo shows them.
+ * - The entablature steps forward over each pilaster run and arch motif.
+ * - The courtyards have no string course or cornice lip and one window
+ *   panel through both upper storeys, to keep the file under 250 KB.
+ * - Left out: window pediments, the frieze medallions, roof railings,
  *   chimneys and dormer vents, the drain pipes, the courtyard trees.
  * - The dome uses 24 segments around (STYLE says 12-16), since it is the
  *   model's crown and 27 m across.
  *
- * Materials (six): Senate ochre, white trim, the grey roof metal, the
- * darker grey-green of the domes, window, and flag red. The domes get their
- * own colour, darker and greener than the roof as in every photo, so the
- * crown still reads at 80 px; the doors, their canopies and the flagpole
+ * Materials (six): Senate ochre, white trim, the painted green roof metal
+ * (#76b9a6: the sunlit roofs of the 2018 Ministry of Defence aerial and the
+ * ITAR-TASS views, about #9bb195 raw, lightened to the palette, and the
+ * same hex as the palace models' roofs), the deeper green of the domes,
+ * window, and flag red. The domes get their own colour, a shade deeper than
+ * the roof, so the crown still reads against it at 80 px; the doors, their canopies and the flagpole
  * are drawn in it too (the real doors are dark brown oak). The
  * standard's blue stripe is drawn in `window` slate, since the budget of six
  * has no room for a blue; at night it glows faintly, where the real flag is
@@ -405,8 +415,10 @@ export async function save(file: string, name: string, parts: Out, extras: Recor
 export const KREMLIN = {
   ochre: 0xe8be6e,
   white: 0xf6f1e8,
-  roof: 0x97a39d,
-  dome: 0x6e8d7f,
+  // The painted sheet-metal roofs, sampled sunlit from the aerials and lightened to the palette;
+  // the same hex as the palaces builder's Kremlin roofs. The domes a shade deeper, so they read against them.
+  roof: 0x76b9a6,
+  dome: 0x4e9a84,
 }
 
 // ================================================================ the Senate
@@ -429,16 +441,28 @@ if (import.meta.main) {
 
   // Storeys (photo-scaled against the 20 m eave; see the header).
   const H = 20, BAND0 = 7.0, BAND1 = 7.8, ENT = 17.2
-  const G0 = 2.1, G1 = 4.7, F0 = 8.9, F1 = 12.1, S0 = 13.6, S1 = 16.0
+  const G0 = 1.7, G1 = 4.8, F0 = 8.9, F1 = 12.1, S0 = 13.6, S1 = 16.0
 
   // ---- walls: ochre storeys, the white string course, the white entablature, the cornice
-  for (const ring of [OUTER, ...COURTS]) {
-    walls(ochre, ring, 0, BAND0)
-    walls(white, ring, BAND0, BAND1)
-    walls(ochre, ring, BAND1, ENT)
-    walls(white, ring, ENT, H - 0.6)
-    cornice(white, ring, H, 0.55, 0.6)
+  walls(ochre, OUTER, 0, BAND0)
+  walls(white, OUTER, BAND0, BAND1)
+  walls(ochre, OUTER, BAND1, ENT)
+  walls(white, OUTER, ENT, H - 0.6)
+  cornice(white, OUTER, H, 0.55, 0.6)
+  // Courtyards: no string course or cornice lip (seen only from above, and the file budget is tight).
+  for (const ring of COURTS) {
+    walls(ochre, ring, 0, ENT)
+    walls(white, ring, ENT, H)
   }
+  // The rusticated ground storey of the outer fronts: a white plinth and white bands over the ochre;
+  // the cut-corner pavilions' ground storey all white.
+  const PAV_EDGES = new Set([0, 1, 2, 3, 4, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 65, 66, 67, 68, 69, 70, 71, 43, 44])
+  edges(OUTER).forEach((e, i) => {
+    if (PAV_EDGES.has(i)) { panel(white, e, 0, e.L, 0, BAND0, 0.03); return }
+    panel(white, e, 0, e.L, 0, 0.6, 0.03)
+    panel(white, e, 0, e.L, 2.55, 2.85, 0.03)
+    panel(white, e, 0, e.L, 5.25, 5.55, 0.03)
+  })
   hipRoof(roof, simplify(OUTER, 1.4), COURTS.map((c) => simplify(c, 1.0)), H + 0.02, 3, 7, 6)
 
   // ---- the outer fronts, edge by edge (indices into OUTER; see the header for the scheme)
@@ -455,9 +479,11 @@ if (import.meta.main) {
   }
   const PITCH = 3.9, PW = 1.1, PD = 0.35
 
+  /** The entablature stepped forward over a run of pilasters, from u0 to u1 along the edge. */
+  const breakForward = (e: Edge, u0: number, u1: number, d = PD) => wallBox(white, e, Math.max(0, u0), Math.min(e.L, u1), 0, d, ENT, H - 0.6)
   /** One plain bay: ground window, a white two-storey surround with the two upper windows on it. */
   const plainBay = (e: Edge, u: number, frame = true, fw = 2.2) => {
-    panel(win, e, u - 0.72, u + 0.72, G0, G1, 0.05)
+    panel(win, e, u - 0.8, u + 0.8, G0, G1, 0.05)
     if (frame) panel(white, e, u - fw / 2, u + fw / 2, F0 - 0.45, S1 + 0.4, 0.03)
     panel(win, e, u - 0.75, u + 0.75, F0, F1, 0.07)
     panel(win, e, u - 0.72, u + 0.72, S0, S1, 0.07)
@@ -469,8 +495,9 @@ if (import.meta.main) {
     panel(white, e, u - w / 2 - 0.35, u + w / 2 + 0.35, F0 - 0.5, zs, 0.04)
     archPanel(win, e, u, w - 0.5, F0, zs, 0.08)
     panel(white, e, u - (w - 0.5) / 2, u + (w - 0.5) / 2, F1 + 0.1, F1 + 0.6, 0.1) // the transom
-    pilaster(white, e, u - w / 2 - 0.75, 0.7, 0.5, BAND1, H - 0.6, false)
-    pilaster(white, e, u + w / 2 + 0.75, 0.7, 0.5, BAND1, H - 0.6, false)
+    pilaster(white, e, u - w / 2 - 0.75, 0.7, 0.5, BAND1, ENT, false)
+    pilaster(white, e, u + w / 2 + 0.75, 0.7, 0.5, BAND1, ENT, false)
+    breakForward(e, u - w / 2 - 1.1, u + w / 2 + 1.1, 0.5)
     if (groundWindow) panel(win, e, u - 0.75, u + 0.75, G0, G1, 0.05)
   }
   /** A door at ground level with a white surround and a fanlight; `canopy` adds the dark metal canopy over it. */
@@ -496,7 +523,8 @@ if (import.meta.main) {
         const run = us.filter((u) => u >= u0 && u <= u1)
         if (!run.length) return
         const step = us.length > 1 ? us[1] - us[0] : PITCH
-        for (let k = 0; k <= run.length; k++) pilaster(white, e, run[0] - step / 2 + k * step, PW, PD, BAND1, H - 0.6, false)
+        for (let k = 0; k <= run.length; k++) pilaster(white, e, run[0] - step / 2 + k * step, PW, PD, BAND1, ENT, false)
+        breakForward(e, run[0] - step / 2 - PW / 2, run[0] - step / 2 + run.length * step + PW / 2)
       }
       if (cs) pil(0, cs)
       if (ce) pil(e.L - ce, e.L)
@@ -504,7 +532,8 @@ if (import.meta.main) {
       const us = bays(e.L, PITCH, 0.3)
       us.forEach((u) => plainBay(e, u, false))
       const step = us.length ? e.L / us.length : e.L
-      for (let k = 0; k <= us.length; k++) pilaster(white, e, Math.min(e.L - PW / 2, Math.max(PW / 2, k * step)), PW, PD, BAND1, H - 0.6, false)
+      for (let k = 0; k <= us.length; k++) pilaster(white, e, Math.min(e.L - PW / 2, Math.max(PW / 2, k * step)), PW, PD, BAND1, ENT, false)
+      breakForward(e, 0, e.L)
     } else if (spec.k === 'arch') {
       archMotif(e, e.L / 2, Math.min(3.2, e.L - 1.6))
     } else if (spec.k === 'gate') {
@@ -521,7 +550,10 @@ if (import.meta.main) {
     } else if (spec.k === 'pav') {
       // A cut corner: two bays, the arch motif with a canopied door under it, two bays.
       const side = (e.L - 5.6) / 2
-      for (const u of [side * 0.27, side * 0.75]) { plainBay(e, u, true, 1.8); plainBay(e, e.L - u, true, 1.8) }
+      for (const u of [side * 0.27, side * 0.75]) for (const v of [u, e.L - u]) {
+        plainBay(e, v, true, 1.8)
+        archPanel(win, e, v, 1.6, G0, G1 - 0.2, 0.06, 6) // the pavilions' ground windows are round-headed
+      }
       archMotif(e, e.L / 2, 3.4, false)
       doorway(e, e.L / 2)
     } else if (spec.k === 'apse') {
@@ -536,10 +568,9 @@ if (import.meta.main) {
     if (e.L < 3.6) continue
     const mid: XY = [e.a[0] + e.t[0] * e.L / 2, e.a[1] + e.t[1] * e.L / 2]
     if (Math.hypot(mid[0] - ROT[0], mid[1] - ROT[1]) < ROT_R + 1.5) continue
-    for (const u of bays(e.L, 4.2, 1.0)) {
+    for (const u of bays(e.L, 4.6, 1.0)) {
       panel(win, e, u - 0.7, u + 0.7, G0, G1, 0.05)
       panel(win, e, u - 0.72, u + 0.72, F0, S1, 0.05)
-      panel(white, e, u - 0.72, u + 0.72, F1 + 0.1, S0 - 0.1, 0.07)
     }
   }
 
@@ -575,7 +606,7 @@ if (import.meta.main) {
       doorway(e, e.L / 2, 1.7, false)
     }
     // eight columns
-    for (let k = 0; k < 8; k++) column(white, pt(R + 1.0, a0 - 49 * deg + k * 14 * deg), 0.5, BAND1, ENT, 8)
+    for (let k = 0; k < 8; k++) column(white, pt(R + 1.0, a0 - 49 * deg + k * 14 * deg), 0.5, BAND1, ENT, 6)
     ringBand(white, R - 0.2, R + 1.75, ENT, H, white)
 
     // the drum over the roof: ochre with sixteen arched windows, the white cornice, the attic
