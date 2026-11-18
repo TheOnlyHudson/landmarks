@@ -1,0 +1,16 @@
+{
+  "id": "tokyo-ryogoku-kokugikan",
+  "name": "Ryōgoku Kokugikan",
+  "model": "tokyo-ryogoku-kokugikan",
+  "place": "tokyo",
+  "lng": 139.7934835,
+  "lat": 35.6969269,
+  "bearing": 13.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q176821",
+  "replaces": [
+    "way/76187058",
+    "way/851267846"
+  ]
+}
