@@ -1,0 +1,15 @@
+{
+  "id": "doha-aspire-tower",
+  "name": "Aspire Tower",
+  "model": "doha-aspire-tower",
+  "place": "al-rayyan",
+  "lng": 51.444744,
+  "lat": 25.2625125,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q737602",
+  "replaces": [
+    "way/770633250"
+  ]
+}
