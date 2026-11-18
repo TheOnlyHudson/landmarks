@@ -308,6 +308,87 @@ export function bays(L: number, pitch: number, margin = 0.6) {
   return Array.from({ length: n }, (_, k) => margin + w * (k + 0.5))
 }
 
+// ---------------------------------------------------------------- OSM masses
+
+/** A building or building:part from OSM, in model metres: its rings, heights and roof tags. */
+export type OsmPart = { id: string; rings: XY[][]; holes: XY[][]; h: number; min: number; roof: string; rh: number; dir: number | null; or?: string | null; mat?: string | null; col?: string | null }
+export type OsmBuilding = { id: string; outer: XY[][]; inner: XY[][]; parts: OsmPart[] }
+
+/**
+ * One OSM part as a mass: walls from its min_height to its eave on `wall`
+ * (a white band under the eave on `trim` where the wall is tall enough),
+ * then its roof on `roof`: flat, a skillion falling toward roof:direction,
+ * or hipped (gabled and hipped both; a short ridge reads as either at map
+ * distance). Parts that are only a roof (min_height at the wall top) are
+ * drawn as their sloped slab.
+ */
+export function osmMass(P: { wall: Part; roof: Part; trim?: Part | null }, p: OsmPart, band = 0.5) {
+  for (let k = 0; k < p.rings.length; k++) {
+    const ring = ccw(p.rings[k]), holes = k === 0 ? p.holes.map(cw) : []
+    const rh = p.roof === 'flat' ? 0 : Math.min(p.rh || 0, p.h - p.min)
+    const eave = p.h - rh
+    const roofOnly = p.min > 0.5 && eave - p.min < 0.3
+    if (p.roof === 'skillion' && rh > 0) {
+      // A plane through the ring: high on the side away from roof:direction, low toward it.
+      const d = ((p.dir ?? 0) * Math.PI) / 180, dv: XY = [Math.sin(d), Math.cos(d)]
+      const proj = ring.map((q) => q[0] * dv[0] + q[1] * dv[1]), lo = Math.min(...proj), hi = Math.max(...proj)
+      const zOf = (q: XY) => p.h - (rh * (q[0] * dv[0] + q[1] * dv[1] - lo)) / Math.max(1e-6, hi - lo)
+      for (let i = 0; i < ring.length; i++) {
+        const a = ring[i], b = ring[(i + 1) % ring.length]
+        const za = zOf(a), zb = zOf(b)
+        const w = roofOnly ? P.roof : P.wall
+        w.quad([a[0], a[1], p.min], [b[0], b[1], p.min], [b[0], b[1], zb], [a[0], a[1], za])
+      }
+      const n0 = (() => { // the plane's normal
+        const s = rh / Math.max(1e-6, hi - lo)
+        const v: V3 = [dv[0] * s, dv[1] * s, 1], l = Math.hypot(...v)
+        return [v[0] / l, v[1] / l, v[2] / l] as V3
+      })()
+      for (const [a, b, c] of bandTris([ring, ...holes])) P.roof.tri([a[0], a[1], zOf(a)], [b[0], b[1], zOf(b)], [c[0], c[1], zOf(c)], undefined, undefined, undefined, [n0, n0, n0])
+      continue
+    }
+    walls(P.wall, ring, p.min, eave - (P.trim && eave - p.min > 6 ? band : 0))
+    holes.forEach((h) => walls(P.wall, h, p.min, eave - (P.trim && eave - p.min > 6 ? band : 0)))
+    if (P.trim && eave - p.min > 6) { walls(P.trim, ring, eave - band, eave); holes.forEach((h) => walls(P.trim!, h, eave - band, eave)) }
+    if (rh > 0 && p.roof !== 'flat') {
+      const sp = Math.sqrt(Math.abs(area(ring)) / 2.5) // about half the short side of a 1:2.5 plan
+      hipRoof(P.roof, simplify(ring, 0.6), holes, eave, rh, Math.max(1, Math.min(sp * 0.45, 7)))
+    } else cap(P.roof, ring, holes, eave)
+  }
+}
+
+/**
+ * Windows along a building's outline: for each edge, the wall height of the
+ * tallest base part just inside it decides how many rows of windows it gets.
+ * Rows start at `sill0` and repeat every `storey` metres; one `w` x `wh`
+ * panel per bay of `pitch`.
+ */
+export function osmWindows(win: Part, b: OsmBuilding, o: { pitch?: number; storey?: number; sill0?: number; w?: number; wh?: number; minEdge?: number; archTop?: boolean; pilasters?: Part; pilasterEdge?: number; headroom?: number } = {}) {
+  const pitch = o.pitch ?? 3.6, storey = o.storey ?? 3.8, sill0 = o.sill0 ?? 1.3, w = o.w ?? 1.4, wh = o.wh ?? 2.0
+  const base = b.parts.filter((p) => p.min < 0.5)
+  const rings = [...b.outer.map(ccw), ...b.inner.map(cw)]
+  for (const ring of rings) for (const e of edges(ring)) {
+    if (e.L < (o.minEdge ?? 3)) continue
+    const m: XY = [e.a[0] + e.t[0] * e.L / 2 - e.n[0] * 0.8, e.a[1] + e.t[1] * e.L / 2 - e.n[1] * 0.8]
+    const under = base.filter((p) => p.rings.some((r) => inside(m, r)))
+    if (!under.length) continue
+    const wallH = Math.max(...under.map((p) => p.h - (p.roof === 'flat' ? 0 : p.rh)))
+    const rows: number[] = []
+    for (let z = sill0; z + wh < wallH - (o.headroom ?? 1.0); z += storey) rows.push(z)
+    if (!rows.length) continue
+    const us = bays(e.L, pitch, 0.8)
+    for (const u of us) rows.forEach((z, k) => {
+      if (o.archTop && k === rows.length - 1 && k > 0) archPanel(win, e, u, w, z, z + wh - w / 2, 0.05, 6)
+      else panel(win, e, u - w / 2, u + w / 2, z, z + wh, 0.05)
+    })
+    // white pilasters between the bays of the long fronts, from the ground storey's top to the eave band
+    if (o.pilasters && e.L >= (o.pilasterEdge ?? 12) && us.length > 1 && rows.length > 1) {
+      const step = us[1] - us[0]
+      for (let k = 0; k <= us.length; k++) pilaster(o.pilasters, e, Math.min(e.L - 0.4, Math.max(0.4, us[0] - step / 2 + k * step)), 0.7, 0.3, rows[1] - 0.8, wallH - 0.5, false)
+    }
+  }
+}
+
 // ---------------------------------------------------------------- output
 
 export type Out = Array<{ part: Part; material: MaterialSpec }>
