@@ -1,0 +1,83 @@
+{
+  "id": "tokyo-big-sight",
+  "file": "models/tokyo-big-sight.glb",
+  "detail": "models/tokyo-big-sight.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-big-sight.ts",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "convention-center",
+    "exhibition-centre",
+    "postmodern",
+    "inverted-pyramids"
+  ],
+  "description": "Tokyo Big Sight's Conference Tower (AXS Satow, 1996): four titanium-clad inverted pyramids on glazed legs above the Entrance Plaza, with the glass block in the notches between them.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tokyo Big Sight -03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Big_Sight_-03.jpg",
+      "author": "Aimaimyi",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Tokyo Big Sight 20090816.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Big_Sight_20090816.jpg",
+      "author": "Vantey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Tokyo Big Sight 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Big_Sight_01.jpg",
+      "author": "Zairon",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Big Sight conference center.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Big_Sight_conference_center.jpg",
+      "author": "Daniel Dobkin",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Big Sight Conference Tower exterior.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Big_Sight_Conference_Tower_exterior.png",
+      "author": "Kestrel",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Big Sight 20171001-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Big_Sight_20171001-1.jpg",
+      "author": "ITA-ATU",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Big Sight exterior 2024-02-12.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Big_Sight_exterior_2024-02-12.jpg",
+      "author": "Masahiko OHKUBO",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Tokyo Big Sight at Night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Big_Sight_at_Night.jpg",
+      "author": "Masato Ohta",
+      "license": "CC-BY-2.0"
+    }
+  ]
+}
