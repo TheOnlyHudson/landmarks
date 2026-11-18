@@ -12,7 +12,7 @@
  * lidar flight predates construction. No current open facade imagery established.
  */
 import { rect, prism, type XY } from './sea-tacoma-union-station'
-import { PALETTE, finish } from './palette'
+import { finish } from './palette'
 import { SportsShell } from './dc-au-sports-center-bender-arena'
 
 const center = new SportsShell()
