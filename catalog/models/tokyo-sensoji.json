@@ -1,0 +1,83 @@
+{
+  "id": "tokyo-sensoji",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "temple",
+    "buddhist",
+    "pagoda",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-sensoji.detail.glb",
+  "detailZoom": 16,
+  "description": "Sensō-ji's precinct: the Main Hall under its steep grey hipped-and-gabled roof, the vermilion Five-storey Pagoda with its gilt sōrin on its base hall, and the two-storey Hōzōmon gate with its great red lantern.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Main Hall, Sensō-ji Temple, Tokyo, 20240824 1104 5619.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_Hall,_Sens%C5%8D-ji_Temple,_Tokyo,_20240824_1104_5619.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Sensoji-hondo1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sensoji-hondo1.jpg",
+      "author": "KENPEI",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "title": "Senso-ji Haupthalle 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Senso-ji_Haupthalle_1.jpg",
+      "author": "Zairon",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Five-storied Pagoda, Sensoji, Tokyo, 20240824 1103 5616.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Five-storied_Pagoda,_Sensoji,_Tokyo,_20240824_1103_5616.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Five-storied Pagoda - Sensoji.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Five-storied_Pagoda_-_Sensoji.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Hōzōmon from the south.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:H%C5%8Dz%C5%8Dmon_from_the_south.jpg",
+      "author": "Christophe95",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Hōzōmon and five-story pagoda.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:H%C5%8Dz%C5%8Dmon_and_five-story_pagoda.jpg",
+      "author": "Kanon",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Pnorama of Sensoji.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pnorama_of_Sensoji.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/tokyo-sensoji.glb",
+  "source": "generators/tokyo-sensoji.ts"
+}
