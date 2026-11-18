@@ -1,0 +1,14 @@
+{
+  "id": "tokyo-zojoji-sanmon",
+  "name": "Zōjō-ji Sangedatsumon",
+  "model": "tokyo-zojoji-sanmon",
+  "place": "tokyo",
+  "lng": 139.7499997,
+  "lat": 35.6572607,
+  "bearing": 6.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/30516556"
+  ]
+}
