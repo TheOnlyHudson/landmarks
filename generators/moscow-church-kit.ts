@@ -199,11 +199,13 @@ export function drum(o: {
   }
 }
 
-export type DomeShape = 'helmet' | 'onion' | 'bulb' | 'tent'
+export type DomeShape = 'helmet' | 'fullhelmet' | 'onion' | 'bulb' | 'tent'
 
 const PROFILES: Record<Exclude<DomeShape, 'tent'>, Array<[number, number]>> = {
   // Assumption's helmet: barely wider than its drum, a long taper.
   helmet: [[1.0, 0], [1.06, 0.1], [1.08, 0.22], [1.05, 0.35], [0.96, 0.48], [0.8, 0.61], [0.58, 0.74], [0.35, 0.85], [0.16, 0.94], [0.06, 1]],
+  // A fuller helmet, its shoulders swelling past the drum (the Assumption's).
+  fullhelmet: [[1.0, 0], [1.09, 0.1], [1.13, 0.22], [1.12, 0.35], [1.04, 0.48], [0.88, 0.61], [0.64, 0.74], [0.38, 0.85], [0.17, 0.94], [0.06, 1]],
   // A full onion: swells well past its drum and draws to a point.
   onion: [[0.82, 0], [0.94, 0.07], [1.0, 0.17], [1.02, 0.29], [0.97, 0.42], [0.84, 0.56], [0.64, 0.69], [0.42, 0.8], [0.24, 0.89], [0.11, 0.96], [0.05, 1]],
   // A rounder, lower onion (Archangel's silver heads, the Twelve Apostles).

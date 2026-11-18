@@ -53,7 +53,7 @@
  * arcade belt at about 5.8-9.2 m, the upper slit windows 13-16 m, the west
  * portal's hood about 11-12 m. Drum diameters 7.5 m (sides) and 9.2 m
  * (centre), 94% of OSM's circles, which include the cornice; helmets about
- * 0.88 of their drum's width tall (from the distant photos; close-up ones
+ * 0.88 of their drum's width tall and swelling to 1.13 of it (from the distant photos; close-up ones
  * foreshorten them).
  * Estimated: drum tops 29 m (sides) and 31.5 m (centre), helmets 6.6 and
  * 8.0 m tall with 1.1-1.3 m spikes and 2.7-3.4 m crosses, so the central
@@ -153,7 +153,7 @@ const DRUMS: Array<{ c: [number, number]; r: number; top: number; H: number; spi
 ]
 for (const d of DRUMS) {
   drum({ wall: trim, win, trim, c: d.c, z0: ZS + 1, z1: d.top, r: d.r, n: 16, windows: 8, winW: 0.6, winH: 2.4, sill: d.top - 4.2, cornice: 0.3 })
-  const top = dome(gold, d.c, d.top, d.r * 1.0, d.H, 'helmet', 16, d.spike, d.r + 0.3)
+  const top = dome(gold, d.c, d.top, d.r * 1.0, d.H, 'fullhelmet', 16, d.spike, d.r + 0.3)
   cross(gold, d.c, top - 0.1, d.L, 'y')
 }
 
