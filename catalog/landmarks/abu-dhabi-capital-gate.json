@@ -9,6 +9,7 @@
   "elevation": 0,
   "minzoom": 14,
   "replaces": [
-    "way/103779658"
+    "way/103779658",
+    "way/396939669"
   ]
 }

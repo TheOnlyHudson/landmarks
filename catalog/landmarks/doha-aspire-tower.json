@@ -10,6 +10,7 @@
   "minzoom": 13,
   "wikidata": "Q737602",
   "replaces": [
-    "way/770633250"
+    "way/770633250",
+    "relation/10686303"
   ]
 }
