@@ -1,0 +1,71 @@
+{
+  "id": "tokyo-azabudai-hills-mori-jp-tower",
+  "file": "models/tokyo-azabudai-hills-mori-jp-tower.glb",
+  "detail": "models/tokyo-azabudai-hills-mori-jp-tower.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-azabudai-hills-mori-jp-tower.ts",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "residential",
+    "supertall"
+  ],
+  "description": "Japan's tallest building (2023, Pelli Clarke & Partners), 325 m: a rounded square whose faces fold in along a pale central crease, under fine white fins, with a petal-scalloped crown.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "2024 Azabudai Hills Mori JP Tower (2).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2024_Azabudai_Hills_Mori_JP_Tower_(2).jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2024 Azabudai Hills Mori JP Tower (3).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2024_Azabudai_Hills_Mori_JP_Tower_(3).jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Azabudai Hills JP Tower seen from Roppongi Hills.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Azabudai_Hills_JP_Tower_seen_from_Roppongi_Hills.jpg",
+      "author": "Syced",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Azabudai Hills Mori JP Tower from Skydeck, May 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Azabudai_Hills_Mori_JP_Tower_from_Skydeck,_May_2023.jpg",
+      "author": "Syced",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Azabudai Hills Mori JP Tower, February 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Azabudai_Hills_Mori_JP_Tower,_February_2023.jpg",
+      "author": "Syced",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Azabudai Hills Mori JP Tower 20240329.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Azabudai_Hills_Mori_JP_Tower_20240329.jpg",
+      "author": "Suicasmo",
+      "license": "CC0-1.0"
+    }
+  ]
+}
