@@ -1,0 +1,118 @@
+{
+  "id": "moscow-grand-kremlin-palace",
+  "file": "models/moscow-grand-kremlin-palace.glb",
+  "source": "generators/moscow-grand-kremlin-palace.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "palace",
+    "kremlin",
+    "russian-revival",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q1370087",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Konstantin Thon's yellow-and-white Russian Revival palace of 1838–1849 above the Moskva, its long river front under a green roof and a gilt-crowned belvedere, with the older palace buildings it wraps: the Terem Palace and the eleven gold domes of its churches, the white Palace of Facets and the Red Porch, the Church of the Nativity on the Seni and the Church of the Deposition of the Robe.",
+  "references": [
+    {
+      "title": "Gran Palacio del Kremlin, Moscú, Rusia, 2016-10-03, DD 28-29 HDR",
+      "url": "https://commons.wikimedia.org/wiki/File:Gran_Palacio_del_Kremlin,_Mosc%C3%BA,_Rusia,_2016-10-03,_DD_28-29_HDR.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Moscow - Grand Kremlin Palace - close-up",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_Grand_Kremlin_Palace_-_close-up.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Moscow. Grand Kremlin Palace from the Bolshoy Kamenny Bridge",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow._Grand_Kremlin_Palace_from_the_Bolshoy_Kamenny_Bridge.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "The Grand Kremlin Palace (19969552331)",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Grand_Kremlin_Palace_(19969552331).jpg",
+      "author": "Jorge Láscar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "00 4700 Moscow, Kremlin - Grand Kremlin Palace, Ivan the Great Bell Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:00_4700_Moscow,_Kremlin_-_Grand_Kremlin_Palace,_Ivan_the_Great_Bell_Tower.jpg",
+      "author": "W. Bulach",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Grand Kremlin Palace in 2015",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Grand_Kremlin_Palace_in_2015.JPG",
+      "author": "FritzDaCat",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2019-07-26-Moscow-3118-Palace of Facets",
+      "url": "https://commons.wikimedia.org/wiki/File:2019-07-26-Moscow-3118-Palace_of_Facets.jpg",
+      "author": "Don-vip",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Moscow Kremlin - Grand Palace, Red Porch, Palace of Facets (16600386546)",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Kremlin_-_Grand_Palace,_Red_Porch,_Palace_of_Facets_(16600386546).jpg",
+      "author": "Sergey Norin",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Terem Palace's golden domes (19967431005)",
+      "url": "https://commons.wikimedia.org/wiki/File:Terem_Palace%27s_golden_domes_(19967431005).jpg",
+      "author": "Jorge Láscar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Domed roof over the Terem Palace churches, Moscow Kremlin",
+      "url": "https://commons.wikimedia.org/wiki/File:Domed_roof_over_the_Terem_Palace_churches,_Moscow_Kremlin.jpg",
+      "author": "Ludvig14",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Moscow Kremlin Terem Palace 05 (4104746809)",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Kremlin_Terem_Palace_05_(4104746809).jpg",
+      "author": "michael clarke",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Upper Saviour's Cathedral and Terem Churches",
+      "url": "https://commons.wikimedia.org/wiki/File:Upper_Saviour%27s_Cathedral_and_Terem_Churches.jpg",
+      "author": "Andrew Bossi",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Terem Palace as seen from Mokhovaya str.",
+      "url": "https://commons.wikimedia.org/wiki/File:Terem_Palace_as_seen_from_Mokhovaya_str.jpg",
+      "author": "Fedor Chelnokov",
+      "license": "Public domain"
+    },
+    {
+      "title": "Kremlin birds eye view-1",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_birds_eye_view-1.jpg",
+      "author": "Георгий Надеждин / ITAR-TASS",
+      "license": "CC BY 4.0"
+    }
+  ]
+}
