@@ -1,0 +1,100 @@
+{
+  "id": "abu-dhabi-louvre",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "contemporary",
+    "dome",
+    "lattice"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/abu-dhabi-louvre.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Louvre Abu Dhabi (dome over the entrance)",
+      "url": "https://www.flickr.com/photos/32916425@N04/39755590230",
+      "author": "Roller Coaster Philosoph",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Louvre Abu Dhabi (outer lattice)",
+      "url": "https://www.flickr.com/photos/32916425@N04/40671252165",
+      "author": "Roller Coaster Philosoph",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Louvre Abu Dhabi (lattice from below)",
+      "url": "https://www.flickr.com/photos/32916425@N04/39754585730",
+      "author": "Roller Coaster Philosoph",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Louvre Abu Dhabi (plaza and basin)",
+      "url": "https://www.flickr.com/photos/32916425@N04/26694416957",
+      "author": "Roller Coaster Philosoph",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Louvre Abu Dhabi (rim over the basin)",
+      "url": "https://www.flickr.com/photos/32916425@N04/27693349928",
+      "author": "Roller Coaster Philosoph",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Abu Dhabi (Louvre cubes)",
+      "url": "https://www.flickr.com/photos/133200397@N03/48341438347",
+      "author": "sergei.gussev",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Jean nouvel, modellino del louvre abu dhabi",
+      "url": "https://commons.wikimedia.org/wiki/File:Jean_nouvel,_modellino_del_louvre_abu_dhabi.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Jean nouvel, modellino del loubre abu dhabi",
+      "url": "https://commons.wikimedia.org/wiki/File:Jean_nouvel,_modellino_del_loubre_abu_dhabi.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Louvre abu dhabi, interno, cortile coperto 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Louvre_abu_dhabi,_interno,_cortile_coperto_01.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Visitors at Louvre Abu Dhabi",
+      "url": "https://commons.wikimedia.org/wiki/File:Visitors_at_Louvre_Abu_Dhabi.jpg",
+      "author": "Tasos Lekkas",
+      "license": "CC0"
+    },
+    {
+      "title": "LouvreAD platforms",
+      "url": "https://commons.wikimedia.org/wiki/File:LouvreAD_platforms.jpg",
+      "author": "Boubloub",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/abu-dhabi-louvre.glb",
+  "source": "generators/abu-dhabi-louvre.ts"
+}
