@@ -1,0 +1,49 @@
+{
+  "id": "dc-au-hall-of-science",
+  "file": "models/dc-au-hall-of-science.glb",
+  "source": "generators/dc-au-hall-of-science.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "science"
+  ],
+  "description": "Ballinger’s L-shaped laboratory building wraps a rain garden. Its curved glass front overlooks the campus lawn known as the Beach.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Building outline (May 2026)",
+      "url": "https://www.openstreetmap.org/way/951907144",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "Hall of Science and the garden-facing curtain wall",
+      "url": "https://www.american.edu/news/hall-of-science-leed-glass-building.cfm",
+      "author": "American University"
+    },
+    {
+      "title": "Building form and solar shades",
+      "url": "https://ccnet.ballinger.com/design/hallofscience/",
+      "author": "Ballinger"
+    },
+    {
+      "title": "2022 DC lidar, archived processing source",
+      "url": "https://github.com/kameronlee/heat-aware-pedestrian-routing/blob/456fd09d67aae857907e8c2b7fa6c19332734bd5/data/metadata/lidar_sources.md",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    }
+  ],
+  "reviewStatus": "draft"
+}
