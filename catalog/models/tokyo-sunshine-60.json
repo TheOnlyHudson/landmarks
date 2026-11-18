@@ -1,0 +1,65 @@
+{
+  "id": "tokyo-sunshine-60",
+  "file": "models/tokyo-sunshine-60.glb",
+  "detail": "models/tokyo-sunshine-60.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-sunshine-60.ts",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "observation-deck",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "239.7 m office slab in Ikebukuro (1978), Japan's tallest until 1991: off-white with columns of windows on its long faces, ribbed short faces, a long penthouse and red-and-white aviation masts.",
+  "references": [
+    {
+      "title": "Sunshine 60.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Sunshine_60.JPG",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Sunshine 60 2015 July.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sunshine_60_2015_July.jpg",
+      "author": "Morio",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Sunshine 60 1 Ikebukuro Tokyo 16 November 2003.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sunshine_60_1_Ikebukuro_Tokyo_16_November_2003.jpg",
+      "author": "Morio",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Sunshine 60 5 Ikebukuro Tokyo 16 November 2003.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sunshine_60_5_Ikebukuro_Tokyo_16_November_2003.jpg",
+      "author": "Morio",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Sunshine 60, worm's eye view.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sunshine_60,_worm's_eye_view.jpg",
+      "author": "Xenmorpha",
+      "license": "CC0-1.0"
+    }
+  ]
+}
