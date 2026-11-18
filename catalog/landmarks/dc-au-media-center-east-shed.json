@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-media-center-east-shed",
+  "name": "East Shed near the Media Production Center",
+  "model": "dc-au-media-center-east-shed",
+  "place": "american-university",
+  "lng": -77.0919513,
+  "lat": 38.9362968,
+  "bearing": 33.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/90190634"
+  ]
+}

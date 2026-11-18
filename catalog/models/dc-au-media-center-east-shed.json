@@ -1,0 +1,39 @@
+{
+  "id": "dc-au-media-center-east-shed",
+  "file": "models/dc-au-media-center-east-shed.glb",
+  "source": "generators/dc-au-media-center-east-shed.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "outbuilding"
+  ],
+  "description": "This shed stands in the service area southeast of the Media Production Center. Its location and outline appear in the District building survey.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Building outline (May 2026)",
+      "url": "https://www.openstreetmap.org/way/90190634",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "2022 DC lidar, archived processing source",
+      "url": "https://github.com/kameronlee/heat-aware-pedestrian-routing/blob/456fd09d67aae857907e8c2b7fa6c19332734bd5/data/metadata/lidar_sources.md",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    }
+  ],
+  "reviewStatus": "draft"
+}
