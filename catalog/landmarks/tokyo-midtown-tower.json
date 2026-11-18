@@ -1,0 +1,15 @@
+{
+  "id": "tokyo-midtown-tower",
+  "name": "Tokyo Midtown Tower",
+  "model": "tokyo-midtown-tower",
+  "place": "tokyo",
+  "lng": 139.7312811,
+  "lat": 35.666116,
+  "bearing": 40,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1364393",
+  "replaces": [
+    "way/103007069"
+  ]
+}
