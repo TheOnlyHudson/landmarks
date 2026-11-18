@@ -10,6 +10,7 @@
   "elevation": 0,
   "minzoom": 15,
   "replaces": [
-    "relation/3696430"
+    "relation/3696430",
+    "relation/3860484"
   ]
 }
