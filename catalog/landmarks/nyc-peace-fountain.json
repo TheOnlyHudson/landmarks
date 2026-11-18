@@ -1,0 +1,13 @@
+{
+  "id": "nyc-peace-fountain",
+  "name": "Peace Fountain",
+  "model": "nyc-peace-fountain",
+  "lng": -73.9630524,
+  "lat": 40.8034978,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 17,
+  "wikidata": "Q7157367",
+  "replaces": [],
+  "place": "new-york-area"
+}

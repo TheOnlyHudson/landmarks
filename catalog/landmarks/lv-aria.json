@@ -1,0 +1,19 @@
+{
+  "id": "lv-aria",
+  "name": "Aria Resort & Casino",
+  "model": "lv-aria",
+  "lng": -115.177226,
+  "lat": 36.107191,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q654279",
+  "replaces": [
+    "way/134930092",
+    "way/134930090",
+    "way/134930089",
+    "way/134930091",
+    "way/134930088"
+  ],
+  "place": "las-vegas-area"
+}

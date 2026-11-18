@@ -1,0 +1,16 @@
+{
+  "id": "sf-steve-jobs-theater",
+  "name": "Steve Jobs Theater",
+  "model": "sf-steve-jobs-theater",
+  "place": "san-francisco-bay-area",
+  "lng": -122.00744106,
+  "lat": 37.3308726,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q48835074",
+  "replaces": [
+    "way/491340789",
+    "way/521662177"
+  ]
+}

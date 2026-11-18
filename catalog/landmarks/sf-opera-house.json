@@ -1,0 +1,15 @@
+{
+  "id": "sf-opera-house",
+  "name": "War Memorial Opera House",
+  "model": "sf-opera-house",
+  "lng": -122.4209046,
+  "lat": 37.7785751,
+  "bearing": 350.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2915772",
+  "replaces": [
+    "way/32865161"
+  ],
+  "place": "san-francisco-bay-area"
+}

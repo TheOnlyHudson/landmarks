@@ -1,0 +1,63 @@
+{
+  "id": "mexico-city-palacio-postal",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "post-office",
+    "eclectic",
+    "gothic-revival",
+    "museum",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Palacio Postal",
+      "url": "https://commons.wikimedia.org/wiki/File:Palacio_Postal_Version_2.jpg",
+      "author": "Thomas Ledl",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Palacio Postal - Eje Central",
+      "url": "https://commons.wikimedia.org/wiki/File:Palacio_Postal,_Centro_Hist%C3%B3rico,_Ciudad_de_M%C3%A9xico_-_Eje_Central.jpg",
+      "author": "Juan Carlos Fonseca Mata",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Palacio Postal - Mexico 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:Palacio_Postal_-_Mexico_2024.jpg",
+      "author": "José Luiz",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Palacio Postal, DD 49",
+      "url": "https://commons.wikimedia.org/wiki/File:Palacio_Postal,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2013-10-16,_DD_49.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Vista cubo de luz del Palacio Postal",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_cubo_de_luz_del_Palacio_Postal.jpg",
+      "author": "Palacio Postal",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/mexico-city-palacio-postal.glb",
+  "source": "generators/mexico-city-palacio-postal.ts"
+}

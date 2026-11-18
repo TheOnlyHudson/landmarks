@@ -1,0 +1,20 @@
+{
+  "id": "carowinds-hurler",
+  "name": "Hurler",
+  "model": "carowinds-hurler",
+  "lng": -80.9429067,
+  "lat": 35.1057222,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1619573",
+  "replaces": [
+    "way/668700368",
+    "way/650268718",
+    "way/650268717",
+    "way/239949108",
+    "way/650268716",
+    "way/890803169"
+  ],
+  "place": "carowinds"
+}

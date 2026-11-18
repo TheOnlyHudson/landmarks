@@ -1,0 +1,15 @@
+{
+  "id": "seoul-heunginjimun",
+  "name": "Heunginjimun",
+  "model": "seoul-heunginjimun",
+  "place": "seoul",
+  "lng": 127.0096849,
+  "lat": 37.5711281,
+  "bearing": 260.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/320783808"
+  ],
+  "wikidata": "Q482721"
+}

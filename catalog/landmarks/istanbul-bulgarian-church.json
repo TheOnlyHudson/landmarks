@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-bulgarian-church",
+  "name": "Bulgarian St. Stephen Church",
+  "model": "istanbul-bulgarian-church",
+  "place": "istanbul",
+  "lng": 28.949695,
+  "lat": 41.031784,
+  "bearing": 47.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2094950",
+  "replaces": [
+    "way/175519383"
+  ]
+}

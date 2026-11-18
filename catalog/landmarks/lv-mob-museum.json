@@ -1,0 +1,15 @@
+{
+  "id": "lv-mob-museum",
+  "name": "The Mob Museum",
+  "model": "lv-mob-museum",
+  "lng": -115.1412791,
+  "lat": 36.172784,
+  "bearing": 28.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q6886561",
+  "replaces": [
+    "way/206128504"
+  ],
+  "place": "las-vegas-area"
+}

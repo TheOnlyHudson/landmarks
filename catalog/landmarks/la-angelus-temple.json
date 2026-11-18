@@ -1,0 +1,17 @@
+{
+  "id": "la-angelus-temple",
+  "name": "Angelus Temple",
+  "model": "la-angelus-temple",
+  "lng": -118.2607566,
+  "lat": 34.0762629,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2463876",
+  "replaces": [
+    "way/60586413",
+    "way/560486417",
+    "way/886564591"
+  ],
+  "place": "los-angeles-area"
+}

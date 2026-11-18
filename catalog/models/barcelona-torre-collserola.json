@@ -1,0 +1,62 @@
+{
+  "id": "barcelona-torre-collserola",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "telecommunications",
+    "guyed-tower",
+    "high-tech",
+    "viewpoint"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Torre de Collserola 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Collserola_2013.jpg",
+      "author": "Felix König",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Barcelona - Torre de Collserola from Tibidabo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Torre_de_Collserola_from_Tibidabo.jpg",
+      "author": "Joe Mabel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Torre de Collserola from Tibidabo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Collserola_from_Tibidabo.jpg",
+      "author": "Jaipasdepseudo",
+      "license": "CC0"
+    },
+    {
+      "title": "Torre de Collserola in 2026.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Collserola_in_2026.jpg",
+      "author": "Bravodelnorte",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Torre de Collserola - 002.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Collserola_-_002.jpg",
+      "author": "Mutari",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/barcelona-torre-collserola.glb",
+  "source": "generators/barcelona-torre-collserola.ts"
+}

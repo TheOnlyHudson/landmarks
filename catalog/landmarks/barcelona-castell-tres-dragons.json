@@ -1,0 +1,15 @@
+{
+  "id": "barcelona-castell-tres-dragons",
+  "name": "Castell dels Tres Dragons",
+  "model": "barcelona-castell-tres-dragons",
+  "place": "barcelona",
+  "lng": 2.183352,
+  "lat": 41.388082,
+  "bearing": 46.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/33570474"
+  ],
+  "wikidata": "Q1048705"
+}

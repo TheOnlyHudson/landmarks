@@ -1,0 +1,20 @@
+{
+  "id": "dal-love-field-terminal",
+  "name": "Dallas Love Field Terminal",
+  "model": "dal-love-field-terminal",
+  "place": "dallas-area",
+  "lng": -96.8497,
+  "lat": 32.8449,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/224697058",
+    "way/25661629",
+    "way/25661630",
+    "way/237849526",
+    "way/744685694",
+    "way/303623491",
+    "way/1145443237"
+  ]
+}

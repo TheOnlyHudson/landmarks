@@ -1,0 +1,27 @@
+{
+  "id": "barcelona-arenas",
+  "name": "Arenas de Barcelona",
+  "model": "barcelona-arenas",
+  "place": "barcelona",
+  "lng": 2.149312,
+  "lat": 41.376307,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1105997329",
+    "way/305821928",
+    "way/618800604",
+    "way/618800605",
+    "way/618800606",
+    "way/618800607",
+    "way/618800608",
+    "way/1105997319",
+    "way/1105997320",
+    "way/1105997321",
+    "way/1105997322",
+    "relation/14719692",
+    "relation/14719693"
+  ],
+  "wikidata": "Q548566"
+}

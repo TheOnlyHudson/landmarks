@@ -1,0 +1,15 @@
+{
+  "id": "sf-old-mint",
+  "name": "Old San Francisco Mint",
+  "model": "sf-old-mint",
+  "lng": -122.407238,
+  "lat": 37.782728,
+  "bearing": 315,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7414079",
+  "replaces": [
+    "way/32863779"
+  ],
+  "place": "san-francisco-bay-area"
+}

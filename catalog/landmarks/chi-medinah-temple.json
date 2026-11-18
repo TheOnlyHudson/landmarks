@@ -1,0 +1,15 @@
+{
+  "id": "chi-medinah-temple",
+  "name": "Medinah Temple",
+  "model": "chi-medinah-temple",
+  "lng": -87.627205,
+  "lat": 41.892894,
+  "bearing": 359.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q14687867",
+  "replaces": [
+    "way/210680454"
+  ],
+  "place": "chicago-area"
+}

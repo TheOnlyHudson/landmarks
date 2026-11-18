@@ -1,0 +1,16 @@
+{
+  "id": "la-christ-cathedral",
+  "name": "Christ Cathedral",
+  "model": "la-christ-cathedral",
+  "lng": -117.898896,
+  "lat": 33.787402,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1051217",
+  "replaces": [
+    "way/29280620",
+    "way/120714044"
+  ],
+  "place": "los-angeles-area"
+}

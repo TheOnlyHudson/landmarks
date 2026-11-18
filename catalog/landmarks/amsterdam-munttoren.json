@@ -1,0 +1,21 @@
+{
+  "id": "amsterdam-munttoren",
+  "name": "Munttoren",
+  "model": "amsterdam-munttoren",
+  "place": "amsterdam",
+  "lng": 4.893212,
+  "lat": 52.367057,
+  "bearing": 32,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/57862728",
+    "way/751683816",
+    "way/751683817",
+    "way/751683819",
+    "way/751698382",
+    "way/751698383",
+    "way/751698384"
+  ],
+  "wikidata": "Q1429748"
+}

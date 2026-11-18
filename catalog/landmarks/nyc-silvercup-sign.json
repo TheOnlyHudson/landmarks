@@ -1,0 +1,12 @@
+{
+  "id": "nyc-silvercup-sign",
+  "name": "Silvercup Sign",
+  "model": "nyc-silvercup-sign",
+  "place": "new-york-area",
+  "lng": -73.9436986,
+  "lat": 40.7513395,
+  "bearing": 124.7,
+  "elevation": 23.1,
+  "minzoom": 15,
+  "replaces": []
+}

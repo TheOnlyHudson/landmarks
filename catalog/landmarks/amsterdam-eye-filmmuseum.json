@@ -1,0 +1,17 @@
+{
+  "id": "amsterdam-eye-filmmuseum",
+  "name": "Eye Filmmuseum",
+  "model": "amsterdam-eye-filmmuseum",
+  "place": "amsterdam",
+  "lng": 4.900839,
+  "lat": 52.384367,
+  "bearing": 5.4,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/127505497",
+    "way/1206726812",
+    "way/1207014127"
+  ],
+  "wikidata": "Q1538389"
+}

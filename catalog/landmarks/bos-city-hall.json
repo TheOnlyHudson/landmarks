@@ -1,0 +1,29 @@
+{
+  "id": "bos-city-hall",
+  "name": "Boston City Hall",
+  "model": "bos-city-hall",
+  "place": "boston-area",
+  "lng": -71.0579642,
+  "lat": 42.360367,
+  "bearing": 353.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q250773",
+  "replaces": [
+    "way/788015166",
+    "way/1420293154",
+    "way/1420293155",
+    "way/1420293156",
+    "way/1420293157",
+    "way/1420293158",
+    "way/1420293159",
+    "way/1420293160",
+    "way/1420293161",
+    "way/1420293162",
+    "way/1420293163",
+    "relation/19430363",
+    "relation/19430364",
+    "relation/19430365",
+    "relation/19430366"
+  ]
+}

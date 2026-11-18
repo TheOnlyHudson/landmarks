@@ -1,0 +1,13 @@
+{
+  "id": "mexico-city-ninos-heroes",
+  "name": "Monumento a los Niños Héroes",
+  "model": "mexico-city-ninos-heroes",
+  "place": "mexico-city",
+  "lng": -99.1793014,
+  "lat": 19.4215103,
+  "bearing": 63.2,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "wikidata": "Q19381838"
+}

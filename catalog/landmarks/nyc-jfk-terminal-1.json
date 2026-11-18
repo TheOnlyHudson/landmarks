@@ -1,0 +1,15 @@
+{
+  "id": "nyc-jfk-terminal-1",
+  "name": "JFK Airport Terminal 1",
+  "model": "nyc-jfk-terminal-1",
+  "place": "new-york-area",
+  "lng": -73.7910574,
+  "lat": 40.6428633,
+  "bearing": 59.9,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/284907685"
+  ],
+  "wikidata": "Q55855378"
+}

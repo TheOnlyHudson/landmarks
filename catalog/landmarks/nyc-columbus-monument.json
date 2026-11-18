@@ -1,0 +1,21 @@
+{
+  "id": "nyc-columbus-monument",
+  "name": "Columbus Monument",
+  "model": "nyc-columbus-monument",
+  "lng": -73.981898,
+  "lat": 40.768069,
+  "bearing": 29.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q86518088",
+  "replaces": [
+    "way/608947452",
+    "way/259888095",
+    "way/259888096",
+    "way/259888097",
+    "way/259888098",
+    "way/259888099",
+    "way/259888101"
+  ],
+  "place": "new-york-area"
+}

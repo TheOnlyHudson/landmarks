@@ -1,0 +1,14 @@
+{
+  "id": "dal-texas-pacific-terminal",
+  "name": "Texas & Pacific Passenger Terminal",
+  "model": "dal-texas-pacific-terminal",
+  "place": "dallas-area",
+  "lng": -97.3277864,
+  "lat": 32.7459164,
+  "bearing": 2.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/421883046"
+  ]
+}

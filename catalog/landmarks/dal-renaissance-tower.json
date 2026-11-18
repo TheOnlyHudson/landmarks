@@ -1,0 +1,15 @@
+{
+  "id": "dal-renaissance-tower",
+  "name": "Renaissance Tower",
+  "model": "dal-renaissance-tower",
+  "place": "dallas-area",
+  "lng": -96.801835,
+  "lat": 32.7812967,
+  "bearing": 345.7,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/28182729"
+  ],
+  "wikidata": "Q1515605"
+}

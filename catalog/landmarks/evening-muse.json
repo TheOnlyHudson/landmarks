@@ -1,0 +1,14 @@
+{
+  "id": "evening-muse",
+  "name": "The Evening Muse",
+  "model": "evening-muse",
+  "lng": -80.8048139,
+  "lat": 35.2477371,
+  "bearing": 322,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1192512105"
+  ],
+  "place": "charlotte-area"
+}

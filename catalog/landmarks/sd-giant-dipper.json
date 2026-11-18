@@ -1,0 +1,20 @@
+{
+  "id": "sd-giant-dipper",
+  "name": "Giant Dipper",
+  "model": "sd-giant-dipper",
+  "place": "san-diego-area",
+  "lng": -117.2516,
+  "lat": 32.77125,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1272436478",
+    "way/1272436473",
+    "way/1272436474",
+    "way/1272436475",
+    "way/1272436476",
+    "way/1272436477"
+  ],
+  "wikidata": "Q1522717"
+}

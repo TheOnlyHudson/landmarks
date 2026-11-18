@@ -1,0 +1,16 @@
+{
+  "id": "nyc-twa-hotel",
+  "name": "TWA Hotel",
+  "model": "nyc-twa-hotel",
+  "lng": -73.7776173,
+  "lat": 40.6457858,
+  "bearing": -3.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q47321188",
+  "replaces": [
+    "way/736809349",
+    "way/736827874"
+  ],
+  "place": "new-york-area"
+}

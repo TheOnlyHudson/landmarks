@@ -1,0 +1,65 @@
+{
+  "id": "london-st-pancras",
+  "file": "models/london-st-pancras.glb",
+  "source": "generators/london-st-pancras.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "railway-station",
+    "hotel",
+    "gothic-revival",
+    "victorian",
+    "listed",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Gilbert Scott's red-brick Gothic Midland Grand Hotel (1868–76) with its 82 m clock tower and lower west tower, steep slate roofs, dormers and chimneys, in front of Barlow's 73 m single-span train shed (1868), a ribbed vault of dark slate and grey glass; the 2007 northern extension is a plain thin glazed roof on columns.",
+  "references": [
+    {
+      "title": "St Pancras Railway Station 2012-06-23.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Pancras_Railway_Station_2012-06-23.jpg",
+      "author": "Colin",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "St Pancras Renaissance London Hotel and St Pancras Chambers.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Pancras_Renaissance_London_Hotel_and_St_Pancras_Chambers.jpg",
+      "author": "Yair Haklai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "King's Cross St. Pancras aerial view, image 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:King's_Cross_St._Pancras_aerial_view,_image_1.jpg",
+      "author": "Héctor Ochoa 'Robot8A'",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Kings Cross and St Pancras Stations - geograph.org.uk - 6018774.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kings_Cross_and_St_Pancras_Stations_-_geograph.org.uk_-_6018774.jpg",
+      "author": "N Chadwick",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Midland Grand Hotel, St Pancras, from the British Library - geograph.org.uk - 1599058.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Midland_Grand_Hotel,_St_Pancras,_from_the_British_Library_-_geograph.org.uk_-_1599058.jpg",
+      "author": "Ian Petticrew",
+      "license": "CC-BY-SA-2.0"
+    }
+  ]
+}

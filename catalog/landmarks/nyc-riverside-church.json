@@ -1,0 +1,15 @@
+{
+  "id": "nyc-riverside-church",
+  "name": "The Riverside Church",
+  "model": "nyc-riverside-church",
+  "lng": -73.963026,
+  "lat": 40.811984,
+  "bearing": 29.4,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1156586",
+  "replaces": [
+    "way/274986253"
+  ],
+  "place": "new-york-area"
+}

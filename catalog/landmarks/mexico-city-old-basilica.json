@@ -1,0 +1,14 @@
+{
+  "id": "mexico-city-old-basilica",
+  "name": "Old Basilica of Guadalupe",
+  "model": "mexico-city-old-basilica",
+  "place": "mexico-city",
+  "lng": -99.116855,
+  "lat": 19.485217,
+  "bearing": 23,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/120733637"
+  ]
+}

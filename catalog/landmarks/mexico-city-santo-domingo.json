@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-santo-domingo",
+  "name": "Templo de Santo Domingo",
+  "model": "mexico-city-santo-domingo",
+  "place": "mexico-city",
+  "lng": -99.133637,
+  "lat": 19.4385509,
+  "bearing": 7.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7420507",
+  "replaces": [
+    "way/1422338549"
+  ]
+}

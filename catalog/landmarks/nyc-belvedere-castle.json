@@ -1,0 +1,19 @@
+{
+  "id": "nyc-belvedere-castle",
+  "name": "Belvedere Castle",
+  "model": "nyc-belvedere-castle",
+  "place": "new-york-area",
+  "lng": -73.9688862,
+  "lat": 40.7793258,
+  "bearing": 30,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q816268",
+  "replaces": [
+    "way/278363023",
+    "way/1317000456",
+    "way/1317000457",
+    "way/1317000458",
+    "way/1317000451"
+  ]
+}

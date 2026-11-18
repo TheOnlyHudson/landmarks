@@ -1,0 +1,14 @@
+{
+  "id": "nyc-times-square-recruiting-station",
+  "name": "Times Square Recruiting Station",
+  "model": "nyc-times-square-recruiting-station",
+  "place": "times-square",
+  "lng": -73.9862031,
+  "lat": 40.756838,
+  "bearing": 22.7,
+  "elevation": 0,
+  "minzoom": 17,
+  "replaces": [
+    "way/258646144"
+  ]
+}

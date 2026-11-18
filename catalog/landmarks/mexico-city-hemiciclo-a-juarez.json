@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-hemiciclo-a-juarez",
+  "name": "Hemiciclo a Juárez",
+  "model": "mexico-city-hemiciclo-a-juarez",
+  "place": "mexico-city",
+  "lng": -99.144097,
+  "lat": 19.435063,
+  "bearing": 8.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/992941278"
+  ],
+  "wikidata": "Q4020213"
+}

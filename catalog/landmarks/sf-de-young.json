@@ -1,0 +1,24 @@
+{
+  "id": "sf-de-young",
+  "name": "de Young Museum",
+  "model": "sf-de-young",
+  "lng": -122.46871572,
+  "lat": 37.77147861,
+  "bearing": 317.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1470276",
+  "replaces": [
+    "relation/1652482",
+    "way/444230154",
+    "way/1418750068",
+    "way/1418750069",
+    "way/1418750070",
+    "way/1418750071",
+    "way/1418750072",
+    "way/1418750073",
+    "way/1418972816",
+    "way/1418972817"
+  ],
+  "place": "san-francisco-bay-area"
+}

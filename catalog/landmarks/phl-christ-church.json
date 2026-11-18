@@ -1,0 +1,21 @@
+{
+  "id": "phl-christ-church",
+  "name": "Christ Church",
+  "model": "phl-christ-church",
+  "place": "philadelphia-area",
+  "lng": -75.143864,
+  "lat": 39.95073,
+  "bearing": 10.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q979481",
+  "replaces": [
+    "way/332757057",
+    "way/340937481",
+    "way/340937482",
+    "way/340937483",
+    "way/340937484",
+    "way/340937485",
+    "way/340952525"
+  ]
+}

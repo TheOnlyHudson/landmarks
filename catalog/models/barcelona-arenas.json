@@ -1,0 +1,50 @@
+{
+  "id": "barcelona-arenas",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "bullring",
+    "shopping-mall",
+    "neo-mudejar"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Arenas de Barcelona 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Arenas_de_Barcelona_2013.jpg",
+      "author": "Felix König",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Plaza de toros de las Arenas from Palau Nacional - Barcelona 2014.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Plaza_de_toros_de_las_Arenas_from_Palau_Nacional_-_Barcelona_2014.JPG",
+      "author": "José Luiz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Barcelona - Arenas de Barcelona 002.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Arenas_de_Barcelona_002.jpg",
+      "author": "Mummelgrummel",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/barcelona-arenas.glb",
+  "source": "generators/barcelona-arenas.ts"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "wdw-millennium-falcon",
+  "name": "Millennium Falcon",
+  "model": "wdw-millennium-falcon",
+  "lng": -81.561814,
+  "lat": 28.353751,
+  "bearing": 322,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "place": "walt-disney-world"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mexico-city-fuente-de-petroleos",
+  "name": "Fuente de Petróleos",
+  "model": "mexico-city-fuente-de-petroleos",
+  "place": "mexico-city",
+  "lng": -99.2031067,
+  "lat": 19.4274587,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "wikidata": "Q6023025"
+}

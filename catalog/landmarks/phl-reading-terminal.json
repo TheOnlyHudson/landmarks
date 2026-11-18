@@ -1,0 +1,21 @@
+{
+  "id": "phl-reading-terminal",
+  "name": "Reading Terminal Market",
+  "model": "phl-reading-terminal",
+  "place": "philadelphia-area",
+  "lng": -75.159048,
+  "lat": 39.953148,
+  "bearing": 9.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/4755514",
+    "way/42784822",
+    "way/335828056",
+    "way/336110703",
+    "way/335512395",
+    "way/335293079",
+    "way/335828068",
+    "way/335828066"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "bos-bunker-hill-monument",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "obelisk",
+    "historic",
+    "memorial"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Monumento de Bunker Hill, Boston, EE.UU., 2007-08-01 DD 280.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monumento_de_Bunker_Hill,_Boston,_EE.UU.,_2007-08-01_DD_280.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bunker Hill Monument (36286).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bunker_Hill_Monument_(36286).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bunker Hill Lodge.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bunker_Hill_Lodge.jpg",
+      "author": "Swampyank",
+      "license": "Public domain"
+    },
+    {
+      "title": "Bunker Hill Monument, Charlestown, MA 2023-02-20.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bunker_Hill_Monument,_Charlestown,_MA_2023-02-20.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bunker Hill Monument 20201128 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bunker_Hill_Monument_20201128_01.jpg",
+      "author": "Peacearth",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/bos-bunker-hill-monument.glb",
+  "source": "generators/bos-bunker-hill-monument.ts"
+}

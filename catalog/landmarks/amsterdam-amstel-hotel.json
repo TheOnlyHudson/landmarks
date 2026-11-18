@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-amstel-hotel",
+  "name": "InterContinental Amstel Hotel",
+  "model": "amsterdam-amstel-hotel",
+  "place": "amsterdam",
+  "lng": 4.905128,
+  "lat": 52.359981,
+  "bearing": 73.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/268998398"
+  ],
+  "wikidata": "Q478198"
+}

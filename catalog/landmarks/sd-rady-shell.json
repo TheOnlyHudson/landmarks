@@ -1,0 +1,16 @@
+{
+  "id": "sd-rady-shell",
+  "name": "The Rady Shell at Jacobs Park",
+  "model": "sd-rady-shell",
+  "place": "san-diego-area",
+  "lng": -117.165881,
+  "lat": 32.704786,
+  "bearing": 132,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q114964382",
+  "replaces": [
+    "way/1075932489",
+    "way/1156170543"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "seoul-world-peace-gate",
+  "name": "World Peace Gate",
+  "model": "seoul-world-peace-gate",
+  "place": "seoul",
+  "lng": 127.1153972,
+  "lat": 37.5183104,
+  "bearing": 68.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q12621853",
+  "replaces": [
+    "relation/16563734"
+  ]
+}

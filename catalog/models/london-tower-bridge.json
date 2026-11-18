@@ -1,0 +1,143 @@
+{
+  "id": "london-tower-bridge",
+  "file": "models/london-tower-bridge.glb",
+  "detail": "models/london-tower-bridge.detail.glb",
+  "detailZoom": 16,
+  "source": "generators/london-tower-bridge.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bascule-bridge",
+    "suspension-bridge",
+    "gothic-revival",
+    "listed"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The 1894 bascule and suspension bridge as one structure: the two granite-and-Portland-stone Gothic towers on their river piers with corner turrets, hipped slate roofs and crowns, the two high-level lattice walkways, the bascules' lattice girders, the side spans' curved lattice chains with their hangers and medallions, and the shore abutment towers; pale blue and white paintwork, floodlit at night.",
+  "references": [
+    {
+      "title": "Tower Bridge London Feb 2006.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_London_Feb_2006.jpg",
+      "author": "Diliff",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Tower Bridge London Dusk Feb 2006.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_London_Dusk_Feb_2006.jpg",
+      "author": "Diliff",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Tower Bridge (aerial view).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_(aerial_view).jpg",
+      "author": "Bob Collowan",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Tower Bridge, aerial view (2015) - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_Bridge,_aerial_view_(2015)_-_panoramio.jpg",
+      "author": "Alexander Kachkaev",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "title": "Tower Bridge from the Shard London Bridge. Evening 2019-09-22.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_from_the_Shard_London_Bridge._Evening_2019-09-22.jpg",
+      "author": "Colin",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tower Bridge from the Shard 4K.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_from_the_Shard_4K.jpg",
+      "author": "Hnapel",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "London, Tower Bridge -- 2016 -- 4676.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:London,_Tower_Bridge_--_2016_--_4676.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "London, Tower Bridge -- 2016 -- 4767.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:London,_Tower_Bridge_--_2016_--_4767.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "London, Tower Bridge -- 2016 -- 4772.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:London,_Tower_Bridge_--_2016_--_4772.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "London, Tower Bridge -- 2016 -- 4787.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:London,_Tower_Bridge_--_2016_--_4787.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tower Bridge South Tower - London, England 2023-10-27.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_South_Tower_-_London,_England_2023-10-27.jpg",
+      "author": "Ryan Hodnett",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tower Bridge from St Katharine Docks entrance - 2023-03-18.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_from_St_Katharine_Docks_entrance_-_2023-03-18.jpg",
+      "author": "The wub",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "View of Tower Bridge from Bermondsey Wall East - geograph.org.uk - 5083007.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Tower_Bridge_from_Bermondsey_Wall_East_-_geograph.org.uk_-_5083007.jpg",
+      "author": "Robert Lamb",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Tower Bridge längs.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_l%C3%A4ngs.jpg",
+      "author": "Dr. Ronald Kunze",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "title": "Tower bridge - Walkways from deck (82566222).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_bridge_-_Walkways_from_deck_(82566222).jpg",
+      "author": "Peter Burgess",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Looking up at one of the abutments and walkways on Tower Bridge - geograph.org.uk - 5123129.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Looking_up_at_one_of_the_abutments_and_walkways_on_Tower_Bridge_-_geograph.org.uk_-_5123129.jpg",
+      "author": "Robert Lamb",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Tower Bridge walkway.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_walkway.jpg",
+      "author": "Tristan Surtel",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tower Bridge at Night, from the South Bank.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_at_Night,_from_the_South_Bank.jpg",
+      "author": "George Oates",
+      "license": "CC0-1.0"
+    }
+  ]
+}

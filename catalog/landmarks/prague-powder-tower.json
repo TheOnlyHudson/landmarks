@@ -1,0 +1,23 @@
+{
+  "id": "prague-powder-tower",
+  "name": "Powder Tower",
+  "model": "prague-powder-tower",
+  "place": "prague",
+  "lng": 14.42776,
+  "lat": 50.08724,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/27124370",
+    "way/482524681",
+    "way/482524682",
+    "way/482524683",
+    "way/482524684",
+    "way/482524685",
+    "way/482524686",
+    "way/482524687",
+    "way/482524688",
+    "way/482524689"
+  ]
+}

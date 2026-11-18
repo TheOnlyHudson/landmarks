@@ -1,0 +1,13 @@
+{
+  "id": "wdw-epcot-morocco",
+  "name": "Morocco Pavilion minaret",
+  "model": "wdw-epcot-morocco",
+  "lng": -81.551714,
+  "lat": 28.3680362,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2776572",
+  "replaces": [],
+  "place": "walt-disney-world"
+}

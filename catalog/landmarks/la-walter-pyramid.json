@@ -1,0 +1,15 @@
+{
+  "id": "la-walter-pyramid",
+  "name": "Walter Pyramid",
+  "model": "la-walter-pyramid",
+  "lng": -118.11441,
+  "lat": 33.78743,
+  "bearing": 353,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q3565858",
+  "replaces": [
+    "way/35452138"
+  ],
+  "place": "los-angeles-area"
+}

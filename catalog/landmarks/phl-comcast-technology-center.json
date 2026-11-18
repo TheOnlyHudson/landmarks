@@ -1,0 +1,19 @@
+{
+  "id": "phl-comcast-technology-center",
+  "name": "Comcast Technology Center",
+  "model": "phl-comcast-technology-center",
+  "place": "philadelphia-area",
+  "lng": -75.170396,
+  "lat": 39.955011,
+  "bearing": 9.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/317178904",
+    "way/749649288",
+    "way/749649286",
+    "way/686345701",
+    "way/749649285",
+    "way/749649287"
+  ]
+}

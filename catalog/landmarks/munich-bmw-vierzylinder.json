@@ -1,0 +1,32 @@
+{
+  "id": "munich-bmw-vierzylinder",
+  "name": "BMW-Vierzylinder",
+  "model": "munich-bmw-vierzylinder",
+  "place": "munich",
+  "lng": 11.5601328,
+  "lat": 48.1769193,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/146381661",
+    "way/310296322",
+    "relation/2785005",
+    "relation/2785006",
+    "way/193654785",
+    "way/193654786",
+    "way/193654787",
+    "way/193654788",
+    "way/193654789",
+    "way/193654790",
+    "way/193654791",
+    "way/193654792",
+    "way/193654793",
+    "way/193654794",
+    "way/193654795",
+    "way/193654796",
+    "way/193654797",
+    "way/193654798",
+    "way/310279165"
+  ]
+}

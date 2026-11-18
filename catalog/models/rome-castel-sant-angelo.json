@@ -1,0 +1,82 @@
+{
+  "id": "rome-castel-sant-angelo",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "castle",
+    "fortress",
+    "mausoleum",
+    "ancient-roman",
+    "museum"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Castel Sant'Angelo in Rome (17).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Castel_Sant'Angelo_in_Rome_(17).jpg",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Castel Sant'Angelo in Rome (9).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Castel_Sant'Angelo_in_Rome_(9).jpg",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Castel Sant'Angelo (Rome).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Castel_Sant'Angelo_(Rome).JPG",
+      "author": "Gaius Cornelius",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Top of Castel Sant'Angelo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Top_of_Castel_Sant'Angelo.jpg",
+      "author": "Livioandronico2013",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "StAngelo Bridge Rome.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:StAngelo_Bridge_Rome.jpg",
+      "author": "AngMoKio",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "Castel Sant'Angelo Statue of Archangel Michael (48500492251).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Castel_Sant'Angelo_Statue_of_Archangel_Michael_(48500492251).jpg",
+      "author": "Gary Todd",
+      "license": "Public domain"
+    },
+    {
+      "title": "Archange saint Michel - Castel Sant'Angelo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Archange_saint_Michel_-_Castel_Sant'Angelo.jpg",
+      "author": "Jean-Pol Grandmont",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Castillo de Sant'Angelo, Roma, Italia, 2022-09-14, DD 58-60 HDR.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Castillo_de_Sant'Angelo,_Roma,_Italia,_2022-09-14,_DD_58-60_HDR.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/rome-castel-sant-angelo.glb",
+  "source": "generators/rome-castel-sant-angelo.ts"
+}

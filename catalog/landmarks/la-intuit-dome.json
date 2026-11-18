@@ -1,0 +1,15 @@
+{
+  "id": "la-intuit-dome",
+  "name": "Intuit Dome",
+  "model": "la-intuit-dome",
+  "lng": -118.3422306,
+  "lat": 33.9437415,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q54958436",
+  "replaces": [
+    "way/1209626565"
+  ],
+  "place": "los-angeles-area"
+}

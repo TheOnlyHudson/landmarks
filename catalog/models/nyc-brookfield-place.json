@@ -1,0 +1,30 @@
+{
+  "id": "nyc-brookfield-place",
+  "file": "models/nyc-brookfield-place.glb",
+  "license": "CC0-1.0",
+  "author": "Colin",
+  "source": "generators/nyc-brookfield-place.ts",
+  "type": "building",
+  "collection": "landmarks",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "tags": [
+    "skyscraper",
+    "office",
+    "atrium",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed"
+}

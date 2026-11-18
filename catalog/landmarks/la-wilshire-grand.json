@@ -1,0 +1,17 @@
+{
+  "id": "la-wilshire-grand",
+  "name": "Wilshire Grand Center",
+  "model": "la-wilshire-grand",
+  "lng": -118.2604247,
+  "lat": 34.0501581,
+  "bearing": 37.2,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q2582539",
+  "replaces": [
+    "way/496246723",
+    "way/1307580959",
+    "way/901739648"
+  ],
+  "place": "los-angeles-area"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "la-union-station",
+  "name": "Los Angeles Union Station",
+  "model": "la-union-station",
+  "lng": -118.2357992,
+  "lat": 34.0560743,
+  "bearing": 10,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q198019",
+  "replaces": [
+    "relation/1483140"
+  ],
+  "place": "los-angeles-area"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "nyc-twa-hotel-connie",
+  "name": "Connie (TWA Hotel)",
+  "model": "nyc-twa-hotel-connie",
+  "lng": -73.7771134,
+  "lat": 40.6456295,
+  "bearing": -3.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "place": "new-york-area"
+}

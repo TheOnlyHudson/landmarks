@@ -1,0 +1,67 @@
+{
+  "id": "la-janss-steps",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landscape",
+  "tags": [
+    "historic",
+    "staircase",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Janss Steps, UCLA",
+      "url": "https://commons.wikimedia.org/wiki/File:Janss_Steps,_UCLA.jpg",
+      "author": "b r e n t",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Janss Steps, Royce Hall in background, UCLA",
+      "url": "https://commons.wikimedia.org/wiki/File:Janss_Steps,_Royce_Hall_in_background,_UCLA.jpg",
+      "author": "b r e n t",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Janss Steps",
+      "url": "https://commons.wikimedia.org/wiki/File:Janss_Steps.jpg",
+      "author": "Kris Huynh",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "View looking down Janss Steps towards soccer field, UCLA",
+      "url": "https://commons.wikimedia.org/wiki/File:View_looking_down_Janss_Steps_towards_soccer_field,_UCLA.jpg",
+      "author": "Neeta Lind",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "View of Wilson Plaza from Janss Steps, UCLA",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Wilson_Plaza_from_Janss_Steps,_UCLA.jpg",
+      "author": "Simon Cobb",
+      "license": "CC0"
+    },
+    {
+      "title": "Powell Library overlooking Janss Steps, UCLA",
+      "url": "https://commons.wikimedia.org/wiki/File:Powell_Library_overlooking_Janss_Steps,_UCLA.jpg",
+      "author": "Andy Dietler",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/la-janss-steps.glb",
+  "source": "generators/la-janss-steps.ts"
+}

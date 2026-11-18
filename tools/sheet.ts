@@ -7,6 +7,9 @@
  *                                           uncommitted work included
  *   options: --out <dir>  (default preview/sheets)   --per <n>  (models per image, default 8)
  *            --from <deg>  view every landmark from this compass direction
+ *            --terrain     stand each model on the map's Mapterhorn terrain, as
+ *                          the map places it (drape, fill, base sink and
+ *                          catalog elevation), with the ground around it drawn
  *
  * Each landmark gets a card: its name, id, triangles, size and height, and
  * one high three-quarter view drawn by day and by night side by side, as
@@ -23,6 +26,8 @@ import sharp, { type OverlayOptions } from 'sharp'
 import type { Catalog, CatalogLandmark } from '../src/catalog'
 import { bakePlacement, triangleCount } from '../src/glb'
 import { BACKGROUND, NIGHT_BACKGROUND, loadScene, render, type Bitmap, type Scene } from './render'
+import { catalogAt, readCatalog } from '../src/catalog-files'
+import { drapeScene, turnScene } from './terrain'
 
 const ROOT = join(import.meta.dir, '..')
 const args = process.argv.slice(2)
@@ -35,7 +40,10 @@ const option = (name: string, fallback: string) => {
 const out = resolve(option('--out', join(ROOT, 'preview/sheets')))
 const per = Math.max(1, Number(option('--per', '8')))
 const fromArg = option('--from', '')
-const catalog = JSON.parse(readFileSync(join(ROOT, 'catalog.json'), 'utf8')) as Catalog
+const terrainAt = args.indexOf('--terrain')
+const withTerrain = terrainAt >= 0
+if (withTerrain) args.splice(terrainAt, 1)
+const catalog = readCatalog(ROOT)
 
 function git(...cmd: string[]): string {
   const r = Bun.spawnSync(['git', ...cmd], { cwd: ROOT })
@@ -52,7 +60,7 @@ function branchDiff(base: string): CatalogLandmark[] {
   ].filter(Boolean))
   const before = (() => {
     try {
-      return JSON.parse(git('show', `${since}:catalog.json`)) as Catalog
+      return catalogAt(ROOT, since) ?? ({ models: [], landmarks: [] } as Catalog)
     } catch {
       return { models: [], landmarks: [] } as Catalog
     }
@@ -166,15 +174,24 @@ async function view(im: Bitmap, box: ReturnType<typeof contentBox>, night: boole
 
 async function card(l: CatalogLandmark): Promise<Buffer> {
   const model = catalog.models.find((m) => m.id === l.model)!
-  const glb = bakePlacement(new Uint8Array(readFileSync(join(ROOT, model.file))), { bearing: l.bearing ?? 0 })
-  const scene = loadScene(glb)
+  const bytes = new Uint8Array(readFileSync(join(ROOT, model.file)))
+  const glb = bakePlacement(bytes, { bearing: l.bearing ?? 0 })
+  let scene = loadScene(glb)
+  let modelHeight = scene.hi[2] - scene.lo[2]
+  if (withTerrain) {
+    // Drape in the model's own frame, where the map reads the ground, then turn it.
+    const placed = bakePlacement(bytes, { bearing: 0, scale: l.scale ?? 1 })
+    scene = loadScene(placed)
+    modelHeight = await drapeScene(scene, placed, { lng: l.lng, lat: l.lat, bearing: l.bearing ?? 0, elevation: l.elevation ?? 0 })
+    turnScene(scene, l.bearing ?? 0)
+  }
   const bearing = fromArg ? Number(fromArg) : bestBearing(scene)
   const az = azimuth(bearing)
   const day = render(scene, RENDER, RENDER, az, ELEVATION, 2, false)
   const night = render(scene, RENDER, RENDER, az, ELEVATION, 2, true)
   const box = contentBox([day, night])
   const kb = Math.round(glb.length / 1024)
-  const height = `${Math.round(scene.hi[2] - scene.lo[2])} m · `
+  const height = `${Math.round(modelHeight)} m${withTerrain ? ' above ground' : ''} · `
   const from = COMPASS[Math.round((((bearing % 360) + 360) % 360) / 45) % 8]
   const meta = `${l.id}   ·   ${triangleCount(glb).toLocaleString('en-US')} tris · ${kb} KB · ${height}from ${from}`
   const head = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${CARD_W}" height="${PAD + HEAD}">

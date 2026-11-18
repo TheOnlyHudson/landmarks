@@ -1,0 +1,19 @@
+{
+  "id": "barcelona-montjuic-castle",
+  "name": "Castell de Montjuïc",
+  "model": "barcelona-montjuic-castle",
+  "place": "barcelona",
+  "lng": 2.166003,
+  "lat": 41.363346,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/5739196",
+    "relation/1574427",
+    "way/646482521",
+    "way/243594655",
+    "way/646482911"
+  ],
+  "wikidata": "Q2500125"
+}

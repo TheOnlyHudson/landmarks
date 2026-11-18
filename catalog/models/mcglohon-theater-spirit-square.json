@@ -1,0 +1,28 @@
+{
+  "id": "mcglohon-theater-spirit-square",
+  "file": "models/mcglohon-theater-spirit-square.glb",
+  "license": "CC0-1.0",
+  "author": "Alex Wohlbruck",
+  "source": "generators/mcglohon-theater-spirit-square.ts",
+  "type": "building",
+  "collection": "landmarks",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "role": "creator",
+      "github": "alexwohlbruck"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "tags": [
+    "theatre"
+  ],
+  "reviewStatus": "unreviewed"
+}

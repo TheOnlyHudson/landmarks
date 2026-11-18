@@ -1,0 +1,15 @@
+{
+  "id": "bos-museum-of-fine-arts",
+  "name": "Museum of Fine Arts, Boston",
+  "model": "bos-museum-of-fine-arts",
+  "place": "boston-area",
+  "lng": -71.0941866,
+  "lat": 42.3394862,
+  "bearing": 332.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q49133",
+  "replaces": [
+    "relation/63938"
+  ]
+}

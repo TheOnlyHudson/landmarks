@@ -1,0 +1,61 @@
+{
+  "id": "cpt-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "civic",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cape Town City Hall (16513659039)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_City_Hall_(16513659039).jpg",
+      "author": "David Stanley",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "CapeTown CityHall",
+      "url": "https://commons.wikimedia.org/wiki/File:CapeTown_CityHall.jpg",
+      "author": "Martinvl",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cape Town City Hall 2014",
+      "url": "https://commons.wikimedia.org/wiki/File:Cape_Town_City_Hall_2014.jpg",
+      "author": "Mike Peel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "CT City Hall with Drill Hall",
+      "url": "https://commons.wikimedia.org/wiki/File:CT_City_Hall_with_Drill_Hall.jpg",
+      "author": "Magemu",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cape Town, assorted - CapeTown4059",
+      "url": "https://commons.wikimedia.org/wiki/File:Cape_Town,_assorted_-_CapeTown4059.jpg",
+      "author": "lumoplank",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/cpt-city-hall.glb",
+  "source": "generators/cpt-city-hall.ts"
+}

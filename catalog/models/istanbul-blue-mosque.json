@@ -1,0 +1,68 @@
+{
+  "id": "istanbul-blue-mosque",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "mosque",
+    "ottoman",
+    "historic",
+    "religious"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Exterior of Sultan Ahmed I Mosque in Istanbul, Turkey 002",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Sultan_Ahmed_I_Mosque_in_Istanbul,_Turkey_002.jpg",
+      "author": "Moonik",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Sultan Ahmed Mosque 2022 5",
+      "url": "https://commons.wikimedia.org/wiki/File:Sultan_Ahmed_Mosque_2022_5.jpg",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sultan Ahmed Mosque 2022 3",
+      "url": "https://commons.wikimedia.org/wiki/File:Sultan_Ahmed_Mosque_2022_3.jpg",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "View of the Blue Mosque from the Galata Tower (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_the_Blue_Mosque_from_the_Galata_Tower_(1).jpg",
+      "author": "José Luiz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Blue Mosque (Sultan Ahmet Camii) DSCF4575",
+      "url": "https://commons.wikimedia.org/wiki/File:Blue_Mosque_(Sultan_Ahmet_Camii)_DSCF4575.jpg",
+      "author": "R Prazeres",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sultan Ahmed I Mosque in 2026 26",
+      "url": "https://commons.wikimedia.org/wiki/File:Sultan_Ahmed_I_Mosque_in_2026_26.jpg",
+      "author": "Joseolgon",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/istanbul-blue-mosque.glb",
+  "source": "generators/istanbul-blue-mosque.ts"
+}

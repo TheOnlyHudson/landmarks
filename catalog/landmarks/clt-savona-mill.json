@@ -1,0 +1,21 @@
+{
+  "id": "clt-savona-mill",
+  "name": "Savona Mill",
+  "model": "clt-savona-mill",
+  "lng": -80.8670846,
+  "lat": 35.2418928,
+  "bearing": 23.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q21016162",
+  "replaces": [
+    "way/324411943",
+    "way/1329177209",
+    "way/1329177211",
+    "way/1329177212",
+    "way/1329177213",
+    "way/1329177214",
+    "way/1329177215"
+  ],
+  "place": "charlotte-area"
+}

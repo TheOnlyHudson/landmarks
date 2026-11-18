@@ -1,0 +1,15 @@
+{
+  "id": "london-aquatics-centre",
+  "name": "London Aquatics Centre",
+  "model": "london-aquatics-centre",
+  "place": "london",
+  "lng": -0.0105766,
+  "lat": 51.5401562,
+  "bearing": 316.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1169737833"
+  ],
+  "wikidata": "Q308874"
+}

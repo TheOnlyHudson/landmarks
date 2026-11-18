@@ -1,0 +1,33 @@
+{
+  "id": "amsterdam-royal-palace",
+  "name": "Royal Palace (Koninklijk Paleis)",
+  "model": "amsterdam-royal-palace",
+  "place": "amsterdam",
+  "lng": 4.891336,
+  "lat": 52.373148,
+  "bearing": 1.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1056152",
+  "replaces": [
+    "relation/3580875",
+    "way/748659170",
+    "way/748659171",
+    "way/748659172",
+    "way/748659173",
+    "way/748659174",
+    "way/748659175",
+    "way/748659176",
+    "way/748659177",
+    "way/748659178",
+    "way/748659179",
+    "way/748659180",
+    "way/748659181",
+    "way/748659182",
+    "way/748659183",
+    "way/748659184",
+    "way/748659185",
+    "way/748659186",
+    "way/748659187"
+  ]
+}

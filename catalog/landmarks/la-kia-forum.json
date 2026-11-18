@@ -1,0 +1,15 @@
+{
+  "id": "la-kia-forum",
+  "name": "Kia Forum",
+  "model": "la-kia-forum",
+  "lng": -118.341972,
+  "lat": 33.958216,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q639129",
+  "replaces": [
+    "way/26320999"
+  ],
+  "place": "los-angeles-area"
+}

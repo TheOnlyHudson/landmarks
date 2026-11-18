@@ -1,0 +1,14 @@
+{
+  "id": "sd-san-ysidro-mcdonalds",
+  "name": "Trolley Station restaurant, San Ysidro",
+  "model": "sd-san-ysidro-mcdonalds",
+  "place": "san-diego-area",
+  "lng": -117.0291055,
+  "lat": 32.5443977,
+  "bearing": 60,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/31818520"
+  ]
+}

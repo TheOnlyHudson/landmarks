@@ -1,0 +1,25 @@
+{
+  "id": "rome-trajans-column",
+  "name": "Trajan's Column",
+  "model": "rome-trajans-column",
+  "place": "rome",
+  "lng": 12.484273,
+  "lat": 41.895809,
+  "bearing": 320,
+  "elevation": -5,
+  "minzoom": 15,
+  "wikidata": "Q192784",
+  "replaces": [
+    "relation/3376015",
+    "relation/3376020",
+    "relation/3376021",
+    "relation/3376030",
+    "way/251621051",
+    "way/251621052",
+    "way/251621053",
+    "way/251621054",
+    "way/251621055",
+    "way/251621056",
+    "way/251621058"
+  ]
+}

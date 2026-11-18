@@ -1,0 +1,66 @@
+{
+  "id": "munich-chinesischer-turm",
+  "detail": "models/munich-chinesischer-turm.detail.glb",
+  "detailZoom": 17,
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "pagoda",
+    "timber",
+    "chinoiserie",
+    "beer-garden",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q3995164",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Chinesischer Turm, München.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Chinesischer_Turm,_M%C3%BCnchen.jpg",
+      "author": "Thomas Ledl",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Chinesischer Turm München.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Chinesischer_Turm_M%C3%BCnchen.jpg",
+      "author": "H.Helmlechner",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Chinese Tower in February.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Chinese_Tower_in_February.JPG",
+      "author": "Martin Falbisoner",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Chinesischer Turm München - Turmspitze.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Chinesischer_Turm_M%C3%BCnchen_-_Turmspitze.jpg",
+      "author": "Maximilian Dörrbecker (Chumwa)",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "München Chinesischer Turm bei Nacht April 2018 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_Chinesischer_Turm_bei_Nacht_April_2018_1.jpg",
+      "author": "Kajebi II.",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/munich-chinesischer-turm.glb",
+  "source": "generators/munich-chinesischer-turm.ts"
+}

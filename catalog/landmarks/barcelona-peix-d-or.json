@@ -1,0 +1,15 @@
+{
+  "id": "barcelona-peix-d-or",
+  "name": "El Peix d'Or",
+  "model": "barcelona-peix-d-or",
+  "place": "barcelona",
+  "lng": 2.196951,
+  "lat": 41.386074,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1219078280"
+  ],
+  "wikidata": "Q28027474"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "atx-the-independent",
+  "name": "The Independent",
+  "model": "atx-the-independent",
+  "place": "austin-area",
+  "lng": -97.7511675,
+  "lat": 30.2678017,
+  "bearing": 17.7,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q30766111",
+  "replaces": [
+    "way/516271461"
+  ]
+}

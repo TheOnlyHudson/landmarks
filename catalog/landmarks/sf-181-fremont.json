@@ -1,0 +1,15 @@
+{
+  "id": "sf-181-fremont",
+  "name": "181 Fremont",
+  "model": "sf-181-fremont",
+  "lng": -122.3953407,
+  "lat": 37.7897333,
+  "bearing": 45,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q4554120",
+  "replaces": [
+    "way/445566153"
+  ],
+  "place": "san-francisco-bay-area"
+}

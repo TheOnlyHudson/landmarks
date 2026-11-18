@@ -1,0 +1,15 @@
+{
+  "id": "cpt-rhodes-memorial",
+  "name": "Rhodes Memorial",
+  "model": "cpt-rhodes-memorial",
+  "place": "cape-town",
+  "lng": 18.4589723,
+  "lat": -33.952356,
+  "bearing": 96.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1290642871"
+  ],
+  "wikidata": "Q3429602"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-rumeli-hisari",
+  "name": "Rumeli Hisarı",
+  "model": "istanbul-rumeli-hisari",
+  "place": "istanbul",
+  "lng": 29.05612,
+  "lat": 41.084763,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q90801",
+  "replaces": [
+    "relation/7318154"
+  ]
+}

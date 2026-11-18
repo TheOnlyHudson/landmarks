@@ -1,0 +1,22 @@
+{
+  "id": "one-world-trade-center",
+  "name": "One World Trade Center",
+  "model": "one-world-trade-center",
+  "lng": -74.0131893,
+  "lat": 40.713,
+  "bearing": 27.4,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q11245",
+  "replaces": [
+    "way/713565776",
+    "way/241029253",
+    "way/783285127",
+    "way/783285128",
+    "way/783285129",
+    "way/783285130",
+    "way/241029248",
+    "way/241029247"
+  ],
+  "place": "new-york-area"
+}

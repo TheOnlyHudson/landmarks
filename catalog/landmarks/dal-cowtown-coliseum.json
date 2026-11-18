@@ -1,0 +1,15 @@
+{
+  "id": "dal-cowtown-coliseum",
+  "name": "Cowtown Coliseum",
+  "model": "dal-cowtown-coliseum",
+  "place": "dallas-area",
+  "lng": -97.3476885,
+  "lat": 32.789623,
+  "bearing": 0.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/56029797",
+    "way/1245926355"
+  ]
+}

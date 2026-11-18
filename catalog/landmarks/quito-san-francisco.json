@@ -1,0 +1,25 @@
+{
+  "id": "quito-san-francisco",
+  "name": "Church and Monastery of San Francisco",
+  "model": "quito-san-francisco",
+  "place": "quito",
+  "lng": -78.5154722,
+  "lat": -0.2203084,
+  "bearing": 300,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5116751",
+  "replaces": [
+    "way/159408371",
+    "way/673212786",
+    "way/673869400",
+    "way/673212785",
+    "way/673479943",
+    "way/673212783",
+    "way/673212784",
+    "way/673212790",
+    "way/673212791",
+    "way/673212787",
+    "way/673212788"
+  ]
+}

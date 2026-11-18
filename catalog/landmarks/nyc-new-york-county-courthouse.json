@@ -1,0 +1,16 @@
+{
+  "id": "nyc-new-york-county-courthouse",
+  "name": "New York County Courthouse",
+  "model": "nyc-new-york-county-courthouse",
+  "place": "new-york-area",
+  "wikidata": "Q2790405",
+  "lng": -74.001542,
+  "lat": 40.7142864,
+  "bearing": 15,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/3696430",
+    "relation/3860484"
+  ]
+}

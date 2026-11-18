@@ -1,0 +1,69 @@
+{
+  "id": "london-hms-belfast",
+  "file": "models/london-hms-belfast.glb",
+  "source": "generators/london-hms-belfast.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "other",
+  "tags": [
+    "ship",
+    "museum-ship",
+    "warship",
+    "cruiser",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "London, HMS Belfast -- 2016 -- 4797",
+      "url": "https://commons.wikimedia.org/wiki/File:London,_HMS_Belfast_--_2016_--_4797.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "HMS Belfast near Tower Bridge. London",
+      "url": "https://commons.wikimedia.org/wiki/File:HMS_Belfast_near_Tower_Bridge._London.jpg",
+      "author": "Ввласенко",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "HMS Belfast. London",
+      "url": "https://commons.wikimedia.org/wiki/File:HMS_Belfast._London.jpg",
+      "author": "Ввласенко",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "HMS Belfast from London Bridge City of London England",
+      "url": "https://commons.wikimedia.org/wiki/File:HMS_Belfast_from_London_Bridge_City_of_London_England.jpg",
+      "author": "Acabashi",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "London, Southwark - HMS Belfast from The Shard (geograph 4819897)",
+      "url": "https://commons.wikimedia.org/wiki/File:London_,_Southwark_-_HMS_Belfast_from_The_Shard_-_geograph.org.uk_-_4819897.jpg",
+      "author": "Lewis Clarke",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Bows of HMS Belfast, London (geograph 2332967)",
+      "url": "https://commons.wikimedia.org/wiki/File:Bows_of_HMS_Belfast,_London_-_geograph.org.uk_-_2332967.jpg",
+      "author": "Peter Trimming",
+      "license": "CC BY-SA 2.0"
+    }
+  ]
+}

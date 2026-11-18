@@ -1,0 +1,20 @@
+{
+  "id": "seoul-kyobo-tower",
+  "name": "Kyobo Tower",
+  "model": "seoul-kyobo-tower",
+  "place": "seoul",
+  "lng": 127.024118,
+  "lat": 37.503787,
+  "bearing": 339.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q134561816",
+  "replaces": [
+    "relation/7747040",
+    "way/304366173",
+    "way/541900102",
+    "way/541900101",
+    "way/541900103",
+    "way/541900105"
+  ]
+}

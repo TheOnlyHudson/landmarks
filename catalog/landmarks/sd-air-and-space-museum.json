@@ -1,0 +1,15 @@
+{
+  "id": "sd-air-and-space-museum",
+  "name": "San Diego Air & Space Museum",
+  "model": "sd-air-and-space-museum",
+  "place": "san-diego-area",
+  "lng": -117.15439,
+  "lat": 32.72624,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/31240535"
+  ],
+  "wikidata": "Q3308955"
+}

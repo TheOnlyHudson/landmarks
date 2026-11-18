@@ -1,0 +1,15 @@
+{
+  "id": "wdw-tree-of-life",
+  "name": "The Tree of Life",
+  "model": "wdw-tree-of-life",
+  "lng": -81.5905973,
+  "lat": 28.3579434,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3538315",
+  "replaces": [
+    "way/295879946"
+  ],
+  "place": "walt-disney-world"
+}

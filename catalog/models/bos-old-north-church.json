@@ -1,0 +1,74 @@
+{
+  "id": "bos-old-north-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "georgian",
+    "steeple"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Old North Church exterior street.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_North_Church_exterior_street.jpg",
+      "author": "LEvalyn",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "2017 Old North Church from Hull Street.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2017_Old_North_Church_from_Hull_Street.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old North Church, Boston (2025).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_North_Church,_Boston_(2025).jpg",
+      "author": "Seasider53",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Old North Church Boston DSC 0815 ad.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_North_Church_Boston_DSC_0815_ad.JPG",
+      "author": "Adavyd",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Old North Church, Boston, 2023-02-22 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_North_Church,_Boston,_2023-02-22_01.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old North Church exterior.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_North_Church_exterior.jpg",
+      "author": "LEvalyn",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Old North Church spire.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_North_Church_spire.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/bos-old-north-church.glb",
+  "source": "generators/bos-old-north-church.ts"
+}

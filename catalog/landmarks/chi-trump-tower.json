@@ -1,0 +1,22 @@
+{
+  "id": "chi-trump-tower",
+  "name": "Trump International Hotel & Tower",
+  "model": "chi-trump-tower",
+  "lng": -87.626459,
+  "lat": 41.888875,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q546221",
+  "replaces": [
+    "way/64594680",
+    "way/188338549",
+    "way/188338550",
+    "way/188338548",
+    "way/188338859",
+    "way/188356529",
+    "way/284773992",
+    "way/284773991"
+  ],
+  "place": "chicago-area"
+}

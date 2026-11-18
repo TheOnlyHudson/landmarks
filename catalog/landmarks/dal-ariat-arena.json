@@ -1,0 +1,14 @@
+{
+  "id": "dal-ariat-arena",
+  "name": "Ariat Arena",
+  "model": "dal-ariat-arena",
+  "place": "dallas-area",
+  "lng": -97.368482,
+  "lat": 32.74106,
+  "bearing": 0.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/878763596"
+  ]
+}

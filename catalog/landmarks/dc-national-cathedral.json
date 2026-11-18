@@ -1,0 +1,19 @@
+{
+  "id": "dc-national-cathedral",
+  "name": "Washington National Cathedral",
+  "model": "dc-national-cathedral",
+  "lng": -77.0707911,
+  "lat": 38.9306103,
+  "bearing": 340,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q668710",
+  "replaces": [
+    "relation/2682714",
+    "way/1176354409",
+    "way/1176354410",
+    "way/1176354411",
+    "way/1176354412"
+  ],
+  "place": "washington-area"
+}

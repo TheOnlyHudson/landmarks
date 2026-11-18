@@ -1,0 +1,13 @@
+{
+  "id": "nyc-bethesda-terrace",
+  "name": "Bethesda Terrace",
+  "model": "nyc-bethesda-terrace",
+  "place": "new-york-area",
+  "lng": -73.9710115,
+  "lat": 40.773866,
+  "bearing": 16.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q532029",
+  "replaces": []
+}

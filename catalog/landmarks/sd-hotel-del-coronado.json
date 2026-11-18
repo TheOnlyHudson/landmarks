@@ -1,0 +1,14 @@
+{
+  "id": "sd-hotel-del-coronado",
+  "name": "Hotel del Coronado",
+  "model": "sd-hotel-del-coronado",
+  "place": "san-diego-area",
+  "lng": -117.17824,
+  "lat": 32.68094,
+  "bearing": 126,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/1785615"
+  ]
+}

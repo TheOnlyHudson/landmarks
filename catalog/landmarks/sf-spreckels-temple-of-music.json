@@ -1,0 +1,15 @@
+{
+  "id": "sf-spreckels-temple-of-music",
+  "name": "Spreckels Temple of Music",
+  "model": "sf-spreckels-temple-of-music",
+  "lng": -122.4685871,
+  "lat": 37.76986089,
+  "bearing": 235,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q110559749",
+  "replaces": [
+    "way/30896932"
+  ],
+  "place": "san-francisco-bay-area"
+}

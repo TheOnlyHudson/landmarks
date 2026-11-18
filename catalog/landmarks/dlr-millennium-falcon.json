@@ -1,0 +1,14 @@
+{
+  "id": "dlr-millennium-falcon",
+  "name": "Millennium Falcon",
+  "model": "dlr-millennium-falcon",
+  "lng": -117.9212519,
+  "lat": 33.8150244,
+  "bearing": 139,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1329137052"
+  ],
+  "place": "disneyland"
+}

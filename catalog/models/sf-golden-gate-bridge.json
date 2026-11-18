@@ -1,0 +1,28 @@
+{
+  "id": "sf-golden-gate-bridge",
+  "file": "models/sf-golden-gate-bridge.glb",
+  "detail": "models/sf-golden-gate-bridge.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "author": "Alex Wohlbruck",
+  "source": "generators/sf-golden-gate-bridge.ts",
+  "type": "bridge",
+  "collection": "landmarks",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "role": "creator",
+      "github": "alexwohlbruck"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "tags": [],
+  "reviewStatus": "unreviewed"
+}

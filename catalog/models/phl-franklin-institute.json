@@ -1,0 +1,63 @@
+{
+  "id": "phl-franklin-institute",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "science-museum",
+    "historic",
+    "neoclassical"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The Franklin Institute on Logan Circle (John T. Windrim, 1930-34): limestone ranges with giant Corinthian pilasters and three pedimented porticoes, the square attic of the Benjamin Franklin National Memorial rotunda, the round theatre under its glass pyramid and the later west blocks, including the 2014 Karabots Pavilion.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Philadelphia October 2017 25 (The Franklin Institute).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_October_2017_25_(The_Franklin_Institute).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Philadelphia October 2017 10 (The Franklin Institute).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Philadelphia_October_2017_10_(The_Franklin_Institute).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Franklin Institute from southeast.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Franklin_Institute_from_southeast.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Franklin Institute Felt Planetarium.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Franklin_Institute_Felt_Planetarium.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Franklin Institute (53574514629).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Franklin_Institute_(53574514629).jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/phl-franklin-institute.glb",
+  "source": "generators/phl-franklin-institute.ts"
+}

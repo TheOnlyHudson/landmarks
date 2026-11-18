@@ -1,0 +1,15 @@
+{
+  "id": "atl-westin-peachtree-plaza",
+  "name": "Westin Peachtree Plaza",
+  "model": "atl-westin-peachtree-plaza",
+  "place": "atlanta-area",
+  "lng": -84.388375,
+  "lat": 33.759437,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/42904130",
+    "way/192939493"
+  ]
+}

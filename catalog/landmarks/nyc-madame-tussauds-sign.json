@@ -1,0 +1,12 @@
+{
+  "id": "nyc-madame-tussauds-sign",
+  "name": "Madame Tussauds New York Sign",
+  "model": "nyc-madame-tussauds-sign",
+  "place": "times-square",
+  "lng": -73.9882763,
+  "lat": 40.7564517,
+  "bearing": 208.55,
+  "elevation": 0,
+  "minzoom": 17,
+  "replaces": []
+}

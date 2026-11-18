@@ -1,0 +1,14 @@
+{
+  "id": "clt-cne-330-camp-road",
+  "name": "330 Camp Road",
+  "model": "clt-cne-330-camp-road",
+  "lng": -80.8337665,
+  "lat": 35.2464025,
+  "bearing": 6.3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/324608444"
+  ],
+  "place": "camp-north-end"
+}

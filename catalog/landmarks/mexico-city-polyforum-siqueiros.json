@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-polyforum-siqueiros",
+  "name": "Polyforum Cultural Siqueiros",
+  "model": "mexico-city-polyforum-siqueiros",
+  "place": "mexico-city",
+  "lng": -99.1734362,
+  "lat": 19.3933153,
+  "bearing": 13,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2265075",
+  "replaces": [
+    "way/227708275"
+  ]
+}

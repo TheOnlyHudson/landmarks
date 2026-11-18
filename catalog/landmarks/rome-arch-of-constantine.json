@@ -1,0 +1,15 @@
+{
+  "id": "rome-arch-of-constantine",
+  "name": "Arch of Constantine",
+  "model": "rome-arch-of-constantine",
+  "place": "rome",
+  "lng": 12.490667,
+  "lat": 41.889762,
+  "bearing": 12.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5786",
+  "replaces": [
+    "way/23590989"
+  ]
+}

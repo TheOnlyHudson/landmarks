@@ -1,0 +1,17 @@
+{
+  "id": "atx-frost-bank-tower",
+  "name": "Frost Bank Tower",
+  "model": "atx-frost-bank-tower",
+  "place": "austin-area",
+  "lng": -97.7427211,
+  "lat": 30.2663845,
+  "bearing": 17.7,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q3089263",
+  "replaces": [
+    "way/37546502",
+    "way/1507549538",
+    "way/1507549539"
+  ]
+}

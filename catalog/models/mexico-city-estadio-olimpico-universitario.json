@@ -1,0 +1,75 @@
+{
+  "id": "mexico-city-estadio-olimpico-universitario",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "football",
+    "olympic",
+    "modernist",
+    "unesco",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Estadio Olímpico Universitario - 2026 - 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Estadio_Ol%C3%ADmpico_Universitario_-_2026_-_01.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Estadio Olímpico Universitario - 2026 - 13",
+      "url": "https://commons.wikimedia.org/wiki/File:Estadio_Ol%C3%ADmpico_Universitario_-_2026_-_13.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Estadio Olímpico Universitario - aerial view",
+      "url": "https://commons.wikimedia.org/wiki/File:Estadio_Ol%C3%ADmpico_Universitario_-_aerial_view.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "ProtoplasmaKid"
+    },
+    {
+      "title": "Estadio Olímpico Universitario - Plano 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Estadio_Ol%C3%ADmpico_Universitario_-_Plano_01.jpg",
+      "author": "Revista Arquitectura No. 21",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Entrada Estadio Olímpico Universitario",
+      "url": "https://commons.wikimedia.org/wiki/File:Entrada_Estadio_Ol%C3%ADmpico_Universitario.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Estadio olimpico universitario",
+      "url": "https://commons.wikimedia.org/wiki/File:Estadio_olimpico_universitario.jpg",
+      "author": "Espartaco Palma",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Estadio Olímpico Universitario, Ciudad Universitaria, UNAM",
+      "url": "https://commons.wikimedia.org/wiki/File:Estadio_Ol%C3%ADmpico_Universitario,_Ciudad_Universitaria,_UNAM.jpg",
+      "author": "Lepog",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/mexico-city-estadio-olimpico-universitario.glb",
+  "source": "generators/mexico-city-estadio-olimpico-universitario.ts"
+}

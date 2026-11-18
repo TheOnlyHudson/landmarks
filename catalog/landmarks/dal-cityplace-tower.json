@@ -1,0 +1,17 @@
+{
+  "id": "dal-cityplace-tower",
+  "name": "Cityplace Tower",
+  "model": "dal-cityplace-tower",
+  "place": "dallas-area",
+  "lng": -96.792392,
+  "lat": 32.805521,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q7829750",
+  "replaces": [
+    "way/26329683",
+    "way/710355796",
+    "way/710355797"
+  ]
+}

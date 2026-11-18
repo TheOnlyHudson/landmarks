@@ -1,0 +1,15 @@
+{
+  "id": "cpt-old-town-house",
+  "name": "Old Town House",
+  "model": "cpt-old-town-house",
+  "place": "cape-town",
+  "lng": 18.4198823,
+  "lat": -33.9231258,
+  "bearing": 41.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/609226195"
+  ],
+  "wikidata": "Q13034442"
+}

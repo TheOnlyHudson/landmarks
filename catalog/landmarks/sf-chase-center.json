@@ -1,0 +1,15 @@
+{
+  "id": "sf-chase-center",
+  "name": "Chase Center",
+  "model": "sf-chase-center",
+  "lng": -122.38739618,
+  "lat": 37.76787393,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q15262098",
+  "replaces": [
+    "way/579646390"
+  ],
+  "place": "san-francisco-bay-area"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "istanbul-ataturk-olympic-stadium",
+  "name": "Atatürk Olympic Stadium",
+  "model": "istanbul-ataturk-olympic-stadium",
+  "place": "istanbul",
+  "lng": 28.765662,
+  "lat": 41.074474,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q221122",
+  "replaces": [
+    "relation/1661301",
+    "way/35875788",
+    "way/35875800"
+  ]
+}

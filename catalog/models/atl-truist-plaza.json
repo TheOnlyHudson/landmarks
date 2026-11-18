@@ -1,0 +1,73 @@
+{
+  "id": "atl-truist-plaza",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "john-portman"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Suntrust-plaza-atlanta.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Suntrust-plaza-atlanta.jpg",
+      "author": "Connor.carey",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "2013.01.26.112743 SunTrust Plaza Atlanta Georgia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2013.01.26.112743_SunTrust_Plaza_Atlanta_Georgia.jpg",
+      "author": "Hermann Luyken",
+      "license": "CC0"
+    },
+    {
+      "title": "2013.01.26.112538 Sun Trust Plaza Atlanta Georgia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2013.01.26.112538_Sun_Trust_Plaza_Atlanta_Georgia.jpg",
+      "author": "Hermann Luyken",
+      "license": "CC0"
+    },
+    {
+      "title": "SunTrust Plaza, Atlanta.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:SunTrust_Plaza,_Atlanta.JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "SunTrustHDQ.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:SunTrustHDQ.jpg",
+      "author": "Organicabq",
+      "license": "Public domain"
+    },
+    {
+      "title": "Truist Plaza Atlanta (cropped).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Truist_Plaza_Atlanta_(cropped).jpg",
+      "author": "Ckerr78",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Truist Plaza.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Truist_Plaza.jpg",
+      "author": "Tyler Lahti",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/atl-truist-plaza.glb",
+  "source": "generators/atl-truist-plaza.ts"
+}

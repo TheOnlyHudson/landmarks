@@ -1,0 +1,79 @@
+{
+  "id": "bos-museum-of-fine-arts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "neoclassical",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "2018 Museum of Fine Arts Boston Huntington Avenue facade from east.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_Museum_of_Fine_Arts_Boston_Huntington_Avenue_facade_from_east.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2018 Museum of Fine Arts Boston Huntington Avenue facade from southeast.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_Museum_of_Fine_Arts_Boston_Huntington_Avenue_facade_from_southeast.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2018 Museum of Fine Arts Boston Huntington Avenue facade from northeast.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_Museum_of_Fine_Arts_Boston_Huntington_Avenue_facade_from_northeast.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2018 Museum of Fine Arts Boston Huntington Avenue Facade from north.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_Museum_of_Fine_Arts_Boston_Huntington_Avenue_Facade_from_north.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2018 Museun of Fine Arts Boston Huntington Avenue facade from south.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_Museun_of_Fine_Arts_Boston_Huntington_Avenue_facade_from_south.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2018 Museum of Fine Arts Boston Huntington Avenue entrance.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_Museum_of_Fine_Arts_Boston_Huntington_Avenue_entrance.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Mfa boston af.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mfa_boston_af.jpg",
+      "author": "Alexf",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "2010 MFA Boston Fenway.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2010_MFA_Boston_Fenway.jpg",
+      "author": "M2545",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/bos-museum-of-fine-arts.glb",
+  "source": "generators/bos-museum-of-fine-arts.ts"
+}

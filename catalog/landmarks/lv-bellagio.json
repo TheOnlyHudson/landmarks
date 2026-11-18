@@ -1,0 +1,16 @@
+{
+  "id": "lv-bellagio",
+  "name": "Bellagio",
+  "model": "lv-bellagio",
+  "lng": -115.176606,
+  "lat": 36.113113,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q25007",
+  "replaces": [
+    "way/25723909",
+    "way/114703388"
+  ],
+  "place": "las-vegas-area"
+}

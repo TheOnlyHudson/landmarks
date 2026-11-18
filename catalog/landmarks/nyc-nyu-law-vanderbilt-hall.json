@@ -1,0 +1,15 @@
+{
+  "id": "nyc-nyu-law-vanderbilt-hall",
+  "name": "Vanderbilt Hall (NYU School of Law)",
+  "model": "nyc-nyu-law-vanderbilt-hall",
+  "lng": -73.9994876,
+  "lat": 40.7305463,
+  "bearing": 33,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q80614132",
+  "replaces": [
+    "relation/3343762"
+  ],
+  "place": "new-york-area"
+}

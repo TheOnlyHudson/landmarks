@@ -1,0 +1,55 @@
+{
+  "id": "barcelona-mnac",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum",
+    "palace"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Palau Nacional, Barcelona.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Palau_Nacional,_Barcelona.jpg",
+      "author": "Juanedc from Zaragoza, España",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "(Barcelona) Palau Nacional - National Museum of Art of Catalunya.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Palau_Nacional_-_National_Museum_of_Art_of_Catalunya.jpg",
+      "author": "Didier Descouens",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "093 El Palau Nacional des del Castell de Montjuïc (Barcelona).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:093_El_Palau_Nacional_des_del_Castell_de_Montju%C3%AFc_(Barcelona).jpg",
+      "author": "Enric",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Barcelona - Montjuïc - Mirador del Palau Nacional - View East on Palau Nacional 1929 by Eugeni Pere Cendoya & Enric Català i Català under the supervision of Pere Domènech i Roura.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Mirador_del_Palau_Nacional_-_View_East_on_Palau_Nacional_1929_by_Eugeni_Pere_Cendoya_%26_Enric_Cat%C3%A0_i_Cat%C3%A0_under_the_supervision_of_Pere_Dom%C3%A8nech_i_Roura.jpg",
+      "author": "Txllxt TxllxT",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/barcelona-mnac.glb",
+  "source": "generators/barcelona-mnac.ts"
+}

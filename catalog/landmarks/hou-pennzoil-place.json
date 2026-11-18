@@ -1,0 +1,18 @@
+{
+  "id": "hou-pennzoil-place",
+  "name": "Pennzoil Place",
+  "model": "hou-pennzoil-place",
+  "place": "houston-area",
+  "lng": -95.3656214,
+  "lat": 29.7601211,
+  "bearing": 34.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q3512622",
+  "replaces": [
+    "way/580965929",
+    "way/260511512",
+    "way/260511513",
+    "way/260511516"
+  ]
+}

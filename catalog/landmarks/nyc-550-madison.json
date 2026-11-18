@@ -1,0 +1,18 @@
+{
+  "id": "nyc-550-madison",
+  "name": "550 Madison Avenue",
+  "model": "nyc-550-madison",
+  "lng": -73.9733731,
+  "lat": 40.7614226,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1477826",
+  "replaces": [
+    "relation/21151099",
+    "way/118116805",
+    "way/260244593",
+    "way/260244595"
+  ],
+  "place": "new-york-area"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "wdw-epcot-entrance",
+  "name": "EPCOT Entrance",
+  "model": "wdw-epcot-entrance",
+  "lng": -81.5494,
+  "lat": 28.3758835,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/295176249",
+    "way/295174214",
+    "way/295174215",
+    "way/295176514",
+    "way/295176518",
+    "way/295174216",
+    "way/689241903"
+  ],
+  "place": "walt-disney-world"
+}

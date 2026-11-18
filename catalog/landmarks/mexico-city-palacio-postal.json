@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-palacio-postal",
+  "name": "Palacio Postal",
+  "model": "mexico-city-palacio-postal",
+  "place": "mexico-city",
+  "lng": -99.14029,
+  "lat": 19.43563,
+  "bearing": 9.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/157051114"
+  ],
+  "wikidata": "Q978161"
+}

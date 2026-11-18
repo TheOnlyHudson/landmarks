@@ -1,0 +1,13 @@
+{
+  "id": "nyc-atlas",
+  "name": "Atlas",
+  "model": "nyc-atlas",
+  "place": "new-york-area",
+  "lng": -73.977185,
+  "lat": 40.758938,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "wikidata": "Q2869431"
+}

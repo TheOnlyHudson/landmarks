@@ -1,0 +1,20 @@
+{
+  "id": "la-academy-museum",
+  "name": "Academy Museum of Motion Pictures",
+  "model": "la-academy-museum",
+  "lng": -118.3607923,
+  "lat": 34.0632679,
+  "bearing": 7.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6941059",
+  "replaces": [
+    "way/426357430",
+    "way/1360732450",
+    "way/1360732451",
+    "way/913293589",
+    "way/1113417080",
+    "way/1113417081"
+  ],
+  "place": "los-angeles-area"
+}

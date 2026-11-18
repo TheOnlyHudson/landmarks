@@ -1,0 +1,15 @@
+{
+  "id": "nyc-amnh",
+  "name": "American Museum of Natural History",
+  "model": "nyc-amnh",
+  "lng": -73.9740746,
+  "lat": 40.7811959,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q217717",
+  "replaces": [
+    "way/388436810"
+  ],
+  "place": "new-york-area"
+}

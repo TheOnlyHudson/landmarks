@@ -1,0 +1,68 @@
+{
+  "id": "hou-san-jacinto-monument",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "art-deco",
+    "memorial",
+    "column"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "San Jacinto Monument - Full.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Jacinto_Monument_-_Full.jpg",
+      "author": "Adam Cuerden",
+      "license": "Public domain"
+    },
+    {
+      "title": "San Jacinto Monument March 2022 3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Jacinto_Monument_March_2022_3.jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "San Jacinto monument, Houston, Texas LCCN2011633232.tif",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Jacinto_monument,_Houston,_Texas_LCCN2011633232.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "5 San Jacinto Monument. Star.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:5_San_Jacinto_Monument._Star.jpg",
+      "author": "Tijuana Brass",
+      "license": "Public domain"
+    },
+    {
+      "title": "San Jacinto Battle Monument From The South.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Jacinto_Battle_Monument_From_The_South.jpg",
+      "author": "Gronowski26",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "San Jacinto monument.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Jacinto_monument.jpg",
+      "author": "Daniel Schwen",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/hou-san-jacinto-monument.glb",
+  "source": "generators/hou-san-jacinto-monument.ts"
+}

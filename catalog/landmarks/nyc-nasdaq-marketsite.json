@@ -1,0 +1,12 @@
+{
+  "id": "nyc-nasdaq-marketsite",
+  "name": "Nasdaq MarketSite",
+  "model": "nyc-nasdaq-marketsite",
+  "place": "times-square",
+  "lng": -73.9859953,
+  "lat": 40.7563467,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

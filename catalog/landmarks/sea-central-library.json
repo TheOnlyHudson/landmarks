@@ -1,0 +1,19 @@
+{
+  "id": "sea-central-library",
+  "name": "Seattle Central Library",
+  "model": "sea-central-library",
+  "lng": -122.3326627,
+  "lat": 47.6066885,
+  "bearing": 328.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2531939",
+  "replaces": [
+    "way/37056442",
+    "way/458203290",
+    "way/458203294",
+    "way/458203296",
+    "way/458203299"
+  ],
+  "place": "seattle-area"
+}

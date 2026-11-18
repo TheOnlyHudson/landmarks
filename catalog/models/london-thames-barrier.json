@@ -1,0 +1,69 @@
+{
+  "id": "london-thames-barrier",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "infrastructure",
+  "tags": [
+    "flood-barrier",
+    "river-thames",
+    "engineering",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "wikidata": "Q948363",
+  "references": [
+    {
+      "title": "Thames Barrier, London, England - Feb 2010",
+      "url": "https://commons.wikimedia.org/wiki/File:Thames_Barrier,_London,_England_-_Feb_2010.jpg",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Thames Barrier 2024-10-27 (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Thames_Barrier_2024-10-27_(1).jpg",
+      "author": "The wub",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Thames Barrier - 2023-09-03",
+      "url": "https://commons.wikimedia.org/wiki/File:Thames_Barrier_-_2023-09-03.jpg",
+      "author": "The wub",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Thames Barrier gate closed (1) - 2023-09-03",
+      "url": "https://commons.wikimedia.org/wiki/File:Thames_Barrier_gate_closed_(1)_-_2023-09-03.jpg",
+      "author": "The wub",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Thames Barrier from a boat",
+      "url": "https://commons.wikimedia.org/wiki/File:Thames_Barrier_from_a_boat.jpg",
+      "author": "Secretlondon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Thames Barrier - 2020-01-18",
+      "url": "https://commons.wikimedia.org/wiki/File:Thames_Barrier_-_2020-01-18.jpg",
+      "author": "The wub",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/london-thames-barrier.glb",
+  "source": "generators/london-thames-barrier.ts"
+}

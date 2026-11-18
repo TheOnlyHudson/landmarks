@@ -1,0 +1,15 @@
+{
+  "id": "hou-contemporary-arts-museum",
+  "name": "Contemporary Arts Museum Houston",
+  "model": "hou-contemporary-arts-museum",
+  "place": "houston-area",
+  "lng": -95.39151,
+  "lat": 29.726396,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q93691",
+  "replaces": [
+    "way/55563504"
+  ]
+}

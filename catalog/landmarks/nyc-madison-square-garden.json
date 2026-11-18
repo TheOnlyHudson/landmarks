@@ -1,0 +1,27 @@
+{
+  "id": "nyc-madison-square-garden",
+  "name": "Madison Square Garden",
+  "model": "nyc-madison-square-garden",
+  "lng": -73.99349171,
+  "lat": 40.75052901,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q186125",
+  "replaces": [
+    "way/138141251",
+    "way/138141255",
+    "way/283108463",
+    "way/283108464",
+    "way/283108465",
+    "way/283108466",
+    "way/283108467",
+    "way/283108468",
+    "way/283108469",
+    "way/283108470",
+    "way/283108471",
+    "way/283108472",
+    "way/283108476"
+  ],
+  "place": "new-york-area"
+}

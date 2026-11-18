@@ -1,0 +1,15 @@
+{
+  "id": "sea-union-station",
+  "name": "Union Station",
+  "model": "sea-union-station",
+  "lng": -122.3285424,
+  "lat": 47.5986081,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q7886102",
+  "replaces": [
+    "way/45569666"
+  ],
+  "place": "seattle-area"
+}

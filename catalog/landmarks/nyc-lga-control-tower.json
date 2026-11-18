@@ -1,0 +1,16 @@
+{
+  "id": "nyc-lga-control-tower",
+  "name": "LaGuardia Airport Control Tower",
+  "model": "nyc-lga-control-tower",
+  "place": "new-york-area",
+  "lng": -73.8735314,
+  "lat": 40.7734695,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/284852152",
+    "way/647215656",
+    "way/1222335146"
+  ]
+}

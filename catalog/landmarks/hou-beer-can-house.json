@@ -1,0 +1,15 @@
+{
+  "id": "hou-beer-can-house",
+  "name": "Beer Can House",
+  "model": "hou-beer-can-house",
+  "place": "houston-area",
+  "lng": -95.4190145,
+  "lat": 29.763773,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/874518448"
+  ],
+  "wikidata": "Q4879943"
+}

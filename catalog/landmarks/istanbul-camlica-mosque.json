@@ -1,0 +1,23 @@
+{
+  "id": "istanbul-camlica-mosque",
+  "name": "Büyük Çamlıca Mosque",
+  "model": "istanbul-camlica-mosque",
+  "place": "istanbul",
+  "lng": 29.070314,
+  "lat": 41.034436,
+  "bearing": 331.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q18341384",
+  "replaces": [
+    "relation/7534888",
+    "way/437761713",
+    "way/437761714",
+    "way/437761715",
+    "way/437761716",
+    "way/437761717",
+    "way/437761718",
+    "way/437761719",
+    "way/725800952"
+  ]
+}

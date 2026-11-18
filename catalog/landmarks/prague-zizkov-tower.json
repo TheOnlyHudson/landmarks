@@ -1,0 +1,27 @@
+{
+  "id": "prague-zizkov-tower",
+  "name": "Žižkov Television Tower",
+  "model": "prague-zizkov-tower",
+  "place": "prague",
+  "lng": 14.45106,
+  "lat": 50.08102,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1413217",
+  "replaces": [
+    "way/457404360",
+    "relation/3917957",
+    "way/294809058",
+    "way/294809059",
+    "way/98887860",
+    "way/98887857",
+    "way/98887854",
+    "way/4929921",
+    "way/50938190",
+    "way/50938191",
+    "way/50938192",
+    "way/654993103",
+    "way/660445112"
+  ]
+}

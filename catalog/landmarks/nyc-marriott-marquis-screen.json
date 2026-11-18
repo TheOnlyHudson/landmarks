@@ -1,0 +1,12 @@
+{
+  "id": "nyc-marriott-marquis-screen",
+  "name": "Marriott Marquis Screen",
+  "model": "nyc-marriott-marquis-screen",
+  "place": "times-square",
+  "lng": -73.9856282,
+  "lat": 40.7584116,
+  "bearing": 0,
+  "elevation": 9.3,
+  "minzoom": 16,
+  "replaces": []
+}

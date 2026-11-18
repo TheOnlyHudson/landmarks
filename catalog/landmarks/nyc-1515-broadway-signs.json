@@ -1,0 +1,12 @@
+{
+  "id": "nyc-1515-broadway-signs",
+  "name": "One Astor Plaza Signs",
+  "model": "nyc-1515-broadway-signs",
+  "place": "times-square",
+  "lng": -73.9859516,
+  "lat": 40.7576964,
+  "bearing": 0,
+  "elevation": 4.5,
+  "minzoom": 16,
+  "replaces": []
+}

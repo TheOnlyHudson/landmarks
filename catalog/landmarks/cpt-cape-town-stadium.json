@@ -1,0 +1,15 @@
+{
+  "id": "cpt-cape-town-stadium",
+  "name": "Cape Town Stadium",
+  "model": "cpt-cape-town-stadium",
+  "place": "cape-town",
+  "lng": 18.4111472,
+  "lat": -33.9034476,
+  "bearing": 12.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/8706182"
+  ],
+  "wikidata": "Q173559"
+}

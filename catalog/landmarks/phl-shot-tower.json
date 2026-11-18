@@ -1,0 +1,15 @@
+{
+  "id": "phl-shot-tower",
+  "name": "Sparks Shot Tower",
+  "model": "phl-shot-tower",
+  "place": "philadelphia-area",
+  "lng": -75.146341,
+  "lat": 39.934806,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7573713",
+  "replaces": [
+    "way/705302160"
+  ]
+}

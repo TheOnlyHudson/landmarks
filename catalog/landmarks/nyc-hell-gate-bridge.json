@@ -1,0 +1,17 @@
+{
+  "id": "nyc-hell-gate-bridge",
+  "name": "Hell Gate Bridge",
+  "model": "nyc-hell-gate-bridge",
+  "lng": -73.9220019,
+  "lat": 40.7825405,
+  "bearing": 314.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1035131",
+  "replaces": [
+    "way/394608567",
+    "way/1016643613",
+    "way/1016643614"
+  ],
+  "place": "new-york-area"
+}

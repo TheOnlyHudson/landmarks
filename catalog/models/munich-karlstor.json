@@ -1,0 +1,67 @@
+{
+  "id": "munich-karlstor",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "city-gate",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Karlstor night",
+      "url": "https://commons.wikimedia.org/wiki/File:Karlstor_night.jpg",
+      "author": "Jensens",
+      "license": "Public domain"
+    },
+    {
+      "title": "Munich, the Karlstor",
+      "url": "https://commons.wikimedia.org/wiki/File:Munich,_the_Karlstor.JPG",
+      "author": "Dguendel",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Karlstor Munich",
+      "url": "https://commons.wikimedia.org/wiki/File:Karlstor_Munich.jpg",
+      "author": "Rob Faulkner",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Karlstor 2021-06-27",
+      "url": "https://commons.wikimedia.org/wiki/File:Karlstor_2021-06-27.jpg",
+      "author": "Strubbl",
+      "license": "CC0"
+    },
+    {
+      "title": "20180113 Karlstor",
+      "url": "https://commons.wikimedia.org/wiki/File:20180113_Karlstor.jpg",
+      "author": "Flocci Nivis",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Karlsplatz Karlstor Stachus München",
+      "url": "https://commons.wikimedia.org/wiki/File:Karlsplatz_Karlstor_Stachus_M%C3%BCnchen.jpg",
+      "author": "böhringer friedrich",
+      "license": "CC BY-SA 2.5"
+    }
+  ],
+  "file": "models/munich-karlstor.glb",
+  "source": "generators/munich-karlstor.ts"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "atl-ponce-city-market",
+  "name": "Ponce City Market",
+  "model": "atl-ponce-city-market",
+  "place": "atlanta-area",
+  "lng": -84.3656225,
+  "lat": 33.7725504,
+  "bearing": 4,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/184803195",
+    "way/335151383"
+  ],
+  "wikidata": "Q7227582"
+}

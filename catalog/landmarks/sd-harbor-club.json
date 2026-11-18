@@ -1,0 +1,17 @@
+{
+  "id": "sd-harbor-club",
+  "name": "Harbor Club",
+  "model": "sd-harbor-club",
+  "place": "san-diego-area",
+  "lng": -117.16255,
+  "lat": 32.70898,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/305664248",
+    "way/429353144",
+    "way/429353147"
+  ],
+  "wikidata": "Q955149"
+}

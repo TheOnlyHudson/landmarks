@@ -1,0 +1,15 @@
+{
+  "id": "dc-st-matthews",
+  "name": "Cathedral of St. Matthew the Apostle",
+  "model": "dc-st-matthews",
+  "lng": -77.0402483,
+  "lat": 38.9063933,
+  "bearing": 336,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q603535",
+  "replaces": [
+    "way/55327016"
+  ],
+  "place": "washington-area"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "barcelona-palau-musica",
+  "name": "Palau de la Música Catalana",
+  "model": "barcelona-palau-musica",
+  "place": "barcelona",
+  "lng": 2.175226,
+  "lat": 41.387586,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/671830491",
+    "way/671830503",
+    "way/671830481",
+    "way/671830496",
+    "way/671830501",
+    "way/671830502",
+    "way/951336755"
+  ],
+  "wikidata": "Q327940"
+}

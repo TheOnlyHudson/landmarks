@@ -1,0 +1,15 @@
+{
+  "id": "dal-margaret-hunt-hill-bridge",
+  "name": "Margaret Hunt Hill Bridge",
+  "model": "dal-margaret-hunt-hill-bridge",
+  "place": "dallas-area",
+  "lng": -96.8221324,
+  "lat": 32.7799695,
+  "bearing": 67.7,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q6759541",
+  "replaces": [
+    "way/1275449057"
+  ]
+}

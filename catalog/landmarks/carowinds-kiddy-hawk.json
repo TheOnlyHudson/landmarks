@@ -1,0 +1,22 @@
+{
+  "id": "carowinds-kiddy-hawk",
+  "name": "Kiddy Hawk",
+  "model": "carowinds-kiddy-hawk",
+  "lng": -80.9406942,
+  "lat": 35.1020866,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/241410480",
+    "way/669161369",
+    "way/894786042",
+    "way/894786045",
+    "way/894786041",
+    "way/905173229",
+    "way/894786044",
+    "way/894786043",
+    "way/888642923"
+  ],
+  "place": "carowinds"
+}

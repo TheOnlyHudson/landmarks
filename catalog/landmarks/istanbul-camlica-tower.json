@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-camlica-tower",
+  "name": "Çamlıca Tower",
+  "model": "istanbul-camlica-tower",
+  "place": "istanbul",
+  "lng": 29.065541,
+  "lat": 41.016372,
+  "bearing": 44,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q28657490",
+  "replaces": [
+    "way/722961117"
+  ]
+}

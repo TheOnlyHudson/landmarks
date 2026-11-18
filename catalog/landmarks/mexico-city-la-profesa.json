@@ -1,0 +1,19 @@
+{
+  "id": "mexico-city-la-profesa",
+  "name": "Templo de La Profesa",
+  "model": "mexico-city-la-profesa",
+  "place": "mexico-city",
+  "lng": -99.1365278,
+  "lat": 19.4338421,
+  "bearing": 8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7698749",
+  "replaces": [
+    "way/158032448",
+    "way/1300593819",
+    "way/1300593820",
+    "way/1300593821",
+    "way/1300593822"
+  ]
+}

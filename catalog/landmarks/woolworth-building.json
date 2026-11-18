@@ -1,0 +1,26 @@
+{
+  "id": "woolworth-building",
+  "name": "Woolworth Building",
+  "model": "woolworth-building",
+  "lng": -74.0083116,
+  "lat": 40.7124439,
+  "bearing": 31.5,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q217652",
+  "replaces": [
+    "way/75363809",
+    "way/274782323",
+    "way/274782344",
+    "way/274782341",
+    "way/274782325",
+    "way/274782329",
+    "way/274782334",
+    "way/274782339",
+    "way/274782327",
+    "way/274782330",
+    "way/274782332",
+    "way/274782336"
+  ],
+  "place": "new-york-area"
+}

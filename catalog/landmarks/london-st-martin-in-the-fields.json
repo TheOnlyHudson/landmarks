@@ -1,0 +1,15 @@
+{
+  "id": "london-st-martin-in-the-fields",
+  "name": "St Martin-in-the-Fields",
+  "model": "london-st-martin-in-the-fields",
+  "place": "london",
+  "lng": -0.1266654,
+  "lat": 51.5088303,
+  "bearing": 359.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1335201",
+  "replaces": [
+    "way/30734422"
+  ]
+}

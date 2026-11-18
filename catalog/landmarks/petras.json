@@ -1,0 +1,14 @@
+{
+  "id": "petras",
+  "name": "Petra's",
+  "model": "petras",
+  "lng": -80.8125546,
+  "lat": 35.2190446,
+  "bearing": 358,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/323192880"
+  ],
+  "place": "charlotte-area"
+}

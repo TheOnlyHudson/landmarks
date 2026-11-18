@@ -1,0 +1,20 @@
+{
+  "id": "istanbul-dolmabahce-mosque",
+  "name": "Dolmabahçe Mosque (Bezm-i Âlem Valide Sultan Mosque)",
+  "model": "istanbul-dolmabahce-mosque",
+  "place": "istanbul",
+  "lng": 28.995284,
+  "lat": 41.036721,
+  "bearing": 327.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2086068",
+  "replaces": [
+    "way/498861874",
+    "way/498861873",
+    "way/498861875",
+    "way/498861876",
+    "way/498861877",
+    "way/498861878"
+  ]
+}

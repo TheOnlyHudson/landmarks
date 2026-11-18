@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-valens-aqueduct",
+  "name": "Valens Aqueduct",
+  "model": "istanbul-valens-aqueduct",
+  "place": "istanbul",
+  "lng": 28.955149,
+  "lat": 41.016187,
+  "bearing": 35,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q952924",
+  "replaces": [
+    "way/23276526"
+  ]
+}

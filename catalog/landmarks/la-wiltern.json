@@ -1,0 +1,17 @@
+{
+  "id": "la-wiltern",
+  "name": "The Wiltern",
+  "model": "la-wiltern",
+  "lng": -118.3085199,
+  "lat": 34.061279,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7161584",
+  "replaces": [
+    "way/388772956",
+    "way/1416423923",
+    "way/1416423924"
+  ],
+  "place": "los-angeles-area"
+}

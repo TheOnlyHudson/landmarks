@@ -1,0 +1,17 @@
+{
+  "id": "seoul-national-museum",
+  "name": "National Museum of Korea",
+  "model": "seoul-national-museum",
+  "place": "seoul",
+  "lng": 126.9800554,
+  "lat": 37.523902,
+  "bearing": 3.42,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q494407",
+  "replaces": [
+    "way/168364800",
+    "way/382079361",
+    "way/382079351"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "chi-lake-point-tower",
+  "name": "Lake Point Tower",
+  "model": "chi-lake-point-tower",
+  "lng": -87.612315,
+  "lat": 41.891497,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1801054",
+  "replaces": [
+    "relation/19385699",
+    "way/150408224",
+    "way/284814462"
+  ],
+  "place": "chicago-area"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dc-washington-monument",
+  "name": "Washington Monument",
+  "model": "dc-washington-monument",
+  "lng": -77.0352425,
+  "lat": 38.8894753,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q178114",
+  "replaces": [
+    "way/766761337"
+  ],
+  "place": "washington-area"
+}

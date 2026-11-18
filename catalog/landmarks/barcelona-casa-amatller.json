@@ -1,0 +1,24 @@
+{
+  "id": "barcelona-casa-amatller",
+  "name": "Casa Amatller",
+  "model": "barcelona-casa-amatller",
+  "place": "barcelona",
+  "lng": 2.164772,
+  "lat": 41.391337,
+  "bearing": 226.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/9427552",
+    "way/679019101",
+    "way/679019116",
+    "way/679019180",
+    "way/679019099",
+    "way/679019202",
+    "way/679019145",
+    "way/679019097",
+    "way/679019098",
+    "way/679019176"
+  ],
+  "wikidata": "Q506814"
+}
