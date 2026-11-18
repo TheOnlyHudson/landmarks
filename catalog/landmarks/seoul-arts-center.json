@@ -1,0 +1,14 @@
+{
+  "id": "seoul-arts-center",
+  "name": "Seoul Arts Center Opera House",
+  "model": "seoul-arts-center",
+  "place": "seoul",
+  "lng": 127.0137681,
+  "lat": 37.4792498,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/8439129"
+  ]
+}

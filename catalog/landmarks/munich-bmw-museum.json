@@ -1,0 +1,26 @@
+{
+  "id": "munich-bmw-museum",
+  "name": "BMW Museum",
+  "model": "munich-bmw-museum",
+  "place": "munich",
+  "lng": 11.5590845,
+  "lat": 48.1767642,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/298266716",
+    "way/302324251",
+    "way/5216004",
+    "way/303382182",
+    "way/305310591",
+    "way/286002864",
+    "way/286002866",
+    "way/286002868",
+    "way/286002869",
+    "way/1435773753",
+    "way/1435773754",
+    "relation/4002450",
+    "way/163408029"
+  ]
+}

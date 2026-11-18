@@ -1,0 +1,15 @@
+{
+  "id": "nyc-lga-marine-air-terminal",
+  "name": "Marine Air Terminal",
+  "model": "nyc-lga-marine-air-terminal",
+  "place": "new-york-area",
+  "lng": -73.8857255,
+  "lat": 40.7735292,
+  "bearing": -8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/284852174"
+  ],
+  "wikidata": "Q6764005"
+}

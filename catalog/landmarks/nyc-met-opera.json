@@ -1,0 +1,18 @@
+{
+  "id": "nyc-met-opera",
+  "name": "Metropolitan Opera House",
+  "model": "nyc-met-opera",
+  "lng": -73.9847275,
+  "lat": 40.7728499,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q188031",
+  "replaces": [
+    "way/265354534",
+    "way/330177538",
+    "way/1475173703",
+    "way/1475173704"
+  ],
+  "place": "new-york-area"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "amsterdam-national-monument",
+  "name": "National Monument",
+  "model": "amsterdam-national-monument",
+  "place": "amsterdam",
+  "lng": 4.893689,
+  "lat": 52.37282,
+  "bearing": 1.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q473851",
+  "replaces": [
+    "way/168680619",
+    "way/1320477257",
+    "way/1320477258",
+    "way/1320477259",
+    "way/1320477260",
+    "way/1320477261",
+    "way/940729263"
+  ]
+}

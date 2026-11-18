@@ -1,0 +1,20 @@
+{
+  "id": "dal-dallas-museum-of-art",
+  "name": "Dallas Museum of Art",
+  "model": "dal-dallas-museum-of-art",
+  "place": "dallas-area",
+  "lng": -96.8010673,
+  "lat": 32.7876533,
+  "bearing": 45.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q745866",
+  "replaces": [
+    "relation/6942581",
+    "relation/20586729",
+    "way/678928341",
+    "way/678928340",
+    "way/31265436",
+    "way/471658474"
+  ]
+}

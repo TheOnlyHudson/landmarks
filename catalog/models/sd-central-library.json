@@ -1,0 +1,79 @@
+{
+  "id": "sd-central-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "library",
+    "civic",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "San Diego Central Library Exterior 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Central_Library_Exterior_2024.jpg",
+      "author": "Mzedp",
+      "license": "CC0"
+    },
+    {
+      "title": "East Village, San Diego, CA, USA - panoramio (10)",
+      "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(10).jpg",
+      "author": "Roman Eugeniusz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "East Village, San Diego, CA, USA - panoramio (14)",
+      "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(14).jpg",
+      "author": "Roman Eugeniusz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "East Village, San Diego, CA, USA - panoramio (15)",
+      "url": "https://commons.wikimedia.org/wiki/File:East_Village,_San_Diego,_CA,_USA_-_panoramio_(15).jpg",
+      "author": "Roman Eugeniusz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "San Diego Central Library",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Central_Library.jpg",
+      "author": "Nserrano",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "San Diego Central Library, San Diego, CA - 01 (night)",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Central_Library,_San_Diego,_CA_-_01.jpg",
+      "author": "Jarek Tuszyński",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "San Diego central library 5385",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Diego_central_library_5385.jpg",
+      "author": "Avery Jensen",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "San Diego central library dome",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Diego_central_library_dome.jpg",
+      "author": "Holly Cheng",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/sd-central-library.glb",
+  "source": "generators/sd-central-library.ts"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "samarkand-sher-dor-madrasa",
+  "name": "Sher-Dor Madrasa",
+  "model": "samarkand-sher-dor-madrasa",
+  "lng": 66.9765002,
+  "lat": 39.6549061,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2278212",
+  "replaces": [
+    "relation/2437666",
+    "way/1296464135",
+    "way/1296464136",
+    "way/1296464137",
+    "way/1296464138",
+    "way/1296464139",
+    "way/1296464140",
+    "way/1296464141",
+    "way/1296464142",
+    "way/1297399179",
+    "relation/17771198"
+  ],
+  "place": "samarkand"
+}

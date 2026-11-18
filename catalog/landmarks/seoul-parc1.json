@@ -1,0 +1,17 @@
+{
+  "id": "seoul-parc1",
+  "name": "Parc.1",
+  "model": "seoul-parc1",
+  "place": "seoul",
+  "lng": 126.928288,
+  "lat": 37.526027,
+  "bearing": 51.5,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/874639189",
+    "way/874639190",
+    "way/874639191",
+    "way/874639192"
+  ]
+}

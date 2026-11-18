@@ -1,0 +1,15 @@
+{
+  "id": "parachute-jump",
+  "name": "Parachute Jump",
+  "model": "parachute-jump",
+  "lng": -73.9843968,
+  "lat": 40.5729775,
+  "bearing": 351.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q3651640",
+  "replaces": [
+    "way/248474742"
+  ],
+  "place": "new-york-area"
+}

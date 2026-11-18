@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-tuschinski",
+  "name": "Pathé Tuschinski",
+  "model": "amsterdam-tuschinski",
+  "place": "amsterdam",
+  "lng": 4.894516,
+  "lat": 52.366237,
+  "bearing": 25,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q599272",
+  "replaces": [
+    "way/267116768"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "nyc-thunderbolt",
+  "name": "Thunderbolt",
+  "model": "nyc-thunderbolt",
+  "place": "new-york-area",
+  "lng": -73.9822942,
+  "lat": 40.5741951,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q17033480",
+  "replaces": [
+    "way/405891529",
+    "way/1017690947",
+    "way/654800206",
+    "way/355344498",
+    "way/654800208",
+    "way/654800209"
+  ]
+}

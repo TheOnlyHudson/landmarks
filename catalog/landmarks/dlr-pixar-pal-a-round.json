@@ -1,0 +1,13 @@
+{
+  "id": "dlr-pixar-pal-a-round",
+  "name": "Pixar Pal-A-Round",
+  "model": "dlr-pixar-pal-a-round",
+  "lng": -117.9221876,
+  "lat": 33.8051347,
+  "bearing": 40,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q751240",
+  "replaces": [],
+  "place": "disneyland"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "dal-winspear-opera-house",
+  "name": "Winspear Opera House",
+  "model": "dal-winspear-opera-house",
+  "place": "dallas-area",
+  "lng": -96.7980084,
+  "lat": 32.7909535,
+  "bearing": 45.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5493322",
+  "replaces": [
+    "way/179918603",
+    "way/312168249",
+    "way/1414653500",
+    "way/1414653501",
+    "way/1414653502",
+    "way/1414653503",
+    "way/1414653504",
+    "way/1414653505",
+    "way/1414653506",
+    "way/1414653507",
+    "way/1414653508",
+    "way/1414653509",
+    "way/1414653510",
+    "way/1414653511",
+    "way/1414653512",
+    "way/1414653513",
+    "way/1414653514",
+    "way/1414653515"
+  ]
+}

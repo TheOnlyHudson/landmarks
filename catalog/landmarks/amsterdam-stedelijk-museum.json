@@ -1,0 +1,26 @@
+{
+  "id": "amsterdam-stedelijk-museum",
+  "name": "Stedelijk Museum",
+  "model": "amsterdam-stedelijk-museum",
+  "place": "amsterdam",
+  "lng": 4.879842,
+  "lat": 52.357903,
+  "bearing": 66.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q924335",
+  "replaces": [
+    "way/44508819",
+    "way/754299888",
+    "way/754299889",
+    "way/754299890",
+    "way/754299892",
+    "way/754299893",
+    "way/754299894",
+    "way/754299895",
+    "way/754299896",
+    "way/754299897",
+    "way/754299898",
+    "way/754299891"
+  ]
+}

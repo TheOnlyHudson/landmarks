@@ -1,0 +1,45 @@
+{
+  "id": "dubai-opus",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "hotel",
+    "office",
+    "zaha-hadid",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Zaha Hadid's glass block in Business Bay (2020), split into two towers by a free-form void and joined by a bridge at the top.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "A view from the Parking",
+      "url": "https://www.flickr.com/photos/58227652@N02/41570854404",
+      "author": "Gabby Canonizado",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Dubai Skyline from Business Bay - Dubai, UAE",
+      "url": "https://commons.wikimedia.org/wiki/File:Dubai_Skyline_from_Business_Bay_-_Dubai,_UAE.jpg",
+      "author": "Lxs",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/dubai-opus.glb",
+  "source": "generators/dubai-opus.ts"
+}

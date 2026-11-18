@@ -1,0 +1,20 @@
+{
+  "id": "seoul-junghwajeon",
+  "name": "Junghwajeon",
+  "model": "seoul-junghwajeon",
+  "place": "seoul",
+  "lng": 126.9748217,
+  "lat": 37.5658068,
+  "bearing": 12.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/181574577",
+    "way/772263216",
+    "way/772263217",
+    "way/772263218",
+    "way/772263219",
+    "way/772263220",
+    "way/772263221"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "hou-toyota-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "basketball",
+    "sports"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Toyota Center entr.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Toyota_Center_entr.jpg",
+      "author": "Ed Uthman",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Houston Toyota Center -.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Houston_Toyota_Center_-.jpg",
+      "author": "Atownballer",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Toyota Center Downtown Houston TX - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Toyota_Center_Downtown_Houston_TX_-_panoramio.jpg",
+      "author": "Chanilim714",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Toyota Center nima.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Toyota_Center_nima.JPG",
+      "author": "زرشک",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "ToyotaCenter.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:ToyotaCenter.jpg",
+      "author": "WhisperToMe",
+      "license": "Public domain"
+    },
+    {
+      "title": "Toyota Center satellite view.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Toyota_Center_satellite_view.png",
+      "author": "NASA",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/hou-toyota-center.glb",
+  "source": "generators/hou-toyota-center.ts"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "clt-cne-generals-office",
+  "name": "The General's Office",
+  "model": "clt-cne-generals-office",
+  "lng": -80.8334231,
+  "lat": 35.2464367,
+  "bearing": 6.3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/672998898",
+    "way/835851711",
+    "relation/18229983"
+  ],
+  "place": "camp-north-end"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "dlr-carthay-circle",
+  "name": "Carthay Circle Theatre",
+  "model": "dlr-carthay-circle",
+  "lng": -117.9189217,
+  "lat": 33.8073827,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q75339567",
+  "replaces": [
+    "way/338063157",
+    "way/338063109",
+    "way/338063116",
+    "way/336940997",
+    "way/336948504"
+  ],
+  "place": "disneyland"
+}

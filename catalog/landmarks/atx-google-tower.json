@@ -1,0 +1,15 @@
+{
+  "id": "atx-google-tower",
+  "name": "Google Tower (Block 185)",
+  "model": "atx-google-tower",
+  "place": "austin-area",
+  "lng": -97.7504255,
+  "lat": 30.265565,
+  "bearing": 17.7,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q65117994",
+  "replaces": [
+    "way/961789209"
+  ]
+}

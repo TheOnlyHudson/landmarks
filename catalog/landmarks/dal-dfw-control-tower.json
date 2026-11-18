@@ -1,0 +1,23 @@
+{
+  "id": "dal-dfw-control-tower",
+  "name": "DFW Airport Center Tower",
+  "model": "dal-dfw-control-tower",
+  "place": "dallas-area",
+  "lng": -97.04035,
+  "lat": 32.89663,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/446187562",
+    "way/446921579",
+    "way/446921580",
+    "way/446921581",
+    "way/446921582",
+    "way/446921583",
+    "way/448378079",
+    "way/448378080",
+    "way/448378081",
+    "way/448386139"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mexico-city-carlos-iv",
+  "name": "El Caballito (Carlos IV)",
+  "model": "mexico-city-carlos-iv",
+  "place": "mexico-city",
+  "lng": -99.139478,
+  "lat": 19.436059,
+  "bearing": 8.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "wikidata": "Q3968677"
+}

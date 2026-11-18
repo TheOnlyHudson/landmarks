@@ -1,0 +1,15 @@
+{
+  "id": "nyc-brooklyn-war-memorial",
+  "name": "Brooklyn War Memorial",
+  "model": "nyc-brooklyn-war-memorial",
+  "lng": -73.990626,
+  "lat": 40.698443,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q34811306",
+  "replaces": [
+    "way/250373213"
+  ],
+  "place": "new-york-area"
+}

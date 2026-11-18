@@ -1,0 +1,21 @@
+{
+  "id": "sea-two-union-square",
+  "name": "Two Union Square",
+  "model": "sea-two-union-square",
+  "lng": -122.3320767,
+  "lat": 47.6104347,
+  "bearing": 328.8,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q3049315",
+  "replaces": [
+    "way/331281880",
+    "way/491467380",
+    "way/491467379",
+    "way/491467381",
+    "way/494784395",
+    "way/456870610",
+    "way/456870609"
+  ],
+  "place": "seattle-area"
+}

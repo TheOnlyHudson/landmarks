@@ -1,0 +1,28 @@
+{
+  "id": "wdw-seven-dwarfs-mine-train",
+  "file": "models/wdw-seven-dwarfs-mine-train.glb",
+  "license": "CC0-1.0",
+  "author": "Alex Wohlbruck",
+  "source": "generators/wdw-seven-dwarfs-mine-train.ts",
+  "type": "coaster",
+  "collection": "landmarks",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "role": "creator",
+      "github": "alexwohlbruck"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "tags": [
+    "theme-park"
+  ],
+  "reviewStatus": "unreviewed"
+}

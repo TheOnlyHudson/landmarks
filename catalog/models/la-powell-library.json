@@ -1,0 +1,94 @@
+{
+  "id": "la-powell-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "library",
+    "university",
+    "romanesque-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/la-powell-library.detail.glb",
+  "detailZoom": 17,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "2019 UCLA Powell Library 1",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_UCLA_Powell_Library_1.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2019 UCLA Powell Library 2",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_UCLA_Powell_Library_2.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2019 UCLA Powell Library rear 1",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_UCLA_Powell_Library_rear_1.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2019 UCLA Powell Library rear 2",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_UCLA_Powell_Library_rear_2.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "View of Powell Library from Dickson Plaza, facing southwest (HABS CA-2678-A-2)",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Powell_Library_from_Dickson_Plaza,_facing_southwest._-_University_of_California_Los_Angeles,_Powell_Library,_Westwood,_Los_Angeles,_Los_Angeles_County,_CA_HABS_CA-2678-A-2.tif",
+      "author": "Jonathan Farrar",
+      "license": "Public domain"
+    },
+    {
+      "title": "View of Powell Library from Dickson Plaza, facing southeast (HABS CA-2678-A-1)",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Powell_Library_from_Dickson_Plaza,_facing_southeast._-_University_of_California_Los_Angeles,_Powell_Library,_Westwood,_Los_Angeles,_Los_Angeles_County,_CA_HABS_CA-2678-A-1.tif",
+      "author": "Jonathan Farrar",
+      "license": "Public domain"
+    },
+    {
+      "title": "Powell Library, angle view, UCLA campus",
+      "url": "https://commons.wikimedia.org/wiki/File:Powell_Library,_angle_view,_UCLA_campus.jpg",
+      "author": "legge_e_mare",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Powell Library, UCLA",
+      "url": "https://commons.wikimedia.org/wiki/File:Powell_Library,_UCLA.jpg",
+      "author": "Neeta Lind",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Powell Library overlooking Janss Steps, UCLA",
+      "url": "https://commons.wikimedia.org/wiki/File:Powell_Library_overlooking_Janss_Steps,_UCLA.jpg",
+      "author": "Andy Dietler",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Powell Library at night",
+      "url": "https://commons.wikimedia.org/wiki/File:Powell_Library_at_night.jpg",
+      "author": "Geographer (en.wikipedia)",
+      "license": "CC BY 2.5"
+    }
+  ],
+  "file": "models/la-powell-library.glb",
+  "source": "generators/la-powell-library.ts"
+}

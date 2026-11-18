@@ -19,9 +19,9 @@ If no city or park is named above, ask which one. Then work out the rest and
 confirm it with the user in one message before starting:
 
 - **Prefix**: a short lowercase id prefix (`bos`, `atl`, `disneyland`).
-  Reuse an existing one from `catalog.json` if the city already has models,
+  Reuse an existing one from `catalog/landmarks/` if the city already has models,
   and say how many it has.
-- **Places and credits**: choose explicit `catalog.places` IDs (add/commit
+- **Places and credits**: choose explicit `catalog/places/` IDs (add/commit
   missing places before model merges). Ask who to credit as creator and their
   GitHub username (or GitLab, Codeberg or Bitbucket username, or a profile
   URL; none is fine), suggesting `gh api user --jq .login` for the user to

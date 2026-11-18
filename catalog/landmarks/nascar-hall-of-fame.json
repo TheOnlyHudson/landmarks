@@ -1,0 +1,22 @@
+{
+  "id": "nascar-hall-of-fame",
+  "name": "NASCAR Hall of Fame",
+  "model": "nascar-hall-of-fame",
+  "lng": -80.8440855,
+  "lat": 35.2210919,
+  "bearing": 55,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1443089",
+  "replaces": [
+    "way/322278731",
+    "way/1352128750",
+    "way/1352128751",
+    "way/1352128752",
+    "way/1352128756",
+    "way/1352128757",
+    "way/1352128758",
+    "way/766639184"
+  ],
+  "place": "charlotte-area"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mint-museum-randolph",
+  "name": "Mint Museum Randolph",
+  "model": "mint-museum-randolph",
+  "lng": -80.8146416,
+  "lat": 35.1973505,
+  "bearing": 2.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5086075",
+  "replaces": [
+    "way/784079334"
+  ],
+  "place": "charlotte-area"
+}

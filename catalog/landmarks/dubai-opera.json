@@ -1,0 +1,15 @@
+{
+  "id": "dubai-opera",
+  "name": "Dubai Opera",
+  "model": "dubai-opera",
+  "place": "dubai",
+  "lng": 55.2719218,
+  "lat": 25.1956437,
+  "bearing": 99.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/475848632"
+  ],
+  "wikidata": "Q2913336"
+}

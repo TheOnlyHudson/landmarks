@@ -1,0 +1,14 @@
+{
+  "id": "clt-dilworth-artisan-station",
+  "name": "Dilworth Artisan Station",
+  "model": "clt-dilworth-artisan-station",
+  "lng": -80.8578341,
+  "lat": 35.2129646,
+  "bearing": 42,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/432937709"
+  ],
+  "place": "charlotte-area"
+}

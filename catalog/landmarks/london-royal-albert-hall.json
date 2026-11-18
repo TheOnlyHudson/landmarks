@@ -1,0 +1,26 @@
+{
+  "id": "london-royal-albert-hall",
+  "name": "Royal Albert Hall",
+  "model": "london-royal-albert-hall",
+  "place": "london",
+  "lng": -0.177403,
+  "lat": 51.501013,
+  "bearing": 352.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q193639",
+  "replaces": [
+    "way/372860405",
+    "way/952279000",
+    "way/952279001",
+    "way/952279002",
+    "way/952279003",
+    "way/952279004",
+    "way/952279005",
+    "way/952279006",
+    "way/372860406",
+    "way/372860407",
+    "way/372860408",
+    "way/372860409"
+  ]
+}

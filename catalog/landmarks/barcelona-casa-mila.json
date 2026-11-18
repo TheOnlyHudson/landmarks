@@ -1,0 +1,33 @@
+{
+  "id": "barcelona-casa-mila",
+  "name": "Casa Milà (La Pedrera)",
+  "model": "barcelona-casa-mila",
+  "place": "barcelona",
+  "lng": 2.161881,
+  "lat": 41.395377,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/8974896",
+    "way/646020439",
+    "way/646020507",
+    "way/646020528",
+    "way/646020560",
+    "way/646020649",
+    "way/646020670",
+    "way/646020710",
+    "way/646020720",
+    "way/646020740",
+    "way/646020768",
+    "way/646020803",
+    "way/646020806",
+    "way/646020814",
+    "relation/8974885",
+    "relation/8974887",
+    "relation/8974890",
+    "relation/8974893",
+    "relation/8974894"
+  ],
+  "wikidata": "Q207870"
+}

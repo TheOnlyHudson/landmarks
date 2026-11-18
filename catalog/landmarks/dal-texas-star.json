@@ -1,0 +1,13 @@
+{
+  "id": "dal-texas-star",
+  "name": "Texas Star",
+  "model": "dal-texas-star",
+  "place": "dallas-area",
+  "lng": -96.7592587,
+  "lat": 32.7767472,
+  "bearing": 90,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1318837",
+  "replaces": []
+}

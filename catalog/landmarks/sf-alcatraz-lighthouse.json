@@ -1,0 +1,15 @@
+{
+  "id": "sf-alcatraz-lighthouse",
+  "name": "Alcatraz Island Lighthouse",
+  "model": "sf-alcatraz-lighthouse",
+  "lng": -122.4222949,
+  "lat": 37.8262541,
+  "bearing": 45,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q4712967",
+  "replaces": [
+    "way/99202294"
+  ],
+  "place": "san-francisco-bay-area"
+}

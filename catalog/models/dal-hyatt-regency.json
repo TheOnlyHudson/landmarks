@@ -1,0 +1,73 @@
+{
+  "id": "dal-hyatt-regency",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "hotel",
+    "modernist",
+    "mirror-glass"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hyatt Regency, Dallas, Texas.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hyatt_Regency,_Dallas,_Texas.jpg",
+      "author": "Texas Lane",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Downtown Dallas Skyline with shot of Hyatt Regency Dallas and the Reunion Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Dallas_Skyline_with_shot_of_Hyatt_Regency_Dallas_and_the_Reunion_Tower.jpg",
+      "author": "Milestone2",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Reunion Tower - Hyatt Regency.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower_-_Hyatt_Regency.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Reunion tower dallas.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Reunion_tower_dallas.jpg",
+      "author": "Batrak",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Reunion tower dallas texas 051605 kdh.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Reunion_tower_dallas_texas_051605_kdh.jpg",
+      "author": "Kevin D. Hartnell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Reunion-Tower-0268.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Reunion-Tower-0268.jpg",
+      "author": "Loadmaster (David R. Tribble)",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Reunion Tower, a 561-foot-high observation tower, completed in 1978 (LCCN2014632137)",
+      "url": "https://commons.wikimedia.org/wiki/File:Reunion_Tower,_a_561-foot-high_observation_tower,_completed_in_1978,_that_is_one_of_the_most_recognizable_landmarks_in_Dallas,_Texas_LCCN2014632137.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/dal-hyatt-regency.glb",
+  "source": "generators/dal-hyatt-regency.ts"
+}

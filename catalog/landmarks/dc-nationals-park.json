@@ -1,0 +1,15 @@
+{
+  "id": "dc-nationals-park",
+  "name": "Nationals Park",
+  "model": "dc-nationals-park",
+  "lng": -77.0075468,
+  "lat": 38.8728428,
+  "bearing": 30,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q517545",
+  "replaces": [
+    "relation/1066168"
+  ],
+  "place": "washington-area"
+}

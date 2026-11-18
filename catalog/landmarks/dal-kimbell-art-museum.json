@@ -1,0 +1,15 @@
+{
+  "id": "dal-kimbell-art-museum",
+  "name": "Kimbell Art Museum",
+  "model": "dal-kimbell-art-museum",
+  "place": "dallas-area",
+  "lng": -97.365149,
+  "lat": 32.748579,
+  "bearing": 0.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/7301044"
+  ],
+  "wikidata": "Q1741629"
+}

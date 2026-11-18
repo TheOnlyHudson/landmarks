@@ -1,0 +1,16 @@
+{
+  "id": "seoul-gocheok-sky-dome",
+  "name": "Gocheok Sky Dome",
+  "model": "seoul-gocheok-sky-dome",
+  "place": "seoul",
+  "lng": 126.8670477,
+  "lat": 37.4981957,
+  "bearing": 0,
+  "elevation": -5.6,
+  "minzoom": 14,
+  "wikidata": "Q10855359",
+  "replaces": [
+    "way/258637347",
+    "way/842076947"
+  ]
+}

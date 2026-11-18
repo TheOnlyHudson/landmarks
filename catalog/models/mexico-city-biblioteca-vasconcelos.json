@@ -1,0 +1,97 @@
+{
+  "id": "mexico-city-biblioteca-vasconcelos",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "library",
+    "contemporary",
+    "public"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "role": "creator",
+      "github": "alexwohlbruck"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Vista aérea de la Biblioteca Vasconcelos 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Biblioteca_Vasconcelos_01.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vista aérea de la Biblioteca Vasconcelos 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Biblioteca_Vasconcelos_02.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vista aérea de la Biblioteca Vasconcelos 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Biblioteca_Vasconcelos_03.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vista aérea de la Biblioteca Vasconcelos 04",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Biblioteca_Vasconcelos_04.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vista aérea de la Biblioteca Vasconcelos 05",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Biblioteca_Vasconcelos_05.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vista aérea de la Biblioteca Vasconcelos 06",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Biblioteca_Vasconcelos_06.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Biblioteca Vasconcelos e Insignia",
+      "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Vasconcelos_e_Insignia.jpg",
+      "author": "Omar_sansi",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Fachada de la Biblioteca Vasconcelos Buenavista Ciudad de México",
+      "url": "https://commons.wikimedia.org/wiki/File:Fachada_de_la_Biblioteca_Vasconcelos_Buenavista_Ciudad_de_M%C3%A9xico.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Biblioteca Vasconcelos Mexico City 19",
+      "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Vasconcelos_Mexico_City_19.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "\"Vasconcelos\" Library - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:%22Vasconcelos%22_Library_-_panoramio.jpg",
+      "author": "ORamírezD",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Biblioteca Vasconcelos Mexico City 26",
+      "url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Vasconcelos_Mexico_City_26.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/mexico-city-biblioteca-vasconcelos.glb",
+  "source": "generators/mexico-city-biblioteca-vasconcelos.ts"
+}

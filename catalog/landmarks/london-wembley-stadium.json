@@ -1,0 +1,19 @@
+{
+  "id": "london-wembley-stadium",
+  "name": "Wembley Stadium",
+  "model": "london-wembley-stadium",
+  "place": "london",
+  "lng": -0.2796,
+  "lat": 51.556038,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "relation/912489",
+    "relation/12942436",
+    "way/27784957",
+    "way/116537666",
+    "way/377915368"
+  ],
+  "wikidata": "Q128468"
+}

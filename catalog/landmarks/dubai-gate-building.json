@@ -1,0 +1,21 @@
+{
+  "id": "dubai-gate-building",
+  "name": "The Gate",
+  "model": "dubai-gate-building",
+  "place": "dubai",
+  "lng": 55.281157,
+  "lat": 25.2145569,
+  "bearing": 28,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/256973497",
+    "way/1346109176",
+    "way/1346109177",
+    "way/1346109178",
+    "way/1346109179",
+    "way/1346109180",
+    "way/1346109181",
+    "way/1346109182"
+  ]
+}

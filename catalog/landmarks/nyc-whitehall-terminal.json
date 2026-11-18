@@ -1,0 +1,25 @@
+{
+  "id": "nyc-whitehall-terminal",
+  "name": "Staten Island Ferry Whitehall Terminal",
+  "model": "nyc-whitehall-terminal",
+  "place": "new-york-area",
+  "lng": -74.0130622,
+  "lat": 40.7009654,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7603994",
+  "replaces": [
+    "relation/2848024",
+    "way/38868195",
+    "way/213853440",
+    "way/213853441",
+    "way/213853442",
+    "way/213853443",
+    "way/213853444",
+    "way/213847694",
+    "way/213847696",
+    "way/213847698",
+    "way/213847700"
+  ]
+}

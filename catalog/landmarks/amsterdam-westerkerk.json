@@ -1,0 +1,25 @@
+{
+  "id": "amsterdam-westerkerk",
+  "name": "Westerkerk",
+  "model": "amsterdam-westerkerk",
+  "place": "amsterdam",
+  "lng": 4.883934,
+  "lat": 52.374542,
+  "bearing": 3.1,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/99205257",
+    "way/749268115",
+    "way/749268116",
+    "way/749268117",
+    "way/749268118",
+    "way/749287964",
+    "way/751083595",
+    "way/751083596",
+    "way/751083597",
+    "way/751083598",
+    "way/751083599"
+  ],
+  "wikidata": "Q1130722"
+}

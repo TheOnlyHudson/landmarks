@@ -1,0 +1,15 @@
+{
+  "id": "lv-encore",
+  "name": "Encore Las Vegas",
+  "model": "lv-encore",
+  "lng": -115.16476,
+  "lat": 36.129408,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1340132",
+  "replaces": [
+    "way/27910891"
+  ],
+  "place": "las-vegas-area"
+}

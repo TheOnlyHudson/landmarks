@@ -1,0 +1,14 @@
+{
+  "id": "clt-pinkys-westside",
+  "name": "Pinky's Westside Grill",
+  "model": "clt-pinkys-westside",
+  "lng": -80.8674184,
+  "lat": 35.2291488,
+  "bearing": 10,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/324418138"
+  ],
+  "place": "charlotte-area"
+}

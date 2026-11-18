@@ -9,7 +9,7 @@
  * render and a street photo pair up directly. Elevation is degrees above the
  * horizon: about 5-15 for a street photo, 30-45 for a view from a tower.
  *
- * An id is looked up in catalog.json, as a landmark or a model, and drawn
+ * An id is looked up in the catalog, as a landmark or a model, and drawn
  * turned to its placement's bearing, so <from> is a real compass direction.
  * A .glb path is drawn in its own frame unless --bearing is given.
  *
@@ -23,6 +23,7 @@ import { encodePng } from '../generators/mesh'
 import type { Catalog } from '../src/catalog'
 import { bakePlacement } from '../src/glb'
 import { loadScene, render } from './render'
+import { readCatalog } from '../src/catalog-files'
 
 const ROOT = join(import.meta.dir, '..')
 const args = process.argv.slice(2)
@@ -43,7 +44,7 @@ if (!what || !out || from === undefined) {
 let file = what
 let bearing = Number(bearingArg ?? 0)
 if (!what.endsWith('.glb')) {
-  const catalog = JSON.parse(readFileSync(join(ROOT, 'catalog.json'), 'utf8')) as Catalog
+  const catalog = readCatalog(ROOT)
   const placed = catalog.landmarks.find((l) => l.id === what) ?? catalog.landmarks.find((l) => l.model === what)
   const model = catalog.models.find((m) => m.id === (placed?.model ?? what))
   file = join(ROOT, model?.file ?? `models/${what}.glb`)

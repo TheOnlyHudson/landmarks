@@ -1,0 +1,16 @@
+{
+  "id": "sf-alcatraz-cellhouse",
+  "name": "Alcatraz Main Cellhouse",
+  "model": "sf-alcatraz-cellhouse",
+  "lng": -122.4229929,
+  "lat": 37.826688,
+  "bearing": 315.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/128245373",
+    "way/128245367",
+    "way/24433437"
+  ],
+  "place": "san-francisco-bay-area"
+}

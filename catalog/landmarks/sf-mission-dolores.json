@@ -1,0 +1,16 @@
+{
+  "id": "sf-mission-dolores",
+  "name": "Mission Dolores",
+  "model": "sf-mission-dolores",
+  "lng": -122.42692,
+  "lat": 37.764314,
+  "bearing": 355.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1000321",
+  "replaces": [
+    "way/256442760",
+    "way/256442765"
+  ],
+  "place": "san-francisco-bay-area"
+}

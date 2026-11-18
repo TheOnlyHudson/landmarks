@@ -1,0 +1,25 @@
+{
+  "id": "amsterdam-krijtberg",
+  "name": "De Krijtberg",
+  "model": "amsterdam-krijtberg",
+  "place": "amsterdam",
+  "lng": 4.88807,
+  "lat": 52.367761,
+  "bearing": 49.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/267123478",
+    "way/751713218",
+    "way/751713219",
+    "way/751713220",
+    "way/751713221",
+    "way/751713222",
+    "way/751713223",
+    "way/751905303",
+    "way/751905304",
+    "way/751905305",
+    "way/751979070"
+  ],
+  "wikidata": "Q1180056"
+}

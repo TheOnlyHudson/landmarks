@@ -1,0 +1,17 @@
+{
+  "id": "sea-municipal-tower",
+  "name": "Seattle Municipal Tower",
+  "model": "sea-municipal-tower",
+  "lng": -122.3296022,
+  "lat": 47.6050394,
+  "bearing": 59,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q3177235",
+  "replaces": [
+    "way/107124286",
+    "way/331321180",
+    "way/331321181"
+  ],
+  "place": "seattle-area"
+}

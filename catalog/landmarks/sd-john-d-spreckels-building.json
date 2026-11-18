@@ -1,0 +1,16 @@
+{
+  "id": "sd-john-d-spreckels-building",
+  "name": "John D. Spreckels Building",
+  "model": "sd-john-d-spreckels-building",
+  "place": "san-diego-area",
+  "lng": -117.1588086,
+  "lat": 32.7154908,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/350398726",
+    "way/31845938"
+  ],
+  "wikidata": "Q12060884"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "barcelona-columbus-monument",
+  "name": "Columbus Monument",
+  "model": "barcelona-columbus-monument",
+  "place": "barcelona",
+  "lng": 2.177774,
+  "lat": 41.375803,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/126451774",
+    "way/301766618",
+    "way/301766620",
+    "way/301766623",
+    "way/301766625"
+  ],
+  "wikidata": "Q2288815"
+}

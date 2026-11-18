@@ -1,0 +1,19 @@
+{
+  "id": "phl-barnes-foundation",
+  "name": "Barnes Foundation",
+  "model": "phl-barnes-foundation",
+  "place": "philadelphia-area",
+  "lng": -75.172735,
+  "lat": 39.96062,
+  "bearing": 43.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q808462",
+  "replaces": [
+    "way/183620616",
+    "way/349397315",
+    "way/349397318",
+    "way/952222496",
+    "way/952222505"
+  ]
+}

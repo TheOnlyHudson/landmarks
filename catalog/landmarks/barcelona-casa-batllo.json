@@ -1,0 +1,22 @@
+{
+  "id": "barcelona-casa-batllo",
+  "name": "Casa Batlló",
+  "model": "barcelona-casa-batllo",
+  "place": "barcelona",
+  "lng": 2.164755,
+  "lat": 41.391538,
+  "bearing": 226.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/9427554",
+    "way/940163405",
+    "way/679019170",
+    "way/679019193",
+    "way/679019107",
+    "way/679019197",
+    "way/679019117",
+    "way/679019137"
+  ],
+  "wikidata": "Q461371"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "london-albert-bridge",
+  "name": "Albert Bridge",
+  "model": "london-albert-bridge",
+  "place": "london",
+  "lng": -0.1666954,
+  "lat": 51.4822554,
+  "bearing": 342.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1972207",
+  "replaces": [
+    "way/378295023",
+    "way/857860925",
+    "way/857860926",
+    "way/857860923",
+    "way/857860924",
+    "way/250356517",
+    "way/250356518",
+    "way/378295025",
+    "way/378295026"
+  ]
+}

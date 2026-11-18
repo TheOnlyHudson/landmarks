@@ -1,0 +1,15 @@
+{
+  "id": "la-two-california-plaza",
+  "name": "Two California Plaza",
+  "model": "la-two-california-plaza",
+  "lng": -118.2516517,
+  "lat": 34.0514465,
+  "bearing": 37.9,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q2319313",
+  "replaces": [
+    "way/48847807"
+  ],
+  "place": "los-angeles-area"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sd-petco-park",
+  "name": "Petco Park",
+  "model": "sd-petco-park",
+  "place": "san-diego-area",
+  "lng": -117.15687,
+  "lat": 32.70718,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1194586",
+  "replaces": [
+    "relation/1779874",
+    "way/613165145",
+    "way/769800588"
+  ]
+}

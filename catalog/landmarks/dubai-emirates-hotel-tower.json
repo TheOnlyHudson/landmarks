@@ -1,0 +1,26 @@
+{
+  "id": "dubai-emirates-hotel-tower",
+  "name": "Jumeirah Emirates Towers Hotel",
+  "model": "dubai-emirates-hotel-tower",
+  "place": "dubai",
+  "lng": 55.2823759,
+  "lat": 25.2175816,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/393391114",
+    "way/1001192974",
+    "way/1001192975",
+    "way/1001192976",
+    "way/1001192977",
+    "way/1001192978",
+    "way/1001192979",
+    "way/1001192980",
+    "way/1001192981",
+    "way/1001192982",
+    "way/1001192983",
+    "way/1001192984"
+  ],
+  "wikidata": "Q1049027"
+}

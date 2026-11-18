@@ -1,0 +1,17 @@
+{
+  "id": "nyc-432-park",
+  "name": "432 Park Avenue",
+  "model": "nyc-432-park",
+  "lng": -73.9718683,
+  "lat": 40.7617056,
+  "bearing": 28.75,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q233940",
+  "replaces": [
+    "way/261499924",
+    "way/463593207",
+    "way/463386820"
+  ],
+  "place": "new-york-area"
+}

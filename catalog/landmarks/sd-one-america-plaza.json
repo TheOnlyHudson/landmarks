@@ -1,0 +1,19 @@
+{
+  "id": "sd-one-america-plaza",
+  "name": "One America Plaza",
+  "model": "sd-one-america-plaza",
+  "place": "san-diego-area",
+  "lng": -117.1687,
+  "lat": 32.71614,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/451287796",
+    "way/458903471",
+    "way/497520826",
+    "way/1078598877",
+    "way/1078598879"
+  ],
+  "wikidata": "Q1922608"
+}

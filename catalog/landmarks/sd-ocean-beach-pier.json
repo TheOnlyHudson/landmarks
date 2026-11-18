@@ -1,0 +1,17 @@
+{
+  "id": "sd-ocean-beach-pier",
+  "name": "Ocean Beach Pier",
+  "model": "sd-ocean-beach-pier",
+  "place": "san-diego-area",
+  "lng": -117.2566606,
+  "lat": 32.7489626,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/551709834",
+    "way/25256355",
+    "way/833699876",
+    "way/438087243"
+  ]
+}

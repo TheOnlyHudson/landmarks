@@ -1,0 +1,15 @@
+{
+  "id": "dal-texas-school-book-depository",
+  "name": "Texas School Book Depository",
+  "model": "dal-texas-school-book-depository",
+  "place": "dallas-area",
+  "lng": -96.8084493,
+  "lat": 32.7797642,
+  "bearing": 346,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/727595366",
+    "way/727595367"
+  ]
+}

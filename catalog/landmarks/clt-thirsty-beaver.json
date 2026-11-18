@@ -1,0 +1,15 @@
+{
+  "id": "clt-thirsty-beaver",
+  "name": "Thirsty Beaver Saloon",
+  "model": "clt-thirsty-beaver",
+  "lng": -80.8173163,
+  "lat": 35.2213364,
+  "bearing": 10.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q123524350",
+  "replaces": [
+    "way/323198175"
+  ],
+  "place": "charlotte-area"
+}

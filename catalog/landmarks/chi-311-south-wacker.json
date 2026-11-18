@@ -1,0 +1,22 @@
+{
+  "id": "chi-311-south-wacker",
+  "name": "311 South Wacker Drive",
+  "model": "chi-311-south-wacker",
+  "lng": -87.635751,
+  "lat": 41.877462,
+  "bearing": 358.9,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q224563",
+  "replaces": [
+    "way/147350208",
+    "way/686318733",
+    "way/686318734",
+    "way/1188678576",
+    "way/1188678581",
+    "way/1188678582",
+    "way/1188678583",
+    "way/1188678584"
+  ],
+  "place": "chicago-area"
+}

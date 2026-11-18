@@ -1,0 +1,21 @@
+{
+  "id": "atl-191-peachtree-tower",
+  "name": "191 Peachtree Tower",
+  "model": "atl-191-peachtree-tower",
+  "place": "atlanta-area",
+  "lng": -84.386903,
+  "lat": 33.759008,
+  "bearing": 1,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/261043963",
+    "way/537432531",
+    "way/537432532",
+    "way/537432533",
+    "way/886346695",
+    "way/886346698",
+    "way/886346701",
+    "way/886346709"
+  ]
+}

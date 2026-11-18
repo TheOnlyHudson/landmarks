@@ -1,0 +1,15 @@
+{
+  "id": "dubai-rose-tower",
+  "name": "Rose Rayhaan by Rotana",
+  "model": "dubai-rose-tower",
+  "place": "dubai",
+  "lng": 55.2765922,
+  "lat": 25.2116707,
+  "bearing": 31.8,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/64890199"
+  ],
+  "wikidata": "Q648338"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-ciragan-palace",
+  "name": "Çırağan Palace",
+  "model": "istanbul-ciragan-palace",
+  "place": "istanbul",
+  "lng": 29.01531,
+  "lat": 41.043471,
+  "bearing": 336.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q273225",
+  "replaces": [
+    "way/498861861"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "coyote-joes",
+  "name": "Coyote Joe's",
+  "model": "coyote-joes",
+  "lng": -80.9160661,
+  "lat": 35.2275192,
+  "bearing": 26,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/849535273"
+  ],
+  "place": "charlotte-area"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "seoul-bosingak",
+  "name": "Bosingak",
+  "model": "seoul-bosingak",
+  "place": "seoul",
+  "lng": 126.9836789,
+  "lat": 37.5697883,
+  "bearing": 129.1,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/708772637"
+  ],
+  "wikidata": "Q487603"
+}

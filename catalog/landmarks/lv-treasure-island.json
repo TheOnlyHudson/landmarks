@@ -1,0 +1,16 @@
+{
+  "id": "lv-treasure-island",
+  "name": "Treasure Island",
+  "model": "lv-treasure-island",
+  "lng": -115.1716227,
+  "lat": 36.1247323,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1360313",
+  "replaces": [
+    "way/33959894",
+    "way/27727145"
+  ],
+  "place": "las-vegas-area"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "sea-smith-tower",
+  "name": "Smith Tower",
+  "model": "sea-smith-tower",
+  "lng": -122.3317301,
+  "lat": 47.6019798,
+  "bearing": 61.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1196348",
+  "replaces": [
+    "way/52781661",
+    "way/418140386",
+    "way/418140384",
+    "way/418140385"
+  ],
+  "place": "seattle-area"
+}

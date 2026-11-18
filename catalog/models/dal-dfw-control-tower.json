@@ -1,0 +1,54 @@
+{
+  "id": "dal-dfw-control-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "airport",
+    "control-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Control Tower",
+      "url": "https://www.flickr.com/photos/89165847@N00/6854270549",
+      "author": "mikecogh",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "DFW Control Tower at Sunset",
+      "url": "https://www.flickr.com/photos/89165847@N00/6854228473",
+      "author": "mikecogh",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Steamed Control tower",
+      "url": "https://www.flickr.com/photos/13494744@N00/32002183727",
+      "author": "gholmes",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "DFW Terminals ACD View from Takeoff",
+      "url": "https://commons.wikimedia.org/wiki/File:DFW_Terminals_ACD_View_from_Takeoff_(52831109800).jpg",
+      "author": "formulanone",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/dal-dfw-control-tower.glb",
+  "source": "generators/dal-dfw-control-tower.ts"
+}

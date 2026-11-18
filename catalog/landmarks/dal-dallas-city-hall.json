@@ -1,0 +1,15 @@
+{
+  "id": "dal-dallas-city-hall",
+  "name": "Dallas City Hall",
+  "model": "dal-dallas-city-hall",
+  "place": "dallas-area",
+  "lng": -96.7969359,
+  "lat": 32.7762606,
+  "bearing": 345,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1157989",
+  "replaces": [
+    "way/27129838"
+  ]
+}

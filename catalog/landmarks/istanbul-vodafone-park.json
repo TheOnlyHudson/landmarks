@@ -1,0 +1,16 @@
+{
+  "id": "istanbul-vodafone-park",
+  "name": "Tüpraş Stadium (Vodafone Park)",
+  "model": "istanbul-vodafone-park",
+  "place": "istanbul",
+  "lng": 28.994412,
+  "lat": 41.039443,
+  "bearing": 322.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q14914703",
+  "replaces": [
+    "relation/6554433",
+    "way/489743779"
+  ]
+}

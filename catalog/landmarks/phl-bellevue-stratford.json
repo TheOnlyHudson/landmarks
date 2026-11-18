@@ -1,0 +1,14 @@
+{
+  "id": "phl-bellevue-stratford",
+  "name": "The Bellevue",
+  "model": "phl-bellevue-stratford",
+  "place": "philadelphia-area",
+  "lng": -75.164865,
+  "lat": 39.949088,
+  "bearing": 9.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/334239470"
+  ]
+}

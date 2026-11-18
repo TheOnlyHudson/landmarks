@@ -1,0 +1,75 @@
+{
+  "id": "amsterdam-beurs-van-berlage",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "exchange",
+    "historic",
+    "brick",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q851200",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Damrak met toren (RCE 20368626)",
+      "url": "https://commons.wikimedia.org/wiki/File:Damrak_met_toren_-_Amsterdam_-_20368626_-_RCE.jpg",
+      "author": "A. J. van der Wal",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Beurs van Berlage 2506",
+      "url": "https://commons.wikimedia.org/wiki/File:Beurs_van_Berlage_2506.jpg",
+      "author": "C messier",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Beurs van Berlage 2508",
+      "url": "https://commons.wikimedia.org/wiki/File:Beurs_van_Berlage_2508.jpg",
+      "author": "C messier",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Beurs van Berlage 1709",
+      "url": "https://commons.wikimedia.org/wiki/File:Beurs_van_Berlage_1709.jpg",
+      "author": "C messier",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gezicht op de Beurs van Berlage, met op de achtergrond de Oudekerkstoren en het Centraal Station (RCE 20286195)",
+      "url": "https://commons.wikimedia.org/wiki/File:Gezicht_op_de_Beurs_van_Berlage,_met_op_de_achtergrond_de_Oudekerkstoren_en_het_Centraal_Station_-_Amsterdam_-_20286195_-_RCE.jpg",
+      "author": "Gerard Dukker",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amsterdam - Beurs van Berlage 1898-1903 II",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Beurs_van_Berlage_1898-1903_II.jpg",
+      "author": "Txllxt TxllxT",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Beurs van Berlage 2010-1",
+      "url": "https://commons.wikimedia.org/wiki/File:Beurs_van_Berlage_2010-1.JPG",
+      "author": "Steven Lek",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/amsterdam-beurs-van-berlage.glb",
+  "source": "generators/amsterdam-beurs-van-berlage.ts"
+}

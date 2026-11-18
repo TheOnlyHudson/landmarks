@@ -1,0 +1,13 @@
+{
+  "id": "istanbul-serpent-column",
+  "name": "Serpent Column",
+  "model": "istanbul-serpent-column",
+  "place": "istanbul",
+  "lng": 28.97511,
+  "lat": 41.005665,
+  "bearing": 0,
+  "elevation": -3.2,
+  "minzoom": 16,
+  "wikidata": "Q588892",
+  "replaces": []
+}

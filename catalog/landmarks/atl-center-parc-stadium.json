@@ -1,0 +1,15 @@
+{
+  "id": "atl-center-parc-stadium",
+  "name": "Center Parc Stadium",
+  "model": "atl-center-parc-stadium",
+  "place": "atlanta-area",
+  "lng": -84.389466,
+  "lat": 33.735448,
+  "bearing": 356,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/3421244"
+  ],
+  "wikidata": "Q1150936"
+}

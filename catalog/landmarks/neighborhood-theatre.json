@@ -1,0 +1,16 @@
+{
+  "id": "neighborhood-theatre",
+  "name": "Neighborhood Theatre",
+  "model": "neighborhood-theatre",
+  "lng": -80.8039422,
+  "lat": 35.247493,
+  "bearing": 52,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q43092361",
+  "replaces": [
+    "way/967830177",
+    "way/1411146348"
+  ],
+  "place": "charlotte-area"
+}

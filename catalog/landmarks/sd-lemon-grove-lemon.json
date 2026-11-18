@@ -1,0 +1,12 @@
+{
+  "id": "sd-lemon-grove-lemon",
+  "name": "The Big Lemon, Lemon Grove",
+  "model": "sd-lemon-grove-lemon",
+  "place": "san-diego-area",
+  "lng": -117.03088,
+  "lat": 32.74253,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "nyc-manhattan-bridge-manhattan",
+  "name": "Manhattan Bridge (Manhattan tower)",
+  "model": "nyc-manhattan-bridge",
+  "lng": -73.9914885,
+  "lat": 40.7088118,
+  "bearing": 337,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q125050",
+  "replaces": [
+    "way/1255353996"
+  ],
+  "place": "new-york-area"
+}

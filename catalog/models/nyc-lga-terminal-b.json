@@ -1,0 +1,56 @@
+{
+  "id": "nyc-lga-terminal-b",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "airport",
+    "terminal",
+    "modern",
+    "bridge"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Grand Central Pkwy td (2022-01-14) 043 - LaGuardia Airport Terminal B Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Central_Pkwy_td_(2022-01-14)_043_-_LaGuardia_Airport_Terminal_B_Tower.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Grand Central Pkwy td (2022-01-14) 044 - LaGuardia Airport Terminal B.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Central_Pkwy_td_(2022-01-14)_044_-_LaGuardia_Airport_Terminal_B.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Grand Central Pkwy td (2022-01-14) 041 - LaGuardia Airport Terminal B Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Central_Pkwy_td_(2022-01-14)_041_-_LaGuardia_Airport_Terminal_B_Tower.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "LGA Airport Terminal B Departures.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:LGA_Airport_Terminal_B_Departures.jpg",
+      "author": "JakeTheFanner",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-lga-terminal-b.glb",
+  "source": "generators/nyc-lga-terminal-b.ts"
+}

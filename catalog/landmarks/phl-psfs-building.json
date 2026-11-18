@@ -1,0 +1,26 @@
+{
+  "id": "phl-psfs-building",
+  "name": "PSFS Building",
+  "model": "phl-psfs-building",
+  "place": "philadelphia-area",
+  "lng": -75.160323,
+  "lat": 39.951415,
+  "bearing": 9.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1548457",
+  "replaces": [
+    "relation/4785217",
+    "way/42784724",
+    "way/336594398",
+    "way/338481671",
+    "way/338426266",
+    "way/336594399",
+    "way/338329002",
+    "way/338329003",
+    "way/336594395",
+    "way/338426267",
+    "way/333012751",
+    "way/336594397"
+  ]
+}

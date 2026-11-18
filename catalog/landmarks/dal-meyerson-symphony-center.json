@@ -1,0 +1,15 @@
+{
+  "id": "dal-meyerson-symphony-center",
+  "name": "Morton H. Meyerson Symphony Center",
+  "model": "dal-meyerson-symphony-center",
+  "place": "dallas-area",
+  "lng": -96.7986206,
+  "lat": 32.7899083,
+  "bearing": 18.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q670323",
+  "replaces": [
+    "way/28544900"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "barcelona-cathedral",
+  "name": "Barcelona Cathedral",
+  "model": "barcelona-cathedral",
+  "place": "barcelona",
+  "lng": 2.17636,
+  "lat": 41.38391,
+  "bearing": 313,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/3298476",
+    "way/305857549",
+    "way/305857551",
+    "way/305857552",
+    "way/305857553",
+    "way/305857554",
+    "way/305857555",
+    "way/305857557",
+    "way/305857558",
+    "way/305857559",
+    "way/305857560",
+    "way/305857563",
+    "way/305857564",
+    "way/305857565",
+    "way/1075852646"
+  ],
+  "wikidata": "Q17155"
+}

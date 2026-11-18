@@ -1,0 +1,17 @@
+{
+  "id": "la-century-plaza-towers",
+  "name": "Century Plaza Towers",
+  "model": "la-century-plaza-towers",
+  "lng": -118.4134974,
+  "lat": 34.0590575,
+  "bearing": 20.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1982044",
+  "replaces": [
+    "relation/19619602",
+    "way/104944092",
+    "way/104944087"
+  ],
+  "place": "los-angeles-area"
+}

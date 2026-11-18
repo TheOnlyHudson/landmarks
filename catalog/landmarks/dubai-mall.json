@@ -1,0 +1,17 @@
+{
+  "id": "dubai-mall",
+  "name": "The Dubai Mall",
+  "model": "dubai-mall",
+  "place": "dubai",
+  "lng": 55.2788104,
+  "lat": 25.1972178,
+  "bearing": 120.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/18195959",
+    "way/240462845",
+    "way/1184630707"
+  ],
+  "wikidata": "Q1133309"
+}

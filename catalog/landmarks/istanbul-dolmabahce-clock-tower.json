@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-dolmabahce-clock-tower",
+  "name": "Dolmabahçe Clock Tower",
+  "model": "istanbul-dolmabahce-clock-tower",
+  "place": "istanbul",
+  "lng": 28.996381,
+  "lat": 41.037683,
+  "bearing": 58.8,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1818013",
+  "replaces": [
+    "way/263949143"
+  ]
+}

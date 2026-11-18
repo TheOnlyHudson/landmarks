@@ -1,0 +1,20 @@
+{
+  "id": "london-the-scalpel",
+  "name": "The Scalpel",
+  "model": "london-the-scalpel",
+  "place": "london",
+  "lng": -0.081058,
+  "lat": 51.5132411,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/498820075",
+    "way/659342595",
+    "way/659342596",
+    "way/659342597",
+    "way/659342598",
+    "way/659342599"
+  ],
+  "wikidata": "Q4640138"
+}

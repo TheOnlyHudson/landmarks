@@ -1,0 +1,17 @@
+{
+  "id": "atl-millennium-gate",
+  "name": "Millennium Gate",
+  "model": "atl-millennium-gate",
+  "place": "atlanta-area",
+  "lng": -84.399725,
+  "lat": 33.791127,
+  "bearing": 62.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/269640189",
+    "way/1564296738",
+    "way/1564296739",
+    "way/1564296740"
+  ]
+}

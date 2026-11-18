@@ -1,0 +1,75 @@
+{
+  "id": "istanbul-bosphorus-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "suspension-bridge",
+    "bridge"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The 1973 suspension bridge from Ortaköy to Beylerbeyi: two light grey tapering portal towers on the shores with three box beams, the main cables and free back stays, the aerodynamic box deck and the side spans on column piers; vertical paired suspenders in the detail model, lit at night.",
+  "references": [
+    {
+      "title": "Bosphorus Bridge 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge_1.jpg",
+      "author": "Joseolgon",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Bosphorus Bridge 4.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge_4.jpg",
+      "author": "Joseolgon",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Bosphorus Bridge 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge_2.jpg",
+      "author": "Joseolgon",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Bosphorus Bridge 6.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge_6.jpg",
+      "author": "Joseolgon",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Bosphorus Bridge 7.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge_7.jpg",
+      "author": "Joseolgon",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "The first Bosphorus Bridge (1973) in Istanbul.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_first_Bosphorus_Bridge_(1973)_in_Istanbul.jpg",
+      "author": "Huseyinakbas63",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Bosphorus-Bridge-night-view-Istanbul.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bosphorus-Bridge-night-view-Istanbul.jpg",
+      "author": "SeablueTravelOfficial",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "detail": "models/istanbul-bosphorus-bridge.detail.glb",
+  "detailZoom": 16,
+  "file": "models/istanbul-bosphorus-bridge.glb",
+  "source": "generators/istanbul-bosphorus-bridge.ts"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "la-grand-la",
+  "name": "The Grand LA",
+  "model": "la-grand-la",
+  "lng": -118.2487192,
+  "lat": 34.0547307,
+  "bearing": 38,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/1106947212",
+    "way/1106947213",
+    "way/1106947214",
+    "way/1106947215"
+  ],
+  "place": "los-angeles-area"
+}

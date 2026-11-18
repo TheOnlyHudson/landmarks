@@ -1,0 +1,15 @@
+{
+  "id": "nyc-dime-savings-bank",
+  "name": "Dime Savings Bank of Brooklyn",
+  "model": "nyc-dime-savings-bank",
+  "place": "new-york-area",
+  "lng": -73.9825285,
+  "lat": 40.6902679,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/248156228",
+    "way/700241894"
+  ]
+}

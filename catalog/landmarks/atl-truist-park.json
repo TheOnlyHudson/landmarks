@@ -1,0 +1,16 @@
+{
+  "id": "atl-truist-park",
+  "name": "Truist Park",
+  "model": "atl-truist-park",
+  "place": "atlanta-area",
+  "lng": -84.467738,
+  "lat": 33.890673,
+  "bearing": 158,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/9051237",
+    "way/561604015"
+  ],
+  "wikidata": "Q17003430"
+}

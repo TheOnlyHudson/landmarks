@@ -1,0 +1,16 @@
+{
+  "id": "istanbul-kuleli-military-school",
+  "name": "Kuleli Military High School",
+  "model": "istanbul-kuleli-military-school",
+  "place": "istanbul",
+  "lng": 29.054077,
+  "lat": 41.058644,
+  "bearing": 351,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q6442920",
+  "replaces": [
+    "relation/4465498",
+    "way/1086211304"
+  ]
+}

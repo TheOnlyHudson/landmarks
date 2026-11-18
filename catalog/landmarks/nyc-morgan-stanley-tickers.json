@@ -1,0 +1,12 @@
+{
+  "id": "nyc-morgan-stanley-tickers",
+  "name": "Morgan Stanley Tickers",
+  "model": "nyc-morgan-stanley-tickers",
+  "place": "times-square",
+  "lng": -73.985076,
+  "lat": 40.759835,
+  "bearing": 286.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

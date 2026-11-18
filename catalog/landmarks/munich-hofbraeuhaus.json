@@ -1,0 +1,19 @@
+{
+  "id": "munich-hofbraeuhaus",
+  "name": "Hofbräuhaus am Platzl",
+  "model": "munich-hofbraeuhaus",
+  "place": "munich",
+  "lng": 11.579929,
+  "lat": 48.137636,
+  "bearing": -51,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q152971",
+  "replaces": [
+    "way/1273939826",
+    "way/1273939823",
+    "way/1273939822",
+    "way/1273939825",
+    "way/1273939824"
+  ]
+}

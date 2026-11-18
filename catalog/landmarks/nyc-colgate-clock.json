@@ -1,0 +1,13 @@
+{
+  "id": "nyc-colgate-clock",
+  "name": "Colgate Clock",
+  "model": "nyc-colgate-clock",
+  "place": "new-york-area",
+  "lng": -74.033862,
+  "lat": 40.712037,
+  "bearing": 3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1108243",
+  "replaces": []
+}

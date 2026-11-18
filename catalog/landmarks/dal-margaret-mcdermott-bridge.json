@@ -1,0 +1,13 @@
+{
+  "id": "dal-margaret-mcdermott-bridge",
+  "name": "Margaret McDermott Bridge",
+  "model": "dal-margaret-mcdermott-bridge",
+  "place": "dallas-area",
+  "lng": -96.8179203,
+  "lat": 32.7702267,
+  "bearing": 76.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q18154095",
+  "replaces": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "barcelona-montjuic-tower",
+  "name": "Torre de Comunicacions de Montjuïc",
+  "model": "barcelona-montjuic-tower",
+  "place": "barcelona",
+  "lng": 2.150607,
+  "lat": 41.364279,
+  "bearing": 330,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/163393541"
+  ],
+  "wikidata": "Q202530"
+}

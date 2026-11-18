@@ -1,0 +1,21 @@
+{
+  "id": "la-hollywood-bowl",
+  "name": "Hollywood Bowl",
+  "model": "la-hollywood-bowl",
+  "lng": -118.338902,
+  "lat": 34.112778,
+  "bearing": 24.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q976218",
+  "replaces": [
+    "way/427527131",
+    "way/297126803",
+    "way/297126804",
+    "way/297126805",
+    "way/297126806",
+    "way/297126807",
+    "way/297126808"
+  ],
+  "place": "los-angeles-area"
+}

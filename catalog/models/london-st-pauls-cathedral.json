@@ -1,0 +1,103 @@
+{
+  "id": "london-st-pauls-cathedral",
+  "file": "models/london-st-pauls-cathedral.glb",
+  "detail": "models/london-st-pauls-cathedral.detail.glb",
+  "detailZoom": 16,
+  "source": "generators/london-st-pauls-cathedral.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cathedral",
+    "church",
+    "baroque",
+    "dome",
+    "listed",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Wren's cathedral (1675–1710): the lead dome on its colonnaded drum with the stone lantern, gilded ball and cross; the two Baroque west towers with open colonnaded stages and gilt pineapples; the two-storey west portico and pediment; the transepts' semicircular porches; Portland stone and grey lead.",
+  "references": [
+    {
+      "title": "St Pauls Cathedral from West - Feb 2007.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Pauls_Cathedral_from_West_-_Feb_2007.jpg",
+      "author": "Diliff",
+      "license": "CC-BY-2.5"
+    },
+    {
+      "title": "St Paul's Cathedral West Front City of London England 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Paul's_Cathedral_West_Front_City_of_London_England_01.jpg",
+      "author": "Acabashi",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "St Paul's Cathedral from Millenium Bridge 2020.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Paul's_Cathedral_from_Millenium_Bridge_2020.jpg",
+      "author": "Julian Herzog",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "St Paul's Cathedral from Tate Modern 2018-01-31.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Paul's_Cathedral_from_Tate_Modern_2018-01-31.jpg",
+      "author": "Colin",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "St Paul's Cathedral Dome from One New Change - Square Crop.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Paul's_Cathedral_Dome_from_One_New_Change_-_Square_Crop.jpg",
+      "author": "Colin",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Aerial view of St Paul's Cathedral.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_St_Paul's_Cathedral.jpg",
+      "author": "Sean MacEntee",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "St Pauls aerial.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Pauls_aerial.jpg",
+      "author": "Mark Fosh",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Aerial St.Paul's Cathedral.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_St.Paul's_Cathedral.jpg",
+      "author": "Rafa Esteve",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Aerial View of St Paul Cathedral.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_St_Paul_Cathedral.jpg",
+      "author": "Rafesmar",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "South west tower of St Paul's Cathedral.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:South_west_tower_of_St_Paul's_Cathedral.jpg",
+      "author": "Julie Anne Workman",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "St Paul's East End2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Paul's_East_End2.jpg",
+      "author": "David Underdown",
+      "license": "CC-BY-SA-4.0"
+    }
+  ]
+}

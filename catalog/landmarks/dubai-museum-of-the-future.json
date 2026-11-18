@@ -1,0 +1,15 @@
+{
+  "id": "dubai-museum-of-the-future",
+  "name": "Museum of the Future",
+  "model": "dubai-museum-of-the-future",
+  "place": "dubai",
+  "lng": 55.2818293,
+  "lat": 25.2191117,
+  "bearing": 38.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/1054289435"
+  ],
+  "wikidata": "Q22948398"
+}

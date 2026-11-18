@@ -1,0 +1,14 @@
+{
+  "id": "dal-livestock-exchange",
+  "name": "Livestock Exchange Building",
+  "model": "dal-livestock-exchange",
+  "place": "dallas-area",
+  "lng": -97.346729,
+  "lat": 32.7894622,
+  "bearing": 0.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/7321195"
+  ]
+}

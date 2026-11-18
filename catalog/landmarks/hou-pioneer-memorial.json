@@ -1,0 +1,13 @@
+{
+  "id": "hou-pioneer-memorial",
+  "name": "Pioneer Memorial",
+  "model": "hou-pioneer-memorial",
+  "place": "houston-area",
+  "lng": -95.39094,
+  "lat": 29.71863,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q21188742",
+  "replaces": []
+}

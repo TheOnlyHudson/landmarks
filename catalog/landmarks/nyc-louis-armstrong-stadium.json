@@ -1,0 +1,15 @@
+{
+  "id": "nyc-louis-armstrong-stadium",
+  "name": "Louis Armstrong Stadium",
+  "model": "nyc-louis-armstrong-stadium",
+  "lng": -73.8454091,
+  "lat": 40.7509981,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q47487977",
+  "replaces": [
+    "way/840573223"
+  ],
+  "place": "new-york-area"
+}

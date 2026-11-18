@@ -1,0 +1,15 @@
+{
+  "id": "usnwc-climbing-center",
+  "name": "Whitewater Center Climbing Center",
+  "model": "usnwc-climbing-center",
+  "lng": -81.0056809,
+  "lat": 35.2720128,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/223914924",
+    "way/1456416417"
+  ],
+  "place": "charlotte-area"
+}

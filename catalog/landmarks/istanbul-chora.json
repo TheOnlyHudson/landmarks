@@ -1,0 +1,16 @@
+{
+  "id": "istanbul-chora",
+  "name": "Chora Church (Kariye Camii)",
+  "model": "istanbul-chora",
+  "place": "istanbul",
+  "lng": 28.939023,
+  "lat": 41.031204,
+  "bearing": 14.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q849489",
+  "replaces": [
+    "relation/7614527",
+    "way/1408839170"
+  ]
+}

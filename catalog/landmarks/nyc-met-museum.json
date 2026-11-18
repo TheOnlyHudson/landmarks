@@ -1,0 +1,15 @@
+{
+  "id": "nyc-met-museum",
+  "name": "The Metropolitan Museum of Art",
+  "model": "nyc-met-museum",
+  "lng": -73.9634337,
+  "lat": 40.7794361,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q160236",
+  "replaces": [
+    "relation/3698894"
+  ],
+  "place": "new-york-area"
+}

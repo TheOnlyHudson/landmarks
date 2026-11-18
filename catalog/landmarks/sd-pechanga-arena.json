@@ -1,0 +1,15 @@
+{
+  "id": "sd-pechanga-arena",
+  "name": "Pechanga Arena",
+  "model": "sd-pechanga-arena",
+  "place": "san-diego-area",
+  "lng": -117.21224,
+  "lat": 32.75535,
+  "bearing": 17,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3106621",
+  "replaces": [
+    "way/121777136"
+  ]
+}

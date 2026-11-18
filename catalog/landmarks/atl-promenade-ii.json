@@ -1,0 +1,22 @@
+{
+  "id": "atl-promenade-ii",
+  "name": "Promenade II",
+  "model": "atl-promenade-ii",
+  "place": "atlanta-area",
+  "lng": -84.385141,
+  "lat": 33.787882,
+  "bearing": 45,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/269637575",
+    "way/1451518609",
+    "way/1424485342",
+    "way/1424485343",
+    "way/1424485344",
+    "way/1424485351",
+    "way/1424485352",
+    "way/1425865586"
+  ],
+  "wikidata": "Q7249706"
+}

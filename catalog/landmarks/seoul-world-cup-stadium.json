@@ -1,0 +1,17 @@
+{
+  "id": "seoul-world-cup-stadium",
+  "name": "Seoul World Cup Stadium",
+  "model": "seoul-world-cup-stadium",
+  "place": "seoul",
+  "lng": 126.8972922,
+  "lat": 37.5683503,
+  "bearing": 15,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q175477",
+  "replaces": [
+    "relation/2241251",
+    "relation/2241252",
+    "relation/9176866"
+  ]
+}

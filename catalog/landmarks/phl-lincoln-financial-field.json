@@ -1,0 +1,15 @@
+{
+  "id": "phl-lincoln-financial-field",
+  "name": "Lincoln Financial Field",
+  "model": "phl-lincoln-financial-field",
+  "place": "philadelphia-area",
+  "lng": -75.167523,
+  "lat": 39.9008,
+  "bearing": 351,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1052370",
+  "replaces": [
+    "relation/2294758"
+  ]
+}

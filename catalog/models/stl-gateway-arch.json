@@ -1,0 +1,62 @@
+{
+  "id": "stl-gateway-arch",
+  "file": "models/stl-gateway-arch.glb",
+  "source": "generators/stl-gateway-arch.ts",
+  "license": "CC0-1.0",
+  "author": "Colin",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "arch",
+    "stainless-steel",
+    "national-park",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "St Louis Gateway Arch.jpg (from the Illinois bank)",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Louis_Gateway_Arch.jpg",
+      "author": "Flickr user 11399912@N",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Gateway Arch, St. Louis, Missouri.jpg (from the west lawn)",
+      "url": "https://commons.wikimedia.org/wiki/File:Gateway_Arch,_St._Louis,_Missouri.jpg",
+      "author": "Bobindrums",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gateway Arch, St. Louis.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gateway_Arch,_St._Louis.jpg",
+      "author": "Lewis Hulbert",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. Louis Gateway Arch.jpg (leg detail)",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Louis_Gateway_Arch.jpg",
+      "author": "TheWB",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "St Louis night expblend.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Louis_night_expblend.jpg",
+      "author": "Daniel Schwen",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}

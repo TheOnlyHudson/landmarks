@@ -1,0 +1,18 @@
+{
+  "id": "phl-congress-hall",
+  "name": "Congress Hall",
+  "model": "phl-congress-hall",
+  "place": "philadelphia-area",
+  "lng": -75.150645,
+  "lat": 39.948979,
+  "bearing": 9.1,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q917636",
+  "replaces": [
+    "way/40083518",
+    "way/335771285",
+    "way/335771286",
+    "way/335771287"
+  ]
+}

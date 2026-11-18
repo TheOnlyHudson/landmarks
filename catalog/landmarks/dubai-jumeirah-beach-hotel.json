@@ -1,0 +1,15 @@
+{
+  "id": "dubai-jumeirah-beach-hotel",
+  "name": "Jumeirah Beach Hotel",
+  "model": "dubai-jumeirah-beach-hotel",
+  "place": "dubai",
+  "wikidata": "Q647585",
+  "lng": 55.1907292,
+  "lat": 25.141572,
+  "bearing": 26.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/10316322"
+  ]
+}

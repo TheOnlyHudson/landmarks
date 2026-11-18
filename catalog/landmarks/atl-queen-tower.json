@@ -1,0 +1,14 @@
+{
+  "id": "atl-queen-tower",
+  "name": "The Queen (Concourse Corporate Center V)",
+  "model": "atl-queen-tower",
+  "place": "atlanta-area",
+  "lng": -84.354518,
+  "lat": 33.917014,
+  "bearing": 45.5,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/64986738"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "nyc-jfk-new-terminal-one",
+  "name": "JFK Airport New Terminal One",
+  "model": "nyc-jfk-new-terminal-one",
+  "place": "new-york-area",
+  "lng": -73.7871869,
+  "lat": 40.6416208,
+  "bearing": 29.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/1359238780"
+  ]
+}

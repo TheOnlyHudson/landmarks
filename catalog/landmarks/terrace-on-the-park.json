@@ -1,0 +1,15 @@
+{
+  "id": "terrace-on-the-park",
+  "name": "Terrace on the Park",
+  "model": "terrace-on-the-park",
+  "lng": -73.850749,
+  "lat": 40.7445364,
+  "bearing": 68.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7703194",
+  "replaces": [
+    "way/284860789"
+  ],
+  "place": "new-york-area"
+}

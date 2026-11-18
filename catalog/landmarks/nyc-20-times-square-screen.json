@@ -1,0 +1,12 @@
+{
+  "id": "nyc-20-times-square-screen",
+  "name": "20 Times Square Screen",
+  "model": "nyc-20-times-square-screen",
+  "place": "times-square",
+  "lng": -73.984417,
+  "lat": 40.75922,
+  "bearing": 29,
+  "elevation": 9.5,
+  "minzoom": 16,
+  "replaces": []
+}

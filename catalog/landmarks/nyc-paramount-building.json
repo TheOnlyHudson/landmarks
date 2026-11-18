@@ -1,0 +1,29 @@
+{
+  "id": "nyc-paramount-building",
+  "name": "Paramount Building",
+  "model": "nyc-paramount-building",
+  "place": "times-square",
+  "lng": -73.9867022,
+  "lat": 40.7572223,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3363532",
+  "replaces": [
+    "way/266149373",
+    "way/288298857",
+    "way/288298858",
+    "way/288298860",
+    "way/288298861",
+    "way/288298862",
+    "way/288298863",
+    "way/288298864",
+    "way/288298865",
+    "way/288298866",
+    "way/288298867",
+    "way/288298868",
+    "way/288298869",
+    "way/288298870",
+    "way/311451315"
+  ]
+}

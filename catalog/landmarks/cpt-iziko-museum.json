@@ -1,0 +1,15 @@
+{
+  "id": "cpt-iziko-museum",
+  "name": "Iziko South African Museum",
+  "model": "cpt-iziko-museum",
+  "place": "cape-town",
+  "lng": 18.4149595,
+  "lat": -33.9288842,
+  "bearing": 41,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/24010045"
+  ],
+  "wikidata": "Q6102031"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mexico-city-museo-jumex",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "DJI 0040-HDR cropped",
+      "url": "https://commons.wikimedia.org/wiki/File:DJI_0040-HDR_cropped.jpg",
+      "author": "Fundación Jumex",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Vista del Museo Jumex desde el Museo Soumaya",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_del_Museo_Jumex_desde_el_Museo_Soumaya.JPG",
+      "author": "Luisalvaz",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Museo Jumex exterior",
+      "url": "https://commons.wikimedia.org/wiki/File:Museo_Jumex_exterior.png",
+      "author": "Fundación Jumex",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vista del museo Jumex",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_del_museo_Jumex.jpg",
+      "author": "OliAzor",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/mexico-city-museo-jumex.glb",
+  "source": "generators/mexico-city-museo-jumex.ts"
+}

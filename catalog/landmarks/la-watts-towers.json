@@ -1,0 +1,13 @@
+{
+  "id": "la-watts-towers",
+  "name": "Watts Towers",
+  "model": "la-watts-towers",
+  "lng": -118.24105,
+  "lat": 33.93872,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q445256",
+  "replaces": [],
+  "place": "los-angeles-area"
+}

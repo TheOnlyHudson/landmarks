@@ -1,0 +1,16 @@
+{
+  "id": "sd-uss-midway",
+  "name": "USS Midway Museum",
+  "model": "sd-uss-midway",
+  "place": "san-diego-area",
+  "lng": -117.175114,
+  "lat": 32.713761,
+  "bearing": 270.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/25965018",
+    "way/1158219106"
+  ],
+  "wikidata": "Q907779"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "cpt-cape-wheel",
+  "name": "The Cape Wheel",
+  "model": "cpt-cape-wheel",
+  "place": "cape-town",
+  "lng": 18.4193198,
+  "lat": -33.9026821,
+  "bearing": 320.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": []
+}

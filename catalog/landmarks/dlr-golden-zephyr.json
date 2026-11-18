@@ -1,0 +1,15 @@
+{
+  "id": "dlr-golden-zephyr",
+  "name": "Golden Zephyr",
+  "model": "dlr-golden-zephyr",
+  "lng": -117.9222682,
+  "lat": 33.8059615,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q3110108",
+  "replaces": [
+    "way/342771469"
+  ],
+  "place": "disneyland"
+}

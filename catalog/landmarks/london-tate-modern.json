@@ -1,0 +1,30 @@
+{
+  "id": "london-tate-modern",
+  "name": "Tate Modern",
+  "model": "london-tate-modern",
+  "place": "london",
+  "lng": -0.0995125,
+  "lat": 51.5075455,
+  "bearing": 4.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q193375",
+  "replaces": [
+    "way/24642569",
+    "way/123075369",
+    "way/123075376",
+    "way/123075366",
+    "way/1391642133",
+    "way/1391642134",
+    "way/542253509",
+    "way/542122679",
+    "way/542122680",
+    "way/542122681",
+    "way/542122682",
+    "way/542122683",
+    "way/542122684",
+    "way/542122685",
+    "way/542122686",
+    "way/542122687"
+  ]
+}

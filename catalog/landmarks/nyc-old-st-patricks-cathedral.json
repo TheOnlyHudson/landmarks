@@ -1,0 +1,19 @@
+{
+  "id": "nyc-old-st-patricks-cathedral",
+  "name": "Basilica of St. Patrick's Old Cathedral",
+  "model": "nyc-old-st-patricks-cathedral",
+  "lng": -73.9951976,
+  "lat": 40.7235814,
+  "bearing": 288.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q941763",
+  "replaces": [
+    "way/247845702",
+    "way/381206137",
+    "way/381206138",
+    "way/381206139",
+    "way/381206140"
+  ],
+  "place": "new-york-area"
+}

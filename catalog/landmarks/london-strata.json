@@ -1,0 +1,17 @@
+{
+  "id": "london-strata",
+  "name": "Strata SE1",
+  "model": "london-strata",
+  "place": "london",
+  "lng": -0.0994742,
+  "lat": 51.4929446,
+  "bearing": 13,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/37726480",
+    "way/347940186",
+    "way/347940185"
+  ],
+  "wikidata": "Q2284719"
+}

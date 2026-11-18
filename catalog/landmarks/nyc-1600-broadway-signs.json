@@ -1,0 +1,12 @@
+{
+  "id": "nyc-1600-broadway-signs",
+  "name": "1600 Broadway Signs (M&M's World)",
+  "model": "nyc-1600-broadway-signs",
+  "place": "times-square",
+  "lng": -73.984274,
+  "lat": 40.759992,
+  "bearing": 28.9,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

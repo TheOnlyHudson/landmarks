@@ -1,0 +1,56 @@
+{
+  "id": "la-pauley-pavilion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "university",
+    "sports",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Colorful at Sunset - Collage",
+      "url": "https://commons.wikimedia.org/wiki/File:Colorful_at_Sunset_-_Collage.jpg",
+      "author": "Josh Lee",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Pauley Pavilion, exterior",
+      "url": "https://commons.wikimedia.org/wiki/File:Pauley_Pavilion,_exterior.JPG",
+      "author": "Alton",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Pauley Pavilion (Los Angeles, USA)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pauley_Pavilion_(Los_Angeles,_USA).JPG",
+      "author": "Alton",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "PauleyPavilionExterior",
+      "url": "https://commons.wikimedia.org/wiki/File:PauleyPavilionExterior.jpg",
+      "author": "Minnaert",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/la-pauley-pavilion.glb",
+  "source": "generators/la-pauley-pavilion.ts"
+}

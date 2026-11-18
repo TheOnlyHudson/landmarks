@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-ing-house",
+  "name": "ING House",
+  "model": "amsterdam-ing-house",
+  "place": "amsterdam",
+  "lng": 4.855211,
+  "lat": 52.337168,
+  "bearing": 85.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/57856367"
+  ],
+  "wikidata": "Q645881"
+}

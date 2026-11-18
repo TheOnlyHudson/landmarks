@@ -1,0 +1,17 @@
+{
+  "id": "atx-central-library",
+  "name": "Austin Central Library",
+  "model": "atx-central-library",
+  "place": "austin-area",
+  "lng": -97.7517529,
+  "lat": 30.2659719,
+  "bearing": 17.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q122841225",
+  "replaces": [
+    "way/516271467",
+    "way/757101295",
+    "relation/13030111"
+  ]
+}

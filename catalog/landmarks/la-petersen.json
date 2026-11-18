@@ -1,0 +1,15 @@
+{
+  "id": "la-petersen",
+  "name": "Petersen Automotive Museum",
+  "model": "la-petersen",
+  "lng": -118.3611471,
+  "lat": 34.0623791,
+  "bearing": 7.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2358105",
+  "replaces": [
+    "way/913343446"
+  ],
+  "place": "los-angeles-area"
+}

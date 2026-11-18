@@ -1,0 +1,74 @@
+{
+  "id": "amsterdam-oude-kerk",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "historic",
+    "gothic",
+    "tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Amsterdam Oude Kerk 7310.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Oude_Kerk_7310.jpg",
+      "author": "C messier",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Tower of Oude Kerk, Amsterdam 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Oude_Kerk,_Amsterdam_01.jpg",
+      "author": "John Samuel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Oude Kerk tower 2136.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Oude_Kerk_tower_2136.jpg",
+      "author": "C messier",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amsterdam-508-Oude Kerk-2010-gje.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam-508-Oude_Kerk-2010-gje.jpg",
+      "author": "Gerd Eichmann",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amsterdam, Oude Kerk (Old Church) - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Oude_Kerk_(Old_Church)_-_panoramio.jpg",
+      "author": "Carlo Pelagalli",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Oude Kerk (Amsterdam, Netherlands 2015) (15805701833).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Oude_Kerk_(Amsterdam,_Netherlands_2015)_(15805701833).jpg",
+      "author": "Paul Arps",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Amsterdam, Oude Kerk (04).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Oude_Kerk_(04).jpg",
+      "author": "Subbass1",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/amsterdam-oude-kerk.glb",
+  "source": "generators/amsterdam-oude-kerk.ts"
+}

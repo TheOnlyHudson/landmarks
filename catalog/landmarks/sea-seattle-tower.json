@@ -1,0 +1,19 @@
+{
+  "id": "sea-seattle-tower",
+  "name": "Seattle Tower",
+  "model": "sea-seattle-tower",
+  "lng": -122.335457,
+  "lat": 47.6076875,
+  "bearing": 328.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q7442196",
+  "replaces": [
+    "way/335417547",
+    "way/232079588",
+    "way/417915158",
+    "way/417915157",
+    "way/417915159"
+  ],
+  "place": "seattle-area"
+}

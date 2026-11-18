@@ -1,0 +1,15 @@
+{
+  "id": "dal-irving-convention-center",
+  "name": "Irving Convention Center at Las Colinas",
+  "model": "dal-irving-convention-center",
+  "place": "dallas-area",
+  "lng": -96.943198,
+  "lat": 32.878041,
+  "bearing": 347.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/499314166"
+  ],
+  "wikidata": "Q6074525"
+}
