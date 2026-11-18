@@ -1,0 +1,63 @@
+{
+  "id": "moscow-kremlin-alarm-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "A square Kremlin tower on the Red Square wall: brick shaft, merlons, a dark green tent with dormers, the tall lookout where the alarm bell hung, and a gilt vane.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Nabatnaya Tower1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nabatnaya_Tower1.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Nabatnaya Tower 2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nabatnaya_Tower_2025.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - Nabatnaya ('Alarm') Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Nabatnaya_(%27Alarm%27)_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Nabatnaya Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nabatnaya_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow. Nabatnaya Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow._Nabatnaya_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-alarm-tower.glb",
+  "source": "generators/moscow-kremlin-alarm-tower.ts"
+}
