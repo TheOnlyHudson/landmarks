@@ -1,0 +1,26 @@
+{
+  "id": "nyc-manhattan-bridge",
+  "name": "Manhattan Bridge",
+  "model": "nyc-manhattan-bridge",
+  "lng": -73.9904569,
+  "lat": 40.7069504,
+  "bearing": 337.02,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q125050",
+  "replaces": [
+    "relation/17233746",
+    "way/317352033",
+    "way/1255353996",
+    "way/1016640944",
+    "way/1255353997",
+    "way/1255353998",
+    "way/1255353999",
+    "way/1255354000",
+    "way/1017507380",
+    "way/1255354001",
+    "way/1255354002",
+    "way/1252123716"
+  ],
+  "place": "new-york-area"
+}
