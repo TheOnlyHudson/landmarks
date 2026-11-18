@@ -1,0 +1,82 @@
+{
+  "id": "ott-parliament-centre-block",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "parliament",
+    "government",
+    "historic",
+    "gothic-revival",
+    "clock-tower",
+    "library"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Centre Block - Parliament Hill.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Centre_Block_-_Parliament_Hill.jpg",
+      "author": "Saffron Blaze",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Ottawa - ON - Parlamentsgebäude (Centre Block).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ottawa_-_ON_-_Parlamentsgeb%C3%A4ude_(Centre_Block).jpg",
+      "author": "Wladyslaw",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Centre Block, Ottawa, Southeast view 20170422 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Centre_Block,_Ottawa,_Southeast_view_20170422_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Centre Block and Library of Parliament, Ottawa, West view 20170422 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Centre_Block_and_Library_of_Parliament,_Ottawa,_West_view_20170422_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ottawa Centre Block and Library of Parliament seen from Major's Hill Park.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ottawa_Centre_Block_and_Library_of_Parliament_seen_from_Major%27s_Hill_Park.jpg",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Parliament Hill from the Ottawa River.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Parliament_Hill_from_the_Ottawa_River.JPG",
+      "author": "Óðinn",
+      "license": "CC BY-SA 2.5 CA"
+    },
+    {
+      "title": "Ottawa - ON - Library of Parliament.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ottawa_-_ON_-_Library_of_Parliament.jpg",
+      "author": "Wladyslaw",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Parliament Hill and Ottawa River from the Supreme Court of Canada.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Parliament_Hill_and_Ottawa_River_from_the_Supreme_Court_of_Canada.jpg",
+      "author": "Jon Kolbert",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/ott-parliament-centre-block.glb",
+  "source": "generators/ott-parliament-centre-block.ts"
+}
