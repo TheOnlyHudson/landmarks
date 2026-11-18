@@ -1,0 +1,67 @@
+{
+  "id": "berlin-chancellery",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "modernist",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Bundeskanzleramt - Berlin - Deutschland - Germany - 04",
+      "url": "https://commons.wikimedia.org/wiki/File:Bundeskanzleramt_-_Berlin_-_Deutschland_-_Germany_-_04.jpg",
+      "author": "Norbert Nagel",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Bundeskanzleramt - Berlin - Deutschland - Germany - 07",
+      "url": "https://commons.wikimedia.org/wiki/File:Bundeskanzleramt_-_Berlin_-_Deutschland_-_Germany_-_07.jpg",
+      "author": "Norbert Nagel",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Bundeskanzleramt - Berlin - Deutschland - Germany - 06",
+      "url": "https://commons.wikimedia.org/wiki/File:Bundeskanzleramt_-_Berlin_-_Deutschland_-_Germany_-_06.jpg",
+      "author": "Norbert Nagel",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Bundeskanzleramt 2015",
+      "url": "https://commons.wikimedia.org/wiki/File:Bundeskanzleramt_2015.jpg",
+      "author": "Perituss",
+      "license": "CC0"
+    },
+    {
+      "title": "Cancillería Federal, Berlín, Alemania, 2016-04-21, DD 37-39 HDR",
+      "url": "https://commons.wikimedia.org/wiki/File:Canciller%C3%ADa_Federal,_Berl%C3%ADn,_Alemania,_2016-04-21,_DD_37-39_HDR.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berlin German Chancellery building Bundeskanzleramt (15249115614)",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_German_Chancellery_building_Bundeskanzleramt_(15249115614).jpg",
+      "author": "Reinhard Link",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/berlin-chancellery.glb",
+  "source": "generators/berlin-chancellery.ts"
+}
