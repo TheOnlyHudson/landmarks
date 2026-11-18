@@ -1,0 +1,88 @@
+{
+  "id": "tokyo-toranomon-hills-mori-tower",
+  "file": "models/tokyo-toranomon-hills-mori-tower.glb",
+  "detail": "models/tokyo-toranomon-hills-mori-tower.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-toranomon-hills-mori-tower.ts",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "hotel"
+  ],
+  "description": "247 m tower (2014, Nihon Sekkei) over the Loop Road No. 2 tunnel: a blade-like rounded parallelogram that narrows as it rises, two sharp corners rising to a steep twisted roof with a bright rim, bold fold creases on its faces, on a low planted podium.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "2018 Toranomon Hills 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_Toranomon_Hills_1.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2018 Toranomon Hills 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_Toranomon_Hills_2.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Toranomon Hills.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Toranomon_Hills.JPG",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Toranomon Hills 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Toranomon_Hills_2.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Toranomon Hills 20201112.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Toranomon_Hills_20201112.jpg",
+      "author": "Suicasmo",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "View from Azabudai Hills Mori JP Tower 33F 15.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_from_Azabudai_Hills_Mori_JP_Tower_33F_15.jpg",
+      "author": "Syced",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "View from Azabudai Hills Mori JP Tower 33F 16.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_from_Azabudai_Hills_Mori_JP_Tower_33F_16.jpg",
+      "author": "Syced",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Japanese Toranomon Hills.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Japanese_Toranomon_Hills.jpg",
+      "author": "PRiMENON",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Toranomon Hills - from a distance rainy day May 13 2022 01-54pm.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Toranomon_Hills_-_from_a_distance_rainy_day_May_13_2022_01-54pm.jpeg",
+      "author": "Nesnad",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}
