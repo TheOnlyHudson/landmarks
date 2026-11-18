@@ -1,0 +1,95 @@
+{
+  "id": "berlin-dom",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cathedral",
+    "church",
+    "historic",
+    "dome",
+    "neo-baroque"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/berlin-dom.detail.glb",
+  "detailZoom": 17,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Berliner Dom November 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Dom_November_2013.jpg",
+      "author": "Arild Vågen",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Berliner Dom, Ostseite, 160402, ako.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Dom,_Ostseite,_160402,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "View from Humboldtbox - Berlin Cathedral.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_from_Humboldtbox_-_Berlin_Cathedral.jpg",
+      "author": "A.Savin",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "2023 Berliner Dom - Westfassade -- 04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2023_Berliner_Dom_-_Westfassade_--_04.jpg",
+      "author": "Chainwit.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Berlin Cathedral from Muehlendammbruecke.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Cathedral_from_Muehlendammbruecke.jpg",
+      "author": "Mathias Krumbholz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Berliner Dom (Berlin-Mitte).Laterne.09030066.ajb.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Dom_(Berlin-Mitte).Laterne.09030066.ajb.jpg",
+      "author": "Ajepbah",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "20240815 Berlin Cathedral 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:20240815_Berlin_Cathedral_03.jpg",
+      "author": "Flocci Nivis",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Berliner Dom, Westfassade, Nacht, 160309, ako.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Dom,_Westfassade,_Nacht,_160309,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "Berliner Dom 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Dom_2015.jpg",
+      "author": "Tuxyso",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "2019 - Berliner Dom an der Spree.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_-_Berliner_Dom_an_der_Spree.jpg",
+      "author": "Moahim",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/berlin-dom.glb",
+  "source": "generators/berlin-dom.ts"
+}
