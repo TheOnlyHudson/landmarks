@@ -9,7 +9,7 @@
     "university",
     "athletics"
   ],
-  "description": "Bender Arena and the Reeves Aquatic Center occupy the stepped sports complex adjoining Butler Pavilion and the Sports Center Parking Garage.",
+  "description": "Bender Arena and the Reeves Aquatic Center occupy the stepped sports complex adjoining Butler Pavilion and the Sports Center Parking Garage. The main arena roof shows its painted AU monogram as it appeared before the solar installation.",
   "credits": [
     {
       "name": "Salty Pancakes",
@@ -43,6 +43,16 @@
       "title": "2022 DC lidar, archived processing source",
       "url": "https://github.com/kameronlee/heat-aware-pedestrian-routing/blob/456fd09d67aae857907e8c2b7fa6c19332734bd5/data/metadata/lidar_sources.md",
       "author": "District of Columbia Office of the Chief Technology Officer"
+    },
+    {
+      "title": "University roof mark on Bender Arena",
+      "url": "https://virtualglobetrotting.com/map/american-university/",
+      "author": "Virtual Globetrotting"
+    },
+    {
+      "title": "American University monogram (public-domain text logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:American_University_logo.svg",
+      "author": "American University"
     }
   ],
   "reviewStatus": "draft"

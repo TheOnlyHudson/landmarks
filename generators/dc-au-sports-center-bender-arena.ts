@@ -9,13 +9,16 @@
  * Photovoltaic array across Bender and Meltzer roofs: https://www.american.edu/about/sustainability/buildings/meltzer-athletic-center.cfm
  * Roof survey relative to ground p10 106.6 m: arena deck 15.8 m high,
  * aquatic/secondary roofs 10.6–17 m, east tower 27.4–30.7 m.
- * Surveyed roof breaks were simplified to broad volumes. Solar panel count
- * and arrangement, facade bays and finish colors are graphic estimates.
+ * The painted deck represents the documented pre-solar appearance. The AU
+ * mark is a simplified geometric rendition of the university's monogram.
+ * https://commons.wikimedia.org/wiki/File:American_University_logo.svg
+ * https://virtualglobetrotting.com/map/american-university/
+ * Placement, paint colors and facade openings are approximate.
  * No openly licensed current close-range exterior photographs established.
  */
 import { Part } from './mesh'
 import { PALETTE, finish, type Swatch } from './palette'
-import { capRing, flatShape, outward, prism, rect, finishGlb, writeModel, type XY } from './sea-tacoma-union-station'
+import { ccw, capRing, flatShape, outward, prism, rect, finishGlb, writeModel, type XY } from './sea-tacoma-union-station'
 
 /** Single-sided grouped glazing and common flat-roof details. Local y points north. */
 export class SportsShell {
@@ -26,9 +29,9 @@ export class SportsShell {
   accent = new Part()
   detail = new Part()
 
-  mass(outline: XY[], base: number, top: number) {
+  mass(outline: XY[], base: number, top: number, roofSurface = this.roof) {
     prism(this.wall, null, outline, base, top - 0.36)
-    prism(this.trim, this.roof, outline, top - 0.36, top)
+    prism(this.trim, roofSurface, outline, top - 0.36, top)
   }
 
   bays(a: XY, b: XY, sill: number, head: number, desiredBay: number, fill: number, part = this.glazing) {
@@ -90,7 +93,7 @@ if (import.meta.main) {
   [32.84, 20.45], [32.84, 3], [49.16, 3], [49.19, 7.8], [52.99, 7.81],
   [53.05, 20.47],
 ]
-  arena.mass(arenaRoof, 4.8, 15.8)
+  arena.mass(arenaRoof, 4.8, 15.8, arena.trim)
   arena.mass(poolWing, 4.8, 10.6)
   arena.mass(southWing, 4.8, 14.1)
   arena.mass(eastWing, 10.6, 16.8)
@@ -100,7 +103,23 @@ if (import.meta.main) {
   arena.mass(eastTower, 16.8, 27.4)
   arena.mass(rect(40.0, -3.5, 47.0, 8.0), 14.1, 30.7)
 
-  arena.solar(-38, -33, 4, 10, 15.92, 10.2, 6.0)
+  // Paint the mark between the surveyed rooftop housings. Its lettering runs
+  // along the long axis of the arena, readable from the campus's west side.
+  const side = 28
+  const paint = (part: Part, contour: XY[], z: number) => {
+    const plan: XY[] = contour.map(([u,v]) => [-16 + (v/100-.5)*side, 2 - (u/100-.5)*side])
+    capRing(part, ccw(plan), z)
+  }
+  paint(arena.trim, rect(0,0,100,100), 15.83)
+  paint(arena.accent, rect(1.7,1.7,50,98.3), 15.85)
+  paint(arena.detail, rect(50,1.7,98.3,98.3), 15.85)
+  // Tapered serif A and curved U share the field of the university's square device.
+  paint(arena.trim, [[2,7],[10,11],[46,96],[49,96],[81,11],[91,6],
+    [63,6],[69,10],[45,77],[17,11],[25,7]], 15.88)
+  paint(arena.trim, [[47,63],[62,63],[59,59],[59,34],[60,25],[63,18],
+    [69,14],[75,13],[81,15],[85,20],[87,28],[87,58],[82,63],[96,63],
+    [92,58],[92,27],[90,18],[85,11],[78,7],[68,6],[59,8],[53,13],
+    [50,21],[49,30],[49,59]], 15.89)
   for (const y of [-15.8, 19]) {
     prism(arena.roof, arena.trim, rect(-36, y, -25, y + 2.2), 15.8, 17.75)
     prism(arena.roof, arena.trim, rect(-17, y, -6, y + 2.2), 15.8, 17.75)
@@ -108,5 +127,6 @@ if (import.meta.main) {
   arena.bays(footprint[1], footprint[2], 7.4, 10.4, 6.0, 0.60)
   arena.bays(footprint[11], footprint[12], 4.2, 8.0, 5.8, 0.57)
   arena.bays(footprint[8], footprint[9], 3.0, 8.8, 4.7, 0.74)
-  await arena.save('dc-au-sports-center-bender-arena', 'Sports Center (Bender Arena)', 0xba9986)
+  await arena.save('dc-au-sports-center-bender-arena', 'Sports Center (Bender Arena)', 0xba9986,
+    finish('au-roof-blue', 0x5482ab), finish('au-roof-red', 0xbe4e4b))
 }

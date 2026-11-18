@@ -1,8 +1,8 @@
 # American University · Main and East campuses
 
-This batch adds 48 buildings in Washington, DC, including the four East Campus buildings, the Meltzer Center and rebuilt Sports Center Annex, two garages, and four small outbuildings. The School of International Service has its own submission in [PR #118](https://github.com/alexwohlbruck/landmarks/pull/118).
+This batch adds the Class of 1992 Clock and 48 buildings in Washington, DC, including the four East Campus buildings, the Meltzer Center and rebuilt Sports Center Annex, two garages, and four small outbuildings. The School of International Service has its own submission in [PR #118](https://github.com/alexwohlbruck/landmarks/pull/118).
 
-The six sheets show the models by day and by night on ground derived from the District’s 2022 LiDAR survey. The map’s live terrain service was unavailable during review. The placement and replacement checks use the May 22, 2026 OpenStreetMap snapshot. OpenStreetMap contributors supplied the footprints under ODbL, and each model’s catalog record links to its individual sources.
+The six building sheets show the models by day and by night on ground derived from the District’s 2022 LiDAR survey. The map’s live terrain service was unavailable during review. The placement and replacement checks use the May 22, 2026 OpenStreetMap snapshot. OpenStreetMap contributors supplied the footprints under ODbL, and each model’s catalog record links to its individual sources.
 
 ![Campus buildings, sheet 1 of 6](sheet-1.png)
 ![Campus buildings, sheet 2 of 6](sheet-2.png)
@@ -11,9 +11,16 @@ The six sheets show the models by day and by night on ground derived from the Di
 ![Campus buildings, sheet 5 of 6](sheet-5.png)
 ![Campus buildings, sheet 6 of 6](sheet-6.png)
 
+## Bender Arena roof and Bender Library clock
+
+The arena depicts the red, white and blue AU monogram on the main deck before the rooftop solar installation. The mark’s scale and paint colors are approximate. The Class of 1992 Clock stands in a planted bed on the library entrance axis. Its estimated height of 4.5 m follows a localized return in the 2022 DC surface survey. [University clock photograph](https://commons.wikimedia.org/wiki/File:Clock_of_American_University.jpg) · [University monogram](https://commons.wikimedia.org/wiki/File:American_University_logo.svg)
+
+![Clock and arena by day and night](clock-and-arena.png)
+![Overhead view of the painted AU monogram on Bender Arena](arena-roof.png)
+
 ## Review notes
 
-- All 48 models have draft status. Window spacing, material colors, and individual doors are approximate. The four ancillary structures use descriptive location names because their formal names and uses could not be confirmed.
+- All 49 models have draft status. Window spacing, material colors, and individual doors are approximate. The four ancillary structures use descriptive location names because their formal names and uses could not be confirmed.
 - The Meltzer Center and the rebuilt Sports Center Annex postdate the 2022 LiDAR survey. Their footprints use the 2026 map, and their heights and façade details are estimates.
 - The former Child Development Center has a mapped footprint and measured roof. The building’s current use is unconfirmed.
 - The campus-boundary check excluded a mapped shed without an elevated surface in the 2022 survey and a 5.5 m² outline adjoining the Media Production Center whose roof could not be verified. The grid-based overlap check flags the latter. The projected model intersects less than 0.01 m² of it. The placement preserves the separate map feature.
@@ -34,6 +41,7 @@ The six sheets show the models by day and by night on ground derived from the Di
 | Cassell Hall | `dc-au-cassell-hall` | [38.93930, -77.08896](https://www.openstreetmap.org/#map=18/38.93930/-77.08896) | 28 m | 1 | 2026 OSM plan and 2022 DC LiDAR | Façade openings and finish colors are approximate. |
 | Centennial Hall Garage | `dc-au-centennial-garage` | [38.93616, -77.09131](https://www.openstreetmap.org/#map=18/38.93616/-77.09131) | 7 m | 1 | 2026 OSM plan and 2022 DC LiDAR | Façade openings and finish colors are approximate. |
 | Centennial Hall | `dc-au-centennial-hall` | [38.93611, -77.09121](https://www.openstreetmap.org/#map=18/38.93611/-77.09121) | 37 m | 1 | 2026 OSM plan and 2022 DC LiDAR | Façade openings and finish colors are approximate. |
+| Class of 1992 Clock | `dc-au-class-of-1992-clock` | [38.93628, -77.08867](https://www.openstreetmap.org/#map=19/38.93628/-77.08867) | 4.5 m | 0 | DC surface survey, AU admissions publication and class clock photograph | Dial and pedestal proportions are approximate. |
 | Clark Hall | `dc-au-clark-hall` | [38.93547, -77.08942](https://www.openstreetmap.org/#map=18/38.93547/-77.08942) | 9 m | 1 | 2026 OSM plan and 2022 DC LiDAR | Façade openings and finish colors are approximate. |
 | Constitution Hall | `dc-au-constitution-hall` | [38.93650, -77.08661](https://www.openstreetmap.org/#map=18/38.93650/-77.08661) | 20 m | 1 | 2026 OSM plan and 2022 DC LiDAR | Façade openings and finish colors are approximate. |
 | Don Myers Technology and Innovation Building | `dc-au-don-myers-technology-and-innovation-building` | [38.93583, -77.08610](https://www.openstreetmap.org/#map=18/38.93583/-77.08610) | 11 m | 1 | 2026 OSM plan and 2022 DC LiDAR | Façade openings and finish colors are approximate. |
