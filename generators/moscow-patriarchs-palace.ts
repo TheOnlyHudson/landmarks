@@ -54,18 +54,21 @@
  * three storeys. The hipped roofs are drawn from OSM's eaves and ridge
  * heights.
  *
- * Doubts: the west wings are hardly seen in the photos and are drawn as
- * plain blocks to OSM's heights; their roofs as flat tops at the eaves.
+ * Doubts: the west wings are hardly seen in the photos; they are drawn to
+ * OSM's heights and roof tags (flat behind a parapet, untagged colour, so
+ * pale grey) with a cornice and the palace's window rhythm, two storeys
+ * over the basement, which no photo confirms.
  * The palace's carved window surrounds are left out.
  *
  * Night: walls and domes floodlit; windows glow.
  */
 import { Part, type V3 } from './mesh'
 import { PALETTE, finish } from './palette'
-import { prism, type XY } from './sf-de-young'
+import { ccw, flat as flatTop, offset, prism, type XY } from './sf-de-young'
 import { apse, archPanel, block, cross, dome, drum, finishModel, floodDomes, floodWalls, quadOut, rectPanel, triOut, wedge, zakomaraBlock } from './moscow-church-kit'
 
 const white = new Part(), trim = new Part(), roof = new Part(), silver = new Part(), gold = new Part(), win = new Part()
+const flat = silver
 const S: V3 = [0, -1, 0], N: V3 = [0, 1, 0], E: V3 = [1, 0, 0], AX: V3 = [1, 0, 0]
 
 /** A hipped roof over a rectangle from its eaves at z, the ridge `rise` higher, with a small overhang. */
@@ -119,10 +122,34 @@ block(white, 5.6, 5.2, 0, 8.4, 7.5, 7.0, roof)
 block(white, 15.8, 11.9, 0, 19.2, 13.4, 7.0, roof)
 
 // ---------------------------------------------------------------- the west wings, plain
-const NW: XY[] = [[-46.7, 19.8], [-33.8, 10.1], [-30.0, 0.0], [-24.4, -0.5], [-24.4, 6.2], [-15.1, 5.9], [-14.6, 12.7], [-38.6, 30.5]]
+const NW: XY[] = [[-45.9, 19.2], [-33.8, 10.1], [-33.0, 8.4], [-32.1, 7.0], [-31.3, 5.6], [-30.7, 4.4], [-30.3, 2.9], [-30.0, 1.3], [-30.0, 0.0], [-24.4, -0.5], [-24.4, 6.2], [-15.1, 5.9], [-14.6, 12.7], [-37.8, 29.9]]
 const SW: XY[] = [[-30.0, 0.0], [-29.7, -6.8], [-40.7, -15.2], [-42.9, -23.8], [-42.2, -25.9], [-36.5, -27.1], [-34.6, -19.0], [-28.2, -13.8], [-24.4, -13.9], [-24.4, -0.5]]
-prism(white, NW, 0, 11, roof)
-prism(white, SW, 0, 12.3, roof)
+// OSM: the north-west wing two storeys over a 5 m basement to a flat roof at
+// 11 m with a 0.5 m parapet (way/1571059991-1571059992); the south-west wing
+// 12.3 m under low lean-to roofs to 14.2 m. No roof colour is tagged; the
+// flat roofs are drawn pale grey metal, the palace's green-grey kept for its
+// pitched roofs.
+wing(NW, 11, 11.5, [1.4, 5.6, 8.4])
+wing(SW, 12.3, 12.8, [1.4, 5.6, 9.2])
+
+/** A plain wing: walls, a cornice, a parapet over a flat roof, rows of windows on its outer fronts. */
+function wing(ring0: XY[], h: number, hp: number, rows: number[]) {
+  const ring = ccw(ring0)
+  prism(white, ring, 0, hp, null)
+  flatTop(flat, offset(ring, -0.35), hp - 0.6)
+  prism(white, offset(ring, -0.35), hp - 0.6, hp, null)
+  prism(trim, offset(ring, 0.2), h - 0.7, h - 0.2, null)
+  for (let i = 0; i < ring.length; i++) {
+    const a = ring[i], b = ring[(i + 1) % ring.length], L = Math.hypot(b[0] - a[0], b[1] - a[1])
+    if (L < 4 || (Math.abs(a[0] + 24.4) < 0.2 && Math.abs(b[0] + 24.4) < 0.2) || (Math.abs(a[0] + 30) < 0.1 && Math.abs(b[0] + 24.4) < 0.1) || (Math.abs(a[0] + 24.4) < 0.1 && Math.abs(b[0] + 30) < 0.1)) continue
+    const u: V3 = [(b[0] - a[0]) / L, (b[1] - a[1]) / L, 0], n: V3 = [u[1], -u[0], 0]
+    const k = Math.floor(L / 3.4)
+    for (let j = 0; j < k; j++) {
+      const t = (L / k) * (j + 0.5)
+      for (const z of rows) rectPanel(win, [a[0] + u[0] * t, a[1] + u[1] * t, z], u, n, 1.1, 1.7)
+    }
+  }
+}
 
 // ---------------------------------------------------------------- the Church of the Twelve Apostles
 const CX0 = 31.1, CX1 = 48.8, CY0 = -10.0, CY1 = 6.0
