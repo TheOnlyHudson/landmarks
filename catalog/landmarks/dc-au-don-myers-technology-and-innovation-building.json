@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-don-myers-technology-and-innovation-building",
+  "name": "Don Myers Technology and Innovation Building",
+  "model": "dc-au-don-myers-technology-and-innovation-building",
+  "place": "american-university",
+  "lng": -77.0861016,
+  "lat": 38.935825,
+  "bearing": 33.5971,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/535124892"
+  ]
+}
