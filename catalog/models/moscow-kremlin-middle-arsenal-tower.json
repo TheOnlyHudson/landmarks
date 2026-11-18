@@ -1,0 +1,62 @@
+{
+  "id": "moscow-kremlin-middle-arsenal-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "A square Kremlin tower on the Alexander Garden wall behind the Grotto: brick shaft, merlons, a dark green tent with dormers, a small lookout and a gilt vane.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Middle Arsenal Tower 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Middle_Arsenal_Tower_1.jpg",
+      "author": "Osazemen",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Middle Arsenal Tower 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Middle_Arsenal_Tower_2.jpg",
+      "author": "Osazemen",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Russia-Moscow-Kremlin-Middle Arsenal Tower-3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Russia-Moscow-Kremlin-Middle_Arsenal_Tower-3.jpg",
+      "license": "PD"
+    },
+    {
+      "title": "Russia-Moscow-Kremlin-Middle Arsenal Tower-2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Russia-Moscow-Kremlin-Middle_Arsenal_Tower-2.jpg",
+      "author": "Alex Zelenko",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Russia-Moscow-Kremlin-Middle Arsenal Tower-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Russia-Moscow-Kremlin-Middle_Arsenal_Tower-1.jpg",
+      "author": "Alex Zelenko",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-middle-arsenal-tower.glb",
+  "source": "generators/moscow-kremlin-middle-arsenal-tower.ts"
+}
