@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-media-center-west-outbuilding",
+  "name": "West Outbuilding near the Media Production Center",
+  "model": "dc-au-media-center-west-outbuilding",
+  "place": "american-university",
+  "lng": -77.0921631,
+  "lat": 38.9363044,
+  "bearing": 33.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/90190349"
+  ]
+}
