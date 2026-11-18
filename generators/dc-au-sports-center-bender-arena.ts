@@ -16,6 +16,7 @@
  * Placement, paint colors and facade openings are approximate.
  * No openly licensed current close-range exterior photographs established.
  */
+import { Shape } from 'three'
 import { Part } from './mesh'
 import { PALETTE, finish, type Swatch } from './palette'
 import { ccw, capRing, flatShape, outward, prism, rect, finishGlb, writeModel, type XY } from './sea-tacoma-union-station'
@@ -55,11 +56,11 @@ export class SportsShell {
     }
   }
 
-  async save(id: string, title: string, wallColor: number, accent = finish('photovoltaic', 0x586c80, 0.4), detail: Swatch = PALETTE.entrance) {
+  async save(id: string, title: string, wallColor: number, accent = finish('photovoltaic', 0x586c80, 0.4), detail: Swatch = PALETTE.entrance, trim: Swatch = PALETTE.trim) {
     await writeModel(id, finishGlb(title, [
       { part: this.wall, material: finish('campus-masonry', wallColor) },
       { part: this.roof, material: PALETTE.roof },
-      { part: this.trim, material: PALETTE.trim },
+      { part: this.trim, material: trim },
       { part: this.glazing, material: PALETTE.window },
       { part: this.accent, material: accent },
       { part: this.detail, material: detail },
@@ -105,21 +106,72 @@ if (import.meta.main) {
 
   // Paint the mark between the surveyed rooftop housings. Its lettering runs
   // along the long axis of the arena, readable from the campus's west side.
-  const side = 28
-  const paint = (part: Part, contour: XY[], z: number) => {
-    const plan: XY[] = contour.map(([u,v]) => [-16 + (v/100-.5)*side, 2 - (u/100-.5)*side])
-    capRing(part, ccw(plan), z)
+  // Draw the colored fields of the supplied university mark on white paint.
+  // Their boundaries define both interlocking letters, including the shared
+  // crossbar, the curved serifs, and the open bowl at the lower edge.
+  // Artboard coordinates run right and down from the top left of the paint.
+  const metresPerUnit = 28 / 826
+  const paint = (part: Part, shape: Shape) => {
+    const ring: XY[] = shape.getPoints(10).map(({x, y}) => [
+      -16 + (429 - y) * metresPerUnit,
+      2 + (413 - x) * metresPerUnit,
+    ])
+    capRing(part, ccw(ring), 15.85)
   }
-  paint(arena.trim, rect(0,0,100,100), 15.83)
-  paint(arena.accent, rect(1.7,1.7,50,98.3), 15.85)
-  paint(arena.detail, rect(50,1.7,98.3,98.3), 15.85)
-  // Tapered serif A and curved U share the field of the university's square device.
-  paint(arena.trim, [[2,7],[10,11],[46,96],[49,96],[81,11],[91,6],
-    [63,6],[69,10],[45,77],[17,11],[25,7]], 15.88)
-  paint(arena.trim, [[47,63],[62,63],[59,59],[59,34],[60,25],[63,18],
-    [69,14],[75,13],[81,15],[85,20],[87,28],[87,58],[82,63],[96,63],
-    [92,58],[92,27],[90,18],[85,11],[78,7],[68,6],[59,8],[53,13],
-    [50,21],[49,30],[49,59]], 15.89)
+  // The blue field wraps the left foot of the A and the falling stem of the U.
+  paint(arena.accent, new Shape()
+    .moveTo(0, 0)
+    .lineTo(410, 0)
+    .lineTo(232, 443)
+    .bezierCurveTo(201, 522, 175, 559, 110, 568)
+    .lineTo(110, 582)
+    .lineTo(355, 582)
+    .lineTo(355, 568)
+    .bezierCurveTo(272, 556, 248, 542, 258, 487)
+    .bezierCurveTo(262, 462, 276, 419, 290, 382)
+    .bezierCurveTo(364, 393, 378, 409, 378, 482)
+    .lineTo(378, 684)
+    .bezierCurveTo(377, 763, 390, 821, 444, 858)
+    .lineTo(0, 858))
+  // The split inside the A continues the vertical color division.
+  paint(arena.accent, new Shape()
+    .moveTo(414, 69)
+    .lineTo(414, 371)
+    .lineTo(295, 371))
+  paint(arena.detail, new Shape()
+    .moveTo(414, 69)
+    .lineTo(532, 371)
+    .lineTo(414, 371))
+  // The upper red field leaves a swept serif between the A and the right stem.
+  paint(arena.detail, new Shape()
+    .moveTo(475, 0)
+    .lineTo(826, 0)
+    .lineTo(826, 371)
+    .lineTo(643, 371)
+    .lineTo(643, 382)
+    .bezierCurveTo(732, 390, 747, 423, 748, 507)
+    .lineTo(748, 564)
+    .bezierCurveTo(708, 556, 686, 525, 664, 475))
+  // The inner red bowl defines the curved bottom of the U.
+  paint(arena.detail, new Shape()
+    .moveTo(537, 383)
+    .lineTo(569, 468)
+    .bezierCurveTo(592, 537, 571, 556, 493, 569)
+    .lineTo(493, 582)
+    .lineTo(748, 582)
+    .lineTo(748, 679)
+    .bezierCurveTo(747, 792, 718, 855, 611, 855)
+    .bezierCurveTo(502, 855, 441, 801, 441, 687)
+    .lineTo(441, 486)
+    .bezierCurveTo(441, 410, 452, 397, 537, 383))
+  // The lower right red corner shapes the outside of the U.
+  paint(arena.detail, new Shape()
+    .moveTo(826, 387)
+    .lineTo(826, 858)
+    .lineTo(699, 858)
+    .bezierCurveTo(754, 818, 772, 761, 773, 683)
+    .lineTo(778, 500)
+    .bezierCurveTo(780, 427, 790, 403, 826, 387))
   for (const y of [-15.8, 19]) {
     prism(arena.roof, arena.trim, rect(-36, y, -25, y + 2.2), 15.8, 17.75)
     prism(arena.roof, arena.trim, rect(-17, y, -6, y + 2.2), 15.8, 17.75)
@@ -128,5 +180,5 @@ if (import.meta.main) {
   arena.bays(footprint[11], footprint[12], 4.2, 8.0, 5.8, 0.57)
   arena.bays(footprint[8], footprint[9], 3.0, 8.8, 4.7, 0.74)
   await arena.save('dc-au-sports-center-bender-arena', 'Sports Center (Bender Arena)', 0xba9986,
-    finish('au-roof-blue', 0x5482ab), finish('au-roof-red', 0xbe4e4b))
+    finish('au-roof-blue', 0x8bb3d2), finish('au-roof-red', 0xdc7877), finish('arena-roof-white', 0xf9f8f4))
 }

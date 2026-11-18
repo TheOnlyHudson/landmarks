@@ -13,7 +13,7 @@ The six building sheets show the models by day and by night on ground derived fr
 
 ## Bender Arena roof and Bender Library clock
 
-The arena depicts the red, white and blue AU monogram on the main deck before the rooftop solar installation. The mark’s scale and paint colors are approximate. The Class of 1992 Clock stands in a planted bed on the library entrance axis. Its estimated height of 4.5 m follows a localized return in the 2022 DC surface survey. [University clock photograph](https://commons.wikimedia.org/wiki/File:Clock_of_American_University.jpg) · [University monogram](https://commons.wikimedia.org/wiki/File:American_University_logo.svg)
+The arena depicts the red, white and blue AU monogram on the main deck before the rooftop solar installation. The white serif A and U interlock across the blue and red fields. The model uses faded paint colors and an estimated 28 m width. The Class of 1992 Clock stands in a planted bed on the library entrance axis. Its estimated height of 4.5 m follows a localized return in the 2022 DC surface survey. [University clock photograph](https://commons.wikimedia.org/wiki/File:Clock_of_American_University.jpg) · [University monogram](https://commons.wikimedia.org/wiki/File:American_University_logo.svg)
 
 ![Clock and arena by day and night](clock-and-arena.png)
 ![Overhead view of the painted AU monogram on Bender Arena](arena-roof.png)
