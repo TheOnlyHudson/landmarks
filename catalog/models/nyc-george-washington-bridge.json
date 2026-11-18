@@ -1,6 +1,8 @@
 {
   "id": "nyc-george-washington-bridge",
   "file": "models/nyc-george-washington-bridge.glb",
+  "detail": "models/nyc-george-washington-bridge.detail.glb",
+  "detailZoom": 16,
   "license": "CC0-1.0",
   "author": "Alex Wohlbruck",
   "source": "generators/nyc-george-washington-bridge.ts",
