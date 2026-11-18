@@ -1,0 +1,45 @@
+{
+  "id": "dc-au-kay-spiritual-life-center",
+  "source": "generators/dc-au-kay-spiritual-life-center.ts",
+  "file": "models/dc-au-kay-spiritual-life-center.glb",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "chapel"
+  ],
+  "description": "Kay Spiritual Life Center is the circular interfaith chapel at the head of the Friedheim Quadrangle. A gold-leaf bronze flame crowns the roof.",
+  "reviewStatus": "draft",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "GPT-6"
+    }
+  ],
+  "references": [
+    {
+      "title": "Eric Freidheim Quadrangle.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Eric_Freidheim_Quadrangle.jpg",
+      "author": "Herrperry123",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "History of the Kay Spiritual Life Center",
+      "author": "American University",
+      "url": "https://www.american.edu/student-affairs/kay/kay-history.cfm"
+    },
+    {
+      "title": "2022 DC OCTO lidar, building DSM and bare-earth DEM",
+      "author": "District of Columbia Office of the Chief Technology Officer",
+      "url": "https://github.com/kameronlee/heat-aware-pedestrian-routing/tree/456fd09d67aae857907e8c2b7fa6c19332734bd5"
+    }
+  ]
+}
