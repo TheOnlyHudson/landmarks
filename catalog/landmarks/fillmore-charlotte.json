@@ -1,0 +1,14 @@
+{
+  "id": "fillmore-charlotte",
+  "name": "The Fillmore Charlotte",
+  "model": "fillmore-charlotte",
+  "lng": -80.8455509,
+  "lat": 35.2397597,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/414800516"
+  ],
+  "place": "charlotte-area"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "chi-333-wacker",
+  "name": "333 Wacker Drive",
+  "model": "chi-333-wacker",
+  "lng": -87.6359245,
+  "lat": 41.8860954,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q225835",
+  "replaces": [
+    "way/116017092"
+  ],
+  "place": "chicago-area"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-magere-brug",
+  "name": "Magere Brug",
+  "model": "amsterdam-magere-brug",
+  "place": "amsterdam",
+  "lng": 4.902358,
+  "lat": 52.363581,
+  "bearing": 73.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/601096321"
+  ],
+  "wikidata": "Q1344400"
+}

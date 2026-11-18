@@ -1,0 +1,17 @@
+{
+  "id": "amsterdam-johan-cruijff-arena",
+  "name": "Johan Cruijff ArenA",
+  "model": "amsterdam-johan-cruijff-arena",
+  "place": "amsterdam",
+  "lng": 4.941771,
+  "lat": 52.314318,
+  "bearing": 330.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/1458682",
+    "way/282372120",
+    "way/282372125"
+  ],
+  "wikidata": "Q207109"
+}

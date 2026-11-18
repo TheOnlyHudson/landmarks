@@ -1,0 +1,13 @@
+{
+  "id": "paris-las-vegas-eiffel-tower",
+  "name": "Eiffel Tower, Paris Las Vegas",
+  "model": "eiffel-tower",
+  "lng": -115.1721676,
+  "lat": 36.1124702,
+  "bearing": 45,
+  "scale": 0.5,
+  "replaces": [
+    "way/27831699"
+  ],
+  "place": "las-vegas-area"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "chi-adler-planetarium",
+  "name": "Adler Planetarium",
+  "model": "chi-adler-planetarium",
+  "lng": -87.6067964,
+  "lat": 41.8663603,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q358052",
+  "replaces": [
+    "way/24825591",
+    "way/766703208",
+    "way/686342956"
+  ],
+  "place": "chicago-area"
+}

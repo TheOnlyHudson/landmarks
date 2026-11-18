@@ -1,0 +1,20 @@
+{
+  "id": "tokyo-skytree",
+  "name": "Tokyo Skytree",
+  "model": "tokyo-skytree",
+  "lng": 139.8107141,
+  "lat": 35.7100453,
+  "bearing": 353,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q57965",
+  "replaces": [
+    "way/288269147",
+    "way/362351414",
+    "way/362351415",
+    "way/288269148",
+    "way/557938593",
+    "way/557938595"
+  ],
+  "place": "tokyo"
+}

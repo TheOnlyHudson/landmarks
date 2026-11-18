@@ -1,0 +1,22 @@
+{
+  "id": "sd-botanical-building",
+  "name": "Botanical Building",
+  "model": "sd-botanical-building",
+  "place": "san-diego-area",
+  "lng": -117.14923,
+  "lat": 32.73251,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/25775425",
+    "way/1146822818",
+    "way/1573861954",
+    "way/1573861955",
+    "way/1573861942",
+    "way/1573861943",
+    "way/1573861944",
+    "way/1573861945"
+  ],
+  "wikidata": "Q27704699"
+}

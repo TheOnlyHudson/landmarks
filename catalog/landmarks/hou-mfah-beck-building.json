@@ -1,0 +1,17 @@
+{
+  "id": "hou-mfah-beck-building",
+  "name": "Audrey Jones Beck Building",
+  "model": "hou-mfah-beck-building",
+  "place": "houston-area",
+  "lng": -95.3894815,
+  "lat": 29.7250784,
+  "bearing": 34.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/45776251",
+    "way/1559187457",
+    "way/1559187456"
+  ],
+  "wikidata": "Q119820228"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-ataturk-cultural-center",
+  "name": "Atatürk Cultural Center",
+  "model": "istanbul-ataturk-cultural-center",
+  "place": "istanbul",
+  "lng": 28.988264,
+  "lat": 41.036578,
+  "bearing": 285,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q551685",
+  "replaces": [
+    "way/1033333873"
+  ]
+}

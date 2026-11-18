@@ -1,0 +1,17 @@
+{
+  "id": "sea-tacoma-dome",
+  "name": "Tacoma Dome",
+  "model": "sea-tacoma-dome",
+  "lng": -122.4270038,
+  "lat": 47.2368426,
+  "bearing": 351,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1570942",
+  "replaces": [
+    "way/32660308",
+    "way/1352265453",
+    "way/1352265454"
+  ],
+  "place": "seattle-area"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "london-royal-courts-of-justice",
+  "file": "models/london-royal-courts-of-justice.glb",
+  "detail": "models/london-royal-courts-of-justice.detail.glb",
+  "detailZoom": 17,
+  "source": "generators/london-royal-courts-of-justice.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "courthouse",
+    "gothic-revival",
+    "victorian",
+    "listed",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "G. E. Street's Victorian Gothic law courts (1873–82): the pointed entrance arch between two spired turrets under the Great Hall's gable and flèche, the Bell Yard clock tower, and a skyline of steep slate roofs, gables, turrets and spirelets in pale Portland stone and banded brick.",
+  "references": [
+    {
+      "title": "Royal Courts of Justice FotoThalerTamas.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Courts_of_Justice_FotoThalerTamas.jpg",
+      "author": "Thaler Tamas",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Westminster - Royal Courts of Justice - geograph.org.uk - 7482736.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Westminster_-_Royal_Courts_of_Justice_-_geograph.org.uk_-_7482736.jpg",
+      "author": "Colin Smith",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "View of the Royal Courts of Justice from Fleet Street - geograph.org.uk - 5117408.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_the_Royal_Courts_of_Justice_from_Fleet_Street_-_geograph.org.uk_-_5117408.jpg",
+      "author": "Robert Lamb",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "The Clocktower of the Royal Courts of Justice - 8705733950.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Clocktower_of_the_Royal_Courts_of_Justice_-_8705733950.jpg",
+      "author": "Ronnie Macdonald",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "1264258 I Royal Courts of Justice, The Strand WC2A 2LL London 20250615 0001.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:1264258_I_Royal_Courts_of_Justice,_The_Strand_WC2A_2LL_London_20250615_0001.jpg",
+      "author": "Tilman2007",
+      "license": "CC-BY-SA-4.0"
+    }
+  ]
+}

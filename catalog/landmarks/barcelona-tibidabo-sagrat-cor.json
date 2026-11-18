@@ -1,0 +1,16 @@
+{
+  "id": "barcelona-tibidabo-sagrat-cor",
+  "name": "Temple Expiatori del Sagrat Cor",
+  "model": "barcelona-tibidabo-sagrat-cor",
+  "place": "barcelona",
+  "lng": 2.118801,
+  "lat": 41.4221,
+  "bearing": 162,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/486759610",
+    "way/387589500"
+  ],
+  "wikidata": "Q1189293"
+}

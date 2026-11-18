@@ -1,0 +1,15 @@
+{
+  "id": "lv-neon-museum",
+  "name": "Neon Museum (La Concha lobby)",
+  "model": "lv-neon-museum",
+  "lng": -115.1354129,
+  "lat": 36.1770538,
+  "bearing": 197,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q6461932",
+  "replaces": [
+    "way/543178410"
+  ],
+  "place": "las-vegas-area"
+}

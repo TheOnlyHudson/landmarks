@@ -1,0 +1,15 @@
+{
+  "id": "lv-fremont-canopy",
+  "name": "Fremont Street Experience canopy",
+  "model": "lv-fremont-canopy",
+  "lng": -115.1440772,
+  "lat": 36.1707045,
+  "bearing": 117.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1368842",
+  "replaces": [
+    "way/1428180251"
+  ],
+  "place": "las-vegas-area"
+}

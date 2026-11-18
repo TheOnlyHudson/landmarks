@@ -1,0 +1,14 @@
+{
+  "id": "cpt-parliament",
+  "name": "Houses of Parliament",
+  "model": "cpt-parliament",
+  "place": "cape-town",
+  "lng": 18.4197251,
+  "lat": -33.9257997,
+  "bearing": 41.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/141281524"
+  ]
+}

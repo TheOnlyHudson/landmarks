@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-university-gate",
+  "name": "Istanbul University Gate",
+  "model": "istanbul-university-gate",
+  "place": "istanbul",
+  "lng": 28.964231,
+  "lat": 41.010991,
+  "bearing": 349,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q134728582",
+  "replaces": [
+    "way/110016998"
+  ]
+}

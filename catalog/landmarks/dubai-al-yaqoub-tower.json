@@ -1,0 +1,15 @@
+{
+  "id": "dubai-al-yaqoub-tower",
+  "name": "Al Yaqoub Tower",
+  "model": "dubai-al-yaqoub-tower",
+  "place": "dubai",
+  "lng": 55.279777,
+  "lat": 25.2164029,
+  "bearing": 32.8,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/238284900"
+  ],
+  "wikidata": "Q1808295"
+}

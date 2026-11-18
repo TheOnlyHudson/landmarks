@@ -1,0 +1,17 @@
+{
+  "id": "chi-carbide-carbon",
+  "name": "Carbide & Carbon Building",
+  "model": "chi-carbide-carbon",
+  "lng": -87.625008,
+  "lat": 41.886526,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1925179",
+  "replaces": [
+    "way/148544831",
+    "way/147400407",
+    "way/148544830"
+  ],
+  "place": "chicago-area"
+}

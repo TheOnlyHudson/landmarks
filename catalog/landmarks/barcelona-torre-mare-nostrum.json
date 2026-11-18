@@ -1,0 +1,30 @@
+{
+  "id": "barcelona-torre-mare-nostrum",
+  "name": "Torre Mare Nostrum",
+  "model": "barcelona-torre-mare-nostrum",
+  "place": "barcelona",
+  "lng": 2.190511,
+  "lat": 41.38318,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/21213758",
+    "way/306118990",
+    "way/306118991",
+    "way/306118992",
+    "way/306118993",
+    "way/306118994",
+    "way/306118995",
+    "way/306118996",
+    "way/306118997",
+    "way/306118998",
+    "way/306118999",
+    "way/306119000",
+    "way/306119001",
+    "way/306119002",
+    "way/306119003",
+    "way/306119762"
+  ],
+  "wikidata": "Q5338037"
+}

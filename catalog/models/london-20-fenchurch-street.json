@@ -1,0 +1,69 @@
+{
+  "id": "london-20-fenchurch-street",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "observation-deck",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "wikidata": "Q212834",
+  "references": [
+    {
+      "title": "20 Fenchurch St (Walkie-Talkie building) from Rood Ln, London, UK - Diliff",
+      "url": "https://commons.wikimedia.org/wiki/File:20_Fenchurch_St_(Walkie-Talkie_building)_from_Rood_Ln,_London,_UK_-_Diliff.jpg",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Walkie-Talkie, Londres, Inglaterra, 2014-08-11, DD 098",
+      "url": "https://commons.wikimedia.org/wiki/File:Walkie-Talkie,_Londres,_Inglaterra,_2014-08-11,_DD_098.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "20 Fenchurch Street Mars 2014",
+      "url": "https://commons.wikimedia.org/wiki/File:20_Fenchurch_Street_Mars_2014.jpg",
+      "author": "Arild Vågen",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "City of London as seen from The Shard, 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:City_of_London_as_seen_from_The_Shard,_2026.jpg",
+      "author": "ThatsTheBoss",
+      "license": "CC0"
+    },
+    {
+      "title": "London, Southwark - City of London from The Shard (geograph 4828469)",
+      "url": "https://commons.wikimedia.org/wiki/File:London_,_Southwark_-_City_of_London_from_The_Shard_-_geograph.org.uk_-_4828469.jpg",
+      "author": "Lewis Clarke",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "City of London from Monument",
+      "url": "https://commons.wikimedia.org/wiki/File:City_of_London_from_Monument.jpg",
+      "author": "VirtuallyLondonBecky",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/london-20-fenchurch-street.glb",
+  "source": "generators/london-20-fenchurch-street.ts"
+}

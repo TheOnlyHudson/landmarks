@@ -1,0 +1,16 @@
+{
+  "id": "dlr-soarin",
+  "name": "Soarin' Around the World",
+  "model": "dlr-soarin",
+  "lng": -117.9200872,
+  "lat": 33.808416,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2775778",
+  "replaces": [
+    "way/312369808",
+    "way/121865023"
+  ],
+  "place": "disneyland"
+}

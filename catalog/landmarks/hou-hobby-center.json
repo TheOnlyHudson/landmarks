@@ -1,0 +1,15 @@
+{
+  "id": "hou-hobby-center",
+  "name": "Hobby Center for the Performing Arts",
+  "model": "hou-hobby-center",
+  "place": "houston-area",
+  "lng": -95.3696649,
+  "lat": 29.7616924,
+  "bearing": 34.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5874936",
+  "replaces": [
+    "way/257997076"
+  ]
+}

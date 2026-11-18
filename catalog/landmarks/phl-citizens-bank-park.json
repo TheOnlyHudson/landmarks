@@ -1,0 +1,20 @@
+{
+  "id": "phl-citizens-bank-park",
+  "name": "Citizens Bank Park",
+  "model": "phl-citizens-bank-park",
+  "place": "philadelphia-area",
+  "lng": -75.166491,
+  "lat": 39.90595,
+  "bearing": 9,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q912770",
+  "replaces": [
+    "relation/1348884",
+    "way/92483436",
+    "way/92483440",
+    "way/255596565",
+    "way/255596566",
+    "way/255596569"
+  ]
+}

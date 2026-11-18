@@ -1,0 +1,23 @@
+{
+  "id": "mexico-city-museo-soumaya",
+  "name": "Museo Soumaya",
+  "model": "mexico-city-museo-soumaya",
+  "place": "mexico-city",
+  "lng": -99.2046085,
+  "lat": 19.4408033,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/158035385",
+    "way/1467517965",
+    "way/1467517966",
+    "way/1467517967",
+    "way/1467517968",
+    "way/1467517969",
+    "way/1467517970",
+    "way/1467517971",
+    "way/1467517972"
+  ],
+  "wikidata": "Q50413488"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "sydney-opera-house",
+  "file": "models/sydney-opera-house.glb",
+  "license": "CC0-1.0",
+  "source": "generators/sydney-opera-house.ts",
+  "type": "building",
+  "collection": "landmarks",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "tags": [
+    "opera-house",
+    "performing-arts",
+    "unesco-world-heritage"
+  ],
+  "description": "Jørn Utzon's performing arts centre of 1973 on Bennelong Point: white tiled shells cut from one sphere, in three groups on a granite podium above the Monumental Steps.",
+  "references": [
+    {
+      "title": "Sydney opera house side view.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_opera_house_side_view.jpg",
+      "author": "Matthew Field",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Sydney Opera House - Dec 2008.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_-_Dec_2008.jpg",
+      "author": "Diliff",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "MC Sydney Opera House.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:MC_Sydney_Opera_House.jpg",
+      "author": "Christian Mehlführer",
+      "license": "CC-BY-2.5"
+    },
+    {
+      "title": "Sydney Opera House 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_01.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Sydney Opera House in 2011.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_in_2011.jpg",
+      "author": "Bernard Spragg",
+      "license": "Public domain"
+    }
+  ],
+  "reviewStatus": "unreviewed"
+}

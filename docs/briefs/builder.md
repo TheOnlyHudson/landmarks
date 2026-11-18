@@ -16,7 +16,7 @@ rules exactly.
 
 - Write only `WT/generators/<id>.ts` (a procedural generator) and
   `WT/models/<id>.glb` (its output: `cd WT && bun generators/<id>.ts`).
-- Don't edit anything else: not `catalog.json`, `mesh.ts`, `palette.ts`,
+- Don't edit anything else: not `catalog/`, `mesh.ts`, `palette.ts`,
   `coaster-kit.ts`, `STYLE.md`, tests or tools. Put helpers in your own
   generator. A helper shared by several of your models may live in one of
   your generators, exported, with that generator's own build behind
@@ -223,7 +223,7 @@ credit requires its own `model` field. A person's profile is optional: a
 accepted), or any other profile as `url`. Choose a primary `type`, descriptive slug `tags`, and
 the real license (CC0-1.0 is the default). CC-BY models need `attribution`;
 custom licenses need `licenseUrl`. Include `wikidata` only when known.
-The lead must prepare `<place-id>` in `catalog.places` before merging models;
+The lead must prepare `<place-id>` in `catalog/places/` before merging models;
 the scratch file does not create place records. Keep contributor/source credits
 separate from photo references. Put publishable visual-reference credits in
 `model.references` as well as the generator header.

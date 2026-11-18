@@ -1,0 +1,29 @@
+{
+  "id": "hou-williams-tower",
+  "name": "Williams Tower",
+  "model": "hou-williams-tower",
+  "place": "houston-area",
+  "wikidata": "Q1357650",
+  "lng": -95.461394,
+  "lat": 29.737262,
+  "bearing": 359.1,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/48486714",
+    "relation/8221404",
+    "way/581342682",
+    "way/581342685",
+    "way/581342686",
+    "way/581354690",
+    "way/581354691",
+    "way/581354692",
+    "way/581354693",
+    "way/581354694",
+    "way/581354695",
+    "way/581354696",
+    "way/581354697",
+    "way/581354698",
+    "way/581354699"
+  ]
+}

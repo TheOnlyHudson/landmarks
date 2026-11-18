@@ -1,0 +1,18 @@
+{
+  "id": "chi-wrigley-building",
+  "name": "Wrigley Building",
+  "model": "chi-wrigley-building",
+  "lng": -87.624884,
+  "lat": 41.88974,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1464592",
+  "replaces": [
+    "relation/17460539",
+    "way/686197567",
+    "way/686197572",
+    "way/686197576"
+  ],
+  "place": "chicago-area"
+}

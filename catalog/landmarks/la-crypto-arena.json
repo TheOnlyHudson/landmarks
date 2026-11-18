@@ -1,0 +1,16 @@
+{
+  "id": "la-crypto-arena",
+  "name": "Crypto.com Arena",
+  "model": "la-crypto-arena",
+  "lng": -118.2670807,
+  "lat": 34.0430832,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q186080",
+  "replaces": [
+    "way/428021739",
+    "way/491696575"
+  ],
+  "place": "los-angeles-area"
+}

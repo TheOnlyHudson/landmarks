@@ -1,0 +1,28 @@
+{
+  "id": "munich-schloss-nymphenburg",
+  "name": "Schloss Nymphenburg",
+  "model": "munich-schloss-nymphenburg",
+  "place": "munich",
+  "lng": 11.5045175,
+  "lat": 48.1583221,
+  "bearing": 357,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q131631",
+  "replaces": [
+    "relation/2144986",
+    "way/160265535",
+    "way/311978908",
+    "way/311978909",
+    "way/311978905",
+    "way/311978913",
+    "way/311978907",
+    "way/311978914",
+    "way/312000915",
+    "way/311978911",
+    "way/311978915",
+    "way/311978910",
+    "relation/12127738",
+    "relation/12127745"
+  ]
+}

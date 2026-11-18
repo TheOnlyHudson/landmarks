@@ -1,0 +1,68 @@
+{
+  "id": "sd-electra",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "residential",
+    "historic",
+    "adaptive-reuse"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "ElectraSanDiegoApr09",
+      "url": "https://commons.wikimedia.org/wiki/File:ElectraSanDiegoApr09.jpg",
+      "author": "Nehrams2020",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "San Diego, 2016 - 204",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_204.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kettner Boulevard",
+      "url": "https://commons.wikimedia.org/wiki/File:Kettner_Boulevard.JPG",
+      "author": "Vrysxy",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Kettner Blvd",
+      "url": "https://commons.wikimedia.org/wiki/File:Kettner_Blvd.JPG",
+      "author": "Vrysxy",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "San Diego sdflgn",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Diego_sdflgn.jpg",
+      "author": "Luciof",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "San Diego - California - Yacht Harbor with Hotels (cropped)",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Diego_-_California_-_Yacht_Harbor_with_Hotels_(cropped).jpg",
+      "author": "PictorialEvidence",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/sd-electra.glb",
+  "source": "generators/sd-electra.ts"
+}

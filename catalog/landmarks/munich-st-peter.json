@@ -1,0 +1,31 @@
+{
+  "id": "munich-st-peter",
+  "name": "St. Peter (Alter Peter)",
+  "model": "munich-st-peter",
+  "place": "munich",
+  "lng": 11.576031,
+  "lat": 48.136473,
+  "bearing": 14,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q707645",
+  "replaces": [
+    "way/228534603",
+    "way/35903317",
+    "way/225717101",
+    "way/225717105",
+    "way/225910817",
+    "way/225910818",
+    "way/225910819",
+    "way/225910820",
+    "way/225910821",
+    "way/225910822",
+    "way/225910823",
+    "way/225984495",
+    "way/225984496",
+    "way/225987427",
+    "way/225987428",
+    "way/225987429",
+    "way/228534639"
+  ]
+}

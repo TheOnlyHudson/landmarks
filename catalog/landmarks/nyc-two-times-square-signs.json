@@ -1,0 +1,12 @@
+{
+  "id": "nyc-two-times-square-signs",
+  "name": "Two Times Square Signs (Coca-Cola Sign)",
+  "model": "nyc-two-times-square-signs",
+  "place": "times-square",
+  "lng": -73.9847453,
+  "lat": 40.7594686,
+  "bearing": 22,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

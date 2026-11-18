@@ -1,0 +1,16 @@
+{
+  "id": "nyc-lga-terminal-b",
+  "name": "LaGuardia Airport Terminal B",
+  "model": "nyc-lga-terminal-b",
+  "place": "new-york-area",
+  "lng": -73.8717564,
+  "lat": 40.7730365,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/644536343",
+    "way/664461080",
+    "way/701356157"
+  ]
+}

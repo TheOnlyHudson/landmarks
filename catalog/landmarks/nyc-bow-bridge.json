@@ -1,0 +1,15 @@
+{
+  "id": "nyc-bow-bridge",
+  "name": "Bow Bridge",
+  "model": "nyc-bow-bridge",
+  "place": "new-york-area",
+  "lng": -73.971771,
+  "lat": 40.775759,
+  "bearing": 328.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q4950616",
+  "replaces": [
+    "way/580516390"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "barcelona-venetian-towers",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "historic",
+    "bell-tower",
+    "brick",
+    "plaza"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Torres venecianes 20230913.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Torres_venecianes_20230913.jpg",
+      "author": "Horcrux",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Torres venecianes Barcelona 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Torres_venecianes_Barcelona_2013.jpg",
+      "author": "Felix König",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Barcelona - Torres Venecianes.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Torres_Venecianes.jpg",
+      "author": "Fred Romero",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Avinguda de la Reina Maria Cristina 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Avinguda_de_la_Reina_Maria_Cristina_2013.jpg",
+      "author": "Felix König",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/barcelona-venetian-towers.glb",
+  "source": "generators/barcelona-venetian-towers.ts"
+}

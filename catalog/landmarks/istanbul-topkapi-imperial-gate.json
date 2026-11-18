@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-topkapi-imperial-gate",
+  "name": "Imperial Gate (Bâb-ı Hümâyûn)",
+  "model": "istanbul-topkapi-imperial-gate",
+  "place": "istanbul",
+  "lng": 28.981487,
+  "lat": 41.008597,
+  "bearing": 43.2,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q21097852",
+  "replaces": [
+    "way/335364925"
+  ]
+}

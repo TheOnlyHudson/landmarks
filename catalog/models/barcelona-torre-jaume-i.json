@@ -1,0 +1,63 @@
+{
+  "id": "barcelona-torre-jaume-i",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "aerial-tramway",
+    "lattice-tower",
+    "steel",
+    "viewpoint",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Torre de Jaume I (Barcelona)1788.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Jaume_I_(Barcelona)1788.JPG",
+      "author": "João Carvalho",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "2017 Torre de Jaume I vista des del WTC.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2017_Torre_de_Jaume_I_vista_des_del_WTC.jpg",
+      "author": "Jordiferrer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Base de la Torre Jaume I.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Base_de_la_Torre_Jaume_I.jpg",
+      "author": "Jordiferrer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Barcelona - Torre Jaume I del Teleférico del Puerto de Barcelona 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Torre_Jaume_I_del_Tel%C3%A9ferico_del_Puerto_de_Barcelona_1.jpg",
+      "author": "Zarateman",
+      "license": "CC0"
+    },
+    {
+      "title": "Torre de Jaume I - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Torre_de_Jaume_I_-_panoramio.jpg",
+      "author": "Mister No",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/barcelona-torre-jaume-i.glb",
+  "source": "generators/barcelona-torre-jaume-i.ts"
+}

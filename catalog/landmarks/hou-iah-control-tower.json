@@ -1,0 +1,14 @@
+{
+  "id": "hou-iah-control-tower",
+  "name": "George Bush Intercontinental Airport Control Tower",
+  "model": "hou-iah-control-tower",
+  "place": "houston-area",
+  "lng": -95.328121,
+  "lat": 29.984194,
+  "bearing": 350,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/639097416"
+  ]
+}

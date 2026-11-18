@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-muiderpoort",
+  "name": "Muiderpoort",
+  "model": "amsterdam-muiderpoort",
+  "place": "amsterdam",
+  "lng": 4.919481,
+  "lat": 52.363727,
+  "bearing": 56.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/45038672"
+  ],
+  "wikidata": "Q1976404"
+}

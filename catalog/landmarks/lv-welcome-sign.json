@@ -1,0 +1,13 @@
+{
+  "id": "lv-welcome-sign",
+  "name": "Welcome to Fabulous Las Vegas sign",
+  "model": "lv-welcome-sign",
+  "lng": -115.1727735,
+  "lat": 36.0820593,
+  "bearing": 355,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q175665",
+  "replaces": [],
+  "place": "las-vegas-area"
+}

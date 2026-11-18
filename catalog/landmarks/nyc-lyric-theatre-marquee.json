@@ -1,0 +1,12 @@
+{
+  "id": "nyc-lyric-theatre-marquee",
+  "name": "Lyric Theatre Marquee",
+  "model": "nyc-lyric-theatre-marquee",
+  "place": "times-square",
+  "lng": -73.9876825,
+  "lat": 40.7564999,
+  "bearing": 28.55,
+  "elevation": 0,
+  "minzoom": 17,
+  "replaces": []
+}

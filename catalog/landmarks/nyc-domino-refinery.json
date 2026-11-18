@@ -1,0 +1,26 @@
+{
+  "id": "nyc-domino-refinery",
+  "name": "The Refinery at Domino",
+  "model": "nyc-domino-refinery",
+  "place": "new-york-area",
+  "lng": -73.9673064,
+  "lat": 40.7144184,
+  "bearing": 19.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/633535211",
+    "way/1243440971",
+    "way/1243440972",
+    "way/1243440973",
+    "way/1243440974",
+    "way/1243440975",
+    "way/1243440976",
+    "way/1243440977",
+    "way/1243440978",
+    "way/1243853673",
+    "way/1243853674",
+    "way/1243853675",
+    "way/1243853676"
+  ]
+}

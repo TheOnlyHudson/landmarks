@@ -1,0 +1,24 @@
+{
+  "id": "phl-two-commerce-square",
+  "name": "Two Commerce Square",
+  "model": "phl-two-commerce-square",
+  "place": "philadelphia-area",
+  "lng": -75.173562,
+  "lat": 39.954143,
+  "bearing": 9,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/333939824",
+    "way/333316059",
+    "way/333434761",
+    "way/333316065",
+    "way/333434759",
+    "way/333316066",
+    "way/333434762",
+    "way/333316067",
+    "way/333434763",
+    "way/344020957",
+    "way/344020958"
+  ]
+}

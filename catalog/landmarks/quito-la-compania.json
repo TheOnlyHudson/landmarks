@@ -1,0 +1,20 @@
+{
+  "id": "quito-la-compania",
+  "name": "Iglesia de la Compañía de Jesús",
+  "model": "quito-la-compania",
+  "place": "quito",
+  "lng": -78.513841,
+  "lat": -0.2207742,
+  "bearing": 310,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3075573",
+  "replaces": [
+    "way/673869411",
+    "way/673869408",
+    "way/673869409",
+    "way/673869410",
+    "way/1118492144",
+    "way/1118492145"
+  ]
+}

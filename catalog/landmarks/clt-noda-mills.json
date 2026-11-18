@@ -1,0 +1,19 @@
+{
+  "id": "clt-noda-mills",
+  "name": "Mecklenburg Mill (Lofts at NoDa Mills)",
+  "model": "clt-noda-mills",
+  "lng": -80.8024797,
+  "lat": 35.2493994,
+  "bearing": 350.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/323193332",
+    "way/1279174943",
+    "way/1279174944",
+    "way/1279174945",
+    "way/1279174946",
+    "way/1279174947"
+  ],
+  "place": "charlotte-area"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dal-southfork-ranch",
+  "name": "Southfork Ranch",
+  "model": "dal-southfork-ranch",
+  "place": "dallas-area",
+  "lng": -96.6093807,
+  "lat": 33.0492574,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1474427",
+  "replaces": [
+    "way/172351926"
+  ]
+}

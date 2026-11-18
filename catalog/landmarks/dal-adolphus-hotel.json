@@ -1,0 +1,15 @@
+{
+  "id": "dal-adolphus-hotel",
+  "name": "The Adolphus",
+  "model": "dal-adolphus-hotel",
+  "place": "dallas-area",
+  "lng": -96.799951,
+  "lat": 32.779958,
+  "bearing": 345.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/471953148",
+    "way/964805583"
+  ]
+}

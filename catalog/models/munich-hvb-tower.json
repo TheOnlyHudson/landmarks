@@ -1,0 +1,74 @@
+{
+  "id": "munich-hvb-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q896364",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "HVB-Tower in München.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:HVB-Tower_in_M%C3%BCnchen.jpg",
+      "author": "HypoVereinsbank / HG Esch",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "HVB-Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:HVB-Tower.jpg",
+      "author": "HypoVereinsbank / HG Esch",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2019-03-04-Hypo-Bank-Hochhaus-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2019-03-04-Hypo-Bank-Hochhaus-1.jpg",
+      "author": "Gunnar Klack",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "München - Hypohaus - August 2016.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Hypohaus_-_August_2016.jpg",
+      "author": "Kajebi II.",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "HypoHochhaus01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:HypoHochhaus01.jpg",
+      "author": "Ordercrazy",
+      "license": "Public domain"
+    },
+    {
+      "title": "HVB-Tower Munich, June 2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:HVB-Tower_Munich,_June_2017.jpg",
+      "author": "Martin Falbisoner",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Digitales Orthophoto DOP40 (Bayerische Vermessungsverwaltung)",
+      "url": "https://geodaten.bayern.de/opengeodata/",
+      "author": "Bayerische Vermessungsverwaltung",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/munich-hvb-tower.glb",
+  "source": "generators/munich-hvb-tower.ts"
+}

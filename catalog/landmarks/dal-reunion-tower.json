@@ -1,0 +1,20 @@
+{
+  "id": "dal-reunion-tower",
+  "name": "Reunion Tower",
+  "model": "dal-reunion-tower",
+  "place": "dallas-area",
+  "lng": -96.808945,
+  "lat": 32.775358,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1248619",
+  "replaces": [
+    "way/1428779225",
+    "way/1491048355",
+    "way/1491048356",
+    "way/1491048357",
+    "way/1491048358",
+    "way/1491048359"
+  ]
+}

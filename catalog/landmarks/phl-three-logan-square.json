@@ -1,0 +1,27 @@
+{
+  "id": "phl-three-logan-square",
+  "name": "Three Logan Square",
+  "model": "phl-three-logan-square",
+  "place": "philadelphia-area",
+  "wikidata": "Q2894593",
+  "lng": -75.169029,
+  "lat": 39.955415,
+  "bearing": 9,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/42785098",
+    "way/343340487",
+    "way/343340488",
+    "way/343340489",
+    "way/343340490",
+    "way/343340491",
+    "way/343340492",
+    "way/343340493",
+    "way/343340494",
+    "way/343340495",
+    "way/343340496",
+    "way/343374515",
+    "way/343374518"
+  ]
+}

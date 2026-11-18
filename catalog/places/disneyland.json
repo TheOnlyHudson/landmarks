@@ -1,0 +1,6 @@
+{
+  "id": "disneyland",
+  "name": "Disneyland Resort",
+  "kind": "site",
+  "parent": "los-angeles-area"
+}

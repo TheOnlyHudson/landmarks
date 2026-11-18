@@ -1,0 +1,24 @@
+{
+  "id": "istanbul-suleymaniye",
+  "name": "Süleymaniye Mosque",
+  "model": "istanbul-suleymaniye",
+  "place": "istanbul",
+  "lng": 28.963825,
+  "lat": 41.01624,
+  "bearing": 137.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q178643",
+  "replaces": [
+    "relation/1564032",
+    "way/121471149",
+    "way/642004197",
+    "way/642004198",
+    "way/642004946",
+    "way/642004947",
+    "way/642004948",
+    "way/642004949",
+    "way/642004950",
+    "way/642004951"
+  ]
+}

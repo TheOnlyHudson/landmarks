@@ -1,0 +1,15 @@
+{
+  "id": "chi-centennial-wheel",
+  "name": "Centennial Wheel",
+  "model": "chi-centennial-wheel",
+  "lng": -87.607475,
+  "lat": 41.891702,
+  "bearing": 358.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q43153888",
+  "replaces": [
+    "way/686996484"
+  ],
+  "place": "chicago-area"
+}

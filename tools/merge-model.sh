@@ -11,11 +11,12 @@
 #
 # or "landmarks": [ ... ] for a model placed more than once (a bridge's towers).
 #
-# It regenerates models/<id>.glb from the generator, then puts the entries in
-# catalog.json: an id already there is replaced (a rework), a new one is
-# added, and every list stays sorted by id. Then it validates, typechecks the generator and
-# commits generators/<id>.ts, models/<id>.glb and catalog.json. On any
-# failure catalog.json is put back and nothing is committed.
+# It regenerates models/<id>.glb from the generator, then writes each entry
+# to catalog/models/<id>.json and catalog/landmarks/<id>.json: an id already
+# there is replaced (a rework), a new one is added. Then it validates,
+# typechecks the generator and commits the generator, the GLB and those
+# catalog files. On any failure the catalog files are put back and nothing
+# is committed.
 #
 # It refuses a generator that imports a helper from another generator that
 # isn't committed yet: commit the helper's own model first, or the earlier
@@ -37,29 +38,30 @@ done
 
 bun "$gen" >/dev/null
 
-python3 - "$placement" <<'PY'
+files=$(mktemp)
+python3 - "$placement" "$files" <<'PY'
 import json, sys
 p = json.load(open(sys.argv[1]))
 m = p['model']; ls = p.get('landmarks') or [p['landmark']]
 m['file'] = f'models/{m["id"]}.glb'; m['source'] = f'generators/{m["id"]}.ts'
-c = json.load(open('catalog.json'))
-def upsert(rows, new):
-    at = {r['id']: i for i, r in enumerate(rows)}
-    for n in new:
-        if n['id'] in at: rows[at[n['id']]] = n
-        else: rows.append(n)
-upsert(c['models'], [m]); upsert(c['landmarks'], ls)
-for key in ('places', 'models', 'landmarks'):
-    if key in c: c[key].sort(key=lambda r: r['id'])
-open('catalog.json', 'w').write(json.dumps(c, indent=2, ensure_ascii=False) + '\n')
+written = []
+for kind, rows in (('models', [m]), ('landmarks', ls)):
+    for r in rows:
+        path = f'catalog/{kind}/{r["id"]}.json'
+        open(path, 'w').write(json.dumps(r, indent=2, ensure_ascii=False) + '\n')
+        written.append(path)
+open(sys.argv[2], 'w').write('\n'.join(written) + '\n')
 PY
 
 log=$(mktemp)
-trap 'rm -f "$log"' EXIT
-bun run validate >"$log" 2>&1 || { cat "$log"; git checkout -- catalog.json; exit 1; }
-if bun x tsc --noEmit 2>&1 | grep -F "$gen"; then echo "typecheck errors in $gen"; git checkout -- catalog.json; exit 1; fi
+trap 'rm -f "$log" "$files"' EXIT
+# Put back what was committed; delete what wasn't there before.
+restore() { while read -r f; do git cat-file -e "HEAD:$f" 2>/dev/null && git checkout -- "$f" || rm -f "$f"; done <"$files"; }
+bun tools/format-catalog.ts
+bun run validate >"$log" 2>&1 || { cat "$log"; restore; exit 1; }
+if bun x tsc --noEmit 2>&1 | grep -F "$gen"; then echo "typecheck errors in $gen"; restore; exit 1; fi
 
-git add "$gen" "models/$id.glb" catalog.json
+git add "$gen" "models/$id.glb" $(cat "$files")
 git commit -qm "$msg"
 git log --oneline -1
 git show --stat HEAD | tail -4

@@ -1,0 +1,15 @@
+{
+  "id": "munich-nationaltheater",
+  "name": "Nationaltheater (Bavarian State Opera)",
+  "model": "munich-nationaltheater",
+  "place": "munich",
+  "lng": 11.57951,
+  "lat": 48.139567,
+  "bearing": 15.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q707679",
+  "replaces": [
+    "way/23458583"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "nyc-grants-tomb",
+  "name": "General Grant National Memorial",
+  "model": "nyc-grants-tomb",
+  "lng": -73.963051,
+  "lat": 40.813454,
+  "bearing": 21.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1025105",
+  "replaces": [
+    "way/271922197"
+  ],
+  "place": "new-york-area"
+}

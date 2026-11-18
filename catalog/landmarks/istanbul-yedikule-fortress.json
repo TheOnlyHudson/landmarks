@@ -1,0 +1,21 @@
+{
+  "id": "istanbul-yedikule-fortress",
+  "name": "Yedikule Fortress",
+  "model": "istanbul-yedikule-fortress",
+  "place": "istanbul",
+  "lng": 28.923205,
+  "lat": 40.993116,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q632795",
+  "replaces": [
+    "way/1035943038",
+    "way/23272351",
+    "way/23272349",
+    "way/23272345",
+    "way/23272337",
+    "way/23272338",
+    "way/23272340"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "sea-f5-tower",
+  "name": "F5 Tower",
+  "model": "sea-f5-tower",
+  "lng": -122.3310654,
+  "lat": 47.6052122,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q5447583",
+  "replaces": [
+    "way/333212849"
+  ],
+  "place": "seattle-area"
+}

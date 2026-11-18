@@ -1,0 +1,15 @@
+{
+  "id": "nyc-kings-theatre",
+  "name": "Kings Theatre",
+  "model": "nyc-kings-theatre",
+  "place": "new-york-area",
+  "lng": -73.9573208,
+  "lat": 40.6459848,
+  "bearing": 357.1,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q6413028",
+  "replaces": [
+    "way/250132955"
+  ]
+}

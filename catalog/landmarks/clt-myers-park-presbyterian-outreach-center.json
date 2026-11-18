@@ -1,0 +1,14 @@
+{
+  "id": "clt-myers-park-presbyterian-outreach-center",
+  "name": "Myers Park Presbyterian Church Outreach Center",
+  "model": "clt-myers-park-presbyterian-outreach-center",
+  "lng": -80.824485988,
+  "lat": 35.193574013,
+  "bearing": 334,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/369312110"
+  ],
+  "place": "charlotte-area"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "phl-ben-franklin-bridge",
+  "name": "Benjamin Franklin Bridge",
+  "model": "phl-ben-franklin-bridge",
+  "place": "philadelphia-area",
+  "lng": -75.1346174,
+  "lat": 39.9529617,
+  "bearing": 102.716,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q817485",
+  "replaces": [
+    "way/575987106",
+    "way/754832342",
+    "way/754832343",
+    "way/334628511",
+    "way/334628517"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "la-chiat-day",
+  "name": "Chiat/Day Building",
+  "model": "la-chiat-day",
+  "lng": -118.4766671,
+  "lat": 33.9954922,
+  "bearing": 57.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q194004",
+  "replaces": [
+    "way/413241944"
+  ],
+  "place": "los-angeles-area"
+}

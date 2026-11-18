@@ -1,0 +1,24 @@
+{
+  "id": "phl-one-commerce-square",
+  "name": "One Commerce Square",
+  "model": "phl-one-commerce-square",
+  "place": "philadelphia-area",
+  "lng": -75.174604,
+  "lat": 39.954272,
+  "bearing": 9,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/333939821",
+    "way/333316060",
+    "way/333434760",
+    "way/333316061",
+    "way/333316062",
+    "way/333316063",
+    "way/333316068",
+    "way/335570957",
+    "way/333434758",
+    "way/333316064",
+    "way/344020956"
+  ]
+}

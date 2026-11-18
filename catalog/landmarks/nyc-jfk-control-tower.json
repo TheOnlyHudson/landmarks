@@ -1,0 +1,14 @@
+{
+  "id": "nyc-jfk-control-tower",
+  "name": "JFK Airport Control Tower",
+  "model": "nyc-jfk-control-tower",
+  "place": "new-york-area",
+  "lng": -73.7813708,
+  "lat": 40.6425492,
+  "bearing": -29.2,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/284907735"
+  ]
+}

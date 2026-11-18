@@ -1,0 +1,15 @@
+{
+  "id": "clt-atherton-cotton-mill",
+  "name": "Atherton Cotton Mill",
+  "model": "clt-atherton-cotton-mill",
+  "lng": -80.861742,
+  "lat": 35.20767,
+  "bearing": 33.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/432937694",
+    "way/1196988216"
+  ],
+  "place": "charlotte-area"
+}

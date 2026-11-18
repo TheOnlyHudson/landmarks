@@ -1,0 +1,20 @@
+{
+  "id": "dal-fountain-place",
+  "name": "Fountain Place",
+  "model": "dal-fountain-place",
+  "place": "dallas-area",
+  "lng": -96.802544,
+  "lat": 32.7847969,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/73213058",
+    "way/1491062886",
+    "way/1491062887",
+    "way/1491062888",
+    "way/1491062889",
+    "way/1493186371"
+  ],
+  "wikidata": "Q2462521"
+}

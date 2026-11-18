@@ -1,0 +1,49 @@
+{
+  "id": "nyc-lga-control-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "airport",
+    "control-tower",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Grand Central Pkwy td (2022-01-14) 043 - LaGuardia Airport Terminal B Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Central_Pkwy_td_(2022-01-14)_043_-_LaGuardia_Airport_Terminal_B_Tower.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Grand Central Pkwy td (2022-01-14) 041 - LaGuardia Airport Terminal B Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Central_Pkwy_td_(2022-01-14)_041_-_LaGuardia_Airport_Terminal_B_Tower.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Grand Central Pkwy td (2022-01-14) 045 - LaGuardia Airport Terminal B.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Central_Pkwy_td_(2022-01-14)_045_-_LaGuardia_Airport_Terminal_B.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-lga-control-tower.glb",
+  "source": "generators/nyc-lga-control-tower.ts"
+}

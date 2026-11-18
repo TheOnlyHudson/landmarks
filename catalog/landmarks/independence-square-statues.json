@@ -1,0 +1,12 @@
+{
+  "id": "independence-square-statues",
+  "name": "Independence Square statues",
+  "model": "independence-square-statues",
+  "lng": -80.8430897,
+  "lat": 35.2272068,
+  "bearing": 48,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "place": "charlotte-area"
+}

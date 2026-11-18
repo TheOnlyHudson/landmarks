@@ -1,0 +1,19 @@
+{
+  "id": "sf-christ-the-light",
+  "name": "Cathedral of Christ the Light",
+  "model": "sf-christ-the-light",
+  "lng": -122.263119,
+  "lat": 37.81056,
+  "bearing": 356,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q722744",
+  "replaces": [
+    "way/26720620",
+    "way/782773169",
+    "way/782773173",
+    "way/782773174",
+    "way/782773175"
+  ],
+  "place": "san-francisco-bay-area"
+}

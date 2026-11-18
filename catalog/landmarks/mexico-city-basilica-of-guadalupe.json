@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-basilica-of-guadalupe",
+  "name": "Basilica of Our Lady of Guadalupe",
+  "model": "mexico-city-basilica-of-guadalupe",
+  "place": "mexico-city",
+  "lng": -99.117857,
+  "lat": 19.484845,
+  "bearing": 290,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q305419",
+  "replaces": [
+    "way/120733641"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "la-eastern-columbia",
+  "name": "Eastern Columbia Building",
+  "model": "la-eastern-columbia",
+  "lng": -118.2562097,
+  "lat": 34.0427452,
+  "bearing": 38,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q71842",
+  "replaces": [
+    "way/427942790"
+  ],
+  "place": "los-angeles-area"
+}

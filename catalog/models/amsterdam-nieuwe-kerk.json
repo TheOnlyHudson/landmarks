@@ -1,0 +1,68 @@
+{
+  "id": "amsterdam-nieuwe-kerk",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "gothic",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q1419675",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Amsterdam Nieuwe Kerk 1697",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_1697.jpg",
+      "author": "C messier",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amsterdam Nieuwe Kerk 5",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_5.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amsterdam Nieuwe Kerk 6",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_6.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amsterdam Nieuwe Kerk 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_1.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amsterdam Nieuwe Kerk 3",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_3.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amsterdam Nieuwe Kerk Chor 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nieuwe_Kerk_Chor_2.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/amsterdam-nieuwe-kerk.glb",
+  "source": "generators/amsterdam-nieuwe-kerk.ts"
+}

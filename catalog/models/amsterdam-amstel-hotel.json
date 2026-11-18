@@ -1,0 +1,60 @@
+{
+  "id": "amsterdam-amstel-hotel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "hotel"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "AmstelHotelAmsterdam.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:AmstelHotelAmsterdam.jpg",
+      "author": "Massimo Catarinella",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Amstel Hotel 2030.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amstel_Hotel_2030.jpg",
+      "author": "C messier",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amsterdam Amstel Hotel 001.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Amstel_Hotel_001.JPG",
+      "author": "Janericloebe",
+      "license": "Public domain"
+    },
+    {
+      "title": "Amstel Hotel 20150911.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amstel_Hotel_20150911.jpg",
+      "author": "Suicasmo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "3D BAG, NL.IMBAG.Pand.0363100012165491",
+      "url": "https://3dbag.nl/",
+      "author": "TU Delft 3D geoinformation group / 3DGI",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/amsterdam-amstel-hotel.glb",
+  "source": "generators/amsterdam-amstel-hotel.ts"
+}

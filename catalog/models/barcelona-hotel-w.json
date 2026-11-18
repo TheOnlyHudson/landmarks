@@ -1,0 +1,61 @@
+{
+  "id": "barcelona-hotel-w",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "hotel",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Vela Hotel W Barcelona.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vela_Hotel_W_Barcelona.jpg",
+      "author": "Bj.schoenmakers",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "W Barcelona 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:W_Barcelona_2013.jpg",
+      "author": "Felix König",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Hotel vela W, Barcelona, Catalunya, España.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hotel_vela_W,_Barcelona,_Catalunya,_Espa%C3%B1a.jpg",
+      "author": "Iván Melenchón Serrano",
+      "license": "CC0"
+    },
+    {
+      "title": "Hotel Vela (1).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Hotel_Vela_(1).JPG",
+      "author": "Ardfern",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "W Barcelona (Hotel Vela) des del mar 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:W_Barcelona_(Hotel_Vela)_des_del_mar_01.jpg",
+      "author": "Jordiferrer",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/barcelona-hotel-w.glb",
+  "source": "generators/barcelona-hotel-w.ts"
+}

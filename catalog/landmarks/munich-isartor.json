@@ -1,0 +1,28 @@
+{
+  "id": "munich-isartor",
+  "name": "Isartor",
+  "model": "munich-isartor",
+  "place": "munich",
+  "lng": 11.581787,
+  "lat": 48.135116,
+  "bearing": -36.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q260660",
+  "replaces": [
+    "relation/6035286",
+    "way/30982596",
+    "way/222558900",
+    "way/222558901",
+    "way/222558902",
+    "way/402399610",
+    "way/402399611",
+    "way/402456104",
+    "way/402456105",
+    "way/402456106",
+    "way/402456107",
+    "way/402456108",
+    "way/402456109",
+    "way/402456110"
+  ]
+}

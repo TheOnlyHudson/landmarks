@@ -1,0 +1,109 @@
+{
+  "id": "quito-basilica-del-voto-nacional",
+  "detail": "models/quito-basilica-del-voto-nacional.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "basilica",
+    "church",
+    "neo-gothic",
+    "unesco",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q4868435",
+  "description": "Neo-Gothic basilica begun in 1892 on the hill of the historic centre: twin clock towers about 78 m to the crosses, a 140 m nave with flying buttresses, and the open-belfry condor tower over the crossing.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Quito as from panecillo Basilica.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Quito_as_from_panecillo_Basilica.jpg",
+      "author": "Cayambe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Quito calle Venezuela Basilica.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Quito_calle_Venezuela_Basilica.jpg",
+      "author": "Cayambe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Quito Basílica del Voto Nacional seen from Avenida 12 de Octubre.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Quito_Bas%C3%ADlica_del_Voto_Nacional_seen_from_Avenida_12_de_Octubre.jpg",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Quito Basílica del Voto Nacional seen from Plaza Huerto San Agustín.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Quito_Bas%C3%ADlica_del_Voto_Nacional_seen_from_Plaza_Huerto_San_Agust%C3%ADn.jpg",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vista noroccidental. Basílica del Voto Nacional, Quito - Ecuador.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_noroccidental._Bas%C3%ADlica_del_Voto_Nacional,_Quito_-_Ecuador.jpg",
+      "author": "Ranoutofusername",
+      "license": "CC0"
+    },
+    {
+      "title": "Basílica del Voto Nacional, Quito - 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_del_Voto_Nacional,_Quito_-_2.jpg",
+      "author": "Maros Mráz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Basílica del Voto Nacional, Quito - 4.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_del_Voto_Nacional,_Quito_-_4.jpg",
+      "author": "Maros Mráz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Basílica del Voto Nacional, Quito - 5.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_del_Voto_Nacional,_Quito_-_5.jpg",
+      "author": "Maros Mráz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Torres de la Basílica del Voto Nacional con vista al Panecillo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Torres_de_la_Bas%C3%ADlica_del_Voto_Nacional_con_vista_al_Panecillo.jpg",
+      "author": "Martin.vascovinueza",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Basilica del voto nacional.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Basilica_del_voto_nacional.jpg",
+      "author": "Quito magnífico (perspective corrected by Rabanus Flavus)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "(La Basílica del Voto Nacional, Quito) a1b.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:(La_Bas%C3%ADlica_del_Voto_Nacional,_Quito)_a1b.JPG",
+      "author": "David Adam Kess",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Basílica del Voto Nacional, Quito (exterior) pic.ao11622.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_del_Voto_Nacional,_Quito_(exterior)_pic.ao11622.jpg",
+      "author": "David Adam Kess",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/quito-basilica-del-voto-nacional.glb",
+  "source": "generators/quito-basilica-del-voto-nacional.ts"
+}

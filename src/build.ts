@@ -11,7 +11,7 @@ import { copyFileSync, readFileSync, mkdirSync, rmSync, writeFileSync } from 'no
 import { createHash } from 'node:crypto'
 import { basename, dirname, join, resolve } from 'node:path'
 import { buildRelease, CatalogError } from './release'
-import { formatCatalog } from './catalog'
+import { readCatalog, storageProblems } from './catalog-files'
 import { buildHistory } from './history'
 
 const args = process.argv.slice(2)
@@ -20,16 +20,16 @@ const outAt = args.indexOf('--out')
 const out = resolve(outAt >= 0 ? args[outAt + 1] : join(import.meta.dir, '../dist'))
 const root = join(import.meta.dir, '..')
 
-const stored = readFileSync(join(root, 'catalog.json'), 'utf8')
-if (formatCatalog(JSON.parse(stored)) !== stored) {
-  console.error('catalog.json is not sorted by id: run bun tools/sort-catalog.ts')
+const stored = storageProblems(root)
+if (stored.length) {
+  console.error(stored.join('\n'))
   process.exit(1)
 }
 
 // The map cuts buildings out of the basemap with the stored footprints, not
 // the catalog's refs: a landmark without them shows OSM's parts through it.
 const footprints = JSON.parse(readFileSync(join(root, 'web/replacement-footprints.json'), 'utf8')).refs ?? {}
-const unrefreshed = (JSON.parse(stored).landmarks as { id: string; replaces?: string[] }[])
+const unrefreshed = readCatalog(root).landmarks
   .filter(l => l.replaces?.length && JSON.stringify(footprints[l.id]) !== JSON.stringify(l.replaces)).map(l => l.id)
 if (unrefreshed.length) {
   console.error(`web/replacement-footprints.json is out of date for ${unrefreshed.join(', ')}: run bun tools/replacement-footprints.ts`)

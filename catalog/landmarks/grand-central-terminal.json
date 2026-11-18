@@ -1,0 +1,15 @@
+{
+  "id": "grand-central-terminal",
+  "name": "Grand Central Terminal",
+  "model": "grand-central-terminal",
+  "lng": -73.9772833,
+  "lat": 40.7526545,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q11290",
+  "replaces": [
+    "way/265947358"
+  ],
+  "place": "new-york-area"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "sea-benaroya-hall",
+  "name": "Benaroya Hall",
+  "model": "sea-benaroya-hall",
+  "lng": -122.3369718,
+  "lat": 47.6081067,
+  "bearing": 328.3,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q3892069",
+  "replaces": [
+    "way/69273374",
+    "way/417918253",
+    "way/417918254",
+    "way/417918255",
+    "way/417918256",
+    "way/417918257"
+  ],
+  "place": "seattle-area"
+}

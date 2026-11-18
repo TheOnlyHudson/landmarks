@@ -1,0 +1,16 @@
+{
+  "id": "sf-bill-graham-auditorium",
+  "name": "Bill Graham Civic Auditorium",
+  "model": "sf-bill-graham-auditorium",
+  "lng": -122.4173275,
+  "lat": 37.7780526,
+  "bearing": 351,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q4909197",
+  "replaces": [
+    "way/25759141",
+    "way/435831538"
+  ],
+  "place": "san-francisco-bay-area"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "seoul-ddp",
+  "name": "Dongdaemun Design Plaza",
+  "model": "seoul-ddp",
+  "place": "seoul",
+  "lng": 127.009646,
+  "lat": 37.566813,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q5295847",
+  "replaces": [
+    "relation/10647068"
+  ]
+}

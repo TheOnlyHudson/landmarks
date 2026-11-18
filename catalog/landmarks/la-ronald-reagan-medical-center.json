@@ -1,0 +1,15 @@
+{
+  "id": "la-ronald-reagan-medical-center",
+  "name": "Ronald Reagan UCLA Medical Center",
+  "model": "la-ronald-reagan-medical-center",
+  "place": "ucla",
+  "lng": -118.4463465,
+  "lat": 34.06646,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q2169282",
+  "replaces": [
+    "relation/2389785"
+  ]
+}

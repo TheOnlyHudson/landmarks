@@ -1,0 +1,15 @@
+{
+  "id": "nyc-manhattan-bridge-arch",
+  "name": "Manhattan Bridge Arch and Colonnade",
+  "model": "nyc-manhattan-bridge-arch",
+  "lng": -73.9951141,
+  "lat": 40.7152971,
+  "bearing": 337.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/278241774",
+    "way/1255354003"
+  ],
+  "place": "new-york-area"
+}

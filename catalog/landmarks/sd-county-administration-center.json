@@ -1,0 +1,18 @@
+{
+  "id": "sd-county-administration-center",
+  "name": "San Diego County Administration Center",
+  "model": "sd-county-administration-center",
+  "place": "san-diego-area",
+  "lng": -117.171917,
+  "lat": 32.721946,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/26748195",
+    "way/1154814393",
+    "way/1154814394",
+    "way/1154814395"
+  ],
+  "wikidata": "Q17183978"
+}

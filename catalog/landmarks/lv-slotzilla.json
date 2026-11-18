@@ -1,0 +1,14 @@
+{
+  "id": "lv-slotzilla",
+  "name": "SlotZilla",
+  "model": "lv-slotzilla",
+  "lng": -115.1412707,
+  "lat": 36.1695016,
+  "bearing": 118,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1093169256"
+  ],
+  "place": "las-vegas-area"
+}

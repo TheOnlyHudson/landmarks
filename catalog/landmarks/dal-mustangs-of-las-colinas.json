@@ -1,0 +1,13 @@
+{
+  "id": "dal-mustangs-of-las-colinas",
+  "name": "Mustangs of Las Colinas",
+  "model": "dal-mustangs-of-las-colinas",
+  "place": "dallas-area",
+  "lng": -96.938778,
+  "lat": 32.870585,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 17,
+  "replaces": [],
+  "wikidata": "Q4308520"
+}

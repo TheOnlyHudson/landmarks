@@ -1,0 +1,29 @@
+{
+  "id": "30-rockefeller-plaza",
+  "name": "30 Rockefeller Plaza",
+  "model": "30-rockefeller-plaza",
+  "lng": -73.9796355,
+  "lat": 40.7591554,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q680614",
+  "replaces": [
+    "way/487519790",
+    "way/771918436",
+    "way/145341279",
+    "way/145341265",
+    "way/145341264",
+    "way/145341294",
+    "way/145341256",
+    "way/145341286",
+    "way/145341288",
+    "way/145341276",
+    "way/145341282",
+    "way/145341268",
+    "way/145341275",
+    "way/145341266",
+    "way/145341259"
+  ],
+  "place": "new-york-area"
+}

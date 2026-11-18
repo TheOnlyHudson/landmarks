@@ -1,0 +1,23 @@
+{
+  "id": "mexico-city-torre-bbva",
+  "name": "Torre BBVA México",
+  "model": "mexico-city-torre-bbva",
+  "place": "mexico-city",
+  "lng": -99.17481,
+  "lat": 19.422822,
+  "bearing": 56.4,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/427833539",
+    "way/1138584854",
+    "way/1138584858",
+    "way/1138584859",
+    "way/1173440067",
+    "way/1173440068",
+    "way/1185622772",
+    "way/1484777440",
+    "way/1484777441"
+  ],
+  "wikidata": "Q6150039"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "hou-museum-of-natural-science",
+  "name": "Houston Museum of Natural Science",
+  "model": "hou-museum-of-natural-science",
+  "place": "houston-area",
+  "lng": -95.3897,
+  "lat": 29.72212,
+  "bearing": 35.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q610401",
+  "replaces": [
+    "way/217678285"
+  ]
+}

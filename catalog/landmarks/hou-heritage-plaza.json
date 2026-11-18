@@ -1,0 +1,19 @@
+{
+  "id": "hou-heritage-plaza",
+  "name": "Heritage Plaza",
+  "model": "hou-heritage-plaza",
+  "place": "houston-area",
+  "lng": -95.370724,
+  "lat": 29.758784,
+  "bearing": 34.9,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1510199",
+  "replaces": [
+    "way/1512782864",
+    "way/1511778219",
+    "way/1511778220",
+    "way/1511778221",
+    "way/1511778222"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "sf-fox-oakland",
+  "name": "Fox Oakland Theatre",
+  "model": "sf-fox-oakland",
+  "lng": -122.2705411,
+  "lat": 37.8080679,
+  "bearing": 11.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5476853",
+  "replaces": [
+    "way/31149191"
+  ],
+  "place": "san-francisco-bay-area"
+}

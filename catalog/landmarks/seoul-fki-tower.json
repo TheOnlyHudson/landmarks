@@ -1,0 +1,15 @@
+{
+  "id": "seoul-fki-tower",
+  "name": "FKI Tower",
+  "model": "seoul-fki-tower",
+  "place": "seoul",
+  "lng": 126.919929,
+  "lat": 37.522173,
+  "bearing": 52,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/681805210"
+  ],
+  "wikidata": "Q16099606"
+}

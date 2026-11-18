@@ -1,0 +1,19 @@
+{
+  "id": "statue-of-liberty",
+  "name": "Statue of Liberty",
+  "model": "statue-of-liberty",
+  "lng": -74.0445317,
+  "lat": 40.6892527,
+  "bearing": 327,
+  "elevation": 10,
+  "minzoom": 13,
+  "wikidata": "Q9202",
+  "replaces": [
+    "way/229651143",
+    "way/229651144",
+    "way/229651145",
+    "way/229651146",
+    "way/229651147"
+  ],
+  "place": "new-york-area"
+}

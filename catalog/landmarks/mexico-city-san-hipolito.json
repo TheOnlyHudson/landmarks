@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-san-hipolito",
+  "name": "Templo de San Hipólito",
+  "model": "mexico-city-san-hipolito",
+  "place": "mexico-city",
+  "lng": -99.1468432,
+  "lat": 19.4379866,
+  "bearing": 9.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q215151",
+  "replaces": [
+    "way/1427820319"
+  ]
+}

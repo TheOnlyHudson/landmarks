@@ -1,0 +1,16 @@
+{
+  "id": "sd-cabrillo-bridge",
+  "name": "Cabrillo Bridge",
+  "model": "sd-cabrillo-bridge",
+  "place": "san-diego-area",
+  "lng": -117.1545,
+  "lat": 32.73142,
+  "bearing": 359.47,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/122353744",
+    "relation/1672334"
+  ],
+  "wikidata": "Q3380233"
+}

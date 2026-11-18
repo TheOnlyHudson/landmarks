@@ -1,0 +1,15 @@
+{
+  "id": "dal-smu-dallas-hall",
+  "name": "Dallas Hall, Southern Methodist University",
+  "model": "dal-smu-dallas-hall",
+  "place": "dallas-area",
+  "lng": -96.7849011,
+  "lat": 32.8452576,
+  "bearing": 1.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q16953984",
+  "replaces": [
+    "way/179096189"
+  ]
+}

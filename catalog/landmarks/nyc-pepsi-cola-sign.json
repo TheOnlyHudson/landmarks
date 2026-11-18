@@ -1,0 +1,13 @@
+{
+  "id": "nyc-pepsi-cola-sign",
+  "name": "Pepsi-Cola Sign",
+  "model": "nyc-pepsi-cola-sign",
+  "place": "new-york-area",
+  "lng": -73.9576953,
+  "lat": 40.7474745,
+  "bearing": 110.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q97883006",
+  "replaces": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "nyc-barclays-center",
+  "name": "Barclays Center",
+  "model": "nyc-barclays-center",
+  "lng": -73.97532637,
+  "lat": 40.68265278,
+  "bearing": 15.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q807966",
+  "replaces": [
+    "relation/8610205",
+    "way/250992428"
+  ],
+  "place": "new-york-area"
+}

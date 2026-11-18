@@ -1,0 +1,21 @@
+{
+  "id": "london-millennium-bridge",
+  "name": "Millennium Bridge",
+  "model": "london-millennium-bridge",
+  "place": "london",
+  "lng": -0.0985194,
+  "lat": 51.5096933,
+  "bearing": 2.41,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q44057",
+  "replaces": [
+    "relation/10224724",
+    "way/659424463",
+    "way/166458268",
+    "way/166458270",
+    "way/166319260",
+    "way/166319319",
+    "relation/5606794"
+  ]
+}

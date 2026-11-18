@@ -1,0 +1,31 @@
+{
+  "id": "seoul-trade-tower",
+  "name": "Trade Tower",
+  "model": "seoul-trade-tower",
+  "place": "seoul",
+  "lng": 127.060983,
+  "lat": 37.510315,
+  "bearing": 66.87,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q486183",
+  "replaces": [
+    "way/74056379",
+    "way/380067752",
+    "way/380067758",
+    "way/637098865",
+    "way/637098866",
+    "way/637098867",
+    "way/637098868",
+    "way/637098869",
+    "way/637098870",
+    "way/637098871",
+    "way/637098872",
+    "way/637098873",
+    "way/637098874",
+    "way/637098875",
+    "way/637098876",
+    "way/637098877",
+    "way/637322920"
+  ]
+}

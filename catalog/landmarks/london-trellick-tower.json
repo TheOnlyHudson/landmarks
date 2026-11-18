@@ -1,0 +1,17 @@
+{
+  "id": "london-trellick-tower",
+  "name": "Trellick Tower",
+  "model": "london-trellick-tower",
+  "place": "london",
+  "lng": -0.2054234,
+  "lat": 51.5236249,
+  "bearing": 23,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1571416",
+  "replaces": [
+    "way/57721739",
+    "way/777427856",
+    "way/85866116"
+  ]
+}

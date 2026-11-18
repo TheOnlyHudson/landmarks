@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-de-bazel",
+  "name": "De Bazel (Stadsarchief)",
+  "model": "amsterdam-de-bazel",
+  "place": "amsterdam",
+  "lng": 4.892229,
+  "lat": 52.36458,
+  "bearing": 12,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1977799",
+  "replaces": [
+    "way/114542356"
+  ]
+}

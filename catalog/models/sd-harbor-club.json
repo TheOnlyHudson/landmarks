@@ -1,0 +1,67 @@
+{
+  "id": "sd-harbor-club",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "residential",
+    "twin-towers"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "The San Diego Harbor Club Towers (8727179956)",
+      "url": "https://commons.wikimedia.org/wiki/File:The_San_Diego_Harbor_Club_Towers_(8727179956).jpg",
+      "author": "vxla from Chicago, US",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "San Diego, Oct. 2016 13",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_Oct._2016_13.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "San Diego, Oct. 2016 14",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_Oct._2016_14.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gaslamp Quarter, San Diego, CA 92101, USA - panoramio (2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Gaslamp_Quarter,_San_Diego,_CA_92101,_USA_-_panoramio_(2).jpg",
+      "author": "Roman Eugeniusz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "San Diego, 2016 - 042",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Diego,_2016_-_042.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Looking West on East Harbor Drive",
+      "url": "https://commons.wikimedia.org/wiki/File:Looking_West_on_East_Harbor_Drive.jpg",
+      "author": "Visitor7",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/sd-harbor-club.glb",
+  "source": "generators/sd-harbor-club.ts"
+}

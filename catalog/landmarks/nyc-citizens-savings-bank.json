@@ -1,0 +1,18 @@
+{
+  "id": "nyc-citizens-savings-bank",
+  "name": "Citizens Savings Bank (HSBC, 58 Bowery)",
+  "model": "nyc-citizens-savings-bank",
+  "lng": -73.996551,
+  "lat": 40.7161162,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/250266994",
+    "way/870504654",
+    "way/870504655",
+    "way/870504656",
+    "way/870504657"
+  ],
+  "place": "new-york-area"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "atl-bank-of-america-plaza",
+  "name": "Bank of America Plaza",
+  "model": "atl-bank-of-america-plaza",
+  "place": "atlanta-area",
+  "lng": -84.3861396,
+  "lat": 33.7708628,
+  "bearing": 46.15,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q499486",
+  "replaces": [
+    "way/39449840"
+  ]
+}

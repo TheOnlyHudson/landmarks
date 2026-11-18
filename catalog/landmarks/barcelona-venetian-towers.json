@@ -1,0 +1,23 @@
+{
+  "id": "barcelona-venetian-towers",
+  "name": "Torres Venecianes",
+  "model": "barcelona-venetian-towers",
+  "place": "barcelona",
+  "lng": 2.1498,
+  "lat": 41.374033,
+  "bearing": 333,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/21193576",
+    "way/305825427",
+    "way/305825428",
+    "way/305825429",
+    "way/305825430",
+    "way/305825431",
+    "way/305825432",
+    "way/305825433",
+    "way/35816010"
+  ],
+  "wikidata": "Q7919738"
+}

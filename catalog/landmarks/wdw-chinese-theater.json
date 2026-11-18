@@ -1,0 +1,17 @@
+{
+  "id": "wdw-chinese-theater",
+  "name": "The Chinese Theater",
+  "model": "wdw-chinese-theater",
+  "lng": -81.560482,
+  "lat": 28.356073,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q33082878",
+  "replaces": [
+    "way/294898804",
+    "way/607996087",
+    "way/607972840"
+  ],
+  "place": "walt-disney-world"
+}

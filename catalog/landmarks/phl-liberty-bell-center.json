@@ -1,0 +1,17 @@
+{
+  "id": "phl-liberty-bell-center",
+  "name": "Liberty Bell Center",
+  "model": "phl-liberty-bell-center",
+  "place": "philadelphia-area",
+  "lng": -75.15023,
+  "lat": 39.949869,
+  "bearing": 9.56,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/40086417",
+    "way/335799891",
+    "way/335799893",
+    "way/335799894"
+  ]
+}

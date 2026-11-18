@@ -1,0 +1,15 @@
+{
+  "id": "lv-fontainebleau",
+  "name": "Fontainebleau Las Vegas",
+  "model": "lv-fontainebleau",
+  "lng": -115.159404,
+  "lat": 36.137992,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q278380",
+  "replaces": [
+    "way/134068318"
+  ],
+  "place": "las-vegas-area"
+}

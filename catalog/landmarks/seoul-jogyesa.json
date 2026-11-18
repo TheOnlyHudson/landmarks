@@ -1,0 +1,14 @@
+{
+  "id": "seoul-jogyesa",
+  "name": "Jogyesa Daeungjeon",
+  "model": "seoul-jogyesa",
+  "place": "seoul",
+  "lng": 126.9818575,
+  "lat": 37.5739071,
+  "bearing": 357.2,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/432721256"
+  ]
+}

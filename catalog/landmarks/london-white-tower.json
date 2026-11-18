@@ -1,0 +1,26 @@
+{
+  "id": "london-white-tower",
+  "name": "White Tower",
+  "model": "london-white-tower",
+  "place": "london",
+  "lng": -0.076078,
+  "lat": 51.508075,
+  "bearing": 6,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1528473",
+  "replaces": [
+    "way/369135772",
+    "way/717251841",
+    "way/717251842",
+    "way/717251843",
+    "way/717251844",
+    "way/932808903",
+    "way/932980667",
+    "way/932980668",
+    "way/932980669",
+    "way/932980670",
+    "way/932980671",
+    "way/932980672"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "nyc-brooklyn-borough-hall",
+  "name": "Brooklyn Borough Hall",
+  "model": "nyc-brooklyn-borough-hall",
+  "place": "new-york-area",
+  "lng": -73.9903048,
+  "lat": 40.6927696,
+  "bearing": 5.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q929403",
+  "replaces": [
+    "way/241846064"
+  ]
+}

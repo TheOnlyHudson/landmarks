@@ -1,0 +1,15 @@
+{
+  "id": "nyc-gapstow-bridge",
+  "name": "Gapstow Bridge",
+  "model": "nyc-gapstow-bridge",
+  "place": "new-york-area",
+  "lng": -73.9738311,
+  "lat": 40.7669276,
+  "bearing": 332.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q5521797",
+  "replaces": [
+    "way/546663191"
+  ]
+}

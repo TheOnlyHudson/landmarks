@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-rustem-pasha-mosque",
+  "name": "Rüstem Pasha Mosque",
+  "model": "istanbul-rustem-pasha-mosque",
+  "place": "istanbul",
+  "lng": 28.968738,
+  "lat": 41.017662,
+  "bearing": 315.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1137511",
+  "replaces": [
+    "way/175518494"
+  ]
+}

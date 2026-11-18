@@ -1,0 +1,20 @@
+{
+  "id": "la-city-hall",
+  "name": "Los Angeles City Hall",
+  "model": "la-city-hall",
+  "lng": -118.2427693,
+  "lat": 34.0536925,
+  "bearing": 37.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q368489",
+  "replaces": [
+    "relation/6333145",
+    "way/443103746",
+    "way/443103747",
+    "way/443103748",
+    "way/443103749",
+    "way/443103750"
+  ],
+  "place": "los-angeles-area"
+}

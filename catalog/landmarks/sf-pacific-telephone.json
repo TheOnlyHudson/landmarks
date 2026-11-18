@@ -1,0 +1,17 @@
+{
+  "id": "sf-pacific-telephone",
+  "name": "Pacific Telephone Building",
+  "model": "sf-pacific-telephone",
+  "lng": -122.4000099,
+  "lat": 37.7866793,
+  "bearing": 44.7,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q14681501",
+  "replaces": [
+    "way/80296766",
+    "way/684195506",
+    "way/684195508"
+  ],
+  "place": "san-francisco-bay-area"
+}

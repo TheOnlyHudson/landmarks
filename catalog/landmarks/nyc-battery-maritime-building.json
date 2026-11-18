@@ -1,0 +1,21 @@
+{
+  "id": "nyc-battery-maritime-building",
+  "name": "Battery Maritime Building",
+  "model": "nyc-battery-maritime-building",
+  "place": "new-york-area",
+  "lng": -74.0117334,
+  "lat": 40.7010564,
+  "bearing": 343.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2687430",
+  "replaces": [
+    "relation/2848176",
+    "way/169362470",
+    "way/213867489",
+    "way/213867490",
+    "way/213867491",
+    "way/213867492",
+    "way/213871106"
+  ]
+}

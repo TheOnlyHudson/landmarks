@@ -1,0 +1,15 @@
+{
+  "id": "clt-vantage-south-end",
+  "name": "Vantage South End",
+  "model": "clt-vantage-south-end",
+  "lng": -80.8535481,
+  "lat": 35.2196437,
+  "bearing": 41,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1059944465",
+    "way/1059944467"
+  ],
+  "place": "charlotte-area"
+}

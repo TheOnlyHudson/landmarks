@@ -1,0 +1,15 @@
+{
+  "id": "london-natural-history-museum",
+  "name": "Natural History Museum",
+  "model": "london-natural-history-museum",
+  "place": "london",
+  "lng": -0.176209,
+  "lat": 51.496485,
+  "bearing": 353,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q309388",
+  "replaces": [
+    "way/24436446"
+  ]
+}

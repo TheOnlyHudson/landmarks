@@ -1,0 +1,27 @@
+{
+  "id": "amsterdam-rembrandt-tower",
+  "name": "Rembrandttoren",
+  "model": "amsterdam-rembrandt-tower",
+  "place": "amsterdam",
+  "lng": 4.917058,
+  "lat": 52.345125,
+  "bearing": 339.3,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/44451577",
+    "way/754399962",
+    "way/754399963",
+    "way/754399964",
+    "way/754399965",
+    "way/754399966",
+    "way/754399967",
+    "way/754399968",
+    "way/754399969",
+    "way/754399970",
+    "way/754399971",
+    "way/754399972",
+    "way/754399973"
+  ],
+  "wikidata": "Q2361620"
+}

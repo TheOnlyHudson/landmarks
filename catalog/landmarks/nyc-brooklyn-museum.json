@@ -1,0 +1,16 @@
+{
+  "id": "nyc-brooklyn-museum",
+  "name": "Brooklyn Museum",
+  "model": "nyc-brooklyn-museum",
+  "lng": -73.9635448,
+  "lat": 40.6709897,
+  "bearing": 15,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q632682",
+  "replaces": [
+    "way/1432069915",
+    "way/250229991"
+  ],
+  "place": "new-york-area"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mexico-city-munal",
+  "name": "Museo Nacional de Arte",
+  "model": "mexico-city-munal",
+  "place": "mexico-city",
+  "lng": -99.139401,
+  "lat": 19.436463,
+  "bearing": 8.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/14592229"
+  ],
+  "wikidata": "Q1138147"
+}

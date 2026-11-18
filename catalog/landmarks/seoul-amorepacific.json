@@ -1,0 +1,23 @@
+{
+  "id": "seoul-amorepacific",
+  "name": "Amorepacific Headquarters",
+  "model": "seoul-amorepacific",
+  "place": "seoul",
+  "lng": 126.9686221,
+  "lat": 37.5287964,
+  "bearing": 36.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q55732357",
+  "replaces": [
+    "way/363982568",
+    "way/641066081",
+    "way/641066083",
+    "way/641066085",
+    "way/641066087",
+    "way/641711401",
+    "way/641711402",
+    "way/641711403",
+    "way/641711404"
+  ]
+}

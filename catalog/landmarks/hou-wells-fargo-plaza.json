@@ -1,0 +1,15 @@
+{
+  "id": "hou-wells-fargo-plaza",
+  "name": "Wells Fargo Plaza",
+  "model": "hou-wells-fargo-plaza",
+  "place": "houston-area",
+  "lng": -95.3683016,
+  "lat": 29.7584357,
+  "bearing": 34.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q57767",
+  "replaces": [
+    "way/44821987"
+  ]
+}

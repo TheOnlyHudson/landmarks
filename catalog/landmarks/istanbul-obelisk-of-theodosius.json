@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-obelisk-of-theodosius",
+  "name": "Obelisk of Theodosius",
+  "model": "istanbul-obelisk-of-theodosius",
+  "place": "istanbul",
+  "lng": 28.9754,
+  "lat": 41.005928,
+  "bearing": 37.6,
+  "elevation": -2.2,
+  "minzoom": 16,
+  "wikidata": "Q763854",
+  "replaces": [
+    "way/1120852417"
+  ]
+}

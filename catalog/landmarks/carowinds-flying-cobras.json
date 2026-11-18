@@ -1,0 +1,18 @@
+{
+  "id": "carowinds-flying-cobras",
+  "name": "The Flying Cobras",
+  "model": "carowinds-flying-cobras",
+  "lng": -80.9427914,
+  "lat": 35.1026473,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5044796",
+  "replaces": [
+    "way/241408487",
+    "way/241408477",
+    "way/888642924",
+    "way/888642927"
+  ],
+  "place": "carowinds"
+}

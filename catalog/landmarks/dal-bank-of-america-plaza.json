@@ -1,0 +1,21 @@
+{
+  "id": "dal-bank-of-america-plaza",
+  "name": "Bank of America Plaza",
+  "model": "dal-bank-of-america-plaza",
+  "place": "dallas-area",
+  "lng": -96.8039011,
+  "lat": 32.7800149,
+  "bearing": 346.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/138670474",
+    "way/1492295745",
+    "way/1492295746",
+    "way/1492295747",
+    "way/1492295748",
+    "way/1492295749",
+    "way/1492295750"
+  ],
+  "wikidata": "Q806675"
+}

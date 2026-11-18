@@ -1,0 +1,15 @@
+{
+  "id": "london-kew-palm-house",
+  "name": "Palm House, Kew",
+  "model": "london-kew-palm-house",
+  "place": "london",
+  "lng": -0.2927483,
+  "lat": 51.4790564,
+  "bearing": 341.3,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q17528039",
+  "replaces": [
+    "way/4803632"
+  ]
+}

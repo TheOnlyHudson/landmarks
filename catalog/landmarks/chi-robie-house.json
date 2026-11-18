@@ -1,0 +1,15 @@
+{
+  "id": "chi-robie-house",
+  "name": "Frederick C. Robie House",
+  "model": "chi-robie-house",
+  "lng": -87.595947,
+  "lat": 41.789811,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q929965",
+  "replaces": [
+    "way/125667497"
+  ],
+  "place": "chicago-area"
+}

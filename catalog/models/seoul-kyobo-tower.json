@@ -1,0 +1,62 @@
+{
+  "id": "seoul-kyobo-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern",
+    "brick"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Mario Botta - Kyobo Tower 01",
+      "url": "https://www.flickr.com/photos/44343967@N00/5052325759",
+      "author": "Forgemind ArchiMedia",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Mario Botta - Kyobo Tower 02",
+      "url": "https://www.flickr.com/photos/44343967@N00/5052943862",
+      "author": "Forgemind ArchiMedia",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Mario Botta - Kyobo Tower 03",
+      "url": "https://www.flickr.com/photos/44343967@N00/5052326237",
+      "author": "Forgemind ArchiMedia",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Gangnam Mario Botta Tower",
+      "url": "https://www.flickr.com/photos/97114498@N04/37078168201",
+      "author": "TCA Think Tank",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Gangnam Mario Botta Tower",
+      "url": "https://www.flickr.com/photos/97114498@N04/37048801152",
+      "author": "TCA Think Tank",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/seoul-kyobo-tower.glb",
+  "source": "generators/seoul-kyobo-tower.ts"
+}

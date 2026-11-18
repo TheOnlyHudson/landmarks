@@ -1,0 +1,20 @@
+{
+  "id": "phl-wanamaker-building",
+  "name": "Wanamaker Building",
+  "model": "phl-wanamaker-building",
+  "place": "philadelphia-area",
+  "lng": -75.162149,
+  "lat": 39.951401,
+  "bearing": 9.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/198674659",
+    "way/785232307",
+    "way/336681364",
+    "way/336681365",
+    "way/336681366",
+    "way/354994854",
+    "way/354994855"
+  ]
+}

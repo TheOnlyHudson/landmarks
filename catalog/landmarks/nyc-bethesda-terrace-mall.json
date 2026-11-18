@@ -1,0 +1,12 @@
+{
+  "id": "nyc-bethesda-terrace-mall",
+  "name": "Bethesda Terrace (Mall level)",
+  "model": "nyc-bethesda-terrace-mall",
+  "place": "new-york-area",
+  "lng": -73.9710115,
+  "lat": 40.773866,
+  "bearing": 16.7,
+  "elevation": -5.4,
+  "minzoom": 16,
+  "replaces": []
+}

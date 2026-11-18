@@ -1,0 +1,14 @@
+{
+  "id": "seoul-injeongjeon",
+  "name": "Injeongjeon",
+  "model": "seoul-injeongjeon",
+  "place": "seoul",
+  "lng": 126.9910907,
+  "lat": 37.579449,
+  "bearing": 353.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/380863259"
+  ]
+}

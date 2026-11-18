@@ -1,0 +1,71 @@
+{
+  "id": "singapore-supertree-grove",
+  "file": "models/singapore-supertree-grove.glb",
+  "detail": "models/singapore-supertree-grove.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/singapore-supertree-grove.ts",
+  "type": "sculpture",
+  "collection": "landmarks",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "tags": [
+    "garden",
+    "vertical-garden",
+    "observation-deck",
+    "skywalk"
+  ],
+  "description": "The twelve steel Supertrees of Gardens by the Bay's Supertree Grove, 25 to 50 m tall, with the Supertree Observatory in the tallest and the OCBC Skyway 22 m up between the two skyway trees.",
+  "references": [
+    {
+      "title": "Supertree Grove, Gardens by the Bay, Singapore1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Supertree_Grove,_Gardens_by_the_Bay,_Singapore1.jpg",
+      "author": "Mustang Joe",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Singapore Supertree-Grove-in-The-Gardens-03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Singapore_Supertree-Grove-in-The-Gardens-03.jpg",
+      "author": "CEphoto, Uwe Aranas",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Singapore (SG), Gardens by the Bay, Supertree Grove -- 2019 -- 4752.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Singapore_(SG),_Gardens_by_the_Bay,_Supertree_Grove_--_2019_--_4752.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "20190819 Gardens by the Bay Supertree Grove-2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:20190819_Gardens_by_the_Bay_Supertree_Grove-2.jpg",
+      "author": "Balon Greyjoy",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "At Singapore 2023 125 - At Supertree Grove.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:At_Singapore_2023_125_-_At_Supertree_Grove.jpg",
+      "author": "Mike Peel",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Supertree Grove at night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Supertree_Grove_at_night.jpg",
+      "author": "Kanzcech",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "reviewStatus": "unreviewed"
+}

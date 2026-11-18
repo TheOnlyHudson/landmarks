@@ -1,0 +1,19 @@
+{
+  "id": "munich-theatinerkirche",
+  "name": "Theatinerkirche St. Kajetan",
+  "model": "munich-theatinerkirche",
+  "place": "munich",
+  "lng": 11.576617,
+  "lat": 48.142069,
+  "bearing": 14.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q259799",
+  "replaces": [
+    "way/25514390",
+    "way/312008156",
+    "way/312008157",
+    "way/497670959",
+    "way/1193085484"
+  ]
+}

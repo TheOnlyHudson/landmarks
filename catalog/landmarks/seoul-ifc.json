@@ -1,0 +1,24 @@
+{
+  "id": "seoul-ifc",
+  "name": "IFC Seoul",
+  "model": "seoul-ifc",
+  "place": "seoul",
+  "lng": 126.925798,
+  "lat": 37.52529,
+  "bearing": 52,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/621752528",
+    "way/621752526",
+    "way/639943641",
+    "way/639943642",
+    "way/639943643",
+    "way/621752527",
+    "way/500362301",
+    "way/621752531",
+    "way/621752532",
+    "way/1465162036",
+    "way/1465162037"
+  ]
+}

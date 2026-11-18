@@ -1,0 +1,28 @@
+{
+  "id": "beatties-ford-water-tower",
+  "file": "models/beatties-ford-water-tower.glb",
+  "license": "CC0-1.0",
+  "author": "Alex Wohlbruck",
+  "source": "generators/beatties-ford-water-tower.ts",
+  "type": "tower",
+  "collection": "landmarks",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "role": "creator",
+      "github": "alexwohlbruck"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "tags": [
+    "water-tower"
+  ],
+  "reviewStatus": "unreviewed"
+}

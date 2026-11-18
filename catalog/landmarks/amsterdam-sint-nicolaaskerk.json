@@ -1,0 +1,28 @@
+{
+  "id": "amsterdam-sint-nicolaaskerk",
+  "name": "Basilica of Saint Nicholas",
+  "model": "amsterdam-sint-nicolaaskerk",
+  "place": "amsterdam",
+  "lng": 4.901162,
+  "lat": 52.376435,
+  "bearing": 150.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/174996833",
+    "way/645534930",
+    "way/645534931",
+    "way/749289632",
+    "way/749289633",
+    "way/749289634",
+    "way/750217059",
+    "way/750217060",
+    "way/750217061",
+    "way/750217062",
+    "way/750217063",
+    "way/750217064",
+    "way/750591088",
+    "way/750591090"
+  ],
+  "wikidata": "Q1350750"
+}

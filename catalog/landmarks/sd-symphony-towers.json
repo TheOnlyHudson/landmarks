@@ -1,0 +1,14 @@
+{
+  "id": "sd-symphony-towers",
+  "name": "Symphony Towers",
+  "model": "sd-symphony-towers",
+  "place": "san-diego-area",
+  "lng": -117.1578641,
+  "lat": 32.7180549,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/31846117"
+  ]
+}

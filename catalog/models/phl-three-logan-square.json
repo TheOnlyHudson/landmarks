@@ -1,0 +1,50 @@
+{
+  "id": "phl-three-logan-square",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q2894593",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Three Logan Square a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Three_Logan_Square_a.jpg",
+      "author": "Wobbanight",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Bell atlantic tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bell_atlantic_tower.jpg",
+      "author": "Werd678 (English Wikipedia)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Comcast Centers in Philadelphia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Comcast_Centers_in_Philadelphia.jpg",
+      "author": "Chapsam",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/phl-three-logan-square.glb",
+  "source": "generators/phl-three-logan-square.ts"
+}

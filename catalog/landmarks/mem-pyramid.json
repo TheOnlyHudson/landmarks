@@ -1,0 +1,15 @@
+{
+  "id": "mem-pyramid",
+  "name": "Memphis Pyramid",
+  "model": "mem-pyramid",
+  "place": "memphis-area",
+  "wikidata": "Q2226897",
+  "lng": -90.051905,
+  "lat": 35.155977,
+  "bearing": 18,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/118647101"
+  ]
+}

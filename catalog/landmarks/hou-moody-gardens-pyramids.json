@@ -1,0 +1,16 @@
+{
+  "id": "hou-moody-gardens-pyramids",
+  "name": "Moody Gardens Pyramids",
+  "model": "hou-moody-gardens-pyramids",
+  "place": "houston-area",
+  "lng": -94.8530978,
+  "lat": 29.2750417,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/33851702",
+    "way/33851713",
+    "way/33851735"
+  ]
+}

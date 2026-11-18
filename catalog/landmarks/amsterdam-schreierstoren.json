@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-schreierstoren",
+  "name": "Schreierstoren",
+  "model": "amsterdam-schreierstoren",
+  "place": "amsterdam",
+  "lng": 4.902242,
+  "lat": 52.376358,
+  "bearing": 21,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/57859248"
+  ],
+  "wikidata": "Q610402"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "sd-star-of-india",
+  "name": "Star of India",
+  "model": "sd-star-of-india",
+  "place": "san-diego-area",
+  "lng": -117.17356,
+  "lat": 32.720276,
+  "bearing": 180,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/170659470"
+  ],
+  "wikidata": "Q1581178"
+}

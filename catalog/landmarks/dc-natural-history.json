@@ -1,0 +1,17 @@
+{
+  "id": "dc-natural-history",
+  "name": "National Museum of Natural History",
+  "model": "dc-natural-history",
+  "lng": -77.0259675,
+  "lat": 38.8912664,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q148554",
+  "replaces": [
+    "way/66418787",
+    "way/453546745",
+    "way/453546747"
+  ],
+  "place": "washington-area"
+}

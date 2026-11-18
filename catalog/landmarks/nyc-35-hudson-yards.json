@@ -1,0 +1,26 @@
+{
+  "id": "nyc-35-hudson-yards",
+  "name": "35 Hudson Yards",
+  "model": "nyc-35-hudson-yards",
+  "lng": -74.0022556,
+  "lat": 40.7546479,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q15264622",
+  "replaces": [
+    "way/468721008",
+    "way/1089415971",
+    "way/1089415972",
+    "way/1089415973",
+    "way/1089415974",
+    "way/1089415975",
+    "way/1089415976",
+    "way/1089415977",
+    "way/1089415978",
+    "way/1089415979",
+    "way/1089415980",
+    "way/1089415981"
+  ],
+  "place": "new-york-area"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "mexico-city-torre-latinoamericana",
+  "name": "Torre Latinoamericana",
+  "model": "mexico-city-torre-latinoamericana",
+  "place": "mexico-city",
+  "lng": -99.140611,
+  "lat": 19.433866,
+  "bearing": 8.2,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "relation/6071992",
+    "way/1095452896",
+    "way/528548025",
+    "relation/19455319",
+    "relation/19455320",
+    "relation/19455321",
+    "relation/19455322",
+    "relation/19455323"
+  ],
+  "wikidata": "Q947870"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mexico-city-torre-mayor",
+  "name": "Torre Mayor",
+  "model": "mexico-city-torre-mayor",
+  "place": "mexico-city",
+  "lng": -99.175301,
+  "lat": 19.42435,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/217330156",
+    "way/1173145877",
+    "way/1173145878",
+    "way/1187884777",
+    "way/1151277352",
+    "way/1137741007",
+    "way/1137741008",
+    "way/1137741009",
+    "way/1137741010",
+    "way/1137741011",
+    "way/1137741012",
+    "way/1137741013"
+  ],
+  "wikidata": "Q844813"
+}

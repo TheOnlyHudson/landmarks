@@ -9,9 +9,10 @@ import { join } from 'node:path'
 import { buildRelease, CatalogError, indexTile, type Asset } from '../src/release'
 import type { Catalog } from '../src/catalog'
 import { place, worldVertices } from './helpers'
+import { readCatalog } from '../src/catalog-files'
 
 const ROOT = join(import.meta.dir, '..')
-const shipped = (): Catalog => JSON.parse(readFileSync(join(ROOT, 'catalog.json'), 'utf8'))
+const shipped = (): Catalog => readCatalog(ROOT)
 const sha = (b: Uint8Array) => createHash('sha256').update(b).digest('hex')
 const text = (b: Uint8Array) => JSON.parse(new TextDecoder().decode(b))
 

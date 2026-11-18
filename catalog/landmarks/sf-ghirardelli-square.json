@@ -1,0 +1,19 @@
+{
+  "id": "sf-ghirardelli-square",
+  "name": "Ghirardelli Square",
+  "model": "sf-ghirardelli-square",
+  "lng": -122.42283442,
+  "lat": 37.80560018,
+  "bearing": 351,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5556730",
+  "replaces": [
+    "way/939539785",
+    "way/939539839",
+    "way/939539786",
+    "way/939539784",
+    "way/288388853"
+  ],
+  "place": "san-francisco-bay-area"
+}

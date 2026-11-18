@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-carre",
+  "name": "Koninklijk Theater Carré",
+  "model": "amsterdam-carre",
+  "place": "amsterdam",
+  "lng": 4.904281,
+  "lat": 52.362424,
+  "bearing": 73.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/269000174"
+  ],
+  "wikidata": "Q1106490"
+}

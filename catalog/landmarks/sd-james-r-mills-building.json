@@ -1,0 +1,14 @@
+{
+  "id": "sd-james-r-mills-building",
+  "name": "James R. Mills Building",
+  "model": "sd-james-r-mills-building",
+  "place": "san-diego-area",
+  "lng": -117.1533954,
+  "lat": 32.7057002,
+  "bearing": 334.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/31819765"
+  ]
+}

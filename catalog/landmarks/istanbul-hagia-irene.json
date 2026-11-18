@@ -1,0 +1,20 @@
+{
+  "id": "istanbul-hagia-irene",
+  "name": "Hagia Irene",
+  "model": "istanbul-hagia-irene",
+  "place": "istanbul",
+  "lng": 28.980963,
+  "lat": 41.009835,
+  "bearing": 40.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q736676",
+  "replaces": [
+    "relation/4742554",
+    "way/776243839",
+    "way/776243840",
+    "way/776243841",
+    "way/776243842",
+    "way/776243843"
+  ]
+}

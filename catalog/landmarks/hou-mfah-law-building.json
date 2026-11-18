@@ -1,0 +1,15 @@
+{
+  "id": "hou-mfah-law-building",
+  "name": "Caroline Wiess Law Building",
+  "model": "hou-mfah-law-building",
+  "place": "houston-area",
+  "lng": -95.3904583,
+  "lat": 29.7256491,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/45776272"
+  ],
+  "wikidata": "Q118955205"
+}

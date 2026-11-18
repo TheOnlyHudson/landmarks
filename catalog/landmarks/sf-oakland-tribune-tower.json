@@ -1,0 +1,19 @@
+{
+  "id": "sf-oakland-tribune-tower",
+  "name": "Oakland Tribune Tower",
+  "model": "sf-oakland-tribune-tower",
+  "lng": -122.270827,
+  "lat": 37.803054,
+  "bearing": 26.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q7840494",
+  "replaces": [
+    "way/91760682",
+    "way/425060610",
+    "way/660808995",
+    "way/660808996",
+    "way/660808997"
+  ],
+  "place": "san-francisco-bay-area"
+}

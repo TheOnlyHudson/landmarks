@@ -1,0 +1,16 @@
+{
+  "id": "phl-franklin-field",
+  "name": "Franklin Field",
+  "model": "phl-franklin-field",
+  "place": "philadelphia-area",
+  "lng": -75.18997,
+  "lat": 39.95007,
+  "bearing": 42.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/665447049",
+    "way/624597559"
+  ],
+  "wikidata": "Q5491503"
+}

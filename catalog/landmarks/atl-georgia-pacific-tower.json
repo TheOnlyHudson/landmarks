@@ -1,0 +1,18 @@
+{
+  "id": "atl-georgia-pacific-tower",
+  "name": "Georgia-Pacific Tower",
+  "model": "atl-georgia-pacific-tower",
+  "place": "atlanta-area",
+  "lng": -84.38706,
+  "lat": 33.757448,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/479134200",
+    "way/479134201",
+    "way/479134202",
+    "way/479134203",
+    "way/479134204"
+  ]
+}

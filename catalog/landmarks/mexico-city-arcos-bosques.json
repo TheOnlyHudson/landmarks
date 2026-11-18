@@ -1,0 +1,20 @@
+{
+  "id": "mexico-city-arcos-bosques",
+  "name": "Torre Arcos Bosques I",
+  "model": "mexico-city-arcos-bosques",
+  "place": "mexico-city",
+  "lng": -99.251017,
+  "lat": 19.387702,
+  "bearing": 323.4,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/220412303",
+    "way/1137999543",
+    "way/1137999544",
+    "way/1137999545",
+    "way/1172892443",
+    "way/1172892444"
+  ],
+  "wikidata": "Q16641519"
+}

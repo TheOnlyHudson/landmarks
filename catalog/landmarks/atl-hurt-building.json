@@ -1,0 +1,15 @@
+{
+  "id": "atl-hurt-building",
+  "name": "Hurt Building",
+  "model": "atl-hurt-building",
+  "place": "atlanta-area",
+  "lng": -84.387189,
+  "lat": 33.754259,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/24232553"
+  ],
+  "wikidata": "Q5948694"
+}

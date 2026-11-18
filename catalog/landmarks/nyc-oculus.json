@@ -1,0 +1,15 @@
+{
+  "id": "nyc-oculus",
+  "name": "The Oculus",
+  "model": "nyc-oculus",
+  "lng": -74.011413,
+  "lat": 40.7115445,
+  "bearing": 128,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2001751",
+  "replaces": [
+    "way/278033606"
+  ],
+  "place": "new-york-area"
+}

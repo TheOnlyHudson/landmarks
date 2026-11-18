@@ -1,0 +1,17 @@
+{
+  "id": "wdw-epcot-canada",
+  "name": "Canada Pavilion (Hôtel du Canada)",
+  "model": "wdw-epcot-canada",
+  "lng": -81.55165,
+  "lat": 28.37155,
+  "bearing": 34,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2905034",
+  "replaces": [
+    "way/295396527",
+    "way/295396523",
+    "way/295396535"
+  ],
+  "place": "walt-disney-world"
+}

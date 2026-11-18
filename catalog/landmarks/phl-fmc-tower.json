@@ -1,0 +1,16 @@
+{
+  "id": "phl-fmc-tower",
+  "name": "FMC Tower at Cira Centre South",
+  "model": "phl-fmc-tower",
+  "place": "philadelphia-area",
+  "lng": -75.183525,
+  "lat": 39.952051,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/748885496",
+    "way/748885493",
+    "way/748885492"
+  ]
+}

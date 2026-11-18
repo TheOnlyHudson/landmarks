@@ -1,0 +1,12 @@
+{
+  "id": "unisphere",
+  "model": "unisphere",
+  "name": "Unisphere",
+  "lng": -73.8450748,
+  "lat": 40.7463838,
+  "bearing": 0,
+  "minzoom": 14,
+  "wikidata": "Q717956",
+  "replaces": [],
+  "place": "new-york-area"
+}

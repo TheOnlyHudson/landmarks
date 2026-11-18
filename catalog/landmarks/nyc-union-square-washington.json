@@ -1,0 +1,13 @@
+{
+  "id": "nyc-union-square-washington",
+  "name": "Equestrian statue of George Washington",
+  "model": "nyc-union-square-washington",
+  "lng": -73.990695,
+  "lat": 40.7353762,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 17,
+  "wikidata": "Q17182170",
+  "replaces": [],
+  "place": "new-york-area"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "wdw-ak-entrance",
+  "name": "Disney's Animal Kingdom Entrance",
+  "model": "wdw-ak-entrance",
+  "lng": -81.5900755,
+  "lat": 28.3552589,
+  "bearing": 350,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/295763702",
+    "way/295763703",
+    "way/295763704",
+    "way/295763710"
+  ],
+  "place": "walt-disney-world"
+}

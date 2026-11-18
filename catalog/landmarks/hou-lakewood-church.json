@@ -1,0 +1,15 @@
+{
+  "id": "hou-lakewood-church",
+  "name": "Lakewood Church Central Campus",
+  "model": "hou-lakewood-church",
+  "place": "houston-area",
+  "lng": -95.43474,
+  "lat": 29.730403,
+  "bearing": 357.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2435324",
+  "replaces": [
+    "way/118780514"
+  ]
+}

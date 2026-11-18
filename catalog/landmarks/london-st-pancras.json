@@ -1,0 +1,19 @@
+{
+  "id": "london-st-pancras",
+  "name": "St Pancras station and Renaissance Hotel",
+  "model": "london-st-pancras",
+  "place": "london",
+  "lng": -0.126515,
+  "lat": 51.531757,
+  "bearing": 334,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q720102",
+  "replaces": [
+    "way/4256246",
+    "way/15694166",
+    "way/483759496",
+    "way/483759582",
+    "way/483759587"
+  ]
+}

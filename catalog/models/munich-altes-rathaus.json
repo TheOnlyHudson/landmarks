@@ -1,0 +1,63 @@
+{
+  "id": "munich-altes-rathaus",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "town-hall",
+    "gothic",
+    "clock-tower",
+    "city-gate",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Altes Rathaus München Westseite",
+      "url": "https://commons.wikimedia.org/wiki/File:Altes_Rathaus_M%C3%BCnchen_Westseite.jpg",
+      "author": "Thomas Wolf (Der Wolf im Wald)",
+      "license": "CC0"
+    },
+    {
+      "title": "Altes Rathaus München Ostseite",
+      "url": "https://commons.wikimedia.org/wiki/File:Altes_Rathaus_M%C3%BCnchen_Ostseite.jpg",
+      "author": "Thomas Wolf, www.foto-tw.de",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "Munich - View from Alter Peter tower - 8249",
+      "url": "https://commons.wikimedia.org/wiki/File:Munich_-_View_from_Alter_Peter_tower_-_8249.jpg",
+      "author": "Jorge Royan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Munich - View from Alter Peter tower - 8227",
+      "url": "https://commons.wikimedia.org/wiki/File:Munich_-_View_from_Alter_Peter_tower_-_8227.jpg",
+      "author": "Jorge Royan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Altes Rathaus Munich 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Altes_Rathaus_Munich_01.jpg",
+      "author": "Flocci Nivis",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/munich-altes-rathaus.glb",
+  "source": "generators/munich-altes-rathaus.ts"
+}

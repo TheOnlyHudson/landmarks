@@ -1,0 +1,15 @@
+{
+  "id": "istanbul-phanar-greek-college",
+  "name": "Phanar Greek Orthodox College",
+  "model": "istanbul-phanar-greek-college",
+  "place": "istanbul",
+  "lng": 28.949358,
+  "lat": 41.029213,
+  "bearing": 40,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q3555000",
+  "replaces": [
+    "way/330352317"
+  ]
+}

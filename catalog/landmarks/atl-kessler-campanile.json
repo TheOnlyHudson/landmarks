@@ -1,0 +1,12 @@
+{
+  "id": "atl-kessler-campanile",
+  "name": "Kessler Campanile",
+  "model": "atl-kessler-campanile",
+  "place": "atlanta-area",
+  "lng": -84.39818,
+  "lat": 33.7743,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

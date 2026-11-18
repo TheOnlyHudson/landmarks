@@ -1,0 +1,19 @@
+{
+  "id": "phl-walt-whitman-bridge",
+  "name": "Walt Whitman Bridge",
+  "model": "phl-walt-whitman-bridge",
+  "place": "philadelphia-area",
+  "lng": -75.1292927,
+  "lat": 39.9051882,
+  "bearing": 102.52,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q3396791",
+  "replaces": [
+    "way/575987843",
+    "way/755034376",
+    "way/755034375",
+    "way/1044593721",
+    "way/1044593722"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dal-hall-of-state",
+  "name": "Hall of State",
+  "model": "dal-hall-of-state",
+  "place": "dallas-area",
+  "lng": -96.7610538,
+  "lat": 32.7807531,
+  "bearing": 17.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5642713",
+  "replaces": [
+    "way/27113243"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dal-magnolia-hotel",
+  "name": "Magnolia Building",
+  "model": "dal-magnolia-hotel",
+  "place": "dallas-area",
+  "lng": -96.799065,
+  "lat": 32.780159,
+  "bearing": 345.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q12061439",
+  "replaces": [
+    "way/30898509"
+  ]
+}

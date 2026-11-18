@@ -1,0 +1,29 @@
+{
+  "id": "seoul-gwanghwamun",
+  "name": "Gwanghwamun",
+  "model": "seoul-gwanghwamun",
+  "place": "seoul",
+  "lng": 126.9768153,
+  "lat": 37.575932,
+  "bearing": 1.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/170199440",
+    "way/1170008834",
+    "way/1170008836",
+    "way/1170008837",
+    "way/1170008838",
+    "way/1170008839",
+    "way/1170008840",
+    "way/1415432340",
+    "way/1415432341",
+    "way/1415432342",
+    "way/1415432343",
+    "way/1415432344",
+    "way/1415432345",
+    "way/1415432346",
+    "way/1415432347"
+  ],
+  "wikidata": "Q485034"
+}

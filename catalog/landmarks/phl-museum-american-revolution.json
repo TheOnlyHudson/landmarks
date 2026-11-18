@@ -1,0 +1,14 @@
+{
+  "id": "phl-museum-american-revolution",
+  "name": "Museum of the American Revolution",
+  "model": "phl-museum-american-revolution",
+  "place": "philadelphia-area",
+  "lng": -75.145657,
+  "lat": 39.948174,
+  "bearing": 10.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/705309586"
+  ]
+}

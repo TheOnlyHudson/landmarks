@@ -1,0 +1,16 @@
+{
+  "id": "astana-bayterek",
+  "name": "Bayterek",
+  "model": "astana-bayterek",
+  "lng": 71.430457,
+  "lat": 51.128286,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q804210",
+  "replaces": [
+    "way/230401645",
+    "way/230401644"
+  ],
+  "place": "astana"
+}

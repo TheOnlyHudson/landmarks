@@ -1,0 +1,26 @@
+{
+  "id": "phl-boathouse-row",
+  "name": "Boathouse Row",
+  "model": "phl-boathouse-row",
+  "place": "philadelphia-area",
+  "lng": -75.187806,
+  "lat": 39.969496,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2907541",
+  "replaces": [
+    "way/60945644",
+    "way/60945643",
+    "way/60945642",
+    "way/60945641",
+    "way/60945640",
+    "way/60945645",
+    "way/664678411",
+    "way/60945636",
+    "way/60945635",
+    "way/60945611",
+    "way/664678412",
+    "way/60945610"
+  ]
+}

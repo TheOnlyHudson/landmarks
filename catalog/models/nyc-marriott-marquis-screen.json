@@ -1,0 +1,61 @@
+{
+  "id": "nyc-marriott-marquis-screen",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "other",
+  "tags": [
+    "sign",
+    "billboard",
+    "neon",
+    "times-square"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Marriott Marquis Hotel",
+      "url": "https://www.flickr.com/photos/34128007@N04/38358498371",
+      "author": "Prayitno",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "New York Marriott Marquis (54077363060).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_York_Marriott_Marquis_(54077363060).jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "W 46th St Duffy Square 11 - Marriott Marquis.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:W_46th_St_Duffy_Square_11_-_Marriott_Marquis.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Times Sq Nov 2021 23.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Times_Sq_Nov_2021_23.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Times Square - New York, NY, USA - August 2015 13.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Times_Square_-_New_York,_NY,_USA_-_August_2015_13.jpg",
+      "author": "Giorgio Galeotti",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/nyc-marriott-marquis-screen.glb",
+  "source": "generators/nyc-marriott-marquis-screen.ts"
+}

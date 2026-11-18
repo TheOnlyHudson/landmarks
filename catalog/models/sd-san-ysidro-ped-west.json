@@ -1,0 +1,49 @@
+{
+  "id": "sd-san-ysidro-ped-west",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "border-crossing",
+    "government"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The West Pedestrian Inspection Building (2016) of the San Ysidro Land Port of Entry.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "PedWest US.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:PedWest_US.jpg",
+      "author": "Keizers",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "FPS traffic stop PedWest 2018-10-16.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:FPS_traffic_stop_PedWest_2018-10-16.jpg",
+      "author": "Balintawak",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "PPE at the San Ysidro Port of Entry, PED WEST.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:PPE_at_the_San_Ysidro_Port_of_Entry,_PED_WEST.jpg",
+      "author": "CBP Photography",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/sd-san-ysidro-ped-west.glb",
+  "source": "generators/sd-san-ysidro-ped-west.ts"
+}

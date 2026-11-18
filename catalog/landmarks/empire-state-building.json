@@ -1,0 +1,24 @@
+{
+  "id": "empire-state-building",
+  "model": "empire-state-building",
+  "name": "Empire State Building",
+  "lng": -73.9859714,
+  "lat": 40.7485288,
+  "bearing": 29,
+  "minzoom": 13,
+  "wikidata": "Q9188",
+  "replaces": [
+    "way/34633854",
+    "way/137425125",
+    "way/137425127",
+    "way/137425128",
+    "way/137425129",
+    "way/137425131",
+    "way/137425133",
+    "way/137425142",
+    "way/137425144",
+    "way/137425145",
+    "way/265932618"
+  ],
+  "place": "new-york-area"
+}

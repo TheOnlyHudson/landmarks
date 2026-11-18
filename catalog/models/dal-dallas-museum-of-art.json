@@ -1,0 +1,78 @@
+{
+  "id": "dal-dallas-museum-of-art",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Dallas Museum of Art July 2015 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_Museum_of_Art_July_2015_01.jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Dallas Museum of Art July 2015 13.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_Museum_of_Art_July_2015_13.jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "DMA west.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:DMA_west.jpg",
+      "author": "KeithJonsn at English Wikipedia",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Dallas Museum of Art 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_Museum_of_Art_01.jpg",
+      "author": "Andreas Praefcke",
+      "license": "Public domain"
+    },
+    {
+      "title": "Dallas Museum of Art.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_Museum_of_Art.jpg",
+      "author": "Kent Wang",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Downtown Dallas TX 2013-06-08 067.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Dallas_TX_2013-06-08_067.jpg",
+      "author": "Thomas R Machnitzki",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Entrance of Dallas Museum - Mar 3, 2009.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Entrance_of_Dallas_Museum_-_Mar_3,_2009.jpg",
+      "author": "cliff williams",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Entrance to the Dallas Museum of Art in Dallas, Texas LCCN2014633039.tif",
+      "url": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Dallas_Museum_of_Art_in_Dallas,_Texas_LCCN2014633039.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/dal-dallas-museum-of-art.glb",
+  "source": "generators/dal-dallas-museum-of-art.ts"
+}

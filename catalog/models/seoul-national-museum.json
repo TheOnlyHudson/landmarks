@@ -1,0 +1,61 @@
+{
+  "id": "seoul-national-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "modern",
+    "granite"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "National Museum of Korea (4)",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Korea_(4).jpg",
+      "author": "SJ Yang",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Front view of national museum of korea",
+      "url": "https://commons.wikimedia.org/wiki/File:Front_view_of_national_museum_of_korea.jpg",
+      "author": "Jinah78",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Exterior of the National Museum of Korea in Seoul",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_National_Museum_of_Korea_in_Seoul.jpg",
+      "author": "Ethan Doyle White",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "National Museum of Korea",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Korea.jpg",
+      "author": "sarahkim",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "National Museum of Korea (KOREA.NET)",
+      "url": "https://www.flickr.com/photos/42438955@N05/6387720685",
+      "author": "KOREA.NET - Official page of the Republic of Korea",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/seoul-national-museum.glb",
+  "source": "generators/seoul-national-museum.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "amsterdam-magna-plaza",
+  "name": "Magna Plaza",
+  "model": "amsterdam-magna-plaza",
+  "place": "amsterdam",
+  "lng": 4.890249,
+  "lat": 52.373635,
+  "bearing": 17.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1962448",
+  "replaces": [
+    "way/57861220"
+  ]
+}

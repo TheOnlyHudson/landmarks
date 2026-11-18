@@ -1,0 +1,18 @@
+{
+  "id": "sd-santa-fe-depot",
+  "name": "Santa Fe Depot",
+  "model": "sd-santa-fe-depot",
+  "place": "san-diego-area",
+  "lng": -117.16956,
+  "lat": 32.71695,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/27154273",
+    "way/497459943",
+    "way/497459996",
+    "way/1148666636",
+    "way/1148666637"
+  ]
+}

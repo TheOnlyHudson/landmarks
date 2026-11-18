@@ -1,0 +1,31 @@
+{
+  "id": "london-westminster-cathedral",
+  "name": "Westminster Cathedral",
+  "model": "london-westminster-cathedral",
+  "place": "london",
+  "lng": -0.1394625,
+  "lat": 51.4958499,
+  "bearing": 58,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q739364",
+  "replaces": [
+    "way/10810446",
+    "way/316505885",
+    "way/316505886",
+    "way/450215204",
+    "way/450215205",
+    "way/450215208",
+    "way/450215210",
+    "way/450215212",
+    "way/450215213",
+    "way/450215218",
+    "way/450215219",
+    "way/450215222",
+    "way/1149738194",
+    "way/1149738195",
+    "way/1149738196",
+    "way/1436670422",
+    "way/1436670424"
+  ]
+}

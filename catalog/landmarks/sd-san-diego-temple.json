@@ -1,0 +1,15 @@
+{
+  "id": "sd-san-diego-temple",
+  "name": "San Diego California Temple",
+  "model": "sd-san-diego-temple",
+  "place": "san-diego-area",
+  "lng": -117.228694,
+  "lat": 32.86639,
+  "bearing": 4,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/33647441"
+  ],
+  "wikidata": "Q3132715"
+}
