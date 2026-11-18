@@ -1,0 +1,26 @@
+{
+  "id": "moscow-kremlin-wall-first-second-unnamed",
+  "name": "Kremlin Wall, First Unnamed Tower to Second Unnamed Tower",
+  "model": "moscow-kremlin-wall-first-second-unnamed",
+  "place": "moscow",
+  "lng": 37.6196374,
+  "lat": 55.7495452,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/2470041",
+    "relation/16265161",
+    "relation/16265162",
+    "relation/16265163",
+    "relation/16265164",
+    "relation/16265165",
+    "relation/16265166",
+    "relation/16265167",
+    "relation/16265168",
+    "relation/16265169",
+    "relation/16265170",
+    "relation/16265171",
+    "relation/16265172"
+  ]
+}
