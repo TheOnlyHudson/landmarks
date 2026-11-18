@@ -1,0 +1,19 @@
+{
+  "id": "moscow-kremlin-wall-commandants-armoury",
+  "name": "Kremlin Wall, Commandant's Tower to Armoury Tower",
+  "model": "moscow-kremlin-wall-commandants-armoury",
+  "place": "moscow",
+  "lng": 37.613175,
+  "lat": 55.7499952,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/2470043",
+    "relation/3427918",
+    "relation/16265045",
+    "relation/16265046",
+    "relation/16265047",
+    "relation/16265048"
+  ]
+}
