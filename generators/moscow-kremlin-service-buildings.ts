@@ -35,7 +35,8 @@
  * bays) are estimated.
  *
  * Materials (five): ochre (the stable, the sheds), the pale grey-green,
- * Kremlin brick, roof, window.
+ * Kremlin brick, the painted green roof (#76b9a6; OSM roof:colour #1a5947),
+ * window.
  */
 import { Part } from './mesh'
 import { PALETTE, finish } from './palette'
