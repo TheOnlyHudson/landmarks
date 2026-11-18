@@ -1,0 +1,101 @@
+{
+  "id": "berlin-reichstag",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "parliament",
+    "government",
+    "neo-renaissance",
+    "glass-dome",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Reichstagsgebäude von Westen",
+      "url": "https://commons.wikimedia.org/wiki/File:Reichstagsgeb%C3%A4ude_von_Westen.jpg",
+      "author": "Jörg Braukmann",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berlin, Reichstagsgebäude -- 2019 -- 6314",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Reichstagsgeb%C3%A4ude_--_2019_--_6314.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berlin, Reichstagsgebäude -- 2019 -- 6317",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Reichstagsgeb%C3%A4ude_--_2019_--_6317.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bundestag Berlin Deutschland Reichstagsgebäude - 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Bundestag_Berlin_Deutschland_Reichstagsgeb%C3%A4ude_-_01.jpg",
+      "author": "Norbert Nagel",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Bundestag Berlin Deutschland Reichstagsgebäude - 07",
+      "url": "https://commons.wikimedia.org/wiki/File:Bundestag_Berlin_Deutschland_Reichstagsgeb%C3%A4ude_-_07.jpg",
+      "author": "Norbert Nagel",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Reichstagsgebäude, Berlin-Mitte, 170402, ako",
+      "url": "https://commons.wikimedia.org/wiki/File:Reichstagsgeb%C3%A4ude,_Berlin-Mitte,_170402,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "Regierungsviertel, Berlin-Mitte, 170325, ako",
+      "url": "https://commons.wikimedia.org/wiki/File:Regierungsviertel,_Berlin-Mitte,_170325,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "Berlin Reichstag vom Kollhoff-Tower (S01 0846)",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Reichstag_vom_Kollhoff-Tower_(S01_0846).jpg",
+      "author": "Michael.F.H.Barth",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Interior of the Reichstag dome 2015 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Reichstag_dome_2015_2.jpg",
+      "author": "Perituss",
+      "license": "CC0"
+    },
+    {
+      "title": "The Reichstag dome (11851173483)",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Reichstag_dome_(11851173483).jpg",
+      "author": "Fulvio Spada",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Reichstag Dome, Berlin (Ank Kumar) 04",
+      "url": "https://commons.wikimedia.org/wiki/File:Reichstag_Dome,_Berlin_(Ank_Kumar)_04.jpg",
+      "author": "Ank Kumar",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "detail": "models/berlin-reichstag.detail.glb",
+  "detailZoom": 16,
+  "file": "models/berlin-reichstag.glb",
+  "source": "generators/berlin-reichstag.ts"
+}
