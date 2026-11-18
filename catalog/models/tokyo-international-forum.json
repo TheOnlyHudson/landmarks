@@ -1,0 +1,59 @@
+{
+  "id": "tokyo-international-forum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "convention-center",
+    "glass",
+    "modern",
+    "atrium"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-international-forum.detail.glb",
+  "detailZoom": 16,
+  "description": "Tokyo International Forum (Rafael Viñoly, 1996): the boat-shaped 60 m Glass Hall with its keel roof truss on two columns, the granite band along the tracks, and the four panel-clad halls across the plaza, linked by glass bridges.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tokyo-International-Forum Glass-Building Outside.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo-International-Forum_Glass-Building_Outside.jpg",
+      "author": "MaedaAkihiko",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo-International-Forum Square.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo-International-Forum_Square.jpg",
+      "author": "MaedaAkihiko",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "東京国際フォーラム Tokyo International Forum - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E4%BA%AC%E5%9B%BD%E9%9A%9B%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A9%E3%83%A0_Tokyo_International_Forum_-_panoramio.jpg",
+      "author": "Bohao Zhao",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "title": "東京駅（東京国際フォーラム）.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E4%BA%AC%E9%A7%85%EF%BC%88%E6%9D%B1%E4%BA%AC%E5%9B%BD%E9%9A%9B%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A9%E3%83%A0%EF%BC%89.JPG",
+      "author": "DAMASA",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/tokyo-international-forum.glb",
+  "source": "generators/tokyo-international-forum.ts"
+}
