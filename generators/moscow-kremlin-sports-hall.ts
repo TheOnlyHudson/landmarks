@@ -19,7 +19,8 @@
  * colour), a band of 2.4 m windows on a 4 m bay. A plain placeholder that
  * keeps the map from drawing a box here; its real look is unknown.
  *
- * Materials (three): ochre, roof, window.
+ * Materials (three): ochre, the grey tar-paper roof (OSM roof:material
+ * tar_paper), window.
  */
 import { Part } from './mesh'
 import { PALETTE, finish } from './palette'
@@ -39,6 +40,6 @@ for (const b of DATA.buildings) {
 
 await save('moscow-kremlin-sports-hall.glb', 'Kremlin sports hall', [
   { part: ochre, material: finish('kremlin-ochre', KREMLIN.ochre) },
-  { part: roof, material: finish('kremlin-roof', KREMLIN.roof) },
+  { part: roof, material: PALETTE.roof }, // tar paper, not the painted green metal
   { part: win, material: PALETTE.window },
 ], { bearing: 0, elevation: 0, height: H })
