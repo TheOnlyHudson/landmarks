@@ -1,6 +1,8 @@
 {
   "id": "nyc-verrazzano-narrows-bridge",
   "file": "models/nyc-verrazzano-narrows-bridge.glb",
+  "detail": "models/nyc-verrazzano-narrows-bridge.detail.glb",
+  "detailZoom": 16,
   "license": "CC0-1.0",
   "author": "Alex Wohlbruck",
   "source": "generators/nyc-verrazzano-narrows-bridge.ts",

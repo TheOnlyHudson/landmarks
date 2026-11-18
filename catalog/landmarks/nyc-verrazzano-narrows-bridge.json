@@ -1,0 +1,19 @@
+{
+  "id": "nyc-verrazzano-narrows-bridge",
+  "name": "Verrazzano-Narrows Bridge",
+  "model": "nyc-verrazzano-narrows-bridge",
+  "lng": -74.0454343,
+  "lat": 40.6063301,
+  "bearing": 247.1,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q125673",
+  "replaces": [
+    "way/375153091",
+    "way/1016642060",
+    "way/1016642058",
+    "way/899356446",
+    "way/899356447"
+  ],
+  "place": "new-york-area"
+}
