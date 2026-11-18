@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-leonard-hall",
+  "name": "Leonard Hall",
+  "model": "dc-au-leonard-hall",
+  "place": "american-university",
+  "lng": -77.0895536,
+  "lat": 38.9387315,
+  "bearing": 33.79,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38094599"
+  ]
+}
