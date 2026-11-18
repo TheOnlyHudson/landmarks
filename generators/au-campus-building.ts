@@ -20,7 +20,7 @@ export interface CampusWing {
   band?: number
   roofFaces?: V3[][]
   archRow?: number
-  portico?: { edge: number; width: number; depth: number; height: number; columns: number; piers?: boolean; pediment?: boolean }
+  portico?: { edge: number; width: number; depth: number; height: number; columns: number; arcades?: boolean; piers?: boolean; pediment?: boolean }
 }
 export interface CampusBuilding {
   id: string
@@ -96,6 +96,22 @@ export async function buildCampusBuilding(building: CampusBuilding) {
         const s = left + inset + (w - 2*inset)*i/(entry.columns-1)
         const [x,y] = point(s,d-.42)
         lathe(trim,x,y,[[.38,0],[.38,.34],[.28,.44],[.27,h-.84],[.39,h-.68],[.39,h-.5]],10)
+      }
+      if (entry.arcades) {
+        // Between each pair of piers, build the stone above the curved opening.
+        const span = (w - .9) / (entry.columns - 1)
+        for (let arch = 0; arch < entry.columns - 1; arch++) {
+          const center = left + .45 + (arch + .5) * span
+          const radius = span / 2 - .25
+          const curve = (step: number) => {
+            const a = Math.PI * (1 - step / 10)
+            return wall.P(center + radius * Math.cos(a), h - .52 - radius + radius * Math.sin(a), d)
+          }
+          for (let j=0; j<10; j++) {
+            const u = curve(j), v = curve(j+1)
+            trim.quad(u,v,[v[0],v[1],h-.48],[u[0],u[1],h-.48])
+          }
+        }
       }
       if (entry.pediment) {
         const mid = (left+right)/2, peak = h + Math.min(2.5,w*.17)

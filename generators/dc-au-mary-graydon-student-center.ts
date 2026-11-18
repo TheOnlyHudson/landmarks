@@ -29,7 +29,7 @@ await buildCampusBuilding({
     rows: [[1.95, 5.24], [7.72, 8.92]],
     bayWidth: 2.35, pierWidth: 1.75,
     base: 0.8,
-    portico: { edge: 12, width: 9, depth: 1.5, height: 6, columns: 4, pediment: false },
+    portico: { edge: 12, width: 9, depth: 1.5, height: 6, columns: 4, arcades: true, pediment: false },
     blankEdges: [0, 4],
   }, {
     // Upper roof tier fitted to the 2022 building returns.
