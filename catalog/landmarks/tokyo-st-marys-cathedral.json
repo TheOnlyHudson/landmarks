@@ -1,0 +1,16 @@
+{
+  "id": "tokyo-st-marys-cathedral",
+  "name": "St. Mary's Cathedral, Tokyo",
+  "model": "tokyo-st-marys-cathedral",
+  "place": "tokyo",
+  "lng": 139.726573,
+  "lat": 35.714262,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1193480",
+  "replaces": [
+    "way/120704384",
+    "way/120704382"
+  ]
+}
