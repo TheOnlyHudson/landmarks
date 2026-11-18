@@ -1,0 +1,71 @@
+{
+  "id": "moscow-kremlin-borovitskaya-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "gate",
+    "ruby-star",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The Kremlin's working gate on its south-west side: a broad gate block under three square tiers stepping in, an open octagon, a green tent and a ruby star.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Moscow - 6-2026 - Borovitskaya Tower, Borovitskaya Street.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_6-2026_-_Borovitskaya_Tower,_Borovitskaya_Street.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Borovitskaya tower from Sofia embankment 2025-9.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Borovitskaya_tower_from_Sofia_embankment_2025-9.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Borovitskaya Tower - 2026.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Borovitskaya_Tower_-_2026.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "\"Borovitskaya Tower\".jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:%22Borovitskaya_Tower%22.jpg",
+      "author": "Lesless",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Borovitskaya Tower-3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Borovitskaya_Tower-3.jpg",
+      "author": "Presidential Press and Information Offic",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow Kremlin - Borovitskaya Tower, Armoury building.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Kremlin_-_Borovitskaya_Tower,_Armoury_building.jpg",
+      "author": "Sergey Norin from Moscow, Russia",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-borovitskaya-tower.glb",
+  "source": "generators/moscow-kremlin-borovitskaya-tower.ts"
+}
