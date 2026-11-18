@@ -1,0 +1,14 @@
+{
+  "id": "dc-school-of-international-service",
+  "name": "American University School of International Service",
+  "model": "dc-school-of-international-service",
+  "lng": -77.0884149,
+  "lat": 38.935738,
+  "bearing": 34,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/48082911"
+  ],
+  "place": "washington-area"
+}
