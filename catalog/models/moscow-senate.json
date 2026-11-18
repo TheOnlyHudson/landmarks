@@ -1,0 +1,95 @@
+{
+  "id": "moscow-senate",
+  "file": "models/moscow-senate.glb",
+  "source": "generators/moscow-senate.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "palace",
+    "government",
+    "historic",
+    "neoclassical",
+    "kremlin",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q930376",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Matvey Kazakov's classical Senate of 1776-1787 inside the Moscow Kremlin, now the President's working residence: a triangle of ochre and white three-storey wings round three courtyards, with the Catherine Hall's rotunda and green dome at the apex over Red Square.",
+  "references": [
+    {
+      "title": "Kremlin Senate 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Senate_02.jpg",
+      "author": "Angel Miklashevsky",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kremlin Senate 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Senate_01.jpg",
+      "author": "Angel Miklashevsky",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kremlin Senate, 2006 (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Senate,_2006_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kremlin Senate 20190430.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Senate_20190430.jpg",
+      "author": "Suicasmo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kremlin Senate-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Senate-1.jpg",
+      "author": "Presidential Press and Information Office",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Kremlin Senate - dome.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Senate_-_dome.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Senatskaya Tower and Kremlin Senate in 2026.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Senatskaya_Tower_and_Kremlin_Senate_in_2026.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Moscow Kremlin, site of recently demolished Block 14 building (31356625280).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Kremlin,_site_of_recently_demolished_Block_14_building_(31356625280).jpg",
+      "author": "Gennady Grachev",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Kremlin birds eye view-3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_birds_eye_view-3.jpg",
+      "author": "ITAR-TASS",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Russia-2007-Moscow-Kremlin Senate at night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Russia-2007-Moscow-Kremlin_Senate_at_night.jpg",
+      "author": "Godot13",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}
