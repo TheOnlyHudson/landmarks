@@ -126,6 +126,16 @@ Don't delete other builders' files.
   the catalog, or with `--lng --lat --bearing`). It must print `ok`. If it
   reports buried tops, follow "The map's terrain" in `docs/evidence.md`,
   and put the check's last result in your report.
+- Unlisted buildings: `bun tools/overlap.ts <id>` (after the placement is
+  in the catalog). It lists every OSM `building` or `building:part` the
+  model draws over that `replaces` leaves out, with the share of it under
+  the model. Add each one the model stands in for (a wing, a podium, a roof
+  or canopy, an entrance block, a part of the same building); the map keeps
+  drawing anything unlisted, and it shows through the model as a box. A
+  separate neighbour with a small share under the model means the model
+  reaches too far; fix the model or say why. It must print `ok`, or list
+  only neighbours you've named in your report. Then run
+  `bun tools/replacement-footprints.ts <id>`.
 
 Facade rules the reviewer enforces:
 
@@ -173,8 +183,8 @@ From OSM:
 - bearing = the main axis, clockwise from north (build in that turned
   frame);
 - `replaces` lists the outline and every `building` or `building:part` the
-  model covers (plus track ways and station for a coaster); empty if OSM
-  has no building;
+  model covers, even partly (plus track ways and station for a coaster);
+  empty if OSM has no building. `bun tools/overlap.ts <id>` checks it;
 - minzoom: 13 supertall or skyline-defining, 14 large, 15 mid-size, 16
   small.
 

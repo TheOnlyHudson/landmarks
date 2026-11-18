@@ -194,7 +194,7 @@ A model placed more than once (the Eiffel Tower, in Paris and Las Vegas) uses
 - `bearing`: the building's main axis, clockwise from north. Build the
   model in that turned frame.
 - `replaces`: the outline and every `building` or `building:part` the model
-  covers; for a coaster, its track ways and station too. Empty when OSM has
+  covers, even partly (`bun tools/overlap.ts` lists any left out); for a coaster, its track ways and station too. Empty when OSM has
   no building (a statue).
 - `minzoom`: 13 for supertall or skyline-defining, 14 large, 15 mid-size,
   16 small.
@@ -221,7 +221,12 @@ For each model:
 6. Check the placement: anchor, bearing, `replaces` against
    `tools/osm.py buildings`, elevation, and explicit place/parent references.
    Run `bun tools/terrain.ts check <id>`: no visible top may end up under
-   the map's terrain (see "The map's terrain" in `evidence.md`).
+   the map's terrain (see "The map's terrain" in `evidence.md`). Run
+   `bun tools/overlap.ts <id>`: every OSM building or part the model draws
+   over must be in `replaces`, or the map draws it through the model; a
+   roof, canopy, podium or entrance block the model covers only partly is
+   the usual miss. Then `bun tools/replacement-footprints.ts`; `bun run
+   validate` fails if the stored footprints don't match `replaces`.
 7. Check both LODs, textures and animation, and night lighting with
    `bun run preview <id> --night`. Build the site for interactive inspection.
    Check credits, the required AI model-used field, GitHub identity, tags, license,
@@ -403,6 +408,7 @@ release host.
 | `bun tools/pr-table.ts --prefix <p>` | The PR's model table |
 | `tools/merge-model.sh <placement.json> "<msg>"` | Merge and commit one model |
 | `bun run sync:sources` | Refresh the pinned OpenLandmarks metadata snapshot |
+| `bun tools/overlap.ts <id ...>` / `--branch-diff` | OSM buildings a model draws over that `replaces` leaves out |
 | `bun tools/replacement-footprints.ts` | Refresh stored OSM replacement outlines after `replaces` changes |
 | `bun tools/format-catalog.ts` | Format every `catalog/` file, as `bun run validate` requires |
 | `python3 tools/osm.py buildings\|named\|search` | OSM outlines and parts, named features, Nominatim |
