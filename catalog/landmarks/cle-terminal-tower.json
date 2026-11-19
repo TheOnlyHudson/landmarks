@@ -1,0 +1,23 @@
+{
+  "id": "cle-terminal-tower",
+  "name": "Terminal Tower",
+  "model": "cle-terminal-tower",
+  "lng": -81.693901,
+  "lat": 41.498271,
+  "bearing": 4.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q598604",
+  "replaces": [
+    "way/333475727",
+    "way/333475728",
+    "way/1534906094",
+    "way/333475732",
+    "way/333475733",
+    "way/333475730",
+    "way/333475729",
+    "way/333475731",
+    "way/333475734"
+  ],
+  "place": "cleveland-area"
+}
