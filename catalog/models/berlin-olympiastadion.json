@@ -1,0 +1,89 @@
+{
+  "id": "berlin-olympiastadion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "olympic",
+    "football",
+    "colonnade",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/berlin-olympiastadion.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Olympiastadion Berlin 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Olympiastadion_Berlin_2015.jpg",
+      "author": "Thomas Wolf, www.foto-tw.de",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "Berlin-OlympiastadionSeiteMarathontor1-Asio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin-OlympiastadionSeiteMarathontor1-Asio.jpg",
+      "author": "Asio otus",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "Olympiastadion Berlin Innenansicht.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Olympiastadion_Berlin_Innenansicht.jpg",
+      "author": "Jan Künzel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berliner Olympiastadion day.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Olympiastadion_day.jpg",
+      "author": "Tobi 87",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Berlin Olympic Stadium Roof.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Olympic_Stadium_Roof.jpg",
+      "author": "Melvinvk",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berlin, Olympiastadion -- 2019 -- 6339.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Olympiastadion_--_2019_--_6339.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berlin, Olympiastadion -- 2019 -- 6343.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Olympiastadion_--_2019_--_6343.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berliner Olympiastadion, Gesamtansicht 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Olympiastadion,_Gesamtansicht_2013.jpg",
+      "author": "Rebecca Leisten",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berliner Olympiastadion night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Olympiastadion_night.jpg",
+      "author": "Tobi 87",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/berlin-olympiastadion.glb",
+  "source": "generators/berlin-olympiastadion.ts"
+}

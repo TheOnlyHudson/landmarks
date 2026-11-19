@@ -1,0 +1,65 @@
+{
+  "id": "tokyo-kaminarimon",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "temple-gate",
+    "buddhist",
+    "historic",
+    "lantern"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-kaminarimon.detail.glb",
+  "detailZoom": 16,
+  "description": "The outer gate of Sensō-ji: a vermilion three-bay gate under a grey-tiled gabled roof, the great red chōchin lettered 雷門 hanging in its middle bay, Fūjin and Raijin in the side bays.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Kaminarimon (outer gate), Sensoji Temple, Akakusa, Tokyo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kaminarimon_(outer_gate),_Sensoji_Temple,_Akakusa,_Tokyo.jpg",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "Kaminarimon in 2018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kaminarimon_in_2018.jpg",
+      "author": "Christophe95",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Kaminarimon reverse.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kaminarimon_reverse.jpg",
+      "author": "Ph0kin",
+      "license": "Public domain"
+    },
+    {
+      "title": "Lantern of Kaminarimon Gate (3).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Lantern_of_Kaminarimon_Gate_(3).JPG",
+      "author": "Tokumeigakarinoaoshima",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Pnorama of Sensoji.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pnorama_of_Sensoji.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/tokyo-kaminarimon.glb",
+  "source": "generators/tokyo-kaminarimon.ts"
+}

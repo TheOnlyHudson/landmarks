@@ -1,0 +1,68 @@
+{
+  "id": "abu-dhabi-capital-gate",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "contemporary",
+    "diagrid",
+    "hotel"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Capital Gate",
+      "url": "https://www.flickr.com/photos/47508852@N02/19053072309",
+      "author": "DjordjeR",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Capital Gate Tower / Hyatt Capital Gate Hotel",
+      "url": "https://www.flickr.com/photos/78051511@N03/7717949100",
+      "author": "Se.By.",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Capital Gate at Night, Abu Dhabi, UAE",
+      "url": "https://www.flickr.com/photos/12316147@N05/8584311734",
+      "author": "lam_chihang",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Capital Gate, Abu Dhabi, UAE",
+      "url": "https://www.flickr.com/photos/12316147@N05/8583214859",
+      "author": "lam_chihang",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Boot - panoramio (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Boot_-_panoramio_(1).jpg",
+      "author": "Xiaotong Gao",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Capital Gate 20260625 212735",
+      "url": "https://commons.wikimedia.org/wiki/File:Capital_Gate_20260625_212735.jpg",
+      "author": "Bishaldev100",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/abu-dhabi-capital-gate.glb",
+  "source": "generators/abu-dhabi-capital-gate.ts"
+}

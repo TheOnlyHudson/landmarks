@@ -1,0 +1,25 @@
+{
+  "id": "berlin-funkturm",
+  "name": "Funkturm Berlin",
+  "model": "berlin-funkturm",
+  "place": "berlin",
+  "lng": 13.278138,
+  "lat": 52.505023,
+  "bearing": 14.3,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q699724",
+  "replaces": [
+    "way/30926247",
+    "way/288498850",
+    "way/288498851",
+    "way/288498852",
+    "way/288498853",
+    "way/288498854",
+    "way/288498855",
+    "way/288498856",
+    "way/288498857",
+    "way/288498858",
+    "way/288498859"
+  ]
+}

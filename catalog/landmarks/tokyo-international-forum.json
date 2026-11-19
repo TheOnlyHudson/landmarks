@@ -1,0 +1,20 @@
+{
+  "id": "tokyo-international-forum",
+  "name": "Tokyo International Forum",
+  "model": "tokyo-international-forum",
+  "place": "tokyo",
+  "lng": 139.76383,
+  "lat": 35.676803,
+  "bearing": 14.98,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/144508545",
+    "way/287736170",
+    "way/287736171",
+    "way/287736172",
+    "way/287736174",
+    "way/144508541",
+    "way/287732855"
+  ]
+}

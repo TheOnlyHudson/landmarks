@@ -1,0 +1,14 @@
+{
+  "id": "manama-qalat-al-bahrain",
+  "name": "Qal'at al-Bahrain (Bahrain Fort)",
+  "model": "manama-qalat-al-bahrain",
+  "place": "bahrain",
+  "lng": 50.5199956,
+  "lat": 26.2334016,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/89370342"
+  ]
+}

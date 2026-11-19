@@ -1,0 +1,59 @@
+{
+  "id": "tokyo-wako",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "department-store",
+    "clock-tower",
+    "historic",
+    "neo-renaissance"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-wako.detail.glb",
+  "detailZoom": 17,
+  "description": "Wako (1932, Watanabe Jin) on the Ginza 4-chome crossing: the curved granite corner front with its cornice and arched attic, under the Seiko clock tower and its copper spire.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Wako Ginza.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wako_Ginza.jpg",
+      "author": "Wiiii",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Ginza Wako 20241021.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ginza_Wako_20241021.jpg",
+      "author": "Supanut Arunoprayote",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Headquarters of Wako at Ginza 4-Chome Crossroads.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Headquarters_of_Wako_at_Ginza_4-Chome_Crossroads.JPG",
+      "author": "そらみみ (Soramimi)",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Ginza-WAKO at night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ginza-WAKO_at_night.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/tokyo-wako.glb",
+  "source": "generators/tokyo-wako.ts"
+}

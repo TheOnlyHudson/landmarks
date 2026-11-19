@@ -1,0 +1,81 @@
+{
+  "id": "nyc-lga-terminal-c",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "airport",
+    "terminal",
+    "modern",
+    "concourse",
+    "jet-bridge"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Grand Central Pkwy td (2022-01-14) 038 - LaGuardia Airport Terminal D.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Central_Pkwy_td_(2022-01-14)_038_-_LaGuardia_Airport_Terminal_D.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Grand Central Pkwy td (2022-01-14) 037 - LaGuardia Airport Terminal D.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Central_Pkwy_td_(2022-01-14)_037_-_LaGuardia_Airport_Terminal_D.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Delta Airbus A321 LaGuardia Airport May 2026.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Airbus_A321_LaGuardia_Airport_May_2026.jpg",
+      "author": "Nielsoncaetanosalmeron",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Delta Connection fleet at LaGuardia Airport Terminal C.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_fleet_at_LaGuardia_Airport_Terminal_C.jpg",
+      "author": "Zheng Zhou",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "View of LaGuardia Airport (October 2023) 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_LaGuardia_Airport_(October_2023)_03.jpg",
+      "author": "DiscoA340",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "View of LaGuardia Airport (October 2023) 05.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_LaGuardia_Airport_(October_2023)_05.jpg",
+      "author": "DiscoA340",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New Concourse D, under construction, at LaGuardia Airport in Queens, New York (cropped).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Concourse_D,_under_construction,_at_LaGuardia_Airport_in_Queens,_New_York_(cropped).jpg",
+      "author": "Mnw2000",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "LaGuardia Terminal C Gates 70-79.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:LaGuardia_Terminal_C_Gates_70-79.jpg",
+      "author": "Myotus",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/nyc-lga-terminal-c.glb",
+  "source": "generators/nyc-lga-terminal-c.ts"
+}

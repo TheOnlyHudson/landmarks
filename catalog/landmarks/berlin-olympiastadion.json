@@ -1,0 +1,17 @@
+{
+  "id": "berlin-olympiastadion",
+  "name": "Olympiastadion Berlin",
+  "model": "berlin-olympiastadion",
+  "place": "berlin",
+  "lng": 13.23953,
+  "lat": 52.514657,
+  "bearing": 351.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q151374",
+  "replaces": [
+    "way/24296022",
+    "way/486320327",
+    "way/486320329"
+  ]
+}

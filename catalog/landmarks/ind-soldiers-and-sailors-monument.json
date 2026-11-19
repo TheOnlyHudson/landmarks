@@ -1,0 +1,23 @@
+{
+  "id": "ind-soldiers-and-sailors-monument",
+  "name": "Indiana Soldiers' and Sailors' Monument",
+  "model": "ind-soldiers-and-sailors-monument",
+  "place": "indianapolis-area",
+  "lng": -86.158045,
+  "lat": 39.7685195,
+  "bearing": 1.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1748884",
+  "replaces": [
+    "way/339773760",
+    "way/1317043421",
+    "way/1457569889",
+    "way/1457569890",
+    "way/1457569891",
+    "way/1457569892",
+    "way/1457569893",
+    "way/1457569894",
+    "way/1457572267"
+  ]
+}

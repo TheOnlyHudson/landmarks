@@ -1,0 +1,25 @@
+{
+  "id": "berlin-neue-nationalgalerie",
+  "name": "Neue Nationalgalerie",
+  "model": "berlin-neue-nationalgalerie",
+  "place": "berlin",
+  "lng": 13.367576,
+  "lat": 52.50697,
+  "bearing": 18.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/25652321",
+    "way/25652320",
+    "way/304729224",
+    "way/304729192",
+    "way/304729207",
+    "way/304729208",
+    "way/304729209",
+    "way/304729215",
+    "way/304729217",
+    "way/304729218",
+    "way/304729223"
+  ],
+  "wikidata": "Q32659772"
+}

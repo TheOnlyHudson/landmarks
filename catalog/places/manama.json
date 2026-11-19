@@ -1,0 +1,7 @@
+{
+  "id": "manama",
+  "name": "Manama",
+  "kind": "city",
+  "parent": "bahrain",
+  "wikidata": "Q3882"
+}

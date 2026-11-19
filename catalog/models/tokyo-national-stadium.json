@@ -1,0 +1,83 @@
+{
+  "id": "tokyo-national-stadium",
+  "file": "models/tokyo-national-stadium.glb",
+  "detail": "models/tokyo-national-stadium.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-national-stadium.ts",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "olympic",
+    "football",
+    "athletics",
+    "kengo-kuma",
+    "timber"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "New national stadium tokyo 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_national_stadium_tokyo_1.jpg",
+      "author": "Arne Müseler",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "Olympic Stadium Tokyo aerial 2020 (cropped).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Olympic_Stadium_Tokyo_aerial_2020_(cropped).jpg",
+      "author": "Arne Müseler",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "The Japan National Stadium.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Japan_National_Stadium.jpg",
+      "author": "Akonnchiroll",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Japan National Stadium 2024 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Japan_National_Stadium_2024_1.jpg",
+      "author": "Akonnchiroll",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Japan National Stadium 2024 3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Japan_National_Stadium_2024_3.jpg",
+      "author": "Akonnchiroll",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "国立競技場の外観 Exterior of the Japan National Stadium 09.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:国立競技場の外観_Exterior_of_the_Japan_National_Stadium_09.jpg",
+      "author": "RuinDig/Yuki Uchida",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "国立競技場の外観 Exterior of the Japan National Stadium 11.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:国立競技場の外観_Exterior_of_the_Japan_National_Stadium_11.jpg",
+      "author": "RuinDig/Yuki Uchida",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "国立競技場の外観 Exterior of the Japan National Stadium 23.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:国立競技場の外観_Exterior_of_the_Japan_National_Stadium_23.jpg",
+      "author": "RuinDig/Yuki Uchida",
+      "license": "CC BY 4.0"
+    }
+  ]
+}

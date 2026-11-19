@@ -1,0 +1,69 @@
+{
+  "id": "tokyo-tokyo-dome",
+  "file": "models/tokyo-tokyo-dome.glb",
+  "detail": "models/tokyo-tokyo-dome.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-tokyo-dome.ts",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "baseball",
+    "air-supported-roof",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tokyo dome.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_dome.JPG",
+      "author": "Carpkazu at Japanese Wikipedia",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Tokyo Dome 2007-12.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Dome_2007-12.jpg",
+      "author": "DX Broadrec",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Tokyo Dome (December 24, 2024).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Dome_(December_24,_2024).jpg",
+      "author": "AmadeusPrower",
+      "license": "CC0"
+    },
+    {
+      "title": "Tokyo Dome 201904a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Dome_201904a.jpg",
+      "author": "江戸村のとくぞう",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Tokyo Dome 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Dome_2.jpg",
+      "author": "Syced",
+      "license": "CC0"
+    },
+    {
+      "title": "Tokyo Dome (52480559907).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Dome_(52480559907).jpg",
+      "author": "Dick Thomas Johnson",
+      "license": "CC BY 2.0"
+    }
+  ]
+}

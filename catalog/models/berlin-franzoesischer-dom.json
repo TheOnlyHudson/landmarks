@@ -1,0 +1,109 @@
+{
+  "id": "berlin-franzoesischer-dom",
+  "file": "models/berlin-franzoesischer-dom.glb",
+  "detail": "models/berlin-franzoesischer-dom.detail.glb",
+  "detailZoom": 17,
+  "source": "generators/berlin-franzoesischer-dom.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "tower",
+    "dome",
+    "baroque",
+    "gendarmenmarkt",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Gontard's domed tower (1780-85) with its three Corinthian porticoes, colonnaded drum, viewing balustrade, ribbed copper dome with gilt rosettes and the gilt figure on top, and the low French Friedrichstadtkirche behind it with its red tiled roof.",
+  "references": [
+    {
+      "title": "Berlin, Französischer Dom -- 2013 -- 4581.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Franz%C3%B6sischer_Dom_--_2013_--_4581.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Französischer Dom (Berlin-Mitte).Kuppelturm.09065017.ajb.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Franz%C3%B6sischer_Dom_(Berlin-Mitte).Kuppelturm.09065017.ajb.jpg",
+      "author": "Ajepbah",
+      "license": "CC-BY-SA-3.0-de"
+    },
+    {
+      "title": "Catedral Francesa, Berlín, Alemania, 2016-04-22, DD 16-18 HDR.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Catedral_Francesa,_Berl%C3%ADn,_Alemania,_2016-04-22,_DD_16-18_HDR.jpg",
+      "author": "Diego Delso",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Berlin Franzoesicher Dom BW 5.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Franzoesicher_Dom_BW_5.jpg",
+      "author": "Berthold Werner",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Französischer Dom (Berlin), 2024 (02).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Franz%C3%B6sischer_Dom_(Berlin),_2024_(02).jpg",
+      "author": "Bahnfrend",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Französischer Dom Berlin 2021-10-29 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Franz%C3%B6sischer_Dom_Berlin_2021-10-29_01.jpg",
+      "author": "Leonhard Lenz",
+      "license": "CC0"
+    },
+    {
+      "title": "Französischer Dom 9083.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Franz%C3%B6sischer_Dom_9083.jpg",
+      "author": "Dosseman",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Französischer Dom afternoon light.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Franz%C3%B6sischer_Dom_afternoon_light.jpg",
+      "author": "Leonhard Lenz",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "20240815 View cupola Berlin Cathedral 08.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:20240815_View_cupola_Berlin_Cathedral_08.jpg",
+      "author": "Flocci Nivis",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "20220811 Französische Friedrichstadtkirche 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:20220811_Franz%C3%B6sische_Friedrichstadtkirche_01.jpg",
+      "author": "Flocci Nivis",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "20220811 Französische Friedrichstadtkirche 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:20220811_Franz%C3%B6sische_Friedrichstadtkirche_02.jpg",
+      "author": "Flocci Nivis",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Französische Friedrichstadtkirche - Berlin - Gendarmenmarkt.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Franz%C3%B6sische_Friedrichstadtkirche_-_Berlin_-_Gendarmenmarkt.JPG",
+      "author": "De-okin (talk) 18:52, 29 May 2009 (UTC)",
+      "license": "CC-BY-SA-3.0"
+    }
+  ]
+}

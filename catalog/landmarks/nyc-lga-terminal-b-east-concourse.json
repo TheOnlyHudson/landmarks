@@ -1,0 +1,32 @@
+{
+  "id": "nyc-lga-terminal-b-east-concourse",
+  "name": "LaGuardia Airport Terminal B Eastern Concourse",
+  "model": "nyc-lga-terminal-b-east-concourse",
+  "place": "new-york-area",
+  "lng": -73.8689867,
+  "lat": 40.7737467,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/633420347",
+    "way/651198383",
+    "way/651198384",
+    "way/651198385",
+    "way/651198386",
+    "way/651198387",
+    "way/651198388",
+    "way/651198389",
+    "way/651198390",
+    "way/651198391",
+    "way/651198392",
+    "way/651198393",
+    "way/652505734",
+    "way/652505736",
+    "way/652505738",
+    "way/655208225",
+    "way/655208226",
+    "way/655217084",
+    "way/835827483"
+  ]
+}

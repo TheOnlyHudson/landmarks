@@ -1,0 +1,14 @@
+{
+  "id": "jeddah-ncb-tower",
+  "name": "National Commercial Bank Tower",
+  "model": "jeddah-ncb-tower",
+  "place": "jeddah",
+  "lng": 39.1821465,
+  "lat": 21.488081,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/174859870"
+  ]
+}

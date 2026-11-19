@@ -1,0 +1,15 @@
+{
+  "id": "tokyo-national-stadium",
+  "name": "Japan National Stadium",
+  "model": "tokyo-national-stadium",
+  "place": "tokyo",
+  "lng": 139.7145577,
+  "lat": 35.6778206,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q14862239",
+  "replaces": [
+    "relation/10071391"
+  ]
+}

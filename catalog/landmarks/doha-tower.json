@@ -1,0 +1,16 @@
+{
+  "id": "doha-tower",
+  "name": "Doha Tower",
+  "model": "doha-tower",
+  "place": "doha",
+  "lng": 51.5283457,
+  "lat": 25.3174308,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q10413351",
+  "replaces": [
+    "way/153463305",
+    "way/1473564907"
+  ]
+}

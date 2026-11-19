@@ -1,0 +1,17 @@
+{
+  "id": "tokyo-tokyo-dome",
+  "name": "Tokyo Dome",
+  "model": "tokyo-tokyo-dome",
+  "place": "tokyo",
+  "lng": 139.751966,
+  "lat": 35.7055246,
+  "bearing": 7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q733748",
+  "replaces": [
+    "way/20028328",
+    "way/576664844",
+    "way/576498576"
+  ]
+}

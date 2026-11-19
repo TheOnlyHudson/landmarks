@@ -1,0 +1,80 @@
+{
+  "id": "den-colorado-state-capitol",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "capitol",
+    "government",
+    "dome",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Colorado State Capitol building.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Colorado_State_Capitol_building.jpg",
+      "author": "Quintin Soloviev",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Colorado State Capitol - 54046380855.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Colorado_State_Capitol_-_54046380855.jpg",
+      "author": "xiquinhosilva",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Colorado State Capitol - 54046185343.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Colorado_State_Capitol_-_54046185343.jpg",
+      "author": "xiquinhosilva",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Colorado State Capitol, Denver. View from south.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Colorado_State_Capitol,_Denver._View_from_south.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Colorado State Capitol, Denver, Colorado.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Colorado_State_Capitol,_Denver,_Colorado.jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Colorado State Capitol - April 2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Colorado_State_Capitol_-_April_2025.jpg",
+      "author": "RuralResurrection",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Colorado State Capitol Building (4183402503).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Colorado_State_Capitol_Building_(4183402503).jpg",
+      "author": "Brian Papantonio",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Aerial view of Denver's Capitol region LCCN2017885204.tif",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Denver's_Capitol_region_LCCN2017885204.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/den-colorado-state-capitol.glb",
+  "source": "generators/den-colorado-state-capitol.ts"
+}

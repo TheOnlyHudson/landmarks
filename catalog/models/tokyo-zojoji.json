@@ -1,0 +1,64 @@
+{
+  "id": "tokyo-zojoji",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "temple",
+    "buddhist",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-zojoji.detail.glb",
+  "detailZoom": 16,
+  "description": "Zōjō-ji's Daiden (main hall, 1974): two tiers of dark grey tiled roof with gilt shibi over a dark timber frame and white walls, raised on its podium with the great stair facing east to the Sanmon.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Zōjō-ji daiden1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Z%C5%8Dj%C5%8D-ji_daiden1.jpg",
+      "author": "KENPEI",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Zōjō-ji daiden2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Z%C5%8Dj%C5%8D-ji_daiden2.jpg",
+      "author": "KENPEI",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Zojo-ji 20191104e.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Zojo-ji_20191104e.jpg",
+      "author": "江戸村のとくぞう",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Zōjō-ji 3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Z%C5%8Dj%C5%8D-ji_3.jpg",
+      "author": "Syced",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Zōjō-ji 8.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Z%C5%8Dj%C5%8D-ji_8.jpg",
+      "author": "Syced",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/tokyo-zojoji.glb",
+  "source": "generators/tokyo-zojoji.ts"
+}

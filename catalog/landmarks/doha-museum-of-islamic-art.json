@@ -1,0 +1,20 @@
+{
+  "id": "doha-museum-of-islamic-art",
+  "name": "Museum of Islamic Art",
+  "model": "doha-museum-of-islamic-art",
+  "place": "doha",
+  "lng": 51.539397,
+  "lat": 25.295528,
+  "bearing": 337.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1148353",
+  "replaces": [
+    "relation/10671567",
+    "way/769768768",
+    "way/970357653",
+    "way/769768767",
+    "relation/13054829",
+    "way/769768746"
+  ]
+}

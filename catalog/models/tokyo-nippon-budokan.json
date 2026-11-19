@@ -1,0 +1,77 @@
+{
+  "id": "tokyo-nippon-budokan",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "arena",
+    "sports",
+    "modernist",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-nippon-budokan.detail.glb",
+  "detailZoom": 16,
+  "description": "The Nippon Budokan (1964): the octagonal hall after Hōryū-ji's Yumedono, its pale green copper roof sweeping up to the gilt giboshi, the bronze-gold fascia of the wide lower eave over white fins and raking concrete struts.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Nippon Budokan 2018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nippon_Budokan_2018.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Nippon Budokan 20190406.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nippon_Budokan_20190406.jpg",
+      "author": "Suicasmo",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Nippon Budokan 2010.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nippon_Budokan_2010.jpg",
+      "author": "Wiiii",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Nippon Budokan 1 Kitanomaru Chiyoda Tokyo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nippon_Budokan_1_Kitanomaru_Chiyoda_Tokyo.jpg",
+      "author": "Morio",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Nippon Budokan 2 Kitanomaru Chiyoda Tokyo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nippon_Budokan_2_Kitanomaru_Chiyoda_Tokyo.jpg",
+      "author": "Morio",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Nippon Budokan dsc05079.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nippon_Budokan_dsc05079.jpg",
+      "author": "David Monniaux",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Nippon Budokan - sunny day - Nov 12 2021 various 14 20 07 779000.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nippon_Budokan_-_sunny_day_-_Nov_12_2021_various_14_20_07_779000.jpeg",
+      "author": "Nesnad",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "file": "models/tokyo-nippon-budokan.glb",
+  "source": "generators/tokyo-nippon-budokan.ts"
+}

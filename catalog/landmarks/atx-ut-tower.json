@@ -1,0 +1,21 @@
+{
+  "id": "atx-ut-tower",
+  "name": "UT Tower (Main Building)",
+  "model": "atx-ut-tower",
+  "place": "austin-area",
+  "lng": -97.739368,
+  "lat": 30.286257,
+  "bearing": 5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6735947",
+  "replaces": [
+    "way/27397894",
+    "way/516187631",
+    "way/516187635",
+    "way/1547914109",
+    "way/1547914110",
+    "way/1547914111",
+    "way/1547914112"
+  ]
+}

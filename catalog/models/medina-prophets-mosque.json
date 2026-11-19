@@ -1,0 +1,118 @@
+{
+  "id": "medina-prophets-mosque",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "mosque",
+    "religious",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/medina-prophets-mosque.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "Al-Masjid An-Nabawi (Bird's Eye View).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Al-Masjid_An-Nabawi_(Bird%27s_Eye_View).jpg",
+      "author": "Konevi",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Umbrellas for the Piazza of the Prophet’s Holy Mosque, Madinah, SA.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Umbrellas_for_the_Piazza_of_the_Prophet%E2%80%99s_Holy_Mosque,_Madinah,_SA.jpg",
+      "author": "Anaya Ki Family",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Masjid Nabawi. Medina, Saudi Arabia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masjid_Nabawi._Medina,_Saudi_Arabia.jpg",
+      "author": "unknown (Wikimedia Commons)",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "Madinah prophet Mosque - Baqee cemtery (2527552809).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Madinah_prophet_Mosque_-_Baqee_cemtery_(2527552809).jpg",
+      "author": "marviikad from Al Khobar, Saudi Arabia",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Perkuburan Baqi' (Maqbaratu al-Baqi') & Masjid al-Nabawi.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Perkuburan_Baqi%27_(Maqbaratu_al-Baqi%27)_%26_Masjid_al-Nabawi.jpg",
+      "author": "Kerina yin",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Close-up shot of the Green Dome (with silver dome) at The Prophet's Mosque (Al Masjid-e-Nabawi).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Close-up_shot_of_the_Green_Dome_(with_silver_dome)_at_The_Prophet%27s_Mosque_(Al_Masjid-e-Nabawi).jpg",
+      "author": "TheHadiRahim",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Wide shot of the Green Dome at The Prophet's Mosque (Al Masjid-e-Nabawi).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wide_shot_of_the_Green_Dome_at_The_Prophet%27s_Mosque_(Al_Masjid-e-Nabawi).jpg",
+      "author": "TheHadiRahim",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Mezquita del Profeta, Medina, Arabia Saudita, 2025-05-22, DD 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mezquita_del_Profeta,_Medina,_Arabia_Saudita,_2025-05-22,_DD_02.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Mezquita del Profeta, Medina, Arabia Saudita, 2025-05-22, DD 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mezquita_del_Profeta,_Medina,_Arabia_Saudita,_2025-05-22,_DD_01.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Masjid e Nabawi Courtyard Umbrellas.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masjid_e_Nabawi_Courtyard_Umbrellas.jpg",
+      "author": "King Eliot",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Medina Haram Piazza.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Medina_Haram_Piazza.jpg",
+      "author": "GLady",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Prophet’s Mosque Minaret 2021.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prophet%E2%80%99s_Mosque_Minaret_2021.jpg",
+      "author": "Saleh Al Hussain",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "View of Masjid-e-Nabawi Gate 21, 22.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Masjid-e-Nabawi_Gate_21,_22.jpg",
+      "author": "CR Guru PK",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Masjid Nabawi. Medina, Saudi Arabia-2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masjid_Nabawi._Medina,_Saudi_Arabia-2.jpg",
+      "author": "Vago",
+      "license": "Public domain"
+    }
+  ],
+  "wikidata": "Q486080",
+  "file": "models/medina-prophets-mosque.glb",
+  "source": "generators/medina-prophets-mosque.ts"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "tokyo-mode-gakuen-cocoon-tower",
+  "file": "models/tokyo-mode-gakuen-cocoon-tower.glb",
+  "detail": "models/tokyo-mode-gakuen-cocoon-tower.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-mode-gakuen-cocoon-tower.ts",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "school",
+    "diagrid",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "204 m school tower (Tange Associates, 2008): three bulging lobes of dark glass wrapped in a white diagonal steel web, split by three lens-shaped glazed strips, rising to a rounded point.",
+  "references": [
+    {
+      "title": "Mode Gakuen Cocoon Tower, Tokyo, West view 20190419 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mode_Gakuen_Cocoon_Tower,_Tokyo,_West_view_20190419_1.jpg",
+      "author": "DXR",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2018 Mode Gakuen Cocoon Tower 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_Mode_Gakuen_Cocoon_Tower_2.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Mode Gakuen Cocoon Tower, Tokyo JP.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mode_Gakuen_Cocoon_Tower,_Tokyo_JP.jpg",
+      "author": "Stefano Vigorelli",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Mode Gakuen Cocoon Tower 2018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mode_Gakuen_Cocoon_Tower_2018.jpg",
+      "author": "Otto Domes",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Mode Gakuen Cocoon Tower in the evening with blue sky Tokyo Japan.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mode_Gakuen_Cocoon_Tower_in_the_evening_with_blue_sky_Tokyo_Japan.jpg",
+      "author": "Basile Morin",
+      "license": "CC-BY-SA-4.0"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "berlin-zeughaus",
+  "file": "models/berlin-zeughaus.glb",
+  "detail": "models/berlin-zeughaus.detail.glb",
+  "detailZoom": 17,
+  "source": "generators/berlin-zeughaus.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "baroque",
+    "arsenal",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The Baroque arsenal on Unter den Linden (1695–1730), now the German Historical Museum: the square pink-and-sandstone block with its pedimented centre risalits and the roof balustrade lined with trophies and helmeted armour, round Pei's glass-roofed courtyard.",
+  "references": [
+    {
+      "title": "Deutsches Historisches Museum Berlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Deutsches_Historisches_Museum_Berlin.jpg",
+      "author": "Jensens",
+      "license": "public-domain"
+    },
+    {
+      "title": "Berlin-Zeughaus-02-2017-gje.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin-Zeughaus-02-2017-gje.jpg",
+      "author": "Gerd Eichmann",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Zeughaus (Berlin-Mitte).09095948.ajb.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Zeughaus_(Berlin-Mitte).09095948.ajb.jpg",
+      "author": "Ajepbah",
+      "license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "title": "Zeughaus Berlin Dach Skulptur 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Zeughaus_Berlin_Dach_Skulptur_1.jpg",
+      "author": "Manfred Brückels",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Deutsches Historisches Museum vom Dom 04.04.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Deutsches_Historisches_Museum_vom_Dom_04.04.JPG",
+      "author": "Aazarus",
+      "license": "CC-BY-SA-2.0-DE"
+    }
+  ]
+}

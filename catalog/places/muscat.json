@@ -1,0 +1,7 @@
+{
+  "id": "muscat",
+  "name": "Muscat",
+  "kind": "city",
+  "parent": "oman",
+  "wikidata": "Q3826"
+}

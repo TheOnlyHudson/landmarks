@@ -1,0 +1,69 @@
+{
+  "id": "berlin-brandenburg-gate",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "gate",
+    "neoclassical",
+    "quadriga",
+    "sculpture",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brandenburger Tor morgens.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_morgens.jpg",
+      "author": "Thomas Wolf, www.foto-tw.de",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Berlin Brandenburger Tor BW 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Brandenburger_Tor_BW_1.jpg",
+      "author": "Berthold Werner",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Brandenburg Gate - Brandenburger Tor - Berlin - Germany - 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Brandenburg_Gate_-_Brandenburger_Tor_-_Berlin_-_Germany_-_01.jpg",
+      "author": "Norbert Nagel",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Berlin, Brandenburger Tor -- 2019 -- 6335.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Brandenburger_Tor_--_2019_--_6335.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berlin, Brandenburger Tor -- 2013 -- 4589.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Brandenburger_Tor_--_2013_--_4589.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brandenburger Tor nachts.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_nachts.jpg",
+      "author": "Thomas Wolf, www.foto-tw.de",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/berlin-brandenburg-gate.glb",
+  "source": "generators/berlin-brandenburg-gate.ts"
+}

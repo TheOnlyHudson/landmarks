@@ -1,0 +1,15 @@
+{
+  "id": "tokyo-national-art-center",
+  "name": "The National Art Center, Tokyo",
+  "model": "tokyo-national-art-center",
+  "place": "tokyo",
+  "lng": 139.7264366,
+  "lat": 35.6652611,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1362638",
+  "replaces": [
+    "way/136048451"
+  ]
+}

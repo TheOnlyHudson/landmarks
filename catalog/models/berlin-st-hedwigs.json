@@ -1,0 +1,65 @@
+{
+  "id": "berlin-st-hedwigs",
+  "file": "models/berlin-st-hedwigs.glb",
+  "detail": "models/berlin-st-hedwigs.detail.glb",
+  "detailZoom": 17,
+  "source": "generators/berlin-st-hedwigs.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cathedral",
+    "church",
+    "neoclassical",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Knobelsdorff's Pantheon-like Catholic cathedral on the Bebelplatz (1747–73): the sandstone rotunda under its broad green copper dome, the six-column temple front with its relief pediment and five arched doors, and the small domed rotunda behind.",
+  "references": [
+    {
+      "title": "St. Hedwig's Cathedral (Berlin), 2024 (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Hedwig%27s_Cathedral_(Berlin),_2024_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Berlin-Mitte Bebelplatz St.-Hedwigs-Kathedrale 182.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin-Mitte_Bebelplatz_St.-Hedwigs-Kathedrale_182.jpg",
+      "author": "GFreihalter",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Berlin-Mitte Bebelplatz St.-Hedwigs-Kathedrale 183.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin-Mitte_Bebelplatz_St.-Hedwigs-Kathedrale_183.jpg",
+      "author": "GFreihalter",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "St. Hedwig's Cathedral (Berlin) - Exterior.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Hedwig%27s_Cathedral_(Berlin)_-_Exterior.jpg",
+      "author": "Yair Haklai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Hedwig Cathedral Berlin 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hedwig_Cathedral_Berlin_2015.jpg",
+      "author": "Perituss",
+      "license": "CC0-1.0"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "doha-museum-of-islamic-art",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "modern",
+    "islamic-architecture"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Museum of Islamic Art, Doha, Qatar.",
+      "url": "https://www.flickr.com/photos/26085795@N02/4754905352",
+      "author": "jemasmith",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Museum of Islamic Art from the Corniche",
+      "url": "https://www.flickr.com/photos/10345599@N03/12543126645",
+      "author": "Francisco Anzola",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Museum of Islamic Art - Doha, Qatar",
+      "url": "https://www.flickr.com/photos/69031678@N00/12187468733",
+      "author": "ToGa Wanderings",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Museum of Islamic Art, Doha, Qatar",
+      "url": "https://www.flickr.com/photos/7221539@N06/8171890818",
+      "author": "jikatu",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Doha - towards the islamic art museum.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Doha_-_towards_the_islamic_art_museum.jpg",
+      "author": "Chainwit.",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "IslamicArtMuseumDohaSkyline.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:IslamicArtMuseumDohaSkyline.jpg",
+      "author": "Mohamod Fasil",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Doha - Museum of Islamic Art.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Doha_-_Museum_of_Islamic_Art.jpg",
+      "author": "Marek Śliwecki",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/doha-museum-of-islamic-art.glb",
+  "source": "generators/doha-museum-of-islamic-art.ts"
+}
