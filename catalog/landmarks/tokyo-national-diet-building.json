@@ -1,0 +1,31 @@
+{
+  "id": "tokyo-national-diet-building",
+  "name": "National Diet Building",
+  "model": "tokyo-national-diet-building",
+  "place": "tokyo",
+  "lng": 139.744864,
+  "lat": 35.675893,
+  "bearing": 347.23,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1338856",
+  "replaces": [
+    "relation/3361370",
+    "relation/4657354",
+    "relation/4657355",
+    "relation/4657356",
+    "relation/4657357",
+    "relation/4657358",
+    "relation/4657359",
+    "relation/4657360",
+    "relation/4657361",
+    "relation/4657362",
+    "relation/4657363",
+    "relation/4657364",
+    "relation/4657365",
+    "relation/4657366",
+    "way/331852164",
+    "way/331852176",
+    "way/331852178"
+  ]
+}

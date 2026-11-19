@@ -1,0 +1,95 @@
+{
+  "id": "tokyo-tower",
+  "file": "models/tokyo-tower.glb",
+  "detail": "models/tokyo-tower.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-tower.ts",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "observation-tower",
+    "broadcast-tower",
+    "lattice",
+    "historic"
+  ],
+  "description": "333 m steel lattice broadcasting and observation tower (1958) in international orange and white, on four splayed legs joined by arches, with the two-storey Main Deck at 125 m, the Top Deck at 224 m and FootTown between its legs.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tokyo Tower during daytime.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_during_daytime.jpg",
+      "author": "Laitr Keiows",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Tokyo Tower seen from Azabudai Hills JP Tower 33F.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_seen_from_Azabudai_Hills_JP_Tower_33F.jpg",
+      "author": "Syced",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Tokyo Tower as seen from Mori Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_as_seen_from_Mori_Tower.jpg",
+      "author": "Daniel L. Lu",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Tower 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_2023.jpg",
+      "author": "Akonnchiroll",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Tower seen from Tokyo Tower-dori street.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_seen_from_Tokyo_Tower-dori_street.jpg",
+      "author": "Ymblanter",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Tower lower part seen from Tokyo Tower-dori street.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_lower_part_seen_from_Tokyo_Tower-dori_street.jpg",
+      "author": "Ymblanter",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Tower, Tokyo, 20240821 1724 5273.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower,_Tokyo,_20240821_1724_5273.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Base of Tokyo Tower in 2006 (245873545).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Base_of_Tokyo_Tower_in_2006_(245873545).jpg",
+      "author": "Ian Muttoo",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Tokyo Tower at night 2.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_at_night_2.JPG",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Tokyo Tower and Roppongi Hills Mori Tower seen from Hamamatsucho.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_and_Roppongi_Hills_Mori_Tower_seen_from_Hamamatsucho.jpg",
+      "author": "Syced",
+      "license": "CC0-1.0"
+    }
+  ]
+}

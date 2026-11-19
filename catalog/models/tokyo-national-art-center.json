@@ -1,0 +1,93 @@
+{
+  "id": "tokyo-national-art-center",
+  "file": "models/tokyo-national-art-center.glb",
+  "detail": "models/tokyo-national-art-center.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-national-art-center.ts",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "modernist"
+  ],
+  "description": "Kisho Kurokawa's art museum (2007): an undulating wall of glass and pale green louvres fronting a full-height atrium with two inverted concrete cones, entered through a glass cone under a round canopy.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "National Art Center Tokyo 2008.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Art_Center_Tokyo_2008.jpg",
+      "author": "Wiiii",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "2018 National Art Center, Tokyo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_National_Art_Center,_Tokyo.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2018 National Art Center, Tokyo 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_National_Art_Center,_Tokyo_2.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2018 National Art Center, Tokyo 3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_National_Art_Center,_Tokyo_3.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The National Art Center, Tokyo 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_National_Art_Center,_Tokyo_2023.jpg",
+      "author": "Akonnchiroll",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "National Art Center, Tokyo - DSC06720.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Art_Center,_Tokyo_-_DSC06720.JPG",
+      "author": "Daderot",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "The National Art Center , Tokyo - panoramio (1).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_National_Art_Center_,_Tokyo_-_panoramio_(1).jpg",
+      "author": "Kaz Ish",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "National Art Center Tokyo (11421004905).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Art_Center_Tokyo_(11421004905).jpg",
+      "author": "Guilhem Vellut",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "The National Art Center @ Tokyo (9082669836).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_National_Art_Center_@_Tokyo_(9082669836).jpg",
+      "author": "Guilhem Vellut",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "National Art Center @ Tokyo (11495214064).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Art_Center_@_Tokyo_(11495214064).jpg",
+      "author": "Guilhem Vellut",
+      "license": "CC-BY-2.0"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "tokyo-wako",
+  "name": "Wako",
+  "model": "tokyo-wako",
+  "place": "tokyo",
+  "lng": 139.765023,
+  "lat": 35.671644,
+  "bearing": 356.85,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/103509469",
+    "relation/18401376",
+    "way/1341775164",
+    "way/1341815191",
+    "way/1341815951"
+  ]
+}

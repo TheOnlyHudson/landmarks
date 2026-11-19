@@ -1,0 +1,14 @@
+{
+  "id": "tokyo-asahi-beer-tower",
+  "name": "Asahi Beer Tower",
+  "model": "tokyo-asahi-beer-tower",
+  "place": "tokyo",
+  "lng": 139.8007064,
+  "lat": 35.7101163,
+  "bearing": 35,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/155874930"
+  ]
+}

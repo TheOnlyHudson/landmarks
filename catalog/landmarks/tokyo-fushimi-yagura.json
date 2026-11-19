@@ -1,0 +1,15 @@
+{
+  "id": "tokyo-fushimi-yagura",
+  "name": "Fushimi-yagura",
+  "model": "tokyo-fushimi-yagura",
+  "place": "tokyo",
+  "lng": 139.7529555,
+  "lat": 35.680607,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q140447904",
+  "replaces": [
+    "way/184212776"
+  ]
+}

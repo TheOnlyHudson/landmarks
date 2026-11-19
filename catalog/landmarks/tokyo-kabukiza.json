@@ -1,0 +1,18 @@
+{
+  "id": "tokyo-kabukiza",
+  "name": "Kabuki-za",
+  "model": "tokyo-kabukiza",
+  "place": "tokyo",
+  "lng": 139.768033,
+  "lat": 35.669649,
+  "bearing": 47.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/4859313",
+    "relation/4859314",
+    "relation/4859315",
+    "relation/4859316",
+    "way/662901403"
+  ]
+}

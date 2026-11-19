@@ -1,0 +1,15 @@
+{
+  "id": "tokyo-western-art-museum",
+  "name": "National Museum of Western Art",
+  "model": "tokyo-western-art-museum",
+  "place": "tokyo",
+  "lng": 139.775879,
+  "lat": 35.715364,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1362629",
+  "replaces": [
+    "way/145344184"
+  ]
+}

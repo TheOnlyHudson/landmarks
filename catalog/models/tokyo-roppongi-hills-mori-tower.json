@@ -1,0 +1,87 @@
+{
+  "id": "tokyo-roppongi-hills-mori-tower",
+  "file": "models/tokyo-roppongi-hills-mori-tower.glb",
+  "detail": "models/tokyo-roppongi-hills-mori-tower.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-roppongi-hills-mori-tower.ts",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "observation-deck",
+    "museum"
+  ],
+  "description": "238 m office tower (2003, Kohn Pedersen Fox): four pale overlapping lobes around two wedge-shaped glass bays with sagging crescent tops, the Sky Deck, helipad and gondola cranes on the roof.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Roppongi Hills from Tokyo Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roppongi_Hills_from_Tokyo_Tower.jpg",
+      "author": "稲妻ノ歯鯨",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Roppongi Hills from Tokyo Tower Day.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roppongi_Hills_from_Tokyo_Tower_Day.jpg",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Roppongi Hills Mori Tower from Tokyo Tower Day cropped.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roppongi_Hills_Mori_Tower_from_Tokyo_Tower_Day_cropped.jpg",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Roppongi Hills Mori Tower west side.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roppongi_Hills_Mori_Tower_west_side.jpg",
+      "author": "稲妻ノ歯鯨",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Roppongi-Mori-Tower-01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roppongi-Mori-Tower-01.jpg",
+      "author": "Rs1421",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Shibuya Scramble Square Roppongi Hills Mori Tower (49994897872).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Shibuya_Scramble_Square_Roppongi_Hills_Mori_Tower_(49994897872).jpg",
+      "author": "Dick Thomas Johnson",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Shibuya Scramble Square Roppongi Hills Mori Tower (49994142373).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Shibuya_Scramble_Square_Roppongi_Hills_Mori_Tower_(49994142373).jpg",
+      "author": "Dick Thomas Johnson",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Roppongi Hills and Tokyo Tower with dark stormy background.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roppongi_Hills_and_Tokyo_Tower_with_dark_stormy_background.jpg",
+      "author": "Syced",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Tokyo Tower and Roppongi Hills Mori Tower seen from Hamamatsucho.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_and_Roppongi_Hills_Mori_Tower_seen_from_Hamamatsucho.jpg",
+      "author": "Syced",
+      "license": "CC0-1.0"
+    }
+  ]
+}

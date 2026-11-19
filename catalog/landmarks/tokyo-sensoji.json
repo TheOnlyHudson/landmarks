@@ -1,0 +1,18 @@
+{
+  "id": "tokyo-sensoji",
+  "name": "Sensō-ji",
+  "model": "tokyo-sensoji",
+  "place": "tokyo",
+  "lng": 139.7964763,
+  "lat": 35.7144178,
+  "bearing": 5.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q615183",
+  "replaces": [
+    "way/91008673",
+    "way/173154770",
+    "way/573271561",
+    "way/675582837"
+  ]
+}

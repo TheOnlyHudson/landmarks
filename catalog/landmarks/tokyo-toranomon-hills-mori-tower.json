@@ -1,0 +1,16 @@
+{
+  "id": "tokyo-toranomon-hills-mori-tower",
+  "name": "Toranomon Hills Mori Tower",
+  "model": "tokyo-toranomon-hills-mori-tower",
+  "place": "tokyo",
+  "lng": 139.7491906,
+  "lat": 35.6668064,
+  "bearing": 31,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q16724433",
+  "replaces": [
+    "way/390949465",
+    "way/390949466"
+  ]
+}
