@@ -1,0 +1,57 @@
+{
+  "id": "moscow-kremlin-wall-armoury-borovitskaya",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "wall",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The stretch of the Kremlin's red-brick wall on the Alexander Garden side between the Armoury Tower and the Borovitskaya Tower, built 1485-1495 by Italian masters.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Moscow - 2025 - The Corner Arsenal Tower, Alexander Garden.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_The_Corner_Arsenal_Tower,_Alexander_Garden.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Middle Arsenal Tower 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Middle_Arsenal_Tower_1.jpg",
+      "author": "Osazemen",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Moscow. Commandant's Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow._Commandant%27s_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Merlons of Troitsky Bridge in Moscow Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Merlons_of_Troitsky_Bridge_in_Moscow_Kremlin.jpg",
+      "author": "Dmitry Ivanov.",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-wall-armoury-borovitskaya.glb",
+  "source": "generators/moscow-kremlin-wall-armoury-borovitskaya.ts"
+}

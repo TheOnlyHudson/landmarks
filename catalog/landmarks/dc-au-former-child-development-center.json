@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-former-child-development-center",
+  "name": "Former Child Development Center",
+  "model": "dc-au-former-child-development-center",
+  "place": "american-university",
+  "lng": -77.091831,
+  "lat": 38.9356743,
+  "bearing": 84.56,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190440"
+  ]
+}

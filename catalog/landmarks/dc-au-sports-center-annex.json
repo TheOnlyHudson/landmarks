@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-sports-center-annex",
+  "name": "Sports Center Annex",
+  "model": "dc-au-sports-center-annex",
+  "place": "american-university",
+  "lng": -77.0903425,
+  "lat": 38.9379897,
+  "bearing": 33.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1509229468"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-east-quad-building",
+  "name": "East Quad Building",
+  "model": "dc-au-east-quad-building",
+  "place": "american-university",
+  "lng": -77.0879989,
+  "lat": 38.93633,
+  "bearing": 33.55,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90189728"
+  ]
+}

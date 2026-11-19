@@ -1,0 +1,22 @@
+{
+  "id": "moscow-kremlin-wall-nikolskaya-middle-arsenal",
+  "name": "Kremlin Wall, Nikolskaya Tower to Middle Arsenal Tower",
+  "model": "moscow-kremlin-wall-nikolskaya-middle-arsenal",
+  "place": "moscow",
+  "lng": 37.6164371,
+  "lat": 55.7545508,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/3272131",
+    "relation/16265074",
+    "relation/16265075",
+    "relation/16265076",
+    "relation/16265077",
+    "relation/16265078",
+    "relation/16265079",
+    "relation/16265080",
+    "relation/16265191"
+  ]
+}

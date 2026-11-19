@@ -1,0 +1,57 @@
+{
+  "id": "moscow-kremlin-commandants-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "A slim square Kremlin tower on the Alexander Garden wall: a tall brick shaft, merlons, a dark green tent with dormers, a lookout and a gilt vane.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Moscow. Commandant's Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow._Commandant%27s_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Komendantskaya Tower, Kremlin, Moscow (2130741).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Komendantskaya_Tower,_Kremlin,_Moscow_(2130741).jpg",
+      "author": "Willem V",
+      "license": "CC0"
+    },
+    {
+      "title": "Moscow - 2026 - Сommandant tower at overcast sky backdrop.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2026_-_%D0%A1ommandant_tower_at_overcast_sky_backdrop.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2026 - Сommandant tower at overcast sky backdrop1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2026_-_%D0%A1ommandant_tower_at_overcast_sky_backdrop1.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-commandants-tower.glb",
+  "source": "generators/moscow-kremlin-commandants-tower.ts"
+}

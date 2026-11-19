@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-mccabe-hall",
+  "name": "McCabe Hall",
+  "model": "dc-au-mccabe-hall",
+  "place": "american-university",
+  "lng": -77.0898094,
+  "lat": 38.9350672,
+  "bearing": 123.72,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190518"
+  ]
+}

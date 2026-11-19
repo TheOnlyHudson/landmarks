@@ -1,0 +1,32 @@
+{
+  "id": "moscow-kremlin-middle-arsenal-tower",
+  "name": "Middle Arsenal Tower",
+  "model": "moscow-kremlin-middle-arsenal-tower",
+  "place": "moscow",
+  "lng": 37.6155841,
+  "lat": 55.7537201,
+  "bearing": 20.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/1360654",
+    "relation/3272348",
+    "relation/3272349",
+    "relation/16265071",
+    "relation/16265073",
+    "relation/16265201",
+    "way/242209666",
+    "way/242209667",
+    "way/242209669",
+    "way/242209670",
+    "way/242209672",
+    "way/242209673",
+    "way/242209674",
+    "way/242209675",
+    "way/242209676",
+    "way/242209677",
+    "way/242209678",
+    "relation/3272347"
+  ],
+  "wikidata": "Q3403048"
+}

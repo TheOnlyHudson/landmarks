@@ -1,0 +1,65 @@
+{
+  "id": "moscow-assumption-cathedral",
+  "file": "models/moscow-assumption-cathedral.glb",
+  "source": "generators/moscow-assumption-cathedral.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cathedral",
+    "church",
+    "russian-orthodox",
+    "onion-dome",
+    "kremlin",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Fioravanti's white-stone cathedral of 1475-79 on Cathedral Square: four zakomary gables on the long fronts and three on the ends with the roof laid over the vaults behind them, five gilded helmet domes on tall white drums shifted east, five low apses, the arcade belt and the fresco portals.",
+  "references": [
+    {
+      "title": "Moscow. Kremlin. Dormition Cathedral P5152479 2600.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow._Kremlin._Dormition_Cathedral_P5152479_2600.jpg",
+      "author": "Alexxx1979",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Dormition-Cathedral Moscow.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dormition-Cathedral_Moscow.jpg",
+      "author": "acediscovery",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "The Cathedral of the Dormition, Kremlin, Moscow, Russia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Cathedral_of_the_Dormition,_Kremlin,_Moscow,_Russia.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Assumption Cathedral (Kremlin, 2020) east facade 02 by shakko.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Assumption_Cathedral_(Kremlin,_2020)_east_facade_02_by_shakko.jpg",
+      "author": "shakko",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Cathedral square inside the Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_square_inside_the_Kremlin.jpg",
+      "author": "Pedro Szekely",
+      "license": "CC-BY-SA-2.0"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "moscow-kremlin-borovitskaya-tower",
+  "name": "Borovitskaya Tower",
+  "model": "moscow-kremlin-borovitskaya-tower",
+  "place": "moscow",
+  "lng": 37.612517,
+  "lat": 55.7488981,
+  "bearing": -30.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/1360630",
+    "relation/3047138",
+    "relation/3047139",
+    "relation/3047140",
+    "relation/3047141",
+    "relation/3047142",
+    "relation/3047143",
+    "relation/3047145",
+    "relation/3890149",
+    "relation/3890150",
+    "relation/3890160",
+    "relation/16265008",
+    "way/228101939",
+    "way/228101940",
+    "way/292770470"
+  ],
+  "wikidata": "Q1984617"
+}

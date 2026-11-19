@@ -1,0 +1,56 @@
+{
+  "id": "dc-au-nebraska-hall",
+  "file": "models/dc-au-nebraska-hall.glb",
+  "source": "generators/dc-au-nebraska-hall.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "residence-hall"
+  ],
+  "description": "An apartment-style residence along Nebraska Avenue. Its 2013 addition mirrors the earlier brick and precast building.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "2022 Washington, DC aerial lidar",
+      "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    },
+    {
+      "title": "Building footprint",
+      "url": "https://www.openstreetmap.org/way/38606608",
+      "author": "OpenStreetMap contributors",
+      "license": "ODbL-1.0"
+    },
+    {
+      "title": "Nebraska Residence Hall at American University",
+      "url": "https://grunley.com/portfolio-project/american-university-nebraska-residence-hall/",
+      "author": "Grunley Construction Company"
+    },
+    {
+      "title": "2011 Campus Plan",
+      "url": "https://www.american.edu/finance/ppm/upload/campus-plan-document-for-web.pdf",
+      "author": "American University"
+    },
+    {
+      "title": "Rear view of Nebraska Hall",
+      "url": "https://commons.wikimedia.org/wiki/File:Rear_view_of_Nebraska_Hall_on_the_campus_of_American_University.jpg",
+      "author": "Ser Amantio di Nicolao",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "reviewStatus": "draft"
+}

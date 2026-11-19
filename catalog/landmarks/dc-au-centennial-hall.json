@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-centennial-hall",
+  "name": "Centennial Hall",
+  "model": "dc-au-centennial-hall",
+  "place": "american-university",
+  "lng": -77.0912145,
+  "lat": 38.9361067,
+  "bearing": 33.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38076901"
+  ]
+}

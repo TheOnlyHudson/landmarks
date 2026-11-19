@@ -1,0 +1,21 @@
+{
+  "id": "nyc-little-island",
+  "name": "Little Island",
+  "model": "nyc-little-island",
+  "place": "new-york-area",
+  "lng": -74.0106105,
+  "lat": 40.7420041,
+  "bearing": 28.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q106910658",
+  "replaces": [
+    "way/833335529",
+    "way/1169234796",
+    "way/1169234797",
+    "way/1023764876",
+    "way/1234760719",
+    "way/1234760720",
+    "way/1234760721"
+  ]
+}

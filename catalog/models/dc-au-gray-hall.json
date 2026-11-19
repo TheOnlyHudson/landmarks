@@ -1,0 +1,48 @@
+{
+  "id": "dc-au-gray-hall",
+  "file": "models/dc-au-gray-hall.glb",
+  "source": "generators/dc-au-gray-hall.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university"
+  ],
+  "description": "One of the four low, two-story brick halls grouped south of the library along Nebraska Avenue.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Building footprint, OpenStreetMap (May 22, 2026 extract)",
+      "url": "https://www.openstreetmap.org/way/90190204",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "Campus plan pre-hearing submission, March 2021",
+      "url": "https://www.american.edu/communityrelations/campus-plan/upload/pre-hearing-submission-filed-with-dc-zoning-commission-march-1-2021.pdf",
+      "author": "American University"
+    },
+    {
+      "title": "Tenleytown aerial photograph (2019, CC BY-SA 4.0)",
+      "url": "https://commons.wikimedia.org/wiki/File:Tenleytown_aerial_2019.jpg",
+      "author": "Antony-22"
+    },
+    {
+      "title": "2022 District of Columbia LiDAR, NOAA Digital Coast dataset 9837",
+      "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    }
+  ],
+  "reviewStatus": "draft"
+}

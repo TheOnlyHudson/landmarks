@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-sports-center-parking-garage",
+  "name": "Sports Center Parking Garage",
+  "model": "dc-au-sports-center-parking-garage",
+  "place": "american-university",
+  "lng": -77.0893787,
+  "lat": 38.9371495,
+  "bearing": 33.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38075679"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-watkins-building",
+  "name": "Watkins Building",
+  "model": "dc-au-watkins-building",
+  "place": "american-university",
+  "lng": -77.0928918,
+  "lat": 38.9352686,
+  "bearing": 52.92,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190715"
+  ]
+}

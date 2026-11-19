@@ -1,0 +1,54 @@
+{
+  "id": "dc-au-class-of-1992-clock",
+  "file": "models/dc-au-class-of-1992-clock.glb",
+  "source": "generators/dc-au-class-of-1992-clock.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "university",
+    "clock"
+  ],
+  "description": "The Class of 1992 post clock stands in a planted bed directly in front of Bender Library, at the southwest end of the Eric Friedheim Quadrangle.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Clock of American University (CC BY-SA 4.0)",
+      "url": "https://commons.wikimedia.org/wiki/File:Clock_of_American_University.jpg",
+      "author": "Class of 1992"
+    },
+    {
+      "title": "Bender Library and clock, university admissions publication",
+      "url": "https://www.american.edu/admissions/international/upload/2025-2026-international-toss-piece.pdf",
+      "author": "American University"
+    },
+    {
+      "title": "Campus directions to the clock in front of Bender Library",
+      "url": "https://www.american.edu/hr/upload/campus_map_directions.pdf",
+      "author": "American University"
+    },
+    {
+      "title": "Quad footway beside the clock garden",
+      "url": "https://www.openstreetmap.org/way/38078433",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "2022 DC LiDAR, NOAA Digital Coast dataset 9837",
+      "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    }
+  ],
+  "reviewStatus": "draft"
+}

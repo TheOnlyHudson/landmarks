@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-letts-hall",
+  "name": "Letts Hall",
+  "model": "dc-au-letts-hall",
+  "place": "american-university",
+  "lng": -77.0903118,
+  "lat": 38.9356264,
+  "bearing": 33.43,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38076904"
+  ]
+}

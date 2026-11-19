@@ -1,0 +1,18 @@
+{
+  "id": "moscow-kremlin-wall-taynitskaya-first-unnamed",
+  "name": "Kremlin Wall, Taynitskaya Tower to First Unnamed Tower",
+  "model": "moscow-kremlin-wall-taynitskaya-first-unnamed",
+  "place": "moscow",
+  "lng": 37.6184285,
+  "lat": 55.7494216,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/2470038",
+    "relation/16265173",
+    "relation/16265174",
+    "relation/16265175",
+    "relation/16265176"
+  ]
+}

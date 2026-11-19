@@ -1,0 +1,61 @@
+{
+  "id": "dc-au-duber-hall",
+  "file": "models/dc-au-duber-hall.glb",
+  "source": "generators/dc-au-duber-hall.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "residence-hall"
+  ],
+  "description": "A residence hall on New Mexico Avenue, formerly Congressional Hall. Its widened street end joins a longer residential wing.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Mapped building footprint",
+      "url": "https://www.openstreetmap.org/way/535124891",
+      "author": "OpenStreetMap contributors",
+      "license": "ODbL-1.0"
+    },
+    {
+      "title": "2022 Washington, DC aerial lidar",
+      "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    },
+    {
+      "title": "East Campus",
+      "url": "https://www.american.edu/about/sustainability/buildings/east-campus.cfm",
+      "author": "American University"
+    },
+    {
+      "title": "Zoning Commission Order 11-07, findings 133–139",
+      "url": "https://www.american.edu/communityrelations/campus-plan/upload/american-university-2021-campus-plan-ctr-appendices-sept-15-2020.pdf",
+      "author": "District of Columbia Zoning Commission"
+    },
+    {
+      "title": "American University, East Campus Development",
+      "url": "https://ehlert-bryan.com/project/american-university-east-campus/",
+      "author": "Ehlert Bryan"
+    },
+    {
+      "title": "East Campus Residence Hall (Congressional Hall)",
+      "url": "https://commons.wikimedia.org/wiki/File:East_Campus_Residence_Hall.jpg",
+      "author": "Herrperry123",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "reviewStatus": "draft"
+}

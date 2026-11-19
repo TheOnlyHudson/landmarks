@@ -1,0 +1,78 @@
+{
+  "id": "moscow-kremlin-trinity-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "gate",
+    "ruby-star",
+    "gothic-revival",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The tallest Kremlin tower, 80 m, the gate from the Trinity Bridge: a massive brick shaft under a white Gothic crown and pinnacles, two tiers, two octagons, a tall green tent and a ruby star.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Russia-Moscow-Kremlin-Trinity Tower-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Russia-Moscow-Kremlin-Trinity_Tower-1.jpg",
+      "author": "Alex Zelenko",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Russia-Moscow-Kremlin-Trinity Tower-2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Russia-Moscow-Kremlin-Trinity_Tower-2.jpg",
+      "author": "Alex Zelenko",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Troitskaya Tower-2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Troitskaya_Tower-2.jpg",
+      "author": "Presidential Press and Information Offic",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Troitskaya (Trinity) Tower, Moscow Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Troitskaya_(Trinity)_Tower,_Moscow_Kremlin.jpg",
+      "author": "longmandancer@btopenworld.com",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "The Trinity (Troitskaya) Tower of Moscow Kremlin (March 2009) - panora",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Trinity_(Troitskaya)_Tower_of_Moscow_Kremlin_(March_2009)_-_panoramio.jpg",
+      "author": "Shamil Valeev",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Kremlin Kutafya and Troitskaya Towers.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Kutafya_and_Troitskaya_Towers.jpg",
+      "author": "Stan Shebs",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Kremlin Viewed from Gardens - Moscow - Russia.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Viewed_from_Gardens_-_Moscow_-_Russia.JPG",
+      "author": "Adam Jones Adam63",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-trinity-tower.glb",
+  "source": "generators/moscow-kremlin-trinity-tower.ts"
+}

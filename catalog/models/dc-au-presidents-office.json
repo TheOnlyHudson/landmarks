@@ -1,0 +1,48 @@
+{
+  "id": "dc-au-presidents-office",
+  "file": "models/dc-au-presidents-office.glb",
+  "source": "generators/dc-au-presidents-office.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university"
+  ],
+  "description": "The Federal-style office has light siding, a central portico and a hipped roof.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Building footprint, OpenStreetMap (May 22, 2026 extract)",
+      "url": "https://www.openstreetmap.org/way/38110182",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "American University Historic District nomination",
+      "url": "https://planning.dc.gov/publication/26-07-american-university-historic-district",
+      "author": "District of Columbia Office of Planning"
+    },
+    {
+      "title": "American University aerial photograph (2006, public domain)",
+      "url": "https://commons.wikimedia.org/wiki/File:AUaerial.jpg",
+      "author": "A2Kafir"
+    },
+    {
+      "title": "2022 District of Columbia LiDAR, NOAA Digital Coast dataset 9837",
+      "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    }
+  ],
+  "reviewStatus": "draft"
+}

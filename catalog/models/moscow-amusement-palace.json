@@ -1,0 +1,70 @@
+{
+  "id": "moscow-amusement-palace",
+  "file": "models/moscow-amusement-palace.glb",
+  "source": "generators/moscow-amusement-palace.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "palace",
+    "kremlin",
+    "church",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q1877773",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The Amusement (Poteshny) Palace of 1651 against the Kremlin's west wall, the court theatre of Tsar Alexei: a salmon-pink block with white trim rising over the wall, and its house church of the Praise of the Virgin with gilt onions on tall drums.",
+  "references": [
+    {
+      "title": "MoscowKremlin AmusementPalace",
+      "url": "https://commons.wikimedia.org/wiki/File:MoscowKremlin_AmusementPalace.JPG",
+      "author": "Ludvig14",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "7358.1. Amusement Palace in Moscow Kremlin",
+      "url": "https://commons.wikimedia.org/wiki/File:7358.1._Amusement_Palace_in_Moscow_Kremlin.jpg",
+      "author": "Александровы АГ",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Moscow - 2026 - Amusement Palace, Church of the Praise of the Virgin Mary, view from Alexander Garden",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2026_-_Amusement_Palace,_Church_of_the_Praise_of_the_Virgin_Mary,_view_from_Alexander_Garden.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Amusement Palace (view from Manege, winter 2013) by shakko 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Amusement_Palace_(view_from_Manege,_winter_2013)_by_shakko_01.jpg",
+      "author": "shakko",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Amusement Palace and Dvortsovaya street by shakko 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Amusement_Palace_and_Dvortsovaya_street_by_shakko_03.jpg",
+      "author": "shakko",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Moscow - State Kremlin Palace, the Church of Praise of the Blessed Virgin Mary in the Amusement Palace",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_State_Kremlin_Palace,_the_Church_of_Praise_of_the_Blessed_Virgin_Mary_in_the_Amusement_Palace.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC BY 4.0"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "moscow-kremlin-sports-hall",
+  "name": "Kremlin sports hall",
+  "model": "moscow-kremlin-sports-hall",
+  "place": "moscow",
+  "lng": 37.6218412,
+  "lat": 55.7503364,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "relation/16454316",
+    "relation/16454313",
+    "relation/16454314",
+    "relation/16454315"
+  ]
+}

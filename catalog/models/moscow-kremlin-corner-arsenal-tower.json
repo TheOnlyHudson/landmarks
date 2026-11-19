@@ -1,0 +1,63 @@
+{
+  "id": "moscow-kremlin-corner-arsenal-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The broad sixteen-sided tower at the Kremlin's north corner, on a battered plinth, under a tall green tent with two rows of dormers and a slim lookout.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Moscow - 2025 - Corner Arsenal Tower, details.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Corner_Arsenal_Tower,_details.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - The Corner Arsenal Tower, Alexander Garden.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_The_Corner_Arsenal_Tower,_Alexander_Garden.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - Corner Arsenal Tower from the Alexander Garden.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Corner_Arsenal_Tower_from_the_Alexander_Garden.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - Corner Arsenal Tower, view from Manezhnaya Square.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Corner_Arsenal_Tower,_view_from_Manezhnaya_Square.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 8-2025 - Corner Arsenal Tower from Red Square1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_8-2025_-_Corner_Arsenal_Tower_from_Red_Square1.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-corner-arsenal-tower.glb",
+  "source": "generators/moscow-kremlin-corner-arsenal-tower.ts"
+}

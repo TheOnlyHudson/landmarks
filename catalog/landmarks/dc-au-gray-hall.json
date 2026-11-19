@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-gray-hall",
+  "name": "Gray Hall",
+  "model": "dc-au-gray-hall",
+  "place": "american-university",
+  "lng": -77.0893515,
+  "lat": 38.9349575,
+  "bearing": 33.51,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190204"
+  ]
+}

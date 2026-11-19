@@ -1,0 +1,16 @@
+{
+  "id": "moscow-kremlin-kutafya-tower",
+  "name": "Kutafya Tower",
+  "model": "moscow-kremlin-kutafya-tower",
+  "place": "moscow",
+  "lng": 37.6127778,
+  "lat": 55.7525315,
+  "bearing": 15,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "relation/3061015",
+    "relation/408550"
+  ],
+  "wikidata": "Q1981947"
+}

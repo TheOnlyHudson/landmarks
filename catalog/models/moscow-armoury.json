@@ -1,0 +1,70 @@
+{
+  "id": "moscow-armoury",
+  "file": "models/moscow-armoury.glb",
+  "source": "generators/moscow-armoury.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "kremlin",
+    "russian-revival",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q1304121",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Konstantin Thon's Armoury of 1844–1851 by the Borovitsky gate, the Kremlin's treasury museum: a white rusticated ground storey, a yellow upper storey of tall arched windows between paired white columns, and a low green roof lined with yellow chimneys.",
+  "references": [
+    {
+      "title": "Kremlin Armoury building, 2014-10-04",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Armoury_building,_2014-10-04.jpg",
+      "author": "Jorge Láscar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Kremlin Armoury building, 2014-10-04 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Armoury_building,_2014-10-04_2.jpg",
+      "author": "Jorge Láscar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "MoscowKremlin Armoury2a",
+      "url": "https://commons.wikimedia.org/wiki/File:MoscowKremlin_Armoury2a.jpg",
+      "author": "Ludvig14",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Borovitskaya Tower and Kremlin Armory",
+      "url": "https://commons.wikimedia.org/wiki/File:Borovitskaya_Tower_and_Kremlin_Armory.jpg",
+      "author": "Andrew Bossi",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Moscow Kremlin - Borovitskaya Tower, Armoury building",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Kremlin_-_Borovitskaya_Tower,_Armoury_building.jpg",
+      "author": "Sergey Norin",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Moscow - 2026 - Armory Chamber",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2026_-_Armory_Chamber.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC BY 4.0"
+    }
+  ]
+}

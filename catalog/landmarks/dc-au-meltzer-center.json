@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-meltzer-center",
+  "name": "Alan and Amy Meltzer Center for Athletic Performance",
+  "model": "dc-au-meltzer-center",
+  "place": "american-university",
+  "lng": -77.0909119,
+  "lat": 38.9382698,
+  "bearing": 33.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/1509229469"
+  ]
+}

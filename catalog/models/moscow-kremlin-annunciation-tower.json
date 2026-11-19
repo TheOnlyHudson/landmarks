@@ -1,0 +1,51 @@
+{
+  "id": "moscow-kremlin-annunciation-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "A square Kremlin tower on the river wall: brick shaft, merlons, an upper tier, a dark green tent with dormers, a lookout and a gilt vane.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "0007Ga. Blagoveshchenskaya Tower of Moscow Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:0007Ga._Blagoveshchenskaya_Tower_of_Moscow_Kremlin.jpg",
+      "author": "Александровы АГ",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Moscow Kremlin Towers of south wall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Kremlin_Towers_of_south_wall.jpg",
+      "author": "Dmitry Ivanov.",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - General view of the Kremlin embankment1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_General_view_of_the_Kremlin_embankment1.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-annunciation-tower.glb",
+  "source": "generators/moscow-kremlin-annunciation-tower.ts"
+}

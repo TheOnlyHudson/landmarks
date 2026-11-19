@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-roper-hall",
+  "name": "Roper Hall",
+  "model": "dc-au-roper-hall",
+  "place": "american-university",
+  "lng": -77.0889639,
+  "lat": 38.9352317,
+  "bearing": 123.46,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190604"
+  ]
+}

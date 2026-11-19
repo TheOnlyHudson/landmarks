@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-butler-pavilion",
+  "name": "Butler Pavilion",
+  "model": "dc-au-butler-pavilion",
+  "place": "american-university",
+  "lng": -77.0890763,
+  "lat": 38.9375028,
+  "bearing": 123.85,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38075681"
+  ]
+}
