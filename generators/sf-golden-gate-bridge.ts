@@ -50,8 +50,9 @@
  * towers, 66.6 at the pylons S1 and N1, 63.0 at pylon S2 and 56.3 where the
  * deck lands at the toll plaza; on the Marin side a sag of 65.9 over the
  * north anchorage, 66.9 at pylon N2 and 74.4 where it lands toward Vista
- * Point. Every lidar reading on the model's length is within 0.3 m of the
- * knots (median 0.01 m).
+ * Point. Checked against 564 more readings taken between the fitted ones
+ * (`--every 9`), the roadway as the map places the model is within 0.20 m
+ * of the lidar everywhere, median 0.03 m.
  *
  * The span's sources:
  * - OSM: the outline relation/21407754 (way/370672707), 29 m wide; Pylon S1,
