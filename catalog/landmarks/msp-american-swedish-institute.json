@@ -1,0 +1,14 @@
+{
+  "id": "msp-american-swedish-institute",
+  "name": "American Swedish Institute",
+  "model": "msp-american-swedish-institute",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.265859,
+  "lat": 44.955202,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1501419748"
+  ]
+}

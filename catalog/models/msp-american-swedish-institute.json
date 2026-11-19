@@ -1,0 +1,56 @@
+{
+  "id": "msp-american-swedish-institute",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "mansion",
+    "chateauesque",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q4745211",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "American Swedish Institute-2007-03-18.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:American_Swedish_Institute-2007-03-18.jpg",
+      "author": "Jerry",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "American Swedish Institute.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:American_Swedish_Institute.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "American Swedish Institute 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:American_Swedish_Institute_2015.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Swedish institute.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Swedish_institute.jpg",
+      "author": "Corykellum",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/msp-american-swedish-institute.glb",
+  "source": "generators/msp-american-swedish-institute.ts"
+}
