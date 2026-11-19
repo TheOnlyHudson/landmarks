@@ -1,0 +1,79 @@
+{
+  "id": "msp-ids-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "modernist",
+    "atrium"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Minneapolis April 2025 52 (IDS Center)",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_52_(IDS_Center).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "IDS Center, October 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:IDS_Center,_October_2024.jpg",
+      "author": "Bspor.88",
+      "license": "CC0"
+    },
+    {
+      "title": "IDS Center April 18 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:IDS_Center_April_18_2026.jpg",
+      "author": "Hurstbergn",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "IDS Center",
+      "url": "https://commons.wikimedia.org/wiki/File:IDS_Center.jpg",
+      "author": "Greg Gjerdingen",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "IDS Center-Minneapolis-20050608",
+      "url": "https://commons.wikimedia.org/wiki/File:IDS_Center-Minneapolis-20050608.jpg",
+      "author": "Michael Hicks",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "IDS Center, Minneapolis (33418042996)",
+      "url": "https://commons.wikimedia.org/wiki/File:IDS_Center,_Minneapolis_(33418042996).jpg",
+      "author": "Sharon Mollerus",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "IDS Center and Wells Fargo Center - Downtown Minneapolis Skyscrapers (53076885497)",
+      "url": "https://commons.wikimedia.org/wiki/File:IDS_Center_and_Wells_Fargo_Center_-_Downtown_Minneapolis_Skyscrapers_(53076885497).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "IDS Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:IDS_Tower.jpg",
+      "author": "Tim Wilson",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/msp-ids-center.glb",
+  "source": "generators/msp-ids-center.ts"
+}
