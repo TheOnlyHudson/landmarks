@@ -1,0 +1,14 @@
+{
+  "id": "msp-minneapolis-institute-of-art",
+  "name": "Minneapolis Institute of Art",
+  "model": "msp-minneapolis-institute-of-art",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.274213,
+  "lat": 44.958515,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38898412"
+  ]
+}

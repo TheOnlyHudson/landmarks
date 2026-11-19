@@ -1,0 +1,56 @@
+{
+  "id": "msp-minneapolis-institute-of-art",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "art-museum",
+    "neoclassical",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q1700481",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Minneapolis Institute of Art.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_Institute_of_Art.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis Institute of Arts.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_Institute_of_Arts.jpg",
+      "author": "Alvintrusty",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Minneapolis Institute of Art 12.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_Institute_of_Art_12.JPG",
+      "author": "AlexiusHoratius",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Minneapolis Institute of Arts (20721040061).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_Institute_of_Arts_(20721040061).jpg",
+      "author": "City of Minneapolis Archives",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/msp-minneapolis-institute-of-art.glb",
+  "source": "generators/msp-minneapolis-institute-of-art.ts"
+}
