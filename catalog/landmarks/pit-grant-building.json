@@ -1,0 +1,15 @@
+{
+  "id": "pit-grant-building",
+  "name": "Grant Building",
+  "model": "pit-grant-building",
+  "place": "pittsburgh-area",
+  "lng": -79.997542,
+  "lat": 40.437649,
+  "bearing": 26.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/203411113"
+  ],
+  "wikidata": "Q5596127"
+}
