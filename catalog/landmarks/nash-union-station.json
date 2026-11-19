@@ -1,0 +1,14 @@
+{
+  "id": "nash-union-station",
+  "name": "Union Station",
+  "model": "nash-union-station",
+  "place": "nashville-area",
+  "lng": -86.784758,
+  "lat": 36.157208,
+  "bearing": 332,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/130905896"
+  ]
+}
