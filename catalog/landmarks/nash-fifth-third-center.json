@@ -1,0 +1,16 @@
+{
+  "id": "nash-fifth-third-center",
+  "name": "Fifth Third Center",
+  "model": "nash-fifth-third-center",
+  "place": "nashville-area",
+  "lng": -86.7801499,
+  "lat": 36.1637505,
+  "bearing": 63,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1411817",
+  "replaces": [
+    "way/130913032",
+    "way/465454850"
+  ]
+}
