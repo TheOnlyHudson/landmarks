@@ -1,0 +1,16 @@
+{
+  "id": "ral-nc-legislative-building",
+  "name": "North Carolina State Legislative Building",
+  "model": "ral-nc-legislative-building",
+  "place": "raleigh-area",
+  "lng": -78.638954,
+  "lat": 35.783203,
+  "bearing": 3,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/47776644",
+    "way/1472099223"
+  ],
+  "wikidata": "Q7054610"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "ral-nc-legislative-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "modernist",
+    "legislature"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "North-Carolina-Legislative-Building-20080321.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:North-Carolina-Legislative-Building-20080321.jpeg",
+      "author": "Jmturner",
+      "license": "Public domain"
+    },
+    {
+      "title": "North Carolina Legislative Building.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_Legislative_Building.JPG",
+      "author": "Abbylabar",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Raleigh - State Legislative Building.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Raleigh_-_State_Legislative_Building.jpg",
+      "author": "P. Hughes",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "NCLegislature.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:NCLegislature.jpg",
+      "author": "W Edward Callis III",
+      "license": "Public domain"
+    },
+    {
+      "title": "NC Legislature.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:NC_Legislature.JPG",
+      "author": "Yas",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "North Carolina Teachers at the State Legislative Building",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_Teachers_at_the_State_Legislative_Building_(40785549033).jpg",
+      "author": "Gerry Dincher",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "NC State Legislative Building",
+      "url": "https://www.flickr.com/photos/11629603@N04/14550231682",
+      "author": "Gerry Dincher",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "HB2 protestors line up to attend a sit-in",
+      "url": "https://www.flickr.com/photos/14079872@N00/26041758304",
+      "author": "NathaniaJohnson",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/ral-nc-legislative-building.glb",
+  "source": "generators/ral-nc-legislative-building.ts"
+}
