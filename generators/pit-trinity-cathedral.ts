@@ -7,7 +7,7 @@
  * pinnacles, gablets, roses, round-headed panels, octagonal spires) that
  * pit-first-presbyterian-church.ts and pit-smithfield-united-church.ts build
  * with; merge it first. It builds on the pointed-window helpers exported by
- * pit-cathedral-of-learning.ts and the polygon kit in chi-aon-center.ts.
+ * pit-heinz-chapel.ts and the polygon kit in chi-aon-center.ts.
  *
  * Map frame of the model: x, y, z up, metres; origin at the anchor on the
  * lowest ground under the footprint. Anchor = area centroid of the OSM
@@ -88,7 +88,7 @@
 import { Part, type V3 } from './mesh'
 import { PALETTE, finish } from './palette'
 import { area, cap, onWall, rect, save, walls, type XY } from './chi-aon-center'
-import { bar, faces, greatWindow, pier, pointed } from './pit-cathedral-of-learning'
+import { bar, faces, greatWindow, pier, pointed } from './pit-heinz-chapel'
 
 // ---------------------------------------------------------------------------
 // Gothic kit, shared with pit-first-presbyterian-church.ts and

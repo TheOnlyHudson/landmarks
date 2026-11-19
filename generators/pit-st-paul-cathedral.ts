@@ -3,7 +3,7 @@
  * North Craig Street, Oakland, Pittsburgh — original procedural geometry,
  * CC0-1.0. bun generators/pit-st-paul-cathedral.ts
  *
- * Imports the Gothic helpers from pit-cathedral-of-learning.ts and the
+ * Imports the Gothic helpers from pit-heinz-chapel.ts and the
  * Richardsonian kit's `poly`/`band`/`wallsSplit` from
  * pit-allegheny-county-courthouse.ts; both must be merged first.
  *
@@ -86,7 +86,7 @@ import { Part, type V3 } from './mesh'
 import { PALETTE, finish } from './palette'
 import { cap, onWall, rect, save, walls, type XY } from './chi-aon-center'
 import { band, grow, poly, wallsSplit } from './pit-allegheny-county-courthouse'
-import { greatWindow, headH, pier, pointed } from './pit-cathedral-of-learning'
+import { greatWindow, headH, pier, pointed } from './pit-heinz-chapel'
 
 /** A gabled roof over [x0,y0,x1,y1], ridge along y (or x), with stone gable ends. */
 function gable(roof: Part, wall: Part, r: [number, number, number, number], z0: number, z1: number, alongY: boolean, over = 0.4, ends: [boolean, boolean] = [true, true]) {

@@ -3,8 +3,8 @@
  * Klauder), Oakland, Pittsburgh — original procedural geometry, CC0-1.0.
  * bun generators/pit-heinz-chapel.ts
  *
- * Imports the Gothic helpers (pointed panels, tracery, piers) from
- * pit-cathedral-of-learning.ts, which must be merged first.
+ * Exports the Gothic helpers (pointed panels, tracery, piers) that the other
+ * Pittsburgh churches import; its own build runs behind import.meta.main.
  *
  * Map frame of the model: x, y, z up, metres; origin at the anchor on the
  * lowest ground under the footprint. Anchor = area centroid of the OSM
@@ -71,8 +71,122 @@
  */
 import { Part, type V3 } from './mesh'
 import { PALETTE, finish } from './palette'
-import { cap, onWall, rect, save, walls, type XY } from './chi-aon-center'
-import { bar, faces, greatWindow, headH, pier, pointed } from './pit-cathedral-of-learning'
+import { cap, onWall, panel, rect, save, walls, type XY } from './chi-aon-center'
+
+// Gothic helpers shared by the Pittsburgh churches (moved here from the
+// earlier pit-cathedral-of-learning generator, unchanged).
+// ---------------------------------------------------------------------------
+// Gothic helpers, shared with pit-heinz-chapel.ts.
+
+/**
+ * A flat pointed-arch panel on wall a→b: jambs s0..s1 from z0 up to the
+ * springing zs, then an equilateral pointed head (radius = width × `k`,
+ * apex at the centre). Set `out` from the wall.
+ */
+export function pointed(p: Part, a: XY, b: XY, s0: number, s1: number, z0: number, zs: number, out = 0.04, k = 1, seg = 4) {
+  const { P } = onWall(a, b)
+  const w = s1 - s0, r = w * k, c = (s0 + s1) / 2
+  const pts: [number, number][] = [[s0, z0], [s1, z0], [s1, zs]]
+  // right arc: centred at (s1 - r, zs), from angle 0 up to the apex
+  const t1 = Math.acos((c - (s1 - r)) / r)
+  for (let i = 1; i <= seg; i++) { const t = (t1 * i) / seg; pts.push([s1 - r + r * Math.cos(t), zs + r * Math.sin(t)]) }
+  for (let i = seg - 1; i >= 0; i--) { const t = Math.PI - (t1 * i) / seg; pts.push([s0 + r + r * Math.cos(t), zs + r * Math.sin(t)]) }
+  const ctr = P(c, (z0 + zs) / 2, out)
+  for (let i = 0; i < pts.length; i++) {
+    const q = pts[i], n = pts[(i + 1) % pts.length]
+    p.tri(ctr, P(q[0], q[1], out), P(n[0], n[1], out))
+  }
+  return zs + Math.sqrt(r * r - (c - (s1 - r)) ** 2) // apex height
+}
+
+/** Head height of a pointed arch of width w (radius w × k). */
+export const headH = (w: number, k = 1) => Math.sqrt((w * k) ** 2 - (w * k - w / 2) ** 2)
+
+/** A flat bar on wall a→b between two (s, z) points, `wd` wide, `out` proud. */
+export function bar(p: Part, a: XY, b: XY, p0: [number, number], p1: [number, number], wd = 0.2, out = 0.08) {
+  const { P } = onWall(a, b)
+  const ds = p1[0] - p0[0], dz = p1[1] - p0[1], L = Math.hypot(ds, dz) || 1
+  const ns = (-dz / L) * wd / 2, nz = (ds / L) * wd / 2
+  // counter-clockwise seen from outside (s runs to the viewer's right)
+  p.quad(P(p0[0] + ns, p0[1] + nz, out), P(p0[0] - ns, p0[1] - nz, out), P(p1[0] - ns, p1[1] - nz, out), P(p1[0] + ns, p1[1] + nz, out))
+}
+
+/**
+ * A traceried great window: `lights` lights divided by mullions up to the
+ * springing, a transom there, and a Y fork in the head. Glass in `win`,
+ * bars in `tr`. Optional transoms lower down (z values).
+ */
+export function greatWindow(win: Part, tr: Part, a: XY, b: XY, s0: number, s1: number, z0: number, zs: number, lights = 3, transoms: number[] = [], wd = 0.2) {
+  const apex = pointed(win, a, b, s0, s1, z0, zs, 0.04)
+  const w = s1 - s0, c = (s0 + s1) / 2, h = apex - zs
+  for (let i = 1; i < lights; i++) bar(tr, a, b, [s0 + (w * i) / lights, z0], [s0 + (w * i) / lights, zs], wd)
+  for (const z of [zs, ...transoms]) bar(tr, a, b, [s0 + 0.05, z], [s1 - 0.05, z], wd)
+  // the fork: a stem from the springing, branching to the arch
+  const fork = zs + h * 0.35
+  bar(tr, a, b, [c, zs], [c, fork], wd)
+  bar(tr, a, b, [c, fork], [c - w * 0.27, zs + h * 0.62], wd)
+  bar(tr, a, b, [c, fork], [c + w * 0.27, zs + h * 0.62], wd)
+  return apex
+}
+
+/**
+ * A pier on wall a→b: a box centred s, `w` wide, `d` proud, from z0 to z1,
+ * capped by a small pyramid `cap` high (0 for a flat top).
+ */
+export function pier(p: Part, a: XY, b: XY, s: number, w: number, z0: number, z1: number, d: number, capH = 0) {
+  const { P } = onWall(a, b)
+  const l = s - w / 2, r = s + w / 2
+  const A = P(l, z0, 0), B = P(r, z0, 0), C = P(r, z0, d), D = P(l, z0, d)
+  const A1 = P(l, z1, 0), B1 = P(r, z1, 0), C1 = P(r, z1, d), D1 = P(l, z1, d)
+  p.quad(D, C, C1, D1) // front
+  p.quad(A, D, D1, A1) // left side
+  p.quad(C, B, B1, C1) // right side
+  if (capH > 0) {
+    const t = P(s, z1 + capH, d / 2)
+    p.tri(D1, C1, t); p.tri(A1, D1, t); p.tri(C1, B1, t); p.tri(B1, A1, t)
+  } else p.quad(D1, C1, B1, A1)
+}
+
+/** Storey groups from z0 to z1 in n panels with `gap` of spandrel between. */
+export const groups = (z0: number, z1: number, n: number, gap = 0.9): [number, number][] =>
+  Array.from({ length: n }, (_, i) => [z0 + (i * (z1 - z0)) / n + (i ? gap / 2 : 0), z0 + ((i + 1) * (z1 - z0)) / n - gap / 2] as [number, number])
+
+/**
+ * A column of window panels on wall a→b from s0 to s1: grouped storeys from
+ * z0, the top panel ending in a pointed head whose apex is at `top`.
+ * `story` is the panel height target (two to three storeys).
+ */
+export function lancetColumn(win: Part, a: XY, b: XY, s0: number, s1: number, z0: number, top: number, story = 10.5, gap = 1.0) {
+  const w = s1 - s0, hh = headH(w)
+  const zs = top - hh
+  if (zs - z0 < 2) return
+  const n = Math.max(1, Math.round((zs - z0) / story))
+  const g = groups(z0, zs, n, gap)
+  g.forEach(([lo, hi], i) => {
+    if (i === g.length - 1) pointed(win, a, b, s0, s1, lo, hi + gap / 2, 0.04)
+    else panel(win, a, b, s0, s1, lo, hi, 0.04)
+  })
+}
+
+/** Walls split into pieces no longer than `step`, so low faces drape on the terrain. */
+export function wallsSplit(p: Part, r: XY[], z0: number, z1: number, step = 5) {
+  for (let i = 0; i < r.length; i++) {
+    const a = r[i], b = r[(i + 1) % r.length]
+    const L = Math.hypot(b[0] - a[0], b[1] - a[1]), n = Math.max(1, Math.ceil(L / step))
+    for (let k = 0; k < n; k++) {
+      const u0 = k / n, u1 = (k + 1) / n
+      const p0: XY = [a[0] + (b[0] - a[0]) * u0, a[1] + (b[1] - a[1]) * u0]
+      const p1: XY = [a[0] + (b[0] - a[0]) * u1, a[1] + (b[1] - a[1]) * u1]
+      p.quad([p0[0], p0[1], z0], [p1[0], p1[1], z0], [p1[0], p1[1], z1], [p0[0], p0[1], z1])
+    }
+  }
+}
+
+/** The four walls of an axis-aligned box as [a, b] pairs, counter-clockwise: S, E, N, W. */
+export const faces = (x0: number, y0: number, x1: number, y1: number): [XY, XY][] => [
+  [[x0, y0], [x1, y0]], [[x1, y0], [x1, y1]], [[x1, y1], [x0, y1]], [[x0, y1], [x0, y0]],
+]
+
 
 /** A planar polygon, fanned, wound to face `out`. */
 function poly(p: Part, pts: V3[], out: V3) {

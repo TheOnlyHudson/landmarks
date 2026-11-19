@@ -4,7 +4,7 @@
  * bun generators/pit-first-presbyterian-church.ts
  *
  * Builds with the Gothic kit exported by pit-trinity-cathedral.ts and
- * pit-cathedral-of-learning.ts; merge those first.
+ * pit-heinz-chapel.ts; merge those first.
  *
  * Map frame of the model: x, y, z up, metres; origin at the anchor on the
  * lowest ground under the footprint. Anchor = area centroid of the OSM
@@ -78,7 +78,7 @@
 import { Part } from './mesh'
 import { PALETTE, finish } from './palette'
 import { cap, onWall, rect, save, walls, type XY } from './chi-aon-center'
-import { bar, faces, pier, pointed } from './pit-cathedral-of-learning'
+import { bar, faces, pier, pointed } from './pit-heinz-chapel'
 import { box, gable, gablet, lean, panel3, pinnacle, rose, wallBlock } from './pit-trinity-cathedral'
 
 function build() {
