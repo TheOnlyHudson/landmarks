@@ -1,0 +1,55 @@
+{
+  "id": "msp-grain-belt-sign",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "sign",
+    "neon",
+    "historic",
+    "advertising"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Grain Belt sign 2016-07-29",
+      "url": "https://commons.wikimedia.org/wiki/File:Grain_Belt_sign_2016-07-29.jpg",
+      "author": "August Schwerdfeger",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Grain Belt Beer sign, Nicollet Island, Minneapolis",
+      "url": "https://commons.wikimedia.org/wiki/File:Grain_Belt_Beer_sign,_Nicollet_Island,_Minneapolis.jpg",
+      "author": "Guywelch2000",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Grain Belt Beer Sign (41038520611) (cropped)",
+      "url": "https://commons.wikimedia.org/wiki/File:Grain_Belt_Beer_Sign_(41038520611)_(cropped).jpg",
+      "author": "Greg Gjerdingen",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Grain Belt sign relit 2017-12-30",
+      "url": "https://commons.wikimedia.org/wiki/File:Grain_Belt_sign_relit_2017-12-30.jpg",
+      "author": "August Schwerdfeger",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/msp-grain-belt-sign.glb",
+  "source": "generators/msp-grain-belt-sign.ts"
+}
