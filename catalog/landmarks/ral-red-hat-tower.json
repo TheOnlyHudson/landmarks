@@ -1,0 +1,21 @@
+{
+  "id": "ral-red-hat-tower",
+  "name": "Red Hat Tower",
+  "model": "ral-red-hat-tower",
+  "place": "raleigh-area",
+  "lng": -78.637828,
+  "lat": 35.775208,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/4144751",
+    "way/267551242",
+    "way/310324642",
+    "way/310750829",
+    "way/310168484",
+    "way/310168485",
+    "way/1562001022"
+  ],
+  "wikidata": "Q7859171"
+}
