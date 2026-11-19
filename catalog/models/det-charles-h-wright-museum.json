@@ -1,0 +1,54 @@
+{
+  "id": "det-charles-h-wright-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "postmodern",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Charles H. Wright Museum 2011 5",
+      "url": "https://commons.wikimedia.org/wiki/File:Charles_H._Wright_Museum_2011_5.JPG",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Charles H. Wright Museum 2011 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Charles_H._Wright_Museum_2011_1.JPG",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Charles Wright African-American Museum",
+      "url": "https://commons.wikimedia.org/wiki/File:Charles_Wright_African-American_Museum.jpg",
+      "author": "Quick fix",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Museum of African American History",
+      "url": "https://commons.wikimedia.org/wiki/File:Museum_of_African_American_History.jpg",
+      "author": "The original uploader (English Wikipedia)",
+      "license": "CC BY-SA 2.5"
+    }
+  ],
+  "file": "models/det-charles-h-wright-museum.glb",
+  "source": "generators/det-charles-h-wright-museum.ts"
+}
