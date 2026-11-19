@@ -1,0 +1,67 @@
+{
+  "id": "mia-perez-art-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "art-museum",
+    "herzog-de-meuron",
+    "museum-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Perez Art Museum Miami",
+      "url": "https://commons.wikimedia.org/wiki/File:Perez_Art_Museum_Miami.jpg",
+      "author": "B137",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "PAMM MRD 23",
+      "url": "https://commons.wikimedia.org/wiki/File:PAMM_MRD_23.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "PAMM MRD 27",
+      "url": "https://commons.wikimedia.org/wiki/File:PAMM_MRD_27.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Perez Museum, Miami, Florida, USA (51015423222)",
+      "url": "https://commons.wikimedia.org/wiki/File:Perez_Museum,_Miami,_Florida,_USA_(51015423222).jpg",
+      "author": "Paolo Gamba",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "PAMM MRD 09",
+      "url": "https://commons.wikimedia.org/wiki/File:PAMM_MRD_09.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "PAMM MRD 20",
+      "url": "https://commons.wikimedia.org/wiki/File:PAMM_MRD_20.jpg",
+      "author": "Allison Meier",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/mia-perez-art-museum.glb",
+  "source": "generators/mia-perez-art-museum.ts"
+}
