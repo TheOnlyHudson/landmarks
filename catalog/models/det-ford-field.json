@@ -1,0 +1,54 @@
+{
+  "id": "det-ford-field",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "american-football",
+    "nfl",
+    "domed-stadium",
+    "adaptive-reuse"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Ford Field Stadium - Downtown Detroit - Michigan.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ford_Field_Stadium_-_Downtown_Detroit_-_Michigan.jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Detroit December 2025 04 (Ford Field).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_December_2025_04_(Ford_Field).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ford-Field-September-10-2006.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ford-Field-September-10-2006.jpg",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Comerica Park - 2026 (215A6096).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Comerica_Park_-_2026_(215A6096).jpg",
+      "author": "City of Detroit",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/det-ford-field.glb",
+  "source": "generators/det-ford-field.ts"
+}

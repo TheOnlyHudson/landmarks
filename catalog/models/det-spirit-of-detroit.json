@@ -1,0 +1,55 @@
+{
+  "id": "det-spirit-of-detroit",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "statue",
+    "public-art",
+    "bronze",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "The Spirit of Detroit.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Spirit_of_Detroit.jpg",
+      "author": "JJonahJackalope",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Spirit of Detroit and the Renaissance Center.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Spirit_of_Detroit_and_the_Renaissance_Center.jpg",
+      "author": "Mbrickn",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Spirit of Detroit at night, wide angle.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Spirit_of_Detroit_at_night,_wide_angle.jpg",
+      "author": "42-BRT",
+      "license": "Public domain"
+    },
+    {
+      "title": "Spirit Plaza Drone 4.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Spirit_Plaza_Drone_4.jpg",
+      "author": "City of Detroit",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/det-spirit-of-detroit.glb",
+  "source": "generators/det-spirit-of-detroit.ts"
+}

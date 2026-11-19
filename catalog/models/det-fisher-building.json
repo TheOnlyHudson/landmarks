@@ -1,0 +1,73 @@
+{
+  "id": "det-fisher-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "art-deco",
+    "office",
+    "skyscraper"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Detroit December 2021 12 (Fisher Building)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_December_2021_12_(Fisher_Building).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Fisher Building as seen from West Grand Boulevard in front of Cadillac Place",
+      "url": "https://commons.wikimedia.org/wiki/File:Fisher_Building_as_seen_from_West_Grand_Boulevard_in_front_of_Cadillac_Place,_New_Center,_Detroit_-_20201215.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Fisher Building as seen from 2nd Avenue in front of the Argonaut Building",
+      "url": "https://commons.wikimedia.org/wiki/File:Fisher_Building_as_seen_from_2nd_Avenue_in_front_of_the_Argonaut_Building,_New_Center,_Detroit_-_20201215.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Fisher Building in Detroit's New Center Neighborhood 2025-09-11",
+      "url": "https://commons.wikimedia.org/wiki/File:Fisher_Building_in_Detroit%E2%80%99s_New_Center_Neighborhood_2025-09-11.jpg",
+      "author": "TheWxResearcher",
+      "license": "CC0"
+    },
+    {
+      "title": "Kahn and Fisher Buildings, Detroit",
+      "url": "https://commons.wikimedia.org/wiki/File:KahnFisherBuildingsDetroit.jpg",
+      "author": "Andrew Jameson",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Fisher Building, Detroit",
+      "url": "https://commons.wikimedia.org/wiki/File:FisherBldgDetroit.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Fisher Building First Floor Plan",
+      "url": "https://commons.wikimedia.org/wiki/File:Fisher_Building_First_Floor_Plan.png",
+      "author": "Albert Kahn, Inc.",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/det-fisher-building.glb",
+  "source": "generators/det-fisher-building.ts"
+}

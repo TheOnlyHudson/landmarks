@@ -1,0 +1,21 @@
+{
+  "id": "det-michigan-central",
+  "name": "Michigan Central Station",
+  "model": "det-michigan-central",
+  "place": "detroit-area",
+  "lng": -83.077733,
+  "lat": 42.3287417,
+  "bearing": 17,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1764199",
+  "replaces": [
+    "way/805151309",
+    "way/30259672",
+    "way/105771103",
+    "way/105771106",
+    "way/655089822",
+    "way/655089833",
+    "way/655089834"
+  ]
+}

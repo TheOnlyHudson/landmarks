@@ -1,0 +1,78 @@
+{
+  "id": "det-shrine-little-flower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "art-deco"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "National Shrine of the Little Flower, Royal Oak, Michigan - 20201213 - 01",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Shrine_of_the_Little_Flower,_Royal_Oak,_Michigan_-_20201213_-_01.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "National Shrine of the Little Flower, Royal Oak, Michigan - 20201213 - 02",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Shrine_of_the_Little_Flower,_Royal_Oak,_Michigan_-_20201213_-_02.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "National Shrine of the Little Flower, Royal Oak, Michigan - 20201213 - 04",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Shrine_of_the_Little_Flower,_Royal_Oak,_Michigan_-_20201213_-_04.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "National Shrine of the Little Flower, Royal Oak, Michigan - 20201213 - 05",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Shrine_of_the_Little_Flower,_Royal_Oak,_Michigan_-_20201213_-_05.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "National Shrine of the Little Flower Roman Catholic Church (Royal Oak, Michigan) - exterior",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Shrine_of_the_Little_Flower_Roman_Catholic_Church_(Royal_Oak,_Michigan)_-_exterior.jpg",
+      "author": "Nheyob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "National Shrine of the Little Flower (Royal Oak, MI) - Charity tower with Christ's last words from the Cross",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Shrine_of_the_Little_Flower_(Royal_Oak,_MI)_-_Charity_tower_with_Christ%27s_last_words_from_the_Cross.jpg",
+      "author": "Nheyob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "National Shrine of the Little Flower Basilica (Royal Oak MI)",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Shrine_of_the_Little_Flower_Basilica_(Royal_Oak_MI).jpg",
+      "author": "Lrgjr72",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Shrine of the Little Flower, Royal Oak, Michigan (postcard)",
+      "url": "https://commons.wikimedia.org/wiki/File:Shrine_of_the_Little_Flower,_Royal_Oak,_Michigan_(64792).jpg",
+      "author": "Tichnor Brothers",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/det-shrine-little-flower.glb",
+  "source": "generators/det-shrine-little-flower.ts"
+}

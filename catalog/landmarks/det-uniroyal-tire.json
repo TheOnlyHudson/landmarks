@@ -1,0 +1,13 @@
+{
+  "id": "det-uniroyal-tire",
+  "name": "Uniroyal Giant Tire",
+  "model": "det-uniroyal-tire",
+  "place": "detroit-area",
+  "lng": -83.209061,
+  "lat": 42.270544,
+  "bearing": 50,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7886992",
+  "replaces": []
+}

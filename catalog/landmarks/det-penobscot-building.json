@@ -1,0 +1,15 @@
+{
+  "id": "det-penobscot-building",
+  "name": "Penobscot Building",
+  "model": "det-penobscot-building",
+  "place": "detroit-area",
+  "lng": -83.0475557,
+  "lat": 42.33027,
+  "bearing": 329.2,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/69000329"
+  ],
+  "wikidata": "Q3355290"
+}

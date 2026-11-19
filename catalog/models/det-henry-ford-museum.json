@@ -1,0 +1,55 @@
+{
+  "id": "det-henry-ford-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "replica",
+    "colonial-revival",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Dearborn - Henry Ford Museum",
+      "url": "https://www.flickr.com/photos/24736216@N07/4364333350",
+      "author": "roger4336",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Dearborn - The Henry Ford - 20201011113815.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dearborn_-_The_Henry_Ford_-_20201011113815.jpg",
+      "author": "CoolRockC",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ford Museum Independence Hall facade tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ford_Museum_Independence_Hall_facade_tower.jpg",
+      "author": "Dacoslett",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Henry Ford Museum, Exterior",
+      "url": "https://www.flickr.com/photos/73319630@N00/2181301281",
+      "author": "mrkumm",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/det-henry-ford-museum.glb",
+  "source": "generators/det-henry-ford-museum.ts"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "det-fisher-building",
+  "name": "Fisher Building",
+  "model": "det-fisher-building",
+  "place": "detroit-area",
+  "lng": -83.0773572,
+  "lat": 42.3694784,
+  "bearing": 333,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/112057847",
+    "way/769476105",
+    "way/780568670",
+    "way/780568671",
+    "way/780568672"
+  ],
+  "wikidata": "Q933431"
+}

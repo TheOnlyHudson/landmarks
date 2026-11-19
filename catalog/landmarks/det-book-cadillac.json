@@ -1,0 +1,16 @@
+{
+  "id": "det-book-cadillac",
+  "name": "Westin Book Cadillac Hotel",
+  "model": "det-book-cadillac",
+  "place": "detroit-area",
+  "lng": -83.0502158,
+  "lat": 42.3321106,
+  "bearing": 359.25,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/1066234397",
+    "way/59121911"
+  ],
+  "wikidata": "Q12072758"
+}

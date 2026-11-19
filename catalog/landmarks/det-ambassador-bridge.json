@@ -1,0 +1,17 @@
+{
+  "id": "det-ambassador-bridge",
+  "name": "Ambassador Bridge",
+  "model": "det-ambassador-bridge",
+  "place": "detroit-area",
+  "lng": -83.0741972,
+  "lat": 42.3121729,
+  "bearing": 154.298,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q12575",
+  "replaces": [
+    "way/988967484",
+    "way/469346651",
+    "way/656928839"
+  ]
+}

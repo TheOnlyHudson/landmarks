@@ -1,0 +1,55 @@
+{
+  "id": "det-uniroyal-tire",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "roadside-attraction",
+    "sign",
+    "worlds-fair",
+    "ferris-wheel"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Uniroyal tire in Allen Park taken from car.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Uniroyal_tire_in_Allen_Park_taken_from_car.jpg",
+      "author": "Gregory Varnum",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "UniroyalGiantTire2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:UniroyalGiantTire2015.jpg",
+      "author": "Dethistoricaler",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "President Joe Biden's motorcade passing the Uniroyal Giant Tire in Allen Park, MI.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:President_Joe_Biden%27s_motorcade_passing_the_Uniroyal_Giant_Tire_in_Allen_Park,_MI.jpg",
+      "author": "Adam Schultz (The White House)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Uniroyal tire, Dearborn, Michigan LCCN2017707752.tif",
+      "url": "https://commons.wikimedia.org/wiki/File:Uniroyal_tire,_Dearborn,_Michigan_LCCN2017707752.tif",
+      "author": "John Margolies",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/det-uniroyal-tire.glb",
+  "source": "generators/det-uniroyal-tire.ts"
+}

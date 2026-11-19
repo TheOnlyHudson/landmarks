@@ -1,0 +1,15 @@
+{
+  "id": "det-broderick-tower",
+  "name": "David Broderick Tower",
+  "model": "det-broderick-tower",
+  "place": "detroit-area",
+  "lng": -83.0497032,
+  "lat": 42.3359477,
+  "bearing": 330,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/11517651"
+  ],
+  "wikidata": "Q5231761"
+}

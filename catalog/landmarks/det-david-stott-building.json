@@ -1,0 +1,15 @@
+{
+  "id": "det-david-stott-building",
+  "name": "David Stott Building",
+  "model": "det-david-stott-building",
+  "place": "detroit-area",
+  "lng": -83.0485357,
+  "lat": 42.3324349,
+  "bearing": 328.7,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/69349730"
+  ],
+  "wikidata": "Q5240120"
+}

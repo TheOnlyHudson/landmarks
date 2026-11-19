@@ -1,0 +1,13 @@
+{
+  "id": "det-joe-louis-fist",
+  "name": "Monument to Joe Louis (The Fist)",
+  "model": "det-joe-louis-fist",
+  "place": "detroit-area",
+  "lng": -83.0445493,
+  "lat": 42.3286631,
+  "bearing": 236,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q6906877",
+  "replaces": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "det-one-woodward",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "modernist",
+    "skyscraper",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "One Woodward Avenue, Detroit, Michigan, 2025-07-05",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Woodward_Avenue,_Detroit,_Michigan,_2025-07-05.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Michigan Consolidated Gas Company Building Detroit MI",
+      "url": "https://commons.wikimedia.org/wiki/File:Michigan_Consolidated_Gas_Company_Building_Detroit_MI.jpg",
+      "author": "Andrew Jameson",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "OneWoodwardAvenue base",
+      "url": "https://commons.wikimedia.org/wiki/File:OneWoodwardAvenue_base.jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Pinnacles of Guardian Building, One Woodward Avenue, and Hudson's Detroit, 2025-08-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Pinnacles_of_Guardian_Building,_One_Woodward_Avenue,_and_Hudson%27s_Detroit,_Detroit,_Michigan,_2025-08-01.jpg",
+      "author": "Chris Woodrich (Crisco 1492)",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/det-one-woodward.glb",
+  "source": "generators/det-one-woodward.ts"
+}

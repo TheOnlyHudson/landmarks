@@ -1,0 +1,14 @@
+{
+  "id": "det-scott-fountain",
+  "name": "James Scott Memorial Fountain",
+  "model": "det-scott-fountain",
+  "place": "detroit-area",
+  "lng": -82.9993263,
+  "lat": 42.3350263,
+  "bearing": 65,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/107194267"
+  ]
+}

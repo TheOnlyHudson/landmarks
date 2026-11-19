@@ -1,0 +1,54 @@
+{
+  "id": "det-first-congregational",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "romanesque-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "First Congressional Church of Christ, Detroit, Michigan",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Congressional_Church_of_Christ,_Detroit,_Michigan.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "First Congregational Church (Detroit, Michigan)",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Congregational_Church_(Detroit,_Michigan).jpg",
+      "author": "Andrew Jameson",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "First Congregational Church Angel",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Congregational_Church_Angel.jpg",
+      "author": "Andrew Jameson",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "First Congregational Church 1903",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Congregational_Church_1903.jpg",
+      "author": "Detroit Publishing Company",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/det-first-congregational.glb",
+  "source": "generators/det-first-congregational.ts"
+}

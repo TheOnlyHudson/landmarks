@@ -1,0 +1,67 @@
+{
+  "id": "det-guardian-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "art-deco",
+    "skyscraper",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Guardian Building 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:Guardian_Building_2025.jpg",
+      "author": "WMrapids",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Guardian Building, Detroit 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Guardian_Building,_Detroit_2.jpg",
+      "author": "JJonahJackalope",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Guardian Building Detroit MI",
+      "url": "https://commons.wikimedia.org/wiki/File:Guardian_Building_Detroit_MI.jpg",
+      "author": "Andrew Jameson",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Guardian Building, Griswold Street, Detroit, MI",
+      "url": "https://commons.wikimedia.org/wiki/File:Guardian_Building,_Griswold_Street,_Detroit,_MI_-_53026483822.jpg",
+      "author": "Warren LeMay (w_lemay)",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Pinnacles of Guardian Building, One Woodward Avenue, and Hudson's Detroit, 2025-08-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Pinnacles_of_Guardian_Building,_One_Woodward_Avenue,_and_Hudson%27s_Detroit,_Detroit,_Michigan,_2025-08-01.jpg",
+      "author": "Chris Woodrich (Crisco 1492)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit Financial District by night from Windsor, Ontario, 2025-06-28",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Financial_District_by_night_from_Windsor,_Ontario,_2025-06-28.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/det-guardian-building.glb",
+  "source": "generators/det-guardian-building.ts"
+}

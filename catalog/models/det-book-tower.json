@@ -1,0 +1,67 @@
+{
+  "id": "det-book-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "skyscraper",
+    "italian-renaissance",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Book Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Book_Tower.jpg",
+      "author": "Gregory C. Bachleda",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Book Tower 2010",
+      "url": "https://commons.wikimedia.org/wiki/File:Book_Tower_2010.jpg",
+      "author": "Albert duce",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Booktower",
+      "url": "https://commons.wikimedia.org/wiki/File:Booktower.JPG",
+      "author": "Dav (no machine-readable author)",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "Booktower from Washington Boulevard, Detroit",
+      "url": "https://commons.wikimedia.org/wiki/File:Booktower_from_Washington_Boulevard,_detroit.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "BookTower Detroit",
+      "url": "https://commons.wikimedia.org/wiki/File:BookTower_Detroit.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Book Bldg and Tower typical office floor plan",
+      "url": "https://commons.wikimedia.org/wiki/File:Book_Bldg_and_Tower_typical_office_floor_plan.png",
+      "author": "Louis Kamper",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/det-book-tower.glb",
+  "source": "generators/det-book-tower.ts"
+}

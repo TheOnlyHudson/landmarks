@@ -1,0 +1,15 @@
+{
+  "id": "det-old-st-marys",
+  "name": "Old St. Mary's Church",
+  "model": "det-old-st-marys",
+  "place": "detroit-area",
+  "lng": -83.0404415,
+  "lat": 42.3355665,
+  "bearing": 334,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/114189063"
+  ],
+  "wikidata": "Q3585169"
+}

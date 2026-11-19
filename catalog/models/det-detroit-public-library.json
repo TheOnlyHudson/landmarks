@@ -1,0 +1,54 @@
+{
+  "id": "det-detroit-public-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "library",
+    "italian-renaissance"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Detroit Public Library Main Branch January 2015",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Public_Library_Main_Branch_January_2015.jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit Library Main Branch - IMG 8924",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Library_Main_Branch_-_IMG_8924.JPG",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "Detroit December 2021 03 (Detroit Public Library)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_December_2021_03_(Detroit_Public_Library).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Main public library building - Detroit",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_public_library_building_-_Detroit_LCCN2014647618.jpg",
+      "author": "Library of Congress",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/det-detroit-public-library.glb",
+  "source": "generators/det-detroit-public-library.ts"
+}

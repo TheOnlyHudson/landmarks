@@ -1,0 +1,15 @@
+{
+  "id": "det-ally-detroit-center",
+  "name": "Ally Detroit Center",
+  "model": "det-ally-detroit-center",
+  "place": "detroit-area",
+  "lng": -83.044935,
+  "lat": 42.3300648,
+  "bearing": 329.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/30260210"
+  ],
+  "wikidata": "Q3124927"
+}

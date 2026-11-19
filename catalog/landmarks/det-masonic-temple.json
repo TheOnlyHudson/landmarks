@@ -1,0 +1,15 @@
+{
+  "id": "det-masonic-temple",
+  "name": "Detroit Masonic Temple",
+  "model": "det-masonic-temple",
+  "place": "detroit-area",
+  "lng": -83.0601393,
+  "lat": 42.3417379,
+  "bearing": 336.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/68995397"
+  ],
+  "wikidata": "Q1907270"
+}

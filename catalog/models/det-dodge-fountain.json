@@ -1,0 +1,55 @@
+{
+  "id": "det-dodge-fountain",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "fountain",
+  "tags": [
+    "public-art",
+    "modernist",
+    "stainless-steel",
+    "memorial"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Dodge Fountain in Hart Plaza - front.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dodge_Fountain_in_Hart_Plaza_-_front.jpg",
+      "author": "Al R",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Dodge Fountain in Hart Plaza in the evening with lights.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dodge_Fountain_in_Hart_Plaza_in_the_evening_with_lights.jpg",
+      "author": "Al R",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Horace E. Dodge and Son Memorial Fountain, Hart Plaza",
+      "url": "https://www.flickr.com/photos/75683070@N00/14180768706",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Noguchi Dodge fountain.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Noguchi_Dodge_fountain.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/det-dodge-fountain.glb",
+  "source": "generators/det-dodge-fountain.ts"
+}

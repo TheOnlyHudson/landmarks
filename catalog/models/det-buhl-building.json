@@ -1,0 +1,60 @@
+{
+  "id": "det-buhl-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "skyscraper",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "BuhlBuildingDetroitfromWoodward",
+      "url": "https://commons.wikimedia.org/wiki/File:BuhlBuildingDetroitfromWoodward.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Buhl Building",
+      "url": "https://commons.wikimedia.org/wiki/File:Buhl_Building.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Buhl Building (Detroit Publishing Company)",
+      "url": "https://commons.wikimedia.org/wiki/File:BuhlBuilding1920.jpg",
+      "author": "Detroit Publishing Company",
+      "license": "Public domain"
+    },
+    {
+      "title": "Buhl building",
+      "url": "https://commons.wikimedia.org/wiki/File:Buhl_building_(8543641706).jpg",
+      "author": "ellenm1",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Detroit Financial District by night from Windsor, Ontario, 2025-06-28",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Financial_District_by_night_from_Windsor,_Ontario,_2025-06-28.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/det-buhl-building.glb",
+  "source": "generators/det-buhl-building.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "det-shrine-little-flower",
+  "name": "National Shrine of the Little Flower Basilica",
+  "model": "det-shrine-little-flower",
+  "place": "detroit-area",
+  "lng": -83.1708328,
+  "lat": 42.504142,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/17370785"
+  ],
+  "wikidata": "Q6978446"
+}

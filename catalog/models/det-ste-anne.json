@@ -1,0 +1,79 @@
+{
+  "id": "det-ste-anne",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "basilica",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Basilica of Sainte Anne de Détroit 2025a",
+      "url": "https://commons.wikimedia.org/wiki/File:Basilica_of_Sainte_Anne_de_D%C3%A9troit_2025a.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Basilica of Sainte Anne de Détroit 2025b",
+      "url": "https://commons.wikimedia.org/wiki/File:Basilica_of_Sainte_Anne_de_D%C3%A9troit_2025b.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Basilica of Sainte Anne de Détroit 2025c",
+      "url": "https://commons.wikimedia.org/wiki/File:Basilica_of_Sainte_Anne_de_D%C3%A9troit_2025c.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sainte Anne de Detroit Catholic Church (Detroit, MI) - exterior",
+      "url": "https://commons.wikimedia.org/wiki/File:Sainte_Anne_de_Detroit_Catholic_Church_(Detroit,_MI)_-_exterior.jpg",
+      "author": "Nheyob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Sainte Anne de Detroit Catholic Church (Detroit, MI) - exterior, side",
+      "url": "https://commons.wikimedia.org/wiki/File:Sainte_Anne_de_Detroit_Catholic_Church_(Detroit,_MI)_-_exterior,_side.jpg",
+      "author": "Nheyob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Ste Anne de Detroit",
+      "url": "https://commons.wikimedia.org/wiki/File:Ste_Anne_de_Detroit.jpg",
+      "author": "Andrew Jameson",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Detroit st anne",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_st_anne.jpg",
+      "author": "Mike Russell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "St Anne's Church",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Anne%27s_Church.jpg",
+      "author": "David Silverman",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/det-ste-anne.glb",
+  "source": "generators/det-ste-anne.ts"
+}

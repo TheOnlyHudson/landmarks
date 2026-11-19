@@ -1,0 +1,60 @@
+{
+  "id": "det-joe-louis-fist",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "memorial",
+    "public-art",
+    "bronze"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Monument to Joe Louis, Detroit, Michigan",
+      "url": "https://www.flickr.com/photos/75683070@N00/14180763926",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Joe Louis Fist",
+      "url": "https://www.flickr.com/photos/152135786@N05/49878482137",
+      "author": "Detroit Golfer",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Fist of a Champion – Detroit's Monument to Joe Louis - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fist_of_a_Champion_%E2%80%93_Detroit%27s_Monument_to_Joe_Louis_-_panoramio.jpg",
+      "author": "Walter Powers",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Monument to Joe Louis--.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monument_to_Joe_Louis--.jpg",
+      "author": "Flavinista",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Transcending Wheel ^ Joe Louis's Fist Statue - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Transcending_Wheel_%5E_Joe_Louis%27s_Fist_Statue_-_panoramio.jpg",
+      "author": "ohcuma.chengi",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/det-joe-louis-fist.glb",
+  "source": "generators/det-joe-louis-fist.ts"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "det-cadillac-place",
+  "name": "Cadillac Place",
+  "model": "det-cadillac-place",
+  "place": "detroit-area",
+  "lng": -83.0754166,
+  "lat": 42.3687983,
+  "bearing": 333,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/545743265",
+    "way/1415650352",
+    "way/760809332",
+    "way/760809333",
+    "way/760809334",
+    "way/760809335",
+    "way/760809336",
+    "way/760809338",
+    "way/760809339",
+    "way/760809341"
+  ],
+  "wikidata": "Q525790"
+}

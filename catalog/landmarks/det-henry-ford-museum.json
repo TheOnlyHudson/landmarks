@@ -1,0 +1,25 @@
+{
+  "id": "det-henry-ford-museum",
+  "name": "Henry Ford Museum of American Innovation",
+  "model": "det-henry-ford-museum",
+  "place": "detroit-area",
+  "lng": -83.2341922,
+  "lat": 42.3035938,
+  "bearing": 121.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3521242",
+  "replaces": [
+    "way/101385278",
+    "way/100012155",
+    "way/101384723",
+    "way/101384761",
+    "way/101384731",
+    "way/100012143",
+    "way/101384736",
+    "way/101384732",
+    "way/312704954",
+    "way/58323558",
+    "way/101386875"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "det-fox-theatre",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "theatre",
+    "art-deco",
+    "sign"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fox Theatre, Detroit",
+      "url": "https://commons.wikimedia.org/wiki/File:Fox_Theatre,_Detroit.jpg",
+      "author": "JJonahJackalope",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit December 2015 13 (Fox Theatre)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_December_2015_13_(Fox_Theatre).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Fox Theatre, Detroit - 20201215",
+      "url": "https://commons.wikimedia.org/wiki/File:Fox_Theatre,_Detroit_-_20201215.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit August 2025 32 (Fox Theatre)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_August_2025_32_(Fox_Theatre).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Fox Detroit marquee night shot",
+      "url": "https://commons.wikimedia.org/wiki/File:Foxdetroitmarqueenightshot2.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/det-fox-theatre.glb",
+  "source": "generators/det-fox-theatre.ts"
+}

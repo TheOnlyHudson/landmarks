@@ -1,0 +1,15 @@
+{
+  "id": "det-fox-theatre",
+  "name": "Fox Theatre",
+  "model": "det-fox-theatre",
+  "place": "detroit-area",
+  "lng": -83.0526856,
+  "lat": 42.3383292,
+  "bearing": 331.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/69134132"
+  ],
+  "wikidata": "Q3080199"
+}

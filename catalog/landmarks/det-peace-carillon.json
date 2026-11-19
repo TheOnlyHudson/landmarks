@@ -1,0 +1,16 @@
+{
+  "id": "det-peace-carillon",
+  "name": "Nancy Brown Peace Carillon",
+  "model": "det-peace-carillon",
+  "place": "detroit-area",
+  "lng": -82.9885053,
+  "lat": 42.3352014,
+  "bearing": 73,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/659605208",
+    "way/659605207",
+    "way/1323641533"
+  ]
+}

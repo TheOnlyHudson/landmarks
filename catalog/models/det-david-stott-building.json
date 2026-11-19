@@ -1,0 +1,49 @@
+{
+  "id": "det-david-stott-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "art-deco",
+    "skyscraper",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "David Stott Building 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:David_Stott_Building_2025.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "David Stott Building, Detroit",
+      "url": "https://commons.wikimedia.org/wiki/File:David_Stott_Building,_Detroit.jpg",
+      "author": "JJonahJackalope",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Stott roof",
+      "url": "https://commons.wikimedia.org/wiki/File:Stottroof.jpg",
+      "author": "JakeSmallz",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/det-david-stott-building.glb",
+  "source": "generators/det-david-stott-building.ts"
+}

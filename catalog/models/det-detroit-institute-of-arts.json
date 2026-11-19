@@ -1,0 +1,54 @@
+{
+  "id": "det-detroit-institute-of-arts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Detroit Institute of Arts From DPL",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Institute_of_Arts_From_DPL.jpg",
+      "author": "Av9",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit Institute of Arts August 2011 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Institute_of_Arts_August_2011_03.jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit Institute of Arts - IMG 8923",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Institute_of_Arts_-_IMG_8923.JPG",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "Detroit Institute of Arts, Detroit, Michigan (night)",
+      "url": "https://www.flickr.com/photos/75683070@N00/14203867784",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/det-detroit-institute-of-arts.glb",
+  "source": "generators/det-detroit-institute-of-arts.ts"
+}

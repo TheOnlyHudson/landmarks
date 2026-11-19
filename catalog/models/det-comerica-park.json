@@ -1,0 +1,65 @@
+{
+  "id": "det-comerica-park",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "baseball",
+    "mlb",
+    "ballpark"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Comerica Park - 2026 (215A6096).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Comerica_Park_-_2026_(215A6096).jpg",
+      "author": "City of Detroit",
+      "license": "Public domain"
+    },
+    {
+      "title": "Comerica-Park-Detroit-MI-Panorama.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Comerica-Park-Detroit-MI-Panorama.jpg",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Comerica Park main entrance.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Comerica_Park_main_entrance.jpg",
+      "author": "WallyTalent",
+      "license": "Public domain"
+    },
+    {
+      "title": "Comerica Park scoreboard from Adams Avenue, Detroit - 20201215.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Comerica_Park_scoreboard_from_Adams_Avenue,_Detroit_-_20201215.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Comerica-park-corner-shot (Unsplash).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Comerica-park-corner-shot_(Unsplash).jpg",
+      "author": "Gary Shear",
+      "license": "CC0"
+    },
+    {
+      "title": "Aerial View of Downtown Detroit - Ford Field and Comerica Park.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Downtown_Detroit_-_Ford_Field_and_Comerica_Park.jpg",
+      "author": "Barbara Eckstein",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/det-comerica-park.glb",
+  "source": "generators/det-comerica-park.ts"
+}

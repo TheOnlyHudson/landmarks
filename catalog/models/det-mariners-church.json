@@ -1,0 +1,60 @@
+{
+  "id": "det-mariners-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Mariners Church, Jefferson Avenue, Detroit, MI Sept. 2024 04",
+      "url": "https://commons.wikimedia.org/wiki/File:Mariners_Church,_Jefferson_Avenue,_Detroit,_MI_Sept._2024_04.jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Mariners Church, Jefferson Avenue, Detroit, MI Sept. 2024 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Mariners_Church,_Jefferson_Avenue,_Detroit,_MI_Sept._2024_03.jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Marinerschurch",
+      "url": "https://commons.wikimedia.org/wiki/File:Marinerschurch.JPG",
+      "author": "HistoryGeek1967",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Mariners Church, Jefferson Avenue, Detroit, MI",
+      "url": "https://commons.wikimedia.org/wiki/File:Mariners_Church,_Jefferson_Avenue,_Detroit,_MI_-_53016834217.jpg",
+      "author": "w_lemay",
+      "license": "CC0"
+    },
+    {
+      "title": "Old Mariner Church, Detroit",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Mariner_Church,_Detroit.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/det-mariners-church.glb",
+  "source": "generators/det-mariners-church.ts"
+}

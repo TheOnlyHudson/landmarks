@@ -1,0 +1,14 @@
+{
+  "id": "det-detroit-public-library",
+  "name": "Detroit Public Library",
+  "model": "det-detroit-public-library",
+  "place": "detroit-area",
+  "lng": -83.066968,
+  "lat": 42.3584794,
+  "bearing": 63.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/58826126"
+  ]
+}

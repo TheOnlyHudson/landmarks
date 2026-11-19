@@ -1,0 +1,62 @@
+{
+  "id": "det-wayne-county-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "courthouse",
+    "government",
+    "beaux-arts",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Detroit December 2019 02 (Wayne County Building).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_December_2019_02_(Wayne_County_Building).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Wayne County Courthouse — Detroit, Michigan.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wayne_County_Courthouse_%E2%80%94_Detroit,_Michigan.jpg",
+      "author": "Christopher L. Riley",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Wayne County Building from the northwest, 2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wayne_County_Building_from_the_northwest,_2017.jpg",
+      "author": "bryan...",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Wayne County Building, Randolph Street, Detroit, MI.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wayne_County_Building,_Randolph_Street,_Detroit,_MI.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Wayne County Building at night, Renaissance Center in background, 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wayne_County_Building_at_night,_Renaissance_Center_in_background,_2015.jpg",
+      "author": "Joshuay04",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/det-wayne-county-building.glb",
+  "source": "generators/det-wayne-county-building.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "det-sweetest-heart-of-mary",
+  "name": "Sweetest Heart of Mary Church",
+  "model": "det-sweetest-heart-of-mary",
+  "place": "detroit-area",
+  "lng": -83.0477721,
+  "lat": 42.3582724,
+  "bearing": 64.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/330298873"
+  ],
+  "wikidata": "Q7655678"
+}

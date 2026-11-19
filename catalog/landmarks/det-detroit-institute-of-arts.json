@@ -1,0 +1,15 @@
+{
+  "id": "det-detroit-institute-of-arts",
+  "name": "Detroit Institute of Arts",
+  "model": "det-detroit-institute-of-arts",
+  "place": "detroit-area",
+  "lng": -83.0643873,
+  "lat": 42.3594142,
+  "bearing": 63.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/1553447"
+  ],
+  "wikidata": "Q1201549"
+}

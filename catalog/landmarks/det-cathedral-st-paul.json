@@ -1,0 +1,15 @@
+{
+  "id": "det-cathedral-st-paul",
+  "name": "Cathedral Church of St. Paul",
+  "model": "det-cathedral-st-paul",
+  "place": "detroit-area",
+  "lng": -83.0632739,
+  "lat": 42.356237,
+  "bearing": 64,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/68935841"
+  ],
+  "wikidata": "Q5052217"
+}

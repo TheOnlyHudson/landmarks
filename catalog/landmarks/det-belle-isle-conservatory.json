@@ -1,0 +1,23 @@
+{
+  "id": "det-belle-isle-conservatory",
+  "name": "Anna Scripps Whitcomb Conservatory",
+  "model": "det-belle-isle-conservatory",
+  "place": "detroit-area",
+  "lng": -82.9855511,
+  "lat": 42.336255,
+  "bearing": 342,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/107310050",
+    "way/107227748",
+    "way/107227691",
+    "way/107227734",
+    "way/107227729",
+    "way/107227718",
+    "way/660572367",
+    "way/660572368",
+    "way/660572369"
+  ],
+  "wikidata": "Q4883646"
+}

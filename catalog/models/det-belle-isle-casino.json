@@ -1,0 +1,54 @@
+{
+  "id": "det-belle-isle-casino",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "pavilion",
+    "park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Detroit Belle Isle Casino front entrance",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Belle_Isle_Casino_front_entrance.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Detroit old Belle Isle Casino facing Detroit River",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_old_Belle_Isle_Casino_facing_Detroit_River.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Belle Isle Casino",
+      "url": "https://commons.wikimedia.org/wiki/File:Belle_Isle_Casino.jpg",
+      "author": "Drklinkert",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Belleisledetroit",
+      "url": "https://commons.wikimedia.org/wiki/File:Belleisledetroit.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/det-belle-isle-casino.glb",
+  "source": "generators/det-belle-isle-casino.ts"
+}
