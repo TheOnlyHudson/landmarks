@@ -13,13 +13,18 @@
  * mark is a simplified geometric rendition of the university's monogram.
  * https://commons.wikimedia.org/wiki/File:American_University_logo.svg
  * https://virtualglobetrotting.com/map/american-university/
- * Placement, paint colors and facade openings are approximate.
+ * Re-surveyed rooftop housings at 17.9–18.1 m, a two-stage eastern riser
+ * and a 17.6 m equipment group above the secondary roof. The central housing
+ * behind the university mark has been suppressed for legibility.
+ * A seven-step approach and campus sidewalk meet the north sports frontage:
+ * https://www.openstreetmap.org/way/38094383
+ * Placement, paint colors, entrance heights and facade openings are approximate.
  * No openly licensed current close-range exterior photographs established.
  */
 import { Shape } from 'three'
 import { Part } from './mesh'
 import { PALETTE, finish, type Swatch } from './palette'
-import { ccw, capRing, flatShape, outward, prism, rect, finishGlb, writeModel, type XY } from './sea-tacoma-union-station'
+import { ccw, capRing, extrudeShape, flatShape, outward, prism, rect, finishGlb, writeModel, type XY } from './sea-tacoma-union-station'
 
 /** Single-sided grouped glazing and common flat-roof details. Local y points north. */
 export class SportsShell {
@@ -44,6 +49,35 @@ export class SportsShell {
       const middle = (i + 0.5) * bay
       flatShape(part, face, rect(middle - bay * fill / 2, sill, middle + bay * fill / 2, head), 0.035)
     }
+  }
+
+  /** Framed rectangles on vertical wall segments, specified in metres from endpoint a. */
+  face(part: Part, a: XY, b: XY, start: number, end: number, bottom: number, top: number, depth = 0.055) {
+    const plane = { o: [a[0], a[1], 0] as [number, number, number], n: outward(a, b) }
+    const panel = rect(start, bottom, end, top)
+    if (depth <= 0.07) flatShape(part, plane, panel, depth)
+    else extrudeShape(part, plane, panel, 0.02, depth)
+  }
+
+  /** Low-slope survey roof, with fascia thickness proportionate to a small building. */
+  utilityRoof(outline: XY[], corners: number[], fascia: number) {
+    const plinth = 0.15
+    prism(this.trim, null, outline, 0, plinth)
+    const roofVertex = (i: number, dz = 0): [number, number, number] =>
+      [outline[i][0], outline[i][1], corners[i] + dz]
+    for (let i = 0; i < outline.length; i++) {
+      const next = (i + 1) % outline.length
+      this.wall.quad([outline[i][0], outline[i][1], plinth], [outline[next][0], outline[next][1], plinth],
+        roofVertex(next, -fascia), roofVertex(i, -fascia))
+      this.trim.quad(roofVertex(i, -fascia), roofVertex(next, -fascia), roofVertex(next), roofVertex(i))
+    }
+    this.roof.quad(roofVertex(0), roofVertex(1), roofVertex(2), roofVertex(3))
+  }
+
+  /** A non-illuminated service entrance; dimensions and position are approximations. */
+  serviceDoor(a: XY, b: XY, center: number, width: number, height: number) {
+    this.face(this.trim, a, b, center - width / 2 - 0.075, center + width / 2 + 0.075, 0.16, height + 0.08)
+    this.face(this.accent, a, b, center - width / 2, center + width / 2, 0.17, height, 0.07)
   }
 
   solar(x: number, y: number, columns: number, rows: number, z: number, width: number, depth: number) {
@@ -172,10 +206,26 @@ if (import.meta.main) {
     .bezierCurveTo(754, 818, 772, 761, 773, 683)
     .lineTo(778, 500)
     .bezierCurveTo(780, 427, 790, 403, 826, 387))
-  for (const y of [-15.8, 19]) {
-    prism(arena.roof, arena.trim, rect(-36, y, -25, y + 2.2), 15.8, 17.75)
-    prism(arena.roof, arena.trim, rect(-17, y, -6, y + 2.2), 15.8, 17.75)
+  for (const [x, y, width, depth, z] of [
+    [-36.8, -17.4, 11.8, 3.4, 17.97], [-21, -17.4, 11.1, 4.1, 18.05],
+    [-36.7, 17.3, 11.5, 4.5, 17.97], [-21.8, 17.6, 11.7, 4.3, 18.06],
+    [34.3, -24.7, 7.3, 3.5, 17.6], [28.4, -30.6, 3.3, 6.2, 18.0],
+  ]) {
+    const base = x < 0 ? 15.8 : 14.1
+    prism(arena.roof, arena.trim, rect(x, y, x + width, y + depth), base, z)
+    arena.face(arena.roof, [x, y], [x + width, y], 0.3, width - 0.3, z - 0.36, z - 0.23)
   }
+  // The east service core descends in three steps to the lower wing.
+  arena.mass(rect(44.4, 13.4, 52.5, 19.0), 27.4, 27.8)
+  arena.bays([40, -3.5], [47, -3.5], 23.3, 28.6, 3.5, 0.65)
+  // Wide paired openings mark the north arrival at the head of the mapped steps.
+  const northA = footprint[13], northB = footprint[14]
+  arena.face(arena.roof, northA, northB, 24.5, 35.0, 1.0, 4.5)
+  for (const start of [25.05, 27.45, 29.85, 32.25]) {
+    arena.face(arena.glazing, northA, northB, start, start + 2.12, 1.12, 3.95, 0.07)
+  }
+  arena.face(arena.trim, northA, northB, 24.2, 35.3, 4.30, 4.62, 0.58)
+
   arena.bays(footprint[1], footprint[2], 7.4, 10.4, 6.0, 0.60)
   arena.bays(footprint[11], footprint[12], 4.2, 8.0, 5.8, 0.57)
   arena.bays(footprint[8], footprint[9], 3.0, 8.8, 4.7, 0.74)
