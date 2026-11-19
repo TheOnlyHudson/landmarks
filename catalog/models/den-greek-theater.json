@@ -1,0 +1,49 @@
+{
+  "id": "den-greek-theater",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "civic",
+    "amphitheatre",
+    "colonnade",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Greek Theater - Civic Center Park, Denver - DSC01202.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Greek_Theater_-_Civic_Center_Park,_Denver_-_DSC01202.jpg",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Greek Theater - Civic Center Park, Denver - DSC01216.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Greek_Theater_-_Civic_Center_Park,_Denver_-_DSC01216.jpg",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Colonade of Civic Benefactors (HABS COLO,16-DENV,7-2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Colonade_of_Civic_Benefactors,which_is_the_southern_boundary_of_civic_center_-_City_and_County_Building,_Civic_Center,_Denver,_Denver_County,_CO_HABS_COLO,16-DENV,7-2.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/den-greek-theater.glb",
+  "source": "generators/den-greek-theater.ts"
+}
