@@ -1,0 +1,25 @@
+{
+  "id": "berlin-reichstag",
+  "name": "Reichstag building",
+  "model": "berlin-reichstag",
+  "place": "berlin",
+  "lng": 13.3761008,
+  "lat": 52.5185955,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q151897",
+  "replaces": [
+    "relation/2201742",
+    "relation/8990774",
+    "way/120824755",
+    "way/120824756",
+    "way/120824765",
+    "way/120824767",
+    "way/120824753",
+    "way/120824757",
+    "way/120824764",
+    "way/120824768",
+    "way/120824761"
+  ]
+}
