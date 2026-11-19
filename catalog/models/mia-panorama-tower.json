@@ -1,0 +1,55 @@
+{
+  "id": "mia-panorama-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "residential",
+    "hotel",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Panorama Tower (60062).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Panorama_Tower_(60062).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Panorama Tower 2020.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Panorama_Tower_2020.jpg",
+      "author": "Chris6d",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Panorama Tower Miami April 2018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Panorama_Tower_Miami_April_2018.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Panorama Tower at night (60043).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Panorama_Tower_at_night_(60043).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/mia-panorama-tower.glb",
+  "source": "generators/mia-panorama-tower.ts"
+}
