@@ -1,0 +1,25 @@
+{
+  "id": "cle-key-tower",
+  "name": "Key Tower",
+  "model": "cle-key-tower",
+  "place": "cleveland-area",
+  "lng": -81.693815,
+  "lat": 41.501018,
+  "bearing": 326.2,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q684027",
+  "replaces": [
+    "way/122844679",
+    "way/1521965452",
+    "way/1521958776",
+    "way/1521958775",
+    "way/333475670",
+    "way/1521958005",
+    "way/1521958777",
+    "way/1521965448",
+    "way/1521965449",
+    "way/1521965450",
+    "way/1521965451"
+  ]
+}
