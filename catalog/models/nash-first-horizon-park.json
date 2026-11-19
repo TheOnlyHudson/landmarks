@@ -1,0 +1,73 @@
+{
+  "id": "nash-first-horizon-park",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "baseball",
+    "ballpark",
+    "scoreboard"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "First Tennessee Park, April 17, 2015 - 13",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Tennessee_Park,_April_17,_2015_-_13.jpg",
+      "author": "NatureBoyMD",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "First Horizon Park August 30, 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Horizon_Park_August_30,_2022.jpg",
+      "author": "NatureBoyMD",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "First Tennessee Park, September 3, 2015 - 1",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Tennessee_Park,_September_3,_2015_-_1.JPG",
+      "author": "NatureBoyMD",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "First Horizon Park May 3, 2022 - 1",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Horizon_Park_May_3,_2022_-_1.jpg",
+      "author": "NatureBoyMD",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "First Horizon Park, April 5, 2022 - 1",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Horizon_Park,_April_5,_2022_-_1.jpg",
+      "author": "NatureBoyMD",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "First Horizon Park, July 27, 2021 - 1",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Horizon_Park,_July_27,_2021_-_1.jpg",
+      "author": "NatureBoyMD",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "First Horizon Park September 13, 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Horizon_Park_September_13,_2022.jpg",
+      "author": "NatureBoyMD",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-first-horizon-park.glb",
+  "source": "generators/nash-first-horizon-park.ts"
+}
