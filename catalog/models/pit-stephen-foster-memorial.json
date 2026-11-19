@@ -1,0 +1,74 @@
+{
+  "id": "pit-stephen-foster-memorial",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "university",
+    "theatre",
+    "museum",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Stephen Foster Memorial, Oakland, Pittsburgh, 2026-10-23-4",
+      "url": "https://commons.wikimedia.org/wiki/File:Stephen_Foster_Memorial,_Oakland,_Pittsburgh,_2026-10-23-4.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Stephen Foster Memorial, Oakland, Pittsburgh, 2026-10-23-3",
+      "url": "https://commons.wikimedia.org/wiki/File:Stephen_Foster_Memorial,_Oakland,_Pittsburgh,_2026-10-23-3.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Stephen Foster Memorial, Oakland, Pittsburgh, 2021-11-09, 04",
+      "url": "https://commons.wikimedia.org/wiki/File:Stephen_Foster_Memorial,_Oakland,_Pittsburgh,_2021-11-09,_04.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Stephen Foster Memorial, Oakland, Pittsburgh, 2021-11-09, 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Stephen_Foster_Memorial,_Oakland,_Pittsburgh,_2021-11-09,_02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Stephen Foster Memorial, Oakland, Pittsburgh, 2021-11-09, 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Stephen_Foster_Memorial,_Oakland,_Pittsburgh,_2021-11-09,_03.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "StephenFosterRear",
+      "url": "https://commons.wikimedia.org/wiki/File:StephenFosterRear.jpg",
+      "author": "Crazypaco",
+      "license": "CC-BY-2.5"
+    },
+    {
+      "title": "PittStephenFosterMemorial front",
+      "url": "https://commons.wikimedia.org/wiki/File:PittStephenFosterMemorial_front.jpg",
+      "author": "Christopher Lancaster",
+      "license": "CC-BY-SA-2.0"
+    }
+  ],
+  "file": "models/pit-stephen-foster-memorial.glb",
+  "source": "generators/pit-stephen-foster-memorial.ts"
+}
