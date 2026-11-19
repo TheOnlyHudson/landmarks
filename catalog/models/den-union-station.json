@@ -1,0 +1,122 @@
+{
+  "id": "den-union-station",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "train-station",
+    "beaux-arts",
+    "historic",
+    "neon-sign",
+    "canopy"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Main Facade of Denver Union Station, December 2014.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_Facade_of_Denver_Union_Station,_December_2014.jpg",
+      "author": "Isaac Kim",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Union Station and trainshed, October 2018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Union_Station_and_trainshed,_October_2018.jpg",
+      "author": "Charles Fulton",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Denver Union Station Train Hall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Union_Station_Train_Hall.jpg",
+      "author": "Isaac Kim",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Denver Union Station Panorama, July 2014.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Union_Station_Panorama,_July_2014.jpg",
+      "author": "Isaac Kim",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Travel by Train (Unsplash).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Travel_by_Train_(Unsplash).jpg",
+      "author": "Andrew Preble apreble",
+      "license": "CC0"
+    },
+    {
+      "title": "Denver Union Station at dawn.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Union_Station_at_dawn.jpg",
+      "author": "Kcorless",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver's Union Station.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver%27s_Union_Station.jpg",
+      "author": "H. Michael Miley",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Union Station - Denver, CO (47572332501).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Station_-_Denver,_CO_(47572332501).jpg",
+      "author": "Melissa Johnson",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Denver Union Sta(45) - 54486678662.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Union_Sta(45)_-_54486678662.jpg",
+      "author": "Michael Stokes",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "2015-10-10 13-47-19 USA Denver P JH - 53385032733.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2015-10-10_13-47-19_USA_Denver_P_JH_-_53385032733.jpg",
+      "author": "Jan Helebrant",
+      "license": "CC0"
+    },
+    {
+      "title": "Railroad Tracks Denver Union Station.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Railroad_Tracks_Denver_Union_Station.jpg",
+      "author": "Keybarbara",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver, Colorado (2025) - 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver,_Colorado_(2025)_-_03.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "South wing PC230154.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:South_wing_PC230154.JPG",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "USGS NAIP orthophoto (Denver Union Station)",
+      "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+      "author": "USDA FSA / USGS",
+      "license": "Public domain"
+    },
+    {
+      "title": "USGS 3DEP lidar CO_DRCOG_2_2020",
+      "url": "https://www.usgs.gov/3d-elevation-program",
+      "author": "USGS",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/den-union-station.glb",
+  "source": "generators/den-union-station.ts"
+}
