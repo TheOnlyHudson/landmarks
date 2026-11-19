@@ -1,0 +1,18 @@
+{
+  "id": "nola-smoothie-king-center",
+  "name": "Smoothie King Center",
+  "model": "nola-smoothie-king-center",
+  "place": "new-orleans-area",
+  "lng": -90.0819623,
+  "lat": 29.9490537,
+  "bearing": 39.29,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/328669125",
+    "way/328774581",
+    "way/328669101",
+    "way/1199702301"
+  ],
+  "wikidata": "Q1515840"
+}
