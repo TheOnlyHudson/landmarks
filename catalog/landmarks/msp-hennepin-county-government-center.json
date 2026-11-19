@@ -1,0 +1,16 @@
+{
+  "id": "msp-hennepin-county-government-center",
+  "name": "Hennepin County Government Center",
+  "model": "msp-hennepin-county-government-center",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.2666104,
+  "lat": 44.9758171,
+  "bearing": 30.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q5714825",
+  "replaces": [
+    "way/27518018",
+    "way/1512791636"
+  ]
+}

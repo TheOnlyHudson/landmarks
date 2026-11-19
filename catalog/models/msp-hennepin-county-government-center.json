@@ -1,0 +1,60 @@
+{
+  "id": "msp-hennepin-county-government-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "civic",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hennepin County Government Center 2018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hennepin_County_Government_Center_2018.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis April 2025 12 (Hennepin County Government Center).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_12_(Hennepin_County_Government_Center).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hennepin County Government Center 5.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hennepin_County_Government_Center_5.jpg",
+      "author": "AlexiusHoratius",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Hennepin County Government Center, Minneapolis (23358338505).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hennepin_County_Government_Center,_Minneapolis_(23358338505).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Hennepin County Government Center",
+      "url": "https://www.flickr.com/photos/98623843@N05/15652959561",
+      "author": "Joe Passe",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/msp-hennepin-county-government-center.glb",
+  "source": "generators/msp-hennepin-county-government-center.ts"
+}
