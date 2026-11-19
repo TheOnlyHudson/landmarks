@@ -1,0 +1,91 @@
+{
+  "id": "det-michigan-central",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "train-station",
+    "beaux-arts",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Michigan Central Station 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:Michigan_Central_Station_2026.jpg",
+      "author": "WMrapids",
+      "license": "CC0"
+    },
+    {
+      "title": "Detroit December 2025 06 (Michigan Central Station)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_December_2025_06_(Michigan_Central_Station).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit August 2025 23 (Michigan Central Station)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_August_2025_23_(Michigan_Central_Station).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "MichiganCentral2024",
+      "url": "https://commons.wikimedia.org/wiki/File:MichiganCentral2024.jpg",
+      "author": "Coreyfein01",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Restored Michigan Central Station",
+      "url": "https://commons.wikimedia.org/wiki/File:Restored_Michigan_Central_Station.jpg",
+      "author": "PunkToad",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Michigan Central Train Station Exterior 2010",
+      "url": "https://commons.wikimedia.org/wiki/File:Michigan_Central_Train_Station_Exterior_2010.jpg",
+      "author": "Albert duce",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Michigan Central 2015",
+      "url": "https://commons.wikimedia.org/wiki/File:Michigan_Central_2015.jpg",
+      "author": "St8fan",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Michigan Central Station (Flickr 21532839558)",
+      "url": "https://www.flickr.com/photos/75683070@N00/21532839558",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Michigan Central Station (Flickr 21533842969)",
+      "url": "https://www.flickr.com/photos/75683070@N00/21533842969",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Michigan Central Station (Flickr 21097986224)",
+      "url": "https://www.flickr.com/photos/75683070@N00/21097986224",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/det-michigan-central.glb",
+  "source": "generators/det-michigan-central.ts"
+}
