@@ -1,0 +1,55 @@
+{
+  "id": "mia-coral-gables-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "city-hall",
+    "clock-tower",
+    "mediterranean-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Coral Gables City Hall (30475918076)",
+      "url": "https://commons.wikimedia.org/wiki/File:Coral_Gables_City_Hall_(30475918076).jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Coral Gables FL city hall02",
+      "url": "https://commons.wikimedia.org/wiki/File:Coral_Gables_FL_city_hall02.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Coral Gables FL city hall01",
+      "url": "https://commons.wikimedia.org/wiki/File:Coral_Gables_FL_city_hall01.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Coral Gables City Hall at night",
+      "url": "https://commons.wikimedia.org/wiki/File:Coral_Gables_City_Hall_at_night.jpg",
+      "author": "Jesper Rautell Balle",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/mia-coral-gables-city-hall.glb",
+  "source": "generators/mia-coral-gables-city-hall.ts"
+}

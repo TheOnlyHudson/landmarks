@@ -1,0 +1,16 @@
+{
+  "id": "mia-coral-gables-city-hall",
+  "name": "Coral Gables City Hall",
+  "model": "mia-coral-gables-city-hall",
+  "place": "miami-area",
+  "lng": -80.2635687,
+  "lat": 25.7492372,
+  "bearing": 41,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5169459",
+  "replaces": [
+    "way/416557593",
+    "way/450842966"
+  ]
+}
