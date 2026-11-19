@@ -1,0 +1,89 @@
+{
+  "id": "nola-st-louis-cemetery-1",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landscape",
+  "tags": [
+    "cemetery",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Basin Street New Orleans Lake Side April 2017 11",
+      "url": "https://commons.wikimedia.org/wiki/File:Basin_Street_New_Orleans_Lake_Side_April_2017_11.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "StLouis1CemFrontGate",
+      "url": "https://commons.wikimedia.org/wiki/File:StLouis1CemFrontGate.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "StLouis1CemFrontOvenRow",
+      "url": "https://commons.wikimedia.org/wiki/File:StLouis1CemFrontOvenRow.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "St Louis Street, Treme, New Orleans October 2017 06",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Louis_Street,_Treme,_New_Orleans_October_2017_06.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "City of the Dead New Orleans",
+      "url": "https://commons.wikimedia.org/wiki/File:City_of_the_Dead_New_Orleans.jpg",
+      "author": "Bart Everson",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "New Orleans, LA, St Louis Cemetery One, Feb 2011 - 11",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans,_LA,_St_Louis_Cemetery_One,_Feb_2011_-_11.jpg",
+      "author": "JasonParis",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "S Louis Cemetery 1 NOLA 1 Nov 2017 06",
+      "url": "https://commons.wikimedia.org/wiki/File:S_Louis_Cemetery_1_NOLA_1_Nov_2017_06.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Italian society tomb, old St. Louis cem, by George F. Mugnier",
+      "url": "https://commons.wikimedia.org/wiki/File:Italian_society_tomb,_old_St._Louis_cem,_by_George_F._Mugnier.jpg",
+      "author": "George F. Mugnier",
+      "license": "Public domain"
+    },
+    {
+      "title": "StLouisCem1HighBack",
+      "url": "https://commons.wikimedia.org/wiki/File:StLouisCem1HighBack.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "St. Louis Cemetery No 1 New Orleans, 27 August 2022 - 09",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Louis_Cemetery_No_1_New_Orleans,_27_August_2022_-_09.jpg",
+      "author": "Tom Hilton",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nola-st-louis-cemetery-1.glb",
+  "source": "generators/nola-st-louis-cemetery-1.ts"
+}
