@@ -1,0 +1,16 @@
+{
+  "id": "nola-st-patricks-church",
+  "name": "St. Patrick's Church",
+  "model": "nola-st-patricks-church",
+  "place": "new-orleans-area",
+  "lng": -90.069737,
+  "lat": 29.946589,
+  "bearing": 104.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1037213985",
+    "way/768305721",
+    "way/768305722"
+  ]
+}
