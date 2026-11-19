@@ -1,0 +1,61 @@
+{
+  "id": "pit-fifth-avenue-place",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fifth Avenue Place, 2021-07-03",
+      "url": "https://commons.wikimedia.org/wiki/File:Fifth_Avenue_Place,_2021-07-03.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fifth Avenue Place from Liberty Avenue at Commonwealth Place",
+      "url": "https://commons.wikimedia.org/wiki/File:Fifth_Avenue_Place_from_Liberty_Avenue_at_Commonwealth_Place.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Highmark Insurance Headquarters",
+      "url": "https://commons.wikimedia.org/wiki/File:Highmark_Insurance_Headquarters.jpg",
+      "author": "Nyttend",
+      "license": "Public domain"
+    },
+    {
+      "title": "Fifth-Avenue-Place",
+      "url": "https://commons.wikimedia.org/wiki/File:Fifth-Avenue-Place.jpg",
+      "author": "MartinThoma",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Top of Fifth Avenue Place, 2023-09-20, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Top_of_Fifth_Avenue_Place,_2023-09-20,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    }
+  ],
+  "wikidata": "Q3050814",
+  "file": "models/pit-fifth-avenue-place.glb",
+  "source": "generators/pit-fifth-avenue-place.ts"
+}

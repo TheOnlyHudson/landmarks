@@ -1,0 +1,19 @@
+{
+  "id": "pit-fifth-avenue-place",
+  "name": "Fifth Avenue Place",
+  "model": "pit-fifth-avenue-place",
+  "place": "pittsburgh-area",
+  "lng": -80.00339,
+  "lat": 40.442012,
+  "bearing": 341.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/4436575",
+    "way/648621433",
+    "way/648621434",
+    "way/319359371",
+    "way/759021289"
+  ],
+  "wikidata": "Q3050814"
+}
