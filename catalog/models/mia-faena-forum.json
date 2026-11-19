@@ -1,0 +1,60 @@
+{
+  "id": "mia-faena-forum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cultural-center",
+    "contemporary",
+    "oma"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Faena Event Forum (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Faena_Event_Forum_(1).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Faena Event Forum (2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Faena_Event_Forum_(2).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Faena District Miami Beach - Faena Forum Reflecting Pool",
+      "url": "https://commons.wikimedia.org/wiki/File:Faena_District_Miami_Beach_-_Faena_Forum_Reflecting_Pool.jpg",
+      "author": "Daniel Di Palma",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Faena District Miami Beach - Faena Forum Staircase 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Faena_District_Miami_Beach_-_Faena_Forum_Staircase_03.jpg",
+      "author": "Daniel Di Palma",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Miami Beach - 3300 Collins Avenue",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_3300_Collins_Avenue.jpg",
+      "author": "P. Hughes",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/mia-faena-forum.glb",
+  "source": "generators/mia-faena-forum.ts"
+}

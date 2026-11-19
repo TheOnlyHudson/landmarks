@@ -1,0 +1,14 @@
+{
+  "id": "mia-faena-forum",
+  "name": "Faena Forum",
+  "model": "mia-faena-forum",
+  "place": "miami-area",
+  "lng": -80.1241511,
+  "lat": 25.8081753,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/639617563"
+  ]
+}
