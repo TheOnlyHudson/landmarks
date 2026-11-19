@@ -1,0 +1,15 @@
+{
+  "id": "det-mariners-church",
+  "name": "Mariners' Church",
+  "model": "det-mariners-church",
+  "place": "detroit-area",
+  "lng": -83.042041,
+  "lat": 42.3292063,
+  "bearing": 330,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/105530705"
+  ],
+  "wikidata": "Q6764376"
+}
