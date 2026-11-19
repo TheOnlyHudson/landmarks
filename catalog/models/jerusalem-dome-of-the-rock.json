@@ -1,0 +1,75 @@
+{
+  "id": "jerusalem-dome-of-the-rock",
+  "file": "models/jerusalem-dome-of-the-rock.glb",
+  "license": "CC0-1.0",
+  "source": "generators/jerusalem-dome-of-the-rock.ts",
+  "type": "building",
+  "collection": "landmarks",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "tags": [
+    "shrine",
+    "dome",
+    "historic",
+    "islamic-architecture",
+    "unesco-world-heritage"
+  ],
+  "description": "The Dome of the Rock (691-692) on the upper platform of the Temple Mount esplanade: the tiled octagon under its gilded dome, the Dome of the Chain, the small domed shrines and the free-standing arcades at the heads of the platform's stairs. The Western Wall and its plaza, at the lower ground level, are the separate plaza-level model.",
+  "references": [
+    {
+      "title": "Jerusalem-2013(2)-View of the Dome of the Rock & Temple Mount 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013(2)-View_of_the_Dome_of_the_Rock_%26_Temple_Mount_02.jpg",
+      "author": "Godot13",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Dome of the Rock seen from the Mount of Olives (12395649153).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dome_of_the_Rock_seen_from_the_Mount_of_Olives_(12395649153).jpg",
+      "author": "askii",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Dome of the Rock from the North.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dome_of_the_Rock_from_the_North.jpg",
+      "author": "Fjmustak",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Dome of the Rock west.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dome_of_the_Rock_west.jpg",
+      "author": "Yaakov Shoham",
+      "license": "Public domain"
+    },
+    {
+      "title": "Dome of the Rock, South Facade (2008) 06.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dome_of_the_Rock,_South_Facade_(2008)_06.jpg",
+      "author": "Godot13",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Jerusalem-2013(2)-Temple Mount-Dome of the Chain (south exposure).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013(2)-Temple_Mount-Dome_of_the_Chain_(south_exposure).jpg",
+      "author": "Godot13",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Dome of the Rock night view.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Dome_of_the_Rock_night_view.JPG",
+      "author": "Zxc0505",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "reviewStatus": "unreviewed"
+}

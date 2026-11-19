@@ -1,0 +1,56 @@
+{
+  "id": "jerusalem-dome-of-the-rock-plaza",
+  "file": "models/jerusalem-dome-of-the-rock-plaza.glb",
+  "license": "CC0-1.0",
+  "source": "generators/jerusalem-dome-of-the-rock.ts",
+  "type": "monument",
+  "collection": "landmarks",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "tags": [
+    "retaining-wall",
+    "historic",
+    "plaza",
+    "unesco-world-heritage"
+  ],
+  "description": "The plaza level of the site: the prayer section of the Western Wall, the Temple Mount's Herodian retaining wall, 19 m above the plaza, with the low wall at the edge of the prayer area and the covered Mughrabi Bridge ramp up to the Mughrabi Gate.",
+  "references": [
+    {
+      "title": "Western Wall Plaza - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Western_Wall_Plaza_-_panoramio.jpg",
+      "author": "CyberCop",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Western Wall and Dome of the Rock Jerusalem -10 (33400391921).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Western_Wall_and_Dome_of_the_Rock_Jerusalem_-10_(33400391921).jpg",
+      "author": "Gary Bembridge",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Western Wall Plaza (10804490996).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Western_Wall_Plaza_(10804490996).jpg",
+      "author": "Jorge Láscar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Western Wall at night 2022.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Western_Wall_at_night_2022.jpg",
+      "author": "DGtal",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "reviewStatus": "unreviewed"
+}
