@@ -1,6 +1,8 @@
 {
   "id": "nyc-manhattan-bridge",
   "file": "models/nyc-manhattan-bridge.glb",
+  "detail": "models/nyc-manhattan-bridge.detail.glb",
+  "detailZoom": 16,
   "license": "CC0-1.0",
   "author": "Alex Wohlbruck",
   "source": "generators/nyc-manhattan-bridge.ts",
