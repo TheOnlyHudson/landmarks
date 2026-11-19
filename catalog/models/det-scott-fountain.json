@@ -1,0 +1,61 @@
+{
+  "id": "det-scott-fountain",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "fountain",
+  "tags": [
+    "historic",
+    "memorial",
+    "sculpture",
+    "park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "JSMFFULL",
+      "url": "https://commons.wikimedia.org/wiki/File:JSMFFULL.jpg",
+      "author": "Mkrajenke12",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "James Scott Fountain - Detroit Michigan",
+      "url": "https://commons.wikimedia.org/wiki/File:James_Scott_Fountain_-_Detroit_Michigan.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "James Scott statue and fountain - Detroit Michigan",
+      "url": "https://commons.wikimedia.org/wiki/File:James_Scott_statue_and_fountain_-_Detroit_Michigan.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "James Scott Fountain",
+      "url": "https://commons.wikimedia.org/wiki/File:James_Scott_Fountain.jpg",
+      "author": "Drklinkert",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "JSMFLOWERBASIN",
+      "url": "https://commons.wikimedia.org/wiki/File:JSMFLOWERBASIN.jpg",
+      "author": "Mkrajenke12",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/det-scott-fountain.glb",
+  "source": "generators/det-scott-fountain.ts"
+}
