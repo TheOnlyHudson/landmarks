@@ -1,0 +1,15 @@
+{
+  "id": "nola-old-ursuline-convent",
+  "name": "Old Ursuline Convent",
+  "model": "nola-old-ursuline-convent",
+  "place": "new-orleans-area",
+  "lng": -90.060391,
+  "lat": 29.960773,
+  "bearing": 128.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/345252754",
+    "way/345253248"
+  ]
+}
