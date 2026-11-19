@@ -1,0 +1,14 @@
+{
+  "id": "pit-smithfield-united-church",
+  "name": "Smithfield United Church of Christ",
+  "model": "pit-smithfield-united-church",
+  "place": "pittsburgh-area",
+  "lng": -79.9970761,
+  "lat": 40.4419276,
+  "bearing": 296,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/118673961"
+  ]
+}
