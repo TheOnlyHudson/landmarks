@@ -1,0 +1,15 @@
+{
+  "id": "nash-ascend-amphitheater",
+  "name": "Ascend Amphitheater",
+  "model": "nash-ascend-amphitheater",
+  "place": "nashville-area",
+  "lng": -86.771848,
+  "lat": 36.159833,
+  "bearing": 24,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q20708496",
+  "replaces": [
+    "way/591997424"
+  ]
+}
