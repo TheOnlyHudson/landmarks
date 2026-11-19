@@ -1,0 +1,75 @@
+{
+  "id": "pit-rachel-carson-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "suspension-bridge",
+    "self-anchored",
+    "eyebar-chain"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/pit-rachel-carson-bridge.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Rachel Carson Bridge from the north, 2010-06-12",
+      "url": "https://commons.wikimedia.org/wiki/File:Rachel_Carson_Bridge_from_the_north,_2010-06-12.jpg",
+      "author": "Sage Ross",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Rachel Carson Bridge from the south, 2010-06-12",
+      "url": "https://commons.wikimedia.org/wiki/File:Rachel_Carson_Bridge_from_the_south,_2010-06-12.jpg",
+      "author": "Sage Ross",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Rachel Carson Bridge from North Shore Trail, 2010-06-12",
+      "url": "https://commons.wikimedia.org/wiki/File:Rachel_Carson_Bridge_from_North_Shore_Trail,_2010-06-12.jpg",
+      "author": "Sage Ross",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Entrance to the Rachel Carson Bridge, 2024-06-02",
+      "url": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Rachel_Carson_Bridge,_2024-06-02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Rachel Carson Bridge, 2023-06-10, 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Rachel_Carson_Bridge,_2023-06-10,_02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Rachel Carson Bridge Lights (32657554172)",
+      "url": "https://commons.wikimedia.org/wiki/File:Rachel_Carson_Bridge_Lights_(32657554172).jpg",
+      "author": "Nick Amoscato",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Pittsburgh, City of the bridges at night (6369657701)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh,_City_of_the_bridges_at_night_(6369657701).jpg",
+      "author": "daveynin",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/pit-rachel-carson-bridge.glb",
+  "source": "generators/pit-rachel-carson-bridge.ts"
+}
