@@ -1,0 +1,15 @@
+{
+  "id": "pit-regional-enterprise-tower",
+  "name": "Regional Enterprise Tower",
+  "model": "pit-regional-enterprise-tower",
+  "place": "pittsburgh-area",
+  "lng": -79.9967891,
+  "lat": 40.4415118,
+  "bearing": 29.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/289791891"
+  ],
+  "wikidata": "Q7309052"
+}
