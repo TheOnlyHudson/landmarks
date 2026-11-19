@@ -1,0 +1,15 @@
+{
+  "id": "nash-bridgestone-arena",
+  "name": "Bridgestone Arena",
+  "model": "nash-bridgestone-arena",
+  "place": "nashville-area",
+  "lng": -86.778495,
+  "lat": 36.159175,
+  "bearing": 332,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q302869",
+  "replaces": [
+    "way/130905914"
+  ]
+}

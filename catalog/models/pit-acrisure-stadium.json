@@ -1,0 +1,90 @@
+{
+  "id": "pit-acrisure-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "football",
+    "nfl"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Acrisure Stadium with Fort Pitt Bridge in foreground, Pittsburgh, 2024-05-27",
+      "url": "https://commons.wikimedia.org/wiki/File:Acrisure_Stadium_with_Fort_Pitt_Bridge_in_foreground,_Pittsburgh,_2024-05-27.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Acrisure Stadium, 2022-11-01, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Acrisure_Stadium,_2022-11-01,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Acrisure Stadium, 2023-03-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Acrisure_Stadium,_2023-03-01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Acrisure Stadium, North Shore, 2026-10-22",
+      "url": "https://commons.wikimedia.org/wiki/File:Acrisure_Stadium,_North_Shore,_2026-10-22.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Acrisure Stadium 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:Acrisure_Stadium_2024.jpg",
+      "author": "Cramerwiki",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Heinz Field (2005)",
+      "url": "https://commons.wikimedia.org/wiki/File:Heinz_Field_(2005).jpg",
+      "author": "Tom Murphy VII",
+      "license": "Public domain"
+    },
+    {
+      "title": "Heinz Field01",
+      "url": "https://commons.wikimedia.org/wiki/File:Heinz_Field01.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Aerial view of Pittsburgh with a focus on Heinz Field (highsm.58438)",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Pittsburgh,_Pennsylvania,_with_a_focus_on_Heinz_Field,_the_home_statium_of_the_Pittsburgh_Steelers_National_Football_League_team_(highsm.58438).png",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "Heinz Field (14128389727)",
+      "url": "https://commons.wikimedia.org/wiki/File:Heinz_Field_(14128389727).jpg",
+      "author": "Kimon Berlin",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Heinz Field, 2021-07-03",
+      "url": "https://commons.wikimedia.org/wiki/File:Heinz_Field,_2021-07-03.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/pit-acrisure-stadium.glb",
+  "source": "generators/pit-acrisure-stadium.ts"
+}

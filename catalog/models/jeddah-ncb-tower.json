@@ -1,0 +1,44 @@
+{
+  "id": "jeddah-ncb-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "bank",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "National Commercial Bank, Jeddah.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Commercial_Bank,_Jeddah.jpg",
+      "author": "Tahir mq",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "National commercial bank at night.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:National_commercial_bank_at_night.JPG",
+      "author": "Ammar shaker",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/jeddah-ncb-tower.glb",
+  "source": "generators/jeddah-ncb-tower.ts"
+}

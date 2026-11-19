@@ -1,0 +1,66 @@
+{
+  "id": "pit-first-presbyterian-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "First Presbyterian Church of Pittsburgh in 2016.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Presbyterian_Church_of_Pittsburgh_in_2016.jpg",
+      "author": "Dllu",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "First Presbyterian Church rises over Sixth Avenue in Pittsburgh, Pennsylvania.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Presbyterian_Church_rises_over_Sixth_Avenue_in_Pittsburgh,_Pennsylvania.jpg",
+      "author": "Adam W. Ritchey",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "First Presbyterian Church, Pittsburgh, 2015-09-10, 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Presbyterian_Church,_Pittsburgh,_2015-09-10,_02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "First Presbyterian Church of Pittsburgh - IMG 7539.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Presbyterian_Church_of_Pittsburgh_-_IMG_7539.JPG",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "First Presbyterian Church of Pittsburgh - IMG 7534.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Presbyterian_Church_of_Pittsburgh_-_IMG_7534.JPG",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "Rear of Trinity Cathedral and First Presbyterian Church, Pittsburgh, 2023-11-15.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rear_of_Trinity_Cathedral_and_First_Presbyterian_Church,_Pittsburgh,_2023-11-15.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/pit-first-presbyterian-church.glb",
+  "source": "generators/pit-first-presbyterian-church.ts"
+}

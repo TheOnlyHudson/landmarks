@@ -1,0 +1,15 @@
+{
+  "id": "pit-16th-street-bridge",
+  "name": "16th Street Bridge",
+  "model": "pit-16th-street-bridge",
+  "place": "pittsburgh-area",
+  "lng": -79.9906977,
+  "lat": 40.4515078,
+  "bearing": 317.878,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q4552241",
+  "replaces": [
+    "way/663074978"
+  ]
+}

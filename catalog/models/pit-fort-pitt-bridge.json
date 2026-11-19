@@ -1,0 +1,80 @@
+{
+  "id": "pit-fort-pitt-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "tied-arch",
+    "double-deck",
+    "steel"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/pit-fort-pitt-bridge.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fort Pitt Bridge 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Bridge_2025.jpg",
+      "author": "Antony-22",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Fort Pitt Bridge, 2021-05-11, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Bridge,_2021-05-11,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Pitt Bridge, 2021-05-11, 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Bridge,_2021-05-11,_02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Pitt Bridge, 2024-05-27",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Bridge,_2024-05-27.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Pitt Bridge (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Bridge_(1).jpg",
+      "author": "Paul Lowry",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Fort Pitt Bridge P6210246",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Bridge_P6210246.JPG",
+      "author": "Chris Light",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Fort Pitt Bridge and Tunnel Entrance",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Bridge_and_Tunnel_Entrance.jpg",
+      "author": "Jim Kuhn",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Fort Pitt Bridge at night",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Bridge_at_night.jpg",
+      "author": "Paul Lowry",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/pit-fort-pitt-bridge.glb",
+  "source": "generators/pit-fort-pitt-bridge.ts"
+}

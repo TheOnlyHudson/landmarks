@@ -1,0 +1,16 @@
+{
+  "id": "phx-arizona-state-capitol",
+  "name": "Arizona State Capitol",
+  "model": "phx-arizona-state-capitol",
+  "lng": -112.0970127,
+  "lat": 33.4481265,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q670442",
+  "replaces": [
+    "way/30694422",
+    "way/1171874692"
+  ],
+  "place": "phoenix-area"
+}

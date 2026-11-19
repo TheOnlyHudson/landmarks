@@ -1,0 +1,56 @@
+{
+  "id": "nash-belmont-mansion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "house-museum",
+    "italianate",
+    "university",
+    "mansion"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "WTN EVula 097.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:WTN_EVula_097.jpg",
+      "author": "EVula",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "South front from southeast - Belmont (HABS TN-56-14)",
+      "url": "https://commons.wikimedia.org/wiki/File:SOUTH_FRONT_FROM_SOUTHEAST_-_Belmont,_Belmont_Boulevard_and_Wedgewood,_Nashville,_Davidson_County,_TN_HABS_TENN,19-NASH,2-14.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "South elevation - Belmont (HABS, Lester Jones, 1940)",
+      "url": "https://commons.wikimedia.org/wiki/File:Historic_American_Buildings_Survey,_Lester_Jones,_Photographer_August_19,_1940_SOUTH_ELEVATION._-_Belmont,_Belmont_Boulevard_and_Wedgewood,_Nashville,_Davidson_County,_TN_HABS_TENN,19-NASH,2-2.tif",
+      "author": "Lester Jones, Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Belmont Mansion restored.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Belmont_Mansion_restored.jpeg",
+      "author": "Irishjames2909 (English Wikipedia)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nash-belmont-mansion.glb",
+  "source": "generators/nash-belmont-mansion.ts"
+}

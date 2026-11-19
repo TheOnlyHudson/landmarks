@@ -1,0 +1,69 @@
+{
+  "id": "berlin-hauptbahnhof",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "railway-station",
+    "glass-roof",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Berlin Hauptbahnhof Ostseite HDR",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Hauptbahnhof_Ostseite_HDR.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Hauptbahnhof Berlin",
+      "url": "https://commons.wikimedia.org/wiki/File:Hauptbahnhof_Berlin.jpg",
+      "author": "Thomas Wolf, www.foto-tw.de",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Berlin Hauptbahnhof, Südfassade, 160505, ako",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Hauptbahnhof,_S%C3%BCdfassade,_160505,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Berlin Hauptbahnhof November 2013 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Hauptbahnhof_November_2013_02.jpg",
+      "author": "Arild Vågen",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "View of Berlin Hauptbahnhof from Moltkebrücke, Berlin, 2017",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Berlin_Hauptbahnhof_from_Moltkebr%C3%BCcke,_Berlin,_2017.jpg",
+      "author": "DimiTalen",
+      "license": "CC0"
+    },
+    {
+      "title": "Estación Central, Berlín, Alemania, 2016-04-21, DD 43-45 HDR",
+      "url": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_Central,_Berl%C3%ADn,_Alemania,_2016-04-21,_DD_43-45_HDR.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "detail": "models/berlin-hauptbahnhof.detail.glb",
+  "detailZoom": 16,
+  "file": "models/berlin-hauptbahnhof.glb",
+  "source": "generators/berlin-hauptbahnhof.ts"
+}

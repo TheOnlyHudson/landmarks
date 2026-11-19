@@ -1,0 +1,15 @@
+{
+  "id": "nash-war-memorial-building",
+  "name": "War Memorial Building",
+  "model": "nash-war-memorial-building",
+  "place": "nashville-area",
+  "lng": -86.7837531,
+  "lat": 36.1643448,
+  "bearing": 332.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7968470",
+  "replaces": [
+    "relation/1762286"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "marfa-prada-marfa",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "art",
+    "land-art",
+    "installation",
+    "storefront"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "(Valentine, Texas) Prada Marfa.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:(Valentine,_Texas)_Prada_Marfa.jpg",
+      "author": "MarkScottAustinTX",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Prada Marfa Pixabay popmortem.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prada_Marfa_Pixabay_popmortem.jpg",
+      "author": "popmortem",
+      "license": "CC0"
+    },
+    {
+      "title": "2014-07-26 Prada Marfa 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2014-07-26_Prada_Marfa_2.jpg",
+      "author": "Nicolas Henderson",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "2012-10-09 Back of Prada Marfa.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2012-10-09_Back_of_Prada_Marfa.jpg",
+      "author": "daveynin",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "2013-05-17 back of prada marfa.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2013-05-17_back_of_prada_marfa.jpg",
+      "author": "panda brand",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "2015-09-06 Prada Marfa side.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2015-09-06_Prada_Marfa_side.jpg",
+      "author": "MarkScottAustinTX",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "2014-03-28 Prada Marfa twilight.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2014-03-28_Prada_Marfa_twilight.jpg",
+      "author": "Nan Palmero",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Prada Marfa.tiff",
+      "url": "https://commons.wikimedia.org/wiki/File:Prada_Marfa.tiff",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/marfa-prada-marfa.glb",
+  "source": "generators/marfa-prada-marfa.ts"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "nash-downtown-presbyterian",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "historic",
+    "egyptian-revival",
+    "national-historic-landmark"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "FirstPresbyterianChurchNashville.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:FirstPresbyterianChurchNashville.jpg",
+      "author": "Andrew Jameson",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Downtown Presbyterian Church, Church Street and 5th Avenue, Nashville, TN (54385282238)",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Presbyterian_Church,_Church_Street_and_5th_Avenue,_Nashville,_TN_(54385282238).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Downtown Presbyterian Church, Church Street and 5th Avenue, Nashville, TN (54384169627)",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Presbyterian_Church,_Church_Street_and_5th_Avenue,_Nashville,_TN_(54384169627).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "HABS TENN,19-NASH,13 sheet 2 of 2 (first floor plan)",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Presbyterian_Church,_154_Fifth_Avenue,_Nashville,_Davidson_County,_TN_HABS_TENN,19-NASH,13-_(sheet_2_of_2).png",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nash-downtown-presbyterian.glb",
+  "source": "generators/nash-downtown-presbyterian.ts"
+}

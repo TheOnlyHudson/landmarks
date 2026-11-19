@@ -1,0 +1,79 @@
+{
+  "id": "pit-grant-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "art-deco",
+    "historic",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Grant Building, 2021-05-11, 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grant_Building,_2021-05-11,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "Grant Building, 2022-04-21, 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grant_Building,_2022-04-21,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "Grant Building, Pittsburgh, 2014-06-27.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grant_Building,_Pittsburgh,_2014-06-27.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "One Oxford Centre and Grant Building from South Side Slopes, 2022-09-27.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Oxford_Centre_and_Grant_Building_from_South_Side_Slopes,_2022-09-27.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "Grant Building Pittsburgh.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grant_Building_Pittsburgh.jpg",
+      "author": "View_of_Pittsburgh.jpg: Allie Caufield d",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Grant Building 24th to 32nd floor plan.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Grant_Building_24th_to_32nd_floor_plan.png",
+      "author": "Architect: Henry Hornbostel",
+      "license": "Public domain"
+    },
+    {
+      "title": "Grant Building 4th to 16th floor plan.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Grant_Building_4th_to_16th_floor_plan.png",
+      "author": "Architect: Henry Hornbostel",
+      "license": "Public domain"
+    },
+    {
+      "title": "Grant Building at night, Pittsburgh, Pa (61410).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grant_Building_at_night,_Pittsburgh,_Pa_(61410).jpg",
+      "author": "Pub. by The Pittsburgh News Company. \"Ti",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pit-grant-building.glb",
+  "source": "generators/pit-grant-building.ts"
+}

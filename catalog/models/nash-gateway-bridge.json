@@ -1,0 +1,67 @@
+{
+  "id": "nash-gateway-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "arch-bridge",
+    "road-bridge"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/nash-gateway-bridge.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Gateway Bridge, Nashville, TN",
+      "url": "https://commons.wikimedia.org/wiki/File:Gateway_Bridge,Nashville,_TN.jpg",
+      "author": "Brent Moore",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "View of Gateway Bridge in Nashville over Cumberland River",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Gateway_Bridge_in_Nashville_over_Cumberland_River.jpg",
+      "author": "David Kidd",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Korean Veterans Bridge Nashville 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_Veterans_Bridge_Nashville_2022.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Korean War Veterans Memorial Bridge and Ascend Amphitheater",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_War_Veterans_Memorial_Bridge_and_Ascend_Amphitheater.jpg",
+      "author": "Walker Kinsler",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nashville TN 2013-07-20 001",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_TN_2013-07-20_001.jpg",
+      "author": "Thomas R Machnitzki",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Korean Veterans Bridge Nashville 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_Veterans_Bridge_Nashville_2024.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-gateway-bridge.glb",
+  "source": "generators/nash-gateway-bridge.ts"
+}

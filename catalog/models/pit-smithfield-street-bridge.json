@@ -1,0 +1,92 @@
+{
+  "id": "pit-smithfield-street-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "truss-bridge",
+    "lenticular-truss"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/pit-smithfield-street-bridge.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Smithfield Street Bridge, 2023-03-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Smithfield_Street_Bridge,_2023-03-01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Smithfield Street Bridge, 2024-12-15",
+      "url": "https://commons.wikimedia.org/wiki/File:Smithfield_Street_Bridge,_2024-12-15.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Smithfield Street Bridge, 2024-12-15-5",
+      "url": "https://commons.wikimedia.org/wiki/File:Smithfield_Street_Bridge,_2024-12-15-5.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "North portal, Smithfield Street Bridge, 2021-05-11, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:North_portal,_Smithfield_Street_Bridge,_2021-05-11,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "South gateway, Smithfield Street Bridge, 2023-03-01",
+      "url": "https://commons.wikimedia.org/wiki/File:South_gateway,_Smithfield_Street_Bridge,_2023-03-01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Smithfield Street Bridge truss, 2021-05-11",
+      "url": "https://commons.wikimedia.org/wiki/File:Smithfield_Street_Bridge_truss,_2021-05-11.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Pittsburgh Smithfield Street bridge",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh_Smithfield_Street_bridge.jpg",
+      "author": "Scillystuff",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Smithfield Street Bridge Overview (2473518444)",
+      "url": "https://commons.wikimedia.org/wiki/File:Smithfield_Street_Bridge_Overview_(2473518444).jpg",
+      "author": "daveynin",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Smithfield St Bridge (50208287308)",
+      "url": "https://commons.wikimedia.org/wiki/File:Smithfield_St_Bridge_(50208287308).jpg",
+      "author": "thederek412",
+      "license": "Public domain"
+    },
+    {
+      "title": "Smithfield Street Bridge at Night",
+      "url": "https://commons.wikimedia.org/wiki/File:Smithfield_Street_Bridge_at_Night.jpg",
+      "author": "Jmblough",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/pit-smithfield-street-bridge.glb",
+  "source": "generators/pit-smithfield-street-bridge.ts"
+}

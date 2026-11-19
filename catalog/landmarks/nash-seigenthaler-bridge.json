@@ -1,0 +1,15 @@
+{
+  "id": "nash-seigenthaler-bridge",
+  "name": "John Seigenthaler Pedestrian Bridge",
+  "model": "nash-seigenthaler-bridge",
+  "place": "nashville-area",
+  "lng": -86.7725705,
+  "lat": 36.161935,
+  "bearing": 47.4,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q7493419",
+  "replaces": [
+    "way/655292429"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "nash-fisk-jubilee-hall",
+  "name": "Jubilee Hall",
+  "model": "nash-fisk-jubilee-hall",
+  "place": "nashville-area",
+  "wikidata": "Q6301859",
+  "lng": -86.804997,
+  "lat": 36.168996,
+  "bearing": 151.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/759701057"
+  ]
+}

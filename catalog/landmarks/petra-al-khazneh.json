@@ -1,0 +1,15 @@
+{
+  "id": "petra-al-khazneh",
+  "name": "Al-Khazneh (The Treasury)",
+  "model": "petra-al-khazneh",
+  "place": "petra",
+  "lng": 35.4515251,
+  "lat": 30.3220755,
+  "bearing": 249.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1259626",
+  "replaces": [
+    "way/488848937"
+  ]
+}

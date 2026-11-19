@@ -1,0 +1,14 @@
+{
+  "id": "tokyo-meiji-jingu-otorii",
+  "name": "Meiji Jingu Ōtorii",
+  "model": "tokyo-meiji-jingu-otorii",
+  "place": "tokyo",
+  "lng": 139.7013085,
+  "lat": 35.6740966,
+  "bearing": 86.3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/469908912"
+  ]
+}

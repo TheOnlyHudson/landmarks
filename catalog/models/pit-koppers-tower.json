@@ -1,0 +1,67 @@
+{
+  "id": "pit-koppers-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "art-deco",
+    "historic",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Kopperside.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kopperside.jpg",
+      "author": "Mr. Vitale (talk)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Koppers and Gulf Towers, 2015-06-20. 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Koppers_and_Gulf_Towers,_2015-06-20._01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "Koppers Building, 7th Avenue and Grant Street, Pittsburgh, PA.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Koppers_Building,_7th_Avenue_and_Grant_Street,_Pittsburgh,_PA.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Koppers Building, 7th Avenue and Grant Street, Pittsburgh, PA - 53613143574.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Koppers_Building,_7th_Avenue_and_Grant_Street,_Pittsburgh,_PA_-_53613143574.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Gulf and Koppers Towers, 2013-11-18, 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gulf_and_Koppers_Towers,_2013-11-18,_03.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "Koppers Building 11th to 20th floor plan.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Koppers_Building_11th_to_20th_floor_plan.png",
+      "author": "Architects: Graham, Anderson, Probst, &a",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pit-koppers-tower.glb",
+  "source": "generators/pit-koppers-tower.ts"
+}

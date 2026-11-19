@@ -1,0 +1,15 @@
+{
+  "id": "pit-smithfield-street-bridge",
+  "name": "Smithfield Street Bridge",
+  "model": "pit-smithfield-street-bridge",
+  "place": "pittsburgh-area",
+  "lng": -80.002028,
+  "lat": 40.434987,
+  "bearing": 27.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q7545513",
+  "replaces": [
+    "way/467059561"
+  ]
+}

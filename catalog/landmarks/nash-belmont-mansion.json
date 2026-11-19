@@ -1,0 +1,15 @@
+{
+  "id": "nash-belmont-mansion",
+  "name": "Belmont Mansion",
+  "model": "nash-belmont-mansion",
+  "place": "nashville-area",
+  "wikidata": "Q4884396",
+  "lng": -86.794765,
+  "lat": 36.135603,
+  "bearing": 186.8,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/543948934"
+  ]
+}

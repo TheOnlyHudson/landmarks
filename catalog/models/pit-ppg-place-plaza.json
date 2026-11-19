@@ -1,0 +1,66 @@
+{
+  "id": "pit-ppg-place-plaza",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "office",
+    "postmodern",
+    "glass"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "PPG Courtyard (403945480)",
+      "url": "https://commons.wikimedia.org/wiki/File:PPG_Courtyard_(403945480).jpg",
+      "author": "John Marino",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "PPG Place, Pittsburgh PA (18955613)",
+      "url": "https://www.flickr.com/photos/53969873@N00/18955613",
+      "author": "michaelrighi",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Panorama of PPG Place",
+      "url": "https://www.flickr.com/photos/41000732@N04/53852870436",
+      "author": "Adam Jones, Ph.D.",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Market Square & PPG Place P6210271",
+      "url": "https://commons.wikimedia.org/wiki/File:Market_Square_%26_PPG_Place_P6210271.JPG",
+      "author": "Chris Light",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "PPG Place from the Diamond, 2022-01-27, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:PPG_Place_from_the_Diamond,_2022-01-27,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "PPG Place in Pittsburgh in 2016",
+      "url": "https://commons.wikimedia.org/wiki/File:PPG_Place_in_Pittsburgh_in_2016.jpg",
+      "author": "Dllu",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/pit-ppg-place-plaza.glb",
+  "source": "generators/pit-ppg-place-plaza.ts"
+}

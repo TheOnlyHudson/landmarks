@@ -1,0 +1,15 @@
+{
+  "id": "nash-schermerhorn",
+  "name": "Schermerhorn Symphony Center",
+  "model": "nash-schermerhorn",
+  "place": "nashville-area",
+  "lng": -86.775567,
+  "lat": 36.159723,
+  "bearing": 332,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6122379",
+  "replaces": [
+    "relation/1762150"
+  ]
+}

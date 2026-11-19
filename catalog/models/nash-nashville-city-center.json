@@ -1,0 +1,48 @@
+{
+  "id": "nash-nashville-city-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Nashville City Center tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_City_Center_tower.jpg",
+      "author": "Quintin Soloviev",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Nashville City Center Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_City_Center_Tower.jpg",
+      "author": "Brichar60",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nashville City Center 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_City_Center_1.jpg",
+      "author": "Wobbanight",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/nash-nashville-city-center.glb",
+  "source": "generators/nash-nashville-city-center.ts"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "pit-smithfield-united-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "gothic-revival",
+    "historic",
+    "aluminium-spire"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tower of Smithfield Congregational Church, 2000-05 - Lomo Smena 8M.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Smithfield_Congregational_Church,_2000-05_-_Lomo_Smena_8M.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Spire, Smithfield United Church, Pittsburgh, 2019-10-24, 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Spire,_Smithfield_United_Church,_Pittsburgh,_2019-10-24,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Spire of Smithfield United Church, 2025-11-04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Spire_of_Smithfield_United_Church,_2025-11-04.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Pittsburgh, Pennsylvania (8482587031).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh,_Pennsylvania_(8482587031).jpg",
+      "author": "Doug Kerr",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Pittsburgh, Pennsylvania (8482583225).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh,_Pennsylvania_(8482583225).jpg",
+      "author": "Doug Kerr",
+      "license": "CC-BY-SA-2.0"
+    }
+  ],
+  "file": "models/pit-smithfield-united-church.glb",
+  "source": "generators/pit-smithfield-united-church.ts"
+}

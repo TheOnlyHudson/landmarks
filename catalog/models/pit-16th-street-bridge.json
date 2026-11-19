@@ -1,0 +1,81 @@
+{
+  "id": "pit-16th-street-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "arch-bridge",
+    "sculpture",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/pit-16th-street-bridge.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "16th street bridge, Pittsburgh, PA",
+      "url": "https://commons.wikimedia.org/wiki/File:16th_street_bridge,_Pittsburgh,_PA.jpg",
+      "author": "Magpieturtle",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "16th Street Bridge (34133817834)",
+      "url": "https://commons.wikimedia.org/wiki/File:16th_Street_Bridge_(34133817834).jpg",
+      "author": "Nick Amoscato",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Sixteenth Street Bridge, 2025-09-18",
+      "url": "https://commons.wikimedia.org/wiki/File:Sixteenth_Street_Bridge,_2025-09-18.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Sixteenth Street Bridge, 2026-06-18",
+      "url": "https://commons.wikimedia.org/wiki/File:Sixteenth_Street_Bridge,_2026-06-18.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Sculpture by Leo Lentilli, Sixteenth Street Bridge, 2026-06-18",
+      "url": "https://commons.wikimedia.org/wiki/File:Sculpture_by_Leo_Lentilli,_Sixteenth_Street_Bridge,_2026-06-18.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Pittsburgh-2011-08-15-001 (6078648026)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh-2011-08-15-001_(6078648026).jpg",
+      "author": "Perry Quan",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "16th Street Bridge (arch detail), Pittsburgh",
+      "url": "https://commons.wikimedia.org/wiki/File:16th_Street_Bridge_(arch_detail),_Pittsburgh.jpg",
+      "author": "Perry Quan",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "DavidMcCulloughBridge",
+      "url": "https://commons.wikimedia.org/wiki/File:DavidMcCulloughBridge.jpg",
+      "author": "Fo2grfr",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/pit-16th-street-bridge.glb",
+  "source": "generators/pit-16th-street-bridge.ts"
+}

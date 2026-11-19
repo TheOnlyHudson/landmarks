@@ -1,0 +1,82 @@
+{
+  "id": "tokyo-meiji-jingu",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "shrine",
+    "shinto",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-meiji-jingu.detail.glb",
+  "detailZoom": 16,
+  "description": "Meiji Jingu's inner precinct: the Minami-shinmon gate and the corridor ring round the great courtyard, the Gehaiden (outer worship hall) and its wings, and the Honden enclosure behind, unpainted cypress under dark copper roofs.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Courtyard of Meiji Shrine 20190717.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Courtyard_of_Meiji_Shrine_20190717.jpg",
+      "author": "Tokuzo in Edomura",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Meiji-jingū main hall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Meiji-jing%C5%AB_main_hall.jpg",
+      "author": "Hyppolyte de Saint-Rambert",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Meiji-jingū 512.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Meiji-jing%C5%AB_512.jpg",
+      "author": "Hyppolyte de Saint-Rambert",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Meiji-jingū 491.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Meiji-jing%C5%AB_491.jpg",
+      "author": "Hyppolyte de Saint-Rambert",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2018 Meiji Shrine.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_Meiji_Shrine.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Meiji Shrine Minami-shinmon 2023-01-26.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Meiji_Shrine_Minami-shinmon_2023-01-26.jpg",
+      "author": "Asanagi",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Meiji Jingu 2023-2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Meiji_Jingu_2023-2.jpg",
+      "author": "Akonnchiroll",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Meiji Shrine 20260102b.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Meiji_Shrine_20260102b.jpg",
+      "author": "武田信徳",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "file": "models/tokyo-meiji-jingu.glb",
+  "source": "generators/tokyo-meiji-jingu.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "nash-christ-church-cathedral",
+  "name": "Christ Church Cathedral",
+  "model": "nash-christ-church-cathedral",
+  "place": "nashville-area",
+  "lng": -86.783154,
+  "lat": 36.158798,
+  "bearing": 152,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/465437389"
+  ],
+  "wikidata": "Q5108785"
+}

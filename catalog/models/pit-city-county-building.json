@@ -1,0 +1,60 @@
+{
+  "id": "pit-city-county-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "government",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Pittsburgh City-County Building in 2016",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh_City-County_Building_in_2016.jpg",
+      "author": "Dllu",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "City-County Building, 2025-05-24",
+      "url": "https://commons.wikimedia.org/wiki/File:City-County_Building,_2025-05-24.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "PittsburghCity-CountyBuilding2",
+      "url": "https://commons.wikimedia.org/wiki/File:PittsburghCity-CountyBuilding2.jpg",
+      "author": "Lee Paxton",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "City-County Building, 2023-04-21, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:City-County_Building,_2023-04-21,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "HABS PA-1235, City-County Building (photos, 1981)",
+      "url": "https://commons.wikimedia.org/wiki/Category:Pittsburgh_City-County_Building",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pit-city-county-building.glb",
+  "source": "generators/pit-city-county-building.ts"
+}

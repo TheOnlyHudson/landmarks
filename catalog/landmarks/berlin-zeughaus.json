@@ -1,0 +1,17 @@
+{
+  "id": "berlin-zeughaus",
+  "name": "Zeughaus",
+  "model": "berlin-zeughaus",
+  "place": "berlin",
+  "lng": 13.396963,
+  "lat": 52.518102,
+  "bearing": 353.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q196970",
+  "replaces": [
+    "way/15971186",
+    "way/330840120",
+    "way/330840121"
+  ]
+}

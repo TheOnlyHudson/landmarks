@@ -1,0 +1,68 @@
+{
+  "id": "berlin-kollhoff-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "brick",
+    "observation-deck"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Berlin Kollhoff-Tower dk0916",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Kollhoff-Tower_dk0916.jpg",
+      "author": "DrKssn",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Kollhoff-Tower Potsdamer Straße Berlin am 18 Januar 2022 A",
+      "url": "https://commons.wikimedia.org/wiki/File:Kollhoff-Tower_Potsdamer_Stra%C3%9Fe_Berlin_am_18_Januar_2022_A.jpg",
+      "author": "IgorCalzone1",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Forum Tower und Kollhoff Tower in Berlin-1752",
+      "url": "https://commons.wikimedia.org/wiki/File:Forum_Tower_und_Kollhoff_Tower_in_Berlin-1752.jpg",
+      "author": "Raimond Spekking",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hochhäuser am Potsdamer Platz, Berlin, 141209, ako",
+      "url": "https://commons.wikimedia.org/wiki/File:Hochh%C3%A4user_am_Potsdamer_Platz,_Berlin,_141209,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Kollhoff-Tower and 1 Alte Potsdamer Straße skyscrapers",
+      "url": "https://commons.wikimedia.org/wiki/File:Kollhoff-Tower_and_1_Alte_Potsdamer_Stra%C3%9Fe_skyscrapers.jpg",
+      "author": "Gravitatas",
+      "license": "CC0"
+    },
+    {
+      "title": "Berlin Hi-Flyer Sept14 views10",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Hi-Flyer_Sept14_views10.jpg",
+      "author": "A.Savin",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/berlin-kollhoff-tower.glb",
+  "source": "generators/berlin-kollhoff-tower.ts"
+}

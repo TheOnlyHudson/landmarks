@@ -1,0 +1,74 @@
+{
+  "id": "pit-west-end-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "tied-arch",
+    "steel"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/pit-west-end-bridge.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Pitairport Bridges of Pittsburgh DSC 0199 (14405823814)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pitairport_Bridges_of_Pittsburgh_DSC_0199_(14405823814).jpg",
+      "author": "PIT airport",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Looking downstream along the Ohio River (20959960398)",
+      "url": "https://commons.wikimedia.org/wiki/File:Looking_downstream_along_the_Ohio_River_(20959960398).jpg",
+      "author": "Roy Luck",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Ohio River downstream from Pittsburgh PA (8900612568)",
+      "url": "https://commons.wikimedia.org/wiki/File:Ohio_River_downstream_from_Pittsburgh_PA_(8900612568).jpg",
+      "author": "Roy Luck",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Bridges over the Ohio River",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridges_over_the_Ohio_River.jpg",
+      "author": "Andrewwinn",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "U.S. Route 19 in Pennsylvania (48523055657)",
+      "url": "https://commons.wikimedia.org/wiki/File:U.S._Route_19_in_Pennsylvania_(48523055657).jpg",
+      "author": "Adam Moss",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "The West End Bridge - Pittsburgh",
+      "url": "https://commons.wikimedia.org/wiki/File:The_West_End_Bridge_-_Pittsburgh.jpg",
+      "author": "Marc",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Pittsburgh from West End Bridge (36654366926)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh_from_West_End_Bridge_(36654366926).jpg",
+      "author": "Nick Amoscato",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/pit-west-end-bridge.glb",
+  "source": "generators/pit-west-end-bridge.ts"
+}

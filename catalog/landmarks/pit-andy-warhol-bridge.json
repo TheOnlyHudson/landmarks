@@ -1,0 +1,15 @@
+{
+  "id": "pit-andy-warhol-bridge",
+  "name": "Andy Warhol Bridge",
+  "model": "pit-andy-warhol-bridge",
+  "place": "pittsburgh-area",
+  "lng": -80.001429,
+  "lat": 40.4461726,
+  "bearing": 344.715,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q4761451",
+  "replaces": [
+    "way/642309567"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "nash-parthenon",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "historic",
+    "classical",
+    "temple"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Parthenon in Nashville 2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Parthenon_in_Nashville_2025.jpg",
+      "author": "BullDawg2021",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "The Parthenon, Nashville, Tennessee.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Parthenon,_Nashville,_Tennessee.jpg",
+      "author": "Aaron Archuleta",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "The Parthenon, Nashville.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Parthenon,_Nashville.JPG",
+      "author": "Mayur Phadtare",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Nashville Parthenon from south.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_Parthenon_from_south.jpg",
+      "author": "Dave Pape",
+      "license": "Public domain"
+    },
+    {
+      "title": "Parthenon Nashville 2024a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Parthenon_Nashville_2024a.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Corner of Parthenon in Nashville, TN, US.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Corner_of_Parthenon_in_Nashville,_TN,_US.jpg",
+      "author": "Bubba73 (Jud McCranie)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Parthenon in Centennial Park in Nashville, TN.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Parthenon_in_Centennial_Park_in_Nashville,_TN.jpg",
+      "author": "John LaGuardia",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nashville Parthenon at night at night 2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_Parthenon_at_night_at_night_2024.jpg",
+      "author": "Jschnake",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-parthenon.glb",
+  "source": "generators/nash-parthenon.ts"
+}

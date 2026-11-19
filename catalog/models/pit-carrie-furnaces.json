@@ -1,0 +1,62 @@
+{
+  "id": "pit-carrie-furnaces",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "infrastructure",
+  "tags": [
+    "industrial",
+    "blast-furnace",
+    "steel",
+    "national-historic-landmark",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Backside view of Carrie Blast Furnaces",
+      "url": "https://commons.wikimedia.org/wiki/File:Backside_view_of_Carrie_Blast_Furnaces.jpg",
+      "author": "DASH713",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Carrie Blast Furnaces National Historic Landmark - Swissvale - Pennsylvania - USA - 18",
+      "url": "https://commons.wikimedia.org/wiki/File:Carrie_Blast_Furnaces_National_Historic_Landmark_-_Swissvale_-_Pennsylvania_-_USA_-_18_(47828483741).jpg",
+      "author": "Adam Jones",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Carrie Blast Furnaces National Historic Landmark - Swissvale - Pennsylvania - USA - 19",
+      "url": "https://commons.wikimedia.org/wiki/File:Carrie_Blast_Furnaces_National_Historic_Landmark_-_Swissvale_-_Pennsylvania_-_USA_-_19_(33951272298).jpg",
+      "author": "Adam Jones",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Carrie Blast Furnace",
+      "url": "https://commons.wikimedia.org/wiki/File:Carrie_Blast_Furnace.jpg",
+      "author": "Jmblough",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Blast furnace, Carrie Furnaces, Rankin PA (8907655873)",
+      "url": "https://commons.wikimedia.org/wiki/File:Blast_furnace,_Carrie_Furnaces,_Rankin_PA_(8907655873).jpg",
+      "author": "Roy Luck",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/pit-carrie-furnaces.glb",
+  "source": "generators/pit-carrie-furnaces.ts"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "pit-monongahela-incline",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "infrastructure",
+  "tags": [
+    "historic",
+    "funicular",
+    "incline",
+    "railway"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Lower station, Monongahela Incline, 2024-12-15.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Lower_station,_Monongahela_Incline,_2024-12-15.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Lower station, Monongahela Incline, 2024-12-15-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Lower_station,_Monongahela_Incline,_2024-12-15-1.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Lower station, Monongahela Incline, 2024-12-15-3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Lower_station,_Monongahela_Incline,_2024-12-15-3.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Cupola of the lower station, Monongahela Incline, 2024-12-15.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cupola_of_the_lower_station,_Monongahela_Incline,_2024-12-15.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Monongahela Incline upper station, Mount Washington, 2025-02-24-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monongahela_Incline_upper_station,_Mount_Washington,_2025-02-24-1.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Monongahela Incline upper station, Mount Washington, 2025-02-24-2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monongahela_Incline_upper_station,_Mount_Washington,_2025-02-24-2.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Monongahela Incline, upper station, 2021-05-11, 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monongahela_Incline,_upper_station,_2021-05-11,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Monongahela Incline car arriving at upper station, 2024-12-15.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monongahela_Incline_car_arriving_at_upper_station,_2024-12-15.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Monongahela Incline car, 2024-12-15.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monongahela_Incline_car,_2024-12-15.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Monongahela Incline.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monongahela_Incline.jpg",
+      "author": "Suckindiesel at English Wikipedia",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Looking up the Monongahela Incline.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Looking_up_the_Monongahela_Incline.jpg",
+      "author": "Bestbudbrian",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Lower station of Monongahela Incline.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Lower_station_of_Monongahela_Incline.JPG",
+      "author": "An Errant Knight",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Mon Incline (3021295853).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mon_Incline_(3021295853).jpg",
+      "author": "Doug Kerr",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Mon Incline (3022128312).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mon_Incline_(3022128312).jpg",
+      "author": "Doug Kerr",
+      "license": "CC-BY-SA-2.0"
+    }
+  ],
+  "file": "models/pit-monongahela-incline.glb",
+  "source": "generators/pit-monongahela-incline.ts"
+}

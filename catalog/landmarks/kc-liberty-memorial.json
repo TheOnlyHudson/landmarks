@@ -1,0 +1,18 @@
+{
+  "id": "kc-liberty-memorial",
+  "name": "National WWI Museum and Memorial",
+  "model": "kc-liberty-memorial",
+  "place": "kansas-city-area",
+  "lng": -94.585953,
+  "lat": 39.0810687,
+  "bearing": 14.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6303624",
+  "replaces": [
+    "way/466820799",
+    "way/587083043",
+    "way/537927800",
+    "way/537927801"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pit-old-allegheny-county-jail",
+  "name": "Old Allegheny County Jail",
+  "model": "pit-old-allegheny-county-jail",
+  "place": "pittsburgh-area",
+  "lng": -79.9953453,
+  "lat": 40.4385156,
+  "bearing": 27.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/203445068",
+    "way/1469951563"
+  ],
+  "wikidata": "Q4731292"
+}

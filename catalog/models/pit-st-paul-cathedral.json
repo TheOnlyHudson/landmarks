@@ -1,0 +1,79 @@
+{
+  "id": "pit-st-paul-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "cathedral",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Saint Paul Cathedral in Pittsburgh as seen from Fifth Avenue in 2016",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Paul_Cathedral_in_Pittsburgh_as_seen_from_Fifth_Avenue_in_2016.jpg",
+      "author": "Dllu",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Saint Paul Cathedral in Pittsburgh as seen from Craig St in 2016",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Paul_Cathedral_in_Pittsburgh_as_seen_from_Craig_St_in_2016.jpg",
+      "author": "Dllu",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "St. Paul Cathedral Pittsburgh distance",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Paul_Cathedral_Pittsburgh_distance.jpg",
+      "author": "Piotrus",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Cathedral of Saint Paul Pittsburgh aerial",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Saint_Paul_Pittsburgh_aerial.JPG",
+      "author": "Alekjds",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "South transept façade, St. Paul’s Cathedral, Oakland, Pittsburgh, 2026-08-03",
+      "url": "https://commons.wikimedia.org/wiki/File:South_transept_fa%C3%A7ade,_St._Paul%E2%80%99s_Cathedral,_Oakland,_Pittsburgh,_2026-08-03.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "St. Paul Cathedral, Pittsburgh",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Paul_Cathedral,_Pittsburgh.jpg",
+      "author": "Kiran Kulkarni",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "St. Paul’s Cathedral, Oakland, Pittsburgh, 2026-08-03-2",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Paul%E2%80%99s_Cathedral,_Oakland,_Pittsburgh,_2026-08-03-2.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "St. Paul’s Cathedral. Pittsburgh, at dusk, 2022-12-07, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Paul%E2%80%99s_Cathedral._Pittsburgh,_at_dusk,_2022-12-07,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/pit-st-paul-cathedral.glb",
+  "source": "generators/pit-st-paul-cathedral.ts"
+}

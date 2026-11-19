@@ -1,0 +1,61 @@
+{
+  "id": "nash-life-and-casualty-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "modernist",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Looking up at the L&C, Nashville, TN",
+      "url": "https://commons.wikimedia.org/wiki/File:Looking_up_at_the_L%26C,_Nashville,_TN.jpg",
+      "author": "Brent Moore",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Life & Casualty Tower, 2018",
+      "url": "https://commons.wikimedia.org/wiki/File:Life_%26_Casualty_Tower,_2018.jpg",
+      "author": "Eagledj",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nashville Life & Casualty Tower a",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_Life_%26_Casualty_Tower_a.jpg",
+      "author": "Wobbanight",
+      "license": "CC0"
+    },
+    {
+      "title": "L&C Tower sign",
+      "url": "https://commons.wikimedia.org/wiki/File:L%26C_Tower_sign.jpg",
+      "author": "Keith Hinkle",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "L&C Tower Facade",
+      "url": "https://commons.wikimedia.org/wiki/File:L%26C_Tower_Facade.jpg",
+      "author": "Ed Uthman",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/nash-life-and-casualty-tower.glb",
+  "source": "generators/nash-life-and-casualty-tower.ts"
+}

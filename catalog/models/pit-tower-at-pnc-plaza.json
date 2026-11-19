@@ -1,0 +1,61 @@
+{
+  "id": "pit-tower-at-pnc-plaza",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "green-building"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tower at PNC Plaza as seen at Fifth at Wood in 2016",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_at_PNC_Plaza_as_seen_at_Fifth_at_Wood_in_2016.jpg",
+      "author": "Dllu",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Pittsburgh Downtown 2019-06-13 Tower at PNC Plaza 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh-Downtown-2019-06-13-Tower-at-PNC-Plaza-01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Tower at PNC Plaza, 2020-10-08",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_at_PNC_Plaza,_2020-10-08.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Tower at PNC Plaza, Pittsburgh, 2019-05-06",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_at_PNC_Plaza,_Pittsburgh,_2019-05-06.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Tower at PNC Plaza, 2020-11-12",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_at_PNC_Plaza,_2020-11-12.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    }
+  ],
+  "wikidata": "Q7829752",
+  "file": "models/pit-tower-at-pnc-plaza.glb",
+  "source": "generators/pit-tower-at-pnc-plaza.ts"
+}

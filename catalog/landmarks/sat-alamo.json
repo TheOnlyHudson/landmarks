@@ -1,0 +1,21 @@
+{
+  "id": "sat-alamo",
+  "name": "The Alamo",
+  "model": "sat-alamo",
+  "place": "san-antonio-area",
+  "lng": -98.486104,
+  "lat": 29.425701,
+  "bearing": 9.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2636724",
+  "replaces": [
+    "way/92060042",
+    "way/1489925161",
+    "way/1489925162",
+    "way/1489925163",
+    "way/1489925164",
+    "way/1489925165",
+    "way/1489925166"
+  ]
+}

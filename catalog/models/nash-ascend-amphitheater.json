@@ -1,0 +1,48 @@
+{
+  "id": "nash-ascend-amphitheater",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "amphitheater",
+    "music-venue",
+    "concert-venue"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Ascend Aerial",
+      "url": "https://commons.wikimedia.org/wiki/File:Ascend_Aerial.jpg",
+      "author": "Agaskins3553",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ascend Amphitheater on August 1, 2015",
+      "url": "https://commons.wikimedia.org/wiki/File:Ascend_Amphitheater_on_August_1,_2015.jpg",
+      "author": "Shane Raynor",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Korean War Veterans Memorial Bridge and Ascend Amphitheater",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_War_Veterans_Memorial_Bridge_and_Ascend_Amphitheater.jpg",
+      "author": "Walker Kinsler",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-ascend-amphitheater.glb",
+  "source": "generators/nash-ascend-amphitheater.ts"
+}

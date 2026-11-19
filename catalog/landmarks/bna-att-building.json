@@ -1,0 +1,25 @@
+{
+  "id": "bna-att-building",
+  "name": "AT&T Building",
+  "model": "bna-att-building",
+  "lng": -86.7769588,
+  "lat": 36.1624065,
+  "bearing": 17.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q298562",
+  "replaces": [
+    "way/130910785",
+    "way/465454851",
+    "way/591973495",
+    "way/591983690",
+    "way/1307887852",
+    "way/1307887853",
+    "way/1311381711",
+    "way/1311381712",
+    "way/1311381713",
+    "way/1311381714",
+    "way/1311381715"
+  ],
+  "place": "nashville-area"
+}

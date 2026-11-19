@@ -1,0 +1,16 @@
+{
+  "id": "pit-city-county-building",
+  "name": "City-County Building",
+  "model": "pit-city-county-building",
+  "place": "pittsburgh-area",
+  "lng": -79.9968533,
+  "lat": 40.4381097,
+  "bearing": 26.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/203411124",
+    "way/759668754"
+  ],
+  "wikidata": "Q7199249"
+}

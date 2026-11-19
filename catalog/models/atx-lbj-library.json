@@ -1,0 +1,63 @@
+{
+  "id": "atx-lbj-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "library",
+    "museum",
+    "presidential-library",
+    "brutalist",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "LBJ Library March 2024 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:LBJ_Library_March_2024_01.jpg",
+      "author": "Found5dollar",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "LBJ Library March 2024 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:LBJ_Library_March_2024_02.jpg",
+      "author": "Found5dollar",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "LBJ Library March 2024 27.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:LBJ_Library_March_2024_27.jpg",
+      "author": "Found5dollar",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Lyndon B. Johnson Presidential Library 2022.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson_Presidential_Library_2022.jpg",
+      "author": "Enmanuel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Johnson library.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Johnson_library.jpg",
+      "author": "LBJ Library (NARA)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/atx-lbj-library.glb",
+  "source": "generators/atx-lbj-library.ts"
+}

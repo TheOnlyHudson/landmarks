@@ -1,0 +1,72 @@
+{
+  "id": "pit-bny-mellon-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "postmodern",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "BNY Mellon Center (Pittsburgh) as seen at Fifth at Grant in 2016.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:BNY_Mellon_Center_(Pittsburgh)_as_seen_at_Fifth_at_Grant_in_2016.jpg",
+      "author": "Dllu",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "BNY Mellon Center building in morning (11846068283).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:BNY_Mellon_Center_building_in_morning_(11846068283).jpg",
+      "author": "daveynin from United States",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "BNY Mellon Center Pittsburgh 2022.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:BNY_Mellon_Center_Pittsburgh_2022.jpg",
+      "author": "InvadingInvader",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "BNY Mellon Center, 2022-10-04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:BNY_Mellon_Center,_2022-10-04.jpg",
+      "author": "Cbaile19",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "One Mellon Center, 2025-10-03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Mellon_Center,_2025-10-03.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "Front of BNY Mellon Center (3583589876).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Front_of_BNY_Mellon_Center_(3583589876).jpg",
+      "author": "daveynin from United States",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Pittsburgh-mellon-center-2007-night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh-mellon-center-2007-night.jpg",
+      "author": "Derek Jensen (Tysto)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pit-bny-mellon-center.glb",
+  "source": "generators/pit-bny-mellon-center.ts"
+}

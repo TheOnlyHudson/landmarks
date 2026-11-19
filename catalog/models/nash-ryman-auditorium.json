@@ -1,0 +1,80 @@
+{
+  "id": "nash-ryman-auditorium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "concert-hall",
+    "theatre",
+    "gothic-revival",
+    "music"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Ryman Auditorium.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ryman_Auditorium.jpg",
+      "author": "Daniel Schwen",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ryman Auditorium, 5th Avenue, Nashville, TN (54383413407).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ryman_Auditorium,_5th_Avenue,_Nashville,_TN_(54383413407).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Ryman Auditorium, 5th Avenue, Nashville, TN (54384487379).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ryman_Auditorium,_5th_Avenue,_Nashville,_TN_(54384487379).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Ryman Auditorium, 5th Avenue, Nashville, TN (54384293066).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ryman_Auditorium,_5th_Avenue,_Nashville,_TN_(54384293066).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Annex, Ryman Auditorium, 5th Avenue, Nashville, TN (54384296426).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Annex,_Ryman_Auditorium,_5th_Avenue,_Nashville,_TN_(54384296426).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Annex, Ryman Auditorium, 5th Avenue, Nashville, TN (54384675125).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Annex,_Ryman_Auditorium,_5th_Avenue,_Nashville,_TN_(54384675125).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Ryman Auditorium - West front and south side (cropped).tif",
+      "url": "https://commons.wikimedia.org/wiki/File:Ryman_Auditorium_-_West_front_and_south_side_(cropped).tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Ryman Auditorium 116 5th Avenue North downtown Nashville TN 31 December 2024 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ryman_Auditorium_116_5th_Avenue_North_downtown_Nashville_TN_31_December_2024_01.jpg",
+      "author": "Artaxerxes",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/nash-ryman-auditorium.glb",
+  "source": "generators/nash-ryman-auditorium.ts"
+}

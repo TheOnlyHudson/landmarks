@@ -1,0 +1,70 @@
+{
+  "id": "tokyo-rainbow-bridge",
+  "file": "models/tokyo-rainbow-bridge.glb",
+  "detail": "models/tokyo-rainbow-bridge.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-rainbow-bridge.ts",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "suspension-bridge",
+    "double-deck",
+    "illuminated"
+  ],
+  "description": "Rainbow Bridge (1993), Tokyo Bay's two-deck suspension bridge: white towers with arched portals, 570 m main span, the expressway above and the Yurikamome, roads and walkways inside the stiffening truss, with the Odaiba approach viaduct.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Rainbow Bridge, Tokyo, South view from Odaiba 20190419 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge,_Tokyo,_South_view_from_Odaiba_20190419_1.jpg",
+      "author": "DXR",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Rainbow Bridge, Tokyo, West view 20190419 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge,_Tokyo,_West_view_20190419_1.jpg",
+      "author": "DXR",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Rainbow Bridge (Tokyo) and sky.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_(Tokyo)_and_sky.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Rainbow Bridge, Tokyo 20190320-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge,_Tokyo_20190320-1.jpg",
+      "author": "Suicasmo",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "North walkway @ Rainbow Bridge (14042502824).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:North_walkway_@_Rainbow_Bridge_(14042502824).jpg",
+      "author": "Guilhem Vellut",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Rainbow Bridge (Tokyo) at night.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_(Tokyo)_at_night.JPG",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    }
+  ]
+}

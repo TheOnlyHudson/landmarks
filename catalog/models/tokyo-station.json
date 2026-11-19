@@ -1,0 +1,71 @@
+{
+  "id": "tokyo-station",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "train-station",
+    "historic",
+    "brick",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-station.detail.glb",
+  "detailZoom": 16,
+  "description": "Tatsuno Kingo's 335 m red-brick Marunouchi station building (1914, restored 2012): white stone banding, the central pavilion and two octagonal domed halls under slate domes with copper ribs.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tokyo Station Marunouchi Building.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_Marunouchi_Building.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Views of the Tokyo Station Marunouchi Building from the Marunouchi Building 2016-06-08.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Views_of_the_Tokyo_Station_Marunouchi_Building_from_the_Marunouchi_Building_2016-06-08.jpg",
+      "author": "Dick Thomas Johnson",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Tokyo Station Marunouchi North 2012 09.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_Marunouchi_North_2012_09.jpg",
+      "author": "Nishikaratsu",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "東京駅 Tokyo Station (8164152017).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E4%BA%AC%E9%A7%85_Tokyo_Station_(8164152017).jpg",
+      "author": "Yuya Sekiguchi",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "TokyoStation-fromair-1931.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:TokyoStation-fromair-1931.jpg",
+      "author": "Japanese Geography and Customs, Greater Tokyo (1931)",
+      "license": "public domain"
+    },
+    {
+      "title": "Tokyo Station Marunouchi Building at night.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_Marunouchi_Building_at_night.JPG",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/tokyo-station.glb",
+  "source": "generators/tokyo-station.ts"
+}

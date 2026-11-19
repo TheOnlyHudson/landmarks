@@ -1,0 +1,15 @@
+{
+  "id": "nash-tootsies",
+  "name": "Tootsie's Orchid Lounge",
+  "model": "nash-tootsies",
+  "place": "nashville-area",
+  "lng": -86.778299,
+  "lat": 36.160911,
+  "bearing": 332,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q16255553",
+  "replaces": [
+    "way/464661786"
+  ]
+}

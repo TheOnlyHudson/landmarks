@@ -1,0 +1,63 @@
+{
+  "id": "pit-andy-warhol-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "suspension-bridge",
+    "self-anchored",
+    "eyebar-chain"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/pit-andy-warhol-bridge.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Andy Warhol Bridge, Pittsburgh, 2024-06-02",
+      "url": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_Bridge,_Pittsburgh,_2024-06-02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Andy Warhol Bridge - 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_Bridge_-_2.jpg",
+      "author": "APK",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Andy Warhol Bridge and Alcoa Corporate Center, 2024-06-08",
+      "url": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_Bridge_and_Alcoa_Corporate_Center,_2024-06-08.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Andy Warhol Bridge, 2023-06-10, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_Bridge,_2023-06-10,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Andy Warhol (Seventh Street) Bridge at night, 2024-04-02",
+      "url": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_(Seventh_Street)_Bridge_at_night,_2024-04-02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/pit-andy-warhol-bridge.glb",
+  "source": "generators/pit-andy-warhol-bridge.ts"
+}

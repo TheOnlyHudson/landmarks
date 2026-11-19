@@ -1,0 +1,95 @@
+{
+  "id": "tokyo-fuji-tv",
+  "file": "models/tokyo-fuji-tv.glb",
+  "detail": "models/tokyo-fuji-tv.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-fuji-tv.ts",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "office",
+    "broadcasting",
+    "kenzo-tange",
+    "observation-deck"
+  ],
+  "description": "Fuji Television headquarters (FCG Building, Kenzo Tange, 1996): two 25-storey slabs joined by an open three-dimensional grid of sky corridors holding the 32 m titanium-clad observation sphere.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "20190322 Odaiba Fuji Television Network building.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:20190322_Odaiba_Fuji_Television_Network_building.jpg",
+      "author": "Balon Greyjoy",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fuji Broadcasting Center and Aqua City Odaiba, Tokyo, North view 20190419 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fuji_Broadcasting_Center_and_Aqua_City_Odaiba,_Tokyo,_North_view_20190419_1.jpg",
+      "author": "DXR",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Sphere, Fuji Broadcasting Center, North view 20190419 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sphere,_Fuji_Broadcasting_Center,_North_view_20190419_1.jpg",
+      "author": "DXR",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "FCG Building.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:FCG_Building.JPG",
+      "author": "Tokumeigakarinoaoshima",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "FCG Headquarters Building.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:FCG_Headquarters_Building.JPG",
+      "author": "Tokumeigakarinoaoshima",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "View of headquarters of Fuji television from Yurikamome.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_headquarters_of_Fuji_television_from_Yurikamome.jpg",
+      "author": "Dquai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "FCG Building 20200320.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:FCG_Building_20200320.jpg",
+      "author": "Suicasmo",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "FCG Building 20160813.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:FCG_Building_20160813.jpg",
+      "author": "Raita Futo",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "FCG Building 20180227 night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:FCG_Building_20180227_night.jpg",
+      "author": "Bain Steinway",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Fuji Television Network 20211127 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fuji_Television_Network_20211127_01.jpg",
+      "author": "先従隗始",
+      "license": "CC0-1.0"
+    }
+  ]
+}

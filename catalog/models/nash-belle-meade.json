@@ -1,0 +1,61 @@
+{
+  "id": "nash-belle-meade",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "house-museum",
+    "greek-revival",
+    "plantation"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "BelleMeadePlantation.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:BelleMeadePlantation.JPG",
+      "author": "NatureBoyMD (English Wikipedia)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Belle Meade Plantation - 14",
+      "url": "https://commons.wikimedia.org/wiki/File:Belle_Meade_Plantation_-_14.jpg",
+      "author": "dwhartwig",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Belle Meade Plantation - 12",
+      "url": "https://commons.wikimedia.org/wiki/File:Belle_Meade_Plantation_-_12.jpg",
+      "author": "dwhartwig",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Belle Meade Plantation - 13",
+      "url": "https://commons.wikimedia.org/wiki/File:Belle_Meade_Plantation_-_13.jpg",
+      "author": "dwhartwig",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Belle Meade Plantation - 28",
+      "url": "https://commons.wikimedia.org/wiki/File:Belle_Meade_Plantation_-_28.jpg",
+      "author": "dwhartwig",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nash-belle-meade.glb",
+  "source": "generators/nash-belle-meade.ts"
+}

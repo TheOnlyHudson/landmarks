@@ -1,0 +1,67 @@
+{
+  "id": "pit-east-liberty-presbyterian",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "gothic-revival",
+    "tower",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "East Liberty Presbyterian Church, Pittsburgh, 2015-03-11",
+      "url": "https://commons.wikimedia.org/wiki/File:East_Liberty_Presbyterian_Church,_Pittsburgh,_2015-03-11.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "East Liberty Presbyterian Church, 2025-05-20",
+      "url": "https://commons.wikimedia.org/wiki/File:East_Liberty_Presbyterian_Church,_2025-05-20.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "East Liberty Presbyterian Church, 2026-07-15-3",
+      "url": "https://commons.wikimedia.org/wiki/File:East_Liberty_Presbyterian_Church,_2026-07-15-3.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "East Liberty Presbyterian Church, 2025-04-04",
+      "url": "https://commons.wikimedia.org/wiki/File:East_Liberty_Presbyterian_Church,_2025-04-04.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Aerial view of East Liberty Presbyterian Church, Pittsburgh, Pa (61391)",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_East_Liberty_Presbyterian_Church,_Pittsburgh,_Pa_(61391).jpg",
+      "author": "Mullen Brothers (publisher)",
+      "license": "Public domain"
+    },
+    {
+      "title": "ELPC Tower Illuminated",
+      "url": "https://commons.wikimedia.org/wiki/File:ELPC_Tower_Illuminated.jpg",
+      "author": "DrEAMoore",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/pit-east-liberty-presbyterian.glb",
+  "source": "generators/pit-east-liberty-presbyterian.ts"
+}

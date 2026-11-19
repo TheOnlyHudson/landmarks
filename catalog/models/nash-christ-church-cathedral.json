@@ -1,0 +1,61 @@
+{
+  "id": "nash-christ-church-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "cathedral",
+    "historic",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Christ Church Episcopal Cathedral, Broadway and 9th Avenue, Nashville, TN (54384286131)",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Episcopal_Cathedral,_Broadway_and_9th_Avenue,_Nashville,_TN_(54384286131).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Christ Church Episcopal Cathedral, Broadway and 9th Avenue, Nashville, TN (54384482434)",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Episcopal_Cathedral,_Broadway_and_9th_Avenue,_Nashville,_TN_(54384482434).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Christ Church Episcopal Cathedral, Broadway and 9th Avenue, Nashville, TN (54384667970)",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Episcopal_Cathedral,_Broadway_and_9th_Avenue,_Nashville,_TN_(54384667970).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Christ Church Cathedral, Nashville.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Cathedral,_Nashville.jpg",
+      "author": "Esrever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Christ Church Cathedral Nashville 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Cathedral_Nashville_01.jpg",
+      "author": "Cheryl A. Austin",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-christ-church-cathedral.glb",
+  "source": "generators/nash-christ-church-cathedral.ts"
+}

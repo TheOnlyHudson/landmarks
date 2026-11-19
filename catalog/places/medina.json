@@ -1,0 +1,7 @@
+{
+  "id": "medina",
+  "name": "Medina",
+  "kind": "city",
+  "parent": "saudi-arabia",
+  "wikidata": "Q35484"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "nash-grand-ole-opry-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theatre",
+    "music-venue",
+    "brutalist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Grand Ole Opry House 2022b.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Ole_Opry_House_2022b.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Grand Ole Opry House 2022a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Ole_Opry_House_2022a.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Grand Ole Opry (97056906).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Ole_Opry_(97056906).jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Grand Ole Opry - Nashville - Tennessee - USA (10234065546).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Ole_Opry_-_Nashville_-_Tennessee_-_USA_(10234065546).jpg",
+      "author": "Adam Jones",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Backside Grand Ole Opry House, Aug 17.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Backside_Grand_Ole_Opry_House,_Aug_17.jpg",
+      "author": "An Errant Knight",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-grand-ole-opry-house.glb",
+  "source": "generators/nash-grand-ole-opry-house.ts"
+}

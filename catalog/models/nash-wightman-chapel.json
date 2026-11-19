@@ -1,0 +1,62 @@
+{
+  "id": "nash-wightman-chapel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "chapel",
+    "historic",
+    "gothic-revival",
+    "collegiate-gothic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Scarritt.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Scarritt.JPG",
+      "author": "Www78",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Scarritt Bennett, Wightman Chapel.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Scarritt_Bennett,_Wightman_Chapel.jpg",
+      "author": "Vhotchki",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Wightman Chapel at Scarritt-Barrett Center.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wightman_Chapel_at_Scarritt-Barrett_Center.jpg",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Wightman Chapel (interior)",
+      "url": "https://www.flickr.com/photos/48352971@N00/53176622",
+      "author": "Mark Gstohl",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Tower at Scarritt Bennett.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_at_Scarritt_Bennett.jpg",
+      "author": "Howie Luvzus",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nash-wightman-chapel.glb",
+  "source": "generators/nash-wightman-chapel.ts"
+}

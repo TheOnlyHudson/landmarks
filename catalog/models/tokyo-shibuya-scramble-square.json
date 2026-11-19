@@ -1,0 +1,65 @@
+{
+  "id": "tokyo-shibuya-scramble-square",
+  "file": "models/tokyo-shibuya-scramble-square.glb",
+  "detail": "models/tokyo-shibuya-scramble-square.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-shibuya-scramble-square.ts",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "observation-deck",
+    "glass",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "229.7 m glass tower over Shibuya Station (2019), its pale-blue curtain wall striped by staggered dark fins, crowned by the SHIBUYA SKY open-air deck whose roof slab sweeps down to the corner over the Scramble Crossing.",
+  "references": [
+    {
+      "title": "2019 Shibuya Scramble Square 3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_Shibuya_Scramble_Square_3.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2019 Shibuya Scramble Square 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_Shibuya_Scramble_Square_2.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "SHIBUYA SCRAMBLE SQUARE East Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg",
+      "author": "Sakura Torch",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Shibuya Scramble Square building, taken from Shibuya Stream.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Shibuya_Scramble_Square_building,_taken_from_Shibuya_Stream.jpg",
+      "author": "Syced",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Shibuya Scramble Square SHIBUYA SKY (53002237604).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Shibuya_Scramble_Square_SHIBUYA_SKY_(53002237604).jpg",
+      "author": "Dick Thomas Johnson",
+      "license": "CC-BY-2.0"
+    }
+  ]
+}

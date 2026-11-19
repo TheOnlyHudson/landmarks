@@ -1,0 +1,15 @@
+{
+  "id": "pit-us-steel-tower",
+  "name": "U.S. Steel Tower",
+  "model": "pit-us-steel-tower",
+  "place": "pittsburgh-area",
+  "lng": -79.994744,
+  "lat": 40.441358,
+  "bearing": 357.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/448319709"
+  ],
+  "wikidata": "Q632329"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "pit-hamerschlag-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "beaux-arts",
+    "tower",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hamerschlag Hall, Carnegie Mellon University, 2023-04-27, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Hamerschlag_Hall,_Carnegie_Mellon_University,_2023-04-27,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Hamerschlag Hall, Carnegie Mellon University, 2023-04-27, 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Hamerschlag_Hall,_Carnegie_Mellon_University,_2023-04-27,_02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Hamerschlag Hall, Carnegie Mellon University, 2023-04-27, 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Hamerschlag_Hall,_Carnegie_Mellon_University,_2023-04-27,_03.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Hamerschlag Hall 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Hamerschlag_Hall_1.JPG",
+      "author": "Piotrus",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Hamerschlag Hall 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Hamerschlag_Hall_2.JPG",
+      "author": "Piotrus",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Hamerschlag Hall at Carnegie Mellon University",
+      "url": "https://commons.wikimedia.org/wiki/File:Hamerschlag_Hall_at_Carnegie_Mellon_University.jpg",
+      "author": "Jiuguang Wang",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Carnegie Mellon Hamerschlag Hall and Scott Hall",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Mellon_Hamerschlag_Hall_and_Scott_Hall.jpg",
+      "author": "Dllu",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "HABS PA-1174, Machinery Hall Tower, sheets 2-4",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Institute_of_Technology,_Machinery_Hall_Tower,_Carnegie_Mellon_University_Campus,_Pittsburgh,_Allegheny_County,_PA_HABS_PA,2-PITBU,24A-_(sheet_2_of_6).png",
+      "author": "Historic American Buildings Survey (S. M. Pozar, R. G. Neher)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pit-hamerschlag-hall.glb",
+  "source": "generators/pit-hamerschlag-hall.ts"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cmh-ohio-statehouse",
+  "name": "Ohio Statehouse",
+  "model": "cmh-ohio-statehouse",
+  "lng": -82.9990949,
+  "lat": 39.9613176,
+  "bearing": 351.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2281225",
+  "replaces": [
+    "way/30172881",
+    "way/849502268",
+    "way/849502269",
+    "way/849502270",
+    "way/1454786126",
+    "way/1454785003",
+    "way/1454785004",
+    "way/1454785005",
+    "way/1454785223",
+    "way/1125310283",
+    "way/1125310284"
+  ],
+  "place": "columbus-area"
+}

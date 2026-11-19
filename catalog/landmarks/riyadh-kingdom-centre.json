@@ -1,0 +1,18 @@
+{
+  "id": "riyadh-kingdom-centre",
+  "name": "Kingdom Centre",
+  "model": "riyadh-kingdom-centre",
+  "place": "riyadh",
+  "lng": 46.6744106,
+  "lat": 24.7113479,
+  "bearing": 333.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/264745922",
+    "way/264745924",
+    "way/264745925",
+    "way/984443070",
+    "way/264745917"
+  ]
+}

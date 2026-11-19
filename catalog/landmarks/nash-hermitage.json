@@ -1,0 +1,15 @@
+{
+  "id": "nash-hermitage",
+  "name": "The Hermitage",
+  "model": "nash-hermitage",
+  "place": "nashville-area",
+  "lng": -86.6129907,
+  "lat": 36.2150147,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2376587",
+  "replaces": [
+    "way/433258649"
+  ]
+}

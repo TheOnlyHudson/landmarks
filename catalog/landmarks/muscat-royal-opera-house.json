@@ -1,0 +1,14 @@
+{
+  "id": "muscat-royal-opera-house",
+  "name": "Royal Opera House Muscat",
+  "model": "muscat-royal-opera-house",
+  "place": "muscat",
+  "lng": 58.4680019,
+  "lat": 23.6142079,
+  "bearing": 62.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/137570071"
+  ]
+}

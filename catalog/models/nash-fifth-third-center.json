@@ -1,0 +1,60 @@
+{
+  "id": "nash-fifth-third-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fifth Third Bank Building, Church Street and 5th Avenue, Nashville, TN (54384181507)",
+      "url": "https://commons.wikimedia.org/wiki/File:Fifth_Third_Bank_Building,_Church_Street_and_5th_Avenue,_Nashville,_TN_(54384181507).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Fifth Third Bank Building, Church Street and 5th Avenue, Nashville, TN (54385242299)",
+      "url": "https://commons.wikimedia.org/wiki/File:Fifth_Third_Bank_Building,_Church_Street_and_5th_Avenue,_Nashville,_TN_(54385242299).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Fifth Third Bank Building, Church Street and 5th Avenue, Nashville, TN (54385282233)",
+      "url": "https://commons.wikimedia.org/wiki/File:Fifth_Third_Bank_Building,_Church_Street_and_5th_Avenue,_Nashville,_TN_(54385282233).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Fifth Third Center Nashville From Plaza",
+      "url": "https://commons.wikimedia.org/wiki/File:Fifth_Third_Center_Nashville_From_Plaza.jpg",
+      "author": "Wobbanight",
+      "license": "CC0"
+    },
+    {
+      "title": "High-rises Downtown Nashville TN 2013-07-20 005",
+      "url": "https://commons.wikimedia.org/wiki/File:High-rises_Downtown_Nashville_TN_2013-07-20_005.jpg",
+      "author": "Thomas R Machnitzki",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/nash-fifth-third-center.glb",
+  "source": "generators/nash-fifth-third-center.ts"
+}

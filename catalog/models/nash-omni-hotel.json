@@ -1,0 +1,47 @@
+{
+  "id": "nash-omni-hotel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "hotel",
+    "high-rise"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Omni Hotel Nashville Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Omni_Hotel_Nashville_Tower.jpg",
+      "author": "Brichar60",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Omni, Nashville (Southeast corner)",
+      "url": "https://commons.wikimedia.org/wiki/File:Omni,_Nashville_(Southeast_corner).JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Music City Center (Omni, Country Music Hall of Fame...)",
+      "url": "https://www.flickr.com/photos/41894170584@N01/8459468010",
+      "author": "rexhammock",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/nash-omni-hotel.glb",
+  "source": "generators/nash-omni-hotel.ts"
+}

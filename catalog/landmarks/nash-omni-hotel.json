@@ -1,0 +1,16 @@
+{
+  "id": "nash-omni-hotel",
+  "name": "Omni Nashville Hotel",
+  "model": "nash-omni-hotel",
+  "place": "nashville-area",
+  "lng": -86.7756216,
+  "lat": 36.1573975,
+  "bearing": 62,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/464660187",
+    "way/465454852",
+    "way/986022998"
+  ]
+}

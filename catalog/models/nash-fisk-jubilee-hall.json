@@ -1,0 +1,68 @@
+{
+  "id": "nash-fisk-jubilee-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "university",
+    "victorian-gothic",
+    "national-historic-landmark",
+    "bell-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "South front - Fisk University, Jubilee Hall (HABS TN-19)",
+      "url": "https://commons.wikimedia.org/wiki/File:South_front_-_Fisk_University,_Jubilee_Hall,_Seventeenth_Avenue,_North,_Nashville,_Davidson_County,_TN_HABS_TENN,19-NASH,7A-1.tif",
+      "author": "Jack Boucher, Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "West side and south front - Fisk University, Jubilee Hall (HABS TN-19)",
+      "url": "https://commons.wikimedia.org/wiki/File:West_side_and_south_front_-_Fisk_University,_Jubilee_Hall,_Seventeenth_Avenue,_North,_Nashville,_Davidson_County,_TN_HABS_TENN,19-NASH,7A-3.tif",
+      "author": "Jack Boucher, Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "East side and north (rear) elevations - Fisk University, Jubilee Hall (HABS TN-19)",
+      "url": "https://commons.wikimedia.org/wiki/File:EAST_SIDE_AND_NORTH_(REAR)_ELEVATIONS_-_Fisk_University,_Jubilee_Hall,_Seventeenth_Avenue,_North,_Nashville,_Davidson_County,_TN_HABS_TENN,19-NASH,7A-13.tif",
+      "author": "Gilford Photography, Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Detail, tower from east - Fisk University, Jubilee Hall (HABS TN-19)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detail,_tower_from_east_-_Fisk_University,_Jubilee_Hall,_Seventeenth_Avenue,_North,_Nashville,_Davidson_County,_TN_HABS_TENN,19-NASH,7A-6.tif",
+      "author": "Jack Boucher, Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "North and west sides - Fisk University, Jubilee Hall (HABS TN-19)",
+      "url": "https://commons.wikimedia.org/wiki/File:North_and_west_sides_-_Fisk_University,_Jubilee_Hall,_Seventeenth_Avenue,_North,_Nashville,_Davidson_County,_TN_HABS_TENN,19-NASH,7A-2.tif",
+      "author": "Jack Boucher, Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "JubileeHallFiskU.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:JubileeHallFiskU.jpg",
+      "author": "Fhaywood25",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-fisk-jubilee-hall.glb",
+  "source": "generators/nash-fisk-jubilee-hall.ts"
+}

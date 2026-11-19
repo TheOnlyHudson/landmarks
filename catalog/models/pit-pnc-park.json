@@ -1,0 +1,66 @@
+{
+  "id": "pit-pnc-park",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "baseball",
+    "mlb"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "PNC Park with Roberto Clemente Bridge May 2018",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_Park_with_Roberto_Clemente_Bridge_May_2018.jpg",
+      "author": "Y2kcrazyjoker4",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "PNC-Park-exterior-in-evening-May-2020",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC-Park-exterior-in-evening-May-2020.jpg",
+      "author": "Y2kcrazyjoker4",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Pnc-park-allegheny-river-view",
+      "url": "https://commons.wikimedia.org/wiki/File:Pnc-park-allegheny-river-view.jpg",
+      "author": "Y2kcrazyjoker4",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "title": "PNC Park Pittsburgh",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_Park_Pittsburgh.JPG",
+      "author": "Smallbones",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "PNC Park Pittsburgh PA",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_Park_Pittsburgh_PA.JPG",
+      "author": "Justin417",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "PNC Park (14089233288)",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_Park_(14089233288).jpg",
+      "author": "Barry Wise",
+      "license": "CC-BY-SA-2.0"
+    }
+  ],
+  "file": "models/pit-pnc-park.glb",
+  "source": "generators/pit-pnc-park.ts"
+}

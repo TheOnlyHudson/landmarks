@@ -1,0 +1,48 @@
+{
+  "id": "nash-jw-marriott",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "hotel",
+    "glass"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "JW Marriott Nashville 8-28-2019",
+      "url": "https://commons.wikimedia.org/wiki/File:JW_Marriott_Nashville_8-28-2019.jpg",
+      "author": "JayWells11",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "JW Marriott Hotel, 8th Avenue and Demonbreun Street, Nashville, TN (54384668350)",
+      "url": "https://commons.wikimedia.org/wiki/File:JW_Marriott_Hotel,_8th_Avenue_and_Demonbreun_Street,_Nashville,_TN_(54384668350).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "JW Marriott Nashville during a storm",
+      "url": "https://commons.wikimedia.org/wiki/File:JW_Marriott_Nashville_during_a_storm.jpg",
+      "author": "TennesseeEditor",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-jw-marriott.glb",
+  "source": "generators/nash-jw-marriott.ts"
+}

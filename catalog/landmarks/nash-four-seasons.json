@@ -1,0 +1,14 @@
+{
+  "id": "nash-four-seasons",
+  "name": "Four Seasons Hotel and Private Residences Nashville",
+  "model": "nash-four-seasons",
+  "place": "nashville-area",
+  "lng": -86.7737375,
+  "lat": 36.1605239,
+  "bearing": 62,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/1152585753"
+  ]
+}

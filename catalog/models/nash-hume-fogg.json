@@ -1,0 +1,60 @@
+{
+  "id": "nash-hume-fogg",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "school",
+    "tudor-gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hume-Fogg Academic High School (South face)",
+      "url": "https://commons.wikimedia.org/wiki/File:Hume-Fogg_Academic_High_School_(South_face).JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hume-Fogg High School, Broadway and 7th Avenue, Nashville, TN (54383405777)",
+      "url": "https://commons.wikimedia.org/wiki/File:Hume-Fogg_High_School,_Broadway_and_7th_Avenue,_Nashville,_TN_(54383405777).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Hume-Fogg High School, Broadway and 7th Avenue, Nashville, TN (54384484169)",
+      "url": "https://commons.wikimedia.org/wiki/File:Hume-Fogg_High_School,_Broadway_and_7th_Avenue,_Nashville,_TN_(54384484169).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Hume-Fogg High School, Broadway and 7th Avenue, Nashville, TN (54384291336)",
+      "url": "https://commons.wikimedia.org/wiki/File:Hume-Fogg_High_School,_Broadway_and_7th_Avenue,_Nashville,_TN_(54384291336).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Hume-Fogg School 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Hume-Fogg_School_2022.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-hume-fogg.glb",
+  "source": "generators/nash-hume-fogg.ts"
+}

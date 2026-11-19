@@ -1,0 +1,17 @@
+{
+  "id": "nash-ryman-auditorium",
+  "name": "Ryman Auditorium",
+  "model": "nash-ryman-auditorium",
+  "place": "nashville-area",
+  "lng": -86.778496,
+  "lat": 36.161247,
+  "bearing": 332,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q931449",
+  "replaces": [
+    "way/130905906",
+    "way/464659484",
+    "way/683968785"
+  ]
+}

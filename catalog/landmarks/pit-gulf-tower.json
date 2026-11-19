@@ -1,0 +1,16 @@
+{
+  "id": "pit-gulf-tower",
+  "name": "Gulf Tower",
+  "model": "pit-gulf-tower",
+  "place": "pittsburgh-area",
+  "lng": -79.995213,
+  "lat": 40.442601,
+  "bearing": 27.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/276176765",
+    "way/665326393"
+  ],
+  "wikidata": "Q5617541"
+}

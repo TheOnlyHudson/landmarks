@@ -1,0 +1,62 @@
+{
+  "id": "pit-old-allegheny-county-jail",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "jail",
+    "romanesque-revival",
+    "richardsonian",
+    "bridge-of-sighs"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Old Allegheny County Jail, Ross Street and Forbes Avenue",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Allegheny_County_Jail,_Ross_Street_and_Forbes_Avenue,_Pittsburgh,_PA.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Bridge, Old Allegheny County Jail",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridge,_Old_Allegheny_County_Jail,_Ross_Street_and_Forbes_Avenue,_Pittsburgh,_PA.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Dome of the Jail, 2025-11-14",
+      "url": "https://commons.wikimedia.org/wiki/File:Dome_of_the_Jail,_2025-11-14.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Allegheny County Courthouse skyway over Ross St",
+      "url": "https://commons.wikimedia.org/wiki/File:Allegheny_County_Courthouse_skyway_over_Ross_St_in_Pittsburgh.jpg",
+      "author": "Dllu",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "HABS PA-610, Allegheny County Courthouse and Jail (measured drawings and photos, 1963)",
+      "url": "https://commons.wikimedia.org/wiki/Category:Allegheny_County_Courthouse",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pit-old-allegheny-county-jail.glb",
+  "source": "generators/pit-old-allegheny-county-jail.ts"
+}

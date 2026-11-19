@@ -1,0 +1,65 @@
+{
+  "id": "petra-al-khazneh",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "rock-cut",
+    "tomb",
+    "nabataean",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/petra-al-khazneh.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Al Khazneh Petra edit 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Khazneh_Petra_edit_2.jpg",
+      "author": "Graham Racher",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Al-Khazneh 2, Petra, Jordan.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Al-Khazneh_2,_Petra,_Jordan.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Petra Al Khazneh 2404.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Petra_Al_Khazneh_2404.jpg",
+      "author": "Dosseman",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Al Khazneh 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Khazneh_02.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Restauration du Khasne Petra.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Restauration_du_Khasne_Petra.jpg",
+      "author": "Jacques Ignace Hittorff",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/petra-al-khazneh.glb",
+  "source": "generators/petra-al-khazneh.ts"
+}
