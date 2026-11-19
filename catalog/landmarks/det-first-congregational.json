@@ -1,0 +1,15 @@
+{
+  "id": "det-first-congregational",
+  "name": "First Congregational Church",
+  "model": "det-first-congregational",
+  "place": "detroit-area",
+  "lng": -83.0625955,
+  "lat": 42.3552929,
+  "bearing": 64,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/69139629"
+  ],
+  "wikidata": "Q5452798"
+}
