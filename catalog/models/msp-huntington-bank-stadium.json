@@ -1,0 +1,74 @@
+{
+  "id": "msp-huntington-bank-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "football",
+    "university",
+    "university-of-minnesota"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q3512039",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Huntington Bank Stadium Aerial.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Huntington_Bank_Stadium_Aerial.jpg",
+      "author": "Lectrician2",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "TCF Bank Stadium - University of Minnesota (27003968243).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:TCF_Bank_Stadium_-_University_of_Minnesota_(27003968243).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "TCF Bank Stadium - University of Minnesota 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:TCF_Bank_Stadium_-_University_of_Minnesota_2.jpg",
+      "author": "Randy Stern",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "TCF Bank Stadium - University of Minnesota 4.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:TCF_Bank_Stadium_-_University_of_Minnesota_4.jpg",
+      "author": "Randy Stern",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "TCF Bank Stadium 2.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:TCF_Bank_Stadium_2.JPG",
+      "author": "Andrew Constans",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "TCF Bank Stadium-20100914.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:TCF_Bank_Stadium-20100914.JPG",
+      "author": "SusanLesch",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "TCF Bank Stadium - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:TCF_Bank_Stadium_-_panoramio.jpg",
+      "author": "Jon Platek",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/msp-huntington-bank-stadium.glb",
+  "source": "generators/msp-huntington-bank-stadium.ts"
+}

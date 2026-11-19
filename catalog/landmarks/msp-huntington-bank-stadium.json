@@ -1,0 +1,17 @@
+{
+  "id": "msp-huntington-bank-stadium",
+  "name": "Huntington Bank Stadium",
+  "model": "msp-huntington-bank-stadium",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.224285,
+  "lat": 44.976562,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/8771432",
+    "way/222804498",
+    "way/222804499",
+    "way/630590429"
+  ]
+}
