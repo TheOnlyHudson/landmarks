@@ -1,0 +1,72 @@
+{
+  "id": "nola-louisiana-supreme-court",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "beaux-arts",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Louisiana Supreme Court - New Courts building on Royal Street, New Orleans Feb 2026.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Louisiana_Supreme_Court_-_New_Courts_building_on_Royal_Street,_New_Orleans_Feb_2026.jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "New Courts Building, French Quarter New Orleans November 2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Courts_Building,_French_Quarter_New_Orleans_November_2024.jpg",
+      "author": "Daniel Hartwig",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "New Courts Building, New Orleans.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Courts_Building,_New_Orleans.jpg",
+      "author": "Yair Haklai",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New Orleans French Quarter, 13 November 2024 - New Courts Bldg Curved Entrance.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_French_Quarter,_13_November_2024_-_New_Courts_Bldg_Curved_Entrance.jpg",
+      "author": "Daniel Hartwig",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "French Quarter - New Courts Bldg - New Orleans, March 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:French_Quarter_-_New_Courts_Bldg_-_New_Orleans,_March_2015.jpg",
+      "author": "pasa47",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Louisiana Supreme Court in New Orleans 2.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Louisiana_Supreme_Court_in_New_Orleans_2.JPG",
+      "author": "MusikAnimal",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Louisiana Supreme Court in New Orleans 3.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Louisiana_Supreme_Court_in_New_Orleans_3.JPG",
+      "author": "MusikAnimal",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nola-louisiana-supreme-court.glb",
+  "source": "generators/nola-louisiana-supreme-court.ts"
+}

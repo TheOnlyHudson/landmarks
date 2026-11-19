@@ -1,0 +1,15 @@
+{
+  "id": "nola-louisiana-supreme-court",
+  "name": "Louisiana Supreme Court Building",
+  "model": "nola-louisiana-supreme-court",
+  "place": "new-orleans-area",
+  "lng": -90.066041,
+  "lat": 29.955702,
+  "bearing": 307.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6689316",
+  "replaces": [
+    "way/208550740"
+  ]
+}
