@@ -1,0 +1,20 @@
+{
+  "id": "van-convention-centre-west",
+  "name": "Vancouver Convention Centre West",
+  "model": "van-convention-centre-west",
+  "place": "vancouver",
+  "lng": -123.1159782,
+  "lat": 49.289039,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q2742735",
+  "replaces": [
+    "way/85240507",
+    "way/1526189023",
+    "way/1526189024",
+    "way/1526189025",
+    "way/1526189026",
+    "way/1526189027"
+  ]
+}
