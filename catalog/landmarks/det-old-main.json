@@ -1,0 +1,15 @@
+{
+  "id": "det-old-main",
+  "name": "Old Main, Wayne State University",
+  "model": "det-old-main",
+  "place": "detroit-area",
+  "lng": -83.0672738,
+  "lat": 42.3550917,
+  "bearing": 64,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/8874010"
+  ],
+  "wikidata": "Q7084436"
+}
