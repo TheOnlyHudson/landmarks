@@ -1,0 +1,20 @@
+{
+  "id": "pit-duquesne-incline",
+  "name": "Duquesne Incline",
+  "model": "pit-duquesne-incline",
+  "place": "pittsburgh-area",
+  "lng": -80.018187,
+  "lat": 40.439092,
+  "bearing": 29.43,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1266663",
+  "replaces": [
+    "way/43082419",
+    "way/1243027566",
+    "way/54834750",
+    "way/833629681",
+    "way/550018003",
+    "way/833629682"
+  ]
+}

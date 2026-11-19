@@ -1,0 +1,85 @@
+{
+  "id": "pit-duquesne-incline",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "infrastructure",
+  "tags": [
+    "historic",
+    "funicular",
+    "incline",
+    "railway"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "2008-05-24 Pittsburgh 040 Duquesne Incline (2669552496).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2008-05-24_Pittsburgh_040_Duquesne_Incline_(2669552496).jpg",
+      "author": "Allie_Caulfield",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Duquesne Incline 01.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Duquesne_Incline_01.JPG",
+      "author": "An Errant Knight",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Duquesne Incline 02.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Duquesne_Incline_02.JPG",
+      "author": "An Errant Knight",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Ascending the Duquesne Incline.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ascending_the_Duquesne_Incline.jpg",
+      "author": "Dllu",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Duquesne Incline (3872663412).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Duquesne_Incline_(3872663412).jpg",
+      "author": "Christopher \"Rice\"",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Building at top of Duquesne Incline.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Building_at_top_of_Duquesne_Incline.jpg",
+      "author": "APK",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Duquense Incline (1092013515).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Duquense_Incline_(1092013515).jpg",
+      "author": "daveynin",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Duquesne Incline - headed down.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Duquesne_Incline_-_headed_down.jpg",
+      "author": "APK",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Duquesne Incline - headed up.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Duquesne_Incline_-_headed_up.jpg",
+      "author": "APK",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/pit-duquesne-incline.glb",
+  "source": "generators/pit-duquesne-incline.ts"
+}
