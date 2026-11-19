@@ -1,0 +1,67 @@
+{
+  "id": "pit-mellon-institute",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "university",
+    "neoclassical",
+    "research"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Mellon Institute, Oakland, Pittsburgh, 2019-09-30, 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Mellon_Institute,_Oakland,_Pittsburgh,_2019-09-30,_02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Mellon Institute, Oakland, Pittsburgh, 2019-09-30, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Mellon_Institute,_Oakland,_Pittsburgh,_2019-09-30,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Mellon-Institute",
+      "url": "https://commons.wikimedia.org/wiki/File:Mellon-Institute.jpg",
+      "author": "MartinThoma",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Mellon Institute 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Mellon_Institute_01.JPG",
+      "author": "Piotrus",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Mellon Institute 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Mellon_Institute_02.JPG",
+      "author": "Piotrus",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Mellon Institute entrance at twilight, 2022-12-07, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Mellon_Institute_entrance_at_twilight,_2022-12-07,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/pit-mellon-institute.glb",
+  "source": "generators/pit-mellon-institute.ts"
+}

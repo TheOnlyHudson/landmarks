@@ -1,0 +1,18 @@
+{
+  "id": "pit-mellon-institute",
+  "name": "Mellon Institute",
+  "model": "pit-mellon-institute",
+  "place": "pittsburgh-area",
+  "lng": -79.951053,
+  "lat": 40.446116,
+  "bearing": 347.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3854267",
+  "replaces": [
+    "relation/20147694",
+    "way/25795368",
+    "way/1472093013",
+    "way/1472093014"
+  ]
+}
