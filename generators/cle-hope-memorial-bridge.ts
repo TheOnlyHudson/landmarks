@@ -387,7 +387,7 @@ function pylon(cu: number, cy: number, r0: number) {
   }
   for (const s of SIDES) {
     const f = cy + s * hy
-    const R = (du: [number, number], dp: [number, number], z: [number, number], w?: Parameters<typeof relief>[7], p = figure) => relief(p, cu, f, s, du, dp, z, r0, w)
+    const R = (du: [number, number], dp: [number, number], z: [number, number], w?: Parameters<typeof relief>[8], p = figure) => relief(p, cu, f, s, du, dp, z, r0, w)
     // The niche: a raised stone frame round the head, under the crown's shoulders.
     R([-hx, -1.45], [0, 0.3], [9.6, 12.9], { sides: true }, stone)
     R([1.45, hx], [0, 0.3], [9.6, 12.9], { sides: true }, stone)
