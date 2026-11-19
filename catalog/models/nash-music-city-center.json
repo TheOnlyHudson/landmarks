@@ -1,0 +1,66 @@
+{
+  "id": "nash-music-city-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "convention-center",
+    "green-roof",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Music City Center 2022a",
+      "url": "https://commons.wikimedia.org/wiki/File:Music_City_Center_2022a.png",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Music City Center (Northeast corner) 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Music_City_Center_(Northeast_corner)_1.JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Music City Center (Northeast face) 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Music_City_Center_(Northeast_face)_2.JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Music City Center (looking Southwest)",
+      "url": "https://commons.wikimedia.org/wiki/File:Music_City_Center_(looking_Southwest).JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Music City Center in Nashville, TN 2013-12-03 19-31",
+      "url": "https://commons.wikimedia.org/wiki/File:Music_City_Center_in_Nashville,_TN_2013-12-03_19-31.jpg",
+      "author": "Pjgdds",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Music City Center - acre of solar panels",
+      "url": "https://commons.wikimedia.org/wiki/File:Music_City_Center_-_acre_of_solar_panels.jpg",
+      "author": "Rex Hammock",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/nash-music-city-center.glb",
+  "source": "generators/nash-music-city-center.ts"
+}

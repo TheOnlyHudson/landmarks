@@ -1,0 +1,16 @@
+{
+  "id": "nash-music-city-center",
+  "name": "Music City Center",
+  "model": "nash-music-city-center",
+  "place": "nashville-area",
+  "lng": -86.7784512,
+  "lat": 36.1568429,
+  "bearing": 62.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q6941476",
+  "replaces": [
+    "way/107627729",
+    "way/464660188"
+  ]
+}
