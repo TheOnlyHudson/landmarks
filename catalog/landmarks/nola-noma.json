@@ -1,0 +1,16 @@
+{
+  "id": "nola-noma",
+  "name": "New Orleans Museum of Art",
+  "model": "nola-noma",
+  "place": "new-orleans-area",
+  "lng": -90.093413,
+  "lat": 29.986498,
+  "bearing": 308,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/325825515",
+    "way/1345290804"
+  ],
+  "wikidata": "Q2063082"
+}
