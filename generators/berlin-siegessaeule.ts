@@ -97,7 +97,7 @@ import { wallsPoly, capPoly, type XY } from './dc-national-cathedral'
 import { ellipsoid, tube, solid, slab, TAU } from './nyc-columbus-monument'
 import { ell, place, LOW, HIGH, type Q } from './london-albert-memorial'
 import { lathe as rev } from './berlin-fernsehturm'
-import { welded } from './berlin-reichstag'
+import { welded } from './berlin-kit'
 import { mat } from './berlin-konzerthaus'
 
 export const ID = 'berlin-siegessaeule'

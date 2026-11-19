@@ -72,7 +72,7 @@
  */
 import { Part, type V3 } from './mesh'
 import { writeModel } from './london-buckingham-palace'
-import { welded, type XY } from './berlin-reichstag'
+import { welded, type XY } from './berlin-kit'
 import { polyPrism, outQuad, upTri, edgePanel, mat } from './berlin-philharmonie'
 
 export const BEARING = 18.4

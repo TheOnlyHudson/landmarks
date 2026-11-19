@@ -102,7 +102,7 @@ import { ionic, lodKit, faceOf, fpanel, fblock, type Lod, type Face } from './lo
 import { place, figure, wing, ell, LOW, HIGH, type Q } from './london-albert-memorial'
 import { ellipsoid, tube, solid, slab, lathe, TAU } from './nyc-columbus-monument'
 import { lion, quadrupedWithWings } from './berlin-altes-museum'
-import { welded } from './berlin-reichstag'
+import { welded } from './berlin-kit'
 
 export const ID = 'berlin-konzerthaus'
 export const BEARING = 354.35

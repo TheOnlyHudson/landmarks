@@ -100,7 +100,7 @@ import { faceOf, fpanel, fblock, type Face } from './london-british-museum'
 import { wallsPoly, capPoly, type XY } from './dc-national-cathedral'
 import { ellipsoid, tube, TAU } from './nyc-columbus-monument'
 import { lathe as rev } from './berlin-fernsehturm'
-import { welded } from './berlin-reichstag'
+import { welded } from './berlin-kit'
 import { mat } from './berlin-konzerthaus'
 import { roundWin } from './berlin-franzoesischer-dom'
 

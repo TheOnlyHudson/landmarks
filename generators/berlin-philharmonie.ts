@@ -73,7 +73,7 @@
  */
 import { Part, type V3, type MaterialSpec } from './mesh'
 import { writeModel } from './london-buckingham-palace'
-import { welded, ccw, ringLoft, ringBand, type XY } from './berlin-reichstag'
+import { welded, ccw, ringLoft, ringBand, type XY } from './berlin-kit'
 import { earcut } from './berlin-chancellery'
 
 export const BEARING = 0

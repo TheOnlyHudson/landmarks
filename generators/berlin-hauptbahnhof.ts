@@ -82,7 +82,7 @@ import { Part, type V3, type MaterialSpec } from './mesh'
 import { lathe, face, TAU } from './nyc-columbus-monument'
 import { writeModel, box } from './london-buckingham-palace'
 import { LOW, HIGH, type Q } from './london-albert-memorial'
-import { welded, faceOf, fpanel, fp, type XY } from './berlin-reichstag'
+import { welded, faceOf, fpanel, fp, type XY } from './berlin-kit'
 
 export const BEARING = 336.5
 const ZS = 3.9

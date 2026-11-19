@@ -75,7 +75,7 @@ import { Part, type V3, type MaterialSpec } from './mesh'
 import { lathe, face, TAU } from './nyc-columbus-monument'
 import { writeModel, box, cbox } from './london-buckingham-palace'
 import { LOW, HIGH, type Q } from './london-albert-memorial'
-import { welded, ringLoft, ccw, faceOf, fpanel, flen, type XY } from './berlin-reichstag'
+import { welded, ringLoft, ccw, faceOf, fpanel, flen, type XY } from './berlin-kit'
 
 export const BEARING = 0
 const SHIFT: XY = [25.8, 11.77]

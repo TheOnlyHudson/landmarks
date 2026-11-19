@@ -89,7 +89,7 @@
  */
 import { Part, type V3 } from './mesh'
 import { writeModel } from './london-buckingham-palace'
-import { welded, ccw, type XY } from './berlin-reichstag'
+import { welded, ccw, type XY } from './berlin-kit'
 import { polyPrism, edgePanel, mat } from './berlin-philharmonie'
 import { tube } from './nyc-columbus-monument'
 
