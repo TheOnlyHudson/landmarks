@@ -1,0 +1,17 @@
+{
+  "id": "nola-national-wwii-museum",
+  "name": "The National WWII Museum",
+  "model": "nola-national-wwii-museum",
+  "place": "new-orleans-area",
+  "lng": -90.07074,
+  "lat": 29.94217,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1477833",
+  "replaces": [
+    "way/328026344",
+    "way/328026280",
+    "way/328026368"
+  ]
+}

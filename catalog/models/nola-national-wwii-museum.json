@@ -1,0 +1,77 @@
+{
+  "id": "nola-national-wwii-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "The National WWII Museum (55152081455).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_National_WWII_Museum_(55152081455).jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Camp Street, New Orleans Central Business District, 16 September 2021 - 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Camp_Street,_New_Orleans_Central_Business_District,_16_September_2021_-_01.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Tivoli Circle, New Orleans, 16 September 2021 - 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tivoli_Circle,_New_Orleans,_16_September_2021_-_02.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Magazine Street, New Orleans CBD 1 May 2025 - National WWII Museum visitors.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Magazine_Street,_New_Orleans_CBD_1_May_2025_-_National_WWII_Museum_visitors.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "National World War II Museum, New Orleans, 14 November 2024 (category)",
+      "url": "https://commons.wikimedia.org/wiki/Category:National_World_War_II_Museum,_November_2024",
+      "author": "dwhartwig",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Louisiana Memorial Pavillion at WWII Museum.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Louisiana_Memorial_Pavillion_at_WWII_Museum.jpg",
+      "author": "Nolabob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Main entrance to the National World War II Museum.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_entrance_to_the_National_World_War_II_Museum.jpg",
+      "author": "Nolabob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "New Orleans May 2017 - National WWII Museum.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_May_2017_-_National_WWII_Museum.jpg",
+      "author": "xiquinhosilva",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nola-national-wwii-museum.glb",
+  "source": "generators/nola-national-wwii-museum.ts"
+}
