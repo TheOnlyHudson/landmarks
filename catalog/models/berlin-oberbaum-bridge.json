@@ -1,0 +1,84 @@
+{
+  "id": "berlin-oberbaum-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bridge",
+    "arch-bridge",
+    "brick",
+    "gothic-revival",
+    "u-bahn",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/berlin-oberbaum-bridge.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Oberbaumbrücke November 2013 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Oberbaumbrücke_November_2013_01.jpg",
+      "author": "Arild Vågen",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Oberbaumbrücke, Berlin, Northwest view 20130725 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Oberbaumbrücke,_Berlin,_Northwest_view_20130725_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berlin, Oberbaumbrücke -- 2019 -- 4335.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Oberbaumbrücke_--_2019_--_4335.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Oberbaum Bridge, Berlin 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Oberbaum_Bridge,_Berlin_01.jpg",
+      "author": "Ank Kumar",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Oberbaumbrücke von Westen, Berlin, 170331, ako.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Oberbaumbrücke_von_Westen,_Berlin,_170331,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Oberbaumbrücke mit U-Bahn.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Oberbaumbrücke_mit_U-Bahn.jpg",
+      "author": "Sarah Jane",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Oberbaumbrücke (Berlin) (1).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Oberbaumbrücke_(Berlin)_(1).jpg",
+      "author": "Joseolgon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Oberbaumbrücke Berlin 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Oberbaumbrücke_Berlin_1.jpg",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/berlin-oberbaum-bridge.glb",
+  "source": "generators/berlin-oberbaum-bridge.ts"
+}
