@@ -1,0 +1,18 @@
+{
+  "id": "mia-dade-county-courthouse",
+  "name": "Miami-Dade County Courthouse",
+  "model": "mia-dade-county-courthouse",
+  "place": "miami-area",
+  "lng": -80.1951364,
+  "lat": 25.7745868,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q3011775",
+  "replaces": [
+    "way/294683600",
+    "way/1105389930",
+    "way/1105389931",
+    "way/467888602"
+  ]
+}
