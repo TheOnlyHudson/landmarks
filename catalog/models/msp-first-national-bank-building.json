@@ -1,0 +1,56 @@
+{
+  "id": "msp-first-national-bank-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "skyscraper",
+    "art-deco",
+    "neon-sign"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q5453387",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "1st (2402087047).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:1st_(2402087047).jpg"
+    },
+    {
+      "title": "1st Sunrise (2618520864).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:1st_Sunrise_(2618520864).jpg"
+    },
+    {
+      "title": "First National Bank Building, Saint Paul, MN.jpg",
+      "author": "Michael Hicks",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:First_National_Bank_Building,_Saint_Paul,_MN.jpg"
+    },
+    {
+      "title": "2019-0819-StP-First National Bank Building.JPG",
+      "author": "Bobak Ha'Eri",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:2019-0819-StP-First_National_Bank_Building.JPG"
+    }
+  ],
+  "file": "models/msp-first-national-bank-building.glb",
+  "source": "generators/msp-first-national-bank-building.ts"
+}
