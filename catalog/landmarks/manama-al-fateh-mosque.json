@@ -1,0 +1,15 @@
+{
+  "id": "manama-al-fateh-mosque",
+  "name": "Al Fateh Grand Mosque",
+  "model": "manama-al-fateh-mosque",
+  "place": "manama",
+  "lng": 50.5983385,
+  "lat": 26.21899,
+  "bearing": 336,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2086076",
+  "replaces": [
+    "way/29253447"
+  ]
+}
