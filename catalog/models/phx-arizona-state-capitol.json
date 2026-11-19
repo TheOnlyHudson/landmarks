@@ -1,0 +1,86 @@
+{
+  "id": "phx-arizona-state-capitol",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "capitol",
+    "government",
+    "dome",
+    "museum",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Arizona State Capitol, Washington Street and 17th Avenue, Phoenix, AZ.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Arizona_State_Capitol,_Washington_Street_and_17th_Avenue,_Phoenix,_AZ.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Arizona State Capitol, Washington Street and 17th Avenue, Phoenix, AZ - 54441819204.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Arizona_State_Capitol,_Washington_Street_and_17th_Avenue,_Phoenix,_AZ_-_54441819204.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Arizona State Capitol, Washington Street and 17th Avenue, Phoenix, AZ - 54442001905.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Arizona_State_Capitol,_Washington_Street_and_17th_Avenue,_Phoenix,_AZ_-_54442001905.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Arizona State Capitol, Washington Street and 17th Avenue, Phoenix, AZ - 54441627131.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Arizona_State_Capitol,_Washington_Street_and_17th_Avenue,_Phoenix,_AZ_-_54441627131.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Arizona State Capitol, Washington Street and 17th Avenue, Phoenix, AZ - 54441630021.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Arizona_State_Capitol,_Washington_Street_and_17th_Avenue,_Phoenix,_AZ_-_54441630021.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Arizona State Capitol, Washington Street and 17th Avenue, Phoenix, AZ - 54440772467.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Arizona_State_Capitol,_Washington_Street_and_17th_Avenue,_Phoenix,_AZ_-_54440772467.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Arizona State Capitol, Washington Street and 17th Avenue, Phoenix, AZ - 54441878778.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Arizona_State_Capitol,_Washington_Street_and_17th_Avenue,_Phoenix,_AZ_-_54441878778.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "AZ State Capitol Building 80635.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:AZ_State_Capitol_Building_80635.JPG",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Arizona State Capitol Daytime December 2021.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Arizona_State_Capitol_Daytime_December_2021.jpg",
+      "author": "David Jiang",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/phx-arizona-state-capitol.glb",
+  "source": "generators/phx-arizona-state-capitol.ts"
+}
