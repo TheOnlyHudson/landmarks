@@ -1,0 +1,54 @@
+{
+  "id": "det-sweetest-heart-of-mary",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sweetest Heart of Mary Catholic Church (Detroit, MI) - exterior",
+      "url": "https://commons.wikimedia.org/wiki/File:Sweetest_Heart_of_Mary_Catholic_Church_(Detroit,_MI)_-_exterior.jpg",
+      "author": "Nheyob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Sweetest Heart of Mary Catholic Church (Detroit, MI) - exterior, side portal",
+      "url": "https://commons.wikimedia.org/wiki/File:Sweetest_Heart_of_Mary_Catholic_Church_(Detroit,_MI)_-_exterior,_side_portal.jpg",
+      "author": "Nheyob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "SweetestHeartOfMaryRCC",
+      "url": "https://commons.wikimedia.org/wiki/File:SweetestHeartOfMaryRCC.jpg",
+      "author": "Andrew Jameson",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Sweetest Heart of Mary Catholic Church, Detroit, Michigan 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Sweetest_Heart_of_Mary_Catholic_Church,_Detroit,_Michigan_01.jpg",
+      "author": "Stephanie A. Terry",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/det-sweetest-heart-of-mary.glb",
+  "source": "generators/det-sweetest-heart-of-mary.ts"
+}
