@@ -1,0 +1,72 @@
+{
+  "id": "pit-carnegie-institute",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Carnegie Institute, Oakland, Pittsburgh, 2026-06-17",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Institute,_Oakland,_Pittsburgh,_2026-06-17.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Carnegie Institute, Oakland, 2023-01-11, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Institute,_Oakland,_2023-01-11,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Carnegie Museum of Natural History as seen from Cathedral of Learning",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Museum_of_Natural_History_as_seen_from_Cathedral_of_Learning.jpg",
+      "author": "Dllu",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Carnegie Institute of Pittsburgh (2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Institute_of_Pittsburgh_(2).jpg",
+      "author": "Kevin Albright",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "2008-05-25 Pittsburgh 130 Oakland, Carnegie Museum of Art - Museumof Natural History (2672256124)",
+      "url": "https://commons.wikimedia.org/wiki/File:2008-05-25_Pittsburgh_130_Oakland,_Carnegie_Museum_of_Art_-_Museumof_Natural_History_(2672256124).jpg",
+      "author": "Allie_Caulfield",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Carnegie Music Hall Pittsburgh",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Music_Hall_Pittsburgh.JPG",
+      "author": "HoboJones",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Carnegie Music Hall Pittsburgh 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Music_Hall_Pittsburgh_2.jpg",
+      "author": "HoboJones",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/pit-carnegie-institute.glb",
+  "source": "generators/pit-carnegie-institute.ts"
+}
