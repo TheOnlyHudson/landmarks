@@ -1,0 +1,69 @@
+{
+  "id": "cle-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "civic",
+    "city-hall",
+    "beaux-arts",
+    "historic",
+    "group-plan"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Cleveland City Hall (1916, J. Milton Dyer): the Group Plan's granite palazzo on the lakefront bluff, with a giant colonnade over an arcaded base, a columned centre pavilion and attic, and a green copper roof.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleveland City Hall in 2012",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_City_Hall_in_2012.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland City Hall",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_City_Hall.jpg",
+      "author": "Mike Russell (uploader)",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Cleveland City Hall 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_City_Hall_2.jpg",
+      "author": "Mike Russell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Cleveland City Hall",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_City_Hall.png",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "City Hall Bldg-Fed Ctr",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Hall_Bldg-Fed_Ctr.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "HABS OH-428-5, aerial view of north elevation, Cleveland City Hall",
+      "url": "https://commons.wikimedia.org/wiki/File:Tibor_Gasparik,photographer,date_unknown,aerial_view_of_north_elevation_-_Cleveland_City_Hall,_601_Lakeside_Avenue,_Cleveland,_Cuyahoga_County,_OH_HABS_OHIO,18-CLEV,35-5.tif",
+      "author": "Tibor Gasparik (HABS)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/cle-city-hall.glb",
+  "source": "generators/cle-city-hall.ts"
+}
