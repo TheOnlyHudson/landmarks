@@ -1,0 +1,15 @@
+{
+  "id": "nola-saenger-theatre",
+  "name": "Saenger Theatre",
+  "model": "nola-saenger-theatre",
+  "place": "new-orleans-area",
+  "lng": -90.072559,
+  "lat": 29.95641,
+  "bearing": 38,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7398302",
+  "replaces": [
+    "way/367725783"
+  ]
+}
