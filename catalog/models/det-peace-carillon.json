@@ -1,0 +1,55 @@
+{
+  "id": "det-peace-carillon",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "historic",
+    "bell-tower",
+    "carillon",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Nancy Brown Peace Carillon",
+      "url": "https://commons.wikimedia.org/wiki/File:Nancy_Brown_Peace_Carillon.jpg",
+      "author": "Drklinkert",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Belle Isle carillon - Detroit Michigan",
+      "url": "https://commons.wikimedia.org/wiki/File:Belle_Isle_carillon_-_Detroit_Michigan.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Nancy Brown Peace Carillon - Belle Isle",
+      "url": "https://commons.wikimedia.org/wiki/File:Nancy_Brown_Peace_Carillon_-_Belle_Isle.jpg",
+      "author": "TracieMichelle",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nancy Brown Peace Carillon Tower, Belle Isle, Michigan, 2025-07-27",
+      "url": "https://commons.wikimedia.org/wiki/File:Nancy_Brown_Peace_Carillon_Tower,_Belle_Isle,_Michigan,_2025-07-27.jpg",
+      "author": "Chris Woodrich",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/det-peace-carillon.glb",
+  "source": "generators/det-peace-carillon.ts"
+}
