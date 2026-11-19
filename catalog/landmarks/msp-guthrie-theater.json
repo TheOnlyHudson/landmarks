@@ -1,0 +1,20 @@
+{
+  "id": "msp-guthrie-theater",
+  "name": "Guthrie Theater",
+  "model": "msp-guthrie-theater",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.2553788,
+  "lat": 44.9781657,
+  "bearing": 30,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2027239",
+  "replaces": [
+    "way/129937715",
+    "way/129937704",
+    "way/129937709",
+    "way/129937712",
+    "way/129937720",
+    "way/129937722"
+  ]
+}
