@@ -1,0 +1,22 @@
+{
+  "id": "nola-presbytere",
+  "name": "The Presbytère",
+  "model": "nola-presbytere",
+  "place": "new-orleans-area",
+  "lng": -90.0634427,
+  "lat": 29.9582231,
+  "bearing": 307.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q12066398",
+  "replaces": [
+    "relation/4610716",
+    "way/1548518181",
+    "way/1548822563",
+    "way/1548822564",
+    "way/1548822565",
+    "way/1548822566",
+    "way/1548822567",
+    "way/1548822568"
+  ]
+}
