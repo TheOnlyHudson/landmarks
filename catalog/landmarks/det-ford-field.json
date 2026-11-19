@@ -1,0 +1,18 @@
+{
+  "id": "det-ford-field",
+  "name": "Ford Field",
+  "model": "det-ford-field",
+  "place": "detroit-area",
+  "lng": -83.0456597,
+  "lat": 42.3399946,
+  "bearing": 154,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1142586",
+  "replaces": [
+    "way/110555613",
+    "way/559288135",
+    "way/110555611",
+    "way/110555614"
+  ]
+}
