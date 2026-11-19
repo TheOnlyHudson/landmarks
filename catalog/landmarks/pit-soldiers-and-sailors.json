@@ -1,0 +1,15 @@
+{
+  "id": "pit-soldiers-and-sailors",
+  "name": "Soldiers and Sailors Memorial Hall",
+  "model": "pit-soldiers-and-sailors",
+  "place": "pittsburgh-area",
+  "lng": -79.956436,
+  "lat": 40.445047,
+  "bearing": 316.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7557406",
+  "replaces": [
+    "way/154945608"
+  ]
+}
