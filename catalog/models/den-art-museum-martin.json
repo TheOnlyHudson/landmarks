@@ -1,0 +1,83 @@
+{
+  "id": "den-art-museum-martin",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Denver Art Museum - Martin Building 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Art_Museum_-_Martin_Building_01.jpg",
+      "author": "DutchTreat",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Art Museum - Martin Building 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Art_Museum_-_Martin_Building_02.jpg",
+      "author": "DutchTreat",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Art Museum Main Building.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Art_Museum_Main_Building.jpg",
+      "author": "KM Newnham",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "Denver Art Museum built 1971.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Art_Museum_built_1971.JPG",
+      "author": "Shoshie8",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Denver Art Museum, North Building.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Art_Museum,_North_Building.jpg",
+      "author": "Isarra",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Denver Art Museum IMG 20180416 152825.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Art_Museum_IMG_20180416_152825.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Art Museum (54940437051).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Art_Museum_(54940437051).jpg",
+      "author": "Daniel Hartwig",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "USGS 3DEP lidar CO_DRCOG_2_2020",
+      "url": "https://www.usgs.gov/3d-elevation-program",
+      "author": "USGS",
+      "license": "Public domain"
+    },
+    {
+      "title": "USGS NAIP orthoimagery",
+      "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+      "author": "USDA / USGS",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/den-art-museum-martin.glb",
+  "source": "generators/den-art-museum-martin.ts"
+}

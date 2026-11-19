@@ -1,0 +1,25 @@
+{
+  "id": "den-art-museum-martin",
+  "name": "Denver Art Museum, Martin Building",
+  "model": "den-art-museum-martin",
+  "place": "denver-area",
+  "lng": -104.98965,
+  "lat": 39.73745,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/35205743",
+    "way/547381239",
+    "way/547381241",
+    "way/547381629",
+    "way/590331772",
+    "way/590331775",
+    "way/590332860",
+    "way/590554507",
+    "way/590554508",
+    "way/590554521",
+    "way/590554539"
+  ],
+  "wikidata": "Q1189960"
+}
