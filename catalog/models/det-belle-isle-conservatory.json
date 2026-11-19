@@ -1,0 +1,67 @@
+{
+  "id": "det-belle-isle-conservatory",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "conservatory",
+    "greenhouse",
+    "park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Detroit - Anna Scripps Whitcomb Conservatory 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_-_Anna_Scripps_Whitcomb_Conservatory_02.jpg",
+      "author": "P. Hughes",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Belle Isle Whitcomb Conservatory",
+      "url": "https://commons.wikimedia.org/wiki/File:Belle_Isle_Whitcomb_Conservatory.jpg",
+      "author": "Elizabeth McMillan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Anna Scripps Whitcomb Conservatory (3478836789)",
+      "url": "https://commons.wikimedia.org/wiki/File:Anna_Scripps_Whitcomb_Conservatory_(3478836789).jpg",
+      "author": "PDru2014",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Anna Scripps Whitcomb Conservatory, Belle Isle, Detroit, Michigan",
+      "url": "https://commons.wikimedia.org/wiki/File:Anna_Scripps_Whitcomb_Conservatory,_Belle_Isle,_Detroit,_Michigan.jpg",
+      "author": "SigmaIota",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Front View of Conservatory",
+      "url": "https://commons.wikimedia.org/wiki/File:Front_View_of_Conservatory.JPG",
+      "author": "JLHA3050",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Conservatory Final",
+      "url": "https://commons.wikimedia.org/wiki/File:Conservatory_Final.jpg",
+      "author": "Drklinkert",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/det-belle-isle-conservatory.glb",
+  "source": "generators/det-belle-isle-conservatory.ts"
+}
