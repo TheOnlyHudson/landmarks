@@ -1,0 +1,15 @@
+{
+  "id": "nash-downtown-presbyterian",
+  "name": "Downtown Presbyterian Church",
+  "model": "nash-downtown-presbyterian",
+  "place": "nashville-area",
+  "lng": -86.779808,
+  "lat": 36.16304,
+  "bearing": 332,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/267404662"
+  ],
+  "wikidata": "Q5303550"
+}
