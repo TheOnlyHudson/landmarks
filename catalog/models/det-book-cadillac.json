@@ -1,0 +1,48 @@
+{
+  "id": "det-book-cadillac",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "hotel",
+    "skyscraper"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Detroit December 2018 02 (Westin Book Cadillac Hotel)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_December_2018_02_(Westin_Book_Cadillac_Hotel).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Book Cadillac from Washington Blvd, April 2008",
+      "url": "https://commons.wikimedia.org/wiki/File:BookCadillacfromWashingtonBlvd_april2008.jpg",
+      "author": "Mike Russell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Book Cadillac Hotel typical floor plan",
+      "url": "https://commons.wikimedia.org/wiki/File:Book_Cadillac_Hotel_typical_floor_plan.png",
+      "author": "Louis Kamper",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/det-book-cadillac.glb",
+  "source": "generators/det-book-cadillac.ts"
+}
