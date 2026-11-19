@@ -1,0 +1,18 @@
+{
+  "id": "mia-one-thousand-museum",
+  "name": "One Thousand Museum",
+  "model": "mia-one-thousand-museum",
+  "place": "miami-area",
+  "lng": -80.190147,
+  "lat": 25.7842263,
+  "bearing": 358.15,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q19817557",
+  "replaces": [
+    "relation/9396621",
+    "relation/9396620",
+    "way/1105396201",
+    "way/992535455"
+  ]
+}
