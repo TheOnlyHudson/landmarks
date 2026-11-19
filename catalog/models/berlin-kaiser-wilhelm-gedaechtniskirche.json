@@ -1,0 +1,85 @@
+{
+  "id": "berlin-kaiser-wilhelm-gedaechtniskirche",
+  "file": "models/berlin-kaiser-wilhelm-gedaechtniskirche.glb",
+  "detail": "models/berlin-kaiser-wilhelm-gedaechtniskirche.detail.glb",
+  "detailZoom": 17,
+  "source": "generators/berlin-kaiser-wilhelm-gedaechtniskirche.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "ruin",
+    "memorial",
+    "neo-romanesque",
+    "modernist",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The soot-darkened ruin of Schwechten's west tower, the 'hollow tooth' with the torn ribs and skin of its copper helm over the arched belfry, beside Eiermann's octagonal church and hexagonal bell tower in their dark concrete honeycomb of small blue glass cells, with the foyer and chapel.",
+  "references": [
+    {
+      "title": "20220812 Kaiser-Wilhelm-Gedächtniskirche.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:20220812_Kaiser-Wilhelm-Ged%C3%A4chtniskirche.jpg",
+      "author": "Flocci Nivis",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Tower of Kaiser Wilhelm Memorial Church 2014-07-12.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Kaiser_Wilhelm_Memorial_Church_2014-07-12.jpg",
+      "author": "Slaunger",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Top view of Kaiser Wilhelm Memorial Church 2014-07-12.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Top_view_of_Kaiser_Wilhelm_Memorial_Church_2014-07-12.jpg",
+      "author": "Slaunger",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Kaiser-Wilhelm-Gedaechtniskirche 05-13 view 04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kaiser-Wilhelm-Gedaechtniskirche_05-13_view_04.jpg",
+      "author": "A.Savin",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Kaiser Wilhelm Memorial Church 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_Memorial_Church_2015.jpg",
+      "author": "Perituss",
+      "license": "CC0"
+    },
+    {
+      "title": "Exterior of Kaiser-Wilhelm-Gedächtniskirche, 2024 (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Kaiser-Wilhelm-Ged%C3%A4chtniskirche,_2024_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Exterior of Kaiser-Wilhelm-Gedächtniskirche, Berlin 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Kaiser-Wilhelm-Ged%C3%A4chtniskirche,_Berlin_01.jpg",
+      "author": "John Samuel",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Kaiser-Wilhelm-Gedächtniskirche-Bei-Nacht-2026.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kaiser-Wilhelm-Ged%C3%A4chtniskirche-Bei-Nacht-2026.jpg",
+      "author": "Tuxyso",
+      "license": "CC-BY-SA-4.0"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "berlin-funkturm",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "radio-tower",
+    "lattice-tower",
+    "observation-tower",
+    "restaurant",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/berlin-funkturm.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Berliner Funkturm Blauer Himmel.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Funkturm_Blauer_Himmel.jpg",
+      "author": "Jojoo64",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berliner Funkturm from the Drachenberg 05.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Funkturm_from_the_Drachenberg_05.jpg",
+      "author": "Leonhard Lenz",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berliner Funkturm Details 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Funkturm_Details_02.jpg",
+      "author": "H.Helmlechner",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berliner Funkturm Details 04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Funkturm_Details_04.jpg",
+      "author": "H.Helmlechner",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Funkturm Berlin View 05.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Funkturm_Berlin_View_05.jpg",
+      "author": "A.Savin",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Funkturm Berlin View 06.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Funkturm_Berlin_View_06.jpg",
+      "author": "A.Savin",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Berlin Funkturm 2026-04-01 img01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Funkturm_2026-04-01_img01.jpg",
+      "author": "LarsMueller",
+      "license": "CC0"
+    },
+    {
+      "title": "Funkturm Berlin at night 2025-04-12 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Funkturm_Berlin_at_night_2025-04-12_01.jpg",
+      "author": "Leonhard Lenz",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/berlin-funkturm.glb",
+  "source": "generators/berlin-funkturm.ts"
+}

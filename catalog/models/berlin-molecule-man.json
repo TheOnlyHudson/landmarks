@@ -1,0 +1,77 @@
+{
+  "id": "berlin-molecule-man",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "sculpture",
+    "public-art",
+    "aluminium",
+    "spree",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/berlin-molecule-man.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "5217 Berlin Molecule Man.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:5217_Berlin_Molecule_Man.jpg",
+      "author": "Spyrosdrakopoulos",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Molecule Man - Berlin - 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Molecule_Man_-_Berlin_-_2013.jpg",
+      "author": "Avda",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Molecule Man in Berlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Molecule_Man_in_Berlin.jpg",
+      "author": "Allthingsberlin",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berlin - Molecule Man (2).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_-_Molecule_Man_(2).jpg",
+      "author": "Fred Romero",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Molecule man 2007 12 09 picture 01.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Molecule_man_2007_12_09_picture_01.JPG",
+      "author": "Stefan Sordon",
+      "license": "Public domain"
+    },
+    {
+      "title": "Berlin Spree Molecule men nahansicht.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Spree_Molecule_men_nahansicht.jpg",
+      "author": "Jensen",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Molecule Man (32074679122).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Molecule_Man_(32074679122).jpg",
+      "author": "tian2992",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/berlin-molecule-man.glb",
+  "source": "generators/berlin-molecule-man.ts"
+}

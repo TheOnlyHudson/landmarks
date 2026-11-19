@@ -1,0 +1,85 @@
+{
+  "id": "berlin-siegessaeule",
+  "file": "models/berlin-siegessaeule.glb",
+  "detail": "models/berlin-siegessaeule.detail.glb",
+  "detailZoom": 16,
+  "source": "generators/berlin-siegessaeule.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "column",
+    "victory-column",
+    "sculpture",
+    "gilded",
+    "tiergarten",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Strack's Victory Column (1864-73, raised 1939): the red granite base with its bronze reliefs, the round hall of sixteen granite columns before the mosaic, the four fluted sandstone drums with their gilded cannon barrels and laurel festoons, the viewing platform and Drake's gilt Victoria.",
+  "references": [
+    {
+      "title": "Siegessäule Berlin - victory column Berlin - 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Siegess%C3%A4ule_Berlin_-_victory_column_Berlin_-_01.jpg",
+      "author": "Norbert Nagel",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Siegessäule Berlin - victory column Berlin - 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Siegess%C3%A4ule_Berlin_-_victory_column_Berlin_-_02.jpg",
+      "author": "Norbert Nagel",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Victory Column or Siegessäule in Berlin Tiergarten 0965.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Victory_Column_or_Siegess%C3%A4ule_in_Berlin_Tiergarten_0965.jpg",
+      "author": "Dosseman",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Victoria statue on the Berlin Victory Column, Berlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Victoria_statue_on_the_Berlin_Victory_Column,_Berlin.jpg",
+      "author": "Christian David",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Berlin Victory Column 04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Victory_Column_04.jpg",
+      "author": "Flocci Nivis",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Berlin Victory Column at afternoon.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Victory_Column_at_afternoon.jpg",
+      "author": "Leonhard Lenz",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2025-05-28 Stadtansicht Berlin; Siegessäule Großer Stern STP 5757.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2025-05-28_Stadtansicht_Berlin;_Siegess%C3%A4ule_Gro%C3%9Fer_Stern_STP_5757.jpg",
+      "author": "Steffen Prößdorf",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Berliner Siegessäule - Berlin Victory Column photo3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Siegess%C3%A4ule_-_Berlin_Victory_Column_photo3.jpg",
+      "author": "Sami Mlouhi",
+      "license": "CC-BY-SA-4.0"
+    }
+  ]
+}

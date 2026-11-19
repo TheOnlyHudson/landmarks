@@ -1,0 +1,22 @@
+{
+  "id": "berlin-humboldt-forum",
+  "name": "Humboldt Forum",
+  "model": "berlin-humboldt-forum",
+  "place": "berlin",
+  "lng": 13.401504,
+  "lat": 52.517159,
+  "bearing": 323.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q170119",
+  "replaces": [
+    "relation/3007958",
+    "way/1488666794",
+    "way/1488666795",
+    "way/1488666796",
+    "way/1488666797",
+    "way/1488666798",
+    "way/618992347",
+    "way/1540306413"
+  ]
+}

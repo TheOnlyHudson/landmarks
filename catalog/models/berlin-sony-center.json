@@ -1,0 +1,83 @@
+{
+  "id": "berlin-sony-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "office",
+    "modernist",
+    "tensile-roof",
+    "plaza",
+    "skyscraper"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sony Center Roof Berlin 2015",
+      "url": "https://commons.wikimedia.org/wiki/File:Sony_Center_Roof_Berlin_2015.jpg",
+      "author": "Perituss",
+      "license": "CC0"
+    },
+    {
+      "title": "Sony Center, Berlin-Mitte, 150607, ako",
+      "url": "https://commons.wikimedia.org/wiki/File:Sony_Center,_Berlin-Mitte,_150607,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "Berlin Sony Center von unten",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Sony_Center_von_unten.jpg",
+      "author": "Jürgen Striewski",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Roof of the Sony Center photo1",
+      "url": "https://commons.wikimedia.org/wiki/File:Roof_of_the_Sony_Center_photo1.JPG",
+      "author": "Alf van Beem",
+      "license": "CC0"
+    },
+    {
+      "title": "SonyCenterAtNight",
+      "url": "https://commons.wikimedia.org/wiki/File:SonyCenterAtNight.jpg",
+      "author": "Andreas Tille",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berlin Kulturforum Sony Center dk0875",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Kulturforum_Sony_Center_dk0875.jpg",
+      "author": "DrKssn",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Le Sony Center et la Philharmonie (Berlin) (9620372847)",
+      "url": "https://commons.wikimedia.org/wiki/File:Le_Sony_Center_et_la_Philharmonie_(Berlin)_(9620372847).jpg",
+      "author": "Jean-Pierre Dalbéra from Paris, France",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Hochhäuser am Potsdamer Platz, Berlin, 141209, ako",
+      "url": "https://commons.wikimedia.org/wiki/File:Hochh%C3%A4user_am_Potsdamer_Platz,_Berlin,_141209,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "detail": "models/berlin-sony-center.detail.glb",
+  "detailZoom": 17,
+  "file": "models/berlin-sony-center.glb",
+  "source": "generators/berlin-sony-center.ts"
+}

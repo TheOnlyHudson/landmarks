@@ -1,0 +1,80 @@
+{
+  "id": "berlin-rotes-rathaus",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "town-hall",
+    "historic",
+    "brick",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Rotes Rathaus June 2023 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rotes_Rathaus_June_2023_01.jpg",
+      "author": "ArildV",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Rotes Rathaus, Berlin, Südseite, 160213, ako.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rotes_Rathaus,_Berlin,_S%C3%BCdseite,_160213,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY 3.0 DE"
+    },
+    {
+      "title": "Blick vom Hotel Park Inn zum Roten Rathaus.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Blick_vom_Hotel_Park_Inn_zum_Roten_Rathaus.jpg",
+      "author": "JoachimKohler-HB",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Rotes Rathaus, Berlin-Mitte, Turm, 160213, ako.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rotes_Rathaus,_Berlin-Mitte,_Turm,_160213,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY 3.0 DE"
+    },
+    {
+      "title": "Rotes Rathaus, Berlin-Mitte, Fassadendetails Ostseite, 160213, ako.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rotes_Rathaus,_Berlin-Mitte,_Fassadendetails_Ostseite,_160213,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY 3.0 DE"
+    },
+    {
+      "title": "Rotes Rathaus November 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rotes_Rathaus_November_2013.jpg",
+      "author": "Arild Vågen",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Berlin - Rotes Rathaus 7450.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_-_Rotes_Rathaus_7450.jpg",
+      "author": "Phyrexian",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "20240815 View cupola Berlin Cathedral 10.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:20240815_View_cupola_Berlin_Cathedral_10.jpg",
+      "author": "Flocci Nivis",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/berlin-rotes-rathaus.glb",
+  "source": "generators/berlin-rotes-rathaus.ts"
+}
