@@ -1,0 +1,15 @@
+{
+  "id": "det-belle-isle-aquarium",
+  "name": "Belle Isle Aquarium",
+  "model": "det-belle-isle-aquarium",
+  "place": "detroit-area",
+  "lng": -82.9851673,
+  "lat": 42.3362917,
+  "bearing": 342,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/107227742"
+  ],
+  "wikidata": "Q4883644"
+}
