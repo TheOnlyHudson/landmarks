@@ -1,0 +1,20 @@
+{
+  "id": "nola-place-st-charles",
+  "name": "Place St. Charles",
+  "model": "nola-place-st-charles",
+  "place": "new-orleans-area",
+  "lng": -90.0703508,
+  "lat": 29.9520204,
+  "bearing": 14.65,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/328669397",
+    "way/367524546",
+    "way/367524547",
+    "way/367524548",
+    "way/367524549",
+    "relation/15867754"
+  ],
+  "wikidata": "Q7200225"
+}
