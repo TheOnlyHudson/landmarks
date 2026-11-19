@@ -1,0 +1,15 @@
+{
+  "id": "pit-east-liberty-presbyterian",
+  "name": "East Liberty Presbyterian Church",
+  "model": "pit-east-liberty-presbyterian",
+  "place": "pittsburgh-area",
+  "wikidata": "Q5052317",
+  "lng": -79.925489,
+  "lat": 40.460996,
+  "bearing": 21,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/34309874"
+  ]
+}
