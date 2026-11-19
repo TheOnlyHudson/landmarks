@@ -1,0 +1,67 @@
+{
+  "id": "det-blessed-sacrament",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "cathedral",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "BlessedScarement",
+      "url": "https://commons.wikimedia.org/wiki/File:BlessedScarement.jpg",
+      "author": "Goldnpuppy",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cathedral of the Most Blessed Sacrament (Detroit, Michigan) - exterior",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Most_Blessed_Sacrament_(Detroit,_Michigan)_-_exterior.JPG",
+      "author": "Nheyob",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cathedral of the Most Blessed Sacrament (Detroit, Michigan) - exterior 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Most_Blessed_Sacrament_(Detroit,_Michigan)_-_exterior_2.JPG",
+      "author": "Nheyob",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cathedral of the Most Blessed Sacrament (Detroit, Michigan) - exterior, rear",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Most_Blessed_Sacrament_(Detroit,_Michigan)_-_exterior,_rear.JPG",
+      "author": "Nheyob",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cathedral of the Most Blessed Sacrament (Detroit, Michigan) - spire",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Most_Blessed_Sacrament_(Detroit,_Michigan)_-_spire.JPG",
+      "author": "Nheyob",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cathedral of the Most Blessed Sacrament (Detroit, Michigan) - view from across Woodward",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Most_Blessed_Sacrament_(Detroit,_Michigan)_-_view_from_across_Woodward.JPG",
+      "author": "Nheyob",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/det-blessed-sacrament.glb",
+  "source": "generators/det-blessed-sacrament.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "det-blessed-sacrament",
+  "name": "Cathedral of the Most Blessed Sacrament",
+  "model": "det-blessed-sacrament",
+  "place": "detroit-area",
+  "lng": -83.084801,
+  "lat": 42.3886233,
+  "bearing": 63,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1011595455"
+  ],
+  "wikidata": "Q2942932"
+}
