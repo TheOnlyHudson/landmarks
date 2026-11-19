@@ -1,0 +1,12 @@
+{
+  "id": "det-transcending",
+  "name": "Transcending (Michigan Labor Legacy Landmark)",
+  "model": "det-transcending",
+  "place": "detroit-area",
+  "lng": -83.044884,
+  "lat": 42.3280275,
+  "bearing": 333,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}
