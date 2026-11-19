@@ -1,0 +1,83 @@
+{
+  "id": "den-clyfford-still-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Clyfford Still Museum by CSM staff.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Clyfford_Still_Museum_by_CSM_staff.jpg",
+      "author": "Sandersenvie",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "GlyffordStillMuseum.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:GlyffordStillMuseum.jpg",
+      "author": "Trueshow111",
+      "license": "CC0"
+    },
+    {
+      "title": "GlyffordStillMuseum1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:GlyffordStillMuseum1.jpg",
+      "author": "Trueshow111",
+      "license": "CC0"
+    },
+    {
+      "title": "Clyfford Still Museum, Denver",
+      "url": "https://www.flickr.com/photos/36521980095@N01/9755156732",
+      "author": "danxoneil",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Clyfford Still Museum, Denver",
+      "url": "https://www.flickr.com/photos/36521980095@N01/9755416043",
+      "author": "danxoneil",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Clyfford Still Museum, Denver",
+      "url": "https://www.flickr.com/photos/36521980095@N01/9755121891",
+      "author": "danxoneil",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Clyfford Still Museum",
+      "url": "https://www.flickr.com/photos/50924929@N06/6094238626",
+      "author": "tombdmot",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "USGS 3DEP lidar CO_DRCOG_2_2020",
+      "url": "https://www.usgs.gov/3d-elevation-program",
+      "author": "USGS",
+      "license": "Public domain"
+    },
+    {
+      "title": "USGS NAIP orthoimagery",
+      "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+      "author": "USDA / USGS",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/den-clyfford-still-museum.glb",
+  "source": "generators/den-clyfford-still-museum.ts"
+}
