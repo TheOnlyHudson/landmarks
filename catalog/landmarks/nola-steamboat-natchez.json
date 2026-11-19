@@ -1,0 +1,13 @@
+{
+  "id": "nola-steamboat-natchez",
+  "name": "Steamboat Natchez",
+  "model": "nola-steamboat-natchez",
+  "place": "new-orleans-area",
+  "lng": -90.062226,
+  "lat": 29.954994,
+  "bearing": 22.3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "wikidata": "Q12062367"
+}

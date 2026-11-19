@@ -1,0 +1,66 @@
+{
+  "id": "nola-steamboat-natchez",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "other",
+  "tags": [
+    "steamboat",
+    "vessel",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Steamboat Natchez (26737607216)",
+      "url": "https://commons.wikimedia.org/wiki/File:Steamboat_Natchez_(26737607216).jpg",
+      "author": "Coastal Elite from Halifax, Canada",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Steamboat Natchez. New Orleans. (48759732042)",
+      "url": "https://commons.wikimedia.org/wiki/File:Steamboat_Natchez._New_Orleans._(48759732042).jpg",
+      "author": "Bernard Spragg. NZ",
+      "license": "CC0"
+    },
+    {
+      "title": "Steamboat Natchez. New Orleans. (50704591141)",
+      "url": "https://commons.wikimedia.org/wiki/File:Steamboat_Natchez._New_Orleans._(50704591141).jpg",
+      "author": "Bernard Spragg. NZ",
+      "license": "CC0"
+    },
+    {
+      "title": "Steamboat NATCHEZ. New Orleans. (51099673821)",
+      "url": "https://commons.wikimedia.org/wiki/File:Steamboat_NATCHEZ._New_Orleans._(51099673821).jpg",
+      "author": "Bernard Spragg. NZ",
+      "license": "Public domain"
+    },
+    {
+      "title": "Steamboat Natchez",
+      "url": "https://commons.wikimedia.org/wiki/File:Steamboat_Natchez.jpg",
+      "author": "Daquella manera",
+      "license": "CC0"
+    },
+    {
+      "title": "SS Natchez of New Orleans 2",
+      "url": "https://commons.wikimedia.org/wiki/File:SS_Natchez_of_New_Orleans_2.JPG",
+      "author": "MusikAnimal",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nola-steamboat-natchez.glb",
+  "source": "generators/nola-steamboat-natchez.ts"
+}
