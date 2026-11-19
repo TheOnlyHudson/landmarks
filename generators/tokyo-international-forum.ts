@@ -379,9 +379,6 @@ function build(hi: boolean) {
   // service block at the north end
   {
     const outer = spline([[84.0, 100.8], [85.6, 93.6], [86.7, 81.4], [84.7, 57.3], [81.1, 29.5], [76.2, 12.1], [68.8, -12.3], [57.3, -43.6], [48.3, -63.3], [32.6, -88.5], [20.0, -108.7], [12.5, -119.2]], hi ? 2 : 1)
-    const inner = [...E].reverse().filter((p) => p[1] < 89.5)
-    const band: XY[] = [[73.7, 101.0], ...outer, ...inner.slice(-1).length ? [] : [], [7.6, -109.8], ...inner.reverse().slice(1)].filter((p, k, arr) => k === 0 || Math.hypot(p[0] - arr[k - 1][0], p[1] - arr[k - 1][1]) > 0.3)
-    void band
     // drawn as a ring of quads between the two curves, walls on the outside
     const out2 = resample([[12.5, -119.2], ...[...outer].reverse()], N)
     for (let i = 0; i < N; i++) {
