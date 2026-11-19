@@ -1,0 +1,16 @@
+{
+  "id": "det-buhl-building",
+  "name": "Buhl Building",
+  "model": "det-buhl-building",
+  "place": "detroit-area",
+  "lng": -83.0469564,
+  "lat": 42.3294212,
+  "bearing": 329.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/110678746",
+    "way/69000326"
+  ],
+  "wikidata": "Q4986306"
+}
