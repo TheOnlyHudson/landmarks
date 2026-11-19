@@ -1,0 +1,48 @@
+{
+  "id": "nash-public-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "library",
+    "classical",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Nashville Public Library main branch",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_Public_Library_main_branch.jpg",
+      "author": "Mx. Granger",
+      "license": "CC0"
+    },
+    {
+      "title": "Nashville Public Library, Nashville, Tennessee",
+      "url": "https://www.flickr.com/photos/75683070@N00/97057560",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Nashville Public Library 2023c",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_Public_Library_2023c.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-public-library.glb",
+  "source": "generators/nash-public-library.ts"
+}

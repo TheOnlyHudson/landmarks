@@ -1,0 +1,15 @@
+{
+  "id": "nash-public-library",
+  "name": "Nashville Public Library",
+  "model": "nash-public-library",
+  "place": "nashville-area",
+  "lng": -86.781736,
+  "lat": 36.161945,
+  "bearing": 332,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6966987",
+  "replaces": [
+    "relation/1762149"
+  ]
+}
