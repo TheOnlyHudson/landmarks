@@ -1,0 +1,13 @@
+{
+  "id": "det-spirit-of-detroit",
+  "name": "The Spirit of Detroit",
+  "model": "det-spirit-of-detroit",
+  "place": "detroit-area",
+  "lng": -83.0445519,
+  "lat": 42.3293043,
+  "bearing": 56,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q7765934",
+  "replaces": []
+}
