@@ -8,5 +8,8 @@
   "bearing": 45.7,
   "elevation": 0,
   "minzoom": 15,
-  "replaces": []
+  "replaces": [
+    "way/534158114",
+    "way/534158119"
+  ]
 }
