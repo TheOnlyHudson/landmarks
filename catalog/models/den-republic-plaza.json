@@ -1,0 +1,54 @@
+{
+  "id": "den-republic-plaza",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Republic Plaza south corner from Court Pl",
+      "url": "https://commons.wikimedia.org/wiki/File:Republic_Plaza_south_corner_from_Court_Pl.jpg",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "REPUBLICPLAZA",
+      "url": "https://commons.wikimedia.org/wiki/File:REPUBLICPLAZA.jpg",
+      "author": "BUTTON74",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Republic Plaza Denver",
+      "url": "https://commons.wikimedia.org/wiki/File:Republic_Plaza_Denver.jpg",
+      "author": "O'Dea",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Republic Plaza in Denver Colorado",
+      "url": "https://commons.wikimedia.org/wiki/File:Republic_Plaza_in_Denver_Colorado.jpg",
+      "author": "David Shankbone",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/den-republic-plaza.glb",
+  "source": "generators/den-republic-plaza.ts"
+}
