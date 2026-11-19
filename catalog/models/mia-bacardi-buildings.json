@@ -1,0 +1,62 @@
+{
+  "id": "mia-bacardi-buildings",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "modernist",
+    "mid-century",
+    "mural",
+    "arts-center",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "20131012 Miami 3615 Bacardi annex",
+      "url": "https://commons.wikimedia.org/wiki/File:20131012_Miami_3615_Bacardi_annex.jpg",
+      "author": "Dan Lundberg",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "20131019 Miami 3688 Bacardi plaza",
+      "url": "https://commons.wikimedia.org/wiki/File:20131019_Miami_3688_Bacardi_plaza.jpg",
+      "author": "Dan Lundberg",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Bacardi Building (27670845248)",
+      "url": "https://commons.wikimedia.org/wiki/File:Bacardi_Building_(27670845248).jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Bacardi Building Biscayne Boulevard Miami Florida",
+      "url": "https://commons.wikimedia.org/wiki/File:Bacardi_Building_Biscayne_Boulevard_Miami_Florida.jpg",
+      "author": "PhillipPessar",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Miami Bacardi Building lit up",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Bacardi_Building_lit_up.jpg",
+      "author": "Daniel Christensen",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/mia-bacardi-buildings.glb",
+  "source": "generators/mia-bacardi-buildings.ts"
+}
