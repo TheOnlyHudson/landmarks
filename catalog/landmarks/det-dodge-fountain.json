@@ -1,0 +1,12 @@
+{
+  "id": "det-dodge-fountain",
+  "name": "Horace E. Dodge and Son Memorial Fountain",
+  "model": "det-dodge-fountain",
+  "place": "detroit-area",
+  "lng": -83.0440815,
+  "lat": 42.3271142,
+  "bearing": 330,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}
