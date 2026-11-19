@@ -1,0 +1,95 @@
+{
+  "id": "pit-point-state-park-fountain",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "fountain",
+  "tags": [
+    "park",
+    "fountain"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Point Fountain, 2024-09-11.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Point_Fountain,_2024-09-11.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Point Fountain, 2026-10-22.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Point_Fountain,_2026-10-22.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Point Fountain, 2026-10-22-2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Point_Fountain,_2026-10-22-2.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Point Fountain, 2026-10-22-3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Point_Fountain,_2026-10-22-3.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Point Fountain, 2021-07-03, 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Point_Fountain,_2021-07-03,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Point Fountain and Heinz Field, 2022-06-04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Point_Fountain_and_Heinz_Field,_2022-06-04.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Point Fountain from the portal, Point State Park, 2024-09-11.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Point_Fountain_from_the_portal,_Point_State_Park,_2024-09-11.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Point State Park Fountain at Night, 2015-11-03, 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Point_State_Park_Fountain_at_Night,_2015-11-03,_03.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Point Fountain from the North Shore, 2023-09-20, 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Point_Fountain_from_the_North_Shore,_2023-09-20,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Point-state-park-fountain.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Point-state-park-fountain.jpg",
+      "author": "MartinThoma",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Duquesne Incline - view from the top - 4.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Duquesne_Incline_-_view_from_the_top_-_4.jpg",
+      "author": "APK",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/pit-point-state-park-fountain.glb",
+  "source": "generators/pit-point-state-park-fountain.ts"
+}
