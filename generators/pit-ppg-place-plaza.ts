@@ -57,6 +57,10 @@
  * Night: the walls are `window` (lit offices), the spires `window-2` (lit),
  * the Wintergarden's glass roofs `glass` (dark).
  *
+ * Three PPG's east wall is a party wall with the Burke Building (1836) and
+ * way/202731591, which are not part of the complex: it carries no pleats or
+ * corner pinnacles, so nothing overhangs them.
+ *
  * Doubts: Two PPG's northern wing is seen only partly behind the Market
  * Square buildings; its roof form is read from lidar alone. The far
  * (Third Avenue / Boulevard) sides of Five and Six are drawn like the plaza
@@ -128,7 +132,8 @@ function build() {
   block({ ring: rect(-48.2, 32.5, 23.5, 58.5), eave: 28.5, top: 33.5, skip: [2] })
   block({ ring: [[-48.2, 58.5], [23.5, 58.5], [23.5, 68.5], [-12.7, 68.5], [-12.6, 92], [-48, 92]], eave: 19, top: 24, skip: [0] })
   // --- Three, Four, Five. ---
-  block({ ring: rect(36.7, 32.6, 58.3, 57.3), eave: 28.5, top: 33.5 })
+  // its east wall is a party wall with the Burke Building and way/202731591: no pleats or corner pinnacles there
+  block({ ring: rect(36.7, 32.6, 58.3, 57.3), eave: 28.5, top: 33.5, skip: [1] })
   block({ ring: rect(57.0, -29.5, 77.4, 16.1), eave: 28.5, top: 33.5 })
   block({ ring: [[37.9, -80.7], [65.4, -80.6], [65.4, -68.1], [71.8, -68.1], [71.8, -44.1], [37.9, -44.2]], eave: 28.5, top: 33.5 })
   // --- Six PPG Place, 14 storeys. ---
