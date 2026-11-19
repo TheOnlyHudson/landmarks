@@ -1,0 +1,16 @@
+{
+  "id": "nola-cafe-du-monde",
+  "name": "Café du Monde",
+  "model": "nola-cafe-du-monde",
+  "place": "new-orleans-area",
+  "lng": -90.061808,
+  "lat": 29.957548,
+  "bearing": 38.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2933012",
+  "replaces": [
+    "way/329364505",
+    "relation/7064857"
+  ]
+}
