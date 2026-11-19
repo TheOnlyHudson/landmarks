@@ -1,0 +1,59 @@
+{
+  "id": "nola-harrahs",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "casino",
+    "entertainment"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Caesars New Orleans February 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:Caesars_New_Orleans_February_2026.jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Caesar's Casino, New Orleans, 26 May 2026 - 10",
+      "url": "https://commons.wikimedia.org/wiki/File:Caesar%27s_Casino,_New_Orleans,_26_May_2026_-_10.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Caesar's Casino, New Orleans, 26 May 2026 - 7",
+      "url": "https://commons.wikimedia.org/wiki/File:Caesar%27s_Casino,_New_Orleans,_26_May_2026_-_7.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Caesar's Casino, New Orleans, 26 May 2026 - 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Caesar%27s_Casino,_New_Orleans,_26_May_2026_-_2.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Harrah's New Orleans, exterior, August 2021 - 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Harrah%27s_New_Orleans,_exterior,_August_2021_-_01.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nola-harrahs.glb",
+  "source": "generators/nola-harrahs.ts"
+}

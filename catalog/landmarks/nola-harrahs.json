@@ -1,0 +1,32 @@
+{
+  "id": "nola-harrahs",
+  "name": "Caesars New Orleans",
+  "model": "nola-harrahs",
+  "place": "new-orleans-area",
+  "lng": -90.065131,
+  "lat": 29.94936,
+  "bearing": 334,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/331115230",
+    "way/328820516",
+    "way/328820554",
+    "way/328820557",
+    "way/331120097",
+    "way/331125063",
+    "way/331120098",
+    "way/331125061",
+    "way/331120087",
+    "way/331125055",
+    "way/331120085",
+    "way/331120086",
+    "way/331120090",
+    "way/331120093",
+    "way/331120091",
+    "way/331120092",
+    "way/331120095",
+    "way/331120089",
+    "way/482906822"
+  ]
+}
