@@ -1,0 +1,16 @@
+{
+  "id": "det-guardian-building",
+  "name": "Guardian Building",
+  "model": "det-guardian-building",
+  "place": "detroit-area",
+  "lng": -83.0460941,
+  "lat": 42.3295592,
+  "bearing": 329.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/330839648",
+    "way/1071710128"
+  ],
+  "wikidata": "Q3079894"
+}
