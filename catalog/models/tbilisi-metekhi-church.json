@@ -1,0 +1,78 @@
+{
+  "id": "tbilisi-metekhi-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "georgian-orthodox",
+    "historic",
+    "statue",
+    "equestrian-statue",
+    "monument"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/tbilisi-metekhi-church.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "Church and statue from the west",
+      "url": "https://commons.wikimedia.org/wiki/File:Metekhi_church_and_Vakhtang_Gorgasali's_statue_Tbilisi.jpg",
+      "author": "Radosław Botev",
+      "license": "CC-BY-3.0-PL"
+    },
+    {
+      "title": "West front",
+      "url": "https://commons.wikimedia.org/wiki/File:Metekhi_Church_in_Old_Tbilisi,_Georgia_02.JPG",
+      "author": "Kober",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Eastern facade",
+      "url": "https://commons.wikimedia.org/wiki/File:Metekhi_church_Tbilisi_eastern_facade.jpg",
+      "author": "Mikhail Daneliya",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "From the north",
+      "url": "https://commons.wikimedia.org/wiki/File:Metekhi_church,_view_from_the_north._Tbilisi,_Georgia._July_2023.jpg",
+      "author": "Kober",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "North-west corner",
+      "url": "https://commons.wikimedia.org/wiki/File:Metekhi_church,_tbilisi.JPG",
+      "author": "Kober",
+      "license": "Public domain"
+    },
+    {
+      "title": "Statue in profile",
+      "url": "https://commons.wikimedia.org/wiki/File:Gorgasali.jpg",
+      "author": "Vladimer Shioshvili",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Statue from the front",
+      "url": "https://commons.wikimedia.org/wiki/File:Statue_of_Gorgasali.JPG",
+      "author": "Abramia Giorgi",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/tbilisi-metekhi-church.glb",
+  "source": "generators/tbilisi-metekhi-church.ts"
+}
