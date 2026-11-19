@@ -128,7 +128,7 @@ const FLOORS = 2 // storeys per window panel (3 tested: reads as slots, see head
 const AX0 = -74.95, AX1 = -36.7, AY0 = -47.7, AY1 = 24.35
 const AROOF = 46.3, ABAND = 45.3
 
-type Face = ReturnType<typeof onWall> & { a: XY; b: XY; n: number; pier: number; win0: number[] }
+type Face = Omit<ReturnType<typeof onWall>, 'n'> & { a: XY; b: XY; n: number; pier: number; win0: number[] }
 
 /**
  * A pier-and-window facade on every face of a counter-clockwise rectangle:
