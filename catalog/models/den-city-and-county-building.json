@@ -1,0 +1,85 @@
+{
+  "id": "den-city-and-county-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "civic",
+    "neoclassical",
+    "historic",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Denver City and County Building (54940359241).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_City_and_County_Building_(54940359241).jpg",
+      "author": "Daniel Hartwig",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "City County Building Denver Colorado 2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:City_County_Building_Denver_Colorado_2024.jpg",
+      "author": "Larry D. Moore",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Denver City Council building. View from south.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_City_Council_building._View_from_south.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver City Council building. View from south-east.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_City_Council_building._View_from_south-east.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Elevated view of City Hall - City and County Building, Civic Center, Denver (HABS COLO,16-DENV,7-8)",
+      "url": "https://commons.wikimedia.org/wiki/File:Elevated_view_of_City_Hall_-_City_and_County_Building,_Civic_Center,_Denver,_Denver_County,_CO_HABS_COLO,16-DENV,7-8.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Cupola - City and County Building, Civic Center, Denver (HABS COLO,16-DENV,7-10)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cupola_-_City_and_County_Building,_Civic_Center,_Denver,_Denver_County,_CO_HABS_COLO,16-DENV,7-10.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Denver City and County Building from Colorado State Capitol",
+      "url": "https://www.flickr.com/photos/75683070@N00/68184846",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "City and County Building - Civic Center Park, Denver - DSC01224.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:City_and_County_Building_-_Civic_Center_Park,_Denver_-_DSC01224.jpg",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Denver City and County Building cupola at night.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_City_and_County_Building_cupola_at_night.JPG",
+      "author": "Jeffrey Beall",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/den-city-and-county-building.glb",
+  "source": "generators/den-city-and-county-building.ts"
+}
