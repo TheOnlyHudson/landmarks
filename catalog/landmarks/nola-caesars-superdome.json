@@ -1,0 +1,16 @@
+{
+  "id": "nola-caesars-superdome",
+  "name": "Caesars Superdome",
+  "model": "nola-caesars-superdome",
+  "place": "new-orleans-area",
+  "lng": -90.0810878,
+  "lat": 29.9510518,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q756452",
+  "replaces": [
+    "relation/4598860",
+    "way/25890330"
+  ]
+}

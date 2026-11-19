@@ -1,0 +1,78 @@
+{
+  "id": "nola-caesars-superdome",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "dome",
+    "sports"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Caesars Superdome New Orleans, LA (from the west)",
+      "url": "https://commons.wikimedia.org/wiki/File:Caesars_Superdome_New_Orleans,_LA.jpg",
+      "author": "Glimmergloss",
+      "license": "CC0"
+    },
+    {
+      "title": "Caesars Superdome - Home of the New Orleans Saints - 4 Feb 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:Caesars_Superdome_-_Home_of_the_New_Orleans_Saints_-_4_Feb_2026.jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Louisiana Superdome on Poydras Street, New Orleans 30 Jan 2025 - 04",
+      "url": "https://commons.wikimedia.org/wiki/File:Louisiana_Superdome_on_Poydras_Street,_New_Orleans_30_Jan_2025_-_04.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Superdome from Claiborne Avenue New Orleans, 16 November 2023 - 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Superdome_from_Claiborne_Avenue_New_Orleans,_16_November_2023_-_2.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New Orleans Central Business District 28 Oct 2024 - Superdome",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_Central_Business_District_28_Oct_2024_-_Superdome.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New Orleans from the Air September 2019 - Superdome and Arena",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_from_the_Air_September_2019_-_Superdome_and_Arena.jpg",
+      "author": "George Bannister",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "FEMA - 37399 - The Louisiana Superdome - repaired (aerial)",
+      "url": "https://commons.wikimedia.org/wiki/File:FEMA_-_37399_-_The_Louisiana_Superdome_-_repaired_-_Katrina_Third_Year_Recovery.jpg",
+      "author": "Ed Edahl / FEMA",
+      "license": "Public domain"
+    },
+    {
+      "title": "Caesars Superdome illuminated at night, April 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:Caesars_Superdome_illuminated_at_night,_April_2025.jpg",
+      "author": "Paul Lowry",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nola-caesars-superdome.glb",
+  "source": "generators/nola-caesars-superdome.ts"
+}
