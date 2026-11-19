@@ -1,0 +1,75 @@
+{
+  "id": "nola-huey-p-long-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bridge",
+    "truss",
+    "railway"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "wikidata": "Q579088",
+  "references": [
+    {
+      "title": "Panorama of the Huey P. Long Bridge, Jefferson Parish, Louisiana-2013",
+      "url": "https://commons.wikimedia.org/wiki/File:Panorama_of_the_Huey_P._Long_Bridge,_Jefferson_Parish,_Louisiana-2013.jpg",
+      "author": "---=XEON=---",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "title": "Voyage under the Huey P. Long Bridge, Jefferson Parish, Louisiana - cut",
+      "url": "https://commons.wikimedia.org/wiki/File:Voyage_under_the_Huey_P._Long_Bridge,_Jefferson_Parish,_Louisiana_-_cut.jpg",
+      "author": "---=XEON=---",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "title": "Huey P. Long Bridge, Jefferson Parish, LA, US90, Mississippi River",
+      "url": "https://commons.wikimedia.org/wiki/File:Huey_P._Long_Bridge,_Jefferson_Parish,_LA,_US90,_Mississippi_River.jpg",
+      "author": "formulanone",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "USS New Orleans under Huey P. Long Bridge, Jefferson Parish, Louisiana",
+      "url": "https://commons.wikimedia.org/wiki/File:USS_New_Orleans_under_Huey_P._Long_Bridge,_Jefferson_Parish,_Louisiana.jpg",
+      "author": "United States Navy",
+      "license": "public domain"
+    },
+    {
+      "title": "Pear and Truss Widening of Huey P. Long Bridge (Jefferson Parish)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pear_and_Truss_Widening_of_Huey_P._Long_Bridge_(Jefferson_Parish).png",
+      "author": "HAER LA-17",
+      "license": "public domain"
+    },
+    {
+      "title": "Modes of Transport - Huey P Long Bridge Levee, Jefferson Parish, Louisiana, Feb 2021",
+      "url": "https://commons.wikimedia.org/wiki/File:Modes_of_Transport_-_Huey_P_Long_Bridge_Levee,_Jefferson_Parish,_Louisiana,_Feb_2021.jpg",
+      "author": "David Brossard",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Huey P. Long Bridge, Jefferson Parish, LA - City Of Bridges",
+      "url": "https://commons.wikimedia.org/wiki/File:Huey_P._Long_Bridge,_Jefferson_Parish,_LA_-_City_Of_Bridges.jpg",
+      "author": "---=XEON=---",
+      "license": "CC-BY-3.0"
+    }
+  ],
+  "detail": "models/nola-huey-p-long-bridge.detail.glb",
+  "detailZoom": 16,
+  "file": "models/nola-huey-p-long-bridge.glb",
+  "source": "generators/nola-huey-p-long-bridge.ts"
+}
