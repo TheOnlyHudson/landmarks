@@ -1,0 +1,15 @@
+{
+  "id": "marfa-prada-marfa",
+  "name": "Prada Marfa",
+  "model": "marfa-prada-marfa",
+  "place": "marfa-area",
+  "lng": -104.5185081,
+  "lat": 30.6034566,
+  "bearing": 41,
+  "elevation": 0,
+  "minzoom": 17,
+  "wikidata": "Q3909800",
+  "replaces": [
+    "way/357863959"
+  ]
+}

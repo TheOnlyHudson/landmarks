@@ -91,7 +91,7 @@ import { figure, LOW, HIGH, type Q } from './london-albert-memorial'
 import { ellipsoid, tube, TAU } from './nyc-columbus-monument'
 import { corinthian } from './berlin-altes-museum'
 import { lathe as rev, ribbedDome } from './berlin-fernsehturm'
-import { welded } from './berlin-reichstag'
+import { welded } from './berlin-kit'
 import { gableBlock, bays, statue, sculpt, stair, relief, mat, setSculptCrease } from './berlin-konzerthaus'
 import { capPoly, wallsPoly, type XY } from './dc-national-cathedral'
 

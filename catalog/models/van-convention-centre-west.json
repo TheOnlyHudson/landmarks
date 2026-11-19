@@ -1,0 +1,87 @@
+{
+  "id": "van-convention-centre-west",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "convention-center",
+    "waterfront",
+    "pier",
+    "green-roof",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Vancouver Convention Centre Exterior Day.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_Convention_Centre_Exterior_Day.jpg",
+      "author": "DarkNight0917",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vancouver Convention Centre from Seawall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_Convention_Centre_from_Seawall.jpg",
+      "author": "Ash-M-Bishop",
+      "license": "CC0"
+    },
+    {
+      "title": "Vancouver Convention Centre - Centre des congrès de Vancouver - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_Convention_Centre_-_Centre_des_congr%C3%A8s_de_Vancouver_-_panoramio.jpg",
+      "author": "Bohao Zhao",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Vancouver Convention Centre, Vancouver, Canada (Unsplash).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_Convention_Centre,_Vancouver,_Canada_(Unsplash).jpg",
+      "author": "Scott Webb",
+      "license": "CC0"
+    },
+    {
+      "title": "Vancouver-convention-centre-west-2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver-convention-centre-west-2.jpg",
+      "author": "Gregbaker",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Vancouver Convention Centre from Coal Harbour Park.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_Convention_Centre_from_Coal_Harbour_Park.jpg",
+      "author": "Joe Mabel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vancouver Convention Centre.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_Convention_Centre.jpg",
+      "author": "IntensionalLogican",
+      "license": "CC0"
+    },
+    {
+      "title": "The Vancouver Convention Centre (6911736603).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Vancouver_Convention_Centre_(6911736603).jpg",
+      "author": "Reg Natarajan",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "CanElevation Series - HRDEM, BC-Lower_Mainland_2016-1m (DSM, DTM)",
+      "url": "https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995",
+      "author": "Natural Resources Canada",
+      "license": "OGL-Canada-2.0"
+    }
+  ],
+  "file": "models/van-convention-centre-west.glb",
+  "source": "generators/van-convention-centre-west.ts"
+}

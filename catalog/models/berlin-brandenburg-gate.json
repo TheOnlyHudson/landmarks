@@ -4,20 +4,19 @@
   "collection": "landmarks",
   "type": "monument",
   "tags": [
-    "city-gate",
-    "triumphal-arch",
+    "gate",
+    "neoclassical",
     "quadriga",
     "sculpture",
-    "neoclassical",
     "historic"
   ],
   "reviewStatus": "unreviewed",
+  "author": "Colin",
   "credits": [
     {
-      "name": "OnlyHudson",
+      "name": "Colin",
       "kind": "person",
-      "role": "creator",
-      "github": "TheOnlyHudson"
+      "role": "creator"
     },
     {
       "name": "Claude",
@@ -29,56 +28,42 @@
   ],
   "references": [
     {
-      "title": "Brandenburg Gate - Brandenburger Tor - Berlin - Germany - 02",
-      "url": "https://commons.wikimedia.org/wiki/File:Brandenburg_Gate_-_Brandenburger_Tor_-_Berlin_-_Germany_-_02.jpg",
-      "author": "Norbert Nagel",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "title": "Brandenburg Gate - Brandenburger Tor - Berlin - Germany - 01",
-      "url": "https://commons.wikimedia.org/wiki/File:Brandenburg_Gate_-_Brandenburger_Tor_-_Berlin_-_Germany_-_01.jpg",
-      "author": "Norbert Nagel",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "title": "Brandenburger Tor morgens",
+      "title": "Brandenburger Tor morgens.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_morgens.jpg",
       "author": "Thomas Wolf, www.foto-tw.de",
       "license": "CC BY-SA 3.0"
     },
     {
-      "title": "Berlin, Brandenburger Tor -- 2019 -- 6331",
-      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Brandenburger_Tor_--_2019_--_6331.jpg",
+      "title": "Berlin Brandenburger Tor BW 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Brandenburger_Tor_BW_1.jpg",
+      "author": "Berthold Werner",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Brandenburg Gate - Brandenburger Tor - Berlin - Germany - 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Brandenburg_Gate_-_Brandenburger_Tor_-_Berlin_-_Germany_-_01.jpg",
+      "author": "Norbert Nagel",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Berlin, Brandenburger Tor -- 2019 -- 6335.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Brandenburger_Tor_--_2019_--_6335.jpg",
       "author": "Dietmar Rabich",
       "license": "CC BY-SA 4.0"
     },
     {
-      "title": "Quadriga auf Brandenburger Tor in Berlin",
-      "url": "https://commons.wikimedia.org/wiki/File:Quadriga_auf_Brandenburger_Tor_in_Berlin.jpg",
-      "author": "Mark König",
+      "title": "Berlin, Brandenburger Tor -- 2013 -- 4589.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Brandenburger_Tor_--_2013_--_4589.jpg",
+      "author": "Dietmar Rabich",
       "license": "CC BY-SA 4.0"
     },
     {
-      "title": "MK20009 Quadriga (Brandenburger Tor)",
-      "url": "https://commons.wikimedia.org/wiki/File:MK20009_Quadriga_(Brandenburger_Tor).jpg",
-      "author": "Martin Kraft",
+      "title": "Brandenburger Tor nachts.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_nachts.jpg",
+      "author": "Thomas Wolf, www.foto-tw.de",
       "license": "CC BY-SA 3.0"
-    },
-    {
-      "title": "00 2486 Quadriga - Brandenburger Tor (Berlin)",
-      "url": "https://commons.wikimedia.org/wiki/File:00_2486_Quadriga_-_Brandenburger_Tor_(Berlin).jpg",
-      "author": "W. Bulach",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "title": "Brandenburger Tor with Ukrainian flag from Pariser Platz 2023-02-24 06",
-      "url": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_with_Ukrainian_flag_from_Pariser_Platz_2023-02-24_06.jpg",
-      "author": "Leonhard Lenz",
-      "license": "CC0"
     }
   ],
-  "detail": "models/berlin-brandenburg-gate.detail.glb",
-  "detailZoom": 16,
   "file": "models/berlin-brandenburg-gate.glb",
   "source": "generators/berlin-brandenburg-gate.ts"
 }

@@ -76,7 +76,7 @@ import { Part, type V3, type MaterialSpec } from './mesh'
 import { lathe, face, tube, ellipsoid, TAU } from './nyc-columbus-monument'
 import { writeModel, box, cbox } from './london-buckingham-palace'
 import { LOW, HIGH, type Q } from './london-albert-memorial'
-import { welded, ringOffset, ringLoft, ringBand, ccw, faceOf, fpanel, flen, type XY } from './berlin-reichstag'
+import { welded, ringOffset, ringLoft, ringBand, ccw, faceOf, fpanel, flen, type XY } from './berlin-kit'
 
 export const BEARING = 0
 /** Area centroid of the outline in the fetch frame; computed by the header's method. */

@@ -1,0 +1,113 @@
+{
+  "id": "van-canada-place",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "convention-center",
+    "cruise-terminal",
+    "hotel",
+    "waterfront",
+    "pier",
+    "tensile-roof",
+    "expo-86"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Vancouver (BC, Canada), Canada Place -- 2022 -- 1847.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_(BC,_Canada),_Canada_Place_--_2022_--_1847.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vancouver (BC, Canada), Canada Place -- 2022 -- 1852.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_(BC,_Canada),_Canada_Place_--_2022_--_1852.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vancouver (BC, Canada), Canada Place -- 2022 -- 1906.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_(BC,_Canada),_Canada_Place_--_2022_--_1906.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vancouver (BC, Canada), Canada Place -- 2022 -- 1870.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_(BC,_Canada),_Canada_Place_--_2022_--_1870.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vancouver (BC, Canada), Canada Place -- 2022 -- 1876.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_(BC,_Canada),_Canada_Place_--_2022_--_1876.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vancouver (BC, Canada), Canada Place -- 2022 -- 2093.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_(BC,_Canada),_Canada_Place_--_2022_--_2093.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Canada Place, Vancouver - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Canada_Place,_Vancouver_-_panoramio.jpg",
+      "author": "Colin W",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Canada Place 加拿大廣場 - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Canada_Place_%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%BB%A3%E5%A0%B4_-_panoramio.jpg",
+      "author": "lienyuan lee",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Vancouver Convention Centre, British Columbia (470080) (9441435593).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_Convention_Centre,_British_Columbia_(470080)_(9441435593).jpg",
+      "author": "Robert Linsdell",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Canada Place (23761677).jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Canada_Place_(23761677).jpeg",
+      "author": "Harrystyle",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Canada Place (5058665875).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Canada_Place_(5058665875).jpg",
+      "author": "Hubert Figuière",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Canada Place Night May 2011.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Canada_Place_Night_May_2011.jpg",
+      "author": "Matthew Grapengieser",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "CanElevation Series - HRDEM, BC-Lower_Mainland_2016-1m (DSM)",
+      "url": "https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995",
+      "author": "Natural Resources Canada",
+      "license": "OGL-Canada-2.0"
+    }
+  ],
+  "file": "models/van-canada-place.glb",
+  "source": "generators/van-canada-place.ts"
+}

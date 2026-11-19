@@ -1,0 +1,42 @@
+{
+  "id": "kc-wheel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "ride",
+  "tags": [
+    "ferris-wheel",
+    "observation-wheel",
+    "animated"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "KC Wheel (OpenStreetMap node 11187044804)",
+      "url": "https://www.openstreetmap.org/node/11187044804",
+      "author": "OpenStreetMap contributors",
+      "license": "ODbL 1.0"
+    },
+    {
+      "title": "KC Wheel, Kansas City (project page: R50SV, 36 gondolas, LED rim and spokes)",
+      "url": "https://www.dutchwheels.com/en/portfolio/kc-wheel-kansas-city",
+      "author": "Dutch Wheels"
+    }
+  ],
+  "file": "models/kc-wheel.glb",
+  "source": "generators/kc-wheel.ts"
+}

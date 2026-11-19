@@ -1,0 +1,17 @@
+{
+  "id": "stl-old-courthouse",
+  "name": "Old Courthouse",
+  "model": "stl-old-courthouse",
+  "place": "st-louis-area",
+  "lng": -90.189304,
+  "lat": 38.625699,
+  "bearing": 16.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q12064730",
+  "replaces": [
+    "way/42341614",
+    "way/397853921",
+    "way/1057719414"
+  ]
+}
