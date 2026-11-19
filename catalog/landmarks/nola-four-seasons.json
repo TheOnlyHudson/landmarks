@@ -1,0 +1,17 @@
+{
+  "id": "nola-four-seasons",
+  "name": "Four Seasons Hotel New Orleans",
+  "model": "nola-four-seasons",
+  "place": "new-orleans-area",
+  "lng": -90.0635324,
+  "lat": 29.948956,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/114423781",
+    "way/328824753",
+    "way/1173588235"
+  ],
+  "wikidata": "Q17098710"
+}
