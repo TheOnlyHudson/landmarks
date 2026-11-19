@@ -1,0 +1,105 @@
+{
+  "id": "det-ambassador-bridge",
+  "detail": "models/det-ambassador-bridge.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "suspension-bridge",
+    "historic",
+    "border-crossing",
+    "neon-sign"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Ambassador Bridge from the Detroit River, Windsor, Ontario, 2025-07-27 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Ambassador_Bridge_from_the_Detroit_River,_Windsor,_Ontario,_2025-07-27_03.jpg",
+      "author": "Chris Woodrich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ambassador Bridge, Windsor, Ontario, 2025-06-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Ambassador_Bridge,_Windsor,_Ontario,_2025-06-01.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ambassador Bridge, Windsor, Ontario, 2025-05-31",
+      "url": "https://commons.wikimedia.org/wiki/File:Ambassador_Bridge,_Windsor,_Ontario,_2025-05-31.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ambassador Bridge from Queen's Dock, Windsor, Ontario, 2025-06-03 04",
+      "url": "https://commons.wikimedia.org/wiki/File:Ambassador_Bridge_from_Queen%27s_Dock,_Windsor,_Ontario,_2025-06-03_04.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ambassador Bridge, Windsor",
+      "url": "https://commons.wikimedia.org/wiki/File:Ambassador_Bridge,_Windsor.jpg",
+      "author": "Patricia Drury",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Ambassador Bridge - Detroit Port of Entry (8617304112)",
+      "url": "https://commons.wikimedia.org/wiki/File:Ambassador_Bridge_-_Detroit_Port_of_Entry_(8617304112).jpg",
+      "author": "U.S. Customs and Border Protection",
+      "license": "Public domain"
+    },
+    {
+      "title": "Detroit December 2025 14 (Ambassador Bridge)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_December_2025_14_(Ambassador_Bridge).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "AmbassadorBridgeDetroitDowntown20230813",
+      "url": "https://commons.wikimedia.org/wiki/File:AmbassadorBridgeDetroitDowntown20230813.jpg",
+      "author": "Sutherland78",
+      "license": "CC0"
+    },
+    {
+      "title": "Ambassador Bridge Between Detroit and Windsor Aerial (49525264167)",
+      "url": "https://commons.wikimedia.org/wiki/File:Ambassador_Bridge_Between_Detroit_and_Windsor_Aerial_(49525264167).jpg",
+      "author": "formulanone",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Ambassador Bridge - Detroit and Windsor (51147167940)",
+      "url": "https://commons.wikimedia.org/wiki/File:Ambassador_Bridge_-_Detroit_and_Windsor_(51147167940).jpg",
+      "author": "formulanone",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Ambassador Bridge, Detroit, Michigan (21151531443)",
+      "url": "https://commons.wikimedia.org/wiki/File:Ambassador_Bridge,_Detroit,_Michigan_(21151531443).jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Ambassador Bridge to Windsor Canada (or from Windsor)",
+      "url": "https://www.flickr.com/photos/12368786@N06/6405176929",
+      "author": "Barbara Eckstein",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/det-ambassador-bridge.glb",
+  "source": "generators/det-ambassador-bridge.ts"
+}
