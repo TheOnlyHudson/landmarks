@@ -1,0 +1,15 @@
+{
+  "id": "tokyo-kaminarimon",
+  "name": "Kaminarimon",
+  "model": "tokyo-kaminarimon",
+  "place": "tokyo",
+  "lng": 139.7963683,
+  "lat": 35.7111333,
+  "bearing": 4.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2378708",
+  "replaces": [
+    "way/173154849"
+  ]
+}

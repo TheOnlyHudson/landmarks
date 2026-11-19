@@ -1,0 +1,17 @@
+{
+  "id": "abu-dhabi-qasr-al-watan",
+  "name": "Qasr Al Watan",
+  "model": "abu-dhabi-qasr-al-watan",
+  "place": "abu-dhabi",
+  "lng": 54.3051766,
+  "lat": 24.4630182,
+  "bearing": 343.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q61973220",
+  "replaces": [
+    "relation/7232861",
+    "way/492539777",
+    "way/1242194860"
+  ]
+}

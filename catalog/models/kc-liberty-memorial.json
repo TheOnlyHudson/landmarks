@@ -1,0 +1,106 @@
+{
+  "id": "kc-liberty-memorial",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "memorial",
+    "museum",
+    "tower",
+    "historic",
+    "egyptian-revival",
+    "art-deco"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "National World War I Museum and Memorial aerial.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_World_War_I_Museum_and_Memorial_aerial.jpg",
+      "author": "National WWI Museum",
+      "license": "CC0"
+    },
+    {
+      "title": "National WWI Memorial & Museum Aerial.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_WWI_Memorial_%26_Museum_Aerial.jpg",
+      "author": "Lectrician2",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Liberty Memorial Kansas City Mo (211698103).jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Liberty_Memorial_Kansas_City_Mo_(211698103).jpeg",
+      "author": "Arcangelts",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Liberty Memorial, Kansas City, Missouri.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Liberty_Memorial,_Kansas_City,_Missouri.jpg",
+      "author": "Marshall Astor",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Liberty Memorial - Kansas City, MO - DSC07430.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Liberty_Memorial_-_Kansas_City,_MO_-_DSC07430.JPG",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "Liberty Memorial - Kansas City, MO - DSC07822.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Liberty_Memorial_-_Kansas_City,_MO_-_DSC07822.JPG",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "Kansas City, Missouri - Liberty Memorial - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kansas_City,_Missouri_-_Liberty_Memorial_-_panoramio.jpg",
+      "author": "MARELBU",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "The Liberty Memorial, Kansas City MO, 2008.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Liberty_Memorial,_Kansas_City_MO,_2008.JPG",
+      "author": "Iknowthegoods",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "National WWI Museum and Memorial from lawn.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_WWI_Museum_and_Memorial_from_lawn.jpg",
+      "author": "Gabe S.",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "National World War I Museum and Memorial (also known at The Liberty Memorial.).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_World_War_I_Museum_and_Memorial_(also_known_at_The_Liberty_Memorial.).jpg",
+      "author": "CalendarGuy",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "National WWI Museum and Memorial 2025a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_WWI_Museum_and_Memorial_2025a.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "National WWI Museum and Memorial 2025d.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_WWI_Museum_and_Memorial_2025d.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/kc-liberty-memorial.glb",
+  "source": "generators/kc-liberty-memorial.ts"
+}

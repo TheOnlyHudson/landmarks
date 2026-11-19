@@ -1,0 +1,65 @@
+{
+  "id": "abu-dhabi-qasr-al-watan",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "palace",
+    "government",
+    "contemporary",
+    "dome",
+    "arcade"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/abu-dhabi-qasr-al-watan.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "2024-Abu Dhabi + Qasr Al Watan (visitor plaza)",
+      "url": "https://www.flickr.com/photos/76319087@N08/53553471868",
+      "author": "www.wbayer.com",
+      "license": "CC0"
+    },
+    {
+      "title": "2024-Abu Dhabi + Qasr al Watan (from Etihad Towers)",
+      "url": "https://www.flickr.com/photos/76319087@N08/53553612299",
+      "author": "www.wbayer.com",
+      "license": "CC0"
+    },
+    {
+      "title": "2024-Abu Dhabi + Qasr Al Watan (Great Hall)",
+      "url": "https://www.flickr.com/photos/76319087@N08/53553612564",
+      "author": "www.wbayer.com",
+      "license": "CC0"
+    },
+    {
+      "title": "2024-Abu Dhabi + Qasr Al Watan (dome from inside)",
+      "url": "https://www.flickr.com/photos/76319087@N08/53553611949",
+      "author": "www.wbayer.com",
+      "license": "CC0"
+    },
+    {
+      "title": "Abu Dhabi Presidential Palace",
+      "url": "https://www.flickr.com/photos/14184479@N02/24563645446",
+      "author": "Christoph Derndorfer",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/abu-dhabi-qasr-al-watan.glb",
+  "source": "generators/abu-dhabi-qasr-al-watan.ts"
+}

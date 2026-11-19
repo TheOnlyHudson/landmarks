@@ -1,0 +1,66 @@
+{
+  "id": "berlin-humboldt-forum",
+  "file": "models/berlin-humboldt-forum.glb",
+  "detail": "models/berlin-humboldt-forum.detail.glb",
+  "detailZoom": 17,
+  "source": "generators/berlin-humboldt-forum.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "palace",
+    "baroque",
+    "reconstruction",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The rebuilt Berlin Palace (2013–20): the Baroque fronts with Schlüter's columned portals and Eosander's triumphal-arch portal under the copper dome with its gilt lantern and cross, and Franco Stella's plain stone grid on the Spree.",
+  "references": [
+    {
+      "title": "Humboldt Forum, west facade, Berlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Humboldt_Forum,_west_facade,_Berlin.jpg",
+      "author": "Gerda Arendt",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Humboldt Forum, north facade.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Humboldt_Forum,_north_facade.jpg",
+      "author": "Gerda Arendt",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Humboldt Forum, 2024 (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Humboldt_Forum,_2024_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Humboldt Forum on the Spree 2019.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Humboldt_Forum_on_the_Spree_2019.jpg",
+      "author": "DanielMichaelPerry",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Berliner-Schloss-Humboldtforum-msu-2023-0I9A8637-8637.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner-Schloss-Humboldtforum-msu-2023-0I9A8637-8637.jpg",
+      "author": "Matthias Süßen",
+      "license": "CC-BY-SA-4.0"
+    }
+  ]
+}

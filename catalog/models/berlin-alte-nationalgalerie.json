@@ -1,0 +1,66 @@
+{
+  "id": "berlin-alte-nationalgalerie",
+  "file": "models/berlin-alte-nationalgalerie.glb",
+  "detail": "models/berlin-alte-nationalgalerie.detail.glb",
+  "detailZoom": 17,
+  "source": "generators/berlin-alte-nationalgalerie.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "neoclassical",
+    "museum-island",
+    "world-heritage",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Stüler's Corinthian temple on its high podium (1866–76): the octastyle portico and pediment with the Germania group, half-columns round the walls and apse, and the double open stair with Calandrelli's equestrian Friedrich Wilhelm IV on the landing.",
+  "references": [
+    {
+      "title": "Alte Nationalgalerie facade.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Alte_Nationalgalerie_facade.jpg",
+      "author": "Beko",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Berlin-Alte Nationalgalerie-12-2016-gje.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin-Alte_Nationalgalerie-12-2016-gje.jpg",
+      "author": "Gerd Eichmann",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Berlin-Alte Nationalgalerie-10-2016-gje.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin-Alte_Nationalgalerie-10-2016-gje.jpg",
+      "author": "Gerd Eichmann",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Berlin-Alte Nationalgalerie-02-Berliner Dom-2016-gje.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin-Alte_Nationalgalerie-02-Berliner_Dom-2016-gje.jpg",
+      "author": "Gerd Eichmann",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Alte-National-Galerie-Berlin-2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Alte-National-Galerie-Berlin-2015.jpg",
+      "author": "Tuxyso",
+      "license": "CC-BY-SA-3.0"
+    }
+  ]
+}

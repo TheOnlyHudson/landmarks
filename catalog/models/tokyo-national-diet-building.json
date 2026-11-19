@@ -1,0 +1,65 @@
+{
+  "id": "tokyo-national-diet-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "parliament",
+    "government",
+    "historic",
+    "granite"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-national-diet-building.detail.glb",
+  "detailZoom": 16,
+  "description": "The National Diet Building (1936): the symmetric pale granite building with the two chamber wings, the columned front portico and the 65 m central tower, a loggia of piers on every face under a stepped pyramid.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "National Diet Building.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Diet_Building.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "National Diet Building 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Diet_Building_02.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "National Diet Building 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Diet_Building_03.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Diet of Japan Kokkai 2009.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Diet_of_Japan_Kokkai_2009.jpg",
+      "author": "Wiiii",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "National Diet Building of Japan from the side.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Diet_Building_of_Japan_from_the_side.jpg",
+      "author": "zoonabar",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/tokyo-national-diet-building.glb",
+  "source": "generators/tokyo-national-diet-building.ts"
+}

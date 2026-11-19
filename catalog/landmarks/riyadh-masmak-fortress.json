@@ -1,0 +1,15 @@
+{
+  "id": "riyadh-masmak-fortress",
+  "name": "Masmak Fortress",
+  "model": "riyadh-masmak-fortress",
+  "place": "riyadh",
+  "lng": 46.7133512,
+  "lat": 24.631213,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q751987",
+  "replaces": [
+    "way/1385940120"
+  ]
+}

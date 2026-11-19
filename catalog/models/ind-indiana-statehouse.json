@@ -1,0 +1,81 @@
+{
+  "id": "ind-indiana-statehouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "capitol",
+    "government",
+    "renaissance-revival",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "StateCapitolIndiana.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:StateCapitolIndiana.jpg",
+      "author": "Daniel Schwen",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Indiana Statehouse - January 2012 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_Statehouse_-_January_2012_02.jpg",
+      "author": "Richie Diesterheft",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Indiana Statehouse - ca 1984 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_Statehouse_-_ca_1984_01.jpg",
+      "author": "Gary Todd",
+      "license": "CC0"
+    },
+    {
+      "title": "Indiana Statehouse - ca 1984 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_Statehouse_-_ca_1984_03.jpg",
+      "author": "Gary Todd",
+      "license": "CC0"
+    },
+    {
+      "title": "Indiana Statehouse - June 2019 - Tristan Loper 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_Statehouse_-_June_2019_-_Tristan_Loper_02.jpg",
+      "author": "Tristan Loper",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Indiana Statehouse - June 2019 - Tristan Loper 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_Statehouse_-_June_2019_-_Tristan_Loper_03.jpg",
+      "author": "Tristan Loper",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Indiana Statehouse - 2011-7-26.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_Statehouse_-_2011-7-26.jpg",
+      "author": "Jim Bowen",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Indiana Statehouse at night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_Statehouse_at_night.jpg",
+      "author": "Presidentman",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/ind-indiana-statehouse.glb",
+  "source": "generators/ind-indiana-statehouse.ts"
+}

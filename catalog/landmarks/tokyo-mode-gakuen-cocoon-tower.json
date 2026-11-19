@@ -1,0 +1,20 @@
+{
+  "id": "tokyo-mode-gakuen-cocoon-tower",
+  "name": "Mode Gakuen Cocoon Tower",
+  "model": "tokyo-mode-gakuen-cocoon-tower",
+  "place": "tokyo",
+  "lng": 139.69694,
+  "lat": 35.69158,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1030463",
+  "replaces": [
+    "way/145495557",
+    "way/577319850",
+    "way/577094865",
+    "way/577094866",
+    "way/577094867",
+    "way/577569356"
+  ]
+}

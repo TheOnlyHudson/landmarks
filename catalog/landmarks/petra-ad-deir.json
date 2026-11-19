@@ -1,0 +1,15 @@
+{
+  "id": "petra-ad-deir",
+  "name": "Ad Deir (The Monastery)",
+  "model": "petra-ad-deir",
+  "place": "petra",
+  "lng": 35.430978,
+  "lat": 30.3382077,
+  "bearing": 58.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q345467",
+  "replaces": [
+    "way/41032088"
+  ]
+}

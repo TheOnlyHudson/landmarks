@@ -1,0 +1,88 @@
+{
+  "id": "jeddah-al-rahma-mosque",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "mosque",
+    "religious",
+    "waterfront",
+    "islamic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/jeddah-al-rahma-mosque.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Mosque on Water V2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mosque_on_Water_V2.jpg",
+      "author": "Ilmarry",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Floating Mosque, Jeddah (6573519583).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Floating_Mosque,_Jeddah_(6573519583).jpg",
+      "author": "Sammy Six",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Floating Mosque, Jeddah (6573503347).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Floating_Mosque,_Jeddah_(6573503347).jpg",
+      "author": "Sammy Six",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Floating Mosque - Red Sea",
+      "url": "https://www.flickr.com/photos/8791753@N05/17541333322",
+      "author": "absolutraia",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Al-Rahmah Mosque 4.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Al-Rahmah_Mosque_4.jpg",
+      "author": "Tahir mq",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Al-Rahmah Mosque 6.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Al-Rahmah_Mosque_6.jpg",
+      "author": "Tahir mq",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Mezquita Al-Rahmah, Yeda, Arabia Saudita, 2025-05-19, DD 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mezquita_Al-Rahmah,_Yeda,_Arabia_Saudita,_2025-05-19,_DD_01.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Mezquita Al-Rahmah, Yeda, Arabia Saudita, 2025-05-19, DD 05.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mezquita_Al-Rahmah,_Yeda,_Arabia_Saudita,_2025-05-19,_DD_05.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "المئذنة مسجد الرحمة - جدة.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D9%85%D8%A6%D8%B0%D9%86%D8%A9_%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D8%A9_-_%D8%AC%D8%AF%D8%A9.jpg",
+      "author": "Faisal Al-Abdullah",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/jeddah-al-rahma-mosque.glb",
+  "source": "generators/jeddah-al-rahma-mosque.ts"
+}

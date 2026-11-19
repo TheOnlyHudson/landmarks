@@ -1,0 +1,83 @@
+{
+  "id": "tokyo-metropolitan-government-building",
+  "file": "models/tokyo-metropolitan-government-building.glb",
+  "detail": "models/tokyo-metropolitan-government-building.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-metropolitan-government-building.ts",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "skyscraper",
+    "twin-towers",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Kenzo Tange's 1990 city hall complex: the 243 m twin-towered Main Building No. 1 with its drum-carrying crowns, the stepped Main Building No. 2, and the Metropolitan Assembly with the colonnaded crescent of the Citizens' Plaza.",
+  "references": [
+    {
+      "title": "Tokyo Metropolitan Government Building 2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Metropolitan_Government_Building_2024.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2024 Tokyo Metropolitan Government Building No.1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2024_Tokyo_Metropolitan_Government_Building_No.1.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2024 Tokyo Metropolitan Government Building No.2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2024_Tokyo_Metropolitan_Government_Building_No.2.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Metropolitan Government Building, Northeast view 20190419 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Metropolitan_Government_Building,_Northeast_view_20190419_1.jpg",
+      "author": "DXR",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Metropolitan Government Building taken from Shinjuku NS Building.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Metropolitan_Government_Building_taken_from_Shinjuku_NS_Building.jpg",
+      "author": "Eavesdropper6735",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "TokyoMetropolitanGovernmentOffice.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:TokyoMetropolitanGovernmentOffice.jpg",
+      "author": "Markus Leupold-Löwenthal",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Tokyo Metropolitan Government Building No1 Tokyo Metropolitan Government Building No2 and Tokyo Metropolitan Assembly Building cropped GSI CKT20092-C63-16 20090427.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Metropolitan_Government_Building_No1_Tokyo_Metropolitan_Government_Building_No2_and_Tokyo_Metropolitan_Assembly_Building_cropped_GSI_CKT20092-C63-16_20090427.jpg",
+      "author": "国土地理院 (GSI)",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Tokyo Metropolitan Government Building No.1 at night 20170206.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Metropolitan_Government_Building_No.1_at_night_20170206.jpg",
+      "author": "Suicasmo",
+      "license": "CC-BY-SA-4.0"
+    }
+  ]
+}

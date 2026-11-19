@@ -1,0 +1,57 @@
+{
+  "id": "nyc-lga-terminal-b-east-concourse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "airport",
+    "terminal",
+    "concourse",
+    "jet-bridge",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "View of LaGuardia Airport (October 2023) 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_LaGuardia_Airport_(October_2023)_01.jpg",
+      "author": "DiscoA340",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "08-JUL-2022 - UA5546 LGA-ORD (E175 - N89349) (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:08-JUL-2022_-_UA5546_LGA-ORD_(E175_-_N89349)_(01).jpg",
+      "author": "Simply Aviation",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Terminal B at LaGuardia Airport (1).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Terminal_B_at_LaGuardia_Airport_(1).jpg",
+      "author": "David from Simply Aviation",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "USDA NAIP orthophoto m_4007310_sw_18_060_20240913 (2024)",
+      "url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/naip/items/ny_m_4007310_sw_18_060_20240913",
+      "author": "USDA Farm Production and Conservation Business Center",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nyc-lga-terminal-b-east-concourse.glb",
+  "source": "generators/nyc-lga-terminal-b-east-concourse.ts"
+}

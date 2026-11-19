@@ -1,0 +1,15 @@
+{
+  "id": "tokyo-azabudai-hills-mori-jp-tower",
+  "name": "Azabudai Hills Mori JP Tower",
+  "model": "tokyo-azabudai-hills-mori-jp-tower",
+  "place": "tokyo",
+  "lng": 139.7406598,
+  "lat": 35.6608484,
+  "bearing": 31,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q109703244",
+  "replaces": [
+    "way/1158739441"
+  ]
+}

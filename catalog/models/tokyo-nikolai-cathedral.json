@@ -1,0 +1,78 @@
+{
+  "id": "tokyo-nikolai-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "orthodox",
+    "byzantine-revival",
+    "dome",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Holy Resurrection Cathedral (Nikolai-dō, 1891, rebuilt 1929): a white Greek-cross church under a green ribbed copper dome, with its west bell tower.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tokyo Resurrection Cathedral March 2019.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Resurrection_Cathedral_March_2019.jpg",
+      "author": "Lcsschiller",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Holy Resurrection Cathedral, Tokyo, North view 20190422 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Resurrection_Cathedral%2C_Tokyo%2C_North_view_20190422_1.jpg",
+      "author": "DXR",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2018 Tokyo Resurrection Cathedral.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_Tokyo_Resurrection_Cathedral.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2019 Tokyo Resurrection Cathedral 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_Tokyo_Resurrection_Cathedral_02.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Resurrection Cathedral 201000.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Resurrection_Cathedral_201000.jpg",
+      "author": "Wiiii",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Holy Resurrection Cathedral in Tokyo - domedetail - jan 29 - 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Resurrection_Cathedral_in_Tokyo_-_domedetail_-_jan_29_-_2015.jpg",
+      "author": "Nesnad",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "title": "Nicholai-Do exterior.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nicholai-Do_exterior.jpg",
+      "author": "Matt Perreault",
+      "license": "CC-BY-SA-2.0"
+    }
+  ],
+  "detail": "models/tokyo-nikolai-cathedral.detail.glb",
+  "detailZoom": 16,
+  "file": "models/tokyo-nikolai-cathedral.glb",
+  "source": "generators/tokyo-nikolai-cathedral.ts"
+}

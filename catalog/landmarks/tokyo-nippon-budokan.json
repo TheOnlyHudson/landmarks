@@ -1,0 +1,15 @@
+{
+  "id": "tokyo-nippon-budokan",
+  "name": "Nippon Budokan",
+  "model": "tokyo-nippon-budokan",
+  "place": "tokyo",
+  "lng": 139.7498694,
+  "lat": 35.693358,
+  "bearing": 13,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q386246",
+  "replaces": [
+    "way/43896730"
+  ]
+}

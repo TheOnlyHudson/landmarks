@@ -1,0 +1,21 @@
+{
+  "id": "atx-dkr-texas-memorial-stadium",
+  "name": "Darrell K Royal–Texas Memorial Stadium",
+  "model": "atx-dkr-texas-memorial-stadium",
+  "place": "austin-area",
+  "lng": -97.732545,
+  "lat": 30.283665,
+  "bearing": 5.05,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/1639372",
+    "way/126030906",
+    "way/126030913",
+    "way/1419045025",
+    "way/1419045023",
+    "way/1419901606",
+    "way/1419901607"
+  ],
+  "wikidata": "Q1166591"
+}

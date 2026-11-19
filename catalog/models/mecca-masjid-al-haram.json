@@ -1,0 +1,124 @@
+{
+  "id": "mecca-masjid-al-haram",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "mosque",
+    "religious",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/mecca-masjid-al-haram.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "Great Mosque of Mecca1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_Mosque_of_Mecca1.jpg",
+      "author": "Saudipics.com",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Masjidul-HaramAerealView.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masjidul-HaramAerealView.jpg",
+      "author": "Wurzelgnohm",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Makkah 550m.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Makkah_550m.jpg",
+      "author": "Wurzelgnohm",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Masjid al-Haram 2022.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masjid_al-Haram_2022.jpg",
+      "author": "مريم محمد الغلبان",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "The Ka'ba, Great Mosque of Mecca, Saudi Arabia (4).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Ka%27ba,_Great_Mosque_of_Mecca,_Saudi_Arabia_(4).jpg",
+      "author": "Richard Mortel",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "ملک عبد اللہ گیٹ.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:%D9%85%D9%84%DA%A9_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%DB%81_%DA%AF%DB%8C%D9%B9.jpg",
+      "author": "HolyArtThou",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Al Masjid Al Haram - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Masjid_Al_Haram_-_panoramio.jpg",
+      "author": "Tevfik Teker",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Masjid al Haram Exterior.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masjid_al_Haram_Exterior.jpg",
+      "author": "King Eliot",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Masjed Haram from tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masjed_Haram_from_tower.jpg",
+      "author": "Swerveut",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Exterior view of the Grand Mosque of Mecca, Saudi Arabia (8).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_the_Grand_Mosque_of_Mecca,_Saudi_Arabia_(8).jpg",
+      "author": "Richard Mortel",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Exterior of the Grand Mosque of Makkah, Saudi Arabia (3) (52501415146).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Grand_Mosque_of_Makkah,_Saudi_Arabia_(3)_(52501415146).jpg",
+      "author": "Richard Mortel",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Masjid al-Ḥaram 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masjid_al-%E1%B8%A4aram_2.jpg",
+      "author": "Tahir mq",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Masjidil Haram (Umroh Ramadhan 2023)-11.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masjidil_Haram_(Umroh_Ramadhan_2023)-11.jpg",
+      "author": "Indonesiagood",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Masjidil Haram (Umroh Ramadhan 2023)-27.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Masjidil_Haram_(Umroh_Ramadhan_2023)-27.jpg",
+      "author": "Indonesiagood",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "المسجد الحرام في مكة.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D9%85_%D9%81%D9%8A_%D9%85%D9%83%D8%A9.jpg",
+      "author": "M sh شراونة محمد",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "wikidata": "Q428858",
+  "file": "models/mecca-masjid-al-haram.glb",
+  "source": "generators/mecca-masjid-al-haram.ts"
+}

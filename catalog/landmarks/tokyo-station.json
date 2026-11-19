@@ -1,0 +1,22 @@
+{
+  "id": "tokyo-station",
+  "name": "Tokyo Station Marunouchi Building",
+  "model": "tokyo-station",
+  "place": "tokyo",
+  "lng": 139.765977,
+  "lat": 35.681249,
+  "bearing": 17.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/4856156",
+    "relation/4856157",
+    "relation/4856158",
+    "relation/4856159",
+    "relation/4856160",
+    "relation/4856162",
+    "relation/4856163",
+    "relation/4856164",
+    "relation/4856165"
+  ]
+}

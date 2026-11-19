@@ -1,0 +1,14 @@
+{
+  "id": "abu-dhabi-aldar-hq",
+  "name": "Aldar Headquarters",
+  "model": "abu-dhabi-aldar-hq",
+  "place": "abu-dhabi",
+  "lng": 54.5753287,
+  "lat": 24.4414194,
+  "bearing": 346,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/168404139"
+  ]
+}

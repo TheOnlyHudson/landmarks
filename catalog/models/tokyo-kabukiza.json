@@ -1,0 +1,59 @@
+{
+  "id": "tokyo-kabukiza",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theatre",
+    "kabuki",
+    "japanese-architecture",
+    "skyscraper"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-kabukiza.detail.glb",
+  "detailZoom": 16,
+  "description": "The fifth Kabuki-za (Kengo Kuma, 2013): white walls under two irimoya roofs with front gables, the karahafu over the entrance, red rails and lanterns, and the white finned Kabukiza Tower rising behind.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "2019 Kabuki-za.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_Kabuki-za.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Kabukiza Tower 2019-04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kabukiza_Tower_2019-04.jpg",
+      "author": "Svetlov Artem",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Kabuki-Za 20221216.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kabuki-Za_20221216.jpg",
+      "author": "先従隗始",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Kabuki-za Theatre 2013 1125.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kabuki-za_Theatre_2013_1125.jpg",
+      "author": "Tak1701d",
+      "license": "public domain"
+    }
+  ],
+  "file": "models/tokyo-kabukiza.glb",
+  "source": "generators/tokyo-kabukiza.ts"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "tokyo-zojoji",
+  "name": "Zōjō-ji Daiden",
+  "model": "tokyo-zojoji",
+  "place": "tokyo",
+  "lng": 139.7482907,
+  "lat": 35.6574261,
+  "bearing": 6.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q249139",
+  "replaces": [
+    "way/751591140",
+    "way/751591139"
+  ]
+}

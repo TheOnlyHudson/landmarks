@@ -1,0 +1,86 @@
+{
+  "id": "amman-king-abdullah-mosque",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "mosque",
+    "religious",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "King Abdullah I Mosque from balcony across the street.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:King_Abdullah_I_Mosque_from_balcony_across_the_street.jpg",
+      "author": "Trldp",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "King Abdullah I Mosque with Our Lady Church (cropped).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:King_Abdullah_I_Mosque_with_Our_Lady_Church_(cropped).jpg",
+      "author": "Trldp",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "King Abdullah I Mosque, Amman, Jordan1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:King_Abdullah_I_Mosque,_Amman,_Jordan1.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Amman BW 29.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Amman_BW_29.JPG",
+      "author": "Berthold Werner",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "King Abdullah I mosque in Amman, 2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:King_Abdullah_I_mosque_in_Amman,_2024.jpg",
+      "author": "Makeandtoss",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Jordan Amman King Abdullah I mosque.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jordan_Amman_King_Abdullah_I_mosque.jpg",
+      "author": "Eurovaran",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "King Abdullah I Mosque, Amman.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:King_Abdullah_I_Mosque,_Amman.jpg",
+      "author": "Syed Wali Peeran",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "King Abdullah I Mosque (Amman).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:King_Abdullah_I_Mosque_(Amman).jpg",
+      "author": "Dennis G. Jarvis",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Amman skyline..jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amman_skyline..jpg",
+      "author": "young shanahan",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "wikidata": "Q1574587",
+  "file": "models/amman-king-abdullah-mosque.glb",
+  "source": "generators/amman-king-abdullah-mosque.ts"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "tokyo-st-marys-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "catholic",
+    "modernist",
+    "kenzo-tange",
+    "hyperbolic-paraboloid"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Kenzo Tange's St. Mary's Cathedral (1964): eight stainless-steel hyperbolic-paraboloid shells rising to a cross of light, with its free-standing bell tower.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "St. Mary's Cathedral Tokyo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Mary%27s_Cathedral_Tokyo.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "St. Mary's Cathedral Tokyo 2012.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Mary%27s_Cathedral_Tokyo_2012.JPG",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "2018 St. Mary's Cathedral Tokyo 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_St._Mary%27s_Cathedral_Tokyo_1.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2018 St. Mary's Cathedral, Tokyo 3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_St._Mary%27s_Cathedral%2C_Tokyo_3.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Cathedral St. Mary Südseite 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_St._Mary_S%C3%BCdseite_1.jpg",
+      "author": "Zairon",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "St. Mary's Cathedral, Tokyo - DSC07746.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Mary%27s_Cathedral%2C_Tokyo_-_DSC07746.JPG",
+      "author": "Daderot",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "St. Mary's Cathedral Tokyo2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Mary%27s_Cathedral_Tokyo2.jpg",
+      "author": "Wiiii",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "detail": "models/tokyo-st-marys-cathedral.detail.glb",
+  "detailZoom": 16,
+  "file": "models/tokyo-st-marys-cathedral.glb",
+  "source": "generators/tokyo-st-marys-cathedral.ts"
+}

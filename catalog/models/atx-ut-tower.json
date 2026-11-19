@@ -1,0 +1,68 @@
+{
+  "id": "atx-ut-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "university",
+    "clock-tower",
+    "historic",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "UT Tower, University of Texas in Austin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:UT_Tower,_University_of_Texas_in_Austin.jpg",
+      "author": "jcutrer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "University of texas at austin main building 2014.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:University_of_texas_at_austin_main_building_2014.jpg",
+      "author": "Larry D. Moore",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Main Building (University of Texas at Austin) - DSC08595.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_Building_(University_of_Texas_at_Austin)_-_DSC08595.jpg",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "University of Texas at Austin Tower viewed from the east.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:University_of_Texas_at_Austin_Tower_viewed_from_the_east.jpg",
+      "author": "Insightwm",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "University of Texas at Austin Tower Closeup.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:University_of_Texas_at_Austin_Tower_Closeup.jpg",
+      "author": "Pciet - Matthew Juran",
+      "license": "CC0"
+    },
+    {
+      "title": "University of Texas at Austin August 2019 38 (Main Building).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:University_of_Texas_at_Austin_August_2019_38_(Main_Building).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/atx-ut-tower.glb",
+  "source": "generators/atx-ut-tower.ts"
+}

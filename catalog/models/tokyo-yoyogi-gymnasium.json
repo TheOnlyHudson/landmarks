@@ -1,0 +1,83 @@
+{
+  "id": "tokyo-yoyogi-gymnasium",
+  "file": "models/tokyo-yoyogi-gymnasium.glb",
+  "detail": "models/tokyo-yoyogi-gymnasium.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-yoyogi-gymnasium.ts",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "modernist",
+    "olympic",
+    "kenzo-tange",
+    "suspension-roof"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Yoyogi National Gymnasium 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yoyogi_National_Gymnasium_1.jpg",
+      "author": "Kakidai",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Yoyogi National Gymnasium.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yoyogi_National_Gymnasium.jpg",
+      "author": "Kakidai",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Yoyogi National Gymnasium 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yoyogi_National_Gymnasium_2.jpg",
+      "author": "Kakidai",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Yoyogi National Gymnasium 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yoyogi_National_Gymnasium_2013.jpg",
+      "author": "Ocdp",
+      "license": "CC0"
+    },
+    {
+      "title": "Yoyogi-National-First-Gymnasium-04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yoyogi-National-First-Gymnasium-04.jpg",
+      "author": "Rs1421",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Yoyogi-National-Second-Gymnasium-01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yoyogi-National-Second-Gymnasium-01.jpg",
+      "author": "Rs1421",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Yoyogi National Gymnasium, from west-south-west.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Yoyogi_National_Gymnasium,_from_west-south-west.JPG",
+      "author": "Rwendland",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "View North from Shibuya Scramble Square - Dec 15, 2019.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_North_from_Shibuya_Scramble_Square_-_Dec_15,_2019.jpg",
+      "author": "Daniel Ramirez",
+      "license": "CC BY 2.0"
+    }
+  ]
+}

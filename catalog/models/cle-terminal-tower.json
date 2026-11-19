@@ -1,0 +1,81 @@
+{
+  "id": "cle-terminal-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "skyscraper",
+    "beaux-arts",
+    "historic",
+    "office",
+    "railway-station"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleveland August 2015 14 (Terminal Tower).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_August_2015_14_(Terminal_Tower).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Terminal Tower Blue Skies.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Terminal_Tower_Blue_Skies.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Terminal Tower from Fed Bldg.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Terminal_Tower_from_Fed_Bldg.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Terminal Tower front.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Terminal_Tower_front.jpg",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Terminal Tower top.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Terminal_Tower_top.jpg",
+      "author": "Chris Gent",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Terminal Tower (8737526090).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Terminal_Tower_(8737526090).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Terminal Tower Cleveland 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Terminal_Tower_Cleveland_03.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Terminal Tower from the river.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Terminal_Tower_from_the_river.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/cle-terminal-tower.glb",
+  "source": "generators/cle-terminal-tower.ts"
+}

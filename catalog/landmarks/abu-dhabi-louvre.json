@@ -1,0 +1,16 @@
+{
+  "id": "abu-dhabi-louvre",
+  "name": "Louvre Abu Dhabi",
+  "model": "abu-dhabi-louvre",
+  "place": "abu-dhabi",
+  "lng": 54.3985952,
+  "lat": 24.5336433,
+  "bearing": 49.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q3176133",
+  "replaces": [
+    "way/498046180",
+    "way/403276371"
+  ]
+}

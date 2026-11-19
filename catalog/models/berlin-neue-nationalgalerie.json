@@ -1,0 +1,73 @@
+{
+  "id": "berlin-neue-nationalgalerie",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "modernist",
+    "art-museum"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Neue Nationalgalerie 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Neue_Nationalgalerie_2022.jpg",
+      "author": "Evgenii Salganik",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Neue Nationalgalerie Berlin - von oben",
+      "url": "https://commons.wikimedia.org/wiki/File:Neue_Nationalgalerie_Berlin_-_von_oben.jpg",
+      "author": "Raimond Spekking",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Neue Nationalgalerie Skulpturengarten Berlin-Tiergarten 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Neue_Nationalgalerie_Skulpturengarten_Berlin-Tiergarten_01.jpg",
+      "author": "Singlespeedfahrer",
+      "license": "CC0"
+    },
+    {
+      "title": "2021-12-25 121520 Berlin Neue Nationalgalerie",
+      "url": "https://commons.wikimedia.org/wiki/File:2021-12-25_121520_Berlin_Neue_Nationalgalerie.jpg",
+      "author": "Tim Rademacher",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2021-09-02-Neue-Nationalgalerie-2021-a",
+      "url": "https://commons.wikimedia.org/wiki/File:2021-09-02-Neue-Nationalgalerie-2021-a.jpg",
+      "author": "Gunnar Klack",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Skulpturengarten Neue Nationalgalerie Berlin-Tiergarten",
+      "url": "https://commons.wikimedia.org/wiki/File:Skulpturengarten_Neue_Nationalgalerie_Berlin-Tiergarten.jpg",
+      "author": "Singlespeedfahrer",
+      "license": "CC0"
+    },
+    {
+      "title": "Berlin Neue Nationalgalerie",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Neue_Nationalgalerie.JPG",
+      "author": "Art4401",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/berlin-neue-nationalgalerie.glb",
+  "source": "generators/berlin-neue-nationalgalerie.ts"
+}

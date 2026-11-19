@@ -1,0 +1,15 @@
+{
+  "id": "tokyo-asahi-beer-hall",
+  "name": "Asahi Beer Hall (Flamme d'Or)",
+  "model": "tokyo-asahi-beer-hall",
+  "place": "tokyo",
+  "lng": 139.8003214,
+  "lat": 35.7098319,
+  "bearing": 34.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1953728",
+  "replaces": [
+    "way/155874922"
+  ]
+}

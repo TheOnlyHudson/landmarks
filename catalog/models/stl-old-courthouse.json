@@ -1,0 +1,75 @@
+{
+  "id": "stl-old-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "courthouse",
+    "historic",
+    "greek-revival",
+    "dome",
+    "national-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Old St. Louis County Courthouse 2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_St._Louis_County_Courthouse_2025.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old Courthouse de Saint-Louis.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Courthouse_de_Saint-Louis.jpg",
+      "author": "Mathieu BROSSAIS",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Old Courthouse, St. Louis, Missouri, 2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Courthouse,_St._Louis,_Missouri,_2025.jpg",
+      "author": "Sharon Mollerus",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "The Old Courthouse, Saint Louis, Missouri.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Old_Courthouse,_Saint_Louis,_Missouri.JPG",
+      "author": "Daderot",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Old Courthouse (2012).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Courthouse_(2012).jpg",
+      "author": "United States District Court for the Eastern District of Missouri",
+      "license": "Public domain"
+    },
+    {
+      "title": "Old St. Louis County Courthouse from overhead.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_St._Louis_County_Courthouse_from_overhead.jpg",
+      "author": "Մարի13",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old Courthouse St. Louis, Missouri.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Courthouse_St._Louis,_Missouri.jpg",
+      "author": "Jeremy Noble",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/stl-old-courthouse.glb",
+  "source": "generators/stl-old-courthouse.ts"
+}

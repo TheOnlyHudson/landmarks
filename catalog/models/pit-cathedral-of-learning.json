@@ -1,0 +1,80 @@
+{
+  "id": "pit-cathedral-of-learning",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "skyscraper",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cathedral of Learning, northeast face, 2022-09-14, 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning,_northeast_face,_2022-09-14,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0 1.0"
+    },
+    {
+      "title": "Cathedral of Learning, Pittsburgh, 2020-02-24, 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning,_Pittsburgh,_2020-02-24,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0 1.0"
+    },
+    {
+      "title": "Cathedral of Learning from the South Side Slopes, 2024-01-31.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_from_the_South_Side_Slopes,_2024-01-31.jpg",
+      "author": "Cbaile19",
+      "license": "CC0 1.0"
+    },
+    {
+      "title": "Cathedral of Learning at night, 2022-11-05, 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_at_night,_2022-11-05,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0 1.0"
+    },
+    {
+      "title": "Cathedral of Learning Pittsburgh (3).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_Pittsburgh_(3).jpg",
+      "author": "Kevin Albright",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Cathedral of Learning (University of Pittsburgh, seen from the lawn).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_(University_of_Pittsburgh,_seen_from_the_lawn).jpg",
+      "author": "Crazypaco (Michael G. White)",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Cathedral of Learning (taken on 27Aug2012 20hrs33mins43secs).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_(taken_on_27Aug2012_20hrs33mins43secs).jpg",
+      "author": "ragesoss",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Cathedral of Learning Daytime Wide.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_Daytime_Wide.jpg",
+      "author": "Silverv623",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/pit-cathedral-of-learning.glb",
+  "source": "generators/pit-cathedral-of-learning.ts"
+}

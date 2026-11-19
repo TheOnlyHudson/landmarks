@@ -1,0 +1,16 @@
+{
+  "id": "amman-king-abdullah-mosque",
+  "name": "King Abdullah I Mosque",
+  "model": "amman-king-abdullah-mosque",
+  "place": "amman",
+  "lng": 35.912879,
+  "lat": 31.961143,
+  "bearing": 14,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q1574587",
+  "replaces": [
+    "way/333946090",
+    "way/1328040766"
+  ]
+}

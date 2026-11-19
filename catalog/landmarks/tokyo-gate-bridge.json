@@ -1,0 +1,17 @@
+{
+  "id": "tokyo-gate-bridge",
+  "name": "Tokyo Gate Bridge",
+  "model": "tokyo-gate-bridge",
+  "place": "tokyo",
+  "lng": 139.826621,
+  "lat": 35.610482,
+  "bearing": 48.35,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/105230115",
+    "way/105230127",
+    "way/105230124",
+    "way/105230122"
+  ]
+}

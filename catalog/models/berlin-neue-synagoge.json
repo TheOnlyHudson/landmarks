@@ -1,0 +1,80 @@
+{
+  "id": "berlin-neue-synagoge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "synagogue",
+    "historic",
+    "moorish-revival",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Neue Synagoge, Berlin-Mitte, 160328, ako.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Neue_Synagoge,_Berlin-Mitte,_160328,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY 3.0 de"
+    },
+    {
+      "title": "Neue Synagoge (Berlin), Kuppel, 140525, ako.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Neue_Synagoge_(Berlin),_Kuppel,_140525,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Neue Synagoge, Oranienburger Straße, Berlin-Mitte.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Neue_Synagoge,_Oranienburger_Stra%C3%9Fe,_Berlin-Mitte.jpg",
+      "author": "Neuköllner",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berlin-Neue Synagoge-Oranienburger Str-08-2016-gje.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin-Neue_Synagoge-Oranienburger_Str-08-2016-gje.jpg",
+      "author": "Gerd Eichmann",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Neue Synagoge, Oranienburger Straße, Berlin, 1603281233, ako.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Neue_Synagoge,_Oranienburger_Stra%C3%9Fe,_Berlin,_1603281233,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Neue Synagoge (Berlin), 2024 (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Neue_Synagoge_(Berlin),_2024_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berlin, Kuppeln der Synagoge in der Oranienburger Straße.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin,_Kuppeln_der_Synagoge_in_der_Oranienburger_Stra%C3%9Fe.JPG",
+      "author": "Carola Opitz",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berlin - Die Neue Synagoge.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_-_Die_Neue_Synagoge.jpg",
+      "author": "Marek Śliwecki",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/berlin-neue-synagoge.glb",
+  "source": "generators/berlin-neue-synagoge.ts"
+}

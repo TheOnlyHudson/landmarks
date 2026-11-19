@@ -1,0 +1,17 @@
+{
+  "id": "berlin-altes-museum",
+  "name": "Altes Museum",
+  "model": "berlin-altes-museum",
+  "place": "berlin",
+  "lng": 13.398786,
+  "lat": 52.519458,
+  "bearing": 328,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q156722",
+  "replaces": [
+    "relation/3619",
+    "way/15968753",
+    "way/137230471"
+  ]
+}

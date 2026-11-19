@@ -1,0 +1,26 @@
+{
+  "id": "hoover-dam",
+  "name": "Hoover Dam",
+  "model": "hoover-dam",
+  "place": "hoover-dam",
+  "lng": -114.738427,
+  "lat": 36.01532,
+  "bearing": 49.5,
+  "elevation": 0.1,
+  "minzoom": 14,
+  "wikidata": "Q172822",
+  "replaces": [
+    "way/49938932",
+    "way/242824653",
+    "way/120468644",
+    "way/120468643",
+    "way/120468642",
+    "way/328945751",
+    "way/328945759",
+    "way/328945750",
+    "way/328945758",
+    "way/743151512",
+    "way/743741968",
+    "way/743741969"
+  ]
+}

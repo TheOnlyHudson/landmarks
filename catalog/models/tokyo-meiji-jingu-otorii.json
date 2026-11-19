@@ -1,0 +1,47 @@
+{
+  "id": "tokyo-meiji-jingu-otorii",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "shrine",
+    "shinto",
+    "torii",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-meiji-jingu-otorii.detail.glb",
+  "detailZoom": 16,
+  "description": "The Ōtorii on Meiji Jingu's approach: a 12 m myōjin torii of weathered cypress, its kasagi 17 m long, with three gilt chrysanthemum crests.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Meiji-jingū grand torii d'entrée.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Meiji-jing%C5%AB_grand_torii_d%27entr%C3%A9e.jpg",
+      "author": "Hyppolyte de Saint-Rambert",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Meiji-jingū grand torii clair.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Meiji-jing%C5%AB_grand_torii_clair.jpg",
+      "author": "Hyppolyte de Saint-Rambert",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/tokyo-meiji-jingu-otorii.glb",
+  "source": "generators/tokyo-meiji-jingu-otorii.ts"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "muscat-sultan-qaboos-grand-mosque",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "mosque",
+    "religious",
+    "contemporary",
+    "sandstone"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/muscat-sultan-qaboos-grand-mosque.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Muscat, moschea del sultano qaboos, esterno 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Muscat,_moschea_del_sultano_qaboos,_esterno_02.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Muscat, moschea del sultano qaboos, esterno 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Muscat,_moschea_del_sultano_qaboos,_esterno_03.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Muscat, moschea del sultano qaboos, cortile 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Muscat,_moschea_del_sultano_qaboos,_cortile_01.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Muscat, moschea del sultano qaboos, esterno, perimetro 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Muscat,_moschea_del_sultano_qaboos,_esterno,_perimetro_01.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Muscat, moschea del sultano qaboos, esterno, perimetro 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Muscat,_moschea_del_sultano_qaboos,_esterno,_perimetro_02.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Muscat, moschea del sultano qaboos, esterno, perimetro 03 minareto",
+      "url": "https://commons.wikimedia.org/wiki/File:Muscat,_moschea_del_sultano_qaboos,_esterno,_perimetro_03_minareto.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Muscat, moschea del sultano qaboos, esterno 05 minareto 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Muscat,_moschea_del_sultano_qaboos,_esterno_05_minareto_2.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sultan Qaboos Grand Mosque (20517260391)",
+      "url": "https://commons.wikimedia.org/wiki/File:Sultan_Qaboos_Grand_Mosque_(20517260391).jpg",
+      "author": "Riyadh Al Balushi",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "SultanQaboosGrandMosque 44",
+      "url": "https://commons.wikimedia.org/wiki/File:SultanQaboosGrandMosque_44.JPG",
+      "author": "Paasikivi",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Grand Mosque",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Mosque.jpg",
+      "author": "AdArSh r u",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sultan Qaboos Grand Mosque, Oman",
+      "url": "https://www.flickr.com/photos/43810986@N03/9840564423",
+      "author": "prasad.om",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Grand Mosque - Sultanate of Oman",
+      "url": "https://www.flickr.com/photos/27636029@N05/4206047049",
+      "author": "Jhong Dizon",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Grand Central Mosque, Muscat",
+      "url": "https://www.flickr.com/photos/73435065@N00/160404538",
+      "author": "AD2O9",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "The Sultan Qaboos Grand Mosque",
+      "url": "https://www.flickr.com/photos/86896868@N00/11261912345",
+      "author": "y entonces",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Dome Detail",
+      "url": "https://www.flickr.com/photos/84985982@N00/13639232134",
+      "author": "andryn2006",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Mosque Gardens",
+      "url": "https://www.flickr.com/photos/84985982@N00/13638558693",
+      "author": "andryn2006",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/muscat-sultan-qaboos-grand-mosque.glb",
+  "source": "generators/muscat-sultan-qaboos-grand-mosque.ts"
+}

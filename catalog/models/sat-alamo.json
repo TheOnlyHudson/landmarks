@@ -1,0 +1,104 @@
+{
+  "id": "sat-alamo",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "mission",
+    "spanish-colonial"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Mission San Antonio de Valero, HABS TEX,15-SANT,15- (sheets 2-8 of 17)",
+      "url": "https://commons.wikimedia.org/wiki/File:Mission_San_Antonio_de_Valero,_Alamo_Plaza,_San_Antonio,_Bexar_County,_TX_HABS_TEX,15-SANT,15-_(sheet_3_of_17).tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Alamo pano.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Alamo_pano.jpg",
+      "author": "Daniel Schwen",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Alamo, San Antonio, Texas (50296783352).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Alamo,_San_Antonio,_Texas_(50296783352).jpg",
+      "author": "Nicolas Henderson",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "The alamo from the side.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_alamo_from_the_side.jpg",
+      "author": "Ttc39",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "San Antonio, Texas (2018) - 018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Antonio,_Texas_(2018)_-_018.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "San Antonio, Texas (2018) - 024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Antonio,_Texas_(2018)_-_024.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "San Antonio, Texas (2018) - 030.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Antonio,_Texas_(2018)_-_030.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "HABS TEX,15-SANT,15-11, southeast elevation (1936)",
+      "url": "https://commons.wikimedia.org/wiki/File:Historic_American_Buildings_Survey,_Arthur_W._Stewart,_Photographer_April_17,_1936_SOUTHEAST_ELEVATION_(SOUTH_SIDE_AND_EAST_REAR)._-_Mission_San_Antonio_de_Valero,_Alamo_Plaza,_HABS_TEX,15-SANT,15-11.tif",
+      "author": "Arthur W. Stewart, Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "The Alamo (facade).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Alamo_(facade).jpg",
+      "author": "Abbie Myers",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Facade of the Alamo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Facade_of_the_Alamo.jpg",
+      "author": "Rob McBryde",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Alamo Mission Chapel at night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Alamo_Mission_Chapel_at_night.jpg",
+      "author": "JLHtexas",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Alamo at Night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Alamo_at_Night.jpg",
+      "author": "Emiranda77",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/sat-alamo.glb",
+  "source": "generators/sat-alamo.ts"
+}
