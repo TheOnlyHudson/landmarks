@@ -1,0 +1,16 @@
+{
+  "id": "nola-hancock-whitney-center",
+  "name": "Hancock Whitney Center",
+  "model": "nola-hancock-whitney-center",
+  "place": "new-orleans-area",
+  "lng": -90.0707983,
+  "lat": 29.9502763,
+  "bearing": 13.86,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/328669404",
+    "way/328669312"
+  ],
+  "wikidata": "Q28868"
+}
