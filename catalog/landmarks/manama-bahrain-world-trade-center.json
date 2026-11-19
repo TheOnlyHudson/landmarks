@@ -1,0 +1,20 @@
+{
+  "id": "manama-bahrain-world-trade-center",
+  "name": "Bahrain World Trade Center",
+  "model": "manama-bahrain-world-trade-center",
+  "place": "manama",
+  "lng": 50.5814311,
+  "lat": 26.2396087,
+  "bearing": 330,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q511612",
+  "replaces": [
+    "way/275949355",
+    "way/1472237505",
+    "way/1472237506",
+    "way/1472237507",
+    "way/1472237508",
+    "way/1472237509"
+  ]
+}

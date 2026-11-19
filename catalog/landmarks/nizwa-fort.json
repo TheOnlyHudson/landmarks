@@ -1,0 +1,15 @@
+{
+  "id": "nizwa-fort",
+  "name": "Nizwa Fort",
+  "model": "nizwa-fort",
+  "place": "nizwa",
+  "lng": 57.5300402,
+  "lat": 22.9331982,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/131222068",
+    "way/269171324"
+  ]
+}

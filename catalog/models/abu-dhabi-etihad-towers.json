@@ -1,0 +1,98 @@
+{
+  "id": "abu-dhabi-etihad-towers",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "contemporary",
+    "glass",
+    "mixed-use"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Etihad Towers",
+      "url": "https://www.flickr.com/photos/78051511@N03/7718010984",
+      "author": "Se.By.",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Etihad Towerとエミレーツ・パレス",
+      "url": "https://commons.wikimedia.org/wiki/File:Etihad_Tower%E3%81%A8%E3%82%A8%E3%83%9F%E3%83%AC%E3%83%BC%E3%83%84%E3%83%BB%E3%83%91%E3%83%AC%E3%82%B9_-_panoramio.jpg",
+      "author": "ykeiko",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Etihad Towers @ Abu Dhabi",
+      "url": "https://www.flickr.com/photos/22539273@N00/16018255636",
+      "author": "*_*",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Etihad Towers @ Abu Dhabi",
+      "url": "https://www.flickr.com/photos/22539273@N00/15858372637",
+      "author": "*_*",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Etihad Towers @ Abu Dhabi",
+      "url": "https://www.flickr.com/photos/22539273@N00/15421790574",
+      "author": "*_*",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Etihad Towers @ Abu Dhabi",
+      "url": "https://www.flickr.com/photos/22539273@N00/15856583768",
+      "author": "*_*",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Etihad Towers",
+      "url": "https://www.flickr.com/photos/72821066@N04/32453297315",
+      "author": "Travels with Kathleen",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Etihad towers",
+      "url": "https://www.flickr.com/photos/10345599@N03/8723117609",
+      "author": "Francisco Anzola",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Etihad Towers Abu Dhabi",
+      "url": "https://www.flickr.com/photos/130711206@N03/25923852504",
+      "author": "Mohammed Alborum",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "The Big Six in Abu Dhabi",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Big_Six_in_Abu_Dhabi.jpg",
+      "author": "Tms2007",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Skyline Abu Dhabi",
+      "url": "https://commons.wikimedia.org/wiki/File:Skyline_Abu_Dhabi.jpg",
+      "author": "Kimmyuandooo",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/abu-dhabi-etihad-towers.glb",
+  "source": "generators/abu-dhabi-etihad-towers.ts"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "doha-national-museum",
+  "name": "National Museum of Qatar",
+  "model": "doha-national-museum",
+  "place": "doha",
+  "lng": 51.549175,
+  "lat": 25.2877051,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/680315530",
+    "way/680315535"
+  ],
+  "wikidata": "Q22079715"
+}

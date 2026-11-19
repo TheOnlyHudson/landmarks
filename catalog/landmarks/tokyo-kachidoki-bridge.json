@@ -1,0 +1,15 @@
+{
+  "id": "tokyo-kachidoki-bridge",
+  "name": "Kachidoki Bridge",
+  "model": "tokyo-kachidoki-bridge",
+  "place": "tokyo",
+  "lng": 139.7748956,
+  "lat": 35.6622591,
+  "bearing": 323.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q4844361",
+  "replaces": [
+    "way/549492916"
+  ]
+}

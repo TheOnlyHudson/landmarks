@@ -1,0 +1,63 @@
+{
+  "id": "tokyo-asahi-beer-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "postmodern",
+    "philippe-starck",
+    "sculpture",
+    "brewery"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Philippe Starck's Asahi Beer Hall (Super Dry Hall, 1989): a flaring black granite box on a stone plinth, crowned by the golden Flamme d'Or.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Flamme d'Or (Asahi Beer Hall).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Flamme_d%27Or_(Asahi_Beer_Hall).jpg",
+      "author": "Phlizz",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Super Dry Hall (2).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Super_Dry_Hall_(2).JPG",
+      "author": "Tokumeigakarinoaoshima",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Asahi Beer Hall (9000621334).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Asahi_Beer_Hall_(9000621334).jpg",
+      "author": "Guilhem Vellut",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Asahi Breweries Azumabashi Headquarters Building 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Asahi_Breweries_Azumabashi_Headquarters_Building_02.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Asahi Breweries headquarters building with the Asahi Flame and Skytree.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Asahi_Breweries_headquarters_building_with_the_Asahi_Flame_and_Skytree.jpg",
+      "author": "Basile Morin",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/tokyo-asahi-beer-hall.glb",
+  "source": "generators/tokyo-asahi-beer-hall.ts"
+}

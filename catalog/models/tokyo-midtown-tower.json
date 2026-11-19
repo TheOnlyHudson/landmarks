@@ -1,0 +1,88 @@
+{
+  "id": "tokyo-midtown-tower",
+  "file": "models/tokyo-midtown-tower.glb",
+  "detail": "models/tokyo-midtown-tower.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-midtown-tower.ts",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "hotel"
+  ],
+  "description": "248 m tower (2007, SOM) of three interlocking volumes: bronze-beige vertical louvres over dark glass, a taller green glass slab under an open crown frame, and dark glass with vertical fins.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tokyo Midtown Tower seen from the south.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Midtown_Tower_seen_from_the_south.jpg",
+      "author": "Ymblanter",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo Midtown.2.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Midtown.2.JPG",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Tokyo-Midtown-Tower-01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo-Midtown-Tower-01.jpg",
+      "author": "Rs1421",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Tokyo-Midtown-Tower-03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo-Midtown-Tower-03.jpg",
+      "author": "Rs1421",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Tokyo-Midtown-Tower-05.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo-Midtown-Tower-05.jpg",
+      "author": "Rs1421",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Midtown Tower from Tokyo Midtown.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Midtown_Tower_from_Tokyo_Midtown.jpg",
+      "author": "itoshin87",
+      "license": "Public domain"
+    },
+    {
+      "title": "Midtown Tower @ Tokyo Midtown @ Akasaka (9434354728).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Midtown_Tower_@_Tokyo_Midtown_@_Akasaka_(9434354728).jpg",
+      "author": "Guilhem Vellut",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Midtown Tower @ Tokyo Midtown @ Akasaka (9431583961).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Midtown_Tower_@_Tokyo_Midtown_@_Akasaka_(9431583961).jpg",
+      "author": "Guilhem Vellut",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Tokyo Midtown from Tokyo Tower (11696816565).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Midtown_from_Tokyo_Tower_(11696816565).jpg",
+      "author": "Guilhem Vellut",
+      "license": "CC-BY-2.0"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "amman",
+  "name": "Amman",
+  "kind": "city",
+  "parent": "jordan",
+  "wikidata": "Q3805"
+}

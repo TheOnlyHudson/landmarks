@@ -1,0 +1,71 @@
+{
+  "id": "tokyo-national-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "imperial-crown-style",
+    "historic",
+    "important-cultural-property"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The Tokyo National Museum's Honkan (Jin Watanabe, 1937): a long beige two-storey body under a great Japanese hipped-and-gabled tile roof, with its gabled entrance porch.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tokyo National Museum, Honkan 2010.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum%2C_Honkan_2010.jpg",
+      "author": "Wiiii",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Tokyo National Museum P9234926.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_P9234926.jpg",
+      "author": "Kestrel",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo National Museum Main Building P1145564.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_Main_Building_P1145564.jpg",
+      "author": "Kestrel",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Main building of the Tokyo National Museum.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_building_of_the_Tokyo_National_Museum.jpg",
+      "author": "TPFUUT",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Main building of the Tokyo National Museum 20170208.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_building_of_the_Tokyo_National_Museum_20170208.jpg",
+      "author": "Suicasmo",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tokyo National Museum main building at night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_main_building_at_night.jpg",
+      "author": "Pocsywe",
+      "license": "CC0-1.0"
+    }
+  ],
+  "detail": "models/tokyo-national-museum.detail.glb",
+  "detailZoom": 16,
+  "file": "models/tokyo-national-museum.glb",
+  "source": "generators/tokyo-national-museum.ts"
+}

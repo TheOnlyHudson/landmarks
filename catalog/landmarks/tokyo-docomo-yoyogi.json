@@ -1,0 +1,20 @@
+{
+  "id": "tokyo-docomo-yoyogi",
+  "name": "NTT Docomo Yoyogi Building",
+  "model": "tokyo-docomo-yoyogi",
+  "place": "tokyo",
+  "lng": 139.70312,
+  "lat": 35.6844,
+  "bearing": 348.7,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q2090752",
+  "replaces": [
+    "way/137189971",
+    "way/380315124",
+    "way/380315125",
+    "way/380315126",
+    "way/380315127",
+    "way/380315128"
+  ]
+}

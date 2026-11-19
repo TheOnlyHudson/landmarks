@@ -1,0 +1,17 @@
+{
+  "id": "tokyo-yoyogi-gymnasium",
+  "name": "Yoyogi National Gymnasium",
+  "model": "tokyo-yoyogi-gymnasium",
+  "place": "tokyo",
+  "lng": 139.6998033,
+  "lat": 35.6673672,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1069457",
+  "replaces": [
+    "way/101925760",
+    "way/1069271775",
+    "way/72541058"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "riyadh-al-faisaliyah",
+  "name": "Al Faisaliah Tower",
+  "model": "riyadh-al-faisaliyah",
+  "place": "riyadh",
+  "lng": 46.6850099,
+  "lat": 24.6902004,
+  "bearing": 335.9,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/1445986915"
+  ]
+}

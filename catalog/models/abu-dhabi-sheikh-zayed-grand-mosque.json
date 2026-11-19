@@ -1,0 +1,118 @@
+{
+  "id": "abu-dhabi-sheikh-zayed-grand-mosque",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "mosque",
+    "religious",
+    "contemporary",
+    "marble"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/abu-dhabi-sheikh-zayed-grand-mosque.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sheikh Zayed Grand Mosque Abu Dhabi",
+      "url": "https://www.flickr.com/photos/69031678@N00/23124197379",
+      "author": "ToGa Wanderings",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Sheikh Zayed grand mosque (qibla side)",
+      "url": "https://www.flickr.com/photos/27466406@N00/8170052485",
+      "author": "arripay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Sheikh Zayed grand mosque (south side)",
+      "url": "https://www.flickr.com/photos/27466406@N00/8170088112",
+      "author": "arripay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Sheikh Zayed Grand Mosque (outer gallery)",
+      "url": "https://www.flickr.com/photos/36398463@N04/16509992640",
+      "author": "david.gill12",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Sheikh Zayed Grand Mosque",
+      "url": "https://www.flickr.com/photos/8962474@N05/5586005193",
+      "author": "Rob Alter",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Sheikh Zayed Mosque (Abu Dhabi - UAE), east gate",
+      "url": "https://www.flickr.com/photos/21578258@N07/5182517489",
+      "author": "Abdul Awaes",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Sheikh Zayed Mosque (Abu Dhabi - UAE), east gallery",
+      "url": "https://www.flickr.com/photos/21578258@N07/5183116630",
+      "author": "Abdul Awaes",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Sheikh Zayed Mosque (Abu Dhabi - UAE), minaret",
+      "url": "https://www.flickr.com/photos/21578258@N07/5183119152",
+      "author": "Abdul Awaes",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Sheikh Zayed Grand Mosque: Colonade and Reflecting Pool",
+      "url": "https://www.flickr.com/photos/84985982@N00/17352270175",
+      "author": "andryn2006",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Sheikh Zayed Grand Mosque @ Abu Dhabi",
+      "url": "https://www.flickr.com/photos/22539273@N00/16018362686",
+      "author": "*_*",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Sheikh Zayed, Grand Mosque, Abu Dhabi",
+      "url": "https://www.flickr.com/photos/53375223@N00/2417119800",
+      "author": "Jenny Mackness",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Abu Dhabi - 065",
+      "url": "https://www.flickr.com/photos/95672737@N00/10884478556",
+      "author": "Kyle Taylor, Dream It. Do It.",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Minaret, Grand Mosque, Abu Dhabi, UAE.",
+      "url": "https://www.flickr.com/photos/26085795@N02/3908709741",
+      "author": "jemasmith",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Abu dhabi, Moschea dello Sceicco Zayed, loggiati, pilastri, capitelli dorati 01 a palmizio",
+      "url": "https://commons.wikimedia.org/wiki/File:Abu_dhabi,_Moschea_dello_Sceicco_Zayed,_loggiati,_pilastri,_capitelli_dorati_01_a_palmizio.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/abu-dhabi-sheikh-zayed-grand-mosque.glb",
+  "source": "generators/abu-dhabi-sheikh-zayed-grand-mosque.ts"
+}

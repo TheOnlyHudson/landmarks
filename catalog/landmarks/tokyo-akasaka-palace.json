@@ -1,0 +1,15 @@
+{
+  "id": "tokyo-akasaka-palace",
+  "name": "Akasaka Palace",
+  "model": "tokyo-akasaka-palace",
+  "place": "tokyo",
+  "lng": 139.7287949,
+  "lat": 35.6802469,
+  "bearing": 6,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q555255",
+  "replaces": [
+    "relation/6109212"
+  ]
+}

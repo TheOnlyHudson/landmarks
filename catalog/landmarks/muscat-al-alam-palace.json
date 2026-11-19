@@ -1,0 +1,15 @@
+{
+  "id": "muscat-al-alam-palace",
+  "name": "Al Alam Palace",
+  "model": "muscat-al-alam-palace",
+  "place": "muscat",
+  "lng": 58.5947265,
+  "lat": 23.6159692,
+  "bearing": 13.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2121461",
+  "replaces": [
+    "way/66645876"
+  ]
+}

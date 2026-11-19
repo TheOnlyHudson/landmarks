@@ -1,0 +1,32 @@
+{
+  "id": "tokyo-metropolitan-government-building",
+  "name": "Tokyo Metropolitan Government Building",
+  "model": "tokyo-metropolitan-government-building",
+  "place": "tokyo",
+  "lng": 139.69171,
+  "lat": 35.6895,
+  "bearing": 349,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q111973",
+  "replaces": [
+    "way/89877471",
+    "way/568387704",
+    "way/568387705",
+    "way/568387706",
+    "way/568387707",
+    "way/568387708",
+    "way/568387709",
+    "way/89877420",
+    "way/568465171",
+    "way/568465175",
+    "way/568465180",
+    "way/89878322",
+    "way/245962672",
+    "way/245962673",
+    "way/245962674",
+    "way/245962675",
+    "way/572510171",
+    "way/572510172"
+  ]
+}

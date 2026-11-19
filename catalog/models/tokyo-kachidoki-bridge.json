@@ -1,0 +1,83 @@
+{
+  "id": "tokyo-kachidoki-bridge",
+  "file": "models/tokyo-kachidoki-bridge.glb",
+  "detail": "models/tokyo-kachidoki-bridge.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "source": "generators/tokyo-kachidoki-bridge.ts",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bascule-bridge",
+    "tied-arch",
+    "historic",
+    "important-cultural-property"
+  ],
+  "description": "Kachidoki Bridge (1940) over the Sumida River: two solid-rib tied arches either side of a double-leaf Chicago-type bascule span, with granite operators' houses on the piers.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Kachidokibashi -02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kachidokibashi_-02.jpg",
+      "author": "Aimaimyi",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Kachidokibashi -01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kachidokibashi_-01.jpg",
+      "author": "Aimaimyi",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Kachidoki bashi01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kachidoki_bashi01.jpg",
+      "author": "Higa4",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Kachidoki bashi02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kachidoki_bashi02.jpg",
+      "author": "Higa4",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Kachidoki bashi03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kachidoki_bashi03.jpg",
+      "author": "Higa4",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "勝鬨橋與隅田川遊船.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:勝鬨橋與隅田川遊船.jpg",
+      "author": "R96340",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "勝鬨橋01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:勝鬨橋01.jpg",
+      "author": "Ai yamaishi",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Kachidoki Bashi 20140225.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kachidoki_Bashi_20140225.jpg",
+      "author": "Michio_Matsuoka",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

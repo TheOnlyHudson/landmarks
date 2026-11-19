@@ -1,0 +1,77 @@
+{
+  "id": "tokyo-akasaka-palace",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "palace",
+    "neo-baroque",
+    "historic",
+    "government"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-akasaka-palace.detail.glb",
+  "detailZoom": 16,
+  "description": "Akasaka Palace, the State Guest House (1909): the neo-baroque granite palace in a U round its forecourt, green copper roofs and black chimneys behind the balustrade, the entrance pavilion with its pediment, paired columns, armoured warriors and gilt-phoenix globes, and the garden front's two-storey loggia.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "State Guest House Akasaka Palace main entrance.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:State_Guest_House_Akasaka_Palace_main_entrance.jpg",
+      "author": "Yasu",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "2019 Akasaka Palace 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_Akasaka_Palace_02.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Akasaka Palace 3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Akasaka_Palace_3.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Akasaka Palace 5.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Akasaka_Palace_5.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Akasaka Palace 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Akasaka_Palace_1.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Public open the Akasaka palace 01.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Public_open_the_Akasaka_palace_01.JPG",
+      "author": "Mr.Asylum",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Akasaka Palace south 2010.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Akasaka_Palace_south_2010.jpg",
+      "author": "Wiiii",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/tokyo-akasaka-palace.glb",
+  "source": "generators/tokyo-akasaka-palace.ts"
+}
