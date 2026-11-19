@@ -1,0 +1,15 @@
+{
+  "id": "pit-st-paul-cathedral",
+  "name": "Cathedral of Saint Paul",
+  "model": "pit-st-paul-cathedral",
+  "place": "pittsburgh-area",
+  "lng": -79.949807,
+  "lat": 40.447372,
+  "bearing": 355.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2942419",
+  "replaces": [
+    "way/104431158"
+  ]
+}
