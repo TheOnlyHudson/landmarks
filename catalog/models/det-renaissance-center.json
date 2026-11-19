@@ -1,0 +1,104 @@
+{
+  "id": "det-renaissance-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "hotel",
+    "modernist",
+    "skyline"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Renaissance Center, Detroit, Michigan from S 2014-12-07",
+      "url": "https://commons.wikimedia.org/wiki/File:Renaissance_Center,_Detroit,_Michigan_from_S_2014-12-07.jpg",
+      "author": "Crisco 1492",
+      "license": "Public domain"
+    },
+    {
+      "title": "Renaissance Centre from Windsor, Ontario, 2025-05-30",
+      "url": "https://commons.wikimedia.org/wiki/File:Renaissance_Centre_from_Windsor,_Ontario,_2025-05-30.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Renaissance Centre viewed from Walker Road, Walkerville, Windsor, Ontario, 2025-09-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Renaissance_Centre_viewed_from_Walker_Road,_Walkerville,_Windsor,_Ontario,_2025-09-01.jpg",
+      "author": "Chris Woodrich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Aerial View of Renaissance Center",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Renaissance_Center.jpg",
+      "author": "Robert Thompson",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Renaissance Center, Detroit, Michigan (14180762106)",
+      "url": "https://www.flickr.com/photos/75683070@N00/14180762106",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Renaissance Center, Downtown Detroit, Michigan from Windsor, Ontario (21782135551) (Wintergarden)",
+      "url": "https://commons.wikimedia.org/wiki/File:Renaissance_Center,_Downtown_Detroit,_Michigan_from_Windsor,_Ontario_(21782135551)_(Wintergarden).jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Renaissance Center, Jefferson Avenue, Detroit, MI - 54219138759",
+      "url": "https://commons.wikimedia.org/wiki/File:Renaissance_Center,_Jefferson_Avenue,_Detroit,_MI_-_54219138759.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Renaissance Center, Jefferson Avenue, Detroit, MI - 54217977917",
+      "url": "https://commons.wikimedia.org/wiki/File:Renaissance_Center,_Jefferson_Avenue,_Detroit,_MI_-_54217977917.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Renaissance Center (23 April 2017)",
+      "url": "https://commons.wikimedia.org/wiki/File:Renaissance_Center_(23_April_2017).jpg",
+      "author": "Notorious4life",
+      "license": "CC0"
+    },
+    {
+      "title": "Ren Cen Towers 500 and 600",
+      "url": "https://commons.wikimedia.org/wiki/File:Ren_Cen_Towers_500_and_600.jpg",
+      "author": "Local hero",
+      "license": "Public domain"
+    },
+    {
+      "title": "Windsor December 2023 07 (Renaissance Center)",
+      "url": "https://commons.wikimedia.org/wiki/File:Windsor_December_2023_07_(Renaissance_Center).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ford Fireworks from Riverside near Pierre, Windsor, Ontario, 2025-06-23 26",
+      "url": "https://commons.wikimedia.org/wiki/File:Ford_Fireworks_from_Riverside_near_Pierre,_Windsor,_Ontario,_2025-06-23_26.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/det-renaissance-center.glb",
+  "source": "generators/det-renaissance-center.ts"
+}
