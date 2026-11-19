@@ -1,0 +1,73 @@
+{
+  "id": "mia-kaseya-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "sports",
+    "basketball",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Kaseya Center Downtown Miami FL, 5 April 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:Kaseya_Center_Downtown_Miami_FL,_5_April_2024.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "AmericanAirlines Arena, Miami, Southeast view 20160709 1",
+      "url": "https://commons.wikimedia.org/wiki/File:AmericanAirlines_Arena,_Miami,_Southeast_view_20160709_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "American Airlines Arena backside",
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Arena_backside.jpg",
+      "author": "Marc Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "American Airline Arena",
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airline_Arena.JPG",
+      "author": "Manuel Tennert",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "American Airlines Arena-MIAMI - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Arena-MIAMI_-_panoramio.jpg",
+      "author": "Ivan Curra",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Heat Arena night",
+      "url": "https://commons.wikimedia.org/wiki/File:Heat_Arena_night.JPG",
+      "author": "Daniel Christensen",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "American Airlines Arena, Miami, Florida",
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Arena,_Miami,_Florida.jpg",
+      "author": "Pacman561",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/mia-kaseya-center.glb",
+  "source": "generators/mia-kaseya-center.ts"
+}
