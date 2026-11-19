@@ -1,0 +1,13 @@
+{
+  "id": "det-soldiers-sailors-monument",
+  "name": "Michigan Soldiers' and Sailors' Monument",
+  "model": "det-soldiers-sailors-monument",
+  "place": "detroit-area",
+  "lng": -83.0464572,
+  "lat": 42.3311763,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q6837679",
+  "replaces": []
+}

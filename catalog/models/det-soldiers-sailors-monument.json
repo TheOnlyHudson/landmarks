@@ -1,0 +1,56 @@
+{
+  "id": "det-soldiers-sailors-monument",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "memorial",
+    "war-memorial",
+    "historic",
+    "bronze",
+    "civil-war"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Michigan Soldiers' and Sailors' Monument.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Michigan_Soldiers%27_and_Sailors%27_Monument.jpg",
+      "author": "Milana.mees",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Michigan Soldiers' and Sailors' Monument 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Michigan_Soldiers%27_and_Sailors%27_Monument_1.jpg",
+      "author": "JJonahJackalope",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Michigan Soldiers' and Sailors' Monument 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Michigan_Soldiers%27_and_Sailors%27_Monument_2.jpg",
+      "author": "JJonahJackalope",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "MichiganSoldiersSailors.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:MichiganSoldiersSailors.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/det-soldiers-sailors-monument.glb",
+  "source": "generators/det-soldiers-sailors-monument.ts"
+}
