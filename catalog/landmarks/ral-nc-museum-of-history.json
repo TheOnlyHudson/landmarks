@@ -1,0 +1,16 @@
+{
+  "id": "ral-nc-museum-of-history",
+  "name": "North Carolina Museum of History",
+  "model": "ral-nc-museum-of-history",
+  "place": "raleigh-area",
+  "lng": -78.638536,
+  "lat": 35.781752,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/47776573",
+    "way/674703397"
+  ],
+  "wikidata": "Q7054557"
+}

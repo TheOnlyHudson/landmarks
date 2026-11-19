@@ -1,0 +1,65 @@
+{
+  "id": "ral-nc-museum-of-history",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "North-Carolina-Museum-of-History-20080321.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:North-Carolina-Museum-of-History-20080321.jpeg",
+      "author": "Jmturner",
+      "license": "Public domain"
+    },
+    {
+      "title": "Exterior of the North Carolina Museum of History.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_North_Carolina_Museum_of_History.jpg",
+      "author": "DiscoA340",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "North Carolina Museum of History - Raleigh, NC - DSC05859.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_Museum_of_History_-_Raleigh,_NC_-_DSC05859.JPG",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "4 Museum of History, Raleigh, North Carolina, 2010.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:4_Museum_of_History,_Raleigh,_North_Carolina,_2010.jpg",
+      "author": "XeresNelro",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "North Carolina Museum of History.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_Museum_of_History.JPG",
+      "author": "Abbylabar",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Panorama at the Entrance of the North Carolina Museum of History.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Panorama_at_the_Entrance_of_the_North_Carolina_Museum_of_History.jpg",
+      "author": "DiscoA340",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/ral-nc-museum-of-history.glb",
+  "source": "generators/ral-nc-museum-of-history.ts"
+}
