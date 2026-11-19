@@ -1,0 +1,15 @@
+{
+  "id": "den-holy-ghost-church",
+  "name": "Holy Ghost Catholic Church",
+  "model": "den-holy-ghost-church",
+  "place": "denver-area",
+  "lng": -104.9879692,
+  "lat": 39.7481003,
+  "bearing": 45,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/304684780"
+  ],
+  "wikidata": "Q56669162"
+}
