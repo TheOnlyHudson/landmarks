@@ -1,0 +1,17 @@
+{
+  "id": "det-fort-street-presbyterian",
+  "name": "Fort Street Presbyterian Church",
+  "model": "det-fort-street-presbyterian",
+  "place": "detroit-area",
+  "lng": -83.05384,
+  "lat": 42.32752,
+  "bearing": 330,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/11197198",
+    "way/71187639",
+    "way/559288134"
+  ],
+  "wikidata": "Q5472134"
+}
