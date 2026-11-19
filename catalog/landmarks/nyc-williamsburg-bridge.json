@@ -1,0 +1,19 @@
+{
+  "id": "nyc-williamsburg-bridge",
+  "name": "Williamsburg Bridge",
+  "model": "nyc-williamsburg-bridge",
+  "lng": -73.9721393,
+  "lat": 40.7135762,
+  "bearing": 291.8,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q125068",
+  "replaces": [
+    "way/533212910",
+    "way/1016434034",
+    "way/1016434035",
+    "way/279593081",
+    "way/1016434036"
+  ],
+  "place": "new-york-area"
+}
