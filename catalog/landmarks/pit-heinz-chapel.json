@@ -1,0 +1,15 @@
+{
+  "id": "pit-heinz-chapel",
+  "name": "Heinz Memorial Chapel",
+  "model": "pit-heinz-chapel",
+  "place": "pittsburgh-area",
+  "wikidata": "Q5700795",
+  "lng": -79.9518656,
+  "lat": 40.4452667,
+  "bearing": 46.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/30678681"
+  ]
+}

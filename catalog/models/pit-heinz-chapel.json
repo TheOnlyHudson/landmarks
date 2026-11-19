@@ -1,0 +1,74 @@
+{
+  "id": "pit-heinz-chapel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "chapel",
+    "gothic-revival",
+    "university",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Heinz Chapel, Oakland, Pittsburgh, 2019-09-10 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Heinz_Chapel,_Oakland,_Pittsburgh,_2019-09-10_02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Heinz Chapel, Oakland, Pittsburgh, 2019-09-30, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Heinz_Chapel,_Oakland,_Pittsburgh,_2019-09-30,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Heinz Chapel, Oakland, Pittsburgh, 2021-11-09, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Heinz_Chapel,_Oakland,_Pittsburgh,_2021-11-09,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "HeinzChapelFront",
+      "url": "https://commons.wikimedia.org/wiki/File:HeinzChapelFront.jpg",
+      "author": "Christopher Lancaster",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "HeinzChapelBlueSky",
+      "url": "https://commons.wikimedia.org/wiki/File:HeinzChapelBlueSky.jpg",
+      "author": "Extra Zebra",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Heinz Chapel, U. Pittsburgh - IMG 1257",
+      "url": "https://commons.wikimedia.org/wiki/File:Heinz_Chapel,_U._Pittsburgh_-_IMG_1257.JPG",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "HeinzChapelfromAboveatNight",
+      "url": "https://commons.wikimedia.org/wiki/File:HeinzChapelfromAboveatNight.jpg",
+      "author": "Lindsey Bieda",
+      "license": "CC-BY-SA-2.0"
+    }
+  ],
+  "file": "models/pit-heinz-chapel.glb",
+  "source": "generators/pit-heinz-chapel.ts"
+}
