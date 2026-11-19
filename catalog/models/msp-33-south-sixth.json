@@ -1,0 +1,47 @@
+{
+  "id": "msp-33-south-sixth",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "33 South Sixth Minneapolis 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:33_South_Sixth_Minneapolis_1.jpg",
+      "author": "AlexiusHoratius",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Downtown Minneapolis (9139807920).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Minneapolis_(9139807920).jpg",
+      "author": "Greg Gjerdingen",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Marriott Hotel City Center Minneapolis 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Marriott_Hotel_City_Center_Minneapolis_1.jpg",
+      "author": "AlexiusHoratius",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/msp-33-south-sixth.glb",
+  "source": "generators/msp-33-south-sixth.ts"
+}
