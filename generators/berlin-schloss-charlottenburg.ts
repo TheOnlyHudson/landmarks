@@ -456,7 +456,7 @@ function pediments(m: Mats) {
 }
 
 /** The court's gate: railing between the wings' ends and the two piers (detail). */
-function courtGate(m: Mats) {
+function courtGate(m: Mats & { metal: () => Part }) {
   const y = -63.5
   for (const x of [17.5, 32.5]) {
     box(m.trim, x - 1.2, y - 1.2, x + 1.2, y + 1.2, 0, 4.2)
