@@ -1,0 +1,23 @@
+{
+  "id": "pit-bny-mellon-center",
+  "name": "BNY Mellon Center",
+  "model": "pit-bny-mellon-center",
+  "place": "pittsburgh-area",
+  "lng": -79.995893,
+  "lat": 40.439649,
+  "bearing": 343.5,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/759022351",
+    "way/121046648",
+    "way/759266626",
+    "way/561883822",
+    "way/561883823",
+    "way/759266627",
+    "way/759266625",
+    "relation/8027851",
+    "relation/8027852"
+  ],
+  "wikidata": "Q2740919"
+}
