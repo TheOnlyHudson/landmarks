@@ -1,0 +1,70 @@
+{
+  "id": "baku-socar-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "headquarters",
+    "glass"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/baku-socar-tower.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Rail yard, Baku (P1090216)",
+      "url": "https://commons.wikimedia.org/wiki/File:Rail_yard,_Baku_(P1090216).jpg",
+      "author": "Matti Blume",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Rail yard, Baku (P1090213)",
+      "url": "https://commons.wikimedia.org/wiki/File:Rail_yard,_Baku_(P1090213).jpg",
+      "author": "Matti Blume",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Rail yard, Baku (P1090215)",
+      "url": "https://commons.wikimedia.org/wiki/File:Rail_yard,_Baku_(P1090215).jpg",
+      "author": "Matti Blume",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Baku Panorama from Hotel",
+      "url": "https://commons.wikimedia.org/wiki/File:Baku_Panorama_from_Hotel.jpg",
+      "author": "Sefer azeri",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Built SOCAR tower with podium",
+      "url": "https://commons.wikimedia.org/wiki/File:Built_SOCAR_tower_with_podium.jpg",
+      "author": "Vita86",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "SOCAR tower",
+      "url": "https://commons.wikimedia.org/wiki/File:SOCAR_tower.jpg",
+      "author": "Vita86",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/baku-socar-tower.glb",
+  "source": "generators/baku-socar-tower.ts"
+}
