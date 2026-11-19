@@ -1,0 +1,15 @@
+{
+  "id": "det-one-woodward",
+  "name": "One Woodward Avenue",
+  "model": "det-one-woodward",
+  "place": "detroit-area",
+  "lng": -83.0454709,
+  "lat": 42.3289108,
+  "bearing": 329.9,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/69000331"
+  ],
+  "wikidata": "Q7093400"
+}
