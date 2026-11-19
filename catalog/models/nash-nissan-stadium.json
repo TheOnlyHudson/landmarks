@@ -1,0 +1,78 @@
+{
+  "id": "nash-nissan-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "american-football",
+    "nfl"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Aerial view of Nissan Stadium (Tennessee Titans)",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Nissan_Stadium_(Tennessee_Titans).jpg",
+      "author": "Quintin Soloviev",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Nissan Stadium wide angle",
+      "url": "https://commons.wikimedia.org/wiki/File:Nissan_Stadium_wide_angle.jpg",
+      "author": "Quintin Soloviev",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Nissan Stadium 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Nissan_Stadium_2022.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nissan Stadium (2024)",
+      "url": "https://commons.wikimedia.org/wiki/File:Nissan_Stadium_(2024).jpg",
+      "author": "Praneeth Thalla",
+      "license": "CC0"
+    },
+    {
+      "title": "LP Field 2009 crop",
+      "url": "https://commons.wikimedia.org/wiki/File:LP_Field_2009_crop.jpg",
+      "author": "Kaldari",
+      "license": "CC0"
+    },
+    {
+      "title": "LP Field Nashville",
+      "url": "https://commons.wikimedia.org/wiki/File:LP_Field_Nashville.jpg",
+      "author": "Crassic",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "LP Field",
+      "url": "https://commons.wikimedia.org/wiki/File:LP_Field.jpg",
+      "author": "Alberto Cabello",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Night Settles on LP Field",
+      "url": "https://commons.wikimedia.org/wiki/File:Night_Settles_on_LP_Field.jpg",
+      "author": "Casey Fleser",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nash-nissan-stadium.glb",
+  "source": "generators/nash-nissan-stadium.ts"
+}

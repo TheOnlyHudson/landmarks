@@ -1,0 +1,17 @@
+{
+  "id": "nash-nissan-stadium",
+  "name": "Nissan Stadium",
+  "model": "nash-nissan-stadium",
+  "place": "nashville-area",
+  "lng": -86.771255,
+  "lat": 36.166458,
+  "bearing": 335,
+  "elevation": -7.5,
+  "minzoom": 14,
+  "wikidata": "Q1142992",
+  "replaces": [
+    "relation/1762289",
+    "way/462229949",
+    "way/462229953"
+  ]
+}
