@@ -1,0 +1,13 @@
+{
+  "id": "mia-holocaust-memorial",
+  "name": "Holocaust Memorial Miami Beach",
+  "model": "mia-holocaust-memorial",
+  "place": "miami-area",
+  "lng": -80.1362087,
+  "lat": 25.7954878,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q562023",
+  "replaces": []
+}
