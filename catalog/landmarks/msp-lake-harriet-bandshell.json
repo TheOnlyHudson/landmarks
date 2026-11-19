@@ -1,0 +1,14 @@
+{
+  "id": "msp-lake-harriet-bandshell",
+  "name": "Lake Harriet Bandshell",
+  "model": "msp-lake-harriet-bandshell",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.307729,
+  "lat": 44.928145,
+  "bearing": 346,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/39053367"
+  ]
+}
