@@ -1,0 +1,16 @@
+{
+  "id": "nola-lower-pontalba",
+  "name": "Lower Pontalba Building",
+  "model": "nola-lower-pontalba",
+  "place": "new-orleans-area",
+  "lng": -90.0624038,
+  "lat": 29.958118,
+  "bearing": 217.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/4610710",
+    "way/1548825294",
+    "way/1548825295"
+  ]
+}
