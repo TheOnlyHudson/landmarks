@@ -1,0 +1,17 @@
+{
+  "id": "berlin-neue-synagoge",
+  "name": "Neue Synagoge",
+  "model": "berlin-neue-synagoge",
+  "place": "berlin",
+  "lng": 13.394342,
+  "lat": 52.524998,
+  "bearing": 23.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/24054915",
+    "way/42976796",
+    "way/454211904",
+    "way/454211905"
+  ]
+}

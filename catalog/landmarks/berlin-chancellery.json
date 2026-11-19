@@ -1,0 +1,18 @@
+{
+  "id": "berlin-chancellery",
+  "name": "Federal Chancellery",
+  "model": "berlin-chancellery",
+  "place": "berlin",
+  "lng": 13.368749,
+  "lat": 52.520084,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q317027",
+  "replaces": [
+    "way/157390075",
+    "way/157390074",
+    "way/435048342",
+    "way/435048343"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "berlin-schloss-charlottenburg",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "palace",
+    "baroque",
+    "dome",
+    "museum",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/berlin-schloss-charlottenburg.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Berlin Schloss Charlottenburg (S41 2558).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Schloss_Charlottenburg_(S41_2558).jpg",
+      "author": "Michael.F.H.Barth",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Charlottenburg Palace 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Charlottenburg_Palace_2.jpg",
+      "author": "Leonhard Lenz",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Charlottenburg Hohenzollern 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Charlottenburg_Hohenzollern_2.jpg",
+      "author": "ernstol",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Aerial image of Schloss Charlottenburg (view from the southwest).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Schloss_Charlottenburg_(view_from_the_southwest).jpg",
+      "author": "Carsten Steger",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Große Orangerie Schloss Charlottenburg.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Große_Orangerie_Schloss_Charlottenburg.jpg",
+      "author": "Oraber2006",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Schloss Charlottenburg rear view 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Schloss_Charlottenburg_rear_view_1.jpg",
+      "author": "Seanf",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Schloss Charlottenburg, Nordansicht.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Schloss_Charlottenburg,_Nordansicht.jpg",
+      "author": "PumpChecker",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2010-07-10 Berlin Charlottenburg Palace Fortuna.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2010-07-10_Berlin_Charlottenburg_Palace_Fortuna.jpg",
+      "author": "Sir James",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Schloss Charlottenburg nachts (Zuschnitt).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Schloss_Charlottenburg_nachts_(Zuschnitt).jpg",
+      "author": "Thomas Wolf, www.foto-tw.de",
+      "license": "CC BY-SA 3.0 de"
+    }
+  ],
+  "file": "models/berlin-schloss-charlottenburg.glb",
+  "source": "generators/berlin-schloss-charlottenburg.ts"
+}

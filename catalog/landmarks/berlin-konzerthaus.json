@@ -1,0 +1,21 @@
+{
+  "id": "berlin-konzerthaus",
+  "name": "Konzerthaus Berlin",
+  "model": "berlin-konzerthaus",
+  "place": "berlin",
+  "lng": 13.391816,
+  "lat": 52.513584,
+  "bearing": 354.35,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q702548",
+  "replaces": [
+    "way/217512230",
+    "way/767535327",
+    "way/767535328",
+    "way/767535329",
+    "way/767535330",
+    "way/767535331",
+    "way/767535332"
+  ]
+}

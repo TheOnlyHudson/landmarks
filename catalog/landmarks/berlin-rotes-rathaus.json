@@ -1,0 +1,23 @@
+{
+  "id": "berlin-rotes-rathaus",
+  "name": "Rotes Rathaus",
+  "model": "berlin-rotes-rathaus",
+  "place": "berlin",
+  "lng": 13.408545,
+  "lat": 52.518278,
+  "bearing": 320.7,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q155210",
+  "replaces": [
+    "relation/4211905",
+    "way/128396192",
+    "way/222813049",
+    "way/222813048",
+    "way/222813051",
+    "way/222813052",
+    "way/230838701",
+    "way/217541314",
+    "way/217541315"
+  ]
+}

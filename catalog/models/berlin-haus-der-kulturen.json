@@ -1,0 +1,86 @@
+{
+  "id": "berlin-haus-der-kulturen",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cultural-center",
+    "modernist",
+    "shell-roof",
+    "bell-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Haus der Kulturen der Welt, Blaue Stunde, Berlin, 160521, ako",
+      "url": "https://commons.wikimedia.org/wiki/File:Haus_der_Kulturen_der_Welt,_Blaue_Stunde,_Berlin,_160521,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "Haus der Kulturen der Welt, Berlin, 150607, ako",
+      "url": "https://commons.wikimedia.org/wiki/File:Haus_der_Kulturen_der_Welt,_Berlin,_150607,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "Berlin Kongresshalle BW 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Kongresshalle_BW_1.jpg",
+      "author": "Berthold Werner",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Haus der Kulturen der Welt 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Haus_der_Kulturen_der_Welt_01.jpg",
+      "author": "Mihael Grmek",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Haus der Kulturen der Welt (31740982332)",
+      "url": "https://commons.wikimedia.org/wiki/File:Haus_der_Kulturen_der_Welt_(31740982332).jpg",
+      "author": "Billie Grace Ward",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Haus der Kulturen der Welt, Berlin",
+      "url": "https://commons.wikimedia.org/wiki/File:Haus_der_Kulturen_der_Welt,_Berlin.jpg",
+      "author": "Chris Vollmer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "150515 Carillon (Berlin-Tiergarten)",
+      "url": "https://commons.wikimedia.org/wiki/File:150515_Carillon_(Berlin-Tiergarten).jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY 3.0 de"
+    },
+    {
+      "title": "Carillon Berlin-Tiergarten",
+      "url": "https://commons.wikimedia.org/wiki/File:Carillon_Berlin-Tiergarten.jpg",
+      "author": "DanielMichaelPerry",
+      "license": "CC0"
+    },
+    {
+      "title": "Carillon (Berlin-Tiergarten)-msu-1053-",
+      "url": "https://commons.wikimedia.org/wiki/File:Carillon_(Berlin-Tiergarten)-msu-1053-.jpg",
+      "author": "Matthias Süßen",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/berlin-haus-der-kulturen.glb",
+  "source": "generators/berlin-haus-der-kulturen.ts"
+}

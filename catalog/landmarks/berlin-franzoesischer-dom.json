@@ -1,0 +1,18 @@
+{
+  "id": "berlin-franzoesischer-dom",
+  "name": "Französischer Dom",
+  "model": "berlin-franzoesischer-dom",
+  "place": "berlin",
+  "lng": 13.392394,
+  "lat": 52.514398,
+  "bearing": 354.9,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q315694",
+  "replaces": [
+    "way/28248283",
+    "way/1552540183",
+    "way/1552540184",
+    "way/43346292"
+  ]
+}
