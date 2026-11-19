@@ -1,0 +1,59 @@
+{
+  "id": "nola-us-custom-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "United States Custom House - New Orleans (55151935019).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:United_States_Custom_House_-_New_Orleans_(55151935019).jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "U.S. Custom House in New Orleans, Louisiana LCCN2013634398.tif",
+      "url": "https://commons.wikimedia.org/wiki/File:U.S._Custom_House_in_New_Orleans,_Louisiana_LCCN2013634398.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "Aerial view of U.S. Custom House in New Orleans, Louisiana LCCN2013634401.tif",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_U.S._Custom_House_in_New_Orleans,_Louisiana_LCCN2013634401.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "New Orleans, Louisiana views 16 - Custom House.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans,_Louisiana_views_16_-_Custom_House.jpg",
+      "author": "Geraldshields11",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "United States Custom House - New Orleans (49635953362).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:United_States_Custom_House_-_New_Orleans_(49635953362).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nola-us-custom-house.glb",
+  "source": "generators/nola-us-custom-house.ts"
+}
