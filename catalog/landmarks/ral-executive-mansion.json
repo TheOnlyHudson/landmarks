@@ -1,0 +1,15 @@
+{
+  "id": "ral-executive-mansion",
+  "name": "North Carolina Executive Mansion",
+  "model": "ral-executive-mansion",
+  "place": "raleigh-area",
+  "lng": -78.635557,
+  "lat": 35.783124,
+  "bearing": 3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/47776615"
+  ],
+  "wikidata": "Q7054484"
+}
