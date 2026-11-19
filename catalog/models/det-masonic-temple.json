@@ -1,0 +1,61 @@
+{
+  "id": "det-masonic-temple",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "gothic-revival",
+    "masonic",
+    "theatre"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Detroit Masonic Temple",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Masonic_Temple.jpg",
+      "author": "JJonahJackalope",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit December 2019 16 (Detroit Masonic Temple)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_December_2019_16_(Detroit_Masonic_Temple).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Masonic Temple as seen from Cass Park, Detroit - 20201215",
+      "url": "https://commons.wikimedia.org/wiki/File:Masonic_Temple_as_seen_from_Cass_Park,_Detroit_-_20201215.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit Masonic Temple, Temple Street, Cass Park, Midtown, Detroit, MI",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Masonic_Temple,_Temple_Street,_Cass_Park,_Midtown,_Detroit,_MI_-_53013593078.jpg",
+      "author": "w_lemay",
+      "license": "CC0"
+    },
+    {
+      "title": "Detroit Masonic Temple, Temple Street, Cass Park, Midtown, Detroit, MI",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Masonic_Temple,_Temple_Street,_Cass_Park,_Midtown,_Detroit,_MI_-_53013586448.jpg",
+      "author": "w_lemay",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/det-masonic-temple.glb",
+  "source": "generators/det-masonic-temple.ts"
+}
