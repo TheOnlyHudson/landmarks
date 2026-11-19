@@ -1,0 +1,14 @@
+{
+  "id": "det-belle-isle-casino",
+  "name": "Belle Isle Casino",
+  "model": "det-belle-isle-casino",
+  "place": "detroit-area",
+  "lng": -82.9954649,
+  "lat": 42.3345998,
+  "bearing": 77,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/106948123"
+  ]
+}
