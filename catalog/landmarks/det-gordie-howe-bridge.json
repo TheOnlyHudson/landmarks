@@ -1,0 +1,16 @@
+{
+  "id": "det-gordie-howe-bridge",
+  "name": "Gordie Howe International Bridge",
+  "model": "det-gordie-howe-bridge",
+  "place": "detroit-area",
+  "lng": -83.0979013,
+  "lat": 42.2875723,
+  "bearing": 132.16,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q5266001",
+  "replaces": [
+    "way/1323474509",
+    "way/1323474508"
+  ]
+}

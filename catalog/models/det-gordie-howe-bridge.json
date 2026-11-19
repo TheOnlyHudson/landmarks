@@ -1,0 +1,86 @@
+{
+  "id": "det-gordie-howe-bridge",
+  "detail": "models/det-gordie-howe-bridge.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "cable-stayed-bridge",
+    "border-crossing",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Gordie Howe International Bridge - July 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:Gordie_Howe_International_Bridge_-_July_2026.jpg",
+      "author": "WMrapids",
+      "license": "CC0"
+    },
+    {
+      "title": "Aerial Tour of Gordie Howe Bridge - 54603187901",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_Tour_of_Gordie_Howe_Bridge_-_54603187901.jpg",
+      "author": "U.S. Department of Homeland Security",
+      "license": "Public domain"
+    },
+    {
+      "title": "Gordie Howe International Bridge from Black Oak Park, Windsor, Ontario, 2025-06-07 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Gordie_Howe_International_Bridge_from_Black_Oak_Park,_Windsor,_Ontario,_2025-06-07_02.jpg",
+      "author": "Chris Woodrich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gordie Howe International Bridge from Black Oak Park, Windsor, Ontario, 2025-06-07 04",
+      "url": "https://commons.wikimedia.org/wiki/File:Gordie_Howe_International_Bridge_from_Black_Oak_Park,_Windsor,_Ontario,_2025-06-07_04.jpg",
+      "author": "Chris Woodrich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gordie Howe International Bridge 2026-04-21 1052",
+      "url": "https://commons.wikimedia.org/wiki/File:Gordie_Howe_International_Bridge_2026-04-21_1052.jpg",
+      "author": "TheWxResearcher",
+      "license": "CC0"
+    },
+    {
+      "title": "Gordie Howe International Bridge during clear morning 2025-09-30",
+      "url": "https://commons.wikimedia.org/wiki/File:Gordie_Howe_International_Bridge_during_clear_morning_2025-09-30.jpg",
+      "author": "TheWxResearcher",
+      "license": "CC0"
+    },
+    {
+      "title": "Gordie Howe International Bridge 2026-06-10 1013",
+      "url": "https://commons.wikimedia.org/wiki/File:Gordie_Howe_International_Bridge_2026-06-10_1013.jpg",
+      "author": "TheWxResearcher",
+      "license": "CC0"
+    },
+    {
+      "title": "Gordie Howe Bridge 2025d",
+      "url": "https://commons.wikimedia.org/wiki/File:Gordie_Howe_Bridge_2025d.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gordie Howe International Bridge at night 2026-05-16",
+      "url": "https://commons.wikimedia.org/wiki/File:Gordie_Howe_International_Bridge_at_night_2026-05-16.jpg",
+      "author": "TheWxResearcher",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/det-gordie-howe-bridge.glb",
+  "source": "generators/det-gordie-howe-bridge.ts"
+}
