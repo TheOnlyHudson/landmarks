@@ -1,0 +1,17 @@
+{
+  "id": "pit-convention-center",
+  "name": "David L. Lawrence Convention Center",
+  "model": "pit-convention-center",
+  "place": "pittsburgh-area",
+  "lng": -79.9962353,
+  "lat": 40.4456294,
+  "bearing": 341,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q5236224",
+  "replaces": [
+    "way/171870223",
+    "way/664168719",
+    "way/664168720"
+  ]
+}
