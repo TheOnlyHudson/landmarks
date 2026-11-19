@@ -103,11 +103,14 @@
  * doors are `entrance`, gold catches the light. The projected blue-grey
  * clouds are not modelled.
  *
- * Elevation 0. Map terrain: Mapterhorn here is only available at z12 and is
- * a surface model that contains the mosque itself (a 25 m bump over a flat
- * site), so `terrain.ts check --zoom 12` reports the 0.8 m podium top as up
- * to 2.7 m under the drawn ground even after the fill. The site is flat
- * coastal plain in every photo; the model is kept true to the photos.
+ * Elevation 0. Map terrain: Mapterhorn here is only available at z12. The
+ * map fills it inside the footprint, then lifts each vertex by the ground
+ * under it, so the open floors (courtyard, gate passages, gallery floors)
+ * are split into 5 m cells (10 m in the low model) and drawn only where
+ * they are open: the podium's top under the hall and the blocks is left
+ * out, gallery floors stop at the arcade walls' inner faces, and along the
+ * hall (and the first 15 m north of the portico) the side galleries' floor
+ * is left to the map's ground. `terrain.ts check --zoom 12` then passes.
  *
  * Photos (all EVIDENCE; Flickr via Openverse unless noted):
  * - o01 "Sheikh Zayed Grand Mosque Abu Dhabi", ToGa Wanderings, CC BY 2.0, https://www.flickr.com/photos/69031678@N00/23124197379 (south side, minaret)
@@ -533,15 +536,13 @@ function arcadeRun(M: Mats, D: boolean, pl: Plane, L: number, nb: number, o: Run
       const offs = i === 0 || i === nb ? [0] : [-0.42, 0.42]
       for (const ds of offs) {
         const c = at(pl, s + ds, 0, -T / 2)
-        lathe(M.marble, c[0], c[1], [[0.27, FL], [0.27, colTop]], 6, { phase: Math.PI / 6 })
-        lathe(M.gold, c[0], c[1], [[0.27, colTop], [0.56, capTop]], 6, { phase: Math.PI / 6 })
+        lathe(M.marble, c[0], c[1], [[0.27, FL], [0.27, colTop]], 5, {})
+        lathe(M.gold, c[0], c[1], [[0.27, colTop], [0.56, capTop]], 5, {})
       }
     } else {
       // a square pier, its three outer sides, with a gold capital band
       const a = Math.max(0, s - 0.75), b = Math.min(L, s + 0.75)
-      const zc = zs - 0.9
-      quad(M.marble, at(pl, a, FL, 0), at(pl, b, FL, 0), at(pl, b, zc, 0), at(pl, a, zc, 0), fwd)
-      quad(M.marble, at(pl, a, zc, 0), at(pl, b, zc, 0), at(pl, b, zs, 0), at(pl, a, zs, 0), fwd)
+      quad(M.marble, at(pl, a, FL, 0), at(pl, b, FL, 0), at(pl, b, zs, 0), at(pl, a, zs, 0), fwd)
     }
   }
   if (o.cornice !== false && D) {
@@ -571,7 +572,7 @@ function parapet(M: Mats, D: boolean, pl: Plane, L: number, z0: number, z1: numb
   if (back && D) quad(M.marble, at(pl, 0, z0, d - T), at(pl, 0, band, d - T), at(pl, L, band, d - T), at(pl, L, z0, d - T), nrm(pl, -1))
   if (D) quad(M.marble, at(pl, 0, band, d), at(pl, L, band, d), at(pl, L, band, d - T), at(pl, 0, band, d - T), [0, 0, 1])
   if (!merlons || (!D && !lowCrest)) return
-  const sp = D ? 1.7 : 5.0, nM = Math.max(1, Math.floor(L / sp)), off = (L - (nM - 1) * sp) / 2
+  const sp = D ? 1.95 : 5.0, nM = Math.max(1, Math.floor(L / sp)), off = (L - (nM - 1) * sp) / 2
   const h = Math.max(1.2, z1 - band) * (D ? 1 : 1.15), w = D ? 0.5 : 0.85
   for (let i = 0; i < nM; i++) {
     const s0 = off + i * sp
@@ -615,7 +616,7 @@ function minaret(M: Mats, D: boolean, cx: number, cy: number) {
       lathe(M.marble, cx + 2.55 * Math.cos(t), cy + 2.55 * Math.sin(t), [[0.28, 86.6], [0.28, 92.6]], 4, { phase: t })
     }
     lathe(M.marble, cx, cy, [[2.9, 92.6], [2.9, 93.4], [3.2, 93.9]], nR, {})
-  } else lathe(M.marble, cx, cy, [[2.2, 86.6], [2.2, 92.6], [3.2, 93.9]], 8, {})
+  } else lathe(M.marble, cx, cy, [[2.6, 86.6], [2.6, 93.9]], 8, {})
   balcony(M, D, cx, cy, 93.9, 3.2, 3.4, 0.8)
   // top drum, small dome, gold finial: ball, spire, crescent
   lathe(M.marble, cx, cy, [[1.85, 94.4], [1.85, 96.8], ...onion(1.85, 2.1, 2.2, D ? RINGS.small : RINGS.bulb).slice(1).map(([r, z]) => [r, 96.8 + z] as P2)], nR, { smooth: true })
@@ -679,19 +680,32 @@ const YO = 109.5 // east outer wall
 const MIN: P2[] = [[UC, -22.3], [-UC, -22.3], [UC, 96.5], [-UC, 96.5]]
 const MH = 5.6 // minaret plinth half-width
 
+/** Floor cell size so the drape can bend low tops with the ground: 5 m in detail; 10 m in the low
+ * model, which `terrain.ts check` passes just the same (15 m does not). */
+const CELL = (D: boolean) => (D ? 5 : 10)
+/** A flat, upward top split into a grid of cells no longer than `cell`. */
+function gridTop(p: Part, u0: number, u1: number, y0: number, y1: number, z: number, cell: number) {
+  const nx = Math.max(1, Math.ceil((u1 - u0) / cell - 1e-6)), ny = Math.max(1, Math.ceil((y1 - y0) / cell - 1e-6))
+  for (let i = 0; i < nx; i++) for (let j = 0; j < ny; j++) {
+    const a = u0 + ((u1 - u0) * i) / nx, b = u0 + ((u1 - u0) * (i + 1)) / nx
+    const c = y0 + ((y1 - y0) * j) / ny, d = y0 + ((y1 - y0) * (j + 1)) / ny
+    quad(p, [a, c, z], [b, c, z], [b, d, z], [a, d, z], [0, 0, 1])
+  }
+}
+
 function build(D: boolean): Mats {
   const M: Mats = { marble: new Part(), roof: new Part(), gold: new Part(), win: new Part(), door: new Part(), shade: new Part() }
   const lowBay = (n: number) => (D ? n : Math.max(1, Math.round(n / 3)))
 
   // --- podium: the floor of the whole outline, courtyard included -------------
   {
-    const nx = D ? 4 : 2, ny = D ? 5 : 3
+    // Only the open floor is drawn: the courtyard and the gate passages (the
+    // rest of the podium's top lies under the hall, galleries and blocks).
+    // Split into cells no longer than CELL so the map's per-vertex drape can
+    // bend it with the ground (docs/evidence.md, "The map's terrain").
     const u0 = -UO, u1 = UO, y0 = YQ, y1 = YO
-    for (let i = 0; i < nx; i++) for (let j = 0; j < ny; j++) {
-      const a = u0 + ((u1 - u0) * i) / nx, b = u0 + ((u1 - u0) * (i + 1)) / nx
-      const c = y0 + ((y1 - y0) * j) / ny, d = y0 + ((y1 - y0) * (j + 1)) / ny
-      quad(M.marble, [a, c, FL], [b, c, FL], [b, d, FL], [a, d, FL], [0, 0, 1])
-    }
+    gridTop(M.marble, -UC, UC, YF, YE, FL, CELL(D))
+    gridTop(M.marble, -16.5, 16.5, YE, YO, FL, CELL(D))
     prism(M.marble, null, rect(u0, u1, y0, y1), 0, FL)
     // the courtyard's floral inlay is flat colour, too fine to read at map scale: left white
   }
@@ -749,14 +763,17 @@ function build(D: boolean): Mats {
   // gallery floors, in shade (they read dark through the arches, as in o43 and o18)
   {
     const zf = FL + 0.03
-    const fl = (u0: number, u1: number, y0: number, y1: number) => quad(M.shade, [u0, y0, zf], [u1, y0, zf], [u1, y1, zf], [u0, y1, zf], [0, 0, 1])
+    const fl = (u0: number, u1: number, y0: number, y1: number) => gridTop(M.shade, u0, u1, y0, y1, zf, CELL(D))
     both((k) => {
-      const [a, b] = k > 0 ? [UC, UO] : [-UO, -UC]
-      fl(a, b, YQ, -92); fl(a, b, -70, 91.5)
+      // floors stop at the arcade walls' inner faces (the walls stand on the podium)
+      const [a, b] = k > 0 ? [UC + SLAB, UO - SLAB] : [-UO + SLAB, -UC - SLAB]
+      // along the hall (y < YF) the gallery floor is left to the map's ground: it is
+      // seen only through the outer arches, and there the ground rises above it
+      fl(a, b, -7.5, 91.5)
       const [c, d] = k > 0 ? [23.5, 69.5] : [-69.5, -23.5]
-      fl(c, d, YE, YO)
+      fl(c, d, YE + SLAB, YO - SLAB)
       const [e, f] = k > 0 ? [26, UC] : [-UC, -26]
-      fl(e, f, YH, YF)
+      fl(e, f, YH, YF - SLAB)
     })
   }
   lowCrest = false
@@ -912,7 +929,7 @@ function build(D: boolean): Mats {
       parapet(M, D, pl, L, 45, 46.6, 0)
       if (D) for (const s of [6, 12, 22, 28]) panel(M.win, pl, s, 33.5, 1.6, 6.4, true, D ? 5 : 2)
     }
-    domeOnDrum(M, D, 0, -81.5, 45, 54.3, 14.25, 16.4, 21.5, 8.5, D ? 24 : 16, 0, true, D ? RINGS.full : RINGS.low, D ? 1 : 2)
+    domeOnDrum(M, D, 0, -81.5, 45, 54.3, 14.25, 16.4, 21.5, 8.5, D ? 24 : 16, 0, true, D ? RINGS.full : RINGS.low, D ? 1 : 4)
     // the eight kiosks round the drum
     for (let i = 0; i < 8; i++) {
       const t = (TAU * i) / 8 + Math.PI / 8
@@ -923,8 +940,8 @@ function build(D: boolean): Mats {
     both((k) => {
       const cx = k * 46, cy = -78
       box(M.marble, M.roof, cx - 14.5, cx + 14.5, cy - 14.5, cy + 14.5, 27.5, 34, 2.5)
-      domeOnDrum(M, D, cx, cy, 34, 41.2, 11.4, 13.1, 17.6, 6.4, D ? 20 : 12, 0, true, D ? RINGS.mid : RINGS.low, D ? 1 : 4)
-      if (D) for (const [a, b] of [[1, 1], [1, -1], [-1, 1], [-1, -1]]) domeOnDrum(M, D, cx + a * 12, cy + b * 12, 34, 36.2, 1.4, 1.65, 2.5, 1.0, 8, 0, false, RINGS.dot)
+      domeOnDrum(M, D, cx, cy, 34, 41.2, 11.4, 13.1, 17.6, 6.4, D ? 20 : 12, 0, true, D ? RINGS.mid : RINGS.low, D ? 1 : 6)
+      if (D) for (const [a, b] of [[1, 1], [-1, 1]]) domeOnDrum(M, D, cx + a * 12, cy + b * 12, 34, 36.2, 1.4, 1.65, 2.5, 1.0, 8, 0, false, RINGS.dot)
     })
 
     // four towers at the hall's front corners
