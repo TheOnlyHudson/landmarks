@@ -1,0 +1,59 @@
+{
+  "id": "nola-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "City of New Orleans - City Hall February 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:City_of_New_Orleans_-_City_Hall_February_2026.jpg",
+      "author": "ajay_suresh",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "New Orleans City Hall (close-up)",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_City_Hall_(close-up).jpg",
+      "author": "Vegasjon",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "New Orleans Central Business District 28 Oct 2024 - City Hall and media",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_Central_Business_District_28_Oct_2024_-_City_Hall_and_media.jpg",
+      "author": "Infrogmation",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "New Orleans City Hall seen from across Duncan Plaza",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_City_Hall_seen_from_across_Duncan_Plaza.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "City Hall, Duncan Plaza, New Orleans",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Hall,_Duncan_Plaza,_New_Orleans.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/nola-city-hall.glb",
+  "source": "generators/nola-city-hall.ts"
+}
