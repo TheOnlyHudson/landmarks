@@ -1,0 +1,31 @@
+{
+  "id": "det-comerica-park",
+  "name": "Comerica Park",
+  "model": "det-comerica-park",
+  "place": "detroit-area",
+  "lng": -83.0487952,
+  "lat": 42.3391852,
+  "bearing": 148,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q868482",
+  "replaces": [
+    "relation/8783099",
+    "way/1307250153",
+    "way/107327514",
+    "way/559288136",
+    "way/559288137",
+    "way/559288138",
+    "way/1307250150",
+    "way/1307250151",
+    "way/559604687",
+    "way/559604688",
+    "way/1307250152",
+    "way/1307250163",
+    "way/1307250164",
+    "way/1307250166",
+    "way/1307250167",
+    "way/1307250169",
+    "way/946026928"
+  ]
+}
