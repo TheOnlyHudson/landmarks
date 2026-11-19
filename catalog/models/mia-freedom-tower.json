@@ -1,0 +1,74 @@
+{
+  "id": "mia-freedom-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "tower",
+    "mediterranean-revival",
+    "museum",
+    "national-historic-landmark"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Freedom Tower, Miami, Southeast view",
+      "url": "https://commons.wikimedia.org/wiki/File:Freedom_Tower,_Miami,_Southeast_view_20160709_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Freedom Tower Miami (top), NE view",
+      "url": "https://commons.wikimedia.org/wiki/File:Freedom_Tower_Miami_(top),_NE_view.jpg",
+      "author": "Radomianin",
+      "license": "Public domain"
+    },
+    {
+      "title": "Freedom Tower, Miami FL December 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Freedom_Tower,_Miami_FL_December_2022.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Miami Florida 2018-01-16 - Freedom Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Florida_2018-01-16_-_Freedom_Tower.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Miami's Freedom Tower (night)",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami%E2%80%99s_Freedom_Tower._Miami,_Florida._USA_(50658895291).jpg",
+      "author": "Rob Olivera",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Freedom Tower (Miami, Fl.)",
+      "url": "https://commons.wikimedia.org/wiki/File:Freedom_Tower_(Miami,_Fl.).jpg",
+      "author": "Federico Pirruccio",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Miami freedom tower night",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_freedom_tower_night.jpg",
+      "author": "LonnyPaul",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/mia-freedom-tower.glb",
+  "source": "generators/mia-freedom-tower.ts"
+}
