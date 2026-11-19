@@ -1,0 +1,17 @@
+{
+  "id": "ral-two-hannover-square",
+  "name": "Two Hannover Square",
+  "model": "ral-two-hannover-square",
+  "place": "raleigh-area",
+  "lng": -78.640037,
+  "lat": 35.7744,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/297829070",
+    "way/310324653",
+    "way/674997308"
+  ],
+  "wikidata": "Q14708185"
+}
