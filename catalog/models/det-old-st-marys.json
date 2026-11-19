@@ -1,0 +1,42 @@
+{
+  "id": "det-old-st-marys",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "romanesque-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "St. Mary's, Greektown, Detroit",
+      "url": "https://commons.wikimedia.org/wiki/File:StMarysGreektownDetroit.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Greektown Casino hotel and St. Mary RC Church, Detroit",
+      "url": "https://commons.wikimedia.org/wiki/File:GreektownCasinohotelandStMaryRCChurchDetroit.jpg",
+      "author": "Mike Russell",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/det-old-st-marys.glb",
+  "source": "generators/det-old-st-marys.ts"
+}
