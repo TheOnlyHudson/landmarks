@@ -1,0 +1,67 @@
+{
+  "id": "den-mcnichols-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "civic",
+    "library",
+    "greek-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "McNichols Civic Center Building.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:McNichols_Civic_Center_Building.JPG",
+      "author": "Jeffrey Beall",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "McNichols Civic Center Building (4935322343).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:McNichols_Civic_Center_Building_(4935322343).jpg",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "McNicholsCivicCenterBuilding.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:McNicholsCivicCenterBuilding.jpg",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Americana 1920 Libraries - Denver Public Library.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Americana_1920_Libraries_-_Denver_Public_Library.jpg",
+      "author": "Unknown photographer",
+      "license": "Public domain"
+    },
+    {
+      "title": "City and County Building - Civic Center Park, Denver - DSC01224.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:City_and_County_Building_-_Civic_Center_Park,_Denver_-_DSC01224.jpg",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Denver City and County Building from Colorado State Capitol",
+      "url": "https://www.flickr.com/photos/75683070@N00/68184846",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/den-mcnichols-building.glb",
+  "source": "generators/den-mcnichols-building.ts"
+}
