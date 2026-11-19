@@ -1,0 +1,68 @@
+{
+  "id": "nash-cathedral-of-the-incarnation",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "cathedral",
+    "historic",
+    "romanesque-revival",
+    "bell-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cathedral of the Incarnation Nashville 2023b.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Incarnation_Nashville_2023b.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cathedral of the Incarnation Nashville 2023a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Incarnation_Nashville_2023a.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cathedral of the Incarnation Nashville 2023c.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Incarnation_Nashville_2023c.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cathedral of the Incarnation (Nashville, Tennessee) - exterior.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Incarnation_(Nashville,_Tennessee)_-_exterior.jpg",
+      "author": "Nheyob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Cathedral of the Incarnation (Nashville, Tennessee) - exterior, bell tower and roof line.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Incarnation_(Nashville,_Tennessee)_-_exterior,_bell_tower_and_roof_line.jpg",
+      "author": "Nheyob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Nashville cathedral.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_cathedral.jpg",
+      "author": "Diezba",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/nash-cathedral-of-the-incarnation.glb",
+  "source": "generators/nash-cathedral-of-the-incarnation.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "nash-cathedral-of-the-incarnation",
+  "name": "Cathedral of the Incarnation",
+  "model": "nash-cathedral-of-the-incarnation",
+  "place": "nashville-area",
+  "lng": -86.7996199,
+  "lat": 36.1508398,
+  "bearing": 329.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q4457185",
+  "replaces": [
+    "way/543962489"
+  ]
+}
