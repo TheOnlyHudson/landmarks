@@ -1,0 +1,15 @@
+{
+  "id": "jerusalem-dome-of-the-rock-plaza",
+  "name": "Dome of the Rock and Western Wall (plaza level)",
+  "model": "jerusalem-dome-of-the-rock-plaza",
+  "lng": 35.2344187,
+  "lat": 31.7766889,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q134821",
+  "replaces": [
+    "way/817206833"
+  ],
+  "place": "jerusalem"
+}

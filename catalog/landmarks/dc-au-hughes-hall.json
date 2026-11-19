@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-hughes-hall",
+  "name": "Hughes Hall",
+  "model": "dc-au-hughes-hall",
+  "place": "american-university",
+  "lng": -77.0885229,
+  "lat": 38.9382992,
+  "bearing": 33.97,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38094597"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "moscow-kremlin-service-buildings",
+  "name": "Kremlin service buildings by the Borovitskaya Tower",
+  "model": "moscow-kremlin-service-buildings",
+  "place": "moscow",
+  "lng": 37.6142468,
+  "lat": 55.7486495,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "relation/3341858",
+    "relation/3890234",
+    "relation/3890235",
+    "relation/3890236",
+    "relation/3341881",
+    "relation/3341930",
+    "way/247986327",
+    "way/1204092263",
+    "relation/16446014",
+    "way/247986321",
+    "way/248468851",
+    "way/248844324",
+    "way/248844325"
+  ]
+}

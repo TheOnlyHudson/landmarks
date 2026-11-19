@@ -1,0 +1,71 @@
+{
+  "id": "moscow-arsenal",
+  "file": "models/moscow-arsenal.glb",
+  "source": "generators/moscow-arsenal.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "arsenal",
+    "military",
+    "historic",
+    "baroque",
+    "kremlin",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q704562",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The Kremlin Arsenal of 1702-1736, rebuilt after 1812: a long two-storey ochre trapezoid round a courtyard beside the Kremlin wall, its windows set in pairs in white round-headed surrounds, with white gateways on the south and east fronts.",
+  "references": [
+    {
+      "title": "Kremlin Arsenal 02 by shakko.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Arsenal_02_by_shakko.jpg",
+      "author": "Shakko",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kremlin Arsenal (2015) 05 by shakko.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Arsenal_(2015)_05_by_shakko.jpg",
+      "author": "Shakko",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kremlin Arsenal, 2006 (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Arsenal,_2006_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Moskau-Kreml-Arsenal-06-2012-gje.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moskau-Kreml-Arsenal-06-2012-gje.jpg",
+      "author": "Gerd Eichmann",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Troitskaya Tower and Kremlin Arsenal.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Troitskaya_Tower_and_Kremlin_Arsenal.jpg",
+      "author": "Andrew Bossi",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Kremlin Arsenal - VictoryDayParade2018-01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Arsenal_-_VictoryDayParade2018-01.jpg",
+      "author": "Ministry of Defence of the Russian Federation",
+      "license": "CC BY 4.0"
+    }
+  ]
+}

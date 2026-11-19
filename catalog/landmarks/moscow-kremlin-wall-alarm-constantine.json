@@ -1,0 +1,22 @@
+{
+  "id": "moscow-kremlin-wall-alarm-constantine",
+  "name": "Kremlin Wall, Alarm Tower to Constantine and Helen Tower",
+  "model": "moscow-kremlin-wall-alarm-constantine",
+  "place": "moscow",
+  "lng": 37.6220151,
+  "lat": 55.751503,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/2470042",
+    "relation/16265100",
+    "relation/16265101",
+    "relation/16265102",
+    "relation/16265103",
+    "relation/16265104",
+    "relation/16265105",
+    "relation/16265106",
+    "relation/16265107"
+  ]
+}

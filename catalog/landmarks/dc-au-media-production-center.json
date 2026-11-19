@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-media-production-center",
+  "name": "Media Production Center",
+  "model": "dc-au-media-production-center",
+  "place": "american-university",
+  "lng": -77.0919493,
+  "lat": 38.9363926,
+  "bearing": 123.63,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38110446"
+  ]
+}

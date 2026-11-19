@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-duber-hall",
+  "name": "Duber Hall",
+  "model": "dc-au-duber-hall",
+  "place": "american-university",
+  "lng": -77.086687,
+  "lat": 38.9355658,
+  "bearing": 136.005,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/535124891"
+  ]
+}

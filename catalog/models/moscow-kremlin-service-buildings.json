@@ -1,0 +1,37 @@
+{
+  "id": "moscow-kremlin-service-buildings",
+  "file": "models/moscow-kremlin-service-buildings.glb",
+  "source": "generators/moscow-kremlin-service-buildings.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "service",
+    "stable",
+    "kremlin"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The low service buildings in the Moscow Kremlin's south-west corner by the Borovitskaya Tower: the stable along the river wall, a pale grey-green brick block, a brick service building and sheds, drawn to their OSM heights.",
+  "references": [
+    {
+      "title": "Kremlin birds eye view-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_birds_eye_view-1.jpg",
+      "author": "ITAR-TASS",
+      "license": "CC BY 4.0"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "moscow-kremlin-kutafya-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "gate",
+    "barbican",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The white bridgehead barbican before the Trinity Bridge: a low D-shaped tower with a red corbel band, an openwork crown and a gate porch.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Kremlin Kutafya and Troitskaya Towers.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Kutafya_and_Troitskaya_Towers.jpg",
+      "author": "Stan Shebs",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Moscow - Kutafya Tower, view from Sapozhkovskaya Square.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_Kutafya_Tower,_view_from_Sapozhkovskaya_Square.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 6-2026 - Kutafya Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_6-2026_-_Kutafya_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Kutafya Tower-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kutafya_Tower-1.jpg",
+      "author": "Presidential Press and Information Offic",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - Kutafya and Troitskaya towers, view from Sapozhkovskaya Squar",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_Kutafya_and_Troitskaya_towers,_view_from_Sapozhkovskaya_Square.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Troitsky bridge (Kremlin, 2020) by shakko 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Troitsky_bridge_(Kremlin,_2020)_by_shakko_02.jpg",
+      "author": "shakko",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-kutafya-tower.glb",
+  "source": "generators/moscow-kremlin-kutafya-tower.ts"
+}

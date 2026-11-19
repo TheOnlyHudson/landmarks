@@ -1,0 +1,23 @@
+{
+  "id": "moscow-kremlin-pavilions",
+  "name": "Kremlin pavilions",
+  "model": "moscow-kremlin-pavilions",
+  "place": "moscow",
+  "lng": 37.6188106,
+  "lat": 55.7520562,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/534095307",
+    "way/534095308",
+    "way/534095309",
+    "way/534095310",
+    "way/534095311",
+    "way/534095312",
+    "way/534095313",
+    "way/534437577",
+    "way/1214065860",
+    "way/535145289"
+  ]
+}

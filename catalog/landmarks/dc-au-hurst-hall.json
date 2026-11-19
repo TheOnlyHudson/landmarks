@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-hurst-hall",
+  "name": "Hurst Hall",
+  "model": "dc-au-hurst-hall",
+  "place": "american-university",
+  "lng": -77.08747,
+  "lat": 38.9368734,
+  "bearing": 33.66,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190366"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dc-au-meltzer-center",
+  "file": "models/dc-au-meltzer-center.glb",
+  "source": "generators/dc-au-meltzer-center.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "athletics"
+  ],
+  "description": "This two-story athletics building houses the volleyball and wrestling competition gym. Its solar array continues onto the roof of the adjacent Bender Arena.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Building outline (May 2026)",
+      "url": "https://www.openstreetmap.org/way/1509229469",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "Building, photovoltaic array and green roof",
+      "url": "https://www.american.edu/about/sustainability/buildings/meltzer-athletic-center.cfm",
+      "author": "American University"
+    },
+    {
+      "title": "Published design heights and floor counts",
+      "url": "https://www.american.edu/communityrelations/campus-plan/meltzer-center-feedback-and-reponses.cfm",
+      "author": "American University"
+    }
+  ],
+  "reviewStatus": "draft"
+}

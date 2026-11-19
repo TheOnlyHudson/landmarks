@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-centennial-garage",
+  "name": "Centennial Hall Garage",
+  "model": "dc-au-centennial-garage",
+  "place": "american-university",
+  "lng": -77.091308,
+  "lat": 38.9361572,
+  "bearing": 33.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/929483468"
+  ]
+}

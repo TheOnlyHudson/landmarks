@@ -1,0 +1,66 @@
+{
+  "id": "moscow-kremlin-nikolskaya-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "gate",
+    "ruby-star",
+    "gothic-revival",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The gate tower at the north end of Red Square, in white Gothic Revival dress: lancet tracery, tall white pinnacles, two octagons, a slim green tent and a ruby star.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Nikolskaya Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nikolskaya_Tower.jpg",
+      "author": "Andrey",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Nikolskaya Tower - Moscow, 2025 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nikolskaya_Tower_-_Moscow,_2025_2.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Nikolskaya Tower - Moscow, 2025 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nikolskaya_Tower_-_Moscow,_2025_1.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Nikolskaya Tower 2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nikolskaya_Tower_2025.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Nikolskaya Tower 2025-3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nikolskaya_Tower_2025-3.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-nikolskaya-tower.glb",
+  "source": "generators/moscow-kremlin-nikolskaya-tower.ts"
+}

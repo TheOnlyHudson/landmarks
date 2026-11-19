@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-hall-of-science",
+  "name": "Hall of Science",
+  "model": "dc-au-hall-of-science",
+  "place": "american-university",
+  "lng": -77.0905892,
+  "lat": 38.9368119,
+  "bearing": 33.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/951907144"
+  ]
+}

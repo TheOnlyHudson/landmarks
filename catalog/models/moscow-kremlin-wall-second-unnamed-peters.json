@@ -1,0 +1,57 @@
+{
+  "id": "moscow-kremlin-wall-second-unnamed-peters",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "wall",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The stretch of the Kremlin's red-brick wall on the river side between the Second Unnamed Tower and the Peter's Tower, built 1485-1495 by Italian masters.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Moscow - 2025 - General view of the Kremlin embankment1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_General_view_of_the_Kremlin_embankment1.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow Kremlin Towers of south wall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Kremlin_Towers_of_south_wall.jpg",
+      "author": "Dmitry Ivanov.",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - Taynitskaya Tower, Archangel Cathedral, and Ivan the G",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Taynitskaya_Tower,_Archangel_Cathedral,_and_Ivan_the_Great_Bell_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Merlons of Troitsky Bridge in Moscow Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Merlons_of_Troitsky_Bridge_in_Moscow_Kremlin.jpg",
+      "author": "Dmitry Ivanov.",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-wall-second-unnamed-peters.glb",
+  "source": "generators/moscow-kremlin-wall-second-unnamed-peters.ts"
+}

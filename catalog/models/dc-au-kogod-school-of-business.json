@@ -1,0 +1,57 @@
+{
+  "id": "dc-au-kogod-school-of-business",
+  "source": "generators/dc-au-kogod-school-of-business.ts",
+  "file": "models/dc-au-kogod-school-of-business.glb",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "education"
+  ],
+  "description": "The Kogod School of Business occupies a long classical academic building overlooking the Friedheim Quadrangle, connected to a later addition.",
+  "reviewStatus": "draft",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "GPT-6"
+    }
+  ],
+  "references": [
+    {
+      "title": "Kogod School of Business at American University.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kogod_School_of_Business_at_American_University.jpg",
+      "author": "Ser Amantio di Nicolao",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Kogod.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Kogod.JPG",
+      "author": "Senordesupremo",
+      "license": "Public domain"
+    },
+    {
+      "title": "Eric Freidheim Quadrangle.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Eric_Freidheim_Quadrangle.jpg",
+      "author": "Herrperry123",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Kogod School of Business, campus history walk",
+      "url": "https://www.american.edu/events/inauguration/history-walk/11.cfm",
+      "author": "American University"
+    },
+    {
+      "title": "2022 DC OCTO lidar, building DSM and bare-earth DEM",
+      "author": "District of Columbia Office of the Chief Technology Officer",
+      "url": "https://github.com/kameronlee/heat-aware-pedestrian-routing/tree/456fd09d67aae857907e8c2b7fa6c19332734bd5"
+    }
+  ]
+}

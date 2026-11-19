@@ -1,0 +1,82 @@
+{
+  "id": "nyc-little-island",
+  "detail": "models/nyc-little-island.detail.glb",
+  "detailZoom": 17,
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landscape",
+  "tags": [
+    "park",
+    "pier",
+    "amphitheatre",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "At New York City 2023 060 - Little Island at Pier 55.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:At_New_York_City_2023_060_-_Little_Island_at_Pier_55.jpg",
+      "author": "Mike Peel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "At New York City 2023 050.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:At_New_York_City_2023_050.jpg",
+      "author": "Mike Peel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "At New York City 2023 055.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:At_New_York_City_2023_055.jpg",
+      "author": "Mike Peel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Little Island Pier 55 NYC.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Little_Island_Pier_55_NYC.JPG",
+      "author": "Dr. Bernd Gross",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Little Island at Pier 55, New York City, 20231001 1017 0809.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Little_Island_at_Pier_55,_New_York_City,_20231001_1017_0809.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Little Island at Pier 55.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Little_Island_at_Pier_55.jpg",
+      "author": "Praneeth Thalla",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Little Island Pier 55 Aug 2021 07.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Little_Island_Pier_55_Aug_2021_07.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Little Island Amphitheater, New York City, 20231001 1824 1523.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Little_Island_Amphitheater,_New_York_City,_20231001_1824_1523.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-little-island.glb",
+  "source": "generators/nyc-little-island.ts"
+}

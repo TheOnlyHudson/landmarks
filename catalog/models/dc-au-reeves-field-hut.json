@@ -1,0 +1,39 @@
+{
+  "id": "dc-au-reeves-field-hut",
+  "file": "models/dc-au-reeves-field-hut.glb",
+  "source": "generators/dc-au-reeves-field-hut.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "outbuilding"
+  ],
+  "description": "This small, square hut stands on the campus path between the Osborn Building and Reeves Field. The records do not identify its use.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Building outline (May 2026)",
+      "url": "https://www.openstreetmap.org/way/90190486",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "2022 DC lidar, archived processing source",
+      "url": "https://github.com/kameronlee/heat-aware-pedestrian-routing/blob/456fd09d67aae857907e8c2b7fa6c19332734bd5/data/metadata/lidar_sources.md",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    }
+  ],
+  "reviewStatus": "draft"
+}

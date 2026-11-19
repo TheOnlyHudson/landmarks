@@ -1,0 +1,63 @@
+{
+  "id": "moscow-state-kremlin-palace",
+  "file": "models/moscow-state-kremlin-palace.glb",
+  "source": "generators/moscow-state-kremlin-palace.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "concert-hall",
+    "kremlin",
+    "modernism",
+    "soviet"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q2033910",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Mikhail Posokhin's State Kremlin Palace of 1961, built as the Palace of Congresses: a 120 m box ringed by slender white marble pylons with tall glass between them, a marble attic with the gilt double-headed eagle over the entrance, and a recessed glazed top storey.",
+  "references": [
+    {
+      "title": "State Kremlin Palace Moscow",
+      "url": "https://commons.wikimedia.org/wiki/File:State_Kremlin_Palace_Moscow.JPG",
+      "author": "Superchilum",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Moscow, State Kremlin Palace in 2015",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow,_State_Kremlin_Palace_in_2015.jpg",
+      "author": "Sergey Norin",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Moscow - Troitskaya Tower, State Kremlin Palace, view from Sapozhkovskaya Square",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_Troitskaya_Tower,_State_Kremlin_Palace,_view_from_Sapozhkovskaya_Square.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Russia-Moscow-State Kremlin Palace-2",
+      "url": "https://commons.wikimedia.org/wiki/File:Russia-Moscow-State_Kremlin_Palace-2.jpg",
+      "author": "Alex Zelenko",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Moscow - State Kremlin Palace, the Church of Praise of the Blessed Virgin Mary in the Amusement Palace",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_State_Kremlin_Palace,_the_Church_of_Praise_of_the_Blessed_Virgin_Mary_in_the_Amusement_Palace.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC BY 4.0"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "moscow-kremlin-wall-senate-saviour",
+  "name": "Kremlin Wall, Senate Tower to Saviour Tower",
+  "model": "moscow-kremlin-wall-senate-saviour",
+  "place": "moscow",
+  "lng": 37.6204126,
+  "lat": 55.753001,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/2470048",
+    "relation/16265088",
+    "relation/16265089",
+    "relation/16265090"
+  ]
+}

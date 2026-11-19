@@ -1,0 +1,33 @@
+{
+  "id": "moscow-kremlin-taynitskaya-tower",
+  "name": "Taynitskaya Tower",
+  "model": "moscow-kremlin-taynitskaya-tower",
+  "place": "moscow",
+  "lng": 37.6178581,
+  "lat": 55.7493359,
+  "bearing": -15.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/3229147",
+    "relation/3229148",
+    "relation/3229149",
+    "relation/16454135",
+    "way/239445486",
+    "way/239445487",
+    "way/239445491",
+    "way/239445493",
+    "way/239445494",
+    "way/239445495",
+    "way/239445496",
+    "way/239445497",
+    "way/239445498",
+    "way/239445499",
+    "way/239445500",
+    "way/239445501",
+    "way/239445502",
+    "way/239445504",
+    "way/239445505"
+  ],
+  "wikidata": "Q4449979"
+}

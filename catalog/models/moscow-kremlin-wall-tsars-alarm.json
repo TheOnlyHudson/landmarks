@@ -1,0 +1,57 @@
+{
+  "id": "moscow-kremlin-wall-tsars-alarm",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "wall",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The stretch of the Kremlin's red-brick wall on the Red Square side between the Tsar's Tower and the Alarm Tower, built 1485-1495 by Italian masters.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Kremlin wall - Red Square.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_wall_-_Red_Square.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - Tsarskaya Tower and the Kremlin Wall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Tsarskaya_Tower_and_the_Kremlin_Wall.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Senatskaya Tower 2025-8.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Senatskaya_Tower_2025-8.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Merlons of Troitsky Bridge in Moscow Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Merlons_of_Troitsky_Bridge_in_Moscow_Kremlin.jpg",
+      "author": "Dmitry Ivanov.",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-wall-tsars-alarm.glb",
+  "source": "generators/moscow-kremlin-wall-tsars-alarm.ts"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-mcdowell-hall",
+  "name": "McDowell Hall",
+  "model": "dc-au-mcdowell-hall",
+  "place": "american-university",
+  "lng": -77.0889124,
+  "lat": 38.9386343,
+  "bearing": 124.21,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38094598"
+  ]
+}

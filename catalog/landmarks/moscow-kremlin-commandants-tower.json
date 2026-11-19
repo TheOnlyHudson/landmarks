@@ -1,0 +1,20 @@
+{
+  "id": "moscow-kremlin-commandants-tower",
+  "name": "Commandant's Tower",
+  "model": "moscow-kremlin-commandants-tower",
+  "place": "moscow",
+  "lng": 37.6135851,
+  "lat": 55.7506132,
+  "bearing": 21.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/1360655",
+    "relation/3047295",
+    "relation/3047296",
+    "relation/3047297",
+    "way/228118835",
+    "way/228118836"
+  ],
+  "wikidata": "Q3402966"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "moscow-kremlin-wall-second-unnamed-peters",
+  "name": "Kremlin Wall, Second Unnamed Tower to Peter's Tower",
+  "model": "moscow-kremlin-wall-second-unnamed-peters",
+  "place": "moscow",
+  "lng": 37.6211718,
+  "lat": 55.7496773,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/2470036",
+    "relation/16265140",
+    "relation/16265141",
+    "relation/16265142",
+    "relation/16265146",
+    "relation/16265147",
+    "relation/16265148",
+    "relation/16265152",
+    "relation/16265153",
+    "relation/16265154",
+    "relation/16265158",
+    "relation/16265159",
+    "relation/16265160"
+  ]
+}

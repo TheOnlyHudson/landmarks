@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-bender-library",
+  "name": "Bender Library",
+  "model": "dc-au-bender-library",
+  "place": "american-university",
+  "lng": -77.0889399,
+  "lat": 38.9359694,
+  "bearing": 33.43,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190152"
+  ]
+}

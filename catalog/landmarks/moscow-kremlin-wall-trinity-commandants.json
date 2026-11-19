@@ -1,0 +1,21 @@
+{
+  "id": "moscow-kremlin-wall-trinity-commandants",
+  "name": "Kremlin Wall, Trinity Tower to Commandant's Tower",
+  "model": "moscow-kremlin-wall-trinity-commandants",
+  "place": "moscow",
+  "lng": 37.614144,
+  "lat": 55.7513819,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/2470033",
+    "relation/16265049",
+    "relation/16265050",
+    "relation/16265051",
+    "relation/16265052",
+    "relation/16265053",
+    "relation/16265054",
+    "relation/16265055"
+  ]
+}

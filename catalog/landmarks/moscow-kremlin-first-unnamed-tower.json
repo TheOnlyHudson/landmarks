@@ -1,0 +1,30 @@
+{
+  "id": "moscow-kremlin-first-unnamed-tower",
+  "name": "First Unnamed Tower",
+  "model": "moscow-kremlin-first-unnamed-tower",
+  "place": "moscow",
+  "lng": 37.6189331,
+  "lat": 55.7494944,
+  "bearing": -14.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/1360642",
+    "relation/3229392",
+    "relation/3229393",
+    "way/239459947",
+    "way/239459959",
+    "way/239459960",
+    "way/239459963",
+    "way/239459968",
+    "way/239459979",
+    "way/239459986",
+    "way/239459993",
+    "way/239460000",
+    "way/239460007",
+    "way/239460014",
+    "way/239460022",
+    "way/239460029"
+  ],
+  "wikidata": "Q7218098"
+}

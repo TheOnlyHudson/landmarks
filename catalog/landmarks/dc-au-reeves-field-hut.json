@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-reeves-field-hut",
+  "name": "Hut near Reeves Field",
+  "model": "dc-au-reeves-field-hut",
+  "place": "american-university",
+  "lng": -77.0909729,
+  "lat": 38.9376637,
+  "bearing": 33.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/90190486"
+  ]
+}

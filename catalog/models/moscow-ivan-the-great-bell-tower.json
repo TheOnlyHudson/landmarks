@@ -1,0 +1,65 @@
+{
+  "id": "moscow-ivan-the-great-bell-tower",
+  "file": "models/moscow-ivan-the-great-bell-tower.glb",
+  "source": "generators/moscow-ivan-the-great-bell-tower.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "bell-tower",
+    "church",
+    "russian-orthodox",
+    "onion-dome",
+    "kremlin",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The 81 m bell tower of 1505-08 and 1600 with the Assumption Belfry and Patriarch Filaret's annexe: three white octagons with arched bell openings, a ring of gilded kokoshniks, the drum with its blue lettered band and gilded dome; the broad belfry with its great bell arches, drum and gilded dome; the annexe's tent roof and corner tents; the arcaded west porch and its stair.",
+  "references": [
+    {
+      "title": "7328. Bell tower Ivan the Great in Moscow Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:7328._Bell_tower_Ivan_the_Great_in_Moscow_Kremlin.jpg",
+      "author": "Александровы АГ",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Ivan the Great Bell Tower 01 by shakko.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ivan_the_Great_Bell_Tower_01_by_shakko.jpg",
+      "author": "shakko",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Ivan the Great Bell Tower - exterior, 2006 (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ivan_the_Great_Bell_Tower_-_exterior,_2006_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Russia-Moscow-Ivan the Great Bell-Tower Complex.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Russia-Moscow-Ivan_the_Great_Bell-Tower_Complex.jpg",
+      "author": "Alex Zelenko",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Ivan the Great Bell Tower in Moscow Kremlin 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ivan_the_Great_Bell_Tower_in_Moscow_Kremlin_1.jpg",
+      "author": "Dmitry Ivanov",
+      "license": "CC-BY-SA-4.0"
+    }
+  ]
+}

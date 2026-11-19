@@ -1,0 +1,21 @@
+{
+  "id": "moscow-kremlin-senate-tower",
+  "name": "Senate Tower",
+  "model": "moscow-kremlin-senate-tower",
+  "place": "moscow",
+  "lng": 37.6195653,
+  "lat": 55.7535022,
+  "bearing": 42.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/1359374",
+    "relation/2763538",
+    "way/205715039",
+    "way/205715040",
+    "way/205715041",
+    "way/205715042",
+    "way/205715043"
+  ],
+  "wikidata": "Q4416095"
+}

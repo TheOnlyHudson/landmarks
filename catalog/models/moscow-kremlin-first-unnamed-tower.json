@@ -1,0 +1,51 @@
+{
+  "id": "moscow-kremlin-first-unnamed-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "A square Kremlin tower on the river wall: brick shaft, merlons, an upper tier, a tall green tent with dormers, a lookout and a gilt vane.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Moscow Kremlin, 1st Unnamed Tower, July 2025 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Kremlin,_1st_Unnamed_Tower,_July_2025_02.jpg",
+      "author": "Retired electrician",
+      "license": "CC0"
+    },
+    {
+      "title": "Moscow Kremlin Towers of south wall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Kremlin_Towers_of_south_wall.jpg",
+      "author": "Dmitry Ivanov.",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - General view of the Kremlin embankment1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_General_view_of_the_Kremlin_embankment1.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-first-unnamed-tower.glb",
+  "source": "generators/moscow-kremlin-first-unnamed-tower.ts"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "moscow-kremlin-nikolskaya-tower",
+  "name": "Nikolskaya Tower",
+  "model": "moscow-kremlin-nikolskaya-tower",
+  "place": "moscow",
+  "lng": 37.6178098,
+  "lat": 55.7545143,
+  "bearing": 44.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/1359372",
+    "relation/8893355",
+    "relation/8893356",
+    "relation/8893357",
+    "relation/8893358",
+    "relation/8893359",
+    "relation/8893360",
+    "relation/8893361",
+    "relation/8893362",
+    "relation/8893363",
+    "relation/8893364",
+    "relation/8893365",
+    "relation/8893366",
+    "relation/8893367",
+    "relation/8893368",
+    "relation/8893369",
+    "relation/8893370"
+  ],
+  "wikidata": "Q3402912"
+}
