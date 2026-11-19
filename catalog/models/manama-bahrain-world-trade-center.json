@@ -1,0 +1,88 @@
+{
+  "id": "manama-bahrain-world-trade-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "twin-towers",
+    "wind-turbines",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/manama-bahrain-world-trade-center.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Bahrain WTC (46220337331).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bahrain_WTC_(46220337331).jpg",
+      "author": "Gabby Canonizado",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Manama Bahrain World Trade Centre & Bahrain Financial Harbour 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Manama_Bahrain_World_Trade_Centre_%26_Bahrain_Financial_Harbour_2.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Manama Bahrain World Trade Centre & Bahrain Financial Harbour 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Manama_Bahrain_World_Trade_Centre_%26_Bahrain_Financial_Harbour_1.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Manama Manama Skyline 14.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Manama_Manama_Skyline_14.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bahrain World Trade Center",
+      "url": "https://www.flickr.com/photos/24306078@N00/4556003834",
+      "author": "Petr Kadlec",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Bahrain World Trade Center",
+      "url": "https://www.flickr.com/photos/15543596@N05/2253519840",
+      "author": "abcdz2000",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "002 Bahrain World Trade Center",
+      "url": "https://www.flickr.com/photos/56041749@N02/11707319545",
+      "author": "mrsdkrebs",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Bahrain World trade Center .jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bahrain_World_trade_Center_.jpg",
+      "author": "B.alotaby",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bahrain World Trade Center (30040380192).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bahrain_World_Trade_Center_(30040380192).jpg",
+      "author": "Francisco Anzola",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/manama-bahrain-world-trade-center.glb",
+  "source": "generators/manama-bahrain-world-trade-center.ts"
+}
