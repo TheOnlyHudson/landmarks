@@ -57,9 +57,13 @@
  * `entrance`.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, prism, rect, chamfer, capRing, ccw, flatShape, extrudeShape, archShape, arc, finishGlb, writeModel } from './sea-tacoma-union-station'
 import { box, quadO, triO } from './nash-tennessee-state-capitol'
+
+// finishGlb is typed for Swatch; writeGlb reads the floodlight function off the same object.
+const fl = (s: Swatch, f: (p: V3, n: V3) => number): Swatch => ({ ...s, floodlight: f }) as Swatch
+
 
 // OSM way/544397715 in the model frame.
 const PLAN: XY[] = ccw([[-22.9, -7.9], [-22.9, -6.2], [-26.7, -6.2], [-26.7, 6.8], [-23.4, 6.8], [-23.4, 8.9], [-4.5, 8.8], [-4.5, 26.7], [12.3, 26.6], [12.3, 14.4], [14.0, 14.4], [14.0, 9.0], [18.2, 9.0], [18.2, -8.8], [16.3, -8.8], [16.3, -14.0], [12.3, -14.0], [12.3, -26.9], [-4.5, -26.8], [-4.5, -8.0]])
@@ -194,8 +198,8 @@ function build() {
   // ---------------------------------------------------------- materials and night
   const tower = (p: V3, nn: V3) => (Math.abs(p[0] - TX) < THX + 1 && Math.abs(p[1] - TY) < THY + 1 && p[2] > ROOF && nn[2] < 0.7 ? 1 : 0)
   return finishGlb('Kirkland Hall', [
-    { part: brick, material: { ...finish('kirkland-brick', 0xb8705b), floodlight: tower } },
-    { part: stone, material: { ...finish('kirkland-limestone', 0xece5d6), floodlight: tower } },
+    { part: brick, material: fl(finish('kirkland-brick', 0xb8705b), tower) },
+    { part: stone, material: fl(finish('kirkland-limestone', 0xece5d6), tower) },
     { part: roof, material: PALETTE.roof },
     { part: cu, material: PALETTE.patina },
     { part: win, material: PALETTE.window },

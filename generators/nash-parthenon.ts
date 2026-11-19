@@ -81,7 +81,7 @@
  * drawn warm white); doors are `entrance` (open and lit in n01).
  */
 import { Part, type V3 } from './mesh'
-import { finish } from './palette'
+import { finish, type Swatch } from './palette'
 import { type XY, type Face, prism, rect, chamfer, capRing, lathe, flatShape, extrudeShape, finishGlb, writeModel } from './sea-tacoma-union-station'
 import { box, quadO, triO, gable } from './nash-tennessee-state-capitol'
 
@@ -248,10 +248,12 @@ function build() {
 
   // ---------------------------------------------------------- materials and night
   const lit = (p: V3, n: V3): number => (n[2] > 0.7 ? 0.15 : n[2] < -0.5 ? 0.6 : 1)
+  // finishGlb is typed for Swatch; writeGlb reads the floodlight function off the same object.
+  const fl = (s: Swatch, f: (p: V3, n: V3) => number): Swatch => ({ ...s, floodlight: f }) as Swatch
   return finishGlb('The Parthenon (Nashville)', [
-    { part: stone, material: { ...finish('parthenon-aggregate', 0xd6c4a1), floodlight: lit } },
-    { part: shade, material: { ...finish('parthenon-cella', 0x9c8f76), floodlight: lit } },
-    { part: met, material: { ...finish('parthenon-metope', 0xc49884), floodlight: (p, n) => 0.8 } },
+    { part: stone, material: fl(finish('parthenon-aggregate', 0xd6c4a1), lit) },
+    { part: shade, material: fl(finish('parthenon-cella', 0x9c8f76), lit) },
+    { part: met, material: fl(finish('parthenon-metope', 0xc49884), () => 0.8) },
     { part: roof, material: finish('parthenon-roof', 0xaeab9c) },
     { part: door, material: { name: 'entrance', color: 0x8e7350, roughness: 0.6 } },
   ], { bearing: 56.5, height: RIDGE + 2.35, replaces: ['way/130913355'] }, 6500)

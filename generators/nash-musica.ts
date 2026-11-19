@@ -50,9 +50,13 @@
  * Night: floodlit from the ground (m01) — `floodlight` on the bronze.
  */
 import { Part, type V3 } from './mesh'
-import { finish } from './palette'
+import { finish, type Swatch } from './palette'
 import { finishGlb, writeModel } from './sea-tacoma-union-station'
 import { quadO } from './nash-tennessee-state-capitol'
+
+// finishGlb is typed for Swatch; writeGlb reads the floodlight function off the same object.
+const fl = (s: Swatch, f: (p: V3, n: V3) => number): Swatch => ({ ...s, floodlight: f }) as Swatch
+
 
 const add = (a: V3, b: V3): V3 => [a[0] + b[0], a[1] + b[1], a[2] + b[2]]
 const mul = (a: V3, k: number): V3 => [a[0] * k, a[1] * k, a[2] * k]
@@ -185,9 +189,9 @@ function build() {
   figure(bronze, { foot: [-0.6, -1.3, ROCK], H: 4.4, out: [-0.45, -0.9], lean: -0.22, arms: [[-1.0, 0.2, 0.45], [1.0, 0.2, 0.5]], legs: [[-0.13, 0.1, 0], [0.13, -0.05, 0]] })
   const lit = (p: V3, n: V3) => (n[2] > 0.8 ? 0.3 : 1)
   return finishGlb('Musica', [
-    { part: bronze, material: { ...finish('musica-bronze', 0x6e6650, 0.5), floodlight: lit } },
+    { part: bronze, material: fl(finish('musica-bronze', 0x6e6650, 0.5), lit) },
     { part: stone, material: finish('musica-limestone', 0xc4bcaa) },
-    { part: gold, material: { ...finish('musica-gilt', 0xc9a54a, 0.4), floodlight: lit } },
+    { part: gold, material: fl(finish('musica-gilt', 0xc9a54a, 0.4), lit) },
   ], { bearing: 0, height: 11.6, replaces: [] }, 5000)
 }
 

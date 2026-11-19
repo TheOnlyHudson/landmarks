@@ -61,9 +61,13 @@
  * arcades of the tower glow, so they are `window`; the doors `entrance`.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, prism, rect, chamfer, capRing, lathe, flatShape, extrudeShape, archShape, arc, finishGlb, writeModel } from './sea-tacoma-union-station'
 import { box, quadO, triO, gable } from './nash-tennessee-state-capitol'
+
+// finishGlb is typed for Swatch; writeGlb reads the floodlight function off the same object.
+const fl = (s: Swatch, f: (p: V3, n: V3) => number): Swatch => ({ ...s, floodlight: f }) as Swatch
+
 
 // Plan (OSM + lidar, model frame).
 const FY = 23.7 // facade face
@@ -236,9 +240,9 @@ function build() {
   const tower = (p: V3, n: V3) => (Math.abs(p[0] - TX) < TH + 1 && Math.abs(p[1] - TY) < TH + 1 && n[2] < 0.7 ? 0.9 : 0)
   const lit = (p: V3, n: V3) => Math.max(front(p, n), tower(p, n))
   return finishGlb('Cathedral of the Incarnation', [
-    { part: wall, material: { ...finish('incarnation-stucco', 0xe0cc9e), floodlight: lit } },
-    { part: trim, material: { ...finish('incarnation-trim', 0xf0e4c8), floodlight: lit } },
-    { part: brick, material: { ...finish('incarnation-brick', 0xc98f70), floodlight: lit } },
+    { part: wall, material: fl(finish('incarnation-stucco', 0xe0cc9e), lit) },
+    { part: trim, material: fl(finish('incarnation-trim', 0xf0e4c8), lit) },
+    { part: brick, material: fl(finish('incarnation-brick', 0xc98f70), lit) },
     { part: roof, material: PALETTE.terracotta },
     { part: win, material: PALETTE.window },
     { part: door, material: { name: 'entrance', color: 0x7c5f45, roughness: 0.7 } },
