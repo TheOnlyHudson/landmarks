@@ -1,0 +1,84 @@
+{
+  "id": "pit-fort-pitt-block-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "fort",
+    "colonial"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fort Pitt Blockhouse, 2026-10-22",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Blockhouse,_2026-10-22.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Pitt Blockhouse, 2026-10-22-1",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Blockhouse,_2026-10-22-1.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Pitt Blockhouse, 2026-10-22-2",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Blockhouse,_2026-10-22-2.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Pitt Blockhouse, 2026-10-22-3",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Blockhouse,_2026-10-22-3.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Pitt Blockhouse, 2026-10-22-5",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Blockhouse,_2026-10-22-5.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Pitt Blockhouse, 2026-10-22-6",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Blockhouse,_2026-10-22-6.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Pitt Blockhouse, 2026-10-22-8",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Blockhouse,_2026-10-22-8.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Pitt Blockhouse, 2026-10-22-9",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Blockhouse,_2026-10-22-9.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Pitt Blockhouse, 2026-10-22-10",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Pitt_Blockhouse,_2026-10-22-10.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/pit-fort-pitt-block-house.glb",
+  "source": "generators/pit-fort-pitt-block-house.ts"
+}

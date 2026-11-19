@@ -1,0 +1,15 @@
+{
+  "id": "pit-fort-pitt-block-house",
+  "name": "Fort Pitt Block House",
+  "model": "pit-fort-pitt-block-house",
+  "place": "pittsburgh-area",
+  "lng": -80.0098213,
+  "lat": 40.4411925,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q5471838",
+  "replaces": [
+    "way/109499956"
+  ]
+}
