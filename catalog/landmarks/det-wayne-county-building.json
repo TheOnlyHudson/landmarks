@@ -1,0 +1,26 @@
+{
+  "id": "det-wayne-county-building",
+  "name": "Wayne County Building",
+  "model": "det-wayne-county-building",
+  "place": "detroit-area",
+  "lng": -83.042709,
+  "lat": 42.332101,
+  "bearing": 59.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7976137",
+  "replaces": [
+    "way/656595907",
+    "way/69000347",
+    "way/107616147",
+    "way/107616151",
+    "way/656591909",
+    "way/656591910",
+    "way/656591911",
+    "way/656591912",
+    "way/656591913",
+    "way/656591914",
+    "way/656591915",
+    "way/656597961"
+  ]
+}
