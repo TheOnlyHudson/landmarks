@@ -1,0 +1,78 @@
+{
+  "id": "nola-st-louis-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "cathedral",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cathedral new orleans.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_new_orleans.jpg",
+      "author": "Krakers (assumed by Commons; no machine-readable author)",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "St. Louis Cathedral (New Orleans).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Louis_Cathedral_(New_Orleans).jpg",
+      "author": "Royalpt78",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "StLouisCathedralLowSideJackson29Jan07.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:StLouisCathedralLowSideJackson29Jan07.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "StLouisCathedralRoofFromArsanal.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:StLouisCathedralRoofFromArsanal.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Rear view of St Louis Cathedral, New Orleans, across St Anthony's Garden, January 2012.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rear_view_of_St_Louis_Cathedral,_New_Orleans,_across_St_Anthony%27s_Garden,_January_2012.jpg",
+      "author": "Turbine682",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. Louis Cathedral from the back - famous shadow - New Orleans Sept 2016.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Louis_Cathedral_from_the_back_-_famous_shadow_-_New_Orleans_Sept_2016.jpg",
+      "author": "Peter Burka",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "St. Louis Cathedral, Jackson Square, French Quarter, New Orleans, Louisiana 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Louis_Cathedral,_Jackson_Square,_French_Quarter,_New_Orleans,_Louisiana_2.jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Pirate's Alley, New Orleans, April 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pirate%27s_Alley,_New_Orleans,_April_2023.jpg",
+      "author": "edenpictures",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nola-st-louis-cathedral.glb",
+  "source": "generators/nola-st-louis-cathedral.ts"
+}
