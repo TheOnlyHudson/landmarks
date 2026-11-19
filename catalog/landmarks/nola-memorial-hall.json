@@ -1,0 +1,17 @@
+{
+  "id": "nola-memorial-hall",
+  "name": "Memorial Hall",
+  "model": "nola-memorial-hall",
+  "place": "new-orleans-area",
+  "lng": -90.071439,
+  "lat": 29.943456,
+  "bearing": 14.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q5159685",
+  "replaces": [
+    "way/328848201",
+    "way/1391223540",
+    "way/1391223538"
+  ]
+}
