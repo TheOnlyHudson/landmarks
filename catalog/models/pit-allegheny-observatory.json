@@ -1,0 +1,67 @@
+{
+  "id": "pit-allegheny-observatory",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "observatory",
+    "university",
+    "neoclassical",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Allegheny Observatory, 2015-05-14, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Allegheny_Observatory,_2015-05-14,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Allegheny Observatory, 2015-05-14, 04",
+      "url": "https://commons.wikimedia.org/wiki/File:Allegheny_Observatory,_2015-05-14,_04.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Allegheny Observatory, 2014-10-08, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Allegheny_Observatory,_2014-10-08,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Allegheny Observatory, 2021-12-23, 01 HDR",
+      "url": "https://commons.wikimedia.org/wiki/File:Allegheny_Observatory,_2021-12-23,_01_HDR.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Allegheny Observatory, August 2014",
+      "url": "https://commons.wikimedia.org/wiki/File:Allegheny_Observatory,_August_2014.jpg",
+      "author": "Niagara",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Allegheny Observatory 2007a",
+      "url": "https://commons.wikimedia.org/wiki/File:Allegheny_Observatory_2007a.jpg",
+      "author": "Tom Murphy VII",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pit-allegheny-observatory.glb",
+  "source": "generators/pit-allegheny-observatory.ts"
+}
