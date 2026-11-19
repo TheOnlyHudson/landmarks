@@ -1,0 +1,15 @@
+{
+  "id": "det-book-tower",
+  "name": "Book Tower",
+  "model": "det-book-tower",
+  "place": "detroit-area",
+  "lng": -83.0515469,
+  "lat": 42.3334992,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/107366469"
+  ],
+  "wikidata": "Q4942959"
+}
