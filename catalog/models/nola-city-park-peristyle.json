@@ -1,0 +1,60 @@
+{
+  "id": "nola-city-park-peristyle",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "pavilion",
+    "park",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "City Park, New Orleans, May 2019 - Peristyle across the water",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Park,_New_Orleans,_May_2019_-_Peristyle_across_the_water.jpg",
+      "author": "William Marnoch",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "City Park New Orleans 24 Sept 2016 Peristyle 2",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Park_New_Orleans_24_Sept_2016_Peristyle_2.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "City Park New Orleans 24 Sept 2016 Peristyle",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Park_New_Orleans_24_Sept_2016_Peristyle.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Peristyle NOLA From Across Great Lawn",
+      "url": "https://commons.wikimedia.org/wiki/File:Peristyle_NOLA_From_Across_Great_Lawn.JPG",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "City Park Peristyle, New Orleans 14 May 2011 - lion",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Park_Peristyle,_New_Orleans_14_May_2011_-_lion.jpg",
+      "author": "mrpolyonymous",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nola-city-park-peristyle.glb",
+  "source": "generators/nola-city-park-peristyle.ts"
+}
