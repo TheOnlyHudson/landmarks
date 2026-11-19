@@ -1,0 +1,80 @@
+{
+  "id": "msp-stone-arch-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "arch-bridge",
+    "stone",
+    "pedestrian",
+    "railroad"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Stone Arch Bridge as viewed from downriver 2019-08-08",
+      "url": "https://commons.wikimedia.org/wiki/File:Stone_Arch_Bridge_as_viewed_from_downriver_2019-08-08.jpg",
+      "author": "August Schwerdfeger",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Minneapolis April 2025 33 (Stone Arch Bridge and Mississippi River)",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_33_(Stone_Arch_Bridge_and_Mississippi_River).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis April 2025 42 (Stone Arch Bridge and Mississippi River)",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_42_(Stone_Arch_Bridge_and_Mississippi_River).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis Stone Arch Bridge",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_Stone_Arch_Bridge.jpg",
+      "author": "Mmullie (WMF)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Stone Arch Bridge, Minneapolis (17183544635)",
+      "url": "https://commons.wikimedia.org/wiki/File:Stone_Arch_Bridge,_Minneapolis_(17183544635).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Stone Arch Bridge (Minneapolis) Sept 2019",
+      "url": "https://commons.wikimedia.org/wiki/File:Stone_Arch_Bridge_(Minneapolis)_Sept_2019.jpg",
+      "author": "Thomson200",
+      "license": "CC0"
+    },
+    {
+      "title": "Stone Arch Bridge with low water level",
+      "url": "https://commons.wikimedia.org/wiki/File:Stone_Arch_Bridge_with_low_water_level.jpg",
+      "author": "SidewalkMD",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Stone Arch Bridge and lock",
+      "url": "https://commons.wikimedia.org/wiki/File:Stone_Arch_Bridge_and_lock.jpg",
+      "author": "Mulad (assumed; Commons gives no machine-readable author)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/msp-stone-arch-bridge.glb",
+  "source": "generators/msp-stone-arch-bridge.ts"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "msp-stone-arch-bridge",
+  "name": "Stone Arch Bridge",
+  "model": "msp-stone-arch-bridge",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.254876,
+  "lat": 44.9806545,
+  "bearing": 77,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q742145",
+  "replaces": [
+    "way/746175003",
+    "way/1572286114",
+    "way/1572286118",
+    "way/1572286120",
+    "way/1572286121",
+    "way/1572286122",
+    "way/1572286123",
+    "way/1572286124",
+    "way/1572286129",
+    "way/1572286130",
+    "way/1572286133",
+    "way/1572286134",
+    "way/1572286135",
+    "way/1572286136",
+    "way/1572286137"
+  ]
+}
