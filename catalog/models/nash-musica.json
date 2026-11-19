@@ -1,0 +1,36 @@
+{
+  "id": "nash-musica",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "public-art",
+    "bronze",
+    "music-row"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Musica sculpture - Nashville TN.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Musica_sculpture_-_Nashville_TN.jpg",
+      "author": "WV-Mike",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-musica.glb",
+  "source": "generators/nash-musica.ts"
+}

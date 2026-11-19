@@ -1,0 +1,15 @@
+{
+  "id": "nash-cheekwood",
+  "name": "Cheekwood",
+  "model": "nash-cheekwood",
+  "place": "nashville-area",
+  "wikidata": "Q2066407",
+  "lng": -86.876683,
+  "lat": 36.089225,
+  "bearing": 19.8,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/681333474"
+  ]
+}

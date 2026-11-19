@@ -1,0 +1,15 @@
+{
+  "id": "nash-parthenon",
+  "name": "The Parthenon",
+  "model": "nash-parthenon",
+  "place": "nashville-area",
+  "lng": -86.8134273,
+  "lat": 36.1496883,
+  "bearing": 56.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1467467",
+  "replaces": [
+    "way/130913355"
+  ]
+}

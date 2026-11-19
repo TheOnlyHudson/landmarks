@@ -1,0 +1,15 @@
+{
+  "id": "nash-bridgestone-tower",
+  "name": "Bridgestone Tower",
+  "model": "nash-bridgestone-tower",
+  "place": "nashville-area",
+  "lng": -86.7753041,
+  "lat": 36.1587817,
+  "bearing": 62,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q42529751",
+  "replaces": [
+    "way/592008296"
+  ]
+}

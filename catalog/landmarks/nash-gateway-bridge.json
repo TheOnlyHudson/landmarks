@@ -1,0 +1,15 @@
+{
+  "id": "nash-gateway-bridge",
+  "name": "Gateway Bridge",
+  "model": "nash-gateway-bridge",
+  "place": "nashville-area",
+  "lng": -86.769204,
+  "lat": 36.161691,
+  "bearing": 15.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q48807659",
+  "replaces": [
+    "way/655292643"
+  ]
+}

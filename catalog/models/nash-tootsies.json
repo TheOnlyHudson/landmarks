@@ -1,0 +1,62 @@
+{
+  "id": "nash-tootsies",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "honky-tonk",
+    "music-venue",
+    "bar",
+    "neon-sign"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tootsies 2015",
+      "url": "https://commons.wikimedia.org/wiki/File:Tootsies_2015.jpg",
+      "author": "Ttotallytexan",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Tootsies Orchid Lounge - Nashville TN (31278037357)",
+      "url": "https://commons.wikimedia.org/wiki/File:Tootsies_Orchid_Lounge_-_Nashville_TN_(31278037357).jpg",
+      "author": "FaceMePLS",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Tootsies Orchid Lounge Sign, Broadway, Nashville, TN (54384526253)",
+      "url": "https://commons.wikimedia.org/wiki/File:Tootsies_Orchid_Lounge_Sign,_Broadway,_Nashville,_TN_(54384526253).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Tootsies and Second Fiddle, Broad St., Nashville",
+      "url": "https://commons.wikimedia.org/wiki/File:Tootsies_and_Second_Fiddle,_Broad_St.,_Nashville.JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Tootsies Orchid Lounge - Nashville",
+      "url": "https://commons.wikimedia.org/wiki/File:Tootsies_Orchid_Lounge_-_Nashville.jpg",
+      "author": "Kathleen Conklin",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nash-tootsies.glb",
+  "source": "generators/nash-tootsies.ts"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "nash-tennessee-state-capitol",
+  "name": "Tennessee State Capitol",
+  "model": "nash-tennessee-state-capitol",
+  "place": "nashville-area",
+  "lng": -86.7842382,
+  "lat": 36.1658304,
+  "bearing": 331.4,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q2570396",
+  "replaces": [
+    "way/249147622",
+    "way/249147629",
+    "way/249147631",
+    "way/249147632",
+    "way/249147633"
+  ]
+}

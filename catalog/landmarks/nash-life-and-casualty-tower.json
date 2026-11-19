@@ -1,0 +1,17 @@
+{
+  "id": "nash-life-and-casualty-tower",
+  "name": "Life & Casualty Tower",
+  "model": "nash-life-and-casualty-tower",
+  "place": "nashville-area",
+  "lng": -86.7790787,
+  "lat": 36.1633623,
+  "bearing": 63,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1824425",
+  "replaces": [
+    "way/464659471",
+    "way/796298219",
+    "way/796298220"
+  ]
+}

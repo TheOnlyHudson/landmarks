@@ -1,0 +1,67 @@
+{
+  "id": "nash-war-memorial-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "memorial",
+    "auditorium",
+    "neoclassical",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "War Memorial Building, Legislative Plaza, Nashville, TN (54385244619)",
+      "url": "https://commons.wikimedia.org/wiki/File:War_Memorial_Building,_Legislative_Plaza,_Nashville,_TN_(54385244619).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "War Memorial Building, Legislative Plaza, Nashville, TN (54385052711)",
+      "url": "https://commons.wikimedia.org/wiki/File:War_Memorial_Building,_Legislative_Plaza,_Nashville,_TN_(54385052711).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "War Memorial Building, Legislative Plaza, Nashville, TN (54385249614)",
+      "url": "https://commons.wikimedia.org/wiki/File:War_Memorial_Building,_Legislative_Plaza,_Nashville,_TN_(54385249614).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "War Memorial Building Nashville 2022.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:War_Memorial_Building_Nashville_2022.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "War Memorial Auditorium Nashville TN 2013-07-20 003.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:War_Memorial_Auditorium_Nashville_TN_2013-07-20_003.jpg",
+      "author": "Thomas R Machnitzki",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "War Memorial Building, Nashville, Tenn (74056).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:War_Memorial_Building,_Nashville,_Tenn_(74056).jpg",
+      "author": "Southern Latex Co.",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nash-war-memorial-building.glb",
+  "source": "generators/nash-war-memorial-building.ts"
+}

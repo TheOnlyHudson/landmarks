@@ -1,0 +1,60 @@
+{
+  "id": "nash-gaylord-opryland",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "hotel",
+    "convention-center",
+    "atrium"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Opryland Hotel 2022q.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Opryland_Hotel_2022q.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Opryland Hotel 2022r.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Opryland_Hotel_2022r.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Opryland Hotel 2022p.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Opryland_Hotel_2022p.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Opryland Hotel 2022o.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Opryland_Hotel_2022o.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Opryland Hotel 2022a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Opryland_Hotel_2022a.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-gaylord-opryland.glb",
+  "source": "generators/nash-gaylord-opryland.ts"
+}

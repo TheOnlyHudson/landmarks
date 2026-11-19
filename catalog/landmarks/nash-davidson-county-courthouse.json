@@ -1,0 +1,14 @@
+{
+  "id": "nash-davidson-county-courthouse",
+  "name": "Historic Davidson County Courthouse",
+  "model": "nash-davidson-county-courthouse",
+  "place": "nashville-area",
+  "lng": -86.778587,
+  "lat": 36.167256,
+  "bearing": 332,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/130913030"
+  ]
+}

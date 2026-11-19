@@ -1,0 +1,15 @@
+{
+  "id": "nash-kirkland-hall",
+  "name": "Kirkland Hall",
+  "model": "nash-kirkland-hall",
+  "place": "nashville-area",
+  "lng": -86.8027985,
+  "lat": 36.1482137,
+  "bearing": 328.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q129068411",
+  "replaces": [
+    "way/544397715"
+  ]
+}

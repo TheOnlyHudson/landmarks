@@ -1,0 +1,18 @@
+{
+  "id": "nash-country-music-hall-of-fame",
+  "name": "Country Music Hall of Fame and Museum",
+  "model": "nash-country-music-hall-of-fame",
+  "place": "nashville-area",
+  "lng": -86.77611,
+  "lat": 36.158163,
+  "bearing": 332,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q680685",
+  "replaces": [
+    "way/130905919",
+    "way/795839526",
+    "way/795839527",
+    "way/795839528"
+  ]
+}

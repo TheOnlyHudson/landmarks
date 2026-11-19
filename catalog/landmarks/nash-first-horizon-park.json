@@ -1,0 +1,17 @@
+{
+  "id": "nash-first-horizon-park",
+  "name": "First Horizon Park",
+  "model": "nash-first-horizon-park",
+  "place": "nashville-area",
+  "lng": -86.785,
+  "lat": 36.17302,
+  "bearing": 158,
+  "elevation": -2.6,
+  "minzoom": 15,
+  "wikidata": "Q15262085",
+  "replaces": [
+    "way/592150009",
+    "way/610287887",
+    "way/642085725"
+  ]
+}

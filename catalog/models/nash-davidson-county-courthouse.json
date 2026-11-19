@@ -1,0 +1,50 @@
+{
+  "id": "nash-davidson-county-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "government",
+    "courthouse",
+    "city-hall",
+    "pwa-moderne"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Davidson County Courthouse and Nashville City Hall, Public Square, Nashville, TN (54385292733)",
+      "url": "https://commons.wikimedia.org/wiki/File:Davidson_County_Courthouse_and_Nashville_City_Hall,_Public_Square,_Nashville,_TN_(54385292733).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Davidson County Courthouse and Nashville City Hall, Public Square, Nashville, TN (54385292138)",
+      "url": "https://commons.wikimedia.org/wiki/File:Davidson_County_Courthouse_and_Nashville_City_Hall,_Public_Square,_Nashville,_TN_(54385292138).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "South (rear) and west elevations - Davidson County Courthouse and Public Building (HABS TENN,19-NASH,21-5)",
+      "url": "https://commons.wikimedia.org/wiki/File:South_(rear)_and_west_elevations_-_Davidson_County_Courthouse_and_Public_Building,_Public_Square,_Nashville,_Davidson_County,_TN_HABS_TENN,19-NASH,21-5.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nash-davidson-county-courthouse.glb",
+  "source": "generators/nash-davidson-county-courthouse.ts"
+}

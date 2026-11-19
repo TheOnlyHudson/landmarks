@@ -1,0 +1,15 @@
+{
+  "id": "nash-frist-art-museum",
+  "name": "Frist Art Museum",
+  "model": "nash-frist-art-museum",
+  "place": "nashville-area",
+  "lng": -86.783628,
+  "lat": 36.157612,
+  "bearing": 332,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5504731",
+  "replaces": [
+    "way/130905893"
+  ]
+}

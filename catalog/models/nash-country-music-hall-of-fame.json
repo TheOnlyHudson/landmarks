@@ -1,0 +1,72 @@
+{
+  "id": "nash-country-music-hall-of-fame",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "music",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Country Music Hall of Fame and Museum, Nashville USA - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Country_Music_Hall_of_Fame_and_Museum,_Nashville_USA_-_panoramio.jpg",
+      "author": "The Erica Chang",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Country Music Hall of Fame (Northeast corner).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Country_Music_Hall_of_Fame_(Northeast_corner).JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Country Music Hall of Fame (Northwest corner) 2.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Country_Music_Hall_of_Fame_(Northwest_corner)_2.JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Country Music Hall of Fame, 5th Ave side 1.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Country_Music_Hall_of_Fame,_5th_Ave_side_1.JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Country Music Hall of Fame 2022a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Country_Music_Hall_of_Fame_2022a.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Country Music Hall of Fame Nashville.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Country_Music_Hall_of_Fame_Nashville.jpg",
+      "author": "Karakorhummel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Country Music Hall of Fame - edwardhblake.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Country_Music_Hall_of_Fame_-_edwardhblake.jpg",
+      "author": "edwardhblake",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nash-country-music-hall-of-fame.glb",
+  "source": "generators/nash-country-music-hall-of-fame.ts"
+}

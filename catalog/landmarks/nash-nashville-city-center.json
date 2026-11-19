@@ -1,0 +1,15 @@
+{
+  "id": "nash-nashville-city-center",
+  "name": "Nashville City Center",
+  "model": "nash-nashville-city-center",
+  "place": "nashville-area",
+  "lng": -86.7817157,
+  "lat": 36.163916,
+  "bearing": 62.4,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q6966961",
+  "replaces": [
+    "way/130913036"
+  ]
+}

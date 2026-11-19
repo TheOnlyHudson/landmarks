@@ -1,0 +1,12 @@
+{
+  "id": "nash-wightman-chapel",
+  "name": "Wightman Chapel",
+  "model": "nash-wightman-chapel",
+  "place": "nashville-area",
+  "lng": -86.7968215,
+  "lat": 36.1457937,
+  "bearing": 278.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

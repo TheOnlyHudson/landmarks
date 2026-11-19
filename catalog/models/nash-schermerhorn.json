@@ -1,0 +1,72 @@
+{
+  "id": "nash-schermerhorn",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "concert-hall",
+    "music",
+    "neoclassical"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Schermerhorn.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Schermerhorn.jpg",
+      "author": "Ryan Kaldari",
+      "license": "CC0"
+    },
+    {
+      "title": "Schermerhorn Symphony Center.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Schermerhorn_Symphony_Center.jpg",
+      "author": "Mike Hackney",
+      "license": "Public domain"
+    },
+    {
+      "title": "Schermerhorn Symphony Center (Northwest corner).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Schermerhorn_Symphony_Center_(Northwest_corner).JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Schermerhorn Symphony Center (Northwest face).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Schermerhorn_Symphony_Center_(Northwest_face).JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Schermerhorn Symphony Center (Southwest corner).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Schermerhorn_Symphony_Center_(Southwest_corner).JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Schermerhorn Symphony Center (Southwest face).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Schermerhorn_Symphony_Center_(Southwest_face).JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nashville, TN at night58.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville,_TN_at_night58.jpg",
+      "author": "dconvertini",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/nash-schermerhorn.glb",
+  "source": "generators/nash-schermerhorn.ts"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "nash-frist-art-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum",
+    "art-deco",
+    "post-office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Old Nashville Post Office (Frist Art Museum), Broadway and 9th Avenue, Nashville, TN (54384482124)",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Nashville_Post_Office_(Frist_Art_Museum),_Broadway_and_9th_Avenue,_Nashville,_TN_(54384482124).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Old Nashville Post Office (Frist Art Museum), Broadway and 9th Avenue, Nashville, TN (54384482279)",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Nashville_Post_Office_(Frist_Art_Museum),_Broadway_and_9th_Avenue,_Nashville,_TN_(54384482279).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Old Nashville Post Office (Frist Art Museum), Broadway and 9th Avenue, Nashville, TN (54384665765)",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Nashville_Post_Office_(Frist_Art_Museum),_Broadway_and_9th_Avenue,_Nashville,_TN_(54384665765).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Frist Center for the Visual Arts (Northeast face)",
+      "url": "https://commons.wikimedia.org/wiki/File:Frist_Center_for_the_Visual_Arts_(Northeast_face).JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Frist Center Nashville TN USA",
+      "url": "https://commons.wikimedia.org/wiki/File:Frist_Center_Nashville_TN_USA.JPG",
+      "author": "Ed!",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/nash-frist-art-museum.glb",
+  "source": "generators/nash-frist-art-museum.ts"
+}

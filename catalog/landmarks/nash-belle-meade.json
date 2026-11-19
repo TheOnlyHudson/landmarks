@@ -1,0 +1,15 @@
+{
+  "id": "nash-belle-meade",
+  "name": "Belle Meade Plantation",
+  "model": "nash-belle-meade",
+  "place": "nashville-area",
+  "wikidata": "Q2267741",
+  "lng": -86.864646,
+  "lat": 36.10565,
+  "bearing": 45.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/433265447"
+  ]
+}

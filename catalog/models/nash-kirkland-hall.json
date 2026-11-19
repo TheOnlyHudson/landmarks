@@ -1,0 +1,78 @@
+{
+  "id": "nash-kirkland-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "historic",
+    "clock-tower",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Kirkland Hall at Vanderbilt University.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kirkland_Hall_at_Vanderbilt_University.jpg",
+      "author": "Jaydenwithay",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Kirkland Hall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kirkland_Hall.jpg",
+      "author": "BugsMeanee",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "KirklandVanderbilt.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:KirklandVanderbilt.JPG",
+      "author": "Jbaker08",
+      "license": "Public domain"
+    },
+    {
+      "title": "KirklandHallVU.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:KirklandHallVU.JPG",
+      "author": "Jbaker08",
+      "license": "Public domain"
+    },
+    {
+      "title": "VandyKirklandTower.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:VandyKirklandTower.JPG",
+      "author": "Dansan4444",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "VanderbiltKirlandTower2.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:VanderbiltKirlandTower2.JPG",
+      "author": "Dansan4444",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Vandy-kirkland.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vandy-kirkland.jpg",
+      "author": "Reid Sullivan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "2019 Sit-in.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_Sit-in.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nash-kirkland-hall.glb",
+  "source": "generators/nash-kirkland-hall.ts"
+}

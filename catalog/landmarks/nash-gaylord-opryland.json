@@ -1,0 +1,15 @@
+{
+  "id": "nash-gaylord-opryland",
+  "name": "Gaylord Opryland Resort & Convention Center",
+  "model": "nash-gaylord-opryland",
+  "place": "nashville-area",
+  "lng": -86.6942682,
+  "lat": 36.2116579,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q5528863",
+  "replaces": [
+    "relation/4756295"
+  ]
+}

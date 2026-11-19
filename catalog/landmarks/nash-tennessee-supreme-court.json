@@ -1,0 +1,15 @@
+{
+  "id": "nash-tennessee-supreme-court",
+  "name": "Tennessee Supreme Court Building",
+  "model": "nash-tennessee-supreme-court",
+  "place": "nashville-area",
+  "lng": -86.7848463,
+  "lat": 36.1649275,
+  "bearing": 331.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q17059510",
+  "replaces": [
+    "way/112916694"
+  ]
+}

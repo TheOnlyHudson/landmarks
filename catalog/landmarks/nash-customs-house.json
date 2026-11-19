@@ -1,0 +1,15 @@
+{
+  "id": "nash-customs-house",
+  "name": "U.S. Customs House",
+  "model": "nash-customs-house",
+  "place": "nashville-area",
+  "lng": -86.781306,
+  "lat": 36.158775,
+  "bearing": 332,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/130905910",
+    "way/1040975824"
+  ]
+}
