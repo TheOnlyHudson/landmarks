@@ -1,0 +1,26 @@
+{
+  "id": "pit-cathedral-of-learning",
+  "name": "Cathedral of Learning",
+  "model": "pit-cathedral-of-learning",
+  "lng": -79.9531056,
+  "lat": 40.4443601,
+  "bearing": 47.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q797017",
+  "replaces": [
+    "way/30678664",
+    "way/841117936",
+    "way/841117937",
+    "way/841117938",
+    "way/841117939",
+    "way/841117940",
+    "way/841117941",
+    "way/841117942",
+    "way/841117943",
+    "way/841117944",
+    "way/841117945",
+    "way/841117946"
+  ],
+  "place": "pittsburgh-area"
+}
