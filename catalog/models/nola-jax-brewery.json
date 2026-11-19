@@ -1,0 +1,66 @@
+{
+  "id": "nola-jax-brewery",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "brewery",
+    "shopping"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Jackson Brewing Company building, New Orleans, April 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jackson_Brewing_Company_building,_New_Orleans,_April_2023.jpg",
+      "author": "edenpictures",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Jackson Brewery Bistro Bar, New Orleans.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Jackson_Brewery_Bistro_Bar,_New_Orleans.JPG",
+      "author": "MusikAnimal",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Jax Brewery, seen across Jackson Square (200026832).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jax_Brewery,_seen_across_Jackson_Square_(200026832).jpg",
+      "author": "Patrick Nielsen Hayden from Brooklyn, NY",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Jax Brewery New Orleans 1976 by Leon Winer.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Jax_Brewery_New_Orleans_1976_by_Leon_Winer.JPG",
+      "author": "Leon Winer",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "New Orleans, LA (French Quarter) - Home of JAX Beer sign at night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans,_LA_(French_Quarter)_-_Home_of_JAX_Beer_sign_at_night.jpg",
+      "author": "JasonParis",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "New Orleans - Jackson Square \"JAX Brewery From Jackson Square\".jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_-_Jackson_Square_%22JAX_Brewery_From_Jackson_Square%22.jpg",
+      "author": "David Ohmer",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nola-jax-brewery.glb",
+  "source": "generators/nola-jax-brewery.ts"
+}
