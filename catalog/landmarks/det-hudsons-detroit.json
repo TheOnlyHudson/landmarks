@@ -1,0 +1,22 @@
+{
+  "id": "det-hudsons-detroit",
+  "name": "Hudson's Detroit",
+  "model": "det-hudsons-detroit",
+  "place": "detroit-area",
+  "lng": -83.0474364,
+  "lat": 42.3333873,
+  "bearing": 330,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/1105871812",
+    "way/1565621013",
+    "way/1105871813",
+    "way/1565621014",
+    "way/1565621015",
+    "way/1565621016",
+    "way/1565621017",
+    "way/1565621018"
+  ],
+  "wikidata": "Q106201548"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "det-hudsons-detroit",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "modern",
+    "office",
+    "mixed-use"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hudson’s Detroit Building 2026-01-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Hudson’s_Detroit_Building_2026-01-01.jpg",
+      "author": "TheWxResearcher",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Hudson’s Detroit Building (August 2025)",
+      "url": "https://commons.wikimedia.org/wiki/File:Hudson’s_Detroit_Building_(August_2025).jpg",
+      "author": "TheWxResearcher",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Detroit August 2025 16 (Hudson's Detroit)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_August_2025_16_(Hudson's_Detroit).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pinnacles of Guardian Building, One Woodward Avenue, and Hudson's Detroit, 2025-08-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Pinnacles_of_Guardian_Building,_One_Woodward_Avenue,_and_Hudson's_Detroit,_Detroit,_Michigan,_2025-08-01.jpg",
+      "author": "Chris Woodrich (Crisco 1492)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hudson's Detroit on a snowy night, from One Campus Martius Garage",
+      "url": "https://commons.wikimedia.org/wiki/File:Hudson's_Detroit_on_a_snowy_night,_from_One_Campus_Martius_Garage.jpg",
+      "author": "42-BRT",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/det-hudsons-detroit.glb",
+  "source": "generators/det-hudsons-detroit.ts"
+}
