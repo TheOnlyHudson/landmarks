@@ -1,0 +1,79 @@
+{
+  "id": "nash-bridgestone-arena",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "sports",
+    "music",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Gaylord Entertainment Center 2005-12-07.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gaylord_Entertainment_Center_2005-12-07.jpg",
+      "author": "Wonderdawg777",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Bridgestone Arena (Northeast corner).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridgestone_Arena_(Northeast_corner).JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bridgestone Arena (North face) 1.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridgestone_Arena_(North_face)_1.JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bridgestone Arena (North face) 2.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridgestone_Arena_(North_face)_2.JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bridgestone Arena (Southeast corner).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridgestone_Arena_(Southeast_corner).JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gaylord Entertainment Center, Nashville, Tennessee (97059820).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gaylord_Entertainment_Center,_Nashville,_Tennessee_(97059820).jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Bridgestone Arena (97058907).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridgestone_Arena_(97058907).jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Tower, Nashville Visitor Center and Bridgestone Arena, Broadway and 5th Avenue, Nashville, TN (54383403502).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tower,_Nashville_Visitor_Center_and_Bridgestone_Arena,_Broadway_and_5th_Avenue,_Nashville,_TN_(54383403502).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/nash-bridgestone-arena.glb",
+  "source": "generators/nash-bridgestone-arena.ts"
+}
