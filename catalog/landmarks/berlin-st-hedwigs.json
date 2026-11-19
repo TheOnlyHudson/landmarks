@@ -1,0 +1,19 @@
+{
+  "id": "berlin-st-hedwigs",
+  "name": "St. Hedwig's Cathedral",
+  "model": "berlin-st-hedwigs",
+  "place": "berlin",
+  "lng": 13.394855,
+  "lat": 52.515753,
+  "bearing": 146.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q170123",
+  "replaces": [
+    "way/58608090",
+    "way/207890915",
+    "way/207890916",
+    "way/207890917",
+    "way/207890918"
+  ]
+}

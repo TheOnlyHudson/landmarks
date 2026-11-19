@@ -1,0 +1,64 @@
+{
+  "id": "doha-khalifa-international-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "football",
+    "athletics",
+    "world-cup"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/doha-khalifa-international-stadium.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "ASPIRE Tower",
+      "url": "https://live.staticflickr.com/6219/6376487897_525744dffa_b.jpg",
+      "author": "Doha Stadium Plus",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Aspire tower",
+      "url": "https://live.staticflickr.com/2643/4120231826_8b39f0ed39_b.jpg",
+      "author": "Nayaab Shaikh",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Khalifa International Stadium, Doha - Qatar",
+      "url": "https://live.staticflickr.com/7604/16749602291_28c2ee3490_b.jpg",
+      "author": "Mohamod Fasil",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Hanson K Joseph Khalifa Stadium.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hanson_K_Joseph_Khalifa_Stadium.jpg",
+      "author": "Hanson K Joseph",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Special Agents at the World Cup (52553123545).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Special_Agents_at_the_World_Cup_(52553123545).jpg",
+      "author": "Diplomatic Security Service",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/doha-khalifa-international-stadium.glb",
+  "source": "generators/doha-khalifa-international-stadium.ts"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "petra-ad-deir",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "rock-cut",
+    "tomb",
+    "nabataean",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/petra-ad-deir.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Ad Deir, Petra.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ad_Deir,_Petra.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Petra - Ad Deir facade.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Petra_-_Ad_Deir_facade.jpg",
+      "author": "Alena Belova for Exhibo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ad-Deir from angle.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ad-Deir_from_angle.jpg",
+      "author": "Daniel Case",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Ad Deir (The Monastery), El Deir, Petra, Jordan.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ad_Deir_(The_Monastery),_El_Deir,_Petra,_Jordan.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/petra-ad-deir.glb",
+  "source": "generators/petra-ad-deir.ts"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "berlin-molecule-man",
+  "name": "Molecule Man",
+  "model": "berlin-molecule-man",
+  "place": "berlin",
+  "lng": 13.459044,
+  "lat": 52.496963,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q522248",
+  "replaces": []
+}

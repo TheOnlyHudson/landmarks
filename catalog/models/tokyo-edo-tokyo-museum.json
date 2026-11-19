@@ -1,0 +1,62 @@
+{
+  "id": "tokyo-edo-tokyo-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "metabolism",
+    "kiyonori-kikutake"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Kiyonori Kikutake's Edo-Tokyo Museum (1993): a pale storehouse-like block with leaning sides raised on four huge legs over an open plaza.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Edo-Tokyo Museum 2012.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Edo-Tokyo_Museum_2012.JPG",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Edo-Tokyo Museum 2014.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Edo-Tokyo_Museum_2014.jpg",
+      "author": "Kakidai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Edo-Tokyo Museum 2019.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Edo-Tokyo_Museum_2019.jpg",
+      "author": "Marco Almbauer",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Edo-Tokyo Museum - Sumida, Tokyo, Japan - DSC06567.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Edo-Tokyo_Museum_-_Sumida,_Tokyo,_Japan_-_DSC06567.jpg",
+      "author": "Daderot",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Edo-Tokyo Museum.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Edo-Tokyo_Museum.jpg",
+      "author": "Wiiii",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/tokyo-edo-tokyo-museum.glb",
+  "source": "generators/tokyo-edo-tokyo-museum.ts"
+}

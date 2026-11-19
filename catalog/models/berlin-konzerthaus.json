@@ -1,0 +1,97 @@
+{
+  "id": "berlin-konzerthaus",
+  "file": "models/berlin-konzerthaus.glb",
+  "detail": "models/berlin-konzerthaus.detail.glb",
+  "detailZoom": 17,
+  "source": "generators/berlin-konzerthaus.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "concert-hall",
+    "theatre",
+    "neoclassical",
+    "schinkel",
+    "gendarmenmarkt",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Schinkel's Schauspielhaus on the Gendarmenmarkt (1818-21): the raised hexastyle Ionic portico over its broad stair and cheek blocks with Tieck's lion and panther, the raised Oberbau with Apollo in the griffin chariot and Pegasus on its gables, the tripod bowls, and the two wings on Schinkel's pier grid.",
+  "references": [
+    {
+      "title": "150418 Konzerthaus Berlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:150418_Konzerthaus_Berlin.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC-BY-3.0-de"
+    },
+    {
+      "title": "Berlin Konzerthaus BW 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Konzerthaus_BW_1.jpg",
+      "author": "Berthold Werner",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Schauspielhaus (Berlin-Mitte).Tieck.Apollo im Greifenwagen.09065015.ajb.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Schauspielhaus_(Berlin-Mitte).Tieck.Apollo_im_Greifenwagen.09065015.ajb.jpg",
+      "author": "Ajepbah",
+      "license": "CC-BY-SA-3.0-de"
+    },
+    {
+      "title": "Konzerthaus, Gendarmenmarkt, Berlin, 1818-1821 (5) (25311525447).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Konzerthaus,_Gendarmenmarkt,_Berlin,_1818-1821_(5)_(25311525447).jpg",
+      "author": "Richard Mortel from Riyadh, Saudi Arabia",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Konzerthaus-Gendarmenmarkt-Berlin-Mitte-02-2018a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Konzerthaus-Gendarmenmarkt-Berlin-Mitte-02-2018a.jpg",
+      "author": "Gunnar Klack",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Berlin-Gendarmenmarkt-40-Konzerthaus-2017-gje.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin-Gendarmenmarkt-40-Konzerthaus-2017-gje.jpg",
+      "author": "Gerd Eichmann",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Konzerthaus Berlin + Deutscher Dom (Berlin), 2024 (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Konzerthaus_Berlin_%2B_Deutscher_Dom_(Berlin),_2024_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Gendarmenmarkt-Konzerthaus-Franzoesischer-Dom-2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gendarmenmarkt-Konzerthaus-Franzoesischer-Dom-2015.jpg",
+      "author": "Tuxyso",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Konzerthaus Berlin Gendarmenmarkt 2.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Konzerthaus_Berlin_Gendarmenmarkt_2.JPG",
+      "author": "Schlaier",
+      "license": "Public-domain"
+    },
+    {
+      "title": "Schauspielhaus (Berlin-Mitte).Tieck.Pegasus.09065015.ajb.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Schauspielhaus_(Berlin-Mitte).Tieck.Pegasus.09065015.ajb.jpg",
+      "author": "Ajepbah",
+      "license": "CC-BY-SA-3.0-de"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "bna-att-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern",
+    "spire"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "AT&T Building Nashville from Broadway and 5th.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:AT%26T_Building_Nashville_from_Broadway_and_5th.jpg",
+      "author": "EvanSheppard",
+      "license": "CC0 1.0"
+    },
+    {
+      "title": "Att building nashville.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Att_building_nashville.jpg",
+      "author": "Kaldari",
+      "license": "CC0 1.0"
+    },
+    {
+      "title": "AT&T Building Nashville, TN.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:AT%26T_Building_Nashville,_TN.jpg",
+      "author": "Lchader",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Roof of the Ryman Auditorium and the new AT&T Building, Nashville, Tennessee LCCN2010630380.tif",
+      "url": "https://commons.wikimedia.org/wiki/File:Roof_of_the_Ryman_Auditorium_and_the_new_AT%26T_Building,_Nashville,_Tennessee_LCCN2010630380.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "AT&T building from 4th Ave.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:AT%26T_building_from_4th_Ave.JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "AT&T building from 3rd Ave N.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:AT%26T_building_from_3rd_Ave_N.JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Batman Dark.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Batman_Dark.jpg",
+      "author": "Louis Chader",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Downtown Nashville night skyline 2008.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Nashville_night_skyline_2008.jpg",
+      "author": "Tabitha Kaylee Hawk",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Nashville Skyline at Night I-65.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_Skyline_at_Night_I-65.jpeg",
+      "author": "Cessna86",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/bna-att-building.glb",
+  "source": "generators/bna-att-building.ts"
+}

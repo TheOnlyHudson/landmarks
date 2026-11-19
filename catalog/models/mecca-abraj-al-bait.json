@@ -1,0 +1,95 @@
+{
+  "id": "mecca-abraj-al-bait",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "supertall",
+    "clock-tower",
+    "hotel",
+    "mixed-use"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/mecca-abraj-al-bait.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "Makkah Royal Clock Tower in 2012",
+      "url": "https://commons.wikimedia.org/wiki/File:Makkah_Royal_Clock_Tower_in_2012.jpg",
+      "author": "King Eliot",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Clock Tower Makkah from Marwa",
+      "url": "https://commons.wikimedia.org/wiki/File:Clock_Tower_Makkah_from_Marwa.jpg",
+      "author": "King Eliot",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Clock Tower Makkah 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Clock_Tower_Makkah_2.jpg",
+      "author": "King Eliot",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Clock Tower Makkah in morning",
+      "url": "https://commons.wikimedia.org/wiki/File:Clock_Tower_Makkah_in_morning.jpg",
+      "author": "King Eliot",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "CLOCK TOWER FROM SOUR",
+      "url": "https://commons.wikimedia.org/wiki/File:CLOCK_TOWER_FROM_SOUR.JPG",
+      "author": "Sajetpa at Malayalam Wikipedia",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Royal Makkah Clock Tower's Spire and Crescent",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Makkah_Clock_Tower%27s_Spire_and_Crescent.jpg",
+      "author": "Ez-17-93",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Aerial View of Abraj Al Bait Under Construction",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Abraj_Al_Bait_Under_Construction.jpg",
+      "author": "Fadi El Benni of Al Jazeera English",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Makkah Clock Tower at night, Saudi Arabia (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Makkah_Clock_Tower_at_night,_Saudi_Arabia_(1)_(52501885245).jpg",
+      "author": "Richard Mortel",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "ClockTower Makkah",
+      "url": "https://commons.wikimedia.org/wiki/File:ClockTower_Makkah.jpg",
+      "author": "King Eliot",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Abraj al bait Clock 4",
+      "url": "https://commons.wikimedia.org/wiki/File:Abraj_al_bait_Clock_4.jpg",
+      "author": "King Eliot",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/mecca-abraj-al-bait.glb",
+  "source": "generators/mecca-abraj-al-bait.ts"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tokyo-nikolai-cathedral",
+  "name": "Holy Resurrection Cathedral (Nikolai-dō)",
+  "model": "tokyo-nikolai-cathedral",
+  "place": "tokyo",
+  "lng": 139.765501,
+  "lat": 35.698022,
+  "bearing": 23.2,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2660430",
+  "replaces": [
+    "relation/4080936",
+    "way/273258751",
+    "way/273260342",
+    "way/273260343",
+    "way/553266118",
+    "relation/4080937",
+    "relation/7904398",
+    "relation/7904399",
+    "relation/9581986",
+    "relation/9581987",
+    "relation/9581988",
+    "relation/9581989"
+  ]
+}

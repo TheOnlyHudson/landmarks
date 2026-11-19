@@ -1,0 +1,14 @@
+{
+  "id": "tokyo-national-museum",
+  "name": "Tokyo National Museum, Honkan",
+  "model": "tokyo-national-museum",
+  "place": "tokyo",
+  "lng": 139.776466,
+  "lat": 35.718871,
+  "bearing": 30.38,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/2737745"
+  ]
+}

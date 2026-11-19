@@ -1,0 +1,79 @@
+{
+  "id": "london-eye",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "ride",
+  "tags": [
+    "observation-wheel",
+    "cantilever",
+    "riverside"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "London Eye (00776p).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:London_Eye_(00776p).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "London, London Eye -- 2016 -- 4625.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:London,_London_Eye_--_2016_--_4625.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "London, London Eye -- 2016 -- 1445.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:London,_London_Eye_--_2016_--_1445.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Thames and London Eye from Westminster Bridge.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Thames_and_London_Eye_from_Westminster_Bridge.jpg",
+      "author": "Domob",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "London eye and county hall pano edited 2008-02-19.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:London_eye_and_county_hall_pano_edited_2008-02-19.jpg",
+      "author": "Kim Hansen",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "London MMB »0X2 London Eye.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:London_MMB_%C2%BB0X2_London_Eye.jpg",
+      "author": "mattbuck",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "London Eye 2011 013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:London_Eye_2011_013.jpg",
+      "author": "Perituss",
+      "license": "CC0 1.0"
+    },
+    {
+      "title": "British Airways London Eye Profile.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:British_Airways_London_Eye_Profile.jpg",
+      "author": "Tim-desser",
+      "license": "CC0 1.0"
+    }
+  ],
+  "file": "models/london-eye.glb",
+  "source": "generators/london-eye.ts"
+}

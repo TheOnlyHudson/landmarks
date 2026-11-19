@@ -1,0 +1,64 @@
+{
+  "id": "ind-soldiers-and-sailors-monument",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "memorial",
+    "neoclassical",
+    "obelisk",
+    "fountain",
+    "observation-deck"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Monumento a los soldados y marineros, Indianápolis, Estados Unidos, 2012-10-22, DD 06.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_los_soldados_y_marineros,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_06.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Monumento a los soldados y marineros, Indianápolis, Estados Unidos, 2012-10-22, DD 08.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monumento_a_los_soldados_y_marineros,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_08.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Monument Circle, Indianapolis, Indiana, USA.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monument_Circle,_Indianapolis,_Indiana,_USA.jpg",
+      "author": "alexeatswhales",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Soldiers' and Sailors' Monument - April 2016 - Todd Fowler 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers%27_and_Sailors%27_Monument_-_April_2016_-_Todd_Fowler_01.jpg",
+      "author": "Todd Fowler",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Soldiers' and Sailors' Monument - September 2019 - 00.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers%27_and_Sailors%27_Monument_-_September_2019_-_00.jpg",
+      "author": "formulanone",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/ind-soldiers-and-sailors-monument.glb",
+  "source": "generators/ind-soldiers-and-sailors-monument.ts"
+}

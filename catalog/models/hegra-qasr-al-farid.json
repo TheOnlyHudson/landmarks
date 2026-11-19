@@ -1,0 +1,77 @@
+{
+  "id": "hegra-qasr-al-farid",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "rock-cut",
+    "tomb",
+    "nabataean",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/hegra-qasr-al-farid.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Qasr al-Farid, Hegra (Madain Salih), 1st cent. CE, Saudi Arabia (18).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Qasr_al-Farid,_Hegra_(Madain_Salih),_1st_cent._CE,_Saudi_Arabia_(18).jpg",
+      "author": "Richard Mortel",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Qasr al-Farid, Hegra (Madain Salih), 1st cent. CE, Saudi Arabia (8).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Qasr_al-Farid,_Hegra_(Madain_Salih),_1st_cent._CE,_Saudi_Arabia_(8).jpg",
+      "author": "Richard Mortel",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Qasr al-Farid, Hegra (Madain Salih), 1st cent. CE, Saudi Arabia (21).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Qasr_al-Farid,_Hegra_(Madain_Salih),_1st_cent._CE,_Saudi_Arabia_(21).jpg",
+      "author": "Richard Mortel",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Qasr al-Farid, Hegra (Madain Salih), 1st cent. CE, Saudi Arabia (2).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Qasr_al-Farid,_Hegra_(Madain_Salih),_1st_cent._CE,_Saudi_Arabia_(2).jpg",
+      "author": "Richard Mortel",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Qasr al Farid.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Qasr_al_Farid.JPG",
+      "author": "Richard.hargas",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Qasr al-Farid.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Qasr_al-Farid.jpg",
+      "author": "Radosław Botev",
+      "license": "CC BY 3.0 pl"
+    },
+    {
+      "title": "Mada'in Saleh 2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mada%27in_Saleh_2017.jpg",
+      "author": "Ahmad AlHasanat",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/hegra-qasr-al-farid.glb",
+  "source": "generators/hegra-qasr-al-farid.ts"
+}

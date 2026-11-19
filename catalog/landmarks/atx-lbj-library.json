@@ -1,0 +1,15 @@
+{
+  "id": "atx-lbj-library",
+  "name": "LBJ Presidential Library",
+  "model": "atx-lbj-library",
+  "place": "austin-area",
+  "lng": -97.7292852,
+  "lat": 30.2858948,
+  "bearing": 14.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/172662523"
+  ],
+  "wikidata": "Q1853779"
+}

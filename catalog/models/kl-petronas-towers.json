@@ -1,0 +1,77 @@
+{
+  "id": "kl-petronas-towers",
+  "file": "models/kl-petronas-towers.glb",
+  "detail": "models/kl-petronas-towers.detail.glb",
+  "detailZoom": 16,
+  "source": "generators/kl-petronas-towers.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "supertall",
+    "twin-towers",
+    "skybridge"
+  ],
+  "description": "The 452 m twin towers of Kuala Lumpur City Centre (1999, Cesar Pelli): stainless-steel and glass shafts on an eight-pointed star plan with round lobes, tapering in setbacks to a spiked crown, ball and needle, joined by the two-storey skybridge at levels 41-42 on its inverted-V legs.",
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Petronas Panorama II.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Petronas_Panorama_II.jpg",
+      "author": "Someformofhuman",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2016 Kuala Lumpur, Petronas Towers (26).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2016_Kuala_Lumpur,_Petronas_Towers_(26).jpg",
+      "author": "Marcin Konsek",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Petronas Twin Towers 2010 April.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Petronas_Twin_Towers_2010_April.jpg",
+      "author": "Morio",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Skybridge between Petronas Towers, Kuala Lumpur (4447656063).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Skybridge_between_Petronas_Towers,_Kuala_Lumpur_(4447656063).jpg",
+      "author": "Andy Mitchell from Glasgow, UK",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Kuala Lumpur Malaysia Petronas-Twin-Towers-01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kuala_Lumpur_Malaysia_Petronas-Twin-Towers-01.jpg",
+      "author": "CEphoto, Uwe Aranas",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Kuala Lumpur, Malaysia, Petronas Towers at night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kuala_Lumpur,_Malaysia,_Petronas_Towers_at_night.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Menara Berkembar Petronas, Kuala Lumpur, Malaysia (Unsplash).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Menara_Berkembar_Petronas,_Kuala_Lumpur,_Malaysia_(Unsplash).jpg",
+      "author": "Vlad Shapochnikov",
+      "license": "CC0"
+    }
+  ]
+}

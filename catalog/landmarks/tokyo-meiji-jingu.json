@@ -1,0 +1,17 @@
+{
+  "id": "tokyo-meiji-jingu",
+  "name": "Meiji Jingu",
+  "model": "tokyo-meiji-jingu",
+  "place": "tokyo",
+  "lng": 139.6994025,
+  "lat": 35.6760054,
+  "bearing": 354.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q287165",
+  "replaces": [
+    "relation/3603909",
+    "way/138670869",
+    "way/138670899"
+  ]
+}

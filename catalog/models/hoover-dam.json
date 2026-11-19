@@ -1,0 +1,87 @@
+{
+  "id": "hoover-dam",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "infrastructure",
+  "tags": [
+    "dam",
+    "art-deco",
+    "historic",
+    "hydroelectric",
+    "national-historic-landmark"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hoover Dam from Memorial Bridge.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hoover_Dam_from_Memorial_Bridge.jpg",
+      "author": "Noah Wulf",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2017 Aerial view Hoover Dam 4774.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2017_Aerial_view_Hoover_Dam_4774.jpg",
+      "author": "Mariordo (Mario Roberto Durán Ortiz)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hoover Dam 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hoover_Dam_2015.jpg",
+      "author": "Kate Headley",
+      "license": "Public domain"
+    },
+    {
+      "title": "Hoover Dam, Nevada (Arizona-Nevada, USA) -- 2012 -- 6125.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hoover_Dam,_Nevada_(Arizona-Nevada,_USA)_--_2012_--_6125.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hoover Dam, Nevada (Arizona-Nevada, USA) -- 2012 -- 6099.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hoover_Dam,_Nevada_(Arizona-Nevada,_USA)_--_2012_--_6099.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Water intake towers and Hoover Dam.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Water_intake_towers_and_Hoover_Dam.jpg",
+      "author": "APK",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Water intake tower Hoover Dam.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Water_intake_tower_Hoover_Dam.jpg",
+      "author": "APK",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hoover Dam at Night (3437289262).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hoover_Dam_at_Night_(3437289262).jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Hoover Dam At Night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hoover_Dam_At_Night.jpg",
+      "author": "Macheath48",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/hoover-dam.glb",
+  "source": "generators/hoover-dam.ts"
+}

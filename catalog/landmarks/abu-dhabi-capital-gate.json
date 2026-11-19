@@ -1,0 +1,15 @@
+{
+  "id": "abu-dhabi-capital-gate",
+  "name": "Capital Gate",
+  "model": "abu-dhabi-capital-gate",
+  "place": "abu-dhabi",
+  "lng": 54.4346915,
+  "lat": 24.4186985,
+  "bearing": 352,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/103779658",
+    "way/396939669"
+  ]
+}

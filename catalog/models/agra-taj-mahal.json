@@ -1,0 +1,90 @@
+{
+  "id": "agra-taj-mahal",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "mausoleum",
+    "mughal",
+    "unesco-world-heritage",
+    "dome",
+    "minaret",
+    "marble"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Taj Mahal, Agra, India edit3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Taj_Mahal,_Agra,_India_edit3.jpg",
+      "author": "Yann; edited by King of Hearts",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Taj Mahal sideview west.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_sideview_west.jpg",
+      "author": "Marsmux",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Taj Mahal from the west side.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_from_the_west_side.jpg",
+      "author": "Federico.delmonte",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Taj Mahal East Side.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_East_Side.JPG",
+      "author": "Bjørn Christian Tørrissen",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "View of Taj Mahal from Mehtab Bagh gardens.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Taj_Mahal_from_Mehtab_Bagh_gardens.jpg",
+      "author": "LittleDwangs",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Taj Mahal seen from North-East corner.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_seen_from_North-East_corner.jpg",
+      "author": "KlickIn",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Aerial View of Taj Mahal by Helicopter.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Taj_Mahal_by_Helicopter.png",
+      "author": "Architguptaaviatorflight",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Aerial view of the Taj Mahal, India Wellcome V0037711.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Taj_Mahal,_India_Wellcome_V0037711.jpg",
+      "author": "Wellcome Collection",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Taj Mahal, Agra at Night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Taj_Mahal,_Agra_at_Night.jpg",
+      "author": "Gauravkapoor",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/agra-taj-mahal.glb",
+  "detail": "models/agra-taj-mahal.detail.glb",
+  "detailZoom": 17,
+  "source": "generators/agra-taj-mahal.ts"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "berlin-deutscher-dom",
+  "name": "Deutscher Dom",
+  "model": "berlin-deutscher-dom",
+  "place": "berlin",
+  "lng": 13.392697,
+  "lat": 52.512747,
+  "bearing": 354.66,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q315644",
+  "replaces": [
+    "way/43347270",
+    "way/1552506881",
+    "way/1552506882",
+    "way/43347597"
+  ]
+}

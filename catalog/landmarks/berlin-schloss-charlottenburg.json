@@ -1,0 +1,28 @@
+{
+  "id": "berlin-schloss-charlottenburg",
+  "name": "Schloss Charlottenburg",
+  "model": "berlin-schloss-charlottenburg",
+  "place": "berlin",
+  "lng": 13.295355,
+  "lat": 52.520781,
+  "bearing": 354.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q154996",
+  "replaces": [
+    "way/186517395",
+    "way/122384007",
+    "way/122384009",
+    "way/122384011",
+    "way/122384013",
+    "way/122384017",
+    "way/122384021",
+    "way/122384031",
+    "way/122384035",
+    "way/122384037",
+    "way/122384040",
+    "way/122401455",
+    "way/704632957",
+    "way/704632958"
+  ]
+}

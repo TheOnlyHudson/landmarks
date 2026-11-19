@@ -1,0 +1,33 @@
+{
+  "id": "berlin-oberbaum-bridge",
+  "name": "Oberbaumbrücke",
+  "model": "berlin-oberbaum-bridge",
+  "place": "berlin",
+  "lng": 13.445669,
+  "lat": 52.501729,
+  "bearing": 38.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q695082",
+  "replaces": [
+    "way/288514442",
+    "way/288514445",
+    "way/288514443",
+    "way/288514444",
+    "way/439029208",
+    "way/373626454",
+    "way/373626455",
+    "way/373626456",
+    "way/373626457",
+    "way/373626459",
+    "way/373626460",
+    "way/373626461",
+    "way/373626462",
+    "way/373626463",
+    "way/373626464",
+    "way/1013505135",
+    "way/1013505136",
+    "way/1547500040",
+    "way/1551569801"
+  ]
+}

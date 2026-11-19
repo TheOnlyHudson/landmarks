@@ -1,0 +1,97 @@
+{
+  "id": "berlin-philharmonie",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "concert-hall",
+    "modernist",
+    "expressionist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Philharmonie, Berlin, 170518, ako",
+      "url": "https://commons.wikimedia.org/wiki/File:Philharmonie,_Berlin,_170518,_ako.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berliner Philharmonie Tiergartenstraße Berlin",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Philharmonie_Tiergartenstra%C3%9Fe_Berlin.jpg",
+      "author": "Singlespeedfahrer",
+      "license": "CC0"
+    },
+    {
+      "title": "Berliner Philharmonie From Street 2023",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Philharmonie_From_Street_2023.jpg",
+      "author": "Jonathan Platteau",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berliner Philharmonie, main building (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Philharmonie,_main_building_(1).jpg",
+      "author": "Joseolgon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Philharmonie und Kammermusiksaal Berlin - von oben 2023-1797",
+      "url": "https://commons.wikimedia.org/wiki/File:Philharmonie_und_Kammermusiksaal_Berlin_-_von_oben_2023-1797.jpg",
+      "author": "Raimond Spekking",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Philharmonie und Kammermusiksaal Berlin - von oben",
+      "url": "https://commons.wikimedia.org/wiki/File:Philharmonie_und_Kammermusiksaal_Berlin_-_von_oben.jpg",
+      "author": "Raimond Spekking",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berliner Philharmonie building seen from Reichstag building",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Philharmonie_building_seen_from_Reichstag_building.jpg",
+      "author": "Yair Haklai",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Berliner Philharmonie 2019-10-19 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Philharmonie_2019-10-19_01.jpg",
+      "author": "Leonhard Lenz",
+      "license": "CC0"
+    },
+    {
+      "title": "20220812 Berliner Philharmonie",
+      "url": "https://commons.wikimedia.org/wiki/File:20220812_Berliner_Philharmonie.jpg",
+      "author": "Flocci Nivis",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Berlin - Berliner Philharmonie (3)",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_-_Berliner_Philharmonie_(3).jpg",
+      "author": "Fred Romero from Paris, France",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Berliner Philharmonie.nightshot",
+      "url": "https://commons.wikimedia.org/wiki/File:Berliner_Philharmonie.nightshot.JPG",
+      "author": "De-okin",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/berlin-philharmonie.glb",
+  "source": "generators/berlin-philharmonie.ts"
+}

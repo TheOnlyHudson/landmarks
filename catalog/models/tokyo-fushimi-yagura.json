@@ -1,0 +1,69 @@
+{
+  "id": "tokyo-fushimi-yagura",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "castle",
+    "historic",
+    "imperial-palace"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-fushimi-yagura.detail.glb",
+  "detailZoom": 16,
+  "description": "Fushimi-yagura at the Imperial Palace: the white two-storey corner turret of old Edo Castle under grey tile roofs, the long tamon running off it, on its battered stone wall over the Nijūbashi moat.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fushimi Yagura 190504a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fushimi_Yagura_190504a.jpg",
+      "author": "江戸村のとくぞう",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Kaiserpalast Fushimi Yagura 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kaiserpalast_Fushimi_Yagura_1.jpg",
+      "author": "Zairon",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Edo-jo fushimi-yagura.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Edo-jo_fushimi-yagura.jpg",
+      "author": "kamoseiro",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "KokyoFushimiYaguraM1070.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:KokyoFushimiYaguraM1070.jpg",
+      "author": "Fg2",
+      "license": "public domain"
+    },
+    {
+      "title": "Imperial Palace Tokyo Fushimi Yagura Keep 1.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Imperial_Palace_Tokyo_Fushimi_Yagura_Keep_1.JPG",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Stone Bridge of Main Gate, Iron Bridge of Main Gate and Fushimi-Yagura of The Imperial Palace.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Stone_Bridge_of_Main_Gate,_Iron_Bridge_of_Main_Gate_and_Fushimi-Yagura_of_The_Imperial_Palace.JPG",
+      "author": "そらみみ (Soramimi)",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/tokyo-fushimi-yagura.glb",
+  "source": "generators/tokyo-fushimi-yagura.ts"
+}

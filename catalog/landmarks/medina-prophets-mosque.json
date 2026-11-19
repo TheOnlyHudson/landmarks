@@ -1,0 +1,33 @@
+{
+  "id": "medina-prophets-mosque",
+  "name": "Al-Masjid an-Nabawi (Prophet's Mosque)",
+  "model": "medina-prophets-mosque",
+  "place": "medina",
+  "lng": 39.61116,
+  "lat": 24.46879,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q486080",
+  "replaces": [
+    "way/461699097",
+    "way/232440740",
+    "way/444217620",
+    "way/527049338",
+    "way/746505691",
+    "way/626043612",
+    "way/667746219",
+    "way/746434498",
+    "way/746434499",
+    "way/506272259",
+    "way/506272260",
+    "way/506272261",
+    "way/506272262",
+    "way/506272263",
+    "way/506272264",
+    "way/506272265",
+    "way/506272266",
+    "way/506272267",
+    "way/506272268"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "nizwa-fort",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "fort",
+    "castle",
+    "historic",
+    "mudbrick"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/nizwa-fort.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Nizwa, forte, esterno, corpo circolare 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Nizwa,_forte,_esterno,_corpo_circolare_02.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nizwa, forte, esterno, 01,0",
+      "url": "https://commons.wikimedia.org/wiki/File:Nizwa,_forte,_esterno,_01,0.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nizwa Fort Main Tower (41505471734)",
+      "url": "https://commons.wikimedia.org/wiki/File:Nizwa_Fort_Main_Tower_(41505471734).jpg",
+      "author": "Hans Birger Nilsen",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Nizwa Fort, Oman 2024 7",
+      "url": "https://commons.wikimedia.org/wiki/File:Nizwa_Fort,_Oman_2024_7.jpg",
+      "author": "dconvertini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nizwa Fort, Oman 2024 18",
+      "url": "https://commons.wikimedia.org/wiki/File:Nizwa_Fort,_Oman_2024_18.jpg",
+      "author": "dconvertini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Oman, Nizwa, Fort Nizwa (at night)",
+      "url": "https://commons.wikimedia.org/wiki/File:Oman,_Nizwa,_Fort_Nizwa_(at_night).jpg",
+      "author": "Dr. Thomas Liptak",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nizwa Fort (8729892924)",
+      "url": "https://commons.wikimedia.org/wiki/File:Nizwa_Fort_(8729892924).jpg",
+      "author": "Francisco Anzola",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Nizwa Fort, Oman (4324819262)",
+      "url": "https://commons.wikimedia.org/wiki/File:Nizwa_Fort,_Oman_(4324819262).jpg",
+      "author": "yeowatzup",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Nizwa Fort (01)",
+      "url": "https://commons.wikimedia.org/wiki/File:Nizwa_Fort_(01).jpg",
+      "author": "Ji-Elle",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Nizwa (11)",
+      "url": "https://commons.wikimedia.org/wiki/File:Nizwa_(11).jpg",
+      "author": "Andries Oudshoorn",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/nizwa-fort.glb",
+  "source": "generators/nizwa-fort.ts"
+}

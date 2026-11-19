@@ -1,0 +1,63 @@
+{
+  "id": "amman-roman-theatre",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "roman",
+    "theatre",
+    "archaeological-site",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Roman theater of Amman 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roman_theater_of_Amman_01.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amman - Roman Theatre seen from the Citadel.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amman_-_Roman_Theatre_seen_from_the_Citadel.jpg",
+      "author": "Alena Belova for Exhibo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Roman Theatre in Amman 0190.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roman_Theatre_in_Amman_0190.jpg",
+      "author": "Dosseman",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Roman Theatre in Amman 0151.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roman_Theatre_in_Amman_0151.jpg",
+      "author": "Dosseman",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Roman Forum from theatre in Amman 0197.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roman_Forum_from_theatre_in_Amman_0197.jpg",
+      "author": "Dosseman",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "wikidata": "Q2634316",
+  "file": "models/amman-roman-theatre.glb",
+  "source": "generators/amman-roman-theatre.ts"
+}

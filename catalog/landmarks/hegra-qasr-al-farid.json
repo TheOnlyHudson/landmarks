@@ -1,0 +1,13 @@
+{
+  "id": "hegra-qasr-al-farid",
+  "name": "Qasr al-Farid",
+  "model": "hegra-qasr-al-farid",
+  "place": "hegra",
+  "lng": 37.9612179,
+  "lat": 26.7739792,
+  "bearing": 160,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q20403473",
+  "replaces": []
+}

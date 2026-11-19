@@ -1,0 +1,55 @@
+{
+  "id": "tokyo-ryogoku-kokugikan",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "sumo"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The national sumo hall (1984): a great square hipped roof of green copper rising to a gold louvred crown, over a band of golden louvres and a green-skirted ground storey.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Ryogoku Kokugikan (Tokyo, JAP).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ryogoku_Kokugikan_(Tokyo,_JAP).jpg",
+      "author": "江戸村のとくぞう",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Ryogoku Great Sumo Hall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ryogoku_Great_Sumo_Hall.jpg",
+      "author": "Steve Cadman",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Top of Ryogoku Kokugikan.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Top_of_Ryogoku_Kokugikan.jpg",
+      "author": "OiMax",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Ryogoku Kokugikan (taken from Kokugikan Street).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ryogoku_Kokugikan_(taken_from_Kokugikan_Street).jpg",
+      "author": "Souka Kinmei",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "file": "models/tokyo-ryogoku-kokugikan.glb",
+  "source": "generators/tokyo-ryogoku-kokugikan.ts"
+}

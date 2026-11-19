@@ -1,0 +1,53 @@
+{
+  "id": "tokyo-zojoji-sanmon",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "temple",
+    "buddhist",
+    "gate",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tokyo-zojoji-sanmon.detail.glb",
+  "detailZoom": 16,
+  "description": "Zōjō-ji's Sangedatsumon (1622): the vermilion two-storey Zen gate, five bays and three passages wide, under a grey tiled pent roof and hip-and-gable roof, the balcony round its upper storey.",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Zojo-ji sanmon.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Zojo-ji_sanmon.jpg",
+      "author": "KENPEI",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Sangedatsumon (4082946574).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sangedatsumon_(4082946574).jpg",
+      "author": "Yoshikazu TAKADA",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Tokyo Zōjō-ji Sangedatsu-mon gate seen from the main temple.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Z%C5%8Dj%C5%8D-ji_Sangedatsu-mon_gate_seen_from_the_main_temple.jpg",
+      "author": "Ymblanter",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/tokyo-zojoji-sanmon.glb",
+  "source": "generators/tokyo-zojoji-sanmon.ts"
+}

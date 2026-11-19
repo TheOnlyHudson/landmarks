@@ -1,0 +1,16 @@
+{
+  "id": "tokyo-roppongi-hills-mori-tower",
+  "name": "Roppongi Hills Mori Tower",
+  "model": "tokyo-roppongi-hills-mori-tower",
+  "place": "tokyo",
+  "lng": 139.7292794,
+  "lat": 35.6604557,
+  "bearing": 17,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1771772",
+  "replaces": [
+    "way/153924771",
+    "way/219676967"
+  ]
+}
