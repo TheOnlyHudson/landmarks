@@ -1,0 +1,21 @@
+{
+  "id": "moscow-kremlin-wall-nikolskaya-senate",
+  "name": "Kremlin Wall, Nikolskaya Tower to Senate Tower",
+  "model": "moscow-kremlin-wall-nikolskaya-senate",
+  "place": "moscow",
+  "lng": 37.6186449,
+  "lat": 55.7539616,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/2470050",
+    "relation/16265081",
+    "relation/16265082",
+    "relation/16265083",
+    "relation/16265084",
+    "relation/16265085",
+    "relation/16265086",
+    "relation/16265087"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "moscow-kremlin-tsars-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "pavilion",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The smallest Kremlin tower: a pavilion on the Red Square wall, four jug-shaped brick pillars under a steep dark green tent with gilt vanes.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tsarskaya Tower - Red Square1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tsarskaya_Tower_-_Red_Square1.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - Tsarskaya Tower and the Kremlin Wall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Tsarskaya_Tower_and_the_Kremlin_Wall.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Tsarskaya Tower-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tsarskaya_Tower-1.jpg",
+      "author": "Presidential Press and Information Offic",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Tsarskaya Tower (2026).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tsarskaya_Tower_(2026).jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Tsarskaya Tower1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tsarskaya_Tower1.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-tsars-tower.glb",
+  "source": "generators/moscow-kremlin-tsars-tower.ts"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "moscow-kremlin-wall-annexes",
+  "name": "Brick annexes by the Kremlin gate towers",
+  "model": "moscow-kremlin-wall-annexes",
+  "place": "moscow",
+  "lng": 37.6157047,
+  "lat": 55.7527563,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "relation/1360646",
+    "relation/1360650",
+    "relation/1360662",
+    "relation/1360670",
+    "relation/1360694"
+  ]
+}

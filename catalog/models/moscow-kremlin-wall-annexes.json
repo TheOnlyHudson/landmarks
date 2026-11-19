@@ -1,0 +1,43 @@
+{
+  "id": "moscow-kremlin-wall-annexes",
+  "file": "models/moscow-kremlin-wall-annexes.glb",
+  "source": "generators/moscow-kremlin-wall-annexes.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "kremlin",
+    "brick"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Small red-brick buildings against the inside of the Moscow Kremlin wall at the Trinity, Nikolskaya, Senate and Constantine and Helen towers, drawn to their OSM heights and skillion roofs.",
+  "references": [
+    {
+      "title": "Kremlin birds eye view-3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_birds_eye_view-3.jpg",
+      "author": "ITAR-TASS",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Moscow - 2026 - Amusement Palace, Church of the Praise of the Virgin Mary, view from Alexander Garden.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2026_-_Amusement_Palace,_Church_of_the_Praise_of_the_Virgin_Mary,_view_from_Alexander_Garden.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC BY 4.0"
+    }
+  ]
+}

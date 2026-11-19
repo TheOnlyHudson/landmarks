@@ -1,0 +1,67 @@
+{
+  "id": "moscow-kremlin-saviour-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "gate",
+    "clock-tower",
+    "ruby-star",
+    "gothic-revival",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The Kremlin's main gate tower on Red Square: a brick shaft under a white Gothic crown, the Kremlin chimes' four dials, an octagonal belfry, a green tent and a ruby star; the barbican with the gate in front.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Moscow - 2025 - Spasskaya Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Spasskaya_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Spasskaya Tower - Red Square - Moscow4.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Spasskaya_Tower_-_Red_Square_-_Moscow4.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "The Spasskaya Tower, Moscow, Russia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Spasskaya_Tower,_Moscow,_Russia.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Spasskaya Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Spasskaya_Tower.jpg",
+      "author": "Sergey Rodovnichenko",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Spasskaya Tower Kreml.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Spasskaya_Tower_Kreml.jpg",
+      "author": "Artur Random",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-saviour-tower.glb",
+  "source": "generators/moscow-kremlin-saviour-tower.ts"
+}
