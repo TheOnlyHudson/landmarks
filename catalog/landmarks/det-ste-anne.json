@@ -1,0 +1,15 @@
+{
+  "id": "det-ste-anne",
+  "name": "Basilica of Sainte Anne de Détroit",
+  "model": "det-ste-anne",
+  "place": "detroit-area",
+  "lng": -83.0765876,
+  "lat": 42.3205462,
+  "bearing": 336.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1810425",
+  "replaces": [
+    "way/369284006"
+  ]
+}
