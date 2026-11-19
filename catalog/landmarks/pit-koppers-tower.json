@@ -1,0 +1,15 @@
+{
+  "id": "pit-koppers-tower",
+  "name": "Koppers Tower",
+  "model": "pit-koppers-tower",
+  "place": "pittsburgh-area",
+  "lng": -79.995543,
+  "lat": 40.442108,
+  "bearing": 27.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/294826450"
+  ],
+  "wikidata": "Q6431177"
+}
