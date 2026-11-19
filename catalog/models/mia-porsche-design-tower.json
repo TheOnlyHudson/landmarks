@@ -1,0 +1,54 @@
+{
+  "id": "mia-porsche-design-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "residential",
+    "glass-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Porsche Design Tower November 2016",
+      "url": "https://commons.wikimedia.org/wiki/File:Porsche_Design_Tower_November_2016.jpg",
+      "author": "Carl Lender",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Sunny Isles Beach skyline from the north, 2016",
+      "url": "https://commons.wikimedia.org/wiki/File:Sunny_Isles_Beach_skyline_from_the_north,_2016.jpg",
+      "author": "B137",
+      "license": "CC0"
+    },
+    {
+      "title": "Sunny Isles Beach 1",
+      "url": "https://www.flickr.com/photos/121308049@N03/22705348953",
+      "author": "Julian Boed",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Sunny Isles , 190906-0402-jikatu",
+      "url": "https://commons.wikimedia.org/wiki/File:Sunny_Isles_,_190906-0402-jikatu_-_Flickr_-_jikatu.jpg",
+      "author": "Jimmy Baikovicius",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/mia-porsche-design-tower.glb",
+  "source": "generators/mia-porsche-design-tower.ts"
+}
