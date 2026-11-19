@@ -1,0 +1,67 @@
+{
+  "id": "nash-hermitage",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "house-museum",
+    "greek-revival",
+    "presidential-home"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "The Hermitage by Jim Bowen.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Hermitage_by_Jim_Bowen.jpg",
+      "author": "Jim Bowen",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "The Hermitage mansion 2022e.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Hermitage_mansion_2022e.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Hermitage mansion 2022d.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Hermitage_mansion_2022d.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Hermitage mansion 2022c.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Hermitage_mansion_2022c.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Hermitage mansion 2022g.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Hermitage_mansion_2022g.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "TheHermitage.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:TheHermitage.jpg",
+      "author": "J. Williams (JW1805)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nash-hermitage.glb",
+  "source": "generators/nash-hermitage.ts"
+}
