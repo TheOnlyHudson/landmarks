@@ -1,0 +1,72 @@
+{
+  "id": "nash-pinnacle",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "glass"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Pinnacle at Symphony Place",
+      "url": "https://commons.wikimedia.org/wiki/File:Pinnacle_at_Symphony_Place.jpg",
+      "author": "Louis Chader",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pinnacle at Symphony Place Nashville",
+      "url": "https://commons.wikimedia.org/wiki/File:Pinnacle_at_Symphony_Place_Nashville.jpg",
+      "author": "Wobbanight",
+      "license": "CC0"
+    },
+    {
+      "title": "Pinnacle Nashville",
+      "url": "https://commons.wikimedia.org/wiki/File:Pinnacle_Nashville.JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pinnacle Nashville (from Broadway)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pinnacle_Nashville_(from_Broadway).JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pinnacle Building, 3rd Avenue and Demonbreun Street, Nashville, TN (54385253009)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pinnacle_Building,_3rd_Avenue_and_Demonbreun_Street,_Nashville,_TN_(54385253009).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Pinnacle Building, 3rd Avenue and Demonbreun Street, Nashville, TN (54384181657)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pinnacle_Building,_3rd_Avenue_and_Demonbreun_Street,_Nashville,_TN_(54384181657).jpg",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Schermerhorn Symphony Center and The Pinnacle building",
+      "url": "https://commons.wikimedia.org/wiki/File:Schermerhorn_Symphony_Center_and_The_Pinnacle_building.jpg",
+      "author": "Reading Tom",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nash-pinnacle.glb",
+  "source": "generators/nash-pinnacle.ts"
+}

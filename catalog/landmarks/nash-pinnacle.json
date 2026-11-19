@@ -1,0 +1,15 @@
+{
+  "id": "nash-pinnacle",
+  "name": "The Pinnacle at Symphony Place",
+  "model": "nash-pinnacle",
+  "place": "nashville-area",
+  "lng": -86.774735,
+  "lat": 36.1603003,
+  "bearing": 61,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q7757217",
+  "replaces": [
+    "way/130910796"
+  ]
+}
