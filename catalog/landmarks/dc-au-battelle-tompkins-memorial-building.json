@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-battelle-tompkins-memorial-building",
+  "name": "Battelle-Tompkins Memorial Building",
+  "model": "dc-au-battelle-tompkins-memorial-building",
+  "place": "american-university",
+  "lng": -77.088411,
+  "lat": 38.9374479,
+  "bearing": 34.47,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38078786"
+  ]
+}

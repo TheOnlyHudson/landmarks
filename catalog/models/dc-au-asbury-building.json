@@ -1,0 +1,48 @@
+{
+  "id": "dc-au-asbury-building",
+  "file": "models/dc-au-asbury-building.glb",
+  "source": "generators/dc-au-asbury-building.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university"
+  ],
+  "description": "The service and academic building west of the student center has two long wings enclosing a court.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Building footprint, OpenStreetMap (May 22, 2026 extract)",
+      "url": "https://www.openstreetmap.org/way/90190611",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "Campus facilities presentation, June 24, 2025",
+      "url": "https://www.american.edu/communityrelations/clc/upload/2025-06-24-clc-presentation.pdf",
+      "author": "American University"
+    },
+    {
+      "title": "American University aerial photograph (2006, public domain)",
+      "url": "https://commons.wikimedia.org/wiki/File:AUaerial.jpg",
+      "author": "A2Kafir"
+    },
+    {
+      "title": "2022 District of Columbia LiDAR, NOAA Digital Coast dataset 9837",
+      "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    }
+  ],
+  "reviewStatus": "draft"
+}

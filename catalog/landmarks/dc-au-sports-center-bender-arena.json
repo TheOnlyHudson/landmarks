@@ -1,0 +1,15 @@
+{
+  "id": "dc-au-sports-center-bender-arena",
+  "name": "Sports Center (Bender Arena)",
+  "model": "dc-au-sports-center-bender-arena",
+  "place": "american-university",
+  "lng": -77.0898374,
+  "lat": 38.9377127,
+  "bearing": 33.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/33899314"
+  ],
+  "wikidata": "Q4887040"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dc-au-centennial-garage",
+  "file": "models/dc-au-centennial-garage.glb",
+  "source": "generators/dc-au-centennial-garage.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "parking"
+  ],
+  "description": "The aboveground portion of Centennial Hall’s parking facility meets the residence hall at its inside corner.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Building outline (May 2026)",
+      "url": "https://www.openstreetmap.org/way/929483468",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "2022 DC lidar, archived processing source",
+      "url": "https://github.com/kameronlee/heat-aware-pedestrian-routing/blob/456fd09d67aae857907e8c2b7fa6c19332734bd5/data/metadata/lidar_sources.md",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    },
+    {
+      "title": "Anderson, Centennial and Letts building plan",
+      "url": "https://www.american.edu/emergency/upload/au-anderson-centennial-letts-emergency-plan-4-27-22.pdf",
+      "author": "American University"
+    }
+  ],
+  "reviewStatus": "draft"
+}

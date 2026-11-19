@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-katzen-arts-center",
+  "name": "Katzen Arts Center",
+  "model": "dc-au-katzen-arts-center",
+  "place": "american-university",
+  "lng": -77.0869604,
+  "lat": 38.9392034,
+  "bearing": 131.4051,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/66878371"
+  ]
+}

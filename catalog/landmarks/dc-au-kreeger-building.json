@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-kreeger-building",
+  "name": "Kreeger Building",
+  "model": "dc-au-kreeger-building",
+  "place": "american-university",
+  "lng": -77.0926426,
+  "lat": 38.934708,
+  "bearing": 88.96,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90189977"
+  ]
+}

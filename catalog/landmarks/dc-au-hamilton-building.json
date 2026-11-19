@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-hamilton-building",
+  "name": "Hamilton Building",
+  "model": "dc-au-hamilton-building",
+  "place": "american-university",
+  "lng": -77.0917163,
+  "lat": 38.9349595,
+  "bearing": 54.74,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190208"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-kay-spiritual-life-center",
+  "name": "Kay Spiritual Life Center",
+  "model": "dc-au-kay-spiritual-life-center",
+  "place": "american-university",
+  "lng": -77.0872157,
+  "lat": 38.9379855,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90191072"
+  ]
+}

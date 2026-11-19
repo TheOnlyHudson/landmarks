@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-rockwood-building",
+  "name": "Rockwood Building",
+  "model": "dc-au-rockwood-building",
+  "place": "american-university",
+  "lng": -77.0906859,
+  "lat": 38.9348421,
+  "bearing": 33.52,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190174"
+  ]
+}

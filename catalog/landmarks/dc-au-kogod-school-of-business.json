@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-kogod-school-of-business",
+  "name": "Kogod School of Business",
+  "model": "dc-au-kogod-school-of-business",
+  "place": "american-university",
+  "lng": -77.0878648,
+  "lat": 38.9380361,
+  "bearing": 34,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190738"
+  ]
+}

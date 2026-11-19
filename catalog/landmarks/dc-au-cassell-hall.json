@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-cassell-hall",
+  "name": "Cassell Hall",
+  "model": "dc-au-cassell-hall",
+  "place": "american-university",
+  "lng": -77.0889582,
+  "lat": 38.9392992,
+  "bearing": 122.7975,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/338514813"
+  ]
+}
