@@ -1,0 +1,14 @@
+{
+  "id": "pit-first-presbyterian-church",
+  "name": "First Presbyterian Church of Pittsburgh",
+  "model": "pit-first-presbyterian-church",
+  "place": "pittsburgh-area",
+  "lng": -79.9991195,
+  "lat": 40.4415087,
+  "bearing": 27.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/118672858"
+  ]
+}
