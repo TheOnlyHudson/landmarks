@@ -1,0 +1,15 @@
+{
+  "id": "pit-trinity-cathedral",
+  "name": "Trinity Episcopal Cathedral",
+  "model": "pit-trinity-cathedral",
+  "place": "pittsburgh-area",
+  "lng": -79.9986907,
+  "lat": 40.4413057,
+  "bearing": 26,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/118672811"
+  ],
+  "wikidata": "Q7842607"
+}
