@@ -1,0 +1,37 @@
+{
+  "id": "det-cathedral-st-paul",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "cathedral",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cathedral Church of Saint Paul",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Church_of_Saint_Paul.jpg",
+      "author": "Andrew Jameson",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/det-cathedral-st-paul.glb",
+  "source": "generators/det-cathedral-st-paul.ts"
+}
