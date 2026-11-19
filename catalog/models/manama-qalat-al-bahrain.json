@@ -1,0 +1,86 @@
+{
+  "id": "manama-qalat-al-bahrain",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "fort",
+    "historic",
+    "unesco-world-heritage",
+    "portuguese"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Bahrain Fort March 2015.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Bahrain_Fort_March_2015.JPG",
+      "author": "Martin Falbisoner",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Qal'at al-Bahrain, Karbabad, Baréin, 2024-08-18, DD 66.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Qal%27at_al-Bahrain,_Karbabad,_Bar%C3%A9in,_2024-08-18,_DD_66.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Qal'at al-Bahrain, Karbabad, Baréin, 2024-08-18, DD 68.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Qal%27at_al-Bahrain,_Karbabad,_Bar%C3%A9in,_2024-08-18,_DD_68.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Qal'at al-Bahrain, Karbabad, Baréin, 2024-08-18, DD 67.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Qal%27at_al-Bahrain,_Karbabad,_Bar%C3%A9in,_2024-08-18,_DD_67.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Qal'at al-Bahrain, Karbabad, Baréin, 2024-08-18, DD 53.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Qal%27at_al-Bahrain,_Karbabad,_Bar%C3%A9in,_2024-08-18,_DD_53.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Manama Qal'at al-Bahrain 12.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Manama_Qal%27at_al-Bahrain_12.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Manama Qal'at al-Bahrain 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Manama_Qal%27at_al-Bahrain_01.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bahrain Fort (Panorama View).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bahrain_Fort_(Panorama_View).jpg",
+      "author": "Jacobs - Creative Bees",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Bahrain Fort 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bahrain_Fort_01.jpg",
+      "author": "Dobroš",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/manama-qalat-al-bahrain.glb",
+  "source": "generators/manama-qalat-al-bahrain.ts"
+}
