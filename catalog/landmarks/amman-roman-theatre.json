@@ -1,0 +1,15 @@
+{
+  "id": "amman-roman-theatre",
+  "name": "Roman Theatre, Amman",
+  "model": "amman-roman-theatre",
+  "place": "amman",
+  "lng": 35.939337,
+  "lat": 31.951606,
+  "bearing": 346,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2634316",
+  "replaces": [
+    "way/608094627"
+  ]
+}

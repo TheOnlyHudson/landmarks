@@ -1,0 +1,15 @@
+{
+  "id": "jeddah-al-rahma-mosque",
+  "name": "Al-Rahma Mosque",
+  "model": "jeddah-al-rahma-mosque",
+  "place": "jeddah",
+  "lng": 39.1008286,
+  "lat": 21.648718,
+  "bearing": 18,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q12242734",
+  "replaces": [
+    "way/1258945369"
+  ]
+}

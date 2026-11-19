@@ -1,0 +1,73 @@
+{
+  "id": "riyadh-kingdom-centre",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "supertall",
+    "mixed-use"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Kingdom Centre, Feb2009.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kingdom_Centre,_Feb2009.jpg",
+      "author": "Francisco Anzola",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Kingdom Centre.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Kingdom_Centre.JPG",
+      "author": "King Eliot",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "KingdomCentre Sideview.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:KingdomCentre_Sideview.JPG",
+      "author": "King Eliot",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Kingdom Centre, Riyadh (6129688934).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kingdom_Centre,_Riyadh_(6129688934).jpg",
+      "author": "Wajahat Mahmood",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Kingdom Tower From King Fahd Road (221506137).jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kingdom_Tower_From_King_Fahd_Road_(221506137).jpeg",
+      "author": "Francisco Anzola",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Kingdom Centre, Dec2009.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kingdom_Centre,_Dec2009.jpg",
+      "author": "Ahmed Rabea",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Kingdom Centre Riyadh 2024.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kingdom_Centre_Riyadh_2024.jpeg",
+      "author": "Hamza A. Durrani",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/riyadh-kingdom-centre.glb",
+  "source": "generators/riyadh-kingdom-centre.ts"
+}

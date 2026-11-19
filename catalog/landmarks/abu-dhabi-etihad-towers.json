@@ -1,0 +1,19 @@
+{
+  "id": "abu-dhabi-etihad-towers",
+  "name": "Etihad Towers",
+  "model": "abu-dhabi-etihad-towers",
+  "place": "abu-dhabi",
+  "lng": 54.3217725,
+  "lat": 24.4586313,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/1465342507",
+    "way/168401784",
+    "way/168401785",
+    "way/168401781",
+    "way/168401783",
+    "way/168401782"
+  ]
+}

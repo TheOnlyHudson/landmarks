@@ -1,0 +1,62 @@
+{
+  "id": "riyadh-al-faisaliyah",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "hotel",
+    "high-tech"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Al Faisaliah Tower (xiquinhosilva) - Flickr.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Faisaliah_Tower_(xiquinhosilva)_-_Flickr.jpg",
+      "author": "xiquinhosilva",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "All Faisaliah Tower Riyadh, 2023.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:All_Faisaliah_Tower_Riyadh,_2023.jpeg",
+      "author": "Hamza A. Durrani",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Faisaliah Tower (12753438475).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Faisaliah_Tower_(12753438475).jpg",
+      "author": "Francisco Anzola",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "King Fahd Road (looking north).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:King_Fahd_Road_(looking_north).JPG",
+      "author": "BroadArrow",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Faisaliah tower riyadh.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Faisaliah_tower_riyadh.jpg",
+      "author": "Abdulrahman.Dallal",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/riyadh-al-faisaliyah.glb",
+  "source": "generators/riyadh-al-faisaliyah.ts"
+}

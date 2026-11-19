@@ -1,0 +1,81 @@
+{
+  "id": "manama-al-fateh-mosque",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "mosque",
+    "religious",
+    "islamic-architecture"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/manama-al-fateh-mosque.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Al Fateh outside.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Fateh_outside.jpg",
+      "author": "أبو الشاي حليب",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Al Fateh Grand Mosque.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Fateh_Grand_Mosque.jpg",
+      "author": "Dobroš",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "AlFatehMosque.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:AlFatehMosque.jpg",
+      "author": "XIDME",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Manama al-Fateh Grand Mosque Exterior Norden 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Manama_al-Fateh_Grand_Mosque_Exterior_Norden_1.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Manama al-Fateh Grand Mosque Exterior Norden 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Manama_al-Fateh_Grand_Mosque_Exterior_Norden_2.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Manama al-Fateh Grand Mosque Exterior Norden 3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Manama_al-Fateh_Grand_Mosque_Exterior_Norden_3.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Main Al-Fateh Mosque Entrance, Bahrain.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_Al-Fateh_Mosque_Entrance,_Bahrain.jpg",
+      "author": "Ahmed Sadoon",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Manama al-Fateh Grand Mosque Interior Innenhof 5.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Manama_al-Fateh_Grand_Mosque_Interior_Innenhof_5.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/manama-al-fateh-mosque.glb",
+  "source": "generators/manama-al-fateh-mosque.ts"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "muscat-royal-opera-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "opera-house",
+    "theatre",
+    "contemporary",
+    "limestone"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/muscat-royal-opera-house.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "03 Maskat Operna hiša (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:03_Maskat_Operna_hi%C5%A1a_(1).jpg",
+      "author": "Ljuba brank",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Opera house Muscat",
+      "url": "https://commons.wikimedia.org/wiki/File:Opera_house_Muscat.jpg",
+      "author": "Arsalaan Ahmad",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Royal Opera House Muscat - Outside View II",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Opera_House_Muscat_-_Outside_View_II.jpg",
+      "author": "Taha Al-Hayali",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Royal Opera House, Oman",
+      "url": "https://www.flickr.com/photos/43810986@N03/9840485503",
+      "author": "prasad.om",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Royal Opera House Muscat, Oman (plaza)",
+      "url": "https://www.flickr.com/photos/42477684@N08/54522672887",
+      "author": "dconvertini",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Royal Opera House Muscat, Oman (tiers)",
+      "url": "https://www.flickr.com/photos/42477684@N08/54523737439",
+      "author": "dconvertini",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Royal Opera House Muscat, Oman (portico)",
+      "url": "https://www.flickr.com/photos/42477684@N08/54523795518",
+      "author": "dconvertini",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "An Evening at the Opera",
+      "url": "https://www.flickr.com/photos/84985982@N00/17299497068",
+      "author": "andryn2006",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/muscat-royal-opera-house.glb",
+  "source": "generators/muscat-royal-opera-house.ts"
+}

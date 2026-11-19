@@ -1,0 +1,19 @@
+{
+  "id": "doha-khalifa-international-stadium",
+  "name": "Khalifa International Stadium",
+  "model": "doha-khalifa-international-stadium",
+  "place": "al-rayyan",
+  "lng": 51.4483067,
+  "lat": 25.2636694,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q772988",
+  "replaces": [
+    "relation/8677986",
+    "way/770622816",
+    "way/770622827",
+    "way/770622821",
+    "way/770622822"
+  ]
+}
