@@ -1,0 +1,55 @@
+{
+  "id": "msp-spoonbridge-and-cherry",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "public-art",
+    "sculpture-garden",
+    "pop-art"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q18084723",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Spoonbridge & Cherry Reflection Pool",
+      "url": "https://www.flickr.com/photos/10058483@N00/3612486230",
+      "author": "puroticorico",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Spoonbridge and Cherry - Claes Oldenburg & Coosje van Bruggen",
+      "url": "https://www.flickr.com/photos/89407885@N00/4880411222",
+      "author": "joshdbrown",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Claese Oldenburg, Spoonbridge and Cherry, Minneapolis",
+      "url": "https://www.flickr.com/photos/38315261@N00/53917016041",
+      "author": "Sharon Mollerus",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Spoonbridge And Cherry",
+      "url": "https://www.flickr.com/photos/73451168@N00/3565059684",
+      "author": "J Wynia",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/msp-spoonbridge-and-cherry.glb",
+  "source": "generators/msp-spoonbridge-and-cherry.ts"
+}
