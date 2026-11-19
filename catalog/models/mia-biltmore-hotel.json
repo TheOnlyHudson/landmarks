@@ -1,0 +1,56 @@
+{
+  "id": "mia-biltmore-hotel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "hotel",
+    "tower",
+    "mediterranean-revival",
+    "national-historic-landmark"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Biltmore Hotel at Coral Gables(js)01",
+      "url": "https://commons.wikimedia.org/wiki/File:Biltmore_Hotel_at_Coral_Gables(js)01.jpg",
+      "author": "Jerzy Strzelecki",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Coral Gables Biltmore Hotel, Miami, Florida, USA - 20130909",
+      "url": "https://commons.wikimedia.org/wiki/File:Coral_Gables_Biltmore_Hotel,_Miami,_Florida,_USA_-_20130909.jpg",
+      "author": "Jacklee",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coral Gables FL Biltmore01",
+      "url": "https://commons.wikimedia.org/wiki/File:Coral_Gables_FL_Biltmore01.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Coral Gables - Miami Biltmore Hotel and Golf Course 01 (postcard)",
+      "url": "https://commons.wikimedia.org/wiki/File:Coral_Gables_-_Miami_BiItmore_Hotel_and_Golf_Course_01.jpg",
+      "author": "Aero-Graphic Corp.",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/mia-biltmore-hotel.glb",
+  "source": "generators/mia-biltmore-hotel.ts"
+}

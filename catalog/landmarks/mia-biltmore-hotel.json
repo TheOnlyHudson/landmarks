@@ -1,0 +1,15 @@
+{
+  "id": "mia-biltmore-hotel",
+  "name": "Biltmore Hotel",
+  "model": "mia-biltmore-hotel",
+  "place": "miami-area",
+  "lng": -80.2780575,
+  "lat": 25.7409124,
+  "bearing": 358,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q2293021",
+  "replaces": [
+    "relation/9351650"
+  ]
+}
