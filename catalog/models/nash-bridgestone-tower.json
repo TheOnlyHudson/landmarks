@@ -1,0 +1,54 @@
+{
+  "id": "nash-bridgestone-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "glass"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Bridgestone Americas HQ 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridgestone_Americas_HQ_1.jpg",
+      "author": "Louis Chader",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bridgestone Americas HQ",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridgestone_Americas_HQ.jpg",
+      "author": "Lchader",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bridgestone Americas Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridgestone_Americas_Tower.jpg",
+      "author": "Wobbanight",
+      "license": "CC0"
+    },
+    {
+      "title": "Bridgestone Americas Tower b",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridgestone_Americas_Tower_b.jpg",
+      "author": "Wobbanight",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/nash-bridgestone-tower.glb",
+  "source": "generators/nash-bridgestone-tower.ts"
+}
