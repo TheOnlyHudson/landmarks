@@ -1,0 +1,16 @@
+{
+  "id": "nola-plaza-tower",
+  "name": "Plaza Tower",
+  "model": "nola-plaza-tower",
+  "place": "new-orleans-area",
+  "lng": -90.0762935,
+  "lat": 29.9463426,
+  "bearing": 36.25,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/328802960",
+    "way/367524550"
+  ],
+  "wikidata": "Q7203661"
+}
