@@ -1,0 +1,27 @@
+{
+  "id": "msp-midtown-exchange",
+  "name": "Midtown Exchange",
+  "model": "msp-midtown-exchange",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.260778,
+  "lat": 44.949375,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q6843080",
+  "replaces": [
+    "way/62260813",
+    "way/1548869091",
+    "way/1548869092",
+    "way/1548869093",
+    "way/1548869094",
+    "way/1548869095",
+    "way/1548869096",
+    "way/1548869097",
+    "way/1548869098",
+    "way/1548869099",
+    "way/1549183516",
+    "way/1549183517",
+    "way/1549183518"
+  ]
+}
