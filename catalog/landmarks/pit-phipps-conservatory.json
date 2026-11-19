@@ -1,0 +1,16 @@
+{
+  "id": "pit-phipps-conservatory",
+  "name": "Phipps Conservatory",
+  "model": "pit-phipps-conservatory",
+  "place": "pittsburgh-area",
+  "lng": -79.9481899,
+  "lat": 40.4388412,
+  "bearing": 318.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7186407",
+  "replaces": [
+    "relation/2785563",
+    "relation/18260908"
+  ]
+}

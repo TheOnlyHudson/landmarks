@@ -1,0 +1,68 @@
+{
+  "id": "pit-phipps-conservatory",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "conservatory",
+    "glasshouse",
+    "botanical-garden",
+    "victorian"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Phipps Conservatory exterior 2014-12-29 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Phipps_Conservatory_exterior_2014-12-29_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Phipps Conservatory exterior 2014-12-29 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Phipps_Conservatory_exterior_2014-12-29_03.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Phipps6",
+      "url": "https://commons.wikimedia.org/wiki/File:Phipps6.jpg",
+      "author": "Lee Paxton",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "CSC 0156 (4341973752)",
+      "url": "https://commons.wikimedia.org/wiki/File:CSC_0156_(4341973752).jpg",
+      "author": "Christopher \"Rice\"",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Phipps & Pitt (9510876061)",
+      "url": "https://commons.wikimedia.org/wiki/File:Phipps_%26_Pitt_(9510876061).jpg",
+      "author": "jimmy thomas",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Phipps - 162",
+      "url": "https://commons.wikimedia.org/wiki/File:Phipps_-_162.JPG",
+      "author": "Piotrus",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/pit-phipps-conservatory.glb",
+  "source": "generators/pit-phipps-conservatory.ts"
+}
