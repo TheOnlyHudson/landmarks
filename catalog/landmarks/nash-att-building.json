@@ -1,0 +1,25 @@
+{
+  "id": "nash-att-building",
+  "name": "AT&T Building (Batman Building)",
+  "model": "nash-att-building",
+  "place": "nashville-area",
+  "lng": -86.7770979,
+  "lat": 36.1621131,
+  "bearing": 17.4,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q298562",
+  "replaces": [
+    "way/130910785",
+    "way/465454851",
+    "way/1307887852",
+    "way/1307887853",
+    "way/1311381715",
+    "way/591973495",
+    "way/591983690",
+    "way/1311381711",
+    "way/1311381712",
+    "way/1311381713",
+    "way/1311381714"
+  ]
+}
