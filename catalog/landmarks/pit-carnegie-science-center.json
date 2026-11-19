@@ -1,0 +1,15 @@
+{
+  "id": "pit-carnegie-science-center",
+  "name": "Carnegie Science Center",
+  "model": "pit-carnegie-science-center",
+  "place": "pittsburgh-area",
+  "lng": -80.0177901,
+  "lat": 40.4455365,
+  "bearing": 20,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2426244",
+  "replaces": [
+    "way/222624191"
+  ]
+}

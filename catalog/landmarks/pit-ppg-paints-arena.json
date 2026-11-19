@@ -1,0 +1,15 @@
+{
+  "id": "pit-ppg-paints-arena",
+  "name": "PPG Paints Arena",
+  "model": "pit-ppg-paints-arena",
+  "place": "pittsburgh-area",
+  "lng": -79.989534,
+  "lat": 40.439572,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q595460",
+  "replaces": [
+    "way/1557964471"
+  ]
+}

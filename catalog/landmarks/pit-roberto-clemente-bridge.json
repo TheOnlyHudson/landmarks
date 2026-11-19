@@ -1,0 +1,15 @@
+{
+  "id": "pit-roberto-clemente-bridge",
+  "name": "Roberto Clemente Bridge",
+  "model": "pit-roberto-clemente-bridge",
+  "place": "pittsburgh-area",
+  "lng": -80.0033184,
+  "lat": 40.4455694,
+  "bearing": 344.044,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7351643",
+  "replaces": [
+    "way/642309565"
+  ]
+}

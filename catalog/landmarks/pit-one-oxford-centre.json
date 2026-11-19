@@ -1,0 +1,19 @@
+{
+  "id": "pit-one-oxford-centre",
+  "name": "One Oxford Centre",
+  "model": "pit-one-oxford-centre",
+  "place": "pittsburgh-area",
+  "lng": -79.998575,
+  "lat": 40.438027,
+  "bearing": 26.5,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/203320241",
+    "way/743288602",
+    "way/743288603",
+    "way/743288604",
+    "way/743288605"
+  ],
+  "wikidata": "Q3497523"
+}

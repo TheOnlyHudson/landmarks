@@ -1,0 +1,67 @@
+{
+  "id": "pit-carnegie-science-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "science-center",
+    "modern",
+    "riverfront"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Carnegie Science Center from the Point, 2024-09-11b",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Science_Center_from_the_Point,_2024-09-11b.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Carnegie Science Center, 2020-12-04, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Science_Center,_2020-12-04,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Carnegie Science Center, 2023-01-14, 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Science_Center,_2023-01-14,_02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Carnegie Science Center, 2023-01-14, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Science_Center,_2023-01-14,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Carnegie Science Center",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Science_Center.jpg",
+      "author": "Allie_Caulfield",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Carnegie Science Center river view",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Science_Center_river_view.JPG",
+      "author": "Photojunkie",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pit-carnegie-science-center.glb",
+  "source": "generators/pit-carnegie-science-center.ts"
+}

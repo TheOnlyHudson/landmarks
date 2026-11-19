@@ -1,0 +1,67 @@
+{
+  "id": "pit-carnegie-library-music-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "library",
+    "concert-hall",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Carnegie Institute, Oakland, 2023-01-11, Music Hall 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Institute,_Oakland,_2023-01-11,_Music_Hall_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Carnegie Library, entrance, Oakland, Pittsburgh, 2021-11-09, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Library,_entrance,_Oakland,_Pittsburgh,_2021-11-09,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Carnegie Library of Pittsburgh - back",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Library_of_Pittsburgh_-_back.JPG",
+      "author": "Piotrus",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Carnegie Institute of Pittsburgh",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Institute_of_Pittsburgh.jpg",
+      "author": "Kevin Albright",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Carnegie Museum of Natural History as seen from Cathedral of Learning",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Museum_of_Natural_History_as_seen_from_Cathedral_of_Learning.jpg",
+      "author": "Dllu",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Carnegie Music Hall Pittsburgh",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnegie_Music_Hall_Pittsburgh.JPG",
+      "author": "HoboJones",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/pit-carnegie-library-music-hall.glb",
+  "source": "generators/pit-carnegie-library-music-hall.ts"
+}

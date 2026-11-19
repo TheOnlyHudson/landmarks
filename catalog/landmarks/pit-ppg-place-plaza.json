@@ -1,0 +1,19 @@
+{
+  "id": "pit-ppg-place-plaza",
+  "name": "PPG Place",
+  "model": "pit-ppg-place-plaza",
+  "place": "pittsburgh-area",
+  "lng": -80.00346,
+  "lat": 40.439939,
+  "bearing": 26.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/202731620",
+    "way/202772968",
+    "way/202809238",
+    "way/203212250",
+    "way/202871660",
+    "way/202809235"
+  ]
+}

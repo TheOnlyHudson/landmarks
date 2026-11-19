@@ -1,0 +1,66 @@
+{
+  "id": "pit-us-steel-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "modernist",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "U. S. Steel Tower, 2015-06-20. 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:U._S._Steel_Tower,_2015-06-20._01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "U. S. Steel Tower from Duquesne University, 2023-05-04, 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:U._S._Steel_Tower_from_Duquesne_University,_2023-05-04,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "Downtown Pittsburgh (US Steel Tower from Mellon Square).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Pittsburgh_(US_Steel_Tower_from_Mellon_Square).JPG",
+      "author": "Alekjds",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Pittsburgh-pennsylvania-usx-tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh-pennsylvania-usx-tower.jpg",
+      "author": "Derek Jensen (Tysto)",
+      "license": "Public domain"
+    },
+    {
+      "title": "U.S. Steel Tower in Detail.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:U.S._Steel_Tower_in_Detail.jpg",
+      "author": "Richard Stephen Haynes",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "U. S. Steel Tower, 2025-04-23.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:U._S._Steel_Tower,_2025-04-23.jpg",
+      "author": "Cbaile19",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pit-us-steel-tower.glb",
+  "source": "generators/pit-us-steel-tower.ts"
+}

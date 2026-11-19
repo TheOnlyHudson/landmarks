@@ -1,0 +1,67 @@
+{
+  "id": "pit-union-station",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "railway-station",
+    "beaux-arts",
+    "apartments"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Union Station, Pittsburgh, 2024-05-28-3",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Station,_Pittsburgh,_2024-05-28-3.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Union Station, Pittsburgh, 2024-05-28",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Station,_Pittsburgh,_2024-05-28.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Union Station, Pittsburgh, 2024-05-28-4",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Station,_Pittsburgh,_2024-05-28-4.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Union Station, Pittsburgh, 2024-05-28-1",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Station,_Pittsburgh,_2024-05-28-1.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Pittsburgh Union Station Wide 2900px",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh_Union_Station_Wide_2900px.jpg",
+      "author": "Derek Ramsey (Ram-Man)",
+      "license": "CC-BY-SA-2.5"
+    },
+    {
+      "title": "Union Station, Pittsburgh",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Station,_Pittsburgh.jpg",
+      "author": "pedrik",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/pit-union-station.glb",
+  "source": "generators/pit-union-station.ts"
+}

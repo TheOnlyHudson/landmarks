@@ -1,0 +1,73 @@
+{
+  "id": "pit-allegheny-county-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "courthouse",
+    "romanesque-revival",
+    "richardsonian"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Allegheny County Courthouse, 2025-05-24-1",
+      "url": "https://commons.wikimedia.org/wiki/File:Allegheny_County_Courthouse,_2025-05-24-1.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Allegheny County Courthouse in 2016",
+      "url": "https://commons.wikimedia.org/wiki/File:Allegheny_County_Courthouse_in_2016.jpg",
+      "author": "Dllu",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Allegheny County Courthouse, 2025-09-27",
+      "url": "https://commons.wikimedia.org/wiki/File:Allegheny_County_Courthouse,_2025-09-27.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Courtyard, Allegheny County Courthouse",
+      "url": "https://commons.wikimedia.org/wiki/File:Courtyard,_Allegheny_County_Courthouse,_Grant_Street,_Pittsburgh,_PA.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Allegheny County Courthouse skyway over Ross St",
+      "url": "https://commons.wikimedia.org/wiki/File:Allegheny_County_Courthouse_skyway_over_Ross_St_in_Pittsburgh.jpg",
+      "author": "Dllu",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Downtown Pittsburgh from Duquesne University, 2023-05-04, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Pittsburgh_from_Duquesne_University,_2023-05-04,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "HABS PA-610, Allegheny County Courthouse and Jail (measured drawings and photos, 1963)",
+      "url": "https://commons.wikimedia.org/wiki/Category:Allegheny_County_Courthouse",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pit-allegheny-county-courthouse.glb",
+  "source": "generators/pit-allegheny-county-courthouse.ts"
+}

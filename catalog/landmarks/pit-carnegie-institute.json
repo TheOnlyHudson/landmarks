@@ -1,0 +1,16 @@
+{
+  "id": "pit-carnegie-institute",
+  "name": "Carnegie Institute (Museums of Art and Natural History)",
+  "model": "pit-carnegie-institute",
+  "place": "pittsburgh-area",
+  "lng": -79.9497464,
+  "lat": 40.4433252,
+  "bearing": 343.2,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1043983",
+  "replaces": [
+    "way/154257481",
+    "way/31899525"
+  ]
+}

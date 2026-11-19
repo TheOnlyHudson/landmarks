@@ -1,0 +1,72 @@
+{
+  "id": "pit-one-oxford-centre",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "modernist",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "One Oxford Center, Pittsburgh. 2020-02-18.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Oxford_Center,_Pittsburgh._2020-02-18.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "One Oxford Centre, 2015-03-17, 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Oxford_Centre,_2015-03-17,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "One Oxford Centre, 2021-05-11, 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Oxford_Centre,_2021-05-11,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "One Oxford Centre, Pittsburgh, 2020-06-29.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Oxford_Centre,_Pittsburgh,_2020-06-29.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "OneOxfordCenter.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:OneOxfordCenter.jpg",
+      "author": "TheZachMorrisExperience",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Oxford Center (757196905).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Oxford_Center_(757196905).jpg",
+      "author": "KitAy from Pittsburgh, USA",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "One Oxford Centre and Grant Building from South Side Slopes, 2022-09-27.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Oxford_Centre_and_Grant_Building_from_South_Side_Slopes,_2022-09-27.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/pit-one-oxford-centre.glb",
+  "source": "generators/pit-one-oxford-centre.ts"
+}

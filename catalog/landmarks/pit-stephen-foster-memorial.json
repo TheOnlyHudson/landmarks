@@ -1,0 +1,15 @@
+{
+  "id": "pit-stephen-foster-memorial",
+  "name": "Stephen Foster Memorial",
+  "model": "pit-stephen-foster-memorial",
+  "place": "pittsburgh-area",
+  "lng": -79.952751,
+  "lat": 40.443808,
+  "bearing": 341,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q7609218",
+  "replaces": [
+    "way/121051329"
+  ]
+}

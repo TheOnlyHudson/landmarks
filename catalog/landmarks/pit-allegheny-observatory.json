@@ -1,0 +1,15 @@
+{
+  "id": "pit-allegheny-observatory",
+  "name": "Allegheny Observatory",
+  "model": "pit-allegheny-observatory",
+  "place": "pittsburgh-area",
+  "wikidata": "Q549937",
+  "lng": -80.020666,
+  "lat": 40.482563,
+  "bearing": 1,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/253993952"
+  ]
+}

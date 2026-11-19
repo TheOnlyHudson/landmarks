@@ -1,0 +1,86 @@
+{
+  "id": "pit-ppg-place",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern",
+    "glass"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "One PPG Place from Third Avenue",
+      "url": "https://commons.wikimedia.org/wiki/File:One_PPG_Place_from_Third_Avenue.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Top of One PPG Place, 2025-04-23",
+      "url": "https://commons.wikimedia.org/wiki/File:Top_of_One_PPG_Place,_2025-04-23.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Oneppgplace",
+      "url": "https://commons.wikimedia.org/wiki/File:Oneppgplace.jpg",
+      "author": "Dllu",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "PPG Place from Mt Washington",
+      "url": "https://commons.wikimedia.org/wiki/File:PPGPlacefromMtWashington.JPG",
+      "author": "TheZachMorrisExperience",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Pittsburgh PPG Place 2007",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh-pennsylvania-ppg-place-2007.jpg",
+      "author": "Derek Jensen (Tysto)",
+      "license": "Public domain"
+    },
+    {
+      "title": "PPG Place in Pittsburgh in 2016",
+      "url": "https://commons.wikimedia.org/wiki/File:PPG_Place_in_Pittsburgh_in_2016.jpg",
+      "author": "Dllu",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "PPG Place, PPG Place and 3rd Avenue",
+      "url": "https://commons.wikimedia.org/wiki/File:PPG_Place,_PPG_Place_and_3rd_Avenue,_Pittsburgh,_PA.jpg",
+      "author": "w_lemay",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "PPG Place, Pittsburgh PA (8899998941)",
+      "url": "https://www.flickr.com/photos/21550937@N03/8899998941",
+      "author": "Roy Luck",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "PPG Place, Pittsburgh (10650307783)",
+      "url": "https://www.flickr.com/photos/14594829@N05/10650307783",
+      "author": "cdschock",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "wikidata": "Q21075757",
+  "file": "models/pit-ppg-place.glb",
+  "source": "generators/pit-ppg-place.ts"
+}

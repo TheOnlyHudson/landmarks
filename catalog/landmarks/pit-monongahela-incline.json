@@ -1,0 +1,24 @@
+{
+  "id": "pit-monongahela-incline",
+  "name": "Monongahela Incline",
+  "model": "pit-monongahela-incline",
+  "place": "pittsburgh-area",
+  "lng": -80.0053937,
+  "lat": 40.431914,
+  "bearing": 34.84,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6901799",
+  "replaces": [
+    "way/43081627",
+    "way/43081628",
+    "way/54834760",
+    "way/833629684",
+    "way/833629685",
+    "way/833629686",
+    "way/833629687",
+    "way/833629688",
+    "way/833629689",
+    "way/833629690"
+  ]
+}

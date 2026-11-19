@@ -1,0 +1,15 @@
+{
+  "id": "pit-ppg-place",
+  "name": "One PPG Place",
+  "model": "pit-ppg-place",
+  "place": "pittsburgh-area",
+  "lng": -80.003772,
+  "lat": 40.439993,
+  "bearing": 26.5,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/202809245"
+  ],
+  "wikidata": "Q21075757"
+}

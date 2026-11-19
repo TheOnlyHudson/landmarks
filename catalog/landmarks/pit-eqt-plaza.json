@@ -1,0 +1,15 @@
+{
+  "id": "pit-eqt-plaza",
+  "name": "EQT Plaza",
+  "model": "pit-eqt-plaza",
+  "place": "pittsburgh-area",
+  "lng": -80.000811,
+  "lat": 40.4424909,
+  "bearing": 341.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/294832121"
+  ],
+  "wikidata": "Q5323988"
+}

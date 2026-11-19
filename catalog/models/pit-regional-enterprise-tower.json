@@ -1,0 +1,67 @@
+{
+  "id": "pit-regional-enterprise-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "modernist",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Alcoa Building, 2024-05-16.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Alcoa_Building,_2024-05-16.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Alcoa Building, 2015-04-23.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Alcoa_Building,_2015-04-23.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Regional Enterprise Tower and U.S. Steel Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Regional_Enterprise_Tower_and_U.S._Steel_Tower.jpg",
+      "author": "Dllu",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Old ALCOA headquarters (20961064299).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_ALCOA_headquarters_(20961064299).jpg",
+      "author": "Roy Luck",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "ALCOA Building Entrance (Pittsburgh).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:ALCOA_Building_Entrance_(Pittsburgh).jpg",
+      "author": "Nicholas Traub (HABS)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Perspective view from southwest of the Alcoa Building (HABS PA-6724-1)",
+      "url": "https://commons.wikimedia.org/wiki/File:PERSPECTIVE_VIEW_FROM_SOUTHWEST_OF_THE_ALCOA_BUILDING,_A_WELL-KNOWN_POST-WAR_CORPORATE_SKYSCRAPER_BUILT_IN_1953_AND_DESIGNED_BY_THE_FIRM_OF_HARRISON_AND_ABRAMOVITZ._-_ALCOA_Building,_HABS_PA-6724-1.tif",
+      "author": "Nicholas Traub (HABS)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pit-regional-enterprise-tower.glb",
+  "source": "generators/pit-regional-enterprise-tower.ts"
+}

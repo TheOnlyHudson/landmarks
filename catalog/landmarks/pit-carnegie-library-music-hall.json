@@ -1,0 +1,16 @@
+{
+  "id": "pit-carnegie-library-music-hall",
+  "name": "Carnegie Library and Music Hall",
+  "model": "pit-carnegie-library-music-hall",
+  "place": "pittsburgh-area",
+  "lng": -79.9507109,
+  "lat": 40.4429642,
+  "bearing": 343.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q119977257",
+  "replaces": [
+    "way/31899524",
+    "way/154257484"
+  ]
+}

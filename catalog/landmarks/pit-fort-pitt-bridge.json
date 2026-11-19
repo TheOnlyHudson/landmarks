@@ -1,0 +1,16 @@
+{
+  "id": "pit-fort-pitt-bridge",
+  "name": "Fort Pitt Bridge",
+  "model": "pit-fort-pitt-bridge",
+  "place": "pittsburgh-area",
+  "lng": -80.0113569,
+  "lat": 40.4388519,
+  "bearing": 55.055,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q5471837",
+  "replaces": [
+    "way/1244965378",
+    "way/1244978189"
+  ]
+}

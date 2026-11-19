@@ -1,0 +1,78 @@
+{
+  "id": "pit-ppg-paints-arena",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "hockey",
+    "nhl"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "PPG Paints Arena - March 2017",
+      "url": "https://commons.wikimedia.org/wiki/File:PPG_Paints_Arena_-_March_2017.jpg",
+      "author": "Jleedev",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Consol Energy Center - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:Consol_Energy_Center_-_panoramio.jpg",
+      "author": "Bohao Zhao",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "title": "CONSOL Energy Center - Pittsburgh, PA",
+      "url": "https://commons.wikimedia.org/wiki/File:CONSOL_Energy_Center_-_Pittsburgh,_PA.JPG",
+      "author": "NWRGeek",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Consol Centre - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:Consol_Centre_-_panoramio.jpg",
+      "author": "Larry LaRose",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Consol Energy Center March 2010",
+      "url": "https://commons.wikimedia.org/wiki/File:Consol_Energy_Center_March_2010.jpg",
+      "author": "David Fulmer",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "PensArena",
+      "url": "https://commons.wikimedia.org/wiki/File:PensArena.jpg",
+      "author": "Colethazor",
+      "license": "Public domain"
+    },
+    {
+      "title": "Pittsburgh, Pennsylvania (8482600915)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh,_Pennsylvania_(8482600915).jpg",
+      "author": "Doug Kerr",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Pittsburgh, Pennsylvania (8483704534)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh,_Pennsylvania_(8483704534).jpg",
+      "author": "Doug Kerr",
+      "license": "CC-BY-SA-2.0"
+    }
+  ],
+  "file": "models/pit-ppg-paints-arena.glb",
+  "source": "generators/pit-ppg-paints-arena.ts"
+}

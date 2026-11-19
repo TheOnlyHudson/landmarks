@@ -1,0 +1,14 @@
+{
+  "id": "pit-hamerschlag-hall",
+  "name": "Hamerschlag Hall",
+  "model": "pit-hamerschlag-hall",
+  "place": "pittsburgh-area",
+  "lng": -79.94671,
+  "lat": 40.442356,
+  "bearing": 15,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/27551077"
+  ]
+}

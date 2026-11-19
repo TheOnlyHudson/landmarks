@@ -1,0 +1,15 @@
+{
+  "id": "pit-west-end-bridge",
+  "name": "West End Bridge",
+  "model": "pit-west-end-bridge",
+  "place": "pittsburgh-area",
+  "lng": -80.02685,
+  "lat": 40.4466125,
+  "bearing": 22.256,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q7985069",
+  "replaces": [
+    "way/663076259"
+  ]
+}

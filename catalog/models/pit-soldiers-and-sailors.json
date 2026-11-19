@@ -1,0 +1,73 @@
+{
+  "id": "pit-soldiers-and-sailors",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "memorial",
+    "museum",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Soldiers and Sailors Hall, Oakland, Pittsburgh, 2023-05-20, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers_and_Sailors_Hall,_Oakland,_Pittsburgh,_2023-05-20,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Soldiers and Sailors Hall, Oakland, Pittsburgh, 2023-05-20, 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers_and_Sailors_Hall,_Oakland,_Pittsburgh,_2023-05-20,_02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Soldiers and Sailors Hall, Oakland, Pittsburgh, 2023-05-20, 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers_and_Sailors_Hall,_Oakland,_Pittsburgh,_2023-05-20,_03.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Soldiers and Sailors Hall from the corner of O’Hara Street and University Place, 2023-09-25, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers_and_Sailors_Hall_from_the_corner_of_O%E2%80%99Hara_Street_and_University_Place,_2023-09-25,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Soldiers and Sailors Hall, Oakland, Pittsburgh, 2021-10-07, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers_and_Sailors_Hall,_Oakland,_Pittsburgh,_2021-10-07,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Allegheny County Soldiers’ Memorial, Oakland, Pittsburgh, 2026-10-23",
+      "url": "https://commons.wikimedia.org/wiki/File:Allegheny_County_Soldiers%E2%80%99_Memorial,_Oakland,_Pittsburgh,_2026-10-23.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Soldiers and Sailors Hall, Oakland, 2022-11-05, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers_and_Sailors_Hall,_Oakland,_2022-11-05,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/pit-soldiers-and-sailors.glb",
+  "source": "generators/pit-soldiers-and-sailors.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "pit-carrie-furnaces",
+  "name": "Carrie Blast Furnaces",
+  "model": "pit-carrie-furnaces",
+  "place": "pittsburgh-area",
+  "lng": -79.890151,
+  "lat": 40.413221,
+  "bearing": 45.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/534158114",
+    "way/534158119"
+  ]
+}

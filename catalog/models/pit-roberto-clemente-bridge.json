@@ -1,0 +1,87 @@
+{
+  "id": "pit-roberto-clemente-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "suspension-bridge",
+    "self-anchored",
+    "eyebar-chain"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/pit-roberto-clemente-bridge.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "PNC Park with Roberto Clemente Bridge May 2018",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_Park_with_Roberto_Clemente_Bridge_May_2018.jpg",
+      "author": "Y2kcrazyjoker4",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Pittsburgh, Pennsylvania (8482456911)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh,_Pennsylvania_(8482456911).jpg",
+      "author": "Doug Kerr",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Pgh 20080621 2778 (2631836173)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pgh_20080621_2778_(2631836173).jpg",
+      "author": "Christopher Lancaster",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Fort Duquesne Boulevard looking at Roberto Clemente Bridge, August 8 2025, 06",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Duquesne_Boulevard_looking_at_Roberto_Clemente_Bridge,_August_8_2025,_Downtown_Pittsburgh,_Pennsylvania_06.jpg",
+      "author": "Deans Charbal",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Cityscape and view of north tower, looking south (HAER PA,2-PITBU,78A-2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cityscape_and_view_of_north_tower,_looking_south._-_Three_Sisters_Bridges,_Sixth_Street_Bridge,_Spanning_Allegheny_River_at_Sixth_Street,_Pittsburgh,_Allegheny_County,_PA_HAER_PA,2-PITBU,78A-2.tif",
+      "author": "Jet Lowe (HAER)",
+      "license": "Public domain"
+    },
+    {
+      "title": "HAER PBG 6thStreet 361497cv",
+      "url": "https://commons.wikimedia.org/wiki/File:HAER_PBG_6thStreet_361497cv.jpg",
+      "author": "Jet Lowe (HAER)",
+      "license": "Public domain"
+    },
+    {
+      "title": "EM ROBERTO CLEMENTE BRIDGE (2441699323)",
+      "url": "https://commons.wikimedia.org/wiki/File:EM_ROBERTO_CLEMENTE_BRIDGE_(2441699323).jpg",
+      "author": "Eddie Maloney",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "PNC park with 6th street bridge and Pittsburgh skyline",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_park_with_6th_street_bridge_and_Pittsburgh_skyline.jpg",
+      "author": "JMTEH",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Roberto Clemente (Sixth Street) Bridge at night, 2024-04-02, 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Roberto_Clemente_(Sixth_Street)_Bridge_at_night,_2024-04-02,_02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/pit-roberto-clemente-bridge.glb",
+  "source": "generators/pit-roberto-clemente-bridge.ts"
+}

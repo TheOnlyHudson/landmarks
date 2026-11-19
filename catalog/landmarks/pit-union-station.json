@@ -1,0 +1,17 @@
+{
+  "id": "pit-union-station",
+  "name": "Pittsburgh Union Station",
+  "model": "pit-union-station",
+  "place": "pittsburgh-area",
+  "lng": -79.9920286,
+  "lat": 40.4443245,
+  "bearing": 51,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7886093",
+  "replaces": [
+    "relation/10505870",
+    "way/664644572",
+    "way/664644570"
+  ]
+}

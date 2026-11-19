@@ -1,0 +1,73 @@
+{
+  "id": "pit-gulf-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "art-deco",
+    "historic",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Pittsburgh-gulf-tower-2007.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh-gulf-tower-2007.jpg",
+      "author": "Derek Jensen (Tysto)",
+      "license": "Public domain"
+    },
+    {
+      "title": "GulfBuildingPittsburgh.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:GulfBuildingPittsburgh.jpg",
+      "author": "Dr EG from Medellin, Colombia",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Top of the Gulf Tower, 2023-06-10, 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Top_of_the_Gulf_Tower,_2023-06-10,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "Gulf Tower from Frank Curto Park.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gulf_Tower_from_Frank_Curto_Park.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "Koppers and Gulf Towers, 2015-06-20. 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Koppers_and_Gulf_Towers,_2015-06-20._01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "Gulf and Koppers Buildings from Spring Hill, 2026-06-23.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gulf_and_Koppers_Buildings_from_Spring_Hill,_2026-06-23.jpg",
+      "author": "Cbaile19",
+      "license": "CC0"
+    },
+    {
+      "title": "DowntownPittsburghNightSceneGulfBuilding.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:DowntownPittsburghNightSceneGulfBuilding.jpg",
+      "author": "Don Burkett from Algonquin, USA",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/pit-gulf-tower.glb",
+  "source": "generators/pit-gulf-tower.ts"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "pit-acrisure-stadium",
+  "name": "Acrisure Stadium",
+  "model": "pit-acrisure-stadium",
+  "place": "pittsburgh-area",
+  "lng": -80.015759,
+  "lat": 40.446764,
+  "bearing": 335,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1067148",
+  "replaces": [
+    "relation/19912629",
+    "way/559606224",
+    "way/559606229",
+    "way/559606232",
+    "way/559606228",
+    "way/560599306",
+    "way/560599307"
+  ]
+}

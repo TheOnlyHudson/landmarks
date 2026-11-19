@@ -1,0 +1,12 @@
+{
+  "id": "pit-point-state-park-fountain",
+  "name": "Point State Park Fountain",
+  "model": "pit-point-state-park-fountain",
+  "place": "pittsburgh-area",
+  "lng": -80.0127764,
+  "lat": 40.4418162,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": []
+}

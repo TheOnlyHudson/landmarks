@@ -1,0 +1,15 @@
+{
+  "id": "pit-rachel-carson-bridge",
+  "name": "Rachel Carson Bridge",
+  "model": "pit-rachel-carson-bridge",
+  "place": "pittsburgh-area",
+  "lng": -79.9997641,
+  "lat": 40.4466833,
+  "bearing": 339.295,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7279183",
+  "replaces": [
+    "way/642309568"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "pit-trinity-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "cathedral",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Trinity Cathedral, Pittsburgh, 2020-01-21.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Cathedral,_Pittsburgh,_2020-01-21.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Pittsburgh trinitychurch.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh_trinitychurch.jpg",
+      "author": "PerryPlanet",
+      "license": "Public domain"
+    },
+    {
+      "title": "Pittsburgh, Pennsylvania (8482586161).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh,_Pennsylvania_(8482586161).jpg",
+      "author": "Doug Kerr",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Roofscape from Oliver Avenue, 2023-11-15.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roofscape_from_Oliver_Avenue,_2023-11-15.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Rear of Trinity Cathedral and First Presbyterian Church, Pittsburgh, 2023-11-15.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rear_of_Trinity_Cathedral_and_First_Presbyterian_Church,_Pittsburgh,_2023-11-15.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Rear of Trinity Cathedral, Pittsburgh, 2023-11-15.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rear_of_Trinity_Cathedral,_Pittsburgh,_2023-11-15.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Trinity Episcopal Cathedral-Pittsburgh.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Episcopal_Cathedral-Pittsburgh.jpg",
+      "author": "Adam W. Ritchey",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/pit-trinity-cathedral.glb",
+  "source": "generators/pit-trinity-cathedral.ts"
+}
