@@ -1,0 +1,12 @@
+{
+  "id": "kc-wheel",
+  "name": "KC Wheel",
+  "model": "kc-wheel",
+  "place": "kansas-city-area",
+  "lng": -94.592378,
+  "lat": 39.082413,
+  "bearing": 338,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": []
+}
