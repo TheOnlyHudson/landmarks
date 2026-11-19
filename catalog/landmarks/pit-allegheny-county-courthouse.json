@@ -1,0 +1,16 @@
+{
+  "id": "pit-allegheny-county-courthouse",
+  "name": "Allegheny County Courthouse",
+  "model": "pit-allegheny-county-courthouse",
+  "place": "pittsburgh-area",
+  "lng": -79.9964116,
+  "lat": 40.4387981,
+  "bearing": 26.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/2730675",
+    "way/452605805"
+  ],
+  "wikidata": "Q4731291"
+}
