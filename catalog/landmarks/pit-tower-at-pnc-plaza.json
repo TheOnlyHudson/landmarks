@@ -1,0 +1,15 @@
+{
+  "id": "pit-tower-at-pnc-plaza",
+  "name": "The Tower at PNC Plaza",
+  "model": "pit-tower-at-pnc-plaza",
+  "place": "pittsburgh-area",
+  "lng": -80.000244,
+  "lat": 40.440281,
+  "bearing": 27.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/313513478"
+  ],
+  "wikidata": "Q7829752"
+}
