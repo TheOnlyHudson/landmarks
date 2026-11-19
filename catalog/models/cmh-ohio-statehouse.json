@@ -1,0 +1,117 @@
+{
+  "id": "cmh-ohio-statehouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "capitol",
+    "government",
+    "greek-revival",
+    "historic",
+    "cupola"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Columbus - Ohio Statehouse - 20220421135608.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Columbus_-_Ohio_Statehouse_-_20220421135608.jpg",
+      "author": "Riis2602",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ohio Statehouse from High Street FE.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ohio_Statehouse_from_High_Street_FE.jpg",
+      "author": "General Ization",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Ohio Statehouse from State Street FE.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ohio_Statehouse_from_State_Street_FE.jpg",
+      "author": "General Ization",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Ohio Statehouse 2020 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ohio_Statehouse_2020_02.jpg",
+      "author": "Ɱ",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ohio Statehouse exterior.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ohio_Statehouse_exterior.jpg",
+      "author": "Ɱ",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ohio Statehouse 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ohio_Statehouse_03.jpg",
+      "author": "Ɱ",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ohio Statehouse 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ohio_Statehouse_2.jpg",
+      "author": "Niagara66",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "EXTERIOR, SOUTHEAST FRONT VIEW - Ohio Statehouse and Annex (HABS OH-2220)",
+      "url": "https://commons.wikimedia.org/wiki/File:EXTERIOR,SOUTHEAST_FRONT_VIEW_-_Ohio_Statehouse_and_Annex,_High_and_Broad_Streets,_Columbus,_Franklin_County,_OH_HABS_OHIO,25-COLB,36-1.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Columbus, Ohio Ɱ 49.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Columbus,_Ohio_%E2%B1%AE_49.jpg",
+      "author": "Ɱ",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Columbus, Ohio (2018) - 115.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Columbus,_Ohio_(2018)_-_115.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ohio State House, Columbus, OH - 48310599271.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ohio_State_House,_Columbus,_OH_-_48310599271.jpg",
+      "author": "w_lemay",
+      "license": "CC0"
+    },
+    {
+      "title": "Ohio State House, Columbus, OH - 48310703277.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ohio_State_House,_Columbus,_OH_-_48310703277.jpg",
+      "author": "w_lemay",
+      "license": "CC0"
+    },
+    {
+      "title": "Ohio Statehouse Atrium.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ohio_Statehouse_Atrium.jpg",
+      "author": "Ɱ",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ohio Statehouse night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ohio_Statehouse_night.jpg",
+      "author": "Becker1999",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/cmh-ohio-statehouse.glb",
+  "source": "generators/cmh-ohio-statehouse.ts"
+}
