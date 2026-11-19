@@ -1,0 +1,23 @@
+{
+  "id": "msp-capella-tower",
+  "name": "Capella Tower",
+  "model": "msp-capella-tower",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.2683018,
+  "lat": 44.9759952,
+  "bearing": 31,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q47693",
+  "replaces": [
+    "way/115559604",
+    "way/1558948714",
+    "way/1558948712",
+    "way/300522150",
+    "way/300522151",
+    "way/300522152",
+    "way/461219671",
+    "way/461219674",
+    "way/461219673"
+  ]
+}
