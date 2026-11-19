@@ -1,0 +1,54 @@
+{
+  "id": "pit-eqt-plaza",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "EQT Plaza, 2025-11-04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:EQT_Plaza,_2025-11-04.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "EQT Plaza, Liberty Avenue, 2015-04-23.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:EQT_Plaza,_Liberty_Avenue,_2015-04-23.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Pittsburgh Downtown 2019-06-25 EQT Plaza.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh_Downtown_2019-06-25_EQT_Plaza.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Two PNC Plaza and EQT Plaza, Pittsburgh, 2019-10-29.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Two_PNC_Plaza_and_EQT_Plaza,_Pittsburgh,_2019-10-29.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/pit-eqt-plaza.glb",
+  "source": "generators/pit-eqt-plaza.ts"
+}
