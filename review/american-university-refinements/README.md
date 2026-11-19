@@ -4,7 +4,7 @@ This review compares the 49 existing campus buildings with their refined version
 
 Before sheets use the models at upstream `3cf86601`. After sheets use High LOD where available and the refined normal model otherwise. Day/night pairs use the same geometry. Terrain in these sheets comes from **DC OCTO 2022 bare-earth lidar**, processed through the project's draping routine; the live Mapterhorn tile endpoint was inaccessible. These are not checks against live map tiles.
 
-Close views: [historic and academic buildings](close/), [Ward statue](ward-close.png). [Model budgets](model-stats.md).
+Close views: [historic and academic buildings](close/), [Ward statue](ward-close.png). [Model budgets](model-stats.md) · [Verification](VALIDATION.md) · [Prepared PR description](PULL_REQUEST.md).
 
 ## Main changes
 
