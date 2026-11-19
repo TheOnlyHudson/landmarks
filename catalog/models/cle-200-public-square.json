@@ -1,0 +1,67 @@
+{
+  "id": "cle-200-public-square",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "200 Public Square (the BP Building, 1985): a 45-storey granite office slab bent in plan to face Public Square, with stepped corners and crown, on a terraced podium with a stepped glass atrium.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "200 Public Square",
+      "url": "https://commons.wikimedia.org/wiki/File:200_Public_Square.jpg",
+      "author": "EurekaLott",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "BP Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:BP_Tower.jpg",
+      "author": "Karla Kaulfuss",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "BP Building (7382095642)",
+      "url": "https://commons.wikimedia.org/wiki/File:BP_Building_(7382095642).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Downtown Cleveland - Key Tower, BP Building, and May Company Building (8566846667)",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Cleveland_-_Key_Tower,_BP_Building,_and_May_Company_Building_(8566846667).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "200 Public Square (13484245195)",
+      "url": "https://commons.wikimedia.org/wiki/File:200_Public_Square_(13484245195).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "200 Public Square (2)",
+      "url": "https://commons.wikimedia.org/wiki/File:200_Public_Square_(2).jpg",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/cle-200-public-square.glb",
+  "source": "generators/cle-200-public-square.ts"
+}
