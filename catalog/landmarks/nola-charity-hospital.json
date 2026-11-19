@@ -1,0 +1,15 @@
+{
+  "id": "nola-charity-hospital",
+  "name": "Charity Hospital",
+  "model": "nola-charity-hospital",
+  "place": "new-orleans-area",
+  "lng": -90.0781242,
+  "lat": 29.9551377,
+  "bearing": 24.75,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/328669535"
+  ],
+  "wikidata": "Q5074514"
+}

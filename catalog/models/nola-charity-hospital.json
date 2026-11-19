@@ -1,0 +1,61 @@
+{
+  "id": "nola-charity-hospital",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "hospital",
+    "art-deco",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "wikidata": "Q5074514",
+  "references": [
+    {
+      "title": "Charity Hospital - New Orleans (55151710756)",
+      "url": "https://commons.wikimedia.org/wiki/File:Charity_Hospital_-_New_Orleans_(55151710756).jpg",
+      "author": "ajay_suresh",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Big Charity at Gravier & LaSalle, New Orleans, October 2021",
+      "url": "https://commons.wikimedia.org/wiki/File:Big_Charity_at_Gravier_%26_LaSalle,_New_Orleans,_October_2021.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Charity Hospital Tulane Avenue New Orleans seen from LaSalle Street corner",
+      "url": "https://commons.wikimedia.org/wiki/File:Charity_Hospital_Tulane_Avenue_New_Orleans_seen_from_LaSalle_Street_corner.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "BigCharityFromCleveland",
+      "url": "https://commons.wikimedia.org/wiki/File:BigCharityFromCleveland.JPG",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Charity Hospital NOLA",
+      "url": "https://commons.wikimedia.org/wiki/File:Charity_Hospital_NOLA.jpg",
+      "author": "Vegasjon",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/nola-charity-hospital.glb",
+  "source": "generators/nola-charity-hospital.ts"
+}
