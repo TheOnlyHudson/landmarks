@@ -1,0 +1,79 @@
+{
+  "id": "nola-christ-church-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "cathedral",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Christ Church Cathedral, St Charles Avenue, Uptown New Orleans March 2025 - 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Cathedral,_St_Charles_Avenue,_Uptown_New_Orleans_March_2025_-_1.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Christ Church Cathedral, St Charles Avenue, Uptown New Orleans March 2025 - 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Cathedral,_St_Charles_Avenue,_Uptown_New_Orleans_March_2025_-_2.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Christ Church Cathedral, St Charles Avenue, Uptown New Orleans March 2025 - 6",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Cathedral,_St_Charles_Avenue,_Uptown_New_Orleans_March_2025_-_6.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Christ Church Cathedral, St Charles Avenue, Uptown New Orleans March 2025 - 8",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Cathedral,_St_Charles_Avenue,_Uptown_New_Orleans_March_2025_-_8.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Christ Church Cathedral, St Charles Avenue Uptown New Orleans 12 March 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Cathedral,_St_Charles_Avenue_Uptown_New_Orleans_12_March_2026.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Christ Church Cathedral, New Orleans",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Cathedral,_New_Orleans.jpg",
+      "author": "Yair Haklai",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Christ Church New Orleans, Louisiana 2008",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_New_Orleans,_Louisiana_2008.jpg",
+      "author": "Shubert Ciencia",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Christ Church Cathedral at night NOLA",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Cathedral_at_night_NOLA.jpg",
+      "author": "Charlie Brenner",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/nola-christ-church-cathedral.glb",
+  "source": "generators/nola-christ-church-cathedral.ts"
+}
