@@ -1,0 +1,14 @@
+{
+  "id": "nash-jw-marriott",
+  "name": "JW Marriott Nashville",
+  "model": "nash-jw-marriott",
+  "place": "nashville-area",
+  "lng": -86.7810751,
+  "lat": 36.1560184,
+  "bearing": 62,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/454073460"
+  ]
+}
