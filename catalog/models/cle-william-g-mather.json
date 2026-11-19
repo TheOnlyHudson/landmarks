@@ -1,0 +1,57 @@
+{
+  "id": "cle-william-g-mather",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "other",
+  "tags": [
+    "ship",
+    "lake-freighter",
+    "museum-ship",
+    "museum",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "SS William G. Mather (1925), a 618 ft Great Lakes bulk freighter, now a museum ship at North Coast Harbor: black hull with its red stripe, red hatch covers, the forward pilothouse and the aft engine house and black stack.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "William G. Mather in Cleveland-2010-04-03-025 (4524949933)",
+      "url": "https://commons.wikimedia.org/wiki/File:William_G._Mather_in_Cleveland-2010-04-03-025_(4524949933).jpg",
+      "author": "Perry Quan",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "SS William G. Mather (514086820)",
+      "url": "https://commons.wikimedia.org/wiki/File:SS_William_G._Mather_(514086820).jpg",
+      "author": "Jim Bowen",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland August 2015 51 (SS William G. Mather)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_August_2015_51_(SS_William_G._Mather).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "William G. Mather Steamship (51267097492)",
+      "url": "https://commons.wikimedia.org/wiki/File:William_G._Mather_Steamship_(51267097492).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/cle-william-g-mather.glb",
+  "source": "generators/cle-william-g-mather.ts"
+}
