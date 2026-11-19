@@ -1,0 +1,15 @@
+{
+  "id": "nash-grand-ole-opry-house",
+  "name": "Grand Ole Opry House",
+  "model": "nash-grand-ole-opry-house",
+  "place": "nashville-area",
+  "lng": -86.6918652,
+  "lat": 36.2068862,
+  "bearing": 349.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7098695",
+  "replaces": [
+    "way/285022928"
+  ]
+}
