@@ -13,7 +13,8 @@
  * How it differs from the Clemente, all from lidar: the longest main span
  * of the three (135 m against 131 m) and tallest towers (32.85 m against
  * 32.35 m); a longer north approach (33 m from the end pier to the North
- * Shore abutment, against 20 m), so the deck runs on down to 7.5 m there;
+ * Shore abutment, against 20 m), so the deck runs on down to the street there
+ * (8.25 m in the model, 224.3 m NAVD88);
  * kiosk lanterns at 13.5 m (4.5 m above the roadway, against 8 m on the
  * Clemente).
  *
@@ -21,13 +22,20 @@
  * metres; origin midway between the towers, on the water; bearing 344.715°
  * (the line through the two chain planes' centres in lidar).
  *
- * Roadway heights built to (lidar, within 0.2 m): road(y) = 14.05 −
- * 8.75e-4·y² for |y| ≤ 24, then 13.55 − 0.042·(|y| − 24): 14.05 m at
- * midspan, 11.7 m at the towers (y = ±67.5), 9.0 m at the end piers, 8.0 m
- * at the south abutment (y = −156.4) and 7.5 m at the north one (+167.6);
- * NAVD88 230.8 m at midspan (water 216.72 m). OSM outline way/642309567 and
- * roadway way/28388921 carry no height or ele: these are the heights to
- * give the map.
+ * Roadway heights built to (lidar along OSM way/28388921, measured every
+ * 4 m in November 2026, fitted within 0.09 m), in lidar heights above the
+ * lidar water: road(y) = 14.0 − 8.75e-4·y² for |y| ≤ 24, then 13.5 −
+ * 0.042·(|y| − 24). The shared generator adds `DATUM` (0.53 m, the lidar
+ * water above the map's river), so in the model 14.53 m at midspan,
+ * 12.2 m at the towers (y = ±67.5), 9.45 m at the end piers, 8.47 m at the
+ * south abutment (y = −156.4) and 8.25 m at the north one (+167.6, where
+ * the deck follows the map's terrain); NAVD88 230.7 m at midspan, 224.7 m
+ * at the south end, 224.3 m at the north end, where the road lands on
+ * Sandusky Street at the outline's end (lidar bare earth 224.30 m). The
+ * crest was 14.05 m before (0.05 m high), and the whole model stood
+ * 0.53 m low in the map; see the November 2026 fix in the Clemente header.
+ * OSM `ele` for the roadway: ~/landmarks-scratch/osm-ele/pit-andy-warhol-
+ * bridge.md.
  *
  * Sources:
  * - OSM: outline way/642309567 (man_made=bridge, bridge:structure=
@@ -56,9 +64,10 @@
  * - Map terrain under the end piers and abutments (Mapterhorn above its
  *   own river reading, 216.19 m), `GROUND`.
  *
- * Doubts: the Warhol's crest sits within a metre of the anchor; its
- * approach-span piers north of the end pier (if any) are not drawn, the
- * girders span the 33 m to the abutment unbroken.
+ * Doubts: the Warhol's crest sits within a metre of the anchor; OSM maps
+ * no pier between the north end pier and the abutment and none is drawn:
+ * the girders span the 33 m to the abutment unbroken (no photo here shows
+ * that span from below).
  */
 import { buildSister, type SisterSpec } from './pit-roberto-clemente-bridge'
 
@@ -74,7 +83,7 @@ export const WARHOL: SisterSpec = {
   top: 32.85,
   low: 15.9,
   side: [[19.8, 11.65], [19.45, 11.3]],
-  road: { R0: 14.05, yc: 0, Lc: 24, g: 0.042 },
+  road: { R0: 14.0, yc: 0, Lc: 24, g: 0.042 },
   kioskTop: 13.5,
   ground: GROUND,
 }
