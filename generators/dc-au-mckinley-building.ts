@@ -1,4 +1,7 @@
 /**
+ * Factual cross-check (building identity/floor labels only):
+ * https://map-american.university-tour.com/mckinley-dollhouse
+ * Tour illustrations and photos are not geometry evidence.
  * McKinley Building, American University. The anchor, the angle of its L-shaped
  * historic wings, the curved corner and the infill limits follow the May 2026
  * OpenStreetMap outline (way 90190512), rotated 34 degrees from north:
@@ -25,7 +28,7 @@
  */
 import { Part, type V3 } from './mesh'
 import { PALETTE } from './palette'
-import { arc, arcCap, arcWall, cbox, column, grow, hip, panel, qf, rect, save, tf, type Rect, type Side } from './dc-white-house'
+import { arc, arcCap, arcPanel, arcWall, cbox, column, grow, hip, panel, qf, rect, save, tf, type Rect, type Side } from './dc-white-house'
 import { lathe, pslab } from './dc-nga-west'
 
 const stone = new Part(), trim = new Part(), window = new Part()
@@ -49,7 +52,7 @@ wing({...vertical,y0:cy+3.2})
 cbox(stone,rect(cx-4,cx+3.1,cy-3.1,cy+4),0,13.85)
 const arcStart = -118, arcEnd = 28
 const sector = (r: number) => [[cx,cy] as [number,number],...arc(cx,cy,r,arcStart,arcEnd,24)]
-pslab(stone,sector(7.14),0,1.35,0.13)
+pslab(stone,sector(5.48),0,1.35,0.10)
 lathe(stone,cx,cy,[[4.05,1.28],[4.05,13.89]],36)
 for (const a of [-98,-63,-28,7]) {
   const rad = a*Math.PI/180
@@ -63,10 +66,21 @@ lathe(copper,cx,cy,[[0.48,21.22],[0.40,21.34],[0.2,21.42]],16)
 // eaves. Its width and offset follow the lidar cells above 17.5 m.
 hip(roof,rect(-23.72,9.62,-18.47,-0.55),14.51,18.42,4.55,roof,6.18)
 hip(roof,rect(0.72,18.53,-7.13,23.76),14.51,18.56,6.14,roof,6.28)
-for (let i=0;i<5;i++) {
-  const r=7.08-i*0.34, z=0.27+i*0.25
-  arcWall(trim,cx,cy,r,-105,15,18,z-0.25,z)
-  arcCap(trim,cx,cy,4.00,r,-105,15,18,z)
+// A sequence of annular treads leaves the full radial stair visible around
+// the colonnade. The lower body stops behind the upper landing.
+for (let i=0;i<6;i++) {
+  const outer=7.10-0.27*i, inner=outer-0.27, z=(i+1)*0.225
+  arcWall(trim,cx,cy,outer,-107,17,18,z-0.225,z)
+  arcCap(trim,cx,cy,inner,outer,-107,17,18,z)
+}
+arcCap(trim,cx,cy,3.89,5.48,-107,17,18,1.35)
+// Glazed vestibule and stone transom are visible in the openings between
+// the rotunda columns. This geometry sits on the inner radius of the porch.
+for (const a of [-80,-45,-10]) {
+  arcPanel(trim,cx,cy,4.05,a,2.02,1.35,7.02,0.045)
+  arcPanel(window,cx,cy,4.05,a,1.69,1.40,4.84,0.080)
+  arcPanel(trim,cx,cy,4.05,a,0.10,1.40,4.84,0.104)
+  arcPanel(window,cx,cy,4.05,a,1.54,5.11,6.66,0.080)
 }
 
 function archedBay(side: Side, at: number, along: number, width=2.55) {
@@ -84,6 +98,8 @@ function archedBay(side: Side, at: number, along: number, width=2.55) {
   }
   panel(trim,side,at,along-r-0.23,along+r+0.23,3.89,4.13,0.12)
   panel(trim,side,at,along-r,along+r,8.07,8.26,0.12)
+  panel(trim,side,at,along-.055,along+.055,4.1,spring,0.13)
+  panel(trim,side,at,along-r,along+r,spring-.07,spring+.08,0.12)
   panel(window,side,at,along-r+0.18,along+r-0.18,0.81,2.28)
 }
 for (const x of [-21.3,-16.75,-12.2,-7.65,-3.10,1.45,6]) archedBay('s',horizontal.y0,x)
@@ -92,9 +108,14 @@ for (const x of [3.65,9.65,15.65]) archedBay('n',vertical.y1,x,3.05)
 for (const y of [-16,-9.7,-3.4]) archedBay('w',horizontal.x0,y,3.05)
 
 // The inserted three-storey building occupies the inside corner of the L.
-const infill=rect(-16.35,0.12,-0.25,16.35)
-cbox(copper,infill,0,15.68,{b:0.08,top:roof})
-const stair=rect(-21.9,-16.32,-0.28,0.10)
+// The lidar grid contains a low roof at x=-8..0 on the lower south
+// part of the infill. Its 12 m terrace sits below the 15.7 m copper rim.
+const infillShape: [number,number][]=[
+  [-16.35,-0.25],[-8.05,-0.25],[-8.05,5.5],[0.12,5.5],[0.12,16.35],[-16.35,16.35],
+]
+pslab(copper,infillShape,0,15.68,0.08,roof)
+cbox(copper,rect(-8.10,0.12,-0.25,5.55),0,11.99,{b:0.05,top:roof})
+const stair=rect(-21.9,-16.32,-2.60,0.10)
 cbox(stone,stair,0,15.88,{top:roof})
 panel(glass,'n',16.35,-15.65,-7.18,2.55,11.55)
 panel(glass,'n',16.35,-6.43,-0.50,0.50,12.54)
