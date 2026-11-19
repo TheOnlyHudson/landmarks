@@ -1,0 +1,14 @@
+{
+  "id": "nola-st-alphonsus",
+  "name": "St. Alphonsus Church",
+  "model": "nola-st-alphonsus",
+  "place": "new-orleans-area",
+  "lng": -90.074667,
+  "lat": 29.930027,
+  "bearing": 323.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/328647184"
+  ]
+}

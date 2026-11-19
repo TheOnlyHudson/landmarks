@@ -1,0 +1,54 @@
+{
+  "id": "nola-st-alphonsus",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "historic",
+    "renaissance-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "St. Alphonsus Church 01",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Alphonsus_Church_01.JPG",
+      "author": "Nolabob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "St. Alphonsus Church 02",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Alphonsus_Church_02.JPG",
+      "author": "Nolabob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "St. Alphonsus Church 03",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Alphonsus_Church_03.JPG",
+      "author": "Nolabob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "St. Alphonsus Church 04",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Alphonsus_Church_04.JPG",
+      "author": "Nolabob",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/nola-st-alphonsus.glb",
+  "source": "generators/nola-st-alphonsus.ts"
+}
