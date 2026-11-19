@@ -1,0 +1,66 @@
+{
+  "id": "nola-andrew-jackson-statue",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "statue",
+    "equestrian",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Andrew Jackson NO.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Andrew_Jackson_NO.jpg",
+      "author": "Ianaré Sévi",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Andrew Jackson NO oblique.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Andrew_Jackson_NO_oblique.jpg",
+      "author": "Ianaré Sévi",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Andrew Jackson statue, New Orleans October 2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Andrew_Jackson_statue,_New_Orleans_October_2024.jpg",
+      "author": "lukeharold",
+      "license": "CC0"
+    },
+    {
+      "title": "Jackson Square New Orleans - General Jackson statue - 20 Feb 2022.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jackson_Square_New_Orleans_-_General_Jackson_statue_-_20_Feb_2022.jpg",
+      "author": "2C2K Photography",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Jackson Square Aerial Photo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jackson_Square_Aerial_Photo.jpg",
+      "author": "Jordon Dopp",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. Louis Cathedral, Jackson Square, French Quarter, New Orleans, Louisiana 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Louis_Cathedral,_Jackson_Square,_French_Quarter,_New_Orleans,_Louisiana_2.jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/nola-andrew-jackson-statue.glb",
+  "source": "generators/nola-andrew-jackson-statue.ts"
+}
