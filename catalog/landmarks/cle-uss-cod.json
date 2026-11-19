@@ -1,0 +1,15 @@
+{
+  "id": "cle-uss-cod",
+  "name": "USS Cod",
+  "model": "cle-uss-cod",
+  "place": "cleveland-area",
+  "lng": -81.6916281,
+  "lat": 41.5100737,
+  "bearing": 204.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2078835",
+  "replaces": [
+    "way/166174337"
+  ]
+}
