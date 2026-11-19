@@ -11,21 +11,30 @@
  * .detail.glb (detailZoom 16).
  *
  * How it differs from the Clemente, all from lidar: main span 132 m
- * (Clemente 131, Warhol 135); towers 32.5 m; the deck's crest 3 m south of
- * midspan; the chain hangs a little higher (16.1 m at midspan); a bearing
+ * (Clemente 131, Warhol 135); towers 32.5 m; a slightly steeper deck (4.3 %
+ * against 4.2 %); the chain hangs a little higher (16.1 m at midspan); a bearing
  * 4.7° further west than its sisters (339.3°), as the Ninth Street grid
  * turns; kiosk lanterns at 13.65 m.
  *
  * Frame: x across (+x upstream), y along toward the North Shore, z up,
  * metres; origin midway between the towers, on the water; bearing 339.295°.
  *
- * Roadway heights built to (lidar, within 0.25 m): road(y) = 13.95 −
- * 8.75e-4·(y + 3)² for |y + 3| ≤ 24, then 13.45 − 0.042·(|y + 3| − 24):
- * 13.95 m at y = −3, 11.7 m at the south tower and 11.5 m at the north
- * (y = ±66), 9.0 and 8.9 m at the end piers, 8.1 m at the abutments;
- * NAVD88 230.7 m at the crest (water 216.72 m). OSM outline way/642309568
- * and roadway way/55178637 carry no height or ele: these are the heights
- * to give the map.
+ * Roadway heights built to (lidar along OSM way/55178637, measured every
+ * 4 m in November 2026, fitted within 0.08 m), in lidar heights above the
+ * lidar water: road(y) = 13.85 − 8.96e-4·y² for |y| ≤ 24, then 13.33 −
+ * 0.043·(|y| − 24). The shared generator adds `DATUM` (0.53 m, the lidar
+ * water above the map's river), so in the model 14.38 m at midspan,
+ * 12.1 m at the towers (y = ±66), 9.3 m at the end piers, 8.65/8.45 m at the
+ * abutments; NAVD88 230.6 m at the crest, 224.5 m at the downtown end and
+ * 224.9 m 4 m in from the North Shore end. Before November 2026 the crest
+ * was put 3 m south of midspan at 13.95 m with a 4.2 % grade, which read
+ * 0.3 m high over the whole south side span, and the model stood 0.53 m
+ * low in the map; see the fix in the Clemente header. The road lands
+ * about 7 m past the downtown outline end (Fort Duquesne Boulevard) and
+ * 6-10 m past the North Shore one (Anderson Street, with steps down beside
+ * the abutment, way/545394693); the model ends at the abutment faces.
+ * OSM `ele` for the roadway: ~/landmarks-scratch/osm-ele/pit-rachel-
+ * carson-bridge.md.
  *
  * Sources:
  * - OSM: outline way/642309568 (man_made=bridge, bridge:structure=
@@ -72,7 +81,7 @@ export const CARSON: SisterSpec = {
   top: 32.5,
   low: 16.1,
   side: [[19.95, 11.75], [19.3, 11.35]],
-  road: { R0: 13.95, yc: -3, Lc: 24, g: 0.042 },
+  road: { R0: 13.85, yc: 0, Lc: 24, g: 0.043 },
   kioskTop: 13.65,
   ground: GROUND,
 }

@@ -46,8 +46,15 @@
  * deeper, on pale grey tubular supports: single columns where the track is
  * low, A-frames of two splayed legs where it is high. The station is its flat
  * canopy roof on posts.
+ *
+ * Night: red lights run up the lift hill, chasing or blinking (Carowinds
+ * Connection, general park discussion, December 2016; Love 2 Travel With
+ * Kids, March 2013: "lit up with red lights at night"; both look-only, and no
+ * licensed night photo). Drawn as `neon-striker-red` beads every 5 m on both
+ * sides of the lift. Their real spacing and mounting are not known.
  */
 import { buildCoaster } from './coaster-kit'
+import { finish } from './palette'
 
 // The OSM circuit, node by node, in the park frame (see coaster-kit), starting
 // at the station exit (the first node of way/669991776).
@@ -157,5 +164,6 @@ await buildCoaster({
   // spine a shade deeper, pale grey supports.
   colours: { deck: ['striker-red', 0xc9473f], spine: ['striker-red-2', 0xb03a35], supports: ['striker-grey', 0xc9cfd4] },
   supportR: [0.9, 1.05, 1.2],
+  lights: [{ from: 16, to: 100, kind: 'beads', every: 5, material: finish('neon-striker-red', 0xd8463f) }],
   meta: { height: 71, trackLength: 1620 },
 })

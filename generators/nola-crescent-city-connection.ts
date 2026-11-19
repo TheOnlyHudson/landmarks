@@ -28,19 +28,36 @@
  * Lidar has no water returns; the DEM and lidar agree on both banks
  * (CBD wharf 5.0-5.3 m, Algiers batture 0.6-1.0 m).
  *
- * Roadway heights the model is built to (lidar, tools/bridge_ele.py measure,
- * LA_2021GNO_1_C22, spread < 0.2 m at the nodes used; model z):
- * - 1958 span, way/24012355 (to the West Bank): 45.2 at the west end post,
- *   47.2 (y -441), 51.5 (-294), 52.3 (-243, tower), 53.3 (-163), crest
- *   53.9 (-43), 53.6 (77), 52.7 (197), 51.7 (280), 47.5 (435).
- * - 1988 span, way/59657208 (to the CBD) and HOV way/317191746, averaged
- *   (HOV reads 0.3-0.4 m higher, crossfall): 46.8 (-505), 50.4 (-410), 53.6
- *   (-279), 54.6 (-197), 55.4 (-77), crest 55.6 (4), 55.4 (83), 54.7 (184),
- *   53.9 (243), 52.2 (344), 49.2 (442).
- *   In NAVD88 add 0.85. No node on these ways carries `ele`, so the map
- *   guesses the decks; tagging the crests and the end-post nodes with these
- *   values (docs/bridge-heights.md) would make the map's roadways meet the
- *   bottom chords. Not done here (no OSM edits from this batch).
+ * Roadway heights the model is built to (lidar, tools/bridge_ele.py measure
+ * --every 20, LA_2021GNO_1_C22, readings with spread <= 0.22 m; model z, NAVD88
+ * - 0.85), re-measured in November 2026 for the OSM `ele` pins:
+ * - 1958 span, way/24012355 (to the West Bank): 43.6 (y -541), 46.5 (-461),
+ *   48.3 (-414), 51.5 (-294), 53.1 (-183), crest 53.8 (-103), 53.6 (57), 52.9
+ *   (177), 51.7 (280), 49.5 (375), 47.5 (435), 45.9 (480). ROAD_S.
+ * - 1988 span, way/59657208 (to the CBD, beside the north truss): 46.8
+ *   (-505), 50.6 (-400), 53.4 (-280), 54.5 (-197), crest 55.45 (3), 54.4
+ *   (183), 52.0 (344), 49.1 (442). ROAD_N.
+ * - 1988 span, HOV way/317191746 (beside the south truss), 0.3-0.4 m higher
+ *   (crossfall): 48.0 (-480), 50.9 (-400), 53.6 (-280), 55.8 (-56), 55.5
+ *   (84), 53.6 (276), 50.3 (416). ROAD_HOV.
+ * Each truss's bottom chord follows its own carriageway; the floor between
+ * them follows the lower. (Until November 2026 the 1988 trusses followed the
+ * two ways' average, 0.15-0.3 m over the mainline, and the 1958 table missed
+ * the curve near the Algiers end by 0.4 m.) In NAVD88 add 0.85. None of these
+ * ways carried `ele`; the pins for OSM, with their checks, are in
+ * ~/landmarks-scratch/osm-ele/nola-crescent-city-connection.md (.osc beside
+ * it), uploaded separately.
+ *
+ * Ends. CBD (west): the trusses end on their H end piers at y -495.5 (lidar),
+ * the cap's outer face flush with the end posts and the floor: the abutment
+ * face. The approach girders beyond are a separate OSM bridge (outlines
+ * way/1173588190 and way/1173738080, not listed in replaces) and the map's.
+ * Algiers (east): the trusses end at y 415.5 (lidar; nothing above the roadway
+ * past them), but the outline runs on to y 437-439, so the approach girder
+ * span is drawn on to a bent whose cap face is at y 441 (APPROACH_END): plate
+ * girders under each roadway's edge, the floor's underside and a parapet (one
+ * fascia band in the low model). From there the map's approach viaducts
+ * (way/23988761, way/24007764, the HOV way/12706095) carry on.
  *
  * Sources:
  * - OSM: outline relation/15864489 (man_made=bridge, two outer ways
@@ -105,8 +122,11 @@
  * from 44.8 m to the chord; footings 50.5 x 16 m (1988) and 30 x 14 m
  * (1958) from the OSM pier outlines; the strut at 25.5-29 m drawn on the
  * 1988 span's river piers; end piers (two 3.8 x 4.4 m shafts, a cap and a
- * strut, H as in the photos) on the map's ground (4.4 m west, 0.2 m east,
- * Mapterhorn). Diagonals alternate counted from each tower so the two
+ * strut, H as in the photos; the low model leaves the strut out and stands
+ * the shafts as plain boxes, to stay in its 250 KB) on the map's ground (4.4
+ * m west, 0.2 m east, Mapterhorn), and the Algiers approach bent drawn like
+ * them; the approach girders 1.0 x 2.4 m, the parapet 0.5 x 1.05 m.
+ * Diagonals alternate counted from each tower so the two
  * cantilevers mirror; the real web has more secondary members.
  * Colour: the steel reads medium blue-grey against the sky in every photo:
  * #7f8a96 (review round 1; the earlier pale #b9bfc5 vanished on the map),
@@ -121,12 +141,15 @@
  *   one, the wider (32 m truss spacing) carrying the HOV lanes in OSM; the
  *   mid-height strut on its river piers rests on reading the photos'
  *   viewpoints and may belong to the other span.
- * - replaces lists the outline relation: the model draws the structure over
- *   about 97% of it, but the outline is shifted ~20 m east, so the map loses
- *   its own piers/parapets over 24 m of the east approach and the model's
- *   west end post runs 18 m past the outline's west edge (over approach
- *   outline way/1173588190 / way/1173738080, which are not listed).
- * - The roadway the map draws has no `ele` (see above).
+ * - replaces lists the outline relation, which the model now covers end to
+ *   end: the outline is shifted ~20 m east of the lidar trusses, so the
+ *   model's west end posts run 10-18 m past its west edge (over approach
+ *   outlines way/1173588190 / way/1173738080, not listed, where the map may
+ *   also draw a pier), and the east end's approach span and bent are placed
+ *   by the outline, not by evidence: the real first approach pier isn't seen
+ *   in the lidar (the deck hides it) or in any photo closely enough.
+ * - The OSM `ele` pins are not uploaded yet; until they are, the map guesses
+ *   the decks (see Roadway heights).
  * - The suspended span's hinges and the secondary web members are left out.
  */
 import { Part, cross, sub, writeGlb, type V3 } from './mesh'
@@ -160,21 +183,42 @@ const TOP_S = [65.5, 66.4, 67.5, 68.5, 69.5, 70.5, 71.6, 72.6, 73.8, 75.4, 77.5,
   78.3, 78.3, 78.4, 79.1, 79.9, 82.1, 84.5, 87.8, 92.3, 97.4, 103.0, 109.0, 103.2, 96.4, 90.4, 85.2, 80.8, 77.4, 74.2, 72.2,
   70.5, 69.4, 68.3]
 
-/** Roadway (lidar, tools/bridge_ele.py, NAVD88 - 0.85) along each span. */
-const ROAD_N = piecewise([[-505, 46.8], [-410, 50.4], [-279, 53.6], [-197, 54.6], [-77, 55.4], [4, 55.6], [83, 55.4],
-  [184, 54.7], [243, 53.9], [344, 52.2], [442, 49.2]])
-const ROAD_S = piecewise([[-521, 44.3], [-441, 47.2], [-414, 48.3], [-294, 51.5], [-243, 52.3], [-163, 53.3], [-43, 53.9],
-  [77, 53.6], [197, 52.7], [280, 51.7], [435, 47.5]])
+/**
+ * Roadway along each carriageway (lidar LA_2021GNO_1_C22 via tools/bridge_ele.py
+ * measure --every 20, readings with spread <= 0.22 m, NAVD88 - 0.85), re-measured
+ * for the OSM `ele` pins (~/landmarks-scratch/osm-ele/nola-crescent-city-connection.md).
+ */
+const ROAD_S = piecewise([[-541, 43.55], [-461, 46.48], [-414, 48.29], [-354, 50.18], [-294, 51.48], [-223, 52.63],
+  [-183, 53.08], [-123, 53.63], [-103, 53.75], [57, 53.58], [97, 53.43], [177, 52.89], [280, 51.7], [375, 49.53],
+  [435, 47.46], [480, 45.86]]) // 1958 span, way/24012355
+const ROAD_N = piecewise([[-505, 46.84], [-460, 48.48], [-400, 50.63], [-280, 53.37], [-237, 54.03], [-197, 54.45],
+  [-137, 54.98], [-77, 55.28], [-37, 55.41], [3, 55.45], [43, 55.34], [103, 55.03], [143, 54.79], [183, 54.42],
+  [243, 53.71], [344, 52.04], [442, 49.09], [482, 47.85]]) // 1988 span, way/59657208 (beside the north truss)
+const ROAD_HOV = piecewise([[-539, 45.78], [-480, 48.01], [-440, 49.51], [-400, 50.94], [-340, 52.65], [-280, 53.63],
+  [-176, 54.99], [-116, 55.48], [-56, 55.79], [24, 55.74], [84, 55.46], [124, 55.2], [164, 54.93], [204, 54.53],
+  [276, 53.61], [416, 50.26], [456, 48.81], [476, 48.11]]) // 1988 span, HOV way/317191746 (beside the south truss)
+
+/**
+ * The Algiers end. The trusses end on their end piers at y 415.5 (lidar), but
+ * the bridge's outline (relation/15864489, which `replaces` lists, so the map
+ * draws no piers or parapets inside it) runs on to y 437-439. The approach
+ * girder span is drawn to a bent whose cap's outer face is at y 441, the
+ * abutment face the map's own approach viaduct (outside the outline) meets.
+ */
+const APPROACH_END = 441
 
 /** Map ground under the end piers (Mapterhorn, metres above the river). */
 const ground = (_x: number, y: number) => (y < 0 ? 4.4 : 0.2)
 
-type Span = { name: string; xs: [number, number]; top: number[]; road: (y: number) => number; footing: [number, number, number]; strut: boolean }
+type Road = (y: number) => number
+/** `roads` is the carriageway beside each truss (xs order); `road`, the lower, sets the floor under both. */
+type Span = { name: string; xs: [number, number]; top: number[]; roads: [Road, Road]; road: Road; footing: [number, number, number]; strut: boolean }
+const lower = (a: Road, b: Road): Road => (y) => Math.min(a(y), b(y))
 const SPANS: Span[] = [
   // 1988 span, downstream (north): trusses 32 m apart, 4 lanes + 2 HOV lanes.
-  { name: '1988', xs: [-77.2, -45.2], top: TOP_N, road: ROAD_N, footing: [-86.5, -36.0, 8], strut: true },
+  { name: '1988', xs: [-77.2, -45.2], top: TOP_N, roads: [ROAD_N, ROAD_HOV], road: lower(ROAD_N, ROAD_HOV), footing: [-86.5, -36.0, 8], strut: true },
   // 1958 span, upstream (south): trusses 20.8 m apart.
-  { name: '1958', xs: [50.8, 71.6], top: TOP_S, road: ROAD_S, footing: [46.3, 76.3, 7], strut: false },
+  { name: '1958', xs: [50.8, 71.6], top: TOP_S, roads: [ROAD_S, ROAD_S], road: ROAD_S, footing: [46.3, 76.3, 7], strut: false },
 ]
 
 // ---- Geometry helpers ------------------------------------------------------------
@@ -221,7 +265,9 @@ function box(p: Part, x0: number, x1: number, y0: number, y1: number, z0: number
 
 type Lod = 'low' | 'detail'
 
-function truss(steel: Part, xc: number, s: Span, lod: Lod) {
+function truss(steel: Part, xc: number, span: Span, lod: Lod) {
+  // The truss stands beside its own carriageway.
+  const s = { ...span, road: span.roads[span.xs.indexOf(xc)] }
   const top = piecewise(NODES.map((y, i) => [y, s.top[i]] as [number, number]))
   const TD = lod === 'low' ? 4.0 : 1.8 // top chord depth
   const W = lod === 'low' ? 2.6 : 1.3 // chord width across
@@ -316,7 +362,7 @@ function bracing(steel: Part, s: Span) {
 /** The deck's underside between the bottom chords, facing down. */
 function underside(p: Part, s: Span) {
   const [xa, xb] = s.xs
-  band(p, xa + 0.6, xb - 0.6, stations(BOT_END[0], BOT_END[1], 60), (y) => s.road(y) - 1.0, (y) => s.road(y) - 1.6, { bottom: true, ends: false })
+  band(p, xa + 0.6, xb - 0.6, stations(BOT_END[0], BOT_END[1], 60), (y) => s.road(y) - 1.0, (y) => s.road(y) - 1.6, { bottom: true, ends: true })
 }
 
 // ---- Piers ---------------------------------------------------------------------------------
@@ -335,21 +381,50 @@ function riverPier(c: Part, s: Span, y: number) {
   if (s.strut) box(c, s.xs[0] + 3.2, s.xs[1] - 3.2, y - 3.5, y + 3.5, 25.5, 29.0, true)
 }
 
-function endPier(c: Part, s: Span, y: number) {
+function endPier(c: Part, s: Span, y: number, lod: Lod) {
   const capTop = s.road(y) - 2.6
   for (const xc of s.xs) {
+    // Low model: plain shafts from the map's ground (flat under both ends); detail: footed on it.
+    if (lod === 'low') { box(c, xc - 1.9, xc + 1.9, y - 2.2, y + 2.2, ground(xc, y), capTop - 2.4); continue }
     const plan: [number, number][] = [[xc - 1.9, y - 2.2], [xc + 1.9, y - 2.2], [xc + 1.9, y + 2.2], [xc - 1.9, y + 2.2]]
     footedLoft(c, ground, [{ plan, z: 'ground' }, { plan, z: capTop - 2.4 }], 2.5, false)
   }
   box(c, s.xs[0] - 2.4, s.xs[1] + 2.4, y - 2.6, y + 2.6, capTop - 2.6, capTop, true)
+  if (lod === 'low') return // the strut between the shafts reads only close up
   const zm = (ground(0, y) + capTop) / 2
   box(c, s.xs[0] + 1.9, s.xs[1] - 1.9, y - 1.6, y + 1.6, zm - 1.4, zm + 1.4, true)
+}
+
+// ---- The Algiers approach span ---------------------------------------------------------
+
+/**
+ * From the trusses' end piers to the outline's end: two plate girders under
+ * each roadway's edge (the photos' approach spans are deck girders; lidar
+ * shows nothing above the roadway past the end posts), the floor's underside,
+ * a concrete parapet on each edge (the map leaves its own out inside the
+ * outline), and a bent like the end piers whose cap ends flush with the
+ * girders: the abutment face.
+ */
+function approach(steel: Part, shade: Part, concrete: Part, s: Span, lod: Lod) {
+  const y0 = BOT_END[1], y1 = APPROACH_END
+  const ys = stations(y0, y1, 30)
+  s.xs.forEach((xc, i) => {
+    // Low model: the girder and parapet as one fascia on the roadway's edge.
+    if (lod === 'low') return band(steel, xc - 0.5, xc + 0.5, ys, (y) => s.roads[i](y) + 1.05, (y) => s.roads[i](y) - 3.4, { out: true, in: true, top: true, bottom: true, ends: true })
+    const road = s.roads[i], inward = i === 0 ? 1 : -1
+    const xg = xc + inward * 1.2
+    band(steel, xg - 0.5, xg + 0.5, ys, (y) => road(y) - 1.0, (y) => road(y) - 3.4, { out: true, in: true, top: false, bottom: true, ends: true })
+    band(concrete, xc - 0.25, xc + 0.25, ys, (y) => road(y) + 1.05, (y) => road(y) - 0.9, { out: true, in: true, top: true, bottom: false, ends: true })
+  })
+  band(shade, s.xs[0] + 0.6, s.xs[1] - 0.6, ys, (y) => s.road(y) - 1.0, (y) => s.road(y) - 1.6, { bottom: true, ends: true })
+  endPier(concrete, s, y1 - 2.6, lod)
 }
 
 // ---- Lights --------------------------------------------------------------------------------
 
 /** 64 lights along each truss's top profile, end post to end post (Wikipedia: 4 strings of 64). */
-function lights(p: Part, xc: number, s: Span, count: number, r: number, tetra: boolean) {
+function lights(p: Part, xc: number, span: Span, count: number, r: number, tetra: boolean) {
+  const s = { ...span, road: span.roads[span.xs.indexOf(xc)] }
   const top = piecewise(NODES.map((y, i) => [y, s.top[i]] as [number, number]))
   const path: V3[] = [
     [xc, BOT_END[0] + 2, s.road(BOT_END[0]) + 4],
@@ -373,8 +448,9 @@ if (import.meta.main) {
       underside(shade, s)
       riverPier(concrete, s, -TOWER)
       riverPier(concrete, s, TOWER)
-      endPier(concrete, s, BOT_END[0] + 2.6)
-      endPier(concrete, s, BOT_END[1] - 2.6)
+      endPier(concrete, s, BOT_END[0] + 2.6, lod)
+      endPier(concrete, s, BOT_END[1] - 2.6, lod)
+      approach(steel, shade, concrete, s, lod)
     }
     return { steel, shade, concrete, lamp }
   }

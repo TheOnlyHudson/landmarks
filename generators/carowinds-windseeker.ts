@@ -51,6 +51,16 @@
  * nearly always seen and photographed.
  *
  * The tower circle is the only OSM building it covers, so it replaces that.
+ *
+ * Night: Mondial's lighting package, LED tubes along the frame's arms and
+ * down the hangers, and coloured floodlights on the tower from above
+ * (Wikipedia "WindSeeker"; mliu92's "Windseeker 0680", "Shading 0696" and
+ * "Light Show 0692", June 2012, CC BY-SA 2.0, show the tubes lit). The tubes
+ * change colour through red, magenta and cyan; they are drawn in one
+ * `neon-windseeker` in the frame's red, the colour of "Windseeker 0680",
+ * on the hangers and the arms' bottom chords, so the day look is unchanged.
+ * The tower's floodlight is `_FLOODLIGHT`, strongest under the UFO and fading
+ * down the tower; the map draws it warm white, not in the real colours.
  */
 import { Part, axisAngle, cross, sub, writeGlb, type ChannelSpec, type NodeSpec, type Quat, type V3 } from './mesh'
 import { PALETTE, finish } from './palette'
@@ -147,6 +157,9 @@ const SKY = finish('ride-sky', 0x72b3dd)        // light-blue tower bands
 const YELLOW = finish('ride-yellow', 0xe6c552)  // the tower's yellow bands
 const SILVER = finish('tower-silver', 0xd2d6da) // the grey steel tower
 const WHITE = PALETTE.trim                      // the carriage's machinery drum
+const NEON = finish('neon-windseeker', 0xc9503f) // the LED tubes, in the frame's red
+/** The tower's wash from the floodlights under the UFO: brightest at the head, gone by the foot. */
+const towerLit = (p: V3, n: V3) => (n[2] > 0.7 ? 0 : 0.9 * Math.min(1, Math.max(0, (p[2] - 15) / (TOWER_TOP - 15))) ** 1.5)
 
 // ---------------------------------------------------------------- tower ----
 const red = new Part(), blue = new Part(), sky = new Part(), yellow = new Part(), silver = new Part()
@@ -178,7 +191,7 @@ lathe([[0.3, 91.45], [0.12, 91.75], [0, 91.75]], () => white, 8)
 // frame is sixteen blades from the drum out to the rim, thick at the drum
 // and meeting at the rim like a shallow lens, so from below it reads as an
 // umbrella.
-const cRed = new Part(), cWhite = new Part(), cSky = new Part()
+const cRed = new Part(), cWhite = new Part(), cSky = new Part(), cNeon = new Part()
 const RIM_R = 9.6, RIM_Z = 6.0      // the hinge circle
 const RING_Z = 6.5                   // the ring the arms leave the drum from
 const DRUM_TOP = 10                  // top of the carriage
@@ -196,7 +209,7 @@ const ARMS = 16
 for (let i = 0; i < ARMS; i++) {
   const a = (i / ARMS) * TAU
   const foot = P(3.6, a, 0.75), head = P(3.8, a, RING_Z + 0.25), rim = P(RIM_R, a, RIM_Z + 0.2)
-  bar(cRed, foot, rim, 0.2)
+  bar(cNeon, foot, rim, 0.2)
   bar(cRed, head, rim, 0.2)
   bar(cRed, P(5.4, a, 2.2), P(6.6, a, 6.45), 0.14)
 }
@@ -209,9 +222,9 @@ for (let i = 0; i < ARMS; i++) {
 // their upper half is orange, but from any distance (the photo from the
 // park entrance) they read red with the frame, and a seventh colour would
 // break STYLE's limit of six.
-const sRed = new Part(), sBlue = new Part()
+const sRed = new Part(), sBlue = new Part(), sNeon = new Part()
 const SEAT_W = 0.85                     // half the bench's width
-box(sRed, -0.13, 0.13, -0.13, 0.13, -5.6, 0.2)
+box(sNeon, -0.13, 0.13, -0.13, 0.13, -5.6, 0.2)
 box(sRed, -0.42, -0.18, -0.12, 0.12, -8.75, -5.6)
 box(sRed, -0.3, 0.75, -SEAT_W, SEAT_W, -10.0, -9.45)      // the tub
 box(sBlue, -0.25, 0.7, -SEAT_W + 0.08, SEAT_W - 0.08, -9.45, -9.33) // seat
@@ -301,6 +314,7 @@ const nodes: NodeSpec[] = [{
     { part: cRed, material: RED },
     { part: cWhite, material: WHITE },
     { part: cSky, material: SKY },
+    { part: cNeon, material: NEON },
   ],
 }]
 const channels: ChannelSpec[] = [
@@ -310,6 +324,7 @@ const channels: ChannelSpec[] = [
 const swingParts = [
   { part: sRed, material: RED },
   { part: sBlue, material: BLUE },
+  { part: sNeon, material: NEON },
 ]
 const yaw = new Map<string, Quat>()
 for (let i = 0; i < SWINGS; i++) {
@@ -324,10 +339,10 @@ for (let i = 0; i < SWINGS; i++) {
 // ---------------------------------------------------------------- output ---
 const parts = [
   { part: red, material: RED },
-  { part: blue, material: BLUE },
-  { part: sky, material: SKY },
-  { part: yellow, material: YELLOW },
-  { part: silver, material: SILVER },
+  { part: blue, material: { ...BLUE, floodlight: towerLit } },
+  { part: sky, material: { ...SKY, floodlight: towerLit } },
+  { part: yellow, material: { ...YELLOW, floodlight: towerLit } },
+  { part: silver, material: { ...SILVER, floodlight: towerLit } },
   { part: white, material: WHITE },
 ]
 const triangles = [...parts, ...nodes.flatMap((n) => n.parts)].reduce((s, { part }) => s + part.triangles, 0)

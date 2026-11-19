@@ -34,8 +34,17 @@
  * ledgers with large openings, as coney-island-cyclone.ts does, in the
  * weathered silver-grey to grey-brown timber the photos show.
  * The station is the box building beside the brake run.
+ *
+ * Night: small white globe lamps stand on the lift's handrail posts, a few
+ * bays apart ("Twilight Juke Box 0659" and "Dinner Diner 0644", mliu92,
+ * June 2012, CC BY-SA 2.0). Drawn as `lamp` beads every 9 m on both sides of
+ * the lift; the photos show only the near side, so the far side is assumed.
+ * The floodlight on a pole by the turnaround ("Sunset Silhouette 0651", same
+ * author and licence) lights the midway, not the structure, so the trestle
+ * stays dark.
  */
 import { buildCoaster } from './coaster-kit'
+import { finish } from './palette'
 
 // The OSM circuit (way/650268718, way/650268717, way/239949108,
 // way/650268716, way/890803169, all oneway, in the direction of travel),
@@ -110,5 +119,6 @@ await buildCoaster({
   trestle: { every: 4.2, along: 2.2, levelStep: 3.4, ledgerH: 1.2 },
   colours: { deck: ['hurler-wood', 0x8e8579], spine: ['hurler-wood-2', 0x7f776c], supports: ['hurler-timber', 0x9a9184] },
   supportR: [0.5, 0.6, 0.7],
+  lights: [{ from: 40, to: 98, kind: 'beads', every: 9, material: finish('lamp', 0xe9e4da) }],
   meta: { height: 25.3, trackLength: 962 },
 })

@@ -53,7 +53,23 @@
  *     CC BY-SA 3.0 (the canopy edge sweeping down along the side);
  *   Music City Center - acre of solar panels.jpg, Rex Hammock, CC BY-SA 2.0
  *     (the pale roof membrane).
+ *   Street-level, Mapillary (CC BY-SA 4.0), all EVIDENCE: Mapillary contributor
+ *     390040802122156 (2019-12, the 6th Ave S portal from across Demonbreun St: an opening
+ *     spanning the road and both sidewalks, a dark lit passage, the far end in daylight);
+ *     967122520764473 (2019-06, inside the passage looking back out the portal: ceiling,
+ *     clearance); 322191466015589 (2020-01, the 7th Ave S entrance: a garage mouth signed
+ *     "Clearance 8'-2"", under the glazed concourse).
  *   No look-only sources were used. No commercial imagery.
+ * - 6th Avenue South passes through the halls (OSM way/471353808, tunnel=yes, layer=-1,
+ *   y 42-44, x -86.5..113.4, running on under the Loading Dock past X1; tunnel sidewalks
+ *   way/471353811 and way/471353810, y ~34 and 51-57). The Demonbreun wall is cut at y 31..57
+ *   from the road (lidar 8.3 m above the base at the portal; 4.0 m at x 118, east of the
+ *   Loading Dock) to ~6 m above it, and the passage is lined right through the hollow hall in
+ *   the dark slate: inward-facing side walls, a soffit, and a dark end at X1. The road inside
+ *   is taken as a straight grade between the two lidar readings. The 7th Ave S service road
+ *   (way/986034740) ends at the wall at node 9115300946, amenity=parking_entrance,
+ *   maxheight 8'2" (2.5 m): a car-park entrance, not a loading dock or truck entrance, so the
+ *   wall is not cut there.
  * - Colours from those photos and NAIP, pulled to the palette: pale
  *   limestone and membrane, copper-orange cladding, warm wood soffit and tan
  *   columns, olive green roof, dark solar panels.
@@ -66,8 +82,14 @@
  *   positions (paired, ~25 m apart, from the photos); the side and 8th Ave
  *   facades (few photos: drawn as limestone with grouped glazing on the
  *   Demonbreun concourse and a glazed band elsewhere).
+ *   The passage's clearance (~6 m, from the street photos against the signal poles and
+ *   people); the passage's lining (the real one is pale stone and a lit ceiling, drawn dark
+ *   so it reads as an opening).
  * Doubts: the 8th Ave (west) end and the Korean Veterans Blvd side have no
- *   photo here; the zigzag edges are read from a 1 m aerial (±2 m).
+ *   photo here; the zigzag edges are read from a 1 m aerial (±2 m). ground(y), used only
+ *   to place the glazing, runs ~1.5-2 m under the lidar's street along Demonbreun (8.3 m at
+ *   the portal against its 6.4), so the lowest glazing starts partly below the street; left
+ *   as approved. The road's profile inside the halls is not measured.
  */
 import { Part, type V3 } from './mesh'
 import { finish } from './palette'
@@ -106,6 +128,14 @@ const hA = grid(HA, -83, 18.44, 69, 14)
 const ground = (y: number) => Math.max(0, 8.5 - 0.0503 * y)
 
 const X0 = -85, X1 = 85, Y0 = -169, YM = 66, Y1 = 169
+
+// 6th Avenue South's passage through the halls (OSM way/471353808, tunnel=yes, layer=-1, at
+// y 42-44, its tunnel sidewalks way/471353811 at y ~34 and way/471353810 at y 51-57): the opening
+// spans y 31..57. Its road (lidar, above the base) is 8.3 m at the Demonbreun portal (x -86.5) and
+// 4.0 m at x 118 past the Loading Dock, taken as a straight grade between; the clearance is ~6 m
+// (Mapillary street photos of the portal, estimated).
+const PY0 = 31, PY1 = 57, CLEAR = 6.0
+const roadZ = (x: number) => 8.3 - ((8.3 - 4.0) * (x + 86.5)) / (118 + 86.5)
 
 // the green-roof fields (NAIP), each split into convex pieces: [x, y]
 const GREEN: XY[][] = [
@@ -200,13 +230,33 @@ function build(): Layer[] {
 
   // --- the exhibit halls: walls up to the waving roof ---
   const hall = ccw(rect(X0, Y0, X1, YM))
-  for (let i = 0; i < 4; i++) wall(stone, hall[i], hall[(i + 1) % 4], zero, (p) => hB(p[0], p[1]))
+  const roof = (p: XY) => hB(p[0], p[1])
+  for (let i = 0; i < 4; i++) {
+    const a = hall[i], b = hall[(i + 1) % 4]
+    if (a[0] !== X0 || b[0] !== X0) { wall(stone, a, b, zero, roof); continue }
+    // the Demonbreun wall, cut where 6th Avenue South and its sidewalks pass through
+    const [n, f] = a[1] > b[1] ? [PY1, PY0] : [PY0, PY1]
+    wall(stone, a, [X0, n], zero, roof)
+    wall(stone, [X0, n], [X0, f], zero, () => roadZ(X0) - 0.3)
+    wall(stone, [X0, n], [X0, f], () => roadZ(X0) + CLEAR, roof, 30)
+    wall(stone, [X0, f], b, zero, roof)
+  }
+  // the passage, lined right through the hollow hall: side walls facing in, a soffit, and a
+  // dark end at X1, where the road runs on under the separate Loading Dock building
+  {
+    const z0 = (p: XY) => Math.max(0, roadZ(p[0]) - 3), z1 = (p: XY) => roadZ(p[0]) + CLEAR
+    wall(dark, [X1, PY0], [X0, PY0], z0, z1, 30)
+    wall(dark, [X0, PY1], [X1, PY1], z0, z1, 30)
+    poly(dark, [[X0, PY0, z1([X0, 0])], [X1, PY0, z1([X1, 0])], [X1, PY1, z1([X1, 0])], [X0, PY1, z1([X0, 0])]], [0, 0, -1])
+    wall(dark, [X1 - 0.2, PY1], [X1 - 0.2, PY0], z0, z1, 30)
+  }
   drape(stone, rect(X0, Y0, X1, YM), hB, 0, 17, 11.75)
   for (const g of GREEN) drape(green, g, hB, 0.35, 17, 11.75)
   drape(dark, rect(-50, -163, -44, 55), hB, 0.35, 6, 11.75)
   // glazing: the Demonbreun concourse in two tiers; a ground-floor band on the other sides
   const gz = (p: XY) => ground(p[1])
-  bays(glass, [X0, YM], [X0, Y0], (p) => gz(p) + 1.2, (p) => gz(p) + 11, 9, 1.6)
+  const overPortal = (p: XY) => p[1] > PY0 - 4.5 && p[1] < PY1 + 4.5
+  bays(glass, [X0, YM], [X0, Y0], (p) => (overPortal(p) ? 99 : gz(p) + 1.2), (p) => gz(p) + 11, 9, 1.6)
   bays(glass, [X0, YM], [X0, Y0], (p) => gz(p) + 12.5, (p) => hB(p[0], p[1]) - 5, 9, 1.6)
   bays(glass, [X1, Y0], [X1, YM], (p) => gz(p) + 1.2, (p) => gz(p) + 7, 12, 4)
   bays(glass, [X0, Y0], [X1, Y0], (p) => gz(p) + 1.2, (p) => gz(p) + 7, 12, 4)
