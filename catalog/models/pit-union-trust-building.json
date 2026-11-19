@@ -1,0 +1,66 @@
+{
+  "id": "pit-union-trust-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "office",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Union Trust Building, 2025-12-27",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Trust_Building,_2025-12-27.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Pittsburgh Downtown 2019-06-08 Union Trust Building (composite)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittsburgh_Downtown_2019-06-08_Union_Trust_Building_(composite).jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Detail of the Union Trust Building, 2025-10-05-2",
+      "url": "https://commons.wikimedia.org/wiki/File:Detail_of_the_Union_Trust_Building,_2025-10-05-2.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Mansard Roof, Union Trust Building",
+      "url": "https://commons.wikimedia.org/wiki/File:Mansard_Roof,_Union_Trust_Building_(14079959758).jpg",
+      "author": "Barry Wise",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Union Trust Building in 1978 from an upper floor of Kaufmann's",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Trust_Building_in_1978_from_an_upper_floor_of_Kaufmann's.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Union Trust Building roof",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Trust_Building_roof.jpg",
+      "author": "XWRN",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/pit-union-trust-building.glb",
+  "source": "generators/pit-union-trust-building.ts"
+}

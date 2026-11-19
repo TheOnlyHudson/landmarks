@@ -1,0 +1,15 @@
+{
+  "id": "pit-union-trust-building",
+  "name": "Union Trust Building",
+  "model": "pit-union-trust-building",
+  "place": "pittsburgh-area",
+  "lng": -79.9970221,
+  "lat": 40.4399334,
+  "bearing": 27.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/121046649"
+  ],
+  "wikidata": "Q7886360"
+}
