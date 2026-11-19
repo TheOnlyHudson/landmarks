@@ -1,0 +1,15 @@
+{
+  "id": "pit-immaculate-heart-of-mary",
+  "name": "Immaculate Heart of Mary Church",
+  "model": "pit-immaculate-heart-of-mary",
+  "place": "pittsburgh-area",
+  "wikidata": "Q6004503",
+  "lng": -79.96794,
+  "lat": 40.456377,
+  "bearing": 357,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/542970157"
+  ]
+}

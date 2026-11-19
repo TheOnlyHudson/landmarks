@@ -1,0 +1,61 @@
+{
+  "id": "pit-immaculate-heart-of-mary",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "polish-cathedral-style",
+    "dome",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Immaculate Heart of Mary, Polish Hill, 2022-03-24, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Immaculate_Heart_of_Mary,_Polish_Hill,_2022-03-24,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Immaculate Heart of Mary, Polish Hill, 2022-03-24, 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Immaculate_Heart_of_Mary,_Polish_Hill,_2022-03-24,_02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Polish Hill from Herr's Island Railroad Bridge, 2015-06-28, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Polish_Hill_from_Herr%E2%80%99s_Island_Railroad_Bridge,_2015-06-28,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Immaculate Heart of Mary Church, Polish Hill, seen from Troy Hill, 2026-10-05-1",
+      "url": "https://commons.wikimedia.org/wiki/File:Immaculate_Heart_of_Mary_Church,_Polish_Hill,_seen_from_Troy_Hill,_2026-10-05-1.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "PolishHillChurch",
+      "url": "https://commons.wikimedia.org/wiki/File:PolishHillChurch.jpg",
+      "author": "Fo2grfr",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/pit-immaculate-heart-of-mary.glb",
+  "source": "generators/pit-immaculate-heart-of-mary.ts"
+}
