@@ -1,0 +1,48 @@
+{
+  "id": "det-broderick-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "skyscraper",
+    "residential"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Broderick Tower, Detroit",
+      "url": "https://commons.wikimedia.org/wiki/File:Broderick_Tower,_Detroit.jpg",
+      "author": "JJonahJackalope",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "David Broderick Tower as seen from Thomas Edison Memorial Fountain",
+      "url": "https://commons.wikimedia.org/wiki/File:David_Broderick_Tower_as_seen_from_Thomas_Edison_Memorial_Fountain,_Grand_Circus_Park,_Detroit_-_20201215.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Eaton Tower / Broderick Tower floor plans",
+      "url": "https://commons.wikimedia.org/wiki/File:Eaton_Tower_Broderick_Tower_floor_plans.png",
+      "author": "Louis and Paul Kamper",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/det-broderick-tower.glb",
+  "source": "generators/det-broderick-tower.ts"
+}
