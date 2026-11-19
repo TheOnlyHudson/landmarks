@@ -1,0 +1,14 @@
+{
+  "id": "nola-algiers-courthouse",
+  "name": "Algiers Courthouse",
+  "model": "nola-algiers-courthouse",
+  "place": "new-orleans-area",
+  "lng": -90.0540391,
+  "lat": 29.9536572,
+  "bearing": 144.3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/339457542"
+  ]
+}
