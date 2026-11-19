@@ -1,0 +1,55 @@
+{
+  "id": "nash-tennessee-supreme-court",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "courthouse",
+    "government",
+    "stripped-classical",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tennessee Supreme Court Building, 7th Avenue and Charlotte Avenue, Nashville, TN",
+      "url": "https://commons.wikimedia.org/w/index.php?search=Tennessee+Supreme+Court+Building+7th+Avenue+and+Charlotte+Avenue",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Tennessee Supreme Court Nashville 2022.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tennessee_Supreme_Court_Nashville_2022.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Tennessee Supreme Court building Nashville TN 2013-07-20 001.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tennessee_Supreme_Court_building_Nashville_TN_2013-07-20_001.jpg",
+      "author": "Thomas R Machnitzki",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Tennessee Supreme Court.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tennessee_Supreme_Court.jpg",
+      "author": "Jon698",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-tennessee-supreme-court.glb",
+  "source": "generators/nash-tennessee-supreme-court.ts"
+}
