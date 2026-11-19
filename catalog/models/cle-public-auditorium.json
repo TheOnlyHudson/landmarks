@@ -1,0 +1,75 @@
+{
+  "id": "cle-public-auditorium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "civic",
+    "auditorium",
+    "arena",
+    "historic",
+    "group-plan"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Cleveland Public Auditorium (1922) and Music Hall (1929): the Group Plan's long limestone hall on the Mall, with its row of arched windows, corner pavilions, glazed ground arcade, pale arena roof and stage house.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleveland Public Auditorium",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Public_Auditorium.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Public Auditorium (2018)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Public_Auditorium_(2018).jpg",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Public Auditorium Cleveland",
+      "url": "https://commons.wikimedia.org/wiki/File:Public_Auditorium_Cleveland.png",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Public Auditorium Cleveland from Convention Center roof",
+      "url": "https://commons.wikimedia.org/wiki/File:Public_Auditorium_Cleveland_from_Convention_Center_roof.png",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cleveaud",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveaud.jpg",
+      "author": "Wehwalt",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Cleveland Convention center Public auditorium 1922",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Convention_center_Public_auditorium_1922.jpg",
+      "author": "Mike Russell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Cleveland Public Auditorium, Cleveland, OH (28726170948)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Public_Auditorium,_Cleveland,_OH_(28726170948).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/cle-public-auditorium.glb",
+  "source": "generators/cle-public-auditorium.ts"
+}
