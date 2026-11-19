@@ -1,0 +1,74 @@
+{
+  "id": "pit-fort-duquesne-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "tied-arch",
+    "double-deck",
+    "steel"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/pit-fort-duquesne-bridge.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fort Duquesne Bridge, 2021-07-03",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Duquesne_Bridge,_2021-07-03.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Duquesne Bridge (2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Duquesne_Bridge_(2).jpg",
+      "author": "Chris Light",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Fort Duquesne Bridge P6210261",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Duquesne_Bridge_P6210261.JPG",
+      "author": "Chris Light",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Fort Duquesne Bridge, 2022-11-01, 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Duquesne_Bridge,_2022-11-01,_01.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Duquesne Bridge, 2022-11-01, 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Duquesne_Bridge,_2022-11-01,_02.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Duquesne Bridge, 2025-02-24",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Duquesne_Bridge,_2025-02-24.jpg",
+      "author": "Cbaile19",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Fort Duquesne Bridge at night (6369665703)",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Duquesne_Bridge_at_night_(6369665703).jpg",
+      "author": "daveynin",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/pit-fort-duquesne-bridge.glb",
+  "source": "generators/pit-fort-duquesne-bridge.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "pit-fort-duquesne-bridge",
+  "name": "Fort Duquesne Bridge",
+  "model": "pit-fort-duquesne-bridge",
+  "place": "pittsburgh-area",
+  "lng": -80.0091666,
+  "lat": 40.4442134,
+  "bearing": 166.047,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q5471105",
+  "replaces": [
+    "way/642309564"
+  ]
+}
