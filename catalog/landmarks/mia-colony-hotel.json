@@ -1,0 +1,15 @@
+{
+  "id": "mia-colony-hotel",
+  "name": "The Colony Hotel",
+  "model": "mia-colony-hotel",
+  "place": "miami-area",
+  "lng": -80.1315694,
+  "lat": 25.7774621,
+  "bearing": 11,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/435587753"
+  ],
+  "wikidata": "Q116618411"
+}
