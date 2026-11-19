@@ -1,0 +1,14 @@
+{
+  "id": "det-livingstone-lighthouse",
+  "name": "William Livingstone Memorial Lighthouse",
+  "model": "det-livingstone-lighthouse",
+  "place": "detroit-area",
+  "lng": -82.9543032,
+  "lat": 42.3470236,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/107208288"
+  ]
+}
