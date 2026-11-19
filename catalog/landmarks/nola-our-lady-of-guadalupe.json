@@ -1,0 +1,14 @@
+{
+  "id": "nola-our-lady-of-guadalupe",
+  "name": "Our Lady of Guadalupe Church",
+  "model": "nola-our-lady-of-guadalupe",
+  "place": "new-orleans-area",
+  "lng": -90.070714,
+  "lat": 29.958482,
+  "bearing": 306.8,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/367725733"
+  ]
+}

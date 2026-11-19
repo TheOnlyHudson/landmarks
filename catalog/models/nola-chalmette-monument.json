@@ -1,0 +1,60 @@
+{
+  "id": "nola-chalmette-monument",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "obelisk",
+    "memorial",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Chalmette Battlefield Monument",
+      "url": "https://commons.wikimedia.org/wiki/File:Chalmette_Battlefield_Monument.jpg",
+      "author": "Peter Flass",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Chalmette Battlefield Monument, January 2018",
+      "url": "https://commons.wikimedia.org/wiki/File:Chalmette_Battlefield_Monument,_January_2018.jpg",
+      "author": "The ed17",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Chalmette Battlefield obelisk Chalmette LA",
+      "url": "https://commons.wikimedia.org/wiki/File:Chalmette_Battlefield_obelisk_Chalmette_LA.jpg",
+      "author": "NastyCanasta",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Battle of New Orleans Monument",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_New_Orleans_Monument.jpg",
+      "author": "Molly Sweeney",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "ChalmetteMonumentRangerStairs",
+      "url": "https://commons.wikimedia.org/wiki/File:ChalmetteMonumentRangerStairs.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY 2.5"
+    }
+  ],
+  "file": "models/nola-chalmette-monument.glb",
+  "source": "generators/nola-chalmette-monument.ts"
+}

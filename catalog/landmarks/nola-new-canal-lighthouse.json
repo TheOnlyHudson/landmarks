@@ -1,0 +1,14 @@
+{
+  "id": "nola-new-canal-lighthouse",
+  "name": "New Canal Lighthouse",
+  "model": "nola-new-canal-lighthouse",
+  "place": "new-orleans-area",
+  "lng": -90.113285,
+  "lat": 30.026981,
+  "bearing": 1.2,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/325532727"
+  ]
+}

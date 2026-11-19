@@ -1,0 +1,66 @@
+{
+  "id": "nola-ogden-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "romanesque",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Howard Library Building, Camp Street, New Orleans, January 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Howard_Library_Building,_Camp_Street,_New_Orleans,_January_2023.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old Howard Library Building, New Orleans November 2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Howard_Library_Building,_New_Orleans_November_2024.jpg",
+      "author": "Daniel Hartwig",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "LeeCircle30Nov07HowardRiverward.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:LeeCircle30Nov07HowardRiverward.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Howard Library Camp Higgins Museums NOLA Nov 2011.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Howard_Library_Camp_Higgins_Museums_NOLA_Nov_2011.JPG",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Camp Street, New Orleans Central Business District, 12 March 2024 - Howard Library, Confederate Hall, Ogden Museum.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Camp_Street,_New_Orleans_Central_Business_District,_12_March_2024_-_Howard_Library,_Confederate_Hall,_Ogden_Museum.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ogden Museum and Confederate Museum, Camp Street, New Orleans, January 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ogden_Museum_and_Confederate_Museum,_Camp_Street,_New_Orleans,_January_2023.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nola-ogden-museum.glb",
+  "source": "generators/nola-ogden-museum.ts"
+}

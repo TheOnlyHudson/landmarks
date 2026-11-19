@@ -1,0 +1,13 @@
+{
+  "id": "nola-andrew-jackson-statue",
+  "name": "Andrew Jackson Statue",
+  "model": "nola-andrew-jackson-statue",
+  "place": "new-orleans-area",
+  "lng": -90.0629497,
+  "lat": 29.9574641,
+  "bearing": 37,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q4343568",
+  "replaces": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "nola-crescent-city-connection",
+  "name": "Crescent City Connection",
+  "model": "nola-crescent-city-connection",
+  "place": "new-orleans-area",
+  "lng": -90.0566262,
+  "lat": 29.9382912,
+  "bearing": 89.5,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q3002486",
+  "replaces": [
+    "relation/15864489",
+    "way/1173535705",
+    "way/1173535706",
+    "way/1173535707",
+    "way/1173535708"
+  ]
+}

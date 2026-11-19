@@ -1,0 +1,53 @@
+{
+  "id": "nola-saenger-theatre",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theatre",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Saenger Theatre - New Orleans (55151712266).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Saenger_Theatre_-_New_Orleans_(55151712266).jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "View of the Saenger Theatre in New Orleans from the east.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_the_Saenger_Theatre_in_New_Orleans_from_the_east.jpg",
+      "author": "Dllu",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "North Rampart Street, New Orleans 1 May 2025 - Saenger Theatre side.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Rampart_Street,_New_Orleans_1_May_2025_-_Saenger_Theatre_side.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Saenger Theatre, Canal & Rampart, New Orleans 16 April 2025 - 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Saenger_Theatre,_Canal_%26_Rampart,_New_Orleans_16_April_2025_-_1.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nola-saenger-theatre.glb",
+  "source": "generators/nola-saenger-theatre.ts"
+}

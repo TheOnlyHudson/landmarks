@@ -1,0 +1,65 @@
+{
+  "id": "nola-our-lady-of-guadalupe",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "OLGuadalupeChurchNOLA1964RampartFascade.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:OLGuadalupeChurchNOLA1964RampartFascade.jpg",
+      "author": "Dan Leyrer (HABS)",
+      "license": "Public domain"
+    },
+    {
+      "title": "OLGuadalupeChurchNOLA1964Corner.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:OLGuadalupeChurchNOLA1964Corner.jpg",
+      "author": "Dan Leyrer (HABS)",
+      "license": "Public domain"
+    },
+    {
+      "title": "RampartOurLadyGuadalupeOct07.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:RampartOurLadyGuadalupeOct07.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Our Lady of Guadalupe Chapel, New Orleans, September 2021 - 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_Guadalupe_Chapel,_New_Orleans,_September_2021_-_03.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Our Lady of Guadalupe Chapel, New Orleans, September 2021 - 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_Guadalupe_Chapel,_New_Orleans,_September_2021_-_01.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Corner of Rampart and Conti, New Orleans, Louisiana.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Corner_of_Rampart_and_Conti,_New_Orleans,_Louisiana.jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/nola-our-lady-of-guadalupe.glb",
+  "source": "generators/nola-our-lady-of-guadalupe.ts"
+}

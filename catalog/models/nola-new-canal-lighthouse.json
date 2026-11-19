@@ -1,0 +1,53 @@
+{
+  "id": "nola-new-canal-lighthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "lighthouse",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "New Canal Lighthouse",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Canal_Lighthouse.jpg",
+      "author": "Nolabob",
+      "license": "CC0"
+    },
+    {
+      "title": "New Canal Lighthouse, New Orleans, August 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Canal_Lighthouse,_New_Orleans,_August_2025.jpg",
+      "author": "abbeyprivate",
+      "license": "CC0"
+    },
+    {
+      "title": "New Basin Canal Lighthouse 2013 - New Orleans, LA",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Basin_Canal_Lighthouse_2013_-_New_Orleans,_LA.jpg",
+      "author": "Spatms",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "New Canal Lighthouse from Lakeshore Drive, New Orleans, 29 October 2016 - 1",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Canal_Lighthouse_from_Lakeshore_Drive,_New_Orleans,_29_October_2016_-_1.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nola-new-canal-lighthouse.glb",
+  "source": "generators/nola-new-canal-lighthouse.ts"
+}

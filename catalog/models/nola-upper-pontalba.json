@@ -1,0 +1,59 @@
+{
+  "id": "nola-upper-pontalba",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "residential"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Upper Pontalba Building, New Orleans.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Upper_Pontalba_Building,_New_Orleans.jpg",
+      "author": "Spatms",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pontalba Buildings (55151718941).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pontalba_Buildings_(55151718941).jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Pontalba Buildings.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pontalba_Buildings.jpg",
+      "author": "Yair Haklai",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New Orleans August 2022 - Lower Pontalba from Jackson Square.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_August_2022_-_Lower_Pontalba_from_Jackson_Square.jpg",
+      "author": "Tom Hilton",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Aerial photograph of Jackson Square, New Orleans, Louisiana.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_Jackson_Square,_New_Orleans,_Louisiana.jpg",
+      "author": "Mark Westguard",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/nola-upper-pontalba.glb",
+  "source": "generators/nola-upper-pontalba.ts"
+}

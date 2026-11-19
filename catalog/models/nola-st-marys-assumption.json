@@ -1,0 +1,54 @@
+{
+  "id": "nola-st-marys-assumption",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "historic",
+    "baroque-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "StMary26Oct07FrontIs",
+      "url": "https://commons.wikimedia.org/wiki/File:StMary26Oct07FrontIs.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "StMary26Oct07FrontA",
+      "url": "https://commons.wikimedia.org/wiki/File:StMary26Oct07FrontA.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "New Orleans, Antisocialtory - St. Mary's Assumption Church",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans,_Antisocialtory_-_St._Mary%27s_Assumption_Church.jpg",
+      "author": "antisocialtory",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "StMary26Oct07FromBelow",
+      "url": "https://commons.wikimedia.org/wiki/File:StMary26Oct07FromBelow.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/nola-st-marys-assumption.glb",
+  "source": "generators/nola-st-marys-assumption.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "nola-hibernia-bank-building",
+  "name": "Hibernia Bank Building",
+  "model": "nola-hibernia-bank-building",
+  "place": "new-orleans-area",
+  "lng": -90.071562,
+  "lat": 29.951753,
+  "bearing": 284.4,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q5750709",
+  "replaces": [
+    "way/328669466"
+  ]
+}

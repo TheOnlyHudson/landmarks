@@ -1,0 +1,66 @@
+{
+  "id": "nola-holy-name-of-jesus",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Holy Name of Jesus Church, Loyola U New Orleans October 2025 - 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Church,_Loyola_U_New_Orleans_October_2025_-_1.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Church, Loyola U New Orleans October 2025 - 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Church,_Loyola_U_New_Orleans_October_2025_-_2.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New Orleans (LA, USA) Holy Name of Jesus Church",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_(LA,_USA)_Holy_Name_of_Jesus_Church.jpg",
+      "author": "Arnoldius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Loyola - New Orleans - Holy Name Church 2013",
+      "url": "https://commons.wikimedia.org/wiki/File:Loyola_-_New_Orleans_-_Holy_Name_Church_2013.jpg",
+      "author": "Ed Bierman",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "The Holy Name of Jesus Catholic Church",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Holy_Name_of_Jesus_Catholic_Church.JPG",
+      "author": "Paolo Zampella",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Loyola-New Orleans",
+      "url": "https://commons.wikimedia.org/wiki/File:Loyola-New_Orleans.jpg",
+      "author": "Pierre5018",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nola-holy-name-of-jesus.glb",
+  "source": "generators/nola-holy-name-of-jesus.ts"
+}

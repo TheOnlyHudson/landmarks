@@ -1,0 +1,14 @@
+{
+  "id": "nola-lakefront-airport",
+  "name": "New Orleans Lakefront Airport Terminal",
+  "model": "nola-lakefront-airport",
+  "place": "new-orleans-area",
+  "lng": -90.025646,
+  "lat": 30.035933,
+  "bearing": 337,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/326462163"
+  ]
+}

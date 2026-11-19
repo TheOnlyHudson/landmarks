@@ -1,0 +1,87 @@
+{
+  "id": "nola-crescent-city-connection",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bridge",
+    "cantilever",
+    "truss"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "wikidata": "Q3002486",
+  "references": [
+    {
+      "title": "Crescent City Connection 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Crescent_City_Connection_2.jpg",
+      "author": "Nutriawood",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "New Orleans Crescent City Connection bridge 2008",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_Crescent_City_Connection_bridge_2008.jpg",
+      "author": "KimonBerlin",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Crescent City Connection Bridge, New Orleans, October 2023",
+      "url": "https://commons.wikimedia.org/wiki/File:Crescent_City_Connection_Bridge,_New_Orleans,_October_2023.jpg",
+      "author": "Gildardo",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Crescent City Connection-2",
+      "url": "https://commons.wikimedia.org/wiki/File:Crescent_City_Connection-2.jpg",
+      "author": "Yair Haklai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Crescent City Connection (closeup)",
+      "url": "https://commons.wikimedia.org/wiki/File:Crescent_City_Connection_(closeup).JPG",
+      "author": "Vegasjon",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Crescent City Connection skyline",
+      "url": "https://commons.wikimedia.org/wiki/File:Crescent_City_Connection_skyline.JPG",
+      "author": "Vegasjon",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Crescent City Connection-New Orleans",
+      "url": "https://commons.wikimedia.org/wiki/File:Crescent_City_Connection-New_Orleans.jpg",
+      "author": "Yair Haklai",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "USCGC Razorbill, at night, in New Orleans during Mardi Gras, 2011",
+      "url": "https://commons.wikimedia.org/wiki/File:USCGC_Razorbill,_at_night,_in_New_Orleans_during_Mardi_Gras,_2011.jpg",
+      "author": "Stephen Lehmann (US Coast Guard)",
+      "license": "public domain"
+    },
+    {
+      "title": "New Orleans (night)",
+      "url": "https://www.flickr.com/photos/88824995@N00/451760343",
+      "author": "aforero",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "detail": "models/nola-crescent-city-connection.detail.glb",
+  "detailZoom": 16,
+  "file": "models/nola-crescent-city-connection.glb",
+  "source": "generators/nola-crescent-city-connection.ts"
+}

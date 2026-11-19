@@ -1,0 +1,73 @@
+{
+  "id": "nola-place-st-charles",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "wikidata": "Q7200225",
+  "references": [
+    {
+      "title": "Place St. Charles 2016",
+      "url": "https://commons.wikimedia.org/wiki/File:Place_St._Charles_2016.jpg",
+      "author": "Fredlyfish4",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Place St Charles New Orleans seen from Hilton",
+      "url": "https://commons.wikimedia.org/wiki/File:Place_St_Charles_New_Orleans_seen_from_Hilton.jpg",
+      "author": "TonyTheTiger",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "CBD11Oct07PlaceStChasFromPoydrasBack",
+      "url": "https://commons.wikimedia.org/wiki/File:CBD11Oct07PlaceStChasFromPoydrasBack.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Office Towers - New Orleans, March 2015",
+      "url": "https://commons.wikimedia.org/wiki/File:Office_Towers_-_New_Orleans,_March_2015.jpg",
+      "author": "pasa47",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "New Orleans, LA - A few tall buildings",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans,_LA_-_A_few_tall_buildings.jpg",
+      "author": "TexasExplorer98",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "CBD10Oct07RampartPlaceStChasHiberniaDome",
+      "url": "https://commons.wikimedia.org/wiki/File:CBD10Oct07RampartPlaceStChasHiberniaDome.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "St Charles Avenue up from Canal Street New Orelasn May 2019 17",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Charles_Avenue_up_from_Canal_Street_New_Orelasn_May_2019_17.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/nola-place-st-charles.glb",
+  "source": "generators/nola-place-st-charles.ts"
+}

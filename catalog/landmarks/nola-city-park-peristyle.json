@@ -1,0 +1,14 @@
+{
+  "id": "nola-city-park-peristyle",
+  "name": "Peristyle",
+  "model": "nola-city-park-peristyle",
+  "place": "new-orleans-area",
+  "lng": -90.097422,
+  "lat": 29.9852,
+  "bearing": 6.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/325825562"
+  ]
+}

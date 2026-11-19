@@ -1,0 +1,22 @@
+{
+  "id": "nola-cabildo",
+  "name": "The Cabildo",
+  "model": "nola-cabildo",
+  "place": "new-orleans-area",
+  "lng": -90.0638819,
+  "lat": 29.9576552,
+  "bearing": 307.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7720883",
+  "replaces": [
+    "way/329364483",
+    "way/1548518174",
+    "way/1548518175",
+    "way/1548518176",
+    "way/1548518177",
+    "way/1548518178",
+    "way/1548518179",
+    "way/1548518180"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "nola-union-passenger-terminal",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "station",
+    "modernist",
+    "transport"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "wikidata": "Q14691825",
+  "references": [
+    {
+      "title": "New Orleans Union Passenger Terminal",
+      "url": "https://www.flickr.com/photos/16801915@N06/5981839205",
+      "author": "Reading Tom",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "New Orleans Union Passenger Terminal Feb 2018 Exterior",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_Union_Passenger_Terminal_Feb_2018_Exterior.jpg",
+      "author": "David Wilson",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Union Passenger Terminal, New Orleans",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Passenger_Terminal,_New_Orleans.jpg",
+      "author": "Vegasjon",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "NOUnionTerminal2Jan08FrontLoyolaAcross",
+      "url": "https://commons.wikimedia.org/wiki/File:NOUnionTerminal2Jan08FrontLoyolaAcross.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "New Orleans March 2018 Union Terminal and Streetcar",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_March_2018_Union_Terminal_and_Streetcar.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "NOUnionTerminal2Jan08Back",
+      "url": "https://commons.wikimedia.org/wiki/File:NOUnionTerminal2Jan08Back.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/nola-union-passenger-terminal.glb",
+  "source": "generators/nola-union-passenger-terminal.ts"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "nola-gibson-hall",
+  "name": "Gibson Hall",
+  "model": "nola-gibson-hall",
+  "place": "new-orleans-area",
+  "lng": -90.1227562,
+  "lat": 29.9354041,
+  "bearing": 28.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/327443127"
+  ]
+}

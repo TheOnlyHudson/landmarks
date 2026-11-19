@@ -1,0 +1,17 @@
+{
+  "id": "nola-upper-pontalba",
+  "name": "Upper Pontalba Building",
+  "model": "nola-upper-pontalba",
+  "place": "new-orleans-area",
+  "lng": -90.0635333,
+  "lat": 29.9568724,
+  "bearing": 37.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7228064",
+  "replaces": [
+    "relation/4610711",
+    "way/1549146919",
+    "way/1549146920"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "nola-gallier-hall",
+  "name": "Gallier Hall",
+  "model": "nola-gallier-hall",
+  "place": "new-orleans-area",
+  "lng": -90.071359,
+  "lat": 29.948594,
+  "bearing": 283.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5519049",
+  "replaces": [
+    "way/328669303"
+  ]
+}

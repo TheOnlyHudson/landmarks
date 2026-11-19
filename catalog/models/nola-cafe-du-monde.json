@@ -1,0 +1,65 @@
+{
+  "id": "nola-cafe-du-monde",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cafe",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "CafeDuMonde-FacingEastfromDacatur.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:CafeDuMonde-FacingEastfromDacatur.JPG",
+      "author": "Jeremykemp",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "New Orleans, LA (French Quarter) - Cafe du Monde Feb 2011.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans,_LA_(French_Quarter)_-_Cafe_du_Monde_Feb_2011.jpg",
+      "author": "JasonParis",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Café du Monde, New Orleans French Market.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_du_Monde,_New_Orleans_French_Market.jpg",
+      "author": "Spatms",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cafe du Monde in New Orleans.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Cafe_du_Monde_in_New_Orleans.JPG",
+      "author": "MusikAnimal",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "N Peters Street French Market New Orleans Feb 2020 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:N_Peters_Street_French_Market_New_Orleans_Feb_2020_01.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "French Quarter, New Orleans, 5 July 2021 - 43.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:French_Quarter,_New_Orleans,_5_July_2021_-_43.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nola-cafe-du-monde.glb",
+  "source": "generators/nola-cafe-du-monde.ts"
+}

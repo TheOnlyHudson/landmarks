@@ -1,0 +1,61 @@
+{
+  "id": "nola-four-seasons",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "hotel",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "wikidata": "Q17098710",
+  "references": [
+    {
+      "title": "Four Seasons Hotel and Private Residences New Orleans (55151701096)",
+      "url": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Hotel_and_Private_Residences_New_Orleans_(55151701096).jpg",
+      "author": "ajay_suresh",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Head of Canal Street, New Orleans, 30 January 2025 - ITM",
+      "url": "https://commons.wikimedia.org/wiki/File:Head_of_Canal_Street,_New_Orleans,_30_January_2025_-_ITM.jpg",
+      "author": "Infrogmation",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Head of Canal Street, New Orleans May 2026 - ITC building and Riverwalk entrance",
+      "url": "https://commons.wikimedia.org/wiki/File:Head_of_Canal_Street,_New_Orleans_May_2026_-_ITC_building_and_Riverwalk_entrance.jpg",
+      "author": "Infrogmation",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2 Canal Street - World Trade Center of New Orleans (27863263046)",
+      "url": "https://commons.wikimedia.org/wiki/File:2_Canal_Street_-_World_Trade_Center_of_New_Orleans_(27863263046).jpg",
+      "author": "Tony Webster",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Mississippi river view New Orleans July 2023",
+      "url": "https://commons.wikimedia.org/wiki/File:Mississippi_river_view_New_Orleans_July_2023.jpg",
+      "author": "Daquella manera",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/nola-four-seasons.glb",
+  "source": "generators/nola-four-seasons.ts"
+}

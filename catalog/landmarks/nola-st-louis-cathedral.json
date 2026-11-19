@@ -1,0 +1,20 @@
+{
+  "id": "nola-st-louis-cathedral",
+  "name": "St. Louis Cathedral",
+  "model": "nola-st-louis-cathedral",
+  "place": "new-orleans-area",
+  "lng": -90.063755,
+  "lat": 29.958,
+  "bearing": 307,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q167538",
+  "replaces": [
+    "way/329364492",
+    "way/1548295055",
+    "way/1548295056",
+    "way/1548295057",
+    "way/1548295058",
+    "way/1548295059"
+  ]
+}

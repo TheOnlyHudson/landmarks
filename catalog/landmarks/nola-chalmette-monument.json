@@ -1,0 +1,14 @@
+{
+  "id": "nola-chalmette-monument",
+  "name": "Chalmette Monument",
+  "model": "nola-chalmette-monument",
+  "place": "new-orleans-area",
+  "lng": -89.9941365,
+  "lat": 29.9424491,
+  "bearing": 28.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/608485395"
+  ]
+}

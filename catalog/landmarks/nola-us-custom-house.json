@@ -1,0 +1,14 @@
+{
+  "id": "nola-us-custom-house",
+  "name": "U.S. Custom House",
+  "model": "nola-us-custom-house",
+  "place": "new-orleans-area",
+  "lng": -90.066291,
+  "lat": 29.952098,
+  "bearing": 38.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/208520459"
+  ]
+}

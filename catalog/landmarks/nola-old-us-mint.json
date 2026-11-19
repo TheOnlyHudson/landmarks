@@ -1,0 +1,15 @@
+{
+  "id": "nola-old-us-mint",
+  "name": "Old U.S. Mint",
+  "model": "nola-old-us-mint",
+  "place": "new-orleans-area",
+  "lng": -90.0578,
+  "lat": 29.961396,
+  "bearing": 38.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q195919",
+  "replaces": [
+    "way/345253057"
+  ]
+}

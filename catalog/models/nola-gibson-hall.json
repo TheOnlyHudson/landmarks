@@ -1,0 +1,66 @@
+{
+  "id": "nola-gibson-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "romanesque",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tulane University - Gibson Hall from St. Charles Avenue, February 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:Tulane_University_-_Gibson_Hall_from_St._Charles_Avenue,_February_2026.jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Gibson Hall (3314289344)",
+      "url": "https://commons.wikimedia.org/wiki/File:Gibson_Hall_(3314289344).jpg",
+      "author": "Tulane Public Relations",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Gibson Hall angle",
+      "url": "https://commons.wikimedia.org/wiki/File:Gibson_Hall_angle.jpg",
+      "author": "Gonk",
+      "license": "Public domain"
+    },
+    {
+      "title": "Gibson Hall, 2019",
+      "url": "https://commons.wikimedia.org/wiki/File:Gibson_Hall,_2019.jpg",
+      "author": "EEJCC",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Tulane U Mch2013 Gibson Dinwiddie",
+      "url": "https://commons.wikimedia.org/wiki/File:Tulane_U_Mch2013_Gibson_Dinwiddie.JPG",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Gibson at night (5042969964)",
+      "url": "https://commons.wikimedia.org/wiki/File:Gibson_at_night_(5042969964).jpg",
+      "author": "Tulane Public Relations",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nola-gibson-hall.glb",
+  "source": "generators/nola-gibson-hall.ts"
+}

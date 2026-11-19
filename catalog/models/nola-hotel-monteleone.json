@@ -1,0 +1,71 @@
+{
+  "id": "nola-hotel-monteleone",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "hotel",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "French Quarter, New Orleans 1 May 2025 - Hotel Monteleone.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:French_Quarter,_New_Orleans_1_May_2025_-_Hotel_Monteleone.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hotel Monteleone and the Marriott.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hotel_Monteleone_and_the_Marriott.jpg",
+      "author": "pasa47",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "MaisonBlancheGarageRoof1990Monteleone.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:MaisonBlancheGarageRoof1990Monteleone.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Hotel Monteleone (55152089335).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hotel_Monteleone_(55152089335).jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Monteleone NOLA Cake Architecture.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monteleone_NOLA_Cake_Architecture.jpg",
+      "author": "Bart Everson",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Monteleone front fascade 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Monteleone_front_fascade_1.jpg",
+      "author": "Bart Everson",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Hotel Monteleone New Orleans October 2019 exterior.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hotel_Monteleone_New_Orleans_October_2019_exterior.jpg",
+      "author": "David Ohmer",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nola-hotel-monteleone.glb",
+  "source": "generators/nola-hotel-monteleone.ts"
+}

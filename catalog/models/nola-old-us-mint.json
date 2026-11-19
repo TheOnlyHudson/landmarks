@@ -1,0 +1,60 @@
+{
+  "id": "nola-old-us-mint",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "greek-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "New Orleans Jazz Museum - Old Mint building from Esplanade Avenue, February 2026.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_Jazz_Museum_-_Old_Mint_building_from_Esplanade_Avenue,_February_2026.jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "EsplanadeNPetersOldMint.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:EsplanadeNPetersOldMint.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "New Orleans 2007 - Old Mint on Esplanade.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_2007_-_Old_Mint_on_Esplanade.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New Orleans 2007 - Old Mint, Upriver side.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_2007_-_Old_Mint,_Upriver_side.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New Orleans Jazz Museum at Old U.S. Mint.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_Jazz_Museum_at_Old_U.S._Mint.jpg",
+      "author": "DNMaurer",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nola-old-us-mint.glb",
+  "source": "generators/nola-old-us-mint.ts"
+}

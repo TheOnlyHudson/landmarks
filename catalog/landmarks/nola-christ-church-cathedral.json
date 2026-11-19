@@ -1,0 +1,14 @@
+{
+  "id": "nola-christ-church-cathedral",
+  "name": "Christ Church Cathedral",
+  "model": "nola-christ-church-cathedral",
+  "place": "new-orleans-area",
+  "lng": -90.087973,
+  "lat": 29.93043,
+  "bearing": 327.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/4596569"
+  ]
+}

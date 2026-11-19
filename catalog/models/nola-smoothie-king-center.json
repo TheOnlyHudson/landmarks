@@ -1,0 +1,72 @@
+{
+  "id": "nola-smoothie-king-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "sports"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "wikidata": "Q1515840",
+  "references": [
+    {
+      "title": "Smoothie King Center (55151708016)",
+      "url": "https://commons.wikimedia.org/wiki/File:Smoothie_King_Center_(55151708016).jpg",
+      "author": "ajay_suresh",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "New Orleans Arena, exterior view, 10 January 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_Arena,_exterior_view,_10_January_2022.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Smoothie King Center New Orleans 27 Oct 2020 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Smoothie_King_Center_New_Orleans_27_Oct_2020_01.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Smoothie King Center New Orleans 27 Oct 2020 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Smoothie_King_Center_New_Orleans_27_Oct_2020_03.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "New Orleans from the Air September 2019 - Superdome and Arena",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_from_the_Air_September_2019_-_Superdome_and_Arena.jpg",
+      "author": "George Bannister",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "DHS Agencies Support Super Bowl LIX Security February 2025 - 104",
+      "url": "https://commons.wikimedia.org/wiki/File:DHS_Agencies_Support_Super_Bowl_LIX_Security_February_2025_-_104.jpg",
+      "author": "DHSgov",
+      "license": "Public domain"
+    },
+    {
+      "title": "DHS Agencies Support Super Bowl LIX Security February 2025 - 91",
+      "url": "https://commons.wikimedia.org/wiki/File:DHS_Agencies_Support_Super_Bowl_LIX_Security_February_2025_-_91.jpg",
+      "author": "DHSgov",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nola-smoothie-king-center.glb",
+  "source": "generators/nola-smoothie-king-center.ts"
+}

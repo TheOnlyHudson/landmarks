@@ -1,0 +1,54 @@
+{
+  "id": "nola-energy-centre",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Energy Centre",
+      "url": "https://commons.wikimedia.org/wiki/File:Energy_Centre.jpg",
+      "author": "Nolaguy1208",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "New Orleans Tower Light",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_Tower_Light.jpg",
+      "author": "Niels Olson",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "NOCBDEnergyCenterLoyola",
+      "url": "https://commons.wikimedia.org/wiki/File:NOCBDEnergyCenterLoyola.jpg",
+      "author": "Infrogmation",
+      "license": "CC-BY-2.5"
+    },
+    {
+      "title": "20080106 Hilton Skydeck",
+      "url": "https://commons.wikimedia.org/wiki/File:20080106_Hilton_Skydeck.JPG",
+      "author": "TonyTheTiger",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/nola-energy-centre.glb",
+  "source": "generators/nola-energy-centre.ts"
+}

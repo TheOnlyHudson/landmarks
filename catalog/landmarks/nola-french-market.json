@@ -1,0 +1,18 @@
+{
+  "id": "nola-french-market",
+  "name": "French Market",
+  "model": "nola-french-market",
+  "place": "new-orleans-area",
+  "lng": -90.061475,
+  "lat": 29.957924,
+  "bearing": 38.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3087476",
+  "replaces": [
+    "way/329364505",
+    "way/329364588",
+    "way/345253096",
+    "relation/7064857"
+  ]
+}

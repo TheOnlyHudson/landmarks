@@ -1,0 +1,15 @@
+{
+  "id": "nola-jax-brewery",
+  "name": "Jax Brewery",
+  "model": "nola-jax-brewery",
+  "place": "new-orleans-area",
+  "lng": -90.062739,
+  "lat": 29.956321,
+  "bearing": 38.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6116967",
+  "replaces": [
+    "way/329364474"
+  ]
+}

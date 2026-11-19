@@ -1,0 +1,18 @@
+{
+  "id": "nola-hotel-monteleone",
+  "name": "Hotel Monteleone",
+  "model": "nola-hotel-monteleone",
+  "place": "new-orleans-area",
+  "lng": -90.067849,
+  "lat": 29.954243,
+  "bearing": 307.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5911756",
+  "replaces": [
+    "way/485366685",
+    "way/208608977",
+    "way/208608976",
+    "way/208608980"
+  ]
+}

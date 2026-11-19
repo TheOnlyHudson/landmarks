@@ -1,0 +1,66 @@
+{
+  "id": "nola-st-patricks-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "historic",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "St. Patrick's Church, New Orleans, February 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Patrick%27s_Church,_New_Orleans,_February_2026.jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "StPatNOCBDA",
+      "url": "https://commons.wikimedia.org/wiki/File:StPatNOCBDA.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Camp Street NOLA St Patricks Church 1963",
+      "url": "https://commons.wikimedia.org/wiki/File:Camp_Street_NOLA_St_Patricks_Church_1963.jpg",
+      "author": "Dan Leyrer (HABS)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Church of St Patrick New Orleans September 2019",
+      "url": "https://commons.wikimedia.org/wiki/File:Church_of_St_Patrick_New_Orleans_September_2019.jpg",
+      "author": "Bernard Spragg. NZ",
+      "license": "CC0"
+    },
+    {
+      "title": "St. Patrick's Church, New Orleans",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Patrick%27s_Church,_New_Orleans.jpg",
+      "author": "Yair Haklai",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "HABS LA-1111 plan and Camp Street elevation",
+      "url": "https://commons.wikimedia.org/wiki/File:Historic_American_Buildings_Survey_CAMP_STREET_ELEVATION_-_ST._PATRICK%27S_R._C._CHURCH_c._1839_-_JAMES_GALLIER,_ARCHITECT,_IN_COLLECTION_OF_THE_LOUISIANA_STATE_MUSEUM,_JACKSON_HABS_LA,36-NEWOR,59-8.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nola-st-patricks-church.glb",
+  "source": "generators/nola-st-patricks-church.ts"
+}

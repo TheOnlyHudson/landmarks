@@ -1,0 +1,71 @@
+{
+  "id": "nola-french-market",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "market",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "French Quarter, New Orleans, 5 July 2021 - 43.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:French_Quarter,_New_Orleans,_5_July_2021_-_43.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "N Peters Street French Market New Orleans Feb 2020 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:N_Peters_Street_French_Market_New_Orleans_Feb_2020_01.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Dumaine & Decatur Streets, French Quarter, July 2008 Phonecall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dumaine_%26_Decatur_Streets,_French_Quarter,_July_2008_Phonecall.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "French Market arch New Orleans May 2009.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:French_Market_arch_New_Orleans_May_2009.jpg",
+      "author": "Derek Bridges",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "French Market, New Orleans, USA1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:French_Market,_New_Orleans,_USA1.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "City of New Orleans, The French Market, March 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:City_of_New_Orleans,_The_French_Market,_March_2015.jpg",
+      "author": "Steve Knight",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "New Orleans Dutch Alley up from Red Stores Feb 2020.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_Dutch_Alley_up_from_Red_Stores_Feb_2020.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nola-french-market.glb",
+  "source": "generators/nola-french-market.ts"
+}

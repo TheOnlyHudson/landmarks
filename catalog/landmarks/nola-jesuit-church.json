@@ -1,0 +1,15 @@
+{
+  "id": "nola-jesuit-church",
+  "name": "Church of the Immaculate Conception (Jesuit Church)",
+  "model": "nola-jesuit-church",
+  "place": "new-orleans-area",
+  "lng": -90.07148,
+  "lat": 29.953454,
+  "bearing": 136,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/328669272"
+  ],
+  "wikidata": "Q12060694"
+}

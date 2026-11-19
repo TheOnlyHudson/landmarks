@@ -1,0 +1,65 @@
+{
+  "id": "nola-noma",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "City Park New Orleans November 2017 04 NOMA Front",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Park_New_Orleans_November_2017_04_NOMA_Front.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New Orleans City Park 2 Nov 2017 NOMA Front",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_City_Park_2_Nov_2017_NOMA_Front.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "City Park New Orleans November 2017 NOMA Corner",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Park_New_Orleans_November_2017_NOMA_Corner.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Foggy Museum, New Orleans October 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Foggy_Museum,_New_Orleans_October_2022.jpg",
+      "author": "Bart Everson",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "City Park, New Orleans 19 Feb 2026 - NOMA and ducks",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Park,_New_Orleans_19_Feb_2026_-_NOMA_and_ducks.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "City Park, New Orleans 2019 - Behind NOMA",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Park,_New_Orleans_2019_-_Behind_NOMA.jpg",
+      "author": "William Marnoch",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nola-noma.glb",
+  "source": "generators/nola-noma.ts"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "nola-aquarium-of-the-americas",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "aquarium",
+    "museum"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Audubon Aquarium (55151703296)",
+      "url": "https://commons.wikimedia.org/wiki/File:Audubon_Aquarium_(55151703296).jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Aquarium of the Americas from the Mississippi River, New Orleans October 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:Aquarium_of_the_Americas_from_the_Mississippi_River,_New_Orleans_October_2024.jpg",
+      "author": "lukeharold",
+      "license": "CC0"
+    },
+    {
+      "title": "Aquarium of the Americas in New Orleans",
+      "url": "https://commons.wikimedia.org/wiki/File:Aquarium_of_the_Americas_in_New_Orleans.JPG",
+      "author": "MusikAnimal",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Aquarium of the Americas in New Orleans 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Aquarium_of_the_Americas_in_New_Orleans_2.JPG",
+      "author": "MusikAnimal",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Aquarium of the Americas and World Trade Center of New Orleans",
+      "url": "https://commons.wikimedia.org/wiki/File:Aquarium_of_the_Americas_and_World_Trade_Center_of_New_Orleans.jpg",
+      "author": "Yair Haklai",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Aquarium of the Americas and Red Streetcar",
+      "url": "https://commons.wikimedia.org/wiki/File:Aquarium_of_the_Americas_and_Red_Streetcar.jpg",
+      "author": "Reading Tom",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nola-aquarium-of-the-americas.glb",
+  "source": "generators/nola-aquarium-of-the-americas.ts"
+}

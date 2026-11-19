@@ -1,0 +1,15 @@
+{
+  "id": "nola-holy-name-of-jesus",
+  "name": "Holy Name of Jesus Church",
+  "model": "nola-holy-name-of-jesus",
+  "place": "new-orleans-area",
+  "lng": -90.1219627,
+  "lat": 29.9345741,
+  "bearing": 26.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/4577137"
+  ],
+  "wikidata": "Q133049494"
+}

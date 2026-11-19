@@ -1,0 +1,72 @@
+{
+  "id": "nola-old-ursuline-convent",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "convent",
+    "colonial"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Old Ursuline Convent 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Ursuline_Convent_01.jpg",
+      "author": "Turbine682",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "UrsulinesFQExtChartresSideFascadeMainDiagonal.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:UrsulinesFQExtChartresSideFascadeMainDiagonal.JPG",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "UConvent2003Mbtrama.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:UConvent2003Mbtrama.jpg",
+      "author": "mbtr",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Old Ursuline Convent, New Orleans, LA.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Ursuline_Convent,_New_Orleans,_LA.jpg",
+      "author": "TexasExplorer98",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Chartres14Jan2008UrsulineConvent.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Chartres14Jan2008UrsulineConvent.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Old Ursuline Convent 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Ursuline_Convent_02.jpg",
+      "author": "Turbine682",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. Mary's Catholic Church, New Orleans.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Mary%27s_Catholic_Church,_New_Orleans.JPG",
+      "author": "Brendan J. O'Reilly",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/nola-old-ursuline-convent.glb",
+  "source": "generators/nola-old-ursuline-convent.ts"
+}

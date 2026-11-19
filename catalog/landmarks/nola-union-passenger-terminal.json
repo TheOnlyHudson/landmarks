@@ -1,0 +1,15 @@
+{
+  "id": "nola-union-passenger-terminal",
+  "name": "New Orleans Union Passenger Terminal",
+  "model": "nola-union-passenger-terminal",
+  "place": "new-orleans-area",
+  "lng": -90.0786956,
+  "lat": 29.9463316,
+  "bearing": 15,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/328803040"
+  ],
+  "wikidata": "Q14691825"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "nola-st-louis-cemetery-1",
+  "name": "St. Louis Cemetery No. 1",
+  "model": "nola-st-louis-cemetery-1",
+  "place": "new-orleans-area",
+  "lng": -90.0715043,
+  "lat": 29.9594141,
+  "bearing": 38.1,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

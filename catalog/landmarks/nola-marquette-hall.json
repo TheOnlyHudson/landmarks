@@ -1,0 +1,14 @@
+{
+  "id": "nola-marquette-hall",
+  "name": "Marquette Hall",
+  "model": "nola-marquette-hall",
+  "place": "new-orleans-area",
+  "lng": -90.1214073,
+  "lat": 29.9347096,
+  "bearing": 26.3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "relation/4577139"
+  ]
+}

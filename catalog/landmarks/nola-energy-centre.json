@@ -1,0 +1,19 @@
+{
+  "id": "nola-energy-centre",
+  "name": "Energy Centre",
+  "model": "nola-energy-centre",
+  "place": "new-orleans-area",
+  "lng": -90.0754935,
+  "lat": 29.9498647,
+  "bearing": 14.5,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/328669265",
+    "way/331227876",
+    "way/331227877",
+    "way/331227878",
+    "way/331227879",
+    "way/331227880"
+  ]
+}

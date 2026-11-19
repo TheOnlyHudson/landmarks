@@ -1,0 +1,19 @@
+{
+  "id": "nola-ogden-museum",
+  "name": "Ogden Museum of Southern Art",
+  "model": "nola-ogden-museum",
+  "place": "new-orleans-area",
+  "lng": -90.071423,
+  "lat": 29.943509,
+  "bearing": 14.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2390897",
+  "replaces": [
+    "way/328848201",
+    "way/1391223539",
+    "way/1391223536",
+    "way/1391223537",
+    "way/427521132"
+  ]
+}

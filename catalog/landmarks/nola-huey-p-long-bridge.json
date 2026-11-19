@@ -1,0 +1,18 @@
+{
+  "id": "nola-huey-p-long-bridge",
+  "name": "Huey P. Long Bridge",
+  "model": "nola-huey-p-long-bridge",
+  "place": "new-orleans-area",
+  "lng": -90.1682056,
+  "lat": 29.9435025,
+  "bearing": 135.47,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q579088",
+  "replaces": [
+    "way/1173539226",
+    "way/1173539228",
+    "way/1173539229",
+    "way/1173539230"
+  ]
+}

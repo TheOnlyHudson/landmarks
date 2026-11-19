@@ -1,0 +1,15 @@
+{
+  "id": "nola-st-marys-assumption",
+  "name": "St. Mary's Assumption Church",
+  "model": "nola-st-marys-assumption",
+  "place": "new-orleans-area",
+  "lng": -90.074598,
+  "lat": 29.929331,
+  "bearing": 54.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/328032233"
+  ],
+  "wikidata": "Q7590087"
+}

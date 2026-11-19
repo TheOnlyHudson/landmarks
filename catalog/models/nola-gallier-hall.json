@@ -1,0 +1,66 @@
+{
+  "id": "nola-gallier-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "greek-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Gallier Hall, New Orleans 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gallier_Hall,_New_Orleans_01.jpg",
+      "author": "Ktkvtsh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Gallier Hall, New Orleans 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gallier_Hall,_New_Orleans_03.jpg",
+      "author": "Ktkvtsh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Gallier Hall, New Orleans 05.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gallier_Hall,_New_Orleans_05.jpg",
+      "author": "Ktkvtsh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Gallier Hall, New Orleans 18 December 2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gallier_Hall,_New_Orleans_18_December_2025.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gallier Hall-New Orleans.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gallier_Hall-New_Orleans.jpg",
+      "author": "Yair-haklai",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gallier Hall at night, New Orleans February 2014.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gallier_Hall_at_night,_New_Orleans_February_2014.jpg",
+      "author": "Tom Woodward",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/nola-gallier-hall.glb",
+  "source": "generators/nola-gallier-hall.ts"
+}

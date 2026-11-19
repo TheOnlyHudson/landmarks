@@ -1,0 +1,14 @@
+{
+  "id": "nola-st-augustine-church",
+  "name": "St. Augustine Church",
+  "model": "nola-st-augustine-church",
+  "place": "new-orleans-area",
+  "lng": -90.06632,
+  "lat": 29.9653815,
+  "bearing": 307.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/345285965"
+  ]
+}

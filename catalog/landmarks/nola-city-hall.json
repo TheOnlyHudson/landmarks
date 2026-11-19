@@ -1,0 +1,15 @@
+{
+  "id": "nola-city-hall",
+  "name": "New Orleans City Hall",
+  "model": "nola-city-hall",
+  "place": "new-orleans-area",
+  "lng": -90.0771266,
+  "lat": 29.9521128,
+  "bearing": 32.55,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/4597508",
+    "way/328778341"
+  ]
+}

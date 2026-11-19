@@ -1,0 +1,16 @@
+{
+  "id": "nola-aquarium-of-the-americas",
+  "name": "Audubon Aquarium of the Americas",
+  "model": "nola-aquarium-of-the-americas",
+  "place": "new-orleans-area",
+  "lng": -90.063194,
+  "lat": 29.950901,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/367725678",
+    "way/367725655"
+  ],
+  "wikidata": "Q623162"
+}
