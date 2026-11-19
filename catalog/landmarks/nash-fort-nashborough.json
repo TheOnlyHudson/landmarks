@@ -1,0 +1,19 @@
+{
+  "id": "nash-fort-nashborough",
+  "name": "Fort Nashborough",
+  "model": "nash-fort-nashborough",
+  "place": "nashville-area",
+  "lng": -86.775364,
+  "lat": 36.164192,
+  "bearing": 333.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q5471739",
+  "replaces": [
+    "way/130910783",
+    "way/465278579",
+    "way/465278589",
+    "way/465278603",
+    "way/465278599"
+  ]
+}

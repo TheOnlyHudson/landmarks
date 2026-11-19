@@ -1,0 +1,55 @@
+{
+  "id": "nash-fort-nashborough",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "fort",
+    "replica",
+    "museum"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fort Nashborough History Center 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Nashborough_History_Center_2022.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nashville from Cumberland River September 2026 004",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_from_Cumberland_River_September_2026_004.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nashville from Cumberland River September 2026 002",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_from_Cumberland_River_September_2026_002.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nashville from Cumberland River September 2026 001",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_from_Cumberland_River_September_2026_001.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-fort-nashborough.glb",
+  "source": "generators/nash-fort-nashborough.ts"
+}
