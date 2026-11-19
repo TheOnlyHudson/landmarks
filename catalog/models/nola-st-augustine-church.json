@@ -1,0 +1,65 @@
+{
+  "id": "nola-st-augustine-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "St augustine church 23 march 2023",
+      "url": "https://commons.wikimedia.org/wiki/File:St_augustine_church_23_march_2023.jpg",
+      "author": "Ryan Nixon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "AugustineTreme14Jan2008AboveFront",
+      "url": "https://commons.wikimedia.org/wiki/File:AugustineTreme14Jan2008AboveFront.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "AugustineTreme14Jan2008AboveA",
+      "url": "https://commons.wikimedia.org/wiki/File:AugustineTreme14Jan2008AboveA.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "St Augustine Church, Treme, New Orleans 21 Feb 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Augustine_Church,_Treme,_New_Orleans_21_Feb_2025.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St Augustine Church Cupola New Orleans",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Augustine_Church_Cupola_New_Orleans.jpg",
+      "author": "Howie Luvzus",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "St Augustine Church New Orleans 3 Nov 2020 01",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Augustine_Church_New_Orleans_3_Nov_2020_01.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nola-st-augustine-church.glb",
+  "source": "generators/nola-st-augustine-church.ts"
+}
