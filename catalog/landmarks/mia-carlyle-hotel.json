@@ -1,0 +1,15 @@
+{
+  "id": "mia-carlyle-hotel",
+  "name": "The Carlyle",
+  "model": "mia-carlyle-hotel",
+  "place": "miami-area",
+  "lng": -80.1303364,
+  "lat": 25.783804,
+  "bearing": 8,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/380861944"
+  ],
+  "wikidata": "Q116250307"
+}
