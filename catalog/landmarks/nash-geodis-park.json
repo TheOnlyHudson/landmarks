@@ -1,0 +1,22 @@
+{
+  "id": "nash-geodis-park",
+  "name": "GEODIS Park",
+  "model": "nash-geodis-park",
+  "place": "nashville-area",
+  "lng": -86.765975,
+  "lat": 36.130045,
+  "bearing": 343.5,
+  "elevation": -6.8,
+  "minzoom": 14,
+  "wikidata": "Q47528203",
+  "replaces": [
+    "relation/19122466",
+    "way/1385490396",
+    "way/1385490397",
+    "way/1385490398",
+    "way/1385490399",
+    "way/1385490400",
+    "way/1385850552",
+    "way/1385850553"
+  ]
+}

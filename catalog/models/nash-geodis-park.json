@@ -1,0 +1,60 @@
+{
+  "id": "nash-geodis-park",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "soccer",
+    "mls"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "GEODIS Park",
+      "url": "https://commons.wikimedia.org/wiki/File:GEODIS_Park.jpg",
+      "author": "CheckeredYeti",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gate C of Geodis Park",
+      "url": "https://commons.wikimedia.org/wiki/File:Gate_C_of_Geodis_Park_by_cornfield948_(20220705093936).jpg",
+      "author": "cornfield948",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Nashville SC vs Portland Timbers (094553)",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_SC_vs_Portland_Timbers_by_cornfield948_(20220705094553).jpg",
+      "author": "cornfield948",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Nashville SC vs Portland Timbers (094311)",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_SC_vs_Portland_Timbers_by_cornfield948_(20220705094311).jpg",
+      "author": "cornfield948",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Nashville SC vs Houston Dynamo",
+      "url": "https://commons.wikimedia.org/wiki/File:Nashville_SC_vs_Houston_Dynamo_by_jeremyrs80_(20221002204452).jpg",
+      "author": "jeremyrs80",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/nash-geodis-park.glb",
+  "source": "generators/nash-geodis-park.ts"
+}
