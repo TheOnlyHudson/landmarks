@@ -1,0 +1,84 @@
+{
+  "id": "det-cadillac-place",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "office",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Detroit December 2021 08 (Cadillac Place)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_December_2021_08_(Cadillac_Place).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit December 2021 17 (Cadillac Place)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_December_2021_17_(Cadillac_Place).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit December 2021 18 (Cadillac Place)",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_December_2021_18_(Cadillac_Place).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cadillac Place, Detroit - 20201215",
+      "url": "https://commons.wikimedia.org/wiki/File:Cadillac_Place,_Detroit_-_20201215.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "General Motors building (HABS)",
+      "url": "https://commons.wikimedia.org/wiki/File:General_Motors_building_089833pv.jpg",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "CadillacPlaceNewCenterDetroit5",
+      "url": "https://commons.wikimedia.org/wiki/File:CadillacPlaceNewCenterDetroit5.jpg",
+      "author": "Mike Russell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "CadillacPlacefromGrand",
+      "url": "https://commons.wikimedia.org/wiki/File:CadillacPlacefromGrand.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "CadillacPlacefromCassMilwaukeestreets",
+      "url": "https://commons.wikimedia.org/wiki/File:CadillacPlacefromCassMilwaukeestreets.jpg",
+      "author": "Mikerussell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "General Motors Building, New Center District, Detroit, Mich (postcard)",
+      "url": "https://commons.wikimedia.org/wiki/File:General_Motors_Building,_New_Center_District,_Detroit,_Mich_(62382).jpg",
+      "author": "Tichnor Brothers",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/det-cadillac-place.glb",
+  "source": "generators/det-cadillac-place.ts"
+}
