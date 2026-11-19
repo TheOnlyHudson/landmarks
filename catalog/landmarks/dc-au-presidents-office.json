@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-presidents-office",
+  "name": "President’s Office",
+  "model": "dc-au-presidents-office",
+  "place": "american-university",
+  "lng": -77.0884133,
+  "lat": 38.9390966,
+  "bearing": 34.06,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38110182"
+  ]
+}

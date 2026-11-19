@@ -1,0 +1,57 @@
+{
+  "id": "moscow-kremlin-wall-borovitskaya-annunciation",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "wall",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The stretch of the Kremlin's red-brick wall on the south-west corner, down the hill and round the Vodovzvodnaya Tower on the river between the Borovitskaya Tower and the Annunciation Tower, built 1485-1495 by Italian masters, by way of the Vodovzvodnaya Tower at the corner.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Moscow - Vodovzvodnaya Tower2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_Vodovzvodnaya_Tower2.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "0007Ga. Blagoveshchenskaya Tower of Moscow Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:0007Ga._Blagoveshchenskaya_Tower_of_Moscow_Kremlin.jpg",
+      "author": "Александровы АГ",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Borovitskaya tower from Sofia embankment 2025-9.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Borovitskaya_tower_from_Sofia_embankment_2025-9.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Merlons of Troitsky Bridge in Moscow Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Merlons_of_Troitsky_Bridge_in_Moscow_Kremlin.jpg",
+      "author": "Dmitry Ivanov.",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-wall-borovitskaya-annunciation.glb",
+  "source": "generators/moscow-kremlin-wall-borovitskaya-annunciation.ts"
+}

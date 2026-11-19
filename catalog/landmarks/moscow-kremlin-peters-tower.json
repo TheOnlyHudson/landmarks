@@ -1,0 +1,24 @@
+{
+  "id": "moscow-kremlin-peters-tower",
+  "name": "Peter's Tower",
+  "model": "moscow-kremlin-peters-tower",
+  "place": "moscow",
+  "lng": 37.6220029,
+  "lat": 55.7496939,
+  "bearing": -1.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/1360660",
+    "relation/3229625",
+    "relation/3229626",
+    "way/239476262",
+    "way/239476265",
+    "way/239476266",
+    "way/239476267",
+    "way/239476268",
+    "way/239476269",
+    "way/239476270"
+  ],
+  "wikidata": "Q4361168"
+}

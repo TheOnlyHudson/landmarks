@@ -1,0 +1,48 @@
+{
+  "id": "dc-au-beeghly-building",
+  "file": "models/dc-au-beeghly-building.glb",
+  "source": "generators/dc-au-beeghly-building.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university"
+  ],
+  "description": "Beeghly stands west of the Hall of Science along the campus service drive.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Building footprint, OpenStreetMap (May 22, 2026 extract)",
+      "url": "https://www.openstreetmap.org/way/90190991",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "Campus facilities presentation, June 24, 2025",
+      "url": "https://www.american.edu/communityrelations/clc/upload/2025-06-24-clc-presentation.pdf",
+      "author": "American University"
+    },
+    {
+      "title": "Tenleytown aerial photograph (2019, CC BY-SA 4.0)",
+      "url": "https://commons.wikimedia.org/wiki/File:Tenleytown_aerial_2019.jpg",
+      "author": "Antony-22"
+    },
+    {
+      "title": "2022 District of Columbia LiDAR, NOAA Digital Coast dataset 9837",
+      "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    }
+  ],
+  "reviewStatus": "draft"
+}

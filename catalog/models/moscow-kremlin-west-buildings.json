@@ -1,0 +1,55 @@
+{
+  "id": "moscow-kremlin-west-buildings",
+  "file": "models/moscow-kremlin-west-buildings.glb",
+  "source": "generators/moscow-kremlin-west-buildings.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "historic",
+    "kremlin"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "The service and administrative blocks inside the Moscow Kremlin's west wall between the Trinity Tower and the Armoury, behind the Amusement Palace and the Commandant's Tower: ochre wings with white trim and green roofs, drawn part by part to their OSM heights.",
+  "references": [
+    {
+      "title": "Kremlin birds eye view-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_birds_eye_view-1.jpg",
+      "author": "ITAR-TASS",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Moscow. Commandant's Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow._Commandant%27s_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Dvortsovaya street inside the Kremlin in Moscow.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dvortsovaya_street_inside_the_Kremlin_in_Moscow.jpg",
+      "author": "Sergey Norin",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Amusement Palace and Dvortsovaya street by shakko 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Amusement_Palace_and_Dvortsovaya_street_by_shakko_03.jpg",
+      "author": "shakko",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}

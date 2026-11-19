@@ -1,0 +1,26 @@
+{
+  "id": "nyc-new-york-stock-exchange",
+  "name": "New York Stock Exchange",
+  "model": "nyc-new-york-stock-exchange",
+  "lng": -74.0111761,
+  "lat": 40.7070653,
+  "bearing": 26,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q24084031",
+  "replaces": [
+    "way/278053530",
+    "way/378259074",
+    "way/378259075",
+    "way/378259076",
+    "way/378259077",
+    "way/378259078",
+    "way/378259079",
+    "way/378259080",
+    "way/378259081",
+    "way/378259082",
+    "way/378259083",
+    "way/378259084"
+  ],
+  "place": "new-york-area"
+}

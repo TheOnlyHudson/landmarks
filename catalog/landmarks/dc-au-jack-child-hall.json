@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-jack-child-hall",
+  "name": "Jack Child Hall",
+  "model": "dc-au-jack-child-hall",
+  "place": "american-university",
+  "lng": -77.0912874,
+  "lat": 38.9349886,
+  "bearing": 124.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38110443"
+  ]
+}

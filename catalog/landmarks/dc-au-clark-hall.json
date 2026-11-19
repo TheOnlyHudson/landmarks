@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-clark-hall",
+  "name": "Clark Hall",
+  "model": "dc-au-clark-hall",
+  "place": "american-university",
+  "lng": -77.0894225,
+  "lat": 38.9354724,
+  "bearing": 123.72,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190590"
+  ]
+}

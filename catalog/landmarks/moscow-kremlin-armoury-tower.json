@@ -1,0 +1,23 @@
+{
+  "id": "moscow-kremlin-armoury-tower",
+  "name": "Armoury Tower",
+  "model": "moscow-kremlin-armoury-tower",
+  "place": "moscow",
+  "lng": 37.6127133,
+  "lat": 55.7493869,
+  "bearing": 15.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/1360631",
+    "relation/3047225",
+    "relation/3427855",
+    "relation/3427860",
+    "relation/3427863",
+    "relation/3427868",
+    "relation/3427875",
+    "relation/3427885",
+    "way/292773450"
+  ],
+  "wikidata": "Q4337192"
+}

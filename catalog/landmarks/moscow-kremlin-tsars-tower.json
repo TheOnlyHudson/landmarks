@@ -1,0 +1,15 @@
+{
+  "id": "moscow-kremlin-tsars-tower",
+  "name": "Tsar's Tower",
+  "model": "moscow-kremlin-tsars-tower",
+  "place": "moscow",
+  "lng": 37.6215498,
+  "lat": 55.7522398,
+  "bearing": -20.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "relation/1360663"
+  ],
+  "wikidata": "Q2035463"
+}

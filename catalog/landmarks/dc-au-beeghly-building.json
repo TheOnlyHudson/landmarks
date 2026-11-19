@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-beeghly-building",
+  "name": "Beeghly Building",
+  "model": "dc-au-beeghly-building",
+  "place": "american-university",
+  "lng": -77.0914403,
+  "lat": 38.936843,
+  "bearing": 33.26,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190991"
+  ]
+}

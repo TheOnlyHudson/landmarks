@@ -1,0 +1,63 @@
+{
+  "id": "moscow-kremlin-taynitskaya-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The broad Secret Tower on the river wall, the Kremlin's first: brick shaft with the walled-up river gate, merlons, a squat dark green tent, a lookout and a tall tent.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Moscow Taynitskaya tower U69.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Taynitskaya_tower_U69.jpg",
+      "author": "Ludvig14",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Taynitskaya Tower-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Taynitskaya_Tower-1.jpg",
+      "author": "Presidential Press and Information Offic",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - Taynitskaya Tower, Archangel Cathedral, and Ivan the G",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Taynitskaya_Tower,_Archangel_Cathedral,_and_Ivan_the_Great_Bell_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Taynitskaya Tower - Moscow Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Taynitskaya_Tower_-_Moscow_Kremlin.jpg",
+      "author": "Ed Yourdon",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Moscow Taynitskaya tower V32.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Taynitskaya_tower_V32.jpg",
+      "author": "Ludvig14",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-taynitskaya-tower.glb",
+  "source": "generators/moscow-kremlin-taynitskaya-tower.ts"
+}

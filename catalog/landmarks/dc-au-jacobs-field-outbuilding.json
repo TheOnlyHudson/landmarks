@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-jacobs-field-outbuilding",
+  "name": "Outbuilding near Jacobs Field",
+  "model": "dc-au-jacobs-field-outbuilding",
+  "place": "american-university",
+  "lng": -77.0925513,
+  "lat": 38.9354357,
+  "bearing": 33.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/90190857"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "moscow-kremlin-trinity-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bridge",
+    "footbridge",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The brick bridge of 1516 from the Kutafya Tower over the Alexander Garden to the Trinity Tower's gate, on arches, with swallowtail merlons along both parapets.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Merlons of Troitsky Bridge in Moscow Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Merlons_of_Troitsky_Bridge_in_Moscow_Kremlin.jpg",
+      "author": "Dmitry Ivanov.",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Moscow Kremlin, Troitskaya tower and Troitsky bridge (2012).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Kremlin,_Troitskaya_tower_and_Troitsky_bridge_(2012).jpg",
+      "author": "jimmyweee",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Moscow, Troitsky Bridge arch (46893417781).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow,_Troitsky_Bridge_arch_(46893417781).jpg",
+      "author": "Andrey Filippov 安德烈 from Moscow, Russia",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Troitsky bridge (Kremlin, 2020) by shakko 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Troitsky_bridge_(Kremlin,_2020)_by_shakko_01.jpg",
+      "author": "shakko",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Troitsky bridge (Kremlin, 2020) by shakko 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Troitsky_bridge_(Kremlin,_2020)_by_shakko_02.jpg",
+      "author": "shakko",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Kremlin Viewed from Gardens - Moscow - Russia.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Viewed_from_Gardens_-_Moscow_-_Russia.JPG",
+      "author": "Adam Jones Adam63",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Vasnetsov V Osadu Troitsky Most.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vasnetsov_V_Osadu_Troitsky_Most.jpg",
+      "author": "Apollinary Vasnetsov",
+      "license": "PD"
+    }
+  ],
+  "file": "models/moscow-kremlin-trinity-bridge.glb",
+  "source": "generators/moscow-kremlin-trinity-bridge.ts"
+}

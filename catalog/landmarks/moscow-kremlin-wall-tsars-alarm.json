@@ -1,0 +1,17 @@
+{
+  "id": "moscow-kremlin-wall-tsars-alarm",
+  "name": "Kremlin Wall, Tsar's Tower to Alarm Tower",
+  "model": "moscow-kremlin-wall-tsars-alarm",
+  "place": "moscow",
+  "lng": 37.6216954,
+  "lat": 55.7520353,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/2470034",
+    "relation/16265093",
+    "relation/16265096",
+    "relation/16265099"
+  ]
+}

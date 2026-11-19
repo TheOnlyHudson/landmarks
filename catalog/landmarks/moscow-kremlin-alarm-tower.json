@@ -1,0 +1,32 @@
+{
+  "id": "moscow-kremlin-alarm-tower",
+  "name": "Alarm Tower",
+  "model": "moscow-kremlin-alarm-tower",
+  "place": "moscow",
+  "lng": 37.6218495,
+  "lat": 55.7518138,
+  "bearing": -17.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/1360661",
+    "relation/3890580",
+    "relation/3890581",
+    "way/292795384",
+    "way/292795385",
+    "way/292795386",
+    "way/292795387",
+    "way/292795389",
+    "way/292795390",
+    "way/292795391",
+    "way/292795393",
+    "way/292795394",
+    "way/292795395",
+    "way/292795396",
+    "way/292795397",
+    "way/292795398",
+    "way/292795399",
+    "way/292795402"
+  ],
+  "wikidata": "Q3408867"
+}

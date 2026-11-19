@@ -1,0 +1,20 @@
+{
+  "id": "moscow-kremlin-wall-saviour-tsars",
+  "name": "Kremlin Wall, Saviour Tower to Tsar's Tower",
+  "model": "moscow-kremlin-wall-saviour-tsars",
+  "place": "moscow",
+  "lng": 37.6214766,
+  "lat": 55.7523434,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/2470039",
+    "relation/16265091",
+    "relation/16265092",
+    "relation/16265094",
+    "relation/16265095",
+    "relation/16265097",
+    "relation/16265098"
+  ]
+}

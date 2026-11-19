@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-asbury-building",
+  "name": "Asbury Building",
+  "model": "dc-au-asbury-building",
+  "place": "american-university",
+  "lng": -77.0903,
+  "lat": 38.9371892,
+  "bearing": 123.66,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90190611"
+  ]
+}

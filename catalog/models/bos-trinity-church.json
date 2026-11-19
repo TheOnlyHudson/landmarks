@@ -1,0 +1,86 @@
+{
+  "id": "bos-trinity-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "richardsonian-romanesque",
+    "tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Trinity Church, Boston,Mass.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Church,_Boston,Mass.jpg",
+      "author": "Townsendma30",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trinity Church Boston.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Church_Boston.jpg",
+      "author": "Choinowski",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trinity Church, Boston, Massachusetts - front oblique view.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Church,_Boston,_Massachusetts_-_front_oblique_view.JPG",
+      "author": "Daderot",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Trinity Church - Boston 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Church_-_Boston_01.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Boston - Trinity Church - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Boston_-_Trinity_Church_-_panoramio.jpg",
+      "author": "Edgar El",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Trinity Church - Boston, MA - DSC04257.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Church_-_Boston,_MA_-_DSC04257.jpg",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Boston Trinity Church Copley Square 04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Boston_Trinity_Church_Copley_Square_04.jpg",
+      "author": "Miguel Hermoso Cuesta",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2017 Prudential Skywalk - Trinity Church (ENE).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2017_Prudential_Skywalk_-_Trinity_Church_(ENE).jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trinitychurch bostn.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinitychurch_bostn.JPG",
+      "author": "Luciof",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/bos-trinity-church.glb",
+  "source": "generators/bos-trinity-church.ts"
+}

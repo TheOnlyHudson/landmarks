@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-mary-graydon-student-center",
+  "name": "Mary Graydon Student Center",
+  "model": "dc-au-mary-graydon-student-center",
+  "place": "american-university",
+  "lng": -77.0889544,
+  "lat": 38.9369299,
+  "bearing": 34.15,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/38075678"
+  ]
+}

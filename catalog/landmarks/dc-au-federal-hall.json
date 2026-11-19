@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-federal-hall",
+  "name": "Federal Hall",
+  "model": "dc-au-federal-hall",
+  "place": "american-university",
+  "lng": -77.0863219,
+  "lat": 38.9360413,
+  "bearing": 122.2966,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/535124056"
+  ]
+}

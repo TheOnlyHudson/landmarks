@@ -1,0 +1,46 @@
+{
+  "id": "dc-school-of-international-service",
+  "file": "models/dc-school-of-international-service.glb",
+  "source": "generators/dc-school-of-international-service.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "education"
+  ],
+  "description": "American University’s School of International Service in Washington, DC. Two pale masonry wings frame a daylit atrium beside Nebraska Avenue.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "reviewStatus": "draft",
+  "references": [
+    {
+      "title": "School of International Service building, aerial view",
+      "url": "https://commons.wikimedia.org/wiki/File:American_University_School_of_International_Service_building.jpg",
+      "author": "Jeff Watts / American University",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "School of International Service Building, street view",
+      "url": "https://commons.wikimedia.org/wiki/File:School_of_International_Service_Building.jpg",
+      "author": "Herrperry123",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "School of International Service building and sustainability",
+      "url": "https://www.american.edu/about/sustainability/buildings/school-of-international-service.cfm",
+      "author": "American University"
+    }
+  ]
+}

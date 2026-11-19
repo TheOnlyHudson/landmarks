@@ -1,0 +1,68 @@
+{
+  "id": "dc-au-katzen-arts-center",
+  "file": "models/dc-au-katzen-arts-center.glb",
+  "source": "generators/dc-au-katzen-arts-center.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "arts-center"
+  ],
+  "description": "Art studios, performance spaces and the American University Museum extend along Massachusetts Avenue to Ward Circle, with a skylit rotunda at the center.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "2022 Washington, DC aerial lidar",
+      "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    },
+    {
+      "title": "Building footprint",
+      "url": "https://www.openstreetmap.org/way/66878371",
+      "author": "OpenStreetMap contributors",
+      "license": "ODbL-1.0"
+    },
+    {
+      "title": "Katzen Arts Center",
+      "url": "https://www.american.edu/cas/katzen/index.cfm",
+      "author": "American University"
+    },
+    {
+      "title": "Katzen Art Center stonework",
+      "url": "https://www.rugostone.com/projects/katzen-art-center-american-university/",
+      "author": "Rugo Stone"
+    },
+    {
+      "title": "Katzen Art Museum from Ward Circle",
+      "url": "https://commons.wikimedia.org/wiki/File:Katzen_Art_Museum_from_Ward_Circle.jpg",
+      "author": "Ser Amantio di Nicolao",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Rotunda and garage entrance from Massachusetts Avenue",
+      "url": "https://commons.wikimedia.org/wiki/File:Rotunda_and_garage_entrance_of_Katzen_Art_Museum_from_Massachusetts_Avenue.jpg",
+      "author": "Ser Amantio di Nicolao",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Outer view of the rotunda",
+      "url": "https://commons.wikimedia.org/wiki/File:Outer_view_of_rotunda,_Katzen_Art_Museum.jpg",
+      "author": "Ser Amantio di Nicolao",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "reviewStatus": "draft"
+}

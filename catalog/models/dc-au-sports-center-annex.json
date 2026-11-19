@@ -1,0 +1,44 @@
+{
+  "id": "dc-au-sports-center-annex",
+  "file": "models/dc-au-sports-center-annex.glb",
+  "source": "generators/dc-au-sports-center-annex.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "athletics"
+  ],
+  "description": "The three-story annex connects the Meltzer Center to the existing Sports Center and houses the university’s health, counseling and well-being services.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Building outline (May 2026)",
+      "url": "https://www.openstreetmap.org/way/1509229468",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "Published design heights and floor counts",
+      "url": "https://www.american.edu/communityrelations/campus-plan/meltzer-center-feedback-and-reponses.cfm",
+      "author": "American University"
+    },
+    {
+      "title": "Completed complex",
+      "url": "https://www.american.edu/about/sustainability/buildings/meltzer-athletic-center.cfm",
+      "author": "American University"
+    }
+  ],
+  "reviewStatus": "draft"
+}

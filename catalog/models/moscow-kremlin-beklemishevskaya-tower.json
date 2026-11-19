@@ -1,0 +1,63 @@
+{
+  "id": "moscow-kremlin-beklemishevskaya-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The slim round tower at the Kremlin's south-east corner: a tall brick drum on a battered foot, machicolation slits, two octagons, a slim green tent and a gilt vane.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "MosKremlin 05-2012 Beklemishev Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:MosKremlin_05-2012_Beklemishev_Tower.jpg",
+      "author": "A.Savin",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Moscow Beklemishevskaya Tower V23.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Beklemishevskaya_Tower_V23.JPG",
+      "author": "Ludvig14",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Beklemishevskaya Tower 2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Beklemishevskaya_Tower_2025.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Kremlin Walls, Beklemishevskaya Tower of Moscow Kremlin, Moscow, Russi",
+      "url": "https://commons.wikimedia.org/wiki/File:Kremlin_Walls,_Beklemishevskaya_Tower_of_Moscow_Kremlin,_Moscow,_Russia.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Beklemishevskaya Tower of Moscow Kremlin (the superstructure).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Beklemishevskaya_Tower_of_Moscow_Kremlin_(the_superstructure).jpg",
+      "author": "Dmitry Ivanov.",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-beklemishevskaya-tower.glb",
+  "source": "generators/moscow-kremlin-beklemishevskaya-tower.ts"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "moscow-patriarchs-palace",
+  "file": "models/moscow-patriarchs-palace.glb",
+  "source": "generators/moscow-patriarchs-palace.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "palace",
+    "church",
+    "russian-orthodox",
+    "onion-dome",
+    "museum",
+    "kremlin",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "description": "Patriarch Nikon's palace of 1653-56 with his house church of the Twelve Apostles: a white three-storey palace under green-grey hipped roofs with the taller Cross Chamber block; the church over two great gate arches, three gilt-edged zakomary on each front and five silver onion domes on tall drums; the lower wings running west.",
+  "references": [
+    {
+      "title": "Kreml-12apostel.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kreml-12apostel.jpg",
+      "author": "A.Savin",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "00 4843 Church oft the Twelve Apostles, Moscow.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:00_4843_Church_oft_the_Twelve_Apostles,_Moscow.jpg",
+      "author": "W. Bulach",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Church of the Twelve Apostles (Kremlin, 2020) south facade 01 by shakko.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Church_of_the_Twelve_Apostles_(Kremlin,_2020)_south_facade_01_by_shakko.jpg",
+      "author": "shakko",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "2019-07-26-Moscow-3119-Church of the Twelve Apostles.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2019-07-26-Moscow-3119-Church_of_the_Twelve_Apostles.jpg",
+      "author": "Don-vip",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Moscow, Church of the Twelve Apostles.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow,_Church_of_the_Twelve_Apostles.jpg",
+      "author": "Andrew Bossi",
+      "license": "CC-BY-SA-2.0"
+    }
+  ]
+}

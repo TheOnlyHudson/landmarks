@@ -1,0 +1,55 @@
+{
+  "id": "dc-au-cassell-hall",
+  "file": "models/dc-au-cassell-hall.glb",
+  "source": "generators/dc-au-cassell-hall.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "residence-hall"
+  ],
+  "description": "Two residence wings meet above the fitness center. The taller wing faces McDowell Hall. The shorter wing runs beside Wesley Theological Seminary.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "2022 Washington, DC aerial lidar",
+      "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    },
+    {
+      "title": "Building footprint",
+      "url": "https://www.openstreetmap.org/way/338514813",
+      "author": "OpenStreetMap contributors",
+      "license": "ODbL-1.0"
+    },
+    {
+      "title": "Zoning Commission Order 11-07A, finding 19",
+      "url": "https://www.american.edu/finance/ppm/upload/zoning-order-11-07a.pdf",
+      "author": "District of Columbia Zoning Commission"
+    },
+    {
+      "title": "Cassell Hall LEED case study",
+      "url": "https://www.american.edu/about/sustainability/upload/cassell-leed-case-study.pdf",
+      "author": "American University"
+    },
+    {
+      "title": "North Hall architectural systems",
+      "url": "https://www.engr.psu.edu/ae/thesis/portfolios/2013/bmt5078/building-stats.htm",
+      "author": "Penn State Architectural Engineering"
+    }
+  ],
+  "reviewStatus": "draft"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "moscow-kremlin-peters-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "A small square Kremlin tower on the river wall: brick shaft, a corbelled parapet, two square tiers and a green tiled tent with a gilt vane.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Petrovskaya Tower of Moscow Kremlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Petrovskaya_Tower_of_Moscow_Kremlin.jpg",
+      "author": "Dmitry Ivanov.",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - Petrovskaya Tower, view from the Sofiyskaya Embankment",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Petrovskaya_Tower,_view_from_the_Sofiyskaya_Embankment.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2026-2 - Petrovskaya Tower, view from below.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2026-2_-_Petrovskaya_Tower,_view_from_below.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2025 - Petrovskaya Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Petrovskaya_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow Kremlin, Petrovskaya Tower, Nov 2025 06.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_Kremlin,_Petrovskaya_Tower,_Nov_2025_06.jpg",
+      "author": "Retired electrician",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/moscow-kremlin-peters-tower.glb",
+  "source": "generators/moscow-kremlin-peters-tower.ts"
+}

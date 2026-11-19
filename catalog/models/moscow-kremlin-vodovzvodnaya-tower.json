@@ -1,0 +1,82 @@
+{
+  "id": "moscow-kremlin-vodovzvodnaya-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "ruby-star",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "The round water-lifting tower at the Kremlin's south-west corner on the river: a brick drum under arched machicolations and merlons, a green tent with tall dormers, two octagonal lookouts and a ruby star.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Vodovzvodnaya Tower details - 2025 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vodovzvodnaya_Tower_details_-_2025_2.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Vodovzvodnaya Tower details - 2025 3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vodovzvodnaya_Tower_details_-_2025_3.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Vodovzvodnaya Tower details - 2025 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vodovzvodnaya_Tower_details_-_2025_1.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Vodovzvodnaya Tower details - 2025 7.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vodovzvodnaya_Tower_details_-_2025_7.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Vodovzvodnaya Tower details - 2025 8.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vodovzvodnaya_Tower_details_-_2025_8.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - Vodovzvodnaya Tower2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_Vodovzvodnaya_Tower2.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2026 - Vodovzvodnaya Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2026_-_Vodovzvodnaya_Tower.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Vodovzvodnaya Tower 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vodovzvodnaya_Tower_02.jpg",
+      "author": "Максим Улитин",
+      "license": "CC-BY-3.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-vodovzvodnaya-tower.glb",
+  "source": "generators/moscow-kremlin-vodovzvodnaya-tower.ts"
+}

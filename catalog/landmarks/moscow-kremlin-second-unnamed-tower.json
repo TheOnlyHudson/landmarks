@@ -1,0 +1,32 @@
+{
+  "id": "moscow-kremlin-second-unnamed-tower",
+  "name": "Second Unnamed Tower",
+  "model": "moscow-kremlin-second-unnamed-tower",
+  "place": "moscow",
+  "lng": 37.6203231,
+  "lat": 55.7496044,
+  "bearing": -7.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/3229567",
+    "relation/3229568",
+    "relation/3229569",
+    "way/239472581",
+    "way/239472584",
+    "way/239472587",
+    "way/239472590",
+    "way/239472591",
+    "way/239472592",
+    "way/239472594",
+    "way/239472595",
+    "way/239472597",
+    "way/239472599",
+    "way/239472601",
+    "way/239472602",
+    "way/239472603",
+    "way/239472604",
+    "way/239472605"
+  ],
+  "wikidata": "Q4127800"
+}

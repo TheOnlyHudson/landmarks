@@ -1,0 +1,63 @@
+{
+  "id": "moscow-kremlin-senate-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tower",
+    "kremlin",
+    "fortification",
+    "historic",
+    "unesco-world-heritage"
+  ],
+  "description": "A square Kremlin tower behind the Lenin Mausoleum: brick shaft, merlons, a tall green tent with dormers, a lookout and a gilt vane.",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Senatskaya Tower and Kremlin Senate in 2026.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Senatskaya_Tower_and_Kremlin_Senate_in_2026.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Russia-2007-Moscow-Kremlin Senate at night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Russia-2007-Moscow-Kremlin_Senate_at_night.jpg",
+      "author": "Godot13",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Senatskaya Tower 2025-8.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Senatskaya_Tower_2025-8.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Senatskaya Tower in 2026 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Senatskaya_Tower_in_2026_2.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Moscow - 2026 - Senatskaya Tower, viewed from Vasilyevsky Descent.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2026_-_Senatskaya_Tower,_viewed_from_Vasilyevsky_Descent.jpg",
+      "author": "Юрий Д.К.",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "file": "models/moscow-kremlin-senate-tower.glb",
+  "source": "generators/moscow-kremlin-senate-tower.ts"
+}

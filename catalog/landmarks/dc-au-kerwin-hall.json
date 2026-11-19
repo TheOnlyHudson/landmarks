@@ -1,0 +1,14 @@
+{
+  "id": "dc-au-kerwin-hall",
+  "name": "Kerwin Hall",
+  "model": "dc-au-kerwin-hall",
+  "place": "american-university",
+  "lng": -77.0869085,
+  "lat": 38.9374479,
+  "bearing": 33.78,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/90189816"
+  ]
+}
