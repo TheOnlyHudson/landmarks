@@ -1,0 +1,20 @@
+{
+  "id": "mia-fontainebleau",
+  "name": "Fontainebleau Miami Beach",
+  "model": "mia-fontainebleau",
+  "place": "miami-area",
+  "lng": -80.1220601,
+  "lat": 25.8182604,
+  "bearing": 8,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1435790",
+  "replaces": [
+    "way/447042031",
+    "way/447041951",
+    "way/447041953",
+    "way/447041950",
+    "way/447041948",
+    "way/447042025"
+  ]
+}
