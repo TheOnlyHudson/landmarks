@@ -1,0 +1,58 @@
+{
+  "id": "dc-general-artemas-ward-memorial",
+  "file": "models/dc-general-artemas-ward-memorial.glb",
+  "source": "generators/dc-general-artemas-ward-memorial.ts",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "statue",
+    "memorial"
+  ],
+  "description": "Leonard Crunelle’s bronze figure of Revolutionary War general Artemas Ward stands on a granite pedestal in Ward Circle, beside American University. Dedicated in 1938.",
+  "credits": [
+    {
+      "name": "Salty Pancakes",
+      "kind": "person",
+      "github": "saltypancakes-1",
+      "role": "creator"
+    },
+    {
+      "name": "OpenAI Codex",
+      "kind": "ai",
+      "model": "GPT-6",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "General Artemas Ward Memorial, description and photograph",
+      "url": "https://www.nps.gov/places/000/general-artemas-ward-memorial.htm",
+      "author": "National Park Service / Claire Hassler",
+      "license": "Public domain"
+    },
+    {
+      "title": "Smithsonian sculpture inventory (published dimensions)",
+      "url": "https://www.si.edu/object/siris_ari_20337",
+      "author": "Smithsonian American Art Museum"
+    },
+    {
+      "title": "Statue in Ward Circle, Washington, DC",
+      "url": "https://commons.wikimedia.org/wiki/File:Statue_in_Ward_Circle,_Washington,_DC.jpg",
+      "author": "Aaron Siirila",
+      "license": "CC-BY-SA-2.5"
+    },
+    {
+      "title": "Mapped monument setting",
+      "url": "https://www.openstreetmap.org/way/1059688028",
+      "author": "OpenStreetMap contributors",
+      "license": "ODbL-1.0"
+    },
+    {
+      "title": "2022 District of Columbia LiDAR, NOAA Digital Coast dataset 9837",
+      "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    }
+  ],
+  "reviewStatus": "draft"
+}
