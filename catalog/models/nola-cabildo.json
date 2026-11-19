@@ -1,0 +1,77 @@
+{
+  "id": "nola-cabildo",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "New Orleans - French Quarter - Jackson Square - The Cabildo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_-_French_Quarter_-_Jackson_Square_-_The_Cabildo.jpg",
+      "author": "Jared422",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "The Cabildo, New Orleans, USA1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Cabildo,_New_Orleans,_USA1.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "The Cabildo, New Orleans, October 2011.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Cabildo,_New_Orleans,_October_2011.jpg",
+      "author": "Elisa.rolle",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New Orleans October 2024 - Cabildo from the River.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_October_2024_-_Cabildo_from_the_River.jpg",
+      "author": "lukeharold",
+      "license": "CC0"
+    },
+    {
+      "title": "Facade from St. Peter Street. May 1936 (HABS LA,36-NEWOR,4-1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Facade_from_St._Peter_Street._May_1936._Photos_by_Richard_Koch._-_The_Cabildo,_711_Chartres_Street,_New_Orleans,_Orleans_Parish,_LA_HABS_LA,36-NEWOR,4-1.tif",
+      "author": "Richard Koch (HABS)",
+      "license": "Public domain"
+    },
+    {
+      "title": "The Cabildo, New Orleans.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Cabildo,_New_Orleans.jpg",
+      "author": "Yair Haklai",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Aerial photograph of Jackson Square, New Orleans, Louisiana.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_Jackson_Square,_New_Orleans,_Louisiana.jpg",
+      "author": "Mark Westguard",
+      "license": "CC0"
+    },
+    {
+      "title": "Jackson Square Aerial Photo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jackson_Square_Aerial_Photo.jpg",
+      "author": "Jordon Dopp",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nola-cabildo.glb",
+  "source": "generators/nola-cabildo.ts"
+}
