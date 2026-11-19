@@ -1,0 +1,60 @@
+{
+  "id": "nola-hibernia-bank-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "historic",
+    "bank"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "New Orleans, Louisiana building from Hilton New Orleans.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans,_Louisiana_building_from_Hilton_New_Orleans.JPG",
+      "author": "TonyTheTiger",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Hibernia Bank Tower New Orleans November 2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hibernia_Bank_Tower_New_Orleans_November_2024.jpg",
+      "author": "Daniel Hartwig",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Hibernia Bank Building-Central Business District-New Orleans.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hibernia_Bank_Building-Central_Business_District-New_Orleans.jpg",
+      "author": "Yair Haklai",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hibernia Dome, New Orleans October 2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hibernia_Dome,_New_Orleans_October_2024.jpg",
+      "author": "lukeharold",
+      "license": "CC0"
+    },
+    {
+      "title": "New Orleans 6 November 2008 - Hibernia Dome illuminated at night from Canal Street.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Orleans_6_November_2008_-_Hibernia_Dome_illuminated_at_night_from_Canal_Street.jpg",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nola-hibernia-bank-building.glb",
+  "source": "generators/nola-hibernia-bank-building.ts"
+}
