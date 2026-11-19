@@ -1,0 +1,67 @@
+{
+  "id": "atx-dkr-texas-memorial-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "football",
+    "college",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "author": "Colin",
+  "credits": [
+    {
+      "name": "Colin",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Darrell K Royal–Texas Memorial Stadium - Texas Longhorns (54983869867).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Darrell_K_Royal%E2%80%93Texas_Memorial_Stadium_-_Texas_Longhorns_(54983869867).jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "University of Texas, UT Austin Campus (17116648812).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:University_of_Texas,_UT_Austin_Campus_(17116648812).jpg",
+      "author": "Counse",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Darrell K Royal-Texas Memorial Stadium at Night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Darrell_K_Royal-Texas_Memorial_Stadium_at_Night.jpg",
+      "author": "Brint03",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Darrell K Royal-Texas Memorial Stadium in 2010.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Darrell_K_Royal-Texas_Memorial_Stadium_in_2010.jpg",
+      "author": "Randall Chancellor",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "DKR new north end 2008-08-30.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:DKR_new_north_end_2008-08-30.JPG",
+      "author": "Johntex",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Darrell K Royal – Texas Memorial Stadium, Austin, TX - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Darrell_K_Royal_%E2%80%93_Texas_Memorial_Stadium,_Austin,_TX_-_panoramio.jpg",
+      "author": "Robert Barlow",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/atx-dkr-texas-memorial-stadium.glb",
+  "source": "generators/atx-dkr-texas-memorial-stadium.ts"
+}
