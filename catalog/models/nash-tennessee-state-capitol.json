@@ -1,0 +1,67 @@
+{
+  "id": "nash-tennessee-state-capitol",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "capitol",
+    "government",
+    "greek-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tennessee state capitol 2009.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tennessee_state_capitol_2009.jpg",
+      "author": "Ed Uthman (euthman)",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Tennessee State Capitol 2009.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tennessee_State_Capitol_2009.jpg",
+      "author": "Kaldari",
+      "license": "Public domain"
+    },
+    {
+      "title": "Tennessee State Capitol, Charlotte Avenue, Nashville, TN - 54385429850",
+      "url": "https://commons.wikimedia.org/wiki/File:Tennessee_State_Capitol,_Charlotte_Avenue,_Nashville,_TN_-_54385429850.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Tennessee State Capitol, Charlotte Avenue, Nashville, TN - 54385054231",
+      "url": "https://commons.wikimedia.org/wiki/File:Tennessee_State_Capitol,_Charlotte_Avenue,_Nashville,_TN_-_54385054231.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Tennessee State Capitol, Charlotte Avenue, Nashville, TN - 54384175757",
+      "url": "https://commons.wikimedia.org/wiki/File:Tennessee_State_Capitol,_Charlotte_Avenue,_Nashville,_TN_-_54384175757.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Tennessee Capitol at night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tennessee_Capitol_at_night.jpg",
+      "author": "Voxinferior",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nash-tennessee-state-capitol.glb",
+  "source": "generators/nash-tennessee-state-capitol.ts"
+}
