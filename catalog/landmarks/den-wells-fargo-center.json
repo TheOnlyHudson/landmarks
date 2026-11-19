@@ -1,0 +1,20 @@
+{
+  "id": "den-wells-fargo-center",
+  "name": "Wells Fargo Center",
+  "model": "den-wells-fargo-center",
+  "place": "denver-area",
+  "lng": -104.9854491,
+  "lat": 39.7435666,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/53085815",
+    "way/587631333",
+    "way/587631334",
+    "way/587631335",
+    "way/587631336",
+    "way/538188946"
+  ],
+  "wikidata": "Q1631887"
+}
