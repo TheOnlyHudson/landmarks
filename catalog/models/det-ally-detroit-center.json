@@ -1,0 +1,54 @@
+{
+  "id": "det-ally-detroit-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "postmodern",
+    "skyscraper",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Ally Detroit Center (2025)",
+      "url": "https://commons.wikimedia.org/wiki/File:Ally_Detroit_Center_(2025).jpg",
+      "author": "WMrapids",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Pinnacle of the Ally Detroit Center, Detroit, Michigan, 2025-08-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Pinnacle_of_the_Ally_Detroit_Center,_Detroit,_Michigan,_2025-08-01.jpg",
+      "author": "Chris Woodrich (Crisco 1492)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "One Detroit Center (Detroit, MI, USA)",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Detroit_Center_(Detroit,_MI,_USA).jpg",
+      "author": "Roland Arhelger",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit Financial District by night from Windsor, Ontario, 2025-06-28",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Financial_District_by_night_from_Windsor,_Ontario,_2025-06-28.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/det-ally-detroit-center.glb",
+  "source": "generators/det-ally-detroit-center.ts"
+}
