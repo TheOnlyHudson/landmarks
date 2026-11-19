@@ -1,0 +1,62 @@
+{
+  "id": "nash-cheekwood",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum",
+    "georgian-revival",
+    "mansion",
+    "botanical-garden"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "WTN PeepHoles 083 (garden front)",
+      "url": "https://commons.wikimedia.org/wiki/File:WTN_PeepHoles_083.JPG",
+      "author": "PeepHoles (Wikipedia Takes Nashville)",
+      "license": "Public domain"
+    },
+    {
+      "title": "WTN PeepHoles 087 (entrance front)",
+      "url": "https://commons.wikimedia.org/wiki/File:WTN_PeepHoles_087.JPG",
+      "author": "PeepHoles (Wikipedia Takes Nashville)",
+      "license": "Public domain"
+    },
+    {
+      "title": "WTN PeepHoles 086 (north-west pavilion)",
+      "url": "https://commons.wikimedia.org/wiki/File:WTN_PeepHoles_086.JPG",
+      "author": "PeepHoles (Wikipedia Takes Nashville)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Cheekwood Mansion.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cheekwood_Mansion.jpg",
+      "author": "Vandore",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cheekwood Mansion Front",
+      "url": "https://www.flickr.com/photos/42673922@N03/4399097433",
+      "author": "owenwbrown",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nash-cheekwood.glb",
+  "source": "generators/nash-cheekwood.ts"
+}
