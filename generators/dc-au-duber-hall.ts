@@ -21,6 +21,10 @@
  * https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html
  * Roof 16.5 m, three raised sections approximately 18.0 m, measured
  * above the lower ground decile (118.8 m).
+ * New Mexico Avenue design elevations record a glazed stair at the west end,
+ * upper residential bays and a lower garage entry. Position/width of glazing
+ * simplified; roof casings follow independent full-surface lidar groups.
+ * https://www.american.edu/finance/ppm/upload/exhibit-1-east-campus.pdf
  */
 import { CampusShell } from './dc-au-constitution-hall'
 import type { XY } from './sea-tacoma-union-station'
@@ -32,9 +36,9 @@ const plan: XY[] = [
   [-10.49, -25.38], [10.22, -26.1], [10.02, -16.76], [7.7, -16.89],
 ]
 hall.mass(plan, 0, 16.5)
-hall.mass([[-1.6, -9.4], [3.5, -9.4], [3.5, -2], [-1.6, -2]], 16.5, 18)
-hall.mass([[0.3, 15.4], [3.2, 15.4], [3.2, 23.2], [0.3, 23.2]], 16.5, 18)
-hall.mass([[0.2, -24.1], [6.5, -24.1], [6.5, -19.3], [0.2, -19.3]], 16.5, 18)
+hall.casing([[-1.9, -10.4], [2.3, -10.4], [2.3, -2.0], [-1.6, -1.7]], 16.5, 17.8)
+hall.casing([[-0.7, 12.8], [2.8, 12.7], [2.8, 22.7], [-0.7, 22.8]], 16.5, 17.9)
+hall.casing([[-0.4, -21.8], [1.2, -23.0], [5.6, -22.7], [7.3, -20.6], [5.8, -18.3], [-0.1, -18.6]], 16.5, 18.07)
 // The wider New Mexico end groups its street windows around the ground-floor
 // shared-space band. Courtyard elevations have a quieter series of room bays.
 for (let floor = 0; floor < 4; floor++) {
@@ -47,4 +51,7 @@ hall.bays(plan[8], plan[9], 0.55, 3.55, 5.2, 0.84)
 hall.bays(plan[2], plan[3], 0.85, 3.4, 4.3)
 hall.bays(plan[4], plan[5], 0.85, 3.4, 4.3)
 hall.bays(plan[3], plan[4], 11.2, 15.3, 5.0, 0.48)
+const stairSlabs = [3.88, 6.96, 10.0, 13.04]
+hall.curtain(plan[8], plan[9], 0.42, 6.20, 0.38, 16.0, 1.50, stairSlabs)
+hall.curtain(plan[7], plan[8], 3.84, 8.7, 0.38, 16.0, 1.58, stairSlabs)
 await hall.save('dc-au-duber-hall', 'Duber Hall')

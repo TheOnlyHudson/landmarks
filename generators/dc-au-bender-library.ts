@@ -2,6 +2,8 @@
  * Bender Library — American University.
  * AU’s main library has angled corners and deep recesses along its concrete façades.
  * Plan projected in metres about the OSM area centroid. The catalog bearing restores map north.
+ * Close-range LOD adds recessed glazing, masonry reveals and restrained sash profiles.
+ * Reveal depth (0.14 m; 0.28 m for spandrel glazing), frame widths and sash spacing are estimates.
  * Exterior study. Roof heights use 2022 DC LiDAR building returns above the footprint’s lower ground (10th percentile).
  * Roof edges and slopes are simplified. Sill heights, bay spacing and colors are estimates.
  * https://www.openstreetmap.org/way/90190152
@@ -17,6 +19,7 @@ await buildCampusBuilding({
   anchor: [-77.0889399, 38.9359694],
   bearing: 33.43,
   masonry: 0xb9ac97, accent: 0xc9bba6, roof: 0x8a8981,
+  sash: 'spandrel',
   wings: [{
     outline: [
       [-12.58, 33.33], [-12.58, 31.15], [-18.49, 25.34], [-20.86, 25.35],

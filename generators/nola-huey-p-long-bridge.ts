@@ -4,17 +4,17 @@
  * Elmwood and Bridge City, Jefferson Parish — procedural, CC0-1.0.
  * bun generators/nola-huey-p-long-bridge.ts
  *
- * The river crossing only, bearing to bearing (y -376..+351, 727 m): the
- * 1935 simple truss span by the East Bank (162 m) and the cantilever (two
- * 162 m anchor arms, the 240 m main span with its 132 m suspended span), on
- * five piers. Four truss planes: the 1935 trusses at x = ±5 either side of
- * the two tracks, the 2013 outer trusses at x = ±20.5; the US 90 roadways
- * run between them and are the map's. The rail deck is the model's: ballast
- * between the inner trusses and the two tracks as broad tie bands (rails in
- * the detail). Low model: chords as solid bands, web as flat plates
- * (double-sided steel), a strut across all four top chords at every panel
- * point. Detail (detailZoom 16): four-sided members, top X bracing, sway
- * frames over the roadways, floor beams, rails.
+ * The river crossing only, end pier A to end pier F (trusses -376..+351, the
+ * model -381..+358, 739 m): the 1935 simple truss span by the East Bank (162
+ * m) and the cantilever (two 162 m anchor arms, the 240 m main span with its
+ * 132 m suspended span), on five piers. Four truss planes: the 1935 trusses
+ * at x = ±5 either side of the two tracks, the 2013 outer trusses at x =
+ * ±20.5; the US 90 roadways run between them and are the map's. The rail deck
+ * is the model's: ballast between the inner trusses and the two tracks as
+ * broad tie bands (rails in the detail). Low model: chords as solid bands,
+ * web as flat plates (double-sided steel), a strut across all four top chords
+ * at every panel point. Detail (detailZoom 16): four-sided members, top X
+ * bracing, sway frames over the roadways, floor beams, rails.
  *
  * Frame: x across (+x toward bearing 225.5, the south-west side), y along
  * toward the West Bank (bearing 135.47, PCA of the lidar returns over 40 m),
@@ -22,16 +22,28 @@
  * span). z = 0 is the river as the map's terrain draws it (Mapterhorn water
  * 1.06 m NAVD88); every lidar height here is NAVD88 - 1.06. elevation 0.
  *
- * Roadway heights the model is built to (lidar, low decile of the returns
- * between the inner and outer trusses; model z, add 1.06 for NAVD88): 42.6
- * (y -370, East Bank bearing), 43.5 (-300), 44.8 (-200), 46.1 (-100), 47.1
- * (-30), 47.5 (50-100, crest), 47.2 (140), 46.8 (190), 45.9 (250), 45.3
- * (300), 44.5 (350, West Bank bearing). Both carriageways read the same
- * within 0.1 m. The rail deck reads 0.9 m lower. tools/bridge_ele.py on
- * way/187810589 gives clean readings only off the truss (spread 23-42 m on
- * the truss nodes: the top bracing), and no node carries `ele`, so the map
- * guesses the decks; tagging the two bearing ends and the crest with these
- * values would make its roadways meet the bottom chords. Not done here.
+ * Roadway heights the model is built to (lidar LA_2021GNO_1_C22,
+ * tools/bridge_ele.py measure --every 20 on way/187810589 and way/187810590,
+ * readings with spread <= 0.2 m, re-measured November 2026; model z, add 1.06
+ * for NAVD88): 42.2 (y -436), 43.6 (-376, pier A), 44.8 (-290), 45.7 (-219),
+ * 46.8 (-139), 48.4 (0), crest 48.5 (22-65), 47.7 (191), 46.9 (260), 45.6
+ * (351, pier F), 44.1 (413). The two carriageways read within 0.1 m of each
+ * other; the rail deck reads 0.9 m lower. The table before November 2026 sat
+ * up to 0.25 m low over the main span. No node carried `ele`; the pins for
+ * OSM, with their checks, are in
+ * ~/landmarks-scratch/osm-ele/nola-huey-p-long-bridge.md (.osc beside it),
+ * uploaded separately.
+ *
+ * Ends. The approaches (about 2.4 km inside the outline: the US 90 road
+ * viaducts on concrete columns either side and the rail trestle of deck
+ * trusses on steel towers between, and the rail trestle on for kilometres
+ * more) are not drawn: the model ends at clean abutment faces on end piers A
+ * and F. The trusses stop at their bearings over the piers as built; the
+ * floor's underside, the rail deck and the steel cap run on over each pier to
+ * one flush face 6 m past it (END), which the map's approach decks meet. The
+ * approaches would need some 2 km of trestle and girder spans, beyond the
+ * low model's budget at this level of detail, and as separate OSM spans
+ * inside one outline they are the map's to draw.
  *
  * Sources:
  * - OSM: outline way/1173539225 (man_made=bridge) runs 2.4 km, over the
@@ -118,7 +130,10 @@
  *   left out.
  * - The end piers A (East Bank batture) and F (West Bank) are not seen
  *   closely in any photo; drawn like the river piers.
- * - The roadway has no `ele` in OSM (above).
+ * - The OSM `ele` pins are not uploaded yet; until they are, the map guesses
+ *   the decks (see Roadway heights).
+ * - The end faces 6 m past piers A and F are where the model stops, not a
+ *   real joint: the approach spans bear on the same piers.
  */
 import { Part, cross, sub, writeGlb, type V3 } from './mesh'
 import { band, footedLoft, piecewise, stations, strip } from './bridge-kit'
@@ -161,9 +176,24 @@ const MAIN_TOP: [number, number][] = [
 /** Where the diagonal pattern restarts: the piers' peaks and the hinges. */
 const KEYS = [-50.0, 4.1, 136.4, 190.5]
 
-/** Roadway (lidar, low decile between the trusses, NAVD88 - 1.06); the rail deck reads 0.9 m lower. */
-const ROAD = piecewise([[-400, 43.0], [-370, 43.6], [-300, 44.5], [-200, 45.8], [-100, 47.1], [-30, 48.1], [0, 48.2],
-  [50, 48.5], [100, 48.5], [140, 48.2], [190, 47.8], [250, 46.9], [300, 46.3], [350, 45.5], [380, 45.0]])
+/**
+ * Roadway, both carriageways (way/187810589 and way/187810590 read within 0.1
+ * m of each other): lidar LA_2021GNO_1_C22 via tools/bridge_ele.py measure
+ * --every 20, readings with spread <= 0.2 m, NAVD88 - 1.06. Re-measured for
+ * the OSM `ele` pins (~/landmarks-scratch/osm-ele/nola-huey-p-long-bridge.md);
+ * the earlier table sat up to 0.25 m low over the main span. The rail deck
+ * reads 0.9 m lower.
+ */
+const ROAD = piecewise([[-436, 42.22], [-400, 43.1], [-376, 43.62], [-355, 43.83], [-290, 44.75], [-219, 45.66],
+  [-195, 45.94], [-139, 46.77], [-119, 47.05], [0, 48.41], [22, 48.5], [65, 48.53], [191, 47.67], [231, 47.14],
+  [260, 46.85], [300, 46.33], [351, 45.55], [372, 45.26], [402, 44.49], [413, 44.1]])
+/**
+ * Where the model ends: the outer faces of end piers A and F. The trusses end
+ * at their bearings over the piers (A - 1, F - 1); the floor, the rail deck
+ * and the steel cap run on over the pier to one flush face, the abutment face
+ * the approaches (the map's: the road viaducts, the rail trestle) meet.
+ */
+const END = { A: PIER.A - 6, F: PIER.F + 6 }
 const RAIL = (y: number) => ROAD(y) - 0.9
 
 /** The map's ground under the end piers (Mapterhorn, metres above the river). */
@@ -299,18 +329,18 @@ function topBracing(steel: Part, seg: Segment, lod: Lod) {
 
 /** The rail deck between the inner trusses: ballast, two tracks; the underside of the whole floor. */
 function deck(ballast: Part, track: Part, shade: Part, steel: Part, lod: Lod) {
-  const [y0, y1] = [PIER.A - 1, PIER.F - 1]
+  const [y0, y1] = [END.A, END.F]
   const ys = stations(y0, y1, 40)
   const xi = INNER - (lod === 'low' ? 0.95 : 0.6)
-  band(ballast, -xi, xi, ys, RAIL, (y) => RAIL(y) - 0.4, { top: true })
+  band(ballast, -xi, xi, ys, RAIL, (y) => RAIL(y) - 0.4, { top: true, ends: true })
   for (const xc of [-2.0, 2.0]) {
     // Ties as one broad band 2.6 m wide, and in the detail the two rails on it.
-    band(track, xc - 1.3, xc + 1.3, ys, (y) => RAIL(y) + 0.15, RAIL, { top: true, out: true, in: true })
+    band(track, xc - 1.3, xc + 1.3, ys, (y) => RAIL(y) + 0.15, RAIL, { top: true, out: true, in: true, ends: true })
     if (lod === 'detail')
       for (const xr of [xc - 0.72, xc + 0.72]) band(steel, xr - 0.08, xr + 0.08, ys, (y) => RAIL(y) + 0.32, (y) => RAIL(y) + 0.15, { top: true, out: true, in: true })
   }
   // Underside of the floor system, from outer truss to outer truss, facing down.
-  band(shade, -OUTER + 0.6, OUTER - 0.6, ys, (y) => ROAD(y) - 1.0, (y) => ROAD(y) - 2.4, { bottom: true })
+  band(shade, -OUTER + 0.6, OUTER - 0.6, ys, (y) => ROAD(y) - 1.0, (y) => ROAD(y) - 2.4, { bottom: true, ends: true })
   if (lod === 'detail')
     for (const y of stations(y0 + 2, y1 - 2, 6))
       band(shade, -OUTER + 0.6, OUTER - 0.6, [y - 0.3, y + 0.3], () => ROAD(y) - 1.0, () => ROAD(y) - 3.0, { bottom: true, ends: true })
@@ -344,10 +374,13 @@ function pier(conc: Part, steel: Part, recess: Part, y: number, lod: Lod) {
     }
   box(conc, -14.2, 14.2, y - 8.7, y + 8.7, zb, zb + 1.5, true) // cornice
   const capBot = ROAD(y) - 6.4, capTop = ROAD(y) - 2.6
-  box(conc, -8.5, 8.5, y - 5.5, y + 5.5, zb + 1.5, capBot)
+  // The end piers' shaft and cap reach the model's end face (END), flush with the floor.
+  const [ya, yb] = y === PIER.A ? [END.A, y + 5.5] : y === PIER.F ? [y - 5.5, END.F] : [y - 5.5, y + 5.5]
+  const [ca, cb] = y === PIER.A ? [END.A, y + 3] : y === PIER.F ? [y - 3, END.F] : [y - 3, y + 3]
+  box(conc, -8.5, 8.5, ya, yb, zb + 1.5, capBot)
   // 2013 struts: from the shaft's foot out to the cap's ends.
   for (const s of [-1, 1]) member(steel, [s * 8.0, y, zb + 2.4], [s * (OUTER - 0.5), y, capBot + 0.3], 1.8, 2.4, [0, 1, 0], true)
-  box(steel, -OUTER - 1.6, OUTER + 1.6, y - 3, y + 3, capBot, capTop, true)
+  box(steel, -OUTER - 1.6, OUTER + 1.6, ca, cb, capBot, capTop, true)
 }
 
 // ---- Build -----------------------------------------------------------------------------

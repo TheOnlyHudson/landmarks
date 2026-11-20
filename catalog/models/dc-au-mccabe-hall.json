@@ -13,7 +13,8 @@
     {
       "name": "Salty Pancakes",
       "kind": "person",
-      "role": "creator"
+      "role": "creator",
+      "github": "saltypancakes-1"
     },
     {
       "name": "OpenAI Codex",
@@ -44,5 +45,7 @@
       "author": "District of Columbia Office of the Chief Technology Officer"
     }
   ],
-  "reviewStatus": "draft"
+  "reviewStatus": "draft",
+  "detail": "models/dc-au-mccabe-hall.detail.glb",
+  "detailZoom": 17
 }

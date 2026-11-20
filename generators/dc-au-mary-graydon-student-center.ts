@@ -2,6 +2,8 @@
  * Mary Graydon Student Center — American University.
  * The student center occupies the broad west side of the quad between Battelle-Tompkins and McKinley.
  * Plan projected in metres about the OSM area centroid. The catalog bearing restores map north.
+ * Close-range LOD adds recessed glazing, masonry reveals and restrained sash profiles.
+ * Reveal depth (0.14 m; 0.28 m for spandrel glazing), frame widths and sash spacing are estimates.
  * Exterior study. Roof heights use 2022 DC LiDAR building returns above the footprint’s lower ground (10th percentile).
  * Roof edges and slopes are simplified. Sill heights, bay spacing and colors are estimates.
  * https://www.openstreetmap.org/way/38075678
@@ -17,6 +19,7 @@ await buildCampusBuilding({
   anchor: [-77.0889544, 38.9369299],
   bearing: 34.15,
   masonry: 0xd3c8b6, accent: 0xddd3bd, roof: 0x777873,
+  sash: 'grouped',
   wings: [{
     outline: [
       [-25.05, 36.49], [-25.98, 22.62], [-20.59, 22.37], [-19.19, -19.5],
@@ -29,7 +32,7 @@ await buildCampusBuilding({
     rows: [[1.95, 5.24], [7.72, 8.92]],
     bayWidth: 2.35, pierWidth: 1.75,
     base: 0.8,
-    portico: { edge: 12, width: 9, depth: 1.5, height: 6, columns: 4, arcades: true, pediment: false },
+    portico: { steps: 4, edge: 12, width: 9, depth: 1.5, height: 6, columns: 4, arcades: true, pediment: false },
     blankEdges: [0, 4],
   }, {
     // Upper roof tier fitted to the 2022 building returns.

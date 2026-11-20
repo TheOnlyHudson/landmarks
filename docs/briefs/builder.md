@@ -261,6 +261,9 @@ Per landmark, plainly:
 - the placement fields;
 - the paths of the contact renders (including 200 px and 80 px) and the
   photo comparisons;
+- the path of a contact sheet of your landmarks
+  (`bun run sheet --terrain <id ...> --out <scratch>/sheets`), so the lead
+  can check them on the terrain; the PR always carries contact sheets;
 - photo credits (URL, author, licence);
 - what is measured, published and estimated;
 - for reworks, what changed and the evidence for any massing change;
