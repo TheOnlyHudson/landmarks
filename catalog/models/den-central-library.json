@@ -1,0 +1,89 @@
+{
+  "id": "den-central-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "library",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Denver Central Library. View from south.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Central_Library._View_from_south.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Central Library. View from south-east.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Central_Library._View_from_south-east.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Central Library. View from W 13th Ave.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Central_Library._View_from_W_13th_Ave.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Central Library.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Central_Library.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Central Library (54940569058).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Central_Library_(54940569058).jpg",
+      "author": "Daniel Hartwig",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Denver Central Library 2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Central_Library_2017.jpg",
+      "author": "McGhiever",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "DenverCentralLibrary 30Sep2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:DenverCentralLibrary_30Sep2017.jpg",
+      "author": "Yassie",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Public Library 1 straighten.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Public_Library_1_straighten.jpg",
+      "author": "KM Newnham",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "USGS 3DEP lidar CO_DRCOG_2_2020",
+      "url": "https://www.usgs.gov/3d-elevation-program",
+      "author": "USGS",
+      "license": "Public domain"
+    },
+    {
+      "title": "USGS NAIP orthoimagery",
+      "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+      "author": "USDA / USGS",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/den-central-library.glb",
+  "source": "generators/den-central-library.ts"
+}

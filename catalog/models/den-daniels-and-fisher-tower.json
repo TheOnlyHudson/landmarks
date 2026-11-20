@@ -1,0 +1,78 @@
+{
+  "id": "den-daniels-and-fisher-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "clock-tower",
+    "historic",
+    "campanile"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Daniels & Fisher Tower from Arapahoe St",
+      "url": "https://commons.wikimedia.org/wiki/File:Daniels_%26_Fisher_Tower_from_Arapahoe_St.jpg",
+      "author": "Alan G Gass",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Daniels and Fisher Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Daniels_and_Fisher_Tower.jpg",
+      "author": "Djlevine",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Daniels & Fisher tower in Denver Colorado",
+      "url": "https://commons.wikimedia.org/wiki/File:Daniels_%26_Fisher_tower_in_Denver_Colorado.JPG",
+      "author": "David Shankbone",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Daniels & Fisher Tower detail",
+      "url": "https://commons.wikimedia.org/wiki/File:Daniels_%26_Fisher_Tower_detail.jpg",
+      "author": "Kenneth C. Zirkel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Daniels & Fisher Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Daniels_%26_Fisher_Tower.jpg",
+      "author": "Makbeta",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Daniels & Fisher Tower, Denver, CO, 29 September, 2006",
+      "url": "https://commons.wikimedia.org/wiki/File:Daniels_%26_Fisher_Tower,_Denver,_CO,_29_September,_2006.JPG",
+      "author": "TheConduqtor",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Daniels and Fisher Tower (55242051522)",
+      "url": "https://commons.wikimedia.org/wiki/File:Daniels_and_Fisher_Tower_(55242051522).jpg",
+      "author": "Scott McLeod",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Downtown Denver Clocktower (4931686046)",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Denver_Clocktower_(4931686046).jpg",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/den-daniels-and-fisher-tower.glb",
+  "source": "generators/den-daniels-and-fisher-tower.ts"
+}

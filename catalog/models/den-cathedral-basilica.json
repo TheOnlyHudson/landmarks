@@ -1,0 +1,73 @@
+{
+  "id": "den-cathedral-basilica",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "cathedral",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cathedral Basilica of the Immaculate Conception, Denver",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Basilica_of_the_Immaculate_Conception%2C_Denver.jpg",
+      "author": "Sharon Mollerus",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cathedral Basilica of the Immaculate Conception (23775939900)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Basilica_of_the_Immaculate_Conception_%2823775939900%29.jpg",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Denver, Church of the Immaculate Conception",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver%2C_Church_of_the_Immaculate_Conception.jpg",
+      "author": "Martin Ely",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "CIMDenver",
+      "url": "https://commons.wikimedia.org/wiki/File:CIMDenver.jpg",
+      "author": "Vertigo700 at English Wikipedia",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Cathedral Basilica of the Immaculate Conception in Denver Colorado",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_Basilica_of_the_Immaculate_Conception_in_Denver_Colorado.jpg",
+      "author": "Always dreamin",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Cathedral, exterior, view of the Cathedral",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Cathedral%2C_exterior%2C_view_of_the_Cathedral.jpg",
+      "author": "Workman",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Revised twin spires, Immaculate Conception Cathedral, Denver IMG 5612",
+      "url": "https://commons.wikimedia.org/wiki/File:Revised_twin_spires%2C_Immaculate_Conception_Cathedral%2C_Denver_IMG_5612.JPG",
+      "author": "Billy Hathorn",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/den-cathedral-basilica.glb",
+  "source": "generators/den-cathedral-basilica.ts"
+}

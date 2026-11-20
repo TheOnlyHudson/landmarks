@@ -1,0 +1,60 @@
+{
+  "id": "den-wells-fargo-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Wells Fargo Center, October 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center,_October_2024.jpg",
+      "author": "Hurstbergn",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Wellsfargocenterdenver1",
+      "url": "https://commons.wikimedia.org/wiki/File:Wellsfargocenterdenver1.JPG",
+      "author": "Onetwo1 at English Wikipedia",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Wells Fargo Center from CO State Capitol",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center_from_CO_State_Capitol.jpg",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Top of Wells Fargo Center",
+      "url": "https://commons.wikimedia.org/wiki/File:Top_of_Wells_Fargo_Center.JPG",
+      "author": "O'Dea",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "WellsFargoCenter",
+      "url": "https://commons.wikimedia.org/wiki/File:WellsFargoCenter.JPG",
+      "author": "(not stated on Commons)",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/den-wells-fargo-center.glb",
+  "source": "generators/den-wells-fargo-center.ts"
+}

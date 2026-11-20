@@ -1,0 +1,55 @@
+{
+  "id": "den-denver-mint",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "civic",
+    "mint",
+    "renaissance-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "U.S. Mint in Denver, CO IMG 5527.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:U.S._Mint_in_Denver,_CO_IMG_5527.JPG",
+      "author": "Billy Hathorn",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Denver mint.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_mint.jpg",
+      "author": "Larry D. Moore",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Us-mint-denver-colorado.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Us-mint-denver-colorado.jpg",
+      "author": "Detroit Publishing Co.",
+      "license": "Public domain"
+    },
+    {
+      "title": "Denver Mint at Night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Mint_at_Night.jpg",
+      "author": "Patcris2264",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/den-denver-mint.glb",
+  "source": "generators/den-denver-mint.ts"
+}

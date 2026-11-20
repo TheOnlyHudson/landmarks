@@ -1,0 +1,17 @@
+{
+  "id": "den-1999-broadway",
+  "name": "1999 Broadway",
+  "model": "den-1999-broadway",
+  "place": "denver-area",
+  "lng": -104.9877924,
+  "lat": 39.7477786,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/52867977",
+    "way/528111541",
+    "way/635033461"
+  ],
+  "wikidata": "Q4594548"
+}

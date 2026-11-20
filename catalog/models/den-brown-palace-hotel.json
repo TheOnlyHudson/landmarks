@@ -1,0 +1,66 @@
+{
+  "id": "den-brown-palace-hotel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "hotel",
+    "historic",
+    "richardsonian-romanesque"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brown Palace Hotel, west corner",
+      "url": "https://commons.wikimedia.org/wiki/File:Brown_Palace_Hotel,_west_corner.jpg",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Brown-Palace-Hotel Denver",
+      "url": "https://commons.wikimedia.org/wiki/File:Brown-Palace-Hotel_Denver.jpg",
+      "author": "Patrick Pelster",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "title": "The Brown Palace Hotel",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Brown_Palace_Hotel.JPG",
+      "author": "Racemanryan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "The historic Brown Palace Hotel in Denver ... LCCN2017885320",
+      "url": "https://commons.wikimedia.org/wiki/File:The_historic_Brown_Palace_Hotel_in_Denver%2C_one_of_the_first_to_employ_an_%22atrium_style%22_with_entire_floors_exposed_to_the_lobby_LCCN2017885320.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "20250727 06 Brown Palace Hotel, Denver, Colorado",
+      "url": "https://commons.wikimedia.org/wiki/File:20250727_06_Brown_Palace_Hotel,_Denver,_Colorado.jpg",
+      "author": "David Wilson",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Brown Palace Hotel and Spa 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Brown_Palace_Hotel_and_Spa_01.jpg",
+      "author": "RuralResurrection",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/den-brown-palace-hotel.glb",
+  "source": "generators/den-brown-palace-hotel.ts"
+}

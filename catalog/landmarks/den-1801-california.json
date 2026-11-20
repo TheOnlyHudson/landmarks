@@ -1,0 +1,18 @@
+{
+  "id": "den-1801-california",
+  "name": "1801 California Street",
+  "model": "den-1801-california",
+  "place": "denver-area",
+  "lng": -104.9895993,
+  "lat": 39.7478912,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/304666082",
+    "way/457999932",
+    "way/588305743",
+    "way/588305744"
+  ],
+  "wikidata": "Q200328"
+}

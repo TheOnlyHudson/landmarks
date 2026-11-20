@@ -1,0 +1,67 @@
+{
+  "id": "den-ellie-caulkins-opera-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "theatre",
+    "opera-house",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Denver Municipal Auditorium.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Municipal_Auditorium.JPG",
+      "author": "Jeffrey Beall",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "dcpa1",
+      "url": "https://www.flickr.com/photos/143916901@N05/37335298035",
+      "author": "Kayla Ferguson",
+      "license": "CC0"
+    },
+    {
+      "title": "Dcpa2 - Flickr - socialgalavant.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dcpa2_-_Flickr_-_socialgalavant.jpg",
+      "author": "Kayla Ferguson",
+      "license": "CC0"
+    },
+    {
+      "title": "Colorado LCCN2011635035.tif",
+      "url": "https://commons.wikimedia.org/wiki/File:Colorado_LCCN2011635035.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "Ellie Caulkins Opera House 2008 DNC (2798269034).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ellie_Caulkins_Opera_House_2008_DNC_(2798269034).jpg",
+      "author": "freewheelinbiker",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Ellie Caulkins Opera House 2008 DNC (2798299750).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ellie_Caulkins_Opera_House_2008_DNC_(2798299750).jpg",
+      "author": "freewheelinbiker",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/den-ellie-caulkins-opera-house.glb",
+  "source": "generators/den-ellie-caulkins-opera-house.ts"
+}

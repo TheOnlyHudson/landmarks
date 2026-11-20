@@ -1,0 +1,14 @@
+{
+  "id": "den-airport-terminal",
+  "name": "Denver International Airport, Jeppesen Terminal",
+  "model": "den-airport-terminal",
+  "place": "denver-area",
+  "lng": -104.673821,
+  "lat": 39.849602,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "relation/4428836"
+  ]
+}

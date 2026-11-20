@@ -1,0 +1,55 @@
+{
+  "id": "den-cheesman-park-pavilion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "pavilion",
+    "park",
+    "neoclassical"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "The 1908 pavilion in Denver, Colorado's, Cheesman Park LCCN2015633572",
+      "url": "https://commons.wikimedia.org/wiki/File:The_1908_pavilion_in_Denver%2C_Colorado%27s%2C_Cheesman_Park_LCCN2015633572.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "The 1908 pavilion in Denver, Colorado's, Cheesman Park LCCN2015633573",
+      "url": "https://commons.wikimedia.org/wiki/File:The_1908_pavilion_in_Denver%2C_Colorado%27s%2C_Cheesman_Park_LCCN2015633573.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "Cheesman Memorial Pavilion",
+      "url": "https://commons.wikimedia.org/wiki/File:Cheesman_Memorial_Pavilion.jpg",
+      "author": "Unknown author",
+      "license": "Public domain"
+    },
+    {
+      "title": "Cheesman Park Pavilion, Denver Colorado",
+      "url": "https://commons.wikimedia.org/wiki/File:Cheesman_Park_Pavilion%2C_Denver_Colorado.jpg",
+      "author": "Keith Knapp (Knapp.keith)",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/den-cheesman-park-pavilion.glb",
+  "source": "generators/den-cheesman-park-pavilion.ts"
+}
