@@ -30,6 +30,8 @@ Visible differences from the front photograph: Corinthian capitals and pediment 
 
 ## Technical checks
 
+Rechecked for geometry revision `c9189d65` on November 20, 2026. Release digest: `landmarks-bc29945cff036b62441c`.
+
 - 5,368 triangles, 208,128 bytes, five materials, no textures.
 - Stored replacement footprint refreshed for way 66646611.
 - OSM overlap check passes against the archived neighborhood extract.
@@ -37,7 +39,7 @@ Visible differences from the front photograph: Corinthian capitals and pediment 
 - Front, rear and day/night render geometry inspected. Front comparison completed; other elevations remain provisional as described above.
 - TypeScript and catalog validation pass.
 - All 74 tests pass (13 test files, 758,439 assertions).
-- Static build passes in a clean two-commit shallow checkout: 1,647 versions from two relevant commits, zero unavailable snapshots within that checkout. Older repository history is outside this build.
+- Static build passes in a clean two-commit shallow checkout: 1,648 versions from two relevant commits, zero unavailable snapshots within that checkout. Older repository history is outside this build.
 - Chromium smoke check passes: actual model loading, creator/AI credits, OSM reference, correctly hidden High/Low selector for this single-LOD model, and day/night model switching.
 
 [200-pixel preview](phone-200.png) · [80-pixel preview](phone-80.png)
