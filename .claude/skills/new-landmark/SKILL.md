@@ -126,8 +126,17 @@ Show the user the three-quarter render beside a photo, and the phone-size
 views. Name every difference you can still see between the renders and the
 photos; never say it looks right without putting a render next to a photo.
 List the sources, the estimates and any doubts. Ask whether to iterate or to
-commit and open a pull request with a contact sheet
-(`bun run sheet --terrain <id>`).
+commit and open a pull request.
+
+Always end the report by telling the user to generate the contact sheets,
+with the exact command, whatever they choose:
+
+    bun run sheet --terrain --branch-diff --out review/<id>
+
+A pull request is never opened without them: commit the sheets and embed
+them in the PR body by commit SHA (`docs/reference.md`, "Contact sheets in
+the PR description"). For a rework, add before-and-after sheets
+(`docs/workflow.md`, "Pull request").
 
 ## Public catalog metadata
 
