@@ -1,0 +1,62 @@
+{
+  "id": "ral-reynolds-coliseum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "university",
+    "historic",
+    "art-deco"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q7319638",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "ReynoldsColiseumOUTSIDE.jpg",
+      "author": "Greenstrat",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:ReynoldsColiseumOUTSIDE.jpg"
+    },
+    {
+      "title": "Reynold's Coliseum.jpg",
+      "author": "Melizabethi123",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Reynold%27s_Coliseum.jpg"
+    },
+    {
+      "title": "Reynolds Coliseum, Raleigh, NC",
+      "author": "chucka_nc",
+      "license": "CC BY-SA 2.0",
+      "url": "https://www.flickr.com/photos/7475921@N05/36711454654"
+    },
+    {
+      "title": "William Neal Reynolds Coliseum on the North Carolina State campus (postcard)",
+      "author": "UNC Libraries",
+      "license": "Public domain mark",
+      "url": "https://www.flickr.com/photos/122654055@N06/22706368009"
+    },
+    {
+      "title": "1954 Dixie Classic program page 05.jpg",
+      "author": "North Carolina State College",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:1954_Dixie_Classic_program_page_05.jpg"
+    }
+  ],
+  "file": "models/ral-reynolds-coliseum.glb",
+  "source": "generators/ral-reynolds-coliseum.ts"
+}
