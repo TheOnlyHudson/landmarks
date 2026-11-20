@@ -1,0 +1,14 @@
+{
+  "id": "nb-520-newport-center-drive",
+  "name": "520 Newport Center Drive",
+  "model": "nb-520-newport-center-drive",
+  "lng": -117.8710989,
+  "lat": 33.6163038,
+  "bearing": -0.55,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/953585213"
+  ],
+  "place": "newport-beach"
+}
