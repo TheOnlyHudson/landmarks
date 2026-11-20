@@ -1,0 +1,15 @@
+{
+  "id": "ral-the-dillon",
+  "name": "The Dillon",
+  "model": "ral-the-dillon",
+  "place": "raleigh-area",
+  "lng": -78.645595,
+  "lat": 35.777823,
+  "bearing": 2.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/8554719",
+    "way/616807009"
+  ]
+}
