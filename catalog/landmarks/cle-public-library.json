@@ -1,0 +1,14 @@
+{
+  "id": "cle-public-library",
+  "name": "Cleveland Public Library",
+  "model": "cle-public-library",
+  "place": "cleveland-area",
+  "lng": -81.6918045,
+  "lat": 41.5011744,
+  "bearing": 56,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/387414100"
+  ]
+}
