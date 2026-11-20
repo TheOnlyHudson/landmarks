@@ -1,0 +1,18 @@
+{
+  "id": "cle-great-lakes-science-center",
+  "name": "Great Lakes Science Center",
+  "model": "cle-great-lakes-science-center",
+  "place": "cleveland-area",
+  "lng": -81.6967767,
+  "lat": 41.5074788,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5599479",
+  "replaces": [
+    "way/101458841",
+    "way/615052745",
+    "way/1534267042",
+    "way/1535041639"
+  ]
+}
