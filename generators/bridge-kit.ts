@@ -116,6 +116,22 @@ export function strip(p: Part, a: V3, b: V3, w: number, n: V3) {
 }
 
 /**
+ * A walking surface `width` wide along a centre line of [x, y, z] points,
+ * its two edges running `depth` down: for a walkway that leaves a deck's
+ * straight lines.
+ */
+export function ribbon(p: Part, line: V3[], width: number, depth: number) {
+  for (let i = 1; i < line.length; i++) {
+    const [a, b] = [line[i - 1], line[i]]
+    const side = scale(norm([b[1] - a[1], -(b[0] - a[0]), 0]), width / 2)
+    const [a0, a1, b0, b1] = [sub(a, side), add(a, side), sub(b, side), add(b, side)]
+    face(p, a0, a1, b1, b0, [0, 0, 1])
+    for (const [u, v, n] of [[a0, b0, scale(side, -1)], [a1, b1, side]] as [V3, V3, V3][])
+      face(p, u, v, [v[0], v[1], v[2] - depth], [u[0], u[1], u[2] - depth], n)
+  }
+}
+
+/**
  * A longitudinal box from x0 to x1, its top and bottom following `top(y)`
  * and `bot(y)` through the given stations. Only the faces asked for are
  * drawn, so a band's hidden side costs nothing.
