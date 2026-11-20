@@ -1,0 +1,14 @@
+{
+  "id": "cle-amasa-stone-chapel",
+  "name": "Amasa Stone Chapel",
+  "model": "cle-amasa-stone-chapel",
+  "place": "cleveland-area",
+  "lng": -81.60906127,
+  "lat": 41.50494291,
+  "bearing": 314,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/108445644"
+  ]
+}
