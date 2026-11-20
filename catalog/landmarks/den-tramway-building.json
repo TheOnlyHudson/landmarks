@@ -1,0 +1,19 @@
+{
+  "id": "den-tramway-building",
+  "name": "Denver Tramway Company Building",
+  "model": "den-tramway-building",
+  "place": "denver-area",
+  "lng": -105.0094782,
+  "lat": 39.7553579,
+  "bearing": 44.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/35468307",
+    "way/588482145",
+    "way/714962163",
+    "way/714962164",
+    "way/714962165",
+    "way/714962166"
+  ]
+}
