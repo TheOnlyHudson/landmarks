@@ -10,8 +10,9 @@
  * trusses, the deck's underside, the walkway and bikeway and the subway
  * track beds, and the approach girders on their piers out to the outline's
  * ends. Writes a low model (towers with plain columns, cables, the trusses
- * as solid bands) and a detail model (the trusses opened into Warren
- * lattice, suspenders, floor beams, railings, track beds), which a map
+ * as solid bands) and a detail model (the trusses opened into a Warren
+ * truss with verticals, its web painted white as on the bridge, suspenders,
+ * floor beams, railings, track beds, arched approach piers), which a map
  * draws from detailZoom up.
  *
  * Frame: x across the bridge (+x the bikeway's side), y along it toward
@@ -59,11 +60,15 @@
  *   114 and 214 m from the towers; the parapets on the upper roadways'
  *   outer edges 1.3 m up, the inner ones 0.7 m; the lowest bracing in the
  *   towers' outer bays 55.2 m, 7 m over the upper roadways; the colonnades'
- *   tops 44.6 m (45.8 m at their corners), 34.6 m long, x = ±17.4 to ±24.
+ *   tops 44.6 m (45.8 m at their corners), 34.6 m long, x = ±17.4 to ±24;
+ *   the suspenders every 5.53 m (18.1 ft), one at midspan (164 suspenders seen over
+ *   the main span, rms 0.2 m off a 5.528 m grid), which is the trusses'
+ *   panel length.
  * - Published (Wikipedia "Manhattan Bridge"): main span 1,470 ft, side
  *   spans 725 ft, 120 ft wide; four cables of 21¼ in; four stiffening
  *   trusses, the inner pair 40 ft apart and each outer one 28 ft beyond,
- *   each under a cable, 24 ft deep, their tops carrying the upper roadways;
+ *   each under a cable, 24 ft (or 26 ft) deep, Warren trusses, their tops
+ *   carrying the upper roadways;
  *   lower-level floor beams 37 in deep; four subway tracks, two under each
  *   upper roadway; walkway on the south side, bikeway on the north;
  *   anchorages 237 × 182 ft, topped by a 40 ft five-bay colonnade, with
@@ -82,10 +87,30 @@
  *   "Water-Adams Sts arch Manhattan Bridge" (Jim.henderson, CC0; the
  *   Brooklyn archway); "Down Under the Manhattan Bridge Overpass" (Marc
  *   Jacobs, CC BY-SA 4.0; the lights along the cables at night).
- * - Estimated: suspenders every 20 ft (6.1 m) and the Warren panels twice
- *   that; the trusses' bottom 1.4 m under the lower roadway; the approach
- *   piers' positions, between the streets, and their form (3 m masonry
- *   walls, as OSM maps the one at y = 777); the archways' centres (y = ±464,
+ * - The stiffening trusses: a post at every suspender and one diagonal per
+ *   panel, alternating, the diagonals meeting the top chord at even panel
+ *   points (HAER NY-127-4; "Murry Bergtraum HS Field td (2021-06-10) 02 -
+ *   Manhattan Bridge", Tdorante10, CC BY-SA 4.0; "Manhattan Bridge
+ *   Washington St jeh", Jim.henderson, CC0: the white diagonals and posts
+ *   between blue-grey chords). Depth 8.1 to 8.5 m out to out, chord centres
+ *   about 7.4 m apart: the published 24-26 ft between the lidar's roadway
+ *   and parapet on top and the lower level's 37 in floor beams below.
+ * - Approach piers: masonry, one under each roadway's pair of trusses, two
+ *   shafts joined by an arch over a passage (HAER NY-127-4, the piers by the
+ *   Manhattan anchorage); 3.4 m thick, as OSM maps the one at y = 779.5
+ *   (way/1252123716, x = -17.5 to 18.4). The rest are placed one to a block,
+ *   at least 1 m clear of every street OSM maps under the approaches
+ *   (Manhattan: Monroe, Madison, Henry, East Broadway, Division, Mechanics
+ *   Alley, Forsyth; Brooklyn: Front, Pearl, York, the BQE, Prospect, Jay,
+ *   Sands), the two halves apart where Pearl Street crosses at a slant.
+ * - Estimated: the trusses' bottom 1.4 m under the lower roadway, and on
+ *   the approaches, where the lower level climbs toward the upper roadways,
+ *   held 8.1 m under the top as HAER NY-127-4 shows them, but 4.6 m (15 ft)
+ *   clear of the streets under them; the member
+ *   sizes (chords 0.7 x 0.9 m, diagonals 0.85 m and posts 0.5 m across,
+ *   from the photos); the approach piers' positions within each block, their
+ *   arches (4.8 m wide, springing 5.5 m up) and copings; the web's colour,
+ *   off-white from the photos; the archways' centres (y = ±464,
  *   from the streets through them); the buttresses' size; the cable lights'
  *   spacing (about 12 m, on the outer cables). The cables are drawn 0.8 m
  *   thick against the real 0.54 m. The deck over the Manhattan approach's
@@ -129,7 +154,7 @@
 import { Part, cross, sub, writeGlb, type V3 } from './mesh'
 import { finish, type Swatch } from './palette'
 import {
-  along, band, bead, chamferedRect, face, footedLoft, footedWall, groundAt, merged, movedAlong, parabola, piecewise, rod, stations, strip, tube,
+  along, band, bead, face, footedLoft, footedWall, groundAt, merged, movedAlong, parabola, piecewise, rod, stations, truss, tube,
   type GroundGrid,
 } from './bridge-kit'
 
@@ -260,7 +285,7 @@ const AF = 445.1, AB = 503.3  // the anchorages' river and landward faces, |y|
 const YB = -908.2, YM = 939.4 // the outline's ends
 const IN = 6.1, OUT = 14.6    // truss and cable centre lines, |x|
 const WALK0 = 15.0, WALK1 = 18.8 // walkway (x < 0) and bikeway (x > 0), |x|
-const BAY = 6.1               // suspender spacing
+const BAY = 5.528             // suspender spacing and truss panel (lidar), panel points at y = k·BAY
 
 /** Lidar roadway heights (NAVD88) every 20 m from y = -920. */
 const profile = (heights: number[]) => piecewise(heights.map((h, i) => [-920 + 20 * i, H(h)] as [number, number]))
@@ -453,8 +478,18 @@ const WALK_RUNS: [number, number][] = [[-866, -TY - 7], [-TY + 7, TY - 7], [TY +
 const TRACK_RUNS: [number, number][] = [[-AB, AB]]
 
 const trussTop = (x: number) => (y: number) => upper(x)(y) + (Math.abs(x) > 10 ? 1.3 : 0.7)
-/** The trusses' bottom, or the ground where an approach comes down to it. */
-const trussBot = (x: number) => (y: number) => Math.max(LOWER(y) - 1.4, Math.min(ground(x, y), trussTop(x)(y) - 0.5))
+const TRUSS_D = 8.1    // out to out: 24 ft between chord centres
+const CLEARANCE = 4.6  // over the streets under the approaches (15 ft)
+/**
+ * The trusses' bottom: under the lower level's floor beams, a full truss's
+ * depth down where the lower level climbs toward the upper roadways but no
+ * lower than the street clearance, or on the ground where an approach comes
+ * down to it.
+ */
+const trussBot = (x: number) => (y: number) => {
+  const top = trussTop(x)(y), g = ground(x, y)
+  return Math.max(Math.min(LOWER(y) - 1.4, Math.max(top - TRUSS_D, g + CLEARANCE)), Math.min(g, top - 0.5))
+}
 const TRUSSES = [-OUT, -IN, IN, OUT]
 
 const tri = (p: Part, a: V3, b: V3, c: V3, n: V3) => p.tri(a, b, c, undefined, undefined, undefined, [n, n, n])
@@ -464,17 +499,20 @@ function faceTo(p: Part, a: V3, b: V3, c: V3, d: V3, hint: V3) {
   face(p, a, b, c, d, n[0] * hint[0] + n[1] * hint[1] + n[2] * hint[2] < 0 ? mul(n, -1) : n)
 }
 
-/** A Warren truss in the plane x = xc: two chords and diagonals between alternate panel points, no verticals. */
-function warren(chords: Part, web: Part, xc: number, [a, b]: [number, number]) {
-  const top = trussTop(xc), bot = trussBot(xc), ys = stations(a, b, 20)
-  band(chords, xc - 0.3, xc + 0.3, ys, top, (y) => top(y) - 0.6)
-  band(chords, xc - 0.3, xc + 0.3, ys, (y) => Math.min(bot(y) + 0.8, top(y) - 0.6), bot)
-  const nodes = stations(a, b, BAY)
-  for (let i = 0; i < nodes.length - 1; i++) {
-    const [y0, y1] = i % 2 ? [nodes[i + 1], nodes[i]] : [nodes[i], nodes[i + 1]]
-    const z0 = bot(y0) + 0.8, z1 = top(y1) - 0.6
-    if (z1 - z0 > 1.5) strip(web, [xc, y0, z0], [xc, y1, z1], 0.5, [1, 0, 0])
-  }
+/** Panel points k·BAY inside a run, and the run's ends. */
+function panelPoints([a, b]: [number, number]): { ys: number[]; flip: boolean } {
+  const k0 = Math.ceil(a / BAY + 0.2), k1 = Math.floor(b / BAY - 0.2)
+  const ys = [a, ...Array.from({ length: k1 - k0 + 1 }, (_, i) => (k0 + i) * BAY), b]
+  // Diagonals keep one pattern along the whole bridge: k even is where they meet the top chord.
+  return { ys, flip: ((k0 % 2) + 2) % 2 === 0 }
+}
+
+/** A stiffening truss in the plane x = xc: Warren with verticals, a post at every suspender. */
+function stiffening(chords: Part, web: Part, xc: number, run: [number, number]) {
+  const { ys, flip } = panelPoints(run)
+  truss(chords, web, xc, ys, trussTop(xc), trussBot(xc), {
+    chordW: 0.7, topD: 0.9, botD: 0.9, member: 0.85, post: 0.5, flip, minWeb: 1.5, curve: stations(run[0], run[1], 20),
+  })
 }
 
 const AW = 24.4                  // anchorage half-width (OSM)
@@ -549,15 +587,39 @@ function colonnade(stone: Part, detail: boolean) {
   }
 }
 
-/** Approach piers: masonry walls across the deck, between the streets under it (OSM maps the one at y = 777). */
-const APPROACH_PIERS = [
-  -858.3, -796.3, -773.8, -722.8, -664.8, -607.8, -555.3, -518.5,
-  533.3, 558.8, 588.8, 618.8, 639.8, 666, 694.2, 722, 751.8, 777, 800.3, 821,
+/**
+ * Approach piers, one under each roadway's pair of trusses: masonry with an
+ * arched passage between the trusses, set where the streets under the
+ * approaches are not. `y` is per side (x < 0, x > 0) where a street crosses
+ * at a slant; `out` is the pier's outer face, |x|.
+ */
+const APPROACH_PIERS: { y: [number, number]; out: number }[] = [
+  { y: [-790, -790], out: 16 }, { y: [-735, -735], out: 16 }, { y: [-672, -672], out: 16 },
+  { y: [-605, -625], out: 16 }, { y: [-560, -557], out: 16 },
+  { y: [537, 537], out: 17 }, { y: [620, 620], out: 17 }, { y: [697, 697], out: 17 },
+  { y: [779.5, 779.5], out: 17.8 }, { y: [850, 850], out: 16 },
 ]
-function approachPiers(stone: Part, seg: number) {
-  for (const y of APPROACH_PIERS) {
-    const plan = chamferedRect(-15.4, 15.4, y - 1.5, y + 1.5, seg > 8 ? 0 : 0.3)
-    footedLoft(stone, ground, [{ plan, z: 'ground' }, { plan, z: LOWER(y) - 1.4 }], seg)
+const PIER_D = 1.7, PIER_IN = IN - 1.7, SHAFT = 3.4, PIER_R = (OUT - IN - SHAFT) / 2 - 0.15
+
+function approachPiers(stone: Part, vault: Part, detail: boolean) {
+  for (const { y: ys, out } of APPROACH_PIERS) for (const [i, s] of [[0, -1], [1, 1]] as [number, number][]) {
+    const y = ys[i], y0 = y - PIER_D, y1 = y + PIER_D, top = Math.min(trussBot(s * IN)(y), trussBot(s * OUT)(y))
+    const span = (a: number, b: number) => [s * a, s * b].sort((p, q) => p - q) as [number, number]
+    const rect = ([xa, xb]: [number, number], d = 0): [number, number][] =>
+      [[xa - d, y0 - d], [xb + d, y0 - d], [xb + d, y1 + d], [xa - d, y1 + d]]
+    const loft = (xs: [number, number], z: number, d = 0) =>
+      footedLoft(stone, ground, [{ plan: rect(xs, d), z: 'ground' }, { plan: rect(xs, d), z }], detail ? 2.5 : 40)
+    const xc = s * (PIER_IN + SHAFT + PIER_R)
+    const zs = Math.max(ground(xc, y0), ground(xc, y1)) + 5.5
+    if (!detail || top - zs < PIER_R + 1.5) { loft(span(PIER_IN, out), top); continue }
+    // Two shafts with a plinth course, the arch between them, and a coping under the bottom chords.
+    for (const xs of [span(PIER_IN, PIER_IN + SHAFT), span(PIER_IN + 2 * PIER_R + SHAFT, out)]) {
+      loft(xs, Math.min(zs - 2.5, top), 0.25)
+      loft(xs, top - 0.6)
+    }
+    const [xa, xb] = [xc - PIER_R, xc + PIER_R]
+    archWall(stone, vault, xa, xb, y0, y1, xc, zs, PIER_R, top - 0.6, 8)
+    box(stone, ...span(PIER_IN - 0.3, out + 0.3), y0 - 0.3, y1 + 0.3, top - 0.6, top, { r: 0, bottom: true })
   }
 }
 
@@ -599,16 +661,16 @@ function lowModel() {
   for (const p of necklace()) if (p.k % 3 === 1) bead(lamps, p.at, 2.6, true)
   for (const s of [-1, 1]) anchorage(s, granite, soffit, 12)
   colonnade(granite, false)
-  approachPiers(granite, 32)
+  approachPiers(granite, soffit, false)
   return { steel, brace, granite, soffit, deck, lamps }
 }
 
 function detailModel() {
   const t = tower(true)
   const steel = towersAt(t.steel), brace = towersAt(t.brace), granite = towersAt(t.granite)
-  const soffit = new Part(), deck = new Part(), lamps = new Part(), wires = new Part()
+  const soffit = new Part(), deck = new Part(), lamps = new Part(), wires = new Part(), web = new Part()
 
-  for (const run of DECK_RUNS) for (const x of TRUSSES) warren(steel, brace, x, run)
+  for (const run of DECK_RUNS) for (const x of TRUSSES) stiffening(steel, web, x, run)
   for (const run of SOFFIT_RUNS) {
     band(soffit, -OUT, OUT, stations(run[0], run[1], 20), (y) => LOWER(y) - 1.0, (y) => LOWER(y) - 1.0, { bottom: true })
     for (const y of stations(run[0], run[1], 2 * BAY).slice(1, -1)) {
@@ -633,8 +695,8 @@ function detailModel() {
   for (const p of necklace()) bead(lamps, p.at, 0.7)
   for (const s of [-1, 1]) anchorage(s, granite, soffit, 4)
   colonnade(granite, true)
-  approachPiers(granite, 4)
-  return { steel, brace, granite, soffit, deck, lamps, wires }
+  approachPiers(granite, soffit, true)
+  return { steel, brace, web, granite, soffit, deck, lamps, wires }
 }
 
 /** A cable from inside one anchorage to inside the other, over both saddles. */
@@ -656,6 +718,7 @@ function necklace() {
 if (import.meta.main) {
   const STEEL: Swatch = finish('bridge-blue-grey', 0x8ea3b0)
   const BRACE: Swatch = finish('bridge-blue-grey-shade', 0x768c9b)
+  const WEB: Swatch = finish('bridge-truss-white', 0xe2e0d8)
   const GRANITE: Swatch = finish('granite', 0xd6c8b2)
   const SOFFIT: Swatch = finish('soffit', 0x5f6b72)
   const DECK_SURFACE: Swatch = finish('deck', 0x7f8489)
@@ -669,6 +732,7 @@ if (import.meta.main) {
     ],
     'nyc-manhattan-bridge.detail.glb': [
       { part: detail.steel, material: STEEL }, { part: detail.brace, material: { ...BRACE, doubleSided: true } },
+      { part: detail.web, material: { ...WEB, doubleSided: true } },
       { part: detail.granite, material: GRANITE }, { part: detail.soffit, material: SOFFIT },
       { part: detail.deck, material: DECK_SURFACE }, { part: detail.lamps, material: LAMP },
       // Last: a map draws wires by their coverage, blended over what is already drawn.

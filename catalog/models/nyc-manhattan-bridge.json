@@ -23,6 +23,26 @@
       "url": "https://claude.ai/"
     }
   ],
+  "references": [
+    {
+      "title": "View of Manhattan approach with Midtown in background (HAER NY-127-4)",
+      "url": "https://www.loc.gov/item/ny0980/",
+      "author": "Historic American Engineering Record",
+      "license": "Public domain"
+    },
+    {
+      "title": "Murry Bergtraum HS Field td (2021-06-10) 02 - Manhattan Bridge",
+      "url": "https://commons.wikimedia.org/wiki/File:Murry_Bergtraum_HS_Field_td_(2021-06-10)_02_-_Manhattan_Bridge.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Manhattan Bridge Washington St jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Manhattan_Bridge_Washington_St_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    }
+  ],
   "tags": [],
   "reviewStatus": "unreviewed"
 }

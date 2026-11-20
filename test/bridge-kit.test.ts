@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'bun:test'
-import { along, bead, chamferedRect, footedLoft } from '../generators/bridge-kit'
+import { along, bead, chamferedRect, footedLoft, truss } from '../generators/bridge-kit'
 import { Part, type V3 } from '../generators/mesh'
 
 const expectClose = (a: number[][], b: number[][]) => {
@@ -69,5 +69,50 @@ describe('footed loft', () => {
       else expect(n[2]).toBeGreaterThan(0)
       if (Math.abs(n[2]) < 1e-6) expect(Math.min(a[0], b[0], c[0])).toBeLessThan(2 + 1e-6)
     }
+  })
+})
+
+describe('truss', () => {
+  // Web strips in the plane x = 0: [y, z] of each strip's four corners, a strip per two triangles.
+  const strips = (web: Part) => {
+    const out: number[][][] = []
+    for (let i = 0; i < web.pos.length; i += 18) {
+      const pts: number[][] = []
+      for (let k = 0; k < 18; k += 3) pts.push([-web.pos[i + k + 2], web.pos[i + k + 1]]) // glTF (x, z, -y) back to (y, z)
+      out.push(pts)
+    }
+    return out
+  }
+  const build = (opts: Parameters<typeof truss>[6], bot = (_y: number) => 0) => {
+    const chords = new Part(), web = new Part()
+    truss(chords, web, 0, [0, 5, 10, 15], () => 8, bot, { topD: 1, botD: 1, ...opts })
+    return strips(web)
+  }
+  const isPost = (s: number[][]) => Math.max(...s.map((p) => p[0])) - Math.min(...s.map((p) => p[0])) < 1
+  const width = (s: number[][]) => Math.max(...s.map((p) => p[0])) - Math.min(...s.map((p) => p[0]))
+
+  test('a post at every panel point and one diagonal per panel', () => {
+    const web = build({ member: 0.8, post: 0.4 })
+    expect(web.filter(isPost)).toHaveLength(4)
+    expect(web.filter((s) => !isPost(s))).toHaveLength(3)
+    for (const s of web.filter(isPost)) expect(width(s)).toBeCloseTo(0.4, 4)
+  })
+
+  test('flip turns every diagonal the other way', () => {
+    // The first diagonal's top end: at y = 0 by default, at y = 5 flipped.
+    const topEnd = (flip: boolean) => {
+      const d = build({ flip }).filter((s) => !isPost(s))[0]
+      const top = d.filter((p) => p[1] > 6.5)
+      return top.reduce((a, p) => a + p[0], 0) / top.length
+    }
+    expect(topEnd(false)).toBeCloseTo(0, 0)
+    expect(topEnd(true)).toBeCloseTo(5, 0)
+  })
+
+  test('no web where the chords close up', () => {
+    // The bottom chord rises to meet the top past y = 10: only the posts at 0 and 5 and the diagonal between them remain.
+    const web = build({ minWeb: 1.5 }, (y) => (y > 7.5 ? 6 : 0))
+    expect(web.filter(isPost)).toHaveLength(2)
+    expect(web.filter((s) => !isPost(s))).toHaveLength(1)
   })
 })
