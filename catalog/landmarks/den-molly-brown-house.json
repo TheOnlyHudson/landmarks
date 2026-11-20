@@ -1,0 +1,15 @@
+{
+  "id": "den-molly-brown-house",
+  "name": "Molly Brown House Museum",
+  "model": "den-molly-brown-house",
+  "place": "denver-area",
+  "lng": -104.9807614,
+  "lat": 39.7375109,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/131551278"
+  ],
+  "wikidata": "Q6896531"
+}
