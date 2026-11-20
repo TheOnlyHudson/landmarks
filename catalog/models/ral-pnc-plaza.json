@@ -1,0 +1,87 @@
+{
+  "id": "ral-pnc-plaza",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "residential",
+    "hotel",
+    "mixed-use"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q14708129",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "PNC Plaza Raleigh.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_Plaza_Raleigh.JPG",
+      "author": "Alexisrael",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "PNC Plaza - Raleigh, NC.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_Plaza_-_Raleigh,_NC.jpg",
+      "author": "Melizabethi123",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "PNC DTR-Raleigh 2.png",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_DTR-Raleigh_2.png",
+      "author": "Oakcitydylan",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "PNC DTR-Raleigh 3.png",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_DTR-Raleigh_3.png",
+      "author": "Oakcitydylan",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Raleigh May 2025 (3).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Raleigh_May_2025_(3).jpg",
+      "author": "Raskuly",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "RBC Plaza, Raleigh, NC.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:RBC_Plaza,_Raleigh,_NC.jpg",
+      "author": "Nctennishco12",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Rbcplaza.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Rbcplaza.JPG",
+      "author": "Willthacheerleader18",
+      "license": "Public domain"
+    },
+    {
+      "title": "Rbc - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rbc_-_panoramio.jpg",
+      "author": "Scott Thompson",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Downtown Raleigh, North Carolina, including the city's new tallest building - RBC Plaza.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Raleigh,_North_Carolina,_including_the_city%27s_new_tallest_building_-_RBC_Plaza.jpg",
+      "author": "Bz3rk",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/ral-pnc-plaza.glb",
+  "source": "generators/ral-pnc-plaza.ts"
+}

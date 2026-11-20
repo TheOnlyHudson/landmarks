@@ -1,0 +1,15 @@
+{
+  "id": "ral-nc-museum-of-natural-sciences",
+  "name": "North Carolina Museum of Natural Sciences",
+  "model": "ral-nc-museum-of-natural-sciences",
+  "place": "raleigh-area",
+  "lng": -78.639511,
+  "lat": 35.782179,
+  "bearing": 3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/197842115"
+  ],
+  "wikidata": "Q2483656"
+}

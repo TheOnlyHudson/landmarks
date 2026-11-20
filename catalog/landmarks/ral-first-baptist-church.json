@@ -1,0 +1,15 @@
+{
+  "id": "ral-first-baptist-church",
+  "name": "First Baptist Church of Raleigh",
+  "model": "ral-first-baptist-church",
+  "place": "raleigh-area",
+  "lng": -78.640578,
+  "lat": 35.7808597,
+  "bearing": 2.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5452427",
+  "replaces": [
+    "relation/16629305"
+  ]
+}

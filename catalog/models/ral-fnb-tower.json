@@ -1,0 +1,48 @@
+{
+  "id": "ral-fnb-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "FNB Tower - Raleigh.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:FNB_Tower_-_Raleigh.jpg",
+      "author": "TastyPoutine",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "FNB Tower December 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:FNB_Tower_December_2023.jpg",
+      "author": "City Dweller 2",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Charter Square December 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Charter_Square_December_2023.jpg",
+      "author": "City Dweller 2",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/ral-fnb-tower.glb",
+  "source": "generators/ral-fnb-tower.ts"
+}

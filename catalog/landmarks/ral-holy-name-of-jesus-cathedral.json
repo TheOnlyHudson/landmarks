@@ -1,0 +1,15 @@
+{
+  "id": "ral-holy-name-of-jesus-cathedral",
+  "name": "Holy Name of Jesus Cathedral",
+  "model": "ral-holy-name-of-jesus-cathedral",
+  "place": "raleigh-area",
+  "lng": -78.6700782,
+  "lat": 35.7774533,
+  "bearing": 346.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q27670324",
+  "replaces": [
+    "way/553750193"
+  ]
+}

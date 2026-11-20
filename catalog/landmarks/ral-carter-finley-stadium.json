@@ -1,0 +1,15 @@
+{
+  "id": "ral-carter-finley-stadium",
+  "name": "Carter–Finley Stadium",
+  "model": "ral-carter-finley-stadium",
+  "place": "raleigh-area",
+  "wikidata": "Q945172",
+  "lng": -78.719718,
+  "lat": 35.800809,
+  "bearing": 143,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/1216299"
+  ]
+}

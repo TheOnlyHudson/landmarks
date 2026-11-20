@@ -1,0 +1,14 @@
+{
+  "id": "ral-martin-marietta-center",
+  "name": "Martin Marietta Center for the Performing Arts",
+  "model": "ral-martin-marietta-center",
+  "place": "raleigh-area",
+  "lng": -78.63966,
+  "lat": 35.771186,
+  "bearing": 2.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/47759870"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ral-peace-main-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "greek-revival",
+    "historic",
+    "portico"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Peace-College-20080321.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Peace-College-20080321.jpeg",
+      "author": "Jmturner",
+      "license": "Public domain"
+    },
+    {
+      "title": "Main Building, William Peace University, Raleigh, NC (27224708037).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_Building,_William_Peace_University,_Raleigh,_NC_(27224708037).jpg",
+      "author": "Warren LeMay from Cincinnati, OH, United States",
+      "license": "CC0"
+    },
+    {
+      "title": "Peace, A Junior College for Women, Raleigh, N.C. (postcard)",
+      "url": "https://www.flickr.com/photos/122654055@N06/23110302971",
+      "author": "UNC Libraries Commons",
+      "license": "Public Domain Mark"
+    }
+  ],
+  "file": "models/ral-peace-main-building.glb",
+  "source": "generators/ral-peace-main-building.ts"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ral-ncma-west-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "modernist",
+    "art"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "North Carolina Art Museum - panoramio.jpg",
+      "author": "Sam Shaber",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_Art_Museum_-_panoramio.jpg"
+    },
+    {
+      "title": "North Carolina Art Museum Entrance - panoramio.jpg",
+      "author": "Sam Shaber",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_Art_Museum_Entrance_-_panoramio.jpg"
+    }
+  ],
+  "file": "models/ral-ncma-west-building.glb",
+  "source": "generators/ral-ncma-west-building.ts"
+}

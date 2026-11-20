@@ -1,0 +1,164 @@
+{
+  "id": "ral-holy-name-of-jesus-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "cathedral",
+    "romanesque-revival",
+    "dome",
+    "bell-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_01.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_02.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_03.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_04.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 05.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_05.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 06.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_06.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 07.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_07.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 08.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_08.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 09.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_09.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 10.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_10.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 16.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_16.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 17.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_17.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 18.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_18.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 19.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_19.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 20.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_20.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral - Raleigh, North Carolina 21.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral_-_Raleigh,_North_Carolina_21.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral, Raleigh, NC (28221480928).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral,_Raleigh,_NC_(28221480928).jpg",
+      "author": "Warren LeMay from Cincinnati, OH, United States",
+      "license": "CC0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral, Raleigh, NC (28221481128).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral,_Raleigh,_NC_(28221481128).jpg",
+      "author": "Warren LeMay from Cincinnati, OH, United States",
+      "license": "CC0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral, Raleigh, NC (28221481378).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral,_Raleigh,_NC_(28221481378).jpg",
+      "author": "Warren LeMay from Cincinnati, OH, United States",
+      "license": "CC0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral, Raleigh, NC (28221481698).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral,_Raleigh,_NC_(28221481698).jpg",
+      "author": "Warren LeMay from Cincinnati, OH, United States",
+      "license": "CC0"
+    },
+    {
+      "title": "Holy Name of Jesus Cathedral.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Cathedral.jpg",
+      "author": "Dennis Ludlow (Sharkshock)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Name of Jesus Church at sunrise.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Name_of_Jesus_Church_at_sunrise.png",
+      "author": "MadeYourReadThis",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/ral-holy-name-of-jesus-cathedral.glb",
+  "source": "generators/ral-holy-name-of-jesus-cathedral.ts"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ral-federal-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "post-office",
+    "second-empire"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Federal-Building-Raleigh-20080321",
+      "url": "https://commons.wikimedia.org/wiki/File:Federal-Building-Raleigh-20080321.jpeg",
+      "author": "Jmturner",
+      "license": "Public domain"
+    },
+    {
+      "title": "Federal Building - Raleigh, NC - DSC06095",
+      "url": "https://commons.wikimedia.org/wiki/File:Federal_Building_-_Raleigh,_NC_-_DSC06095.JPG",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "Old Federal Building, Raleigh, NC (27224609457)",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Federal_Building,_Raleigh,_NC_(27224609457).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Corner of building, Century Station Federal Building and Postal Station",
+      "url": "https://commons.wikimedia.org/wiki/File:Corner_of_building,_Century_Station_Federal_Building_and_Postal_Station_located_in_Raleigh,_North_Carolina_LCCN2013634048.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/ral-federal-building.glb",
+  "source": "generators/ral-federal-building.ts"
+}

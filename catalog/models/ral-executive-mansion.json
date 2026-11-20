@@ -1,0 +1,55 @@
+{
+  "id": "ral-executive-mansion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "queen-anne",
+    "residence",
+    "government"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "North-Carolina-Executive-Mansion-20080321.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:North-Carolina-Executive-Mansion-20080321.jpeg",
+      "author": "Mark Turner",
+      "license": "Public domain"
+    },
+    {
+      "title": "North Carolina Executive Mansion, Raleigh, NC (28221584638).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_Executive_Mansion,_Raleigh,_NC_(28221584638).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "North Carolina Executive Mansion, Raleigh, NC (28221585738).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_Executive_Mansion,_Raleigh,_NC_(28221585738).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Halloween 2025, NC Executive Mansion.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Halloween_2025,_NC_Executive_Mansion.jpg",
+      "author": "Willthacheerleader18",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/ral-executive-mansion.glb",
+  "source": "generators/ral-executive-mansion.ts"
+}

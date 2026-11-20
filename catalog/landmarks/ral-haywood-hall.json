@@ -1,0 +1,14 @@
+{
+  "id": "ral-haywood-hall",
+  "name": "Haywood Hall",
+  "model": "ral-haywood-hall",
+  "place": "raleigh-area",
+  "lng": -78.6358132,
+  "lat": 35.7807557,
+  "bearing": 4,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/47776422"
+  ]
+}

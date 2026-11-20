@@ -1,0 +1,67 @@
+{
+  "id": "ral-mordecai-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "house",
+    "greek-revival",
+    "historic",
+    "museum"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Historic Mordecai House-Raleigh-NC-13 Sept 2010.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Historic_Mordecai_House-Raleigh-NC-13_Sept_2010.jpeg",
+      "author": "Mark Turner",
+      "license": "Public domain"
+    },
+    {
+      "title": "Mordecai House Christmas 2012.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Mordecai_House_Christmas_2012.JPG",
+      "author": "Leah Rucker",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Birthplace of Andrew Johnson, Mordecai House in rear.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Birthplace_of_Andrew_Johnson,_Mordecai_House_in_rear.JPG",
+      "author": "Wikimedia Commons uploader (self)",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "The Mordecai House",
+      "url": "https://www.flickr.com/photos/57505599@N00/4560313596",
+      "author": "C Jill Reed",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "The Mordecai House",
+      "url": "https://www.flickr.com/photos/57505599@N00/4560313970",
+      "author": "C Jill Reed",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "The Mordecai House",
+      "url": "https://www.flickr.com/photos/57505599@N00/4559685625",
+      "author": "C Jill Reed",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/ral-mordecai-house.glb",
+  "source": "generators/ral-mordecai-house.ts"
+}

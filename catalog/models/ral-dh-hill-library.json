@@ -1,0 +1,67 @@
+{
+  "id": "ral-dh-hill-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "library",
+    "university",
+    "brutalist"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q5203611",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "DH Hill Library.JPG",
+      "author": "Bmclayto",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:DH_Hill_Library.JPG"
+    },
+    {
+      "title": "D.H. Hill Library.JPG",
+      "author": "Surrahwall",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:D.H._Hill_Library.JPG"
+    },
+    {
+      "title": "D.H. Hill terrace.jpg",
+      "author": "Jbrubins",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:D.H._Hill_terrace.jpg"
+    },
+    {
+      "title": "NCSU campus 064.JPG",
+      "author": "Haruhide000",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:NCSU_campus_064.JPG"
+    },
+    {
+      "title": "D.H. Hill Library",
+      "author": "Skakerman (Archive)",
+      "license": "CC BY 2.0",
+      "url": "https://www.flickr.com/photos/27482959@N08/2968578025"
+    },
+    {
+      "title": "NCSU Libraries - D.H. Hill Library",
+      "author": "orionpozo",
+      "license": "CC BY 2.0",
+      "url": "https://www.flickr.com/photos/65168863@N00/3621272957"
+    }
+  ],
+  "file": "models/ral-dh-hill-library.glb",
+  "source": "generators/ral-dh-hill-library.ts"
+}

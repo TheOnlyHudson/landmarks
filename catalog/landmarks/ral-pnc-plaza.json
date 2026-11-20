@@ -1,0 +1,23 @@
+{
+  "id": "ral-pnc-plaza",
+  "name": "PNC Plaza",
+  "model": "ral-pnc-plaza",
+  "place": "raleigh-area",
+  "lng": -78.6387854,
+  "lat": 35.7765852,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q14708129",
+  "replaces": [
+    "way/268750429",
+    "way/310454532",
+    "way/310454533",
+    "way/310454534",
+    "way/310454535",
+    "way/310454536",
+    "way/310454537",
+    "way/310454538",
+    "way/310454539"
+  ]
+}

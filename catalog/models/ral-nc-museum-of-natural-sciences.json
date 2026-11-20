@@ -1,0 +1,59 @@
+{
+  "id": "ral-nc-museum-of-natural-sciences",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "North-Carolina-Museum-of-Natural-Sciences-20070321.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:North-Carolina-Museum-of-Natural-Sciences-20070321.jpeg",
+      "author": "Jmturner",
+      "license": "Public domain"
+    },
+    {
+      "title": "North Carolina Museum of Natural Since - panoramio - Chanilim714.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_Museum_of_Natural_Since_-_panoramio_-_Chanilim714.jpg",
+      "author": "Chanilim714",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "North Carolina Museum of Natural Since - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_Museum_of_Natural_Since_-_panoramio.jpg",
+      "author": "Chanilim714",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "North Carolina Museum of Natural Sciences.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_Museum_of_Natural_Sciences.JPG",
+      "author": "Abbylabar",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "North Carolina Legislative Building at Downtown Raleigh NC - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_Legislative_Building_at_Downtown_Raleigh_NC_-_panoramio.jpg",
+      "author": "Chanilim714",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/ral-nc-museum-of-natural-sciences.glb",
+  "source": "generators/ral-nc-museum-of-natural-sciences.ts"
+}

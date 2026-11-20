@@ -1,0 +1,15 @@
+{
+  "id": "ral-wells-fargo-capitol-center",
+  "name": "Wells Fargo Capitol Center",
+  "model": "ral-wells-fargo-capitol-center",
+  "place": "raleigh-area",
+  "lng": -78.639686,
+  "lat": 35.778666,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/297829069"
+  ],
+  "wikidata": "Q7981653"
+}

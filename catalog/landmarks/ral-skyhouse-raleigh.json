@@ -1,0 +1,14 @@
+{
+  "id": "ral-skyhouse-raleigh",
+  "name": "SkyHouse Raleigh",
+  "model": "ral-skyhouse-raleigh",
+  "place": "raleigh-area",
+  "lng": -78.637115,
+  "lat": 35.776649,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/297829073"
+  ]
+}

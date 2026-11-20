@@ -1,0 +1,55 @@
+{
+  "id": "ral-lenovo-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "hockey",
+    "basketball"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q39177",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "PNC Arena Raleigh.JPG",
+      "author": "Alexisrael",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_Arena_Raleigh.JPG"
+    },
+    {
+      "title": "PNCArena-RaleighNC.jpg",
+      "author": "Edward T. Funkhouser",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:PNCArena-RaleighNC.jpg"
+    },
+    {
+      "title": "Lenovo Center Side.jpg",
+      "author": "CavsFan45",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lenovo_Center_Side.jpg"
+    },
+    {
+      "title": "Lenovo Center Exterior View 2025 Distant.jpg",
+      "author": "CavsFan45",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lenovo_Center_Exterior_View_2025_Distant.jpg"
+    }
+  ],
+  "file": "models/ral-lenovo-center.glb",
+  "source": "generators/ral-lenovo-center.ts"
+}

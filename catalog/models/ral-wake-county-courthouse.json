@@ -1,0 +1,43 @@
+{
+  "id": "ral-wake-county-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "courthouse",
+    "civic",
+    "modern",
+    "brutalist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Wake County Courthouse - Raleigh, NC - DSC05816.JPG",
+      "author": "Daderot",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Wake_County_Courthouse_-_Raleigh,_NC_-_DSC05816.JPG"
+    },
+    {
+      "title": "Wake County Courthouse - Flickr - matt.walter.jpg",
+      "author": "Matt Walter",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Wake_County_Courthouse_-_Flickr_-_matt.walter.jpg"
+    }
+  ],
+  "file": "models/ral-wake-county-courthouse.glb",
+  "source": "generators/ral-wake-county-courthouse.ts"
+}

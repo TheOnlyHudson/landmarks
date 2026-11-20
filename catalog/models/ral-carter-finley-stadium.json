@@ -1,0 +1,84 @@
+{
+  "id": "ral-carter-finley-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "football",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q945172",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Carter-Finley Stadium 1.jpg",
+      "author": "SMaloney",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Carter-Finley_Stadium_1.jpg"
+    },
+    {
+      "title": "Carter Finley Stadium aerial.jpg",
+      "author": "NASA",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Carter_Finley_Stadium_aerial.jpg"
+    },
+    {
+      "title": "Carter Finley Stadium Arc.JPG",
+      "author": "Alexisrael",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Carter_Finley_Stadium_Arc.JPG"
+    },
+    {
+      "title": "Carter-Finley Stadium.jpg",
+      "author": "Greenstrat",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Carter-Finley_Stadium.jpg"
+    },
+    {
+      "title": "Carter-finley stadium.jpg",
+      "author": "Jcmurphy (en.wikipedia)",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Carter-finley_stadium.jpg"
+    },
+    {
+      "title": "Carter-FinleyOUTSIDE.jpg",
+      "author": "Greenstrat",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Carter-FinleyOUTSIDE.jpg"
+    },
+    {
+      "title": "Carter finley stadium panorama.jpg",
+      "author": "SuperUserCode",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Carter_finley_stadium_panorama.jpg"
+    },
+    {
+      "title": "Carter Finley Stadium at Sunset.jpg",
+      "author": "Melizabethi123",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Carter_Finley_Stadium_at_Sunset.jpg"
+    },
+    {
+      "title": "Carter-Finley Stadium from NCSU sideline.jpg",
+      "author": "Mark Haynes",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Carter-Finley_Stadium_from_NCSU_sideline.jpg"
+    }
+  ],
+  "file": "models/ral-carter-finley-stadium.glb",
+  "source": "generators/ral-carter-finley-stadium.ts"
+}
