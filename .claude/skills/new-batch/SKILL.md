@@ -43,6 +43,12 @@ Keep the user posted at each stage: the candidate list (let them edit it
 before building), each model as it passes review, and the draft PR link at
 the end.
 
+The draft PR must embed contact sheets
+(`bun run sheet --terrain --branch-diff --out review/<city>`, plus
+before-and-after sheets for reworks). When you hand back, always tell the
+user to generate the contact sheets and give them that exact command, even
+though the PR already has them, so they can regenerate after any change.
+
 Before handing off, run types, tests, validation, and the static build. Check
 LOD defaults, history visibility, all model metadata, credits/avatars, and
 dark/night controls against `docs/website.md`. Existing IDs remain stable for

@@ -171,6 +171,21 @@ export interface CoasterSpec {
    * ones, each with its own material. See `CoasterKit`.
    */
   extras?: (kit: CoasterKit) => { part: Part; material: Swatch }[]
+  /** Opt-in: night lighting along stretches of track; see `TrackLight`. */
+  lights?: TrackLight[]
+}
+
+/**
+ * Lights along the track between `from` and `to` (polyline s). A `strip` is
+ * an LED band down the outside of each rail; `beads` are lamps every `every`
+ * m (default 6) at handrail height on `side` (default both). The material's
+ * name decides how it glows (STYLE.md, Night): `neon-*` in its own colour,
+ * the strip a band over the rail's whole depth so it reads at map distance;
+ * `lamp*` as a warm white point. Lights sharing a material share a primitive.
+ */
+export interface TrackLight {
+  from: number; to: number; kind: 'strip' | 'beads'; material: Swatch
+  every?: number; side?: 'left' | 'right' | 'both'
 }
 
 /** A frame on the track: centreline point, tangent, the riders' left and up; model frame (origin at the anchor, z above the datum). */
@@ -777,6 +792,17 @@ export async function buildCoaster(spec: CoasterSpec) {
       face(p, [a0.P, a1.P, b1.P, b0.P], [a0.N, a1.N, b1.N, b0.N])
     }
   }
+  /** A lamp bead: an octahedron of radius r about c, the smallest bead that reads round. */
+  function bead(p: Part, c: V3, r: number) {
+    const ax: V3[] = [[1, 0, 0], [0, 1, 0], [-1, 0, 0], [0, -1, 0]]
+    for (const z of [1, -1]) for (let k = 0; k < 4; k++) {
+      const a = ax[k], b = ax[(k + 1) % 4], top: V3 = [0, 0, z]
+      const n = unit(add(add(a, b), top))
+      const P = [a, b, top].map((d) => add(c, mul(d, r)))
+      if (z > 0) p.tri(P[0], P[1], P[2], undefined, undefined, undefined, [n, n, n])
+      else p.tri(P[1], P[0], P[2], undefined, undefined, undefined, [n, n, n])
+    }
+  }
   /** A square box from a to b, `r` from its axis to each face, flat-shaded, open ends; one face kept level where it can be. */
   function box(p: Part, a: V3, b: V3, r: number) {
     const ax = unit(sub(b, a))
@@ -1072,12 +1098,37 @@ export async function buildCoaster(spec: CoasterSpec) {
     }
   }
 
+  /** The frame on the drawn track nearest a polyline s. */
+  const frameAt = (ps: number) => {
+    const s = splineS(ps)
+    return path.reduce((a, b) => (Math.min(Math.abs(b.s - s), TOTAL - Math.abs(b.s - s)) < Math.min(Math.abs(a.s - s), TOTAL - Math.abs(a.s - s)) ? b : a))
+  }
+
+  // ------------------------------------------------------------ lights ----
+  const lightParts = new Map<string, { part: Part; material: Swatch }>()
+  for (const light of spec.lights ?? []) {
+    const entry = lightParts.get(light.material.name) ?? { part: new Part(), material: light.material }
+    lightParts.set(light.material.name, entry)
+    const sides = light.side === 'left' ? [1] : light.side === 'right' ? [-1] : [1, -1]
+    if (light.kind === 'strip') {
+      const at = (q: Sample, sg: number, u: number) => add(q.p, add(mul(q.left, sg * (W / 2 + 0.08)), mul(q.up, u)))
+      for (let i = 0; i + 1 < M; i++) {
+        if (!inRange(samples[i].s, [light.from, light.to]) || !inRange(samples[i + 1].s, [light.from, light.to])) continue
+        const a = flip(samples[i]), b = flip(samples[i + 1])
+        for (const sg of sides) face(entry.part, [at(a, sg, 0.05), at(b, sg, 0.05), at(b, sg, -RAIL - 0.2), at(a, sg, -RAIL - 0.2)], [mul(a.left, sg), mul(b.left, sg), mul(b.left, sg), mul(a.left, sg)])
+      }
+    } else {
+      const span = (((light.to - light.from) % polyTotal) + polyTotal) % polyTotal, step = light.every ?? 6
+      for (let d = step / 2; d < span; d += step) {
+        const q = flip(frameAt(light.from + d))
+        for (const sg of sides) bead(entry.part, add(q.p, add(mul(q.left, sg * (W / 2 + 0.3)), mul(q.up, 1.2))), 0.3)
+      }
+    }
+  }
+
   // ------------------------------------------------------------ output ----
   const extraParts = spec.extras?.({
-    at: (ps: number) => {
-      const s = splineS(ps)
-      return path.reduce((a, b) => (Math.min(Math.abs(b.s - s), TOTAL - Math.abs(b.s - s)) < Math.min(Math.abs(a.s - s), TOTAL - Math.abs(a.s - s)) ? b : a))
-    },
+    at: frameAt,
     ground,
     toModel: ([x, y]) => [x - AX, y - AY],
     parts: { deck, spine, supports: white, stone: trimPart, roof: roofPart },
@@ -1090,6 +1141,7 @@ export async function buildCoaster(spec: CoasterSpec) {
     { part: white, material: spec.colours.supports === 'trim' ? PALETTE.trim : finish(...spec.colours.supports) },
     { part: trimPart, material: spec.colours.station ? finish(...spec.colours.station) : PALETTE.stone },
     { part: roofPart, material: spec.colours.stationRoof ? finish(...spec.colours.stationRoof) : PALETTE.roof },
+    ...lightParts.values(),
     ...extraParts,
   ]
   const triangles = parts.reduce((sum, { part }) => sum + part.triangles, 0)
