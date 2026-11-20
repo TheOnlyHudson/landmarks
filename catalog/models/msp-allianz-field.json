@@ -1,0 +1,60 @@
+{
+  "id": "msp-allianz-field",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "soccer",
+    "sports",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Allianz Field Aug 2022.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Allianz_Field_Aug_2022.jpg",
+      "author": "Thomson200",
+      "license": "CC0"
+    },
+    {
+      "title": "Allianz Field construction c2018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Allianz_Field_construction_c2018.jpg",
+      "author": "Joe Haupt",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Allianz Field, National Guard (51125916759).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Allianz_Field,_National_Guard_(51125916759).jpg",
+      "author": "Chad Davis",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Allianz Field - MNUFC Minnesota United st. Paul Minnesota MLS (40636734693).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Allianz_Field_-_MNUFC_Minnesota_United_st._Paul_Minnesota_MLS_(40636734693).jpg",
+      "author": "Andy Witchger",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "MLS All Star Game at Allianz Field.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:MLS_All_Star_Game_at_Allianz_Field.jpg",
+      "author": "Eóin",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/msp-allianz-field.glb",
+  "source": "generators/msp-allianz-field.ts"
+}
