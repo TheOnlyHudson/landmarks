@@ -1,0 +1,26 @@
+{
+  "id": "cin-carew-tower",
+  "name": "Carew Tower",
+  "model": "cin-carew-tower",
+  "place": "cincinnati-area",
+  "lng": -84.51329,
+  "lat": 39.10072,
+  "bearing": 348.9,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q152129",
+  "replaces": [
+    "way/100146895",
+    "relation/3620333",
+    "way/270851577",
+    "way/271093037",
+    "way/270852301",
+    "way/270852302",
+    "way/91292276",
+    "relation/3630559",
+    "way/91327377",
+    "way/272007531",
+    "way/272007532",
+    "way/272007533"
+  ]
+}
