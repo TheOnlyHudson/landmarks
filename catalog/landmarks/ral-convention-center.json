@@ -1,0 +1,15 @@
+{
+  "id": "ral-convention-center",
+  "name": "Raleigh Convention Center",
+  "model": "ral-convention-center",
+  "place": "raleigh-area",
+  "wikidata": "Q7286901",
+  "lng": -78.641356,
+  "lat": 35.77364,
+  "bearing": 2.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/135692673"
+  ]
+}
