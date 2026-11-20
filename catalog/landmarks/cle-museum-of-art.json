@@ -1,0 +1,18 @@
+{
+  "id": "cle-museum-of-art",
+  "name": "Cleveland Museum of Art",
+  "model": "cle-museum-of-art",
+  "place": "cleveland-area",
+  "wikidata": "Q130255573",
+  "lng": -81.6118035,
+  "lat": 41.5090292,
+  "bearing": 352.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/109114109",
+    "way/420174175",
+    "way/420173649",
+    "way/349671512"
+  ]
+}
