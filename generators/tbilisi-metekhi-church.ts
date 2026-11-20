@@ -244,7 +244,7 @@ export function build(detail: boolean) {
     // the tail, thick at the root, long and falling nearly to the plinth
     stube(q, [T(-2.0, 0, 3.3), T(-2.3, 0, 2.7), T(-2.36, 0, 1.6), T(-2.22, 0, 0.5)], [0.17, 0.27, 0.24, 0.1], S6)
     // the king: a tapered torso, broad shoulders
-    const ring = (u: number, w: number, rx: number, ry: number) => Array.from({ length: NS }, (_, k) => { const th = (2 * Math.PI * k) / N; return T(u + ry * Math.sin(th), rx * Math.cos(th), w) })
+    const ring = (u: number, w: number, rx: number, ry: number) => Array.from({ length: NS }, (_, k) => { const th = (2 * Math.PI * k) / NS; return T(u + ry * Math.sin(th), rx * Math.cos(th), w) })
     solid(q, [ring(0.0, 3.55, 0.5, 0.42), ring(0.02, 4.0, 0.48, 0.38), ring(0.06, 4.45, 0.55, 0.36), ring(0.08, 4.72, 0.68, 0.34), ring(0.1, 4.86, 0.5, 0.28)])
     for (const sd of [-1, 1]) ellipsoid(q, T(0.08, sd * 0.6, 4.72), [0.24, 0.26, 0.22], 8, 4)
     tube(q, [T(0.12, 0, 4.82), T(0.14, 0, 5.05)], [0.17, 0.16], 7)
@@ -253,7 +253,7 @@ export function build(detail: boolean) {
     // a pointed helmet with a rim
     lathe(q, [[0.3, 5.36], [0.31, 5.43], [0.27, 5.52], [0.2, 5.68], [0.08, 5.82], [0.03, 6.02], [0.0, 6.04]].map(([r, z]) => [r, PH + z] as [number, number]), NS, [PX - 0.16, PY], 0, true)
     // the cloak from the shoulders, falling and flaring behind over the horse's back
-    const cl = (u: number, w: number, rx: number, ry: number) => Array.from({ length: NS }, (_, k) => { const th = (2 * Math.PI * k) / N; return T(u + ry * Math.sin(th), rx * Math.cos(th), w) })
+    const cl = (u: number, w: number, rx: number, ry: number) => Array.from({ length: NS }, (_, k) => { const th = (2 * Math.PI * k) / NS; return T(u + ry * Math.sin(th), rx * Math.cos(th), w) })
     solid(q, [cl(-0.12, 3.35, 0.82, 0.38), cl(-0.12, 3.9, 0.74, 0.34), cl(-0.1, 4.4, 0.66, 0.34), cl(-0.04, 4.82, 0.6, 0.3)])
     // the legs down the flanks, feet in the stirrups
     for (const sd of [-1, 1]) stube(q, [T(0.1, sd * 0.45, 3.55), T(0.5, sd * 0.8, 3.1), T(0.38, sd * 0.84, 2.25), T(0.6, sd * 0.84, 2.1)], [0.24, 0.18, 0.14, 0.13], S6)

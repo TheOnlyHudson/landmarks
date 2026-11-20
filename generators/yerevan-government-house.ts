@@ -143,7 +143,7 @@ export function clipRing(ring: XY[], clip: XY[], minus = false): XY[][] {
   return fromPC(mp)
 }
 export function unionRings(rings: XY[][]): XY[][] {
-  return fromPC(clipping.union(...(rings.map(toPC) as any[])) as MP)
+  return fromPC((clipping.union as any)(...rings.map(toPC)) as MP)
 }
 /** A big polygon on the left of the line a→b. */
 export function halfPlane(a: XY, b: XY, size = 2000): XY[] {
