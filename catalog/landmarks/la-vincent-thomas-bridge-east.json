@@ -8,6 +8,8 @@
   "elevation": 0,
   "minzoom": 14,
   "wikidata": "Q496944",
-  "replaces": [],
+  "replaces": [
+    "way/1011852501"
+  ],
   "place": "los-angeles-area"
 }
