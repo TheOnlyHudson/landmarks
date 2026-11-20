@@ -1,0 +1,15 @@
+{
+  "id": "mia-arsht-center",
+  "name": "Adrienne Arsht Center (Ziff Ballet Opera House)",
+  "model": "mia-arsht-center",
+  "place": "miami-area",
+  "lng": -80.1899402,
+  "lat": 25.7876411,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2825308",
+  "replaces": [
+    "way/314061996"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "mia-colony-hotel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "art-deco",
+    "hotel",
+    "neon-sign",
+    "ocean-drive"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Colony Hotel Miami",
+      "url": "https://commons.wikimedia.org/wiki/File:Colony_Hotel_Miami.jpg",
+      "author": "Ad Meskens",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Miami Beach - Colony Hotel (2011)",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_Colony_Hotel_(2011).jpg",
+      "author": "P. Hughes",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "6) Colony (1935)",
+      "url": "https://commons.wikimedia.org/wiki/File:6)_Colony_(1935).jpg",
+      "author": "Elisa.rolle",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Colony Hotel",
+      "url": "https://commons.wikimedia.org/wiki/File:Colony_Hotel.jpg",
+      "author": "Codera23",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Colony Hotel (Miami Beach)",
+      "url": "https://commons.wikimedia.org/wiki/File:Colony_Hotel_(Miami_Beach).jpg",
+      "author": "Visitor7",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "East elevation - Colony Hotel, 736 Ocean Drive (HABS FLA,13-MIAM,18-1)",
+      "url": "https://commons.wikimedia.org/wiki/File:EAST_ELEVATION_-_Colony_Hotel,_736_Ocean_Drive,_Miami,_Miami-Dade_County,_FL_HABS_FLA,13-MIAM,18-1.tif",
+      "author": "Walter Smalling Jr. (HABS)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/mia-colony-hotel.glb",
+  "source": "generators/mia-colony-hotel.ts"
+}

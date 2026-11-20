@@ -1,0 +1,17 @@
+{
+  "id": "mia-perez-art-museum",
+  "name": "Pérez Art Museum Miami",
+  "model": "mia-perez-art-museum",
+  "place": "miami-area",
+  "lng": -80.1862579,
+  "lat": 25.7860227,
+  "bearing": 335.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3026874",
+  "replaces": [
+    "way/316749780",
+    "way/484587327",
+    "way/484587328"
+  ]
+}

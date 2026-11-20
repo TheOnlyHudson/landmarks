@@ -1,0 +1,75 @@
+{
+  "id": "mia-carlyle-hotel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "art-deco",
+    "streamline-moderne",
+    "hotel",
+    "neon-sign",
+    "ocean-drive"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "South Beach, Miami Beach, Florida 2021 - The Carlyle",
+      "url": "https://commons.wikimedia.org/wiki/File:South_Beach,_Miami_Beach,_Florida_2021_-_The_Carlyle.jpg",
+      "author": "Sharon Hahn Darlin",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Miami Beach - The Carlyle",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_The_Carlyle.jpg",
+      "author": "P. Hughes",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Miami Beach - Carlyle",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_Carlyle.jpg",
+      "author": "P. Hughes",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Carlyle (neon sign), Miami Beach, east view up, 2018-08-21",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Carlyle_(neon_sign),_Miami_Beach,_east_view_up,_2018-08-21.jpg",
+      "author": "Radomianin",
+      "license": "Public domain"
+    },
+    {
+      "title": "The Carlyle (Miami Beach)",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Carlyle_(Miami_Beach).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Carlyle hotel (South Beach, Florida) 001",
+      "url": "https://commons.wikimedia.org/wiki/File:Carlyle_hotel_(South_Beach,_Florida)_001.jpg",
+      "author": "Leonard J. DeFrancisci",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "20111001 1502 South Beach The Carlyle dusk",
+      "url": "https://commons.wikimedia.org/wiki/File:20111001_1502_South_Beach_The_Carlyle_dusk.jpg",
+      "author": "Dan Lundberg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/mia-carlyle-hotel.glb",
+  "source": "generators/mia-carlyle-hotel.ts"
+}

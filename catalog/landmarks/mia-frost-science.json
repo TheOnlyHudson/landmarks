@@ -1,0 +1,20 @@
+{
+  "id": "mia-frost-science",
+  "name": "Phillip and Patricia Frost Museum of Science",
+  "model": "mia-frost-science",
+  "place": "miami-area",
+  "lng": -80.1880413,
+  "lat": 25.7852827,
+  "bearing": 335.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1381279639",
+    "way/1381279642",
+    "way/484587349",
+    "way/484587351",
+    "way/551736013",
+    "way/1381279640",
+    "way/1381279641"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mia-bass-museum",
+  "name": "The Bass",
+  "model": "mia-bass-museum",
+  "place": "miami-area",
+  "lng": -80.1300881,
+  "lat": 25.7975837,
+  "bearing": 20,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q4867942",
+  "replaces": [
+    "way/483322279"
+  ]
+}

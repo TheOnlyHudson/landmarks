@@ -1,0 +1,15 @@
+{
+  "id": "mia-vizcaya",
+  "name": "Vizcaya Museum and Gardens",
+  "model": "mia-vizcaya",
+  "place": "miami-area",
+  "lng": -80.2104365,
+  "lat": 25.7443635,
+  "bearing": 53,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2095464",
+  "replaces": [
+    "way/301895039"
+  ]
+}

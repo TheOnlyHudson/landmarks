@@ -1,0 +1,15 @@
+{
+  "id": "mia-miami-city-hall",
+  "name": "Miami City Hall",
+  "model": "mia-miami-city-hall",
+  "place": "miami-area",
+  "lng": -80.2338625,
+  "lat": 25.7277285,
+  "bearing": 44,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q16981944",
+  "replaces": [
+    "way/435746373"
+  ]
+}

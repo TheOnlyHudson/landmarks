@@ -1,0 +1,75 @@
+{
+  "id": "mia-brickell-city-centre",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "mixed-use",
+    "shopping-centre",
+    "skyscraper",
+    "hotel",
+    "residential",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brickell City Centre Roof.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Brickell_City_Centre_Roof.jpg",
+      "author": "Rostyslav Sipa",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brickell City Centre, Miami, FL.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Brickell_City_Centre,_Miami,_FL.jpg",
+      "author": "Mgrigorescu",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Climate Ribbon Brickell City Centre, Miami FL 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Climate_Ribbon_Brickell_City_Centre,_Miami_FL_2023.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Brickell City Center July 2016 7th Street.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Brickell_City_Center_July_2016_7th_Street.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "East Brickell City Centre.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:East_Brickell_City_Centre.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Rise Brickell City Centre.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rise_Brickell_City_Centre.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Reach Brickell City Centre.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Reach_Brickell_City_Centre.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/mia-brickell-city-centre.glb",
+  "source": "generators/mia-brickell-city-centre.ts"
+}

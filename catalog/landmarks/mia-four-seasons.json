@@ -1,0 +1,21 @@
+{
+  "id": "mia-four-seasons",
+  "name": "Four Seasons Hotel & Tower Miami",
+  "model": "mia-four-seasons",
+  "place": "miami-area",
+  "lng": -80.1915057,
+  "lat": 25.7587597,
+  "bearing": 14,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1440000",
+  "replaces": [
+    "way/933174532",
+    "way/51806483",
+    "way/300241285",
+    "way/300241286",
+    "way/933174533",
+    "way/933174535",
+    "way/933174534"
+  ]
+}

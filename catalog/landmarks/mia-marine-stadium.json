@@ -1,0 +1,15 @@
+{
+  "id": "mia-marine-stadium",
+  "name": "Miami Marine Stadium",
+  "model": "mia-marine-stadium",
+  "place": "miami-area",
+  "lng": -80.1698905,
+  "lat": 25.7428855,
+  "bearing": 44.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6827353",
+  "replaces": [
+    "way/477122363"
+  ]
+}

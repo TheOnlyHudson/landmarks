@@ -1,0 +1,22 @@
+{
+  "id": "mia-miami-tower",
+  "name": "Miami Tower",
+  "model": "mia-miami-tower",
+  "place": "miami-area",
+  "lng": -80.1915687,
+  "lat": 25.7722899,
+  "bearing": 358,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q806676",
+  "replaces": [
+    "way/300232867",
+    "way/300232868",
+    "way/300232869",
+    "way/1105085928",
+    "way/1105085929",
+    "way/1105085930",
+    "way/1105085931",
+    "way/1105085932"
+  ]
+}

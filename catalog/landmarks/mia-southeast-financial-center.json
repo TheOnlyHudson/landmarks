@@ -1,0 +1,19 @@
+{
+  "id": "mia-southeast-financial-center",
+  "name": "Southeast Financial Center",
+  "model": "mia-southeast-financial-center",
+  "place": "miami-area",
+  "lng": -80.18772924,
+  "lat": 25.77217795,
+  "bearing": 358.5,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1749785",
+  "replaces": [
+    "way/398246359",
+    "way/1105085923",
+    "way/1105085924",
+    "way/398246357",
+    "way/398246365"
+  ]
+}

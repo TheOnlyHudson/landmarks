@@ -1,0 +1,15 @@
+{
+  "id": "mia-miami-beach-post-office",
+  "name": "Miami Beach Post Office",
+  "model": "mia-miami-beach-post-office",
+  "place": "miami-area",
+  "lng": -80.1325568,
+  "lat": 25.784551,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/316984493"
+  ],
+  "wikidata": "Q16920414"
+}

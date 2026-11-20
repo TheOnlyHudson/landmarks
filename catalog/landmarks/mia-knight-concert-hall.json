@@ -1,0 +1,15 @@
+{
+  "id": "mia-knight-concert-hall",
+  "name": "Knight Concert Hall",
+  "model": "mia-knight-concert-hall",
+  "place": "miami-area",
+  "lng": -80.1885596,
+  "lat": 25.7876538,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/316752905",
+    "way/468023522"
+  ]
+}

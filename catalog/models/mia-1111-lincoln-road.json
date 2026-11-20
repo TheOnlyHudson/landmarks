@@ -1,0 +1,73 @@
+{
+  "id": "mia-1111-lincoln-road",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "modern",
+    "parking-garage",
+    "herzog-de-meuron",
+    "concrete"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Modern Parking Garage Lincoln Road Mall South Beach",
+      "url": "https://www.flickr.com/photos/25955895@N03/8091783726",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Herzog & de Meuron - Miami 1111 Lincoln Road Parking",
+      "url": "https://www.flickr.com/photos/44343967@N00/5449150347",
+      "author": "Forgemind ArchiMedia",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Herzog & de Meuron - Miami 1111 Lincoln Road Parking",
+      "url": "https://www.flickr.com/photos/44343967@N00/5449150801",
+      "author": "Forgemind ArchiMedia",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "1111 Lincoln Road - Flickr - paologmb",
+      "url": "https://commons.wikimedia.org/wiki/File:1111_Lincoln_Road_-_Flickr_-_paologmb.jpg",
+      "author": "Paolo Gamba",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "111 Lincoln Road Parking",
+      "url": "https://commons.wikimedia.org/wiki/File:111_Lincoln_Road_Parking_(51067696598).jpg",
+      "author": "Paolo Gamba",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Parkhaus Lincoln Road",
+      "url": "https://commons.wikimedia.org/wiki/File:Parkhaus_Lincoln_Road.jpg",
+      "author": "Gofrege",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "1111 Lincoln Road at night",
+      "url": "https://commons.wikimedia.org/wiki/File:1111_Lincoln_Road_at_night.jpg",
+      "author": "Jonathan Schilling",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/mia-1111-lincoln-road.glb",
+  "source": "generators/mia-1111-lincoln-road.ts"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "mia-four-seasons",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "hotel",
+    "residential",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Four Seasons Miami complete 20100206.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Miami_complete_20100206.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Four Seasons Tower Miami south.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Tower_Miami_south.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Four Seasons Tower Miami east.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Tower_Miami_east.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Four Seasons Hotel Tower Miami roof zoom.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Hotel_Tower_Miami_roof_zoom.jpg",
+      "author": "B137",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Four Seasons Hotel in Miami from Biscayne Bay.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Hotel_in_Miami_from_Biscayne_Bay.jpg",
+      "author": "Miami92",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/mia-four-seasons.glb",
+  "source": "generators/mia-four-seasons.ts"
+}

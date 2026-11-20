@@ -1,0 +1,16 @@
+{
+  "id": "mia-1111-lincoln-road",
+  "name": "1111 Lincoln Road",
+  "model": "mia-1111-lincoln-road",
+  "place": "miami-area",
+  "lng": -80.1408174,
+  "lat": 25.7908098,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/297682282",
+    "relation/12268481"
+  ],
+  "wikidata": "Q170391"
+}

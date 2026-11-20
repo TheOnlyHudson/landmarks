@@ -1,0 +1,15 @@
+{
+  "id": "mia-atlantis",
+  "name": "The Atlantis",
+  "model": "mia-atlantis",
+  "place": "miami-area",
+  "lng": -80.1985402,
+  "lat": 25.7529294,
+  "bearing": 52.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3286640",
+  "replaces": [
+    "way/480909198"
+  ]
+}

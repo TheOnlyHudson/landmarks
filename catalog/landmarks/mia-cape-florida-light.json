@@ -1,0 +1,15 @@
+{
+  "id": "mia-cape-florida-light",
+  "name": "Cape Florida Light",
+  "model": "mia-cape-florida-light",
+  "place": "miami-area",
+  "lng": -80.1559656,
+  "lat": 25.6665909,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3378203",
+  "replaces": [
+    "way/305533830"
+  ]
+}
