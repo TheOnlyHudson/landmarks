@@ -1,0 +1,79 @@
+{
+  "id": "ral-dorton-arena",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "modernist",
+    "historic",
+    "state-fair"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q5299016",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Dorton Arena.jpg",
+      "author": "Justin Doub",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dorton_Arena.jpg"
+    },
+    {
+      "title": "Dorton Arena 2012.JPG",
+      "author": "Leah Rucker",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dorton_Arena_2012.JPG"
+    },
+    {
+      "title": "Dorton Arena West Side.JPG",
+      "author": "Leah Rucker",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dorton_Arena_West_Side.JPG"
+    },
+    {
+      "title": "Raleigh, Dorton Arena , June 1981.jpg",
+      "author": "Peter Christian Riemann",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Raleigh,_Dorton_Arena_,_June_1981.jpg"
+    },
+    {
+      "title": "Dorton Arena (35997447053).jpg",
+      "author": "Billie Grace Ward",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dorton_Arena_(35997447053).jpg"
+    },
+    {
+      "title": "Dorton Arena, State Fairgrounds, Raleigh, NC (27892928877).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dorton_Arena,_State_Fairgrounds,_Raleigh,_NC_(27892928877).jpg"
+    },
+    {
+      "title": "J.S. Dorton Arena in November 2022.jpg",
+      "author": "DiscoA340",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:J.S._Dorton_Arena_in_November_2022.jpg"
+    },
+    {
+      "title": "J. S. Dorton Arena, NRHP nomination WA0012",
+      "author": "North Carolina State Historic Preservation Office",
+      "url": "https://files.nc.gov/ncdcr/nr/WA0012.pdf"
+    }
+  ],
+  "file": "models/ral-dorton-arena.glb",
+  "source": "generators/ral-dorton-arena.ts"
+}

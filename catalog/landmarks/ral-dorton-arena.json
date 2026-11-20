@@ -1,0 +1,15 @@
+{
+  "id": "ral-dorton-arena",
+  "name": "J. S. Dorton Arena",
+  "model": "ral-dorton-arena",
+  "place": "raleigh-area",
+  "wikidata": "Q5299016",
+  "lng": -78.710371,
+  "lat": 35.793988,
+  "bearing": 64.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/47947592"
+  ]
+}
