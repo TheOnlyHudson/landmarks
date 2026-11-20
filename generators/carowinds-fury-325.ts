@@ -48,8 +48,19 @@
  * top of the drop: there, as in the photos, four big bents about 40 m apart,
  * each a column and one strut with a single tie. The station is its flat
  * canopy roof on posts.
+ *
+ * Night: the whole lift hill glows green from LED strips along the track
+ * (NewsPlusNotes, "Fury 325's Impressive Night Look", February 2015, and
+ * ImagiNERDing, "Carowinds Fury 325 at Night!", April 2016, both look-only;
+ * a Carowinds Connection post of December 2016 mentions "strips of the green
+ * LEDs"). Drawn as a `neon-fury-green` band down the outside of each rail
+ * from the foot of the lift to the crest. Where the strips sit on the real
+ * track isn't shown in any licensed photo. The honeycomb lights in the station
+ * and the hive-dive tunnel are not modelled: the model has no tunnel and the
+ * station is its roof only.
  */
 import { buildCoaster } from './coaster-kit'
+import { finish } from './palette'
 
 // The OSM circuit, node by node, in the park frame (see coaster-kit), starting
 // at the station exit (the first node of way/670967416).
@@ -180,5 +191,6 @@ await buildCoaster({
       { s: 274, strut: 'back', spread: 0.28, tie: 0.35 },
     ],
   }],
+  lights: [{ from: 105, to: 248, kind: 'strip', material: finish('neon-fury-green', 0x7cc46a) }],
   meta: { height: 99, trackLength: 2012 },
 })

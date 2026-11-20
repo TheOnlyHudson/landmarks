@@ -1,7 +1,12 @@
 /**
+ * Factual cross-check (building identity/floor labels only):
+ * https://map-american.university-tour.com/kerwin-dollhouse
+ * Tour illustrations and photos are not geometry evidence.
  * Kerwin Hall — American University.
  * The freestanding academic building beside Ward Circle has matching projections on its two long elevations.
  * Plan projected in metres about the OSM area centroid. The catalog bearing restores map north.
+ * Close-range LOD adds recessed glazing, masonry reveals and restrained sash profiles.
+ * Reveal depth (0.14 m; 0.28 m for spandrel glazing), frame widths and sash spacing are estimates.
  * Exterior study. Roof heights use 2022 DC LiDAR building returns above the footprint’s lower ground (10th percentile).
  * Roof edges and slopes are simplified. Sill heights, bay spacing and colors are estimates.
  * https://www.openstreetmap.org/way/90189816
@@ -17,18 +22,24 @@ await buildCampusBuilding({
   anchor: [-77.0869085, 38.9374479],
   bearing: 33.78,
   masonry: 0xd3c8b6, accent: 0xddd3bd, roof: 0x777873,
+  sash: 'two-over-two',
   wings: [{
     outline: [
       [-11.74, 29.26], [-11.73, 18.46], [-18.57, 18.47], [-18.57, 15.37],
-      [-21.34, 15.38], [-21.34, -15.3], [-18.52, -15.3], [-18.52, -18.4],
+      [-14.75, 15.38], [-14.75, -15.3], [-18.52, -15.3], [-18.52, -18.4],
       [-11.41, -18.42], [-11.42, -29.23], [11.67, -29.26], [11.66, -18.4],
-      [18.77, -18.4], [18.76, -15.4], [21.35, -15.41], [21.35, 15.38],
+      [18.77, -18.4], [18.76, -15.4], [14.75, -15.41], [14.75, 15.38],
       [18.52, 15.38], [18.52, 18.37], [11.4, 18.38], [11.39, 29.23]
     ],
     eave: 12.6,
     rows: [[2.14, 5.25], [7.59, 10.7]],
     bayWidth: 3.1, pierWidth: 1.1,
     base: 1.05,
+    // The two pilastered 1998 entrances sit beneath seven-column pediments.
+    colonnades: [
+      { edge: 4, width: 29.4, depth: 6.4, height: 12.6, columns: 7, pediment: true },
+      { edge: 14, width: 29.4, depth: 6.4, height: 12.6, columns: 7, pediment: true },
+    ],
   }, {
     // Upper roof tier fitted to the 2022 building returns.
     outline: [

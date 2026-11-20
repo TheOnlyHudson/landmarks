@@ -31,31 +31,55 @@
  * on the water. Placed at the bearing of the line through the two chain
  * planes' centres in lidar (344.044° here).
  *
- * Height. z = 0 is the Allegheny's surface. Structure heights are lidar
- * heights above the water's own returns (216.72 m NAVD88 in
- * PA_WesternPA_2_2019). Ground under the end piers and abutments is the
- * map's terrain (Mapterhorn) above its own reading of the river (216.19 m),
- * from 4 m tables taken in this frame (`GROUND`), so the feet land on the
- * terrain the map draws; the tower piers stand in the water at z = 0.
+ * Height. z = 0 is the map's river: the map stands the model on the
+ * lowest Mapterhorn reading under its footprint, 216.16-216.19 m NAVD88
+ * on the Allegheny (`bun tools/terrain.ts check`). Structure heights were
+ * read in lidar above the lidar's own water returns (216.72 m NAVD88 in
+ * PA_WesternPA_2_2019), and `buildSister` adds the 0.53 m between the two
+ * (`DATUM`), so every part stands at its true NAVD88 height in the map.
+ * Ground under the end piers and abutments is the map's terrain above its
+ * river reading (216.19 m), from 4 m tables taken in this frame
+ * (`GROUND`), so the feet land on the terrain the map draws; the tower
+ * piers stand in the water at z = 0.
  *
  * Roadway heights the girders, sidewalks and soffit are built around (no
  * road surface is drawn; the map draws the roadway between the girders).
- * Lidar roadway (lower quartile across the four lanes), fitted within
- * 0.2 m everywhere: a 4.2 % grade up from each end into a crest curve
- * 48 m long, road(y) = 13.95 − 8.75e-4·y² for |y| ≤ 24, then
- * 13.45 − 0.042·(|y| − 24). So 13.95 m at midspan, 11.7 m at the towers
- * (y = ±65.5), 9.0 m at the end piers, 8.0 m at the abutments; in NAVD88,
- * 230.7 m at midspan, 228.4 m at the towers, 225.7 m at the end piers.
- * The OSM outline and roadway way/11713124 carry no height or ele, so the
- * map has none of its own to build to: these are the heights to give it
- * (docs/bridge-heights.md). Beyond the end piers, where the deck lands,
- * the map eases its roadway onto its terrain; there the deck follows the
- * terrain (its highest reading across the deck, plus 0.15 m at the
- * sidewalk tops) wherever that stands above the lidar roadway: over the
- * last ~15 m to each abutment, by 0.4–0.75 m (the map's river reads 0.5 m
- * below lidar's, so its streets stand that much higher in this frame).
- * The deck heights at the abutments as built: Clemente 8.55/8.54 m,
- * Warhol 8.44/8.25 m, Carson 8.65/8.04 m (south/north).
+ * Lidar roadway along OSM way/11713124 (tools/bridge_ele.py measure, every
+ * 4 m, lower quartile across the lanes), fitted within 0.06 m: a 4.2 %
+ * grade up from each end into a crest curve 48 m long, in lidar heights
+ * above the lidar water road(y) = 13.9 − 8.75e-4·y² for |y| ≤ 24, then
+ * 13.4 − 0.042·(|y| − 24); in the model (+0.53 m) 14.43 m at midspan,
+ * 12.18 m at the towers, 9.45 m at the end piers, 8.6 m at the abutments;
+ * in NAVD88 230.6 m at midspan, 228.4 m at the towers, 224.7 m at both
+ * abutments. Beyond the end piers, where the deck lands, the deck follows
+ * the map's terrain (its highest reading across the deck, plus 0.15 m at
+ * the sidewalk tops) wherever that stands above the lidar roadway; with
+ * the datum fixed that is only the last few metres of the North Shore end.
+ * The deck heights at the abutments as built (model z, south/north):
+ * Clemente 8.55/8.61 m, Warhol 8.47/8.25 m, Carson 8.65/8.45 m.
+ *
+ * Fix, November 2026. The models were built with z = 0 at the lidar's
+ * water but are placed on the map's river, 0.53 m lower, so the whole
+ * structure stood 0.5 m below the true roadway (and below the `ele` now
+ * proposed for OSM, ~/landmarks-scratch/osm-ele/<id>.md); the deck only
+ * met the streets because the ends were raised to the terrain. All lidar
+ * heights now get `DATUM`, and the three roadway profiles were refitted to
+ * a fresh 4 m measurement (Clemente crest 13.95 → 13.9, Warhol 14.05 →
+ * 14.0, Carson crest moved from y = −3 to 0 at 13.85 with a 4.3 % grade,
+ * which had read 0.3 m high over its south side span). Ends checked: the
+ * OSM bridge=yes carriageway and sidewalk ways end at the outline ends on
+ * all three, and the model's deck, girders and sidewalks run to those ends
+ * onto the abutments (4 m end blocks, solid down to the map's terrain).
+ * On the downtown side the abutment is the retaining wall over the 10th
+ * Street Bypass (OSM barrier=retaining_wall way/824705027-29), and the
+ * deck meets Fort Duquesne Boulevard there. On the North Shore, lidar bare
+ * earth shows the road landing at the outline end on the Warhol, about
+ * 6-10 m past it on the Carson and about 19 m past it on the Clemente,
+ * where Federal Street runs on between walled fill (barrier=wall
+ * way/546243714). The fill is not part of the bridge in OSM, so the
+ * models end at the abutment face. The approach spans (end pier to
+ * abutment, 20-33 m) have no intermediate piers in OSM, and the photos show
+ * none.
  *
  * Sources (Clemente):
  * - OSM: outline way/642309565 (man_made=bridge, bridge:structure=
@@ -162,7 +186,9 @@ const SOFFIT = 1.0
 const CH_W = 0.8, CH_H = 1.2
 const LEG_IN = 5.25, LEG_OUT = 7.75, LEG_D = 1.25
 const PORTAL_D = 0.8
-const PIER_TOP = 9.2
+/** Lidar water (216.72 m NAVD88) above the map's river (216.19 m). */
+export const DATUM = 0.53
+const PIER_TOP = 9.2 + DATUM
 
 /** An upright box, all six faces unless told otherwise. */
 function box(p: Part, x0: number, x1: number, y0: number, y1: number, z0: number, z1: number, bottom = true) {
@@ -205,7 +231,17 @@ function chainBand(p: Part, path: V3[], w: number, h: number) {
 }
 
 /** Builds one sister and writes its low and detail GLBs. */
-export async function buildSister(S: SisterSpec) {
+export async function buildSister(spec: SisterSpec) {
+  // Lidar heights are taken above the lidar's water (216.72 m NAVD88); the
+  // map stands z = 0 on its own river reading (Mapterhorn 216.16-216.19 m),
+  // so every lidar height goes up by the difference to sit at its true
+  // NAVD88 height in the map, where the roadway's `ele` puts the deck.
+  const S: SisterSpec = {
+    ...spec,
+    top: spec.top + DATUM, low: spec.low + DATUM, kioskTop: spec.kioskTop + DATUM,
+    side: spec.side.map(([a, b]) => [a + DATUM, b + DATUM]) as SisterSpec['side'],
+    road: { ...spec.road, R0: spec.road.R0 + DATUM },
+  }
   const { T, top } = S
   const [EPS, EPN] = S.endPier, [ENDS, ENDN] = S.ends
   const k = S.road.g / (2 * S.road.Lc)
@@ -423,7 +459,7 @@ export async function buildSister(S: SisterSpec) {
     license: 'CC0-1.0', frame: 'Y up, -Z north, +X east, metres; origin midway between the towers, on the water',
     bearing: S.bearing, elevation: 0, towers: [-T, T], endPiers: [-EPS, EPN], ends: [-ENDS, ENDN],
     roadwayMidspan: +road(0).toFixed(2), roadwayAtTowers: +road(T).toFixed(2), roadwayEndPiers: [+road(-EPS).toFixed(2), +road(EPN).toFixed(2)],
-    roadwayEnds: [+road(-ENDS).toFixed(2), +road(ENDN).toFixed(2)], waterNAVD88: 216.72,
+    roadwayEnds: [+road(-ENDS).toFixed(2), +road(ENDN).toFixed(2)], zeroNAVD88: 216.19, lidarWaterNAVD88: 216.72,
   }
   const count = (l: { part: Part }[]) => l.reduce((n, { part }) => n + part.triangles, 0)
   for (const [file, list, maxTris, maxBytes] of [
@@ -452,7 +488,7 @@ export const CLEMENTE: SisterSpec = {
   top: 32.35,
   low: 15.85,
   side: [[19.35, 11.3], [19.25, 11.2]],
-  road: { R0: 13.95, yc: 0, Lc: 24, g: 0.042 },
+  road: { R0: 13.9, yc: 0, Lc: 24, g: 0.042 },
   kioskTop: 17.0,
   ground: GROUND,
 }

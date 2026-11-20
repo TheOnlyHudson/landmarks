@@ -325,6 +325,10 @@ landmark per line, sorted by id; if it conflicts, take either side and rerun
    The images stay reachable through the PR's commits. The release
    workflow still publishes but warns while `review/` exists on `main`.
 
+A model PR without contact sheets is not ready for review. Agents always
+tell the user to generate the sheets, with the command above, when they
+hand work back, and after any change that touches a model.
+
 Don't merge the PR yourself. The user reviews it on a phone, against the
 sheets and the photos.
 

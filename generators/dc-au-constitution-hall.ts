@@ -15,13 +15,17 @@
  * Confirmed completed building: https://www.american.edu/about/sustainability/buildings/east-campus.cfm .
  * Pane widths, colours, lintels, parapet and exact elevations are stylized.
  * Limited elevation evidence: no licensed matching facade photos established.
- * No rooftop equipment or floodlighting inferred. Ground at the anchor.
+ * Roof housings follow contiguous returns above the main roof. Ground at anchor.
  *
  * Exports the precast wall and window helpers shared by the four East
  * Campus generators. All geometry is in the building's rotated map frame.
  * 2022 DC OCTO aerial lidar, building-class surface and bare earth:
  * https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html
  * Median roof is 19.8 m above the lower decile of local ground (118.5 m).
+ * The plan elevations document a glazed promenade and stacked curtain bays.
+ * https://www.american.edu/finance/ppm/upload/exhibit-1-east-campus.pdf
+ * Heights and bounds of three roof clusters measured on the 2022 full surface.
+ * Glazing divisions and framing widths are diagrammatic.
  */
 import { Part } from './mesh'
 import { PALETTE, finish } from './palette'
@@ -58,6 +62,25 @@ export class CampusShell {
       const half = Math.min(spacing * fill / 2, spacing / 2 - 0.25)
       flatShape(this.window, face, rect(center - half, sill, center + half, head), 0.035)
     }
+  }
+
+  /** Joined glazing across floors, divided with separate opaque mullions and slab covers. */
+  curtain(a: XY, b: XY, left: number, right: number, bottom: number, top: number, pitch: number, slabs: number[] = []) {
+    const face = { o: [a[0], a[1], 0] as [number, number, number], n: outward(a, b) }
+    flatShape(this.window, face, rect(left, bottom, right, top), 0.081)
+    const divisions = Math.max(1, Math.round((right - left) / pitch))
+    for (let i = 0; i <= divisions; i++) {
+      const x = left + i * (right - left) / divisions
+      flatShape(this.spandrel, face, rect(x - 0.075, bottom, x + 0.075, top), 0.097)
+    }
+    for (const z of slabs) flatShape(this.spandrel, face, rect(left, z, right, z + 0.24), 0.103)
+  }
+
+  /** Opaque raised service casing, with a metal face and simple cap. */
+  casing(plan: XY[], base: number, top: number) {
+    const ring = chamfer(plan, 0.18)
+    prism(this.spandrel, null, ring, base, top - 0.14)
+    prism(this.trim, this.roof, ring, top - 0.14, top)
   }
 
   /** A glazed lobby strip with a contrasting recessed door represented flush. */
@@ -109,5 +132,19 @@ if (import.meta.main) {
   hall.lobby(body[15], body[16], 4.2)
   hall.bays(body[19], body[0], 0.92, 4.4, 4.2, 0.76)
   hall.bays(body[6], body[7], 0.92, 4.4, 4.2, 0.76)
+  // The street side faces the Nebraska promenade. Continuous glazing ends
+  // at either jamb of the vehicle passage. Keep the underside completely open.
+  hall.curtain(body[19], body[0], 0.5, 41.9, 0.4, 4.63, 2.7, [3.1])
+  hall.curtain(body[6], body[7], 0.45, 16.90, 0.4, 4.63, 2.7, [3.1])
+  const slabLevels = [5.20, 8.05, 10.81, 13.57, 16.33]
+  hall.curtain(body[19], body[0], 0.42, 5.63, 4.84, 19.22, 1.73, slabLevels)
+  hall.curtain(body[4], body[5], 0.32, 6.03, 0.5, 19.22, 1.8, slabLevels)
+
+  // Compact raised roof groups follow the full-return surface, including
+  // the L-shaped one above the widened southwest wing.
+  hall.casing([[-5.4, -19.7], [1.3, -19.7], [1.3, -27.9], [4.45, -27.9],
+    [4.45, -18.7], [1.5, -15.8], [-5.4, -15.8]], top, 21.37)
+  hall.casing(rect(-1.15, -10.7, 1.95, -1.8), top, 21.16)
+  hall.casing(rect(-2.1, 9.05, 0.9, 18.0), top, 21.18)
   await hall.save('dc-au-constitution-hall', 'Constitution Hall')
 }
