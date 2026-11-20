@@ -1,0 +1,92 @@
+{
+  "id": "cle-soldiers-and-sailors-monument",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "memorial",
+    "civil-war",
+    "statue",
+    "column"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Soldiers' and Sailors' Monument (Cleveland).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers%27_and_Sailors%27_Monument_(Cleveland).jpg",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Soldiers' and Sailors' Monument (Cleveland) (2).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers%27_and_Sailors%27_Monument_(Cleveland)_(2).jpg",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Soldiers and Sailors Monument Cleveland at night.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers_and_Sailors_Monument_Cleveland_at_night.png",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Soldiers' and Sailors' Monument (Cleveland) - DSC07864.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers%27_and_Sailors%27_Monument_(Cleveland)_-_DSC07864.JPG",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Soldiers' and Sailors' Monument (Cleveland) - DSC07869.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers%27_and_Sailors%27_Monument_(Cleveland)_-_DSC07869.JPG",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Soldiers' and Sailors' Monument (Cleveland) - DSC07873.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers%27_and_Sailors%27_Monument_(Cleveland)_-_DSC07873.JPG",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Soldiers' and Sailors' Monument (Cleveland) - DSC07876.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers%27_and_Sailors%27_Monument_(Cleveland)_-_DSC07876.JPG",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Soldiers' and Sailors' Monument (Cleveland) - DSC07884.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers%27_and_Sailors%27_Monument_(Cleveland)_-_DSC07884.JPG",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Soldiers' and Sailors' Monument, Public Square, Cleveland, OH (27732092537)",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers%27_and_Sailors%27_Monument,_Public_Square,_Cleveland,_OH_(27732092537).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Soldiers' and Sailors' Monument in Cleveland Public Square.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers%27_and_Sailors%27_Monument_in_Cleveland_Public_Square.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/cle-soldiers-and-sailors-monument.glb",
+  "source": "generators/cle-soldiers-and-sailors-monument.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cle-federal-reserve-bank",
+  "name": "Federal Reserve Bank of Cleveland",
+  "model": "cle-federal-reserve-bank",
+  "place": "cleveland-area",
+  "lng": -81.6902829,
+  "lat": 41.5019401,
+  "bearing": 56,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q4384538",
+  "replaces": [
+    "way/126820677"
+  ]
+}

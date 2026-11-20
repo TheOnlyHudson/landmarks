@@ -1,0 +1,55 @@
+{
+  "id": "cle-federal-reserve-bank",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "bank",
+    "historic",
+    "renaissance-revival",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Federal Reserve Bank — Cleveland, Ohio",
+      "url": "https://commons.wikimedia.org/wiki/File:Federal_Reserve_Bank_%E2%80%94_Cleveland,_Ohio.jpg",
+      "author": "Christopher L. Riley",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Federal Reserve Bank, Cleveland, Ohio LCCN2010630382",
+      "url": "https://commons.wikimedia.org/wiki/File:Federal_Reserve_Bank,_Cleveland,_Ohio_LCCN2010630382.jpg",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "The Federal Reserve Bank of Cleveland, Cleveland, OH (28812473477)",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Federal_Reserve_Bank_of_Cleveland,_Cleveland,_OH_(28812473477).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Superior Avenue, Cleveland, OH (28812510907)",
+      "url": "https://commons.wikimedia.org/wiki/File:Superior_Avenue,_Cleveland,_OH_(28812510907).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/cle-federal-reserve-bank.glb",
+  "source": "generators/cle-federal-reserve-bank.ts"
+}

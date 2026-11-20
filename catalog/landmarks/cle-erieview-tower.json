@@ -1,0 +1,15 @@
+{
+  "id": "cle-erieview-tower",
+  "name": "Tower at Erieview",
+  "model": "cle-erieview-tower",
+  "place": "cleveland-area",
+  "lng": -81.6886456,
+  "lat": 41.5053198,
+  "bearing": 326,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q5388371",
+  "replaces": [
+    "way/371234478"
+  ]
+}

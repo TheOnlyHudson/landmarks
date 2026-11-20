@@ -1,0 +1,81 @@
+{
+  "id": "cle-coast-guard-station",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "streamline-moderne",
+    "waterfront",
+    "nrhp",
+    "coast-guard"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The former Cleveland Harbor Coast Guard Station (1940, J. Milton Dyer) on Whiskey Island: a white streamlined station with its tall cylindrical lookout tower and fin, a long low wing and the boathouse with its glazed pilot house and curved fins.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Historic U.S. Coast Guard Station in Cleveland (50873316108)",
+      "url": "https://commons.wikimedia.org/wiki/File:Historic_U.S._Coast_Guard_Station_in_Cleveland_(50873316108).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Historic U.S. Coast Guard Station in Cleveland (50874020746)",
+      "url": "https://commons.wikimedia.org/wiki/File:Historic_U.S._Coast_Guard_Station_in_Cleveland_(50874020746).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "U.S. Coast Guard, Cleveland Harbor Station",
+      "url": "https://commons.wikimedia.org/wiki/File:U.S._Coast_Guard,_Cleveland_Harbor_Station.jpg",
+      "author": "Douglas Sacha",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old Cleveland Coast Guard Station, Whiskey Island, Cleveland, OH (28569037307)",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Cleveland_Coast_Guard_Station,_Whiskey_Island,_Cleveland,_OH_(28569037307).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Old Cleveland Coast Guard Station, Whiskey Island, Cleveland, OH (28569039867)",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Cleveland_Coast_Guard_Station,_Whiskey_Island,_Cleveland,_OH_(28569039867).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Old Cleveland Coast Guard Station, Whiskey Island, Cleveland, OH (28569039497)",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Cleveland_Coast_Guard_Station,_Whiskey_Island,_Cleveland,_OH_(28569039497).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Old Cleveland Coast Guard Station, Whiskey Island, Cleveland, OH (28569040307)",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Cleveland_Coast_Guard_Station,_Whiskey_Island,_Cleveland,_OH_(28569040307).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Former Coast Guard station",
+      "url": "https://commons.wikimedia.org/wiki/File:Former_Coast_Guard_station.jpg",
+      "author": "k_e_lewis",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/cle-coast-guard-station.glb",
+  "source": "generators/cle-coast-guard-station.ts"
+}

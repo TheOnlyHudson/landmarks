@@ -1,0 +1,78 @@
+{
+  "id": "cle-rocket-arena",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "basketball",
+    "nba"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Rocket Mortgage FieldHouse 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Rocket_Mortgage_FieldHouse_2022.png",
+      "author": "Cards84664",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Rocket Mortgage FieldHouse (2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Rocket_Mortgage_FieldHouse_(2).jpg",
+      "author": "Cards84664",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Rocket Mortgage FieldHouse",
+      "url": "https://commons.wikimedia.org/wiki/File:Rocket_Mortgage_FieldHouse.jpg",
+      "author": "Cards84664",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Rocket Mortgage FieldHouse (August, 2019)",
+      "url": "https://commons.wikimedia.org/wiki/File:Rocket_Mortgage_FieldHouse_(August,_2019).jpg",
+      "author": "Cards84664",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Rocket Mortgage FieldHouse (51871113113)",
+      "url": "https://commons.wikimedia.org/wiki/File:Rocket_Mortgage_FieldHouse_(51871113113).jpg",
+      "author": "Erik Drost",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Rocket Mortgage FieldHouse (51913051807)",
+      "url": "https://commons.wikimedia.org/wiki/File:Rocket_Mortgage_FieldHouse_(51913051807).jpg",
+      "author": "Erik Drost",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Rocket Mortgage FieldHouse (51914315923)",
+      "url": "https://commons.wikimedia.org/wiki/File:Rocket_Mortgage_FieldHouse_(51914315923).jpg",
+      "author": "Erik Drost",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Quicken Loans Arena",
+      "url": "https://commons.wikimedia.org/wiki/File:Quicken_Loans_Arena.jpg",
+      "author": "Erik Drost",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/cle-rocket-arena.glb",
+  "source": "generators/cle-rocket-arena.ts"
+}

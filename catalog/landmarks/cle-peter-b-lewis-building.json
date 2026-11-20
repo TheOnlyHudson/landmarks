@@ -1,0 +1,15 @@
+{
+  "id": "cle-peter-b-lewis-building",
+  "name": "Peter B. Lewis Building",
+  "model": "cle-peter-b-lewis-building",
+  "place": "cleveland-area",
+  "wikidata": "Q118383040",
+  "lng": -81.6080083,
+  "lat": 41.5099546,
+  "bearing": 312,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/108349160"
+  ]
+}

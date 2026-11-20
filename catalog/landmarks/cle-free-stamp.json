@@ -1,0 +1,13 @@
+{
+  "id": "cle-free-stamp",
+  "name": "Free Stamp",
+  "model": "cle-free-stamp",
+  "place": "cleveland-area",
+  "lng": -81.6924505,
+  "lat": 41.5054338,
+  "bearing": 347,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q18084727",
+  "replaces": []
+}

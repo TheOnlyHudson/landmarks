@@ -1,0 +1,92 @@
+{
+  "id": "cle-detroit-superior-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "arch-bridge",
+    "concrete-arch",
+    "double-deck"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleveland August 2015 24 (Detroit–Superior Bridge).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_August_2015_24_(Detroit%E2%80%93Superior_Bridge).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit Superior Bridge.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Superior_Bridge.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit-Superior panorama.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit-Superior_panorama.jpg",
+      "author": "Andrew Bardwell from Cleveland, Ohio",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "General view of bridge looking northeast. The photo is framed by the s 5000x3985 Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:General_view_of_bridge_looking_northeast._The_photo_is_framed_by_the_superstructure_of_the_Detroit_Superior_High_Level_Bridge_(1914-17)._The_open_stringer_construction_of_the_HAER_OHIO,18-CLEV,29-2.tif",
+      "author": "Historic American Engineering Record (HAER OH-6)",
+      "license": ""
+    },
+    {
+      "title": "View looking east of north elevation. IN the foreground is the ornamen 5000x4007 Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:View_looking_east_of_north_elevation._IN_the_foreground_is_the_ornamental_wrought_iron_railing_of_the_old_Superior_Avenue_Viaduct._-_Detroit_Superior_High_Level_Bridge,_HAER_OHIO,18-CLEV,22-6.tif",
+      "author": "Historic American Engineering Record (HAER OH-6)",
+      "license": ""
+    },
+    {
+      "title": "Detroit-Superior Bridge (24086002344).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit-Superior_Bridge_(24086002344).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Detroit-Superior Bridge (24418672380).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit-Superior_Bridge_(24418672380).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Detroit-Superior Bridge (19785372223).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit-Superior_Bridge_(19785372223).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Detroit Superior Bridge from Rapid.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit_Superior_Bridge_from_Rapid.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detroit-Superior Bridge.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Detroit-Superior_Bridge.jpg",
+      "author": "LeeG7144",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "wikidata": "Q2493242",
+  "file": "models/cle-detroit-superior-bridge.glb",
+  "source": "generators/cle-detroit-superior-bridge.ts"
+}

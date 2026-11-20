@@ -1,0 +1,67 @@
+{
+  "id": "cle-cleveland-trust-rotunda",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "bank",
+    "neoclassical",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleveland Trust Company Building, Euclid Avenue and East 9th Street, Cleveland, OH",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Trust_Company_Building,_Euclid_Avenue_and_East_9th_Street,_Cleveland,_OH.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Cleveland Trust rotunda",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Trust_rotunda.jpg",
+      "author": "Ohio Office of Redevelopment",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland - Cleveland Trust Company (OHPTC)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_-_Cleveland_Trust_Company_(OHPTC).jpg",
+      "author": "Ohio Redevelopment Projects - ODSA",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland - Cleveland Trust Company (OHPTC) - 25892459751",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_-_Cleveland_Trust_Company_(OHPTC)_-_25892459751.jpg",
+      "author": "Ohio Redevelopment Projects - ODSA",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Trust Co Building and The 9",
+      "url": "https://www.flickr.com/photos/23165290@N00/29176398387",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "E 9th St pediment - Cleveland Trust Co",
+      "url": "https://www.flickr.com/photos/23165290@N00/30063709228",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/cle-cleveland-trust-rotunda.glb",
+  "source": "generators/cle-cleveland-trust-rotunda.ts"
+}

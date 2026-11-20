@@ -1,0 +1,16 @@
+{
+  "id": "cle-one-cleveland-center",
+  "name": "One Cleveland Center",
+  "model": "cle-one-cleveland-center",
+  "place": "cleveland-area",
+  "lng": -81.689193,
+  "lat": 41.5036786,
+  "bearing": 11,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q2023965",
+  "replaces": [
+    "way/164342755",
+    "way/1535194757"
+  ]
+}

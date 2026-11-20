@@ -1,0 +1,90 @@
+{
+  "id": "cle-huntington-bank-field",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "american-football",
+    "nfl"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleveland Browns Stadium 2012",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Browns_Stadium_2012.jpg",
+      "author": "Erik Drost",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Cleveland Browns Stadium 16-06-2012 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Browns_Stadium_16-06-2012_2.jpg",
+      "author": "Erik Drost",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Cleveland Browns stadium from Convention Center",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Browns_stadium_from_Convention_Center.png",
+      "author": "Cards84664",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Cleveland August 2015 50 (FirstEnergy Stadium)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_August_2015_50_(FirstEnergy_Stadium).jpg",
+      "author": "Michael Barera",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Cleveland August 2015 08 (FirstEnergy Stadium)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_August_2015_08_(FirstEnergy_Stadium).jpg",
+      "author": "Michael Barera",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Rock and Roll Hall of Fame and Cleveland Browns Stadium",
+      "url": "https://commons.wikimedia.org/wiki/File:Rock_and_Roll_Hall_of_Fame_and_Cleveland_Browns_Stadium.jpg",
+      "author": "Erik Drost",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Cleveland National Air Show (51444226105) (Browns Stadium)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_National_Air_Show_(51444226105)_(Browns_Stadium).jpg",
+      "author": "Erik Drost",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Cleveland Browns Stadium",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Browns_Stadium.jpg",
+      "author": "Heather McLaughlin",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Cleveland Browns Stadium August 2010",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Browns_Stadium_August_2010.jpg",
+      "author": "Ak169808",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "FirstEnergy Stadium 2014",
+      "url": "https://commons.wikimedia.org/wiki/File:FirstEnergy_Stadium_2014.jpg",
+      "author": "Erik Drost",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/cle-huntington-bank-field.glb",
+  "source": "generators/cle-huntington-bank-field.ts"
+}

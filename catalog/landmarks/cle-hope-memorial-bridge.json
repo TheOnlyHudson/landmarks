@@ -1,0 +1,14 @@
+{
+  "id": "cle-hope-memorial-bridge",
+  "name": "Hope Memorial Bridge",
+  "model": "cle-hope-memorial-bridge",
+  "place": "cleveland-area",
+  "lng": -81.692619,
+  "lat": 41.4900714,
+  "bearing": 49.15,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/1022131210"
+  ]
+}

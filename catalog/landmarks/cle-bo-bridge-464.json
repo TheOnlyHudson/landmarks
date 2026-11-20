@@ -1,0 +1,16 @@
+{
+  "id": "cle-bo-bridge-464",
+  "name": "B&O Railroad Bridge 464",
+  "model": "cle-bo-bridge-464",
+  "place": "cleveland-area",
+  "lng": -81.7080893,
+  "lat": 41.4982168,
+  "bearing": 99.44,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1320181493",
+    "way/98646602"
+  ],
+  "wikidata": "Q122226954"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "cle-cuyahoga-county-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "civic",
+    "courthouse",
+    "beaux-arts",
+    "historic",
+    "group-plan"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Cuyahoga County Courthouse (1912, Lehman & Schmitt): City Hall's granite twin on Lakeside Avenue, with a giant Ionic colonnade, a pedimented centre pavilion and statues on its attic.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cuyahoga County Courthouse (28040216874)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cuyahoga_County_Courthouse_(28040216874).jpg",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Cuyahoga County Courthouse",
+      "url": "https://commons.wikimedia.org/wiki/File:Cuyahoga_County_Courthouse.jpg",
+      "author": "Mike Russell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Cuyahoga County Courthouse",
+      "url": "https://commons.wikimedia.org/wiki/File:Cuyahoga_County_Courthouse.png",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cuyahoga County Courthouse (27420332197)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cuyahoga_County_Courthouse_(27420332197).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/cle-cuyahoga-county-courthouse.glb",
+  "source": "generators/cle-cuyahoga-county-courthouse.ts"
+}

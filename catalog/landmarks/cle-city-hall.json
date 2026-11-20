@@ -1,0 +1,16 @@
+{
+  "id": "cle-city-hall",
+  "name": "Cleveland City Hall",
+  "model": "cle-city-hall",
+  "place": "cleveland-area",
+  "lng": -81.693641,
+  "lat": 41.505113,
+  "bearing": 325.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q21015945",
+  "replaces": [
+    "way/96235969",
+    "way/333533672"
+  ]
+}

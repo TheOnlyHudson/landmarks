@@ -1,0 +1,78 @@
+{
+  "id": "cle-progressive-field",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "baseball",
+    "mlb"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Progressive Field",
+      "url": "https://commons.wikimedia.org/wiki/File:Progressive_Field.jpg",
+      "author": "Jsawczuk",
+      "license": "public domain"
+    },
+    {
+      "title": "Jacobs Field, Cleveland",
+      "url": "https://commons.wikimedia.org/wiki/File:Jacobs_Field,_Cleveland.jpg",
+      "author": "Chris Light",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Progressive Field (Oct. 7, 2022)",
+      "url": "https://commons.wikimedia.org/wiki/File:Progressive_Field_(Oct._7,_2022).jpg",
+      "author": "Stefan Knaack",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Progressive Field, June 2019",
+      "url": "https://commons.wikimedia.org/wiki/File:Progressive_Field,_June_2019.jpg",
+      "author": "Cards84664",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Jacobs Field 2003",
+      "url": "https://commons.wikimedia.org/wiki/File:Jacobs_Field_2003.jpg",
+      "author": "IBHMC",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Progressive Field (51104441359)",
+      "url": "https://commons.wikimedia.org/wiki/File:Progressive_Field_(51104441359).jpg",
+      "author": "Erik Drost",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Progressive Field (32539120656)",
+      "url": "https://commons.wikimedia.org/wiki/File:Progressive_Field_(32539120656).jpg",
+      "author": "Erik Drost",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Progressive Field (8736392825)",
+      "url": "https://commons.wikimedia.org/wiki/File:Progressive_Field_(8736392825).jpg",
+      "author": "Erik Drost",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/cle-progressive-field.glb",
+  "source": "generators/cle-progressive-field.ts"
+}

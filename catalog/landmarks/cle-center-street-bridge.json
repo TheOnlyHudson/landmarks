@@ -1,0 +1,13 @@
+{
+  "id": "cle-center-street-bridge",
+  "name": "Center Street Swing Bridge",
+  "model": "cle-center-street-bridge",
+  "place": "cleveland-area",
+  "lng": -81.703413,
+  "lat": 41.494312,
+  "bearing": 284.8,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "wikidata": "Q122226796"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "cle-center-street-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "swing-bridge",
+    "truss-bridge",
+    "movable-bridge"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Center Street Bridge.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Center_Street_Bridge.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Center Street Bridge swung open - Cleveland, Ohio (2013).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Center_Street_Bridge_swung_open_-_Cleveland,_Ohio_(2013).jpg",
+      "author": "Ralf Peter Reimann",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Center Street Swing Bridge in Cleveland, Ohio..jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Center_Street_Swing_Bridge_in_Cleveland,_Ohio..jpg",
+      "author": "tygerdsebat",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Cuyahoga River Center Street swing bridge.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Cuyahoga_River_Center_Street_swing_bridge.png",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "OBLIQUE VIEW - Center Street Swing Bridge, Southwest of Public Square, 4779x3775 Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:OBLIQUE_VIEW_-_Center_Street_Swing_Bridge,_Southwest_of_Public_Square,_Cleveland,_Cuyahoga_County,_OH_HAER_OHIO,18-CLEV,29-23_(CT).tif",
+      "author": "Lowe, Jet, creator",
+      "license": ""
+    },
+    {
+      "title": "Bridge in the Cleveland Flats (9234075538).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridge_in_the_Cleveland_Flats_(9234075538).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Bridges in the Flats.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Bridges_in_the_Flats.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Flats - 7 (13967146264).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Flats_-_7_(13967146264).jpg",
+      "author": "k_e_lewis",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "wikidata": "Q122226796",
+  "file": "models/cle-center-street-bridge.glb",
+  "source": "generators/cle-center-street-bridge.ts"
+}
