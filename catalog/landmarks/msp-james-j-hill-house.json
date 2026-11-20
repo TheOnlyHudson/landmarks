@@ -1,0 +1,15 @@
+{
+  "id": "msp-james-j-hill-house",
+  "name": "James J. Hill House",
+  "model": "msp-james-j-hill-house",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.108949,
+  "lat": 44.94509,
+  "bearing": 44,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6136691",
+  "replaces": [
+    "way/43385471"
+  ]
+}
