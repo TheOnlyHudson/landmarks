@@ -30,3 +30,9 @@ The model uses footprint, measured roof levels and published descriptions. Corni
 - OSM overlap check passes against the archived neighborhood extract.
 - Terrain check passes against local DC OCTO 2022 bare-earth data using the project's draping algorithm. This does not verify live Mapterhorn terrain.
 - Front, rear and day/night render geometry inspected. Photo comparison remains outstanding as described above.
+- TypeScript and catalog validation pass.
+- All 74 tests pass (13 test files, 758,439 assertions).
+- Static build passes in a clean two-commit shallow checkout: 1,647 versions from two relevant commits, zero unavailable snapshots within that checkout. Older repository history is outside this build.
+- Chromium smoke check passes: actual model loading, creator/AI credits, OSM reference, correctly hidden High/Low selector for this single-LOD model, and day/night model switching.
+
+[200-pixel preview](phone-200.png) · [80-pixel preview](phone-80.png)
