@@ -1,0 +1,84 @@
+{
+  "id": "cle-west-side-market",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "market",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "West Side Market 2023",
+      "url": "https://commons.wikimedia.org/wiki/File:West_Side_Market_2023.jpg",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "West Side Market, Ohio City, Cleveland, OH (28569077637)",
+      "url": "https://commons.wikimedia.org/wiki/File:West_Side_Market,_Ohio_City,_Cleveland,_OH_(28569077637).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "West Side Market, Ohio City, Cleveland, OH (28569071847)",
+      "url": "https://commons.wikimedia.org/wiki/File:West_Side_Market,_Ohio_City,_Cleveland,_OH_(28569071847).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "West Side Market, Ohio City, Cleveland, OH (28569071037)",
+      "url": "https://commons.wikimedia.org/wiki/File:West_Side_Market,_Ohio_City,_Cleveland,_OH_(28569071037).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Cleveland West Side Market (8248366932)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_West_Side_Market_(8248366932).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland West Side Market (7382154800)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_West_Side_Market_(7382154800).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "West Side Market, Cleveland - Jan 27, 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:West_Side_Market,_Cleveland_-_Jan_27,_2024.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland West Side - Market",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_West_Side_-_Market.jpg",
+      "author": "Mike Sharp",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "West Side Market Cleveland 05",
+      "url": "https://commons.wikimedia.org/wiki/File:West_Side_Market_Cleveland_05.jpg",
+      "author": "Ɱ",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/cle-west-side-market.glb",
+  "source": "generators/cle-west-side-market.ts"
+}
