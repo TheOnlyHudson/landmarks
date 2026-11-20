@@ -1,0 +1,15 @@
+{
+  "id": "cle-st-theodosius-cathedral",
+  "name": "St. Theodosius Orthodox Cathedral",
+  "model": "cle-st-theodosius-cathedral",
+  "place": "cleveland-area",
+  "lng": -81.6817038,
+  "lat": 41.4772974,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2028251",
+  "replaces": [
+    "way/552484156"
+  ]
+}
