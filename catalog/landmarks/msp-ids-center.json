@@ -1,0 +1,19 @@
+{
+  "id": "msp-ids-center",
+  "name": "IDS Center",
+  "model": "msp-ids-center",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.2719525,
+  "lat": 44.9761346,
+  "bearing": 30,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/1385236413",
+    "way/166748034",
+    "way/156909891",
+    "way/156909956",
+    "way/156909957",
+    "way/156909969"
+  ]
+}

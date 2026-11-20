@@ -1,0 +1,60 @@
+{
+  "id": "msp-marquette-plaza",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "office",
+    "modernist",
+    "suspended-structure"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "051907-011-MarquettePlaza.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:051907-011-MarquettePlaza.jpg",
+      "author": "Bobak Ha'Eri",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Marquette Plaza.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Marquette_Plaza.jpg",
+      "author": "Burt Levy",
+      "license": "Public domain"
+    },
+    {
+      "title": "Marquette Plaza, Minneapolis 2017-07-29.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Marquette_Plaza,_Minneapolis_2017-07-29.jpg",
+      "author": "August Schwerdfeger",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "The Marq (Marquette Plaza), July 2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Marq_(Marquette_Plaza),_July_2024.jpg",
+      "author": "Sharon Mollerus",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Fed-20080928.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fed-20080928.jpg",
+      "author": "SusanLesch",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/msp-marquette-plaza.glb",
+  "source": "generators/msp-marquette-plaza.ts"
+}

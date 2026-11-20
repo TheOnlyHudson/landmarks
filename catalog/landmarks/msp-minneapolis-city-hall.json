@@ -1,0 +1,16 @@
+{
+  "id": "msp-minneapolis-city-hall",
+  "name": "Minneapolis City Hall",
+  "model": "msp-minneapolis-city-hall",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.26541,
+  "lat": 44.977285,
+  "bearing": 30.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1384874",
+  "replaces": [
+    "relation/4503577",
+    "way/460865262"
+  ]
+}

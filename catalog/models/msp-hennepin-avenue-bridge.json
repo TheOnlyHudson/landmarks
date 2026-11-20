@@ -1,0 +1,74 @@
+{
+  "id": "msp-hennepin-avenue-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "suspension-bridge",
+    "road-bridge",
+    "river"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/msp-hennepin-avenue-bridge.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "HennepinAveBridge",
+      "url": "https://commons.wikimedia.org/wiki/File:HennepinAveBridge.jpg",
+      "author": "prakope",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Hennepin Avenue Bridge 5492",
+      "url": "https://commons.wikimedia.org/wiki/File:Hennepin_Avenue_Bridge_5492.jpg",
+      "author": "Michael Hicks",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Hennepin Avenue Bridge (15809429592)",
+      "url": "https://commons.wikimedia.org/wiki/File:Hennepin_Avenue_Bridge_(15809429592).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Hennepin Avenue Bridge (15622673567)",
+      "url": "https://commons.wikimedia.org/wiki/File:Hennepin_Avenue_Bridge_(15622673567).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Underneath the Hennepin Avenue Bridge",
+      "url": "https://commons.wikimedia.org/wiki/File:Underneath_the_Hennepin_Avenue_Bridge.jpg",
+      "author": "Innotata",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Hennepin-Bridge-20080926",
+      "url": "https://commons.wikimedia.org/wiki/File:Hennepin-Bridge-20080926.jpg",
+      "author": "SusanLesch",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Hennepin Ave Bridge on a beautiful calm night",
+      "url": "https://commons.wikimedia.org/wiki/File:Hennepin_Ave_Bridge_on_a_beautiful_calm_night.jpg",
+      "author": "Chad Davis",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/msp-hennepin-avenue-bridge.glb",
+  "source": "generators/msp-hennepin-avenue-bridge.ts"
+}

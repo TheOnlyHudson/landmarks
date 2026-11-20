@@ -1,0 +1,14 @@
+{
+  "id": "msp-union-depot",
+  "name": "Saint Paul Union Depot",
+  "model": "msp-union-depot",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.08588,
+  "lat": 44.9474,
+  "bearing": 326.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/6894450"
+  ]
+}

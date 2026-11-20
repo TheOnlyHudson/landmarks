@@ -1,0 +1,92 @@
+{
+  "id": "msp-minnesota-state-capitol",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "capitol",
+    "government",
+    "historic",
+    "dome",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Minnesota State Capitol 2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minnesota_State_Capitol_2017.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minnesota State Capitol - 54147668520.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minnesota_State_Capitol_-_54147668520.jpg",
+      "author": "xiquinhosilva",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Minnesota State Capitol - 54147669410.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minnesota_State_Capitol_-_54147669410.jpg",
+      "author": "xiquinhosilva",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Minnesota State Capitol looking at west entrance.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minnesota_State_Capitol_looking_at_west_entrance.jpg",
+      "author": "Myotus",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "MN State Capitol, backside looking Southwest.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:MN_State_Capitol,_backside_looking_Southwest.jpg",
+      "author": "Myotus",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Minnesota State Capitol from northeast 5.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minnesota_State_Capitol_from_northeast_5.jpg",
+      "author": "AlexiusHoratius",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Minnesota State Capitol from northwest in winter (1).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minnesota_State_Capitol_from_northwest_in_winter_(1).jpg",
+      "author": "Thesavagenorwegian",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Minnesota State Capitol Aerial.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minnesota_State_Capitol_Aerial.jpg",
+      "author": "Lectrician2",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minnesota State Capitol night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minnesota_State_Capitol_night.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minnesota State Capitol dome drawings.png (Cass Gilbert, sheet 153)",
+      "url": "https://commons.wikimedia.org/wiki/File:Minnesota_State_Capitol_dome_drawings.png",
+      "author": "Cass Gilbert",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/msp-minnesota-state-capitol.glb",
+  "source": "generators/msp-minnesota-state-capitol.ts"
+}

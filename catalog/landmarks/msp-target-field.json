@@ -1,0 +1,14 @@
+{
+  "id": "msp-target-field",
+  "name": "Target Field",
+  "model": "msp-target-field",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.2778234,
+  "lat": 44.9817212,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/2203690"
+  ]
+}

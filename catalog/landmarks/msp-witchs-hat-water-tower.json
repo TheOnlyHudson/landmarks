@@ -1,0 +1,15 @@
+{
+  "id": "msp-witchs-hat-water-tower",
+  "name": "Witch's Hat Tower",
+  "model": "msp-witchs-hat-water-tower",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.212673,
+  "lat": 44.968665,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q28125967",
+  "replaces": [
+    "way/175087241"
+  ]
+}

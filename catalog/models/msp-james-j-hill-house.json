@@ -1,0 +1,61 @@
+{
+  "id": "msp-james-j-hill-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "house",
+    "museum",
+    "richardsonian-romanesque"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "James J. Hill House 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:James_J._Hill_House_2013.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "JamesJHillHouse.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:JamesJHillHouse.jpg",
+      "author": "Barlowjc",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "James J. Hill House (1).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:James_J._Hill_House_(1).jpg",
+      "author": "Teemu008",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Richardsonian Romanesque - Saint Paul, MN - James J. Hill Mansion (1).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Richardsonian_Romanesque_-_Saint_Paul,_MN_-_James_J._Hill_Mansion_(1).jpg",
+      "author": "Bmzuckerman",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "SummitAvenue.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:SummitAvenue.jpg",
+      "author": "William Wesen",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/msp-james-j-hill-house.glb",
+  "source": "generators/msp-james-j-hill-house.ts"
+}

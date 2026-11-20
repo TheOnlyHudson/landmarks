@@ -1,0 +1,15 @@
+{
+  "id": "msp-us-bank-stadium",
+  "name": "U.S. Bank Stadium",
+  "model": "msp-us-bank-stadium",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.2574644,
+  "lat": 44.9735676,
+  "bearing": 314,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q7929512",
+  "replaces": [
+    "way/743461508"
+  ]
+}

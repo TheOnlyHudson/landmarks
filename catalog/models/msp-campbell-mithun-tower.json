@@ -1,0 +1,47 @@
+{
+  "id": "msp-campbell-mithun-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Campbell Mithun Tower 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Campbell_Mithun_Tower_1.jpg",
+      "author": "AlexiusHoratius",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "St. Olaf Catholic Church - Minneapolis 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Olaf_Catholic_Church_-_Minneapolis_01.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Two22, Minneapolis (52064245436).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Two22,_Minneapolis_(52064245436).jpg",
+      "author": "Chad Davis",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/msp-campbell-mithun-tower.glb",
+  "source": "generators/msp-campbell-mithun-tower.ts"
+}

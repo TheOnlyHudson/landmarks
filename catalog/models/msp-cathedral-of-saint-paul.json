@@ -1,0 +1,62 @@
+{
+  "id": "msp-cathedral-of-saint-paul",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "religious",
+    "cathedral",
+    "beaux-arts",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Saint Paul Cathedral facade golden hour.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Paul_Cathedral_facade_golden_hour.jpg"
+    },
+    {
+      "title": "Saint Paul April 2025 12 (Cathedral of Saint Paul).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Paul_April_2025_12_(Cathedral_of_Saint_Paul).jpg"
+    },
+    {
+      "title": "The Cathedral of Saint Paul ... - 51707289303.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Cathedral_of_Saint_Paul,_Selby_Avenue_and_Summit_Avenue,_Cathedral_Hill,_Saint_Paul,_MN_-_51707289303.jpg"
+    },
+    {
+      "title": "The Cathedral of Saint Paul ... - 51707014266.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Cathedral_of_Saint_Paul,_Selby_Avenue_and_Summit_Avenue,_Cathedral_Hill,_Saint_Paul,_MN_-_51707014266.jpg"
+    },
+    {
+      "title": "The Cathedral of Saint Paul ... - 51707034216.jpg (night)",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Cathedral_of_Saint_Paul,_Selby_Avenue_and_Summit_Avenue,_Cathedral_Hill,_Saint_Paul,_MN_-_51707034216.jpg"
+    }
+  ],
+  "file": "models/msp-cathedral-of-saint-paul.glb",
+  "source": "generators/msp-cathedral-of-saint-paul.ts"
+}

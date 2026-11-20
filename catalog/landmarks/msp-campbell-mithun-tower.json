@@ -1,0 +1,15 @@
+{
+  "id": "msp-campbell-mithun-tower",
+  "name": "Two22 (Campbell Mithun Tower)",
+  "model": "msp-campbell-mithun-tower",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.270084,
+  "lat": 44.9737586,
+  "bearing": 31,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q932489",
+  "replaces": [
+    "way/44684851"
+  ]
+}

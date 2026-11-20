@@ -1,0 +1,75 @@
+{
+  "id": "msp-mill-city-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "historic",
+    "mill",
+    "ruins",
+    "grain-elevator",
+    "sign"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Washburn A Mill 2014",
+      "url": "https://commons.wikimedia.org/wiki/File:Washburn_A_Mill_2014.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Washburn A Mill Mill City Museum",
+      "url": "https://commons.wikimedia.org/wiki/File:Washburn_A_Mill_Mill_City_Museum.jpg",
+      "author": "Tsya 42",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Mill City Museum-20070704",
+      "url": "https://commons.wikimedia.org/wiki/File:Mill_City_Museum-20070704.jpg",
+      "author": "quaziefoto",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Minneapolis April 2025 23 (Mill City Museum)",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_23_(Mill_City_Museum).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis April 2025 21 (Mill City Museum)",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_21_(Mill_City_Museum).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gold Medal Flour, Minneapolis (23675508481)",
+      "url": "https://commons.wikimedia.org/wiki/File:Gold_Medal_Flour,_Minneapolis_(23675508481).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Washburn A Mill Complex",
+      "url": "https://commons.wikimedia.org/wiki/File:Washburn_A_Mill_Complex.jpg",
+      "author": "Tiggr222",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/msp-mill-city-museum.glb",
+  "source": "generators/msp-mill-city-museum.ts"
+}

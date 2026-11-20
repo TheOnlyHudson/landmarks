@@ -1,0 +1,65 @@
+{
+  "id": "msp-capella-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Capella Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Capella_Tower.jpg",
+      "author": "McGhiever",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Minneapolis April 2025 50 (Capella Tower).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_50_(Capella_Tower).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis April 2025 51 (Capella Tower).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_51_(Capella_Tower).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "225 South Sixth-Minneapolis-20050927.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:225_South_Sixth-Minneapolis-20050927.jpg",
+      "author": "Jim Winstead Jr.",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Blue Capella (17026079201).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Blue_Capella_(17026079201).jpg",
+      "author": "Jazelle Henry",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "051207-MPLS-004CapellaHQ.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:051207-MPLS-004CapellaHQ.jpg",
+      "author": "Bobak Ha'Eri",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/msp-capella-tower.glb",
+  "source": "generators/msp-capella-tower.ts"
+}

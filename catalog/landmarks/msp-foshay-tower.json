@@ -1,0 +1,16 @@
+{
+  "id": "msp-foshay-tower",
+  "name": "Foshay Tower",
+  "model": "msp-foshay-tower",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.2718431,
+  "lat": 44.9745089,
+  "bearing": 31,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q3748980",
+  "replaces": [
+    "way/28525360",
+    "way/301710884"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "msp-us-bancorp-center",
+  "name": "U.S. Bancorp Center",
+  "model": "msp-us-bancorp-center",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.273889,
+  "lat": 44.9756484,
+  "bearing": 30.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q47474",
+  "replaces": [
+    "way/461224219",
+    "way/461224215",
+    "way/1393991636",
+    "way/1393991637",
+    "way/1393991638"
+  ]
+}

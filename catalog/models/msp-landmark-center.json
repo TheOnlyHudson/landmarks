@@ -1,0 +1,56 @@
+{
+  "id": "msp-landmark-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "courthouse",
+    "romanesque-revival",
+    "museum"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q6484761",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Saint Paul April 2025 14 (Landmark Center).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Paul_April_2025_14_(Landmark_Center).jpg"
+    },
+    {
+      "title": "Landmark Center SE.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Landmark_Center_SE.jpg"
+    },
+    {
+      "title": "Landmark Center SW.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Landmark_Center_SW.jpg"
+    },
+    {
+      "title": "Landmark Center from St. Paul Hotel, Saint Paul, MN.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Landmark_Center_from_St._Paul_Hotel,_Saint_Paul,_MN.jpg"
+    }
+  ],
+  "file": "models/msp-landmark-center.glb",
+  "source": "generators/msp-landmark-center.ts"
+}

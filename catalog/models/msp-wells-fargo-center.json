@@ -1,0 +1,65 @@
+{
+  "id": "msp-wells-fargo-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Wells Fargo Center from Foshay.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center_from_Foshay.jpg",
+      "author": "Mulad",
+      "license": "Public domain"
+    },
+    {
+      "title": "Wells Fargo Center of Minneapolis, 2021.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center_of_Minneapolis,_2021.jpg",
+      "author": "DeltaMSP",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis April 2025 01 (Wells Fargo Center).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_01_(Wells_Fargo_Center).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis April 2025 06 (Wells Fargo Center).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_06_(Wells_Fargo_Center).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Wells Fargo Center Minneapolis night 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center_Minneapolis_night_1.jpg",
+      "author": "AlexiusHoratius",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Wells Fargo Center (Minneapolis) - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center_(Minneapolis)_-_panoramio.jpg",
+      "author": "Gabriel Vanslette",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/msp-wells-fargo-center.glb",
+  "source": "generators/msp-wells-fargo-center.ts"
+}

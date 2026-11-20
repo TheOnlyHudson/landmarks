@@ -1,0 +1,14 @@
+{
+  "id": "msp-allianz-field",
+  "name": "Allianz Field",
+  "model": "msp-allianz-field",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.164672,
+  "lat": 44.953096,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/8302605"
+  ]
+}
