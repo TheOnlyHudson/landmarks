@@ -1,0 +1,15 @@
+{
+  "id": "ral-sacred-heart-cathedral",
+  "name": "Sacred Heart Cathedral",
+  "model": "ral-sacred-heart-cathedral",
+  "place": "raleigh-area",
+  "lng": -78.6419497,
+  "lat": 35.7808214,
+  "bearing": 2.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q7397114",
+  "replaces": [
+    "way/47776428"
+  ]
+}
