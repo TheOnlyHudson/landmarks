@@ -9,7 +9,7 @@
     "museum",
     "historic-house"
   ],
-  "description": "The Society of the Cincinnati’s headquarters and historic house museum, built in 1902–1905 for Larz and Isabel Anderson. Draft model based on mapped footprint, lidar and the National Historic Landmark architectural description; photographic comparison pending.",
+  "description": "The Society of the Cincinnati’s headquarters and historic house museum, built in 1902–1905 for Larz and Isabel Anderson. Original low-poly model with a curved columned portico, paired entrance gateways and garden terrace; front refined against a licensed photograph. Rear and side details remain approximate.",
   "credits": [
     {
       "name": "Salty Pancakes",
@@ -42,10 +42,10 @@
       "author": "District of Columbia Office of the Chief Technology Officer"
     },
     {
-      "title": "Exterior photograph (identified; comparison pending)",
-      "url": "https://commons.wikimedia.org/wiki/File:Larz_Anderson_House_-_Washington,_D.C..jpg",
-      "author": "AgnosticPreachersKid",
-      "license": "CC-BY-SA-3.0"
+      "title": "Front exterior photograph used for visual comparison",
+      "url": "https://commons.wikimedia.org/wiki/File:Larz_Anderson_House_-_Society_of_the_Cincinatti.jpg",
+      "author": "APK",
+      "license": "CC-BY-4.0"
     }
   ],
   "reviewStatus": "draft"
