@@ -1,0 +1,13 @@
+{
+  "id": "den-blue-bear",
+  "name": "I See What You Mean (Big Blue Bear)",
+  "model": "den-blue-bear",
+  "place": "denver-area",
+  "lng": -104.9952556,
+  "lat": 39.7436076,
+  "bearing": 215.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q85768576",
+  "replaces": []
+}
