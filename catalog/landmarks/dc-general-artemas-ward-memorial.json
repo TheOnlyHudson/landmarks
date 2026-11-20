@@ -1,0 +1,11 @@
+{
+  "id": "dc-general-artemas-ward-memorial",
+  "name": "General Artemas Ward Memorial",
+  "model": "dc-general-artemas-ward-memorial",
+  "place": "washington-area",
+  "lng": -77.0859055,
+  "lat": 38.93792405,
+  "bearing": 315,
+  "elevation": 0,
+  "minzoom": 16
+}

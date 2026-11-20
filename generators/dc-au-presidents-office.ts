@@ -2,6 +2,8 @@
  * President’s Office — American University.
  * The Federal-style office has light siding, a central portico and a hipped roof.
  * Plan projected in metres about the OSM area centroid. The catalog bearing restores map north.
+ * Close-range LOD adds recessed glazing, masonry reveals and restrained sash profiles.
+ * Reveal depth (0.14 m; 0.28 m for spandrel glazing), frame widths and sash spacing are estimates.
  * Exterior study. Roof heights use 2022 DC LiDAR building returns above the footprint’s lower ground (10th percentile).
  * Roof edges and slopes are simplified. Sill heights, bay spacing and colors are estimates.
  * https://www.openstreetmap.org/way/38110182
@@ -17,6 +19,8 @@ await buildCampusBuilding({
   anchor: [-77.0884133, 38.9390966],
   bearing: 34.06,
   masonry: 0xded9c9, accent: 0xede5d2, roof: 0x6e6e68,
+  sash: 'six-over-six',
+  chimneys: [[1.2,-5.8],[1.2,5.8]],
   wings: [{
     outline: [
       [-8.05, 4.39], [-8.05, -5.2], [-4.25, -5.19], [-4.25, -8.43],

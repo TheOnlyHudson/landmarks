@@ -2,6 +2,8 @@
  * Battelle-Tompkins Memorial Building — American University.
  * The historic library building on the quad has a columned entrance and arched upper windows.
  * Plan projected in metres about the OSM area centroid. The catalog bearing restores map north.
+ * Close-range LOD adds recessed glazing, masonry reveals and restrained sash profiles.
+ * Reveal depth (0.14 m; 0.28 m for spandrel glazing), frame widths and sash spacing are estimates.
  * Exterior study. Roof heights use 2022 DC LiDAR building returns above the footprint’s lower ground (10th percentile).
  * Roof edges and slopes are simplified. Sill heights, bay spacing and colors are estimates.
  * https://www.openstreetmap.org/way/38078786
@@ -17,6 +19,7 @@ await buildCampusBuilding({
   anchor: [-77.088411, 38.9374479],
   bearing: 34.47,
   masonry: 0xd3c8b6, accent: 0xddd3bd, roof: 0x777873,
+  sash: 'grouped',
   wings: [{
     outline: [
       [15.15, -19.18], [15.15, -9.7], [13.54, -9.7], [13.54, -6.45],
@@ -29,7 +32,7 @@ await buildCampusBuilding({
     rows: [[1.15, 4.02], [6.18, 9.04]],
     bayWidth: 1.6, pierWidth: 2.4,
     archRow: 1,
-    portico: { edge: 4, width: 7.6, depth: 1.4, height: 5.3, columns: 2, pediment: true },
+    portico: { steps: 4, edge: 4, width: 7.6, depth: 1.4, height: 5.3, columns: 2, pediment: true },
     roofFaces: [
       [[15.15, -19.18, 10.7], [15.15, -9.7, 10.7], [10.41, -14.45, 11.7]],
       [[15.15, -9.7, 10.7], [13.54, -9.7, 10.7], [8.8, -14.45, 11.7], [10.41, -14.45, 11.7]],
