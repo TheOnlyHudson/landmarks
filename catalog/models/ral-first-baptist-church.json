@@ -1,0 +1,78 @@
+{
+  "id": "ral-first-baptist-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "religious"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "First Baptist Church - N Salisbury St, Raleigh.JPG",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Baptist_Church_-_N_Salisbury_St,_Raleigh.JPG"
+    },
+    {
+      "title": "Raleigh - First Baptist Church.jpg",
+      "author": "P. Hughes",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Raleigh_-_First_Baptist_Church.jpg"
+    },
+    {
+      "title": "First Baptist Church (White) - Raleigh (14364548998).jpg",
+      "author": "Gerry Dincher",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Baptist_Church_(White)_-_Raleigh_(14364548998).jpg"
+    },
+    {
+      "title": "First Baptist Church at Downtown Raleigh NC - panoramio.jpg",
+      "author": "Chanilim714",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Baptist_Church_at_Downtown_Raleigh_NC_-_panoramio.jpg"
+    },
+    {
+      "title": "First Baptist Church (N. Salisbury St.) Raleigh, North Carolina - panoramio.jpg",
+      "author": "Chanilim714",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Baptist_Church_(N._Salisbury_St.)_Raleigh,_North_Carolina_-_panoramio.jpg"
+    },
+    {
+      "title": "Capitol Area Historic District-First Baptist Church2.jpg",
+      "author": "2BKNIGHT",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Capitol_Area_Historic_District-First_Baptist_Church2.jpg"
+    },
+    {
+      "title": "First Baptist Church of Raleigh, January 2026 Ice Storm.jpg",
+      "author": "Mzedp",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Baptist_Church_of_Raleigh,_January_2026_Ice_Storm.jpg"
+    },
+    {
+      "title": "Dei-light - panoramio.jpg",
+      "author": "Scott Thompson",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dei-light_-_panoramio.jpg"
+    }
+  ],
+  "file": "models/ral-first-baptist-church.glb",
+  "source": "generators/ral-first-baptist-church.ts"
+}
