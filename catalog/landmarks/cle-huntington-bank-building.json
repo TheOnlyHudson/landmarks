@@ -1,0 +1,15 @@
+{
+  "id": "cle-huntington-bank-building",
+  "name": "Huntington Bank Building",
+  "model": "cle-huntington-bank-building",
+  "place": "cleveland-area",
+  "lng": -81.6864767,
+  "lat": 41.5009482,
+  "bearing": 326.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5945254",
+  "replaces": [
+    "relation/4682394"
+  ]
+}
