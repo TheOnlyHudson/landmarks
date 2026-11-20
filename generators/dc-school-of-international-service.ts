@@ -1,146 +1,139 @@
 /**
- * American University, School of International Service, Washington, DC.
+ * Factual cross-check (building identity/floor labels only):
+ * https://map-american.university-tour.com/school-of-international-service-dollhouse
+ * Tour illustrations and photos are not geometry evidence.
+ * American University School of International Service, Washington, DC.
  * Original procedural model by Salty Pancakes and OpenAI Codex (GPT-6).
+ * At the original placement and bearing, the May 2026 OSM boundary is
+ * relation/914201, outer way/48082911. The indented stair slot and offset
+ * street pavilion follow that boundary. The bowed street face is below the
+ * resolution of the footprint.
+ * https://www.openstreetmap.org/relation/914201
+ * https://www.openstreetmap.org/way/48082911
  *
- * OSM way/48082911, from the 2021-01-13 Geofabrik DC snapshot preserved in
- * https://github.com/rustprooflabs/pgosm-flex/tree/main/tests/data .
- * Approximate area centroid -77.0884149, 38.9357380. The two wings run
- * along Nebraska Avenue at bearing 34 degrees. In this rotated frame the
- * avenue is on the +x side, the main entrance court at the +y end.
- * The outline gives the 33 m body width, 71.5 m length, the projecting
- * street wing and the recessed glazed link. It has no height tags.
- *
- * Jeff Watts / American University, CC BY-SA 3.0 (oblique aerial):
+ * Jeff Watts / American University, CC BY-SA 3.0, oblique aerial:
  * https://commons.wikimedia.org/wiki/File:American_University_School_of_International_Service_building.jpg
- * Shows pale masonry, the glazed spine with a projecting metal roof,
- * the bowed street bay and a pair of long roofs with collectors.
- * Herrperry123, CC BY-SA 4.0 (street entrance):
+ * Herrperry123, CC BY-SA 4.0, formal entrance and solar shades:
  * https://commons.wikimedia.org/wiki/File:School_of_International_Service_Building.jpg
- * Shows the vertical slot beside the pale end wall, bronze entrance surround,
- * three upper rows of windows and projecting shades. Public building facts:
+ * AU describes fixed exterior shades, a multilevel atrium, solar hot water,
+ * and 3,230 square feet (300 m²) of photovoltaics:
  * https://www.american.edu/about/sustainability/buildings/school-of-international-service.cfm
  *
- * Heights (17.2 m street eave, 20.4 m atrium crest), curvature, panels,
- * shade depth, collector layout and roof setbacks are estimates scaled
- * from those photos. The campus-side elevation is simplified. The model
- * represents above-ground architecture only. No measured night lighting.
+ * Roof elevations use DC OCTO's 2022 lidar, NOAA Digital Coast 9837. DSM and
+ * bare-earth DEM derivatives are archived at:
+ * https://github.com/kameronlee/heat-aware-pedestrian-routing/tree/456fd09d67aae857907e8c2b7fa6c19332734bd5
+ * Measured above the 118.96 m ground tenth percentile: 14.1 m main roof,
+ * 15.4–15.7 m center clerestory, 18.5–18.8 m southwest rooftop structure,
+ * and a raised transverse portion at 19.8 m. Glazing divisions, shadow-box
+ * depths, array distribution, and fittings are estimated from the two views.
  */
 import { Part, type V3 } from './mesh'
 import { finish, PALETTE } from './palette'
-import { block, cbox, panel, rect, save, type Side } from './dc-white-house'
+import { block, cbox, panel, rect, save, wallRing, type Rect, type Side } from './dc-white-house'
 
 const masonry = new Part(), glazing = new Part(), bronze = new Part()
 const roof = new Part(), skylight = new Part(), collectors = new Part()
-const parapet = 17.2
+const parapet = 14.30
 
-function wing(x0: number, x1: number, y0: number, y1: number, h: number) {
-  cbox(masonry, rect(x0, x1, y0, y1), 0, h, { c: 0.18, b: 0.12, top: roof })
+function wing(r: Rect, height: number) {
+  cbox(masonry,r,0,height-0.22,{c:0.12,b:0.06,top:roof})
+  wallRing(masonry,r,0.27,height-0.22,height)
 }
 
-// A glazed spine connects the parallel wings. The street wing steps back
-// around the glazed entrance before projecting beyond the campus wing.
-wing(-17.1, -3.4, -32.6, 25.4, 16.6)
-wing(1.6, 15.8, -32.6, 17.5, parapet)
-wing(1.6, 12.65, 17.5, 24.8, 16.7)
-wing(-1.8, 15.9, 24.8, 38.7, parapet)
-cbox(glazing, rect(-3.4, 1.6, -32.6, 24.8), 0, 17.7)
-cbox(glazing, rect(-4.3, -1.8, 24.8, 32.4), 0, 18.7)
+wing(rect(-15.6,-3.5,-31.15,26.84),14.26)
+wing(rect(1.8,16.65,-31.15,18.62),parapet)
+wing(rect(1.8,14.62,18.62,26.62),14.18)
+wing(rect(-0.27,16.52,26.62,39.95),14.28)
+cbox(glazing,rect(-3.5,1.8,-31.15,26.62),0,14.34)
+cbox(glazing,rect(-3.5,-0.27,26.6,33.10),0,14.39)
 
-// The corners of the sloping clerestory remain visible above both roof decks.
-for (const [y0, y1, h] of [[-31.4, 19.2, 19.4], [19.2, 32.8, 20.4]]) {
-  const x0 = -4.5, x1 = 2.1
-  cbox(skylight, rect(x0 + 0.3, x1 - 0.3, y0, y1), 16.5, h - 0.5)
-  const lower = (x: number) => h - 0.12 * (x - x0)
-  const cap = (offset: number): V3[] => [
-    [x0, y0, lower(x0) + offset], [x1, y0, lower(x1) + offset],
-    [x1, y1, lower(x1) + offset], [x0, y1, lower(x0) + offset],
-  ]
-  bronze.loft([cap(-0.35), cap(0)])
-  roof.cap(cap(0), true)
-  bronze.cap(cap(-0.35), false)
+// Roof monitors have different heights on the campus wing and central spine.
+cbox(roof,rect(-13.65,-3.70,-23.63,4.98),14.03,18.59,{b:0.15})
+cbox(bronze,rect(-13.46,-3.91,-14.20,-9.03),18.51,19.76,{b:0.08,top:roof})
+for (const side of ['w','e'] as const) {
+  const x = side === 'w' ? -13.65 : -3.70
+  for (const y of [-22.55,-16.26,-7.95,-1.85]) {
+    panel(skylight,side,x,y,y+4.48,16.08,18.14)
+  }
+}
+for (const [y0,y1,h] of [[-27.6,18.8,15.72],[18.8,33.2,15.92]]) {
+  const x0=-3.95,x1=2.18
+  cbox(skylight,rect(x0+.29,x1-.29,y0,y1),14.10,h-.39)
+  const lid=(d:number):V3[]=>[[x0,y0,h+d],[x1,y0,h-.46+d],[x1,y1,h-.46+d],[x0,y1,h+d]]
+  bronze.loft([lid(-.20),lid(0)])
+  roof.cap(lid(0),true)
+  bronze.cap(lid(-.20),false)
 }
 
-// A shallow arc rises out of the straight masonry under the street windows.
-const curved: [number, number][] = []
-for (let i = 0; i <= 12; i++) {
-  const t = i / 12
-  curved.push([15.8 + 1.85 * Math.sin(Math.PI * t), -10.5 + t * 20])
+// Keep the gaps between collector racks visible. Six parallel racks
+// of rectangular modules approximate the published collector surface area.
+function solarRack(x0:number,x1:number,y0:number,y1:number,base:number) {
+  const section=(x:number,y:number):V3=>[x,y,base+.13+.52*(y-y0)/(y1-y0)]
+  for (let n=0;n<3;n++) {
+    const a=x0+(x1-x0)*n/3+.045,b=x0+(x1-x0)*(n+1)/3-.045
+    const deck=[section(a,y0),section(b,y0),section(b,y1),section(a,y1)]
+    collectors.loft([deck.map(([x,y]):V3=>[x,y,base+.04]),deck])
+    collectors.cap(deck,true)
+  }
 }
-for (let i = 1; i < curved.length; i++) {
-  const [a, b] = [curved[i - 1], curved[i]]
-  const p = (v: number[], z: number): V3 => [v[0], v[1], z]
-  masonry.quad(p(a, 0), p(b, 0), p(b, parapet), p(a, parapet))
-  const ya = a[1], yb = b[1]
-  roof.quad([15.74, ya, parapet], p(a, parapet), p(b, parapet), [15.74, yb, parapet])
+for(const y of [-28.7,-18.85,-9.0,.85]) solarRack(4.4,12.48,y,y+8.49,14.08)
+for(const y of [8.1,12.1]) solarRack(-13.12,-9.04,y,y+3.6,14.04)
+
+// The southeast glazing and its slight bow turn together around the bays.
+const bowStart=-9.4,bowLength=20,segments=16
+const curve=(i:number):[number,number]=>[16.65+1.03*Math.sin(Math.PI*i/segments),bowStart+bowLength*i/segments]
+const corner=(i:number,height:number,advance=0):V3=>{const [x,y]=curve(i);return [x+advance,y,height]}
+for(let i=0;i<segments;i++){
+  masonry.quad(corner(i,0),corner(i+1,0),corner(i+1,parapet),corner(i,parapet))
+  roof.quad([16.59,curve(i)[1],parapet],corner(i,parapet),corner(i+1,parapet),[16.59,curve(i+1)[1],parapet])
 }
 
-// Collector racks and a flat light-coloured strip beside the clerestory
-// give the long, shallow roofs their characteristic divided appearance.
-for (const [x0, x1, base] of [[-15.8, -7, 16.6], [4.5, 13.9, parapet]]) {
-  for (const y0 of [-29, -18.5, -8, 2.5]) {
-    const low = base + 0.12, high = base + 1.2
-    const deck: V3[] = [[x0, y0, low], [x1, y0, low], [x1, y0 + 9.7, high], [x0, y0 + 9.7, high]]
-    collectors.loft([deck.map(([x, y]) => [x, y, base + 0.04]), deck])
-    collectors.cap(deck, true)
+function bays(side:Side,face:number,start:number,end:number,count:number,sill:number,head:number,shaded=false){
+  const pitch=(end-start)/count
+  for(let i=0;i<count;i++){
+    const a=start+pitch*i+.38,b=start+pitch*(i+1)-.38,m=(a+b)/2
+    panel(glazing,side,face,a,b,sill,head)
+    panel(bronze,side,face,m-.055,m+.055,sill,head,.07)
+    if(shaded) block(bronze,side,face,a-.09,b+.09,head-.08,head+.10,.70)
+  }
+}
+for(const z of [4.10,7.48,10.86]){
+  const top=z+2.47
+  bays('e',16.65,-30.7,-9.65,4,z,top,true)
+  bays('e',16.65,10.89,18.23,2,z,top)
+  bays('e',16.52,27.06,39.50,3,z,top,true)
+  bays('w',-15.6,-30.77,26.39,10,z,top)
+  bays('n',26.84,-15.23,-3.88,3,z,top,true)
+  bays('s',-31.15,-15.2,-3.9,3,z,top)
+  bays('s',-31.15,2.18,16.26,3,z,top,true)
+  // The fourth segment in each group is a masonry pier.
+  for(let i=0;i<segments;i++) if(i%4!==3){
+    glazing.quad(corner(i,z,.045),corner(i+1,z,.045),corner(i+1,top,.045),corner(i,top,.045))
   }
 }
 
-// Broad glazed openings, with the bronze solar shades set above the glass.
-function bays(side: Side, face: number, start: number, end: number, count: number,
-  sill: number, head: number, shaded = false) {
-  const pitch = (end - start) / count
-  for (let i = 0; i < count; i++) {
-    const a = start + pitch * i + 0.35, b = start + pitch * (i + 1) - 0.35
-    panel(glazing, side, face, a, b, sill, head)
-    if (shaded) block(bronze, side, face, a - 0.1, b + 0.1, head - 0.23, head + 0.14, 0.8)
-  }
+// A dark frame picks out the stair opening where the avenue pavilion
+// steps back. Glazing folds around the corner of the otherwise solid end wall.
+panel(glazing,'n',39.95,1.02,4.43,2.32,13.94)
+panel(glazing,'w',-.27,33.45,39.48,2.62,13.94)
+panel(glazing,'e',14.62,18.83,26.39,1.62,13.93)
+for(const z of [5.37,8.75,12.13]){
+  block(bronze,'n',39.95,.92,4.53,z,z+.20,.21)
+  block(bronze,'w',-.27,33.41,39.55,z,z+.20,.21)
+  block(bronze,'e',14.62,18.73,26.52,z,z+.20,.30)
 }
+for(const y of [18.84,26.02]) cbox(bronze,rect(14.62,15.44,y,y+.40),2.0,14.73,{b:.06})
+cbox(bronze,rect(14.58,15.48,18.82,26.43),14.26,14.72,{b:.08,bottom:true})
+cbox(bronze,rect(-4.26,1.88,32.61,34.58),14.51,15.07,{b:.08,bottom:true})
+cbox(bronze,rect(-4.23,-3.81,33.58,34.40),1.31,14.63)
+panel(glazing,'n',33.1,-3.28,-.46,1.32,12.99)
+for(const z of [4.81,8.26,11.64]) block(bronze,'n',33.10,-3.46,-.27,z,z+.17,.18)
+bays('e',16.65,-21.50,-10.14,2,1.02,3.06)
+bays('e',16.52,27.35,39.18,3,1.28,3.24)
 
-for (const z of [5.0, 9.0, 13.0]) {
-  bays('e', 15.8, -31.8, -10.6, 4, z, z + 2.7, true)
-  bays('e', 15.8, 9.7, 17.1, 2, z, z + 2.7)
-  bays('e', 15.9, 25.35, 38.2, 3, z, z + 2.7, true)
-  bays('w', -17.1, -32.1, 24.9, 10, z, z + 2.6)
-  bays('n', 25.4, -16.8, -4.0, 3, z, z + 2.6, true)
-  bays('s', -32.6, -16.6, -3.8, 3, z, z + 2.6)
-  bays('s', -32.6, 2.0, 15.2, 3, z, z + 2.6, true)
-  // Three banks of windows turn around the curved limestone wall.
-  for (let bay = 0; bay < 3; bay++) {
-    for (let j = 0; j < 3; j++) {
-      const a = curved[4 * bay + j], b = curved[4 * bay + j + 1]
-      const face = (v: number[], height: number): V3 => [v[0] + 0.04, v[1], height]
-      glazing.quad(face(a, z), face(b, z), face(b, z + 2.7), face(a, z + 2.7))
-    }
-  }
-}
-
-// The tall, mostly blank end wall frames a narrow vertical ribbon on its
-// atrium side. Immediately behind it a stair window hangs in a bronze frame.
-panel(glazing, 'n', 38.7, -0.2, 3.5, 3.2, 16.9)
-for (const z of [7.2, 11.1, 15]) block(bronze, 'n', 38.7, -0.28, 3.58, z, z+0.28, 0.23)
-panel(glazing, 'e', 12.65, 17.6, 24.6, 2.4, 16.5)
-for (const z of [6.2, 10.1, 14.0]) block(bronze, 'e', 12.65, 17.5, 24.7, z, z+0.26, 0.38)
-for (const y of [17.7, 24.25]) {
-  cbox(bronze, rect(12.66, 13.55, y, y+0.38), 3.0, 17.85, { b: 0.08 })
-}
-cbox(bronze, rect(12.6, 13.6, 17.65, 24.8), 17.25, 17.85, { b: 0.12, bottom: true })
-
-// At campus level the glazed entrance sits between the wings. The extended
-// clerestory roof shades the doors; its outer frame is open below the beam.
-cbox(bronze, rect(-4.9, 1.9, 31.7, 34.2), 18.65, 19.25, { b: 0.1, bottom: true })
-cbox(bronze, rect(-4.85, -4.32, 33.15, 34.1), 2.3, 18.7)
-panel(glazing, 'n', 32.4, -4.2, -1.9, 2.6, 6.2)
-for (const z of [6.1, 10.0, 13.9, 17.6]) block(bronze, 'n', 32.4, -4.3, -1.8, z, z+0.22, 0.23)
-panel(glazing, 'w', -1.8, 32.6, 38.35, 4.0, 16.8)
-for (const z of [7.2, 11.1, 15.0]) block(bronze, 'w', -1.8, 32.6, 38.35, z, z + 0.26, 0.25)
-cbox(bronze, rect(-2.5, 0.0, 24.5, 39.7), 17.15, 17.74, { b: 0.12, bottom: true })
-bays('e', 15.8, -21.5, -11.2, 2, 1.8, 4.1)
-bays('e', 15.9, 25.8, 37.8, 3, 2.3, 4.1)
-
-await save('dc-school-of-international-service', 'School of International Service', [
-  { part: masonry, material: PALETTE.stone }, { part: glazing, material: PALETTE.window },
-  { part: bronze, material: finish('bronze-sunshades', 0x826754) },
-  { part: roof, material: finish('light-roof', 0xc7c7bf) },
-  { part: skylight, material: PALETTE.glass },
-  { part: collectors, material: finish('solar-collector', 0x565f65) },
-], { bearing: 34, osm: 'way/48082911' })
+await save('dc-school-of-international-service','School of International Service',[
+  {part:masonry,material:PALETTE.stone},{part:glazing,material:PALETTE.window},
+  {part:bronze,material:finish('bronze-sunshades',0x826754)},
+  {part:roof,material:finish('light-roof',0xc7c7bf)},{part:skylight,material:PALETTE.glass},
+  {part:collectors,material:finish('solar-collector',0x565f65)},
+],{bearing:34,osm:'relation/914201',outer:'way/48082911'})

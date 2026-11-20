@@ -19,6 +19,10 @@
  * https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html
  * Southern extension 4.5 m, primary roof 16.3 m, upper enclosure 19.5 m
  * above footprint ground P10 at 119.0 m. Enclosure perimeter simplified.
+ * Courtyard curtain sections use the East Campus courtyard elevation:
+ * https://www.american.edu/finance/ppm/upload/exhibit-1-east-campus.pdf
+ * Dimensions and exact mullion spacing are estimates. Rooftop screen profile
+ * comes from the above-19 m returns on the full-resolution surface.
  */
 import { CampusShell } from './dc-au-constitution-hall'
 import type { XY } from './sea-tacoma-union-station'
@@ -35,7 +39,8 @@ const low = [westBreak, ...plan.slice(6), eastBreak]
 hall.mass(body, 0, 16.3)
 hall.mass(low, 0, 4.5)
 // The upper-level roof enclosure occupies the central part of the main slab.
-hall.mass([[-3.5, -3.5], [6.5, -3.5], [7, 21], [-3.3, 21]], 16.3, 19.5)
+hall.casing([[-1.4, -4.0], [3.75, -4.0], [3.9, -1.0], [6.5, -1.0],
+  [7.2, 20.1], [0.15, 20.2], [0.05, 17.0], [-3.8, 17.0], [-4.0, 0.8], [-1.3, 0.7]], 16.3, 19.5)
 for (let f = 0; f < 4; f++) {
   const sill = 4.2 + 3.05 * f
   for (const i of [1, 3, 5, 7]) hall.bays(body[i], body[(i + 1) % body.length], sill, sill + 2.05, 4.0, 0.63)
@@ -44,4 +49,9 @@ hall.bays(plan[2], plan[3], 11.0, 15.1, 4.8, 0.52)
 hall.lobby(plan[8], plan[9], 3.65)
 hall.bays(plan[1], plan[2], 0.9, 3.3, 4.6, 0.69)
 hall.bays(plan[3], plan[4], 0.9, 3.3, 4.6, 0.69)
+// A lounge vertically links the courtyard levels; meeting-room frontage
+// continues in the low extension. Glazed bays are framed independently.
+hall.curtain(plan[3], plan[4], 32.1, 38.8, 0.43, 15.83, 1.7, [3.8, 6.98, 10.03, 13.08])
+hall.curtain(plan[5], plan[6], 0.42, 11.50, 0.5, 3.69, 2.3, [2.65])
+hall.curtain(plan[8], plan[9], 0.42, 6.76, 0.48, 3.70, 1.72, [2.65])
 await hall.save('dc-au-federal-hall', 'Federal Hall')

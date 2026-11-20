@@ -12,15 +12,19 @@
  * https://commons.wikimedia.org/wiki/File:Rear_view_of_Nebraska_Hall_on_the_campus_of_American_University.jpg
  * Window rhythm, sills, cornice and brick color approximated. Grade
  * differences expose four floors at the low end. Positive roof returns
- * on the older cross wing are modeled as a single raised enclosure.
+ * on the older cross wing define its raised enclosure.
  * 2022 DC OCTO lidar, building-class returns above local ground P10:
  * https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html
  * Main roof 12.2 m, upper enclosure 16.5 m, base datum 119.1 m.
+ * The light central façade and brick flank pattern follow the AU addition
+ * elevations: https://www.american.edu/finance/ppm/upload/exhibit-2-nebraska-hall.pdf
+ * 2022 ground is about 2.2 m higher at the curved front entrance than ground
+ * P10. The circular roof apron and two raised roof groups follow the surface.
  */
 import { CampusShell } from './dc-au-constitution-hall'
 import { Part } from './mesh'
 import { PALETTE, finish } from './palette'
-import { chamfer, finishGlb, prism, writeModel, type XY } from './sea-tacoma-union-station'
+import { chamfer, finishGlb, flatShape, lathe, outward, prism, rect, writeModel, type XY } from './sea-tacoma-union-station'
 
 const hall = new CampusShell()
 const brick = new Part()
@@ -44,19 +48,34 @@ const ring = chamfer(plan, 0.14)
 prism(hall.stone, null, ring, 0, 1.35)
 prism(brick, null, ring, 1.35, 11.85)
 prism(hall.trim, hall.roof, ring, 11.85, 12.2)
-hall.mass([[-13.4, -41.9], [3.8, -41.9], [3.8, -36.4], [-13.4, -36.4]], 12.2, 16.5)
+hall.mass([[-13.0, -42.6], [6.1, -42.5], [6.5, -34.7], [-11.6, -34.7], [-13.1, -36.2]], 12.2, 16.5)
+lathe(hall.spandrel, -5.1, -5.3, [[2.55, 12.2], [2.55, 13.72], [2.35, 13.95], [0, 13.95]], 16)
+// A narrow raised coping follows the convex street front; its inner edge
+// is estimated from the band visible around the center bay in the lidar.
+const coping: XY[] = [...plan.slice(16, 21), [7.55, 10.35], [8.6, 6.83], [8.90, 3.0], [8.57, -1.03], [7.90, -4.74]]
+prism(hall.stone, hall.roof, coping, 12.2, 12.88)
 for (const [i, a] of plan.entries()) {
   const b = plan[(i + 1) % plan.length]
   const width = Math.hypot(b[0] - a[0], b[1] - a[1])
   if (width < 3.6) continue
   const arc = i >= 16 && i <= 20
+  if (arc) {
+    const face = { o: [a[0], a[1], 0] as [number, number, number], n: outward(a, b) }
+    flatShape(hall.stone, face, rect(0.02, 1.35, width - 0.02, 11.85), 0.024)
+  }
   for (let f = 0; f < 4; f++) {
     const sill = 0.66 + 3.08 * f
     if (arc && f === 0) continue
     hall.bays(a, b, sill, sill + 1.61, arc ? 3.4 : 3.8, arc ? 0.81 : 0.55)
   }
 }
-hall.lobby(plan[18], plan[19], 2.9)
+// The curved approach is uphill. The glazed vestibule starts at the
+// measured entrance grade, leaving the back wing's fourth level exposed.
+const entryA = plan[18], entryB = plan[19]
+const face = { o: [entryA[0], entryA[1], 0] as [number, number, number], n: outward(entryA, entryB) }
+hall.curtain(entryA, entryB, 0.32, 3.62, 2.18, 5.30, 1.62, [4.48])
+flatShape(hall.entrance, face, rect(0.55, 2.20, 1.86, 4.48), 0.109)
+flatShape(hall.entrance, face, rect(1.98, 2.20, 3.28, 4.48), 0.109)
 await writeModel('dc-au-nebraska-hall', finishGlb('Nebraska Hall', [
   { part: brick, material: finish('brick', 0xc9987c) }, { part: hall.stone, material: PALETTE.stone },
   { part: hall.roof, material: PALETTE.roof },
