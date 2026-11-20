@@ -1,0 +1,15 @@
+{
+  "id": "msp-robert-street-bridge",
+  "name": "Robert Street Bridge",
+  "model": "msp-robert-street-bridge",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.0868566,
+  "lat": 44.9433182,
+  "bearing": 145.58,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q7350122",
+  "replaces": [
+    "way/413717632"
+  ]
+}
