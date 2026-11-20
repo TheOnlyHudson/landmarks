@@ -82,7 +82,7 @@
  *   (`floodlight`); windows are `window`, the doors `entrance`.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, prism, rect, chamfer, flatShape, extrudeShape, archShape, archBand, lathe, arc, outward, capRing, finishGlb, writeModel } from './sea-tacoma-union-station'
 
 const DX = 1.5 // the crossing / dome axis
@@ -350,9 +350,9 @@ export function build() {
   // Floodlit all round; the dome, drum and lantern brightest; tops catch little.
   const lit = (p: V3, n: V3): number => (n[2] > 0.75 ? 0.3 : p[2] > 40 ? 1 : 0.8)
   return finishGlb('Cathedral of Saint Paul', [
-    { part: granite, material: { ...finish('rockville-granite', 0xe2ddd3), floodlight: lit } },
-    { part: trim, material: { ...finish('granite-trim', 0xf2eee6), floodlight: lit } },
-    { part: copper, material: { ...finish('cathedral-copper', 0x565c63, 0.6), floodlight: (p: V3) => (p[2] > 50 ? 0.9 : 0.5) } },
+    { part: granite, material: { ...finish('rockville-granite', 0xe2ddd3), floodlight: lit } as Swatch },
+    { part: trim, material: { ...finish('granite-trim', 0xf2eee6), floodlight: lit } as Swatch },
+    { part: copper, material: { ...finish('cathedral-copper', 0x565c63, 0.6), floodlight: (p: V3) => (p[2] > 50 ? 0.9 : 0.5) } as Swatch },
     { part: roof, material: finish('cathedral-roof', 0x868d94) },
     { part: win, material: PALETTE.window },
     { part: door, material: PALETTE.entrance },

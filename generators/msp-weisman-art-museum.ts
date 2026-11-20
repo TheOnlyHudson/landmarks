@@ -63,7 +63,7 @@
  *   `window`.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, ccw, prism, rect, arc, chamfer, flatShape, lathe, finishGlb, writeModel, triangulate } from './sea-tacoma-union-station'
 
 // OSM way/35091113 east of the steel zone (x > -28.3), metres about its centroid
@@ -168,7 +168,7 @@ export function build() {
 
   const lit = (p: V3, n: V3) => (n[2] > 0.7 ? 0 : p[0] < -26 && n[0] < 0.3 ? 0.7 : 0)
   return finishGlb('msp-weisman-art-museum', [
-    { part: steel, material: { ...finish('weisman-steel', 0xcdd4da, 0.2), floodlight: lit } },
+    { part: steel, material: { ...finish('weisman-steel', 0xcdd4da, 0.2), floodlight: lit } as Swatch },
     { part: brick, material: finish('weisman-brick', 0xc27159) },
     { part: conc, material: finish('weisman-concrete', 0xc9c5bd) },
     { part: roof, material: PALETTE.roof },

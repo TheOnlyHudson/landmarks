@@ -56,7 +56,7 @@
  *   are `window`, the skylight `glass`.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, ccw, prism, rect, chamfer, flatShape, extrudeShape, lathe, finishGlb, writeModel } from './sea-tacoma-union-station'
 
 // OSM way/38898412, in metres about its centroid (-93.274213, 44.958515),
@@ -149,9 +149,9 @@ export function build() {
 
   const lit = (p: V3, n: V3) => (n[2] > 0.8 ? 0.2 : p[1] > 40 ? 0.85 : 0)
   return finishGlb('msp-minneapolis-institute-of-art', [
-    { part: granite, material: { ...finish('mia-granite', 0xe3e0d8), floodlight: lit } },
+    { part: granite, material: { ...finish('mia-granite', 0xe3e0d8), floodlight: lit } as Swatch },
     { part: white, material: finish('mia-white', 0xf1f0eb) },
-    { part: trim, material: { ...PALETTE.trim, floodlight: lit } },
+    { part: trim, material: { ...PALETTE.trim, floodlight: lit } as Swatch },
     { part: roof, material: finish('mia-roof', 0xc9cdcf) },
     { part: win, material: PALETTE.window },
     { part: glass, material: PALETTE.glass },

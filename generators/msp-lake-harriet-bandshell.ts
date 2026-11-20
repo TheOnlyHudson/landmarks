@@ -53,7 +53,7 @@
  *   photo), the shingles a little (`floodlight`); windows are `window`.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, prism, rect, chamfer, flatShape, extrudeShape, archShape, arc, lathe, finishGlb, writeModel } from './sea-tacoma-union-station'
 
 // Model frame: x along the building (bearing 76), y toward the seating (bearing 346).
@@ -197,11 +197,11 @@ export function build() {
 
   const lit = (_p: V3, n: V3) => (n[2] > 0.7 ? 0.1 : 0.55)
   return finishGlb('msp-lake-harriet-bandshell', [
-    { part: wall, material: { ...finish('bandshell-shingle', 0xc7a885), floodlight: lit } },
+    { part: wall, material: { ...finish('bandshell-shingle', 0xc7a885), floodlight: lit } as Swatch },
     { part: roof, material: finish('bandshell-roof', 0xb5a28a) },
-    { part: trim, material: { ...PALETTE.trim, floodlight: () => 0.8 } },
+    { part: trim, material: { ...PALETTE.trim, floodlight: () => 0.8 } as Swatch },
     { part: win, material: PALETTE.window },
-    { part: shell, material: { ...finish('bandshell-shell', 0xf4f1ea), doubleSided: true, floodlight: () => 1 } },
+    { part: shell, material: { ...finish('bandshell-shell', 0xf4f1ea), doubleSided: true, floodlight: () => 1 } as Swatch },
     { part: floor, material: finish('bandshell-stage', 0xa98d72) },
   ], { name: 'Lake Harriet Bandshell' }, 5000)
 }

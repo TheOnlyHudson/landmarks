@@ -162,7 +162,7 @@ export function build() {
     const roll = u < 8 ? 0 : ROLL * ((u - 8) / (NECK_U - 8)) ** 1.5
     const L0 = SW, Nn0 = unit(cross(L0, T)).map((v, i, n) => (n[2] < 0 ? -v : v)) as V3
     const L = add(mul(L0, Math.cos(roll * D2R)), mul(Nn0, -Math.sin(roll * D2R)))
-    const Nn = unit(cross(T, L)).map((v, i, n) => (dot(n, Nn0) < 0 ? -v : v)) as V3
+    const Nn = unit(cross(T, L)).map((v, i, n) => (dot(n as V3, Nn0) < 0 ? -v : v)) as V3
     const c = add(add(TIP, mul(A, u)), [0, 0, heightAt(u)])
     const w = widthAt(u) / 2, t = HT / 2, bv = Math.min(0.1, w * 0.3)
     // section counter-clockwise looking along T: top edge first

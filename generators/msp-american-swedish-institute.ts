@@ -61,7 +61,7 @@
  * Night: the limestone is floodlit, the east front most (`floodlight`).
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, prism, rect, chamfer, flatShape, extrudeShape, archShape, lathe, arc, finishGlb, writeModel } from './sea-tacoma-union-station'
 
 const EAVE = 12.0, RIDGE = 18.2 // main roof (lidar)
@@ -209,8 +209,8 @@ export function build() {
 
   const lit = (p: V3, n: V3) => (n[2] > 0.8 ? 0.15 : n[0] > 0.5 ? 0.85 : 0.5)
   return finishGlb('msp-american-swedish-institute', [
-    { part: stone, material: { ...finish('asi-limestone', 0xd6ccbb), floodlight: lit } },
-    { part: trim, material: { ...finish('asi-trim', 0xe8e0d0), floodlight: lit } },
+    { part: stone, material: { ...finish('asi-limestone', 0xd6ccbb), floodlight: lit } as Swatch },
+    { part: trim, material: { ...finish('asi-trim', 0xe8e0d0), floodlight: lit } as Swatch },
     { part: slate, material: finish('asi-slate', 0x7d858d) },
     { part: copper, material: PALETTE.patina },
     { part: win, material: PALETTE.window },

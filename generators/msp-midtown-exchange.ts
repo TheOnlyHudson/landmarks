@@ -61,7 +61,7 @@
  * Night: windows glow; the sign is `neon-midtown`; the tower is floodlit.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, prism, rect, chamfer, flatShape, finishGlb, writeModel } from './sea-tacoma-union-station'
 
 export function build() {
@@ -166,8 +166,8 @@ export function build() {
 
   const lit = (p: V3, n: V3) => (n[2] > 0.7 ? 0.1 : p[0] < -10 && p[1] > -20 && p[1] < 10 && p[2] > 40 ? 0.8 : 0)
   return finishGlb('msp-midtown-exchange', [
-    { part: brick, material: { ...finish('midtown-brick', 0xd8c3a2), floodlight: lit } },
-    { part: stone, material: { ...finish('midtown-stone', 0xece2cd), floodlight: lit } },
+    { part: brick, material: { ...finish('midtown-brick', 0xd8c3a2), floodlight: lit } as Swatch },
+    { part: stone, material: { ...finish('midtown-stone', 0xece2cd), floodlight: lit } as Swatch },
     { part: roof, material: PALETTE.roof },
     { part: win, material: PALETTE.window },
     { part: sign, material: finish('neon-midtown', 0xf4f1ea) },

@@ -53,7 +53,7 @@
  * Night: the portico and front are floodlit (`floodlight`); windows glow.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, prism, rect, chamfer, flatShape, lathe, finishGlb, writeModel } from './sea-tacoma-union-station'
 
 export function build() {
@@ -176,8 +176,8 @@ export function build() {
 
   const lit = (p: V3, n: V3) => (n[2] > 0.8 ? 0.15 : p[1] < -33 ? 0.9 : 0)
   return finishGlb('msp-northrop', [
-    { part: brick, material: { ...finish('northrop-brick', 0xc48562), floodlight: lit } },
-    { part: stone, material: { ...finish('northrop-limestone', 0xece2cf), floodlight: lit } },
+    { part: brick, material: { ...finish('northrop-brick', 0xc48562), floodlight: lit } as Swatch },
+    { part: stone, material: { ...finish('northrop-limestone', 0xece2cf), floodlight: lit } as Swatch },
     { part: roof, material: PALETTE.roof },
     { part: win, material: PALETTE.window },
     { part: door, material: finish('northrop-door', 0x9c6c4c) },

@@ -71,7 +71,7 @@
  *   than the walls below; windows are `window`, the doors `entrance`.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish } from './palette'
+import { PALETTE, finish, type Swatch } from './palette'
 import { type XY, type Face, prism, rect, chamfer, flatShape, extrudeShape, archShape, lathe, arc, capRing, onFace, finishGlb, writeModel } from './sea-tacoma-union-station'
 
 // ---------------------------------------------------------------- dimensions (m, above the front grade, lidar 256.0)
@@ -116,7 +116,7 @@ export function build() {
   box(trim, -NAVE_X - 0.4, FY, NAVE_X + 0.4, CHOIR_Y1 + 0.4, NAVE_Z - 0.9, NAVE_Z + 0.2, null) // cornice
   gable(-NAVE_X - 0.4, NAVE_X + 0.4, FY + 0.5, CHOIR_Y1 + 0.4, NAVE_Z + 0.2, RIDGE, granite)
   // the apse: half an octagon behind the choir
-  const apse: XY[] = [[-7.5, CHOIR_Y1 - 1], [7.5, CHOIR_Y1 - 1], ...arc(0, CHOIR_Y1 - 1, 7.5, 0, 180, 4).slice(1, -1).map(([x, y]) => [x, CHOIR_Y1 - 1 + (y - (CHOIR_Y1 - 1)) * 0.85] as XY)].reverse()
+  const apse: XY[] = ([[-7.5, CHOIR_Y1 - 1], [7.5, CHOIR_Y1 - 1], ...arc(0, CHOIR_Y1 - 1, 7.5, 0, 180, 4).slice(1, -1).map(([x, y]) => [x, CHOIR_Y1 - 1 + (y - (CHOIR_Y1 - 1)) * 0.85] as XY)] as XY[]).reverse()
   const apseR: XY[] = [[7.5, CHOIR_Y1 - 1], ...arc(0, CHOIR_Y1 - 1, 7.5, 0, 180, 4).slice(1, -1).map(([x, y]) => [x, CHOIR_Y1 - 1 + (y - (CHOIR_Y1 - 1)) * 0.85] as XY), [-7.5, CHOIR_Y1 - 1]]
   prism(granite, null, apseR, 0, 21)
   prism(trim, null, apseR.map(([x, y]) => [x * 1.04, CHOIR_Y1 - 1 + (y - CHOIR_Y1 + 1) * 1.04] as XY), 20.2, 21.2)
@@ -245,9 +245,9 @@ export function build() {
   // Night: the basilica is floodlit, the dome and towers brightest.
   const lit = (p: V3, n: V3) => (n[2] > 0.8 ? 0.25 : p[2] > 24 ? 0.85 : 0.6)
   return finishGlb('msp-basilica-of-saint-mary', [
-    { part: granite, material: { ...finish('basilica-granite', 0xe9e6df), floodlight: lit } },
-    { part: trim, material: { ...PALETTE.trim, floodlight: lit } },
-    { part: dark, material: { ...finish('basilica-dome', 0x59616b, 0.6), floodlight: (p: V3) => (p[2] > 40 ? 0.6 : 0) } },
+    { part: granite, material: { ...finish('basilica-granite', 0xe9e6df), floodlight: lit } as Swatch },
+    { part: trim, material: { ...PALETTE.trim, floodlight: lit } as Swatch },
+    { part: dark, material: { ...finish('basilica-dome', 0x59616b, 0.6), floodlight: (p: V3) => (p[2] > 40 ? 0.6 : 0) } as Swatch },
     { part: roof, material: PALETTE.roof },
     { part: win, material: PALETTE.window },
     { part: door, material: { ...PALETTE.entrance, color: 0x8a6a4a } },

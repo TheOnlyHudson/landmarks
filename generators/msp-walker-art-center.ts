@@ -101,7 +101,7 @@
  *   mesh carries `floodlight` (lit after dark in Eco84's photo).
  */
 import { Part, type V3 } from './mesh'
-import { finish, PALETTE, windowVariant } from './palette'
+import { finish, PALETTE, windowVariant, type Swatch } from './palette'
 import { Pen, strokes, type Pt } from './lettering'
 import { type XY, type Face, ccw, prism, wallEdge, capRing, rect, flatShape, finishGlb, writeModel } from './sea-tacoma-union-station'
 
@@ -427,7 +427,7 @@ export function build() {
   const meshLit = (_p: V3, n: V3) => (n[2] > 0.8 ? 0.05 : 0.45)
   return finishGlb('msp-walker-art-center', [
     { part: brick, material: finish('walker-brick', 0x7e6e72) },
-    { part: mesh, material: { ...finish('walker-mesh', 0xc3c5c8, 0.6), floodlight: meshLit } },
+    { part: mesh, material: { ...finish('walker-mesh', 0xc3c5c8, 0.6), floodlight: meshLit } as Swatch },
     { part: white, material: finish('walker-white', 0xe6e8e2) },
     { part: win, material: PALETTE.window },
     { part: glass, material: windowVariant(2, 0xa3bdb2) },
