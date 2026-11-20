@@ -1,0 +1,15 @@
+{
+  "id": "cle-severance-music-center",
+  "name": "Severance Music Center",
+  "model": "cle-severance-music-center",
+  "place": "cleveland-area",
+  "wikidata": "Q7457831",
+  "lng": -81.6094087,
+  "lat": 41.5064263,
+  "bearing": 16,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/108400841"
+  ]
+}
