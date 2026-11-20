@@ -1,0 +1,72 @@
+{
+  "id": "msp-minneapolis-central-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "library",
+    "civic",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Public library minneapolis exterior.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Public_library_minneapolis_exterior.jpg",
+      "author": "Zachary Korb",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Minneapolis Central Hennepin Library 15784191996.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_Central_Hennepin_Library_15784191996.jpg",
+      "author": "Tony Webster",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis Central Public Library by Cesar Pelli.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_Central_Public_Library_by_Cesar_Pelli.jpg",
+      "author": "Richie Diesterheft",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Minneapolis Central library.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_Central_library.jpg",
+      "author": "Paytonc",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Central Library - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Library_-_panoramio.jpg",
+      "author": "Jon Platek",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Hennepin County Library - Downtown Minneapolis (23237528250).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hennepin_County_Library_-_Downtown_Minneapolis_(23237528250).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Minneapolis Central Library night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_Central_Library_night.jpg",
+      "author": "mtellin",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/msp-minneapolis-central-library.glb",
+  "source": "generators/msp-minneapolis-central-library.ts"
+}

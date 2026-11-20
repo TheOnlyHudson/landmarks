@@ -1,0 +1,14 @@
+{
+  "id": "mia-ermita-de-la-caridad",
+  "name": "Ermita de la Caridad",
+  "model": "mia-ermita-de-la-caridad",
+  "place": "miami-area",
+  "lng": -80.2113951,
+  "lat": 25.7408749,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/453575835"
+  ]
+}

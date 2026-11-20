@@ -1,0 +1,65 @@
+{
+  "id": "den-empower-field",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "american-football",
+    "nfl"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Invesco Field at Mile High.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Invesco_Field_at_Mile_High.jpg",
+      "author": "David Shankbone",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Empower Field at Mile High 20241001.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Empower_Field_at_Mile_High_20241001.jpg",
+      "author": "Pdubs.94",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Empower Field at Mile High, 2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Empower_Field_at_Mile_High,_2025.jpg",
+      "author": "MhcL947",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Empower Field at Mile High exterior 2022.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Empower_Field_at_Mile_High_exterior_2022.jpg",
+      "author": "Troutfarm27",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sports Authority Field at Mile High entrance.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sports_Authority_Field_at_Mile_High_entrance.jpg",
+      "author": "Thelastcanadian",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Sports Authority Field at Mile High.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sports_Authority_Field_at_Mile_High.jpg",
+      "author": "Jeffrey Beall",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/den-empower-field.glb",
+  "source": "generators/den-empower-field.ts"
+}

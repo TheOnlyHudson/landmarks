@@ -1,0 +1,48 @@
+{
+  "id": "msp-union-depot",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "train-station",
+    "neoclassical"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Saint Paul Union Station.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Paul_Union_Station.jpg"
+    },
+    {
+      "title": "Saint Paul April 2025 04 (Saint Paul Union Depot).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Paul_April_2025_04_(Saint_Paul_Union_Depot).jpg"
+    },
+    {
+      "title": "Empire Builder at Union Depot (21751301612).jpg",
+      "author": "Jerry Huddleston",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Empire_Builder_at_Union_Depot_(21751301612).jpg"
+    }
+  ],
+  "file": "models/msp-union-depot.glb",
+  "source": "generators/msp-union-depot.ts"
+}

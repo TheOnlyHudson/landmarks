@@ -1,0 +1,54 @@
+{
+  "id": "msp-lake-harriet-bandshell",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "bandshell",
+    "park",
+    "music-venue"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Lake Harriet Bandshell 2014-09-21.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Lake_Harriet_Bandshell_2014-09-21.jpg",
+      "author": "Schwerdf",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Lake Harriet Bandshell, Minneapolis (49160147127).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Lake_Harriet_Bandshell,_Minneapolis_(49160147127).jpg",
+      "author": "Chad Davis",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Lake Harriet Park 06.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Lake_Harriet_Park_06.jpg",
+      "author": "Runner1928",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Harrietbandshell.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Harrietbandshell.jpg",
+      "author": "William Wesen",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/msp-lake-harriet-bandshell.glb",
+  "source": "generators/msp-lake-harriet-bandshell.ts"
+}

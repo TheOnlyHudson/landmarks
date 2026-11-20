@@ -1,0 +1,78 @@
+{
+  "id": "den-art-museum-hamilton",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "deconstructivism",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Frederic C. Hamilton building, Denver Art Museum. . View from south-east.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Frederic_C._Hamilton_building,_Denver_Art_Museum._._View_from_south-east.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Art Museum - Frederic C. Hamilton building. View from south.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Art_Museum_-_Frederic_C._Hamilton_building._View_from_south.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Art Museum - Frederic C. Hamilton building. View from north-east.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Art_Museum_-_Frederic_C._Hamilton_building._View_from_north-east.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Art Museum (54940437051).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Art_Museum_(54940437051).jpg",
+      "author": "Daniel Hartwig",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Denver Art Museum Frederic C. Hamilton building.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Art_Museum_Frederic_C._Hamilton_building.jpg",
+      "author": "Hustvedt",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "DenverArtMuseumExtension.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:DenverArtMuseumExtension.jpg",
+      "author": "Studio Daniel Libeskind",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "USGS 3DEP lidar CO_DRCOG_2_2020",
+      "url": "https://www.usgs.gov/3d-elevation-program",
+      "author": "USGS",
+      "license": "Public domain"
+    },
+    {
+      "title": "USGS NAIP orthoimagery",
+      "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+      "author": "USDA / USGS",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/den-art-museum-hamilton.glb",
+  "source": "generators/den-art-museum-hamilton.ts"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cle-huntington-bank-field",
+  "name": "Huntington Bank Field",
+  "model": "cle-huntington-bank-field",
+  "place": "cleveland-area",
+  "lng": -81.699621,
+  "lat": 41.506065,
+  "bearing": 56,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1100756",
+  "replaces": [
+    "relation/2305349",
+    "way/41020147"
+  ]
+}

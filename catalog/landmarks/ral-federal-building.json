@@ -1,0 +1,15 @@
+{
+  "id": "ral-federal-building",
+  "name": "Century Post Office",
+  "model": "ral-federal-building",
+  "place": "raleigh-area",
+  "wikidata": "Q5440038",
+  "lng": -78.639773,
+  "lat": 35.776688,
+  "bearing": 3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/47732371"
+  ]
+}

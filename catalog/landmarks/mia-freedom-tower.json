@@ -1,0 +1,23 @@
+{
+  "id": "mia-freedom-tower",
+  "name": "Freedom Tower",
+  "model": "mia-freedom-tower",
+  "place": "miami-area",
+  "lng": -80.1897125,
+  "lat": 25.780291,
+  "bearing": 358.7,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1453542",
+  "replaces": [
+    "way/290629021",
+    "way/1105391703",
+    "way/1105391704",
+    "way/1105391705",
+    "way/1105391706",
+    "way/1105391707",
+    "way/1548934816",
+    "way/1548934817",
+    "way/1548989032"
+  ]
+}

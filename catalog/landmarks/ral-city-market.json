@@ -1,0 +1,14 @@
+{
+  "id": "ral-city-market",
+  "name": "City Market",
+  "model": "ral-city-market",
+  "place": "raleigh-area",
+  "lng": -78.635997,
+  "lat": 35.77651,
+  "bearing": 2.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/47732366"
+  ]
+}

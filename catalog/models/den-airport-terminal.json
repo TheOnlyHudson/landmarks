@@ -1,0 +1,67 @@
+{
+  "id": "den-airport-terminal",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "airport",
+    "terminal",
+    "tensile-structure",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Denver international airport.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_international_airport.jpg",
+      "author": "Unknown author",
+      "license": "Public domain"
+    },
+    {
+      "title": "Denver International Airport.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_International_Airport.jpg",
+      "author": "Wikimedia Commons contributor",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Aerial view of Jeppesen Terminal, Denver International Airport (2025)",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Jeppesen_Terminal,_Denver_International_Airport_(2025).jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pre-Sunrise at Denver International Airport (2016)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pre-Sunrise_at_Denver_International_Airport_(2016).jpg",
+      "author": "Jeff Turner",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Jeppesen Terminal at DEN Airport, south view, Aug 2014",
+      "url": "https://commons.wikimedia.org/wiki/File:Jeppesen_Terminal_at_DEN_Airport,_south_view,_Aug_2014.jpg",
+      "author": "Sunnya343",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver International Airport Jeppesen Terminal 2007",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_International_Airport_Jeppesen_Terminal_2007.jpg",
+      "author": "imtn",
+      "license": "CC BY-SA 2.5"
+    }
+  ],
+  "file": "models/den-airport-terminal.glb",
+  "source": "generators/den-airport-terminal.ts"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "msp-us-bancorp-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "US Bancorp Center Minneapolis 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:US_Bancorp_Center_Minneapolis_1.jpg",
+      "author": "AlexiusHoratius",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "DSC07244 (25676704531).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:DSC07244_(25676704531).jpg",
+      "author": "Greg Gjerdingen",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "DSC07242 (25141345594).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:DSC07242_(25141345594).jpg",
+      "author": "Greg Gjerdingen",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "051907-004-NicolletMall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:051907-004-NicolletMall.jpg",
+      "author": "Bobak Ha'Eri",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/msp-us-bancorp-center.glb",
+  "source": "generators/msp-us-bancorp-center.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ral-christ-church",
+  "name": "Christ Episcopal Church",
+  "model": "ral-christ-church",
+  "place": "raleigh-area",
+  "lng": -78.6374288,
+  "lat": 35.7808506,
+  "bearing": 2.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5108878",
+  "replaces": [
+    "way/47776441"
+  ]
+}

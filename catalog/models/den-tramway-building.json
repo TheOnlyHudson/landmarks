@@ -1,0 +1,54 @@
+{
+  "id": "den-tramway-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "industrial",
+    "retail"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Denver Tramway Powerhouse.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Tramway_Powerhouse.JPG",
+      "author": "Jeffrey Beall",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Confluence Park Denver 20230708.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Confluence_Park_Denver_20230708.jpg",
+      "author": "Pdubs.94",
+      "license": "CC0"
+    },
+    {
+      "title": "REI flagship store, Denver, CO.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:REI_flagship_store,_Denver,_CO.jpg",
+      "author": "Albert Yau",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "B-CYcle at REI Denver",
+      "url": "https://www.flickr.com/photos/99247795@N00/9309761067",
+      "author": "Richard Masoner",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/den-tramway-building.glb",
+  "source": "generators/den-tramway-building.ts"
+}

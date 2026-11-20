@@ -1,0 +1,15 @@
+{
+  "id": "cle-rocket-arena",
+  "name": "Rocket Arena",
+  "model": "cle-rocket-arena",
+  "place": "cleveland-area",
+  "lng": -81.688347,
+  "lat": 41.496662,
+  "bearing": 56,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q387157",
+  "replaces": [
+    "way/25312465"
+  ]
+}

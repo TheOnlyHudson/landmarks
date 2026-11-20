@@ -1,0 +1,84 @@
+{
+  "id": "den-millennium-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "pedestrian-bridge",
+    "cable-stayed",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Denver millennium bridge1 e1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_millennium_bridge1_e1.jpg",
+      "author": "Cher Skoubo",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Denver millennium bridge2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_millennium_bridge2.jpg",
+      "author": "Cher Skoubo",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Denver millennium bridge3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_millennium_bridge3.jpg",
+      "author": "Cher Skoubo",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Denver millennium bridge4.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_millennium_bridge4.jpg",
+      "author": "Cher Skoubo",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Denver Millennium Bridge.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Millennium_Bridge.JPG",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Denver Millennium Bridge from Union Station light rail platform",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Millennium_Bridge_from_Union_Station_light_rail_platform.jpg",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Millennium Bridge and 1900 16th Street",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Millennium_Bridge_and_1900_16th_Street.jpg",
+      "author": "Tracie from Orange County",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "The Millennium Bridge, Denver",
+      "url": "https://www.flickr.com/photos/21678559@N06/2528849110",
+      "author": "Robert Cutts",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "The Millennium Bridge, Denver",
+      "url": "https://www.flickr.com/photos/21678559@N06/2515835358",
+      "author": "Robert Cutts",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/den-millennium-bridge.glb",
+  "source": "generators/den-millennium-bridge.ts"
+}

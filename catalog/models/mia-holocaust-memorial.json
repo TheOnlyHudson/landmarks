@@ -1,0 +1,62 @@
+{
+  "id": "mia-holocaust-memorial",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "memorial",
+    "sculpture",
+    "bronze",
+    "kenneth-treister",
+    "miami-beach"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Memoriale dell'olocausto di Miami Beach",
+      "url": "https://commons.wikimedia.org/wiki/File:Memoriale_dell%27olocausto_di_Miami_Beach.jpg",
+      "author": "Giu.gent93",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holocaust Memorial Miami Beach",
+      "url": "https://commons.wikimedia.org/wiki/File:Holocaust_Memorial_Miami_Beach.jpg",
+      "author": "Ricardo Olbera Liriano",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Miami Beach - South Beach Monuments - Holocaust Memorial 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_South_Beach_Monuments_-_Holocaust_Memorial_01.jpg",
+      "author": "Daniel Di Palma",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Miami Beach - South Beach Monuments - Holocaust Memorial 14",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_South_Beach_Monuments_-_Holocaust_Memorial_14.jpg",
+      "author": "Daniel Di Palma",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Miami Beach - South Beach Monuments - Holocaust Memorial 18",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_South_Beach_Monuments_-_Holocaust_Memorial_18.jpg",
+      "author": "Daniel Di Palma",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/mia-holocaust-memorial.glb",
+  "source": "generators/mia-holocaust-memorial.ts"
+}

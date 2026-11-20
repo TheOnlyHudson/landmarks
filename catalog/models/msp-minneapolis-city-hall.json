@@ -1,0 +1,67 @@
+{
+  "id": "msp-minneapolis-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "civic",
+    "romanesque-revival",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Minneapolis April 2025 11 (Minneapolis City Hall).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_11_(Minneapolis_City_Hall).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis April 2025 14 (Minneapolis City Hall).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_14_(Minneapolis_City_Hall).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis City Hall 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_City_Hall_2013.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis City Hall 2012.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_City_Hall_2012.jpg",
+      "author": "Jason Riedy",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Minneapolis City Hall and US District Courthouse Minnesota.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_City_Hall_and_US_District_Courthouse_Minnesota.jpg",
+      "author": "Tony Webster",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis City Hall, 2012.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_City_Hall,_2012.jpg",
+      "author": "Ibboh",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/msp-minneapolis-city-hall.glb",
+  "source": "generators/msp-minneapolis-city-hall.ts"
+}

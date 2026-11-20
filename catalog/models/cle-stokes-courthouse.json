@@ -1,0 +1,80 @@
+{
+  "id": "cle-stokes-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "courthouse",
+    "skyscraper",
+    "government",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Carl B. Stokes U.S. Courthouse (2002, Kohn Pedersen Fox): limestone tower with a great curved face to the Cuyahoga, a pale limestone grid of punched windows, a slotted attic under a cantilevered open roof ring, and a lower annex on Superior Avenue.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Carl B Stokes Courthouse 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Carl_B_Stokes_Courthouse_2022.png",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Carl B. Stokes Federal Court House Building (2018)",
+      "url": "https://commons.wikimedia.org/wiki/File:Carl_B._Stokes_Federal_Court_House_Building_(2018).jpg",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "CarlStokesFCH",
+      "url": "https://commons.wikimedia.org/wiki/File:CarlStokesFCH.jpg",
+      "author": "THD3",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Stokes Courthouse",
+      "url": "https://commons.wikimedia.org/wiki/File:Stokes_Courthouse.jpg",
+      "author": "Mr.Z-man",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Federal Court House",
+      "url": "https://commons.wikimedia.org/wiki/File:Federal_Court_House.jpg",
+      "author": "Andy from Pittsburgh",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Carl B. Stokes United States Courthouse, Cleveland, OH (28692186017)",
+      "url": "https://commons.wikimedia.org/wiki/File:Carl_B._Stokes_United_States_Courthouse,_Cleveland,_OH_(28692186017).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Stokescourttower",
+      "url": "https://commons.wikimedia.org/wiki/File:Stokescourttower.jpg",
+      "author": "Aivazovsky",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Carl B. Stokes Federal Courthouse",
+      "url": "https://commons.wikimedia.org/wiki/File:Carl_B._Stokes_Federal_Courthouse.jpg",
+      "author": "Andrew Bardwell",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/cle-stokes-courthouse.glb",
+  "source": "generators/cle-stokes-courthouse.ts"
+}

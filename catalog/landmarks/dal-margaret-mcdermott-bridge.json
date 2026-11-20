@@ -9,5 +9,7 @@
   "elevation": 0,
   "minzoom": 14,
   "wikidata": "Q18154095",
-  "replaces": []
+  "replaces": [
+    "way/1275449056"
+  ]
 }

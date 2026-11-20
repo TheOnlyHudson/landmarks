@@ -1,0 +1,72 @@
+{
+  "id": "mia-hard-rock-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "football",
+    "sports",
+    "canopy",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hard Rock Stadium-depuis l'autoroute en février 2022 (2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Hard_Rock_Stadium-depuis_l%27autoroute_en_f%C3%A9vrier_2022_(2).jpg",
+      "author": "Benoît Prieur",
+      "license": "CC0"
+    },
+    {
+      "title": "Hard Rock Stadium-depuis l'autoroute en février 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Hard_Rock_Stadium-depuis_l%27autoroute_en_f%C3%A9vrier_2022.jpg",
+      "author": "Benoît Prieur",
+      "license": "CC0"
+    },
+    {
+      "title": "Hard Rock Stadium Prior to first NFL game",
+      "url": "https://commons.wikimedia.org/wiki/File:Hard_Rock_Stadium_Prior_to_first_NFL_game.jpg",
+      "author": "Eisenthesky Productions",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hard Rock Stadium for Super Bowl LIV (49606710103)",
+      "url": "https://commons.wikimedia.org/wiki/File:Hard_Rock_Stadium_for_Super_Bowl_LIV_(49606710103).jpg",
+      "author": "elisfkc2",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Hard Rock Stadium for Super Bowl LIV (49606710208)",
+      "url": "https://commons.wikimedia.org/wiki/File:Hard_Rock_Stadium_for_Super_Bowl_LIV_(49606710208).jpg",
+      "author": "elisfkc2",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Hard Rock Stadium 2017",
+      "url": "https://commons.wikimedia.org/wiki/File:Hard_Rock_Stadium_2017.jpg",
+      "author": "TheSoccerBoy",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hard Rock Stadium",
+      "url": "https://www.structuremag.org/article/hard-rock-stadium/",
+      "author": "STRUCTURE magazine"
+    }
+  ],
+  "file": "models/mia-hard-rock-stadium.glb",
+  "source": "generators/mia-hard-rock-stadium.ts"
+}

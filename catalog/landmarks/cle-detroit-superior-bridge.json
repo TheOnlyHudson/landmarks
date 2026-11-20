@@ -1,0 +1,15 @@
+{
+  "id": "cle-detroit-superior-bridge",
+  "name": "Detroit–Superior Bridge",
+  "model": "cle-detroit-superior-bridge",
+  "place": "cleveland-area",
+  "lng": -81.7028254,
+  "lat": 41.4942318,
+  "bearing": 47.87,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/1026898331"
+  ],
+  "wikidata": "Q2493242"
+}

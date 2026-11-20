@@ -1,0 +1,61 @@
+{
+  "id": "cle-st-theodosius-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "cathedral",
+    "orthodox"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "St. Theodosius Russian Orthodox Cathedral, Tremont, Cleveland, OH - 52048996115",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Theodosius_Russian_Orthodox_Cathedral,_Tremont,_Cleveland,_OH_-_52048996115.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "St. Theodosius Russian Orthodox Cathedral, Tremont, Cleveland, OH",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Theodosius_Russian_Orthodox_Cathedral,_Tremont,_Cleveland,_OH.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "St. Theodosius Russian Orthodox Cathedral, Tremont, Cleveland, OH - 52048491676",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Theodosius_Russian_Orthodox_Cathedral,_Tremont,_Cleveland,_OH_-_52048491676.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "St. Theodosius Russian Orthodox Cathedral, Tremont, Cleveland, OH - 52048721949",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Theodosius_Russian_Orthodox_Cathedral,_Tremont,_Cleveland,_OH_-_52048721949.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "St. Theodosius Russian Orthodox Cathedral, Tremont, Cleveland, OH - 52048534443",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Theodosius_Russian_Orthodox_Cathedral,_Tremont,_Cleveland,_OH_-_52048534443.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/cle-st-theodosius-cathedral.glb",
+  "source": "generators/cle-st-theodosius-cathedral.ts"
+}

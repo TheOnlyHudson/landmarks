@@ -1,0 +1,72 @@
+{
+  "id": "den-1999-broadway",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "1999 Broadway in Denver Colorado",
+      "url": "https://commons.wikimedia.org/wiki/File:1999_Broadway_in_Denver_Colorado.jpg",
+      "author": "David Shankbone",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "1999 Broadway viewed from Republic Plaza",
+      "url": "https://commons.wikimedia.org/wiki/File:1999_Broadway_viewed_from_Republic_Plaza.jpg",
+      "author": "Tomasz Stasiuk",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "Denver IMG 20180416 160735",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_IMG_20180416_160735.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "HGCC&1999Broadway",
+      "url": "https://commons.wikimedia.org/wiki/File:HGCC%261999Broadway.jpg",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "1999Broadway&One Lincoln Park",
+      "url": "https://commons.wikimedia.org/wiki/File:1999Broadway%26One_Lincoln_Park.jpg",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "1999 Broadway (Denver, CO)",
+      "url": "https://commons.wikimedia.org/wiki/File:1999_Broadway_(Denver,_CO).jpg",
+      "author": "Doodah67",
+      "license": "Public domain"
+    },
+    {
+      "title": "1999Broadwayatnight",
+      "url": "https://commons.wikimedia.org/wiki/File:1999Broadwayatnight.jpg",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/den-1999-broadway.glb",
+  "source": "generators/den-1999-broadway.ts"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "mia-miami-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern",
+    "i-m-pei"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Bank of America Miami 20100206.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Miami_20100206.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Bank of America Tower (Miami) full view.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Tower_(Miami)_full_view.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Bankofamericatowermiami.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bankofamericatowermiami.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Bank of America Tower (Miami).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Tower_(Miami).jpg",
+      "author": "Daniel Lombraña González",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Miami Tower Former CenTrust Tower 1983-1987",
+      "url": "https://www.flickr.com/photos/25955895@N03/38626689322",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Miami Tower Downtown Miami",
+      "url": "https://www.flickr.com/photos/25955895@N03/23002112009",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Miami Tower at night from the southwest, lit up in blue.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Tower_at_night_from_the_southwest,_lit_up_in_blue.jpg",
+      "author": "Daniel Christensen",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Miami Tower in Downtown Miami",
+      "url": "https://www.flickr.com/photos/28426323@N08/9624102335",
+      "author": "leoncillo sabino",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/mia-miami-tower.glb",
+  "source": "generators/mia-miami-tower.ts"
+}

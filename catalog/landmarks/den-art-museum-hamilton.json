@@ -1,0 +1,17 @@
+{
+  "id": "den-art-museum-hamilton",
+  "name": "Denver Art Museum, Hamilton Building",
+  "model": "den-art-museum-hamilton",
+  "place": "denver-area",
+  "lng": -104.989206,
+  "lat": 39.736374,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/35205641",
+    "way/590550247",
+    "way/590550248",
+    "way/635380491"
+  ]
+}

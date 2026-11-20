@@ -1,0 +1,22 @@
+{
+  "id": "msp-wells-fargo-place",
+  "name": "Wells Fargo Place",
+  "model": "msp-wells-fargo-place",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.0955,
+  "lat": 44.9479,
+  "bearing": 10,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q7981660",
+  "replaces": [
+    "relation/21068271",
+    "relation/21068272",
+    "way/1054128105",
+    "way/1054128107",
+    "way/1054128108",
+    "way/1054128109",
+    "way/1054128110",
+    "way/1054128111"
+  ]
+}

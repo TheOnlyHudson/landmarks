@@ -1,0 +1,15 @@
+{
+  "id": "msp-33-south-sixth",
+  "name": "33 South Sixth",
+  "model": "msp-33-south-sixth",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.272811,
+  "lat": 44.9781208,
+  "bearing": 31,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q3493397",
+  "replaces": [
+    "way/27346721"
+  ]
+}

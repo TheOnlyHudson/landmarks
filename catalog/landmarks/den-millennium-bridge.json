@@ -1,0 +1,15 @@
+{
+  "id": "den-millennium-bridge",
+  "name": "Denver Millennium Bridge",
+  "model": "den-millennium-bridge",
+  "place": "denver-area",
+  "wikidata": "Q5259745",
+  "lng": -105.004015,
+  "lat": 39.754347,
+  "bearing": 315,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/531040719"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mia-cape-florida-light",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "lighthouse",
+    "historic",
+    "nrhp",
+    "key-biscayne",
+    "state-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cape Florida Light(js)01",
+      "url": "https://commons.wikimedia.org/wiki/File:Cape_Florida_Light(js)01.jpg",
+      "author": "Jerzy Strzelecki",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Key Biscayne - Cape Florida Lighthouse",
+      "url": "https://commons.wikimedia.org/wiki/File:Key_Biscayne_-_Cape_Florida_Lighthouse.jpg",
+      "author": "P. Hughes",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cape Florida Light 1825 (13948609788)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cape_Florida_Light_1825_(13948609788).jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/mia-cape-florida-light.glb",
+  "source": "generators/mia-cape-florida-light.ts"
+}

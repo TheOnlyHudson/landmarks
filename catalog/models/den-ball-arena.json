@@ -1,0 +1,90 @@
+{
+  "id": "den-ball-arena",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "basketball",
+    "hockey"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Ball Arena exterior 2022.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ball_Arena_exterior_2022.jpg",
+      "author": "Troutfarm27",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Pepsi Center 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Pepsi_Center_1.jpg",
+      "author": "KM Newnham",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "Denver Pepsi Center IMG 20180416 174616.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Pepsi_Center_IMG_20180416_174616.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Pepsi Center IMG 20180416 174741.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Pepsi_Center_IMG_20180416_174741.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Pepsi Center IMG 20180416 175242.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Pepsi_Center_IMG_20180416_175242.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pepsi Center, Denver.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pepsi_Center,_Denver.jpg",
+      "author": "David Herrera",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Pepsi Center 2006.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pepsi_Center_2006.jpg",
+      "author": "Chris Bartle",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Pepsi Center 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pepsi_Center_2013.jpg",
+      "author": "mark6mauno",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Pepsi Center July 2007.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pepsi_Center_July_2007.jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pepsi Center entrance - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pepsi_Center_entrance_-_panoramio.jpg",
+      "author": "Alen Ištoković",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/den-ball-arena.glb",
+  "source": "generators/den-ball-arena.ts"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "mia-loandepot-park",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "ballpark",
+    "baseball",
+    "sports",
+    "retractable-roof",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Miami - Marlins Park - View From Dolphin Expressway",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_-_Marlins_Park_-_View_From_Dolphin_Expressway.jpg",
+      "author": "Jared",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Marlins park - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:Marlins_park_-_panoramio.jpg",
+      "author": "Daniel Garcia",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "MIAMI MARLINS PARK-LITTLE HAVANA - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:MIAMI_MARLINS_PARK-LITTLE_HAVANA_-_panoramio.jpg",
+      "author": "Ivan Curra",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Marlins Stadium exterior near completion",
+      "url": "https://commons.wikimedia.org/wiki/File:Marlins_Stadium_exterior_near_completion.jpg",
+      "author": "Phillip",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Marlins Stadium near completion 3",
+      "url": "https://commons.wikimedia.org/wiki/File:Marlins_Stadium_near_completion_3.jpg",
+      "author": "Phillip",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Marlins Park north side",
+      "url": "https://commons.wikimedia.org/wiki/File:Marlins_Park_north_side.jpg",
+      "author": "Dan Lundberg",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Marlins Park windows open",
+      "url": "https://commons.wikimedia.org/wiki/File:Marlins_Park_windows_open.jpg",
+      "author": "Dan Lundberg",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Marlins Park Exterior Pier (pano)",
+      "url": "https://www.flickr.com/photos/8749778@N06/9784948373",
+      "author": "Eric Kilby",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/mia-loandepot-park.glb",
+  "source": "generators/mia-loandepot-park.ts"
+}

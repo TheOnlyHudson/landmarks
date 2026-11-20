@@ -1,0 +1,60 @@
+{
+  "id": "mia-bass-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "art-deco",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Miami Beach - Bass Museum of Art entrance",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_Bass_Museum_of_Art_entrance.jpg",
+      "author": "P. Hughes",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Miami Beach - Bass Museum of Art Building",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_Bass_Museum_of_Art_Building.jpg",
+      "author": "P. Hughes",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Bass Museum",
+      "url": "https://commons.wikimedia.org/wiki/File:Bass_Museum.jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Bass, Collins Park, Miami Beach, Florida",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Bass,_Collins_Park,_Miami_Beach,_Florida.jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Bass Museum South Beach (12956989905)",
+      "url": "https://commons.wikimedia.org/wiki/File:Bass_Museum_South_Beach_(12956989905).jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/mia-bass-museum.glb",
+  "source": "generators/mia-bass-museum.ts"
+}

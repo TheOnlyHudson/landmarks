@@ -1,0 +1,41 @@
+{
+  "id": "ral-edenton-street-umc",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "religious"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Edenton Street United Methodist Church.JPG",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Edenton_Street_United_Methodist_Church.JPG"
+    },
+    {
+      "title": "Edenton Street Methodist Church and Poindexter Memorial Educational Building, Raleigh, N.C.",
+      "author": "UNC Libraries Commons",
+      "license": "Public Domain Mark",
+      "url": "https://www.flickr.com/photos/122654055@N06/22477711963"
+    }
+  ],
+  "file": "models/ral-edenton-street-umc.glb",
+  "source": "generators/ral-edenton-street-umc.ts"
+}

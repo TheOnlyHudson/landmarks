@@ -1,0 +1,53 @@
+{
+  "id": "den-downtown-aquarium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "aquarium",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Denver-DTA.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver-DTA.jpg",
+      "author": "Ginkgo100",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Downtown Aquarium Denver.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Aquarium_Denver.JPG",
+      "author": "Stilfehler",
+      "license": "CC BY-SA 1.0"
+    },
+    {
+      "title": "DowntownAquariumDenver.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:DowntownAquariumDenver.JPG",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Ocean Journey Aquarium, Denver, Colorado",
+      "url": "https://www.flickr.com/photos/20172348@N00/2356201499",
+      "author": "Bogdan Migulski",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/den-downtown-aquarium.glb",
+  "source": "generators/den-downtown-aquarium.ts"
+}

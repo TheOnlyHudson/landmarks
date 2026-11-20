@@ -1,0 +1,15 @@
+{
+  "id": "ral-edenton-street-umc",
+  "name": "Edenton Street United Methodist Church",
+  "model": "ral-edenton-street-umc",
+  "place": "raleigh-area",
+  "lng": -78.6426408,
+  "lat": 35.7817636,
+  "bearing": 2.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5337018",
+  "replaces": [
+    "relation/14713078"
+  ]
+}

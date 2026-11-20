@@ -1,0 +1,66 @@
+{
+  "id": "cle-one-cleveland-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "One Cleveland Center, 2023",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Cleveland_Center,_2023.jpg",
+      "author": "Geowizical",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Erie Tower - One Cleveland Center - Cleveland Ohio",
+      "url": "https://www.flickr.com/photos/23165290@N00/24600983473",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Erie Tower - One Cleveland Center 02 - Cleveland Ohio",
+      "url": "https://www.flickr.com/photos/23165290@N00/24957010579",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "One Cleveland Center",
+      "url": "https://www.flickr.com/photos/21395880@N02/3620139744",
+      "author": "The Cleveland Kid",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "National City Bank's One Cleveland Center",
+      "url": "https://www.flickr.com/photos/13542313@N00/3466260527",
+      "author": "Eddie~S",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "one cleveland center - front",
+      "url": "https://www.flickr.com/photos/89407885@N00/5524963646",
+      "author": "joshdbrown",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/cle-one-cleveland-center.glb",
+  "source": "generators/cle-one-cleveland-center.ts"
+}

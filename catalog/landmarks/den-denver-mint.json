@@ -1,0 +1,19 @@
+{
+  "id": "den-denver-mint",
+  "name": "United States Mint at Denver",
+  "model": "den-denver-mint",
+  "place": "denver-area",
+  "lng": -104.9923378,
+  "lat": 39.739293,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/305541720",
+    "way/587844017",
+    "way/587844019",
+    "way/587844020",
+    "way/587844021"
+  ],
+  "wikidata": "Q2956452"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "den-voorhies-memorial",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "memorial",
+    "colonnade",
+    "arch",
+    "beaux-arts",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Voorhies Memorial - Civic Center Park, Denver - DSC01186.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Voorhies_Memorial_-_Civic_Center_Park,_Denver_-_DSC01186.jpg",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Civic Center archway.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Civic_Center_archway.jpg",
+      "author": "Enderandpeter",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Looking north from Colonade of Civic Benefactors to Voorhies Memorial and Fountain (HABS COLO,16-DENV,7-5)",
+      "url": "https://commons.wikimedia.org/wiki/File:Looking_north_from_Colonade_of_Civic_Benefactors_to_Voorhies_Memorial_and_Fountain_-_City_and_County_Building,_Civic_Center,_Denver,_Denver_County,_CO_HABS_COLO,16-DENV,7-5.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/den-voorhies-memorial.glb",
+  "source": "generators/den-voorhies-memorial.ts"
+}

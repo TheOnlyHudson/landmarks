@@ -1,0 +1,20 @@
+{
+  "id": "msp-minneapolis-central-library",
+  "name": "Minneapolis Central Library",
+  "model": "msp-minneapolis-central-library",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.2700496,
+  "lat": 44.9805562,
+  "bearing": 30.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6867968",
+  "replaces": [
+    "way/546472304",
+    "way/1539780797",
+    "way/1539780799",
+    "way/1539780796",
+    "way/1350766339",
+    "way/1539780798"
+  ]
+}

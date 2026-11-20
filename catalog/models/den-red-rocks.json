@@ -1,0 +1,90 @@
+{
+  "id": "den-red-rocks",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "amphitheatre",
+    "music-venue",
+    "natural-landmark",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Red Rocks Amphitheatre from top of amphitheatre.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Rocks_Amphitheatre_from_top_of_amphitheatre.jpeg",
+      "author": "Dough4872",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Red Rocks Amphitheatre 1941.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Rocks_Amphitheatre_1941.jpg",
+      "license": "Public domain"
+    },
+    {
+      "title": "Red Rocks Amphitheatre Panoramic.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Rocks_Amphitheatre_Panoramic.jpg",
+      "author": "Jesse Goodier",
+      "license": "Public domain"
+    },
+    {
+      "title": "Red Rocks Amphitheatre, Colorado 13.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Rocks_Amphitheatre,_Colorado_13.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Red Rocks Amphitheatre, Colorado 5.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Rocks_Amphitheatre,_Colorado_5.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Red Rocks Amphitheatre, Colorado 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Rocks_Amphitheatre,_Colorado_2.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Red Rocks Amphitheatre, Colorado 28.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Rocks_Amphitheatre,_Colorado_28.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Aerial view of Red Rocks Amphitheatre, January 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Red_Rocks_Amphitheatre,_January_2013.jpg",
+      "author": "Stoermerjp",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Viewing North of Red Rocks",
+      "url": "https://www.flickr.com/photos/44124370018@N01/9591502923",
+      "author": "daveynin",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Viewing South of Red Rocks",
+      "url": "https://www.flickr.com/photos/44124370018@N01/9594296082",
+      "author": "daveynin",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/den-red-rocks.glb",
+  "source": "generators/den-red-rocks.ts"
+}

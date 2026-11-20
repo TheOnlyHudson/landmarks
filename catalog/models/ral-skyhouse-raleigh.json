@@ -1,0 +1,48 @@
+{
+  "id": "ral-skyhouse-raleigh",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "residential",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Skyhouse Raleigh-20170328.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Skyhouse_Raleigh-20170328.jpg",
+      "author": "Oakcitydylan",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Skyhouse Raleigh.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Skyhouse_Raleigh.jpg",
+      "author": "Alexisrael",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Skyhouse December 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Skyhouse_December_2023.jpg",
+      "author": "City Dweller 2",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/ral-skyhouse-raleigh.glb",
+  "source": "generators/ral-skyhouse-raleigh.ts"
+}

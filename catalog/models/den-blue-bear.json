@@ -1,0 +1,83 @@
+{
+  "id": "den-blue-bear",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "sculpture",
+    "public-art"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Big Blue Bear at the Colorado Convention Center",
+      "url": "https://www.flickr.com/photos/17928381@N00/2794924179",
+      "author": "NickCatal",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "The Big Blue Bear",
+      "url": "https://www.flickr.com/photos/62698615@N08/5850798189",
+      "author": "Monkey Mash Button",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Big Blue Denver Bear",
+      "url": "https://www.flickr.com/photos/17643132@N00/2421585966",
+      "author": "firepile",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Big blue bear, Colorado Convention Center, Denver",
+      "url": "https://www.flickr.com/photos/93393982@N00/28017543641",
+      "author": "Scott McLeod",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Big Blue Bear",
+      "url": "https://www.flickr.com/photos/34094027@N03/6875850732",
+      "author": "@Phase2",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Denver Blue Bear 1",
+      "url": "https://www.flickr.com/photos/10135618@N05/4825203210",
+      "author": "Roger Wagner",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Denver Blue Bear 2",
+      "url": "https://www.flickr.com/photos/10135618@N05/4824593709",
+      "author": "Roger Wagner",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Denver Blue Bear 3",
+      "url": "https://www.flickr.com/photos/10135618@N05/4824593581",
+      "author": "Roger Wagner",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "DNC 2008 (2807052700).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:DNC_2008_(2807052700).jpg",
+      "author": "freewheelinbiker",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/den-blue-bear.glb",
+  "source": "generators/den-blue-bear.ts"
+}

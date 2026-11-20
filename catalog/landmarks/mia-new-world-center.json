@@ -1,0 +1,15 @@
+{
+  "id": "mia-new-world-center",
+  "name": "New World Center",
+  "model": "mia-new-world-center",
+  "place": "miami-area",
+  "lng": -80.1334506,
+  "lat": 25.7916732,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/277037894"
+  ],
+  "wikidata": "Q11884284"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cle-coast-guard-station",
+  "name": "Cleveland Harbor Coast Guard Station",
+  "model": "cle-coast-guard-station",
+  "place": "cleveland-area",
+  "lng": -81.7126,
+  "lat": 41.5029,
+  "bearing": 329,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/122152516",
+    "way/122152517",
+    "way/925599866",
+    "way/925599867",
+    "way/925599868"
+  ]
+}

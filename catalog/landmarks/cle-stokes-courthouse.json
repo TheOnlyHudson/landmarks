@@ -1,0 +1,16 @@
+{
+  "id": "cle-stokes-courthouse",
+  "name": "Carl B. Stokes United States Courthouse",
+  "model": "cle-stokes-courthouse",
+  "place": "cleveland-area",
+  "lng": -81.69729,
+  "lat": 41.496455,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q5039856",
+  "replaces": [
+    "way/255085692",
+    "way/333533686"
+  ]
+}

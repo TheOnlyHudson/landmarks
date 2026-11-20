@@ -59,7 +59,15 @@ trap 'rm -f "$log" "$files"' EXIT
 restore() { while read -r f; do git cat-file -e "HEAD:$f" 2>/dev/null && git checkout -- "$f" || rm -f "$f"; done <"$files"; }
 bun tools/format-catalog.ts
 bun run validate >"$log" 2>&1 || { cat "$log"; restore; exit 1; }
-if bun x tsc --noEmit 2>&1 | grep -F "$gen"; then echo "typecheck errors in $gen"; restore; exit 1; fi
+# Not `tsc | grep`: under pipefail that pipeline takes tsc's non-zero status
+# whenever it reports any error, so the check never fired.
+tsc_rc=0
+tsc_out=$(bun x tsc --noEmit 2>&1) || tsc_rc=$?
+if grep -F "$gen" <<<"$tsc_out"; then echo "typecheck errors in $gen"; restore; exit 1; fi
+# tsc killed (out of memory under load) or failing before it checks anything.
+if [ "$tsc_rc" -ne 0 ] && ! grep -q 'error TS' <<<"$tsc_out"; then
+  printf '%s\n' "$tsc_out" | tail -20; echo "typecheck did not run (tsc exit $tsc_rc)"; restore; exit 1
+fi
 
 git add "$gen" "models/$id.glb" $(cat "$files")
 git commit -qm "$msg"

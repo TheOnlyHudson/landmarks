@@ -15,7 +15,8 @@
     {
       "name": "Salty Pancakes",
       "kind": "person",
-      "role": "creator"
+      "role": "creator",
+      "github": "saltypancakes-1"
     },
     {
       "name": "OpenAI Codex",
@@ -52,6 +53,11 @@
       "title": "2022 DC OCTO lidar, building DSM and bare-earth DEM",
       "author": "District of Columbia Office of the Chief Technology Officer",
       "url": "https://github.com/kameronlee/heat-aware-pedestrian-routing/tree/456fd09d67aae857907e8c2b7fa6c19332734bd5"
+    },
+    {
+      "title": "AU interactive campus tour: building identity and floor labels (factual reference)",
+      "url": "https://map-american.university-tour.com/kogod-dollhouse",
+      "author": "American University"
     }
   ]
 }

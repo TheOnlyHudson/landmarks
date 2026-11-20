@@ -1,0 +1,65 @@
+{
+  "id": "den-the-dancers",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "sculpture",
+    "public-art"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Dancers",
+      "url": "https://www.flickr.com/photos/70316967@N00/2212676347",
+      "author": "bonjourpeewee",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Dancers",
+      "url": "https://www.flickr.com/photos/70316967@N00/2213467754",
+      "author": "bonjourpeewee",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "The Dancers",
+      "url": "https://www.flickr.com/photos/62518311@N00/8387605963",
+      "author": "Daquella manera",
+      "license": "CC0"
+    },
+    {
+      "title": "DSCF0967",
+      "url": "https://www.flickr.com/photos/87957708@N00/445663918",
+      "author": "joelogon",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Dancers Borofsky Sculpture, Denver.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dancers_Borofsky_Sculpture,_Denver.jpg",
+      "author": "Pdubs.94",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Dancers by Jonathan Borofsky, 2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dancers_by_Jonathan_Borofsky,_2024.jpg",
+      "author": "JPEGtheCreator",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/den-the-dancers.glb",
+  "source": "generators/den-the-dancers.ts"
+}

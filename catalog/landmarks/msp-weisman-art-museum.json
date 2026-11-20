@@ -1,0 +1,15 @@
+{
+  "id": "msp-weisman-art-museum",
+  "name": "Weisman Art Museum",
+  "model": "msp-weisman-art-museum",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.237055,
+  "lat": 44.973095,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1431431",
+  "replaces": [
+    "way/35091113"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "ral-martin-marietta-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "performing-arts",
+    "theater",
+    "historic",
+    "neoclassical"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Raleigh Memorial Auditorium - #Raleigh North Carolina",
+      "url": "https://www.flickr.com/photos/94224615@N00/14638876045",
+      "author": "Jed_Record",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Raleigh Memorial Auditorium, 2013",
+      "url": "https://commons.wikimedia.org/wiki/File:Raleigh_Memorial_Auditorium,_2013.jpg",
+      "author": "Bigmacthealmanac",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Progress-Energy-Center-for-the-Performing-Arts-20080321",
+      "url": "https://commons.wikimedia.org/wiki/File:Progress-Energy-Center-for-the-Performing-Arts-20080321.jpeg",
+      "author": "Jmturner",
+      "license": "Public domain"
+    },
+    {
+      "title": "Raleigh Memorial Auditorium",
+      "url": "https://www.flickr.com/photos/7475921@N05/44435238321",
+      "author": "chucka_nc",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Eeeyaaahaa^ - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:Eeeyaaahaa%5E_-_panoramio.jpg",
+      "author": "Scott Thompson",
+      "license": "CC-BY-3.0"
+    }
+  ],
+  "file": "models/ral-martin-marietta-center.glb",
+  "source": "generators/ral-martin-marietta-center.ts"
+}

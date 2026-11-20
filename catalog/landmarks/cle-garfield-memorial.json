@@ -1,0 +1,15 @@
+{
+  "id": "cle-garfield-memorial",
+  "name": "James A. Garfield Memorial",
+  "model": "cle-garfield-memorial",
+  "place": "cleveland-area",
+  "lng": -81.5913918,
+  "lat": 41.5100384,
+  "bearing": 7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1494202",
+  "replaces": [
+    "way/345315398"
+  ]
+}

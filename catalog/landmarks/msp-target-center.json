@@ -1,0 +1,15 @@
+{
+  "id": "msp-target-center",
+  "name": "Target Center",
+  "model": "msp-target-center",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.2761068,
+  "lat": 44.9795155,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q282675",
+  "replaces": [
+    "way/23125943"
+  ]
+}

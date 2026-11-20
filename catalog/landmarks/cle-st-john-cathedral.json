@@ -1,0 +1,15 @@
+{
+  "id": "cle-st-john-cathedral",
+  "name": "Cathedral of St. John the Evangelist",
+  "model": "cle-st-john-cathedral",
+  "place": "cleveland-area",
+  "lng": -81.687982,
+  "lat": 41.50301,
+  "bearing": 327.2,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q5052399",
+  "replaces": [
+    "way/294598602"
+  ]
+}

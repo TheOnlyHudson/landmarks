@@ -1,0 +1,14 @@
+{
+  "id": "mia-lifeguard-tower",
+  "name": "South Beach Lifeguard Tower (13th Street)",
+  "model": "mia-lifeguard-tower",
+  "place": "miami-area",
+  "lng": -80.1278776,
+  "lat": 25.783829,
+  "bearing": 7.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/567439901"
+  ]
+}

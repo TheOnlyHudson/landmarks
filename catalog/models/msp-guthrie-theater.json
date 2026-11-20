@@ -1,0 +1,67 @@
+{
+  "id": "msp-guthrie-theater",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theater",
+    "contemporary",
+    "cantilever",
+    "jean-nouvel"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Minneapolis April 2025 46 (Guthrie Theater from Gold Medal Park)",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_46_(Guthrie_Theater_from_Gold_Medal_Park).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Guthrie-North",
+      "url": "https://commons.wikimedia.org/wiki/File:Guthrie-North.jpg",
+      "author": "Appraiser at English Wikipedia",
+      "license": "Public domain"
+    },
+    {
+      "title": "Guthrie Theater in Minneapolis - July 2015 (19163652843)",
+      "url": "https://commons.wikimedia.org/wiki/File:Guthrie_Theater_in_Minneapolis_-_July_2015_(19163652843).jpg",
+      "author": "{just jennifer}",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Minneapolis April 2025 22 (Guthrie Theater)",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_22_(Guthrie_Theater).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Guthrie Theater Walkway - Minneapolis, MN - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:Guthrie_Theater_Walkway_-_Minneapolis,_MN_-_panoramio.jpg",
+      "author": "Gabriel Vanslette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Guthrie Theater-night-2007-03-12",
+      "url": "https://commons.wikimedia.org/wiki/File:Guthrie_Theater-night-2007-03-12.jpg",
+      "author": "Steve Lyon",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/msp-guthrie-theater.glb",
+  "source": "generators/msp-guthrie-theater.ts"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "msp-rbc-gateway",
+  "name": "RBC Gateway",
+  "model": "msp-rbc-gateway",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.2692638,
+  "lat": 44.9814045,
+  "bearing": 44.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q130553388",
+  "replaces": [
+    "way/733105254",
+    "way/1456956222",
+    "way/1456956223"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mia-atlantis",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "residential",
+    "postmodern",
+    "arquitectonica"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Atlantiscondominium.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Atlantiscondominium.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Atlantis Brickell Condo",
+      "url": "https://www.flickr.com/photos/23245739@N02/4523587635",
+      "author": "miamism",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/mia-atlantis.glb",
+  "source": "generators/mia-atlantis.ts"
+}

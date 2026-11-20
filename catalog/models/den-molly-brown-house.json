@@ -1,0 +1,55 @@
+{
+  "id": "den-molly-brown-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum",
+    "house",
+    "queen-anne"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Molly Brown House exterior",
+      "url": "https://commons.wikimedia.org/wiki/File:Molly_Brown_House_exterior.png",
+      "author": "Jonathan Mauer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "MollyBrownHouseMuseum exterior",
+      "url": "https://commons.wikimedia.org/wiki/File:MollyBrownHouseMuseum_exterior.jpg",
+      "author": "Apw250",
+      "license": "CC0"
+    },
+    {
+      "title": "The Molly Brown House Museum in Denver, Colorado LCCN2015633624",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Molly_Brown_House_Museum_in_Denver%2C_Colorado_LCCN2015633624.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "Mollybrownhouse",
+      "url": "https://commons.wikimedia.org/wiki/File:Mollybrownhouse.JPG",
+      "author": "Onetwo1 at English Wikipedia",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/den-molly-brown-house.glb",
+  "source": "generators/den-molly-brown-house.ts"
+}

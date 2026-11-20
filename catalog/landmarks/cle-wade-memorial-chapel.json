@@ -1,0 +1,15 @@
+{
+  "id": "cle-wade-memorial-chapel",
+  "name": "Wade Memorial Chapel",
+  "model": "cle-wade-memorial-chapel",
+  "place": "cleveland-area",
+  "lng": -81.59460285,
+  "lat": 41.51365165,
+  "bearing": 11,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q7959092",
+  "replaces": [
+    "way/341890016"
+  ]
+}

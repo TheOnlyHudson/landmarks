@@ -1,0 +1,15 @@
+{
+  "id": "msp-marquette-plaza",
+  "name": "Marquette Plaza",
+  "model": "msp-marquette-plaza",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.2676373,
+  "lat": 44.9808505,
+  "bearing": 30.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6772614",
+  "replaces": [
+    "way/45500036"
+  ]
+}

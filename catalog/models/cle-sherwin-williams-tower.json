@@ -1,0 +1,79 @@
+{
+  "id": "cle-sherwin-williams-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "headquarters",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sherwin-Williams HQ August 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:Sherwin-Williams_HQ_August_2025.jpg",
+      "author": "Geowizical",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sherwin Williams HQ 060122024 (Cropped)",
+      "url": "https://commons.wikimedia.org/wiki/File:Sherwin_Williams_HQ_060122024_(Cropped).jpg",
+      "author": "Geowizical",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sherwin Williams HQ February 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:Sherwin_Williams_HQ_February_2024.png",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cleveland Skyline 6-2026",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Skyline_6-2026.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Cleveland skyline from Edgewater Park, May 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_skyline_from_Edgewater_Park,_May_2025.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Sherwin-Williams Headquarters (September 2023)",
+      "url": "https://commons.wikimedia.org/wiki/File:Sherwin-Williams_Headquarters_(September_2023).jpg",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sherwin-Williams construction 2023",
+      "url": "https://commons.wikimedia.org/wiki/File:Sherwin-Williams_construction_2023.jpg",
+      "author": "Geowizical",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sherwin Williams HQ, August 2023",
+      "url": "https://commons.wikimedia.org/wiki/File:Sherwin_Williams_HQ,_August_2023.png",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/cle-sherwin-williams-tower.glb",
+  "source": "generators/cle-sherwin-williams-tower.ts"
+}

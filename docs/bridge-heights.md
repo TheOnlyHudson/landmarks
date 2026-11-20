@@ -32,8 +32,16 @@ embankment: Barrelman starts those at the ground.
 ## What Barrelman does with `ele`
 
 From Barrelman 0.10.40, an `ele` on a node of a bridge's highway or
-railway way is the roadway height there, in metres above sea level in the
-terrain's datum (NAVD88 in the US). The deck passes through each such node
+railway way is the roadway height there. Like every `ele` in OSM it is in
+metres above the EGM96 geoid. From Barrelman 0.10.55
+([barrelman#490](https://github.com/alexwohlbruck/barrelman/pull/490)),
+Barrelman converts it to its terrain's datum before using it. In the
+conterminous US that datum is NAVD88, and Barrelman subtracts the same
+GEOID18 − EGM96 gap you add in section 3, so the deck lands on the lidar
+roadway. Outside the conterminous US (Canada and Mexico included) it uses
+`ele` unchanged. Earlier versions read `ele` as NAVD88 and drew these decks
+0.1–1.2 m high. So tag EGM96, the lidar plus the gap, never NAVD88. The
+deck passes through each such node
 exactly and runs between them as a road is built: straight grades where
 the nodes lie in line, one parabolic vertical curve over a crest or sag,
 and from a landed end on the straight grade to the nearest pinned node.
@@ -47,7 +55,8 @@ So a few nodes per carriageway are enough:
 
 Tag every carriageway: two one-way ways side by side each need their own.
 Barrelman ignores a value below the ground under the node or more than
-150 m above it, taking it for a mistake. A replication cycle that changes
+150 m above it, taking it for a mistake. It makes that check after the
+conversion. A replication cycle that changes
 an `ele` queues that bridge's decks for rebuilding, so a published fix
 reaches the map without anyone running a build. Barrelman's own
 documentation of these rules is "Bridge decks" in its
@@ -100,11 +109,16 @@ than the reading itself. All of these should hold:
   surface (the lowest surface reading over open water in `tools/lidar.py
   grid`) is within a metre or two of 0, the tide on the survey day, not
   around −30 m: a survey in ellipsoid heights would be off by the geoid,
-  about 30–35 m in the US. OSM defines `ele` against the EGM96 geoid, not
-  NAVD88; the two differ by the gap between the NGS GEOID18 and EGM96
-  geoid heights at the bridge (NGS `geodesy.noaa.gov/api/geoid/ght`,
-  GeographicLib GeoidEval). In San Diego it is 0.1 m, inside the rounding;
-  where it is over 0.3 m, add it to the lidar value.
+  about 30–35 m in the US.
+- **The value is EGM96.** OSM defines `ele` against the EGM96 geoid, and
+  3DEP lidar is NAVD88. Add the gap, GEOID18 N − EGM96 N at the bridge, to
+  each lidar value before rounding. Take GEOID18 N from NGS
+  (`geodesy.noaa.gov/api/geoid/ght`) and EGM96 N from GeographicLib
+  GeoidEval with `egm96-5`. The gap is about +0.1 m in San Diego, +0.5 m in
+  Cleveland, +0.75 m in Minneapolis and Nashville, +0.8 m in Pittsburgh and
+  +1.2 m in New Orleans. Barrelman subtracts the same gap (see "What
+  Barrelman does with `ele`"), so the tag matches the map exactly. Record
+  both geoid heights and the gap with the changeset.
 - **The ends meet the ground.** Where the deck lands, `above` is 0–2 m.
 - **Published figures agree.** Compare with what the bridge's owner,
   Wikipedia or the Coast Pilot publish: its grade, its height over the
@@ -138,7 +152,7 @@ Bing, Mapbox, Google or Apple (see [`evidence.md`](evidence.md)).
 Upload, with these changeset tags:
 
 ```
-comment=Add ele (metres, NAVD88) to roadway nodes on <bridge> so 3D renderers can place the deck at its true height
+comment=Add ele (metres, EGM96) to roadway nodes on <bridge> so 3D renderers can place the deck at its true height
 source=USGS 3DEP lidar (<survey name>)
 ```
 
@@ -179,7 +193,9 @@ The Coronado and Cabrillo decks, `CA_SanDiegoQL2_2014`:
 | Cabrillo, El Prado | 280915773, 280915772 | 77.1, 78.4 | Ends, on the canyon rims |
 | | new, 32.7314296, −117.1537524 | 77.1 | Where the level deck starts to climb |
 
-The Coronado ends land on the toll-plaza fill and needed no tag. Checks:
+These were tagged as the plain lidar values, before the rule to add the
+geoid gap. The gap in San Diego is 0.1 m, so Barrelman 0.10.55 and later
+draw them about 0.1 m low, inside the rounding. The Coronado ends land on the toll-plaza fill and needed no tag. Checks:
 every value within 0.1 m of a fresh reading, spread under 0.1 m; bay water
 0.4–0.5 m in the same survey; Cabrillo's west end 77.1 m against 77.12 m
 bare earth; Coronado's 4.66 % lidar grade against the published 4.67 %, and

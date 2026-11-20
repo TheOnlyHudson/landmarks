@@ -1,0 +1,14 @@
+{
+  "id": "ral-reynolds-coliseum",
+  "name": "Reynolds Coliseum",
+  "model": "ral-reynolds-coliseum",
+  "place": "raleigh-area",
+  "lng": -78.6698966,
+  "lat": 35.7835315,
+  "bearing": 24.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/47837937"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "msp-saint-paul-city-hall",
+  "name": "Saint Paul City Hall and Ramsey County Courthouse",
+  "model": "msp-saint-paul-city-hall",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.0939747,
+  "lat": 44.9442741,
+  "bearing": 326.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/45827120",
+    "way/461233030"
+  ]
+}

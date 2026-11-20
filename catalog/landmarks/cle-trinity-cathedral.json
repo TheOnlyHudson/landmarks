@@ -1,0 +1,15 @@
+{
+  "id": "cle-trinity-cathedral",
+  "name": "Trinity Cathedral",
+  "model": "cle-trinity-cathedral",
+  "place": "cleveland-area",
+  "lng": -81.6741543,
+  "lat": 41.5013188,
+  "bearing": 350,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q7842605",
+  "replaces": [
+    "way/915614805"
+  ]
+}

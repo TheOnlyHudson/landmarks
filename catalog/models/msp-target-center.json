@@ -1,0 +1,65 @@
+{
+  "id": "msp-target-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "basketball",
+    "green-roof"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Target Center in Minneapolis, Minnesota (49113411356)",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Center_in_Minneapolis,_Minnesota_(49113411356).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Target Center exterior 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Center_exterior_02.jpg",
+      "author": "Runner1928",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Target Center exterior 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Center_exterior_01.jpg",
+      "author": "Runner1928",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Target Center 2013",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Center_2013.jpg",
+      "author": "Jeramey Jannene",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Target Center, Minneapolis - Spot the Dog Sign (28037908911)",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Center,_Minneapolis_-_Spot_the_Dog_Sign_(28037908911).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Target Center",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Center.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/msp-target-center.glb",
+  "source": "generators/msp-target-center.ts"
+}

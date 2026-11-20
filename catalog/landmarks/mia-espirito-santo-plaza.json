@@ -1,0 +1,17 @@
+{
+  "id": "mia-espirito-santo-plaza",
+  "name": "Espírito Santo Plaza",
+  "model": "mia-espirito-santo-plaza",
+  "place": "miami-area",
+  "lng": -80.1916822,
+  "lat": 25.7606824,
+  "bearing": 11,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q3058435",
+  "replaces": [
+    "way/300510112",
+    "way/300510113",
+    "way/1185200181"
+  ]
+}

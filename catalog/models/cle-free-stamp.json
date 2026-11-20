@@ -1,0 +1,86 @@
+{
+  "id": "cle-free-stamp",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "public-art",
+    "pop-art",
+    "sculpture",
+    "park"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Free Stamp (Claes Oldenburg and Coosje van Bruggen, installed 1991) in Willard Park: a giant red rubber stamp lying on its side, its face reading FREE in mirror image.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleveland Free Stamp (26646559122)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Free_Stamp_(26646559122).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Free Stamp (26740830195)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Free_Stamp_(26740830195).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Free Stamp (51141639178)",
+      "url": "https://commons.wikimedia.org/wiki/File:Free_Stamp_(51141639178).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Free Stamp",
+      "url": "https://www.flickr.com/photos/37171504@N00/473738856",
+      "author": "compujeramey",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Free Stamp",
+      "url": "https://www.flickr.com/photos/37171504@N00/473751979",
+      "author": "compujeramey",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "'FREE Stamp' (1982) by Claes Oldenburg and Coosje van Bruggen",
+      "url": "https://www.flickr.com/photos/22711505@N05/52612810582",
+      "author": "Ron Cogswell",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "FREE Stamp",
+      "url": "https://www.flickr.com/photos/141423754@N05/31241277378",
+      "author": "RepeatRight",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Oldenburg and van Bruggen's Free Stamp",
+      "url": "https://www.flickr.com/photos/54357435@N00/174199958",
+      "author": "valkyrieh116",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "The Free Stamp, Cleveland Landmark, Willard Park (night)",
+      "url": "https://www.flickr.com/photos/75683070@N00/7981757184",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/cle-free-stamp.glb",
+  "source": "generators/cle-free-stamp.ts"
+}

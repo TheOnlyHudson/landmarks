@@ -1,0 +1,66 @@
+{
+  "id": "den-trinity-united-methodist",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "historic",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Trinity United Methodist Church (Denver, Colorado) (2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_United_Methodist_Church_%28Denver%2C_Colorado%29_%282%29.JPG",
+      "author": "Chris06",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trinity United Methodist Church Denver",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_United_Methodist_Church_Denver.jpg",
+      "author": "Kenneth C. Zirkel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trinity United Methodist Church, Denver",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_United_Methodist_Church%2C_Denver.jpg",
+      "author": "Nyttend",
+      "license": "Public domain"
+    },
+    {
+      "title": "Trinity United Methodist Church (Denver, Colorado) (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_United_Methodist_Church_%28Denver%2C_Colorado%29_%281%29.JPG",
+      "author": "Chris06",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trinity United Methodist Church, northside",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_United_Methodist_Church%2C_northside.jpg",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Trinity United Methodist Church (Denver, Colorado) (3)",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_United_Methodist_Church_%28Denver%2C_Colorado%29_%283%29.JPG",
+      "author": "Chris06",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/den-trinity-united-methodist.glb",
+  "source": "generators/den-trinity-united-methodist.ts"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "den-blue-mustang",
+  "name": "Blue Mustang",
+  "model": "den-blue-mustang",
+  "place": "denver-area",
+  "wikidata": "Q28455129",
+  "lng": -104.676242,
+  "lat": 39.834117,
+  "bearing": 205,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

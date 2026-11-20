@@ -1,0 +1,55 @@
+{
+  "id": "den-st-johns-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "cathedral",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "\"Urban Cathedral in the English Style\"",
+      "url": "https://commons.wikimedia.org/wiki/File:%22Urban_Cathedral_in_the_English_Style%22.jpg",
+      "author": "MPCLavallee",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cathedral of St. John in the Wilderness",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_St._John_in_the_Wilderness.jpg",
+      "author": "User:Nyttend",
+      "license": "Public domain"
+    },
+    {
+      "title": "\"Cathedral From the Rear\"",
+      "url": "https://commons.wikimedia.org/wiki/File:%22Cathedral_From_the_Rear%22.jpg",
+      "author": "MPCLavallee",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. John’s after dark",
+      "url": "https://commons.wikimedia.org/wiki/File:St._John%E2%80%99s_after_dark.jpg",
+      "author": "Rachlelinville",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/den-st-johns-cathedral.glb",
+  "source": "generators/den-st-johns-cathedral.ts"
+}

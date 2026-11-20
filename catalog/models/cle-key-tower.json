@@ -1,0 +1,67 @@
+{
+  "id": "cle-key-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Cesar Pelli's 57-storey Key Tower (1991), Ohio's tallest building: granite shaft with stepped wings, a stepped silver crown with the red Key logos, and a short spire.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleveland August 2015 13 (Key Tower)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_August_2015_13_(Key_Tower).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Key Tower 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Key_Tower_2022.png",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cleveland Key Tower from St. Clair Ave.",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Key_Tower_from_St,_Clair_Ave..jpg",
+      "author": "Mike Russell",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Key Tower (23232436903)",
+      "url": "https://commons.wikimedia.org/wiki/File:Key_Tower_(23232436903).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "\"Lake Erie\" \"Terminal Tower\" Skyscraper Skyline \"Key Tower\" Cleveland Ohio (29511983292)",
+      "url": "https://commons.wikimedia.org/wiki/File:%22Lake_Erie%22_%22Terminal_Tower%22_Skyscraper_Skyline_%22Key_Tower%22_Cleveland_Ohio_(29511983292).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Key Center, Cleveland, OH (27732080467)",
+      "url": "https://commons.wikimedia.org/wiki/File:Key_Center,_Cleveland,_OH_(27732080467).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/cle-key-tower.glb",
+  "source": "generators/cle-key-tower.ts"
+}

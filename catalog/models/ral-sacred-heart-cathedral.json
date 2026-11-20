@@ -1,0 +1,67 @@
+{
+  "id": "ral-sacred-heart-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "gothic-revival",
+    "historic",
+    "granite"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sacred Heart Cathedral - Raleigh.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Sacred_Heart_Cathedral_-_Raleigh.JPG",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sacred Heart Cathedral - Raleigh 02.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Sacred_Heart_Cathedral_-_Raleigh_02.JPG",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sacred Heart Cathedral - Raleigh 03.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Sacred_Heart_Cathedral_-_Raleigh_03.JPG",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sacred Heart Cathedral - Raleigh 04.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Sacred_Heart_Cathedral_-_Raleigh_04.JPG",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sacred Heart Cathedreal Raleigh North Carolina.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sacred_Heart_Cathedreal_Raleigh_North_Carolina.jpg",
+      "author": "Willthacheerleader18",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Sacred Heart Church, Raleigh, NC (28221488178).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sacred_Heart_Church,_Raleigh,_NC_(28221488178).jpg",
+      "author": "Warren LeMay from Cincinnati, OH, United States",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/ral-sacred-heart-cathedral.glb",
+  "source": "generators/ral-sacred-heart-cathedral.ts"
+}

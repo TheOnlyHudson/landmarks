@@ -1,0 +1,54 @@
+{
+  "id": "msp-grand-casino-arena",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "hockey",
+    "sports"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Saint Paul April 2025 13 (Xcel Energy Center).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Paul_April_2025_13_(Xcel_Energy_Center).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Xcel Energy Center St. Paul 5.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Xcel_Energy_Center_St._Paul_5.jpg",
+      "author": "AlexiusHoratius",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "XcelEnergyCenteroverview.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:XcelEnergyCenteroverview.jpg",
+      "author": "Rx StrangeLove",
+      "license": "Public domain"
+    },
+    {
+      "title": "Xcel Energy Center (15622401768).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Xcel_Energy_Center_(15622401768).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/msp-grand-casino-arena.glb",
+  "source": "generators/msp-grand-casino-arena.ts"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "mia-marine-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "grandstand",
+    "modernist",
+    "folded-plate",
+    "concrete",
+    "historic",
+    "virginia-key"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Miami Marine Stadium",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Marine_Stadium.jpg",
+      "author": "Wilfredor",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Virginia Key - Miami Marine Stadium",
+      "url": "https://commons.wikimedia.org/wiki/File:Virginia_Key_-_Miami_Marine_Stadium_-_.jpg",
+      "author": "Bumbiti",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Miami Marine Stadium",
+      "url": "https://www.flickr.com/photos/23245739@N02/14385588409",
+      "author": "miamism",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Miami Marine Stadium",
+      "url": "https://www.flickr.com/photos/23245739@N02/10280025636",
+      "author": "miamism",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Miami Marine, 1967",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Marine,_1967.jpg",
+      "author": "State Library and Archives of Florida",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/mia-marine-stadium.glb",
+  "source": "generators/mia-marine-stadium.ts"
+}

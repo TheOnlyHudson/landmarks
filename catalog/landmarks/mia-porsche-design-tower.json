@@ -1,0 +1,15 @@
+{
+  "id": "mia-porsche-design-tower",
+  "name": "Porsche Design Tower",
+  "model": "mia-porsche-design-tower",
+  "place": "miami-area",
+  "lng": -80.1198798,
+  "lat": 25.9481946,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q7230398",
+  "replaces": [
+    "way/402232479"
+  ]
+}

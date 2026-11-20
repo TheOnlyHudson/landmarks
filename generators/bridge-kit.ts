@@ -167,7 +167,8 @@ export function band(
  * An open truss in the plane x = xc: a top and a bottom chord, a post at
  * every panel point and one diagonal per panel, alternating, as a Warren
  * truss with verticals reads from a distance. Posts and diagonals are flat
- * strips, for a double-sided material.
+ * strips, for a double-sided material; `post` sets the posts' width apart
+ * from the diagonals', and `flip` which way the first diagonal leans.
  */
 export function truss(
   chords: Part,
@@ -176,19 +177,22 @@ export function truss(
   ys: number[],
   top: (y: number) => number,
   bot: (y: number) => number,
-  { chordW = 0.5, topD = 0.55, botD = 0.75, member = 0.32, curve = ys } = {},
+  { chordW = 0.5, topD = 0.55, botD = 0.75, member = 0.32, post = member, flip = false, minWeb = 0, curve = ys } = {},
 ) {
   const x0 = xc - chordW / 2, x1 = xc + chordW / 2
   band(chords, x0, x1, curve, top, (y) => top(y) - topD, { out: true, in: true, top: true, bottom: true })
   band(chords, x0, x1, curve, (y) => bot(y) + botD, bot, { out: true, in: true, top: true, bottom: true })
   const n: V3 = [1, 0, 0]
+  // A web member is drawn only where the chords stand more than `minWeb` apart.
+  const web0 = (y: number) => bot(y) + botD, web1 = (y: number) => top(y) - topD
+  const open = (y: number) => web1(y) - web0(y) > minWeb
   for (let i = 0; i < ys.length; i++) {
     const y = ys[i]
-    strip(web, [xc, y, bot(y) + botD], [xc, y, top(y) - topD], member, n)
+    if (open(y)) strip(web, [xc, y, web0(y)], [xc, y, web1(y)], post, n)
     if (i < ys.length - 1) {
       const y2 = ys[i + 1]
-      const [ya, yb] = i % 2 ? [y, y2] : [y2, y]
-      strip(web, [xc, ya, bot(ya) + botD], [xc, yb, top(yb) - topD], member, n)
+      const [ya, yb] = (i % 2 === 1) !== flip ? [y, y2] : [y2, y]
+      if (open(ya) && open(yb)) strip(web, [xc, ya, web0(ya)], [xc, yb, web1(yb)], member, n)
     }
   }
 }

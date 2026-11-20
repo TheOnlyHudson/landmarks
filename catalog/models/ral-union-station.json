@@ -1,0 +1,54 @@
+{
+  "id": "ral-union-station",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "train-station",
+    "adaptive-reuse",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Raleigh Union Station Grand Opening 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Raleigh_Union_Station_Grand_Opening_02.jpg",
+      "author": "NCDOTcommunications",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "2018.05.02 Union Station Tour 05",
+      "url": "https://commons.wikimedia.org/wiki/File:2018.05.02_Union_Station_Tour_05.jpg",
+      "author": "NCDOTcommunications",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "2018.05.02 Union Station Tour 01",
+      "url": "https://commons.wikimedia.org/wiki/File:2018.05.02_Union_Station_Tour_01.jpg",
+      "author": "NCDOTcommunications",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Raleigh Union Station 10-17",
+      "url": "https://commons.wikimedia.org/wiki/File:Raleigh_Union_Station_10-17.jpg",
+      "author": "Sjones26573",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/ral-union-station.glb",
+  "source": "generators/ral-union-station.ts"
+}

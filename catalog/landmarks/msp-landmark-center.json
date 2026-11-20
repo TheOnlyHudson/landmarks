@@ -1,0 +1,15 @@
+{
+  "id": "msp-landmark-center",
+  "name": "Landmark Center",
+  "model": "msp-landmark-center",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.097117,
+  "lat": 44.94561,
+  "bearing": 359.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6484761",
+  "replaces": [
+    "way/43386059"
+  ]
+}

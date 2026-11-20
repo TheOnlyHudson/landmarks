@@ -1,0 +1,14 @@
+{
+  "id": "msp-walker-art-center",
+  "name": "Walker Art Center",
+  "model": "msp-walker-art-center",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.288682,
+  "lat": 44.968091,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/45530842"
+  ]
+}

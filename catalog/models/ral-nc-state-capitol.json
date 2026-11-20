@@ -1,0 +1,87 @@
+{
+  "id": "ral-nc-state-capitol",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "capitol",
+    "government",
+    "greek-revival",
+    "dome",
+    "national-historic-landmark"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "North Carolina State Capitol, Raleigh.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_State_Capitol,_Raleigh.jpg",
+      "author": "Jim Bowen",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "North Carolina State Capitol Facade.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_State_Capitol_Facade.JPG",
+      "author": "Alexisrael",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "CaribMask 2024 in Raleigh, NC - Capitol.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:CaribMask_2024_in_Raleigh,_NC_-_Capitol.jpg",
+      "author": "Sergiy Galyonkin",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "North Carolina State Capitol, Raleigh, NC (28221602578).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_State_Capitol,_Raleigh,_NC_(28221602578).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "North Carolina State Capitol, Raleigh, NC (28221598188).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_State_Capitol,_Raleigh,_NC_(28221598188).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Exterior dome - North Carolina State Capitol - DSC05841.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_dome_-_North_Carolina_State_Capitol_-_DSC05841.JPG",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "Raleigh - North Carolina State Capitol.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Raleigh_-_North_Carolina_State_Capitol.jpg",
+      "author": "P. Hughes",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "State Capitol, Raleigh, Wake County, North Carolina (LCCN2017888973)",
+      "url": "https://commons.wikimedia.org/wiki/File:State_Capitol,_Raleigh,_Wake_County,_North_Carolina_LCCN2017888973.jpg",
+      "author": "Frances Benjamin Johnston",
+      "license": "Public domain"
+    },
+    {
+      "title": "HABS: State Capitol, Capitol Square, Raleigh (front facade, 1937)",
+      "url": "https://commons.wikimedia.org/wiki/File:Historic_American_Buildings_Survey,_Archie_A._Biggs,_Photographer_June_30,_1937_FRONT_FACADE._-_State_Capitol,_Capitol_Square,_Raleigh,_Wake_County,_NC_HABS_NC,92-RAL,5-2.tif",
+      "author": "Archie A. Biggs (HABS)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/ral-nc-state-capitol.glb",
+  "source": "generators/ral-nc-state-capitol.ts"
+}

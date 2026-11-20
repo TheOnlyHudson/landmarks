@@ -1,0 +1,67 @@
+{
+  "id": "cle-huntington-bank-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "office",
+    "bank",
+    "neoclassical"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "925 Building Cleveland (June 2024)",
+      "url": "https://commons.wikimedia.org/wiki/File:925_Building_Cleveland_(June_2024).jpg",
+      "author": "Geowizical",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Union Trust Building, Cleveland, OH (27420310167)",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Trust_Building,_Cleveland,_OH_(27420310167).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Huntington Building",
+      "url": "https://commons.wikimedia.org/wiki/File:Huntington_Building.jpg",
+      "author": "Ryan",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "NE facade 03 - Union Trust Building (32232126358)",
+      "url": "https://commons.wikimedia.org/wiki/File:NE_facade_03_-_Union_Trust_Building_(32232126358).jpg",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "N corner main building - Union Trust Building (46103418621)",
+      "url": "https://commons.wikimedia.org/wiki/File:N_corner_main_building_-_Union_Trust_Building_(46103418621).jpg",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Facade - 925 Euclid (43224241085)",
+      "url": "https://commons.wikimedia.org/wiki/File:Facade_-_925_Euclid_(43224241085).jpg",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/cle-huntington-bank-building.glb",
+  "source": "generators/cle-huntington-bank-building.ts"
+}

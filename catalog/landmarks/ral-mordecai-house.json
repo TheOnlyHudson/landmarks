@@ -1,0 +1,14 @@
+{
+  "id": "ral-mordecai-house",
+  "name": "Mordecai House",
+  "model": "ral-mordecai-house",
+  "place": "raleigh-area",
+  "lng": -78.633301,
+  "lat": 35.7926829,
+  "bearing": 10,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/47738082"
+  ]
+}

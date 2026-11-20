@@ -1,0 +1,13 @@
+{
+  "id": "den-the-dancers",
+  "name": "The Dancers",
+  "model": "den-the-dancers",
+  "place": "denver-area",
+  "lng": -104.9992565,
+  "lat": 39.7430418,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q85755607",
+  "replaces": []
+}

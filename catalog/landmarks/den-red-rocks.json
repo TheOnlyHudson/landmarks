@@ -1,0 +1,20 @@
+{
+  "id": "den-red-rocks",
+  "name": "Red Rocks Amphitheatre",
+  "model": "den-red-rocks",
+  "place": "denver-area",
+  "wikidata": "Q2182648",
+  "lng": -105.20573,
+  "lat": 39.66546,
+  "bearing": 0,
+  "elevation": 0.1,
+  "minzoom": 14,
+  "replaces": [
+    "way/91483344",
+    "way/91483361",
+    "way/91483340",
+    "way/229359709",
+    "way/537034508",
+    "way/537034507"
+  ]
+}

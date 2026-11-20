@@ -1,0 +1,16 @@
+{
+  "id": "cle-cleveland-trust-rotunda",
+  "name": "Cleveland Trust Company Building",
+  "model": "cle-cleveland-trust-rotunda",
+  "place": "cleveland-area",
+  "lng": -81.686078,
+  "lat": 41.500037,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q21197553",
+  "replaces": [
+    "way/218110515",
+    "way/537153709"
+  ]
+}

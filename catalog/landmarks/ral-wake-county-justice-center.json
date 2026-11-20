@@ -1,0 +1,14 @@
+{
+  "id": "ral-wake-county-justice-center",
+  "name": "Wake County Justice Center",
+  "model": "ral-wake-county-justice-center",
+  "place": "raleigh-area",
+  "lng": -78.641175,
+  "lat": 35.776579,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/310012128"
+  ]
+}

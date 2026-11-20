@@ -1,0 +1,74 @@
+{
+  "id": "cle-garfield-memorial",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "memorial",
+    "mausoleum",
+    "romanesque-revival",
+    "cemetery"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "James A. Garfield Memorial, Lakeview Cemetery, Cleveland Ohio",
+      "url": "https://commons.wikimedia.org/wiki/File:James_A._Garfield_Memorial,_Lakeview_Cemetery,_Cleveland_Ohio.jpg",
+      "author": "Ray Curtis",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Garfield Memorial and surroundings",
+      "url": "https://commons.wikimedia.org/wiki/File:Garfield_Memorial_and_surroundings.jpg",
+      "author": "Kevin Payravi",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cleveland Garfield Memorial angled view",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Garfield_Memorial_angled_view.jpg",
+      "author": "Kevin Payravi",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "James A. Garfield Memorial (21884478574)",
+      "url": "https://commons.wikimedia.org/wiki/File:James_A._Garfield_Memorial_(21884478574).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "James A. Garfield Memorial (22317732350)",
+      "url": "https://commons.wikimedia.org/wiki/File:James_A._Garfield_Memorial_(22317732350).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Looking NW at Garfield Memorial - Lake View Cemetery - 2014-11-26",
+      "url": "https://commons.wikimedia.org/wiki/File:Looing_NW_at_Garfield_Memorial_-_Lake_View_Cemetery_-_2014-11-26_(17541577595).jpg",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "S side - Garfield Memorial - Lake View Cemetery - 2014-11-26",
+      "url": "https://commons.wikimedia.org/wiki/File:S_side_-_Garfield_Memorial_-_Lake_View_Cemetery_-_2014-11-26_(16919075404).jpg",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/cle-garfield-memorial.glb",
+  "source": "generators/cle-garfield-memorial.ts"
+}

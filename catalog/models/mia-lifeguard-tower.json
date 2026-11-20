@@ -1,0 +1,43 @@
+{
+  "id": "mia-lifeguard-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "lifeguard-tower",
+    "beach",
+    "south-beach",
+    "william-lane"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Miami Beach Lifeguard Towers Collage",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_Lifeguard_Towers_Collage_-_Flickr_-_Anthony_Quintano.jpg",
+      "author": "Anthony Quintano",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Lifeguard stand, Miami Beach",
+      "url": "https://commons.wikimedia.org/wiki/File:Lifeguard_stand,_Miami_Beach.jpg",
+      "author": "Radomianin",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/mia-lifeguard-tower.glb",
+  "source": "generators/mia-lifeguard-tower.ts"
+}

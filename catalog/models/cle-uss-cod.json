@@ -1,0 +1,82 @@
+{
+  "id": "cle-uss-cod",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "other",
+  "tags": [
+    "ship",
+    "submarine",
+    "museum-ship",
+    "museum",
+    "historic",
+    "military"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "USS Cod (SS-224), a Gato-class submarine of 1943, moored as a museum ship at North Coast Harbor: grey casing over black saddle tanks, the fairwater with its gun platforms and periscope shears, and the 5-inch deck gun.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleveland August 2015 30 (USS Cod)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_August_2015_30_(USS_Cod).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cleveland August 2015 31 (USS Cod)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_August_2015_31_(USS_Cod).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cleveland August 2015 36 (USS Cod)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_August_2015_36_(USS_Cod).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "USS Cod (2022)",
+      "url": "https://commons.wikimedia.org/wiki/File:USS_Cod_(2022).jpg",
+      "author": "Eric Friedebach",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Submarine Exterior",
+      "url": "https://commons.wikimedia.org/wiki/File:Submarine_Exterior.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Submarine Exterior (guns)",
+      "url": "https://commons.wikimedia.org/wiki/File:Submarine_Exterior_(guns).jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "USS COD - Joy of Museums 3",
+      "url": "https://commons.wikimedia.org/wiki/File:USS_COD_-_Joy_of_Museums_3.jpg",
+      "author": "GordonMakryllos",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "USS Cod",
+      "url": "https://www.flickr.com/photos/98777012@N00/2502795101",
+      "author": "Elfboy",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/cle-uss-cod.glb",
+  "source": "generators/cle-uss-cod.ts"
+}

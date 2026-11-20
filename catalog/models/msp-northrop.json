@@ -1,0 +1,62 @@
+{
+  "id": "msp-northrop",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "auditorium",
+    "performing-arts",
+    "neoclassical",
+    "university",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Northrop Auditorium Minneapolis 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Northrop_Auditorium_Minneapolis_1.jpg",
+      "author": "AlexiusHoratius",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "University of Minnesota - Northrop Memorial Auditorium (3098267031).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:University_of_Minnesota_-_Northrop_Memorial_Auditorium_(3098267031).jpg",
+      "author": "A Gude",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "UMN-NorthropRepairs.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:UMN-NorthropRepairs.jpg",
+      "author": "SavagePanda845 (Elliot F)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Northrop Mall Panorama.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Northrop_Mall_Panorama.JPG",
+      "author": "Dragne SDI",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Northrop Auditorium at dusk.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Northrop_Auditorium_at_dusk.jpg",
+      "author": "Dragne SDI",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/msp-northrop.glb",
+  "source": "generators/msp-northrop.ts"
+}

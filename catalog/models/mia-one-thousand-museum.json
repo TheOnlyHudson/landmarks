@@ -1,0 +1,67 @@
+{
+  "id": "mia-one-thousand-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "residential",
+    "zaha-hadid",
+    "exoskeleton"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "One Thousand Museum March 2019",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Thousand_Museum_March_2019.jpg",
+      "author": "Godsfriendchuck",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "One Thousand Museum Tower Downtown Miami - Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Thousand_Museum_Tower_Downtown_Miami_-_Tower.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "One Thousand Museum (50741507697)",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Thousand_Museum_(50741507697).jpg",
+      "author": "Rob Olivera",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "1000 Museum 2020-03 07",
+      "url": "https://commons.wikimedia.org/wiki/File:1000_Museum_2020-03_07.jpg",
+      "author": "Teoamez",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "1000 Museum 2020-03 05",
+      "url": "https://commons.wikimedia.org/wiki/File:1000_Museum_2020-03_05.jpg",
+      "author": "Teoamez",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "1000 Museum 2020-03 03",
+      "url": "https://commons.wikimedia.org/wiki/File:1000_Museum_2020-03_03.jpg",
+      "author": "Teoamez",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/mia-one-thousand-museum.glb",
+  "source": "generators/mia-one-thousand-museum.ts"
+}

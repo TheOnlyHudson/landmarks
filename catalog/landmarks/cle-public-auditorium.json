@@ -1,0 +1,15 @@
+{
+  "id": "cle-public-auditorium",
+  "name": "Cleveland Public Auditorium",
+  "model": "cle-public-auditorium",
+  "place": "cleveland-area",
+  "lng": -81.692933,
+  "lat": 41.503563,
+  "bearing": 326,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7257321",
+  "replaces": [
+    "way/131556737"
+  ]
+}

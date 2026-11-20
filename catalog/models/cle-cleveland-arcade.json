@@ -1,0 +1,69 @@
+{
+  "id": "cle-cleveland-arcade",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "arcade",
+    "shopping",
+    "hotel",
+    "romanesque-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The Arcade (1890): two nine-storey brick office blocks on Superior and Euclid Avenues joined by a 300 ft five-storey shopping arcade under a gabled glass roof.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleveland Arcade (16474788975)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Arcade_(16474788975).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Arcade facade - Cleveland, Ohio - DSC07967",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Arcade_facade_-_Cleveland,_Ohio_-_DSC07967.JPG",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Superior Avenue, The Arcade",
+      "url": "https://commons.wikimedia.org/wiki/File:Superior_Avenue,_The_Arcade.png",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cleveland August 2015 16 (The Arcade)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_August_2015_16_(The_Arcade).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cleveland Arcade, 1966",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Arcade,_1966.jpg",
+      "author": "Martin Linsey",
+      "license": "Public domain"
+    },
+    {
+      "title": "HABS OHIO,18-CLEV,6- (Cleveland Arcade measured drawings, sheets 4, 7, 10-12, 14, 15)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Arcade,_401_Euclid_Avenue,_Cleveland,_Cuyahoga_County,_OH_HABS_OHIO,18-CLEV,6-_(sheet_11_of_22).tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/cle-cleveland-arcade.glb",
+  "source": "generators/cle-cleveland-arcade.ts"
+}

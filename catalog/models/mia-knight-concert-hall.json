@@ -1,0 +1,60 @@
+{
+  "id": "mia-knight-concert-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "performing-arts",
+    "concert-hall",
+    "cesar-pelli"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County",
+      "url": "https://commons.wikimedia.org/wiki/File:Adrienne_Arsht_Center_for_the_Performing_Arts_of_Miami-Dade_County_-_Flickr_-_Phillip_Pessar.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Knightconcerthall",
+      "url": "https://commons.wikimedia.org/wiki/File:Knightconcerthall.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "John S. and James L. Knight Concert Hall Miami 2008 HPIM2830",
+      "url": "https://commons.wikimedia.org/wiki/File:John_S._and_James_L._Knight_Concert_Hall_Miami_2008_HPIM2830.jpg",
+      "author": "Mary Mark Ockerbloom",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Knight Concert Hall",
+      "url": "https://commons.wikimedia.org/wiki/File:Knight_Concert_Hall.jpg",
+      "author": "Robin Hill for Knight Foundation",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Adrienne Arsht Center for Performing Arts 20100203",
+      "url": "https://commons.wikimedia.org/wiki/File:Adrienne_Arsht_Center_for_Performing_Arts_20100203.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/mia-knight-concert-hall.glb",
+  "source": "generators/mia-knight-concert-hall.ts"
+}

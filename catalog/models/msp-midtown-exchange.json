@@ -1,0 +1,61 @@
+{
+  "id": "msp-midtown-exchange",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "art-deco",
+    "historic",
+    "mixed-use",
+    "former-department-store"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Midtown Exchange.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Midtown_Exchange.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minneapolis neighborhood Midtown Phillips (52238229167).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_neighborhood_Midtown_Phillips_(52238229167).jpg",
+      "author": "Fibonacci Blue",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Midtown Exchange Building, Minneapolis (48660624678).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Midtown_Exchange_Building,_Minneapolis_(48660624678).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Midtown Exchange from Riverside Plaza 2014-08-26.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Midtown_Exchange_from_Riverside_Plaza_2014-08-26.jpg",
+      "author": "August Schwerdfeger",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "2929 Chicago Avenue-Midtown Exchange main entrance.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2929_Chicago_Avenue-Midtown_Exchange_main_entrance.jpg",
+      "author": "Heritage Preservation Department - MNHS",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/msp-midtown-exchange.glb",
+  "source": "generators/msp-midtown-exchange.ts"
+}

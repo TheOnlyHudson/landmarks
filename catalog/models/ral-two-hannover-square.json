@@ -1,0 +1,60 @@
+{
+  "id": "ral-two-hannover-square",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "B-B-and-T-Building-20080321.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:B-B-and-T-Building-20080321.jpeg",
+      "author": "Jmturner",
+      "license": "Public domain"
+    },
+    {
+      "title": "Pyramiding - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pyramiding_-_panoramio.jpg",
+      "author": "Scott Thompson",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "BB^T Building - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:BB%5ET_Building_-_panoramio.jpg",
+      "author": "Sam Shaber",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Two Hannover Square, night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Two_Hannover_Square,_night.jpg",
+      "author": "jill, jellidonut... whatever",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Green bankalishi - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Green_bankalishi_-_panoramio.jpg",
+      "author": "Scott Thompson",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/ral-two-hannover-square.glb",
+  "source": "generators/ral-two-hannover-square.ts"
+}

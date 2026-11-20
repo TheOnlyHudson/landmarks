@@ -1,0 +1,67 @@
+{
+  "id": "mia-espirito-santo-plaza",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "hotel",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Espirito Santo Plaza Downtown Miami 20100206.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Espirito_Santo_Plaza_Downtown_Miami_20100206.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Miami Banco Espirito Santo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Banco_Espirito_Santo.jpg",
+      "author": "Kolossos",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Espiritu Santos Plaza at Miami Financial District by Architect Kohn Pedersen Fox 120313-3-jikatu-2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Espiritu_Santos_Plaza_at_Miami_Financial_District_by_Architect_Kohn_Pedersen_Fox_120313-3-jikatu-2.jpg",
+      "author": "Jimmy Baikovicius",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Espirito Santo Plaza backside.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Espirito_Santo_Plaza_backside.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Espirito Santo side.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Espirito_Santo_side.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Espirito Santo Bank.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Espirito_Santo_Bank.jpg",
+      "author": "Miami92",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/mia-espirito-santo-plaza.glb",
+  "source": "generators/mia-espirito-santo-plaza.ts"
+}

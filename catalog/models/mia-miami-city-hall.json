@@ -1,0 +1,55 @@
+{
+  "id": "mia-miami-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "city-hall",
+    "art-deco",
+    "streamline-moderne",
+    "aviation"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Miami city hall",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_city_hall.jpg",
+      "author": "Dtobias",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Miami FL Pan Am Bldg city hall02",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_FL_Pan_Am_Bldg_city_hall02.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "USA Tour 2019 P127 Miami Pan American Seaplane Base and Terminal Building",
+      "url": "https://commons.wikimedia.org/wiki/File:USA_Tour_2019_P127_Miami_Pan_American_Seaplane_Base_and_Terminal_Building.jpg",
+      "author": "Fallaner",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pan American Miami Terminal aerial view in the 1930s",
+      "url": "https://commons.wikimedia.org/wiki/File:Pan_American_Miami_Terminal_aerial_view_in_the_1930s.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/mia-miami-city-hall.glb",
+  "source": "generators/mia-miami-city-hall.ts"
+}

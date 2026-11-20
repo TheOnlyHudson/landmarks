@@ -1,0 +1,13 @@
+{
+  "id": "msp-grain-belt-sign",
+  "name": "Grain Belt Beer Sign",
+  "model": "msp-grain-belt-sign",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.263444,
+  "lat": 44.986139,
+  "bearing": 40.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q128960847",
+  "replaces": []
+}

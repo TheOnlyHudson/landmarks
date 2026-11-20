@@ -1,0 +1,17 @@
+{
+  "id": "mia-panorama-tower",
+  "name": "Panorama Tower",
+  "model": "mia-panorama-tower",
+  "place": "miami-area",
+  "lng": -80.1903794,
+  "lat": 25.7630483,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q4547246",
+  "replaces": [
+    "way/676817045",
+    "way/918579004",
+    "relation/13333747"
+  ]
+}

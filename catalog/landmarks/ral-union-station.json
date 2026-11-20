@@ -1,0 +1,15 @@
+{
+  "id": "ral-union-station",
+  "name": "Raleigh Union Station",
+  "model": "ral-union-station",
+  "place": "raleigh-area",
+  "wikidata": "Q7886096",
+  "lng": -78.647588,
+  "lat": 35.777227,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/607928709"
+  ]
+}

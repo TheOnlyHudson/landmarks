@@ -1,0 +1,14 @@
+{
+  "id": "ral-hunt-library",
+  "name": "James B. Hunt Jr. Library",
+  "model": "ral-hunt-library",
+  "place": "raleigh-area",
+  "lng": -78.6764248,
+  "lat": 35.7693268,
+  "bearing": 12,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/177166351"
+  ]
+}

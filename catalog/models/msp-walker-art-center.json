@@ -1,0 +1,80 @@
+{
+  "id": "msp-walker-art-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "art-museum",
+    "modernist",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q1851516",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Walker Art Center 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Walker_Art_Center_02.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Walker Art Center 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Walker_Art_Center_03.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Walker Art Center.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Walker_Art_Center.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "A view of the Walker Art Center exterior.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:A_view_of_the_Walker_Art_Center_exterior.jpg",
+      "author": "Paul VanDerWerf",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Walker Art Center-Minneapolis-061230.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Walker_Art_Center-Minneapolis-061230.jpg",
+      "author": "Aaron F",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Walker Art Center, May 2009.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Walker_Art_Center,_May_2009.jpg",
+      "author": "Richie Diesterheft",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Walker Art Center, October 2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Walker_Art_Center,_October_2017.jpg",
+      "author": "Daniel X. O'Neil",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Walker Art Center 2011.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Walker_Art_Center_2011.JPG",
+      "author": "Eco84",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/msp-walker-art-center.glb",
+  "source": "generators/msp-walker-art-center.ts"
+}

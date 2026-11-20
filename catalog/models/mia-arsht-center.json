@@ -1,0 +1,74 @@
+{
+  "id": "mia-arsht-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "performing-arts",
+    "opera-house",
+    "theatre",
+    "art-deco",
+    "cesar-pelli"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Adrienne Arsht Center for Performing Arts 20100203",
+      "url": "https://commons.wikimedia.org/wiki/File:Adrienne_Arsht_Center_for_Performing_Arts_20100203.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Adrienne Arsht Center, March 31, 2023",
+      "url": "https://commons.wikimedia.org/wiki/File:Adrienne_Arsht_Center,_March_31,_2023.jpg",
+      "author": "D. Benjamin Miller",
+      "license": "CC0"
+    },
+    {
+      "title": "The Arsht Center Looking North",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Arsht_Center_Looking_North.JPG",
+      "author": "Jorfer",
+      "license": "Public domain"
+    },
+    {
+      "title": "The Arsht Center From Highway",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Arsht_Center_From_Highway.JPG",
+      "author": "Jorfer",
+      "license": "Public domain"
+    },
+    {
+      "title": "Miami FL Arsht Center01",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_FL_Arsht_Center01.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Miami FL Arsht Center02",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_FL_Arsht_Center02.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County",
+      "url": "https://commons.wikimedia.org/wiki/File:Adrienne_Arsht_Center_for_the_Performing_Arts_of_Miami-Dade_County_-_Flickr_-_Phillip_Pessar.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/mia-arsht-center.glb",
+  "source": "generators/mia-arsht-center.ts"
+}

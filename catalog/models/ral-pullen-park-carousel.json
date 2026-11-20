@@ -1,0 +1,38 @@
+{
+  "id": "ral-pullen-park-carousel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "carousel",
+    "amusement",
+    "park"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q7259432",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Pullen Park carousel building.jpg",
+      "author": "RadioFan",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pullen_Park_carousel_building.jpg"
+    }
+  ],
+  "file": "models/ral-pullen-park-carousel.glb",
+  "source": "generators/ral-pullen-park-carousel.ts"
+}

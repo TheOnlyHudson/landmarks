@@ -1,0 +1,76 @@
+{
+  "id": "msp-robert-street-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "arch-bridge",
+    "concrete",
+    "road-bridge",
+    "river"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/msp-robert-street-bridge.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Robert Street Bridge",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Street_Bridge.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Robert Street Bridge from south",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Street_Bridge_from_south.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Robert Street Bridge from N",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Street_Bridge_from_N.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Robert St & Vertical-lift Rail Bridges",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_St_%26_Vertical-lift_Rail_Bridges.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Robert Street Bridge underside",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Street_Bridge_underside.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Robert Street Bridge 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Street_Bridge_01.jpg",
+      "author": "Michael Hicks",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Robert Street Bridge - St Paul, MN - panoramio (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Street_Bridge_-_St_Paul,_MN_-_panoramio_(1).jpg",
+      "author": "Gabriel Vanslette",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/msp-robert-street-bridge.glb",
+  "source": "generators/msp-robert-street-bridge.ts"
+}

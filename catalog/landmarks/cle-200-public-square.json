@@ -1,0 +1,21 @@
+{
+  "id": "cle-200-public-square",
+  "name": "200 Public Square",
+  "model": "cle-200-public-square",
+  "place": "cleveland-area",
+  "lng": -81.6918107,
+  "lat": 41.500014,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q2814434",
+  "replaces": [
+    "way/112985831",
+    "way/333522134",
+    "way/333522135",
+    "way/333522136",
+    "way/333522137",
+    "way/333522138",
+    "way/333522139"
+  ]
+}

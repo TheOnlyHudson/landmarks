@@ -1,0 +1,66 @@
+{
+  "id": "mia-miami-beach-post-office",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "art-deco",
+    "post-office",
+    "government"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Miami Beach Post Office 33139 - Washington Avenue 13th Street South Beach 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_Post_Office_33139_-_Washington_Avenue_13th_Street_South_Beach_03.jpg",
+      "author": "Daniel Di Palma",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Miami Beach Post Office 33139 - Washington Avenue 13th Street South Beach 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_Post_Office_33139_-_Washington_Avenue_13th_Street_South_Beach_01.jpg",
+      "author": "Daniel Di Palma",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Miami Beach Post Office",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_Post_Office.JPG",
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "US Post Office, Miami Beach, FL, USA",
+      "url": "https://commons.wikimedia.org/wiki/File:US_Post_Office,_Miami_Beach,_FL,_USA.jpg",
+      "author": "Lou Fernando",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Miami Beach - U.S. Post Office (postcard)",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_U.S._Post_Office.jpg",
+      "license": "Public domain"
+    },
+    {
+      "title": "Art Deco Post Office South Beach",
+      "url": "https://commons.wikimedia.org/wiki/File:Art_Deco_Post_Office_South_Beach_(12948494703).jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/mia-miami-beach-post-office.glb",
+  "source": "generators/mia-miami-beach-post-office.ts"
+}

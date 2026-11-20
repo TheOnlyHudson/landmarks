@@ -1,0 +1,22 @@
+{
+  "id": "cle-soldiers-and-sailors-monument",
+  "name": "Soldiers' and Sailors' Monument",
+  "model": "cle-soldiers-and-sailors-monument",
+  "place": "cleveland-area",
+  "lng": -81.6929277,
+  "lat": 41.49952,
+  "bearing": 326.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q7557370",
+  "replaces": [
+    "way/430783849",
+    "way/1078054875",
+    "way/1078054880",
+    "way/1078054881",
+    "way/1078274608",
+    "way/1078274609",
+    "way/1078274610",
+    "way/1078274611"
+  ]
+}
