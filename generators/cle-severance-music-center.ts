@@ -241,13 +241,13 @@ function build() {
 
   const flood = (p: V3, n: V3) => (p[1] < -30 && n[2] < 0.6 ? Math.max(0, 1 - p[2] / 24) * 0.8 : 0)
   return finishGlb('cle-severance-music-center', 'Severance Music Center', [
-    { part: stone, material: { ...finish('sev-sandstone', 0xe2d4ba), floodlight: flood } },
-    { part: trim, material: { ...finish('sev-sandstone-trim', 0xeee3cf), floodlight: flood } },
+    { part: stone, material: { ...finish('sev-sandstone', 0xe2d4ba), floodlight: flood } as typeof PALETTE.window },
+    { part: trim, material: { ...finish('sev-sandstone-trim', 0xeee3cf), floodlight: flood } as typeof PALETTE.window },
     { part: win, material: PALETTE.window },
     { part: roof, material: PALETTE.roof },
     { part: dome, material: finish('sev-drum-roof', 0xc8ccce) },
     // the shaded porch and the doorways: sandstone in shadow, as the photos show it
-    { part: shade, material: { ...finish('sev-porch-shade', 0x8a7d69), floodlight: flood } },
+    { part: shade, material: { ...finish('sev-porch-shade', 0x8a7d69), floodlight: flood } as typeof PALETTE.window },
   ], { bearing: 16, height: APEX, replaces: ['way/108400841'] }, 6500)
 }
 

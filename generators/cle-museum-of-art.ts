@@ -280,13 +280,13 @@ function build() {
 
   const flood = (p: V3, n: V3) => (p[1] < -60 && n[2] < 0.6 ? Math.max(0, 1 - p[2] / 30) * 0.8 : 0)
   return finishGlb('cle-museum-of-art', 'Cleveland Museum of Art', [
-    { part: marble, material: { ...finish('cma-marble', 0xebe6dc), floodlight: flood } },
+    { part: marble, material: { ...finish('cma-marble', 0xebe6dc), floodlight: flood } as typeof PALETTE.window },
     { part: granite, material: finish('cma-granite', 0x9fa2a5) },
     { part: win, material: PALETTE.window },
     { part: glass, material: { ...PALETTE.glass, color: 0x93a8b6 } },
     { part: roof, material: finish('cma-roof', 0xa39a8e) },
     // the shaded porch and recesses: marble in shadow, as the photos show it
-    { part: shade, material: { ...finish('cma-porch-shade', 0x8e8981), floodlight: flood } },
+    { part: shade, material: { ...finish('cma-porch-shade', 0x8e8981), floodlight: flood } as typeof PALETTE.window },
   ], { bearing: 352.5, height: 36.1, replaces: ['way/109114109', 'way/420174175', 'way/420173649', 'way/349671512'] }, 6500)
 }
 
