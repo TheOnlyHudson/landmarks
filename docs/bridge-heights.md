@@ -33,7 +33,7 @@ embankment: Barrelman starts those at the ground.
 
 From Barrelman 0.10.40, an `ele` on a node of a bridge's highway or
 railway way is the roadway height there. Like every `ele` in OSM it is in
-metres above the EGM96 geoid. From Barrelman 0.10.54
+metres above the EGM96 geoid. From Barrelman 0.10.55
 ([barrelman#490](https://github.com/alexwohlbruck/barrelman/pull/490)),
 Barrelman converts it to its terrain's datum before using it. In the
 conterminous US that datum is NAVD88, and Barrelman subtracts the same
@@ -194,7 +194,7 @@ The Coronado and Cabrillo decks, `CA_SanDiegoQL2_2014`:
 | | new, 32.7314296, −117.1537524 | 77.1 | Where the level deck starts to climb |
 
 These were tagged as the plain lidar values, before the rule to add the
-geoid gap. The gap in San Diego is 0.1 m, so Barrelman 0.10.54 and later
+geoid gap. The gap in San Diego is 0.1 m, so Barrelman 0.10.55 and later
 draw them about 0.1 m low, inside the rounding. The Coronado ends land on the toll-plaza fill and needed no tag. Checks:
 every value within 0.1 m of a fresh reading, spread under 0.1 m; bay water
 0.4–0.5 m in the same survey; Cabrillo's west end 77.1 m against 77.12 m
