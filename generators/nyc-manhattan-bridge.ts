@@ -129,7 +129,7 @@
 import { Part, cross, sub, writeGlb, type V3 } from './mesh'
 import { finish, type Swatch } from './palette'
 import {
-  along, band, bead, chamferedRect, face, footedLoft, footedWall, groundAt, merged, movedAlong, parabola, piecewise, rod, stations, strip, tube,
+  along, band, bead, chamferedRect, face, footedLoft, footedWall, groundAt, merged, movedAlong, parabola, piecewise, ribbon, rod, stations, strip, tube,
   type GroundGrid,
 } from './bridge-kit'
 
@@ -561,6 +561,13 @@ function approachPiers(stone: Part, seg: number) {
   }
 }
 
+/**
+ * The bikeway past the walkway runs' end at the Manhattan side, coming down
+ * faster than the roadway and bending out to its ramp, to the outline's end:
+ * OSM's way 46179218 in this frame and lidar (NAVD88), [x, y, z].
+ */
+const BIKE_TAIL: V3[] = [[16.9, WALK_RUNS[2][1], walkAt(WALK_RUNS[2][1])], [16.9, 918, H(19.6)], [19.4, 929, H(19.3)], [20.4, YM, H(18.9)]]
+
 /** The walkway (x < 0) and bikeway, the balconies round the towers' outer columns, and in detail their railings. */
 function paths(deck: Part, rail: Part | null, step = 20) {
   const railTop = (y: number) => walkAt(y) + 1.2
@@ -572,6 +579,7 @@ function paths(deck: Part, rail: Part | null, step = 20) {
     for (const run of WALK_RUNS) walk(rail ? stations(run[0], run[1], step) : lowStations(run), sx * WALK0, sx * WALK1, false)
     for (const t of [-TY, TY]) walk(stations(t - 7, t + 7, 7), sx * 16.4, sx * 20.6, true)
   }
+  ribbon(deck, BIKE_TAIL, WALK1 - WALK0, 0.5)
 }
 
 /** Stations for the low model: 40 m over the suspended spans, 80 m on the straight grades of the approaches. */
