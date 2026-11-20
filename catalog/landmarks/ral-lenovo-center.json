@@ -1,0 +1,15 @@
+{
+  "id": "ral-lenovo-center",
+  "name": "Lenovo Center",
+  "model": "ral-lenovo-center",
+  "place": "raleigh-area",
+  "wikidata": "Q39177",
+  "lng": -78.721897,
+  "lat": 35.803346,
+  "bearing": 142.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/47732090"
+  ]
+}
