@@ -1,0 +1,16 @@
+{
+  "id": "ral-dh-hill-library",
+  "name": "D. H. Hill Jr. Library",
+  "model": "ral-dh-hill-library",
+  "place": "raleigh-area",
+  "lng": -78.670275,
+  "lat": 35.787316,
+  "bearing": 15,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/21814620",
+    "way/242881687",
+    "way/47732447"
+  ]
+}
