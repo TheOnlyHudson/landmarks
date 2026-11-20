@@ -1,0 +1,16 @@
+{
+  "id": "cle-harbor-west-pierhead-light",
+  "name": "Cleveland Harbor West Pierhead Light",
+  "model": "cle-harbor-west-pierhead-light",
+  "place": "cleveland-area",
+  "lng": -81.71769,
+  "lat": 41.508971,
+  "bearing": 142,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q28374708",
+  "replaces": [
+    "way/414659280",
+    "way/414659282"
+  ]
+}
