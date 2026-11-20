@@ -59,6 +59,18 @@
       "url": "https://commons.wikimedia.org/wiki/File:Music_City_Center_-_acre_of_solar_panels.jpg",
       "author": "Rex Hammock",
       "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "6th Avenue South portal, Music City Center (Mapillary image 390040802122156)",
+      "url": "https://www.mapillary.com/app/?pKey=390040802122156",
+      "author": "Mapillary contributor",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Inside the 6th Avenue South passage (Mapillary image 967122520764473)",
+      "url": "https://www.mapillary.com/app/?pKey=967122520764473",
+      "author": "Mapillary contributor",
+      "license": "CC BY-SA 4.0"
     }
   ],
   "file": "models/nash-music-city-center.glb",

@@ -148,8 +148,9 @@ model from boxes, prisms and curves, and writes a GLB.
    See the [complete example](docs/reference.md#public-metadata).
 6. **Check it** with `bun run validate`, `bun run typecheck`, and `bun test`.
    Build the site and inspect both LODs, day/night lighting, credits, and OSM IDs.
-7. **Open a pull request** with a contact sheet
-   (`bun run sheet --terrain --branch-diff`).
+7. **Generate contact sheets and open a pull request** with them embedded
+   (`bun run sheet --terrain --branch-diff --out review/<batch>`). Every
+   model PR needs them; reviewers look at the sheets first.
 
 For an update, keep the existing model and placement IDs, regenerate the GLBs,
 and commit geometry, generator, and metadata together. Git supplies history;

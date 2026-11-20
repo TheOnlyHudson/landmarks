@@ -26,6 +26,10 @@
  * https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html
  * Primary roof 11.0 m above ground P10 (117.8 m). The taller returns
  * near the dormitory party walls belong to adjacent structures.
+ * The 2011 planning documents distinguish glazed courtyard entries from the
+ * more shielded neighborhood elevation. Story-height glazed units in the
+ * connector and labs are modeled in groups. Mullion spacing estimated.
+ * https://www.american.edu/finance/ppm/upload/exhibit-1-east-campus.pdf
  */
 import { CampusShell } from './dc-au-constitution-hall'
 import type { XY } from './sea-tacoma-union-station'
@@ -60,4 +64,15 @@ for (const edge of courtyard) {
   if (edge === 17 || edge === 24) building.lobby(a, b, 4.15)
   else building.bays(a, b, 0.85, 4.0, 5.8, 0.76)
 }
+// The connector between the two wings reads as joined glazing from the
+// courts. Open academic and lab bays have broader lites along this frontage.
+for (const edge of [17, 24]) {
+  const a = plan[edge], b = plan[edge + 1]
+  const length = Math.hypot(b[0] - a[0], b[1] - a[1])
+  const left = edge === 17 ? 9.5 : 4.4
+  const right = left + (edge === 17 ? 15.8 : 11.6)
+  building.curtain(a, b, left, right, 0.52, 9.9, 2.1, [4.35, 4.85, 7.6])
+  building.curtain(a, b, right + 1.6, length - 0.85, 5.95, 9.05, 2.2)
+}
+building.curtain(plan[20], plan[21], 0.47, 16.03, 1.04, 9.08, 2.25, [4.5, 5.10])
 await building.save('dc-au-don-myers-technology-and-innovation-building', 'Don Myers Technology and Innovation Building')

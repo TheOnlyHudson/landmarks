@@ -1,0 +1,54 @@
+{
+  "id": "nb-520-newport-center-drive",
+  "file": "models/nb-520-newport-center-drive.glb",
+  "detail": "models/nb-520-newport-center-drive.detail.glb",
+  "detailZoom": 16,
+  "source": "generators/nb-520-newport-center-drive.ts",
+  "license": "CC0-1.0",
+  "type": "building",
+  "collection": "landmarks",
+  "credits": [
+    {
+      "name": "Coping3174",
+      "kind": "person",
+      "role": "creator"
+    },
+    {
+      "name": "Codex",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "GPT-6"
+    }
+  ],
+  "tags": [
+    "office",
+    "modernist",
+    "travertine",
+    "high-rise"
+  ],
+  "reviewStatus": "draft",
+  "description": "A 96-metre travertine and glass office tower completed in 2015, designed by Pei Cobb Freed & Partners. The model preserves its rectangular lattice, taller top glazing and recessed double-height lobby. Low LOD groups typical floor rows; High LOD retains all 17. Dimensions beyond the published height and lobby are estimates. Visual study uses nine user-provided photos whose licenses are unverified; photos are not included. Publication provenance review remains outstanding.",
+  "references": [
+    {
+      "title": "Architect: design, structural bays and lobby dimensions",
+      "url": "https://www.pcf-p.com/projects/520-newport-center-drive/",
+      "author": "Pei Cobb Freed & Partners"
+    },
+    {
+      "title": "CTBUH: building height and completion",
+      "url": "https://www.skyscrapercenter.com/building/520-newport-center-drive/27156",
+      "author": "Council on Tall Buildings and Urban Habitat"
+    },
+    {
+      "title": "Tower footprint and address",
+      "url": "https://www.openstreetmap.org/way/953585213",
+      "author": "OpenStreetMap contributors",
+      "license": "ODbL-1.0"
+    },
+    {
+      "title": "Matching user-supplied exterior photographs (license unverified)",
+      "url": "https://www.pcf-p.com/projects/520-newport-center-drive/",
+      "author": "RMA Architectural Photography; Joshua White Photography"
+    }
+  ]
+}

@@ -14,9 +14,11 @@
         versions, and optionally a new node with `ele` inserted into a way at
         the nearest point of its nearest segment. Open it in JOSM to upload.
 
-Heights are metres in the lidar's vertical datum, NAVD88 in the US, which is
-what `ele` and the map's terrain use. See docs/bridge-heights.md for choosing
-the nodes, checking the values and publishing them.
+`measure` prints metres in the lidar's vertical datum, NAVD88 in the US.
+OSM's `ele` is metres above EGM96, so add the GEOID18 − EGM96 gap at the
+bridge before passing values to `osc`. Barrelman subtracts the same gap. See
+docs/bridge-heights.md for choosing the nodes, checking the values and
+publishing them.
 
 `measure` reads the lidar through tools/lidar.py, so it needs the same
 packages: pip install -r tools/requirements.txt. Point-cloud tiles are shared

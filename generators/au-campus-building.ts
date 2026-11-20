@@ -2,12 +2,16 @@
  * Roof facets are precomputed from each eave polygon so ridges stop at wing joints.
  * An opening belongs to one wall; no projecting window boxes or textures.
  */
-import { Part, type V3 } from './mesh'
+import { Part, writeGlb, type V3 } from './mesh'
+import { detailedWall, entranceSteps, type Sash } from './au-campus-facades'
 import { finish, PALETTE } from './palette'
-import { area, cap, lathe, onWall, panel, save, triangulate, walls, type XY } from './chi-aon-center'
+import { area, block, cap, lathe, parapetRoof, rect, onWall, panel, save, triangulate, walls, type XY } from './chi-aon-center'
 
 type WindowRow = [sill: number, head: number]
+interface Portico { edge: number; width: number; depth: number; height: number; columns: number; arcades?: boolean; piers?: boolean; pediment?: boolean; steps?: number }
 export interface CampusWing {
+  bayCounts?: Record<number, number>
+  colonnades?: Portico[]
   outline: XY[]
   eave: number
   rows: WindowRow[]
@@ -20,7 +24,7 @@ export interface CampusWing {
   band?: number
   roofFaces?: V3[][]
   archRow?: number
-  portico?: { edge: number; width: number; depth: number; height: number; columns: number; arcades?: boolean; piers?: boolean; pediment?: boolean }
+  portico?: Portico
 }
 export interface CampusBuilding {
   id: string
@@ -30,22 +34,32 @@ export interface CampusBuilding {
   masonry: number
   accent: number
   roof: number
+  sash?: Sash
+  chimneys?: XY[]
   wings: CampusWing[]
 }
 
 export async function buildCampusBuilding(building: CampusBuilding) {
+  await generate(building, false)
+  await generate(building, true)
+}
+
+async function generate(building: CampusBuilding, detail: boolean) {
+  const frame = new Part(), chimney = new Part()
   const body = new Part(), trim = new Part(), roof = new Part(), windows = new Part()
   for (const wing of building.wings) {
     const ring = wing.outline
     const bottom = wing.bottom ?? 0
     const base = wing.base ?? bottom
-    if (base > bottom) walls(trim, ring, bottom, base)
-    if (wing.band !== undefined) {
-      walls(body, ring, base, wing.band)
-      walls(trim, ring, wing.band, wing.band + 0.34)
-      walls(body, ring, wing.band + 0.34, wing.eave - 0.32)
-    } else walls(body, ring, base, wing.eave - 0.32)
-    walls(trim, ring, wing.eave - 0.32, wing.eave)
+    if (!detail) {
+      if (base > bottom) walls(trim, ring, bottom, base)
+      if (wing.band !== undefined) {
+        walls(body, ring, base, wing.band)
+        walls(trim, ring, wing.band, wing.band + 0.34)
+        walls(body, ring, wing.band + 0.34, wing.eave - 0.32)
+      } else walls(body, ring, base, wing.eave - 0.32)
+      walls(trim, ring, wing.eave - 0.32, wing.eave)
+    }
     if (wing.roofFaces) {
       for (const face of wing.roofFaces) {
         const xy: XY[] = face.map(([x,y]) => [x,y])
@@ -53,12 +67,17 @@ export async function buildCampusBuilding(building: CampusBuilding) {
         const plan: XY[] = vertices.map(([x,y]) => [x,y])
         for (const [a,b,c] of triangulate(plan)) roof.tri(vertices[a],vertices[b],vertices[c])
       }
-    } else cap(roof, ring, wing.eave)
+    } else if (detail && ring.length<=40 && !wing.bottom) parapetRoof(trim,roof,ring,wing.eave,.14,.17)
+    else cap(roof, ring, wing.eave)
     for (let i = 0; i < ring.length; i++) {
+      if (detail) {
+        detailedWall({body,trim,frame,windows},wing,i,building.sash??'plain')
+        continue
+      }
       const a = ring[i], b = ring[(i + 1) % ring.length]
       const wall = onWall(a,b)
       if (wall.L < (wing.minimumWall ?? 4) || wing.blankEdges?.includes(i)) continue
-      const count = Math.max(1, Math.round(wall.L / (wing.bayWidth + wing.pierWidth)))
+      const count = wing.bayCounts?.[i] ?? Math.max(1, Math.round(wall.L / (wing.bayWidth + wing.pierWidth)))
       const pitch = wall.L / count
       const width = Math.min(wing.bayWidth, pitch - Math.min(wing.pierWidth, pitch * .48))
       for (let bay = 0; bay < count; bay++) {
@@ -76,11 +95,11 @@ export async function buildCampusBuilding(building: CampusBuilding) {
         }
       }
     }
-    const entry = wing.portico
-    if (entry) {
+    for (const entry of [ ...(wing.portico ? [wing.portico] : []), ...(wing.colonnades ?? []) ]) {
       const a = ring[entry.edge], b = ring[(entry.edge + 1) % ring.length]
       const wall = onWall(a,b), w = Math.min(entry.width,wall.L*.92)
       const left = (wall.L-w)/2, right = left+w, d = entry.depth, h = entry.height
+      if (entry.steps) entranceSteps(trim,a,b,w,d,entry.steps)
       const point = (s:number,out:number): XY => wall.P(s,0,out).slice(0,2) as XY
       const porch = [point(left,d),point(right,d),point(right,0),point(left,0)]
       walls(trim,porch,h-.5,h)
@@ -123,8 +142,25 @@ export async function buildCampusBuilding(building: CampusBuilding) {
       panel(windows,a,b,wall.L/2-1,wall.L/2+1,0,Math.min(3.6,h-.55),.055)
     }
   }
-  await save(building.id,building.name,building.anchor,building.bearing,[
+  // Federal-style paired brick chimneys sit at the ends of the main ridge.
+  for (const [x,y] of building.chimneys ?? []) {
+    block(chimney,chimney,rect(x-.42,y-.58,x+.42,y+.58),8.8,10.85,.035)
+    block(chimney,chimney,rect(x-.49,y-.65,x+.49,y+.65),10.85,11.04,.025)
+  }
+  const materials = [
     {part:body,material:finish('masonry',building.masonry)}, {part:trim,material:finish('stone-trim',building.accent)},
     {part:roof,material:finish('roof',building.roof)}, {part:windows,material:PALETTE.window},
-  ])
+    {part:frame,material:finish('sash-frames',0x535c5b)}, {part:chimney,material:finish('brick-chimneys',0x976654)},
+  ].filter(entry=>entry.part.triangles)
+  if (!detail) {
+    await save(building.id,building.name,building.anchor,building.bearing,materials)
+    return
+  }
+  const triangles = materials.reduce((n, entry)=>n+entry.part.triangles,0)
+  const glb = writeGlb(building.name,materials,{frame:'Y up, -Z north, +X east; metres; ground anchor',anchor:building.anchor,bearing:building.bearing})
+  if (triangles>40_000 || glb.length>1_500_000) throw new Error(building.id+' exceeds the high detail budget')
+  const baseFile=process.argv[2] ?? new URL('../models/'+building.id+'.glb',import.meta.url).pathname
+  const detailFile=baseFile.replace(/(?:\.glb)?$/,'.detail.glb')
+  await Bun.write(detailFile,glb)
+  console.log(detailFile+': '+triangles+' triangles, '+glb.length+' bytes')
 }
