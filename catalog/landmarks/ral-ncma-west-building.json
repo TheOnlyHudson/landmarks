@@ -1,0 +1,14 @@
+{
+  "id": "ral-ncma-west-building",
+  "name": "North Carolina Museum of Art West Building",
+  "model": "ral-ncma-west-building",
+  "place": "raleigh-area",
+  "lng": -78.703789,
+  "lat": 35.811059,
+  "bearing": 6.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/99269122"
+  ]
+}
