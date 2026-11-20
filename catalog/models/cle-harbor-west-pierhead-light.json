@@ -1,0 +1,69 @@
+{
+  "id": "cle-harbor-west-pierhead-light",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "historic",
+    "lighthouse",
+    "waterfront",
+    "nrhp"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Cleveland Harbor West Pierhead Light (1910-11): a white conical steel lighthouse with a red lantern roof, joined to its red-roofed 1916 fog signal house on the steel-sheathed pierhead at the end of the west breakwater.",
+  "wikidata": "Q28374708",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleveland West Pierhead Light, Cleveland, OH",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_West_Pierhead_Light,_Cleveland,_OH.jpg",
+      "author": "Kuyacmh",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Lake Erie Lighthouse (42700447184)",
+      "url": "https://commons.wikimedia.org/wiki/File:Lake_Erie_Lighthouse_(42700447184).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Lake Erie Lighthouse (49839847497)",
+      "url": "https://commons.wikimedia.org/wiki/File:Lake_Erie_Lighthouse_(49839847497).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Harbor West Pierhead Lighthouse (30316531223)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Harbor_West_Pierhead_Lighthouse_(30316531223).jpg",
+      "author": "darlingtrk",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland West Pierhead Lighthouse",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_West_Pierhead_Lighthouse.jpg",
+      "author": "Mtbangert",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Cleveland West Pierhead Light - Lake Erie OH",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_West_Pierhead_Light_-_Lake_Erie_OH.jpg",
+      "author": "Tom Bower",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/cle-harbor-west-pierhead-light.glb",
+  "source": "generators/cle-harbor-west-pierhead-light.ts"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "msp-target-field",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "baseball",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Target Field Aerial",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Field_Aerial.jpg",
+      "author": "Lectrician2",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Target Field, Minneapolis, MN",
+      "url": "https://www.flickr.com/photos/84263554@N00/3942034207",
+      "author": "kla4067",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Target Field, Minneapolis",
+      "url": "https://www.flickr.com/photos/11375428@N04/34595384524",
+      "author": "Mac H (media601)",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Target Field, Minneapolis 6/20/23",
+      "url": "https://www.flickr.com/photos/38315261@N00/52993331304",
+      "author": "Sharon Mollerus",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Target Field (4051860538)",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Field_(4051860538).jpg",
+      "author": "Jerry Huddleston",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Target Field, Minneapolis, Minnesota (43167053335)",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Field,_Minneapolis,_Minnesota_(43167053335).jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Target Field-20100730",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Field-20100730.jpg",
+      "author": "Michael Hicks",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Target Field and skyline 2014-05-14",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Field_and_skyline_2014-05-14.jpg",
+      "author": "Schwerdf",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Target Field - Minnesota Twins Baseball Park and Stadium, Minnesota (47827858372)",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Field_-_Minnesota_Twins_Baseball_Park_and_Stadium,_Minnesota_(47827858372).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Target Field, Minneapolis - Minnesota Twins Stadium (28037934671)",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Field,_Minneapolis_-_Minnesota_Twins_Stadium_(28037934671).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Target Field, Minneapolis (51981334827)",
+      "url": "https://commons.wikimedia.org/wiki/File:Target_Field,_Minneapolis_(51981334827).jpg",
+      "author": "Chad Davis",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/msp-target-field.glb",
+  "source": "generators/msp-target-field.ts"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "msp-pillsbury-a-mill",
+  "name": "Pillsbury A-Mill",
+  "model": "msp-pillsbury-a-mill",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.2529804,
+  "lat": 44.983812,
+  "bearing": 30,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2095095",
+  "replaces": [
+    "way/41763926",
+    "way/1539758527",
+    "way/1539758529",
+    "way/114074740",
+    "way/1539758528",
+    "way/1539758530",
+    "way/1539758531",
+    "way/1539758534"
+  ]
+}

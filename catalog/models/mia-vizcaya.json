@@ -1,0 +1,74 @@
+{
+  "id": "mia-vizcaya",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum",
+    "villa",
+    "mediterranean-revival",
+    "national-historic-landmark"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Main house, Villa Vizcaya, Miami, Florida, USA - 20130909-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_house,_Villa_Vizcaya,_Miami,_Florida,_USA_-_20130909-01.jpg",
+      "author": "Jacklee",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vizcaya Museum and Gardens 060524 DSC6656",
+      "url": "https://commons.wikimedia.org/wiki/File:Vizcaya_Museum_and_Gardens_060524_DSC6656.jpg",
+      "author": "Leslie Platt",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Vizcaya Museum and Gardens 060524 DSC6661",
+      "url": "https://commons.wikimedia.org/wiki/File:Vizcaya_Museum_and_Gardens_060524_DSC6661.jpg",
+      "author": "Leslie Platt",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Vizcaya Museum and Gardens 060524 DSC6665",
+      "url": "https://commons.wikimedia.org/wiki/File:Vizcaya_Museum_and_Gardens_060524_DSC6665.jpg",
+      "author": "Leslie Platt",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Vizcaya Museum and Gardens 060524 DSC6702",
+      "url": "https://commons.wikimedia.org/wiki/File:Vizcaya_Museum_and_Gardens_060524_DSC6702.jpg",
+      "author": "Leslie Platt",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Villa Vizcaya 20110228",
+      "url": "https://commons.wikimedia.org/wiki/File:Villa_Vizcaya_20110228.jpg",
+      "author": "Averette",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Villa Vizcaya, Miami FL 2013",
+      "url": "https://www.flickr.com/photos/28426323@N08/11658297213",
+      "author": "leoncillo sabino",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/mia-vizcaya.glb",
+  "source": "generators/mia-vizcaya.ts"
+}

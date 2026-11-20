@@ -1,0 +1,14 @@
+{
+  "id": "ral-nature-research-center",
+  "name": "Nature Research Center (Daily Planet)",
+  "model": "ral-nature-research-center",
+  "place": "raleigh-area",
+  "lng": -78.640914,
+  "lat": 35.782309,
+  "bearing": 3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/148163972"
+  ]
+}

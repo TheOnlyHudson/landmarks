@@ -1,0 +1,14 @@
+{
+  "id": "ral-heck-andrews-house",
+  "name": "Heck-Andrews House",
+  "model": "ral-heck-andrews-house",
+  "place": "raleigh-area",
+  "lng": -78.636616,
+  "lat": 35.784257,
+  "bearing": 3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/47776980"
+  ]
+}

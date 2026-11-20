@@ -1,0 +1,12 @@
+{
+  "id": "cle-playhouse-square-chandelier",
+  "name": "GE Chandelier",
+  "model": "cle-playhouse-square-chandelier",
+  "place": "cleveland-area",
+  "lng": -81.681821,
+  "lat": 41.5009036,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

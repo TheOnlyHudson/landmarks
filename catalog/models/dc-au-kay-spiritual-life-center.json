@@ -15,7 +15,8 @@
     {
       "name": "Salty Pancakes",
       "kind": "person",
-      "role": "creator"
+      "role": "creator",
+      "github": "saltypancakes-1"
     },
     {
       "name": "OpenAI Codex",

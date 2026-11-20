@@ -1,0 +1,67 @@
+{
+  "id": "cle-amasa-stone-chapel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "chapel",
+    "gothic-revival",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Amasa Stone Chapel, Case Western Reserve University, Cleveland, OH",
+      "url": "https://commons.wikimedia.org/wiki/File:Amasa_Stone_Chapel,_Case_Western_Reserve_University,_Cleveland,_OH_(28593892137).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Amasa Stone Chapel Case Western Reserve University Circle",
+      "url": "https://commons.wikimedia.org/wiki/File:Amasa_Stone_Chapel_Case_Western_Reserve_University_Circle.jpg",
+      "author": "Usaf 1832",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "AmasaStone.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:AmasaStone.jpg",
+      "author": "Spencer",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "Amasa Stone Chapel from Wade Park",
+      "url": "https://commons.wikimedia.org/wiki/File:Amasa_Stone_Chapel_from_Wade_Park.jpg",
+      "author": "Westmoon26",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Amasa Stone Chapel, Case Western Reserve University (rear gable)",
+      "url": "https://www.flickr.com/photos/59081381@N03/52979077502",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Amasa Stone Chapel, Case Western Reserve University (side bays)",
+      "url": "https://www.flickr.com/photos/59081381@N03/52979077647",
+      "author": "Warren LeMay",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/cle-amasa-stone-chapel.glb",
+  "source": "generators/cle-amasa-stone-chapel.ts"
+}

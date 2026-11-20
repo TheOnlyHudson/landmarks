@@ -1,0 +1,19 @@
+{
+  "id": "cle-rock-and-roll-hall-of-fame",
+  "name": "Rock and Roll Hall of Fame",
+  "model": "cle-rock-and-roll-hall-of-fame",
+  "place": "cleveland-area",
+  "lng": -81.6954772,
+  "lat": 41.5085188,
+  "bearing": 10,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q179191",
+  "replaces": [
+    "relation/10703171",
+    "way/381414589",
+    "way/1534393250",
+    "way/1534631765",
+    "way/1535041638"
+  ]
+}

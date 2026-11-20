@@ -1,0 +1,17 @@
+{
+  "id": "cle-sherwin-williams-tower",
+  "name": "Sherwin-Williams Headquarters Tower",
+  "model": "cle-sherwin-williams-tower",
+  "place": "cleveland-area",
+  "lng": -81.6963392,
+  "lat": 41.4989795,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/1191713344",
+    "way/1534268802",
+    "way/1534564253",
+    "way/1534564254"
+  ]
+}

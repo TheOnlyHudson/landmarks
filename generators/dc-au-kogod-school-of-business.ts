@@ -1,4 +1,7 @@
 /**
+ * Factual cross-check (building identity/floor labels only):
+ * https://map-american.university-tour.com/kogod-dollhouse
+ * Tour illustrations and photos are not geometry evidence.
  * Kogod School of Business, American University. The former John Sherman
  * Myers Law Building, a short linking bay and a second pavilion span 81 m
  * along the campus grid. Plan extents and the right-angled returns were
@@ -25,10 +28,10 @@
  * dataset 9837), via the 1 m building DSM and DEM derivatives at
  * https://github.com/kameronlee/heat-aware-pedestrian-routing/tree/456fd09d67aae857907e8c2b7fa6c19332734bd5
  */
-import { Part } from './mesh'
+import { Part, type V3 } from './mesh'
 import { PALETTE } from './palette'
 import { arc, cbox, column, grow, panel, rect, save, wallRing, type Rect, type Side } from './dc-white-house'
-import { pslab, type XY } from './dc-nga-west'
+import { pannulus, poffset, pslab, type XY } from './dc-nga-west'
 
 const stone=new Part(), trim=new Part(), roof=new Part(), window=new Part(), door=new Part()
 function pavilion(r:Rect,eaves:number) {
@@ -41,11 +44,25 @@ function pavilion(r:Rect,eaves:number) {
 }
 
 // The two terminal bays project 2.3 m beyond the recessed quad elevation.
-const old=rect(-10.02,10.27,-37.48,8.38),eaves=11.28
-pavilion(old,eaves)
-for(const [lo,hi] of [[-37.48,-21.1],[-7.83,8.38]]) {
-  pavilion(rect(10.20,12.56,lo,hi),eaves)
+const old: XY[] = [[-10.02,-37.48],[12.56,-37.48],[12.56,-21.1],[10.27,-21.1],
+  [10.27,-7.83],[12.56,-7.83],[12.56,8.38],[-10.02,8.38]]
+// The principal roof surface is 10.5 m high. The 12.7 m perimeter follows
+// the projecting bay ends; no parapet crosses the roof between these bays.
+pslab(stone,old,0,10.53,0.04,roof)
+const recess=poffset(old,-0.44)
+const ledge=poffset(old,0.15)
+for (let i=0;i<old.length;i++) {
+  const j=(i+1)%old.length
+  const v=(ring:XY[],k:number,z:number):V3=>[...ring[k],z]
+  for (const [bottom,top,r] of [[10.53,11.98,old],[11.98,12.18,ledge],[12.18,12.65,old]] as const) {
+    const face=r===ledge?trim:stone
+    face.quad(v(r,i,bottom),v(r,j,bottom),v(r,j,top),v(r,i,top))
+  }
+  stone.quad(v(recess,j,10.53),v(recess,i,10.53),v(recess,i,12.65),v(recess,j,12.65))
 }
+pannulus(trim,ledge,old,11.98,false)
+pannulus(trim,ledge,old,12.18)
+pannulus(trim,old,recess,12.65)
 // Former lecture building and connecting wing of the 2009 expansion.
 const north=rect(-15.03,10.50,17.59,35.43)
 pavilion(north,11.95)
@@ -102,7 +119,11 @@ for (const degrees of [51,77,103,129]) {
 pslab(stone,bow(11.36),9.77,11.39,0.10)
 pslab(trim,bow(11.50),11.36,11.67,0.095,roof)
 for (const x of [-6.10,-2.23,1.64]) {
-  panel(door,'n',35.43,x-1.16,x+1.16,1.02,4.05,0.08)
+  // Recessed paired doors and transom behind the north columns.
+  panel(trim,'n',35.43,x-1.28,x+1.28,0.97,4.28,0.06)
+  panel(window,'n',35.43,x-1.10,x+1.10,1.02,4.03,0.08)
+  panel(trim,'n',35.43,x-.065,x+.065,1.02,3.44,0.11)
+  panel(trim,'n',35.43,x-1.10,x+1.10,3.44,3.60,0.11)
   panel(window,'n',35.43,x-1.16,x+1.16,4.34,8.94)
 }
 for (const x of [-12.31,7.84]) lights('n',35.43,x,3.18,1.36,9.92)

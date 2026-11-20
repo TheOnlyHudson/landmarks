@@ -1,0 +1,14 @@
+{
+  "id": "ral-wake-county-courthouse",
+  "name": "Wake County Courthouse",
+  "model": "ral-wake-county-courthouse",
+  "place": "raleigh-area",
+  "lng": -78.639894,
+  "lat": 35.776268,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/47663721"
+  ]
+}

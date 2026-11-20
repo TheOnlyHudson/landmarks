@@ -1,0 +1,86 @@
+{
+  "id": "cle-museum-of-art",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "art-museum",
+    "historic",
+    "neoclassical",
+    "university-circle"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleveland Museum of Art aerial",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Museum_of_Art_aerial.jpg",
+      "author": "Percival Kestreltail",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cleveland Museum of Art",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Museum_of_Art.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Museum of Art 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Museum_of_Art_01.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Museum of Art 2013",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Museum_of_Art_2013.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Museum of Art south entrance 2012",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Museum_of_Art_south_entrance_2012.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Museum of Art and Wade Park Lagoon (8114544737)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Museum_of_Art_and_Wade_Park_Lagoon_(8114544737).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Museum of Art north entrance",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Museum_of_Art_north_entrance.jpg",
+      "author": "edwardhblake",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Museum of Art Breuer Entrance",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Museum_of_Art_Breuer_Entrance.jpg",
+      "author": "Heidi Strean",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Museum of Art - Cleveland, OH",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Museum_of_Art_-_Cleveland,_OH.jpg",
+      "author": "Upstateherd",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/cle-museum-of-art.glb",
+  "source": "generators/cle-museum-of-art.ts"
+}

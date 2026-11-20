@@ -1,0 +1,73 @@
+{
+  "id": "mia-fontainebleau",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "hotel",
+    "historic",
+    "miami-modern",
+    "morris-lapidus"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fontainebleau Miami Beach Aerial 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:Fontainebleau_Miami_Beach_Aerial_2025.jpg",
+      "author": "InvadingInvader",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Miami Beach FL Fontainebleau pano01",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_FL_Fontainebleau_pano01.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Miami Beach FL Fontainebleau05",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_FL_Fontainebleau05.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Fontainebleau Hotel Miami Beach FL1",
+      "url": "https://commons.wikimedia.org/wiki/File:Fontainebleau_Hotel_Miami_Beach_FL1.jpg",
+      "author": "Acroterion",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detail of Fontainbleau Hotel Miami Beach",
+      "url": "https://commons.wikimedia.org/wiki/File:Detail_of_Fontainbleau_Hotel_Miami_Beach.jpg",
+      "author": "Phillip Pessar",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Fontainebleau-11",
+      "url": "https://commons.wikimedia.org/wiki/File:Fontainebleau-11.jpg",
+      "author": "Visitor7",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Miami Beach - Air view of Hotel Fontainebleau",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_Air_view_of_Hotel_Fontainebleau.jpg",
+      "author": "Tichnor Brothers, Inc.",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/mia-fontainebleau.glb",
+  "source": "generators/mia-fontainebleau.ts"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "den-equitable-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "office",
+    "historic",
+    "renaissance-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Equitable building",
+      "url": "https://commons.wikimedia.org/wiki/File:Equitable_building.jpg",
+      "author": "Hustvedt",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Equitable Building from 17th (5186086061)",
+      "url": "https://commons.wikimedia.org/wiki/File:Equitable_Building_from_17th_(5186086061).jpg",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Beautiful Building in Downtown Denver (5186593222)",
+      "url": "https://commons.wikimedia.org/wiki/File:Beautiful_Building_in_Downtown_Denver_(5186593222).jpg",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Denver CO - Equitable Building (NBY 431753)",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_CO_-_Equitable_Building_(NBY_431753).jpg",
+      "author": "Detroit Publishing Co.",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/den-equitable-building.glb",
+  "source": "generators/den-equitable-building.ts"
+}

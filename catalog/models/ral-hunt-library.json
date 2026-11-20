@@ -1,0 +1,60 @@
+{
+  "id": "ral-hunt-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "library",
+    "university",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hunt Library Exterior 2.JPG",
+      "author": "Seannator",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hunt_Library_Exterior_2.JPG"
+    },
+    {
+      "title": "Hunt Library Exterior 4.JPG",
+      "author": "Seannator",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hunt_Library_Exterior_4.JPG"
+    },
+    {
+      "title": "Hunt Library Exterior 1.JPG",
+      "author": "Seannator",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hunt_Library_Exterior_1.JPG"
+    },
+    {
+      "title": "Hunt Library Siding View.JPG",
+      "author": "Seannator",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hunt_Library_Siding_View.JPG"
+    },
+    {
+      "title": "Hunt Library, NC State Univ.",
+      "author": "Payton Chung",
+      "license": "CC BY 2.0",
+      "url": "https://www.flickr.com/photos/41813589@N00/8759757086"
+    }
+  ],
+  "file": "models/ral-hunt-library.glb",
+  "source": "generators/ral-hunt-library.ts"
+}

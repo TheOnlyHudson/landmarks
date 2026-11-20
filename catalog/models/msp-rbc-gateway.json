@@ -1,0 +1,61 @@
+{
+  "id": "msp-rbc-gateway",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "hotel",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "RBC.Gateway.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:RBC.Gateway.jpg",
+      "author": "Digdugsmug",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "RBC Gateway Tower, Nicollet Mall, Minneapolis, MN",
+      "url": "https://www.flickr.com/photos/59081381@N03/52834800601",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "RBC Gateway Tower, Nicollet Mall, Minneapolis, MN",
+      "url": "https://www.flickr.com/photos/59081381@N03/52834800161",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "RBC Gateway Tower, Nicollet Mall, Minneapolis, MN",
+      "url": "https://www.flickr.com/photos/59081381@N03/52835203570",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "RBC Gateway building under construction. (May 10, 2020).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:RBC_Gateway_building_under_construction._(May_10,_2020).jpg",
+      "author": "Czbik",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/msp-rbc-gateway.glb",
+  "source": "generators/msp-rbc-gateway.ts"
+}

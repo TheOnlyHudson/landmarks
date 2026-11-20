@@ -1,0 +1,55 @@
+{
+  "id": "mia-ermita-de-la-caridad",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "shrine",
+    "modernist",
+    "catholic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Ermita De La Caridad",
+      "url": "https://www.flickr.com/photos/25955895@N03/9481503960",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Ermita de la Caridad",
+      "url": "https://www.flickr.com/photos/28426323@N08/3664387272",
+      "author": "leoncillo sabino",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Miami Ermita de la Caridad 2012",
+      "url": "https://www.flickr.com/photos/28426323@N08/7750929872",
+      "author": "leoncillo sabino",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "ERMITA DE LA CARIDAD DEL COBRE-MIAMI - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:ERMITA_DE_LA_CARIDAD_DEL_COBRE-MIAMI_-_panoramio.jpg",
+      "author": "Ivan Curra",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/mia-ermita-de-la-caridad.glb",
+  "source": "generators/mia-ermita-de-la-caridad.ts"
+}

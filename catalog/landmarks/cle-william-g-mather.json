@@ -1,0 +1,15 @@
+{
+  "id": "cle-william-g-mather",
+  "name": "SS William G. Mather",
+  "model": "cle-william-g-mather",
+  "place": "cleveland-area",
+  "lng": -81.6980975,
+  "lat": 41.5093112,
+  "bearing": 146.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7605487",
+  "replaces": [
+    "way/172623124"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "msp-hennepin-avenue-bridge",
+  "name": "Hennepin Avenue Bridge",
+  "model": "msp-hennepin-avenue-bridge",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.2638476,
+  "lat": 44.9853225,
+  "bearing": 58.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1605373",
+  "replaces": [
+    "way/424129526"
+  ]
+}

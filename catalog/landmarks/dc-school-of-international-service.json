@@ -8,7 +8,8 @@
   "elevation": 0,
   "minzoom": 14,
   "replaces": [
-    "way/48082911"
+    "way/48082911",
+    "relation/914201"
   ],
   "place": "washington-area"
 }

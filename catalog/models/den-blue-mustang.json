@@ -1,0 +1,54 @@
+{
+  "id": "den-blue-mustang",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "public-art",
+    "sculpture",
+    "horse"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "BLUCIFER: horse of doom...",
+      "url": "https://www.flickr.com/photos/78863070@N00/6070167891",
+      "author": "agahran",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Blucifer-Michael-Sinko.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Blucifer-Michael-Sinko.jpg",
+      "author": "Michael Sinko",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Blucifer at the Denver International Airport",
+      "url": "https://www.flickr.com/photos/36520720@N04/15384910808",
+      "author": "Mike Sinko Photography",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "_MG_5009",
+      "url": "https://www.flickr.com/photos/36520720@N04/39359159900",
+      "author": "Mike Sinko Photography",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/den-blue-mustang.glb",
+  "source": "generators/den-blue-mustang.ts"
+}

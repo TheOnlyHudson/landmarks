@@ -1,0 +1,55 @@
+{
+  "id": "msp-saint-paul-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "civic",
+    "art-deco",
+    "skyscraper"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "St Paul City Hall & Ramsey County Courthouse.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Paul_City_Hall_%26_Ramsey_County_Courthouse.jpg"
+    },
+    {
+      "title": "Saint Paul City Hall.jpg",
+      "author": "Mulad",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Paul_City_Hall.jpg"
+    },
+    {
+      "title": "Saint Paul City Hall - Ramsey County Courthouse exterior.jpg",
+      "author": "RamseyCountyMN",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Paul_City_Hall_-_Ramsey_County_Courthouse_exterior.jpg"
+    },
+    {
+      "title": "St. Paul City Hall and Ramsey County Court House (postcard)",
+      "author": "MCAD Library",
+      "license": "CC BY 2.0",
+      "url": "https://www.flickr.com/photos/mcadlibrary/10676291664"
+    }
+  ],
+  "file": "models/msp-saint-paul-city-hall.glb",
+  "source": "generators/msp-saint-paul-city-hall.ts"
+}

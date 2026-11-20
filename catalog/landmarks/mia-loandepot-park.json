@@ -1,0 +1,15 @@
+{
+  "id": "mia-loandepot-park",
+  "name": "loanDepot park",
+  "model": "mia-loandepot-park",
+  "place": "miami-area",
+  "lng": -80.2196152,
+  "lat": 25.7780833,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1368138",
+  "replaces": [
+    "relation/8736190"
+  ]
+}

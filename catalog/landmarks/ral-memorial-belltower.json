@@ -1,0 +1,14 @@
+{
+  "id": "ral-memorial-belltower",
+  "name": "NC State Memorial Belltower",
+  "model": "ral-memorial-belltower",
+  "place": "raleigh-area",
+  "lng": -78.6635002,
+  "lat": 35.7861408,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/47917976"
+  ]
+}

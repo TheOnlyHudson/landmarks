@@ -1,0 +1,85 @@
+{
+  "id": "msp-us-bank-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "american-football",
+    "contemporary",
+    "etfe-roof"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "U.S. Bank Stadium",
+      "url": "https://commons.wikimedia.org/wiki/File:U.S._Bank_Stadium.jpg",
+      "author": "Lectrician2",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "US Bank Stadium - West Facade",
+      "url": "https://commons.wikimedia.org/wiki/File:US_Bank_Stadium_-_West_Facade.jpg",
+      "author": "Darb02",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "U.S. Bank Stadium 2021-09-23",
+      "url": "https://commons.wikimedia.org/wiki/File:U.S._Bank_Stadium_2021-09-23.jpg",
+      "author": "August Schwerdfeger",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Minneapolis April 2025 18 (U.S. Bank Stadium)",
+      "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_April_2025_18_(U.S._Bank_Stadium).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "U.S. Bank Stadium from the interstate, August 2018",
+      "url": "https://commons.wikimedia.org/wiki/File:U.S._Bank_Stadium_from_the_interstate,_August_2018.jpg",
+      "author": "Thomson200",
+      "license": "CC0"
+    },
+    {
+      "title": "US Bank Stadium",
+      "url": "https://commons.wikimedia.org/wiki/File:US_Bank_Stadium.jpg",
+      "author": "Chad Davis",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "US Bank Stadium, Minneapolis (50463445462)",
+      "url": "https://commons.wikimedia.org/wiki/File:US_Bank_Stadium,_Minneapolis_(50463445462).jpg",
+      "author": "Chad Davis",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "U.S. Bank Stadium, Minneapolis (26060829448)",
+      "url": "https://commons.wikimedia.org/wiki/File:U.S._Bank_Stadium,_Minneapolis_(26060829448).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "US Bank Stadium (Southeast) - Sep. 5, 2015",
+      "url": "https://commons.wikimedia.org/wiki/File:US_Bank_Stadium_(Southeast)_-_Sep._5,_2015.jpg",
+      "author": "Pipdipchip",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/msp-us-bank-stadium.glb",
+  "source": "generators/msp-us-bank-stadium.ts"
+}

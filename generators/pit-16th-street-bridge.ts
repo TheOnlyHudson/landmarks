@@ -32,19 +32,41 @@
  * lidar's railings and arch planes lie parallel to it, 1 m south-west of
  * the outline's centre line, which the anchor follows).
  *
- * Height. z = 0 is the river (216.35 m NAVD88 in lidar). Ground under the
+ * Height. z = 0 is the river (216.35 m NAVD88 in lidar; the bare-earth
+ * model's water under the bridge reads 216.27). Ground under the
  * piers, bents and abutments is the map's terrain (Mapterhorn, its river at
  * 216.25 m) from a 6 m table in this frame (`GROUND`), so the feet land on
  * the terrain the map draws.
  *
- * Roadway heights built to (lidar lower quartile across the lanes, read
- * every 6 m): 10.75 m at the Strip District abutment (y = −350), 12.5 at
- * −300, 13.6 at the south pylons (−129.5), 14.8 at the crown of the deck
- * (y = 6 to 24), 14.3 at the north river pier, 12.2 at the north pylons
- * (+153), 9.8 at the North Side abutment (+232): NAVD88 227.1, 231.2,
- * 228.6 and 226.2 m. The OSM outline and roadways way/28388796 and
- * way/465555707 carry no height or ele: these are the heights to give the
- * map. No road surface is drawn; the sidewalks are the model's.
+ * Roadway heights built to (`road`; lidar lower quartile on the roadway's
+ * OSM way, read every 20 m with tools/bridge_ele.py, November 2026): 9.6 m
+ * where 16th Street lands at grade (y = −393), 10.3 at the bridge way's
+ * south end (−371), climbing ~4 % to 12.0 at −331 and 12.7 at −291, then
+ * 0.7 % to 13.7 at −151, 14.2 at −91, a crest of 14.8 at mid centre span,
+ * 14.4 at +64, falling ~3 % to 12.1 at +144, 9.8 at the north end (+219)
+ * and 9.1 where Chestnut Street lands (+250). NAVD88 is these plus 216.35.
+ * The sidewalks read 0.1-0.2 m above the roadway. `ele` for the map:
+ * ~/landmarks-scratch/osm-ele/pit-16th-street-bridge.osc (docs/bridge-heights.md).
+ *
+ * Placement fix (November 2026). The first build placed every feature
+ * 12.5 m too far toward the North Side in this frame: in lidar, read in the
+ * catalog's frame, the sphere tops stand at y = −141.8 and +140.3 (the
+ * model had −129.5 and +153), OSM's river piers are centred at −67 and
+ * +67.5 (model −54.5, +79.5), and the roadway profile matched with the same
+ * 12.5 m offset. The catalog anchor is right (it sits on mid centre span),
+ * so the geometry moved: piers −67/+67, pylons −142/+140.5, arch ends
+ * −139.5/−67/+67/+138, bents, road profile. `GROUND` was sampled in the
+ * catalog frame and is unchanged (resampled to check: identical).
+ *
+ * Ends. The model now runs from y = −371.3, the south end of the bridge
+ * way (way/465555707; the outline stops at −362.7), to +220, the outline's
+ * and the bridge way's north end (way/28388796). At both ends the deck is
+ * still 2.5-3.5 m above the street beside it, and the road goes on as
+ * non-bridge 16th Street and Chestnut Street to land 20-25 m further on
+ * (−390 and +242 in lidar, on fill the map draws as street); so each end
+ * finishes on a 4 m sandstone abutment block down to the map's terrain,
+ * its face toward the river. The low model's bent columns are plain square
+ * shafts to stay under the 250 KB cap.
  *
  * Sources:
  * - OSM: outline way/663074978 (man_made=bridge, bridge:structure=arch,
@@ -55,12 +77,12 @@
  *   inside the outline.
  * - Lidar, USGS 3DEP PA_WesternPA_2_2019 (2019): 1 m grid over the whole
  *   bridge, 0.5 m grids at the crown and both pairs of pylons, 1 m at the
- *   Strip District end. Arch crowns 45.2 m (centre, at y = 12.5), 33.1 m
- *   (south, y = −90.75) and 32.4 m (north, y = 114.75); the top chords
+ *   Strip District end. Arch crowns 45.2 m (centre, at y = 0), 33.1 m
+ *   (south, y = −103.25) and 32.4 m (north, y = 102.5); the top chords
  *   meet over the river piers at 24.9 m (road + 10.4) and end at the
  *   pylons at road + 9; truss planes at x ±6.6, sidewalks to ±9.3,
- *   railings 1.3 m above them; river piers centred at y = −54.5 and 79.5;
- *   pylons at x ±8, about 4.2 m square, centred at y = −129.5 and 153,
+ *   railings 1.3 m above them; river piers centred at y = −67 and +67;
+ *   pylons at x ±8, about 4.2 m square, centred at y = −142 and +140.5,
  *   stone to road + 14.5, sphere tops at road + 21.4 (35.2 m south, 33.7 m
  *   north).
  * - Published (Wikipedia "David McCullough Bridge"; NRHP 79002163): opened
@@ -112,18 +134,21 @@ const ground = (x: number, y: number) => (y > -110 && y < 140 ? 0 : Math.max(0, 
 
 // Roadway from lidar (metres above the water).
 const road = piecewise([
-  [-372, 10.0], [-350, 10.75], [-300, 12.5], [-252, 13.0], [-204, 13.2], [-150, 13.6], [-84, 14.2], [-30, 14.5],
-  [6, 14.8], [24, 14.75], [60, 14.5], [90, 14.1], [108, 13.7], [126, 13.2], [156, 12.2], [186, 11.2], [222, 10.1], [240, 9.6],
+  [-393, 9.6], [-381, 10.0], [-371, 10.3], [-363, 10.65], [-351, 11.17], [-339, 11.62], [-331, 11.98], [-321, 12.3],
+  [-311, 12.53], [-291, 12.74], [-271, 12.9], [-251, 13.05], [-231, 13.13], [-211, 13.24], [-191, 13.37], [-171, 13.49],
+  [-151, 13.69], [-131, 13.86], [-111, 14.04], [-91, 14.18], [-71, 14.33], [-51, 14.46], [-31, 14.62], [-11, 14.77],
+  [2, 14.79], [24, 14.63], [64, 14.37], [84, 14.03], [104, 13.44], [124, 12.84], [144, 12.12], [164, 11.46], [184, 10.84],
+  [204, 10.2], [219, 9.76], [239, 9.28], [250, 9.1],
 ])
 
-const ENDS = -350, ENDN = 232
-const PIERS = [-54.5, 79.5]
-const PYLONS = [-129.5, 153]
+const ENDS = -371.3, ENDN = 220
+const PIERS = [-67, 67]
+const PYLONS = [-142, 140.5]
 type Span = { y0: number; y1: number; peak: number; panels: number; end0: number; end1: number }
 const SPANS: Span[] = [
-  { y0: -127, y1: -54.5, peak: 33.1, panels: 9, end0: 9.2, end1: 10.4 },
-  { y0: -54.5, y1: 79.5, peak: 45.2, panels: 16, end0: 10.4, end1: 10.4 },
-  { y0: 79.5, y1: 150.5, peak: 32.4, panels: 9, end0: 10.4, end1: 9.2 },
+  { y0: -139.5, y1: -67, peak: 33.1, panels: 9, end0: 9.2, end1: 10.4 },
+  { y0: -67, y1: 67, peak: 45.2, panels: 16, end0: 10.4, end1: 10.4 },
+  { y0: 67, y1: 138, peak: 32.4, panels: 9, end0: 10.4, end1: 9.2 },
 ]
 const XT = 6.6                    // truss planes
 const WALK_IN = 7.25, WALK_OUT = 9.35, WALK_UP = 0.2
@@ -347,13 +372,15 @@ for (const yP of PYLONS) {
 }
 
 // ---- Approach bents and abutments ----------------------------------------------------
-const bents = [...stations(-150, -330, 20), ...stations(173, 213, 20)]
+const bents = [...stations(-162.5, -362.5, 20), ...stations(160.5, 200.5, 20)]
 for (const y of bents) {
   const cap = road(y) - 1.6
   both((p) => box(p, -WALK_OUT + 0.4, WALK_OUT - 0.4, y - 0.5, y + 0.5, cap - 0.9, cap), gold, goldDet)
   for (const s of [-1, 1]) {
     const x = s * 6
-    footedLoft(gold, ground, [{ plan: chamferedRect(x - 0.4, x + 0.4, y - 0.4, y + 0.4, 0.1), z: 'ground' }, { plan: chamferedRect(x - 0.4, x + 0.4, y - 0.4, y + 0.4, 0.1), z: cap - 0.9 }], 3, false)
+    // Low: a plain square column (no chamfer) to stay under the 250 KB cap.
+    const sq: [number, number][] = [[x - 0.4, y - 0.4], [x + 0.4, y - 0.4], [x + 0.4, y + 0.4], [x - 0.4, y + 0.4]]
+    footedLoft(gold, ground, [{ plan: sq, z: 'ground' }, { plan: sq, z: cap - 0.9 }], 1, false)
     footedLoft(goldDet, ground, [{ plan: chamferedRect(x - 0.4, x + 0.4, y - 0.4, y + 0.4, 0.1), z: 'ground' }, { plan: chamferedRect(x - 0.4, x + 0.4, y - 0.4, y + 0.4, 0.1), z: cap - 0.9 }], 3, false)
     rod(goldDet, [x, y, cap - 4], [s * 8.6, y, cap - 0.9], 0.18, 4)
     rod(goldDet, [x, y, cap - 4], [s * 2.5, y, cap - 0.9], 0.18, 4)
@@ -392,7 +419,7 @@ const detail = [
 const extras = {
   license: 'CC0-1.0', frame: 'Y up, -Z north, +X east, metres; origin on the deck centre line at mid centre span, on the water',
   bearing: 317.878, elevation: 0, piers: PIERS, pylons: PYLONS, ends: [ENDS, ENDN],
-  roadway: { south: road(ENDS), southPylons: road(PYLONS[0]), crown: road(12), northPylons: road(PYLONS[1]), north: road(ENDN) }, waterNAVD88: 216.35,
+  roadway: { south: road(ENDS), southPylons: road(PYLONS[0]), crown: road(0), northPylons: road(PYLONS[1]), north: road(ENDN) }, waterNAVD88: 216.35,
 }
 const count = (l: { part: Part }[]) => l.reduce((n, { part }) => n + part.triangles, 0)
 for (const [file, list, maxTris, maxBytes] of [

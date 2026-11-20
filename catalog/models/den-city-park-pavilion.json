@@ -1,0 +1,48 @@
+{
+  "id": "den-city-park-pavilion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "spanish-revival",
+    "park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Ferril Lake Boat House.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ferril_Lake_Boat_House.jpg",
+      "author": "DrexRockman",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "City Park",
+      "url": "https://www.flickr.com/photos/99624358@N00/15130457254",
+      "author": "halseike",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "City Park overlooking Ferril Lake and Downtown Denver.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Park_overlooking_Ferril_Lake_and_Downtown_Denver.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/den-city-park-pavilion.glb",
+  "source": "generators/den-city-park-pavilion.ts"
+}

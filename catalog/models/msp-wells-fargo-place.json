@@ -1,0 +1,49 @@
+{
+  "id": "msp-wells-fargo-place",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q7981660",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Wells Fargo Saint Paul 2.JPG",
+      "author": "AlexiusHoratius",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Saint_Paul_2.JPG"
+    },
+    {
+      "title": "World Trade Center St. Paul, MN - panoramio.jpg",
+      "author": "Gabriel Vanslette",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:World_Trade_Center_St._Paul,_MN_-_panoramio.jpg"
+    },
+    {
+      "title": "Wells Fargo building 1 - panoramio.jpg",
+      "author": "Jon Platek",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_building_1_-_panoramio.jpg"
+    }
+  ],
+  "file": "models/msp-wells-fargo-place.glb",
+  "source": "generators/msp-wells-fargo-place.ts"
+}

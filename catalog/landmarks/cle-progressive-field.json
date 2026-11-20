@@ -1,0 +1,16 @@
+{
+  "id": "cle-progressive-field",
+  "name": "Progressive Field",
+  "model": "cle-progressive-field",
+  "place": "cleveland-area",
+  "lng": -81.685201,
+  "lat": 41.495938,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1154053",
+  "replaces": [
+    "relation/3421281",
+    "way/25312466"
+  ]
+}

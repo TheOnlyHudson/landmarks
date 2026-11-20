@@ -3,12 +3,14 @@
  * procedural, CC0-1.0.
  * bun generators/det-ambassador-bridge.ts
  *
- * The suspended river crossing, anchorage to anchorage: the two lattice
+ * The river crossing from the Detroit anchorage to the Windsor abutment: the two lattice
  * towers with their stacked X bracing and the red "AMBASSADOR / BRIDGE"
  * signs on top, the two main cables and the free backstays down to the
  * anchorages, the suspenders, the stiffening trusses of the main span, the
  * side spans' deck trusses on their braced steel bents, and the concrete
- * anchorages with their pylons where the cables go down. Writes a low model
+ * anchorages with their pylons where the cables go down, and the Windsor
+ * approach viaduct, deck truss on braced bent towers, from the Windsor pylons to
+ * the abutment where the deck lands. Writes a low model
  * (trusses as solid bands, no suspenders) and a detail model (open trusses,
  * suspenders, floor beams, bent bracing, serifed letters).
  *
@@ -28,8 +30,12 @@
  *   crest 226.74 m (51.9 here) at midspan, a parabola falling 9.3e-5 y²
  *   to 44.6 at both towers (219.5 m); the Detroit side span straight at
  *   4.97 % to 29.8 at the Detroit pylons (y = -577); the Windsor side span
- *   at 3.91 % to 34.5 at its pylons (y = +530). These are the roadway
- *   heights the trusses are built to; OSM carries no `ele` on the deck.
+ *   at 3.91 % to 34.5 at its pylons (y = +530); the Windsor approach from
+ *   the lidar readings every 25 m (APPROACH_ROAD), 3.27 % down to 15.4 at
+ *   y = 1135, then 1.4 % down to 13.9 where the deck lands (y = 1225).
+ *   These are the roadway heights the trusses are built to, within 0.13 m
+ *   of every lidar reading; the `ele` tags proposed for OSM from the same
+ *   readings are in ~/landmarks-scratch/osm-ele/det-ambassador-bridge.md.
  * - towers: strut tops 113, leg tops 115–116, sign tops 119–120 (both
  *   towers agree to 0.3 m); legs centred 10.4 m either side of the axis.
  * - cables: 9.5 m either side; 56.2 m (top) at midspan, entering the saddles
@@ -53,9 +59,25 @@
  * name", facing the nearer shore.
  *
  * OSM: the bridge outline way/988967484 (man_made=bridge, Q12575), y =
- * -582…+537 (it carries on into Windsor as way/988967485, the approach
- * viaduct, which the model leaves to the map); the towers way/469346651
+ * -582…+537; the Windsor approach viaduct's outline way/988967485, y =
+ * +537…+1254, which the model draws to its end; the towers way/469346651
  * (Detroit) and way/656928839 (Windsor), 23.8 x 5.5 m, height 118.
+ *
+ * The ends. Windsor: the approach's deck truss, 5.5 m deep where the deck
+ * is high and shallower over the last 300 m (0.6 of the deck's height over
+ * the ground, at least 2.2 m), stands on bent towers (two bents 6 m apart,
+ * X-braced on each side, as Woodrich's photo shows past the pylons) about every
+ * 36 m and lands on a concrete abutment at y = 1222, 0.4 m under the
+ * roadway, where the lidar's surface meets the roadway on every side and
+ * the bridge way (way/37319544) ends. Over its last 60 m it bends west with
+ * the road (approachX, the road's lidar centre line). Detroit: the model
+ * ends at the anchorage pier, the face of the pylons at y = -584 (both
+ * pylons stand on the ground, with the cap beam between them under the
+ * roadway). Past it the deck carries on as a steel approach truss to the
+ * US plaza, but OSM maps that part only as bridge=yes road ways (way/4898838
+ * to y = -715, then the one-way carriageways and the plaza ramps), with no
+ * man_made=bridge outline, so the map draws it with its own piers and
+ * parapets, and the model leaves it to the map.
  *
  * Photos (Wikimedia Commons; daylight unless noted):
  * - "Ambassador Bridge from the Detroit River, Windsor, Ontario,
@@ -107,7 +129,10 @@
  * Look-only (not used for shape): "The Ambassador Bridge - A night shot",
  *   jebin, Flickr 4686171067, CC BY-ND 2.0 (lights, as Eckstein).
  * Doubts: the anchorages' form under the deck is read from lidar tops and
- *   two photos; the Detroit anchorage has no clear daylight photo. A tall
+ *   two photos; the Detroit anchorage has no clear daylight photo. The
+ *   Windsor approach's bent stations are evenly spaced, not measured (the
+ *   bents stand under the deck, where the lidar doesn't reach); its truss
+ *   depth is read from Woodrich's photo, not measured. A tall
  *   lattice mast beside the Detroit side span in the December 2025 photo
  *   is not in the 2017 lidar or the other photos and is left out. The
  *   south-west sidewalk was removed in 2013; nothing here depends on it.
@@ -116,7 +141,7 @@
  * red). The towers are not floodlit.
  */
 import { Part, cross, sub, writeGlb, type V3 } from './mesh'
-import { along, band, bead, footedLoft, groundAt, merged, parabola, rod, stations, strip, truss, tube, type GroundGrid } from './bridge-kit'
+import { along, band, bead, footedLoft, groundAt, merged, parabola, piecewise, rod, stations, strip, truss, tube, type GroundGrid } from './bridge-kit'
 import { beam, box, one, type Skin } from './sf-golden-gate-bridge'
 import { Pen, strokes, type Pt } from './lettering'
 import { finish } from './palette'
@@ -129,10 +154,28 @@ const DET_PYLON = -569.5, WIN_PYLON = 522
 const DET_BLOCK = -541, WIN_BLOCK = 505   // anchorage blocks' tower-facing faces
 
 const CREST = 51.9, K = 9.3e-5
+/**
+ * The Windsor approach's roadway (lidar, tools/bridge_ele.py on way/37319544
+ * every 25 m, spread under 0.15 m), metres above the river, from the
+ * Windsor pylons to where the deck lands.
+ */
+const APPROACH_ROAD: [number, number][] = [
+  [531.9, 34.64], [556.9, 33.8], [581.9, 33.0], [606.9, 32.16], [631.9, 31.31], [656.9, 30.52], [681.9, 29.71],
+  [706.9, 28.89], [731.9, 28.08], [756.9, 27.25], [781.9, 26.46], [806.9, 25.64], [831.9, 24.83], [856.9, 24.01],
+  [881.9, 23.18], [906.9, 22.37], [931.9, 21.58], [956.9, 20.74], [981.9, 19.96], [1006.9, 19.09], [1031.9, 18.3],
+  [1056.9, 17.47], [1106.9, 15.9], [1124.4, 15.58], [1135.4, 15.43], [1160.4, 15.19], [1173, 15.09], [1180.1, 15.02],
+  [1187.5, 14.9], [1192.5, 14.83], [1197.8, 14.76], [1204.4, 14.6], [1211.2, 14.36], [1218.3, 14.12], [1224.8, 13.94],
+]
+const approachRoad = piecewise(APPROACH_ROAD)
+/** Where the Windsor approach lands: the abutment's face, at the end of the bridge way. */
+const ABUT = 1222
+/** The approach's centre line across x: straight on the axis, then bending west with the road to the abutment. */
+const approachX = piecewise([[1160, 0], [1173, -0.5], [1180, -1.4], [1187.5, -3], [1192.5, -4.8], [1197.8, -7.3], [1204.4, -11.1], [1211.2, -15.9], [1218.3, -21.1], [1224.8, -26.5]])
 const roadAtTower = CREST - K * TY * TY
 /** The roadway (lidar), metres above the river. */
 const road = (y: number): number => {
   if (Math.abs(y) <= TY) return CREST - K * y * y
+  if (y >= APPROACH_ROAD[0][0]) return approachRoad(y)
   return y < 0 ? roadAtTower - 0.0497 * (-y - TY) : roadAtTower - 0.0391 * (y - TY)
 }
 
@@ -170,15 +213,38 @@ const DET_GROUND: GroundGrid = { y0: -600, x0: -30, step: 10, z: [
   [3.9, 2.9, 3.4, 3.2, 3.1, 2.9, 2.8], [3.8, 3.2, 3.2, 3.1, 3.1, 2.7, 2.7], [1.5, 2.8, 2.7, 2.9, 3.2, 3.0, 2.8],
   [0.1, 0.1, 1.4, 2.0, 2.9, 2.8, 3.3], [0.1, 0.1, 0.1, 0.1, 1.2, 2.4, 3.1], [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3],
 ] }
-const WIN_GROUND: GroundGrid = { y0: 330, x0: -30, step: 10, z: [
-  [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1], [1.5, 0.9, 0.7, 0.5, 0.3, 0.1, 0.1], [1.4, 1.0, 1.1, 1.1, 1.0, 0.7, 0.4],
-  [1.2, 0.9, 1.2, 1.1, 1.0, 1.1, 1.3], [1.2, 1.1, 1.3, 1.2, 1.0, 1.1, 1.0], [1.5, 1.2, 1.2, 1.2, 1.1, 0.9, 1.0],
-  [1.9, 1.5, 1.4, 1.3, 1.1, 1.1, 1.2], [2.1, 1.6, 1.5, 1.4, 1.3, 1.3, 1.4], [2.2, 1.8, 1.7, 1.7, 1.7, 1.8, 2.0],
-  [2.4, 2.1, 2.0, 2.1, 2.1, 2.4, 2.6], [2.8, 2.5, 2.5, 2.5, 2.6, 2.9, 3.0], [2.9, 2.8, 2.8, 2.9, 2.9, 3.2, 3.4],
-  [2.9, 2.9, 2.9, 3.1, 3.2, 3.4, 3.8], [3.2, 3.0, 3.1, 3.1, 3.2, 3.6, 3.9], [3.3, 3.2, 3.2, 3.3, 3.4, 3.6, 3.9],
-  [3.6, 3.4, 3.5, 3.6, 3.7, 4.1, 4.1], [3.7, 3.6, 3.6, 3.8, 3.9, 4.0, 4.1], [3.9, 3.8, 3.8, 3.9, 4.0, 4.1, 4.2],
-  [4.2, 4.1, 4.1, 4.0, 4.2, 4.3, 4.5], [4.5, 4.4, 4.5, 4.4, 4.6, 4.7, 4.9], [4.9, 4.8, 5.0, 5.1, 5.2, 5.0, 5.2],
-  [5.1, 5.1, 5.4, 5.6, 5.5, 5.2, 5.1], [5.4, 5.4, 5.6, 5.7, 5.8, 5.4, 5.5], [5.6, 5.6, 5.6, 5.7, 5.8, 5.9, 6.0],
+const WIN_GROUND: GroundGrid = { y0: 330, x0: -60, step: 10, z: [
+  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [1.3, 1.4, 1.3, 1.4, 0.7, 0.5, 0.4, 0.2, 0.0, 0.0], [1.1, 1.1, 1.1, 1.3, 0.9, 1.0, 0.9, 0.8, 0.6, 0.3],
+  [1.1, 1.0, 1.0, 1.1, 0.8, 1.0, 1.0, 0.9, 1.0, 1.1], [1.3, 1.2, 1.1, 1.1, 0.9, 1.2, 1.1, 0.9, 0.9, 0.8], [2.3, 2.0, 1.8, 1.3, 1.1, 1.0, 1.0, 1.0, 0.8, 0.9],
+  [3.0, 2.7, 2.5, 1.7, 1.4, 1.3, 1.2, 1.0, 1.0, 1.0], [3.6, 3.2, 2.8, 2.0, 1.5, 1.3, 1.3, 1.1, 1.1, 1.2], [4.0, 3.5, 2.7, 2.1, 1.7, 1.5, 1.5, 1.5, 1.6, 1.8],
+  [3.4, 3.4, 2.7, 2.2, 1.9, 1.9, 2.0, 2.0, 2.3, 2.4], [3.2, 3.0, 2.8, 2.6, 2.4, 2.4, 2.4, 2.5, 2.7, 2.9], [3.2, 3.0, 2.7, 2.7, 2.7, 2.6, 2.7, 2.8, 3.0, 3.2],
+  [2.9, 2.6, 2.9, 2.8, 2.7, 2.8, 2.9, 3.1, 3.3, 3.6], [3.6, 3.0, 3.2, 3.0, 2.9, 2.9, 3.0, 3.1, 3.4, 3.8], [4.6, 4.0, 3.6, 3.2, 3.1, 3.0, 3.2, 3.3, 3.5, 3.7],
+  [4.8, 4.6, 4.0, 3.4, 3.2, 3.3, 3.4, 3.5, 4.0, 4.0], [4.9, 4.7, 4.2, 3.5, 3.4, 3.5, 3.6, 3.8, 3.9, 4.0], [4.7, 4.6, 4.2, 3.8, 3.7, 3.7, 3.7, 3.9, 4.0, 4.0],
+  [4.0, 3.8, 4.0, 4.0, 3.9, 3.9, 3.9, 4.1, 4.2, 4.4], [4.5, 3.7, 4.3, 4.4, 4.3, 4.3, 4.3, 4.5, 4.5, 4.8], [5.1, 4.9, 4.9, 4.7, 4.6, 4.9, 5.0, 5.1, 4.9, 5.0],
+  [5.4, 5.4, 5.2, 4.9, 4.9, 5.3, 5.4, 5.4, 5.0, 5.0], [5.5, 5.4, 5.3, 5.3, 5.2, 5.5, 5.6, 5.7, 5.3, 5.3], [5.6, 5.4, 5.5, 5.5, 5.5, 5.4, 5.5, 5.7, 5.7, 5.9],
+  [6.1, 6.0, 5.8, 5.6, 5.6, 5.7, 5.7, 5.7, 5.7, 5.8], [6.2, 6.2, 6.2, 5.8, 5.8, 5.9, 5.9, 5.9, 5.9, 6.0], [6.3, 6.3, 6.3, 6.0, 5.9, 6.4, 6.2, 6.2, 6.1, 6.4],
+  [6.4, 6.4, 6.4, 6.1, 6.0, 6.4, 6.2, 6.2, 6.1, 6.4], [6.5, 6.5, 6.5, 6.1, 6.1, 6.5, 6.4, 6.3, 6.2, 6.4], [6.5, 6.5, 6.5, 6.2, 6.2, 6.5, 6.5, 6.4, 6.5, 6.8],
+  [6.7, 6.5, 6.6, 6.3, 6.3, 6.5, 6.5, 6.6, 6.7, 6.8], [7.1, 6.9, 6.7, 6.4, 6.4, 6.8, 6.7, 6.8, 6.9, 7.1], [7.1, 7.1, 6.9, 6.5, 6.5, 7.0, 6.9, 6.9, 7.0, 6.9],
+  [7.2, 7.2, 7.0, 6.7, 6.5, 7.0, 7.0, 6.9, 7.0, 7.2], [7.4, 7.3, 7.1, 6.7, 6.7, 7.1, 7.1, 7.0, 7.2, 7.4], [7.4, 7.4, 7.2, 6.8, 6.7, 7.1, 7.0, 7.0, 7.0, 7.3],
+  [7.3, 7.4, 7.1, 6.8, 6.7, 7.2, 7.1, 7.0, 7.0, 7.0], [7.4, 7.4, 7.2, 6.9, 6.8, 7.2, 7.1, 7.0, 7.0, 7.1], [7.3, 7.3, 7.2, 6.8, 6.7, 7.2, 7.1, 7.0, 7.0, 7.2],
+  [7.3, 7.4, 7.1, 6.8, 6.7, 7.2, 7.0, 6.9, 6.9, 6.9], [7.2, 7.1, 7.0, 6.8, 6.7, 7.1, 7.0, 6.8, 6.7, 6.9], [7.4, 7.1, 7.0, 6.7, 6.7, 7.1, 7.0, 6.8, 6.6, 6.8],
+  [7.3, 7.1, 7.0, 6.7, 6.6, 7.1, 7.1, 6.8, 6.7, 7.0], [7.3, 7.2, 7.0, 6.6, 6.6, 7.0, 7.0, 6.9, 6.8, 6.9], [7.2, 7.2, 7.0, 6.7, 6.6, 7.1, 7.0, 7.0, 6.9, 7.0],
+  [7.4, 7.2, 7.1, 6.6, 6.6, 6.6, 6.7, 6.6, 6.5, 6.5], [7.4, 7.3, 7.1, 6.7, 6.7, 6.6, 6.7, 6.7, 6.6, 6.6], [7.4, 7.3, 7.3, 6.9, 6.8, 7.2, 7.1, 6.9, 6.9, 6.9],
+  [7.7, 7.6, 7.4, 7.1, 6.9, 7.1, 7.0, 6.8, 6.7, 7.0], [7.5, 7.4, 7.5, 7.1, 6.9, 7.1, 7.0, 6.7, 6.7, 6.9], [7.4, 7.6, 7.4, 7.0, 6.9, 7.2, 7.0, 6.6, 6.6, 6.6],
+  [7.5, 7.4, 7.3, 7.0, 6.9, 7.2, 6.9, 6.6, 6.5, 6.6], [7.6, 7.4, 7.2, 7.0, 6.8, 7.2, 7.0, 6.6, 6.4, 6.3], [7.4, 7.2, 7.1, 6.8, 6.8, 7.0, 6.8, 6.4, 6.4, 6.4],
+  [8.5, 8.3, 7.0, 6.8, 6.7, 7.0, 6.7, 6.5, 6.3, 6.5], [7.6, 7.8, 6.9, 6.9, 6.7, 7.0, 6.8, 6.6, 6.5, 6.5], [7.4, 7.2, 7.1, 6.8, 6.7, 7.0, 6.8, 6.6, 6.7, 6.7],
+  [7.3, 7.1, 7.0, 6.8, 6.6, 7.0, 6.9, 6.7, 6.8, 6.8], [7.4, 7.2, 7.1, 6.8, 6.6, 7.0, 7.0, 6.8, 6.8, 6.7], [7.4, 7.2, 7.1, 6.8, 6.6, 7.0, 6.9, 6.7, 6.7, 6.4],
+  [7.2, 7.2, 7.1, 6.8, 6.6, 7.1, 6.9, 6.6, 6.6, 6.4], [5.7, 5.5, 6.7, 6.8, 6.5, 7.1, 6.9, 6.7, 6.6, 6.4], [5.5, 5.0, 5.8, 6.8, 6.5, 7.0, 6.9, 6.5, 6.5, 6.3],
+  [5.4, 4.9, 6.1, 6.7, 6.5, 6.7, 6.6, 6.4, 6.4, 6.3], [5.4, 5.5, 6.6, 6.7, 6.5, 6.8, 6.6, 6.4, 6.2, 6.3], [5.5, 6.0, 7.0, 6.7, 6.4, 6.5, 6.5, 6.4, 6.3, 6.3],
+  [5.8, 6.4, 7.0, 6.6, 6.4, 6.3, 6.2, 6.2, 6.2, 6.1], [6.2, 6.8, 7.0, 6.6, 6.4, 6.2, 6.1, 6.0, 6.0, 6.0], [6.5, 6.6, 7.0, 6.5, 6.3, 6.4, 6.4, 6.2, 6.2, 6.4],
+  [6.2, 6.4, 6.9, 6.5, 6.2, 6.4, 6.4, 6.2, 6.1, 6.5], [6.9, 7.0, 7.1, 6.5, 6.2, 6.5, 6.5, 6.3, 6.2, 6.7], [6.5, 6.6, 7.1, 6.5, 6.2, 6.5, 6.6, 6.5, 6.5, 7.0],
+  [6.0, 6.4, 7.1, 6.6, 6.4, 6.7, 6.9, 6.8, 6.9, 7.3], [7.0, 7.1, 7.2, 6.7, 6.6, 6.9, 7.1, 7.1, 7.1, 7.7], [7.0, 7.0, 7.0, 6.9, 6.9, 7.2, 7.4, 7.4, 7.5, 7.9],
+  [6.9, 6.9, 7.1, 7.2, 7.3, 7.5, 7.8, 7.8, 7.9, 8.2], [6.9, 7.1, 7.3, 7.5, 7.6, 7.6, 7.6, 7.7, 7.8, 8.0], [7.0, 7.5, 7.8, 7.8, 7.7, 7.7, 7.7, 7.8, 7.8, 7.9],
+  [7.6, 7.8, 8.0, 8.0, 7.8, 8.1, 8.3, 8.1, 8.2, 8.1], [7.8, 8.0, 8.1, 8.2, 7.8, 8.4, 8.4, 8.4, 8.4, 8.4], [8.0, 8.1, 8.2, 8.3, 7.9, 8.4, 8.6, 8.5, 8.4, 8.2],
+  [8.2, 8.2, 8.3, 8.3, 7.9, 8.3, 8.5, 8.4, 8.2, 8.0], [8.2, 8.2, 8.3, 8.3, 7.9, 8.2, 8.4, 8.4, 8.3, 8.2], [8.2, 8.2, 8.2, 8.2, 7.9, 8.2, 8.4, 8.2, 8.2, 7.9],
+  [8.0, 8.1, 8.1, 8.0, 7.7, 7.8, 7.9, 7.9, 7.8, 7.7], [7.9, 7.9, 7.9, 7.8, 7.5, 7.6, 7.6, 7.7, 7.7, 7.5], [7.8, 7.7, 7.7, 7.6, 7.4, 7.3, 7.4, 7.5, 7.6, 7.5],
+  [7.9, 7.7, 7.6, 7.4, 7.2, 7.4, 7.4, 7.5, 7.5, 7.4], [8.3, 8.0, 7.7, 7.7, 7.4, 7.5, 7.5, 7.4, 7.4, 7.3], [9.9, 10.6, 11.3, 10.0, 8.2, 7.8, 7.7, 7.5, 7.3, 7.2],
+  [10.5, 10.6, 10.5, 9.9, 8.9, 8.2, 7.8, 7.5, 7.3, 7.2], [10.8, 10.6, 10.2, 9.7, 9.0, 8.3, 7.8, 7.5, 7.3, 7.1],
 ] }
 /** The map's ground under (x, y), metres above the river (0 on the water). */
 const ground = (x: number, y: number): number => {
@@ -480,6 +546,91 @@ function cables(k: Kit, lod: Lod) {
   }
 }
 
+// ---- The Windsor approach ------------------------------------------------------------
+
+/** Bent towers under the Windsor approach, about every 36 m from the pylons to the abutment (estimated). */
+const APPROACH_BENTS = stations(WIN_END, ABUT, 36).slice(1, -1)
+const APPROACH_X = SIDE_TRUSS_X
+/**
+ * The approach truss's depth under the roadway: 5.5 m where the deck is high,
+ * shallower where it comes down over the Windsor streets toward the abutment.
+ */
+function approachDepth(y: number): number {
+  const g = Math.max(ground(-APPROACH_X, y), ground(APPROACH_X, y))
+  return Math.min(5.5, Math.max(2.2, 0.6 * (road(y) - g)))
+}
+
+/**
+ * The Windsor approach viaduct (OSM way/988967485), from the pylons' far
+ * face to the abutment where the deck lands: the deck truss on X-braced steel
+ * bent towers, as the side spans', but shallower. Drawn straight along the axis in a
+ * kit of its own and then bent sideways (x += approachX(y)) to follow the
+ * road's curve over the last 60 m.
+ */
+function approach(k: Kit, lod: Lod) {
+  const a = newKit(), S = steel(a)
+  // Ground under a point of the straight drawing, read where it ends up after the bend.
+  const g0 = (x: number, y: number) => ground(x + approachX(y), y)
+  const top = (y: number) => road(y) + SIDE_UP, bot = (y: number) => road(y) - approachDepth(y)
+  const ys = stations(WIN_END, ABUT, lod === 'low' ? 56 : 9)
+  for (const s of [-1, 1]) {
+    if (lod === 'low') {
+      band(a.teal, s * (APPROACH_X - 0.4), s * (APPROACH_X + 0.4), ys, top, (y) => bot(y) + 0.01, { out: true, in: true, top: true })
+      band(a.shade, s * (APPROACH_X - 0.4), s * (APPROACH_X + 0.4), ys, (y) => bot(y) + 0.01, bot, { bottom: true })
+    } else {
+      truss(a.teal, a.web, s * APPROACH_X, ys, top, bot, { chordW: 0.8, topD: 0.7, botD: 0.8, member: 0.4 })
+    }
+  }
+  band(a.shade, -APPROACH_X + 0.4, APPROACH_X - 0.4, ys, (y) => road(y) - 0.6, (y) => road(y) - 1.6, { bottom: true })
+  if (lod === 'detail') for (let i = 0; i + 1 < ys.length; i += 2) {
+    const [y, y2] = [ys[i], ys[i + 1]]
+    strip(a.web, [-APPROACH_X, y, bot(y) + 0.4], [APPROACH_X, y2, bot(y2) + 0.4], 0.4, [0, 0, 1])
+  }
+  // Bent towers, as the side spans': two bents 6 m apart, each two posts
+  // under the trusses and a cap girder, X-braced between them on each side.
+  // The low model draws every other tower, with one cap across both bents.
+  for (const yc of APPROACH_BENTS.filter((_, i) => lod === 'detail' || i % 2 === 0)) {
+    const ya = yc - 3, yb = yc + 3
+    if (lod === 'low') box(S, -APPROACH_X - 0.6, APPROACH_X + 0.6, ya - 0.5, yb + 0.5, Math.min(bot(ya), bot(yb)) - 1.0, Math.max(bot(ya), bot(yb)), { r: 0 })
+    for (const y of [ya, yb]) {
+      const capTop = bot(y), capBot = capTop - 1.0
+      if (lod === 'detail') box(S, -APPROACH_X - 0.6, APPROACH_X + 0.6, y - 0.5, y + 0.5, capBot, capTop, { r: 0 })
+      for (const s of [-1, 1]) {
+        const x = s * APPROACH_X, h = 0.5
+        const plan: [number, number][] = [[x - h, y - h], [x + h, y - h], [x + h, y + h], [x - h, y + h]]
+        footedLoft(a.teal, g0, [{ plan, z: 'ground' }, { plan, z: capBot + 0.05 }], 4, false)
+      }
+    }
+    const gz = Math.max(g0(-APPROACH_X, yc), g0(APPROACH_X, yc)) + 1, zTop = Math.min(bot(ya), bot(yb)) - 1.0
+    if (zTop - gz < 3) continue
+    const levels = lod === 'low' ? [gz, zTop] : stations(gz, zTop, 9)
+    for (const s of [-1, 1]) {
+      const x = s * APPROACH_X
+      for (let i = 0; i + 1 < levels.length; i++) {
+        const [za, zb] = [levels[i], levels[i + 1]]
+        beam(S, [x, ya + 0.4, za], [x, yb - 0.4, zb], 0.45, 0.45, [1, 0, 0])
+        beam(S, [x, yb - 0.4, za], [x, ya + 0.4, zb], 0.45, 0.45, [1, 0, 0])
+      }
+    }
+  }
+  // The abutment: a concrete wall across the deck's end from the ground to
+  // 0.4 m under the roadway, its face toward the river, and short wing walls.
+  const zt = road(ABUT) - 0.4
+  const wall: [number, number][] = [[-APPROACH_X - 1.5, ABUT], [APPROACH_X + 1.5, ABUT], [APPROACH_X + 1.5, ABUT + 3], [-APPROACH_X - 1.5, ABUT + 3]]
+  footedLoft(a.concrete, g0, [{ plan: wall, z: 'ground' }, { plan: wall, z: zt }], lod === 'low' ? 6 : 3)
+  for (const s of [-1, 1]) {
+    const x0 = s * (APPROACH_X + 0.4), x1 = s * (APPROACH_X + 1.5)
+    const wing: [number, number][] = [[Math.min(x0, x1), ABUT - 8], [Math.max(x0, x1), ABUT - 8], [Math.max(x0, x1), ABUT], [Math.min(x0, x1), ABUT]]
+    footedLoft(a.concrete, g0, [{ plan: wing, z: 'ground' }, { plan: wing, z: road(ABUT - 8) - 0.4 }], 4)
+  }
+  // Bend it to the road and add it to the bridge's parts.
+  for (const key of Object.keys(a) as (keyof Kit)[]) {
+    const part = a[key]
+    for (let i = 0; i < part.pos.length; i += 3) part.pos[i] += approachX(-part.pos[i + 2])
+    for (const f of ['pos', 'nrm', 'uv'] as const) for (const v of part[f]) k[key][f].push(v)
+  }
+}
+
 // ---- Build ------------------------------------------------------------------------
 
 function build(lod: Lod): Kit {
@@ -489,6 +640,7 @@ function build(lod: Lod): Kit {
   span(k, lod)
   anchorage(k, DET_BLOCK, DET_PYLON, DET_END, 12.5, 34)
   anchorage(k, WIN_BLOCK, WIN_PYLON, WIN_END, 14.5, 38.5)
+  approach(k, lod)
   cables(k, lod)
   return k
 }
@@ -514,8 +666,8 @@ if (import.meta.main) {
   ]
   const extras = {
     license: 'CC0-1.0', frame: 'Y up, -Z north, +X east, metres; origin midway between the towers, on the river',
-    bearing: 154.298, elevation: 0, towers: [-TY, TY], ends: [DET_END, WIN_END],
-    roadwayMidspan: road(0), roadwayAtTowers: roadAtTower, roadwayEnds: [road(DET_END), road(WIN_END)],
+    bearing: 154.298, elevation: 0, towers: [-TY, TY], ends: [DET_END, ABUT],
+    roadwayMidspan: road(0), roadwayAtTowers: roadAtTower, roadwayEnds: [road(DET_END), road(ABUT)],
   }
   for (const [file, parts, maxTris, maxBytes] of [
     ['det-ambassador-bridge.glb', list(low, 'low'), 6500, 250 * 1024],

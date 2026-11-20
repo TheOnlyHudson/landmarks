@@ -1,0 +1,15 @@
+{
+  "id": "den-equitable-building",
+  "name": "Equitable Building",
+  "model": "den-equitable-building",
+  "place": "denver-area",
+  "lng": -104.99195,
+  "lat": 39.7463239,
+  "bearing": 45,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/82874458"
+  ],
+  "wikidata": "Q5384616"
+}

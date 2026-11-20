@@ -1,0 +1,91 @@
+{
+  "id": "cle-hope-memorial-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "truss-bridge",
+    "art-deco",
+    "sculpture"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hope Memorial Bridge (12705200384).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hope_Memorial_Bridge_(12705200384).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Hope Memorial Bridge (15015005779).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hope_Memorial_Bridge_(15015005779).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Hope Memorial Bridge (8036218728).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hope_Memorial_Bridge_(8036218728).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "OBLIQUE VIEW - Lorain-Carnegie Bridge, Spanning Cuyahoga River, Clevel 4726x3775 Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:OBLIQUE_VIEW_-_Lorain-Carnegie_Bridge,_Spanning_Cuyahoga_River,_Cleveland,_Cuyahoga_County,_OH_HAER_OHIO,18-CLEV,39-2_(CT).tif",
+      "author": "Lowe, Jet, creator",
+      "license": ""
+    },
+    {
+      "title": "Guardians of Traffic.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Guardians_of_Traffic.jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Hope Memorial Bridge, Cleveland, OH.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hope_Memorial_Bridge,_Cleveland,_OH.jpg",
+      "author": "Bobport10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hope Memorial Bridge (35174007910).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hope_Memorial_Bridge_(35174007910).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Bridge and amphitheater.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridge_and_amphitheater.jpg",
+      "author": "brx0",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Lorain-Carnegie Bridge - Cleveland.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Lorain-Carnegie_Bridge_-_Cleveland.jpg",
+      "author": "Upstateherd",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hope Memorial Bridge (35392731042).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hope_Memorial_Bridge_(35392731042).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/cle-hope-memorial-bridge.glb",
+  "source": "generators/cle-hope-memorial-bridge.ts"
+}

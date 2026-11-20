@@ -1,0 +1,68 @@
+{
+  "id": "mia-frost-science",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "science-museum",
+    "planetarium",
+    "aquarium",
+    "museum-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Frost Science Museum",
+      "url": "https://www.flickr.com/photos/25955895@N03/39168495632",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Phillip And Patricia Frost Museum Of Science Miami",
+      "url": "https://www.flickr.com/photos/25955895@N03/27184894249",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Frost Science Museum Construction",
+      "url": "https://www.flickr.com/photos/25955895@N03/32775954083",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Phillip And Patricia Frost Museum Of Science Miami",
+      "url": "https://www.flickr.com/photos/25955895@N03/25090680858",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Frost Science Museum Construction",
+      "url": "https://www.flickr.com/photos/25955895@N03/29295046574",
+      "author": "Phillip Pessar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Frost Science museum viewed from the MacArthur Causeway",
+      "url": "https://commons.wikimedia.org/wiki/File:Frost_Science_museum_viewed_from_the_MacArthur_Causeway.jpg",
+      "author": "Beanjamin",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/mia-frost-science.glb",
+  "source": "generators/mia-frost-science.ts"
+}

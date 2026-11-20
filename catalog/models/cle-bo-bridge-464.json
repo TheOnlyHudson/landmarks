@@ -1,0 +1,56 @@
+{
+  "id": "cle-bo-bridge-464",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "bascule-bridge",
+    "railway",
+    "movable-bridge"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleveland November - 27 (22876906854).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_November_-_27_(22876906854).jpg",
+      "author": "k_e_lewis",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland September - 29 (21094972974).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_September_-_29_(21094972974).jpg",
+      "author": "k_e_lewis",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Downtown Cleveland - The Flats (46548161485).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Cleveland_-_The_Flats_(46548161485).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Flats East Bank (20396076934).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Flats_East_Bank_(20396076934).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "wikidata": "Q122226954",
+  "file": "models/cle-bo-bridge-464.glb",
+  "source": "generators/cle-bo-bridge-464.ts"
+}

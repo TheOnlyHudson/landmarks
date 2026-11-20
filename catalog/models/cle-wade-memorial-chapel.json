@@ -1,0 +1,67 @@
+{
+  "id": "cle-wade-memorial-chapel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "chapel",
+    "neoclassical",
+    "cemetery"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Front - Wade Chapel - Lake View Cemetery - 2014-11-26",
+      "url": "https://commons.wikimedia.org/wiki/File:Front_-_Wade_Chapel_-_Lake_View_Cemetery_-_2014-11-26_(17658812625).jpg",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "SW front - Wade Chapel - Lake View Cemetery - 2014-11-26",
+      "url": "https://commons.wikimedia.org/wiki/File:SW_front_-_Wade_Chapel_-_Lake_View_Cemetery_-_2014-11-26_(17658819215).jpg",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Wade Chapel Cleveland Ohio",
+      "url": "https://commons.wikimedia.org/wiki/File:Wade_Chapel_Cleveland_Ohio.jpg",
+      "author": "Christopher Busta-Peck",
+      "license": "CC BY-SA 1.0"
+    },
+    {
+      "title": "Wade Chapel rear - Lake View Cemetery - 2015-04-04",
+      "url": "https://commons.wikimedia.org/wiki/File:Wade_Chapel_rear_-_Lake_View_Cemetery_-_2015-04-04_(21793042383).jpg",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Wade Chapel side rear - Lake View Cemetery - 2015-04-04",
+      "url": "https://commons.wikimedia.org/wiki/File:Wade_Chapel_side_rear_-_Lake_View_Cemetery_-_2015-04-04_(22388760566).jpg",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Wade Memorial Chapel, looking south across the lake",
+      "url": "https://commons.wikimedia.org/wiki/File:Wade_Memorial_Chapel,_looking_south_across_the_lake.jpg",
+      "author": "HighAtop94",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/cle-wade-memorial-chapel.glb",
+  "source": "generators/cle-wade-memorial-chapel.ts"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mia-brickell-city-centre",
+  "name": "Brickell City Centre",
+  "model": "mia-brickell-city-centre",
+  "place": "miami-area",
+  "lng": -80.1933363,
+  "lat": 25.767201,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q4965973",
+  "replaces": [
+    "way/813418718",
+    "way/813418712",
+    "way/813418713",
+    "way/813418714",
+    "way/813418715",
+    "way/813418716",
+    "way/813418717",
+    "way/1472210259",
+    "way/1472210260",
+    "way/1472210261",
+    "way/1179066271"
+  ]
+}

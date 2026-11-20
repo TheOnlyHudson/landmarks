@@ -1,0 +1,55 @@
+{
+  "id": "msp-marjorie-mcneely-conservatory",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "conservatory",
+    "glasshouse",
+    "park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Como Park Conservatory.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Como_Park_Conservatory.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Como Park Zoo and Conservatory 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Como_Park_Zoo_and_Conservatory_02.jpg",
+      "author": "Runner1928",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Como Park Zoo and Conservatory - 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Como_Park_Zoo_and_Conservatory_-_01.jpg",
+      "author": "Runner1928",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Como Park Zoo and Conservatory-2006.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Como_Park_Zoo_and_Conservatory-2006.jpg",
+      "author": "RxS",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/msp-marjorie-mcneely-conservatory.glb",
+  "source": "generators/msp-marjorie-mcneely-conservatory.ts"
+}

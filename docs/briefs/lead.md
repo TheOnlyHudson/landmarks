@@ -165,7 +165,9 @@ Follow `docs/workflow.md`, "Pull request":
 
 ## Report back
 
-The PR URL; how many models; the weakest models still in the batch,
+The PR URL; the contact sheets embedded in it, and the command to
+regenerate them (`bun run sheet --terrain --branch-diff --out review/<city>`),
+which you always tell the user to run after any further change; how many models; the weakest models still in the batch,
 honestly; any requested landmark you couldn't build well, and why.
 Merging the PR releases the models; `docs/workflow.md`, "Deploy", says how
 they reach the map.

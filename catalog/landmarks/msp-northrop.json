@@ -1,0 +1,16 @@
+{
+  "id": "msp-northrop",
+  "name": "Northrop",
+  "model": "msp-northrop",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.235368,
+  "lat": 44.976477,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/255808964",
+    "way/159934632",
+    "way/248678680"
+  ]
+}

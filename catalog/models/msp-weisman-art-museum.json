@@ -1,0 +1,66 @@
+{
+  "id": "msp-weisman-art-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "deconstructivist",
+    "frank-gehry",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Weisman Art Museum.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Weisman_Art_Museum.jpg",
+      "license": "Public domain"
+    },
+    {
+      "title": "Weisman Art Museum 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Weisman_Art_Museum_2015.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Weisman Art Museum - building exterior - 14.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Weisman_Art_Museum_-_building_exterior_-_14.jpg",
+      "author": "dwhartwig",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Weisman Art Museum - building exterior - 04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Weisman_Art_Museum_-_building_exterior_-_04.jpg",
+      "author": "dwhartwig",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Weisman Art Museum - building exterior - 20.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Weisman_Art_Museum_-_building_exterior_-_20.jpg",
+      "author": "dwhartwig",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Frank Gehry - Minneapolis, MN - Weisman Art Museum (K).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Frank_Gehry_-_Minneapolis,_MN_-_Weisman_Art_Museum_(K).jpg",
+      "author": "Bmzuckerman",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/msp-weisman-art-museum.glb",
+  "source": "generators/msp-weisman-art-museum.ts"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mia-hard-rock-stadium",
+  "name": "Hard Rock Stadium",
+  "model": "mia-hard-rock-stadium",
+  "place": "miami-area",
+  "lng": -80.2388366,
+  "lat": 25.95792,
+  "bearing": 31.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q864339",
+  "replaces": [
+    "relation/2278785",
+    "way/519119063"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mia-bacardi-buildings",
+  "name": "Bacardi Buildings (YoungArts)",
+  "model": "mia-bacardi-buildings",
+  "place": "miami-area",
+  "lng": -80.1897131,
+  "lat": 25.797408,
+  "bearing": 359,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/454144052",
+    "way/316753425",
+    "way/316753396"
+  ]
+}

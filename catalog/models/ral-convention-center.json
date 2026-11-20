@@ -1,0 +1,72 @@
+{
+  "id": "ral-convention-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "convention-center",
+    "public-art",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Raleigh-Convention-Center-Shimmer-Wall-200807-17",
+      "url": "https://commons.wikimedia.org/wiki/File:Raleigh-Convention-Center-Shimmer-Wall-200807-17.jpeg",
+      "author": "Jelmore",
+      "license": "Public domain"
+    },
+    {
+      "title": "Raleigh-Convention-Center-20080321",
+      "url": "https://commons.wikimedia.org/wiki/File:Raleigh-Convention-Center-20080321.jpeg",
+      "author": "Jmturner",
+      "license": "Public domain"
+    },
+    {
+      "title": "Raleigh Convention Center - Raleigh, NC - DSC06102",
+      "url": "https://commons.wikimedia.org/wiki/File:Raleigh_Convention_Center_-_Raleigh,_NC_-_DSC06102.JPG",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "Raleigh Convention Center",
+      "url": "https://www.flickr.com/photos/43554380@N00/3171899731",
+      "author": "twbuckner",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Raleigh Convention Center",
+      "url": "https://www.flickr.com/photos/43554380@N00/3171899167",
+      "author": "twbuckner",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Raleigh Convention Center",
+      "url": "https://www.flickr.com/photos/23727257@N00/2814752892",
+      "author": "Suzie T",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Raleigh Convention Center",
+      "url": "https://www.flickr.com/photos/21185523@N03/3029426062",
+      "author": "Alexanderpf",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/ral-convention-center.glb",
+  "source": "generators/ral-convention-center.ts"
+}

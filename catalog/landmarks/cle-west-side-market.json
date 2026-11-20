@@ -1,0 +1,20 @@
+{
+  "id": "cle-west-side-market",
+  "name": "West Side Market",
+  "model": "cle-west-side-market",
+  "place": "cleveland-area",
+  "lng": -81.7030174,
+  "lat": 41.4846501,
+  "bearing": 329.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2493259",
+  "replaces": [
+    "way/93599980",
+    "way/1534283512",
+    "way/1535853542",
+    "way/1535853543",
+    "way/1535853544",
+    "way/100764205"
+  ]
+}

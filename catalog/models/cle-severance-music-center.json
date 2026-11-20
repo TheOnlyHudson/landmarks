@@ -1,0 +1,73 @@
+{
+  "id": "cle-severance-music-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "concert-hall",
+    "historic",
+    "neoclassical",
+    "university-circle"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Severance Hall (7811722938)",
+      "url": "https://commons.wikimedia.org/wiki/File:Severance_Hall_(7811722938).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Severance Hall front, Cleveland, Ohio",
+      "url": "https://commons.wikimedia.org/wiki/File:Severance_Hall_front,_Cleveland,_Ohio.jpg",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "Severance Hall fall 03 (26885421223)",
+      "url": "https://commons.wikimedia.org/wiki/File:Severance_Hall_fall_03_(26885421223).jpg",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Severance Hall fall 01 (27492015985)",
+      "url": "https://commons.wikimedia.org/wiki/File:Severance_Hall_fall_01_(27492015985).jpg",
+      "author": "Tim Evanson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Severance Hall (8330522447)",
+      "url": "https://commons.wikimedia.org/wiki/File:Severance_Hall_(8330522447).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Severance Hall (7811718950)",
+      "url": "https://commons.wikimedia.org/wiki/File:Severance_Hall_(7811718950).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Severance Hall",
+      "url": "https://commons.wikimedia.org/wiki/File:Severance_Hall.jpg",
+      "author": "Greg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/cle-severance-music-center.glb",
+  "source": "generators/cle-severance-music-center.ts"
+}

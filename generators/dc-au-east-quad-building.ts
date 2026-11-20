@@ -2,6 +2,8 @@
  * East Quad Building — American University.
  * A low hipped roof covers the teaching building beside the School of International Service.
  * Plan projected in metres about the OSM area centroid. The catalog bearing restores map north.
+ * Close-range LOD adds recessed glazing, masonry reveals and restrained sash profiles.
+ * Reveal depth (0.14 m; 0.28 m for spandrel glazing), frame widths and sash spacing are estimates.
  * Exterior study. Roof heights use 2022 DC LiDAR building returns above the footprint’s lower ground (10th percentile).
  * Roof edges and slopes are simplified. Sill heights, bay spacing and colors are estimates.
  * https://www.openstreetmap.org/way/90189728
@@ -17,6 +19,7 @@ await buildCampusBuilding({
   anchor: [-77.0879989, 38.93633],
   bearing: 33.55,
   masonry: 0xcfbea5, accent: 0xdfcdb2, roof: 0x888377,
+  sash: 'spandrel',
   wings: [{
     outline: [
       [9.82, 9.91], [8.14, 9.91], [8.13, 18.06], [-9.07, 18.09],

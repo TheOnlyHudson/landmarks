@@ -1,0 +1,14 @@
+{
+  "id": "cle-cuyahoga-county-courthouse",
+  "name": "Cuyahoga County Courthouse",
+  "model": "cle-cuyahoga-county-courthouse",
+  "place": "cleveland-area",
+  "lng": -81.697011,
+  "lat": 41.503397,
+  "bearing": 325.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/207984519"
+  ]
+}

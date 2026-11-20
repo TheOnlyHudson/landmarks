@@ -1,0 +1,61 @@
+{
+  "id": "ral-memorial-belltower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "historic",
+    "bell-tower",
+    "university",
+    "memorial"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "North Carolina State University Belltower.JPG",
+      "author": "Surrahwall",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_State_University_Belltower.JPG"
+    },
+    {
+      "title": "NCSU campus 043.JPG",
+      "author": "Haruhide000",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:NCSU_campus_043.JPG"
+    },
+    {
+      "title": "NCSU Bell Tower.jpg",
+      "author": "Melizabethi123",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:NCSU_Bell_Tower.jpg"
+    },
+    {
+      "title": "Ncsutower2.jpg",
+      "author": "Kamran rab",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ncsutower2.jpg"
+    },
+    {
+      "title": "North Carolina State's Bell Tower.jpg",
+      "author": "Melizabethi123",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Carolina_State%27s_Bell_Tower.jpg"
+    }
+  ],
+  "file": "models/ral-memorial-belltower.glb",
+  "source": "generators/ral-memorial-belltower.ts"
+}

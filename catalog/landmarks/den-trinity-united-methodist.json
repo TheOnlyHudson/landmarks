@@ -1,0 +1,15 @@
+{
+  "id": "den-trinity-united-methodist",
+  "name": "Trinity United Methodist Church",
+  "model": "den-trinity-united-methodist",
+  "place": "denver-area",
+  "lng": -104.9870051,
+  "lat": 39.7451219,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/52957908"
+  ],
+  "wikidata": "Q7842995"
+}

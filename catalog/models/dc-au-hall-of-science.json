@@ -14,7 +14,8 @@
     {
       "name": "Salty Pancakes",
       "kind": "person",
-      "role": "creator"
+      "role": "creator",
+      "github": "saltypancakes-1"
     },
     {
       "name": "OpenAI Codex",
@@ -43,6 +44,11 @@
       "title": "2022 DC lidar, archived processing source",
       "url": "https://github.com/kameronlee/heat-aware-pedestrian-routing/blob/456fd09d67aae857907e8c2b7fa6c19332734bd5/data/metadata/lidar_sources.md",
       "author": "District of Columbia Office of the Chief Technology Officer"
+    },
+    {
+      "title": "AU interactive campus tour: building identity and floor labels (factual reference)",
+      "url": "https://map-american.university-tour.com/hall-of-science-dollhouse",
+      "author": "American University"
     }
   ],
   "reviewStatus": "draft"

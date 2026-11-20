@@ -1,0 +1,59 @@
+{
+  "id": "den-museum-of-nature-and-science",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Denver Museum of Nature and Science View from north west.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Museum_of_Nature_and_Science_View_from_north_west.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Museum of Nature and Science. View from south-east.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Museum_of_Nature_and_Science._View_from_south-east.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Museum of Nature and Science. View from south-west.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Museum_of_Nature_and_Science._View_from_south-west.jpg",
+      "author": "Sarbjit Bahga",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Museum of Nature & Science, July 2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Museum_of_Nature_%26_Science,_July_2017.jpg",
+      "author": "Avrand6",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Denver Museum of Nature & Science.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_Museum_of_Nature_%26_Science.JPG",
+      "author": "unknown (public domain)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/den-museum-of-nature-and-science.glb",
+  "source": "generators/den-museum-of-nature-and-science.ts"
+}

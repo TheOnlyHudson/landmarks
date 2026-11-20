@@ -1,0 +1,15 @@
+{
+  "id": "den-history-colorado-center",
+  "name": "History Colorado Center",
+  "model": "den-history-colorado-center",
+  "place": "denver-area",
+  "lng": -104.986843,
+  "lat": 39.735655,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/105429742"
+  ],
+  "wikidata": "Q5774677"
+}

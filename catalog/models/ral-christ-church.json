@@ -1,0 +1,104 @@
+{
+  "id": "ral-christ-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "gothic-revival",
+    "spire",
+    "historic",
+    "national-historic-landmark"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Christ Church - Raleigh, North Carolina.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_-_Raleigh,_North_Carolina.JPG",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Christ Church on Capitol Square, Raleigh, NC (28221600688).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_on_Capitol_Square,_Raleigh,_NC_(28221600688).jpg",
+      "author": "Warren LeMay from Cincinnati, OH, United States",
+      "license": "CC0"
+    },
+    {
+      "title": "Christepiscopalravenscroftchurch.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Christepiscopalravenscroftchurch.jpg",
+      "author": "Willthacheerleader18 at en.wikipedia",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Postcard depicting Christ Episcopal Church from Capitol Square; Raleigh, NC - PhC 205 4 073.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Postcard_depicting_Christ_Episcopal_Church_from_Capitol_Square;_Raleigh,_NC_-_PhC_205_4_073.jpg",
+      "author": "State Archives of North Carolina",
+      "license": "No known restrictions"
+    },
+    {
+      "title": "Christ Episcopal Church, Raleigh, HABS NC,92-RAL,4- (sheet 1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Episcopal_Church,_120_East_Edenton_Street,_Raleigh,_Wake_County,_NC_HABS_NC,92-RAL,4-_(sheet_1_of_6).tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Christ Episcopal Church, Raleigh, HABS NC,92-RAL,4- (sheet 2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Episcopal_Church,_120_East_Edenton_Street,_Raleigh,_Wake_County,_NC_HABS_NC,92-RAL,4-_(sheet_2_of_6).png",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Christ Episcopal Church, Raleigh, HABS NC,92-RAL,4- (sheet 3)",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Episcopal_Church,_120_East_Edenton_Street,_Raleigh,_Wake_County,_NC_HABS_NC,92-RAL,4-_(sheet_3_of_6).png",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Christ Episcopal Church, Raleigh, HABS NC,92-RAL,4- (sheet 4)",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Episcopal_Church,_120_East_Edenton_Street,_Raleigh,_Wake_County,_NC_HABS_NC,92-RAL,4-_(sheet_4_of_6).png",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Christ Episcopal Church, Raleigh, HABS NC,92-RAL,4- (sheet 5)",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Episcopal_Church,_120_East_Edenton_Street,_Raleigh,_Wake_County,_NC_HABS_NC,92-RAL,4-_(sheet_5_of_6).png",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Christ Episcopal Church, Raleigh, HABS NC,92-RAL,4- (sheet 6)",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Episcopal_Church,_120_East_Edenton_Street,_Raleigh,_Wake_County,_NC_HABS_NC,92-RAL,4-_(sheet_6_of_6).png",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Christ Episcopal Church, Raleigh, HABS NC,92-RAL,4- (sheet 7)",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Episcopal_Church,_120_East_Edenton_Street,_Raleigh,_Wake_County,_NC_HABS_NC,92-RAL,4-_(sheet_7_of_6).png",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Christ Episcopal Church, Raleigh, HABS NC,92-RAL,4- (sheet 9)",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Episcopal_Church,_120_East_Edenton_Street,_Raleigh,_Wake_County,_NC_HABS_NC,92-RAL,4-_(sheet_9_of_6).png",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/ral-christ-church.glb",
+  "source": "generators/ral-christ-church.ts"
+}

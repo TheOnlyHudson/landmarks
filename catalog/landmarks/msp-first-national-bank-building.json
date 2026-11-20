@@ -1,0 +1,24 @@
+{
+  "id": "msp-first-national-bank-building",
+  "name": "First National Bank Building",
+  "model": "msp-first-national-bank-building",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.09111,
+  "lat": 44.94639,
+  "bearing": 326.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q5453387",
+  "replaces": [
+    "way/199733907",
+    "way/1240661055",
+    "way/1240661056",
+    "way/1240661057",
+    "way/1240661058",
+    "way/1240661059",
+    "way/1240661061",
+    "way/1240661062",
+    "way/1240661063",
+    "way/1240661064"
+  ]
+}

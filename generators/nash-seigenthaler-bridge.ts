@@ -6,8 +6,11 @@
  * The whole structure inside the OSM man_made=bridge outline way/655292429: the west concrete
  * approach (bent ~15° south of the river spans' axis), the three steel through trusses over the
  * Cumberland, their four concrete piers, the short steel deck truss on the east bank, the east
- * portal pier, the concrete arched approach to the outline's east end, and the 2003 green-glass
- * elevator tower at the east landing. A pedestrian bridge, so the walkway surface is the
+ * portal pier, the concrete arched approach, and the 2003 green-glass elevator tower at the
+ * east landing. The east approach runs on past the outline's end (y 256.5) as far as the
+ * walkway's own bridge=yes way does, down to where it lands on the ground at y ~343-345, and
+ * ends there at an abutment face; before, it stopped in the air on a bent at the outline's end
+ * while the map's path carried on down the ramp. A pedestrian bridge, so the walkway surface is the
  * model's (material `walkway`). Writes a low model and a detail model (Pennsylvania
  * sub-struts, top lateral bracing, floor beams, railings, lamp beads), drawn from z16.
  *
@@ -58,7 +61,14 @@
  * Night: the trusses are lit white (night photos), carried as `_FLOODLIGHT` on the steel above
  * the walkway; the piers floodlit (warm in the photos); lamp beads on the detail model.
  *
- * Doubts: the west approach's structure over the railway and 1st Avenue (a concrete viaduct
+ * - The east approach past the outline (y 256.5..343): the walkway from the lidar (bridge_ele.py
+ *   measure 89757744, every 10 m: 16.7 m above the river at y 274 to 10.2 at y 343, ~9.3 %),
+ *   the same arched viaduct on bents (seven bays of ~12.8 m, estimated), as the 1998 HAER
+ *   aerial (TN-38-1) and NAIP show an elevated deck on columns there. Its ground: a second
+ *   Mapterhorn grid (terrain.ts grid), matched to the first where they overlap.
+ * Doubts: the east approach's last 90 m lie outside OSM's man_made=bridge outline, so a map may
+ *   also draw its own piers and parapets under that part of the path until the outline is
+ *   extended in OSM; the bents' spacing there is estimated. The west approach's structure over the railway and 1st Avenue (a concrete viaduct
  * here; part is steel girder in the HAER photos); bent spacing on both approaches; the
  * overlooks' size (from lidar only); the map's walkway height where OSM has no `ele`.
  */
@@ -76,7 +86,10 @@ const cross = (a: V3, b: V3): V3 => [a[1] * b[2] - a[2] * b[1], a[2] * b[0] - a[
 // ---- Plan: the walkway's centreline, from the outline's west end to its east end -------------
 
 const XC = 10                       // the river spans' centreline (lidar 10–10.5, OSM footway 9.3–9.9)
-const PLAN: [number, number][] = [[-41.8, -267.9], [-30.5, -225.0], [-28.9, -219.2], [XC, -70], [XC, 256.5]]
+// The outline ends at y 256.5, but the walkway (bridge=yes, way/89757744) runs on over the
+// east approach to land at y ~345 (lidar: 0.6 m over the bare earth at y 343), so the model does.
+const Y_OUT = 256.5, Y_END = 343
+const PLAN: [number, number][] = [[-41.8, -267.9], [-30.5, -225.0], [-28.9, -219.2], [XC, -70], [XC, Y_END]]
 const U: number[] = [0]
 for (let i = 1; i < PLAN.length; i++) U.push(U[i - 1] + Math.hypot(PLAN[i][0] - PLAN[i - 1][0], PLAN[i][1] - PLAN[i - 1][1]))
 const UK = U[3], UEND = U[4]
@@ -112,6 +125,9 @@ const ROAD_TABLE: [number, number][] = [
   [44, 24.2], [64, 24.35], [84, 24.5], [104, 24.55], [124, 24.6], [144, 24.65], [164, 24.6], [184, 24.45],
   [204, 24.15], [214, 23.7], [224, 23.2], [234, 22.75], [244, 22.3], [254, 21.8], [264, 21.3], [274, 20.8],
   [284, 20.3], [294, 19.8], [304, 19.3], [314, 18.8], [324, 18.3], [334, 17.65], [344, 16.7],
+  // the east approach past the outline, down to the landing (bridge_ele.py, every 10 m)
+  [354.6, 15.6], [363.6, 14.8], [373.6, 13.85], [383.6, 12.9], [393.6, 12.0], [403.6, 11.1],
+  [413.6, 10.15], [420.6, 9.55],
 ]
 const roadK = piecewise(ROAD_TABLE)
 const road = (u: number) => roadK(u - UK)
@@ -176,6 +192,17 @@ const GROUND: GroundGrid = { y0: -280, x0: -70, step: 10, z: [
   [8.4, 8.4, 8.4, 8.4, 8.3, 8.3, 8.2, 8.2, 8.5, 8.4, 8.4, 8.3],
   [8.2, 8.3, 8.4, 8.4, 8.4, 8.4, 8.3, 8.5, 8.5, 8.5, 8.5, 8.4],
   [8.3, 8.3, 8.4, 8.6, 8.7, 8.7, 8.7, 8.8, 8.8, 8.6, 8.6, 8.5],
+  // y 290..370 over the east approach: terrain.ts grid -86.7701434 36.1635779 60 10, set to this
+  // grid's datum where the two overlap (+0.27 m)
+  [8.7, 8.6, 8.5, 8.5, 8.5, 8.7, 8.7, 8.7, 8.6, 8.5, 8.4, 8.5],
+  [8.7, 8.7, 8.8, 8.8, 8.9, 8.9, 8.8, 8.8, 8.7, 8.7, 8.6, 8.6],
+  [8.9, 9.0, 9.1, 9.2, 9.3, 9.2, 9.0, 8.9, 8.8, 8.7, 8.7, 8.8],
+  [9.3, 9.1, 9.2, 9.3, 9.4, 9.4, 9.2, 9.1, 9.0, 8.9, 8.9, 8.9],
+  [9.0, 9.0, 9.2, 9.4, 9.6, 9.5, 9.3, 9.2, 9.1, 9.1, 9.1, 8.9],
+  [9.0, 9.2, 9.4, 9.6, 9.7, 9.6, 9.3, 9.3, 9.2, 9.2, 9.1, 8.9],
+  [9.1, 9.2, 9.4, 9.6, 9.8, 9.7, 9.4, 9.4, 9.4, 9.2, 9.1, 8.9],
+  [9.1, 9.3, 9.5, 9.7, 9.9, 9.7, 9.4, 9.4, 9.2, 9.0, 8.9, 8.7],
+  [9.1, 9.2, 9.4, 9.7, 9.9, 9.8, 9.4, 9.2, 9.0, 8.8, 8.7, 8.6],
 ]}
 const ground = (x: number, y: number) => Math.max(0, groundAt(GROUND, x, y))
 
@@ -374,7 +401,8 @@ function build(detail: boolean) {
 
   // The concrete approaches: parapets, fascias, and arched soffits between bents.
   const westBents = stations(0, uOfY(P0), uOfY(P0) / 14)
-  const eastBents = stations(uOfY(P4), UEND, (UEND - uOfY(P4)) / 6)
+  const uOut = uOfY(Y_OUT)
+  const eastBents = [...stations(uOfY(P4), uOut, (uOut - uOfY(P4)) / 6), ...stations(uOut, UEND, 13.8).slice(1)]
   const archSoffit = (u: number, bents: number[]) => {
     let i = 1
     while (i < bents.length - 1 && bents[i] < u) i++
@@ -388,7 +416,9 @@ function build(detail: boolean) {
   }
   const bentsW = westBents, bentsE = eastBents
   sweep(concrete, us(0, uS0, detail ? 2.5 : 4.9, [U[1], U[2], ...bentsW]), concProf(bentsW))
-  sweep(concrete, us(uS1, UEND, detail ? 2.3 : 4.6, bentsE), concProf(bentsE))
+  // the low model takes each east bay in two (bent, crown, bent) to stay under 250 KB
+  const halves = [...new Set([uS1, ...bentsE.flatMap((u, i) => (i ? [(bentsE[i - 1] + u) / 2, u] : [u]))])].sort((p, q) => p - q)
+  sweep(concrete, detail ? us(uS1, UEND, 2.3, bentsE) : halves, concProf(bentsE))
   for (const [u, dir, bents] of [[0, -1, bentsW], [UEND, 1, bentsE], [uS0, 1, bentsW], [uS1, -1, bentsE]] as [number, number, number[]][]) {
     const pr = concProf(bents)(u), { p: c, t } = at(u), N: [number, number] = [t[1], -t[0]]
     const P = pr.map(([dx, z]) => [c[0] + N[0] * dx, c[1] + N[1] * dx, z] as V3), n: V3 = [t[0] * dir, t[1] * dir, 0]

@@ -1,0 +1,14 @@
+{
+  "id": "msp-cathedral-of-saint-paul",
+  "name": "Cathedral of Saint Paul",
+  "model": "msp-cathedral-of-saint-paul",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.109102,
+  "lat": 44.946959,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/39633135"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ral-pullen-park-carousel",
+  "name": "Pullen Park Carousel",
+  "model": "ral-pullen-park-carousel",
+  "place": "raleigh-area",
+  "lng": -78.663785,
+  "lat": 35.77994,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q7259432",
+  "replaces": [
+    "way/47933092"
+  ]
+}

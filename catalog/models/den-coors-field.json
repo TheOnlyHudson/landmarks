@@ -1,0 +1,78 @@
+{
+  "id": "den-coors-field",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "baseball",
+    "mlb",
+    "ballpark"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Coors Field exterior 2022.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Coors_Field_exterior_2022.jpg",
+      "author": "Troutfarm27",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coors Field Main Entrance.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Coors_Field_Main_Entrance.jpg",
+      "author": "Enkrates",
+      "license": "Public domain"
+    },
+    {
+      "title": "Coors Field (23305954114).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Coors_Field_(23305954114).jpg",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Coors Field (23307824413).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Coors_Field_(23307824413).jpg",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Coors Field, Denver, Colorado, US.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Coors_Field,_Denver,_Colorado,_US.jpg",
+      "author": "color line",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Coors field aerial 1.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Coors_field_aerial_1.JPG",
+      "author": "John Maushammer",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Coors Field panorama 2022.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Coors_Field_panorama_2022.jpg",
+      "author": "Troutfarm27",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coors field 1.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Coors_field_1.JPG",
+      "author": "Matt Kozlowski",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/den-coors-field.glb",
+  "source": "generators/den-coors-field.ts"
+}

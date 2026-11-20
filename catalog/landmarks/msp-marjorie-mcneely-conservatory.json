@@ -1,0 +1,23 @@
+{
+  "id": "msp-marjorie-mcneely-conservatory",
+  "name": "Marjorie McNeely Conservatory",
+  "model": "msp-marjorie-mcneely-conservatory",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.151325,
+  "lat": 44.981896,
+  "bearing": 45,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/363419023",
+    "way/363419022",
+    "way/363419024",
+    "way/363419026",
+    "way/363419025",
+    "way/158779389",
+    "way/158779392",
+    "way/158779394",
+    "way/158779395",
+    "way/35329730"
+  ]
+}

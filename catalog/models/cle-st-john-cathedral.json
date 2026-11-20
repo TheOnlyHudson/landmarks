@@ -1,0 +1,56 @@
+{
+  "id": "cle-st-john-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "cathedral",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Cathedral of St. John the Evangelist, Cleveland (1852, rebuilt 1946-48): sandstone Gothic cathedral with its pinnacled tower and green copper spire on Superior Avenue, steep slate roof and great-arched west front.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Saint John the Evangelist Cathedral (Cleveland, Ohio) - exterior",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_John_the_Evangelist_Cathedral_(Cleveland,_Ohio)_-_exterior.jpg",
+      "author": "Nheyob",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cathedral of St. John the Evangelist - Cleveland, OH Exterior",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_St._John_the_Evangelist_-_Cleveland,_OH_Exterior.jpg",
+      "author": "Jfvoll",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Cathedral of St. John the Evangelist, Cleveland, OH (28812510167)",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Cathedral_of_St._John_the_Evangelist,_Cleveland,_OH_(28812510167).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "The Cathedral of St. John the Evangelist, Cleveland, OH (28812497667)",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Cathedral_of_St._John_the_Evangelist,_Cleveland,_OH_(28812497667).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/cle-st-john-cathedral.glb",
+  "source": "generators/cle-st-john-cathedral.ts"
+}

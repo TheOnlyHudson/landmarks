@@ -23,11 +23,16 @@
  * https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html
  * Datum 117.1 m, gallery 14.3 and 16.5 m, circular hall 13.2 m,
  * main long roof 9.0 m, inset terrace 4.2 m. Ground P90 about 4.2 m higher.
+ * The museum includes a cantilevered gallery picture window, discussed at
+ * https://www.engr.psu.edu/ae/thesis/portfolios/2005/jap339/Final%20Report/Full%20Report.pdf
+ * and illustrated in the licensed views cited above.
+ * Central skylight rim, gallery volume and main atrium sampled from the
+ * 2022 full-return surface; mullion spacings and reveals simplified.
  */
 import { CampusShell } from './dc-au-constitution-hall'
-import { Part } from './mesh'
+import { Part, type V3 } from './mesh'
 import { PALETTE } from './palette'
-import { chamfer, finishGlb, flatShape, lathe, outward, prism, rect, writeModel, type XY } from './sea-tacoma-union-station'
+import { capRing, chamfer, finishGlb, flatShape, lathe, outward, prism, rect, writeModel, type XY } from './sea-tacoma-union-station'
 
 const building = new CampusShell()
 const glass = new Part()
@@ -61,18 +66,34 @@ const gallery: XY[] = [...plan.slice(17, 33), [6.46, 63.77], plan[14], plan[15],
 prism(building.stone, building.roof, gallery, lowRoof, 14.3)
 const lantern: XY[] = [[-11.9, 58.5], [1.6, 58.4], [4.0, 96.9], [-9.5, 97.1]]
 prism(building.stone, building.roof, chamfer(lantern, 0.14), 14.3, 16.5)
-for (const i of [1, 2]) {
-  building.bays(lantern[i], lantern[(i + 1) % 4], 14.48, 16.28, 3.1, 0.93)
-}
+// The large gallery picture window faces back along the center. Its deep
+// rectangular box projects beyond the adjacent curved gallery wall.
+const overhang: XY[] = [lantern[0], lantern[1], [1.9, 64.1], [-11.55, 64.2]]
+prism(building.stone, null, chamfer(overhang, 0.12), 10.55, 14.3)
+capRing(building.stone, chamfer(overhang, 0.12), 10.55, false)
+lathe(building.stone, -4.80, 63.22, [[1.2, lowRoof], [1.2, 10.55]], 18)
+building.curtain(lantern[0], lantern[1], 0.70, 12.75, 10.94, 16.12, 1.75, [13.33])
+building.curtain(lantern[2], lantern[3], 0.75, 12.71, 14.56, 16.12, 2.45)
 for (const i of [21, 22, 23, 24, 25, 26]) {
   const a = plan[i], b = plan[i + 1]
   building.bays(a, b, 6.7, 7.8, 4.3, 0.62)
 }
 
-// The lidar returns show a raised near-circular rim and recessed glazing.
+// The drum is elliptical at the building scale. The small rooflight at
+// its center has an opaque structural frame and a recessed glazed center.
 lathe(building.stone, -0.3, -24.8, [[13.6, lowRoof], [13.6, 13.16]], 32)
 lathe(building.roof, -0.3, -24.8, [[13.6, 13.16], [5.1, 13.16]], 32)
 lathe(glass, -0.3, -24.8, [[5.1, 13.16], [2.3, 12.08], [0, 11.8]], 32)
+for (let k = 0; k < 8; k++) {
+  const angle = k * Math.PI / 4
+  const point = (r: number, side: number, z: number): V3 => [
+    -0.3 + r * Math.cos(angle) - side * Math.sin(angle),
+    -24.8 + r * Math.sin(angle) + side * Math.cos(angle), z,
+  ]
+  for (const [r0, z0, r1, z1] of [[0.22, 11.86, 2.3, 12.12], [2.3, 12.12, 5.08, 13.20]]) {
+    building.spandrel.quad(point(r0, -0.08, z0), point(r1, -0.08, z1), point(r1, 0.08, z1), point(r0, 0.08, z0))
+  }
+}
 for (const i of [6, 7, 13, 29, 32, 33, 42, 44]) {
   const a = plan[i], b = plan[i + 1]
   building.bays(a, b, 1.22, 3.62, 7.0, i === 13 ? 0.85 : 0.65)
@@ -89,5 +110,5 @@ flatShape(building.window, { o: [a[0], a[1], 0], n: outward(a, b) }, rect(3.6, 0
 await writeModel('dc-au-katzen-arts-center', finishGlb('Katzen Arts Center', [
   { part: building.stone, material: PALETTE.stone }, { part: building.trim, material: PALETTE.trim },
   { part: building.roof, material: PALETTE.roof }, { part: building.window, material: PALETTE.window },
-  { part: glass, material: PALETTE.glass },
+  { part: glass, material: PALETTE.glass }, { part: building.spandrel, material: PALETTE.metal },
 ], {}))

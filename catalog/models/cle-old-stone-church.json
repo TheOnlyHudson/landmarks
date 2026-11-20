@@ -1,0 +1,62 @@
+{
+  "id": "cle-old-stone-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "place-of-worship",
+    "romanesque-revival",
+    "spire"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Old Stone Church - Cleveland, OH.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Stone_Church_-_Cleveland,_OH.jpg",
+      "author": "Upstateherd",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old Stone Church Cleveland April 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Stone_Church_Cleveland_April_2023.jpg",
+      "author": "Percival Kestreltail",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old Stone Church (Cleveland) (2018).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Stone_Church_(Cleveland)_(2018).jpg",
+      "author": "Cards84664",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old Stone Church, Downtown Cleveland.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Stone_Church,_Downtown_Cleveland.jpg",
+      "author": "Eli Pousson",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Old Stone Church (Cleve, OH).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Stone_Church_(Cleve,_OH).jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/cle-old-stone-church.glb",
+  "source": "generators/cle-old-stone-church.ts"
+}

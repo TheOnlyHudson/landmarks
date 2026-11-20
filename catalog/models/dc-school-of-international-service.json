@@ -14,7 +14,8 @@
     {
       "name": "Salty Pancakes",
       "kind": "person",
-      "role": "creator"
+      "role": "creator",
+      "github": "saltypancakes-1"
     },
     {
       "name": "OpenAI Codex",
@@ -40,6 +41,21 @@
     {
       "title": "School of International Service building and sustainability",
       "url": "https://www.american.edu/about/sustainability/buildings/school-of-international-service.cfm",
+      "author": "American University"
+    },
+    {
+      "title": "School of International Service building footprint",
+      "url": "https://www.openstreetmap.org/relation/914201",
+      "author": "OpenStreetMap contributors"
+    },
+    {
+      "title": "2022 DC OCTO lidar, NOAA Digital Coast dataset 9837",
+      "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/9837/dc2022_wash_dc_metadata.html",
+      "author": "District of Columbia Office of the Chief Technology Officer"
+    },
+    {
+      "title": "AU interactive campus tour: building identity and floor labels (factual reference)",
+      "url": "https://map-american.university-tour.com/school-of-international-service-dollhouse",
       "author": "American University"
     }
   ]

@@ -1,0 +1,25 @@
+{
+  "id": "msp-minnesota-state-capitol",
+  "name": "Minnesota State Capitol",
+  "model": "msp-minnesota-state-capitol",
+  "place": "minneapolis-saint-paul-area",
+  "lng": -93.102225,
+  "lat": 44.955238,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1789816",
+  "replaces": [
+    "relation/5445480",
+    "relation/5480142",
+    "way/927276507",
+    "relation/5480141",
+    "relation/5480143",
+    "relation/5481654",
+    "way/366135017",
+    "way/368806825",
+    "way/368806828",
+    "way/368806816",
+    "way/368806829"
+  ]
+}

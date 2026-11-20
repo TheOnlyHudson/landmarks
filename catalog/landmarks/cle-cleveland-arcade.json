@@ -1,0 +1,15 @@
+{
+  "id": "cle-cleveland-arcade",
+  "name": "The Arcade",
+  "model": "cle-cleveland-arcade",
+  "place": "cleveland-area",
+  "lng": -81.6906173,
+  "lat": 41.5004148,
+  "bearing": 326,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5132057",
+  "replaces": [
+    "way/126820675"
+  ]
+}

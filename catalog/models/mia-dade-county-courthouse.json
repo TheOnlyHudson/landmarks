@@ -1,0 +1,67 @@
+{
+  "id": "mia-dade-county-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "courthouse",
+    "neoclassical",
+    "tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Dade County Courthouse (Miami, Florida)",
+      "url": "https://commons.wikimedia.org/wiki/File:Dade_County_Courthouse_(Miami,_Florida).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Dade County Courthouse (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Dade_County_Courthouse_(1).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Southwest side of the Dade County Courthouse in March 2011",
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_side_of_the_Dade_County_Courthouse_in_March_2011.jpg",
+      "author": "Daniel Christensen",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Miami-Dade County Courthouse EDSC06169",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami-Dade_County_Courthouse_EDSC06169.jpg",
+      "author": "Bart Mariner",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Miami-Dade County Courthouse - Daniel Di Palma Photography 14",
+      "url": "https://commons.wikimedia.org/wiki/File:Miami-Dade_County_Courthouse_-_Miami_-_Daniel_Di_Palma_Photography_14.jpg",
+      "author": "Daniel Di Palma",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Miami Dade County Flagler Courthouse (night)",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Miami_Dade_County_Flagler_Courthouse.jpg",
+      "author": "Rob Olivera",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/mia-dade-county-courthouse.glb",
+  "source": "generators/mia-dade-county-courthouse.ts"
+}

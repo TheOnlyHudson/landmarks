@@ -1,0 +1,78 @@
+{
+  "id": "cle-peter-b-lewis-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "deconstructivist",
+    "frank-gehry",
+    "case-western-reserve"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Peter B Lewis (PBL) Building Case Western Reserve",
+      "url": "https://commons.wikimedia.org/wiki/File:Peter_B_Lewis_(PBL)_Building_Case_Western_Reserve.jpg",
+      "author": "Usaf 1832",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Peter B. Lewis Building - oblique 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Peter_B._Lewis_Building_-_oblique_1.jpg",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "Peter B. Lewis Building - oblique 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Peter_B._Lewis_Building_-_oblique_2.jpg",
+      "author": "Daderot",
+      "license": "Public domain"
+    },
+    {
+      "title": "Peter B. Lewis Building view from above",
+      "url": "https://commons.wikimedia.org/wiki/File:Peter_B._Lewis_Building_view_from_above.jpg",
+      "author": "Percival Kestreltail",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Weatherhead School of Management building",
+      "url": "https://commons.wikimedia.org/wiki/File:Weatherhead_School_of_Management_building.jpg",
+      "author": "Packer1028",
+      "license": "CC0"
+    },
+    {
+      "title": "Peter B. Lewis Bldg",
+      "url": "https://commons.wikimedia.org/wiki/File:Peter_B._Lewis_Bldg.JPG",
+      "author": "Harmanani",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Lewis Building, Cleveland,OH",
+      "url": "https://commons.wikimedia.org/wiki/File:Lewis_Building,_Cleveland,OH.jpg",
+      "author": "Richard A. Weaver",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "PBLBroof",
+      "url": "https://commons.wikimedia.org/wiki/File:PBLBroof.JPG",
+      "license": "CC BY 2.5"
+    }
+  ],
+  "file": "models/cle-peter-b-lewis-building.glb",
+  "source": "generators/cle-peter-b-lewis-building.ts"
+}

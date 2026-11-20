@@ -1,0 +1,16 @@
+{
+  "id": "ral-fnb-tower",
+  "name": "FNB Tower",
+  "model": "ral-fnb-tower",
+  "place": "raleigh-area",
+  "lng": -78.638924,
+  "lat": 35.773812,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/268758828",
+    "way/1563063472",
+    "way/1563063473"
+  ]
+}
