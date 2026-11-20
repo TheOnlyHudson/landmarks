@@ -1,0 +1,73 @@
+{
+  "id": "cle-trinity-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "cathedral",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Trinity Cathedral Church",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Cathedral_Church.jpg",
+      "author": "Kimshay2016",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trinity Cathedral in Cleveland, front, closeup",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Cathedral_in_Cleveland,_front,_closeup.jpg",
+      "author": "Nyttend",
+      "license": "Public domain"
+    },
+    {
+      "title": "Trinity Cathedral in Cleveland, front, distant",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Cathedral_in_Cleveland,_front,_distant.jpg",
+      "author": "Nyttend",
+      "license": "Public domain"
+    },
+    {
+      "title": "Trinity Cathedral in Cleveland, rear and side",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Cathedral_in_Cleveland,_rear_and_side.jpg",
+      "author": "Nyttend",
+      "license": "Public domain"
+    },
+    {
+      "title": "Trinity Cathedral in Cleveland, base view, rear angle",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Cathedral_in_Cleveland,_base_view,_rear_angle.jpg",
+      "author": "Nyttend",
+      "license": "Public domain"
+    },
+    {
+      "title": "HABS OHIO,18-CLEV,15-1: North (front) elevation",
+      "url": "https://commons.wikimedia.org/wiki/File:Historic_American_Buildings_Survey,_Martin_Linsey,_Photographer_October_2,_1965_NORTH_(FRONT)_ELEVATION._-_Trinity_Episcopal_Church,_Euclid_Avenue_and_East_Twenty-Second_Street,_HABS_OHIO,18-CLEV,15-1.tif",
+      "author": "Martin Linsey (HABS)",
+      "license": "Public domain"
+    },
+    {
+      "title": "HABS OHIO,18-CLEV,15-2: Southwest corner",
+      "url": "https://commons.wikimedia.org/wiki/File:Historic_American_Buildings_Survey,_Martin_Linsey,_Photographer_October_26,_1965_SOUTHWEST_CORNER_(22ND_ST._SIDE)._-_Trinity_Episcopal_Church,_Euclid_Avenue_and_East_Twenty_HABS_OHIO,18-CLEV,15-2.tif",
+      "author": "Martin Linsey (HABS)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/cle-trinity-cathedral.glb",
+  "source": "generators/cle-trinity-cathedral.ts"
+}
