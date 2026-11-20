@@ -1,0 +1,15 @@
+{
+  "id": "cle-old-stone-church",
+  "name": "Old Stone Church",
+  "model": "cle-old-stone-church",
+  "place": "cleveland-area",
+  "lng": -81.6947528,
+  "lat": 41.5004187,
+  "bearing": 325.9,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q7085106",
+  "replaces": [
+    "way/333522113"
+  ]
+}
