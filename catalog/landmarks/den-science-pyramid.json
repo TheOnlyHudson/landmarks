@@ -1,0 +1,17 @@
+{
+  "id": "den-science-pyramid",
+  "name": "The Science Pyramid",
+  "model": "den-science-pyramid",
+  "place": "denver-area",
+  "lng": -104.9613218,
+  "lat": 39.7315165,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/584894104",
+    "way/584894105",
+    "way/584894106",
+    "way/584894107"
+  ]
+}
