@@ -1,0 +1,68 @@
+{
+  "id": "cle-playhouse-square-chandelier",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "public-art",
+    "chandelier",
+    "theatre-district",
+    "street"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The GE Chandelier (2014) over Euclid Avenue and East 14th Street in Playhouse Square: a 20 ft crystal chandelier hung 24 ft above the street from three bronze arches on three tall posts.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Playhouse Square Chandelier (25889709683)",
+      "url": "https://commons.wikimedia.org/wiki/File:Playhouse_Square_Chandelier_(25889709683).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Playhouse Square Chandelier (32155831485)",
+      "url": "https://commons.wikimedia.org/wiki/File:Playhouse_Square_Chandelier_(32155831485).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Playhouse Square Chandelier (27682171933)",
+      "url": "https://commons.wikimedia.org/wiki/File:Playhouse_Square_Chandelier_(27682171933).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Playhouse Square Chandelier (27682174713)",
+      "url": "https://commons.wikimedia.org/wiki/File:Playhouse_Square_Chandelier_(27682174713).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Playhouse Square Chandelier (27682226733)",
+      "url": "https://commons.wikimedia.org/wiki/File:Playhouse_Square_Chandelier_(27682226733).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Cleveland Playhouse Square Chandelier (14101109562)",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleveland_Playhouse_Square_Chandelier_(14101109562).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/cle-playhouse-square-chandelier.glb",
+  "source": "generators/cle-playhouse-square-chandelier.ts"
+}
