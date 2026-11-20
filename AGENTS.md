@@ -40,6 +40,16 @@ Anywhere else, read the file and follow it step by step. Ignore the
 - **Compare renders with photos.** Render with `bun run preview` and put
   each view beside a photo from the same direction. Don't call a model done
   until you have named what still differs.
+- **Contact sheets, always.** Every pull request that adds or changes a
+  model carries contact sheets, made with
+  `bun run sheet --terrain --branch-diff --out review/<batch>` (plus
+  before-and-after sheets for reworks), committed and embedded in the PR
+  body as `docs/reference.md` describes. Whenever you hand model work back,
+  tell the user to generate the contact sheets and give them that exact
+  command, even if you have already made them, and say where they go. This
+  applies to reviewing someone else's PR too: if it has no sheets, tell
+  the user to generate them before reviewing it. Never open, approve or
+  hand back a model PR without them.
 - **Credit the author.** Ask who to credit as a model's creator and their
   GitHub username (or GitLab, Codeberg or Bitbucket username, or profile
   URL) unless the user has said. Never guess one.
