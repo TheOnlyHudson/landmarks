@@ -1,0 +1,42 @@
+{
+  "id": "ral-haywood-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "house",
+    "museum"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Haywood Hall.jpg",
+      "author": "Mx. Granger",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Haywood_Hall.jpg"
+    },
+    {
+      "title": "Haywood Hall, HABS NC,92-RAL,8- (sheets 1–8 of 20)",
+      "author": "Historic American Buildings Survey (R. L. Chartier, T. M. Mayo, 1967)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Haywood_Hall,_211_New_Bern_Avenue,_Raleigh,_Wake_County,_NC_HABS_NC,92-RAL,8-_(sheet_6_of_20).png"
+    }
+  ],
+  "file": "models/ral-haywood-hall.glb",
+  "source": "generators/ral-haywood-hall.ts"
+}
