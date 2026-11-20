@@ -1,0 +1,15 @@
+{
+  "id": "den-museum-of-nature-and-science",
+  "name": "Denver Museum of Nature & Science",
+  "model": "den-museum-of-nature-and-science",
+  "place": "denver-area",
+  "wikidata": "Q3330052",
+  "lng": -104.9428465,
+  "lat": 39.7475515,
+  "bearing": 350,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/34414979"
+  ]
+}
