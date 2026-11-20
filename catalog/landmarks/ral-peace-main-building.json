@@ -1,0 +1,14 @@
+{
+  "id": "ral-peace-main-building",
+  "name": "Main Building, William Peace University",
+  "model": "ral-peace-main-building",
+  "place": "raleigh-area",
+  "lng": -78.6378323,
+  "lat": 35.7891446,
+  "bearing": 3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/47663144"
+  ]
+}
