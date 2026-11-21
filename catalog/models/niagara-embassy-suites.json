@@ -1,0 +1,53 @@
+{
+  "id": "niagara-embassy-suites",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "hotel",
+    "skyscraper"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hotels at Niagara Falls, Ontario, Canada.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hotels_at_Niagara_Falls,_Ontario,_Canada.jpg",
+      "author": "Maksim Sokolov (maxergon.com)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Embassy Suites - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Embassy_Suites_-_panoramio.jpg",
+      "author": "Idawriter",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Falls View Casino and Embassy Suites (8204388676).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Falls_View_Casino_and_Embassy_Suites_(8204388676).jpg",
+      "author": "Richie Diesterheft",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Niagara Falls - ON - Konica Minolta Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Niagara_Falls_-_ON_-_Konica_Minolta_Tower.jpg",
+      "author": "Taxiarchos228",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/niagara-embassy-suites.glb",
+  "source": "generators/niagara-embassy-suites.ts"
+}
