@@ -1,0 +1,15 @@
+{
+  "id": "ric-altria-theater",
+  "name": "Altria Theater",
+  "model": "ric-altria-theater",
+  "place": "richmond-area",
+  "lng": -77.4521075,
+  "lat": 37.5462271,
+  "bearing": 1,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/229623395"
+  ],
+  "wikidata": "Q6484803"
+}
