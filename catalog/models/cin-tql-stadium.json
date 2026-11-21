@@ -1,0 +1,54 @@
+{
+  "id": "cin-tql-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "soccer",
+    "mls"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "FC Cincinnati's 2021 stadium in the West End: a closed rounded bowl under a continuous white roof ring, wrapped in a band of silver twisted fins over a dark grey base.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "TQL Stadium (PXL 20230306 154655503) (cropped).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:TQL_Stadium_(PXL_20230306_154655503)_(cropped).jpg",
+      "author": "Hayden Schiff",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Elevated view of TQL Stadium and its environs from 12th St and Central",
+      "url": "https://commons.wikimedia.org/wiki/File:Elevated_view_of_TQL_Stadium_and_its_environs_from_12th_St_and_Central.jpg",
+      "author": "Phasmatisnox",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "TQL Stadium - West End.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:TQL_Stadium_-_West_End.jpg",
+      "author": "Isaac Freeman",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "TQL Stadium - East End.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:TQL_Stadium_-_East_End.jpg",
+      "author": "Isaac Freeman",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/cin-tql-stadium.glb",
+  "source": "generators/cin-tql-stadium.ts"
+}
