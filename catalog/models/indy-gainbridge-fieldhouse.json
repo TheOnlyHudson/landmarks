@@ -1,0 +1,56 @@
+{
+  "id": "indy-gainbridge-fieldhouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "basketball",
+    "nba",
+    "barrel-vault",
+    "brick"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Bankers Life Fieldhouse, Indianápolis, Estados Unidos, 2012-10-22, DD 01.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bankers_Life_Fieldhouse,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_01.jpg"
+    },
+    {
+      "title": "Bankers Life Fieldhouse, Indianápolis, Estados Unidos, 2012-10-22, DD 02.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bankers_Life_Fieldhouse,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_02.jpg"
+    },
+    {
+      "title": "Bankers Life Fieldhouse in May 2017.jpg",
+      "author": "NaBUru38",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bankers_Life_Fieldhouse_in_May_2017.jpg"
+    },
+    {
+      "title": "ConsecoFieldhouse.jpg",
+      "author": "Durin at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:ConsecoFieldhouse.jpg"
+    }
+  ],
+  "file": "models/indy-gainbridge-fieldhouse.glb",
+  "source": "generators/indy-gainbridge-fieldhouse.ts"
+}
