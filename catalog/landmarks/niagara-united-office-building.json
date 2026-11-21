@@ -1,0 +1,17 @@
+{
+  "id": "niagara-united-office-building",
+  "name": "United Office Building",
+  "model": "niagara-united-office-building",
+  "place": "niagara-falls",
+  "lng": -79.061843,
+  "lat": 43.085391,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/393289058",
+    "way/981021780",
+    "way/981021778",
+    "way/981021779"
+  ]
+}
