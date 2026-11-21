@@ -1,0 +1,18 @@
+{
+  "id": "jax-wells-fargo-center",
+  "name": "1 Independent Square",
+  "model": "jax-wells-fargo-center",
+  "place": "jacksonville-area",
+  "lng": -81.65891743,
+  "lat": 30.32589845,
+  "bearing": 14.25,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q7981655",
+  "replaces": [
+    "way/170068028",
+    "way/591248455",
+    "way/591253923",
+    "relation/8330189"
+  ]
+}
