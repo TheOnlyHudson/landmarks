@@ -1,0 +1,49 @@
+{
+  "id": "nyc-cleft-ridge-span",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "concrete-arch",
+    "olmsted-vaux",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cleft Ridge Span in Prospect Park from East",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleft_Ridge_Span_in_Prospect_Park_from_East.jpg",
+      "author": "Dave Smith",
+      "license": "CC BY-SA"
+    },
+    {
+      "title": "The arch under the Cleft Ridge Span - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:The_arch_under_the_Cleft_Ridge_Span_-_panoramio.jpg",
+      "author": "olekinderhook",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Cleft Ridge Span Tunnel",
+      "url": "https://commons.wikimedia.org/wiki/File:Cleft_Ridge_Span_Tunnel.jpg",
+      "author": "Hikerbackpack",
+      "license": "CC BY-SA"
+    }
+  ],
+  "file": "models/nyc-cleft-ridge-span.glb",
+  "source": "generators/nyc-cleft-ridge-span.ts"
+}
