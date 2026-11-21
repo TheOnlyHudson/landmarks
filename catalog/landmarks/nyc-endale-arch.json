@@ -1,0 +1,12 @@
+{
+  "id": "nyc-endale-arch",
+  "name": "Endale Arch",
+  "model": "nyc-endale-arch",
+  "place": "prospect-park",
+  "lng": -73.969059,
+  "lat": 40.671085,
+  "bearing": 10.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}
