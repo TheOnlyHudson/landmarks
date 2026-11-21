@@ -1,0 +1,14 @@
+{
+  "id": "indy-circle-tower",
+  "name": "Circle Tower",
+  "model": "indy-circle-tower",
+  "place": "indianapolis-area",
+  "lng": -86.1570627,
+  "lat": 39.7681891,
+  "bearing": 1.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/340965638"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "indy-circle-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "art-deco",
+    "office",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Circle Tower, Indianapolis - 2012.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Circle_Tower,_Indianapolis_-_2012.jpg",
+      "author": "Richie Diesterheft",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Circle Tower - Indianapolis.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Circle_Tower_-_Indianapolis.jpg",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Circle Tower 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Circle_Tower_2.jpg",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/indy-circle-tower.glb",
+  "source": "generators/indy-circle-tower.ts"
+}
