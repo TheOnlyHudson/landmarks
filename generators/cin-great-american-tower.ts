@@ -54,7 +54,7 @@
  *   the long faces (147 m), the teal entrance canopy.
  */
 import { Part, type V3 } from './mesh'
-import { PALETTE, finish, windowVariant } from './palette'
+import { PALETTE, finish, windowVariant, type Swatch } from './palette'
 import { type XY, ccw, capRing, wallEdge, wallEdgeOff, edgeBase, type Prism, finishGlb, emit } from './sea-two-union-square'
 
 // ---------------------------------------------------------------- helpers (shared by my cin-* models)
@@ -289,7 +289,7 @@ function build() {
     { part: white, material: PALETTE.trim },
     { part: roof, material: PALETTE.roof },
     { part: steel, material: finish('neon-tiara', 0xe4e8ec, 0.5) },
-    { part: skin, material: { ...PALETTE.glass, color: 0xc4d6e2, opacity: 0.16, doubleSided: true } },
+    { part: skin, material: { ...PALETTE.glass, color: 0xc4d6e2, opacity: 0.16, doubleSided: true } as Swatch },
   ], { bearing: 350, height: H.apex, replaces: REPLACES }, 6500)
 }
 

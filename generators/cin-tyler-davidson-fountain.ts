@@ -44,7 +44,7 @@
  *   _FLOODLIGHT, strongest low and on faces turned outward.
  */
 import { Part, type V3 } from './mesh'
-import { finish } from './palette'
+import { finish, type Swatch } from './palette'
 import { finishGlb, emit } from './sea-two-union-square'
 import { tube } from './cin-great-american-tower'
 
@@ -112,7 +112,7 @@ function build() {
   }
   return finishGlb('Tyler Davidson Fountain', [
     { part: granite, material: finish('fountain-granite', 0xa4a8a3) },
-    { part: bronze, material: { ...finish('fountain-bronze', 0x5f5447, 0.6), floodlight: flood } },
+    { part: bronze, material: { ...finish('fountain-bronze', 0x5f5447, 0.6), floodlight: flood } as Swatch },
   ], { bearing: 0, height: 12.34, replaces: REPLACES })
 }
 
