@@ -1,0 +1,48 @@
+{
+  "id": "cola-sylvan-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "commercial",
+    "second-empire"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sylvan building Columbia.jpg",
+      "author": "Mjcrawf1",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sylvan_building_Columbia.jpg"
+    },
+    {
+      "title": "Sylvan Building; Columbia, South Carolina; February 26, 2016.jpg",
+      "author": "Stephen Matthew Milligan",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sylvan_Building;_Columbia,_South_Carolina;_February_26,_2016.jpg"
+    },
+    {
+      "title": "HABS SC,40-COLUM,8-1, Sylvan entrance on south and west sides (1960)",
+      "author": "Jack Boucher",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Historic_American_Buildings_Survey,_April,_1960_SYLVAN_ENTRANCE_ON_SOUTH_AND_WEST_SIDES._-_Central_National_Bank,_Hampton_and_Main_Streets,_Columbia,_Richland_County,_SC_HABS_SC,40-COLUM,8-1.tif"
+    }
+  ],
+  "file": "models/cola-sylvan-building.glb",
+  "source": "generators/cola-sylvan-building.ts"
+}
