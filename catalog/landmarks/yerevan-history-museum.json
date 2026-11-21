@@ -1,0 +1,17 @@
+{
+  "id": "yerevan-history-museum",
+  "name": "History Museum of Armenia and National Gallery",
+  "model": "yerevan-history-museum",
+  "place": "yerevan",
+  "lng": 44.5141304,
+  "lat": 40.1787795,
+  "bearing": 42.2,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/2983284",
+    "relation/16666122",
+    "way/1556397989",
+    "way/1556397988"
+  ]
+}

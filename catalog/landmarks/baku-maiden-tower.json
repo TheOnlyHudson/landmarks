@@ -1,0 +1,16 @@
+{
+  "id": "baku-maiden-tower",
+  "name": "Maiden Tower",
+  "model": "baku-maiden-tower",
+  "place": "baku",
+  "lng": 49.83724,
+  "lat": 40.366143,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/299418016",
+    "way/418164347"
+  ],
+  "wikidata": "Q842822"
+}

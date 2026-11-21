@@ -1,0 +1,13 @@
+{
+  "id": "dal-waterfall-billboard",
+  "name": "Dallas Waterfall Billboard",
+  "model": "dal-waterfall-billboard",
+  "place": "dallas-area",
+  "lng": -96.81405,
+  "lat": 32.7968,
+  "bearing": 67,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q60741222",
+  "replaces": []
+}

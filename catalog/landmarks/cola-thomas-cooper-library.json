@@ -1,0 +1,14 @@
+{
+  "id": "cola-thomas-cooper-library",
+  "name": "Thomas Cooper Library",
+  "model": "cola-thomas-cooper-library",
+  "place": "columbia-sc-area",
+  "lng": -81.0280699,
+  "lat": 33.9950562,
+  "bearing": 339.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/294236416"
+  ]
+}

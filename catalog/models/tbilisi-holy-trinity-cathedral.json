@@ -1,0 +1,76 @@
+{
+  "id": "tbilisi-holy-trinity-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cathedral",
+    "church",
+    "georgian-orthodox",
+    "religious"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/tbilisi-holy-trinity-cathedral.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "Sameba from the south-west",
+      "url": "https://commons.wikimedia.org/wiki/File:Architecture_of_Tbilisi,_Part_II_-_TbilisiArchitecture8024.jpg",
+      "author": "lumoplank",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "West front",
+      "url": "https://commons.wikimedia.org/wiki/File:Samebao2915.jpg",
+      "author": "Goichev",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Drum telephoto from the south-west",
+      "url": "https://commons.wikimedia.org/wiki/File:Sameba_Cathedral,_Tbilisi_کلیسای_سامبا_در_تفلیس_گرجستان_13.jpg",
+      "author": "Mostafameraji",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "West front from the lower terrace",
+      "url": "https://commons.wikimedia.org/wiki/File:Samebao000022.jpg",
+      "author": "Goichev",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "From the east",
+      "url": "https://commons.wikimedia.org/wiki/File:Samebao3530.jpg",
+      "author": "Goichev",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "West approach",
+      "url": "https://commons.wikimedia.org/wiki/File:Sameba177.jpg",
+      "author": "Goichev",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "At night",
+      "url": "https://commons.wikimedia.org/wiki/File:Sameba_Cathedral,_Tbilisi_کلیسای_سامبا_در_تفلیس_گرجستان_10.jpg",
+      "author": "Mostafameraji",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/tbilisi-holy-trinity-cathedral.glb",
+  "source": "generators/tbilisi-holy-trinity-cathedral.ts"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "tbilisi-narikala",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "fortress",
+    "castle",
+    "ruins",
+    "historic",
+    "church"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/tbilisi-narikala.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "From the north",
+      "url": "https://commons.wikimedia.org/wiki/File:Narikala_-_Tbilisi_-_01.jpg",
+      "author": "Maesi64",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "From below the old town",
+      "url": "https://commons.wikimedia.org/wiki/File:Narikala,_Tiflis,_Georgia,_2016-09-29,_DD_91.jpg",
+      "author": "Diego Delso",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Upper wall on the cliff",
+      "url": "https://commons.wikimedia.org/wiki/File:Narikala,_Tiflis,_Georgia,_2016-09-29,_DD_42.jpg",
+      "author": "Diego Delso",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Lower ring under the church",
+      "url": "https://commons.wikimedia.org/wiki/File:Narikala_from_Vakhtang_Gorgasali_Street.jpg",
+      "author": "Mostafameraji",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Crenellated stretch",
+      "url": "https://commons.wikimedia.org/wiki/File:Wall_of_Narikala_Fortress.jpg",
+      "author": "Reda Kerbush",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "St Nicholas church",
+      "url": "https://commons.wikimedia.org/wiki/File:Church_in_Narikala_castle.jpg",
+      "author": "henribergius",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Upper wall masonry",
+      "url": "https://commons.wikimedia.org/wiki/File:Narikala_Fortress,_Tbilisi_(2011).jpg",
+      "author": "Simon",
+      "license": "CC-BY-SA-2.0"
+    }
+  ],
+  "file": "models/tbilisi-narikala.glb",
+  "source": "generators/tbilisi-narikala.ts"
+}

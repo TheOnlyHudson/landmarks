@@ -1,0 +1,38 @@
+{
+  "id": "dal-waterfall-billboard",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "billboard",
+    "sign",
+    "waterfall",
+    "mid-century"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Dallas Waterfall Billboard",
+      "url": "https://commons.wikimedia.org/wiki/File:Dallas_Waterfall_Billboard.jpg",
+      "author": "Jrihani",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/dal-waterfall-billboard.glb",
+  "source": "generators/dal-waterfall-billboard.ts"
+}

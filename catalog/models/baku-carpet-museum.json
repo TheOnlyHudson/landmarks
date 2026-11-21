@@ -1,0 +1,63 @@
+{
+  "id": "baku-carpet-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "contemporary",
+    "seaside-boulevard"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/baku-carpet-museum.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "From the north near the east end",
+      "url": "https://commons.wikimedia.org/wiki/File:Az%C9%99rbaycan_xal%C3%A7a_muzeyi.jpg",
+      "author": "Presidential Press and Information Office of Azerbaijan",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "The roll from the south-east",
+      "url": "https://commons.wikimedia.org/wiki/File:Carpet_Museum_Looks_Like_A_Carpet_(221090067).jpeg",
+      "author": "Francisco Anzola",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "title": "The roll's profile",
+      "url": "https://commons.wikimedia.org/wiki/File:Museum_of_Azerbaijan_Carpet_and_Applied_Art.jpg",
+      "author": "Mahmoodrezamo",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The west end from the promenade",
+      "url": "https://commons.wikimedia.org/wiki/File:Baku_Carpet_Museum_View.jpg",
+      "author": "SwissTraveller",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Night: panels and lit stripes",
+      "url": "https://commons.wikimedia.org/wiki/File:Az%C9%99rbaycan_Milli_Xal%C3%A7a_Muzeyi,_eksteryer.jpg",
+      "author": "Səltənət Gül",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/baku-carpet-museum.glb",
+  "source": "generators/baku-carpet-museum.ts"
+}

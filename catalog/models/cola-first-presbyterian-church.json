@@ -1,0 +1,48 @@
+{
+  "id": "cola-first-presbyterian-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "First Presbyterian Church - Columbia, South Carolina",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Presbyterian_Church_-_Columbia,_South_Carolina.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "FirstPresbyterianColaSC",
+      "url": "https://commons.wikimedia.org/wiki/File:FirstPresbyterianColaSC.jpg",
+      "author": "Abductive",
+      "license": "CC0"
+    },
+    {
+      "title": "First Presbyterian Church Columbia, SC Back View",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Presbyterian_Church_Columbia,_SC_Back_View.jpg",
+      "author": "Thomas Kirchel",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/cola-first-presbyterian-church.glb",
+  "source": "generators/cola-first-presbyterian-church.ts"
+}

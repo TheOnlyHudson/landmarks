@@ -1,0 +1,27 @@
+{
+  "id": "tbilisi-holy-trinity-cathedral",
+  "name": "Holy Trinity Cathedral (Tsminda Sameba)",
+  "model": "tbilisi-holy-trinity-cathedral",
+  "place": "tbilisi",
+  "lng": 44.816541,
+  "lat": 41.697553,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/585352693",
+    "way/585352695",
+    "way/1221613345",
+    "way/1221613346",
+    "way/1221613347",
+    "way/1221613348",
+    "way/1221613349",
+    "way/1221613350",
+    "way/1221613351",
+    "way/1221613352",
+    "way/1221613353",
+    "way/1221613354",
+    "way/1221613355"
+  ],
+  "wikidata": "Q36996"
+}

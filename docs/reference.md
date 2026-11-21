@@ -366,6 +366,11 @@ park, usually 20 to 50 models.
   Mapterhorn terrain at its real height (drape, fill, base sink and
   `elevation`), with the ground around it drawn; always pass it.
 
+Where several models share one site (a dam, its spillways and its bridge),
+add a combined view too, every model on one patch of terrain:
+
+    bun tools/scene.ts review/<batch>/combined-day.png <id ...> --from <deg> [--night]
+
 GitHub has no API for attaching images to a pull request, so the sheets are
 committed on the PR branch and linked by commit:
 
@@ -378,6 +383,13 @@ committed on the PR branch and linked by commit:
 3. Before merging, `git rm -r review/<batch>` in a last commit. The images
    stay reachable through the PR's commits. The release workflow warns on
    `main` if `review/` is still there.
+
+The `Contact sheets` workflow also draws the sheets for every pull request
+that touches `models/`, `generators/` or `catalog/`, and
+`Contact sheets comment` posts them as one comment, updated on each push.
+The images live on the `pr-sheets` branch. The comment is a backstop for
+pull requests that came without sheets; still put your own in the
+description.
 
 ## Releases
 

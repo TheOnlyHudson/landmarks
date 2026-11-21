@@ -1,0 +1,67 @@
+{
+  "id": "cola-usc-horseshoe",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "university",
+    "campus",
+    "monument"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Rutledge College, Horseshoe, University of South Carolina, Sumter Street, Columbia, SC.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Rutledge_College,_Horseshoe,_University_of_South_Carolina,_Sumter_Street,_Columbia,_SC.jpg"
+    },
+    {
+      "title": "DeSaussure College - wide.jpg",
+      "author": "ProfReader",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:DeSaussure_College_-_wide.jpg"
+    },
+    {
+      "title": "Harper College, Horseshoe, University of South Carolina, Sumter Street, Columbia, SC.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Harper_College,_Horseshoe,_University_of_South_Carolina,_Sumter_Street,_Columbia,_SC.jpg"
+    },
+    {
+      "title": "Legare College, Horseshoe, University of South Carolina, Sumter Street, Columbia, SC.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Legare_College,_Horseshoe,_University_of_South_Carolina,_Sumter_Street,_Columbia,_SC.jpg"
+    },
+    {
+      "title": "President's House, Horseshoe, University of South Carolina, Sumter Street, Columbia, SC.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:President%E2%80%99s_House,_Horseshoe,_University_of_South_Carolina,_Sumter_Street,_Columbia,_SC.jpg"
+    },
+    {
+      "title": "Maxcy Monument, Horseshoe, University of South Carolina, Sumter Street, Columbia, SC.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Maxcy_Monument,_Horseshoe,_University_of_South_Carolina,_Sumter_Street,_Columbia,_SC_-_53398535390.jpg"
+    }
+  ],
+  "file": "models/cola-usc-horseshoe.glb",
+  "source": "generators/cola-usc-horseshoe.ts"
+}
