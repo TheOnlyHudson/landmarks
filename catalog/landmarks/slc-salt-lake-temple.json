@@ -1,0 +1,22 @@
+{
+  "id": "slc-salt-lake-temple",
+  "name": "Salt Lake Temple",
+  "model": "slc-salt-lake-temple",
+  "place": "salt-lake-city-area",
+  "lng": -111.8919123,
+  "lat": 40.7704347,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1122206",
+  "replaces": [
+    "relation/15568838",
+    "relation/15568860",
+    "relation/15568861",
+    "relation/15568862",
+    "relation/15568863",
+    "relation/15568864",
+    "relation/15568865",
+    "relation/15569131"
+  ]
+}
