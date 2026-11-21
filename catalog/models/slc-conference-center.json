@@ -1,0 +1,50 @@
+{
+  "id": "slc-conference-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "auditorium",
+    "church",
+    "modern",
+    "roof-garden"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q1797977",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "LDS Conference Center (41596000491)",
+      "url": "https://commons.wikimedia.org/wiki/File:LDS_Conference_Center_(41596000491).jpg",
+      "author": "Ben P L",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Overview LDS Conference Center from LDS Church Office Building - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:Overview_LDS_Conference_Center_from_LDS_Church_Office_Building_-_panoramio.jpg",
+      "author": "Jordan W.",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Lds conference center panoramic view slc utah",
+      "url": "https://commons.wikimedia.org/wiki/File:Lds_conference_center_panoramic_view_slc_utah.jpg",
+      "author": "Ricardo630",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/slc-conference-center.glb",
+  "source": "generators/slc-conference-center.ts"
+}
