@@ -1,0 +1,55 @@
+{
+  "id": "cola-williams-brice-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "sports",
+    "university",
+    "football"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Williams-Brice Stadium, Home of the South Carolina Gamecocks",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Williams-Brice_Stadium,_Home_of_the_South_Carolina_Gamecocks,_Columbia,_South_Carolina_(5810529551).jpg"
+    },
+    {
+      "title": "Williams Brice Stadium",
+      "author": "Eisenthesky Productions",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Williams_Brice_Stadium.jpg"
+    },
+    {
+      "title": "Williams-Brice Stadium at University of South Carolina",
+      "author": "Idibri",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Williams-Brice_Stadium_at_University_of_South_Carolina_-_Columbia,_SC_(16736100045).jpg"
+    },
+    {
+      "title": "Williams-Brice Stadium outside",
+      "author": "Yardcock",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Williams-Brice_Stadium_outside.jpg"
+    }
+  ],
+  "file": "models/cola-williams-brice-stadium.glb",
+  "source": "generators/cola-williams-brice-stadium.ts"
+}

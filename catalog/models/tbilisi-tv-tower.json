@@ -1,0 +1,59 @@
+{
+  "id": "tbilisi-tv-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tv-tower",
+    "lattice",
+    "steel",
+    "soviet-era",
+    "led-lighting"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tbilisi-tv-tower.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "თბილისის სატელევიზიო ანძა 01",
+      "url": "https://commons.wikimedia.org/wiki/File:%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98%E1%83%A1_%E1%83%A1%E1%83%90%E1%83%A2%E1%83%94%E1%83%9A%E1%83%94%E1%83%95%E1%83%98%E1%83%96%E1%83%98%E1%83%9D_%E1%83%90%E1%83%9C%E1%83%AB%E1%83%90_01.jpg",
+      "author": "Davit butulashvili",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Torre de televisió de Tbilisi",
+      "url": "https://commons.wikimedia.org/wiki/File:Torre_de_televisi%C3%B3_de_Tbilisi.jpg",
+      "author": "Lohen11",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Mt. Mtatsminda as seen from the Public Service Hall parking area. Tbilisi, Georgia. 2023",
+      "url": "https://commons.wikimedia.org/wiki/File:Mt._Mtatsminda_as_seen_from_the_Public_Service_Hall_parking_area._Tbilisi,_Georgia._2023.jpg",
+      "author": "Kober",
+      "license": "CC0"
+    },
+    {
+      "title": "Teleandza.Tbilisi",
+      "url": "https://commons.wikimedia.org/wiki/File:Teleandza.Tbilisi.jpg",
+      "author": "Ninuc10",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/tbilisi-tv-tower.glb",
+  "source": "generators/tbilisi-tv-tower.ts"
+}

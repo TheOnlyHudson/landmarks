@@ -1,0 +1,15 @@
+{
+  "id": "cola-robert-mills-house",
+  "name": "Robert Mills House",
+  "model": "cola-robert-mills-house",
+  "place": "columbia-sc-area",
+  "lng": -81.028997,
+  "lat": 34.009519,
+  "bearing": 339,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/149963658"
+  ],
+  "wikidata": "Q14709628"
+}

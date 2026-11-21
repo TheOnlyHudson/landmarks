@@ -1,0 +1,13 @@
+{
+  "id": "tbilisi-kartlis-deda",
+  "name": "Kartlis Deda (Mother of Georgia)",
+  "model": "tbilisi-kartlis-deda",
+  "place": "tbilisi",
+  "lng": 44.804603,
+  "lat": 41.68812,
+  "bearing": 9.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [],
+  "wikidata": "Q1147179"
+}

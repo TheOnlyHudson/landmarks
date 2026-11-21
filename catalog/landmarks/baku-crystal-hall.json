@@ -1,0 +1,15 @@
+{
+  "id": "baku-crystal-hall",
+  "name": "Baku Crystal Hall",
+  "model": "baku-crystal-hall",
+  "place": "baku",
+  "lng": 49.850221,
+  "lat": 40.344164,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q618714",
+  "replaces": [
+    "way/249204041"
+  ]
+}

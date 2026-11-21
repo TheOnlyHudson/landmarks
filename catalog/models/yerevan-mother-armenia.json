@@ -1,0 +1,82 @@
+{
+  "id": "yerevan-mother-armenia",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "statue",
+    "museum",
+    "soviet-era",
+    "basalt"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/yerevan-mother-armenia.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "Face on from the eternal flame",
+      "url": "https://commons.wikimedia.org/wiki/File:Mother_Armenia_(2024)_(Far_Angle).jpg",
+      "author": "ASFINAG AT",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "The figure face on",
+      "url": "https://commons.wikimedia.org/wiki/File:Mother_Armenia_Monument.JPG",
+      "author": "Aschroet",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Three-quarter view of the pedestal",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan,_Mother_Armenia_Monument,_Armenia.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "The upper pedestal and figure",
+      "url": "https://commons.wikimedia.org/wiki/File:Mother-Armenia-Yerevan-Armenia.jpg",
+      "author": "acediscovery",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "From below",
+      "url": "https://commons.wikimedia.org/wiki/File:Mother_Armenia_Statue,_Yerevan,_Armenia.jpg",
+      "author": "SamvelM",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "From the approach",
+      "url": "https://commons.wikimedia.org/wiki/File:Mother_Armenia_statue_in_Yerevan_P8210360_2350.jpg",
+      "author": "Alexxx1979",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "From the Cascade, in profile",
+      "url": "https://commons.wikimedia.org/wiki/File:2014_Erywa%C5%84,_Widoki_z_Kaskad_(14).jpg",
+      "author": "Marcin Konsek",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The museum portal",
+      "url": "https://commons.wikimedia.org/wiki/File:Mother_Armenia_Military_Museum_in_Yerevan_05.jpg",
+      "author": "Gill M L",
+      "license": "CC-BY-SA-2.0"
+    }
+  ],
+  "file": "models/yerevan-mother-armenia.glb",
+  "source": "generators/yerevan-mother-armenia.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cola-st-peters-church",
+  "name": "Saint Peter's Catholic Church",
+  "model": "cola-st-peters-church",
+  "place": "columbia-sc-area",
+  "lng": -81.037996,
+  "lat": 34.005589,
+  "bearing": 70,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/513681742"
+  ],
+  "wikidata": "Q7591423"
+}

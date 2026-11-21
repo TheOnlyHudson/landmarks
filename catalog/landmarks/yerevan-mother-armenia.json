@@ -1,0 +1,17 @@
+{
+  "id": "yerevan-mother-armenia",
+  "name": "Mother Armenia",
+  "model": "yerevan-mother-armenia",
+  "place": "yerevan",
+  "lng": 44.524669,
+  "lat": 40.195145,
+  "bearing": 42.4,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/446861635",
+    "way/1217489350",
+    "way/1217489351"
+  ],
+  "wikidata": "Q2389195"
+}
