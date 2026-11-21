@@ -1,0 +1,62 @@
+{
+  "id": "nyc-trefoil-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "brownstone",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Central Park Jul 2019 49",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_Jul_2019_49.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Central Park Jul 2019 48",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_Jul_2019_48.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trefoil Arch East",
+      "url": "https://commons.wikimedia.org/wiki/File:Trefoil_Arch_East_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Central Park Jul 2019 46",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_Jul_2019_46.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trefoil Arch - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:Trefoil_Arch_-_panoramio.jpg",
+      "author": "Pablo Costa Tirado",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/nyc-trefoil-arch.glb",
+  "source": "generators/nyc-trefoil-arch.ts"
+}
