@@ -1,0 +1,15 @@
+{
+  "id": "nyc-cloisters",
+  "name": "The Met Cloisters",
+  "model": "nyc-cloisters",
+  "place": "new-york-area",
+  "lng": -73.931864,
+  "lat": 40.864813,
+  "bearing": 20,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/6424088",
+    "way/285900671"
+  ]
+}
