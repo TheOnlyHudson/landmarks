@@ -1,0 +1,12 @@
+{
+  "id": "niagara-skywheel",
+  "name": "Niagara SkyWheel",
+  "model": "niagara-skywheel",
+  "place": "niagara-falls",
+  "lng": -79.075586,
+  "lat": 43.09082,
+  "bearing": 30,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": []
+}
