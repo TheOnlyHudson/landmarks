@@ -1,0 +1,61 @@
+{
+  "id": "cin-music-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "concert-hall",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Cincinnati's 1878 High Victorian Gothic concert hall in Over-the-Rhine: a symmetrical red-brick front on Elm Street with a tall central gable and rose window between two slate-spired towers, and hipped end pavilions over the north and south halls.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cincinnati-Music Hall (OHPTC) - 16137233821.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati-Music_Hall_(OHPTC)_-_16137233821.jpg",
+      "author": "Ohio Redevelopment Projects - ODSA",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Cincinnati-Cincinnati Music Hall (OHPTC).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati-Cincinnati_Music_Hall_(OHPTC).jpg",
+      "author": "Ohio Redevelopment Projects - ODSA",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Renovated Cincinnati Music Hall 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Renovated_Cincinnati_Music_Hall_2.jpg",
+      "author": "Larsonj3",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Cincinnati-Music Hall (OHPTC)",
+      "url": "https://www.flickr.com/photos/63837784@N08/15519407273",
+      "author": "Ohio Redevelopment Projects - ODSA",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Cincinnati Music Hall",
+      "url": "https://www.flickr.com/photos/16069488@N00/9332956255",
+      "author": "string_bass_dave",
+      "license": "CC-BY-SA-2.0"
+    }
+  ],
+  "file": "models/cin-music-hall.glb",
+  "source": "generators/cin-music-hall.ts"
+}
