@@ -1,0 +1,15 @@
+{
+  "id": "ric-st-johns-church",
+  "name": "St. John's Church",
+  "model": "ric-st-johns-church",
+  "place": "richmond-area",
+  "lng": -77.4196653,
+  "lat": 37.5313448,
+  "bearing": 0.69,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/400327565"
+  ],
+  "wikidata": "Q2319561"
+}

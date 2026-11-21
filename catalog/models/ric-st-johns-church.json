@@ -1,0 +1,54 @@
+{
+  "id": "ric-st-johns-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "historic",
+    "colonial"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "StJohnsRichmond.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:StJohnsRichmond.JPG",
+      "author": "Skyring",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "St. John's Church in Richmond, VA (2011) IMG 4046.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:St._John%27s_Church_in_Richmond,_VA_(2011)_IMG_4046.JPG",
+      "author": "Billy Hathorn",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "St. John's Church, Richmond, Virginia (1901)",
+      "url": "https://commons.wikimedia.org/wiki/File:St._John%27s_Church,_Richmond,_Virginia-LCCN2008679545.jpg",
+      "author": "Detroit Photographic Co.",
+      "license": "Public domain"
+    },
+    {
+      "title": "St. John's Church, Site of Patrick Henry's 'Give Me Liberty' Speech",
+      "url": "https://www.flickr.com/photos/75683070@N00/2522595702",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/ric-st-johns-church.glb",
+  "source": "generators/ric-st-johns-church.ts"
+}
