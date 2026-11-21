@@ -1,0 +1,61 @@
+{
+  "id": "cin-observatory",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "observatory",
+    "greek-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The Cincinnati Observatory on Mount Lookout: Samuel Hannaford's 1873 red-brick Greek Revival main building with its tetrastyle portico and big silver telescope dome, and the smaller 1904 domed building beside it.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cincinnati Observatory.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Observatory.JPG",
+      "author": "Analogue Kid at en.wikipedia",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Cincinnati Observatory, Hyde Park, Cincinnati, OH (46854731212).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Observatory,_Hyde_Park,_Cincinnati,_OH_(46854731212).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Cincinnati Observatory, Hyde Park, Cincinnati, OH (46906858191).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Observatory,_Hyde_Park,_Cincinnati,_OH_(46906858191).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Cincinnati Observatory, Hyde Park, Cincinnati, OH (46854731362).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Observatory,_Hyde_Park,_Cincinnati,_OH_(46854731362).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Cincinnati Observatory, Hyde Park, Cincinnati, OH (46906851451).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Observatory,_Hyde_Park,_Cincinnati,_OH_(46906851451).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/cin-observatory.glb",
+  "source": "generators/cin-observatory.ts"
+}
