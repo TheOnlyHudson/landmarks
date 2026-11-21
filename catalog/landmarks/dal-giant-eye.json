@@ -1,0 +1,13 @@
+{
+  "id": "dal-giant-eye",
+  "name": "Eye (Giant Eyeball)",
+  "model": "dal-giant-eye",
+  "place": "dallas-area",
+  "lng": -96.798304,
+  "lat": 32.781411,
+  "bearing": 346,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q122272837",
+  "replaces": []
+}

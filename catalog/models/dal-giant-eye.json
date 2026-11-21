@@ -1,0 +1,61 @@
+{
+  "id": "dal-giant-eye",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "public-art",
+    "eyeball",
+    "downtown"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Giant Eyeball, Dallas",
+      "url": "https://www.flickr.com/photos/38315261@N00/35077984153",
+      "author": "Sharon Mollerus",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Giant Eyeball, Dallas",
+      "url": "https://www.flickr.com/photos/38315261@N00/35727921102",
+      "author": "Sharon Mollerus",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Giant Eyeball, Dallas 8/6/18",
+      "url": "https://www.flickr.com/photos/38315261@N00/29121634527",
+      "author": "Sharon Mollerus",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Giant Eyeball, Dallas 5/16/24",
+      "url": "https://www.flickr.com/photos/38315261@N00/53737791359",
+      "author": "Sharon Mollerus",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Downtown Dallas Eye",
+      "url": "https://www.flickr.com/photos/77887212@N00/11452656535",
+      "author": "Chasqui (Luis Tamayo)",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/dal-giant-eye.glb",
+  "source": "generators/dal-giant-eye.ts"
+}
