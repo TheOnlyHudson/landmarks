@@ -1,0 +1,48 @@
+{
+  "id": "indy-old-national-centre",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "theatre",
+    "moorish-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Murat Shrine, Indianápolis, Estados Unidos, 2012-10-22, DD 01.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Murat_Shrine,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_01.jpg"
+    },
+    {
+      "title": "Murat Shrine Temple (Old National Centre) - 54378175001.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Murat_Shrine_Temple_(Old_National_Centre),_New_Jersey_Street_and_Massachusetts_Avenue,_Indianapolis,_IN_-_54378175001.jpg"
+    },
+    {
+      "title": "Murat Shrine Temple (Old National Centre) - 54378414683.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Murat_Shrine_Temple_(Old_National_Centre),_New_Jersey_Street_and_Massachusetts_Avenue,_Indianapolis,_IN_-_54378414683.jpg"
+    }
+  ],
+  "file": "models/indy-old-national-centre.glb",
+  "source": "generators/indy-old-national-centre.ts"
+}
