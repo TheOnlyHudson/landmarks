@@ -1,0 +1,56 @@
+{
+  "id": "nyc-gothic-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "cast-iron",
+    "footbridge",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "HAER NY-194: Gothic Arch, view from bridlepath looking southwest, side elevation",
+      "url": "https://commons.wikimedia.org/wiki/File:View_from_bridlepath_looking_southwest,_side_elevation_of_bridge_-_Central_Park_Bridges,_Gothic_Arch,_Spanning_bridlepath_south_of_tennis_courts_at_northwest_edge_of_Reservoir,_HAER_NY,31-NEYO,153C-2.tif",
+      "author": "Jet Lowe, Historic American Engineering Record",
+      "license": "Public domain"
+    },
+    {
+      "title": "HAER NY-194: Gothic Arch, three-quarter view looking southeast",
+      "url": "https://commons.wikimedia.org/wiki/File:Three-quarter_view_from_pedestrian_path_level,_looking_southeast,_showing_balustrade_and_west_elevation_of_bridge_-_Central_Park_Bridges,_Gothic_Arch,_Spanning_bridlepath_south_HAER_NY,31-NEYO,153C-3.tif",
+      "author": "Jet Lowe, Historic American Engineering Record",
+      "license": "Public domain"
+    },
+    {
+      "title": "Gothic Bridge 28 east cloudy jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Gothic_Bridge_28_east_cloudy_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Gothic Bridge north of Central Park Reservoir PM jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Gothic_Bridge_north_of_Central_Park_Reservoir_PM_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/nyc-gothic-bridge.glb",
+  "source": "generators/nyc-gothic-bridge.ts"
+}
