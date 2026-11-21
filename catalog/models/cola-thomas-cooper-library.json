@@ -1,0 +1,48 @@
+{
+  "id": "cola-thomas-cooper-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "modernist",
+    "library",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "University of South Carolina Thomas Cooper Library.jpg",
+      "author": "Dfscgt21",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:University_of_South_Carolina_Thomas_Cooper_Library.jpg"
+    },
+    {
+      "title": "Thomas Cooper Library Columbia Sc (70411427).jpeg",
+      "author": "Brandon Cox",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Thomas_Cooper_Library_Columbia_Sc_(70411427).jpeg"
+    },
+    {
+      "title": "Thomas Cooper Library",
+      "author": "brcox22",
+      "license": "CC BY 2.0",
+      "url": "https://www.flickr.com/photos/brcox22/13994600707"
+    }
+  ],
+  "file": "models/cola-thomas-cooper-library.glb",
+  "source": "generators/cola-thomas-cooper-library.ts"
+}

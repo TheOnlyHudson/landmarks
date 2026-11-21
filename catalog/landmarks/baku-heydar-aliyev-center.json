@@ -1,0 +1,14 @@
+{
+  "id": "baku-heydar-aliyev-center",
+  "name": "Heydar Aliyev Center",
+  "model": "baku-heydar-aliyev-center",
+  "place": "baku",
+  "lng": 49.8675821,
+  "lat": 40.3960622,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/19380164"
+  ]
+}

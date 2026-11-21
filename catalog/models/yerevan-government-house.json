@@ -1,0 +1,75 @@
+{
+  "id": "yerevan-government-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "historic",
+    "tuff"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Yerevan, Government House, Government of Armenia, Republic Square, Armenia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan,_Government_House,_Government_of_Armenia,_Republic_Square,_Armenia.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Yerevan, Government House, Government of Armenia, Armenia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan,_Government_House,_Government_of_Armenia,_Armenia.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Government House on Republic Square in Yerevan, Armenia May 2021.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Government_House_on_Republic_Square_in_Yerevan,_Armenia_May_2021.jpg",
+      "author": "Aleksey Chalabyan (Xelgen)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Yerevan, Government House of Armenia, Republic Square of Yerevan, Armenia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan,_Government_House_of_Armenia,_Republic_Square_of_Yerevan,_Armenia.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Yerevan Government House 04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan_Government_House_04.jpg",
+      "author": "Beko",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Yerevan Government building 23.03.2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan_Government_building_23.03.2025.jpg",
+      "author": "Preacher lad",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Yerevan square by Rita W.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan_square_by_Rita_W.jpg",
+      "author": "Rita Willaert",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "detail": "models/yerevan-government-house.detail.glb",
+  "detailZoom": 16,
+  "file": "models/yerevan-government-house.glb",
+  "source": "generators/yerevan-government-house.ts"
+}

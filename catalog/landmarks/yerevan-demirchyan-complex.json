@@ -1,0 +1,15 @@
+{
+  "id": "yerevan-demirchyan-complex",
+  "name": "Karen Demirchyan Sports and Concerts Complex",
+  "model": "yerevan-demirchyan-complex",
+  "place": "yerevan",
+  "lng": 44.483196,
+  "lat": 40.188255,
+  "bearing": 115,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/33169374"
+  ],
+  "wikidata": "Q1124949"
+}

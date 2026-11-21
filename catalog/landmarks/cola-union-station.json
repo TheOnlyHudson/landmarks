@@ -1,0 +1,15 @@
+{
+  "id": "cola-union-station",
+  "name": "Union Station",
+  "model": "cola-union-station",
+  "place": "columbia-sc-area",
+  "lng": -81.029406,
+  "lat": 33.990605,
+  "bearing": 339.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/260712359"
+  ],
+  "wikidata": "Q18156767"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "baku-government-house",
+  "name": "Government House",
+  "model": "baku-government-house",
+  "place": "baku",
+  "lng": 49.85264,
+  "lat": 40.373843,
+  "bearing": 336.4,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/152809510"
+  ]
+}

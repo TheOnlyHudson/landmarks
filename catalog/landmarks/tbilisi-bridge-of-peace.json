@@ -1,0 +1,16 @@
+{
+  "id": "tbilisi-bridge-of-peace",
+  "name": "Bridge of Peace",
+  "model": "tbilisi-bridge-of-peace",
+  "place": "tbilisi",
+  "lng": 44.808053,
+  "lat": 41.692977,
+  "bearing": 357.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q27574",
+  "replaces": [
+    "way/1207561125",
+    "way/440933580"
+  ]
+}

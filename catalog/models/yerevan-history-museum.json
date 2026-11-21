@@ -1,0 +1,63 @@
+{
+  "id": "yerevan-history-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "historic",
+    "tuff"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Armenia Museum of Art and History.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Armenia_Museum_of_Art_and_History.jpg",
+      "author": "EvgenyGenkin",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "History Museum of Armenia in Yerevan.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:History_Museum_of_Armenia_in_Yerevan.jpg",
+      "author": "Mayer Hovann",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Plaza de la República, Ereván, Armenia, 2016-10-02, DD 113-114 HDR.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Plaza_de_la_Rep%C3%BAblica,_Erev%C3%A1n,_Armenia,_2016-10-02,_DD_113-114_HDR.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "National Gallery of Armenia - Հայաստանի ազգային պատկերասրահ.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Gallery_of_Armenia_-_%D5%80%D5%A1%D5%B5%D5%A1%D5%BD%D5%BF%D5%A1%D5%B6%D5%AB_%D5%A1%D5%A6%D5%A3%D5%A1%D5%B5%D5%AB%D5%B6_%D5%BA%D5%A1%D5%BF%D5%AF%D5%A5%D6%80%D5%A1%D5%BD%D6%80%D5%A1%D5%B0.jpg",
+      "author": "GeoO",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Yerevan, History Museum of Armenia at night, Armenia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan,_History_Museum_of_Armenia_at_night,_Armenia.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "detail": "models/yerevan-history-museum.detail.glb",
+  "detailZoom": 16,
+  "file": "models/yerevan-history-museum.glb",
+  "source": "generators/yerevan-history-museum.ts"
+}

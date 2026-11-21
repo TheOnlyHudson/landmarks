@@ -1,0 +1,50 @@
+{
+  "id": "cola-colonial-life-arena",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "sports",
+    "university",
+    "basketball",
+    "concert-venue"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "University of South Carolina Colonial Life Arena",
+      "author": "Dfscgt21",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:University_of_South_Carolina_Colonial_Life_Arena.jpg"
+    },
+    {
+      "title": "ColonialLifeArena.jpg",
+      "author": "Akhenaton06",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:ColonialLifeArena.jpg"
+    },
+    {
+      "title": "Colonial Life Arena, Feb 2026",
+      "author": "PCN02WPS",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Colonial_Life_Arena,_Feb_2026.jpg"
+    }
+  ],
+  "file": "models/cola-colonial-life-arena.glb",
+  "source": "generators/cola-colonial-life-arena.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "yerevan-st-gregory-cathedral",
+  "name": "Saint Gregory the Illuminator Cathedral",
+  "model": "yerevan-st-gregory-cathedral",
+  "place": "yerevan",
+  "lng": 44.516892,
+  "lat": 40.172049,
+  "bearing": 1.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/31622320"
+  ],
+  "wikidata": "Q2942349"
+}
