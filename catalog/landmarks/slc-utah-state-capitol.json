@@ -1,0 +1,29 @@
+{
+  "id": "slc-utah-state-capitol",
+  "name": "Utah State Capitol",
+  "model": "slc-utah-state-capitol",
+  "place": "salt-lake-city-area",
+  "lng": -111.88822,
+  "lat": 40.77742,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q2627661",
+  "replaces": [
+    "way/32920861",
+    "way/1320424742",
+    "way/1434177173",
+    "way/299082900",
+    "way/1434177172",
+    "way/1435006798",
+    "way/1435006799",
+    "way/1434520921",
+    "way/1434520922",
+    "way/1434520923",
+    "way/1434520924",
+    "way/1434520925",
+    "way/1435006806",
+    "way/1435006807",
+    "way/1435006808"
+  ]
+}
