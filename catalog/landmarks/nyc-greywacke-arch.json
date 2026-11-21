@@ -1,0 +1,12 @@
+{
+  "id": "nyc-greywacke-arch",
+  "name": "Greywacke Arch",
+  "model": "nyc-greywacke-arch",
+  "place": "central-park",
+  "lng": -73.96555,
+  "lat": 40.779087,
+  "bearing": 136.1,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}
