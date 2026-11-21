@@ -1,0 +1,49 @@
+{
+  "id": "pdx-veterans-memorial-coliseum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "sports",
+    "historic",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Memorial Coliseum wide view from north, 2013",
+      "url": "https://commons.wikimedia.org/wiki/File:Memorial_Coliseum_wide_view_from_north,_2013.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Veterans Memorial Coliseum in 2013 - Portland, Oregon",
+      "url": "https://commons.wikimedia.org/wiki/File:Veterans_Memorial_Coliseum_in_2013_-_Portland,_Oregon.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Moda Center and Memorial Coliseum from the air",
+      "url": "https://commons.wikimedia.org/wiki/File:Moda_Center_and_Memorial_Coliseum_from_the_air.jpg",
+      "author": "Pete Forsyth",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/pdx-veterans-memorial-coliseum.glb",
+  "source": "generators/pdx-veterans-memorial-coliseum.ts"
+}
