@@ -1,0 +1,25 @@
+{
+  "id": "cin-krohn-conservatory",
+  "name": "Krohn Conservatory",
+  "model": "cin-krohn-conservatory",
+  "place": "cincinnati-area",
+  "lng": -84.490117,
+  "lat": 39.115187,
+  "bearing": 39.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6438783",
+  "replaces": [
+    "relation/10390779",
+    "way/1315641821",
+    "way/1315641823",
+    "way/1315641824",
+    "way/1315641825",
+    "way/1315641826",
+    "way/1315641827",
+    "way/1315641828",
+    "way/1315641829",
+    "way/1315641830",
+    "way/1459086203"
+  ]
+}
