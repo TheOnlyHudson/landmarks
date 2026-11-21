@@ -1,0 +1,14 @@
+{
+  "id": "indy-columbia-club",
+  "name": "The Columbia Club",
+  "model": "indy-columbia-club",
+  "place": "indianapolis-area",
+  "lng": -86.1572805,
+  "lat": 39.7692254,
+  "bearing": 38.37,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/338986230"
+  ]
+}
