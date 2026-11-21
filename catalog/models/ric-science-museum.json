@@ -1,0 +1,49 @@
+{
+  "id": "ric-science-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "railway-station",
+    "historic",
+    "neoclassical"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Science Museum of Virginia 20070916.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Science_Museum_of_Virginia_20070916.jpg",
+      "author": "Coredesat",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Science Museum of Virginia (26479711253).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Science_Museum_of_Virginia_(26479711253).jpg",
+      "author": "Eli Christman",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Rear view of the Science Museum of Virginia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rear_view_of_the_Science_Museum_of_Virginia.jpg",
+      "author": "Rifleman 82",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/ric-science-museum.glb",
+  "source": "generators/ric-science-museum.ts"
+}

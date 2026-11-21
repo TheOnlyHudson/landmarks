@@ -1,0 +1,20 @@
+{
+  "id": "ric-science-museum",
+  "name": "Science Museum of Virginia",
+  "model": "ric-science-museum",
+  "place": "richmond-area",
+  "lng": -77.4656202,
+  "lat": 37.5614941,
+  "bearing": 37,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/252997396",
+    "way/334113909",
+    "way/334113910",
+    "way/334113913",
+    "way/334113925",
+    "way/334113955"
+  ],
+  "wikidata": "Q7433575"
+}
