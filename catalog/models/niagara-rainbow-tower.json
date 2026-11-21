@@ -1,0 +1,49 @@
+{
+  "id": "niagara-rainbow-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "historic",
+    "carillon",
+    "bell-tower",
+    "border-crossing"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Rainbow Carillon Tower.jpg",
+      "author": "Draconichiaro",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Carillon_Tower.jpg"
+    },
+    {
+      "title": "Rainbow Bridge from Niagara Falls Observation Tower.jpeg",
+      "author": "Dough4872",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_from_Niagara_Falls_Observation_Tower.jpeg"
+    },
+    {
+      "title": "Rainbow Bridge, July 2026.jpg",
+      "author": "PenPineapplePinniped",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge,_July_2026.jpg"
+    }
+  ],
+  "file": "models/niagara-rainbow-tower.glb",
+  "source": "generators/niagara-rainbow-tower.ts"
+}
