@@ -1,0 +1,60 @@
+{
+  "id": "jax-bank-of-america-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Bank of America Tower Jacksonville1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Tower_Jacksonville1.jpg",
+      "author": "Rob Bixby",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "BOATowerJacksonville-Feb2010-b.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:BOATowerJacksonville-Feb2010-b.JPG",
+      "author": "LoneStarMike",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "BOATowerJacksonville-Feb2010-c.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:BOATowerJacksonville-Feb2010-c.JPG",
+      "author": "LoneStarMike",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "BOATJAX.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:BOATJAX.jpg",
+      "author": "Mathew105601",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Jacksonville, Florida skyline.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jacksonville,_Florida_skyline.jpg",
+      "author": "Matthew T Rader",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/jax-bank-of-america-tower.glb",
+  "source": "generators/jax-bank-of-america-tower.ts"
+}
