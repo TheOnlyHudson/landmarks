@@ -1,0 +1,56 @@
+{
+  "id": "cin-contemporary-arts-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "art-museum",
+    "deconstructivism",
+    "zaha-hadid"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Zaha Hadid's first US building (2003): a jigsaw of pale concrete boxes and one black box stacked over a glazed ground floor at 6th and Walnut.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Contemporary Arts Center, Cincinnati, OH (46306691005).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Contemporary_Arts_Center,_Cincinnati,_OH_(46306691005).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Contemporary Arts Center, Cincinnati, 2019.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Contemporary_Arts_Center,_Cincinnati,_2019.jpg",
+      "author": "EEJCC",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Contemporary Art Museum Cincinnati.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Contemporary_Art_Museum_Cincinnati.JPG",
+      "author": "Keith Lanser",
+      "license": "Public domain"
+    },
+    {
+      "title": "CenterForContemporaryArtCorner.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:CenterForContemporaryArtCorner.jpg",
+      "author": "Eric Inglert",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/cin-contemporary-arts-center.glb",
+  "source": "generators/cin-contemporary-arts-center.ts"
+}
