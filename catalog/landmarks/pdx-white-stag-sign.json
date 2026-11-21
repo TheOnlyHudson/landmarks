@@ -1,0 +1,14 @@
+{
+  "id": "pdx-white-stag-sign",
+  "name": "White Stag sign",
+  "model": "pdx-white-stag-sign",
+  "place": "portland-or-area",
+  "lng": -122.670671,
+  "lat": 45.523423,
+  "bearing": 356.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/39336112"
+  ]
+}
