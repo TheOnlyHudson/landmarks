@@ -1,0 +1,56 @@
+{
+  "id": "cin-eden-park-stand-pipe",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "historic",
+    "water-tower",
+    "romanesque-revival",
+    "park"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The 1894 Romanesque Revival water tower in Eden Park: a round red-brick shaft on a pale rusticated stone base, with a chequered, corbelled crown and a taller stair turret clasped to its side.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Eden Park Stand Pipe, Cincinnati.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Eden_Park_Stand_Pipe,_Cincinnati.jpg",
+      "author": "EEJCC",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Eden Park Stand Pipe, south end.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Eden_Park_Stand_Pipe,_south_end.jpg",
+      "author": "Joestn",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "EdenParkStandPipe.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:EdenParkStandPipe.jpg",
+      "author": "Greg Hume (Greg5030)",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "EdenParkStandPipe02.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:EdenParkStandPipe02.JPG",
+      "author": "Greg Hume",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/cin-eden-park-stand-pipe.glb",
+  "source": "generators/cin-eden-park-stand-pipe.ts"
+}
