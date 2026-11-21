@@ -1,0 +1,16 @@
+{
+  "id": "pdx-vista-house",
+  "name": "Vista House",
+  "model": "pdx-vista-house",
+  "place": "columbia-river-gorge",
+  "lng": -122.244378,
+  "lat": 45.539567,
+  "bearing": 357.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q14709314",
+  "replaces": [
+    "way/145892556",
+    "way/416451709"
+  ]
+}
