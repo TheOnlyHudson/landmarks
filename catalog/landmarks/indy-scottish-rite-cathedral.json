@@ -1,0 +1,15 @@
+{
+  "id": "indy-scottish-rite-cathedral",
+  "name": "Scottish Rite Cathedral",
+  "model": "indy-scottish-rite-cathedral",
+  "place": "indianapolis-area",
+  "lng": -86.1582733,
+  "lat": 39.776175,
+  "bearing": -1.88,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/201717690"
+  ],
+  "wikidata": "Q7437949"
+}
