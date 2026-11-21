@@ -1,0 +1,14 @@
+{
+  "id": "nyc-ladies-pavilion",
+  "name": "Ladies' Pavilion",
+  "model": "nyc-ladies-pavilion",
+  "place": "central-park",
+  "lng": -73.972946,
+  "lat": 40.777667,
+  "bearing": 37.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/221918229"
+  ]
+}
