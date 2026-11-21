@@ -1,0 +1,42 @@
+{
+  "id": "ric-poe-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "historic",
+    "house"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Poe museum800px.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Poe_museum800px.jpg",
+      "author": "Albrecht Conz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Richmond, Va. The Old Stone House.jpg (1865)",
+      "url": "https://commons.wikimedia.org/wiki/File:Richmond,_Va._The_Old_Stone_House.jpg",
+      "author": "Library of Congress, Civil War glass negatives",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/ric-poe-museum.glb",
+  "source": "generators/ric-poe-museum.ts"
+}

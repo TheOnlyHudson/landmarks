@@ -1,0 +1,15 @@
+{
+  "id": "ric-poe-museum",
+  "name": "Edgar Allan Poe Museum",
+  "model": "ric-poe-museum",
+  "place": "richmond-area",
+  "lng": -77.4260371,
+  "lat": 37.5320968,
+  "bearing": 37.87,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/365615571"
+  ],
+  "wikidata": "Q1130116"
+}
