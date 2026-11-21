@@ -1,0 +1,50 @@
+{
+  "id": "pdx-tilikum-crossing",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "cable-stayed",
+    "transit",
+    "pedestrian"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/pdx-tilikum-crossing.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tilikum Crossing from Ross Island Bridge with MAX.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tilikum_Crossing_from_Ross_Island_Bridge_with_MAX.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Tilikum Crossing (30496242922).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tilikum_Crossing_(30496242922).jpg",
+      "author": "Atomic Taco",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Tilikum Crossing at night Nov 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tilikum_Crossing_at_night_Nov_2015.jpg",
+      "author": "Michael Dunn",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/pdx-tilikum-crossing.glb",
+  "source": "generators/pdx-tilikum-crossing.ts"
+}
