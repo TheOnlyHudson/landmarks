@@ -1,0 +1,14 @@
+{
+  "id": "nyc-springbanks-arch",
+  "name": "Springbanks Arch",
+  "model": "nyc-springbanks-arch",
+  "place": "central-park",
+  "lng": -73.958102,
+  "lat": 40.793666,
+  "bearing": 17.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/387351393"
+  ]
+}
