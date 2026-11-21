@@ -1,0 +1,20 @@
+{
+  "id": "pdx-union-station",
+  "name": "Portland Union Station",
+  "model": "pdx-union-station",
+  "place": "portland-or-area",
+  "lng": -122.676795,
+  "lat": 45.529075,
+  "bearing": 49.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/156423744",
+    "way/1580321841",
+    "way/421660583",
+    "way/443258323",
+    "way/1580321840",
+    "way/450250949",
+    "way/443258321"
+  ]
+}
