@@ -1,0 +1,50 @@
+{
+  "id": "cin-st-francis-de-sales",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "place-of-worship",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The 1889 Gothic Revival parish church of East Walnut Hills: grey rock-faced limestone with buff sandstone trim, a rose-windowed front and a tall corner tower with gabled clocks and a green copper spire.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "StFrancisDeSales.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:StFrancisDeSales.jpg",
+      "author": "Greg Hume",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "title": "St. Francis De Sales Catholic Church, East Walnut Hills, Cincinnati, OH (47126904252).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Francis_De_Sales_Catholic_Church,_East_Walnut_Hills,_Cincinnati,_OH_(47126904252).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "St. Francis De Sales Church, East Walnut Hills, Cincinnati, OH (40412904473).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Francis_De_Sales_Church,_East_Walnut_Hills,_Cincinnati,_OH_(40412904473).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/cin-st-francis-de-sales.glb",
+  "source": "generators/cin-st-francis-de-sales.ts"
+}

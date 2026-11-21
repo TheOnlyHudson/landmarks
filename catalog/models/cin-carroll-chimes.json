@@ -1,0 +1,44 @@
+{
+  "id": "cin-carroll-chimes",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "clock-tower",
+    "bell-tower",
+    "glockenspiel",
+    "park"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The 1979 German-style carillon tower in Goebel Park, MainStrasse: a red-brick shaft with a half-timbered clock stage, a steep spire and a Pied Piper glockenspiel.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Julian Carroll Bell Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Julian_Carroll_Bell_Tower.jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "CC Bell Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:CC_Bell_Tower.jpg",
+      "author": "Fannybyrd",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/cin-carroll-chimes.glb",
+  "source": "generators/cin-carroll-chimes.ts"
+}

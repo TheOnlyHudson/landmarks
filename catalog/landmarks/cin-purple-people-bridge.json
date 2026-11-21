@@ -1,0 +1,15 @@
+{
+  "id": "cin-purple-people-bridge",
+  "name": "Purple People Bridge",
+  "model": "cin-purple-people-bridge",
+  "place": "cincinnati-area",
+  "lng": -84.49812,
+  "lat": 39.09848,
+  "bearing": 143,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1983625",
+  "replaces": [
+    "way/734667335"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "cin-great-american-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "glass",
+    "crown"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Cincinnati's tallest building (2011): a pale blue glass shaft with stepped corners, crowned by an open steel tiara lit at night.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Great American Insurance Group skyscraper from Great American Ballpark.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_American_Insurance_Group_skyscraper_from_Great_American_Ballpark.jpg",
+      "author": "Bpluke01",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Great American Insurance Group skyscraper - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_American_Insurance_Group_skyscraper_-_panoramio.jpg",
+      "author": "Carlo Pelagalli",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Great American Tower at Queen City Square, Cincinnati, OH (47221092151).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_American_Tower_at_Queen_City_Square,_Cincinnati,_OH_(47221092151).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/cin-great-american-tower.glb",
+  "source": "generators/cin-great-american-tower.ts"
+}

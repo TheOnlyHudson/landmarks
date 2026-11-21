@@ -1,0 +1,50 @@
+{
+  "id": "cin-ascent",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "residential",
+    "modern",
+    "libeskind"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Daniel Libeskind's 2008 residential tower on the Covington riverfront: a crescent of white panels and jagged blue glass stripes whose roof sweeps up in one inclined plane to a blade-sharp tip.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "AscentAtRB.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:AscentAtRB.jpg",
+      "author": "Studio Daniel Libeskind",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Ascent at Roebling Bridge, Covington, KY - 33760899908",
+      "url": "https://commons.wikimedia.org/wiki/File:Ascent_at_Roebling_Bridge,_Covington,_KY_-_33760899908.jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Ascent at Roebling Bridge, Covington, KY - 47638338761",
+      "url": "https://commons.wikimedia.org/wiki/File:Ascent_at_Roebling_Bridge,_Covington,_KY_-_47638338761.jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/cin-ascent.glb",
+  "source": "generators/cin-ascent.ts"
+}

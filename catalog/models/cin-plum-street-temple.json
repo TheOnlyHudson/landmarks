@@ -1,0 +1,44 @@
+{
+  "id": "cin-plum-street-temple",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "synagogue",
+    "moorish-revival",
+    "place-of-worship",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The 1866 Moorish Revival synagogue of Isaac M. Wise: a red-brick front framed in pale stone with a great pointed arch round a rose window, two slender minarets, arcaded parapets and small domes on the roof.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Isaac M. Wise Temple 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Isaac_M._Wise_Temple_02.jpg",
+      "author": "Farragutful",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Plum Street Temple 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Plum_Street_Temple_1.jpg",
+      "author": "Niagara66",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/cin-plum-street-temple.glb",
+  "source": "generators/cin-plum-street-temple.ts"
+}
