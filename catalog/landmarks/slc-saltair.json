@@ -1,0 +1,14 @@
+{
+  "id": "slc-saltair",
+  "name": "Saltair",
+  "model": "slc-saltair",
+  "place": "salt-lake-city-area",
+  "lng": -112.1880833,
+  "lat": 40.7471098,
+  "bearing": 34.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/33411930"
+  ]
+}
