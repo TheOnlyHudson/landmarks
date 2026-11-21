@@ -1,0 +1,15 @@
+{
+  "id": "nyc-gracie-mansion",
+  "name": "Gracie Mansion",
+  "model": "nyc-gracie-mansion",
+  "place": "new-york-area",
+  "lng": -73.9430787,
+  "lat": 40.7760949,
+  "bearing": 338.3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/284868519"
+  ],
+  "wikidata": "Q3025091"
+}
