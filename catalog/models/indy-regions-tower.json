@@ -1,0 +1,49 @@
+{
+  "id": "indy-regions-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q2023997",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Regions Tower - June 2022 - Sarah Stierch",
+      "url": "https://commons.wikimedia.org/wiki/File:Regions_Tower_-_June_2022_-_Sarah_Stierch.jpg",
+      "author": "Missvain",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "One Indiana Square, Regions Bank, Indy, 2009",
+      "url": "https://commons.wikimedia.org/wiki/File:One_Indiana_Square,_Regions_Bank,_Indy,_2009.JPG",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Regions Bank - Indianapolis",
+      "url": "https://commons.wikimedia.org/wiki/File:Regions_Bank_-_Indianapolis.jpg",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/indy-regions-tower.glb",
+  "source": "generators/indy-regions-tower.ts"
+}

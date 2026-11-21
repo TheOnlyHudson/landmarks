@@ -1,0 +1,15 @@
+{
+  "id": "indy-regions-tower",
+  "name": "Regions Tower",
+  "model": "indy-regions-tower",
+  "place": "indianapolis-area",
+  "lng": -86.155223,
+  "lat": 39.770302,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q2023997",
+  "replaces": [
+    "way/339570767"
+  ]
+}
