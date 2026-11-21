@@ -1,0 +1,17 @@
+{
+  "id": "yerevan-blue-mosque",
+  "name": "Blue Mosque",
+  "model": "yerevan-blue-mosque",
+  "place": "yerevan",
+  "lng": 44.5055868,
+  "lat": 40.1781766,
+  "bearing": 359.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/235841246",
+    "way/235841247",
+    "way/33045820",
+    "way/1327469819"
+  ]
+}

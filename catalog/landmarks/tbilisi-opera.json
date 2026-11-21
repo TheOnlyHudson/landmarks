@@ -1,0 +1,32 @@
+{
+  "id": "tbilisi-opera",
+  "name": "Tbilisi Opera and Ballet Theatre",
+  "model": "tbilisi-opera",
+  "place": "tbilisi",
+  "lng": 44.7962826,
+  "lat": 41.7011314,
+  "bearing": 47.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2596393",
+  "replaces": [
+    "way/59151604",
+    "way/1375902726",
+    "way/1375902727",
+    "way/1375902728",
+    "way/1375902729",
+    "way/1375902730",
+    "way/1375902731",
+    "way/1375902732",
+    "way/1375902733",
+    "way/1375902734",
+    "way/1375902735",
+    "way/1375902736",
+    "way/1375902737",
+    "way/1375902738",
+    "way/1375902739",
+    "way/1375902740",
+    "way/1375902741",
+    "way/1375902742"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "yerevan-cascade",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landscape",
+  "tags": [
+    "stairway",
+    "fountain",
+    "museum",
+    "soviet-era",
+    "travertine"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/yerevan-cascade.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "The Cascade from the foot, on the axis",
+      "url": "https://commons.wikimedia.org/wiki/File:Cascada,_Erev%C3%A1n,_Armenia,_2016-10-03,_DD_21.jpg",
+      "author": "Diego Delso",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The fan-fountain block from the south",
+      "url": "https://commons.wikimedia.org/wiki/File:Cascada,_Erev%C3%A1n,_Armenia,_2016-10-03,_DD_20.jpg",
+      "author": "Diego Delso",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The Cascade from Tamanyan Street",
+      "url": "https://commons.wikimedia.org/wiki/File:Cascada,_Erev%C3%A1n,_Armenia,_2016-10-03,_DD_18.jpg",
+      "author": "Diego Delso",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The whole stair with all four arched faces",
+      "url": "https://commons.wikimedia.org/wiki/File:Cascades,_Yerevan,_Armenia.jpg",
+      "author": "Arthur Chapman",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "From the air",
+      "url": "https://commons.wikimedia.org/wiki/File:Kaskad.jpg",
+      "author": "Zapredelom",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The fan-fountain wall face on",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan_Cascade,_Armenia.jpg",
+      "author": "Petar Milošević",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "An arched block face and its pool",
+      "url": "https://commons.wikimedia.org/wiki/File:2014_Erywa%C5%84,_Kaskady_(03).jpg",
+      "author": "Marcin Konsek",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Arched window and sunburst fountain",
+      "url": "https://commons.wikimedia.org/wiki/File:2014_Erywa%C5%84,_Kaskady_(10).jpg",
+      "author": "Marcin Konsek",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Stepped diamond pool",
+      "url": "https://commons.wikimedia.org/wiki/File:2014_Erywa%C5%84,_Kaskady_(20).jpg",
+      "author": "Marcin Konsek",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Arched face with the Divers",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan,_Cascade_of_Yerevan,_Armenia.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "file": "models/yerevan-cascade.glb",
+  "source": "generators/yerevan-cascade.ts"
+}

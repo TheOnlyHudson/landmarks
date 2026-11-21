@@ -1,0 +1,89 @@
+{
+  "id": "yerevan-tsitsernakaberd",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "memorial",
+    "soviet-era",
+    "modernist",
+    "basalt",
+    "eternal-flame"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/yerevan-tsitsernakaberd.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "The memorial from the air, from the north",
+      "url": "https://commons.wikimedia.org/wiki/File:Genocide_Memorial_complex_from_air_on_a_sunny_day,_September_2017.jpg",
+      "author": "Aleksey Chalabyan (Xelgen)",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The slab ring from straight above",
+      "url": "https://commons.wikimedia.org/wiki/File:A_girl_putting_flowers_to_Armenian_Genocide_memorial._View_from_top.jpg",
+      "author": "Aleksey Chalabyan (Xelgen)",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The slab ring face on, 2015",
+      "url": "https://commons.wikimedia.org/wiki/File:Tsitsernakaberd_Memorial_in_2015.jpg",
+      "author": "Armineaghayan",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "From the west along the alley",
+      "url": "https://commons.wikimedia.org/wiki/File:Tsitsernakaberd_01.jpg",
+      "author": "Dav Sargsyan",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The split stele",
+      "url": "https://commons.wikimedia.org/wiki/File:Arrow-shaped_stele,_Tsitsernakaberd_05.jpg",
+      "author": "Մարի Ավետիսյան",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The ring at dusk",
+      "url": "https://commons.wikimedia.org/wiki/File:Armenian_Genocide_Memorial_complex,_Tsitsernakaberd_02.jpg",
+      "author": "Մարի Ավետիսյան",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Inside the ring",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan-Tsitsernakaberd-26-2019-gje.jpg",
+      "author": "Gerd Eichmann",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Inside the ring, the flame",
+      "url": "https://commons.wikimedia.org/wiki/File:Tsitsernakaberd_Genocide_Memorial_Yerevan.jpg",
+      "author": "Rita Willaert",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "The memorial wall",
+      "url": "https://commons.wikimedia.org/wiki/File:Tsitsernakaberd_-_Armenian_Genocide_memorial_complex_(18%E2%80%A409%E2%80%A42019)_64.jpg",
+      "author": "Gardmanahay",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/yerevan-tsitsernakaberd.glb",
+  "source": "generators/yerevan-tsitsernakaberd.ts"
+}

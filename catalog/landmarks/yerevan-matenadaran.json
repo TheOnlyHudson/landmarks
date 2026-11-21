@@ -1,0 +1,15 @@
+{
+  "id": "yerevan-matenadaran",
+  "name": "Matenadaran",
+  "model": "yerevan-matenadaran",
+  "place": "yerevan",
+  "lng": 44.521041,
+  "lat": 40.19213,
+  "bearing": 44,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/20960090"
+  ],
+  "wikidata": "Q1322278"
+}

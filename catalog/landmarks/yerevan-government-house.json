@@ -1,0 +1,17 @@
+{
+  "id": "yerevan-government-house",
+  "name": "Government House",
+  "model": "yerevan-government-house",
+  "place": "yerevan",
+  "lng": 44.5142889,
+  "lat": 40.1772326,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/31664493",
+    "way/482593803",
+    "way/82681471",
+    "way/1015255216"
+  ]
+}

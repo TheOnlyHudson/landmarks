@@ -1,0 +1,75 @@
+{
+  "id": "yerevan-opera",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theatre",
+    "opera",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Ópera, Ereván, Armenia, 2016-10-03, DD 13.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:%C3%93pera,_Erev%C3%A1n,_Armenia,_2016-10-03,_DD_13.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Exterior of Opera house of Yerevan 2019-05-16.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Opera_house_of_Yerevan_2019-05-16.jpg",
+      "author": "Armenak Margarian",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Jerewan-Oper-msu-wlm-2435.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jerewan-Oper-msu-wlm-2435.jpg",
+      "author": "Matthias Süßen",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Yerevan opera house new.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan_opera_house_new.jpg",
+      "author": "Vladimir Shioshvili",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Opera house of Yerevan.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Opera_house_of_Yerevan.jpg",
+      "author": "mcfarlandmo",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "2014 Erywań, Ormiański Akademicki Teatr Opery i Baletu (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2014_Erywa%C5%84,_Ormia%C5%84ski_Akademicki_Teatr_Opery_i_Baletu_(01).jpg",
+      "author": "Marcin Konsek",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Yerevan Opera House from Cascade.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan_Opera_House_from_Cascade.jpg",
+      "author": "Antimion",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "detail": "models/yerevan-opera.detail.glb",
+  "detailZoom": 16,
+  "file": "models/yerevan-opera.glb",
+  "source": "generators/yerevan-opera.ts"
+}

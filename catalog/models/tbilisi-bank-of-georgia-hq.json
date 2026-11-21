@@ -1,0 +1,65 @@
+{
+  "id": "tbilisi-bank-of-georgia-hq",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "brutalist",
+    "office",
+    "soviet-era",
+    "cantilever",
+    "concrete"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tbilisi-bank-of-georgia-hq.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Bank-of-georgia-hq",
+      "url": "https://commons.wikimedia.org/wiki/File:Bank-of-georgia-hq.jpg",
+      "author": "TheadoreTwombly",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bank-of-georgia-headquarter",
+      "url": "https://commons.wikimedia.org/wiki/File:Bank-of-georgia-headquarter.jpg",
+      "author": "TheadoreTwombly",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Architecture of Tbilisi, Part II - TbilisiArchitecture8017",
+      "url": "https://commons.wikimedia.org/wiki/File:Architecture_of_Tbilisi,_Part_II_-_TbilisiArchitecture8017.jpg",
+      "author": "lumoplank",
+      "license": "CC0"
+    },
+    {
+      "title": "Bank of Georgia headquarters",
+      "url": "https://www.flickr.com/photos/37035967@N07/14668507127",
+      "author": "Ndecam",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Didube-Chugureti, Tbilisi, Georgia - panoramio (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Didube-Chugureti,_Tbilisi,_Georgia_-_panoramio_(1).jpg",
+      "author": "Daibo Taku",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/tbilisi-bank-of-georgia-hq.glb",
+  "source": "generators/tbilisi-bank-of-georgia-hq.ts"
+}

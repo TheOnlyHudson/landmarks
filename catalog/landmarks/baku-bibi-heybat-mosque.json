@@ -1,0 +1,20 @@
+{
+  "id": "baku-bibi-heybat-mosque",
+  "name": "Bibi-Heybat Mosque",
+  "model": "baku-bibi-heybat-mosque",
+  "place": "baku",
+  "lng": 49.820266,
+  "lat": 40.308693,
+  "bearing": 12.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/291299394",
+    "way/291299398",
+    "way/291299402",
+    "way/291299404",
+    "way/291299399",
+    "way/291299401"
+  ],
+  "wikidata": "Q856262"
+}

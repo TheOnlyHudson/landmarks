@@ -1,0 +1,91 @@
+{
+  "id": "baku-shirvanshahs-palace",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "palace",
+    "historic",
+    "mosque",
+    "mausoleum",
+    "minaret",
+    "unesco-world-heritage",
+    "old-city"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/baku-shirvanshahs-palace.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "The complex from the lower terrace",
+      "url": "https://commons.wikimedia.org/wiki/File:Palace_of_Shirvanshahs_common.JPG",
+      "author": "Urek Meniashvili",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Tomb, mosque and minaret, telephoto",
+      "url": "https://commons.wikimedia.org/wiki/File:Palace_of_the_Shirvanshahs,_Baku_(%C5%9Eirvan%C5%9Fahlar_saray%C4%B1).jpg",
+      "author": "Petar Milošević",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Divankhana pavilion and arcades",
+      "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_Shirvanshah,_Baku,_Azerbaiy%C3%A1n,_2016-09-26,_DD_165-167_HDR.jpg",
+      "author": "Diego Delso",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Divankhana pavilion",
+      "url": "https://commons.wikimedia.org/wiki/File:Baku_ShirvanshahsPalace_DivanKhana_004_1502.jpg",
+      "author": "Ludvig14",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tomb dome and minaret top",
+      "url": "https://commons.wikimedia.org/wiki/File:Shirvanshahs_Palace_Mosque_02.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "From the east-north-east",
+      "url": "https://commons.wikimedia.org/wiki/File:%C4%B0%C3%A7%C9%99ri%C5%9F%C9%99h%C9%99r._%C5%9Eirvan%C5%9Fahlar_saray%C4%B1_%C3%BCmumi.jpg",
+      "author": "Toghrul Rahimli",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Bath lantern domes",
+      "url": "https://commons.wikimedia.org/wiki/File:Shirvanshahs_Palace_Hammam_01.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Divankhana block from the street",
+      "url": "https://commons.wikimedia.org/wiki/File:Palace_of_the_Shirvanshahs_-_outside.JPG",
+      "author": "Frokor",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "The complex from the west, with the Seyid Yahya tent roof",
+      "url": "https://commons.wikimedia.org/wiki/File:%C5%9Eirvan%C5%9Fahlar_saray%C4%B1_2016.jpg",
+      "author": "Sefer azeri",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/baku-shirvanshahs-palace.glb",
+  "source": "generators/baku-shirvanshahs-palace.ts"
+}
