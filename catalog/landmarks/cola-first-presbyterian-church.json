@@ -1,0 +1,15 @@
+{
+  "id": "cola-first-presbyterian-church",
+  "name": "First Presbyterian Church",
+  "model": "cola-first-presbyterian-church",
+  "place": "columbia-sc-area",
+  "lng": -81.030591,
+  "lat": 34.004014,
+  "bearing": 70,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/108351425"
+  ],
+  "wikidata": "Q5453553"
+}
