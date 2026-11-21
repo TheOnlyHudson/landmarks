@@ -118,7 +118,7 @@ import { Part, cross, sub, writeGlb, type V3 } from './mesh'
 import { finish, type Swatch } from './palette'
 import { box, countParts } from './nyc-manhattan-bridge'
 import {
-  band, chamferedRect, footedLoft, footedWall, groundAt, merged, movedAlong, parabola, piecewise, rod, stations, strip, tube,
+  band, chamferedRect, footedLoft, footedWall, groundAt, merged, movedAlong, parabola, piecewise, ribbon, rod, stations, strip, tube,
   type GroundGrid,
 } from './bridge-kit'
 
@@ -506,6 +506,17 @@ function deck(span: [number, number], steel: Part, shade: Part, walk: Part, web:
     band(shade, -SIDE, SIDE, [y - 0.3, y + 0.3], () => underLower(y), () => underLower(y) - 0.7, { bottom: true, ends: true })
 }
 
+/**
+ * Where each sidewalk leaves the deck over the New York anchorage, flaring
+ * out to its stairs: OSM's ways 46593991 and 46593266 in this frame, [x, y],
+ * from inside the sidewalk to the outline's end.
+ */
+const FLARES: [number, number][][] = [
+  [[16.3, -710], [17.8, -721.9], [19.5, -733.8], [21, -745.7], [22, -757.7], [23, -769.6], [24.1, -781.6], [24.3, YM]],
+  [[-15.7, -719.3], [-16.8, -731.3], [-17.9, -743.2], [-19, -755.2], [-20.1, -767.1], [-20.3, -779.1], [-20.4, YM]],
+]
+const FLARE_WIDTH = 3.0
+
 /** Through a tower: the two undersides between its legs. */
 function portal(t: number, shade: Part) {
   const ys = [t - FACE, t + FACE]
@@ -572,6 +583,7 @@ if (import.meta.main) {
     deck(span, steelLow, shadeLow, walkLow, null)
     deck(span, steelDetail, shadeDetail, walkDetail, web)
   }
+  for (const line of FLARES) for (const p of [walkLow, walkDetail]) ribbon(p, line.map(([x, y]) => [x, y, road(y) + WALK_UP] as V3), FLARE_WIDTH, WALK_UP + 0.3)
   for (const t of [-TY, TY]) for (const p of [shadeLow, shadeDetail]) portal(t, p)
 
   const cablesLow = new Part(), cablesDetail = new Part()

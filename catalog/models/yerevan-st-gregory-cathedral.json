@@ -1,0 +1,70 @@
+{
+  "id": "yerevan-st-gregory-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cathedral",
+    "church",
+    "armenian-apostolic",
+    "tuff"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/yerevan-st-gregory-cathedral.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "The west front by telephoto",
+      "url": "https://commons.wikimedia.org/wiki/File:2025-05-17_Saint_Gregory_the_Illuminator_Cathedral,_Yerevan.jpg",
+      "author": "Alexkom000",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "From the air, south-west",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Gregory_the_Illuminator_Cathedral_from_air,_April_2019.jpg",
+      "author": "Aleksey Chalabyan (Xelgen)",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The belfry block and south side",
+      "url": "https://commons.wikimedia.org/wiki/File:2014_Erywa%C5%84,_Katedra_%C5%9Bw._Grzegorza_O%C5%9Bwieciciela_(10).jpg",
+      "author": "Marcin Konsek",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The west front",
+      "url": "https://commons.wikimedia.org/wiki/File:2014_Erywa%C5%84,_Katedra_%C5%9Bw._Grzegorza_O%C5%9Bwieciciela_(18).jpg",
+      "author": "Marcin Konsek",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The entrance block and belfry",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Gregory_the_Illuminator_Cathedral,_Yerevan-8.jpg",
+      "author": "Pandukht",
+      "license": "public-domain"
+    },
+    {
+      "title": "From the air at night",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Gregory_the_Illuminator_Cathedral_from_air_at_night,_April_2019.jpg",
+      "author": "Aleksey Chalabyan (Xelgen)",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/yerevan-st-gregory-cathedral.glb",
+  "source": "generators/yerevan-st-gregory-cathedral.ts"
+}

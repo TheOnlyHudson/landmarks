@@ -1,0 +1,74 @@
+{
+  "id": "yerevan-demirchyan-complex",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "concert-hall",
+    "soviet-modernism",
+    "brutalist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Top-down from a drone, 2019",
+      "url": "https://commons.wikimedia.org/wiki/File:Karen_Demirchyan_Sports_and_Concerts_Complex_top_down_view_from_drone_2019.jpg",
+      "author": "Aleksey Chalabyan (Xelgen)",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "From the air, the side, 2017",
+      "url": "https://commons.wikimedia.org/wiki/File:Karen_Demirchyan_Sports_and_Concerts_Complex_from_air,_September_2017.jpg",
+      "author": "Aleksey Chalabyan (Xelgen)",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "From the air, the front and the cascade, 2019",
+      "url": "https://commons.wikimedia.org/wiki/File:Karen_Demirchyan_Sports_and_Concerts_Complex_shot_from_air,_May_2019.jpg",
+      "author": "Aleksey Chalabyan (Xelgen)",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The front face on",
+      "url": "https://commons.wikimedia.org/wiki/File:Karen_Demirchyan_Complex_03.jpg",
+      "author": "Violmsyan",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The side, low",
+      "url": "https://commons.wikimedia.org/wiki/File:Karen_Demirchyan_Complex_01.jpg",
+      "author": "Violmsyan",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The back, the helmet dome",
+      "url": "https://commons.wikimedia.org/wiki/File:Karen_Demirchyan_Sports_and_Concerts_Complex_01.jpg",
+      "author": "Մարի Ավետիսյան",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "A wing from the side",
+      "url": "https://commons.wikimedia.org/wiki/File:Karen_Demirchyan_Sports_and_Concerts_Complex_05.jpg",
+      "author": "Մարի Ավետիսյան",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/yerevan-demirchyan-complex.glb",
+  "source": "generators/yerevan-demirchyan-complex.ts"
+}

@@ -23,9 +23,11 @@
  * where the map draws them. Off the towers' line the deck curves: east into
  * the toll plaza, west toward Vista Point. `s` is distance along the deck's
  * centre line (the midline of the two carriageways in OSM), equal to y on
- * the straight. The map owns the roadway and sidewalk surfaces: the trusses
- * hang below them, the railings stand beside them, and nothing here is a
- * slab at road level; the anchorages' tops stay 0.4 m under the roadway.
+ * the straight. The map owns the roadway's surface: the trusses hang below
+ * it and the anchorages' tops stay 0.4 m under it. The sidewalks are the
+ * model's, as the map leaves a modelled bridge's walkways to its model: a
+ * kerb above the roadway out to the railings, swinging round each tower's
+ * legs as OSM's ways do (within 0.7 m of lidar along the west sidewalk).
  *
  * Height. z = NAVD88 + 1.38 m everywhere. Mapterhorn, the terrain the map
  * draws, reads the strait at -1.38 m under the south tower (-0.63 m under
@@ -178,7 +180,7 @@
  * stay dark.
  */
 import { Part, cross, sub, writeGlb, type V3 } from './mesh'
-import { band, face as faceN, footedLoft, merged, movedAlong, parabola, piecewise, rod, stations, strip, truss, tube } from './bridge-kit'
+import { band, face as faceN, footedLoft, merged, movedAlong, parabola, piecewise, ribbon, rod, stations, strip, truss, tube } from './bridge-kit'
 import { finish, type Swatch } from './palette'
 
 // ---- Shared helpers (also used by the Bay Bridge towers) -------------------
@@ -472,6 +474,17 @@ const DECKS: Deck[] = [
   { from: 1086.5, to: 1400, down: APPROACH_DOWN },
   { from: 1400, to: 1414, down: GIRDER_DOWN },
 ]
+
+/**
+ * The sidewalks, outside the roadway to the railing, a kerb above it: from
+ * the south end to the north anchorage, swinging out round each tower's legs
+ * as OSM's ways do ([along from the tower's centre line, |x|]).
+ */
+const WALK = [9.9, 14.2]
+const KERB = 0.2
+const WALK_RUNS: [number, number][] = [[-1316, -TY - 10], [-TY + 10, TY - 10], [TY + 10, HOUSING[0]]]
+const ROUND_TOWER: [number, number][] = [[-10, 12.05], [-8, 16.8], [-3, 19.4], [3, 19.2], [8, 16.4], [10, 12.05]]
+const walkTop = (o: number) => (s: number) => road(s, o) + KERB
 
 // ---- The ground ----------------------------------------------------------------
 
@@ -914,8 +927,18 @@ const newSet = (): Set => ({ steel: new Part(), web: new Part(), under: new Part
 /** Everything but the towers, into one level of detail's parts. */
 function build(set: Set, isLow: boolean) {
   const { steel, web, under, conc } = set
+  for (const k of [-1, 1]) {
+    const top = walkTop(k * WALK[0])
+    for (const [s0, s1] of WALK_RUNS)
+      deckBand(conc, k * WALK[0], k * WALK[1], stations(s0, s1, isLow ? 100 : 20), top, (s) => top(s) - 0.5, { top: true, in: !isLow, out: !isLow, ends: !isLow })
+    for (const t of [-TY, TY]) {
+      const round = isLow ? ROUND_TOWER.filter((_, i) => i % 2 === 0 || i === ROUND_TOWER.length - 1) : ROUND_TOWER
+      const line = round.map(([dy, x]) => [k * x, t + dy, top(t + dy)] as V3)
+      ribbon(conc, line, WALK[1] - WALK[0], 0.5)
+    }
+  }
   for (const deck of DECKS) {
-    const curve = stations(deck.from, deck.to, isLow ? (deck.suspended ? 50 : 20) : (deck.suspended ? 50 : 6))
+    const curve = stations(deck.from, deck.to, isLow ? (deck.suspended ? 50 : 40) : (deck.suspended ? 50 : 6))
     const ps = stations(deck.from, deck.to, PANEL)
     for (const k of [-1, 1]) {
       const o = k * CABLE_X

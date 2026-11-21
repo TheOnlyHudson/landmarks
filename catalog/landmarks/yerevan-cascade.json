@@ -1,0 +1,13 @@
+{
+  "id": "yerevan-cascade",
+  "name": "The Cascade",
+  "model": "yerevan-cascade",
+  "place": "yerevan",
+  "lng": 44.515587,
+  "lat": 40.191475,
+  "bearing": 3.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [],
+  "wikidata": "Q2940844"
+}

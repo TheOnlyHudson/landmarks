@@ -1,0 +1,58 @@
+{
+  "id": "baku-bibi-heybat-mosque",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "mosque",
+    "minaret",
+    "dome",
+    "religious"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/baku-bibi-heybat-mosque.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "From above the road on the west",
+      "url": "https://commons.wikimedia.org/wiki/File:Bibi-Heybat_Mosque,_Baku,_Azerbaijan_(%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D1%8C_%D0%91%D0%B8%D0%B1%D0%B8-%D0%AD%D0%B9%D0%B1%D0%B0%D1%82,_2026).jpg",
+      "author": "Petar Milošević",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The east front and portal",
+      "url": "https://commons.wikimedia.org/wiki/File:Baku_Bibi-EybatMosque_004_8797.jpg",
+      "author": "Ludvig14",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "From the south",
+      "url": "https://commons.wikimedia.org/wiki/File:Bibi_Heybet_Moscue_(Baku).jpg",
+      "author": "Faik Nagiyev",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Courtyard view",
+      "url": "https://commons.wikimedia.org/wiki/File:Baku_Bibi-EybatMosque_004_8626.JPG",
+      "author": "Ludvig14",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/baku-bibi-heybat-mosque.glb",
+  "source": "generators/baku-bibi-heybat-mosque.ts"
+}
