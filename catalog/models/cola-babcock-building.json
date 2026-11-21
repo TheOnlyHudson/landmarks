@@ -1,0 +1,49 @@
+{
+  "id": "cola-babcock-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "hospital",
+    "apartments",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "BABCOCK BUILDING.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:BABCOCK_BUILDING.jpg",
+      "author": "Jerrye & Roy Klotz MD",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Babcock Building Dome, Columbia, SC.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Babcock_Building_Dome,_Columbia,_SC.jpg",
+      "author": "Thomas Kirchel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Columbia - Babcock Building.jpg (postcard)",
+      "url": "https://commons.wikimedia.org/wiki/File:Columbia_-_Babcock_Building.jpg",
+      "author": "F. M. Kirby & Co.",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/cola-babcock-building.glb",
+  "source": "generators/cola-babcock-building.ts"
+}
