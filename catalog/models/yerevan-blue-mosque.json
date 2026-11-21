@@ -1,0 +1,81 @@
+{
+  "id": "yerevan-blue-mosque",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "mosque",
+    "religious",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Yerevan Blue mosque 2023 dome and minaret.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan_Blue_mosque_2023_dome_and_minaret.jpg",
+      "author": "Yerevantsi",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Minaret of Blue Mosque, Yerevan, Armenia (2026).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minaret_of_Blue_Mosque,_Yerevan,_Armenia_(2026).jpg",
+      "author": "Petar Milošević",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Dome of Blue Mosque, Yerevan, Armenia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dome_of_Blue_Mosque,_Yerevan,_Armenia.jpg",
+      "author": "Petar Milošević",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Blue Mosque, Yerevan.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Blue_Mosque,_Yerevan.jpg",
+      "author": "Valen1988",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Korto de la Blua moskeo en Erevano 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Korto_de_la_Blua_moskeo_en_Erevano_01.jpg",
+      "author": "RG72",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Blua moskeo en Erevano 35.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Blua_moskeo_en_Erevano_35.jpg",
+      "author": "RG72",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Blue Mosque, Yerevan in 2019 04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Blue_Mosque,_Yerevan_in_2019_04.jpg",
+      "author": "23artashes",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Blue Mosque, Yerevan in 2019 14.jpg (the plaque)",
+      "url": "https://commons.wikimedia.org/wiki/File:Blue_Mosque,_Yerevan_in_2019_14.jpg",
+      "author": "23artashes",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "detail": "models/yerevan-blue-mosque.detail.glb",
+  "detailZoom": 16,
+  "file": "models/yerevan-blue-mosque.glb",
+  "source": "generators/yerevan-blue-mosque.ts"
+}

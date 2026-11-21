@@ -1,0 +1,57 @@
+{
+  "id": "tbilisi-kartlis-deda",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "statue",
+    "monument",
+    "soviet-era"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/tbilisi-kartlis-deda.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "Face on from the old town",
+      "url": "https://commons.wikimedia.org/wiki/File:Kartlis_Deda_-_Mother_of_a_Kartli_or_Mother_of_a_Georgian_-_Photo_by_Mostafa_Meraji_02.jpg",
+      "author": "Mostafameraji",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "From behind on the left",
+      "url": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AC%D8%B3%D9%85%D9%87_(%D8%AA%D9%86%D8%AF%DB%8C%D8%B3)_%DA%A9%D8%A7%D8%B1%D8%AA%D9%84%DB%8C%D8%B3_%D8%AF%D8%AF%D8%A7_%DB%8C%D8%A7_%D9%85%D8%A7%D8%AF%D8%B1_%DA%AF%D8%B1%D8%AC%D8%B3%D8%AA%D8%A7%D9%86_%D8%A8%D8%B1_%D8%A8%D9%84%D9%86%D8%AF%D8%A7%DB%8C_%D8%B4%D9%87%D8%B1_%D8%AA%D9%81%D9%84%DB%8C%D8%B3_06.jpg",
+      "author": "Mostafameraji",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "In profile",
+      "url": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AC%D8%B3%D9%85%D9%87_(%D8%AA%D9%86%D8%AF%DB%8C%D8%B3)_%DA%A9%D8%A7%D8%B1%D8%AA%D9%84%DB%8C%D8%B3_%D8%AF%D8%AF%D8%A7_%DB%8C%D8%A7_%D9%85%D8%A7%D8%AF%D8%B1_%DA%AF%D8%B1%D8%AC%D8%B3%D8%AA%D8%A7%D9%86_%D8%A8%D8%B1_%D8%A8%D9%84%D9%86%D8%AF%D8%A7%DB%8C_%D8%B4%D9%87%D8%B1_%D8%AA%D9%81%D9%84%DB%8C%D8%B3_08.jpg",
+      "author": "Mostafameraji",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "From the old town",
+      "url": "https://commons.wikimedia.org/wiki/File:Kartlis_Deda,_Mother_of_Georgia_0257.JPG",
+      "author": "Møller",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/tbilisi-kartlis-deda.glb",
+  "source": "generators/tbilisi-kartlis-deda.ts"
+}

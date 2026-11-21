@@ -1,0 +1,24 @@
+{
+  "id": "baku-tv-tower",
+  "name": "Baku TV Tower",
+  "model": "baku-tv-tower",
+  "place": "baku",
+  "lng": 49.823362,
+  "lat": 40.351555,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1407274",
+  "replaces": [
+    "way/1375055417",
+    "way/1375055411",
+    "way/1375055409",
+    "way/1375055410",
+    "way/1375055412",
+    "way/1375055413",
+    "way/1375055414",
+    "way/1375055415",
+    "way/1375055416",
+    "way/1375091334"
+  ]
+}

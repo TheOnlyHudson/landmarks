@@ -1,0 +1,14 @@
+{
+  "id": "baku-carpet-museum",
+  "name": "Azerbaijan Carpet Museum",
+  "model": "baku-carpet-museum",
+  "place": "baku",
+  "lng": 49.835551,
+  "lat": 40.359841,
+  "bearing": 10.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/253082269"
+  ]
+}

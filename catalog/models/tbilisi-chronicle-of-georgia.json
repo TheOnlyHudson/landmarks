@@ -1,0 +1,83 @@
+{
+  "id": "tbilisi-chronicle-of-georgia",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "monument",
+    "sculpture",
+    "bronze",
+    "relief",
+    "soviet-era"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tbilisi-chronicle-of-georgia.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Georgiaren Kronikak (Tbilisi) - The Chronicle of Georgia - Tagzania - 1775459624045",
+      "url": "https://commons.wikimedia.org/wiki/File:Georgiaren_Kronikak_(Tbilisi)_-_The_Chronicle_of_Georgia_-_Tagzania_-_1775459624045.jpg",
+      "author": "MSO (Tagzania user ID: 3984)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Georgiaren Kronikak (Tbilisi) - The Chronicle of Georgia - Tagzania - 1775459623095",
+      "url": "https://commons.wikimedia.org/wiki/File:Georgiaren_Kronikak_(Tbilisi)_-_The_Chronicle_of_Georgia_-_Tagzania_-_1775459623095.jpg",
+      "author": "MSO (Tagzania user ID: 3984)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Georgiaren Kronikak (Tbilisi) - The Chronicle of Georgia - Tagzania - 1775459623441",
+      "url": "https://commons.wikimedia.org/wiki/File:Georgiaren_Kronikak_(Tbilisi)_-_The_Chronicle_of_Georgia_-_Tagzania_-_1775459623441.jpg",
+      "author": "MSO (Tagzania user ID: 3984)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Georgiaren Kronikak (Tbilisi) - The Chronicle of Georgia - Tagzania - 1775459623710",
+      "url": "https://commons.wikimedia.org/wiki/File:Georgiaren_Kronikak_(Tbilisi)_-_The_Chronicle_of_Georgia_-_Tagzania_-_1775459623710.jpg",
+      "author": "MSO (Tagzania user ID: 3984)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Chronicle of Georgia (1)",
+      "url": "https://www.flickr.com/photos/194996990@N05/51883253940",
+      "author": "RB (Europe)",
+      "license": "CC0 1.0"
+    },
+    {
+      "title": "The Chronicle of Georgia (4)",
+      "url": "https://www.flickr.com/photos/194996990@N05/51882685873",
+      "author": "RB (Europe)",
+      "license": "CC0 1.0"
+    },
+    {
+      "title": "The Chronicle of Georgia (5.1)",
+      "url": "https://www.flickr.com/photos/194996990@N05/51883262010",
+      "author": "RB (Europe)",
+      "license": "CC0 1.0"
+    },
+    {
+      "title": "Chronicles of Georgia 2026 1431",
+      "url": "https://commons.wikimedia.org/wiki/File:Chronicles_of_Georgia_2026_1431.jpg",
+      "author": "Vitaly Zdanevich",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/tbilisi-chronicle-of-georgia.glb",
+  "source": "generators/tbilisi-chronicle-of-georgia.ts"
+}

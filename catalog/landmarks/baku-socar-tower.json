@@ -1,0 +1,16 @@
+{
+  "id": "baku-socar-tower",
+  "name": "SOCAR Tower",
+  "model": "baku-socar-tower",
+  "place": "baku",
+  "lng": 49.88365,
+  "lat": 40.405454,
+  "bearing": 146.7,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q2947557",
+  "replaces": [
+    "way/357399633",
+    "way/357399623"
+  ]
+}
