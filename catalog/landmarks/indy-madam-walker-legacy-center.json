@@ -1,0 +1,14 @@
+{
+  "id": "indy-madam-walker-legacy-center",
+  "name": "Madam Walker Legacy Center",
+  "model": "indy-madam-walker-legacy-center",
+  "place": "indianapolis-area",
+  "lng": -86.1672202,
+  "lat": 39.7761558,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/200813905"
+  ]
+}
