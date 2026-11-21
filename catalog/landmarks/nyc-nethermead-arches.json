@@ -1,0 +1,14 @@
+{
+  "id": "nyc-nethermead-arches",
+  "name": "Nethermead Arches",
+  "model": "nyc-nethermead-arches",
+  "place": "prospect-park",
+  "lng": -73.969022,
+  "lat": 40.662357,
+  "bearing": 150.9,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/701666676"
+  ]
+}
