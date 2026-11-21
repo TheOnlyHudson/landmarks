@@ -272,7 +272,7 @@ export class LandmarkModels implements CustomLayerInterface {
 
   /**
    * Stands a model on the terrain the way Parchment does (its `place`), as one
-   * rigid body: its origin on the lowest ground across its plan extent, moved
+   * rigid body: its origin on the lowest ground under its contacts, moved
    * by its own ground's offset and the base sink, then by its elevation (see
    * `groundModel`). The site draws the terrain unfilled. Without the terrain,
    * or before any of it has loaded, it stands flat at its anchor.
@@ -292,7 +292,7 @@ export class LandmarkModels implements CustomLayerInterface {
       }
       const own = model.own ?? { follows: false }
       const sink = groundSink(own, true)
-      const grounded = groundModel(groundGrid(model.footprint).map(at), 1, own, 1, sink)
+      const grounded = groundModel(groundGrid(model.footprint).map(at), 1, own, 1, sink, [], model.contacts.map(at))
       model.base = grounded.lowest + grounded.offset - sink
     }
     const anchor = MercatorCoordinate.fromLngLat(asset.anchor, model.base + (asset.elevation ?? 0))

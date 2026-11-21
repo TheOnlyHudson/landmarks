@@ -20,9 +20,10 @@
  * inside the footprint (its plan coverage, grown by 2 m) with a smooth fill
  * from the ground just outside, never higher than the real ground, so
  * podiums, steps and rockwork that lidar counts as ground don't poke through
- * the model. It reads that ground on a 7 x 7 grid over the plan extent and
- * puts y = 0 on the lowest point, 0.3 m under it. A model that follows the
- * DEM keeps the bare ground and is moved by the one offset that puts its own
+ * the model. It puts y = 0 0.3 m under the lowest ground under the model's
+ * contacts (its lowest vertex in each cell of a plan grid), and reads the
+ * ground on a 7 x 7 grid over the plan extent. A model that follows the DEM
+ * keeps the bare ground and is moved by the one offset that puts its own
  * ground on the map's, with no sink. Then `elevation` moves the whole model.
  * The terrain is drawn life-size (Parchment PR #913). `fill.ts` and
  * `landmark-coverage.ts` under `tools/parchment/` are copies of the map's own
@@ -51,6 +52,7 @@ import { groundContacts, groundModel, groundSink, modelGround } from '../web/lan
 import type { Catalog } from '../src/catalog'
 // Parchment's own fill and coverage, so this mirrors the map exactly.
 import { fillAt, groundFill, type GroundFill } from './parchment/fill'
+import type { Coverage } from './parchment/landmark-coverage'
 import { planCoverage } from './parchment/landmark-coverage'
 import { readCatalog } from '../src/catalog-files'
 import type { Scene } from './render'
@@ -109,8 +111,7 @@ const mercator = (lng: number, lat: number): [number, number] => {
 }
 
 /** The fill the map lays under a model, once the ground round it has loaded. */
-async function fillUnder(prims: ReturnType<typeof readGlb>, place: Place, min: number[], max: number[]): Promise<GroundFill | null> {
-  const coverage = planCoverage({ min, max, primitives: prims.map(p => ({ position: p.position, index: p.index, node: -1 })) })
+async function fillUnder(coverage: Coverage, place: Place): Promise<GroundFill | null> {
   for (let tries = 0; tries < 20; tries++) {
     const fill = groundFill(coverage, (x, z) => mercator(...toLngLat(place, x, z)), 1, heightNow)
     if (fill) return fill
@@ -236,7 +237,8 @@ export async function placeOnTerrain(prims: ReturnType<typeof readGlb>, place: P
   const contactGround = await Promise.all(contacts.map(([x, , z]) => height(...toLngLat(place, x, z))))
   const own = modelGround(contacts, contactGround, 1)
   // No fill under a raised model, nor under one built on the DEM.
-  const fill = place.elevation <= 0 && !own.follows ? await fillUnder(prims, place, [minX, minY, minZ], [maxX, maxY, maxZ]) : null
+  const coverage = planCoverage({ min: [minX, minY, minZ], max: [maxX, maxY, maxZ], primitives: prims.map(p => ({ position: p.position, index: p.index, node: -1 })) })
+  const fill = place.elevation <= 0 && !own.follows ? await fillUnder(coverage, place) : null
   const ground = (lng: number, lat: number) => filledHeight(lng, lat, fill)
 
   // The map's view of the ground: a 7 x 7 grid over the plan extent, exaggerated.
@@ -246,7 +248,8 @@ export async function placeOnTerrain(prims: ReturnType<typeof readGlb>, place: P
   const raw = await Promise.all(Array.from({ length: GROUND_GRID ** 2 }, (_, k) => ground(...at(k))))
   const bare = await Promise.all(Array.from({ length: GROUND_GRID ** 2 }, (_, k) => height(...at(k))))
   const sink = groundSink(own, true)
-  const grounded = groundModel(raw.map(h => h * EXAGGERATION), EXAGGERATION, own, 1, sink, bare)
+  const under = await Promise.all(contacts.map(([x, , z]) => ground(...toLngLat(place, x, z))))
+  const grounded = groundModel(raw.map(h => h * EXAGGERATION), EXAGGERATION, own, 1, sink, bare, under)
   const lowest = grounded.lowest
   const rise = raw.map(h => h * EXAGGERATION - lowest)
   const shift = grounded.offset - sink + place.elevation
@@ -268,13 +271,19 @@ const TERRAIN_COLOUR = [0.37, 0.42, 0.31]
  * the lowest ground, as placed.
  */
 export async function groundScene(scene: Scene, glb: Uint8Array, place: Place): Promise<number> {
-  // Mapterhorn's z15 covers lidar countries only (not Mexico City, not Giza):
-  // step down a zoom where a tile is missing, as the map does.
+  return atCoveredZoom(() => groundAt(scene, glb, place))
+}
+
+/**
+ * Mapterhorn's z15 covers lidar countries only (not Mexico City, not Giza):
+ * run `read` a zoom lower where a tile is missing, as the map does.
+ */
+async function atCoveredZoom<T>(read: () => Promise<T>): Promise<T> {
   const start = Z
   try {
     for (let z = start; ; z--) {
       Z = z
-      try { return await groundAt(scene, glb, place) } catch (err) {
+      try { return await read() } catch (err) {
         if (z <= 10 || !/: 404$/.test((err as Error).message)) throw err
       }
     }
@@ -357,7 +366,13 @@ async function check() {
   }
 
   const prims = readGlb(new Uint8Array(readFileSync(file)))
-  const { lift, shift, ground, lowest, own, contacts, contactGround, fill, raw, rise, n, bounds: { minX, maxX, minZ, maxZ } } = await placeOnTerrain(prims, place)
+  // Every read below is at the zoom the placement found tiles at.
+  const asked = Z
+  let placedAt = Z
+  const placed = await atCoveredZoom(async () => { const p = await placeOnTerrain(prims, place); placedAt = Z; return p })
+  Z = placedAt
+  if (Z !== asked) console.log(`Mapterhorn z${Z}: no z${asked} tiles here`)
+  const { lift, shift, ground, lowest, own, contacts, contactGround, fill, raw, rise, n, bounds: { minX, maxX, minZ, maxZ } } = placed
   if (place.elevation <= 0 && !own.follows && !fill) console.log('warning: no fill (ground did not load)')
   console.log(`model ground: ${JSON.stringify(own)}; minimum ${lowest}; whole model moved ${f2(shift)} m`)
 
