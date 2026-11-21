@@ -1,0 +1,17 @@
+{
+  "id": "ric-old-city-hall",
+  "name": "Old City Hall",
+  "model": "ric-old-city-hall",
+  "place": "richmond-area",
+  "lng": -77.4328036,
+  "lat": 37.5397081,
+  "bearing": 126.17,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/113023444",
+    "way/366062335",
+    "way/366224820"
+  ],
+  "wikidata": "Q7083694"
+}
