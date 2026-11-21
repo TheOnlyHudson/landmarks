@@ -1,0 +1,53 @@
+{
+  "id": "pdx-oregon-convention-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "convention-center",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Oregon Convention Center aerial view",
+      "url": "https://commons.wikimedia.org/wiki/File:Oregon_Convention_Center_aerial_view.jpg",
+      "author": "Pete Forsyth",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Oregon Convention Center, Portland 2012",
+      "url": "https://commons.wikimedia.org/wiki/File:Oregon_Convention_Center,_Portland_2012.JPG",
+      "author": "Another Believer",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Portland Convention Center 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Portland_Convention_Center_1.jpg",
+      "author": "Fcb981",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Portland July 2017 04 (Oregon Convention Center)",
+      "url": "https://commons.wikimedia.org/wiki/File:Portland_July_2017_04_(Oregon_Convention_Center).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/pdx-oregon-convention-center.glb",
+  "source": "generators/pdx-oregon-convention-center.ts"
+}

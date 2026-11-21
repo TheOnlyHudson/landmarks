@@ -1,0 +1,31 @@
+{
+  "id": "pdx-oregon-convention-center",
+  "name": "Oregon Convention Center",
+  "model": "pdx-oregon-convention-center",
+  "place": "portland-or-area",
+  "lng": -122.663138,
+  "lat": 45.528328,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/25667700",
+    "way/450247885",
+    "way/1568261914",
+    "way/450247877",
+    "way/450247880",
+    "way/1568261913",
+    "way/450247886",
+    "way/450247884",
+    "way/450247881",
+    "way/450247878",
+    "way/450247887",
+    "way/450247883",
+    "way/450247882",
+    "way/450247879",
+    "way/1568261915",
+    "way/1568261916",
+    "way/1568261917",
+    "way/1568261918"
+  ]
+}
