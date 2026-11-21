@@ -1,0 +1,14 @@
+{
+  "id": "nyc-oak-bridge",
+  "name": "Oak Bridge",
+  "model": "nyc-oak-bridge",
+  "place": "central-park",
+  "lng": -73.971671,
+  "lat": 40.778708,
+  "bearing": 327.3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/580520662"
+  ]
+}
