@@ -1,0 +1,49 @@
+{
+  "id": "slc-rio-grande-depot",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "railway-station",
+    "museum"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q5259810",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Salt Lake City D&RGW station.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City_D%26RGW_station.jpg",
+      "author": "Ron Reiring",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Denver & Rio Grande Western Depot in SLC - Feb 3, 2011.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_%26_Rio_Grande_Western_Depot_in_SLC_-_Feb_3,_2011.jpg",
+      "author": "vxla",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Denver and Rio Grande Western Depot (Salt Lake City) in June 2026 Right.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Denver_and_Rio_Grande_Western_Depot_(Salt_Lake_City)_in_June_2026_Right.jpg",
+      "author": "ATHNTKPhotography",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-rio-grande-depot.glb",
+  "source": "generators/slc-rio-grande-depot.ts"
+}

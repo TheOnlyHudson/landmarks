@@ -1,0 +1,50 @@
+{
+  "id": "slc-walker-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "office",
+    "skyscraper",
+    "historic",
+    "sign"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q7962232",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Walker Bank Building (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Walker_Bank_Building_(1).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Walker Bank Building (2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Walker_Bank_Building_(2).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Walker Center Salt Lake (Unsplash)",
+      "url": "https://commons.wikimedia.org/wiki/File:Walker_Center_Salt_Lake_(Unsplash).jpg",
+      "author": "Omar Prestwich",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/slc-walker-center.glb",
+  "source": "generators/slc-walker-center.ts"
+}

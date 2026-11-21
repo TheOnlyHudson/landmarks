@@ -1,0 +1,25 @@
+{
+  "id": "slc-rio-grande-depot",
+  "name": "Rio Grande Depot",
+  "model": "slc-rio-grande-depot",
+  "place": "salt-lake-city-area",
+  "lng": -111.904607,
+  "lat": 40.762817,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/33148441",
+    "way/1434218628",
+    "way/1434218629",
+    "way/1434218630",
+    "way/1434218631",
+    "way/1434218632",
+    "way/1434218633",
+    "way/1434218634",
+    "way/1434218635",
+    "way/1434218636",
+    "way/1434218637",
+    "way/1434218638"
+  ]
+}

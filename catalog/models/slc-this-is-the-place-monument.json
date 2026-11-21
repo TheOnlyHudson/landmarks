@@ -1,0 +1,62 @@
+{
+  "id": "slc-this-is-the-place-monument",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "monument",
+    "sculpture",
+    "historic",
+    "granite"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q7786449",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "This Is The Place Monument (29891219127)",
+      "url": "https://commons.wikimedia.org/wiki/File:This_Is_The_Place_Monument_(29891219127).jpg",
+      "author": "Ben P L",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "This Is The Place Monument (29891218907)",
+      "url": "https://commons.wikimedia.org/wiki/File:This_Is_The_Place_Monument_(29891218907).jpg",
+      "author": "Ben P L",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "This Is The Place Monument, Mar 17",
+      "url": "https://commons.wikimedia.org/wiki/File:This_Is_The_Place_Monument,_Mar_17.jpg",
+      "author": "An Errant Knight",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "View of Salt Lake from behind This is the Place Monument - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Salt_Lake_from_behind_This_is_the_Place_Monument_-_panoramio.jpg",
+      "author": "Mark Cowell",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "SLC thisistheplace",
+      "url": "https://commons.wikimedia.org/wiki/File:SLC_thisistheplace.jpg",
+      "author": "PerryPlanet",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/slc-this-is-the-place-monument.glb",
+  "source": "generators/slc-this-is-the-place-monument.ts"
+}

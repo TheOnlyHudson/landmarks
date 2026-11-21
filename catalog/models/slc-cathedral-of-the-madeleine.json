@@ -1,0 +1,57 @@
+{
+  "id": "slc-cathedral-of-the-madeleine",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "cathedral",
+    "romanesque-revival",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q2942483",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cathedral of the Madeleine - Salt Lake City",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Madeleine_-_Salt_Lake_City.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Salt Lake City Catholic Cathedral",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City_Catholic_Cathedral.jpg",
+      "author": "Streamline1989",
+      "license": "Public domain"
+    },
+    {
+      "title": "Cathedral of the Madeleine - Salt Lake City 11",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Madeleine_-_Salt_Lake_City_11.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Cathedral of the Madeleine - Salt Lake City 09",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Madeleine_-_Salt_Lake_City_09.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-cathedral-of-the-madeleine.glb",
+  "source": "generators/slc-cathedral-of-the-madeleine.ts"
+}

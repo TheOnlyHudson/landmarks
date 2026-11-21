@@ -1,0 +1,61 @@
+{
+  "id": "slc-saltair",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "music-venue",
+    "moorish-revival",
+    "great-salt-lake"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Saltair-2002-exterior-MCB",
+      "url": "https://commons.wikimedia.org/wiki/File:Saltair-2002-exterior-MCB.jpg",
+      "author": "Michael C. Berch",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "Saltair Pavilion UT1",
+      "url": "https://commons.wikimedia.org/wiki/File:Saltair_Pavilion_UT1.jpg",
+      "author": "Acroterion",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Saltair (7002365583)",
+      "url": "https://commons.wikimedia.org/wiki/File:Saltair_(7002365583).jpg",
+      "author": "InSapphoWeTrust",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Saltair (7002365399)",
+      "url": "https://commons.wikimedia.org/wiki/File:Saltair_(7002365399).jpg",
+      "author": "InSapphoWeTrust",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "SaltairUtah20050522",
+      "url": "https://commons.wikimedia.org/wiki/File:SaltairUtah20050522.jpg",
+      "author": "BigBen212",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/slc-saltair.glb",
+  "source": "generators/slc-saltair.ts"
+}

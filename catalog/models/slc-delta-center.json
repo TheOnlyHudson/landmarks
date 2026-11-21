@@ -1,0 +1,55 @@
+{
+  "id": "slc-delta-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "sports",
+    "entertainment"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q82294",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Delta Center with Arena Station.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Center_with_Arena_Station.jpg",
+      "author": "Eyezak mad",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Salt Lake City - Vivint arena.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City_-_Vivint_arena.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Vivint Smart Home Arena (1).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vivint_Smart_Home_Arena_(1).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Delta Center 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Center_2023.jpg",
+      "author": "Lomrjyo",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-delta-center.glb",
+  "source": "generators/slc-delta-center.ts"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "slc-holy-trinity-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "cathedral",
+    "religious"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q4499832",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Holy Trinity Cathedral, Salt Lake City.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Trinity_Cathedral,_Salt_Lake_City.jpg",
+      "author": "Tricia Simpson",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Holy Trinity Greek Orthodox Church (1).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Trinity_Greek_Orthodox_Church_(1).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Holy Trinity 4963.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Trinity_4963.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-holy-trinity-cathedral.glb",
+  "source": "generators/slc-holy-trinity-cathedral.ts"
+}

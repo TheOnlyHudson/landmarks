@@ -1,0 +1,15 @@
+{
+  "id": "slc-frank-e-moss-courthouse",
+  "name": "Frank E. Moss United States Courthouse",
+  "model": "slc-frank-e-moss-courthouse",
+  "place": "salt-lake-city-area",
+  "lng": -111.8916783,
+  "lat": 40.7612694,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5486390",
+  "replaces": [
+    "way/33193718"
+  ]
+}

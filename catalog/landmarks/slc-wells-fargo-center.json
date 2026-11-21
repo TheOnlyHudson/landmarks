@@ -1,0 +1,28 @@
+{
+  "id": "slc-wells-fargo-center",
+  "name": "Wells Fargo Center",
+  "model": "slc-wells-fargo-center",
+  "place": "salt-lake-city-area",
+  "lng": -111.890566,
+  "lat": 40.763428,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q954129",
+  "replaces": [
+    "way/238255654",
+    "way/33192595",
+    "way/537032597",
+    "way/1433954707",
+    "way/1433954708",
+    "way/1434284728",
+    "way/1434284730",
+    "way/1434284731",
+    "way/1434284732",
+    "way/1434284733",
+    "way/1441743870",
+    "way/537032625",
+    "way/537032669",
+    "way/1434284729"
+  ]
+}

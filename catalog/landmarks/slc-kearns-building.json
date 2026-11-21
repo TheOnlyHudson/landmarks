@@ -1,0 +1,18 @@
+{
+  "id": "slc-kearns-building",
+  "name": "Kearns Building",
+  "model": "slc-kearns-building",
+  "place": "salt-lake-city-area",
+  "lng": -111.891671,
+  "lat": 40.766203,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q65069559",
+  "replaces": [
+    "way/143796147",
+    "way/1437049425",
+    "way/1437049426",
+    "way/1318861628"
+  ]
+}

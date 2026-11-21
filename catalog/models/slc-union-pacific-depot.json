@@ -1,0 +1,55 @@
+{
+  "id": "slc-union-pacific-depot",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "railway-station",
+    "hotel"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q7405879",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Salt Lake Union Pacific Railroad Station, South Temple at 400 West, Central City West, Salt Lake City, UT, USA.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_Union_Pacific_Railroad_Station,_South_Temple_at_400_West,_Central_City_West,_Salt_Lake_City,_UT,_USA.jpg",
+      "author": "Eric Pancer",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Salt Lake City Union Pacific Depot (22260341348).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City_Union_Pacific_Depot_(22260341348).jpg",
+      "author": "SounderBruce",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Union Pacific Depot seen from LDS Church Office Building - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Pacific_Depot_seen_from_LDS_Church_Office_Building_-_panoramio.jpg",
+      "author": "Jordan W.",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "NORTH AND WEST SIDES - Union Passenger Station (HABS UT-38-2)",
+      "url": "https://commons.wikimedia.org/wiki/File:NORTH_AND_WEST_SIDES_-_Union_Passenger_Station,_Third_West_and_South_Temple,_Salt_Lake_City,_Salt_Lake_County,_UT_HABS_UTAH,18-SAlCI,25-2.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/slc-union-pacific-depot.glb",
+  "source": "generators/slc-union-pacific-depot.ts"
+}

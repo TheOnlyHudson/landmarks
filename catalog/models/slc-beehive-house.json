@@ -1,0 +1,56 @@
+{
+  "id": "slc-beehive-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "house",
+    "museum",
+    "greek-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q2363403",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Beehive House - Salt Lake City, Utah - 2 May 2020",
+      "url": "https://commons.wikimedia.org/wiki/File:Beehive_House_-_Salt_Lake_City,_Utah_-_2_May_2020.jpg",
+      "author": "Beneathtimp",
+      "license": "CC0"
+    },
+    {
+      "title": "Beehive Hse (5-17-24) 5231",
+      "url": "https://commons.wikimedia.org/wiki/File:Beehive_Hse_(5-17-24)_5231.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Beehive house complex, Salt Lake City, Utah",
+      "url": "https://commons.wikimedia.org/wiki/File:Beehive_house_complex,_Salt_Lake_City,_Utah.jpg",
+      "author": "David Jay Fullmer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Beehive House, HABS UTAH,18-SALCI,1- (sheet 10 of 13)",
+      "url": "https://commons.wikimedia.org/wiki/File:Beehive_House,_East_South_Temple_Street,_Salt_Lake_City,_Salt_Lake_County,_UT_HABS_UTAH,18-SALCI,1-_(sheet_10_of_13).png",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/slc-beehive-house.glb",
+  "source": "generators/slc-beehive-house.ts"
+}
