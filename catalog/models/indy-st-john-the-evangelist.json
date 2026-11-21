@@ -1,0 +1,48 @@
+{
+  "id": "indy-st-john-the-evangelist",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Saint John the Evangelist Catholic Church (Indianapolis, Indiana) - Jimmy Baikovicius.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_John_the_Evangelist_Catholic_Church_(Indianapolis,_Indiana)_-_Jimmy_Baikovicius.jpg",
+      "author": "Jimmy Baikovicius",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Saint John the Evangelist Church (Indianapolis, Indiana) - exterior, side.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_John_the_Evangelist_Church_(Indianapolis,_Indiana)_-_exterior,_side.jpg",
+      "author": "Nheyob",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Saint John the Evangelist Catholic Church (Indianapolis, Indiana) - 201106-18.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_John_the_Evangelist_Catholic_Church_(Indianapolis,_Indiana)_-_201106-18.jpg",
+      "author": "Chad Bowman",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/indy-st-john-the-evangelist.glb",
+  "source": "generators/indy-st-john-the-evangelist.ts"
+}
