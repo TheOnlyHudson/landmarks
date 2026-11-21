@@ -1,0 +1,15 @@
+{
+  "id": "pdx-omsi",
+  "name": "Oregon Museum of Science and Industry",
+  "model": "pdx-omsi",
+  "place": "portland-or-area",
+  "lng": -122.6659436,
+  "lat": 45.508362,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/57903098"
+  ],
+  "wikidata": "Q174617"
+}
