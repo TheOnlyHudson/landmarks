@@ -1,0 +1,15 @@
+{
+  "id": "cola-babcock-building",
+  "name": "Babcock Building",
+  "model": "cola-babcock-building",
+  "place": "columbia-sc-area",
+  "lng": -81.031317,
+  "lat": 34.015775,
+  "bearing": 339,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/273765090"
+  ],
+  "wikidata": "Q15195823"
+}

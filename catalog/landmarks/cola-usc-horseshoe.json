@@ -1,0 +1,23 @@
+{
+  "id": "cola-usc-horseshoe",
+  "name": "The Horseshoe, University of South Carolina",
+  "model": "cola-usc-horseshoe",
+  "place": "columbia-sc-area",
+  "lng": -81.028644,
+  "lat": 33.99835,
+  "bearing": 340,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/329014196",
+    "way/329014181",
+    "way/276663413",
+    "way/329014178",
+    "way/261452600",
+    "way/384128965",
+    "way/371253645",
+    "way/371253646",
+    "way/371253647",
+    "way/329014215"
+  ]
+}

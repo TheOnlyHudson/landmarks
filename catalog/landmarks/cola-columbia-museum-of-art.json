@@ -1,0 +1,15 @@
+{
+  "id": "cola-columbia-museum-of-art",
+  "name": "Columbia Museum of Art",
+  "model": "cola-columbia-museum-of-art",
+  "place": "columbia-sc-area",
+  "lng": -81.036194,
+  "lat": 34.005918,
+  "bearing": 70,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/110410022"
+  ],
+  "wikidata": "Q2383136"
+}

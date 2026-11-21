@@ -1,0 +1,95 @@
+{
+  "id": "tbilisi-bridge-of-peace",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "footbridge",
+    "glass",
+    "steel",
+    "led-lighting",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tbilisi-bridge-of-peace.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tbilisi Peace Bridge and Kura River by Falco",
+      "url": "https://commons.wikimedia.org/wiki/File:Tbilisi_Peace_Bridge_and_Kura_River_by_Falco.jpg",
+      "author": "falco",
+      "license": "CC0"
+    },
+    {
+      "title": "Tbilisi13",
+      "url": "https://commons.wikimedia.org/wiki/File:Tbilisi13.jpg",
+      "author": "BBCLCD",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Mtkvari River Cruise, Tbilisi, Georgia (48813988613)",
+      "url": "https://commons.wikimedia.org/wiki/File:Mtkvari_River_Cruise,_Tbilisi,_Georgia_(48813988613).jpg",
+      "author": "Andrew Milligan sumo",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "2024-10-06. Tbilisoba 2024. Bridge of Peace",
+      "url": "https://commons.wikimedia.org/wiki/File:2024-10-06._Tbilisoba_2024._Bridge_of_Peace.jpg",
+      "author": "David Osipov",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Tbilisi Peace Bridge and Rike Park",
+      "url": "https://commons.wikimedia.org/wiki/File:Tbilisi_Peace_Bridge_and_Rike_Park.jpg",
+      "author": "falco",
+      "license": "CC0"
+    },
+    {
+      "title": "Tbilisi Peace Bridge5",
+      "url": "https://commons.wikimedia.org/wiki/File:Tbilisi_Peace_Bridge5.jpg",
+      "author": "Amir Hossein Eslami",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pole solh teflis",
+      "url": "https://commons.wikimedia.org/wiki/File:Pole_solh_teflis.jpg",
+      "author": "Amir Hossein Eslami",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "River Mtkvari & the Peace Bridge in Tbilisi (2010)",
+      "url": "https://commons.wikimedia.org/wiki/File:River_Mtkvari_%26_the_Peace_Bridge_in_Tbilisi_(2010).jpg",
+      "author": "Kober",
+      "license": "Public domain"
+    },
+    {
+      "title": "Peace Bridge and Narikala, Tbilisi (night)",
+      "url": "https://commons.wikimedia.org/wiki/File:Peace_Bridge_and_Narikala,_Tbilisi.jpg",
+      "author": "Peyman Zehtab Fard",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Tbilisi - Bridge lovers - panoramio (night)",
+      "url": "https://commons.wikimedia.org/wiki/File:Tbilisi_-_Bridge_lovers_-_panoramio.jpg",
+      "author": "Otpusk.ru",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/tbilisi-bridge-of-peace.glb",
+  "source": "generators/tbilisi-bridge-of-peace.ts"
+}
