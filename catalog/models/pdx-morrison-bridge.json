@@ -1,0 +1,53 @@
+{
+  "id": "pdx-morrison-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bascule"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q12062049",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Morrison Bridge - Portland, Oregon by MB298.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Morrison_Bridge_-_Portland,_Oregon_by_MB298.jpg",
+      "author": "Kingofthedead",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Morrison Bridge July 2016 - Portland, Oregon.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Morrison_Bridge_July_2016_-_Portland,_Oregon.jpg",
+      "author": "Kingofthedead",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Morrison Bridge from Eastbank Esplanade.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Morrison_Bridge_from_Eastbank_Esplanade.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Morrison Bridge west tower (operator's tower).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Morrison_Bridge_west_tower_(operator%27s_tower).jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/pdx-morrison-bridge.glb",
+  "source": "generators/pdx-morrison-bridge.ts"
+}
