@@ -1,0 +1,47 @@
+{
+  "id": "pdx-moda-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "sports"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Moda Center and Memorial Coliseum from the air",
+      "url": "https://commons.wikimedia.org/wiki/File:Moda_Center_and_Memorial_Coliseum_from_the_air.jpg",
+      "author": "Pete Forsyth",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Memorial Coliseum and Rose Garden arena in 2013",
+      "url": "https://commons.wikimedia.org/wiki/File:Memorial_Coliseum_and_Rose_Garden_arena_in_2013.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Moda Center (2015) - 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Moda_Center_(2015)_-_1.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/pdx-moda-center.glb",
+  "source": "generators/pdx-moda-center.ts"
+}
