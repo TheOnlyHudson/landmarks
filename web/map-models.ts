@@ -1,11 +1,11 @@
 import { MercatorCoordinate, type CustomLayerInterface, type CustomRenderMethodInput, type Map as LibreMap, type MapMouseEvent } from 'maplibre-gl'
-import { AnimationMixer, AmbientLight, Box3, Camera, DirectionalLight, Group, InstancedMesh, Matrix4, Mesh, Raycaster, Scene, Vector2, Vector3, Vector4, WebGLRenderer,
+import { AnimationMixer, AmbientLight, Box3, Camera, DirectionalLight, Group, InstancedMesh, Matrix4, Mesh, Raycaster, Scene, Vector3, WebGLRenderer,
   type AnimationClip, type Material, type Object3D } from 'three'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 import type { Asset } from '../src/release'
 import { nightGlb } from './night-model'
 import { BuildingTiles } from './building-tiles'
-import { baseSink, elevationDrape, GROUND_STRIDE, groundContacts, groundLifts, modelGround, type Contact, type Footprint, type ModelGround } from './landmark-ground'
+import { groundContacts, groundModel, groundSink, modelGround, type Contact, type Footprint, type ModelGround } from './landmark-ground'
 
 /** OpenFreeMap uses Planetiler IDs: OSM ID * 10 + node/way/relation type. */
 export function replacementIds(asset: Asset): number[] {
@@ -42,76 +42,8 @@ export function groundGrid({ minX, maxX, minZ, maxZ }: Footprint): [number, numb
 /** Points per side of the grid the ground under a model is read on, as Parchment reads it. */
 const GROUND_GRID = 7
 
-/** Metres over its own ground a vertex fades from following the terrain to the model's mean lift; Parchment's GROUND_BLEND. */
-const GROUND_BLEND = 25
-
 /**
- * Parchment's drape (`GROUND` in its `landmark-layer.ts`), around three.js's
- * own projection. A vertex is read in the model's frame, `u_root` being where
- * the model's origin is in the scene and its scale, and only ever moves up or
- * down: by the terrain's rise under it near its own ground, by the mean rise
- * higher up. See `landmark-ground.ts`.
- */
-const DRAPE = `
-uniform vec2 u_ground[${GROUND_GRID * GROUND_GRID}];
-uniform float u_ground_mean;
-uniform vec4 u_bounds;
-uniform float u_blend;
-uniform float u_rigid;
-uniform float u_ground_at;
-uniform vec2 u_sink;
-uniform vec4 u_root;
-vec2 groundAt(int i, int j) { return u_ground[j * ${GROUND_GRID} + i]; }
-vec2 groundUnder(vec2 xz) {
-  vec2 span = max(u_bounds.zw - u_bounds.xy, vec2(1e-3));
-  vec2 g = clamp((xz - u_bounds.xy) / span, 0.0, 1.0) * float(${GROUND_GRID - 1});
-  ivec2 c = min(ivec2(floor(g)), ivec2(${GROUND_GRID - 2}));
-  vec2 f = g - vec2(c);
-  return mix(
-    mix(groundAt(c.x, c.y), groundAt(c.x + 1, c.y), f.x),
-    mix(groundAt(c.x, c.y + 1), groundAt(c.x + 1, c.y + 1), f.x),
-    f.y);
-}
-float drapeLift(vec3 p) {
-  vec2 g = groundUnder(p.xz);
-  float above = p.y - g.y - u_ground_at;
-  float follow = (1.0 - u_rigid) * (1.0 - clamp(above / u_blend, 0.0, 1.0));
-  float base = (1.0 - u_rigid) * step(above, u_sink.y) * u_sink.x;
-  return mix(u_ground_mean, g.x - g.y, follow) - base;
-}
-`
-
-const PROJECT = `
-vec4 mvPosition = vec4( transformed, 1.0 );
-#ifdef USE_BATCHING
-  mvPosition = batchingMatrix * mvPosition;
-#endif
-#ifdef USE_INSTANCING
-  mvPosition = instanceMatrix * mvPosition;
-#endif
-vec4 draped = modelMatrix * mvPosition;
-draped.y += drapeLift((draped.xyz - u_root.xyz) / u_root.w) * u_root.w;
-mvPosition = viewMatrix * draped;
-gl_Position = projectionMatrix * mvPosition;
-`
-
-function drapeUniforms() {
-  return {
-    u_ground: { value: Array.from({ length: GROUND_GRID * GROUND_GRID }, () => new Vector2()) },
-    u_ground_mean: { value: 0 },
-    u_bounds: { value: new Vector4() },
-    u_blend: { value: GROUND_BLEND },
-    u_rigid: { value: 0 },
-    u_ground_at: { value: 0 },
-    u_sink: { value: new Vector2() },
-    u_root: { value: new Vector4(0, 0, 0, 1) },
-  }
-}
-
-type Drape = ReturnType<typeof drapeUniforms>
-
-/**
- * What the drape needs of a model, read once from its geometry in its own
+ * What grounding needs of a model, read once from its geometry in its own
  * frame: its plan extent and the lowest vertex across it (see
  * `groundContacts`), leaving out the parts its animation moves.
  */
@@ -141,7 +73,7 @@ function groundOf(scene: Object3D, animations: readonly AnimationClip[]): { foot
 
 type Model = {
   asset: Asset; url: string; root: Group; mixer?: AnimationMixer; size: Vector3
-  footprint: Footprint; contacts: Contact[]; own?: ModelGround; drape: Drape; base: number
+  footprint: Footprint; contacts: Contact[]; own?: ModelGround; base: number
 }
 type Pending = { url: string; controller: AbortController }
 
@@ -311,19 +243,8 @@ export class LandmarkModels implements CustomLayerInterface {
       // The map supplies a composed projection/view matrix, so Three's own
       // frustum extraction is unsuitable; visibility is determined geographically.
       root.traverse(object => { object.frustumCulled = false })
-      const drape = drapeUniforms()
-      root.traverse(object => {
-        if (!(object instanceof Mesh)) return
-        for (const material of (Array.isArray(object.material) ? object.material : [object.material]) as Material[]) {
-          material.onBeforeCompile = shader => {
-            Object.assign(shader.uniforms, drape)
-            shader.vertexShader = DRAPE + shader.vertexShader.replace('#include <project_vertex>', PROJECT)
-          }
-          material.customProgramCacheKey = () => 'drape'
-        }
-      })
       const model: Model = { asset, url, root, size: new Box3().setFromObject(root).getSize(new Vector3()),
-        ...groundOf(gltf.scene, gltf.animations), drape, base: 0 }
+        ...groundOf(gltf.scene, gltf.animations), base: 0 }
       if (gltf.animations.length && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
         model.mixer = new AnimationMixer(gltf.scene)
         gltf.animations.forEach(clip => model.mixer!.clipAction(clip).play())
@@ -350,17 +271,16 @@ export class LandmarkModels implements CustomLayerInterface {
   }
 
   /**
-   * Stands a model on the terrain the way Parchment does (its `place`): its
-   * base on the lowest ground across its plan extent, the drape lifting the
-   * rest over the slope. Without the terrain, or before any of it has loaded,
-   * it stands flat at its anchor.
+   * Stands a model on the terrain the way Parchment does (its `place`), as one
+   * rigid body: its origin on the lowest ground across its plan extent, moved
+   * by its own ground's offset and the base sink, then by its elevation (see
+   * `groundModel`). The site draws the terrain unfilled. Without the terrain,
+   * or before any of it has loaded, it stands flat at its anchor.
    */
   private position(model: Model) {
-    const { asset, drape } = model
-    const elevation = asset.elevation ?? 0
-    const terrain = !!this.map.getTerrain()
+    const { asset } = model
     model.base = 0
-    if (terrain) {
+    if (this.map.getTerrain()) {
       const at = (p: readonly number[]) => this.terrainAt(asset, p)
       if (!model.own) {
         // Unloaded ground reads 0, as does the sea, so the model's ground is
@@ -370,28 +290,16 @@ export class LandmarkModels implements CustomLayerInterface {
         const own = modelGround(model.contacts, raw, 1)
         if (loaded) model.own = own
       }
-      const lifts = groundLifts(groundGrid(model.footprint).map(at), 1, model.own ?? { follows: false }, 1)
-      model.base = lifts.lowest
-      // The fill's depth, the third value, is 0: the site draws the terrain unfilled.
-      drape.u_ground.value.forEach((g, i) => g.set(lifts.lifts[i * GROUND_STRIDE], lifts.lifts[i * GROUND_STRIDE + 1]))
-      drape.u_ground_mean.value = lifts.mean
-    } else {
-      drape.u_ground.value.forEach(g => g.set(0, 0))
-      drape.u_ground_mean.value = 0
+      const own = model.own ?? { follows: false }
+      const sink = groundSink(own, true)
+      const grounded = groundModel(groundGrid(model.footprint).map(at), 1, own, 1, sink)
+      model.base = grounded.lowest + grounded.offset - sink
     }
-    const { minX, minZ, maxX, maxZ } = model.footprint
-    drape.u_bounds.value.set(minX, minZ, maxX, maxZ)
-    const sink = baseSink(model.own ?? { follows: false }, 1, terrain)
-    drape.u_sink.value.set(sink.depth, sink.band)
-    const lift = elevationDrape(elevation, 1, terrain)
-    drape.u_rigid.value = lift.rigid ? 1 : 0
-    drape.u_ground_at.value = lift.groundAt
-    const anchor = MercatorCoordinate.fromLngLat(asset.anchor, model.base + elevation)
+    const anchor = MercatorCoordinate.fromLngLat(asset.anchor, model.base + (asset.elevation ?? 0))
     const unit = this.origin.meterInMercatorCoordinateUnits()
     model.root.position.set((anchor.x - this.origin.x) / unit, anchor.z / unit, (anchor.y - this.origin.y) / unit)
     model.root.scale.setScalar(anchor.meterInMercatorCoordinateUnits() / unit)
     model.root.updateMatrixWorld(true)
-    drape.u_root.value.set(model.root.position.x, model.root.position.y, model.root.position.z, model.root.scale.x)
   }
 
   private updateBuildings() {

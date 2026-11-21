@@ -8,7 +8,7 @@
  *   options: --out <dir>  (default preview/sheets)   --per <n>  (models per image, default 8)
  *            --from <deg>  view every landmark from this compass direction
  *            --terrain     stand each model on the map's Mapterhorn terrain, as
- *                          the map places it (drape, fill, base sink and
+ *                          the map places it (whole, with the fill, sink and
  *                          catalog elevation), with the ground around it drawn
  *
  * Each landmark gets a card: its name, id, triangles, size and height, and
@@ -27,7 +27,7 @@ import type { Catalog, CatalogLandmark } from '../src/catalog'
 import { bakePlacement, triangleCount } from '../src/glb'
 import { BACKGROUND, NIGHT_BACKGROUND, loadScene, render, type Bitmap, type Scene } from './render'
 import { catalogAt, readCatalog } from '../src/catalog-files'
-import { drapeScene, turnScene } from './terrain'
+import { groundScene, turnScene } from './terrain'
 
 const ROOT = join(import.meta.dir, '..')
 const args = process.argv.slice(2)
@@ -179,10 +179,10 @@ async function card(l: CatalogLandmark): Promise<Buffer> {
   let scene = loadScene(glb)
   let modelHeight = scene.hi[2] - scene.lo[2]
   if (withTerrain) {
-    // Drape in the model's own frame, where the map reads the ground, then turn it.
+    // Ground it in the model's own frame, where the map reads the ground, then turn it.
     const placed = bakePlacement(bytes, { bearing: 0, scale: l.scale ?? 1 })
     scene = loadScene(placed)
-    modelHeight = await drapeScene(scene, placed, { lng: l.lng, lat: l.lat, bearing: l.bearing ?? 0, elevation: l.elevation ?? 0 })
+    modelHeight = await groundScene(scene, placed, { lng: l.lng, lat: l.lat, bearing: l.bearing ?? 0, elevation: l.elevation ?? 0 })
     turnScene(scene, l.bearing ?? 0)
   }
   const bearing = fromArg ? Number(fromArg) : bestBearing(scene)
