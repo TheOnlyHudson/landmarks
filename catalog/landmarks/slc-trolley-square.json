@@ -1,0 +1,16 @@
+{
+  "id": "slc-trolley-square",
+  "name": "Trolley Square",
+  "model": "slc-trolley-square",
+  "place": "salt-lake-city-area",
+  "lng": -111.8724681,
+  "lat": 40.7568955,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7845190",
+  "replaces": [
+    "way/41527646",
+    "way/41527684"
+  ]
+}
