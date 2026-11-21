@@ -1,0 +1,14 @@
+{
+  "id": "indy-ims-pagoda",
+  "name": "The Pagoda",
+  "model": "indy-ims-pagoda",
+  "place": "indianapolis-area",
+  "lng": -86.2382861,
+  "lat": 39.7932029,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/286357114"
+  ]
+}
