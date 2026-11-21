@@ -1,0 +1,71 @@
+{
+  "id": "baku-tv-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "tv-tower",
+    "observation",
+    "revolving-restaurant",
+    "concrete",
+    "led-lighting"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/baku-tv-tower.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Baku Botanical Garden 60 (cropped)",
+      "url": "https://commons.wikimedia.org/wiki/File:Baku_Botanical_Garden_60_(cropped).jpg",
+      "author": "Interfase",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Central Park, Baku, May 2019 19",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park,_Baku,_May_2019_19.jpg",
+      "author": "Aykhan Zayedzadeh",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Baku Botanical Garden 13",
+      "url": "https://commons.wikimedia.org/wiki/File:Baku_Botanical_Garden_13.jpg",
+      "author": "Press Service of the President of the Republic of Azerbaijan",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Sabayil, Baku, Azerbaijan - panoramio (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Sabayil,_Baku,_Azerbaijan_-_panoramio_(1).jpg",
+      "author": "Galen Anderson",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Baku Bulvar9",
+      "url": "https://commons.wikimedia.org/wiki/File:Baku_Bulvar9.JPG",
+      "author": "Frokor",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Entrance of Martyrs' Lane, Baku",
+      "url": "https://commons.wikimedia.org/wiki/File:Entrance_of_Martyrs%27_Lane,_Baku.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/baku-tv-tower.glb",
+  "source": "generators/baku-tv-tower.ts"
+}

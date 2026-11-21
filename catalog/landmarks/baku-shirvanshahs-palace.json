@@ -1,0 +1,19 @@
+{
+  "id": "baku-shirvanshahs-palace",
+  "name": "Palace of the Shirvanshahs",
+  "model": "baku-shirvanshahs-palace",
+  "place": "baku",
+  "lng": 49.833251,
+  "lat": 40.366169,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1311487140",
+    "way/1311487144",
+    "way/1311487151",
+    "way/299450764",
+    "way/299450765",
+    "way/1311487146"
+  ]
+}

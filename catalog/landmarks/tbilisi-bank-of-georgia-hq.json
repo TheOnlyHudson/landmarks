@@ -1,0 +1,24 @@
+{
+  "id": "tbilisi-bank-of-georgia-hq",
+  "name": "Bank of Georgia Headquarters",
+  "model": "tbilisi-bank-of-georgia-hq",
+  "place": "tbilisi",
+  "lng": 44.7708965,
+  "lat": 41.7357601,
+  "bearing": 76,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1544120",
+  "replaces": [
+    "way/1236448832",
+    "way/1236448833",
+    "way/1236448834",
+    "way/1236448835",
+    "way/1236448836",
+    "way/1236448837",
+    "way/557466932",
+    "way/557466934",
+    "way/557466935",
+    "way/1358301477"
+  ]
+}

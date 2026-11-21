@@ -1,0 +1,24 @@
+{
+  "id": "nyc-270-park",
+  "name": "270 Park Avenue",
+  "model": "nyc-270-park",
+  "lng": -73.9759683,
+  "lat": 40.7559778,
+  "bearing": 28.9,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q109648853",
+  "replaces": [
+    "way/1240347246",
+    "way/1470357701",
+    "way/1470357702",
+    "way/1470357703",
+    "way/1470357704",
+    "way/1470357705",
+    "way/1470357706",
+    "way/1470357707",
+    "way/1470357708",
+    "way/1470357709"
+  ],
+  "place": "new-york-area"
+}

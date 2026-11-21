@@ -1,0 +1,27 @@
+{
+  "id": "tbilisi-public-service-hall",
+  "name": "Public Service Hall",
+  "model": "tbilisi-public-service-hall",
+  "place": "tbilisi",
+  "lng": 44.806655,
+  "lat": 41.699024,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q136433302",
+  "replaces": [
+    "way/1066392731",
+    "way/1137055259",
+    "way/1135278408",
+    "way/1135278409",
+    "way/1135278410",
+    "way/1135278411",
+    "way/1135278412",
+    "way/1135278413",
+    "way/1135278414",
+    "way/1135278415",
+    "way/1135278416",
+    "way/1135278417",
+    "way/1135278418"
+  ]
+}

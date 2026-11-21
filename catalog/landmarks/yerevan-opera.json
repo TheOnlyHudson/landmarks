@@ -1,0 +1,15 @@
+{
+  "id": "yerevan-opera",
+  "name": "Armenian National Opera and Ballet Theatre",
+  "model": "yerevan-opera",
+  "place": "yerevan",
+  "lng": 44.5150857,
+  "lat": 40.1860137,
+  "bearing": 3.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/1267677",
+    "way/412870637"
+  ]
+}

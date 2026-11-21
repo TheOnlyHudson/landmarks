@@ -1,0 +1,15 @@
+{
+  "id": "tbilisi-narikala",
+  "name": "Narikala Fortress",
+  "model": "tbilisi-narikala",
+  "place": "tbilisi",
+  "lng": 44.8091,
+  "lat": 41.6877,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/78145651"
+  ],
+  "wikidata": "Q155453"
+}

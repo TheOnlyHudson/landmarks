@@ -1,0 +1,71 @@
+{
+  "id": "baku-crystal-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "concert-hall",
+    "eurovision",
+    "membrane-facade",
+    "led-facade"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/baku-crystal-hall.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Baku - Baku8423",
+      "url": "https://commons.wikimedia.org/wiki/File:Baku_-_Baku8423.jpg",
+      "author": "lumoplank",
+      "license": "CC0"
+    },
+    {
+      "title": "Crystal Hall",
+      "url": "https://commons.wikimedia.org/wiki/File:Crystal_Hall.jpg",
+      "author": "Joseph Arth",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trip to Azerbaijan (2014-09-25) 07",
+      "url": "https://commons.wikimedia.org/wiki/File:Trip_to_Azerbaijan_(2014-09-25)_07.jpg",
+      "author": "mos.ru",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Baku bolvard and flag square 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Baku_bolvard_and_flag_square_1.JPG",
+      "author": "Urek Meniashvili",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Баку",
+      "url": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B0%D0%BA%D1%83.JPG",
+      "author": "Consulbk",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "View of Baku at night 3",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Baku_at_night_3.jpg",
+      "author": "Interfase",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/baku-crystal-hall.glb",
+  "source": "generators/baku-crystal-hall.ts"
+}

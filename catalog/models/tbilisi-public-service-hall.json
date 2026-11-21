@@ -1,0 +1,82 @@
+{
+  "id": "tbilisi-public-service-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "public-services",
+    "contemporary",
+    "canopy"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tbilisi-public-service-hall.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tbilisi Public Service Hall Building IMG 8999 1920",
+      "url": "https://commons.wikimedia.org/wiki/File:Tbilisi_Public_Service_Hall_Building_IMG_8999_1920.jpg",
+      "author": "Alexxx1979",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Public Service Hall (34559549093)",
+      "url": "https://commons.wikimedia.org/wiki/File:Public_Service_Hall_(34559549093).jpg",
+      "author": "Max Benidze",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Tbilisi13",
+      "url": "https://commons.wikimedia.org/wiki/File:Tbilisi13.jpg",
+      "author": "BBCLCD",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2016 Tbilisi, Widoki z Twierdzy Narikala (05)",
+      "url": "https://commons.wikimedia.org/wiki/File:2016_Tbilisi,_Widoki_z_Twierdzy_Narikala_(05).jpg",
+      "author": "Marcin Konsek",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "თბილისის იუსტიციის სახლი-Tbilisi Justic House 08",
+      "url": "https://commons.wikimedia.org/wiki/File:%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98%E1%83%A1_%E1%83%98%E1%83%A3%E1%83%A1%E1%83%A2%E1%83%98%E1%83%AA%E1%83%98%E1%83%98%E1%83%A1_%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98-Tbilisi_Justic_House_08.jpg",
+      "author": "Davit butulashvili",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "თბილისის იუსტიციის სახლი-Tbilisi Justic House 10",
+      "url": "https://commons.wikimedia.org/wiki/File:%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98%E1%83%A1_%E1%83%98%E1%83%A3%E1%83%A1%E1%83%A2%E1%83%98%E1%83%AA%E1%83%98%E1%83%98%E1%83%A1_%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98-Tbilisi_Justic_House_10.jpg",
+      "author": "Davit butulashvili",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "თბილისის იუსტიციის სახლი-Tbilisi Justic House 12",
+      "url": "https://commons.wikimedia.org/wiki/File:%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98%E1%83%A1_%E1%83%98%E1%83%A3%E1%83%A1%E1%83%A2%E1%83%98%E1%83%AA%E1%83%98%E1%83%98%E1%83%A1_%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98-Tbilisi_Justic_House_12.jpg",
+      "author": "Davit butulashvili",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ministry of Justice of Georgia. Tbilisi (50503019008)",
+      "url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Justice_of_Georgia._Tbilisi_(50503019008).jpg",
+      "author": "Andrew Milligan sumo",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/tbilisi-public-service-hall.glb",
+  "source": "generators/tbilisi-public-service-hall.ts"
+}
