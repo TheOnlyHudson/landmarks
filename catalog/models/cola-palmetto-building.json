@@ -1,0 +1,42 @@
+{
+  "id": "cola-palmetto-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "skyscraper",
+    "hotel"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Palmetto Building; Columbia, South Carolina; February 21, 2016.jpg",
+      "author": "Stephen Matthew Milligan",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Palmetto_Building;_Columbia,_South_Carolina;_February_21,_2016.jpg"
+    },
+    {
+      "title": "Palmetto Building, 1400 Main Street at Washington Street, Columbia (Richland County, South Carolina).jpg",
+      "author": "Jack Boucher (HABS)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Palmetto_Building,_1400_Main_Street_at_Washington_Street,_Columbia_(Richland_County,_South_Carolina).jpg"
+    }
+  ],
+  "file": "models/cola-palmetto-building.glb",
+  "source": "generators/cola-palmetto-building.ts"
+}

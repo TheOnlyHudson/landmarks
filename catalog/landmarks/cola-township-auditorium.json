@@ -1,0 +1,14 @@
+{
+  "id": "cola-township-auditorium",
+  "name": "Township Auditorium",
+  "model": "cola-township-auditorium",
+  "place": "columbia-sc-area",
+  "lng": -81.027717,
+  "lat": 34.009724,
+  "bearing": 340,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/545587531"
+  ]
+}

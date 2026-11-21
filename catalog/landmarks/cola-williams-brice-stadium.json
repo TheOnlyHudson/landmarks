@@ -1,0 +1,15 @@
+{
+  "id": "cola-williams-brice-stadium",
+  "name": "Williams-Brice Stadium",
+  "model": "cola-williams-brice-stadium",
+  "place": "columbia-sc-area",
+  "lng": -81.01916,
+  "lat": 33.97312,
+  "bearing": 330,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/187031724",
+    "way/187031725"
+  ]
+}

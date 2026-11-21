@@ -1,0 +1,55 @@
+{
+  "id": "cola-state-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "government",
+    "capitol",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "2018 South Carolina State House.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:2018_South_Carolina_State_House.jpg"
+    },
+    {
+      "title": "South Carolina State House, Columbia, Southeast view with Strom Thurmond Statue 20160702 1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:South_Carolina_State_House,_Columbia,_Southeast_view_with_Strom_Thurmond_Statue_20160702_1.jpg"
+    },
+    {
+      "title": "HABS SC,40-COLUM,9-4, West elevation (1960)",
+      "author": "Jack Boucher",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Historic_American_Buildings_Survey,_April,_1960_WEST_ELEVATION._-_South_Carolina_State_House,_Capitol_Square,_Columbia,_Richland_County,_SC_HABS_SC,40-COLUM,9-4.tif"
+    },
+    {
+      "title": "SC State House at evening.jpg",
+      "author": "Florencebballer",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:SC_State_House_at_evening.jpg"
+    }
+  ],
+  "file": "models/cola-state-house.glb",
+  "source": "generators/cola-state-house.ts"
+}

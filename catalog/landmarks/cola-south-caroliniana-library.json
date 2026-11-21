@@ -1,0 +1,14 @@
+{
+  "id": "cola-south-caroliniana-library",
+  "name": "South Caroliniana Library",
+  "model": "cola-south-caroliniana-library",
+  "place": "columbia-sc-area",
+  "lng": -81.0299041,
+  "lat": 33.9983453,
+  "bearing": 340,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/108351420"
+  ]
+}

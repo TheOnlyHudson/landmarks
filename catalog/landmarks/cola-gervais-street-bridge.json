@@ -1,0 +1,15 @@
+{
+  "id": "cola-gervais-street-bridge",
+  "name": "Gervais Street Bridge",
+  "model": "cola-gervais-street-bridge",
+  "place": "columbia-sc-area",
+  "lng": -81.050932,
+  "lat": 33.995798,
+  "bearing": 68.7,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/988676527"
+  ],
+  "wikidata": "Q1515887"
+}
