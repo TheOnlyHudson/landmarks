@@ -1,0 +1,15 @@
+{
+  "id": "cola-capitol-center",
+  "name": "Capitol Center",
+  "model": "cola-capitol-center",
+  "place": "columbia-sc-area",
+  "lng": -81.034822,
+  "lat": 34.00124,
+  "bearing": 70,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/329094442"
+  ],
+  "wikidata": "Q5035858"
+}
