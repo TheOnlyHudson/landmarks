@@ -1,0 +1,7 @@
+{
+  "id": "tbilisi",
+  "name": "Tbilisi",
+  "kind": "city",
+  "parent": "georgia-country",
+  "wikidata": "Q994"
+}

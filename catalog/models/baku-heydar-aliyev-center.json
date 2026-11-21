@@ -1,0 +1,107 @@
+{
+  "id": "baku-heydar-aliyev-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cultural-centre",
+    "museum",
+    "modern",
+    "zaha-hadid"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q43928",
+  "detail": "models/baku-heydar-aliyev-center.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "The Aliyev Center In Context",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Aliyev_Center_In_Context_(220956695).jpeg",
+      "author": "Francisco Anzola",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Baku 15 06 14 216000",
+      "url": "https://commons.wikimedia.org/wiki/File:Baku_15_06_14_216000.jpeg",
+      "author": "Robot8A",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Heydar Aliyev Center, Baku (night)",
+      "url": "https://commons.wikimedia.org/wiki/File:Heydar_Aliyev_Center,_Baku_-_HyderAliyevCenter8319.jpg",
+      "author": "lumoplank",
+      "license": "CC0"
+    },
+    {
+      "title": "Heidar Aliyev Center wide angle",
+      "url": "https://commons.wikimedia.org/wiki/File:HEIDAR_ALIYEV_CENTER_WIDE_ANGLE.%D7%96%D7%95%D7%95%D7%99%D7%AA_%D7%A8%D7%97%D7%91%D7%94_%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%99%D7%99%D7%93%D7%A8_%D7%90%D7%9C%D7%99%D7%99%D7%91.jpg",
+      "author": "Avisadehh",
+      "license": "CC0"
+    },
+    {
+      "title": "Heidar Aliyev Center and gardens",
+      "url": "https://commons.wikimedia.org/wiki/File:HEIDAR_ALIYEV_CENTER_AND_GARDENS.%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%99%D7%99%D7%93%D7%A8_%D7%90%D7%9C%D7%99%D7%99%D7%91_%D7%95%D7%94%D7%93%D7%A9%D7%90.jpg",
+      "author": "Avisadehh",
+      "license": "CC0"
+    },
+    {
+      "title": "Bakı, Heydər Əliyev Mərkəzi - 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Bak%C4%B1,_Heyd%C9%99r_%C6%8Fliyev_M%C9%99rk%C9%99zi_-_2.jpg",
+      "author": "Tərxan Paşazadə",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Azarbaijan.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Azarbaijan.jpg",
+      "author": "shaasu1",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Futuristic design of the Heydar Aliyev Cultural Center",
+      "url": "https://www.flickr.com/photos/77742560@N06/36234035314",
+      "author": "shankar s.",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "The Heydar Aliyev Centre",
+      "url": "https://www.flickr.com/photos/77742560@N06/37068822405",
+      "author": "shankar s.",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Heydar Aliyev Center",
+      "url": "https://www.flickr.com/photos/84292292@N00/27761588499",
+      "author": "Aleksandr Zykov",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Side view of Heydar Aliyev Center",
+      "url": "https://www.flickr.com/photos/49399018@N00/30679898326",
+      "author": "amanderson2",
+      "license": "Public domain"
+    },
+    {
+      "title": "Stairs and Heydar Aliyev Center",
+      "url": "https://www.flickr.com/photos/49399018@N00/30081984043",
+      "author": "amanderson2",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/baku-heydar-aliyev-center.glb",
+  "source": "generators/baku-heydar-aliyev-center.ts"
+}

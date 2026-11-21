@@ -1,0 +1,21 @@
+{
+  "id": "tbilisi-metekhi-church",
+  "name": "Metekhi Church and Vakhtang Gorgasali statue",
+  "model": "tbilisi-metekhi-church",
+  "place": "tbilisi",
+  "lng": 44.811246,
+  "lat": 41.690141,
+  "bearing": 4.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1064270003",
+    "way/40851972",
+    "way/1064270002",
+    "way/1207173723",
+    "way/1207173724",
+    "way/1207173725",
+    "way/1207173726"
+  ],
+  "wikidata": "Q20577625"
+}

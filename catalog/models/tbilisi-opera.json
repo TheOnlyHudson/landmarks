@@ -1,0 +1,58 @@
+{
+  "id": "tbilisi-opera",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theatre",
+    "opera-house",
+    "moorish-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/tbilisi-opera.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "National Opera House. Tbilisi, Georgia",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Opera_House._Tbilisi,_Georgia.jpg",
+      "author": "Francisco Anzola",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Georgian National Opera Theater",
+      "url": "https://commons.wikimedia.org/wiki/File:Georgian_National_Opera_Theater.jpg",
+      "author": "Giorgi Balakhadze",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Tbilisi Opera House, ArmAg (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Tbilisi_Opera_House,_ArmAg_(1).jpg",
+      "author": "Armineaghayan",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Tbilisi Opera House at night",
+      "url": "https://commons.wikimedia.org/wiki/File:Tbilisi_Opera_House_at_night.jpg",
+      "author": "Robot8A",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/tbilisi-opera.glb",
+  "source": "generators/tbilisi-opera.ts"
+}

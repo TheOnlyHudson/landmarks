@@ -1,0 +1,76 @@
+{
+  "id": "baku-maiden-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "historic",
+    "fortification",
+    "unesco-world-heritage",
+    "old-city"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/baku-maiden-tower.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "The buttress end-on, from the east-south-east",
+      "url": "https://commons.wikimedia.org/wiki/File:Torre_de_la_Doncella,_Baku,_Azerbaiy%C3%A1n,_2016-09-26,_DD_08.jpg",
+      "author": "Diego Delso",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The drum and door from the west",
+      "url": "https://commons.wikimedia.org/wiki/File:Torre_de_la_Doncella,_Baku,_Azerbaiy%C3%A1n,_2016-09-26,_DD_06.jpg",
+      "author": "Diego Delso",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "From the east-south-east, daylight",
+      "url": "https://commons.wikimedia.org/wiki/File:Baku_Maiden_Tower_004_7736.jpg",
+      "author": "Ludvig14",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Drum and buttress flank",
+      "url": "https://commons.wikimedia.org/wiki/File:Unusual_construction_of_the_Maiden_Tower,_Baku_(36898425612).jpg",
+      "author": "shankar s.",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "The whole tower in sun",
+      "url": "https://commons.wikimedia.org/wiki/File:Q%C4%B1z_qalas%C4%B1_%C3%BCmumi_2016.jpg",
+      "author": "Sefer azeri",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Buttress side on, from a distance",
+      "url": "https://commons.wikimedia.org/wiki/File:Maiden_Tower,_Baku,_Azerbaijan.jpg",
+      "author": "Wertuose",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Floodlit at night",
+      "url": "https://commons.wikimedia.org/wiki/File:MAIDEN_TOWER_BAKU_AT_NIGHT_A.%D7%9E%D7%92%D7%93%D7%9C_%D7%94%D7%A2%D7%97%D7%9E%D7%94_%D7%91%D7%90%D7%A7%D7%95_%D7%91%D7%9C%D7%99%D7%9C%D7%94_%D7%90.jpg",
+      "author": "Avisadehh",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/baku-maiden-tower.glb",
+  "source": "generators/baku-maiden-tower.ts"
+}

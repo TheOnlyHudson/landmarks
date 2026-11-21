@@ -1,0 +1,16 @@
+{
+  "id": "yerevan-tsitsernakaberd",
+  "name": "Tsitsernakaberd Armenian Genocide Memorial",
+  "model": "yerevan-tsitsernakaberd",
+  "place": "yerevan",
+  "lng": 44.490569,
+  "lat": 40.185756,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/15806889",
+    "relation/15807133"
+  ],
+  "wikidata": "Q154775"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "yerevan-matenadaran",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "library",
+    "statue",
+    "soviet-era",
+    "basalt",
+    "armenian-architecture"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "detail": "models/yerevan-matenadaran.detail.glb",
+  "detailZoom": 16,
+  "references": [
+    {
+      "title": "The facade face on",
+      "url": "https://commons.wikimedia.org/wiki/File:Matenadaran_Yerevan_Armenia_msu-2018-2506.jpg",
+      "author": "Matthias Süßen",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The terrace wall and the Mashtots group",
+      "url": "https://commons.wikimedia.org/wiki/File:2014_Erywa%C5%84,_Matenadaran_(13).jpg",
+      "author": "Marcin Konsek",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Mashtots and Koryun close",
+      "url": "https://commons.wikimedia.org/wiki/File:2014_Erywa%C5%84,_Matenadaran_(16).jpg",
+      "author": "Marcin Konsek",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Face on with the wall",
+      "url": "https://commons.wikimedia.org/wiki/File:Yerevan,_Matenadaran,_Armenia.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "Face on, 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:Matenadaran,_Yerevan,_Armenia_(%D5%84%D5%A1%D5%BF%D5%A5%D5%B6%D5%A1%D5%A4%D5%A1%D6%80%D5%A1%D5%B6%D0%B1,_2026).jpg",
+      "author": "Petar Milošević",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The portal and the scholars from the side",
+      "url": "https://commons.wikimedia.org/wiki/File:Facade_of_Matenadaran_building,_Yerevan.jpg",
+      "author": "Rita Willaert",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Three scholars on their pedestals",
+      "url": "https://commons.wikimedia.org/wiki/File:Matenadaran,_statues_01.jpg",
+      "author": "ՀայԿ",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The side and the hill",
+      "url": "https://commons.wikimedia.org/wiki/File:Matenadaran_(2024).jpg",
+      "author": "ASFINAG AT",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "title": "The new building from the gorge",
+      "url": "https://commons.wikimedia.org/wiki/File:New_building_of_Matenadaran_shot_from_air.jpg",
+      "author": "Aleksey Chalabyan (Xelgen)",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The new building's rotunda",
+      "url": "https://commons.wikimedia.org/wiki/File:Matenadaran,_2014,_ArmAg_(30).jpg",
+      "author": "Armineaghayan",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/yerevan-matenadaran.glb",
+  "source": "generators/yerevan-matenadaran.ts"
+}

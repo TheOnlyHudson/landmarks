@@ -1,0 +1,23 @@
+{
+  "id": "tbilisi-tv-tower",
+  "name": "Tbilisi TV Broadcasting Tower",
+  "model": "tbilisi-tv-tower",
+  "place": "tbilisi",
+  "lng": 44.7849377,
+  "lat": 41.6957606,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q1407344",
+  "replaces": [
+    "way/437940450",
+    "way/1218304159",
+    "way/1218304160",
+    "way/1218304161",
+    "way/1218304162",
+    "way/1218304163",
+    "way/1218304164",
+    "way/1021675581",
+    "way/1021675582"
+  ]
+}

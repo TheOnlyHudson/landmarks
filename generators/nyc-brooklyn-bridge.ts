@@ -21,27 +21,21 @@
  * Height. z = 0 is the waterline, the lowest ground under the footprint,
  * which the map draws at the river's surface (3DEP reads the East River at
  * -1.6 m NAVD88, so a height above the water is the DEM plus 1.6). The
- * trusses are built around the map's own two roadways, so its decks sit
- * between them; each side follows its own roadway:
- * - main span: 41 − 0.01·S·(2u − 1)², S = 485.1 m between the towers: 41 m
- *   at midspan (OSM height=41 on the outline), 36.1 m at the towers;
- * - side spans and anchorages, from the map's decks: at the Brooklyn
- *   anchorage 32.5 m (west roadway) and 32.1 m (east), 30.8 and 30.2 at its
- *   landward end; at the Manhattan anchorage 26.6 and 27.9, then 24.4 and
- *   25.9 at its landward end.
- * Lidar puts the real roadways a little differently (0.8 m higher at
- * midspan, about 27 m over both anchorages); the trusses follow the map, so
- * the two agree on the map. If its profile changes, change `SIDES` below.
+ * trusses are built around the two roadways, each side following its own,
+ * from lidar every 20 m (`ROADWAYS`): 43.0 m at midspan, about 38 m at the
+ * towers, 29 m at both anchorages' river faces and 26.5 m at their landward
+ * ends. The map's road decks follow the same lidar where they are right.
  * The cables are the lidar's, in absolute height.
  *
  * The map draws the roadways' surfaces and markings; this model owns the
- * promenade outright: its walking surface 3.4 m above the higher roadway
- * (lidar; 44.4 m at midspan, 39.6 m at the towers), anchorage to anchorage
- * and over both anchorages, widening into a balcony round each tower's
+ * promenade outright: its walking surface 3.1–3.3 m above the higher
+ * roadway (lidar, `PROMENADE_UP`; 46.4 m at midspan, about 42 m at the
+ * towers), coming down to 1.3 m over it at the Brooklyn end; anchorage to
+ * anchorage and over both anchorages, widening into a balcony round each tower's
  * centre pier; the inner trusses either side stand 1.2 m above it as its
- * railings. The anchorages' roofs and the string course over the towers'
- * piers stay 0.25–0.4 m under the roadways; under the arches the masonry
- * steps down a further metre.
+ * railings. The anchorages' roofs stay 0.4 m under the roadways, and the
+ * string course over the towers' piers under them; under the arches the
+ * masonry steps down a further metre.
  *
  * Standing on the terrain. The towers stand in the river at z = 0. Each
  * anchorage's walls run down to the ground under them, vertex by vertex,
@@ -88,8 +82,8 @@
  * - The towers are the approved tower model's design, unchanged but for the
  *   string course: its top is lowered from 36.5 to 35.6 m, it has no top
  *   under the arches, and the roadway strip through them is gone, so the
- *   map's roadways (36.1–36.3 m at the towers) pass through the arches
- *   above the masonry rather than fighting it.
+ *   roadways (about 38 m at the towers) pass through the arches above the
+ *   masonry rather than fighting it.
  *
  * Night lighting (`lamp` beads, and `_FLOODLIGHT` on the towers' masonry):
  * - NYC DOT, "NYC DOT Celebrates New Year's 'Glow Up' for the Historic
@@ -150,7 +144,7 @@ const BD = 3.6                  // end buttress half-depth
 const LD = 8.4                  // lower block half-depth
 
 const PLINTH = 2.0
-const DECK0 = 34.1, DECK = 35.6 // string course, 0.3 m or more under the map's roadways at the towers
+const DECK0 = 34.1, DECK = 35.6 // string course, under the roadways through the arches
 const SPRING = 61.0, RISE = 9.0 // pointed arches: 10 m wide, crown at 70 m
 const COR0 = 79.4, COR1 = 81.2  // cornice
 const TOP = 82.2                // wall top
@@ -306,38 +300,45 @@ const FACE = LD + .5            // the towers' faces, from their centre lines
 const YB = -524.2, YM = 526.5   // the anchorages' river faces: the outline's ends
 
 /**
- * The map's two roadways, metres above the water, side by side (s = -1 the
- * west roadway at x < 0, +1 the east): the main span is 41 − 0.01·S·(2u − 1)²,
- * 41 m at midspan and 36.1 m at the towers; the side spans and the
- * anchorages are read off the map's decks every 20 m (within 0.35 m).
+ * The two roadways, metres above the water, side by side (s = -1 the west
+ * roadway at x < 0, +1 the east): lidar along each roadway's OSM way, every
+ * 20 m (a line fitted through the readings within 12 m; NAVD88 + 1.6).
  */
-const MAIN = (y: number) => 41 - 0.01 * S * (y / TY) ** 2
-const SIDES: Record<number, (y: number) => number> = {
+const ROADWAYS: Record<number, (y: number) => number> = {
   [-1]: piecewise([
-    [-620, 30.74], [-600, 31.10], [-580, 31.47], [-560, 31.84], [-540, 32.20], [-520, 32.57], [-500, 32.94],
-    [-480, 33.31], [-460, 33.68], [-440, 34.04], [-420, 34.38], [-400, 34.67], [-380, 34.91], [-360, 35.07],
-    [-340, 35.17], [-320, 35.24], [-300, 35.30], [-280, 35.42], [-260, 35.69], [-TY, 36.13], [TY, 36.12],
-    [260, 35.49], [280, 34.84], [300, 34.22], [320, 33.61], [340, 33.00], [360, 32.38], [380, 31.72],
-    [400, 31.05], [420, 30.36], [440, 29.66], [460, 28.95], [480, 28.25], [500, 27.54], [520, 26.83],
-    [540, 26.13], [560, 25.43], [580, 24.71], [595, 24.19],
+    [-620, 26.69], [-600, 27.26], [-580, 27.40], [-560, 27.96], [-540, 28.52], [-520, 29.25], [-500, 30.02],
+    [-480, 30.61], [-440, 32.03], [-420, 32.79], [-400, 33.62], [-380, 34.44], [-360, 35.22], [-340, 36.00],
+    [-280, 37.61], [-220, 39.27], [-200, 39.91], [-160, 41.17], [-120, 42.02], [-100, 42.38], [-40, 43.12],
+    [-20, 43.14], [0, 42.95], [20, 43.01], [40, 42.88], [60, 42.70], [80, 42.33], [100, 42.07], [120, 41.73],
+    [140, 41.28], [160, 40.64], [200, 39.46], [220, 38.89], [280, 37.31], [300, 36.86], [320, 36.24], [340, 35.44],
+    [360, 34.61], [380, 33.69], [420, 32.13], [440, 31.35], [460, 30.79], [480, 30.08], [500, 29.56], [540, 28.47],
+    [560, 27.92], [580, 27.10], [600, 26.54],
   ]),
   [1]: piecewise([
-    [-620, 30.19], [-600, 30.58], [-580, 30.97], [-560, 31.36], [-540, 31.75], [-520, 32.14], [-500, 32.53],
-    [-480, 32.92], [-460, 33.31], [-440, 33.7], [-420, 34.09], [-400, 34.48], [-380, 34.85], [-360, 35.13],
-    [-340, 35.31], [-320, 35.45], [-300, 35.72], [-280, 35.73], [-260, 35.95], [-TY, 36.23],
-    [TY, 36.05], [260, 35.55], [280, 35.02], [300, 34.51], [320, 34.01], [340, 33.52], [360, 32.99], [380, 32.42],
-    [400, 31.81], [420, 31.19], [440, 30.57], [460, 30.07], [480, 29.34], [500, 28.72], [520, 28.11], [540, 27.49],
-    [560, 26.87], [580, 26.26], [595, 25.8],
+    [-620, 26.50], [-600, 27.21], [-580, 27.75], [-560, 28.23], [-540, 28.85], [-520, 29.08], [-500, 29.62],
+    [-480, 30.25], [-460, 30.89], [-440, 31.65], [-420, 32.31], [-400, 32.98], [-380, 33.80], [-360, 34.70],
+    [-320, 36.21], [-300, 36.76], [-280, 37.34], [-260, 37.70], [-220, 38.80], [-200, 39.40], [-180, 40.10],
+    [-160, 40.79], [-140, 41.35], [-120, 41.89], [-80, 42.51], [-60, 42.81], [-40, 43.01], [0, 43.05], [20, 43.08],
+    [40, 43.01], [60, 42.83], [80, 42.65], [100, 42.34], [220, 39.22], [280, 37.59], [300, 37.23], [320, 36.65],
+    [340, 36.01], [360, 35.25], [380, 34.40], [400, 33.61], [420, 32.76], [440, 31.91], [460, 31.21], [480, 30.60],
+    [500, 29.96], [520, 29.16], [540, 28.32], [560, 27.82], [580, 27.19], [600, 26.52],
   ]),
 }
-const road = (y: number, s: number): number => (Math.abs(y) <= TY ? MAIN(y) : SIDES[s](y))
+/** The promenade's walking surface over the higher roadway (lidar, every 20 m). */
+const PROMENADE_UP = piecewise([
+  [-620, 1.33], [-600, 1.66], [-580, 1.98], [-560, 2.51], [-540, 2.84], [-520, 3.31], [-500, 3.14], [-480, 3.17],
+  [-460, 3.1], [-440, 3.07], [-420, 3.11], [-400, 3.11], [-380, 3.11], [-360, 3.18], [-340, 3.15], [-320, 3.27],
+  [-300, 3.76], [-280, 4.14], [-220, 4.04], [-200, 3.3], [-180, 3.32], [-160, 3.31], [-140, 3.36], [-120, 3.35],
+  [-100, 3.15], [-80, 3.3], [-60, 3.16], [-40, 3.31], [-20, 3.27], [0, 3.3], [20, 3.3], [40, 3.28], [60, 3.29],
+  [80, 3.11], [100, 3.36], [280, 4.0], [320, 3.08], [340, 3.01], [360, 2.93], [380, 2.91], [400, 3.2], [420, 3.28],
+  [440, 3.08], [460, 2.91], [480, 2.89], [500, 2.87], [520, 3.11], [540, 3.18], [560, 2.88], [580, 2.49],
+])
+const road = (y: number, s: number): number => ROADWAYS[s](y)
 const higher = (y: number) => Math.max(road(y, -1), road(y, 1))
 const lower = (y: number) => Math.min(road(y, -1), road(y, 1))
-const TOWER_ROAD = MAIN(TY)
 
 const TRUSS_UP = 4.6            // truss tops above the roadway (lidar)
 const UNDER = 1.8               // the underside below it
-const PROM = 3.4                // the promenade's surface above the higher roadway (lidar)
 const RAIL = 1.2                // the inner trusses' tops above the promenade: its railings
 const OUT = 12.9, IN = 2.6      // truss centre lines
 const EDGE = 13.15              // outer edge of the deck structure
@@ -354,7 +355,7 @@ const spans: [number, number][] = [[YB, -TY - FACE], [-TY + FACE, TY - FACE], [T
 // The promenade runs on over both anchorages.
 const walkSpans: [number, number][] = [[BACK_B, -TY - FACE], [-TY + FACE, TY - FACE], [TY + FACE, BACK_M]]
 
-const prom = (y: number) => higher(y) + PROM
+const prom = (y: number) => higher(y) + PROMENADE_UP(y)
 
 const smooth = (t: number) => (t <= 0 ? 0 : t >= 1 ? 1 : t * t * (3 - 2 * t))
 const mainCable = (y: number) => {
@@ -719,7 +720,7 @@ const detail = [
 const extras = {
   license: 'CC0-1.0', frame: 'Y up, -Z north, +X east, metres; origin midway between the towers, on the water',
   bearing: 316.18, elevation: 0, towers: [-TY, TY], anchorageFaces: [YB, YM],
-  roadwayMidspan: MAIN(0), roadwayAtTowers: TOWER_ROAD, roadwayEnds: [[road(YB, -1), road(YB, 1)], [road(YM, -1), road(YM, 1)]],
+  roadwayMidspan: road(0, 1), roadwayAtTowers: road(TY, 1), roadwayEnds: [[road(YB, -1), road(YB, 1)], [road(YM, -1), road(YM, 1)]],
   promenadeMidspan: prom(0),
 }
 const count = (list: { part: Part }[]) => list.reduce((n, { part }) => n + part.triangles, 0)

@@ -1,0 +1,19 @@
+{
+  "id": "baku-flame-towers",
+  "name": "Flame Towers",
+  "model": "baku-flame-towers",
+  "place": "baku",
+  "lng": 49.82648,
+  "lat": 40.3598,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q80499",
+  "replaces": [
+    "way/253081850",
+    "way/253082095",
+    "way/253081914",
+    "way/687226634",
+    "way/687226633"
+  ]
+}
