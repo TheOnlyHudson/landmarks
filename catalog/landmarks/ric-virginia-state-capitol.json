@@ -1,0 +1,18 @@
+{
+  "id": "ric-virginia-state-capitol",
+  "name": "Virginia State Capitol",
+  "model": "ric-virginia-state-capitol",
+  "place": "richmond-area",
+  "lng": -77.4335743,
+  "lat": 37.5387973,
+  "bearing": 37,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/45088494",
+    "way/366226948",
+    "way/366226949",
+    "way/366226950"
+  ],
+  "wikidata": "Q2537798"
+}
