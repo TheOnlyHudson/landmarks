@@ -1,0 +1,38 @@
+{
+  "id": "cola-township-auditorium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "concert-hall",
+    "georgian-revival",
+    "brick",
+    "nrhp"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Columbia Township Auditorium front",
+      "author": "Eastward Gypsy",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Columbia_Township_Auditorium_front.jpg"
+    }
+  ],
+  "file": "models/cola-township-auditorium.glb",
+  "source": "generators/cola-township-auditorium.ts"
+}

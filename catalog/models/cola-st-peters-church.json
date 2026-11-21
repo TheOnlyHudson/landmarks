@@ -1,0 +1,54 @@
+{
+  "id": "cola-st-peters-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "St. Peter's Catholic Church - Columbia, South Carolina 01",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Peter%27s_Catholic_Church_-_Columbia,_South_Carolina_01.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. Peter's Catholic Church - Columbia, South Carolina 02",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Peter%27s_Catholic_Church_-_Columbia,_South_Carolina_02.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St peters columbia sc",
+      "url": "https://commons.wikimedia.org/wiki/File:St_peters_columbia_sc_10-9-11.jpg",
+      "author": "Vitugglan",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. Peter's Roman Catholic Church (Columbia, South Carolina)",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Peter%27s_Roman_Catholic_Church_(Columbia,_South_Carolina).JPG",
+      "author": "KudzuVine",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/cola-st-peters-church.glb",
+  "source": "generators/cola-st-peters-church.ts"
+}

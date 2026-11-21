@@ -1,0 +1,15 @@
+{
+  "id": "cola-state-house",
+  "name": "South Carolina State House",
+  "model": "cola-state-house",
+  "place": "columbia-sc-area",
+  "lng": -81.0331284,
+  "lat": 34.0003125,
+  "bearing": 339.7,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/51731354"
+  ],
+  "wikidata": "Q2915276"
+}

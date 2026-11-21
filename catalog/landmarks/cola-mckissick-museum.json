@@ -1,0 +1,14 @@
+{
+  "id": "cola-mckissick-museum",
+  "name": "McKissick Museum",
+  "model": "cola-mckissick-museum",
+  "place": "columbia-sc-area",
+  "lng": -81.0268837,
+  "lat": 33.9987448,
+  "bearing": 340,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/329014211"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "cola-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "government",
+    "city-hall"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Columbia City Hall; Columbia, South Carolina; February 24, 2016.jpg",
+      "author": "Stephen Matthew Milligan",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Columbia_City_Hall;_Columbia,_South_Carolina;_February_24,_2016.jpg"
+    },
+    {
+      "title": "Columbia, SC, City Hall IMG 4807.JPG",
+      "author": "Billy Hathorn",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Columbia,_SC,_City_Hall_IMG_4807.JPG"
+    },
+    {
+      "title": "Columbia City Hall 1900.jpg",
+      "author": "U.S. Federal Judicial Center",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Columbia_City_Hall_1900.jpg"
+    }
+  ],
+  "file": "models/cola-city-hall.glb",
+  "source": "generators/cola-city-hall.ts"
+}

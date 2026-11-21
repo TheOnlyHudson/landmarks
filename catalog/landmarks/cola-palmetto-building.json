@@ -1,0 +1,15 @@
+{
+  "id": "cola-palmetto-building",
+  "name": "Palmetto Building",
+  "model": "cola-palmetto-building",
+  "place": "columbia-sc-area",
+  "lng": -81.034509,
+  "lat": 34.004241,
+  "bearing": 70,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/329094459"
+  ],
+  "wikidata": "Q7128358"
+}

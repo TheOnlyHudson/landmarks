@@ -1,0 +1,49 @@
+{
+  "id": "cola-sc-state-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum",
+    "mill",
+    "observatory"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "SCStateMuseum.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:SCStateMuseum.JPG",
+      "author": "Abductive",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Columbia - The Columbia Duck Mill 01.jpg (postcard)",
+      "url": "https://commons.wikimedia.org/wiki/File:Columbia_-_The_Columbia_Duck_Mill_01.jpg",
+      "author": "The Acmegraph Co.",
+      "license": "Public domain"
+    },
+    {
+      "title": "USGS NAIP orthoimagery",
+      "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+      "author": "USDA / USGS",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/cola-sc-state-museum.glb",
+  "source": "generators/cola-sc-state-museum.ts"
+}

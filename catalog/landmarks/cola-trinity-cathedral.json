@@ -1,0 +1,15 @@
+{
+  "id": "cola-trinity-cathedral",
+  "name": "Trinity Episcopal Cathedral",
+  "model": "cola-trinity-cathedral",
+  "place": "columbia-sc-area",
+  "lng": -81.03116,
+  "lat": 34.00118,
+  "bearing": 70,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/18539487"
+  ],
+  "wikidata": "Q2453562"
+}
