@@ -1,0 +1,41 @@
+{
+  "id": "indy-veterans-memorial-obelisk",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "memorial",
+    "obelisk"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Veteran's Memorial Plaza Obelisk Indianapolis, Indiana.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Veteran%27s_Memorial_Plaza_Obelisk_Indianapolis,_Indiana.jpg",
+      "author": "Jimmy Baikovicius",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Obelisk and States' Flags - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Obelisk_and_States%27_Flags_-_panoramio.jpg",
+      "author": "Bohao Zhao",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/indy-veterans-memorial-obelisk.glb",
+  "source": "generators/indy-veterans-memorial-obelisk.ts"
+}
