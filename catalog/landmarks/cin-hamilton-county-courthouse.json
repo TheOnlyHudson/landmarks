@@ -1,0 +1,16 @@
+{
+  "id": "cin-hamilton-county-courthouse",
+  "name": "Hamilton County Courthouse",
+  "model": "cin-hamilton-county-courthouse",
+  "place": "cincinnati-area",
+  "lng": -84.510274,
+  "lat": 39.107161,
+  "bearing": 349.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5644894",
+  "replaces": [
+    "relation/361391",
+    "way/46137791"
+  ]
+}
