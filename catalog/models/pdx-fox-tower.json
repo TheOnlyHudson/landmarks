@@ -1,0 +1,47 @@
+{
+  "id": "pdx-fox-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fox Tower North-East Face",
+      "url": "https://commons.wikimedia.org/wiki/File:Fox_Tower_North-East_Face_-_Portland,_Oregon.jpg",
+      "author": "Cacophony",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Fox Tower west face",
+      "url": "https://commons.wikimedia.org/wiki/File:Fox_Tower_west_face_-_Portland,_Oregon.JPG",
+      "author": "M.O. Stevens",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Fox Tower Portland Oregon",
+      "url": "https://commons.wikimedia.org/wiki/File:Fox_Tower_Portland_Oregon.JPG",
+      "author": "M.O. Stevens",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/pdx-fox-tower.glb",
+  "source": "generators/pdx-fox-tower.ts"
+}
