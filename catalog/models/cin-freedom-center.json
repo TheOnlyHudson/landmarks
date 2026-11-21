@@ -1,0 +1,49 @@
+{
+  "id": "cin-freedom-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "history-museum",
+    "riverfront"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The National Underground Railroad Freedom Center (2004): three copper-clad pavilions between curving travertine walls, facing the Ohio River.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "National Underground Railroad Freedom Center.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:National_Underground_Railroad_Freedom_Center.JPG",
+      "author": "Keith Lanser",
+      "license": "Public domain"
+    },
+    {
+      "title": "NationalUndergroundRailroadFreedomCenter.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:NationalUndergroundRailroadFreedomCenter.jpg",
+      "author": "MamaGeek",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Freedom Center Entrance.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Freedom_Center_Entrance.jpg",
+      "author": "Stoive",
+      "license": "CC-BY-SA-3.0"
+    }
+  ],
+  "file": "models/cin-freedom-center.glb",
+  "source": "generators/cin-freedom-center.ts"
+}
