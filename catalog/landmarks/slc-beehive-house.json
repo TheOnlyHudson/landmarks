@@ -1,0 +1,15 @@
+{
+  "id": "slc-beehive-house",
+  "name": "Beehive House",
+  "model": "slc-beehive-house",
+  "place": "salt-lake-city-area",
+  "lng": -111.8886444,
+  "lat": 40.7697043,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2363403",
+  "replaces": [
+    "way/33167760"
+  ]
+}
