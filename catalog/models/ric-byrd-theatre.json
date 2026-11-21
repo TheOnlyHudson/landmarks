@@ -1,0 +1,49 @@
+{
+  "id": "ric-byrd-theatre",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theatre",
+    "cinema",
+    "historic",
+    "sign"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Byrd Theatre Exterior RVA August 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Byrd_Theatre_Exterior_RVA_August_2023.jpg",
+      "author": "Sean Dudley",
+      "license": "Public domain"
+    },
+    {
+      "title": "Byrd Theatre.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Byrd_Theatre.JPG",
+      "author": "Morgan Riley",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Byrd Theater in Richmond, VA (Carytown) (10076067164).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Byrd_Theater_in_Richmond,_VA_(Carytown)_(10076067164).jpg",
+      "author": "Eli Christman",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/ric-byrd-theatre.glb",
+  "source": "generators/ric-byrd-theatre.ts"
+}

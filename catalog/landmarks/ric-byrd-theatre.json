@@ -1,0 +1,15 @@
+{
+  "id": "ric-byrd-theatre",
+  "name": "Byrd Theatre",
+  "model": "ric-byrd-theatre",
+  "place": "richmond-area",
+  "lng": -77.477853,
+  "lat": 37.5524285,
+  "bearing": 24,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/327377540"
+  ],
+  "wikidata": "Q5004235"
+}
