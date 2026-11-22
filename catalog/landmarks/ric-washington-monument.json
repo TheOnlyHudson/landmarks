@@ -1,0 +1,13 @@
+{
+  "id": "ric-washington-monument",
+  "name": "Virginia Washington Monument",
+  "model": "ric-washington-monument",
+  "place": "richmond-area",
+  "lng": -77.4339706,
+  "lat": 37.539516,
+  "bearing": 40,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "wikidata": "Q7934655"
+}
