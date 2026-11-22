@@ -1,0 +1,51 @@
+{
+  "id": "pdx-portland-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "postmodern",
+    "government",
+    "office",
+    "sculpture",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q7231890",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Portland Building after its 2017-2020 renovation - from SW in June 2021",
+      "url": "https://commons.wikimedia.org/wiki/File:Portland_Building_after_its_2017-2020_renovation_-_from_SW_in_June_2021.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Upper exterior of the Portland Building in 2021, post-renovation",
+      "url": "https://commons.wikimedia.org/wiki/File:Upper_exterior_of_the_Portland_Building_in_2021,_post-renovation.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Portland Building 1982",
+      "url": "https://commons.wikimedia.org/wiki/File:Portland_Building_1982.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/pdx-portland-building.glb",
+  "source": "generators/pdx-portland-building.ts"
+}

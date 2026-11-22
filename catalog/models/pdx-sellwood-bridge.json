@@ -1,0 +1,42 @@
+{
+  "id": "pdx-sellwood-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bridge",
+    "deck-arch-bridge",
+    "steel"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sellwood Bridge on a warm day with kayakers on river, July 2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sellwood_Bridge_on_a_warm_day_with_kayakers_on_river,_July_2017.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "New Sellwood Bridge in September 2016.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Sellwood_Bridge_in_September_2016.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/pdx-sellwood-bridge.glb",
+  "source": "generators/pdx-sellwood-bridge.ts"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "pdx-fox-tower",
+  "name": "Fox Tower",
+  "model": "pdx-fox-tower",
+  "place": "portland-or-area",
+  "lng": -122.6807004,
+  "lat": 45.5184933,
+  "bearing": 21,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/689879853",
+    "way/36741655",
+    "way/152294661",
+    "way/689879850",
+    "way/689879851",
+    "way/689879852"
+  ]
+}

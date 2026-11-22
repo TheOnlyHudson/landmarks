@@ -1,0 +1,48 @@
+{
+  "id": "pdx-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "city-hall",
+    "government",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "City Hall front pan - Portland, Oregon",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Hall_front_pan_-_Portland,_Oregon.JPG",
+      "author": "M.O. Stevens",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "City Hall, Portland, Oregon - southwest corner in 2013",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Hall,_Portland,_Oregon_-_southwest_corner_in_2013.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Portland City Hall-1",
+      "url": "https://commons.wikimedia.org/wiki/File:Portland_City_Hall-1.jpg",
+      "author": "Visitor7",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/pdx-city-hall.glb",
+  "source": "generators/pdx-city-hall.ts"
+}

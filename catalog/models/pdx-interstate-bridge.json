@@ -1,0 +1,52 @@
+{
+  "id": "pdx-interstate-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "truss-bridge",
+    "vertical-lift-bridge",
+    "movable-bridge",
+    "interstate-5"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/pdx-interstate-bridge.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Interstate Bridge from northeast side",
+      "url": "https://commons.wikimedia.org/wiki/File:Interstate_Bridge_from_northeast_side.jpg",
+      "author": "SounderBruce",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Interstate Bridge lift span, from east",
+      "url": "https://commons.wikimedia.org/wiki/File:Interstate_Bridge_lift_span,_from_east.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Interstate Bridge",
+      "url": "https://commons.wikimedia.org/wiki/File:Interstate_Bridge.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/pdx-interstate-bridge.glb",
+  "source": "generators/pdx-interstate-bridge.ts"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "pdx-wells-fargo-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Wells Fargo Center from 6th & Columbia",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center_from_6th_%26_Columbia_-_Portland,_Oregon_(2014).jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Wells Fargo Center (Portland, Oregon)",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center_(Portland,_Oregon).jpg",
+      "author": "Visitor7",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "PortlandWellsFargoCenter",
+      "url": "https://commons.wikimedia.org/wiki/File:PortlandWellsFargoCenter.jpg",
+      "author": "Cacophony",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/pdx-wells-fargo-center.glb",
+  "source": "generators/pdx-wells-fargo-center.ts"
+}

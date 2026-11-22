@@ -1,0 +1,14 @@
+{
+  "id": "pdx-central-library",
+  "name": "Central Library",
+  "model": "pdx-central-library",
+  "place": "portland-or-area",
+  "lng": -122.683222,
+  "lat": 45.519163,
+  "bearing": 20.8,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/32499299"
+  ]
+}

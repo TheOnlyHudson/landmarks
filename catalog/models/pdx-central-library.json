@@ -1,0 +1,42 @@
+{
+  "id": "pdx-central-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "library",
+    "historic",
+    "georgian-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Central Library (Portland, Oregon)",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Library_(Portland,_Oregon).jpg",
+      "author": "Parhamr",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Central Library of Portland Oregon with streetcar (2016)",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Library_of_Portland_Oregon_with_streetcar_(2016).jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/pdx-central-library.glb",
+  "source": "generators/pdx-central-library.ts"
+}

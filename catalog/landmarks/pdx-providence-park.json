@@ -1,0 +1,17 @@
+{
+  "id": "pdx-providence-park",
+  "name": "Providence Park",
+  "model": "pdx-providence-park",
+  "place": "portland-or-area",
+  "lng": -122.691757,
+  "lat": 45.521597,
+  "bearing": 21,
+  "elevation": -9.6,
+  "minzoom": 15,
+  "replaces": [
+    "way/99614906",
+    "way/156259872",
+    "way/156259873"
+  ],
+  "wikidata": "Q262291"
+}

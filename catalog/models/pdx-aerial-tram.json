@@ -1,0 +1,60 @@
+{
+  "id": "pdx-aerial-tram",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "infrastructure",
+  "tags": [
+    "aerial-tram",
+    "transit",
+    "cable-car"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "PortlandAerialTram10.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:PortlandAerialTram10.jpg",
+      "author": "Cacophony",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Portland Aerial Tram - Portland, Oregon (14613518881).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Portland_Aerial_Tram_-_Portland,_Oregon_(14613518881).jpg",
+      "author": "Doug Kerr",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Portland Aerial Tram - Portland, Oregon (14616206212).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Portland_Aerial_Tram_-_Portland,_Oregon_(14616206212).jpg",
+      "author": "Doug Kerr",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Portland Aerial Tram (4173542689).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Portland_Aerial_Tram_(4173542689).jpg",
+      "author": "Paul Horner",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Portland Aerial Tram departs OHSU campus.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Portland_Aerial_Tram_departs_OHSU_campus.png",
+      "author": "Tim Adams",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/pdx-aerial-tram.glb",
+  "source": "generators/pdx-aerial-tram.ts"
+}

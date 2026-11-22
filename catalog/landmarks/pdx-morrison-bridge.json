@@ -1,0 +1,17 @@
+{
+  "id": "pdx-morrison-bridge",
+  "name": "Morrison Bridge",
+  "model": "pdx-morrison-bridge",
+  "place": "portland-or-area",
+  "lng": -122.669685,
+  "lat": 45.5178281,
+  "bearing": 112.13,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q12062049",
+  "replaces": [
+    "way/722118660",
+    "way/392702864",
+    "way/392702866"
+  ]
+}

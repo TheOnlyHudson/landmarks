@@ -1,0 +1,47 @@
+{
+  "id": "pdx-pacwest-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "PacWestCenterPortland",
+      "url": "https://commons.wikimedia.org/wiki/File:PacWestCenterPortland.jpg",
+      "author": "Cacophony",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "PacWest Center full",
+      "url": "https://commons.wikimedia.org/wiki/File:PacWest_Center_full.JPG",
+      "author": "M.O. Stevens",
+      "license": "Public domain"
+    },
+    {
+      "title": "Pacwest Center upper portion (2013)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pacwest_Center_upper_portion_with_tree_growing_on_24th_floor_terrace_(2013).jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/pdx-pacwest-center.glb",
+  "source": "generators/pdx-pacwest-center.ts"
+}
