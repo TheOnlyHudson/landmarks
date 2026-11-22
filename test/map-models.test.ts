@@ -1,5 +1,5 @@
 import { expect, test } from 'bun:test'
-import { groundGrid, isInView, modelToLngLat, replacementIds } from '../web/map-models'
+import { groundGrid, isInView, modelToLngLat, PLAN_CELL, planTriangles, replacementIds } from '../web/map-models'
 import type { Asset } from '../src/release'
 
 const asset = {
@@ -34,4 +34,12 @@ test('the ground is read on a 7 x 7 grid over the plan, east and south of the an
   // 100 m east and 100 m north of the anchor.
   expect((lng + 74) * 111_320 * Math.cos(40.7 * Math.PI / 180)).toBeCloseTo(100, 0)
   expect((lat - 40.7) * 110_950).toBeCloseTo(100, -1)
+})
+
+test('a model plan covers the inside of a long triangle, not just its corners', () => {
+  const plan = new Set<string>()
+  // A 200 m × 20 m deck as two triangles, x east, z south.
+  planTriangles(plan, [0, 0, 0, 200, 0, 0, 200, 0, 20, 0, 0, 20], [0, 1, 2, 0, 2, 3])
+  expect(plan.has(`${Math.floor(100 / PLAN_CELL)},${Math.floor(10 / PLAN_CELL)}`)).toBe(true)
+  expect(plan.has(`${Math.floor(100 / PLAN_CELL)},${Math.floor(60 / PLAN_CELL)}`)).toBe(false)
 })
