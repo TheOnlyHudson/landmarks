@@ -3,6 +3,7 @@ import { BufferAttribute, BufferGeometry, Camera, Color, DoubleSide, Matrix4, Me
 import { VectorTile } from '@mapbox/vector-tile'
 import { PbfReader } from 'pbf'
 import { recolor } from './theme'
+import { PLAN_CELL, type ModelPlan } from './map-models'
 
 /**
  * Bridges and viaducts as 3D decks, worked out in the browser from public data
@@ -356,7 +357,7 @@ function halfWidth(p: Piece) {
     path: 1.5, rail: 2.5, transit: 2.25 } as Record<string, number>)[p.cls] ?? 3
 }
 /** Day colours from the basemap's own road paint (Positron), by surface: the deck top for each class, and its sides. */
-const DAY = { major: '#ffffff', minor: '#e0e0e0', path: '#eaeaea', rail: '#dddddd', side: '#bcbcbc' }
+const DAY = { major: '#ffffff', minor: '#e0e0e0', path: '#eaeaea', rail: '#dddddd', side: '#b2b2b2' }
 type Shade = keyof typeof DAY
 const shadeOf = (p: Piece): Shade => ['motorway', 'trunk', 'primary', 'secondary', 'tertiary'].includes(p.cls) ? 'major'
   : p.cls === 'path' ? 'path' : ['rail', 'transit'].includes(p.cls) ? 'rail' : 'minor'
@@ -390,6 +391,45 @@ export function deckMesh(g: DeckGraph, heights: Map<number, number>, drawn: (p: 
     }
   }
   return { position: new Float32Array(position), shade, pieces }
+}
+
+/** How near (metres) a bridge way must run to a landmark's replaced ways, over how much of its length, to count as part of that landmark. */
+const COVER_DISTANCE = 18
+const COVER_SHARE = 0.7
+
+/**
+ * The bridge ways a shown landmark model stands in for: the ways it replaces,
+ * and any way running alongside them for most of its length (the other
+ * carriageway, a footway on the same deck), which its `replaces` may not list.
+ */
+export function coveredByModels(g: DeckGraph, replaced: Set<number>, plans: ModelPlan[] = []): Set<Piece> {
+  const covered = new Set<Piece>()
+  // Ways lying mostly where a shown model has geometry: its deck, whatever ids its catalogue entry lists.
+  const planned = plans.map(({ asset, cells }) => {
+    const at = MercatorCoordinate.fromLngLat(asset.anchor)
+    return { x: at.x * WORLD, y: at.y * WORLD, perUnit: (1 / WORLD) / at.meterInMercatorCoordinateUnits(), cells }
+  })
+  const inPlan = (n: number) => planned.some(p => {
+    const east = (g.x[n] - p.x) * p.perUnit, south = (g.y[n] - p.y) * p.perUnit
+    return p.cells.has(`${Math.floor(east / PLAN_CELL)},${Math.floor(south / PLAN_CELL)}`)
+  })
+  if (planned.length) for (const path of g.paths) if (path.nodes.filter(inPlan).length >= path.nodes.length * COVER_SHARE) covered.add(path.piece)
+  const cell = COVER_DISTANCE / g.metresPerUnit
+  const grid = new Set<string>()
+  for (const { piece, nodes } of g.paths) {
+    if (!replaced.has(piece.id) && !covered.has(piece)) continue
+    covered.add(piece)
+    for (const n of nodes) grid.add(`${Math.floor(g.x[n] / cell)},${Math.floor(g.y[n] / cell)}`)
+  }
+  if (!grid.size) return covered
+  const near = (n: number) => {
+    const cx = Math.floor(g.x[n] / cell), cy = Math.floor(g.y[n] / cell)
+    for (let i = -1; i <= 1; i++) for (let j = -1; j <= 1; j++) if (grid.has(`${cx + i},${cy + j}`)) return true
+    return false
+  }
+  for (const { piece, nodes } of g.paths)
+    if (!covered.has(piece) && nodes.filter(near).length >= nodes.length * COVER_SHARE) covered.add(piece)
+  return covered
 }
 
 /** Mapterhorn terrain decoded from its tiles, kept as 0.2 m steps in 16 bits. */
@@ -465,6 +505,7 @@ export class BridgeDecks implements CustomLayerInterface {
   private build = 0
   private night = false
   private replaced = new Set<number>()
+  private plans: ModelPlan[] = []
   private hidden: number[] = []
   private filters = new Map<string, FilterSpecification | undefined>()
   private template = ''
@@ -492,8 +533,9 @@ export class BridgeDecks implements CustomLayerInterface {
   }
 
   /** Bridge ways a shown landmark model replaces (Planetiler ids): its own deck stands in for them. */
-  setReplaced(ids: number[]) {
+  setReplaced(ids: number[], plans: ModelPlan[] = []) {
     this.replaced = new Set(ids)
+    this.plans = plans
     this.schedule()
   }
   setNight(night: boolean) {
@@ -570,11 +612,12 @@ export class BridgeDecks implements CustomLayerInterface {
     })
     this.solved = { graph, heights, ground }
     const origin: [number, number] = [graph.x.length ? graph.x.reduce((s, v) => s + v, 0) / graph.x.length : 0, graph.y.length ? graph.y.reduce((s, v) => s + v, 0) / graph.y.length : 0]
-    const drawn = (p: Piece) => !this.replaced.has(p.id)
+    const covered = coveredByModels(graph, this.replaced, this.plans)
+    const drawn = (p: Piece) => !covered.has(p)
     const mesh = deckMesh(graph, heights, drawn, origin)
     // Hide the flat line of every bridge drawn as a deck and of every bridge way a landmark stands in for.
     const decked = new Set(graph.paths.filter(({ piece, nodes }) => drawn(piece) && nodes.every(n => heights.has(n))).map(({ piece }) => piece.id))
-    const replacedHere = pieces.filter(p => this.replaced.has(p.id)).map(p => p.id)
+    const replacedHere = [...covered].map(p => p.id)
     this.originMerc = { x: origin[0] / WORLD, y: origin[1] / WORLD, unit: MercatorCoordinate.fromLngLat(c).meterInMercatorCoordinateUnits() }
     this.setMesh(mesh)
     this.hide([...decked, ...replacedHere])

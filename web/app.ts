@@ -669,7 +669,7 @@ async function init() {
       map!.addLayer(deckLayer, map!.getStyle().layers.find(layer => layer.type === 'symbol')?.id)
       modelLayer = new LandmarkModels(assetUrl, a => selectAsset(a), message => { $('map-status').textContent = message }, visible => {
         updateMapCredits(visible)
-        deckLayer?.setReplaced(visible.flatMap(replacementIds))
+        deckLayer?.setReplaced(visible.flatMap(replacementIds), modelLayer?.plans() ?? [])
       })
       map!.addLayer(modelLayer)
       modelLayer.setAssets(mapCollection(), selected!.id)

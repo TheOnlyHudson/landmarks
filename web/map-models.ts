@@ -47,7 +47,13 @@ const GROUND_GRID = 7
  * frame: its plan extent and the lowest vertex across it (see
  * `groundContacts`), leaving out the parts its animation moves.
  */
-function groundOf(scene: Object3D, animations: readonly AnimationClip[]): { footprint: Footprint; contacts: Contact[] } {
+/** Metres a side of the cells a model's plan is kept in (see `ModelPlan`). */
+export const PLAN_CELL = 4
+
+/** Where a shown model stands, as the cells of PLAN_CELL metres its geometry covers, east (x) and south (z) of its anchor. */
+export type ModelPlan = { asset: Asset; cells: Set<string> }
+
+function groundOf(scene: Object3D, animations: readonly AnimationClip[]): { footprint: Footprint; contacts: Contact[]; plan: Set<string> } {
   scene.updateMatrixWorld(true)
   const box = new Box3().setFromObject(scene)
   const footprint = { minX: box.min.x, maxX: box.max.x, minZ: box.min.z, maxZ: box.max.z }
@@ -68,12 +74,15 @@ function groundOf(scene: Object3D, animations: readonly AnimationClip[]): { foot
       primitives.push({ position, node: -1 })
     }
   })
-  return { footprint, contacts: groundContacts(primitives, footprint) }
+  const plan = new Set<string>()
+  for (const { position } of primitives)
+    for (let i = 0; i < position.length; i += 3) plan.add(`${Math.floor(position[i] / PLAN_CELL)},${Math.floor(position[i + 2] / PLAN_CELL)}`)
+  return { footprint, contacts: groundContacts(primitives, footprint), plan }
 }
 
 type Model = {
   asset: Asset; url: string; root: Group; mixer?: AnimationMixer; size: Vector3
-  footprint: Footprint; contacts: Contact[]; own?: ModelGround; base: number
+  footprint: Footprint; contacts: Contact[]; plan: Set<string>; own?: ModelGround; base: number
 }
 type Pending = { url: string; controller: AbortController }
 
@@ -300,6 +309,11 @@ export class LandmarkModels implements CustomLayerInterface {
     model.root.position.set((anchor.x - this.origin.x) / unit, anchor.z / unit, (anchor.y - this.origin.y) / unit)
     model.root.scale.setScalar(anchor.meterInMercatorCoordinateUnits() / unit)
     model.root.updateMatrixWorld(true)
+  }
+
+  /** The plans of the models shown now. */
+  plans(): ModelPlan[] {
+    return [...this.models.values()].filter(m => m.root.visible).map(m => ({ asset: m.asset, cells: m.plan }))
   }
 
   private updateBuildings() {
