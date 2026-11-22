@@ -1,4 +1,4 @@
-import { MercatorCoordinate, type CustomLayerInterface, type CustomRenderMethodInput, type FilterSpecification, type Map as LibreMap } from 'maplibre-gl'
+import { MercatorCoordinate, type CustomLayerInterface, type CustomRenderMethodInput, type DataDrivenPropertyValueSpecification, type Map as LibreMap } from 'maplibre-gl'
 import { BufferAttribute, BufferGeometry, Camera, Color, DoubleSide, Matrix4, Mesh, MeshBasicMaterial, Scene, WebGLRenderer } from 'three'
 import { VectorTile } from '@mapbox/vector-tile'
 import { PbfReader } from 'pbf'
@@ -362,7 +362,7 @@ type Shade = keyof typeof DAY
 const shadeOf = (p: Piece): Shade => ['motorway', 'trunk', 'primary', 'secondary', 'tertiary'].includes(p.cls) ? 'major'
   : p.cls === 'path' ? 'path' : ['rail', 'transit'].includes(p.cls) ? 'rail' : 'minor'
 
-/** The deck ribbons for the drawn pieces: a top at deck height, sides and an underside, in metres from `origin` (x east, y south, z up). */
+/** The deck ribbons for the drawn pieces: a top at deck height and its two sides, in metres from `origin` (x east, y south, z up). */
 export function deckMesh(g: DeckGraph, heights: Map<number, number>, drawn: (p: Piece) => boolean, origin: [number, number]) {
   const position: number[] = [], shade: Shade[] = []
   const at = (n: number): [number, number] => [(g.x[n] - origin[0]) * g.metresPerUnit, (g.y[n] - origin[1]) * g.metresPerUnit]
@@ -372,9 +372,19 @@ export function deckMesh(g: DeckGraph, heights: Map<number, number>, drawn: (p: 
     if (!drawn(piece) || nodes.some(n => !heights.has(n))) continue
     pieces++
     const w = halfWidth(piece), top = shadeOf(piece)
-    const edges = nodes.map((n, i) => {
+    // Draw only the nodes that bend the deck: in plan, or off a straight grade by more than 15 cm.
+    const kept = nodes.filter((n, i) => {
+      if (i === 0 || i === nodes.length - 1) return true
+      const a = nodes[i - 1], b = nodes[i + 1]
+      const cross = (g.x[n] - g.x[a]) * (g.y[b] - g.y[a]) - (g.y[n] - g.y[a]) * (g.x[b] - g.x[a])
+      const span = Math.hypot(g.x[b] - g.x[a], g.y[b] - g.y[a]) || 1
+      if (Math.abs(cross / span) * g.metresPerUnit > 0.3) return true
+      const t = Math.hypot(g.x[n] - g.x[a], g.y[n] - g.y[a]) / span
+      return Math.abs(heights.get(n)! - (heights.get(a)! + (heights.get(b)! - heights.get(a)!) * t)) > 0.15
+    })
+    const edges = kept.map((n, i) => {
       const [x, y] = at(n)
-      const [px, py] = at(nodes[Math.max(0, i - 1)]), [nx, ny] = at(nodes[Math.min(nodes.length - 1, i + 1)])
+      const [px, py] = at(kept[Math.max(0, i - 1)]), [nx, ny] = at(kept[Math.min(kept.length - 1, i + 1)])
       let dx = nx - px, dy = ny - py
       const len = Math.hypot(dx, dy) || 1
       dx /= len; dy /= len
@@ -387,7 +397,6 @@ export function deckMesh(g: DeckGraph, heights: Map<number, number>, drawn: (p: 
       quad(a.l, b.l, b.r, a.r, top)
       quad(a.l, b.l, down(b.l), down(a.l), 'side')
       quad(a.r, b.r, down(b.r), down(a.r), 'side')
-      quad(down(a.l), down(b.l), down(b.r), down(a.r), 'side')
     }
   }
   return { position: new Float32Array(position), shade, pieces }
@@ -506,8 +515,9 @@ export class BridgeDecks implements CustomLayerInterface {
   private night = false
   private replaced = new Set<number>()
   private plans: ModelPlan[] = []
-  private hidden: number[] = []
-  private filters = new Map<string, FilterSpecification | undefined>()
+  private hidden = new Set<number>()
+  /** The basemap's road line layers, with the opacity each had. */
+  private roads = new Map<string, unknown>()
   private template = ''
   stats = { tiles: 0, bridges: 0, pieces: 0, triangles: 0, ms: 0 }
   /** The last solve, for checking heights from the console: `map.getLayer('bridge-decks').implementation.solved`. */
@@ -519,8 +529,15 @@ export class BridgeDecks implements CustomLayerInterface {
     this.map = map
     this.renderer = new WebGLRenderer({ canvas: map.getCanvas(), context: gl })
     this.renderer.autoClear = false
-    for (const layer of map.getStyle().layers)
-      if (layer.type === 'line' && 'source-layer' in layer && layer['source-layer'] === 'transportation') this.filters.set(layer.id, layer.filter)
+    // A flat bridge line under a deck is made transparent by feature state: a repaint, where a filter
+    // would lay out the whole basemap source again each time the set changes.
+    for (const layer of map.getStyle().layers) {
+      if (layer.type !== 'line' || !('source-layer' in layer) || layer['source-layer'] !== 'transportation') continue
+      const original = layer.paint?.['line-opacity']
+      if (typeof original === 'object' && original !== null) continue // a zoom curve can't be wrapped; Positron has none
+      this.roads.set(layer.id, original)
+      map.setPaintProperty(layer.id, 'line-opacity', ['case', ['boolean', ['feature-state', 'deck'], false], 0, original ?? 1] as DataDrivenPropertyValueSpecification<number>)
+    }
     const tiles = (map.getSource('openmaptiles') as { tiles?: string[] } | undefined)?.tiles
     this.template = tiles?.[0] ?? ''
     map.on('moveend', this.schedule)
@@ -530,6 +547,7 @@ export class BridgeDecks implements CustomLayerInterface {
     this.map.off('moveend', this.schedule)
     clearTimeout(this.timer)
     this.hide([])
+    for (const [id, original] of this.roads) if (this.map.getLayer(id)) this.map.setPaintProperty(id, 'line-opacity', original as DataDrivenPropertyValueSpecification<number>)
   }
 
   /** Bridge ways a shown landmark model replaces (Planetiler ids): its own deck stands in for them. */
@@ -660,16 +678,13 @@ export class BridgeDecks implements CustomLayerInterface {
     this.map?.triggerRepaint()
   }
 
-  /** Leave the flat lines of these bridge ways undrawn, restoring the style's own filters for the rest. */
+  /** Leave the flat lines of these bridge ways undrawn (by feature state), and draw the rest again. */
   private hide(ids: number[]) {
-    ids = [...new Set(ids)].sort((a, b) => a - b)
-    if (ids.length === this.hidden.length && ids.every((v, i) => v === this.hidden[i])) return
-    this.hidden = ids
-    for (const [id, original] of this.filters) {
-      if (!this.map.getLayer(id)) continue
-      const keep: FilterSpecification = ['!', ['in', ['id'], ['literal', ids]]]
-      this.map.setFilter(id, ids.length ? (original ? ['all', original, keep] as FilterSpecification : keep) : original ?? null)
-    }
+    const next = new Set(ids)
+    const target = (id: number) => ({ source: 'openmaptiles', sourceLayer: 'transportation', id })
+    for (const id of this.hidden) if (!next.has(id)) this.map.removeFeatureState(target(id), 'deck')
+    for (const id of next) if (!this.hidden.has(id)) this.map.setFeatureState(target(id), { deck: true })
+    this.hidden = next
   }
 
   render(_gl: WebGL2RenderingContext, options: CustomRenderMethodInput) {
