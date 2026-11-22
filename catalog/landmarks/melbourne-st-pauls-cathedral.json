@@ -1,0 +1,19 @@
+{
+  "id": "melbourne-st-pauls-cathedral",
+  "name": "St Paul's Cathedral",
+  "model": "melbourne-st-pauls-cathedral",
+  "place": "melbourne",
+  "lng": 144.9676144,
+  "lat": -37.8167969,
+  "bearing": 340,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1892155",
+  "replaces": [
+    "way/13127644",
+    "way/273247587",
+    "way/273247588",
+    "way/273247589",
+    "way/326747406"
+  ]
+}

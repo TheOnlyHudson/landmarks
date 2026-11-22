@@ -1,0 +1,82 @@
+{
+  "id": "melbourne-st-pauls-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cathedral",
+    "church",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "AUS Melbourne, Central Business District, St Paul's Cathedral 001",
+      "url": "https://commons.wikimedia.org/wiki/File:AUS_Melbourne,_Central_Business_District,_St_Paul%27s_Cathedral_001.jpg",
+      "author": "-wuppertaler",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Melbourne St Paul's from Swanston S",
+      "url": "https://commons.wikimedia.org/wiki/File:Melbourne_St_Paul%27s_from_Swanston_S.jpg",
+      "author": "Orderinchaos",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "St Paul's Cathedral, Melbourne 3",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Paul%27s_Cathedral,_Melbourne_3.jpg",
+      "author": "Rob Deutscher",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "St Paul's Cathedral and Melbourne CBD from Federation Square",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Paul%27s_Cathedral_and_Melbourne_CBD_from_Federation_Square.jpg",
+      "author": "Bhullargraphic",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Melbourne (AU), View from Eureka Tower, Northbank -- 2019 -- 1461",
+      "url": "https://commons.wikimedia.org/wiki/File:Melbourne_(AU),_View_from_Eureka_Tower,_Northbank_--_2019_--_1461.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St Paul's Cathedral, Melbourne, AU",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Paul%27s_Cathedral,_Melbourne,_AU.jpg",
+      "author": "Dennis Stenbjerg",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "St Paul's Cathedral, Melbourne 2017-10-30",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Paul%27s_Cathedral,_Melbourne_2017-10-30.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St Paul's Cathedral, Melbourne, at night",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Paul%27s_Cathedral,_Melbourne,_at_night.jpg",
+      "author": "Steven Penton",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "detail": "models/melbourne-st-pauls-cathedral.detail.glb",
+  "detailZoom": 16,
+  "file": "models/melbourne-st-pauls-cathedral.glb",
+  "source": "generators/melbourne-st-pauls-cathedral.ts"
+}
