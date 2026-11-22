@@ -1,0 +1,14 @@
+{
+  "id": "nyc-music-pagoda",
+  "name": "Music Pagoda",
+  "model": "nyc-music-pagoda",
+  "place": "prospect-park",
+  "lng": -73.967135,
+  "lat": 40.662009,
+  "bearing": 76.9,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/241846600"
+  ]
+}

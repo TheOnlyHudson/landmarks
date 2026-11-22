@@ -1,0 +1,51 @@
+{
+  "id": "cin-big-mac-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "arch-bridge",
+    "tied-arch",
+    "interstate"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/cin-big-mac-bridge.detail.glb",
+  "detailZoom": 16,
+  "description": "The Daniel Carter Beard Bridge, the \"Big Mac\": twin yellow tied arches carrying I-471 over the Ohio between Cincinnati and Newport, with plate-girder approaches on concrete piers.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Daniel Carter Beard Bridge 2022a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Daniel_Carter_Beard_Bridge_2022a.jpg",
+      "author": "Antony-22",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Daniel Carter Beard Bridge 2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Daniel_Carter_Beard_Bridge_2017.jpg",
+      "author": "Antony-22",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Daniel Carter Beard Bridge - from Newport levee.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Daniel_Carter_Beard_Bridge_-_from_Newport_levee.jpg",
+      "author": "ChipMahaney",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/cin-big-mac-bridge.glb",
+  "source": "generators/cin-big-mac-bridge.ts"
+}

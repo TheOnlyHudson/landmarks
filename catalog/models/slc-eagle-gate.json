@@ -1,0 +1,49 @@
+{
+  "id": "slc-eagle-gate",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "arch",
+    "sculpture"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q5325098",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Eagle Gate, north side - Salt Lake City, Utah - 5 September 2016",
+      "url": "https://commons.wikimedia.org/wiki/File:Eagle_Gate,_north_side_-_Salt_Lake_City,_Utah_-_5_September_2016.jpg",
+      "author": "Beneathtimp",
+      "license": "CC0"
+    },
+    {
+      "title": "Eagle Gate 5251",
+      "url": "https://commons.wikimedia.org/wiki/File:Eagle_Gate_5251.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Eagle Gate",
+      "url": "https://commons.wikimedia.org/wiki/File:Eagle_Gate.jpg",
+      "author": "David Jay Fullmer",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-eagle-gate.glb",
+  "source": "generators/slc-eagle-gate.ts"
+}

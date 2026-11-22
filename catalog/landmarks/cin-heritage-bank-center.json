@@ -1,0 +1,17 @@
+{
+  "id": "cin-heritage-bank-center",
+  "name": "Heritage Bank Center",
+  "model": "cin-heritage-bank-center",
+  "place": "cincinnati-area",
+  "lng": -84.50453,
+  "lat": 39.09788,
+  "bearing": 50,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q2790698",
+  "replaces": [
+    "way/25564082",
+    "way/277515382",
+    "way/277515383"
+  ]
+}

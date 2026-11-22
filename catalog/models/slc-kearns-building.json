@@ -1,0 +1,55 @@
+{
+  "id": "slc-kearns-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "office",
+    "historic",
+    "chicago-school"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q65069559",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Kearns Building, SLC (4)",
+      "url": "https://commons.wikimedia.org/wiki/File:Kearns_Building,_SLC_(4).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kearns Building, SLC (2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Kearns_Building,_SLC_(2).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kearns Building, SLC (6)",
+      "url": "https://commons.wikimedia.org/wiki/File:Kearns_Building,_SLC_(6).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Kearns Building (2) (floor plan)",
+      "url": "https://commons.wikimedia.org/wiki/File:Kearns_Building_(2).jpg",
+      "author": "Parkinson and Bergstrom",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/slc-kearns-building.glb",
+  "source": "generators/slc-kearns-building.ts"
+}

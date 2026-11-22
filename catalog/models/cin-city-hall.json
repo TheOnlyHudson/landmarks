@@ -1,0 +1,51 @@
+{
+  "id": "cin-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "city-hall",
+    "government",
+    "romanesque-revival",
+    "clock-tower",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Samuel Hannaford's 1893 Romanesque Revival city hall: a block-long range of red granite and buff sandstone round two courtyards under steep red-tile roofs, with a tall clock tower on the corner of Plum and Eighth.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "CincinnatiCityHall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:CincinnatiCityHall.jpg",
+      "author": "Greg Hume",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "St. Peter in Chains - Cincinnati City Hall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Peter_in_Chains_-_Cincinnati_City_Hall.jpg",
+      "author": "Farragutful",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Cincinnati City Hall, Cincinnati, OH (32411548547).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_City_Hall,_Cincinnati,_OH_(32411548547).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/cin-city-hall.glb",
+  "source": "generators/cin-city-hall.ts"
+}

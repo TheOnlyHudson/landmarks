@@ -1,0 +1,16 @@
+{
+  "id": "cin-tyler-davidson-fountain",
+  "model": "cin-tyler-davidson-fountain",
+  "place": "cincinnati-area",
+  "elevation": 0,
+  "name": "Tyler Davidson Fountain",
+  "lng": -84.51246,
+  "lat": 39.10162,
+  "bearing": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/270847449",
+    "way/271753029"
+  ],
+  "wikidata": "Q524801"
+}

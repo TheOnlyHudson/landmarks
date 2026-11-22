@@ -1,0 +1,14 @@
+{
+  "id": "jax-121-financial-ballpark",
+  "name": "121 Financial Ballpark",
+  "model": "jax-121-financial-ballpark",
+  "place": "jacksonville-area",
+  "lng": -81.64285,
+  "lat": 30.32503,
+  "bearing": 15,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/326793763"
+  ]
+}

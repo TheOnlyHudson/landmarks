@@ -1,0 +1,55 @@
+{
+  "id": "pdx-multnomah-falls-lodge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "lodge",
+    "cascadian",
+    "columbia-river-highway"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Multnomah Falls Lodge (2017-05-29)",
+      "url": "https://commons.wikimedia.org/wiki/File:Multnomah_Falls_Lodge_(2017-05-29).jpg",
+      "author": "Steven Pavlov",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Multnomah Falls Lodge (Columbia Gorge)",
+      "url": "https://commons.wikimedia.org/wiki/File:Multnomah_Falls_Lodge_(Columbia_Gorge).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Multnomah Falls Lodge - Oregon",
+      "url": "https://commons.wikimedia.org/wiki/File:Multnomah_Falls_Lodge_-_Oregon.jpg",
+      "author": "Ian Poellet",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Columbia River Gorge NSA- Multnomah Falls Lodge",
+      "url": "https://commons.wikimedia.org/wiki/File:Columbia_River_Gorge_NSA-_Multnomah_Falls_Lodge.jpg",
+      "author": "Forest Service Pacific Northwest Region",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pdx-multnomah-falls-lodge.glb",
+  "source": "generators/pdx-multnomah-falls-lodge.ts"
+}

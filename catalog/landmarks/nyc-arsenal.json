@@ -1,0 +1,16 @@
+{
+  "id": "nyc-arsenal",
+  "name": "The Arsenal",
+  "model": "nyc-arsenal",
+  "place": "central-park",
+  "lng": -73.971305,
+  "lat": 40.767632,
+  "bearing": 28.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/265347583",
+    "way/265347582"
+  ],
+  "wikidata": "Q4069927"
+}

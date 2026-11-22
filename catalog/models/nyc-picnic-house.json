@@ -1,0 +1,49 @@
+{
+  "id": "nyc-picnic-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "brick",
+    "pavilion",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Prospect Pk Picnic House south jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Pk_Picnic_House_south_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Mar 2019 97",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Mar_2019_97.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Picnic House Summer",
+      "url": "https://commons.wikimedia.org/wiki/File:Picnic_House_Summer.jpg",
+      "author": "Austurstrond",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-picnic-house.glb",
+  "source": "generators/nyc-picnic-house.ts"
+}

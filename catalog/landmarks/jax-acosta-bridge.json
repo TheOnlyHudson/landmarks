@@ -1,0 +1,15 @@
+{
+  "id": "jax-acosta-bridge",
+  "name": "Acosta Bridge",
+  "model": "jax-acosta-bridge",
+  "place": "jacksonville-area",
+  "lng": -81.664165,
+  "lat": 30.321715,
+  "bearing": 330.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q4674595",
+  "replaces": [
+    "relation/9494151"
+  ]
+}

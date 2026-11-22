@@ -1,0 +1,17 @@
+{
+  "id": "indy-childrens-museum",
+  "name": "The Children's Museum of Indianapolis",
+  "model": "indy-childrens-museum",
+  "place": "indianapolis-area",
+  "lng": -86.1577714,
+  "lat": 39.8107166,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/297351032",
+    "way/704223298",
+    "way/704223299",
+    "way/704225434"
+  ]
+}

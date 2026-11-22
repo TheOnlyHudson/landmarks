@@ -1,0 +1,15 @@
+{
+  "id": "cin-big-mac-bridge",
+  "name": "Daniel Carter Beard Bridge",
+  "model": "cin-big-mac-bridge",
+  "place": "cincinnati-area",
+  "lng": -84.49395,
+  "lat": 39.10015,
+  "bearing": 123.2,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q5216770",
+  "replaces": [
+    "relation/11893726"
+  ]
+}

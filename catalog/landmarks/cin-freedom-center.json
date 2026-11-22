@@ -1,0 +1,29 @@
+{
+  "id": "cin-freedom-center",
+  "model": "cin-freedom-center",
+  "place": "cincinnati-area",
+  "elevation": 0,
+  "name": "National Underground Railroad Freedom Center",
+  "lng": -84.51125,
+  "lat": 39.09761,
+  "bearing": 349,
+  "minzoom": 15,
+  "replaces": [
+    "way/30736346",
+    "way/313373010",
+    "way/1457062092",
+    "way/1457062089",
+    "way/1457063391",
+    "way/1457064156",
+    "way/1457065370",
+    "way/1457065175",
+    "way/1457064722",
+    "way/1457064721",
+    "way/1457062091",
+    "way/1457063729",
+    "way/1457062093",
+    "way/1457062094",
+    "way/1457062090"
+  ],
+  "wikidata": "Q14691014"
+}

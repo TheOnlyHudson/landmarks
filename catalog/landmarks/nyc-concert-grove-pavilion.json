@@ -1,0 +1,14 @@
+{
+  "id": "nyc-concert-grove-pavilion",
+  "name": "Concert Grove Pavilion",
+  "model": "nyc-concert-grove-pavilion",
+  "place": "prospect-park",
+  "lng": -73.96414,
+  "lat": 40.659335,
+  "bearing": 32.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/241846601"
+  ]
+}

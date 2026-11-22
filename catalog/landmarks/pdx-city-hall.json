@@ -1,0 +1,21 @@
+{
+  "id": "pdx-city-hall",
+  "name": "Portland City Hall",
+  "model": "pdx-city-hall",
+  "place": "portland-or-area",
+  "lng": -122.679124,
+  "lat": 45.515017,
+  "bearing": 21.1,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/141453089",
+    "way/1169135161",
+    "way/1169135162",
+    "way/1169135163",
+    "way/1169135164",
+    "way/1568119408",
+    "way/1568119409",
+    "way/1169135165"
+  ]
+}

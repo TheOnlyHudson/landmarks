@@ -1,0 +1,19 @@
+{
+  "id": "pdx-hatfield-courthouse",
+  "name": "Mark O. Hatfield United States Courthouse",
+  "model": "pdx-hatfield-courthouse",
+  "place": "portland-or-area",
+  "lng": -122.6763038,
+  "lat": 45.5157952,
+  "bearing": 21,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/152299844",
+    "way/421679963",
+    "way/421679960",
+    "way/685060037",
+    "way/685060038"
+  ],
+  "wikidata": "Q6769097"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "slc-lion-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "house",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q3303369",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Lion House - Salt Lake City, Utah - 10 May 2020",
+      "url": "https://commons.wikimedia.org/wiki/File:Lion_House_-_Salt_Lake_City,_Utah_-_10_May_2020.jpg",
+      "author": "Beneathtimp",
+      "license": "CC0"
+    },
+    {
+      "title": "Lion House Brigham Young",
+      "url": "https://commons.wikimedia.org/wiki/File:Lion_House_Brigham_Young.jpg",
+      "author": "Bobjgalindo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Lion House SLC",
+      "url": "https://commons.wikimedia.org/wiki/File:Lion_House_SLC.JPG",
+      "author": "Bobjgalindo",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-lion-house.glb",
+  "source": "generators/slc-lion-house.ts"
+}

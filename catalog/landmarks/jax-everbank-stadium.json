@@ -1,0 +1,16 @@
+{
+  "id": "jax-everbank-stadium",
+  "name": "EverBank Stadium",
+  "model": "jax-everbank-stadium",
+  "place": "jacksonville-area",
+  "lng": -81.637312,
+  "lat": 30.323922,
+  "bearing": 17,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/2305417",
+    "way/27258894"
+  ],
+  "wikidata": "Q635117"
+}

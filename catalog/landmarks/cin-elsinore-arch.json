@@ -1,0 +1,20 @@
+{
+  "id": "cin-elsinore-arch",
+  "name": "Elsinore Arch",
+  "model": "cin-elsinore-arch",
+  "place": "cincinnati-area",
+  "lng": -84.499659,
+  "lat": 39.113028,
+  "bearing": 19.9,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q5367663",
+  "replaces": [
+    "way/46695911",
+    "way/1479907625",
+    "way/1479907626",
+    "way/1479907627",
+    "way/1479907628",
+    "way/1479907629"
+  ]
+}

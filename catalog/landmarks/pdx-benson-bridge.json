@@ -1,0 +1,14 @@
+{
+  "id": "pdx-benson-bridge",
+  "name": "Benson Bridge",
+  "model": "pdx-benson-bridge",
+  "place": "columbia-river-gorge",
+  "lng": -122.116192,
+  "lat": 45.576664,
+  "bearing": 53.6,
+  "elevation": 3.75,
+  "minzoom": 16,
+  "replaces": [
+    "way/1030291504"
+  ]
+}

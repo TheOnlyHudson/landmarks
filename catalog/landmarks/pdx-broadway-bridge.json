@@ -1,0 +1,17 @@
+{
+  "id": "pdx-broadway-bridge",
+  "name": "Broadway Bridge",
+  "model": "pdx-broadway-bridge",
+  "place": "portland-or-area",
+  "lng": -122.6741107,
+  "lat": 45.5318852,
+  "bearing": 52.51,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q4972421",
+  "replaces": [
+    "way/392707014",
+    "way/392707015",
+    "way/392707016"
+  ]
+}

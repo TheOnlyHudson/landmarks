@@ -1,0 +1,61 @@
+{
+  "id": "pdx-hawthorne-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "vertical-lift",
+    "truss",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q5685577",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Aerial view of Hawthorne Bridge from southwest in 2016 - Portland, Ore.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Hawthorne_Bridge_from_southwest_in_2016_-_Portland,_Ore.jpg",
+      "author": "Pdx.rollingthunder",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Barge passes under Hawthorne Bridge.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Barge_passes_under_Hawthorne_Bridge.jpg",
+      "author": "Tammy",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Hawthorne Bridge (2015) - 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hawthorne_Bridge_(2015)_-_1.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Aerial views of Portland bridges (54042794214).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_views_of_Portland_bridges_(54042794214).jpg",
+      "author": "Oregon Department of Transportation",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Bridges in Portland (54042794304).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridges_in_Portland_(54042794304).jpg",
+      "author": "Oregon Department of Transportation",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/pdx-hawthorne-bridge.glb",
+  "source": "generators/pdx-hawthorne-bridge.ts"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "cin-hamilton-county-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "courthouse",
+    "government",
+    "neoclassical",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The 1919 neoclassical county courthouse: a long limestone block with a giant Ionic colonnade on Main Street between corner pavilions, over a rusticated arcaded base and under a set-back attic.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hamilton County Courthouse in Cincinnati, western front.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hamilton_County_Courthouse_in_Cincinnati,_western_front.jpg",
+      "author": "Nyttend",
+      "license": "Public domain"
+    },
+    {
+      "title": "Hamilton County Courthouse, Cincinnati, OH.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hamilton_County_Courthouse,_Cincinnati,_OH.jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Hamilton County Courthouse, Cincinnati, OH (46630000384).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hamilton_County_Courthouse,_Cincinnati,_OH_(46630000384).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Hamilton County Courthouse, Cincinnati, OH (32411276977).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hamilton_County_Courthouse,_Cincinnati,_OH_(32411276977).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/cin-hamilton-county-courthouse.glb",
+  "source": "generators/cin-hamilton-county-courthouse.ts"
+}

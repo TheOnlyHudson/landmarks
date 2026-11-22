@@ -1,0 +1,42 @@
+{
+  "id": "indy-madam-walker-legacy-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "theatre",
+    "art-deco"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Madame Walker Theatre Center.jpg",
+      "author": "Nyttend",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Madame_Walker_Theatre_Center.jpg"
+    },
+    {
+      "title": "Indy Walker theatre.jpg",
+      "author": "Collin Anderson",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indy_Walker_theatre.jpg"
+    }
+  ],
+  "file": "models/indy-madam-walker-legacy-center.glb",
+  "source": "generators/indy-madam-walker-legacy-center.ts"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "jax-mathews-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bridge",
+    "truss-bridge",
+    "cantilever-bridge",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Mathews Bridge - Jacksonville.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mathews_Bridge_-_Jacksonville.jpg",
+      "author": "Quintin Soloviev",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Mathews Bridge from the Saint Johns River.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mathews_Bridge_from_the_Saint_Johns_River.jpg",
+      "author": "Nichos",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Matthews Bridge, Jacksonville FL Pano 690.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Matthews_Bridge,_Jacksonville_FL_Pano_690.jpg",
+      "author": "Jonathan Zander (Digon3)",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/jax-mathews-bridge.glb",
+  "source": "generators/jax-mathews-bridge.ts"
+}

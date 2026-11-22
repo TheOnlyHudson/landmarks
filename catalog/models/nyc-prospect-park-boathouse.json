@@ -1,0 +1,63 @@
+{
+  "id": "nyc-prospect-park-boathouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "beaux-arts",
+    "terracotta",
+    "boathouse",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Prospect Park boathouse (61446p)",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_boathouse_(61446p).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prospect Park Boathouse",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Boathouse.jpg",
+      "author": "Ben Franske",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Prospect Park Boathouse and Lullwater",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Boathouse_and_Lullwater.jpg",
+      "author": "Garry R. Osgood",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Aug 2019 69",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Aug_2019_69.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Prospect Park Boathouse",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Prospect_Park_Boathouse.jpg",
+      "author": "Vevisuals",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "wikidata": "Q4931524",
+  "file": "models/nyc-prospect-park-boathouse.glb",
+  "source": "generators/nyc-prospect-park-boathouse.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cin-contemporary-arts-center",
+  "model": "cin-contemporary-arts-center",
+  "place": "cincinnati-area",
+  "elevation": 0,
+  "name": "Contemporary Arts Center",
+  "lng": -84.512126,
+  "lat": 39.102843,
+  "bearing": 358.5,
+  "minzoom": 15,
+  "replaces": [
+    "way/46129997"
+  ],
+  "wikidata": "Q127608708"
+}

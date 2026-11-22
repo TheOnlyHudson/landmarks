@@ -1,0 +1,15 @@
+{
+  "id": "jax-everbank-center",
+  "name": "EverBank Center",
+  "model": "jax-everbank-center",
+  "place": "jacksonville-area",
+  "lng": -81.66237108,
+  "lat": 30.32765351,
+  "bearing": 59.75,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q5416804",
+  "replaces": [
+    "way/170066670"
+  ]
+}

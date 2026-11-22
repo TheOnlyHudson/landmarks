@@ -1,0 +1,14 @@
+{
+  "id": "nyc-swedish-cottage",
+  "name": "Swedish Cottage Marionette Theatre",
+  "model": "nyc-swedish-cottage",
+  "place": "central-park",
+  "lng": -73.970349,
+  "lat": 40.779953,
+  "bearing": 42,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/278363049"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "pdx-pacwest-center",
+  "name": "PacWest Center",
+  "model": "pdx-pacwest-center",
+  "place": "portland-or-area",
+  "lng": -122.6801335,
+  "lat": 45.5152931,
+  "bearing": 21,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/141453087",
+    "way/1291892520",
+    "way/1291892521",
+    "way/1291892523",
+    "way/1291892524",
+    "way/1291892525"
+  ]
+}

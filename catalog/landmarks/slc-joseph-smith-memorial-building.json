@@ -1,0 +1,16 @@
+{
+  "id": "slc-joseph-smith-memorial-building",
+  "name": "Joseph Smith Memorial Building",
+  "model": "slc-joseph-smith-memorial-building",
+  "place": "salt-lake-city-area",
+  "lng": -111.8905119,
+  "lat": 40.7698866,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q3185653",
+  "replaces": [
+    "way/32333198",
+    "way/398416950"
+  ]
+}

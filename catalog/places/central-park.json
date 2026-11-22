@@ -1,0 +1,7 @@
+{
+  "id": "central-park",
+  "name": "Central Park",
+  "kind": "site",
+  "parent": "new-york-area",
+  "wikidata": "Q160409"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "pdx-sellwood-bridge",
+  "name": "Sellwood Bridge",
+  "model": "pdx-sellwood-bridge",
+  "place": "portland-or-area",
+  "lng": -122.6657905,
+  "lat": 45.464249,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/432791657"
+  ],
+  "wikidata": "Q7448688"
+}

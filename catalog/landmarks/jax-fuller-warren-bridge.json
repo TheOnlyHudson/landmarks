@@ -1,0 +1,14 @@
+{
+  "id": "jax-fuller-warren-bridge",
+  "name": "Fuller Warren Bridge",
+  "model": "jax-fuller-warren-bridge",
+  "place": "jacksonville-area",
+  "lng": -81.670114,
+  "lat": 30.314987,
+  "bearing": 105.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/19627685"
+  ]
+}

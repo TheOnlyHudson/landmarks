@@ -1,0 +1,56 @@
+{
+  "id": "slc-huntsman-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "university",
+    "dome",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q6271169",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Huntsman Center",
+      "url": "https://commons.wikimedia.org/wiki/File:Huntsman_Center.jpeg",
+      "author": "Tricia Simpson",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Uofu huntsmancenter",
+      "url": "https://commons.wikimedia.org/wiki/File:Uofu_huntsmancenter.jpg",
+      "author": "Klubbit",
+      "license": "Public domain"
+    },
+    {
+      "title": "Jon M. Huntsman Center (30987753554)",
+      "url": "https://commons.wikimedia.org/wiki/File:Jon_M._Huntsman_Center_(30987753554).jpg",
+      "author": "Jeff Hitchcock",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Jon M. Huntsman Center (30987758474)",
+      "url": "https://commons.wikimedia.org/wiki/File:Jon_M._Huntsman_Center_(30987758474).jpg",
+      "author": "Jeff Hitchcock",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/slc-huntsman-center.glb",
+  "source": "generators/slc-huntsman-center.ts"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cin-old-st-marys",
+  "name": "Old St. Mary's Church",
+  "model": "cin-old-st-marys",
+  "place": "cincinnati-area",
+  "lng": -84.51236,
+  "lat": 39.109517,
+  "bearing": 348.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7085044",
+  "replaces": [
+    "way/46695107",
+    "way/1483946018",
+    "way/1483946019",
+    "way/1483946020",
+    "way/1483946021",
+    "way/1483946022",
+    "way/1483946023",
+    "way/1483946024",
+    "way/1483948541",
+    "way/1483948542",
+    "way/1483950353",
+    "way/1483950803"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "nyc-trefoil-arch",
+  "name": "Trefoil Arch",
+  "model": "nyc-trefoil-arch",
+  "place": "central-park",
+  "lng": -73.968912,
+  "lat": 40.774535,
+  "bearing": 311,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1120999154"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "pdx-white-stag-sign",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "other",
+  "tags": [
+    "neon-sign",
+    "sign",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "White Stag Sign 2025-04-05",
+      "url": "https://commons.wikimedia.org/wiki/File:White_Stag_Sign_2025-04-05.jpg",
+      "author": "Schwerdf",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Portland Oregon - White Stag sign",
+      "url": "https://commons.wikimedia.org/wiki/File:Portland_Oregon_-_White_Stag_sign.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "White Stag Block-1",
+      "url": "https://commons.wikimedia.org/wiki/File:White_Stag_Block-1.jpg",
+      "author": "Visitor7",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "White Stag sign (night)",
+      "url": "https://commons.wikimedia.org/wiki/File:White_Stag_sign_(night).jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/pdx-white-stag-sign.glb",
+  "source": "generators/pdx-white-stag-sign.ts"
+}

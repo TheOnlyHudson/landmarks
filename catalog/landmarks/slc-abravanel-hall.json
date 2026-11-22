@@ -1,0 +1,19 @@
+{
+  "id": "slc-abravanel-hall",
+  "name": "Abravanel Hall",
+  "model": "slc-abravanel-hall",
+  "place": "salt-lake-city-area",
+  "lng": -111.894907,
+  "lat": 40.768614,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/152356335",
+    "way/1526304741",
+    "way/1526304742",
+    "way/1526304743",
+    "way/1526304744",
+    "way/1526304745"
+  ]
+}

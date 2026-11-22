@@ -1,0 +1,28 @@
+{
+  "id": "jax-duval-county-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "civic",
+    "courthouse",
+    "neoclassical"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "file": "models/jax-duval-county-courthouse.glb",
+  "source": "generators/jax-duval-county-courthouse.ts"
+}

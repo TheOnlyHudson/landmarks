@@ -1,0 +1,15 @@
+{
+  "id": "slc-natural-history-museum",
+  "name": "Natural History Museum of Utah",
+  "model": "slc-natural-history-museum",
+  "place": "salt-lake-city-area",
+  "lng": -111.82271,
+  "lat": 40.76413,
+  "bearing": 334,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3915972",
+  "replaces": [
+    "way/154223785"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "pdx-pittock-mansion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "mansion",
+    "museum",
+    "french-renaissance"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Pittock Mansion from rear.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittock_Mansion_from_rear.jpg",
+      "author": "ProfReader",
+      "license": "CC0"
+    },
+    {
+      "title": "Portland, OR — Pittock Mansion.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Portland,_OR_%E2%80%94_Pittock_Mansion.jpg",
+      "author": "Steven Pavlov",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pittock Mansion, 2017 - 5.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pittock_Mansion,_2017_-_5.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/pdx-pittock-mansion.glb",
+  "source": "generators/pdx-pittock-mansion.ts"
+}

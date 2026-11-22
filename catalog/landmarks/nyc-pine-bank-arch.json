@@ -1,0 +1,12 @@
+{
+  "id": "nyc-pine-bank-arch",
+  "name": "Pine Bank Arch",
+  "model": "nyc-pine-bank-arch",
+  "place": "central-park",
+  "lng": -73.978938,
+  "lat": 40.769225,
+  "bearing": 313.3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}
