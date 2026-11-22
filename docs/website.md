@@ -44,11 +44,14 @@ horizon shows Parchment's sky, fading into the ground's colour. The hillshade
 and sky have their own Day and Night colours. Terrain is life-size, never
 exaggerated: the models are built to true heights.
 
-Roads are the basemap's flat lines draped on the terrain, so a road over a
-bridge or viaduct follows the ground under it rather than the deck. Parchment
-draws those decks in 3D from Barrelman's precomputed bridge meshes, but
-Barrelman serves them only with an API key, and this site is static and keyless
-(see [Barrelman's bridge decks](#barrelmans-bridge-decks)).
+From zoom 14, bridges and viaducts stand at deck height as 3D ribbons, worked
+out in the browser from public data only: the bridge ways in OpenFreeMap's
+vector tiles and the Mapterhorn terrain (see
+[How the bridge decks are worked out](#how-the-bridge-decks-are-worked-out)).
+The basemap's flat line for each of those bridges is left out, so it doesn't
+show on the ground or the water under the deck; road names stay on top.
+Where a landmark bridge model stands, its own deck is drawn instead. Other
+roads stay draped on the terrain.
 
 Terrain and hillshade elevation is © Mapterhorn
 ([attribution](https://mapterhorn.com/attribution)), credited in the map's
@@ -159,18 +162,41 @@ Maintainers update it with `bun run sync:sources` and rebuild the site. See
 [the README](../README.md#running-and-publishing-the-demo) for local serving and
 custom-domain setup.
 
-## Barrelman's bridge decks
+## How the bridge decks are worked out
 
-For maintainers. Parchment draws bridges and viaducts as 3D decks
-(`web/src/lib/map-decks/baked/baked-bridge-layer.ts`, a WebGL custom layer).
-Barrelman bakes each deck into a mesh at import, and serves them from
-`/tiles/bridges/index/14/{x}/{y}` (the meshes a zoom-14 tile meets),
-`/tiles/bridges/models/{sha256}.brm` (one deck's mesh) and the `bridge_decks`
-layer of its `detail` vector tiles (`?decks=1` adds each tile's deck pieces).
-`api.barrelman.dev` allows cross-origin requests from this site, but all three
-answer `401 missing_key` without a `tiles`-scoped API key, which would have to
-be published in the page. The layer also leans on Parchment's MapLibre fork
-(`setLayerMuted`, `setSymbolClip`) to hide the flat bridge lines under each
-deck. Adding the decks here needs a published, origin-restricted key or a
-keyless endpoint first.
+For maintainers; the code is `web/bridge-decks.ts`. Neither the vector tiles
+nor OSM give a bridge's height (OSM has no `ele` on most bridges), so every
+deck height is an estimate from the terrain, by one rule:
 
+1. **Bridges.** The bridge ways (`transportation` with `brunnel=bridge`) of
+   the zoom-14 tiles around the view (at most 16, nearest the centre first)
+   are clipped to their own tile and joined wherever they share a vertex,
+   within a tile or across a tile edge. Every set of joined ways is one
+   bridge, ramps and splits included. It *lands* wherever a way ends without
+   meeting another bridge way. An end cut off at the edge of the tiles read
+   is not a landing.
+2. **Landings.** Each landing takes the terrain's height there, read from
+   Mapterhorn's z14 tiles (bare-earth lidar in the US, so an approach
+   embankment is ground).
+3. **The deck.** Between its landings the deck is a weighted mean of their
+   heights, by distance along the deck: a straight grade on a bridge with two
+   landings. A gentle crest is added, 2% of the distance to the landings,
+   at most 6 m.
+4. **Clearance.** Away from its abutments the deck keeps 5.5 m over the
+   ground under it, 7 m over water (the tiles' `water` polygons), and 6 m over
+   a lower-`layer` bridge deck it crosses. Where it would not, it is lifted,
+   the lift tapering to nothing at the landings.
+
+A bridge with no landing in reach, or no terrain, isn't drawn, and keeps its
+flat line; the map says *some bridges could not be raised* if tiles fail to
+load. A deck is never drawn at a guessed height of zero.
+
+Where a landmark model is shown, the bridge ways it replaces, and any bridge
+way lying mostly inside the model's plan (the 4 m cells its geometry covers),
+are left to the model: no generated deck and no flat line.
+
+Limits: heights are estimates, typically within a few metres where a
+bridge lands on lidar ground, and worse for long spans whose real profile
+isn't a grade or a crest. Decks are ribbons of a width set by road class, not
+the real deck. Dual carriageways are drawn as their two ways. Bridges beyond
+the 16 tiles nearest the centre stay flat. Tunnels are unchanged.
