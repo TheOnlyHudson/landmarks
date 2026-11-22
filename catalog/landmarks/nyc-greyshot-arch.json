@@ -1,0 +1,14 @@
+{
+  "id": "nyc-greyshot-arch",
+  "name": "Greyshot Arch",
+  "model": "nyc-greyshot-arch",
+  "place": "central-park",
+  "lng": -73.979773,
+  "lat": 40.769206,
+  "bearing": 287.8,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/385446613"
+  ]
+}

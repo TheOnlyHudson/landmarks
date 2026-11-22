@@ -1,0 +1,12 @@
+{
+  "id": "nyc-inscope-arch",
+  "name": "Inscope Arch",
+  "model": "nyc-inscope-arch",
+  "place": "central-park",
+  "lng": -73.972935,
+  "lat": 40.766779,
+  "bearing": 66,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

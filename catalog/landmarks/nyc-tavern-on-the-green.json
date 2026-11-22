@@ -1,0 +1,16 @@
+{
+  "id": "nyc-tavern-on-the-green",
+  "name": "Tavern on the Green",
+  "model": "nyc-tavern-on-the-green",
+  "place": "central-park",
+  "lng": -73.977639,
+  "lat": 40.772199,
+  "bearing": 17.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/265347579",
+    "way/362647331"
+  ],
+  "wikidata": "Q4022491"
+}

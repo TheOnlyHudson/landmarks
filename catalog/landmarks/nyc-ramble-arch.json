@@ -1,0 +1,12 @@
+{
+  "id": "nyc-ramble-arch",
+  "name": "Ramble Arch",
+  "model": "nyc-ramble-arch",
+  "place": "central-park",
+  "lng": -73.971345,
+  "lat": 40.778381,
+  "bearing": 121,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

@@ -2,41 +2,43 @@
  * The map's 3D terrain under a model: Mapterhorn, the DEM the map draws.
  *
  *   bun tools/terrain.ts grid <lon> <lat> [half-m=60] [step-m=5] [--bearing <deg>] [--zoom <z>]
- *   bun tools/terrain.ts check <id|model.glb> [--entrances] [--scene-out review.glb] [--lng <deg> --lat <deg> --bearing <deg>] [--elevation <m>] [--map new|sink|old] [--zoom <z>]
+ *   bun tools/terrain.ts check <id|model.glb> [--entrances] [--scene-out review.glb] [--lng <deg> --lat <deg> --bearing <deg>] [--elevation <m>] [--zoom <z>]
  *
  * `grid` prints the ground in a model's own frame (x east, z south, metres,
  * turned by --bearing like a placement) as heights above the lowest point
  * in the table, so a builder can see how the site slopes before modelling
  * its base, plaza or steps.
  *
- * `check` stands a model on the terrain the way the map does (Parchment,
- * from PR #809) and reports where its visible tops end up under the ground.
+ * `check` stands a model on the terrain the way the map does (Parchment's
+ * `landmark-layer.ts` and `landmark-ground.ts`) and reports where its
+ * visible tops end up under the ground and where its base stands off it.
  * The map reads Mapterhorn (terrarium, 512 px tiles, z15, about 2 m a pixel
- * in the US, from USGS 3DEP lidar). Inside the model's footprint (its plan
- * coverage, grown by 2 m) it replaces the terrain with a smooth fill from
- * the ground just outside, never higher than the real ground, so podiums,
- * steps and rockwork that lidar counts as ground don't poke through the
- * model. It then reads that ground on a 7 x 7 grid over the plan extent,
- * puts the base on the lowest point, detects whether the model already
- * follows the DEM with landmark-ground.ts, and drapes relative to that own
- * ground. The drape fades to the mean lift over 25 m; terrain-following
- * feet also fade out the fill's depth over 6 m. The base is sunk 0.5 m
- * (within 0.05 m for flat bases, 1 m for terrain-following feet). The terrain is drawn life-size
- * (Parchment PR #913). `fill.ts` and `landmark-coverage.ts` under `tools/parchment/` are
- * copies of the map's own code. `--map old` checks against the map before
- * that PR (the whole model sunk 0.5 m, no fill), `--map sink` with only the
- * base sink.
+ * in the US, from USGS 3DEP lidar). It sets every model on the terrain as
+ * one rigid body and never bends it. It finds whether the model follows the
+ * DEM (its feet built down to the terrain, as a coaster's or a bridge's
+ * are) with landmark-ground.ts. Under a flat model it replaces the terrain
+ * inside the footprint (its plan coverage, grown by 2 m) with a smooth fill
+ * from the ground just outside, never higher than the real ground, so
+ * podiums, steps and rockwork that lidar counts as ground don't poke through
+ * the model. It puts y = 0 0.3 m under the lowest ground under the model's
+ * contacts (its lowest vertex in each cell of a plan grid), and reads the
+ * ground on a 7 x 7 grid over the plan extent. A model that follows the DEM
+ * keeps the bare ground and is moved by the one offset that puts its own
+ * ground on the map's, with no sink. Then `elevation` moves the whole model.
+ * The terrain is drawn life-size (Parchment PR #913). `fill.ts` and
+ * `landmark-coverage.ts` under `tools/parchment/` are copies of the map's own
+ * code.
  *
- * The lift is per vertex: a big flat face between far-apart vertices stays
- * a plane while the ground under it bulges. A model passes when no
- * upward-facing surface more than 0.2 m above its base (a deck, a plaza, a
- * step, a planter) is buried by more than 0.15 m. The fixes, in order:
- * split long ground-hugging faces into pieces no longer than about 5 m, so
- * the drape can bend them; build decks, podiums and steps to their real
- * heights from the evidence (the terrain is not evidence for them, since the
- * fill takes them out); and if the terrain under the site is wrong (a
- * demolished hill, a new dig), leave the model true to the photos and say
- * so in the header.
+ * A model passes when no upward-facing surface more than 0.2 m above its
+ * base (a deck, a plaza, a step, a planter) is buried by more than 0.15 m,
+ * and no point of its base (for a flat model what stands at y = 0, for one
+ * that follows the DEM its feet) stands more than 0.25 m over the ground.
+ * Nothing bends a model to fit, so the fixes are in the model: build the
+ * base, decks, podiums and steps to the ground's real heights from the
+ * evidence (`grid` shows the slope; the terrain is not evidence for what the
+ * fill takes out), run walls and feet down to the ground they stand on, and
+ * if the terrain under the site is wrong (a demolished hill, a new dig),
+ * leave the model true to the photos and say so in the header.
  *
  * Heights are cached under ~/.cache/landmarks/mapterhorn.
  */
@@ -46,10 +48,11 @@ import { join } from 'node:path'
 import sharp from 'sharp'
 import { readGlb, Part, writeGlb, type V3 } from '../generators/mesh'
 import { entranceThresholds } from './entrances'
-import { groundContacts, modelGround, groundLifts, baseSink, FILL_FADE, GROUND_STRIDE } from '../web/landmark-ground'
+import { groundContacts, groundModel, groundSink, modelGround } from '../web/landmark-ground'
 import type { Catalog } from '../src/catalog'
 // Parchment's own fill and coverage, so this mirrors the map exactly.
 import { fillAt, groundFill, type GroundFill } from './parchment/fill'
+import type { Coverage } from './parchment/landmark-coverage'
 import { planCoverage } from './parchment/landmark-coverage'
 import { readCatalog } from '../src/catalog-files'
 import type { Scene } from './render'
@@ -64,14 +67,13 @@ const CACHE = join(homedir(), '.cache', 'landmarks', 'mapterhorn')
 /** As the map draws it; see `terrain.ts` and `landmark-layer.ts` in Parchment. */
 const EXAGGERATION = 1
 const GROUND_GRID = 7
-const GROUND_SINK = 0.5
-/** Metres above its own ground a vertex still counts as base, and is sunk; see `baseSink` in Parchment. */
-const BASE_BAND = 0.05
-const GROUND_BLEND = 25
 
-/** What `check` tolerates: a visible top more than LIFTED above the base, buried more than BURIED. */
+/** What `check` tolerates: a visible top more than LIFTED above the base, buried more than BURIED; a point of the base FLOATS over the ground. */
 const LIFTED = 0.2
 const BURIED = 0.15
+const FLOATS = 0.25
+/** Metres over its own ground a contact is still base: a flat model's floor, or a terrain model's feet (CONTACT_BAND in landmark-ground.ts). */
+const BASE_BAND = 0.05, FEET_BAND = 1
 
 const tiles = new Map<string, Promise<Float32Array>>()
 const loadedTiles = new Map<string, Float32Array>()
@@ -109,8 +111,7 @@ const mercator = (lng: number, lat: number): [number, number] => {
 }
 
 /** The fill the map lays under a model, once the ground round it has loaded. */
-async function fillUnder(prims: ReturnType<typeof readGlb>, place: Place, min: number[], max: number[]): Promise<GroundFill | null> {
-  const coverage = planCoverage({ min, max, primitives: prims.map(p => ({ position: p.position, index: p.index, node: -1 })) })
+async function fillUnder(coverage: Coverage, place: Place): Promise<GroundFill | null> {
   for (let tries = 0; tries < 20; tries++) {
     const fill = groundFill(coverage, (x, z) => mercator(...toLngLat(place, x, z)), 1, heightNow)
     if (fill) return fill
@@ -216,12 +217,13 @@ async function grid() {
 }
 
 /**
- * Stand a model on the terrain the way the map does: returns `lift`, which
- * takes a vertex in the model's frame (x east, y up, z south) to its drawn
- * height, in metres above `lowest`, the lowest filled ground under the
- * model; and `ground`, the filled ground height at a point.
+ * Stand a model on the terrain the way the map does, whole: returns `lift`,
+ * which takes a vertex in the model's frame (x east, y up, z south) to its
+ * drawn height in metres above `lowest`, the lowest drawn ground under the
+ * model, and is the same `shift` for every vertex; and `ground`, the drawn
+ * ground height at a point (filled under a flat model).
  */
-export async function placeOnTerrain(prims: ReturnType<typeof readGlb>, place: Place, mapMode = 'new') {
+export async function placeOnTerrain(prims: ReturnType<typeof readGlb>, place: Place) {
   let minX = Infinity, maxX = -Infinity, minZ = Infinity, maxZ = -Infinity
   for (const { position: p } of prims)
     for (let i = 0; i < p.length; i += 3) {
@@ -231,42 +233,28 @@ export async function placeOnTerrain(prims: ReturnType<typeof readGlb>, place: P
 
   let minY = Infinity, maxY = -Infinity
   for (const { position: p } of prims) for (let i = 1; i < p.length; i += 3) minY = Math.min(minY, p[i]), maxY = Math.max(maxY, p[i])
-  const fill = mapMode === 'new' && place.elevation <= 0 ? await fillUnder(prims, place, [minX, minY, minZ], [maxX, maxY, maxZ]) : null
+  const contacts = groundContacts(prims.map(p => ({ ...p, node: -1 })), { minX, maxX, minZ, maxZ })
+  const contactGround = await Promise.all(contacts.map(([x, , z]) => height(...toLngLat(place, x, z))))
+  const own = modelGround(contacts, contactGround, 1)
+  // No fill under a raised model, nor under one built on the DEM.
+  const coverage = planCoverage({ min: [minX, minY, minZ], max: [maxX, maxY, maxZ], primitives: prims.map(p => ({ position: p.position, index: p.index, node: -1 })) })
+  const fill = place.elevation <= 0 && !own.follows ? await fillUnder(coverage, place) : null
   const ground = (lng: number, lat: number) => filledHeight(lng, lat, fill)
 
   // The map's view of the ground: a 7 x 7 grid over the plan extent, exaggerated.
   const n = GROUND_GRID - 1
   const gridAt = (i: number, j: number): [number, number] => [minX + ((maxX - minX) * i) / n, minZ + ((maxZ - minZ) * j) / n]
-  const raw: number[] = []
-  for (let j = 0; j <= n; j++) for (let i = 0; i <= n; i++) raw.push(await ground(...toLngLat(place, ...gridAt(i, j))))
-  const bare = await Promise.all(Array.from({ length: GROUND_GRID ** 2 }, (_, k) =>
-    height(...toLngLat(place, ...gridAt(k % GROUND_GRID, Math.floor(k / GROUND_GRID))))))
-  const contacts = groundContacts(prims.map(p => ({ ...p, node: -1 })), { minX, maxX, minZ, maxZ })
-  const contactGround = await Promise.all(contacts.map(([x, , z]) => height(...toLngLat(place, x, z))))
-  const own = modelGround(contacts, contactGround, 1)
-  const lifts = groundLifts(raw.map(h => h * EXAGGERATION), EXAGGERATION, own, 1, bare)
-  const lowest = lifts.lowest, mean = lifts.mean
+  const at = (k: number) => toLngLat(place, ...gridAt(k % GROUND_GRID, Math.floor(k / GROUND_GRID)))
+  const raw = await Promise.all(Array.from({ length: GROUND_GRID ** 2 }, (_, k) => ground(...at(k))))
+  const bare = await Promise.all(Array.from({ length: GROUND_GRID ** 2 }, (_, k) => height(...at(k))))
+  const sink = groundSink(own, true)
+  const under = await Promise.all(contacts.map(([x, , z]) => ground(...toLngLat(place, x, z))))
+  const grounded = groundModel(raw.map(h => h * EXAGGERATION), EXAGGERATION, own, 1, sink, bare, under)
+  const lowest = grounded.lowest
   const rise = raw.map(h => h * EXAGGERATION - lowest)
-  const gridUnder = (x: number, z: number, channel: number) => {
-    const gx = Math.min(n, Math.max(0, ((x - minX) / Math.max(maxX - minX, 1e-3)) * n))
-    const gz = Math.min(n, Math.max(0, ((z - minZ) / Math.max(maxZ - minZ, 1e-3)) * n))
-    const i = Math.min(n - 1, Math.floor(gx)), j = Math.min(n - 1, Math.floor(gz))
-    const fx = gx - i, fz = gz - j
-    const r = (a: number, b: number) => lifts.lifts[(b * GROUND_GRID + a) * GROUND_STRIDE + channel]
-    return (r(i, j) * (1 - fx) + r(i + 1, j) * fx) * (1 - fz) + (r(i, j + 1) * (1 - fx) + r(i + 1, j + 1) * fx) * fz
-  }
-  const rigid = place.elevation > 0, groundAt = Math.max(-place.elevation, 0)
-  const sink = baseSink(own, 1, true)
-  const lift = (x: number, y: number, z: number) => {
-    const rise = gridUnder(x, z, 0), built = gridUnder(x, z, 1), filled = gridUnder(x, z, 2)
-    const above = y - built - groundAt
-    const follow = rigid ? 0 : 1 - Math.min(1, Math.max(0, above / GROUND_BLEND))
-    if (mapMode === 'old') return y + mean + (rise + filled - built - mean) * follow - GROUND_SINK + place.elevation
-    const sunk = !rigid && above <= sink.band ? sink.depth : 0
-    const fillDrop = rigid ? 0 : filled * (1 - Math.min(1, Math.max(0, above / FILL_FADE)))
-    return y + mean + (rise + filled - built - mean) * follow - fillDrop - sunk + place.elevation
-  }
-  return { lift, ground, lowest, own, fill, raw, rise, n, bounds: { minX, maxX, minY, maxY, minZ, maxZ } }
+  const shift = grounded.offset - sink + place.elevation
+  const lift = (_x: number, y: number, _z: number) => y + shift
+  return { lift, shift, ground, lowest, own, contacts, contactGround, fill, raw, rise, n, bounds: { minX, maxX, minY, maxY, minZ, maxZ } }
 }
 
 /** The ground drawn around a model in a terrain scene: how far past its plan, as a share of its size, and at least this many metres. */
@@ -274,29 +262,35 @@ const SURROUND = 0.35, SURROUND_MIN = 12
 const TERRAIN_COLOUR = [0.37, 0.42, 0.31]
 
 /**
- * Put a render scene on the map's terrain, as the map draws it: every vertex
- * lifted by `placeOnTerrain` (the same drape, fill and base sink the map
+ * Put a render scene on the map's terrain, as the map draws it: the whole
+ * model moved by `placeOnTerrain` (the same grounding, fill and sink the map
  * applies, and the placement's `elevation`), and the filled Mapterhorn
  * ground around it added as a surface. Materials, floodlighting and lamps are
  * kept, so the night view still works. The scene stays in the model's own
  * frame; turn it to its bearing afterwards. Returns the model's height above
  * the lowest ground, as placed.
  */
-export async function drapeScene(scene: Scene, glb: Uint8Array, place: Place): Promise<number> {
-  // Mapterhorn's z15 covers lidar countries only (not Mexico City, not Giza):
-  // step down a zoom where a tile is missing, as the map does.
+export async function groundScene(scene: Scene, glb: Uint8Array, place: Place): Promise<number> {
+  return atCoveredZoom(() => groundAt(scene, glb, place))
+}
+
+/**
+ * Mapterhorn's z15 covers lidar countries only (not Mexico City, not Giza):
+ * run `read` a zoom lower where a tile is missing, as the map does.
+ */
+async function atCoveredZoom<T>(read: () => Promise<T>): Promise<T> {
   const start = Z
   try {
     for (let z = start; ; z--) {
       Z = z
-      try { return await drapeAt(scene, glb, place) } catch (err) {
+      try { return await read() } catch (err) {
         if (z <= 10 || !/: 404$/.test((err as Error).message)) throw err
       }
     }
   } finally { Z = start }
 }
 
-async function drapeAt(scene: Scene, glb: Uint8Array, place: Place): Promise<number> {
+async function groundAt(scene: Scene, glb: Uint8Array, place: Place): Promise<number> {
   const { lift, ground, lowest, bounds: { minX, maxX, minZ, maxZ } } = await placeOnTerrain(readGlb(glb), place)
   let top = -Infinity
   for (const pr of scene.primitives) {
@@ -349,8 +343,6 @@ export function turnScene(scene: Scene, bearing: number) {
 
 async function check() {
   const lngO = option('--lng'), latO = option('--lat'), bearingO = option('--bearing'), elevationO = option('--elevation')
-  // old: the map before this change (whole model sunk); sink: base-only sink; new: base-only sink and the terrain filled.
-  const mapMode = option('--map') ?? 'new'
   const entrances = args.includes('--entrances')
   const sceneOut = option('--scene-out')
   const what = args[1]
@@ -374,11 +366,17 @@ async function check() {
   }
 
   const prims = readGlb(new Uint8Array(readFileSync(file)))
-  const { lift, ground, lowest, own, fill, raw, rise, n, bounds: { minX, maxX, minZ, maxZ } } = await placeOnTerrain(prims, place, mapMode)
-  if (mapMode === 'new' && place.elevation <= 0 && !fill) console.log('warning: no fill (ground did not load)')
-  console.log(`model ground: ${JSON.stringify(own)}; minimum ${lowest}`)
+  // Every read below is at the zoom the placement found tiles at.
+  const asked = Z
+  let placedAt = Z
+  const placed = await atCoveredZoom(async () => { const p = await placeOnTerrain(prims, place); placedAt = Z; return p })
+  Z = placedAt
+  if (Z !== asked) console.log(`Mapterhorn z${Z}: no z${asked} tiles here`)
+  const { lift, shift, ground, lowest, own, contacts, contactGround, fill, raw, rise, n, bounds: { minX, maxX, minZ, maxZ } } = placed
+  if (place.elevation <= 0 && !own.follows && !fill) console.log('warning: no fill (ground did not load)')
+  console.log(`model ground: ${JSON.stringify(own)}; minimum ${lowest}; whole model moved ${f2(shift)} m`)
 
-  // Optional review scene: the actual draped geometry with filled Mapterhorn.
+  // Optional review scene: the placed geometry with filled Mapterhorn.
   if (sceneOut) {
     const parts = prims.map(({ position: p, index, material }) => {
       const part = new Part()
@@ -429,8 +427,9 @@ async function check() {
       const nx = e1[1] * e2[2] - e1[2] * e2[1], ny = e1[2] * e2[0] - e1[0] * e2[2], nz = e1[0] * e2[1] - e1[1] * e2[0]
       const area = Math.hypot(nx, ny, nz) / 2
       if (area < 1e-4 || ny / (2 * area) < 0.7) continue
-      if (Math.max(v[0][1], v[1][1], v[2][1]) > GROUND_BLEND) continue
       const lifted = v.map(([x, y, z]) => lift(x, y, z))
+      // Nothing higher than the highest ground under the plan can be buried.
+      if (Math.min(...lifted) > Math.max(...rise) + 1) continue
       const k = Math.max(1, Math.ceil(Math.sqrt(area)))
       const share = area / ((k * (k + 1)) / 2)
       for (let a = 0; a < k; a++)
@@ -453,32 +452,47 @@ async function check() {
     }
   })
 
+  // The base: a flat model's floor at y = 0, or a terrain model's feet on its own ground.
+  const base = contacts.flatMap(([x, y, z], i) => {
+    const over = own.follows ? y - (contactGround[i] + own.offset) : y
+    return over <= (own.follows ? FEET_BAND : BASE_BAND) ? [{ x, y, z }] : []
+  })
+  const gaps = await Promise.all(base.map(async (b) => ({ ...b, gap: lowest + lift(b.x, b.y, b.z) - await ground(...toLngLat(place, b.x, b.z)) * EXAGGERATION })))
+  const floating = place.elevation > 0 ? [] : gaps.filter((g) => g.gap > FLOATS).sort((a, b) => b.gap - a.gap)
+
   const relief = Math.max(...raw) - Math.min(...raw)
-  console.log(`${what} at ${place.lng}, ${place.lat}, bearing ${place.bearing}, elevation ${place.elevation}, map ${mapMode}${fill ? ', filled' : ''}`)
+  console.log(`${what} at ${place.lng}, ${place.lat}, bearing ${place.bearing}, elevation ${place.elevation}${fill ? ', filled' : ''}`)
   console.log(`plan x ${f1(minX)}..${f1(maxX)}  z ${f1(minZ)}..${f1(maxZ)}; Mapterhorn relief over the 7x7 grid ${f2(relief)} m`)
   console.log('grid rise above the lowest point, drawn metres (rows minZ..maxZ, columns minX..maxX):')
   for (let j = 0; j <= n; j++) console.log('  ' + rise.slice(j * GROUND_GRID, (j + 1) * GROUND_GRID).map((r) => f1(r).padStart(5)).join(''))
-  if (!hits.length) {
-    console.log(`ok: no visible top above y ${LIFTED} m is buried more than ${BURIED} m (${f1(topArea)} m² checked)`)
-    return
+  if (!hits.length) console.log(`ok: no visible top above y ${LIFTED} m is buried more than ${BURIED} m (${f1(topArea)} m² checked)`)
+  else {
+    console.log(`BURIED: ${f1(buriedArea)} of ${f1(topArea)} m² of visible tops sit under the drawn terrain; deepest ${f2(Math.max(...hits.map((h) => h.depth)))} m`)
+    // Worst spot per 5 m cell, deepest first.
+    const cells = new Map<string, Hit>()
+    for (const h of hits) {
+      const key = `${Math.floor(h.x / 5)},${Math.floor(h.z / 5)}`
+      if (!cells.has(key) || cells.get(key)!.depth < h.depth) cells.set(key, h)
+    }
+    const worst = [...cells.values()].sort((a, b) => b.depth - a.depth)
+    for (const h of worst.slice(0, 12))
+      console.log(`  x ${f1(h.x).padStart(6)}  z ${f1(h.z).padStart(6)}  top y ${f2(h.y)}  buried ${f2(h.depth)} m  (${h.material})`)
+    if (worst.length > 12) console.log(`  ... and ${worst.length - 12} more 5 m cells`)
+    process.exitCode = 1
   }
-  console.log(`BURIED: ${f1(buriedArea)} of ${f1(topArea)} m² of visible tops sit under the drawn terrain; deepest ${f2(Math.max(...hits.map((h) => h.depth)))} m`)
-  // Worst spot per 5 m cell, deepest first.
-  const cells = new Map<string, Hit>()
-  for (const h of hits) {
-    const key = `${Math.floor(h.x / 5)},${Math.floor(h.z / 5)}`
-    if (!cells.has(key) || cells.get(key)!.depth < h.depth) cells.set(key, h)
+  if (!floating.length) console.log(`ok: no point of the base stands more than ${FLOATS} m over the drawn terrain (${gaps.length} checked)`)
+  else {
+    console.log(`FLOATS: ${floating.length} of ${gaps.length} base points stand over the drawn terrain; highest ${f2(floating[0].gap)} m`)
+    for (const g of floating.slice(0, 12))
+      console.log(`  x ${f1(g.x).padStart(6)}  z ${f1(g.z).padStart(6)}  base y ${f2(g.y)}  over the ground by ${f2(g.gap)} m`)
+    if (floating.length > 12) console.log(`  ... and ${floating.length - 12} more`)
+    process.exitCode = 1
   }
-  const worst = [...cells.values()].sort((a, b) => b.depth - a.depth)
-  for (const h of worst.slice(0, 12))
-    console.log(`  x ${f1(h.x).padStart(6)}  z ${f1(h.z).padStart(6)}  top y ${f2(h.y)}  buried ${f2(h.depth)} m  (${h.material})`)
-  if (worst.length > 12) console.log(`  ... and ${worst.length - 12} more 5 m cells`)
-  process.exitCode = 1
 }
 
 function usage(): never {
   console.error('usage: bun tools/terrain.ts grid <lon> <lat> [half-m] [step-m] [--bearing <deg>]')
-  console.error('       bun tools/terrain.ts check <id|model.glb> [--lng <deg> --lat <deg> --bearing <deg>] [--elevation <m>] [--map new|sink|old]')
+  console.error('       bun tools/terrain.ts check <id|model.glb> [--entrances] [--scene-out review.glb] [--lng <deg> --lat <deg> --bearing <deg>] [--elevation <m>] [--zoom <z>]')
   process.exit(1)
 }
 

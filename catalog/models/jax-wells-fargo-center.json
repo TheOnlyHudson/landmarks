@@ -1,0 +1,48 @@
+{
+  "id": "jax-wells-fargo-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Wells Fargo Center, Jacksonville, FL, US.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center,_Jacksonville,_FL,_US.jpg",
+      "author": "Jud McCranie",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Wells Fargo tower from Forsyth, Ocean Sts.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_tower_from_Forsyth,_Ocean_Sts.JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Wells Fargo Center JAX.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center_JAX.JPG",
+      "author": "Jeff Cragar",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/jax-wells-fargo-center.glb",
+  "source": "generators/jax-wells-fargo-center.ts"
+}

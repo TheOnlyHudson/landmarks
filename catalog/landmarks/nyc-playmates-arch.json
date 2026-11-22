@@ -1,0 +1,12 @@
+{
+  "id": "nyc-playmates-arch",
+  "name": "Playmates Arch",
+  "model": "nyc-playmates-arch",
+  "place": "central-park",
+  "lng": -73.974813,
+  "lat": 40.769562,
+  "bearing": 312,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

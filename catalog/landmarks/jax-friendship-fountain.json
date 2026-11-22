@@ -1,0 +1,13 @@
+{
+  "id": "jax-friendship-fountain",
+  "name": "Friendship Fountain",
+  "model": "jax-friendship-fountain",
+  "place": "jacksonville-area",
+  "lng": -81.659809,
+  "lat": 30.320012,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q5504395",
+  "replaces": []
+}

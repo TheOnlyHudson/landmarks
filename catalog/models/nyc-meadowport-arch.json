@@ -1,0 +1,55 @@
+{
+  "id": "nyc-meadowport-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "olmsted-vaux",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Meadowpoint arch",
+      "url": "https://commons.wikimedia.org/wiki/File:Meadowpoint_arch.jpg",
+      "author": "Dogears",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Meadowport Arch, from Robert N. Dennis collection of stereoscopic views",
+      "url": "https://commons.wikimedia.org/wiki/File:Meadowport_Arch,_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg",
+      "author": "Unknown (NYPL)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Meadow Port Arches, from Robert N. Dennis collection of stereoscopic views",
+      "url": "https://commons.wikimedia.org/wiki/File:Meadow_Port_Arches,_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg",
+      "author": "Unknown (NYPL)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Walkway - Prospect Park, Brooklyn New York City",
+      "url": "https://commons.wikimedia.org/wiki/File:Walkway_-_Prospect_Park,_Brooklyn_New_York_City.JPG",
+      "author": "Intrepidor, MACC interests, Ltd.",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/nyc-meadowport-arch.glb",
+  "source": "generators/nyc-meadowport-arch.ts"
+}

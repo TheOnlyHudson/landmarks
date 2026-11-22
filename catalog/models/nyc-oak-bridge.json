@@ -1,0 +1,50 @@
+{
+  "id": "nyc-oak-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "footbridge",
+    "cast-iron",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Bank Rock Bridge in Central Park 05",
+      "url": "https://commons.wikimedia.org/wiki/File:Bank_Rock_Bridge_in_Central_Park_05.jpg",
+      "author": "Jay Dobkin",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Bank Rock Bridge in Central Park 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Bank_Rock_Bridge_in_Central_Park_03.jpg",
+      "author": "Jay Dobkin",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Oak Bridge through trees, Central Park",
+      "url": "https://commons.wikimedia.org/wiki/File:Oak_Bridge_through_trees,_Central_Park.jpg",
+      "author": "TheCatalyst31",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-oak-bridge.glb",
+  "source": "generators/nyc-oak-bridge.ts"
+}

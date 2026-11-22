@@ -1,0 +1,55 @@
+{
+  "id": "nyc-cp-blockhouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "historic",
+    "fort",
+    "war-of-1812",
+    "central-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "HABS NY-443, Blockhouse 1, sheet 1 of 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Block_Houses_(Nos._1_and_2),_Central_(110th_Street)_and_Morningside_Parks_(123rd_Street),_New_York,_New_York_County,_NY_HABS_NY,31-NEYO,33-_(sheet_1_of_2).png",
+      "author": "Frank D. Jones, Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "New York City Blockhouse full view",
+      "url": "https://commons.wikimedia.org/wiki/File:New_York_City_Blockhouse_full_view.JPG",
+      "author": "Sylius",
+      "license": "Public domain"
+    },
+    {
+      "title": "Blockhouse New York entrance",
+      "url": "https://commons.wikimedia.org/wiki/File:Blockhouse_New_York_entrance.JPG",
+      "author": "Гатерас",
+      "license": "Public domain"
+    },
+    {
+      "title": "New York City Blockhouse & surrounding terrain",
+      "url": "https://commons.wikimedia.org/wiki/File:New_York_City_Blockhouse_%26_surrounding_terrain.JPG",
+      "author": "Sylius",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nyc-cp-blockhouse.glb",
+  "source": "generators/nyc-cp-blockhouse.ts"
+}

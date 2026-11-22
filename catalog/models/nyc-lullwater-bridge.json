@@ -1,0 +1,49 @@
+{
+  "id": "nyc-lullwater-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "cast-iron",
+    "footbridge",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Lullwater Bridge in Prospect Park from Lullwater",
+      "url": "https://commons.wikimedia.org/wiki/File:Lullwater_Bridge_in_Prospect_Park_from_Lullwater.jpg",
+      "author": "Dave Smith",
+      "license": "CC BY-SA"
+    },
+    {
+      "title": "Prospect Park Brooklyn Aug 2019 72",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Aug_2019_72.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Aug 2019 73",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Aug_2019_73.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-lullwater-bridge.glb",
+  "source": "generators/nyc-lullwater-bridge.ts"
+}

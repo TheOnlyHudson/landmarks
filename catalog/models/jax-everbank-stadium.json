@@ -1,0 +1,48 @@
+{
+  "id": "jax-everbank-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "american-football",
+    "nfl"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "EverBank Stadium aerial view",
+      "author": "Quintin Soloviev",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:EverBank_Stadium_aerial_view.jpg"
+    },
+    {
+      "title": "Everbank Stadium 2024",
+      "author": "Excel23",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Everbank_Stadium_2024.jpg"
+    },
+    {
+      "title": "Everbank Field, Gate 1",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Everbank_Field,_Gate_1.JPG"
+    }
+  ],
+  "file": "models/jax-everbank-stadium.glb",
+  "source": "generators/jax-everbank-stadium.ts"
+}

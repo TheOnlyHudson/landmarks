@@ -1,0 +1,48 @@
+{
+  "id": "jax-main-street-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bridge",
+    "lift-bridge",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "John T. Alsop Jr. Bridge, Jacksonville FL, Southwest view 20160706 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:John_T._Alsop_Jr._Bridge,_Jacksonville_FL,_Southwest_view_20160706_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Main Street Bridge, Jacksonville, FL, US.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_Street_Bridge,_Jacksonville,_FL,_US.jpg",
+      "author": "Bubba73 (Jud McCranie)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Main St Bridge, Jacksonville FL Pano.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_St_Bridge,_Jacksonville_FL_Pano.jpg",
+      "author": "Jonathan Zander (Digon3)",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/jax-main-street-bridge.glb",
+  "source": "generators/jax-main-street-bridge.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "jax-mathews-bridge",
+  "name": "Mathews Bridge",
+  "model": "jax-mathews-bridge",
+  "place": "jacksonville-area",
+  "lng": -81.622504,
+  "lat": 30.32722,
+  "bearing": 89.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/917868014"
+  ],
+  "wikidata": "Q6787059"
+}

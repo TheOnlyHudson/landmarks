@@ -1,0 +1,12 @@
+{
+  "id": "nyc-dipway-arch",
+  "name": "Dipway Arch",
+  "model": "nyc-dipway-arch",
+  "place": "central-park",
+  "lng": -73.978125,
+  "lat": 40.767458,
+  "bearing": 29,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

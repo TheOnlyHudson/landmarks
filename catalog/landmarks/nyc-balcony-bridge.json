@@ -1,0 +1,14 @@
+{
+  "id": "nyc-balcony-bridge",
+  "name": "Balcony Bridge",
+  "model": "nyc-balcony-bridge",
+  "place": "central-park",
+  "lng": -73.972449,
+  "lat": 40.778646,
+  "bearing": 141.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/689009141"
+  ]
+}

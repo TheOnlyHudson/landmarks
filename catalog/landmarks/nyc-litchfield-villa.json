@@ -1,0 +1,15 @@
+{
+  "id": "nyc-litchfield-villa",
+  "name": "Litchfield Villa",
+  "model": "nyc-litchfield-villa",
+  "place": "prospect-park",
+  "lng": -73.973706,
+  "lat": 40.666899,
+  "bearing": 33.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/241846599"
+  ],
+  "wikidata": "Q6647480"
+}
