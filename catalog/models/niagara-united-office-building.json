@@ -1,0 +1,44 @@
+{
+  "id": "niagara-united-office-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "art-deco",
+    "skyscraper",
+    "hotel",
+    "nrhp"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "The Giacomo, aka United Office Building, Niagara Falls, New York.jpg",
+      "author": "Kenneth C. Zirkel",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Giacomo,_aka_United_Office_Building,_Niagara_Falls,_New_York.jpg"
+    },
+    {
+      "title": "United Office Building Jun 09.JPG",
+      "author": "Pubdog",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:United_Office_Building_Jun_09.JPG"
+    }
+  ],
+  "file": "models/niagara-united-office-building.glb",
+  "source": "generators/niagara-united-office-building.ts"
+}

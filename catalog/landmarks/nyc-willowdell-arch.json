@@ -1,0 +1,12 @@
+{
+  "id": "nyc-willowdell-arch",
+  "name": "Willowdell Arch",
+  "model": "nyc-willowdell-arch",
+  "place": "central-park",
+  "lng": -73.971288,
+  "lat": 40.770139,
+  "bearing": 300,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

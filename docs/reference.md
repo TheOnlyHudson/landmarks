@@ -196,10 +196,11 @@ review checklists; no approval is inferred from a passing geometry check.
 
 ### Elevation
 
-The map stands every model on its terrain: it puts y = 0 on the lowest
-ground under the footprint. `elevation` moves the model up or down from
-there, for ground the terrain doesn't show. Leave it at 0 unless one of
-these applies:
+The map stands every model on its terrain as one rigid body: it puts y = 0
+on the lowest ground under the footprint and moves the whole model by one
+offset, never bending it to the ground. `elevation` moves the model up or
+down from there, for ground the terrain doesn't show. Leave it at 0 unless
+one of these applies:
 
 - **Something under the model that OSM doesn't map**, so the map draws no
   building for it to stand on: a plinth, a fort, a pier, a deck. Liberty
@@ -208,17 +209,24 @@ these applies:
 - **A base below the street.** A stadium whose field is dug below the
   street around it keeps y = 0 at the field, and `elevation` is minus the
   depth: how far the field is below the street outside. Nationals Park's
-  field is about 7 m below the street, so it would take `elevation: -7`. The map
-  then sets the street-level parts of the model on the street, with terrain
-  on or off, and hides whatever ends up below the ground.
+  field is about 7 m below the street, so it would take `elevation: -7`. The
+  street-level parts of the model then stand at street level, with terrain
+  on or off, and the map hides whatever ends up below the ground.
 
 Measure the depth from a section drawing, a published field level or
 street-level imagery, not from the map's terrain. The terrain is often too
 coarse, or older than the dig: it shows SoFi Stadium's field 1.9 m below the
 street, where the real field is about 30 m down.
 
-A positive value lifts the whole model rigidly. Its base no longer follows
-the terrain, so don't use it to make up for a slope; the map handles slopes.
+Every value, 0 included, moves the whole model and nothing else, so don't
+use it to make up for a slope or to make a model rigid; every model already
+is. A positive value also keeps the map from filling the ground under the
+model (see [`evidence.md`](evidence.md#the-maps-terrain)).
+
+Because nothing bends a model to fit, it must be built for the ground it
+stands on. On a slope the uphill side of the base runs into the hill; read
+the ground with `bun tools/terrain.ts grid` and build terraces, steps,
+abutments and the ends of a bridge to the ground's real height there.
 
 ### The frame contract
 
@@ -231,6 +239,7 @@ bearing and a scale alone:
   The model stands on y = 0. With terrain on, the map samples the ground
   across the footprint and puts y = 0 at the lowest point, so on a slope the
   uphill side sinks into the hill rather than the downhill side floating.
+  The map moves the model as a whole and never bends it to the terrain.
 - **There is no transform on the root node.** Moving parts are child nodes
   (see Animation in `STYLE.md`).
 
@@ -295,11 +304,13 @@ markings, and the approach viaducts and ramps outside the bridge's
   than build the model to the wrong one: see
   [`bridge-heights.md`](bridge-heights.md).
 - **Feet on the terrain.** Towers in the water stand at y = 0. Anything
-  standing on land, such as an anchorage, runs down to the ground under it
-  vertex by vertex, at the DEM's height above its own water reading. A map
-  that finds a model's ground from its lowest vertices then drapes the
-  bridge over its terrain instead of setting it rigidly on the mean ground
-  of a kilometre-long footprint.
+  standing on land, such as an anchorage, a pier or an abutment, runs down
+  to the ground under it vertex by vertex, at the DEM's height above its
+  own water reading. The map finds a model's ground from its lowest
+  vertices, and moves the whole bridge by the one offset that sets that
+  ground on its terrain. It never bends the bridge, so a small span over a
+  dip has to be built over that dip: its ends at the ground's height at each
+  landing, its deck as high as the real one.
 
 A masonry approach outside the outline, which OSM maps as
 `bridge:support=abutment` buildings between the street crossings, can be a
@@ -363,8 +374,9 @@ park, usually 20 to 50 models.
   three-quarter view turned to the landmark's real bearing, by day and at
   night side by side, titled with its name, id, triangles, size, height and
   the side it is seen from. `--terrain` stands each model on the map's
-  Mapterhorn terrain at its real height (drape, fill, base sink and
-  `elevation`), with the ground around it drawn; always pass it.
+  Mapterhorn terrain at its real height, placed whole as the map places it
+  (fill, base sink and `elevation`), with the ground around it drawn;
+  always pass it.
 
 Where several models share one site (a dam, its spillways and its bridge),
 add a combined view too, every model on one patch of terrain:
@@ -426,7 +438,7 @@ Open Landmarks-compatible `authors` and `artisticLicense` fields remain present.
 Elevation is not baked. A map finds a model's ground from its lowest
 vertices and sets them on the terrain, so a lift baked into the geometry
 gets pulled back down. Sent as a field, it is applied after the model has
-been grounded. A reader that doesn't know the field draws the model at
+been grounded, to the whole model. A reader that doesn't know the field draws the model at
 ground level.
 
 `buildRelease` reads no clock or Git state: the same catalog, model and source

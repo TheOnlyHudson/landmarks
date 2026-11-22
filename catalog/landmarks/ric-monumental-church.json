@@ -1,0 +1,15 @@
+{
+  "id": "ric-monumental-church",
+  "name": "Monumental Church",
+  "model": "ric-monumental-church",
+  "place": "richmond-area",
+  "lng": -77.4297938,
+  "lat": 37.5388754,
+  "bearing": 36.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/224530979"
+  ],
+  "wikidata": "Q6906925"
+}

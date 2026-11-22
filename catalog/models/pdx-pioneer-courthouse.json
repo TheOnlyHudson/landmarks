@@ -1,0 +1,48 @@
+{
+  "id": "pdx-pioneer-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "courthouse",
+    "historic",
+    "italianate"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Pioneer Courthouse Portland",
+      "url": "https://commons.wikimedia.org/wiki/File:Pioneer_Courthouse_Portland.JPG",
+      "author": "M.O. Stevens",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Pioneer Courthouse, Portland, Oregon 2012",
+      "url": "https://commons.wikimedia.org/wiki/File:Pioneer_Courthouse,_Portland,_Oregon_2012.JPG",
+      "author": "Another Believer",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Pioneer Courthouse (February 2026)",
+      "url": "https://commons.wikimedia.org/wiki/File:Pioneer_Courthouse_(February_2026).jpg",
+      "author": "Busition",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/pdx-pioneer-courthouse.glb",
+  "source": "generators/pdx-pioneer-courthouse.ts"
+}

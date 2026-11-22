@@ -1,0 +1,49 @@
+{
+  "id": "niagara-michigan-central-railway-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "arch-bridge",
+    "railway-bridge",
+    "disused"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Michigan Central Railway Bridge 2023a.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Michigan_Central_Railway_Bridge_2023a.jpg"
+    },
+    {
+      "title": "Michigan Central Railway Bridge Niagara Falls 1.jpg",
+      "author": "Balcer",
+      "license": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Michigan_Central_Railway_Bridge_Niagara_Falls_1.jpg"
+    },
+    {
+      "title": "Whirlpool Rapids Bridge and Michigan Central Railway Bridge 2023.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Whirlpool_Rapids_Bridge_and_Michigan_Central_Railway_Bridge_2023.jpg"
+    }
+  ],
+  "file": "models/niagara-michigan-central-railway-bridge.glb",
+  "source": "generators/niagara-michigan-central-railway-bridge.ts"
+}

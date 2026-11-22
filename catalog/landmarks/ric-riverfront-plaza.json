@@ -1,0 +1,15 @@
+{
+  "id": "ric-riverfront-plaza",
+  "name": "Riverfront Plaza",
+  "model": "ric-riverfront-plaza",
+  "place": "richmond-area",
+  "lng": -77.438922,
+  "lat": 37.534791,
+  "bearing": 37,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/225274657",
+    "way/266759715"
+  ]
+}

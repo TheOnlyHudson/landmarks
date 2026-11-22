@@ -1,0 +1,14 @@
+{
+  "id": "nyc-cleft-ridge-span",
+  "name": "Cleft Ridge Span",
+  "model": "nyc-cleft-ridge-span",
+  "place": "prospect-park",
+  "lng": -73.964904,
+  "lat": 40.659945,
+  "bearing": 123.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1481639637"
+  ]
+}

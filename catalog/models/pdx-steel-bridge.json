@@ -1,0 +1,50 @@
+{
+  "id": "pdx-steel-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "vertical-lift",
+    "truss",
+    "railway",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q12070013",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Double lift bridge across Willamette River in Portland,Oregon - panoramio (1).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Double_lift_bridge_across_Willamette_River_in_Portland,Oregon_-_panoramio_(1).jpg",
+      "author": "Loco Steve",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "General view from northwest - Steel Bridge, Spanning Willamette River at State Route 99, Portland, Multnomah County, OR HAER ORE,26-PORT,14-1.tif",
+      "url": "https://commons.wikimedia.org/wiki/File:General_view_from_northwest_-_Steel_Bridge,_Spanning_Willamette_River_at_State_Route_99,_Portland,_Multnomah_County,_OR_HAER_ORE,26-PORT,14-1.tif",
+      "author": "Historic American Engineering Record (Library of Congress)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Aerial views of Portland bridges (54042794214).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_views_of_Portland_bridges_(54042794214).jpg",
+      "author": "Oregon Department of Transportation",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/pdx-steel-bridge.glb",
+  "source": "generators/pdx-steel-bridge.ts"
+}

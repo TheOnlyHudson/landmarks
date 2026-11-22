@@ -1,0 +1,48 @@
+{
+  "id": "niagara-iron-scow",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "other",
+  "tags": [
+    "historic",
+    "ship",
+    "shipwreck"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Niagara Falls Scow 2019 Aerial Photos-11 (cropped).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Niagara_Falls_Scow_2019_Aerial_Photos-11_(cropped).jpg",
+      "author": "Wikimaker2018",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Niagara Scow 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Niagara_Scow_2013.jpg",
+      "author": "Don-vip",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Old scow wrecked in 1918 just above Niagara Falls.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_scow_wrecked_in_1918_just_above_Niagara_Falls.jpg",
+      "author": "Diego Torres Silvestre",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/niagara-iron-scow.glb",
+  "source": "generators/niagara-iron-scow.ts"
+}

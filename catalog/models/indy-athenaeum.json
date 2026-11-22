@@ -1,0 +1,48 @@
+{
+  "id": "indy-athenaeum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "german-renaissance-revival",
+    "cultural-center"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Athenæum, Das Deutsche Haus, front.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Athen%C3%A6um,_Das_Deutsche_Haus,_front.jpg",
+      "author": "Nyttend",
+      "license": "Public domain"
+    },
+    {
+      "title": "Athenæum, Das Deutsche Haus, rear.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Athen%C3%A6um,_Das_Deutsche_Haus,_rear.jpg",
+      "author": "Nyttend",
+      "license": "Public domain"
+    },
+    {
+      "title": "Athenæum (Das Deutsche Haus).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Athen%C3%A6um_(Das_Deutsche_Haus).jpg",
+      "author": "LeeHarveyKennedy",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/indy-athenaeum.glb",
+  "source": "generators/indy-athenaeum.ts"
+}

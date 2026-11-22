@@ -1,0 +1,14 @@
+{
+  "id": "jax-st-james-building",
+  "name": "St. James Building",
+  "model": "jax-st-james-building",
+  "place": "jacksonville-area",
+  "lng": -81.6590559,
+  "lat": 30.3300646,
+  "bearing": 14,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/326826326"
+  ]
+}

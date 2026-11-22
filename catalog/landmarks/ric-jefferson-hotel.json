@@ -1,0 +1,21 @@
+{
+  "id": "ric-jefferson-hotel",
+  "name": "The Jefferson Hotel",
+  "model": "ric-jefferson-hotel",
+  "place": "richmond-area",
+  "wikidata": "Q6175505",
+  "lng": -77.445436,
+  "lat": 37.544276,
+  "bearing": 37,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/15964877",
+    "way/264518640",
+    "way/264518641",
+    "way/264518638",
+    "way/326331520",
+    "way/326331523",
+    "way/326331534"
+  ]
+}

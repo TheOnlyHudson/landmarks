@@ -1,0 +1,14 @@
+{
+  "id": "nyc-picnic-house",
+  "name": "Picnic House",
+  "model": "nyc-picnic-house",
+  "place": "prospect-park",
+  "lng": -73.971572,
+  "lat": 40.66556,
+  "bearing": 24.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/241846602"
+  ]
+}

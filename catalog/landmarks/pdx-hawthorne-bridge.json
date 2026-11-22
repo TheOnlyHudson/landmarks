@@ -1,0 +1,15 @@
+{
+  "id": "pdx-hawthorne-bridge",
+  "name": "Hawthorne Bridge",
+  "model": "pdx-hawthorne-bridge",
+  "place": "portland-or-area",
+  "lng": -122.6708901,
+  "lat": 45.5132175,
+  "bearing": 110.31,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q5685577",
+  "replaces": [
+    "way/722118662"
+  ]
+}

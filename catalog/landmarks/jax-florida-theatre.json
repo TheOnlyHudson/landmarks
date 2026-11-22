@@ -1,0 +1,14 @@
+{
+  "id": "jax-florida-theatre",
+  "name": "Florida Theatre",
+  "model": "jax-florida-theatre",
+  "place": "jacksonville-area",
+  "lng": -81.6557653,
+  "lat": 30.3263071,
+  "bearing": 14,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/327725047"
+  ]
+}

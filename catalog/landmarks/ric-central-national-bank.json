@@ -1,0 +1,16 @@
+{
+  "id": "ric-central-national-bank",
+  "name": "Central National Bank Building",
+  "model": "ric-central-national-bank",
+  "place": "richmond-area",
+  "lng": -77.4397879,
+  "lat": 37.5438789,
+  "bearing": 37,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/264502225",
+    "way/264502224"
+  ],
+  "wikidata": "Q5061482"
+}

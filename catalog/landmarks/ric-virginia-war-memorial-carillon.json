@@ -1,0 +1,17 @@
+{
+  "id": "ric-virginia-war-memorial-carillon",
+  "name": "Virginia War Memorial Carillon",
+  "model": "ric-virginia-war-memorial-carillon",
+  "place": "richmond-area",
+  "wikidata": "Q127740146",
+  "lng": -77.483461,
+  "lat": 37.540866,
+  "bearing": 22,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/527243391",
+    "way/527243392",
+    "way/527243393"
+  ]
+}

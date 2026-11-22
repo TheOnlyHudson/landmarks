@@ -1,0 +1,14 @@
+{
+  "id": "indy-old-national-centre",
+  "name": "Old National Centre",
+  "model": "indy-old-national-centre",
+  "place": "indianapolis-area",
+  "lng": -86.15105,
+  "lat": 39.7744916,
+  "bearing": 1.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/339829532"
+  ]
+}

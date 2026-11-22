@@ -1,0 +1,55 @@
+{
+  "id": "ric-west-hospital",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "art-deco",
+    "hospital",
+    "tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "West Hospital from Broad Street.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:West_Hospital_from_Broad_Street.jpg",
+      "author": "VCU Libraries",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "VCU West Hospital-2007.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:VCU_West_Hospital-2007.jpg",
+      "author": "Andrew Bain",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "West Hospital Top.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:West_Hospital_Top.jpg",
+      "author": "Taber Andrew Bain",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "A.D. Williams Clinic and West Hospital.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:A.D._Williams_Clinic_and_West_Hospital.jpg",
+      "author": "Taber Andrew Bain",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/ric-west-hospital.glb",
+  "source": "generators/ric-west-hospital.ts"
+}

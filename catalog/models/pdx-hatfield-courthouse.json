@@ -1,0 +1,48 @@
+{
+  "id": "pdx-hatfield-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "courthouse",
+    "government",
+    "skyscraper"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Mark Hatfield U.S. Courthouse from southwest (2018).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mark_Hatfield_U.S._Courthouse_from_southwest_(2018).jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hatfield Federal Courthouse from North - Portland, Oregon.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Hatfield_Federal_Courthouse_from_North_-_Portland,_Oregon.JPG",
+      "author": "M.O. Stevens",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Upper portion of Hatfield US Courthouse in Portland from SW in 2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Upper_portion_of_Hatfield_US_Courthouse_in_Portland_from_SW_in_2017.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/pdx-hatfield-courthouse.glb",
+  "source": "generators/pdx-hatfield-courthouse.ts"
+}

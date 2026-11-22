@@ -1,0 +1,54 @@
+{
+  "id": "niagara-sir-adam-beck-2",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "power-station",
+    "hydroelectric",
+    "industrial"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sir Adam Beck Hydroelectric Generating Station beside the Niagara River.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sir_Adam_Beck_Hydroelectric_Generating_Station_beside_the_Niagara_River.jpg",
+      "author": "Changku88",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Robert Moses Power Station and Sir Adam Beck Station from south, July 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Moses_Power_Station_and_Sir_Adam_Beck_Station_from_south,_July_2023.jpg",
+      "author": "Mr. Matté",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Power station on the Niagara River (27896070345).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Power_station_on_the_Niagara_River_(27896070345).jpg",
+      "author": "shankar s.",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Adam Beck Complex.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Adam_Beck_Complex.jpg",
+      "author": "Ontario Power Generation",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/niagara-sir-adam-beck-2.glb",
+  "source": "generators/niagara-sir-adam-beck-2.ts"
+}

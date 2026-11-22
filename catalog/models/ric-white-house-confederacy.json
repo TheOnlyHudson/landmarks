@@ -1,0 +1,55 @@
+{
+  "id": "ric-white-house-confederacy",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "house",
+    "museum",
+    "neoclassical"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "The White House of the Confederacy.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:The_White_House_of_the_Confederacy.JPG",
+      "author": "Alana Iesu",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "White House of the Confederacy 2007.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:White_House_of_the_Confederacy_2007.JPG",
+      "author": "Ad Meskens",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "White House of the Confederacy, Richmond, Virginia (10476303303).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:White_House_of_the_Confederacy,_Richmond,_Virginia_(10476303303).jpg",
+      "author": "Gary Todd",
+      "license": "CC0"
+    },
+    {
+      "title": "White House of the Confederacy, Richmond, Virginia (10475897204).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:White_House_of_the_Confederacy,_Richmond,_Virginia_(10475897204).jpg",
+      "author": "Gary Todd",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/ric-white-house-confederacy.glb",
+  "source": "generators/ric-white-house-confederacy.ts"
+}

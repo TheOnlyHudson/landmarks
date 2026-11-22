@@ -1,0 +1,13 @@
+{
+  "id": "jax-treaty-oak",
+  "name": "Treaty Oak",
+  "model": "jax-treaty-oak",
+  "place": "jacksonville-area",
+  "lng": -81.6581206,
+  "lat": 30.3169851,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q7836941",
+  "replaces": []
+}

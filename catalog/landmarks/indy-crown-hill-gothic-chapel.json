@@ -1,0 +1,14 @@
+{
+  "id": "indy-crown-hill-gothic-chapel",
+  "name": "Gothic Chapel, Crown Hill Cemetery",
+  "model": "indy-crown-hill-gothic-chapel",
+  "place": "indianapolis-area",
+  "lng": -86.1717211,
+  "lat": 39.817336,
+  "bearing": 358,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/218880339"
+  ]
+}

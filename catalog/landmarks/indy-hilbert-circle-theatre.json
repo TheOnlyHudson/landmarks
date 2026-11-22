@@ -1,0 +1,14 @@
+{
+  "id": "indy-hilbert-circle-theatre",
+  "name": "Hilbert Circle Theatre",
+  "model": "indy-hilbert-circle-theatre",
+  "place": "indianapolis-area",
+  "lng": -86.1571448,
+  "lat": 39.7678349,
+  "bearing": 1.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/340965640"
+  ]
+}

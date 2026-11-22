@@ -1,0 +1,15 @@
+{
+  "id": "niagara-whirlpool-aero-car",
+  "name": "Whirlpool Aero Car",
+  "model": "niagara-whirlpool-aero-car",
+  "place": "niagara-falls",
+  "lng": -79.0686217,
+  "lat": 43.12046795,
+  "bearing": 3.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/272966194",
+    "way/87441146"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "pdx-benson-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "footbridge",
+    "arch-bridge",
+    "concrete",
+    "columbia-river-highway"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Multnomah Falls Bridge - Close-Up",
+      "url": "https://commons.wikimedia.org/wiki/File:Multnomah_Falls_Bridge_-_Close-Up.jpg",
+      "author": "Ross kramerov",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Benson Bridge 3647",
+      "url": "https://commons.wikimedia.org/wiki/File:Benson_Bridge_3647.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/pdx-benson-bridge.glb",
+  "source": "generators/pdx-benson-bridge.ts"
+}

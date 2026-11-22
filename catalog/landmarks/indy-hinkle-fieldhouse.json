@@ -1,0 +1,14 @@
+{
+  "id": "indy-hinkle-fieldhouse",
+  "name": "Hinkle Fieldhouse",
+  "model": "indy-hinkle-fieldhouse",
+  "place": "indianapolis-area",
+  "lng": -86.1673981,
+  "lat": 39.8435922,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/218977026"
+  ]
+}

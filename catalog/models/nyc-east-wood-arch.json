@@ -1,0 +1,55 @@
+{
+  "id": "nyc-east-wood-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "olmsted-vaux",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Prospect Park Brooklyn Feb 2019 102",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Feb_2019_102.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Mar 2019 09",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Mar_2019_09.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Feb 2019 100",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Feb_2019_100.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "East Wood Arch in Prospect Park from west",
+      "url": "https://commons.wikimedia.org/wiki/File:East_Wood_Arch_in_Prospect_Park_from_west.jpg",
+      "author": "Dave Smith",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-east-wood-arch.glb",
+  "source": "generators/nyc-east-wood-arch.ts"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "jax-hart-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bridge",
+    "truss-bridge",
+    "cantilever-bridge",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hart Bridge, Jacksonville FL, West view 20160706 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hart_Bridge,_Jacksonville_FL,_West_view_20160706_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hart Bridge, Jacksonville FL Pano Contrast.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hart_Bridge,_Jacksonville_FL_Pano_Contrast.jpg",
+      "author": "Jonathan Zander (Digon3)",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Hart Bridge, Jacksonville FL 623.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Hart_Bridge,_Jacksonville_FL_623.JPG",
+      "author": "Jonathan Zander (Digon3)",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/jax-hart-bridge.glb",
+  "source": "generators/jax-hart-bridge.ts"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "jax-fuller-warren-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bridge",
+    "girder-bridge",
+    "interstate"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fuller Warren Bridge, Jacksonville FL 1 Panorama.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fuller_Warren_Bridge,_Jacksonville_FL_1_Panorama.jpg",
+      "author": "Jonathan Zander (Digon3)",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "FullerWarrenBridge.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:FullerWarrenBridge.jpg",
+      "author": "Bubba73 (Jud McCranie)",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Fuller Warren Bridge, Jacksonville, FL, US.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fuller_Warren_Bridge,_Jacksonville,_FL,_US.jpg",
+      "author": "Bubba73",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/jax-fuller-warren-bridge.glb",
+  "source": "generators/jax-fuller-warren-bridge.ts"
+}

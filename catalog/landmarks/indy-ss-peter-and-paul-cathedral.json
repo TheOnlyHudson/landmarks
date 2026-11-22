@@ -1,0 +1,15 @@
+{
+  "id": "indy-ss-peter-and-paul-cathedral",
+  "name": "Cathedral of SS. Peter and Paul",
+  "model": "indy-ss-peter-and-paul-cathedral",
+  "place": "indianapolis-area",
+  "lng": -86.1567859,
+  "lat": 39.7852931,
+  "bearing": 1.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/307816632",
+    "way/1465808023"
+  ]
+}

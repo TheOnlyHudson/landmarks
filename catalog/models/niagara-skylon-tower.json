@@ -1,0 +1,55 @@
+{
+  "id": "niagara-skylon-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "observation-tower",
+    "revolving-restaurant",
+    "modernist",
+    "concrete"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Skylon Tower 2023a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Skylon_Tower_2023a.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Skylon Tower Top.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Skylon_Tower_Top.jpg",
+      "author": "Kevin Payravi",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Niagara Falls - ON - Skylon Tower5.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Niagara_Falls_-_ON_-_Skylon_Tower5.jpg",
+      "author": "Taxiarchos228",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Niagara Falls - ON - Skylon Tower bei Nacht.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Niagara_Falls_-_ON_-_Skylon_Tower_bei_Nacht.jpg",
+      "author": "Wladyslaw",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/niagara-skylon-tower.glb",
+  "source": "generators/niagara-skylon-tower.ts"
+}

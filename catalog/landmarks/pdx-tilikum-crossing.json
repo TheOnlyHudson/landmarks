@@ -1,0 +1,14 @@
+{
+  "id": "pdx-tilikum-crossing",
+  "name": "Tilikum Crossing",
+  "model": "pdx-tilikum-crossing",
+  "place": "portland-or-area",
+  "lng": -122.6671017,
+  "lat": 45.5048751,
+  "bearing": 47.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/392704404"
+  ]
+}

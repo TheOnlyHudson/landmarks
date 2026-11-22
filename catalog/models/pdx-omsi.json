@@ -1,0 +1,48 @@
+{
+  "id": "pdx-omsi",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "science-museum",
+    "power-station"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "OMSI entrance outside - Portland, Oregon.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:OMSI_entrance_outside_-_Portland,_Oregon.JPG",
+      "author": "M.O. Stevens",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Oregon Museum of Science and Industry, Willamette River, Portland - DPLA",
+      "url": "https://commons.wikimedia.org/wiki/File:Oregon_Museum_of_Science_and_Industry,_Willamette_River,_Portland_-_DPLA_-_9e61db74e86b2daddb8b66feb019644d.jpg",
+      "author": "Gary Halvorson, Oregon State Archives",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "OMSI OMNIMAX exterior - Portland, Oregon.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:OMSI_OMNIMAX_exterior_-_Portland,_Oregon.JPG",
+      "author": "M.O. Stevens",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/pdx-omsi.glb",
+  "source": "generators/pdx-omsi.ts"
+}

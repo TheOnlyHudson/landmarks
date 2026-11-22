@@ -1,0 +1,14 @@
+{
+  "id": "indy-union-station",
+  "name": "Indianapolis Union Station",
+  "model": "indy-union-station",
+  "place": "indianapolis-area",
+  "lng": -86.16009,
+  "lat": 39.76258,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/340480894"
+  ]
+}

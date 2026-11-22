@@ -1,0 +1,14 @@
+{
+  "id": "indy-eiteljorg-museum",
+  "name": "Eiteljorg Museum",
+  "model": "indy-eiteljorg-museum",
+  "place": "indianapolis-area",
+  "lng": -86.1677607,
+  "lat": 39.7685157,
+  "bearing": 357.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/113050097"
+  ]
+}

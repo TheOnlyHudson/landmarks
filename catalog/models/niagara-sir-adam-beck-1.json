@@ -1,0 +1,55 @@
+{
+  "id": "niagara-sir-adam-beck-1",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "power-station",
+    "hydroelectric",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Adam Beck Complex.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Adam_Beck_Complex.jpg",
+      "author": "Ontario Power Generation",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Sir Adam Beck No. 1 Generating Station.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sir_Adam_Beck_No._1_Generating_Station.jpg",
+      "author": "Gogerr",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sir Adam Beck Hydroelectric Generating Station beside the Niagara River.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sir_Adam_Beck_Hydroelectric_Generating_Station_beside_the_Niagara_River.jpg",
+      "author": "Changku88",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Power station on the Niagara River (27896070345).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Power_station_on_the_Niagara_River_(27896070345).jpg",
+      "author": "shankar s.",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/niagara-sir-adam-beck-1.glb",
+  "source": "generators/niagara-sir-adam-beck-1.ts"
+}

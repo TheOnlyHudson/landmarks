@@ -1,0 +1,49 @@
+{
+  "id": "ric-central-national-bank",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "art-deco",
+    "historic",
+    "bank"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Central National Bank, Richmond, Virginia June04.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_National_Bank,_Richmond,_Virginia_June04.JPG",
+      "author": "Morgan Riley",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Central National Bank Building, Richmond.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_National_Bank_Building,_Richmond.jpg",
+      "author": "Taber Andrew Bain",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Central National Bank.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_National_Bank.jpg",
+      "author": "Bdl2001",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/ric-central-national-bank.glb",
+  "source": "generators/ric-central-national-bank.ts"
+}

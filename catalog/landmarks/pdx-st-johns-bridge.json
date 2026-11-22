@@ -1,0 +1,16 @@
+{
+  "id": "pdx-st-johns-bridge",
+  "name": "St. Johns Bridge",
+  "model": "pdx-st-johns-bridge",
+  "place": "portland-or-area",
+  "lng": -122.7628978,
+  "lat": 45.5859761,
+  "bearing": 55.68,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q4416302",
+  "replaces": [
+    "way/392546027",
+    "way/1292827390"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "pdx-interstate-bridge",
+  "name": "Interstate Bridge",
+  "model": "pdx-interstate-bridge",
+  "place": "portland-or-area",
+  "lng": -122.675751,
+  "lat": 45.617237,
+  "bearing": 22.85,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q6057032",
+  "replaces": [
+    "relation/6262670"
+  ]
+}

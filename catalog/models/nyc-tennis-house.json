@@ -1,0 +1,43 @@
+{
+  "id": "nyc-tennis-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "classical-revival",
+    "loggia",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Prospect Park Brooklyn Mar 2019 103",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Mar_2019_103.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Mar 2019 101",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Mar_2019_101.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-tennis-house.glb",
+  "source": "generators/nyc-tennis-house.ts"
+}

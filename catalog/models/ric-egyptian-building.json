@@ -1,0 +1,48 @@
+{
+  "id": "ric-egyptian-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "egyptian-revival",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Egyptian Building, Richmond, VA.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Egyptian_Building,_Richmond,_VA.jpg",
+      "author": "Crazyale",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Egyptian Building East Side.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Egyptian_Building_East_Side.jpg",
+      "author": "Taber Andrew Bain",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Perspective view - Egyptian Building (HABS VA-1421-3)",
+      "url": "https://www.loc.gov/item/va1421/",
+      "author": "Jack Boucher, Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/ric-egyptian-building.glb",
+  "source": "generators/ric-egyptian-building.ts"
+}

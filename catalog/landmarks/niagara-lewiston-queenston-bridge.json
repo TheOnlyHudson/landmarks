@@ -1,0 +1,15 @@
+{
+  "id": "niagara-lewiston-queenston-bridge",
+  "name": "Lewiston–Queenston Bridge",
+  "model": "niagara-lewiston-queenston-bridge",
+  "place": "niagara-falls",
+  "lng": -79.044397,
+  "lat": 43.152974,
+  "bearing": 98.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/368215007"
+  ],
+  "wikidata": "Q6537419"
+}

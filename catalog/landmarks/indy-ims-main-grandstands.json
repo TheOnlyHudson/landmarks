@@ -1,0 +1,25 @@
+{
+  "id": "indy-ims-main-grandstands",
+  "name": "Indianapolis Motor Speedway Main Grandstands",
+  "model": "indy-ims-main-grandstands",
+  "place": "indianapolis-area",
+  "lng": -86.2392624,
+  "lat": 39.7938089,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/570796644",
+    "way/388929551",
+    "way/383851500",
+    "way/589354572",
+    "way/388929555",
+    "way/588833536",
+    "way/388929552",
+    "way/588800193",
+    "way/588800194",
+    "way/588800195",
+    "way/588795255",
+    "way/588795256"
+  ]
+}

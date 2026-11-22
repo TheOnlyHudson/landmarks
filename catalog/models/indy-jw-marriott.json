@@ -1,0 +1,49 @@
+{
+  "id": "indy-jw-marriott",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "hotel",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q6109253",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "JW Marriott Indianapolis - 2012",
+      "url": "https://commons.wikimedia.org/wiki/File:JW_Marriott_Indianapolis_-_2012.jpg",
+      "author": "davitydave",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "JW Marriott Hotel - Indianapolis",
+      "url": "https://commons.wikimedia.org/wiki/File:JW_Marriott_Hotel_-_Indianapolis.jpg",
+      "author": "Chris Bede",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "JW Marriott and Indiana Convention Center - 2011",
+      "url": "https://commons.wikimedia.org/wiki/File:JW_Marriott_and_Indiana_Convention_Center_-_2011.jpg",
+      "author": "Jimmy Baikovicius",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/indy-jw-marriott.glb",
+  "source": "generators/indy-jw-marriott.ts"
+}

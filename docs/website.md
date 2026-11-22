@@ -29,8 +29,10 @@ the map draws the selected candidate, otherwise preferring the local model.
 
 The map draws 3D terrain from [Mapterhorn](https://mapterhorn.com/) at its
 true height, the same terrain Parchment draws and the models are built on.
-Models stand on it the way Parchment stands them: the base on the lowest ground
-under the model, the lower parts draped over the slope.
+Models stand on it the way Parchment stands them, whole and never bent to the
+ground: the base on the lowest ground under the model, or, for a model built
+over the terrain (a coaster, a bridge with feet on the ground), its own ground
+on the map's.
 
 So that the relief reads on the pale basemap, the map shades it: a hillshade
 from the same Mapterhorn tiles, lit from the north-west, under the rivers,

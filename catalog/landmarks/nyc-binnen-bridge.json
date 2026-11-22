@@ -1,0 +1,14 @@
+{
+  "id": "nyc-binnen-bridge",
+  "name": "Binnen Bridge",
+  "model": "nyc-binnen-bridge",
+  "place": "prospect-park",
+  "lng": -73.966234,
+  "lat": 40.661741,
+  "bearing": 90.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1446184623"
+  ]
+}

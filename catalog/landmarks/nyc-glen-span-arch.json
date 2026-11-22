@@ -1,0 +1,14 @@
+{
+  "id": "nyc-glen-span-arch",
+  "name": "Glen Span Arch",
+  "model": "nyc-glen-span-arch",
+  "place": "central-park",
+  "lng": -73.959172,
+  "lat": 40.794677,
+  "bearing": 97,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/387386578"
+  ]
+}

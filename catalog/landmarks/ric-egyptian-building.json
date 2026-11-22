@@ -1,0 +1,15 @@
+{
+  "id": "ric-egyptian-building",
+  "name": "Egyptian Building",
+  "model": "ric-egyptian-building",
+  "place": "richmond-area",
+  "lng": -77.4293826,
+  "lat": 37.5391386,
+  "bearing": 36.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/224530980"
+  ],
+  "wikidata": "Q5348385"
+}

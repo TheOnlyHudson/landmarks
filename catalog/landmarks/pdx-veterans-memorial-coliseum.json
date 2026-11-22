@@ -1,0 +1,14 @@
+{
+  "id": "pdx-veterans-memorial-coliseum",
+  "name": "Veterans Memorial Coliseum",
+  "model": "pdx-veterans-memorial-coliseum",
+  "place": "portland-or-area",
+  "lng": -122.669375,
+  "lat": 45.53212,
+  "bearing": 51.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/34813762"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "pdx-aerial-tram",
+  "name": "Portland Aerial Tram",
+  "model": "pdx-aerial-tram",
+  "place": "portland-or-area",
+  "lng": -122.6775326,
+  "lat": 45.4993586,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/180623086",
+    "way/75733977",
+    "way/123502675"
+  ],
+  "wikidata": "Q511321"
+}

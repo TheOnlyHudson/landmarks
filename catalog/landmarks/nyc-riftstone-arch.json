@@ -1,0 +1,12 @@
+{
+  "id": "nyc-riftstone-arch",
+  "name": "Riftstone Arch",
+  "model": "nyc-riftstone-arch",
+  "place": "central-park",
+  "lng": -73.975601,
+  "lat": 40.776077,
+  "bearing": 30.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

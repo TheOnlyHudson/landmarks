@@ -1,0 +1,25 @@
+{
+  "id": "niagara-hilton-fallsview",
+  "name": "Hilton Niagara Falls/Fallsview Hotel and Suites",
+  "model": "niagara-hilton-fallsview",
+  "place": "niagara-falls",
+  "lng": -79.08324,
+  "lat": 43.082789,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/808101755",
+    "way/808101757",
+    "way/1093978401",
+    "way/808101763",
+    "way/808101751",
+    "way/1093978402",
+    "way/1093978404",
+    "way/1093978405",
+    "way/1093978406",
+    "way/1093978407",
+    "way/1093978408",
+    "way/1093978409"
+  ]
+}

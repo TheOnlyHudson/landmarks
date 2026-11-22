@@ -1,0 +1,14 @@
+{
+  "id": "niagara-adams-transformer-house",
+  "name": "Adams Power Plant Transformer House",
+  "model": "niagara-adams-transformer-house",
+  "place": "niagara-falls",
+  "lng": -79.042815,
+  "lat": 43.081826,
+  "bearing": 42.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/593546305"
+  ]
+}

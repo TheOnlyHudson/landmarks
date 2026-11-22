@@ -1,0 +1,15 @@
+{
+  "id": "indy-indiana-state-museum",
+  "name": "Indiana State Museum",
+  "model": "indy-indiana-state-museum",
+  "place": "indianapolis-area",
+  "lng": -86.169817,
+  "lat": 39.768852,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/6268982"
+  ],
+  "wikidata": "Q6023430"
+}

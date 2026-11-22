@@ -1,0 +1,12 @@
+{
+  "id": "indy-veterans-memorial-obelisk",
+  "name": "The Obelisk, Veterans Memorial Plaza",
+  "model": "indy-veterans-memorial-obelisk",
+  "place": "indianapolis-area",
+  "lng": -86.1568856,
+  "lat": 39.7747971,
+  "bearing": 0.86,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

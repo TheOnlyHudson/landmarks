@@ -1,0 +1,50 @@
+{
+  "id": "nyc-willowdell-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "brick",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Willowdell Arch Central Park",
+      "url": "https://commons.wikimedia.org/wiki/File:Willowdell_Arch_Central_Park_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "At New York, USA 2017 365",
+      "url": "https://commons.wikimedia.org/wiki/File:At_New_York,_USA_2017_365.jpg",
+      "author": "Mike Peel",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Central Park, New York, NY, USA - panoramio (165)",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park,_New_York,_NY,_USA_-_panoramio_(165).jpg",
+      "author": "Roman Eugeniusz",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nyc-willowdell-arch.glb",
+  "source": "generators/nyc-willowdell-arch.ts"
+}

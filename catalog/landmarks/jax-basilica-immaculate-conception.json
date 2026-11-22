@@ -1,0 +1,15 @@
+{
+  "id": "jax-basilica-immaculate-conception",
+  "name": "Basilica of the Immaculate Conception",
+  "model": "jax-basilica-immaculate-conception",
+  "place": "jacksonville-area",
+  "lng": -81.655535,
+  "lat": 30.329207,
+  "bearing": 15,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6004337",
+  "replaces": [
+    "way/497147278"
+  ]
+}

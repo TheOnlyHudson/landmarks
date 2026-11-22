@@ -1,0 +1,15 @@
+{
+  "id": "niagara-whirlpool-rapids-bridge",
+  "name": "Whirlpool Rapids Bridge",
+  "model": "niagara-whirlpool-rapids-bridge",
+  "place": "niagara-falls",
+  "lng": -79.058294,
+  "lat": 43.109217,
+  "bearing": 79.9,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/987726054"
+  ],
+  "wikidata": "Q2488190"
+}

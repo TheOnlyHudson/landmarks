@@ -1,0 +1,55 @@
+{
+  "id": "pdx-union-station",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "train-station",
+    "clock-tower",
+    "neon-sign",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "A front view of Union Station, Portland Oregon",
+      "url": "https://commons.wikimedia.org/wiki/File:A_front_view_of_Union_Station,_Portland_Oregon.jpg",
+      "author": "Bobjgalindo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Union Station Portland Oregon (view from platform side)",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Station_Portland_Oregon_(view_from_platform_side).JPG",
+      "author": "Neonorange",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Union Station Portland Oregon",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Station_Portland_Oregon.jpg",
+      "author": "Nathan Searles",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Union Station, Portland, OR 2012 - sign",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Station,_Portland,_OR_2012_-_sign.JPG",
+      "author": "Another Believer",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/pdx-union-station.glb",
+  "source": "generators/pdx-union-station.ts"
+}

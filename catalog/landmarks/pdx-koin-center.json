@@ -1,0 +1,31 @@
+{
+  "id": "pdx-koin-center",
+  "name": "KOIN Tower",
+  "model": "pdx-koin-center",
+  "place": "portland-or-area",
+  "lng": -122.6776644,
+  "lat": 45.5131123,
+  "bearing": 21,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/331780188",
+    "way/684340583",
+    "way/684340580",
+    "way/1361924287",
+    "way/684684469",
+    "way/684684470",
+    "way/684684471",
+    "way/684684472",
+    "way/684340579",
+    "way/684340576",
+    "way/684340577",
+    "way/684340574",
+    "way/684340573",
+    "way/684340571",
+    "way/950174298",
+    "way/950174299",
+    "way/950174300",
+    "way/950174301"
+  ]
+}

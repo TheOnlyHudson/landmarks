@@ -1,0 +1,15 @@
+{
+  "id": "niagara-brocks-monument",
+  "name": "Brock's Monument",
+  "model": "niagara-brocks-monument",
+  "place": "niagara-falls",
+  "lng": -79.05303,
+  "lat": 43.160137,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/363598111",
+    "way/232287277"
+  ]
+}

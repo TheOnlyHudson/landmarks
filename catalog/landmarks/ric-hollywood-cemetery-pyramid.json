@@ -1,0 +1,13 @@
+{
+  "id": "ric-hollywood-cemetery-pyramid",
+  "name": "Confederate Pyramid, Hollywood Cemetery",
+  "model": "ric-hollywood-cemetery-pyramid",
+  "place": "richmond-area",
+  "wikidata": "Q136677300",
+  "lng": -77.455589,
+  "lat": 37.540796,
+  "bearing": 5.3,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

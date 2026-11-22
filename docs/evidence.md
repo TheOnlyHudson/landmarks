@@ -233,18 +233,23 @@ terrain often shows part of a landmark too. The map takes that copy out:
 inside a landmark's footprint it fills the terrain from the ground just
 outside, never higher than the real ground, and the model draws what was
 there. So build those parts to their real heights from the usual evidence;
-the terrain is not evidence for them.
+the terrain is not evidence for them. It doesn't fill under a raised model,
+nor under one built over the terrain (a coaster, a bridge with its feet on
+the ground), whose feet stand on that ground as it is.
 
 Read the ground around the site before modelling the base
 (`bun tools/terrain.ts grid <lon> <lat> <half-m> [step] --bearing <deg>`),
 and check the finished model with `bun tools/terrain.ts check <id>`. The
-check stands the model on the terrain the way the map does and lists every
-visible top (a deck, a step, a plaza, a planter) that ends up under the
-drawn ground. What it usually means:
+check stands the model on the terrain the way the map does, whole, and
+lists every visible top (a deck, a step, a plaza, a planter) that ends up
+under the drawn ground, and every point of the base that stands over it.
+The map never bends a model to the ground, so what it usually means:
 
-- **A long face near the ground.** The map lifts each vertex by the ground
-  under it, so a long quad stays flat where the ground bulges. Split low
-  faces into pieces no longer than about 5 m.
+- **A part built lower than the ground under it**: a terrace, a step or a
+  bridge's end on the uphill side, built as if the site were flat. Build it
+  to the ground's height there, from `grid`.
+- **A base over a dip**: a foot that stops short of the ground. Run it down
+  to the ground.
 - **A low top right at the footprint's edge**, where the ground outside
   rises above it: check its height against photos. If it is right, say so
   in the header and the PR.

@@ -1,0 +1,15 @@
+{
+  "id": "ric-capitol-bell-tower",
+  "name": "Bell Tower, Capitol Square",
+  "model": "ric-capitol-bell-tower",
+  "place": "richmond-area",
+  "lng": -77.4352951,
+  "lat": 37.5389514,
+  "bearing": 37.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/658620590"
+  ],
+  "wikidata": "Q121323871"
+}

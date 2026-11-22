@@ -1,0 +1,45 @@
+{
+  "id": "nyc-cloisters",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum",
+    "romanesque-revival",
+    "cloister",
+    "fort-tryon-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q1138030",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "2013 The Cloisters from Linden Terrace in Fort Tryon Park",
+      "url": "https://commons.wikimedia.org/wiki/File:2013_The_Cloisters_from_Linden_Terrace_in_Fort_Tryon_Park.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2017 The Cloisters Bonnefont and Trie Cloisters from Fort Tryon Park",
+      "url": "https://commons.wikimedia.org/wiki/File:2017_The_Cloisters_Bonnefont_and_Trie_Cloisters_from_Fort_Tryon_Park.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-cloisters.glb",
+  "source": "generators/nyc-cloisters.ts"
+}

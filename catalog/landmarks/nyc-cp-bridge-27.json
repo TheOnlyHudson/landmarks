@@ -1,0 +1,13 @@
+{
+  "id": "nyc-cp-bridge-27",
+  "name": "Bridge No. 27",
+  "model": "nyc-cp-bridge-27",
+  "wikidata": "Q86968666",
+  "place": "central-park",
+  "lng": -73.966216,
+  "lat": 40.784484,
+  "bearing": 131,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}
