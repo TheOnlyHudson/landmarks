@@ -1,0 +1,487 @@
+abu-dhabi-qasr-al-watan			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+amsterdam-amstel-hotel			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+amsterdam-haarlemmerpoort			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+amsterdam-johan-cruijff-arena			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+amsterdam-magere-brug			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+amsterdam-montelbaanstoren			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+amsterdam-scheepvaartmuseum			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+amsterdam-olympic-stadium			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+amsterdam-van-gogh-museum			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+atl-1180-peachtree	follows":false		ok	ok	
+atl-cathedral-christ-the-king	follows":false		ok	ok	
+atl-equitable-building	follows":false		ok	ok	
+atl-high-museum	follows":false		ok	ok	
+atl-bobby-dodd-stadium	follows":false		ok	ok	
+atl-center-parc-stadium	follows":false		ok	ok	
+atl-millennium-gate	follows":false		ok	ok	
+atl-skyview	follows":false		ok	ok	
+atl-mercedes-benz-stadium	follows":false		ok	ok	
+atl-shrine-immaculate-conception	follows":false		ok	ok	
+atl-state-farm-arena	follows":false		ok	ok	
+atl-westin-peachtree-plaza	follows":false		ok	ok	
+atl-truist-park	follows":false		ok	ok	
+baku-crystal-hall			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+baku-government-house			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+atx-texas-state-capitol	follows":false		ok	ok	
+atx-dkr-texas-memorial-stadium	follows":false		ok	ok	
+barcelona-casa-batllo	follows":false		ok	ok	
+ballantyne-hotel	follows":false		ok	ok	
+barcelona-camp-nou	follows":false		ok	ok	
+bank-of-america-stadium	follows":false		ok	ok	
+barcelona-hotel-w	follows":false		ok	ok	
+barcelona-palau-sant-jordi	follows":false		ok	ok	
+barcelona-peix-d-or	follows":false		ok	ok	
+barcelona-torre-glories	follows":false		ok	ok	
+barcelona-olympic-stadium	follows":false		ok	ok	
+berlin-dom	follows":false		ok	ok	
+berlin-kaiser-wilhelm-gedaechtniskirche	follows":false		ok	ok	
+berlin-oberbaum-bridge	follows":false		ok	ok	
+belk-theater	follows":false		ok	ok	
+berlin-st-hedwigs	follows":true		ok	ok	
+bojangles-coliseum	follows":false		ok	ok	
+bos-fenway-park	follows":false		ok	ok	
+camp-north-end-water-tower	follows":false		ok	ok	
+berlin-olympiastadion	follows":true		ok	ok	
+carowinds-afterburn	follows":true		BURIED: 15.2 of 1212.5 m² of visible tops sit under the drawn terrain; deepest 0.76 m	ok	
+carowinds-carolina-goldrusher	follows":true		ok	ok	
+carowinds-carolina-cyclone	follows":true		ok	ok	
+carowinds-copperhead-strike	follows":true		ok	ok	
+carowinds-flying-cobras	follows":false		ok	ok	
+carowinds-kiddy-hawk	follows":false		ok	ok	
+carowinds-fury-325	follows":true		ok	ok	
+carowinds-hurler	follows":false		ok	ok	
+carowinds-ricochet	follows":false		ok	ok	
+carowinds-skytower	follows":false		ok	ok	
+carowinds-snoopys-racing-railway	follows":false		ok	ok	
+carowinds-thunder-striker	follows":true		ok	ok	
+carowinds-wilderness-run	follows":false		ok	ok	
+carowinds-vortex	follows":true		ok	ok	
+carowinds-windseeker	follows":false		ok	ok	
+carowinds-woodstock-express	follows":false		ok	ok	
+chi-333-wacker	follows":false		ok	ok	
+chi-centennial-wheel	follows":false		ok	ok	
+chi-art-institute-modern-wing	follows":false		ok	ok	
+chi-chicago-temple	follows":false		ok	ok	
+chi-harold-washington-library	follows":false		ok	ok	
+chi-merchandise-mart	follows":false		ok	ok	
+chi-rookery	follows":false		ok	ok	
+chi-rate-field	follows":false		ok	ok	
+chi-trump-tower	follows":false		ok	ok	
+chi-united-center	follows":false		ok	ok	
+chi-soldier-field	follows":false		ok	ok	
+cin-carroll-chimes	follows":false		ok	ok	
+cin-brent-spence-bridge	follows":false		ok	ok	
+cin-big-mac-bridge	follows":true		ok	ok	
+chi-wrigley-field	follows":false		ok	ok	
+cin-heritage-bank-center	follows":false		ok	ok	
+cin-great-american-ball-park	follows":false		ok	ok	
+cin-music-hall	follows":false		ok	ok	
+cin-nippert-stadium	follows":false		ok	ok	
+cin-purple-people-bridge	follows":true		ok	ok	
+cin-roebling-bridge	follows":true		BURIED: 5.2 of 6262.2 m² of visible tops sit under the drawn terrain; deepest 0.57 m	ok	
+cin-paycor-stadium	follows":false		ok	ok	
+cin-tql-stadium	follows":false		ok	ok	
+cin-union-terminal	follows":false		ok	ok	
+cle-bo-bridge-464	follows":true		ok	ok	
+cle-cleveland-trust-rotunda	follows":false		ok	ok	
+cle-center-street-bridge	follows":false		ok	ok	
+cle-detroit-superior-bridge	follows":true		ok	ok	
+cle-garfield-memorial	follows":false		ok	ok	
+cle-hope-memorial-bridge	follows":false		ok	ok	
+cle-huntington-bank-field	follows":false		ok	ok	
+cle-public-library	follows":false		ok	ok	
+cle-progressive-field	follows":false		ok	ok	
+cle-museum-of-art	follows":false		ok	ok	
+cle-rocket-arena	follows":false		ok	ok	
+cle-stokes-courthouse	follows":false		ok	ok	
+clt-ally-center	follows":false		ok	ok	
+cle-william-g-mather	follows":false		ok	ok	
+clt-cne-330-camp-road	follows":false		ok	ok	
+clt-cne-generals-office	follows":false		ok	ok	
+clt-charlotte-plaza	follows":false		ok	ok	
+clt-latta-arcade	follows":false		ok	ok	
+clt-design-center-tower	follows":false		ok	ok	
+clt-first-baptist	follows":false		ok	ok	
+clt-concourses-d-e	follows":false		ok	ok	
+clt-pearl-medical-school	follows":false		ok	ok	
+clt-st-peters-catholic	follows":false		ok	ok	
+clt-urban-district-market	follows":false		ok	ok	
+cola-riverbanks-zoo	follows":false		ok	ok	
+cola-gervais-street-bridge	follows":false		ok	ok	
+cola-segra-park	follows":false		ok	ok	
+cola-colonial-life-arena	follows":false		ok	ok	
+cola-sylvan-building	follows":false		ok	ok	
+coney-island-cyclone	follows":false		ok	ok	
+cpt-cape-wheel			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+cpt-cape-town-stadium			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+cola-williams-brice-stadium	follows":false		ok	ok	
+cpt-city-hall			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+cpt-rhodes-memorial			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+dal-american-airlines-center	follows":false		ok	ok	
+dal-ariat-arena	follows":false		ok	ok	
+dal-bank-of-america-plaza	follows":false		ok	ok	
+dal-att-stadium	follows":false		ok	ok	
+dal-choctaw-stadium	follows":false		ok	ok	
+dal-cotton-bowl	follows":false		ok	ok	
+dal-fountain-place	follows":false		ok	ok	
+dal-ford-center-the-star	follows":false		ok	ok	
+dal-globe-life-field	follows":false		ok	ok	
+dal-kimbell-art-museum	follows":false		ok	ok	
+dal-margaret-hunt-hill-bridge	follows":true		ok	ok	
+dal-margaret-mcdermott-bridge	follows":false		ok	ok	
+dal-mercantile-national-bank	follows":false		ok	ok	
+dal-texas-star	follows":false		ok	ok	
+dal-new-texas-giant	follows":true		ok	ok	
+dal-renaissance-tower	follows":false		ok	ok	
+dal-texas-school-book-depository	follows":false		ok	ok	
+dc-au-cassell-hall	follows":false		ok	ok	
+dal-winspear-opera-house	follows":false		ok	ok	
+dc-arts-and-industries	follows":false		ok	ok	
+dc-au-don-myers-technology-and-innovation-building	follows":false		ok	ok	
+dc-audi-field	follows":false		ok	ok	
+dc-au-hamilton-building	follows":false		ok	ok	
+dc-au-kerwin-hall	follows":false		ok	ok	
+dc-au-mcdowell-hall	follows":false		ok	ok	
+dc-au-osborn-building	follows":false		ok	ok	
+dc-au-sports-center-parking-garage	follows":false		ok	ok	
+dc-mlk-memorial	follows":false		ok	ok	
+dc-house-of-the-temple	follows":true		BURIED: 1533.3 of 7282.6 m² of visible tops sit under the drawn terrain; deepest 2.61 m	ok	
+dc-netherlands-carillon	follows":false		ok	ok	
+dc-smithsonian-castle	follows":false		ok	ok	
+dc-washington-temple	follows":false		ok	ok	
+dc-nationals-park	follows":false		ok	ok	
+den-art-museum-hamilton	follows":false		ok	ok	
+den-central-library	follows":false		ok	ok	
+den-ball-arena	follows":false		ok	ok	
+den-daniels-and-fisher-tower	follows":false		ok	ok	
+den-greek-theater	follows":false		ok	ok	
+den-coors-field	follows":false		ok	ok	
+den-millennium-bridge	follows":true		ok	ok	
+den-empower-field	follows":false		ok	ok	
+den-red-rocks	follows":true		ok	ok	
+den-ralph-carr-judicial-center	follows":false		ok	ok	
+den-tramway-building	follows":false		ok	ok	
+det-buhl-building	follows":false		ok	ok	
+det-belle-isle-aquarium	follows":false		ok	ok	
+det-ambassador-bridge	follows":true		ok	ok	
+det-comerica-park	follows":false		ok	ok	
+det-detroit-public-library	follows":false		ok	ok	
+det-gordie-howe-bridge	follows":false		ok	ok	
+det-ford-field	follows":false		ok	ok	
+det-mariners-church	follows":false		ok	ok	
+det-little-caesars-arena	follows":false		ok	ok	
+det-penobscot-building	follows":false		ok	ok	
+det-sweetest-heart-of-mary	follows":false		ok	ok	
+dlr-big-thunder-mountain	follows":false		BURIED: 27.4 of 7201.5 m² of visible tops sit under the drawn terrain; deepest 0.47 m	ok	
+dlr-guardians-mission-breakout	follows":false		ok	ok	
+dlr-golden-zephyr	follows":false		ok	ok	
+dlr-carthay-circle	follows":false		ok	ok	
+dlr-incredicoaster	follows":false		BURIED: 72.6 of 6422.8 m² of visible tops sit under the drawn terrain; deepest 0.65 m	ok	
+dlr-soarin	follows":false		ok	ok	
+dlr-matterhorn	follows":false		ok	ok	
+dlr-space-mountain	follows":false		ok	ok	
+doha-khalifa-international-stadium			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+doha-museum-of-islamic-art			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+dubai-mall			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+dubai-burj-khalifa			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+eiffel-tower	follows":false		ok	ok	
+freedom-park-bandshell	follows":false		ok	ok	
+grand-canyon-kaibab-suspension-bridge	follows":false		ok	ok	
+grand-canyon-bright-angel-suspension-bridge	follows":false		ok	ok	
+grand-canyon-kolb-studio	follows":false		ok	ok	
+grand-canyon-navajo-bridge	follows":true		ok	ok	
+grand-canyon-skywalk	follows":true		ok	ok	
+grand-canyon-navajo-bridge-new	follows":true		ok	ok	
+hoover-dam	follows":true		ok	ok	
+hou-city-hall	follows":false		ok	ok	
+hou-astrodome	follows":false		ok	ok	
+hou-fred-hartman-bridge	follows":true		ok	ok	
+hou-heritage-plaza	follows":false		ok	ok	
+hou-jpmorgan-chase-tower	follows":false		ok	ok	
+hou-daikin-park	follows":false		ok	ok	
+hou-museum-of-natural-science	follows":false		ok	ok	
+hou-rice-lovett-hall	follows":false		ok	ok	
+hou-nrg-stadium	follows":false		ok	ok	
+hou-shell-energy-stadium	follows":false		ok	ok	
+istanbul-ataturk-olympic-stadium			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+hou-toyota-center	follows":false		ok	ok	
+ind-indiana-statehouse	follows":false		ok	ok	
+istanbul-blue-mosque			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+istanbul-bosphorus-bridge			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+istanbul-dolmabahce-clock-tower			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+istanbul-fsm-bridge			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+istanbul-new-mosque			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+istanbul-hagia-irene			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+istanbul-sapphire			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+istanbul-valens-aqueduct			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+istanbul-vodafone-park			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+jerusalem-dome-of-the-rock-plaza			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+kc-wheel	follows":false		ok	ok	
+la-bonaventure	follows":false		ok	ok	
+la-chiat-day	follows":false		ok	ok	
+la-crypto-arena	follows":false		ok	ok	
+la-coliseum	follows":false		BURIED: 7.2 of 41299.4 m² of visible tops sit under the drawn terrain; deepest 0.27 m	ok	
+la-dodger-stadium	follows":false		ok	ok	
+la-getty-center	follows":false		ok	ok	
+la-janss-steps	follows":true		ok	ok	
+la-pacific-wheel	follows":false		ok	ok	
+la-pauley-pavilion	follows":false		ok	ok	
+la-pasadena-city-hall	follows":false		ok	ok	
+la-vincent-thomas-bridge-east	follows":false		ok	ok	
+la-union-station	follows":false		ok	ok	
+la-rose-bowl	follows":false		BURIED: 127.7 of 27729.1 m² of visible tops sit under the drawn terrain; deepest 1.53 m	ok	
+la-vincent-thomas-bridge-west	follows":false		ok	ok	
+la-sofi-stadium	follows":false		ok	ok	
+london-albert-bridge	follows":true		ok	ok	
+la-wilshire-grand	follows":false		ok	ok	
+london-eye	follows":false		ok	ok	
+london-leadenhall-building	follows":false		ok	ok	
+london-aquatics-centre	follows":false		ok	ok	
+london-city-hall	follows":false		ok	ok	
+london-the-scalpel	follows":false		ok	ok	
+london-millennium-bridge	follows":false		ok	ok	
+london-tower-bridge	follows":true		ok	ok	
+london-olympic-stadium	follows":false		ok	ok	
+london-st-pancras	follows":false		ok	ok	
+london-tottenham-hotspur-stadium	follows":false		ok	ok	
+lv-big-apple-coaster	follows":false		ok	ok	
+lv-allegiant-stadium	follows":false		ok	ok	
+london-wembley-stadium	follows":false		ok	ok	
+lv-high-roller	follows":false		ok	ok	
+lv-hoover-dam-arizona-spillway	follows":false		ok	ok	
+lv-hoover-dam-nevada-spillway	follows":false		ok	ok	
+lv-excalibur	follows":false		ok	ok	
+lv-hoover-dam-visitor-center	follows":false		ok	ok	
+lv-mob-museum	follows":false		ok	ok	
+lv-slotzilla	follows":false		ok	ok	
+lv-mike-ocallaghan-pat-tillman-bridge	follows":true		ok	ok	
+lv-seven-magic-mountains	follows":false		ok	ok	
+lv-vdara	follows":false		ok	ok	
+manama-bahrain-world-trade-center			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+mexico-city-biblioteca-vasconcelos			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+mexico-city-el-caballito			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+mem-pyramid	follows":false		ok	ok	
+mexico-city-estadio-azteca			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+mexico-city-estadio-olimpico-universitario			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+mexico-city-kiosco-morisco			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+mexico-city-museo-jumex			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+mexico-city-palacio-nacional			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+mexico-city-plaza-mexico			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+mexico-city-torre-reforma			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+mexico-city-santo-domingo			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+mia-bacardi-buildings	follows":false		ok	ok	
+mia-coral-gables-city-hall	follows":false		ok	ok	
+mia-freedom-tower	follows":false		ok	ok	
+mia-kaseya-center	follows":false		ok	ok	
+mia-hard-rock-stadium	follows":false		ok	ok	
+mia-loandepot-park	follows":false		ok	ok	
+mia-marine-stadium	follows":false		ok	ok	
+mia-panorama-tower	follows":false		ok	ok	
+moscow-grand-kremlin-palace			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+moscow-kremlin-commandants-tower			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+moscow-kremlin-pavilions			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+mint-museum-uptown	follows":false		ok	ok	
+moscow-kremlin-taynitskaya-tower			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+moscow-kremlin-trinity-bridge			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+moscow-kremlin-wall-annunciation-taynitskaya			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+moscow-kremlin-wall-nikolskaya-middle-arsenal			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+moscow-kremlin-wall-tsars-alarm			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+msp-american-swedish-institute	follows":false		ok	ok	
+msp-allianz-field	follows":false		ok	ok	
+msp-grain-belt-sign	follows":false		ok	ok	
+msp-grand-casino-arena	follows":false		ok	ok	
+msp-hennepin-avenue-bridge	follows":false		ok	ok	
+msp-james-j-hill-house	follows":false		ok	ok	
+msp-minneapolis-central-library	follows":false		ok	ok	
+msp-huntington-bank-stadium	follows":false		ok	ok	
+msp-stone-arch-bridge	follows":false		ok	ok	
+msp-robert-street-bridge	follows":true		ok	ok	
+msp-target-center	follows":false		ok	ok	
+msp-target-field	follows":false		ok	ok	
+msp-us-bancorp-center	follows":false		ok	ok	
+munich-isartor	follows":false		ok	ok	
+munich-deutsches-museum	follows":false		ok	ok	
+msp-us-bank-stadium	follows":false		ok	ok	
+munich-allianz-arena	follows":false		ok	ok	
+music-factory-amphitheatre	follows":false		ok	ok	
+munich-schloss-nymphenburg	follows":false		ok	ok	
+munich-olympiastadion	follows":false		ok	ok	
+nash-bridgestone-tower	follows":false		ok	ok	
+nash-downtown-presbyterian	follows":false		ok	ok	
+nash-bridgestone-arena	follows":false		ok	ok	
+nash-first-horizon-park	follows":false		ok	ok	
+nash-gateway-bridge	follows":true		BURIED: 11.6 of 3467.6 m² of visible tops sit under the drawn terrain; deepest 0.45 m	ok	
+nash-geodis-park	follows":false		ok	ok	
+nash-jw-marriott	follows":false		ok	ok	
+nash-omni-hotel	follows":false		ok	ok	
+neighborhood-theatre	follows":false		ok	ok	
+nash-nissan-stadium	follows":false		ok	ok	
+nash-seigenthaler-bridge	follows":true		ok	ok	
+nash-tennessee-state-capitol	follows":false		ok	ok	
+nola-cabildo	follows":false		ok	ok	
+nola-city-park-peristyle	follows":false		ok	ok	
+nola-crescent-city-connection	follows":true		ok	ok	
+nola-caesars-superdome	follows":false		ok	ok	
+nola-hancock-whitney-center	follows":false		ok	ok	
+nola-jesuit-church	follows":false		ok	ok	
+nola-new-canal-lighthouse	follows":false		ok	ok	
+nola-plaza-tower	follows":false		ok	ok	
+nola-huey-p-long-bridge	follows":true		ok	ok	
+nola-st-louis-cathedral	follows":false		ok	ok	
+nola-smoothie-king-center	follows":false		ok	ok	
+nyc-1500-broadway-signs	follows":false		ok	ok	
+nyc-35-hudson-yards	follows":true		ok	ok	
+nyc-8-spruce	follows":false		ok	ok	
+nyc-bank-of-america-tower	follows":false		ok	ok	
+nyc-arthur-ashe-stadium	follows":false		ok	ok	
+nyc-bethesda-terrace-mall	follows":false		BURIED: 146.0 of 267.8 m² of visible tops sit under the drawn terrain; deepest 3.79 m	ok	
+nyc-bb-carousell	follows":false		ok	ok	
+nyc-bow-bridge	follows":false		ok	ok	
+nyc-brooklyn-bridge	follows":true		BURIED: 794.1 of 1588.3 m² of visible tops sit under the drawn terrain; deepest 2.67 m	ok	
+nyc-brooklyn-bridge-brooklyn-approach	follows":true		ok	ok	
+nyc-brooklyn-public-library	follows":false		ok	ok	
+nyc-duffy-square-statues	follows":false		ok	ok	
+nyc-charging-bull	follows":false		ok	ok	
+nyc-columbia-low-library	follows":false		ok	ok	
+nyc-gapstow-bridge	follows":true		ok	ok	
+nyc-george-washington-bridge	follows":true		BURIED: 139.3 of 5532.6 m² of visible tops sit under the drawn terrain; deepest 1.02 m	ok	
+nyc-hell-gate-bridge	follows":true		BURIED: 34.0 of 208.5 m² of visible tops sit under the drawn terrain; deepest 0.62 m	ok	
+nyc-jfk-terminal-7	follows":false		ok	ok	
+nyc-hoboken-terminal	follows":false		ok	ok	
+nyc-louis-armstrong-stadium	follows":false		ok	ok	
+nyc-lga-terminal-b	follows":false		ok	ok	
+nyc-madison-square-garden	follows":false		ok	ok	
+nyc-met-opera	follows":false		ok	ok	
+nyc-manhattan-bridge	follows":true		ok	ok	
+nyc-plaza-hotel	follows":false		ok	ok	
+nyc-new-york-life	follows":false		ok	ok	
+nyc-one57	follows":false		ok	ok	
+nyc-san-remo	follows":false		ok	ok	
+nyc-tsx-broadway-screen	follows":false		ok	ok	
+nyc-soarin-eagle	follows":false		ok	ok	
+nyc-st-john-the-divine	follows":false		ok	ok	
+nyc-thunderbolt	follows":false		ok	ok	
+nyc-united-nations	follows":false		ok	ok	
+nyc-verrazzano-narrows-bridge	follows":true		ok	ok	
+nyc-williamsburg-bridge	follows":true		ok	ok	
+nyc-yankee-stadium	follows":false		ok	ok	
+phl-bellevue-stratford	follows":false		ok	ok	
+phl-ben-franklin-bridge	follows":true		ok	ok	
+phl-cira-centre	follows":false		ok	ok	
+park-expo-center	follows":false		ok	ok	
+phl-fairmount-water-works	follows":false		ok	ok	
+phl-citizens-bank-park	follows":false		ok	ok	
+phl-kimmel-center	follows":false		ok	ok	
+phl-franklin-field	follows":false		ok	ok	
+phl-shot-tower	follows":false		ok	ok	
+phl-museum-american-revolution	follows":false		ok	ok	
+phl-walt-whitman-bridge	follows":false		ok	ok	
+phl-lincoln-financial-field	follows":false		ok	ok	
+phx-arizona-state-capitol	follows":false		ok	ok	
+phl-xfinity-mobile-arena	follows":false		ok	ok	
+pit-16th-street-bridge	follows":true		ok	ok	
+pit-andy-warhol-bridge	follows":true		ok	ok	
+pit-duquesne-incline	follows":true		ok	ok	
+pit-acrisure-stadium	follows":false		ok	ok	
+pit-carnegie-institute	follows":false		ok	ok	
+pit-fort-duquesne-bridge	follows":true		ok	ok	
+pit-fort-pitt-bridge	follows":true		ok	ok	
+pit-ppg-paints-arena	follows":false		ok	ok	
+pit-pnc-park	follows":false		ok	ok	
+pit-mellon-institute	follows":false		ok	ok	
+pit-rachel-carson-bridge	follows":true		ok	ok	
+pit-roberto-clemente-bridge	follows":true		ok	ok	
+pit-smithfield-united-church	follows":false		ok	ok	
+pit-union-trust-building	follows":false		ok	ok	
+pit-smithfield-street-bridge	follows":true		ok	ok	
+prague-charles-bridge			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+prague-national-theatre			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+queens-museum	follows":false		ok	ok	
+pit-west-end-bridge	follows":true		ok	ok	
+ral-christ-church			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+ral-carter-finley-stadium			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+ral-federal-building			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+ral-dorton-arena			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+ral-lenovo-center			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+ral-nc-museum-of-history			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+ral-wake-county-justice-center			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+ral-reynolds-coliseum			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+rome-castel-sant-angelo			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+sat-alamo	follows":false		ok	ok	
+sd-cabrillo-bridge	follows":true		ok	ok	
+sd-central-library	follows":false		ok	ok	
+sd-emerald-plaza	follows":false		ok	ok	
+sd-coronado-bridge	follows":true		BURIED: 30.3 of 11941.9 m² of visible tops sit under the drawn terrain; deepest 0.19 m	ok	
+sd-giant-dipper	follows":false		ok	ok	
+sd-old-point-loma-lighthouse	follows":false		ok	ok	
+sd-john-d-spreckels-building	follows":false		ok	ok	
+sd-pechanga-arena	follows":false		ok	ok	
+sd-santa-fe-depot	follows":false		ok	ok	
+sd-symphony-towers	follows":false		ok	ok	
+sd-viejas-arena	follows":false		ok	ok	
+sd-petco-park	follows":false		ok	ok	
+sd-snapdragon-stadium	follows":false		ok	ok	
+sea-central-library	follows":false		ok	ok	
+sea-great-wheel	follows":false		ok	ok	
+sea-husky-stadium	follows":false		BURIED: 3.2 of 16310.7 m² of visible tops sit under the drawn terrain; deepest 0.23 m	ok	
+sea-climate-pledge-arena	follows":false		ok	ok	
+sea-rainier-square-tower	follows":false		ok	ok	
+sea-tacoma-dome	follows":false		ok	ok	
+seoul-culture-station-284			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+sea-westin-towers	follows":false		ok	ok	
+seoul-gocheok-sky-dome			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+sea-t-mobile-park	follows":false		ok	ok	
+seoul-gyeonghoeru			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+seoul-n-seoul-tower			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+seoul-kspo-dome			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+seoul-junghwajeon			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+seoul-olympic-stadium			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+seoul-trade-tower			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+seoul-world-cup-stadium			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+sf-555-california	follows":false		ok	ok	
+sf-bay-bridge-sas	follows":false		ok	ok	
+sf-bay-bridge-west-w2	follows":false		ok	ok	
+sf-bay-bridge-west-w5	follows":false		ok	ok	
+sf-bay-bridge-west-w3	follows":false		ok	ok	
+sf-bay-bridge-west-w6	follows":false		ok	ok	
+sf-christ-the-light	follows":false		ok	ok	
+sf-ferry-building	follows":false		ok	ok	
+sf-golden-gate-bridge	follows":true		ok	ok	
+sf-mission-dolores	follows":false		ok	ok	
+sf-sentinel-building	follows":false		ok	ok	
+spectrum-center	follows":false		ok	ok	
+sf-veterans-building	follows":false		ok	ok	
+stl-gateway-arch	follows":false		ok	ok	
+sf-oracle-park	follows":false		ok	ok	
+tbilisi-bridge-of-peace			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+tbilisi-holy-trinity-cathedral			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+terrace-on-the-park	follows":false		ok	ok	
+tokyo-gate-bridge	follows":false		ok	ok	
+tokyo-kaminarimon	follows":false		ok	ok	
+tokyo-kachidoki-bridge	follows":false		ok	ok	
+tokyo-edo-tokyo-museum	follows":false		ok	ok	
+tokyo-ryogoku-kokugikan	follows":false		ok	ok	
+tokyo-rainbow-bridge	follows":false		ok	ok	
+tokyo-national-diet-building	follows":false		ok	ok	
+tokyo-tokyo-dome	follows":false		ok	ok	
+tokyo-zojoji-sanmon	follows":false		ok	ok	
+tokyo-national-stadium	follows":false		ok	ok	
+truist-field	follows":false		ok	ok	
+tokyo-yoyogi-gymnasium	follows":false		ok	ok	
+wdw-barnstormer	follows":false		ok	ok	
+wdw-contemporary-resort	follows":false		ok	ok	
+wdw-big-thunder-mountain	follows":false		BURIED: 52.4 of 6547.8 m² of visible tops sit under the drawn terrain; deepest 0.96 m	ok	
+van-canada-place	follows":false		BURIED: 60.2 of 37055.8 m² of visible tops sit under the drawn terrain; deepest 1.40 m	ok	
+wdw-epcot-cosmic-rewind	follows":false		ok	ok	
+wdw-epcot-france	follows":false		ok	ok	
+wdw-epcot-uk	follows":false		ok	ok	
+wdw-rock-n-roller-coaster	follows":false		ok	ok	
+wdw-expedition-everest	follows":false		BURIED: 5.6 of 4216.3 m² of visible tops sit under the drawn terrain; deepest 0.38 m	ok	
+wdw-seven-dwarfs-mine-train	follows":false		ok	ok	
+wdw-tower-of-terror	follows":false		ok	ok	wdw-tower-of-terror at -81.559919, 28.360007, bearing 41, elevation 0, map new, filled
+wdw-space-mountain	follows":false		ok	ok	
+wdw-slinky-dog-dash	follows":false		ok	ok	
+wonder-wheel	follows":false		ok	ok	
+yerevan-history-museum			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+yerevan-demirchyan-complex			ok	ok	154 |     if (!res.ok) throw new Error(`${url}: ${res.status}`)
+wdw-tron-lightcycle-run	follows":false		ok	ok	

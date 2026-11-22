@@ -1,4 +1,4 @@
-// Copied from Parchment (alexwohlbruck/parchment, landmarks/rigid-placement at cbd1a27b): web/src/lib/map-objects/landmark-ground.ts.
+// Copied from Parchment (alexwohlbruck/parchment, #1024 at 9c8df911): web/src/lib/map-objects/landmark-ground.ts.
 // Keep in step with it; the site's map stands models on the terrain the way Parchment does.
 /**
  * How a landmark's model meets the map's terrain: as one rigid body, never
