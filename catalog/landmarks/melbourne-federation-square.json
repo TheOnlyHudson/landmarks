@@ -1,0 +1,28 @@
+{
+  "id": "melbourne-federation-square",
+  "name": "Federation Square",
+  "model": "melbourne-federation-square",
+  "place": "melbourne",
+  "lng": 144.9692,
+  "lat": -37.8177,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/800163541",
+    "way/22963244",
+    "way/22963246",
+    "way/22963266",
+    "way/1489432440",
+    "way/46330906",
+    "way/46330935",
+    "way/275175953",
+    "way/22963243",
+    "way/778486279",
+    "way/420153509",
+    "way/22963268",
+    "way/22963353",
+    "way/406695495",
+    "way/778473772"
+  ]
+}
