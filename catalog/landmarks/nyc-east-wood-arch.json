@@ -1,0 +1,12 @@
+{
+  "id": "nyc-east-wood-arch",
+  "name": "East Wood Arch",
+  "model": "nyc-east-wood-arch",
+  "place": "prospect-park",
+  "lng": -73.966467,
+  "lat": 40.665873,
+  "bearing": 44.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

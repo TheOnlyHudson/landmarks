@@ -1,0 +1,22 @@
+{
+  "id": "pdx-us-bancorp-tower",
+  "name": "U.S. Bancorp Tower",
+  "model": "pdx-us-bancorp-tower",
+  "place": "portland-or-area",
+  "lng": -122.6761858,
+  "lat": 45.5223138,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/1227505777",
+    "way/1227505778",
+    "way/31732578",
+    "way/1227505775",
+    "way/1227505776",
+    "way/1567208928",
+    "way/1567208929",
+    "way/1567208930",
+    "way/1567208931"
+  ]
+}

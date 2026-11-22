@@ -1,0 +1,48 @@
+{
+  "id": "indy-victory-field",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "ballpark",
+    "baseball",
+    "stadium"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Victory Field panorama, 2019.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Victory_Field_panorama,_2019.jpg",
+      "author": "styrofoamjes",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Victory Field Left Field.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Victory_Field_Left_Field.jpg",
+      "author": "Yonikasz",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Victory Field - 2011-06-18.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Victory_Field_-_2011-06-18.jpg",
+      "author": "Chad Bowman",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/indy-victory-field.glb",
+  "source": "generators/indy-victory-field.ts"
+}

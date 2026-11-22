@@ -1,0 +1,12 @@
+{
+  "id": "nyc-meadowport-arch",
+  "name": "Meadowport Arch",
+  "model": "nyc-meadowport-arch",
+  "place": "prospect-park",
+  "lng": -73.970693,
+  "lat": 40.670711,
+  "bearing": 155.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

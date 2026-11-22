@@ -1,0 +1,111 @@
+{
+  "id": "nyc-gracie-mansion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "house",
+    "federal-style",
+    "residence",
+    "museum"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Gracie Mansion is the official residence of the mayor of the City of New York, New York LCCN2011632135.tif",
+      "url": "https://commons.wikimedia.org/wiki/File:Gracie_Mansion_is_the_official_residence_of_the_mayor_of_the_City_of_New_York,_New_York_LCCN2011632135.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "Gracie Mansion snow jeh.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gracie_Mansion_snow_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    },
+    {
+      "title": "Gracie East front summer jeh.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gracie_East_front_summer_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    },
+    {
+      "title": "Gracie Mansion (3570483716).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gracie_Mansion_(3570483716).jpg",
+      "author": "Karen Apricot",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Gracie Mansion (3570483518).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gracie_Mansion_(3570483518).jpg",
+      "author": "Karen Apricot",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Gracie Mansion (4572240397).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gracie_Mansion_(4572240397).jpg",
+      "author": "Shinya Suzuki",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Gracie Mansion (4906895387).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gracie_Mansion_(4906895387).jpg",
+      "author": "Karl Palutke",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Gracie-mansion-2007.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Gracie-mansion-2007.jpg",
+      "author": "Dmadeo",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Police outside Gracie Mansion (74983).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Police_outside_Gracie_Mansion_(74983).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "GENERAL VIEW FROM NORTHEAST SHOWING HOUSE AND ENVIRONS - Gracie Mansion, HABS NY,31-NEYO,46-5",
+      "url": "https://commons.wikimedia.org/wiki/File:GENERAL_VIEW_FROM_NORTHEAST_SHOWING_HOUSE_AND_ENVIRONS_-_Gracie_Mansion,_Carl_Schurz_Park,_East_Sixty-eighth_Street,_New_York,_New_York_County,_NY_HABS_NY,31-NEYO,46-5.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "EAST SIDE - Gracie Mansion, HABS NY,31-NEYO,46-8",
+      "url": "https://commons.wikimedia.org/wiki/File:EAST_SIDE_-_Gracie_Mansion,_Carl_Schurz_Park,_East_Sixty-eighth_Street,_New_York,_New_York_County,_NY_HABS_NY,31-NEYO,46-8.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "WEST SIDE - Gracie Mansion, HABS NY,31-NEYO,46-9",
+      "url": "https://commons.wikimedia.org/wiki/File:WEST_SIDE_-_Gracie_Mansion,_Carl_Schurz_Park,_East_Sixty-eighth_Street,_New_York,_New_York_County,_NY_HABS_NY,31-NEYO,46-9.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "SOUTHEAST CORNER - Gracie Mansion, HABS NY,31-NEYO,46-10",
+      "url": "https://commons.wikimedia.org/wiki/File:SOUTHEAST_CORNER_-_Gracie_Mansion,_Carl_Schurz_Park,_East_Sixty-eighth_Street,_New_York,_New_York_County,_NY_HABS_NY,31-NEYO,46-10.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nyc-gracie-mansion.glb",
+  "source": "generators/nyc-gracie-mansion.ts"
+}

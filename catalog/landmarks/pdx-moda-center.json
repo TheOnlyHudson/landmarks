@@ -1,0 +1,14 @@
+{
+  "id": "pdx-moda-center",
+  "name": "Moda Center",
+  "model": "pdx-moda-center",
+  "place": "portland-or-area",
+  "lng": -122.666837,
+  "lat": 45.531599,
+  "bearing": 348.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/24635906"
+  ]
+}

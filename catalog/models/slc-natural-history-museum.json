@@ -1,0 +1,55 @@
+{
+  "id": "slc-natural-history-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "modern",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q3915972",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Rio Tinto Building 4944",
+      "url": "https://commons.wikimedia.org/wiki/File:Rio_Tinto_Building_4944.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Main Entrance 4952 panorama",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_Entrance_4952_panorama.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "NHM Rio Tinto Center 4134",
+      "url": "https://commons.wikimedia.org/wiki/File:NHM_Rio_Tinto_Center_4134.jpg",
+      "author": "gillfoto",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "NHM Rio Tinto Center 4135",
+      "url": "https://commons.wikimedia.org/wiki/File:NHM_Rio_Tinto_Center_4135.jpg",
+      "author": "gillfoto",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-natural-history-museum.glb",
+  "source": "generators/slc-natural-history-museum.ts"
+}

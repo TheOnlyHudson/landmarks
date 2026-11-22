@@ -1,0 +1,15 @@
+{
+  "id": "indy-newfields",
+  "name": "Newfields (Indianapolis Museum of Art)",
+  "model": "indy-newfields",
+  "place": "indianapolis-area",
+  "wikidata": "Q1117704",
+  "lng": -86.1856651,
+  "lat": 39.8260336,
+  "bearing": 7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/58253291"
+  ]
+}

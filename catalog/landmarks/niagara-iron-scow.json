@@ -1,0 +1,13 @@
+{
+  "id": "niagara-iron-scow",
+  "name": "Niagara Scow",
+  "model": "niagara-iron-scow",
+  "place": "niagara-falls",
+  "wikidata": "Q14875347",
+  "lng": -79.071434,
+  "lat": 43.073221,
+  "bearing": 337.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

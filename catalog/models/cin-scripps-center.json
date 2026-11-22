@@ -1,0 +1,54 @@
+{
+  "id": "cin-scripps-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "glass",
+    "office"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "A 1990 office tower: a deep beige stone block with a dark glass front stepping back in curved tiers to a glass drum, split by a black slot.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Scripps Center.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Scripps_Center.jpg",
+      "author": "Jere Keys",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Scripps Building from Carew Tower.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Scripps_Building_from_Carew_Tower.JPG",
+      "author": "Keith Lanser",
+      "license": "Public domain"
+    },
+    {
+      "title": "Scripps Building.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Scripps_Building.JPG",
+      "author": "Keith Lanser",
+      "license": "Public domain"
+    },
+    {
+      "title": "Cincinnati-scripps-center.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati-scripps-center.jpg",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/cin-scripps-center.glb",
+  "source": "generators/cin-scripps-center.ts"
+}

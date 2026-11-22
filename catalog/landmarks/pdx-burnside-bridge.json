@@ -1,0 +1,17 @@
+{
+  "id": "pdx-burnside-bridge",
+  "name": "Burnside Bridge",
+  "model": "pdx-burnside-bridge",
+  "place": "portland-or-area",
+  "lng": -122.6671245,
+  "lat": 45.523038,
+  "bearing": 91.99,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q5000125",
+  "replaces": [
+    "way/863983396",
+    "way/392706130",
+    "way/392706131"
+  ]
+}

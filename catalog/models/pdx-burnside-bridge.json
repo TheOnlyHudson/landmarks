@@ -1,0 +1,48 @@
+{
+  "id": "pdx-burnside-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bascule",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q5000125",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Burnside Bridge (south side) with motorboats.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Burnside_Bridge_(south_side)_with_motorboats.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Burnside Bridge east tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Burnside_Bridge_east_tower.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Burnside Bridge (north side) with Portland Spirit passing under.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Burnside_Bridge_(north_side)_with_Portland_Spirit_passing_under.jpg",
+      "author": "Steve Morgan",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/pdx-burnside-bridge.glb",
+  "source": "generators/pdx-burnside-bridge.ts"
+}

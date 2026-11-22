@@ -1,0 +1,15 @@
+{
+  "id": "pdx-portland-building",
+  "name": "The Portland Building",
+  "model": "pdx-portland-building",
+  "place": "portland-or-area",
+  "wikidata": "Q7231890",
+  "lng": -122.6786909,
+  "lat": 45.5156671,
+  "bearing": 20.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/141453092"
+  ]
+}

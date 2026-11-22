@@ -1,0 +1,61 @@
+{
+  "id": "nyc-glen-span-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Glen Span Arch (01647)",
+      "url": "https://commons.wikimedia.org/wiki/File:Glen_Span_Arch_(01647).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Glen Span in Central Park 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Glen_Span_in_Central_Park_1.jpg",
+      "author": "Jay Dobkin",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Glen Span in Central Park Feb 5 2018 08",
+      "url": "https://commons.wikimedia.org/wiki/File:Glen_Span_in_Central_Park_Feb_5_2018_08.jpg",
+      "author": "Jay Dobkin",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Central Park May 2019 35",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_May_2019_35.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Central Park looking west through Glen Span 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_looking_west_through_Glen_Span_02.jpg",
+      "author": "Jay Dobkin",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-glen-span-arch.glb",
+  "source": "generators/nyc-glen-span-arch.ts"
+}

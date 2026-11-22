@@ -1,0 +1,41 @@
+{
+  "id": "indy-eiteljorg-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Indianapolis, eiteljorg museum, esterno 00 - cropped.jpg",
+      "author": "Sailko",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indianapolis,_eiteljorg_museum,_esterno_00_-_cropped.jpg"
+    },
+    {
+      "title": "Eiteljorg Museum of American Indians and Western Art 2024 jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Eiteljorg_Museum_of_American_Indians_and_Western_Art_2024_jeh.jpg"
+    }
+  ],
+  "file": "models/indy-eiteljorg-museum.glb",
+  "source": "generators/indy-eiteljorg-museum.ts"
+}

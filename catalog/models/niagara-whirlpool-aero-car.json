@@ -1,0 +1,56 @@
+{
+  "id": "niagara-whirlpool-aero-car",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "ride",
+  "tags": [
+    "historic",
+    "cable-car",
+    "aerial-tramway",
+    "torres-quevedo",
+    "gorge"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Niagara Whirlpool with aerocar.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Niagara_Whirlpool_with_aerocar.JPG",
+      "author": "Ad Meskens",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Whirlpool Aero Car from station.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Whirlpool_Aero_Car_from_station.jpeg",
+      "author": "Dough4872",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Whirlpool Aero Car, Niagara Falls 2026.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Whirlpool_Aero_Car,_Niagara_Falls_2026.jpg",
+      "author": "Chicken4War",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Whirlpool Aero Car (21964914820).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Whirlpool_Aero_Car_(21964914820).jpg",
+      "author": "Larry Koester",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/niagara-whirlpool-aero-car.glb",
+  "source": "generators/niagara-whirlpool-aero-car.ts"
+}

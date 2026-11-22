@@ -1,0 +1,14 @@
+{
+  "id": "niagara-observation-tower",
+  "name": "Prospect Point Observation Tower",
+  "model": "niagara-observation-tower",
+  "place": "niagara-falls",
+  "lng": -79.068807,
+  "lat": 43.086938,
+  "bearing": 32,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/241500748"
+  ]
+}

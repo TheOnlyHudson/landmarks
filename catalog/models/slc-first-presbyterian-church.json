@@ -1,0 +1,55 @@
+{
+  "id": "slc-first-presbyterian-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q85761071",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "First Presbyterian Church - Salt Lake City 01",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Presbyterian_Church_-_Salt_Lake_City_01.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "First Presbyterian Church - Salt Lake City 02",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Presbyterian_Church_-_Salt_Lake_City_02.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "First Presbyterian Church - Salt Lake City 03",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Presbyterian_Church_-_Salt_Lake_City_03.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "First Presbyterian Church - Salt Lake City, Utah - 27 April 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Presbyterian_Church_-_Salt_Lake_City,_Utah_-_27_April_2025.jpg",
+      "author": "Beneathtimp",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/slc-first-presbyterian-church.glb",
+  "source": "generators/slc-first-presbyterian-church.ts"
+}

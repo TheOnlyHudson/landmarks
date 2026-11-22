@@ -1,0 +1,29 @@
+{
+  "id": "niagara-fallsview-casino",
+  "name": "Fallsview Casino Resort",
+  "model": "niagara-fallsview-casino",
+  "place": "niagara-falls",
+  "lng": -79.080755,
+  "lat": 43.082478,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/808104046",
+    "way/231787196",
+    "way/807638406",
+    "way/1093989135",
+    "way/1093989136",
+    "way/1093989137",
+    "way/1093989138",
+    "way/1093989139",
+    "way/1093989140",
+    "way/1093989141",
+    "way/1093989142",
+    "way/1093989143",
+    "way/1093989144",
+    "way/1093989145",
+    "way/1093989146",
+    "way/1093989147"
+  ]
+}

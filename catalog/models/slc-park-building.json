@@ -1,0 +1,54 @@
+{
+  "id": "slc-park-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "neoclassical",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "John R. Park Building (36017240333)",
+      "url": "https://commons.wikimedia.org/wiki/File:John_R._Park_Building_(36017240333).jpg",
+      "author": "Ben P L",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "John R. Park Building (36017239773)",
+      "url": "https://commons.wikimedia.org/wiki/File:John_R._Park_Building_(36017239773).jpg",
+      "author": "Ben P L",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "John R. Park Building - front - 25 August 2012",
+      "url": "https://commons.wikimedia.org/wiki/File:John_R._Park_Building_-_front_-_25_August_2012.JPG",
+      "author": "Mangoman88",
+      "license": "CC0"
+    },
+    {
+      "title": "Park Building UofU Nov 2010",
+      "url": "https://commons.wikimedia.org/wiki/File:Park_Building_UofU_Nov_2010.jpg",
+      "author": "Scott Catron",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/slc-park-building.glb",
+  "source": "generators/slc-park-building.ts"
+}

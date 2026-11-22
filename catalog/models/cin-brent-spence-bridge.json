@@ -1,0 +1,56 @@
+{
+  "id": "cin-brent-spence-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "cantilever-bridge",
+    "truss-bridge",
+    "double-deck",
+    "interstate"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The 1963 Brent Spence Bridge carrying I-71 and I-75 over the Ohio between Cincinnati and Covington: a grey-green double-deck cantilever truss with humps over its two river piers.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brent Spence Bridge 2025a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Brent_Spence_Bridge_2025a.jpg",
+      "author": "Antony-22",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Brent Spence Bridge 2018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Brent_Spence_Bridge_2018.jpg",
+      "author": "Antony-22",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Brent Spence Bridge Covington Kentucky.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Brent_Spence_Bridge_Covington_Kentucky.JPG",
+      "author": "Dwight Burdette",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "title": "Brent Spence Bridge P4280232.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Brent_Spence_Bridge_P4280232.jpg",
+      "author": "Chris Light",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/cin-brent-spence-bridge.glb",
+  "source": "generators/cin-brent-spence-bridge.ts"
+}

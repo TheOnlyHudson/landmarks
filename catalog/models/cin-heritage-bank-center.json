@@ -1,0 +1,47 @@
+{
+  "id": "cin-heritage-bank-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "riverfront"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Cincinnati's 1975 riverfront arena (Riverfront Coliseum, later U.S. Bank Arena): a low round-cornered box of white panels between grey piers under a blue fascia and a shallow hipped roof.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Heritage Bank Center.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Heritage_Bank_Center.jpg",
+      "author": "Ianbolender",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Cincinnati-us-bank-arena.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati-us-bank-arena.jpg",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Heritage Bank Center (cropped).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Heritage_Bank_Center_(cropped).jpg",
+      "author": "Ianbolender",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/cin-heritage-bank-center.glb",
+  "source": "generators/cin-heritage-bank-center.ts"
+}

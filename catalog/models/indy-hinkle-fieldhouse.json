@@ -1,0 +1,43 @@
+{
+  "id": "indy-hinkle-fieldhouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "arena",
+    "sports",
+    "university",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hinkle Fieldhouse - 01-2012.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hinkle_Fieldhouse_-_01-2012.jpg",
+      "author": "Richie Diesterheft",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "The Field House, Butler University, Indianapolis, Indiana (74725).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Field_House,_Butler_University,_Indianapolis,_Indiana_(74725).jpg",
+      "author": "Tichnor Brothers, Publisher",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/indy-hinkle-fieldhouse.glb",
+  "source": "generators/indy-hinkle-fieldhouse.ts"
+}

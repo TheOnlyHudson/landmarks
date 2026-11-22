@@ -1,0 +1,49 @@
+{
+  "id": "niagara-parks-power-station",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "power-station",
+    "museum",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Niagara Parks Power Station 2023a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Niagara_Parks_Power_Station_2023a.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Niagara Parks Power Station 2023b.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Niagara_Parks_Power_Station_2023b.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Rankine Generating Station.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rankine_Generating_Station.jpg",
+      "author": "Peter Broster",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/niagara-parks-power-station.glb",
+  "source": "generators/niagara-parks-power-station.ts"
+}

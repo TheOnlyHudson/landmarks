@@ -1,0 +1,49 @@
+{
+  "id": "nyc-greyshot-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Greyshot arch W62 east CP cloudy",
+      "url": "https://commons.wikimedia.org/wiki/File:Greyshot_arch_W62_east_CP_cloudy_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Greyshot arch W62 west",
+      "url": "https://commons.wikimedia.org/wiki/File:Greyshot_arch_W62_west_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "61st St arch Central Park",
+      "url": "https://commons.wikimedia.org/wiki/File:61st_St_arch_Central_Park_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/nyc-greyshot-arch.glb",
+  "source": "generators/nyc-greyshot-arch.ts"
+}

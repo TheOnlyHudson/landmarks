@@ -1,0 +1,15 @@
+{
+  "id": "niagara-michigan-central-railway-bridge",
+  "name": "Michigan Central Railway Bridge",
+  "model": "niagara-michigan-central-railway-bridge",
+  "place": "niagara-falls",
+  "lng": -79.058233,
+  "lat": 43.108603,
+  "bearing": 70.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/937900550"
+  ],
+  "wikidata": "Q6837479"
+}

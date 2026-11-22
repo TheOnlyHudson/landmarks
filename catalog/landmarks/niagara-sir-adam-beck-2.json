@@ -1,0 +1,12 @@
+{
+  "id": "niagara-sir-adam-beck-2",
+  "name": "Sir Adam Beck II Generating Station",
+  "model": "niagara-sir-adam-beck-2",
+  "place": "niagara-falls",
+  "lng": -79.04399,
+  "lat": 43.14591,
+  "bearing": 359.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": []
+}

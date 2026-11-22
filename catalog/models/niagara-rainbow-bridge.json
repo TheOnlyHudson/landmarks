@@ -1,0 +1,48 @@
+{
+  "id": "niagara-rainbow-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "arch-bridge",
+    "border-crossing"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Rainbow Bridge (Niagara Falls).jpg",
+      "author": "APK",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_(Niagara_Falls).jpg"
+    },
+    {
+      "title": "Lewiston-Queenston Bridge from water.jpg (shows the Rainbow Bridge)",
+      "author": "evoflash (Flickr)",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lewiston-Queenston_Bridge_from_water.jpg"
+    },
+    {
+      "title": "Rainbow Bridge, Niagara Falls (460331) (9449311344).jpg",
+      "author": "Robert Linsdell",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge,_Niagara_Falls_(460331)_(9449311344).jpg"
+    }
+  ],
+  "file": "models/niagara-rainbow-bridge.glb",
+  "source": "generators/niagara-rainbow-bridge.ts"
+}

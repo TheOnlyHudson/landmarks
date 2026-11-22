@@ -1,0 +1,48 @@
+{
+  "id": "niagara-seneca-niagara-casino",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "casino",
+    "hotel",
+    "skyscraper"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Seneca Niagara Casino Tower.jpg",
+      "author": "Buffalutheran",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Seneca_Niagara_Casino_Tower.jpg"
+    },
+    {
+      "title": "Seneca Niagara Casino Hotel and Tower.jpg",
+      "author": "Whpq",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Seneca_Niagara_Casino_Hotel_and_Tower.jpg"
+    },
+    {
+      "title": "Seneca Niagara Casino in Niagara Falls, NY IMG 1320.JPG",
+      "author": "Billy Hathorn",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Seneca_Niagara_Casino_in_Niagara_Falls,_NY_IMG_1320.JPG"
+    }
+  ],
+  "file": "models/niagara-seneca-niagara-casino.glb",
+  "source": "generators/niagara-seneca-niagara-casino.ts"
+}

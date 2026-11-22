@@ -1,0 +1,57 @@
+{
+  "id": "nyc-tavern-on-the-green",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "victorian-gothic",
+    "brick",
+    "restaurant",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tavern on the Green Central Park",
+      "url": "https://www.flickr.com/photos/189150477@N03/50068925283",
+      "author": "central park4",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Central Park during the New York City Snow February 2026 Featuring Tavern on the Green.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_during_the_New_York_City_Snow_February_2026_Featuring_Tavern_on_the_Green.jpg",
+      "author": "Colleen Sturtevant",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Tavern on the Green cloudy jeh.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Tavern_on_the_Green_cloudy_jeh.JPG",
+      "author": "Jim.henderson",
+      "license": "Public domain"
+    },
+    {
+      "title": "Tavern on the Green - Central Park (5640746624).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tavern_on_the_Green_-_Central_Park_(5640746624).jpg",
+      "author": "Larry from Charlottetown",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nyc-tavern-on-the-green.glb",
+  "source": "generators/nyc-tavern-on-the-green.ts"
+}

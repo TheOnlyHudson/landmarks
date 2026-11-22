@@ -1,0 +1,49 @@
+{
+  "id": "nyc-dipway-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Outside Dipway Arch",
+      "url": "https://commons.wikimedia.org/wiki/File:Outside_Dipway_Arch_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Dipway Arch, Manhattan, New York, US",
+      "url": "https://commons.wikimedia.org/wiki/File:Dipway_Arch,_Manhattan,_New_York,_US.jpg",
+      "author": "Clyde Charles Brown",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Dipway east brick arch",
+      "url": "https://commons.wikimedia.org/wiki/File:Dipway_east_brick_arch_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/nyc-dipway-arch.glb",
+  "source": "generators/nyc-dipway-arch.ts"
+}

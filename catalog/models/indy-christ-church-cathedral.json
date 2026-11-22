@@ -1,0 +1,48 @@
+{
+  "id": "indy-christ-church-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Catedral iglesia de Cristo, Indianápolis, Estados Unidos, 2012-10-22, DD 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Catedral_iglesia_de_Cristo,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_01.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "A view of Christ Church Cathedral Indianapolis on Monument Circle.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:A_view_of_Christ_Church_Cathedral_Indianapolis_on_Monument_Circle.jpg",
+      "author": "bob",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Christ Church Cathedral, Indianapolis - Jan 2012.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Cathedral,_Indianapolis_-_Jan_2012.jpg",
+      "author": "Richie Diesterheft",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/indy-christ-church-cathedral.glb",
+  "source": "generators/indy-christ-church-cathedral.ts"
+}

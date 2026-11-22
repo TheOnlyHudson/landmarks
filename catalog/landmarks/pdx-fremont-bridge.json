@@ -1,0 +1,15 @@
+{
+  "id": "pdx-fremont-bridge",
+  "name": "Fremont Bridge",
+  "model": "pdx-fremont-bridge",
+  "place": "portland-or-area",
+  "lng": -122.6825872,
+  "lat": 45.5382761,
+  "bearing": 40.3,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q3396538",
+  "replaces": [
+    "way/392823310"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "slc-salt-lake-tabernacle",
+  "name": "Salt Lake Tabernacle",
+  "model": "slc-salt-lake-tabernacle",
+  "place": "salt-lake-city-area",
+  "lng": -111.8931214,
+  "lat": 40.770432,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/33162308"
+  ]
+}

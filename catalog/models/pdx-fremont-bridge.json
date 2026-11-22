@@ -1,0 +1,56 @@
+{
+  "id": "pdx-fremont-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "arch",
+    "highway"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/pdx-fremont-bridge.detail.glb",
+  "detailZoom": 16,
+  "wikidata": "Q3396538",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "FremontBridgePano.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:FremontBridgePano.jpg",
+      "author": "Cacophony",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "USACE Fremont Bridge Portland (cropped).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:USACE_Fremont_Bridge_Portland_(cropped).jpg",
+      "author": "Bob Heims, U.S. Army Corps of Engineers",
+      "license": "Public domain"
+    },
+    {
+      "title": "Fremont Bridge from The Fields - Portland, Oregon.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Fremont_Bridge_from_The_Fields_-_Portland,_Oregon.JPG",
+      "author": "M.O. Stevens",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Fremont Bridge approaches - Portland, Oregon.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fremont_Bridge_approaches_-_Portland,_Oregon.jpg",
+      "author": "M.O. Stevens",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/pdx-fremont-bridge.glb",
+  "source": "generators/pdx-fremont-bridge.ts"
+}

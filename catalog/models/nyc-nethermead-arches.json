@@ -1,0 +1,61 @@
+{
+  "id": "nyc-nethermead-arches",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "olmsted-vaux",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Nethermead Arches, from Robert N. Dennis collection of stereoscopic views",
+      "url": "https://commons.wikimedia.org/wiki/File:Nethermead_Arches,_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg",
+      "author": "Unknown (NYPL)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Prospect Park Brooklyn Mar 2019 50",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Mar_2019_50.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Mar 2019 51",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Mar_2019_51.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Mar 2019 61",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Mar_2019_61.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Couple under snowy arch",
+      "url": "https://commons.wikimedia.org/wiki/File:Couple_under_snowy_arch.jpg",
+      "author": "Sgreene24",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-nethermead-arches.glb",
+  "source": "generators/nyc-nethermead-arches.ts"
+}

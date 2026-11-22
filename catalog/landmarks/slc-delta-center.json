@@ -1,0 +1,24 @@
+{
+  "id": "slc-delta-center",
+  "name": "Delta Center",
+  "model": "slc-delta-center",
+  "place": "salt-lake-city-area",
+  "lng": -111.901113,
+  "lat": 40.768258,
+  "bearing": 45,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/23335190",
+    "way/735253949",
+    "way/735253950",
+    "way/735253951",
+    "way/735253952",
+    "way/735253953",
+    "way/735253954",
+    "way/735253955",
+    "way/735253956",
+    "way/735253957",
+    "way/735253958"
+  ]
+}

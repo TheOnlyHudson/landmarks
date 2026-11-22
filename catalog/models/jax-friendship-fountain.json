@@ -1,0 +1,48 @@
+{
+  "id": "jax-friendship-fountain",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "fountain",
+  "tags": [
+    "fountain",
+    "park",
+    "riverfront"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Jax Friendship Fountain 2012.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jax_Friendship_Fountain_2012.jpg",
+      "author": "Mgreason",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "FFountainJax2011.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:FFountainJax2011.jpg",
+      "author": "Excel23",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Jacksonville Friendship Fountain.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jacksonville_Friendship_Fountain.jpg",
+      "author": "Jonathan Zander (Digon3)",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/jax-friendship-fountain.glb",
+  "source": "generators/jax-friendship-fountain.ts"
+}

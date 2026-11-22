@@ -1,0 +1,12 @@
+{
+  "id": "nyc-cp-bridge-24",
+  "name": "Bridge No. 24",
+  "model": "nyc-cp-bridge-24",
+  "place": "central-park",
+  "lng": -73.962682,
+  "lat": 40.781976,
+  "bearing": 299.9,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

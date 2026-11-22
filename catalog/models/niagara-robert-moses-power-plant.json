@@ -1,0 +1,49 @@
+{
+  "id": "niagara-robert-moses-power-plant",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "power-station",
+    "hydroelectric",
+    "industrial",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Robert Moses Niagara Power Plant.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Moses_Niagara_Power_Plant.jpg",
+      "author": "Gogerr",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Robert Moses Niagara Hydroelectric Power Station, New York, United States.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Moses_Niagara_Hydroelectric_Power_Station,_New_York,_United_States.jpg",
+      "author": "Kokkarani",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Robert Moses Power Station from south, July 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Moses_Power_Station_from_south,_July_2023.jpg",
+      "author": "Mr. Matté",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/niagara-robert-moses-power-plant.glb",
+  "source": "generators/niagara-robert-moses-power-plant.ts"
+}

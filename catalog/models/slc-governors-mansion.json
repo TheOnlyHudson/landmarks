@@ -1,0 +1,56 @@
+{
+  "id": "slc-governors-mansion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "house",
+    "chateauesque",
+    "government"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q7902369",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Kearns Mansion Salt Lake City",
+      "url": "https://commons.wikimedia.org/wiki/File:Kearns_Mansion_Salt_Lake_City.jpeg",
+      "author": "Tricia Simpson",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Governor's Mansion Salt Lake City Utah",
+      "url": "https://commons.wikimedia.org/wiki/File:Governor%27s_Mansion_Salt_Lake_City_Utah.jpg",
+      "author": "Alede2010",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Governor's mansion, Salt Lake City, Utah LCCN2011633121",
+      "url": "https://commons.wikimedia.org/wiki/File:Governor%27s_mansion,_Salt_Lake_City,_Utah_LCCN2011633121.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    },
+    {
+      "title": "Governor's Mansion, Salt Lake City, Utah LCCN2011633359",
+      "url": "https://commons.wikimedia.org/wiki/File:Governor%27s_Mansion,_Salt_Lake_City,_Utah_LCCN2011633359.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/slc-governors-mansion.glb",
+  "source": "generators/slc-governors-mansion.ts"
+}

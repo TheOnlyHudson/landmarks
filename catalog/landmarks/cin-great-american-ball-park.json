@@ -1,0 +1,21 @@
+{
+  "id": "cin-great-american-ball-park",
+  "name": "Great American Ball Park",
+  "model": "cin-great-american-ball-park",
+  "place": "cincinnati-area",
+  "lng": -84.50672,
+  "lat": 39.09736,
+  "bearing": 121,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q979975",
+  "replaces": [
+    "way/31009336",
+    "way/31009349",
+    "way/35116609",
+    "way/199162430",
+    "way/199162432",
+    "way/199162434",
+    "way/199162436"
+  ]
+}

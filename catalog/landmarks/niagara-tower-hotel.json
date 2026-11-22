@@ -1,0 +1,18 @@
+{
+  "id": "niagara-tower-hotel",
+  "name": "The Tower Hotel",
+  "model": "niagara-tower-hotel",
+  "place": "niagara-falls",
+  "lng": -79.08222,
+  "lat": 43.079086,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/808108221",
+    "way/421320093",
+    "way/1012633610",
+    "way/1012633609",
+    "way/1012633608"
+  ]
+}

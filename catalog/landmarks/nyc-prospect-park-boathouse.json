@@ -1,0 +1,14 @@
+{
+  "id": "nyc-prospect-park-boathouse",
+  "name": "Prospect Park Boathouse",
+  "model": "nyc-prospect-park-boathouse",
+  "place": "prospect-park",
+  "lng": -73.965281,
+  "lat": 40.660823,
+  "bearing": 7.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/241846597"
+  ]
+}

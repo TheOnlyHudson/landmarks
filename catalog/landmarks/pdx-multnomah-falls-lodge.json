@@ -1,0 +1,14 @@
+{
+  "id": "pdx-multnomah-falls-lodge",
+  "name": "Multnomah Falls Lodge",
+  "model": "pdx-multnomah-falls-lodge",
+  "place": "columbia-river-gorge",
+  "lng": -122.117444,
+  "lat": 45.577383,
+  "bearing": 348.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/66744522"
+  ]
+}

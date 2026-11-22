@@ -1,0 +1,43 @@
+{
+  "id": "indy-crown-hill-gothic-chapel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "chapel",
+    "gothic-revival",
+    "historic",
+    "cemetery"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Gothic Chapel at Crown Hill Cemetery.jpg",
+      "author": "Upstateherd",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Gothic_Chapel_at_Crown_Hill_Cemetery.jpg"
+    },
+    {
+      "title": "Crown Hill Cemetery - January 2012 06.jpg",
+      "author": "Richie Diesterheft",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Crown_Hill_Cemetery_-_January_2012_06.jpg"
+    }
+  ],
+  "file": "models/indy-crown-hill-gothic-chapel.glb",
+  "source": "generators/indy-crown-hill-gothic-chapel.ts"
+}

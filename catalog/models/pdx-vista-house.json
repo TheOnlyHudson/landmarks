@@ -1,0 +1,49 @@
+{
+  "id": "pdx-vista-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "observatory",
+    "art-nouveau",
+    "columbia-river-highway"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Crown Point Vista House",
+      "url": "https://commons.wikimedia.org/wiki/File:Crown_Point_Vista_House.jpg",
+      "author": "Josh B",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Vista House and lot",
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_House_and_lot.jpg",
+      "author": "Kevin Payravi",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Southwest elevation of Vista House (HAER ORE,26-TROUT.V,1D-5)",
+      "url": "https://commons.wikimedia.org/wiki/File:SOUTHWEST_ELEVATION_OF_VISTA_HOUSE,_LOOKING_68_DEGREES_EAST-NORTHEAST._-_Historic_Columbia_River_Highway,_Crown_Point,_East_of_Corbett,_Troutdale,_Multnomah_County,_OR_HAER_ORE,26-TROUT.V,1D-5.tif",
+      "author": "Historic American Engineering Record",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pdx-vista-house.glb",
+  "source": "generators/pdx-vista-house.ts"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "jax-treaty-oak",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landscape",
+  "tags": [
+    "tree",
+    "natural-monument",
+    "park",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Treaty Oak, Jacksonville Florida (26709370248).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Treaty_Oak,_Jacksonville_Florida_(26709370248).jpg",
+      "author": "Lorie Shaull",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Jax FL Treaty Oak01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jax_FL_Treaty_Oak01.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Treaty Oak.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Treaty_Oak.JPG",
+      "author": "3bCat",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/jax-treaty-oak.glb",
+  "source": "generators/jax-treaty-oak.ts"
+}
