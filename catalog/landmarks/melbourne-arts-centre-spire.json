@@ -1,0 +1,15 @@
+{
+  "id": "melbourne-arts-centre-spire",
+  "name": "Arts Centre Melbourne Spire",
+  "model": "melbourne-arts-centre-spire",
+  "place": "melbourne",
+  "lng": 144.968426,
+  "lat": -37.821496,
+  "bearing": 0,
+  "elevation": 15,
+  "minzoom": 14,
+  "replaces": [
+    "way/271670390",
+    "way/272730480"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "melbourne-arts-centre-spire",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "spire",
+    "arts-centre",
+    "lattice"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Arts Centre, Melbourne, north view",
+      "url": "https://commons.wikimedia.org/wiki/File:Arts_Centre,_Melbourne,_north_view_20230219_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Arts Spire",
+      "url": "https://commons.wikimedia.org/wiki/File:Arts_Spire.jpg",
+      "author": "Darius Family",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Art Centre Spire Detail",
+      "url": "https://commons.wikimedia.org/wiki/File:Art_Centre_Spire_Detail_(4508414014).jpg",
+      "author": "Rexness",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Arts Centre Spire from footpath 2010",
+      "url": "https://commons.wikimedia.org/wiki/File:Arts_Centre_Spire_from_footpath_2010.JPG",
+      "author": "Tangerineduel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Arts Centre, Melbourne",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Arts_Centre,_Melbourne.jpg",
+      "author": "Johntorcasio",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "ACM Spire in blue",
+      "url": "https://commons.wikimedia.org/wiki/File:ACM_Spire_in_blue.jpg",
+      "author": "Apacasstcur",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "detail": "models/melbourne-arts-centre-spire.detail.glb",
+  "detailZoom": 16,
+  "file": "models/melbourne-arts-centre-spire.glb",
+  "source": "generators/melbourne-arts-centre-spire.ts"
+}
