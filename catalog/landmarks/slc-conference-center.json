@@ -1,0 +1,15 @@
+{
+  "id": "slc-conference-center",
+  "name": "Conference Center",
+  "model": "slc-conference-center",
+  "place": "salt-lake-city-area",
+  "lng": -111.8924092,
+  "lat": 40.7727615,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1797977",
+  "replaces": [
+    "relation/6146196"
+  ]
+}

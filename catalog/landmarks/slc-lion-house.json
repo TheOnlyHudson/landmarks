@@ -1,0 +1,15 @@
+{
+  "id": "slc-lion-house",
+  "name": "Lion House",
+  "model": "slc-lion-house",
+  "place": "salt-lake-city-area",
+  "lng": -111.8889947,
+  "lat": 40.7697834,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q3303369",
+  "replaces": [
+    "way/33167751"
+  ]
+}

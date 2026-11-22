@@ -1,0 +1,56 @@
+{
+  "id": "nyc-huddlestone-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "boulder-arch",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Central Park May 2019 116",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_May_2019_116.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Central Park May 2019 117",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_May_2019_117.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Central Park May 2019 114",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_May_2019_114.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Central Park May 2019 119",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_May_2019_119.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-huddlestone-arch.glb",
+  "source": "generators/nyc-huddlestone-arch.ts"
+}

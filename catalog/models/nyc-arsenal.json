@@ -1,0 +1,44 @@
+{
+  "id": "nyc-arsenal",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "gothic-revival",
+    "brick",
+    "central-park",
+    "government"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Central Park Arsenal, NYC.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_Arsenal,_NYC.jpg",
+      "author": "Flickr user -",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Front of the Arsenal (4003258588).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Front_of_the_Arsenal_(4003258588).jpg",
+      "author": "Andrew Russeth",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/nyc-arsenal.glb",
+  "source": "generators/nyc-arsenal.ts"
+}

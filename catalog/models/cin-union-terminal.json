@@ -1,0 +1,56 @@
+{
+  "id": "cin-union-terminal",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "art-deco",
+    "railway-station",
+    "museum"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Cincinnati's 1933 Art Deco railway terminal, now the Cincinnati Museum Center: a great semicircular limestone arch with a clock in its window wall, stepped shoulders and curved wings round the plaza, under a metal half-dome.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "CMC-Union Terminal.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:CMC-Union_Terminal.jpg",
+      "author": "Ɱ",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Cincinnati Union Terminal principal facade.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Union_Terminal_principal_facade.jpg",
+      "author": "Dacoslett",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Cincinnati Union Terminal 2025a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Union_Terminal_2025a.jpg",
+      "author": "Antony-22",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Cincinnati Union Terminal at night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Union_Terminal_at_night.jpg",
+      "author": "Hhelvey",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/cin-union-terminal.glb",
+  "source": "generators/cin-union-terminal.ts"
+}

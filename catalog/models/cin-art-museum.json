@@ -1,0 +1,63 @@
+{
+  "id": "cin-art-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum",
+    "romanesque-revival",
+    "neoclassical",
+    "park"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The Cincinnati Art Museum in Eden Park: the 1886 Romanesque core with its campanile and green copper roofs, the Doric temple-front entrance of 1907, the Ionic loggia and the limestone galleries that ring its courtyard.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Cincinnati Art Museum, Eden Park.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Art_Museum,_Eden_Park.jpg",
+      "author": "Greg Hume (Greg5030)",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Cincinnati Art Museum 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Art_Museum_2015.jpg",
+      "author": "5chw4r7z",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Cincinnati Art Museum front facade, January 2019 (3).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Art_Museum_front_facade,_January_2019_(3).jpg",
+      "author": "Jason Zhang",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Cincinnati Art Museum exterior from library balcony.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Art_Museum_exterior_from_library_balcony.jpg",
+      "author": "Jason Zhang",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Cincinnati Art Museum, Cincinnati, Ohio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Art_Museum,_Cincinnati,_Ohio.jpg",
+      "author": "Detroit Publishing Company",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/cin-art-museum.glb",
+  "source": "generators/cin-art-museum.ts"
+}

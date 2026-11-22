@@ -1,0 +1,25 @@
+{
+  "id": "slc-huntsman-center",
+  "name": "Jon M. Huntsman Center",
+  "model": "slc-huntsman-center",
+  "place": "salt-lake-city-area",
+  "lng": -111.838762,
+  "lat": 40.762062,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q6271169",
+  "replaces": [
+    "way/33633100",
+    "way/1319349564",
+    "way/1421051607",
+    "way/1421051608",
+    "way/1421051609",
+    "way/1421051610",
+    "way/1421051611",
+    "way/1421051612",
+    "way/1421051613",
+    "way/1421051614",
+    "way/1421051615"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "slc-wells-fargo-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "office",
+    "skyscraper",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q954129",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "2006 Wells Fargo Center, Salt Lake City",
+      "url": "https://commons.wikimedia.org/wiki/File:2006_Wells_Fargo_Center,_Salt_Lake_City.jpg",
+      "author": "Streamline1989",
+      "license": "Public domain"
+    },
+    {
+      "title": "Wells Fargo Center, SLC, UT, east side 2024-09-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center,_SLC,_UT,_east_side_2024-09-01.jpg",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Wells Fargo Center (2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center_(2).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Helipads In Use at Wells Fargo Center",
+      "url": "https://commons.wikimedia.org/wiki/File:Helipads_In_Use_at_Wells_Fargo_Center.jpg",
+      "author": "Stefan Brems",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-wells-fargo-center.glb",
+  "source": "generators/slc-wells-fargo-center.ts"
+}

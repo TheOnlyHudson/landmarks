@@ -1,0 +1,56 @@
+{
+  "id": "cin-pnc-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "neoclassical",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The 1913 Union Central Life (Central Trust) tower at Fourth and Vine: a cream shaft under a colonnaded temple stage and a stepped stone pyramid with a green copper lantern.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "PNC Tower - Cincinnati, Ohio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_Tower_-_Cincinnati,_Ohio.jpg",
+      "author": "EEJCC",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Pnc tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pnc_tower.jpg",
+      "author": "original uploader on en.wikipedia",
+      "license": "CC-BY-2.5"
+    },
+    {
+      "title": "PNC Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_Tower.jpg",
+      "author": "Doug Kerr",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Carew Tower and Union Central Tower, Cincinnati, OH (46777811591).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Carew_Tower_and_Union_Central_Tower,_Cincinnati,_OH_(46777811591).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/cin-pnc-tower.glb",
+  "source": "generators/cin-pnc-tower.ts"
+}

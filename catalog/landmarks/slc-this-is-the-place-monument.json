@@ -1,0 +1,13 @@
+{
+  "id": "slc-this-is-the-place-monument",
+  "name": "This Is the Place Monument",
+  "model": "slc-this-is-the-place-monument",
+  "place": "salt-lake-city-area",
+  "lng": -111.816208,
+  "lat": 40.752038,
+  "bearing": 20,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q7786449",
+  "replaces": []
+}

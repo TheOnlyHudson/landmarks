@@ -1,0 +1,50 @@
+{
+  "id": "cin-cathedral-basilica-assumption",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "religious",
+    "cathedral",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The French Gothic cathedral of Covington, Kentucky, whose flat-topped twin-tower west front with its rose window was modelled on Notre-Dame de Paris.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "St. Mary's Cathedral Basilica of the Assumption in Covington, KY",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Mary%27s_Cathedral_Basilica_of_the_Assumption_in_Covington,_KY.JPG",
+      "author": "Poghia",
+      "license": "Public domain"
+    },
+    {
+      "title": "St. Mary's Cathedral Basilica of the Assumption (Covington, Kentucky), exterior, north",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Mary%27s_Cathedral_Basilica_of_the_Assumption_(Covington,_Kentucky),_exterior,_north.jpg",
+      "author": "Nheyob (changes by Rabanus Flavus)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. Mary - Covington 04",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Mary_-_Covington_04.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/cin-cathedral-basilica-assumption.glb",
+  "source": "generators/cin-cathedral-basilica-assumption.ts"
+}

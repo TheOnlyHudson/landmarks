@@ -1,0 +1,49 @@
+{
+  "id": "nyc-endale-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "olmsted-vaux",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Endale Arch PP sun jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Endale_Arch_PP_sun_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    },
+    {
+      "title": "Prospect-park-bridge",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect-park-bridge.jpg",
+      "author": "Dogears",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Restored Endale arch (03487)",
+      "url": "https://commons.wikimedia.org/wiki/File:Restored_Endale_arch_(03487).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-endale-arch.glb",
+  "source": "generators/nyc-endale-arch.ts"
+}

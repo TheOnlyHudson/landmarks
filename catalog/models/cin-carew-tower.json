@@ -1,0 +1,51 @@
+{
+  "id": "cin-carew-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "art-deco",
+    "historic",
+    "hotel"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Cincinnati's 1930 Art Deco tower: a tan-brick shaft stepping in to its crown over a limestone podium, with the Netherland Plaza hotel slab beside it on Fifth Street.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Carew Tower, Cincinnati, Ohio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Carew_Tower,_Cincinnati,_Ohio.jpg",
+      "author": "EEJCC",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Carew Tower from Fountain Square, Cincinnati, OH (27226901857).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Carew_Tower_from_Fountain_Square,_Cincinnati,_OH_(27226901857).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Carew Tower and Union Central Tower, Cincinnati, OH (46777811591).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Carew_Tower_and_Union_Central_Tower,_Cincinnati,_OH_(46777811591).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/cin-carew-tower.glb",
+  "source": "generators/cin-carew-tower.ts"
+}

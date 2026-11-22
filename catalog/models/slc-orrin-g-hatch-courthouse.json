@@ -1,0 +1,50 @@
+{
+  "id": "slc-orrin-g-hatch-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "civic",
+    "courthouse",
+    "modern",
+    "glass"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q20672113",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Orrin G. Hatch United States Courthouse, SLC, UT, north side 2024-09-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Orrin_G._Hatch_United_States_Courthouse,_SLC,_UT,_north_side_2024-09-01.jpg",
+      "author": "Xnatedawgx",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "United States Courthouse for the District of Utah (36686746041)",
+      "url": "https://commons.wikimedia.org/wiki/File:United_States_Courthouse_for_the_District_of_Utah_(36686746041).jpg",
+      "author": "Ben P L",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "U.S. Courthouse for the District of Utah",
+      "url": "https://commons.wikimedia.org/wiki/File:U.S._Courthouse_for_the_District_of_Utah.JPG",
+      "author": "Swilsonmc",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/slc-orrin-g-hatch-courthouse.glb",
+  "source": "generators/slc-orrin-g-hatch-courthouse.ts"
+}

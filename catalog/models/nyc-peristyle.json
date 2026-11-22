@@ -1,0 +1,45 @@
+{
+  "id": "nyc-peristyle",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "historic",
+    "shelter",
+    "colonnade",
+    "beaux-arts",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Grecian Shelter shade jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Grecian_Shelter_shade_jeh.JPG",
+      "author": "Jim.henderson",
+      "license": "Public domain"
+    },
+    {
+      "title": "Prospect Park Peristyle Sep 23 2021",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Peristyle_Sep_23_2021.jpg",
+      "author": "Wil540 art",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "wikidata": "Q5601553",
+  "file": "models/nyc-peristyle.glb",
+  "source": "generators/nyc-peristyle.ts"
+}

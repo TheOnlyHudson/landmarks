@@ -1,0 +1,51 @@
+{
+  "id": "cin-st-peter-in-chains",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "cathedral",
+    "church",
+    "place-of-worship",
+    "greek-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Henry Walter's 1845 Greek Revival cathedral: a white limestone temple with a hexastyle Corinthian portico on Plum Street and a tall tiered white steeple with an octagonal spire.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "St. Peter in Chains - Cincinnati 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Peter_in_Chains_-_Cincinnati_01.jpg",
+      "author": "Farragutful",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "St. Peter in Chains - Cincinnati City Hall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Peter_in_Chains_-_Cincinnati_City_Hall.jpg",
+      "author": "Farragutful",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "St. Peter in Chains - Cincinnati 07.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Peter_in_Chains_-_Cincinnati_07.jpg",
+      "author": "Farragutful",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/cin-st-peter-in-chains.glb",
+  "source": "generators/cin-st-peter-in-chains.ts"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "slc-111-main",
+  "name": "111 Main",
+  "model": "slc-111-main",
+  "place": "salt-lake-city-area",
+  "lng": -111.890523,
+  "lat": 40.766796,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/445788207"
+  ]
+}

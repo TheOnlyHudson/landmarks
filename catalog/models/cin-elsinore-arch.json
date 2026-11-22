@@ -1,0 +1,63 @@
+{
+  "id": "cin-elsinore-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "gatehouse",
+    "castle",
+    "romanesque-revival",
+    "park"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The 1883 castle gatehouse at the Eden Park entrance, after Hamlet's Elsinore: a crenellated round tower and square tower joined by a curtain wall with a carriage arch.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "ElsinoreArch.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:ElsinoreArch.jpg",
+      "author": "Greg Hume (Greg5030)",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Elsinore Tower View 2.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Elsinore_Tower_View_2.JPG",
+      "author": "Joe D. Good",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Elsinore Tower View 5.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Elsinore_Tower_View_5.JPG",
+      "author": "Joe D. Good",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Romanesque Revival - Cincinnati, OH - Elsinore Arch.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Romanesque_Revival_-_Cincinnati,_OH_-_Elsinore_Arch.jpg",
+      "author": "Bmzuckerman",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Elsinore Arch PXL 20250702 012504018.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Elsinore_Arch_PXL_20250702_012504018.jpg",
+      "author": "Hayden Schiff",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/cin-elsinore-arch.glb",
+  "source": "generators/cin-elsinore-arch.ts"
+}

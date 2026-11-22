@@ -1,0 +1,45 @@
+{
+  "id": "slc-city-and-county-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "civic",
+    "historic",
+    "romanesque-revival",
+    "sandstone",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q2215330",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Salt lake city county bldg",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_lake_city_county_bldg.jpg",
+      "author": "Sean Breazeal",
+      "license": "Public domain"
+    },
+    {
+      "title": "Salt Lake City and County Building (Old City Hall) in Utah",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City_and_County_Building_(Old_City_Hall)_in_Utah.jpg",
+      "author": "Alede2010",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-city-and-county-building.glb",
+  "source": "generators/slc-city-and-county-building.ts"
+}

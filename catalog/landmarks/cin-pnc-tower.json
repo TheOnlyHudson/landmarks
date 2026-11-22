@@ -1,0 +1,25 @@
+{
+  "id": "cin-pnc-tower",
+  "name": "PNC Tower",
+  "model": "cin-pnc-tower",
+  "place": "cincinnati-area",
+  "lng": -84.5129,
+  "lat": 39.09959,
+  "bearing": 348.9,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q3359762",
+  "replaces": [
+    "way/46126970",
+    "relation/3622286",
+    "way/271098464",
+    "way/271098466",
+    "way/272241497",
+    "way/1457161598",
+    "way/1457162438",
+    "way/1457162962",
+    "way/1457163543",
+    "way/1457164804",
+    "way/1457642386"
+  ]
+}

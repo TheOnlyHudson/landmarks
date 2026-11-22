@@ -1,0 +1,50 @@
+{
+  "id": "cin-mother-of-god",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "religious",
+    "church",
+    "renaissance-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Covington's 1871 Italian Renaissance church of the German Catholic parish: twin red-brick towers with clocks and pale-green copper lanterns, an arched stone portico, and a green copper dome over the crossing.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "MotherOfGod.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:MotherOfGod.jpg",
+      "author": "Greg Hume (Greg5030)",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Mother of God Catholic Church, Mutter Gottes, Covington, KY",
+      "url": "https://commons.wikimedia.org/wiki/File:Mother_of_God_Catholic_Church,_Mutter_Gottes,_Covington,_KY.jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Mother of God Church (Covington, Kentucky) - railroad tracks behind the church",
+      "url": "https://commons.wikimedia.org/wiki/File:Mother_of_God_Church_(Covington,_Kentucky)_-_railroad_tracks_behind_the_church.jpg",
+      "author": "Nheyob",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/cin-mother-of-god.glb",
+  "source": "generators/cin-mother-of-god.ts"
+}
