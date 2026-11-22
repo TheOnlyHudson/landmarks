@@ -1,0 +1,94 @@
+{
+  "id": "sydney-central-station-clock-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "railway-station",
+    "clock-tower",
+    "federation-free-classical"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/sydney-central-station-clock-tower.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Central Railway clock tower 001a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Railway_clock_tower_001a.jpg",
+      "author": "Sardaka",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Central railway station, Sydney, 2022 (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_railway_station,_Sydney,_2022_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Central Station clock tower 009.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Station_clock_tower_009.jpg",
+      "author": "Sardaka",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Central Station Eddy Avenue 001a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Station_Eddy_Avenue_001a.jpg",
+      "author": "Sardaka",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Central railway station, Sydney at sunset.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_railway_station,_Sydney_at_sunset.jpg",
+      "author": "Chris Olszewski",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "(1)Central Railway Eddy Avenue 016a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:(1)Central_Railway_Eddy_Avenue_016a.jpg",
+      "author": "Sardaka",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Central railway station Sydney 2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_railway_station_Sydney_2017.jpg",
+      "author": "Wpcpey",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Central railway station, Sydney, 2018 (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_railway_station,_Sydney,_2018_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "(1)Central Station Sydney-9.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:(1)Central_Station_Sydney-9.jpg",
+      "author": "Sardaka",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Aerial view of Central Railway Station, Sydney (NSW) (8123486154).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Central_Railway_Station,_Sydney_(NSW)_(8123486154).jpg",
+      "author": "Photographic Collection from Australia",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/sydney-central-station-clock-tower.glb",
+  "source": "generators/sydney-central-station-clock-tower.ts"
+}
