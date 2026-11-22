@@ -1,0 +1,17 @@
+{
+  "id": "wellington-te-papa",
+  "name": "Museum of New Zealand Te Papa Tongarewa",
+  "model": "wellington-te-papa",
+  "place": "wellington",
+  "lng": 174.7820648,
+  "lat": -41.290393,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q915603",
+  "replaces": [
+    "way/190557095",
+    "way/1030319478",
+    "way/1030319477"
+  ]
+}
