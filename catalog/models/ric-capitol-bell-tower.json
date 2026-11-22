@@ -1,0 +1,54 @@
+{
+  "id": "ric-capitol-bell-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "tower",
+    "bell-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Bell Tower, Richmond-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bell_Tower,_Richmond-1.jpg",
+      "author": "Smash the Iron Cage",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Bell Tower on Capitol Square, Richmond VA",
+      "url": "https://www.flickr.com/photos/39398106@N07/4113081607",
+      "author": "DougFrancis",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Bell Tower on Capitol Square, Richmond VA",
+      "url": "https://www.flickr.com/photos/39398106@N07/4113849966",
+      "author": "DougFrancis",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Capitol Square Bell Tower, Richmond, Virginia.jpg (1906 postcard)",
+      "url": "https://commons.wikimedia.org/wiki/File:Capitol_Square_Bell_Tower,_Richmond,_Virginia.jpg",
+      "author": "Jamestown Official Photo Corp. (VCU Libraries)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/ric-capitol-bell-tower.glb",
+  "source": "generators/ric-capitol-bell-tower.ts"
+}
