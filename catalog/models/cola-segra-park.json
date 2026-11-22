@@ -1,0 +1,45 @@
+{
+  "id": "cola-segra-park",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "ballpark",
+    "baseball",
+    "sports",
+    "brick",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q20925277",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Segra Park",
+      "author": "Dr. Blazer",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Segra_Park.jpg"
+    },
+    {
+      "title": "250610-A-JU979-8739 (9109074)",
+      "author": "U.S. Army FJPAO, Nathan Clinebelle",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:250610-A-JU979-8739_(9109074).jpg"
+    }
+  ],
+  "file": "models/cola-segra-park.glb",
+  "source": "generators/cola-segra-park.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "slc-governors-mansion",
+  "name": "Kearns Mansion (Governor's Mansion)",
+  "model": "slc-governors-mansion",
+  "place": "salt-lake-city-area",
+  "lng": -111.8740882,
+  "lat": 40.7697968,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q7902369",
+  "replaces": [
+    "way/143796145"
+  ]
+}

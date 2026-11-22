@@ -1,0 +1,14 @@
+{
+  "id": "cola-riverbanks-zoo",
+  "name": "Riverbanks Zoo — Aquarium & Reptile Conservation Center",
+  "model": "cola-riverbanks-zoo",
+  "place": "columbia-sc-area",
+  "lng": -81.072707,
+  "lat": 34.008755,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/561364255"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "slc-abravanel-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "concert-hall",
+    "theatre",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q4669441",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Abravanel Hall.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Abravanel_Hall.jpeg",
+      "author": "Ntsimp",
+      "license": "Public domain"
+    },
+    {
+      "title": "Slc abravanel hall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Slc_abravanel_hall.jpg",
+      "author": "Ricardo630",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Salt Lake City Maurice Abravanel Hall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City_Maurice_Abravanel_Hall.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-abravanel-hall.glb",
+  "source": "generators/slc-abravanel-hall.ts"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cola-segra-park",
+  "name": "Segra Park",
+  "model": "cola-segra-park",
+  "place": "columbia-sc-area",
+  "lng": -81.03123,
+  "lat": 34.01832,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/9765439",
+    "way/565936174",
+    "way/565936175",
+    "way/565936176"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "cola-union-station",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "railway-station",
+    "restaurant",
+    "jacobethan"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Union Station Columbia left oblique.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Station_Columbia_left_oblique.jpg",
+      "author": "Eastward Gypsy",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Union Station Columbia South elevation.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Station_Columbia_South_elevation.jpg",
+      "author": "Eastward Gypsy",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Union Station Columbia, SC East elevation.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_Station_Columbia,_SC_East_elevation.jpg",
+      "author": "Eastward Gypsy",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/cola-union-station.glb",
+  "source": "generators/cola-union-station.ts"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "slc-eagle-gate",
+  "name": "Eagle Gate",
+  "model": "slc-eagle-gate",
+  "place": "salt-lake-city-area",
+  "lng": -111.88827,
+  "lat": 40.7696,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q5325098",
+  "replaces": []
+}

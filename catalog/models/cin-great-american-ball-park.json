@@ -1,0 +1,61 @@
+{
+  "id": "cin-great-american-ball-park",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "baseball",
+    "ballpark",
+    "riverfront"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The Cincinnati Reds' riverfront ballpark (2003): red seats under a thin white steel roof, The Gap between home plate and third base, twelve white light towers, the left-field scoreboard and the two power stacks in right-centre.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Great American Ballpark 2007.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_American_Ballpark_2007.jpg",
+      "author": "Eric Kilby",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Great American Ball Park 2022a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_American_Ball_Park_2022a.jpg",
+      "author": "Antony-22",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Great American Ball Park Cincinnati.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_American_Ball_Park_Cincinnati.jpg",
+      "author": "Leslie",
+      "license": "CC-BY-SA-2.5"
+    },
+    {
+      "title": "Great American Ball Park with The Gap on July 5, 2003",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_American_Ball_Park_with_The_Gap_on_July_5,_2003_Cincinnati_Reds_versus_New_York_Mets.jpg",
+      "author": "RickADikeman",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Great American Ball Park April 2011.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_American_Ball_Park_April_2011.jpg",
+      "author": "Geoff Livingston",
+      "license": "CC-BY-SA-2.0"
+    }
+  ],
+  "file": "models/cin-great-american-ball-park.glb",
+  "source": "generators/cin-great-american-ball-park.ts"
+}

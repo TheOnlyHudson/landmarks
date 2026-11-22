@@ -1,0 +1,50 @@
+{
+  "id": "cin-krohn-conservatory",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "conservatory",
+    "art-deco",
+    "park"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The 1933 Art Deco aluminium-and-glass conservatory in Eden Park: a tall Palm House with an ogee-topped glass entrance gable, a long low cross wing under curved whitewashed glass roofs, and its white boiler chimney.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Krohn Panorama LR.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Krohn_Panorama_LR.jpg",
+      "author": "Greg Hume",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "KrohnConservatory.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:KrohnConservatory.jpg",
+      "author": "Greg Hume (Greg5030)",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Krohn Conservatory (Cincinnati, Ohio) entrance.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Krohn_Conservatory_(Cincinnati,_Ohio)_entrance.jpg",
+      "author": "Michael R. Johnson",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/cin-krohn-conservatory.glb",
+  "source": "generators/cin-krohn-conservatory.ts"
+}

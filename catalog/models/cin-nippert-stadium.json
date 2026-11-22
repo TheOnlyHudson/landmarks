@@ -1,0 +1,49 @@
+{
+  "id": "cin-nippert-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "football",
+    "college",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The University of Cincinnati's football stadium: a red horseshoe bowl sunk in a ravine, open to the north, with the 2015 glass West Pavilion and the white east upper deck.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Nippert Stadium, September 2015.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Nippert_Stadium,_September_2015.JPG",
+      "author": "Ben Levin",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Nippert Stadium (16155110276).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Nippert_Stadium_(16155110276).jpg",
+      "author": "redlegsfan21",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "NippertStadium.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:NippertStadium.JPG",
+      "author": "CincyUte at English Wikipedia",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/cin-nippert-stadium.glb",
+  "source": "generators/cin-nippert-stadium.ts"
+}

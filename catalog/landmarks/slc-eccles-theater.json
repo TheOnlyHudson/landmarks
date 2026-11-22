@@ -1,0 +1,15 @@
+{
+  "id": "slc-eccles-theater",
+  "name": "Eccles Theater",
+  "model": "slc-eccles-theater",
+  "place": "salt-lake-city-area",
+  "lng": -111.890246,
+  "lat": 40.766334,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q28448378",
+  "replaces": [
+    "way/537033478"
+  ]
+}

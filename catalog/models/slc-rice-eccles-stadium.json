@@ -1,0 +1,80 @@
+{
+  "id": "slc-rice-eccles-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "american-football",
+    "university",
+    "olympic"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q922761",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Rice–Eccles Stadium from Stadium station, Aug 17",
+      "url": "https://commons.wikimedia.org/wiki/File:Rice%E2%80%93Eccles_Stadium_from_Stadium_station,_Aug_17.jpg",
+      "author": "An Errant Knight",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "University of Utah Stadium",
+      "url": "https://commons.wikimedia.org/wiki/File:University_of_Utah_Stadium.jpg",
+      "author": "Fsendek1904",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ken-Garff-Red-Zone-at-Rice-Eccles-Stadium-4 081121",
+      "url": "https://commons.wikimedia.org/wiki/File:Ken-Garff-Red-Zone-at-Rice-Eccles-Stadium-4_081121.jpg",
+      "author": "Kuleralsen",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ken Garff South End zone at Rice-Eccles Stadium",
+      "url": "https://commons.wikimedia.org/wiki/File:Ken_Garff_South_End_zone_at_Rice-Eccles_Stadium.jpg",
+      "author": "Mattstorms",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Salt Lake City, Utah (2021) - 147",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City,_Utah_(2021)_-_147.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Salt Lake City, Utah (2021) - 149",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City,_Utah_(2021)_-_149.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Rice Eccles Stadium, Salt Lake City, Utah",
+      "url": "https://commons.wikimedia.org/wiki/File:Rice_Eccles_Stadium,_Salt_Lake_City,_Utah.jpg",
+      "author": "Byarin",
+      "license": "CC0"
+    },
+    {
+      "title": "Rice-Eccles Stadium-UtahUtes (aerial)",
+      "url": "https://commons.wikimedia.org/wiki/File:Rice-Eccles_Stadium-UtahUtes.jpg",
+      "author": "USGS",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/slc-rice-eccles-stadium.glb",
+  "source": "generators/slc-rice-eccles-stadium.ts"
+}

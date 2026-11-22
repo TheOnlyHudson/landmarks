@@ -1,0 +1,43 @@
+{
+  "id": "slc-eccles-theater",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theatre",
+    "performing-arts",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q28448378",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Eccles Theater - Salt Lake City, Utah - 13 April 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:Eccles_Theater_-_Salt_Lake_City,_Utah_-_13_April_2025.jpg",
+      "author": "Beneathtimp",
+      "license": "CC0"
+    },
+    {
+      "title": "George S. and Dolores Doré Eccles Theater",
+      "url": "https://commons.wikimedia.org/wiki/File:George_S._and_Dolores_Dor%C3%A9_Eccles_Theater.jpg",
+      "author": "EWS23",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-eccles-theater.glb",
+  "source": "generators/slc-eccles-theater.ts"
+}

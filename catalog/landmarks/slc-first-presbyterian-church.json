@@ -1,0 +1,15 @@
+{
+  "id": "slc-first-presbyterian-church",
+  "name": "First Presbyterian Church",
+  "model": "slc-first-presbyterian-church",
+  "place": "salt-lake-city-area",
+  "lng": -111.8802208,
+  "lat": 40.7697349,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q85761071",
+  "replaces": [
+    "way/466197095"
+  ]
+}

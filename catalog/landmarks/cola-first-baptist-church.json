@@ -1,0 +1,15 @@
+{
+  "id": "cola-first-baptist-church",
+  "name": "First Baptist Church",
+  "model": "cola-first-baptist-church",
+  "place": "columbia-sc-area",
+  "lng": -81.03269,
+  "lat": 34.005722,
+  "bearing": 340,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1455848743"
+  ],
+  "wikidata": "Q5452371"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cin-paycor-stadium",
+  "name": "Paycor Stadium",
+  "model": "cin-paycor-stadium",
+  "place": "cincinnati-area",
+  "lng": -84.51607,
+  "lat": 39.09535,
+  "bearing": 142,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1632294",
+  "replaces": [
+    "relation/280132",
+    "way/41574344"
+  ]
+}

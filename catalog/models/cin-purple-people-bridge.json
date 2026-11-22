@@ -1,0 +1,56 @@
+{
+  "id": "cin-purple-people-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bridge",
+    "truss-bridge",
+    "historic",
+    "pedestrian"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The former Louisville & Nashville railroad bridge of 1872, rebuilt in 1897 and painted purple as a pedestrian bridge: lavender through trusses on sandstone river piers between Cincinnati and Newport.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Newport Southbank Bridge 2017.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Newport_Southbank_Bridge_2017.jpg",
+      "author": "Antony-22",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "The Newport Southbank Bridge 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Newport_Southbank_Bridge_01.jpg",
+      "author": "Paul Barnes",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Newport Southbank Bridge (Purple People Bridge) P4280199.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Newport_Southbank_Bridge_(Purple_People_Bridge)_P4280199.JPG",
+      "author": "Chris Light",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Newport Southbank Bridge (Purple People Bridge) -Cincinnati.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Newport_Southbank_Bridge_(Purple_People_Bridge)_-Cincinnati.jpg",
+      "author": "Chris Light",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/cin-purple-people-bridge.glb",
+  "source": "generators/cin-purple-people-bridge.ts"
+}

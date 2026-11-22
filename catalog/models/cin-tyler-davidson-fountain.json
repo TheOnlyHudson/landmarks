@@ -1,0 +1,50 @@
+{
+  "id": "cin-tyler-davidson-fountain",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "fountain",
+  "tags": [
+    "historic",
+    "bronze",
+    "sculpture",
+    "fountain-square"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The 1871 bronze Tyler Davidson Fountain on Fountain Square, crowned by the Genius of Water with her arms spread over two bowls and a ring of figures.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tyler Davidson Fountain, Fountain Square, Cincinnati, OH (28224119028).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tyler_Davidson_Fountain,_Fountain_Square,_Cincinnati,_OH_(28224119028).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Cincinnati Tyler Davidson Fountain Genius of Water.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati_Tyler_Davidson_Fountain_Genius_of_Water.jpg",
+      "author": "Hhelvey",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Tyler Davidson Fountain 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tyler_Davidson_Fountain_1.jpg",
+      "author": "Niagara66",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/cin-tyler-davidson-fountain.glb",
+  "source": "generators/cin-tyler-davidson-fountain.ts"
+}

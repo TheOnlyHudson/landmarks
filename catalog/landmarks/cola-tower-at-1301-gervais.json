@@ -1,0 +1,15 @@
+{
+  "id": "cola-tower-at-1301-gervais",
+  "name": "Tower at 1301 Gervais",
+  "model": "cola-tower-at-1301-gervais",
+  "place": "columbia-sc-area",
+  "lng": -81.031596,
+  "lat": 34.002192,
+  "bearing": 69,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/329094457"
+  ],
+  "wikidata": "Q7829749"
+}

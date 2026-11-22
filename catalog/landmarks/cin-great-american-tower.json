@@ -1,0 +1,25 @@
+{
+  "id": "cin-great-american-tower",
+  "name": "Great American Tower at Queen City Square",
+  "model": "cin-great-american-tower",
+  "place": "cincinnati-area",
+  "lng": -84.507085,
+  "lat": 39.099774,
+  "bearing": 350,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q971317",
+  "replaces": [
+    "way/91493361",
+    "relation/3626990",
+    "way/271760074",
+    "way/271760075",
+    "way/271760076",
+    "way/271760077",
+    "way/271761705",
+    "way/271761706",
+    "way/271761708",
+    "way/271764809",
+    "way/271764810"
+  ]
+}

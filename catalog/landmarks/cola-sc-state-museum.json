@@ -1,0 +1,16 @@
+{
+  "id": "cola-sc-state-museum",
+  "name": "South Carolina State Museum",
+  "model": "cola-sc-state-museum",
+  "place": "columbia-sc-area",
+  "lng": -81.048086,
+  "lat": 33.998896,
+  "bearing": 339,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/571395290",
+    "way/1319322541"
+  ],
+  "wikidata": "Q7566640"
+}

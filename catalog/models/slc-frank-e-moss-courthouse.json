@@ -1,0 +1,50 @@
+{
+  "id": "slc-frank-e-moss-courthouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "courthouse",
+    "neoclassical",
+    "historic",
+    "government"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q5486390",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "TRAX courthouse",
+      "url": "https://commons.wikimedia.org/wiki/File:TRAX_courthouse.jpg",
+      "author": "Cool Hand Luke",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Frank E. Moss Federal Courthouse (3)",
+      "url": "https://commons.wikimedia.org/wiki/File:Frank_E._Moss_Federal_Courthouse_(3).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Frank E. Moss Federal Courthouse (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Frank_E._Moss_Federal_Courthouse_(1).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-frank-e-moss-courthouse.glb",
+  "source": "generators/slc-frank-e-moss-courthouse.ts"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cin-mother-of-god",
+  "name": "Mother of God Church",
+  "model": "cin-mother-of-god",
+  "place": "cincinnati-area",
+  "lng": -84.512582,
+  "lat": 39.083931,
+  "bearing": 348.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/80308915",
+    "way/1459417960",
+    "way/1459417961",
+    "way/1459417962",
+    "way/1459417963",
+    "way/1459417964",
+    "way/1459418215",
+    "way/1459418509",
+    "way/1459418567",
+    "way/1459418881",
+    "way/1459418882",
+    "way/1459418972",
+    "way/1459418973"
+  ]
+}

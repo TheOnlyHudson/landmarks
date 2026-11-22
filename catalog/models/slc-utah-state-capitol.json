@@ -1,0 +1,64 @@
+{
+  "id": "slc-utah-state-capitol",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "capitol",
+    "government",
+    "historic",
+    "neoclassical",
+    "dome",
+    "granite"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q2627661",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Front view of State Capitol Building",
+      "url": "https://commons.wikimedia.org/wiki/File:Front_view_of_State_Capitol_Building.jpg",
+      "author": "Kiranedara",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "SouthWest View Utah State Capitol",
+      "url": "https://commons.wikimedia.org/wiki/File:SouthWest_View_Utah_State_Capitol.jpg",
+      "author": "Alede2010",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Utah State Capitol east end - 20101014",
+      "url": "https://commons.wikimedia.org/wiki/File:Utah_State_Capitol_east_end_-_20101014.jpg",
+      "author": "Mangoman88",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "West view of Utah State Capitol",
+      "url": "https://commons.wikimedia.org/wiki/File:West_view_of_Utah_State_Capitol.jpg",
+      "author": "Alede2010",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Utah State Capitol Complex - 23 November 2012",
+      "url": "https://commons.wikimedia.org/wiki/File:Utah_State_Capitol_Complex_-_23_November_2012.JPG",
+      "author": "Mangoman88",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/slc-utah-state-capitol.glb",
+  "source": "generators/slc-utah-state-capitol.ts"
+}

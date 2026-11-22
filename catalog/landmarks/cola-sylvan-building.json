@@ -1,0 +1,15 @@
+{
+  "id": "cola-sylvan-building",
+  "name": "Sylvan Building",
+  "model": "cola-sylvan-building",
+  "place": "columbia-sc-area",
+  "lng": -81.035022,
+  "lat": 34.005594,
+  "bearing": 70,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/328921264"
+  ],
+  "wikidata": "Q18158607"
+}

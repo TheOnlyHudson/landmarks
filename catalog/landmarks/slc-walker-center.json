@@ -1,0 +1,20 @@
+{
+  "id": "slc-walker-center",
+  "name": "Walker Center",
+  "model": "slc-walker-center",
+  "place": "salt-lake-city-area",
+  "lng": -111.890744,
+  "lat": 40.765347,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7962232",
+  "replaces": [
+    "way/223918433",
+    "way/1434182331",
+    "way/1434182332",
+    "way/1434182333",
+    "way/1434182334",
+    "way/1434182335"
+  ]
+}

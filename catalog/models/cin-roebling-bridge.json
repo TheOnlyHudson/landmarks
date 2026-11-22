@@ -1,0 +1,57 @@
+{
+  "id": "cin-roebling-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "suspension-bridge",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/cin-roebling-bridge.detail.glb",
+  "detailZoom": 16,
+  "description": "John A. Roebling's 1866 suspension bridge between Cincinnati and Covington: two sandstone towers with arched portals and gilded cupolas, blue cables, stays and stiffening trusses.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Roebling Bridge from Smale Park, Cincinnati, OH - 52279730873.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roebling_Bridge_from_Smale_Park,_Cincinnati,_OH_-_52279730873.jpg",
+      "author": "Warren LeMay",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Roebling Bridge Tower, Cincinnati, OH - 51401459995.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roebling_Bridge_Tower,_Cincinnati,_OH_-_51401459995.jpg",
+      "author": "Warren LeMay",
+      "license": "CC-BY-SA-2.0"
+    },
+    {
+      "title": "Roebling Bridge P2110008.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Roebling_Bridge_P2110008.jpg",
+      "author": "Chris Light",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Cincinnati-roebling-suspension-bridge.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Cincinnati-roebling-suspension-bridge.jpg",
+      "author": "Derek Jensen (Tysto)",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/cin-roebling-bridge.glb",
+  "source": "generators/cin-roebling-bridge.ts"
+}
