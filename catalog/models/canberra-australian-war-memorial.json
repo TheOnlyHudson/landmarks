@@ -1,0 +1,76 @@
+{
+  "id": "canberra-australian-war-memorial",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "war-memorial",
+    "museum",
+    "dome",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "AWM canberra 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:AWM_canberra_1.jpg",
+      "author": "Capital photographer",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Australian War Memorial, Canberra, 2017, 05.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Australian_War_Memorial,_Canberra,_2017,_05.jpg",
+      "author": "Kgbo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Australian War Memorial front view.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Australian_War_Memorial_front_view.jpg",
+      "author": "Shkuru Afshar",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Australian War Memorial - Joy of Museums - External.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Australian_War_Memorial_-_Joy_of_Museums_-_External.jpg",
+      "author": "GordonMakryllos",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Australian War Memorial - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Australian_War_Memorial_-_panoramio.jpg",
+      "author": "Con Tassios",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Old Parliament House, Australian War Memorial, Mount Ainslie, Canberra.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Parliament_House,_Australian_War_Memorial,_Mount_Ainslie,_Canberra.jpg",
+      "author": "Kgbo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Australian War Memorial, Canberra, 2017, 18.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Australian_War_Memorial,_Canberra,_2017,_18.jpg",
+      "author": "Kgbo",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "detail": "models/canberra-australian-war-memorial.detail.glb",
+  "detailZoom": 16,
+  "file": "models/canberra-australian-war-memorial.glb",
+  "source": "generators/canberra-australian-war-memorial.ts"
+}

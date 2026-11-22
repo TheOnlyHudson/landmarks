@@ -1,0 +1,26 @@
+{
+  "id": "canberra-australian-war-memorial",
+  "name": "Australian War Memorial",
+  "model": "canberra-australian-war-memorial",
+  "place": "canberra",
+  "lng": 149.148974,
+  "lat": -35.280563,
+  "bearing": 37.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/7527080",
+    "way/5090724",
+    "way/520199710",
+    "way/520199707",
+    "way/520199676",
+    "way/1575642069",
+    "way/1575642070",
+    "way/520199708",
+    "way/520199709",
+    "way/1489603158",
+    "way/1489603159",
+    "way/1489603160"
+  ],
+  "wikidata": "Q782783"
+}
