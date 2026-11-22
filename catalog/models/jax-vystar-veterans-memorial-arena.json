@@ -1,0 +1,47 @@
+{
+  "id": "jax-vystar-veterans-memorial-arena",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "arena",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Vystar Veterans 2023",
+      "author": "Excel23",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Vystar_Veterans_2023.jpg"
+    },
+    {
+      "title": "Jacksonville Veterans Memorial Arena front",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Jacksonville_Veterans_Memorial_Arena_front.JPG"
+    },
+    {
+      "title": "Jacksonville veterans Arena 6",
+      "author": "Jack Skellington III",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Jacksonville_veterans_Arena_6.jpg"
+    }
+  ],
+  "file": "models/jax-vystar-veterans-memorial-arena.glb",
+  "source": "generators/jax-vystar-veterans-memorial-arena.ts"
+}
