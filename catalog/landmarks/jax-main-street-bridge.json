@@ -1,0 +1,15 @@
+{
+  "id": "jax-main-street-bridge",
+  "name": "Main Street Bridge",
+  "model": "jax-main-street-bridge",
+  "place": "jacksonville-area",
+  "lng": -81.65866,
+  "lat": 30.32184,
+  "bearing": 4.7,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q6736098",
+  "replaces": [
+    "way/590221019"
+  ]
+}

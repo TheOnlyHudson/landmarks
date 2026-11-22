@@ -1,0 +1,48 @@
+{
+  "id": "jax-121-financial-ballpark",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "baseball",
+    "milb",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "121 Financial Ballpark exterior",
+      "author": "Kenny Rowland",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:121_Financial_Ballpark_exterior.jpg"
+    },
+    {
+      "title": "121 Financial Ballpark during a ballgame",
+      "author": "Kenny Rowland",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:121_Financial_Ballpark_during_a_ballgame.jpg"
+    },
+    {
+      "title": "Baseball Grounds of Jacksonville Home Plate Gate",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Baseball_Grounds_of_Jacksonville_Home_Plate_Gate.JPG"
+    }
+  ],
+  "file": "models/jax-121-financial-ballpark.glb",
+  "source": "generators/jax-121-financial-ballpark.ts"
+}

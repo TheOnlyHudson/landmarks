@@ -1,0 +1,14 @@
+{
+  "id": "jax-prime-osborn-convention-center",
+  "name": "Prime F. Osborn III Convention Center",
+  "model": "jax-prime-osborn-convention-center",
+  "place": "jacksonville-area",
+  "lng": -81.6720918,
+  "lat": 30.3277691,
+  "bearing": 14,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/346115493"
+  ]
+}

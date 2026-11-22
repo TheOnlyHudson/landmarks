@@ -1,0 +1,15 @@
+{
+  "id": "jax-riverplace-tower",
+  "name": "Riverplace Tower",
+  "model": "jax-riverplace-tower",
+  "place": "jacksonville-area",
+  "lng": -81.65672959,
+  "lat": 30.31934122,
+  "bearing": 4.25,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q7338278",
+  "replaces": [
+    "way/348715499"
+  ]
+}
