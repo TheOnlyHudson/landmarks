@@ -1,0 +1,56 @@
+{
+  "id": "ric-virginia-war-memorial-carillon",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "historic",
+    "memorial",
+    "bell-tower",
+    "carillon",
+    "georgian-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Virginia War Memorial Carillon 2024.jpg",
+      "author": "SDudley",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Virginia_War_Memorial_Carillon_2024.jpg"
+    },
+    {
+      "title": "Richmond Carillon 2010.JPG",
+      "author": "Morgan Riley",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Richmond_Carillon_2010.JPG"
+    },
+    {
+      "title": "World War I Memorial Carillon.jpg",
+      "author": "Bacmomaji",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:World_War_I_Memorial_Carillon.jpg"
+    },
+    {
+      "title": "Richmond, Virginia (8127345788).jpg",
+      "author": "Doug Kerr",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Richmond,_Virginia_(8127345788).jpg"
+    }
+  ],
+  "file": "models/ric-virginia-war-memorial-carillon.glb",
+  "source": "generators/ric-virginia-war-memorial-carillon.ts"
+}
