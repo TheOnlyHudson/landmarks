@@ -1,0 +1,55 @@
+{
+  "id": "cin-holy-cross-immaculata",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The 1860 Gothic Revival church on the brow of Mount Adams, at the head of the Immaculata steps: a steep stone gable front with a rose window and a statue of Mary on the apex, and a square corner tower with a green copper spire.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "ImmaculateConceptionChurch.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:ImmaculateConceptionChurch.jpg",
+      "author": "Greg Hume (Greg5030)",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Holy Cross Immaculata Catholic Church, Mount Adams, Cincinnati, OH (46415250124).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Cross_Immaculata_Catholic_Church,_Mount_Adams,_Cincinnati,_OH_(46415250124).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Holy Cross Immaculata Catholic Church, Mount Adams, Cincinnati, OH (47086667982).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Cross_Immaculata_Catholic_Church,_Mount_Adams,_Cincinnati,_OH_(47086667982).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    },
+    {
+      "title": "Holy Cross Immaculata Church, Mount Adams, Cincinnati, OH (46414169064).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Cross_Immaculata_Church,_Mount_Adams,_Cincinnati,_OH_(46414169064).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/cin-holy-cross-immaculata.glb",
+  "source": "generators/cin-holy-cross-immaculata.ts"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cin-holy-cross-immaculata",
+  "name": "Holy Cross–Immaculata Church",
+  "model": "cin-holy-cross-immaculata",
+  "place": "cincinnati-area",
+  "lng": -84.49642,
+  "lat": 39.107066,
+  "bearing": 33.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q14716480",
+  "replaces": [
+    "way/42707576",
+    "way/1453476102",
+    "way/1453476103",
+    "way/1453476104",
+    "way/1453476105",
+    "way/1453476108",
+    "way/1453600323",
+    "way/1453603040",
+    "way/1453603041",
+    "way/1453603042",
+    "way/1453476106",
+    "way/1453476107",
+    "way/1453476101",
+    "way/1453476962",
+    "way/1466646669",
+    "way/1466646670",
+    "way/1466646671"
+  ]
+}

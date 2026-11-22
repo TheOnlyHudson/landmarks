@@ -1,0 +1,42 @@
+{
+  "id": "cola-first-baptist-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "greek-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "HABS SC-251 front (north) elevation, First Baptist Church",
+      "url": "https://commons.wikimedia.org/wiki/File:Historic_American_Buildings_Survey,_April,_1960_FRONT_(NORTH)_ELEVATION._-_First_Baptist_Church,_Hampton_Street,_Columbia,_Richland_County,_SC_HABS_SC,40-COLUM,5-2.tif",
+      "author": "Jack Boucher (HABS)",
+      "license": "Public domain"
+    },
+    {
+      "title": "First Baptist Church Columbia, SC Front View",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Baptist_Church_Columbia,_SC_Front_View.jpg",
+      "author": "Thomas Kirchel",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/cola-first-baptist-church.glb",
+  "source": "generators/cola-first-baptist-church.ts"
+}

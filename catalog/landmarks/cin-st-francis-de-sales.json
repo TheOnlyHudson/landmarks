@@ -1,0 +1,27 @@
+{
+  "id": "cin-st-francis-de-sales",
+  "name": "St. Francis de Sales Church",
+  "model": "cin-st-francis-de-sales",
+  "place": "cincinnati-area",
+  "lng": -84.476383,
+  "lat": 39.13001,
+  "bearing": 4.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7401248",
+  "replaces": [
+    "way/69701756",
+    "way/1454712481",
+    "way/1454712482",
+    "way/1454712483",
+    "way/1454712484",
+    "way/1454712485",
+    "way/1454713822",
+    "way/1454713823",
+    "way/1454714862",
+    "way/1454715959",
+    "way/1454717626",
+    "way/1454718930",
+    "way/1454720094"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "slc-council-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "government",
+    "sandstone",
+    "cupola"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q2215312",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Front and side elevations - Salt Lake City Hall, 300 North State Street (HABS UT-74-1)",
+      "url": "https://commons.wikimedia.org/wiki/File:FRONT_AND_SIDE_ELEVATIONS_(CARDINAL_POINTS_NOT_KNOWN)_-_Salt_Lake_City_Hall,_300_North_State_Street,_Salt_Lake_City,_Salt_Lake_County,_UT_HABS_UTAH,18-SALCI,24-1.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Salt Lake Council Hall",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_Council_Hall.jpg",
+      "author": "Alede2010",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Council Hall 4437",
+      "url": "https://commons.wikimedia.org/wiki/File:Council_Hall_4437.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Council Hall 4453",
+      "url": "https://commons.wikimedia.org/wiki/File:Council_Hall_4453.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-council-hall.glb",
+  "source": "generators/slc-council-hall.ts"
+}

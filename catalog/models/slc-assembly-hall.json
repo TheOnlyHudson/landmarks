@@ -1,0 +1,51 @@
+{
+  "id": "slc-assembly-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "religious",
+    "historic",
+    "gothic-revival",
+    "granite",
+    "place-of-worship"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q3115676",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "2019 Salt Lake Assembly Hall 01",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_Salt_Lake_Assembly_Hall_01.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2019 Salt Lake Assembly Hall 02",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_Salt_Lake_Assembly_Hall_02.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Assembly Hall - Salt Lake City, Utah - 16 May 2020",
+      "url": "https://commons.wikimedia.org/wiki/File:Assembly_Hall_-_Salt_Lake_City,_Utah_-_16_May_2020.jpg",
+      "author": "Beneathtimp",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/slc-assembly-hall.glb",
+  "source": "generators/slc-assembly-hall.ts"
+}

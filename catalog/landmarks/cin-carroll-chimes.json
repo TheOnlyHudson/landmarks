@@ -1,0 +1,16 @@
+{
+  "id": "cin-carroll-chimes",
+  "name": "Carroll Chimes Bell Tower",
+  "model": "cin-carroll-chimes",
+  "place": "cincinnati-area",
+  "lng": -84.520668,
+  "lat": 39.084201,
+  "bearing": 359.1,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1459654470",
+    "way/1459654471",
+    "way/1459654472"
+  ]
+}

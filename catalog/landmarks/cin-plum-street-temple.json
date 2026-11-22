@@ -1,0 +1,16 @@
+{
+  "id": "cin-plum-street-temple",
+  "name": "Plum Street Temple",
+  "model": "cin-plum-street-temple",
+  "place": "cincinnati-area",
+  "lng": -84.518266,
+  "lat": 39.103678,
+  "bearing": 349.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1100476",
+  "replaces": [
+    "way/46136621",
+    "way/78292248"
+  ]
+}

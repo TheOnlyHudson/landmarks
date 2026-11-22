@@ -1,0 +1,55 @@
+{
+  "id": "cola-gervais-street-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "bridge",
+    "arch-bridge",
+    "concrete"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "South side, looking northeast, horizontal format - Gervais Street Bridge (HAER SC-16-8)",
+      "url": "https://commons.wikimedia.org/wiki/File:SOUTH_SIDE,_LOOKING_NORTHEAST,_HORIZONTAL_FORMAT_-_Gervais_Street_Bridge,_Gervais_Street_spanning_Congaree_River,_Columbia,_Richland_County,_SC_HAER_SC,40-COLUM,19-8.tif",
+      "author": "Jack E. Boucher (HAER)",
+      "license": "Public domain"
+    },
+    {
+      "title": "General view, looking north - Gervais Street Bridge (HAER SC-16-1)",
+      "url": "https://commons.wikimedia.org/wiki/File:GENERAL_VIEW,_LOOKING_NORTH_-_Gervais_Street_Bridge,_Gervais_Street_spanning_Congaree_River,_Columbia,_Richland_County,_SC_HAER_SC,40-COLUM,19-1.tif",
+      "author": "Jack E. Boucher (HAER)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Detail, typical light standard - Gervais Street Bridge (HAER SC-16-10)",
+      "url": "https://commons.wikimedia.org/wiki/File:DETAIL,_TYPICAL_LIGHT_STANDARD_-_Gervais_Street_Bridge,_Gervais_Street_spanning_Congaree_River,_Columbia,_Richland_County,_SC_HAER_SC,40-COLUM,19-10.tif",
+      "author": "Jack E. Boucher (HAER)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Gervais Street Bridge-NE view",
+      "url": "https://commons.wikimedia.org/wiki/File:Gervais_Street_Bridge-NE_view.JPG",
+      "author": "Reyvato",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/cola-gervais-street-bridge.glb",
+  "source": "generators/cola-gervais-street-bridge.ts"
+}

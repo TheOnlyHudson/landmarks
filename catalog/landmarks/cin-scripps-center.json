@@ -1,0 +1,26 @@
+{
+  "id": "cin-scripps-center",
+  "model": "cin-scripps-center",
+  "place": "cincinnati-area",
+  "elevation": 0,
+  "name": "Scripps Center",
+  "lng": -84.51039,
+  "lat": 39.0993,
+  "bearing": 350,
+  "minzoom": 14,
+  "replaces": [
+    "way/39197415",
+    "way/807912954",
+    "way/270046854",
+    "way/270046856",
+    "way/270046858",
+    "way/270046859",
+    "way/270046861",
+    "way/270046862",
+    "way/270046863",
+    "way/270046864",
+    "way/270046865",
+    "way/270046866",
+    "way/270046867"
+  ]
+}

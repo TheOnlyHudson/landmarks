@@ -1,0 +1,28 @@
+{
+  "id": "slc-public-library",
+  "name": "Salt Lake City Public Library",
+  "model": "slc-public-library",
+  "place": "salt-lake-city-area",
+  "lng": -111.8844382,
+  "lat": 40.7599917,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q280463",
+  "replaces": [
+    "way/33194160",
+    "way/1319653044",
+    "way/1319653045",
+    "way/1319653046",
+    "way/1319653047",
+    "way/1319653048",
+    "way/1319653049",
+    "way/1319653050",
+    "way/1319653051",
+    "way/1319653052",
+    "way/1319653054",
+    "way/1319653055",
+    "way/1319653056",
+    "way/1319653053"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "slc-orrin-g-hatch-courthouse",
+  "name": "Orrin G. Hatch United States Courthouse",
+  "model": "slc-orrin-g-hatch-courthouse",
+  "place": "salt-lake-city-area",
+  "lng": -111.8930447,
+  "lat": 40.7612725,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q20672113",
+  "replaces": [
+    "way/226319125"
+  ]
+}

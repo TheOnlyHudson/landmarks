@@ -1,0 +1,49 @@
+{
+  "id": "cola-trinity-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "church",
+    "cathedral",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Trinity Episcopal Cathedral, Columbia SC, West view",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Episcopal_Cathedral,_Columbia_SC,_West_view_20160702_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trinity Episcopal Cathedral - Columbia, South Carolina",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Episcopal_Cathedral_-_Columbia,_South_Carolina.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trinity Episcopal Cathedral (Columbia, SC)",
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Episcopal_Cathedral_(Columbia,_SC).jpg",
+      "author": "Thomas Kirchel",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/cola-trinity-cathedral.glb",
+  "source": "generators/cola-trinity-cathedral.ts"
+}

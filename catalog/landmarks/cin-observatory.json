@@ -1,0 +1,24 @@
+{
+  "id": "cin-observatory",
+  "name": "Cincinnati Observatory",
+  "model": "cin-observatory",
+  "place": "cincinnati-area",
+  "lng": -84.422367,
+  "lat": 39.138922,
+  "bearing": 5.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3348364",
+  "replaces": [
+    "way/76811703",
+    "way/1308869013",
+    "way/1308869014",
+    "way/1308869015",
+    "way/1309156968",
+    "relation/17956513",
+    "way/76811742",
+    "way/1308869011",
+    "way/1308869009",
+    "way/1308869010"
+  ]
+}

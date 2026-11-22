@@ -1,0 +1,42 @@
+{
+  "id": "cola-south-caroliniana-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "library",
+    "university"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "South Caroliniana Library.jpg",
+      "author": "ProfReader",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:South_Caroliniana_Library.jpg"
+    },
+    {
+      "title": "South Caroliniana Library, Horseshoe, University of South Carolina, Sumter Street, Columbia, SC.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:South_Caroliniana_Library,_Horseshoe,_University_of_South_Carolina,_Sumter_Street,_Columbia,_SC_-_53398531755.jpg"
+    }
+  ],
+  "file": "models/cola-south-caroliniana-library.glb",
+  "source": "generators/cola-south-caroliniana-library.ts"
+}

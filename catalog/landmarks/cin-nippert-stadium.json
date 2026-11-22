@@ -1,0 +1,18 @@
+{
+  "id": "cin-nippert-stadium",
+  "name": "Nippert Stadium",
+  "model": "cin-nippert-stadium",
+  "place": "cincinnati-area",
+  "lng": -84.51623,
+  "lat": 39.13112,
+  "bearing": 28,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q3342107",
+  "replaces": [
+    "way/35263590",
+    "way/703660989",
+    "way/703775550",
+    "way/59341685"
+  ]
+}

@@ -30,15 +30,11 @@
  * metres above 1900 m NAVD88), and the whole model is dropped so its lowest
  * vertex is y = 0 (datum 1912.4 m, Ship Rock's south end). The map detects
  * it as terrain-following (`terrain.ts check`: model ground follows: true).
- * It must be placed with a small POSITIVE elevation (0.1) so the map stands
- * it rigidly at the heights it was built at: with elevation 0 the map fills
- * the terrain under the model and drags every vertex near its 7 x 7 ground
- * samples down to the fill, which flattened the tops of the monoliths by up
- * to 46 m in the check's scene. Rigid, the map draws its terrain everywhere
- * (no fill), so the rock surfaces stand 0.8 m over the highest DEM within
- * 2 m of each vertex (the envelope), and the map's own rock never shows
- * through. Check (elevation 0.1): see the report; with terrain off the model
- * floats as built, like any terrain-following model.
+ * The map stands it whole at the heights it was built at, and draws its
+ * terrain under it unfilled, as it does under any terrain-following model,
+ * so the rock surfaces stand 0.8 m over the highest DEM within 2 m of each
+ * vertex (the envelope), and the map's own rock never shows through. With
+ * terrain off the model floats as built, like any terrain-following model.
  *
  * Sources:
  * - OSM: way/229359697 (amphitheatre outline, the bowl's extent);

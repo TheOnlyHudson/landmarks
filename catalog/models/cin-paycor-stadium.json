@@ -1,0 +1,55 @@
+{
+  "id": "cin-paycor-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "football",
+    "nfl",
+    "riverfront"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The Cincinnati Bengals' riverfront stadium (2000, as Paul Brown Stadium): two tall sideline stands under white crescent canopies on raking white ribs, with low open ends.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Paul Brown Stadium 2022a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Paul_Brown_Stadium_2022a.jpg",
+      "author": "Antony-22",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Paycor Stadium 2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Paycor_Stadium_2025.jpg",
+      "author": "Antony-22",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Paul Brown Stadium Cincinnati.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Paul_Brown_Stadium_Cincinnati.jpg",
+      "author": "EEJCC",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "Three stadiums.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Three_stadiums.jpg",
+      "author": "Ktr101",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "file": "models/cin-paycor-stadium.glb",
+  "source": "generators/cin-paycor-stadium.ts"
+}

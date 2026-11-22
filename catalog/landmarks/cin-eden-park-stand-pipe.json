@@ -1,0 +1,19 @@
+{
+  "id": "cin-eden-park-stand-pipe",
+  "name": "Eden Park Stand Pipe",
+  "model": "cin-eden-park-stand-pipe",
+  "place": "cincinnati-area",
+  "lng": -84.490279,
+  "lat": 39.117325,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5336899",
+  "replaces": [
+    "way/46648946",
+    "way/1453472810",
+    "way/1453472811",
+    "way/1453472812",
+    "way/1453473665"
+  ]
+}

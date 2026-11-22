@@ -1,0 +1,14 @@
+{
+  "id": "cola-colonial-life-arena",
+  "name": "Colonial Life Arena",
+  "model": "cola-colonial-life-arena",
+  "place": "columbia-sc-area",
+  "lng": -81.03735,
+  "lat": 33.99478,
+  "bearing": 24,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/110351219"
+  ]
+}

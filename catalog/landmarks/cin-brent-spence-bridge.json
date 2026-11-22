@@ -1,0 +1,15 @@
+{
+  "id": "cin-brent-spence-bridge",
+  "name": "Brent Spence Bridge",
+  "model": "cin-brent-spence-bridge",
+  "place": "cincinnati-area",
+  "lng": -84.52258,
+  "lat": 39.09065,
+  "bearing": 182.33,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q14628990",
+  "replaces": [
+    "way/871768960"
+  ]
+}

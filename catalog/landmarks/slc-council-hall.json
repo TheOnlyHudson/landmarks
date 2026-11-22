@@ -1,0 +1,15 @@
+{
+  "id": "slc-council-hall",
+  "name": "Council Hall",
+  "model": "slc-council-hall",
+  "place": "salt-lake-city-area",
+  "lng": -111.88773,
+  "lat": 40.775545,
+  "bearing": 90,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q2215312",
+  "replaces": [
+    "way/40790652"
+  ]
+}

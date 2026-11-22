@@ -1,0 +1,50 @@
+{
+  "id": "cin-old-st-marys",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "place-of-worship",
+    "greek-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Cincinnati's oldest standing church (1842), built by German Catholics in Over-the-Rhine: a cream-painted brick temple front with three arched doors and oculi, and a white clock steeple with a green copper spire.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Old St. Mary's Catholic Church, Over-the-Rhine, Cincinnati, OH (46437329365).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_St._Mary%27s_Catholic_Church,_Over-the-Rhine,_Cincinnati,_OH_(46437329365).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Old St. Mary's Catholic Church, Over-the-Rhine, Cincinnati, OH (46629189804).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_St._Mary%27s_Catholic_Church,_Over-the-Rhine,_Cincinnati,_OH_(46629189804).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Old St. Mary's Catholic Church, Over-the-Rhine, Cincinnati, OH (46437327725).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_St._Mary%27s_Catholic_Church,_Over-the-Rhine,_Cincinnati,_OH_(46437327725).jpg",
+      "author": "Warren LeMay",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/cin-old-st-marys.glb",
+  "source": "generators/cin-old-st-marys.ts"
+}

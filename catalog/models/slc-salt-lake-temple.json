@@ -1,0 +1,75 @@
+{
+  "id": "slc-salt-lake-temple",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "temple",
+    "religious",
+    "historic",
+    "gothic-revival",
+    "granite"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q1122206",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Salt Lake Temple, Utah - Sept 2004",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_Temple,_Utah_-_Sept_2004.jpg",
+      "author": "Diliff",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Salt Lake Temple UT1",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_Temple_UT1.jpg",
+      "author": "Acroterion",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Salt Lake Temple UT2",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_Temple_UT2.jpg",
+      "author": "Acroterion",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2019 Salt Lake Temple 02",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_Salt_Lake_Temple_02.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2019 Salt Lake Temple 04",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_Salt_Lake_Temple_04.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Salt Lake Temple (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_Temple_(1).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Salt Lake Temple under construction (April 2025)",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_Temple_under_construction_(April_2025).jpg",
+      "author": "Lomrjyo",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-salt-lake-temple.glb",
+  "source": "generators/slc-salt-lake-temple.ts"
+}

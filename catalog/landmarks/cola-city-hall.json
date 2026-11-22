@@ -1,0 +1,15 @@
+{
+  "id": "cola-city-hall",
+  "name": "Columbia City Hall",
+  "model": "cola-city-hall",
+  "place": "columbia-sc-area",
+  "lng": -81.03736,
+  "lat": 34.008988,
+  "bearing": 70,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/330010799"
+  ],
+  "wikidata": "Q16827507"
+}
