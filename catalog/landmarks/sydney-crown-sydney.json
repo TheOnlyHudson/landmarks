@@ -1,0 +1,17 @@
+{
+  "id": "sydney-crown-sydney",
+  "name": "Crown Sydney",
+  "model": "sydney-crown-sydney",
+  "place": "sydney",
+  "lng": 151.2010405,
+  "lat": -33.8624002,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q16890775",
+  "replaces": [
+    "way/581013658",
+    "way/786410713",
+    "way/786410714"
+  ]
+}
