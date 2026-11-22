@@ -1,0 +1,16 @@
+{
+  "id": "auckland-ferry-building",
+  "name": "Ferry Building",
+  "model": "auckland-ferry-building",
+  "place": "auckland",
+  "lng": 174.766884,
+  "lat": -36.842996,
+  "bearing": 17.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q4819518",
+  "replaces": [
+    "way/23904427",
+    "way/1037508949"
+  ]
+}
