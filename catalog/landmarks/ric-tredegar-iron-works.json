@@ -1,0 +1,15 @@
+{
+  "id": "ric-tredegar-iron-works",
+  "name": "Tredegar Iron Works",
+  "model": "ric-tredegar-iron-works",
+  "place": "richmond-area",
+  "lng": -77.4458134,
+  "lat": 37.5353721,
+  "bearing": 174,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/266751753"
+  ],
+  "wikidata": "Q7837469"
+}
