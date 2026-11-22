@@ -1,0 +1,14 @@
+{
+  "id": "indy-central-library",
+  "name": "Indianapolis Central Library",
+  "model": "indy-central-library",
+  "place": "indianapolis-area",
+  "lng": -86.1567402,
+  "lat": 39.7785466,
+  "bearing": -0.58,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/113050102"
+  ]
+}

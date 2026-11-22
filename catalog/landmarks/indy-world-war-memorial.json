@@ -1,0 +1,14 @@
+{
+  "id": "indy-world-war-memorial",
+  "name": "Indiana World War Memorial",
+  "model": "indy-world-war-memorial",
+  "place": "indianapolis-area",
+  "lng": -86.1569437,
+  "lat": 39.7733757,
+  "bearing": 0.86,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/339760249"
+  ]
+}

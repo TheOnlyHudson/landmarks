@@ -1,0 +1,15 @@
+{
+  "id": "indy-jw-marriott",
+  "name": "JW Marriott Indianapolis",
+  "model": "indy-jw-marriott",
+  "place": "indianapolis-area",
+  "lng": -86.167661,
+  "lat": 39.766685,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q6109253",
+  "replaces": [
+    "way/537848110"
+  ]
+}

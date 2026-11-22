@@ -1,0 +1,47 @@
+{
+  "id": "indy-childrens-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "dinosaurs"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "The Children's Museum of Indianapolis - March 2012 01.jpg",
+      "author": "anjanettew",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Children%27s_Museum_of_Indianapolis_-_March_2012_01.jpg"
+    },
+    {
+      "title": "The Children's Museum of Indianapolis - March 2012 02.jpg",
+      "author": "anjanettew",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Children%27s_Museum_of_Indianapolis_-_March_2012_02.jpg"
+    },
+    {
+      "title": "The Children's Museum of Indianapolis - March 2012 03.jpg",
+      "author": "anjanettew",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Children%27s_Museum_of_Indianapolis_-_March_2012_03.jpg"
+    }
+  ],
+  "file": "models/indy-childrens-museum.glb",
+  "source": "generators/indy-childrens-museum.ts"
+}

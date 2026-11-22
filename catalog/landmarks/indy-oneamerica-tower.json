@@ -1,0 +1,15 @@
+{
+  "id": "indy-oneamerica-tower",
+  "name": "OneAmerica Tower",
+  "model": "indy-oneamerica-tower",
+  "place": "indianapolis-area",
+  "lng": -86.160647,
+  "lat": 39.770645,
+  "bearing": 1.7,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q201992",
+  "replaces": [
+    "relation/4821151"
+  ]
+}

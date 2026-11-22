@@ -1,0 +1,48 @@
+{
+  "id": "indy-ims-main-grandstands",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "motorsport",
+    "grandstand",
+    "racetrack"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Indianapolis Motor Speedway (16188939351).jpg",
+      "author": "redlegsfan21",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indianapolis_Motor_Speedway_(16188939351).jpg"
+    },
+    {
+      "title": "Frontstretch of Indianapolis Motor Speedway (40652603200).jpg",
+      "author": "Zach Catanzareti Photo",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Frontstretch_of_Indianapolis_Motor_Speedway_(40652603200).jpg"
+    },
+    {
+      "title": "Racing at the 2026 Brickyard 400.jpg",
+      "author": "Brycenrichter",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Racing_at_the_2026_Brickyard_400.jpg"
+    }
+  ],
+  "file": "models/indy-ims-main-grandstands.glb",
+  "source": "generators/indy-ims-main-grandstands.ts"
+}

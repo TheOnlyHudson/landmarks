@@ -1,0 +1,12 @@
+{
+  "id": "indy-ims-scoring-pylon",
+  "name": "IMS Timing and Scoring Pylon",
+  "model": "indy-ims-scoring-pylon",
+  "place": "indianapolis-area",
+  "lng": -86.2387371,
+  "lat": 39.7919676,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

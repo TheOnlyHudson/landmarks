@@ -1,0 +1,53 @@
+{
+  "id": "indy-newfields",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Indianapolis Museum of Art - August 2014 - Donna Block.jpg",
+      "author": "donna_0622",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indianapolis_Museum_of_Art_-_August_2014_-_Donna_Block.jpg"
+    },
+    {
+      "title": "Indy-Art-Museum-Szmurlo.jpg",
+      "author": "Csz",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indy-Art-Museum-Szmurlo.jpg"
+    },
+    {
+      "title": "Indianapolis Museum of Art - July 2009 - Valerie Everett.jpg",
+      "author": "Valerie Everett",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indianapolis_Museum_of_Art_-_July_2009_-_Valerie_Everett.jpg"
+    },
+    {
+      "title": "Indianapolis Museum of Art -33.jpg",
+      "author": "hibino",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indianapolis_Museum_of_Art_-33.jpg"
+    }
+  ],
+  "file": "models/indy-newfields.glb",
+  "source": "generators/indy-newfields.ts"
+}

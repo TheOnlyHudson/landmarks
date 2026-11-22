@@ -1,0 +1,15 @@
+{
+  "id": "indy-st-john-the-evangelist",
+  "name": "St. John the Evangelist Catholic Church",
+  "model": "indy-st-john-the-evangelist",
+  "place": "indianapolis-area",
+  "lng": -86.1613215,
+  "lat": 39.7648739,
+  "bearing": 1.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/340480890",
+    "way/1465664948"
+  ]
+}

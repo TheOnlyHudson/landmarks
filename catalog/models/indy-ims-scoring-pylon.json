@@ -1,0 +1,49 @@
+{
+  "id": "indy-ims-scoring-pylon",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "motorsport",
+    "scoreboard",
+    "racetrack",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Indianapolis Motor Speedway pylon - 2015 Indianapolis Speedway - Stierch.jpg",
+      "author": "Sarah Stierch",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indianapolis_Motor_Speedway_pylon_-_2015_Indianapolis_Speedway_-_Stierch.jpg"
+    },
+    {
+      "title": "Indianapolis pylon (51221638058).jpg",
+      "author": "Zach Catanzareti Photo",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indianapolis_pylon_(51221638058).jpg"
+    },
+    {
+      "title": "Indianapolis Motor Speedway (16005026897).jpg",
+      "author": "redlegsfan21",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indianapolis_Motor_Speedway_(16005026897).jpg"
+    }
+  ],
+  "file": "models/indy-ims-scoring-pylon.glb",
+  "source": "generators/indy-ims-scoring-pylon.ts"
+}

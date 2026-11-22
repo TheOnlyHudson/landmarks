@@ -1,0 +1,53 @@
+{
+  "id": "indy-indiana-state-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Indiana State Museum exterior (WCNA 2024 CR).jpg",
+      "author": "ComplexRational",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_State_Museum_exterior_(WCNA_2024_CR).jpg"
+    },
+    {
+      "title": "Indiana State Museum Angled.jpg",
+      "author": "Momoneymoproblemz",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_State_Museum_Angled.jpg"
+    },
+    {
+      "title": "Indiana State Museum Washington Street Facade.jpg",
+      "author": "Momoneymoproblemz",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_State_Museum_Washington_Street_Facade.jpg"
+    },
+    {
+      "title": "Indiana State Museum from the JW Marriott - 2011.jpg",
+      "author": "Kent Slade",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_State_Museum_from_the_JW_Marriott_-_2011.jpg"
+    }
+  ],
+  "file": "models/indy-indiana-state-museum.glb",
+  "source": "generators/indy-indiana-state-museum.ts"
+}
