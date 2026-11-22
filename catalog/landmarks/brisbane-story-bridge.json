@@ -1,0 +1,15 @@
+{
+  "id": "brisbane-story-bridge",
+  "name": "Story Bridge",
+  "model": "brisbane-story-bridge",
+  "place": "brisbane",
+  "lng": 153.0357456,
+  "lat": -27.4637063,
+  "bearing": 358.67,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q914048",
+  "replaces": [
+    "way/507264554"
+  ]
+}
