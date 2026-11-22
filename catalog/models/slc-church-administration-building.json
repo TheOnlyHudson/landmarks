@@ -1,0 +1,50 @@
+{
+  "id": "slc-church-administration-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "office",
+    "neoclassical",
+    "granite"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q5116549",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Church Administration Building - Salt Lake City, Utah - 10 May 2020",
+      "url": "https://commons.wikimedia.org/wiki/File:Church_Administration_Building_-_Salt_Lake_City,_Utah_-_10_May_2020.jpg",
+      "author": "Beneathtimp",
+      "license": "CC0"
+    },
+    {
+      "title": "Admin bldg 5254",
+      "url": "https://commons.wikimedia.org/wiki/File:Admin_bldg_5254.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Admin bldg 5257",
+      "url": "https://commons.wikimedia.org/wiki/File:Admin_bldg_5257.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-church-administration-building.glb",
+  "source": "generators/slc-church-administration-building.ts"
+}

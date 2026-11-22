@@ -1,0 +1,51 @@
+{
+  "id": "slc-trolley-square",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "shopping-centre",
+    "mission-revival",
+    "water-tower",
+    "car-barn"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q7845190",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Salt Lake City (UT, USA), Trolley Square -- 2022 -- 190112",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City_(UT,_USA),_Trolley_Square_--_2022_--_190112.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Salt Lake City, Utah (2021) - 176",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City,_Utah_(2021)_-_176.jpg",
+      "author": "Another Believer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Trolley Square water tower, Aug 17",
+      "url": "https://commons.wikimedia.org/wiki/File:Trolley_Square_water_tower,_Aug_17.jpg",
+      "author": "An Errant Knight",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/slc-trolley-square.glb",
+  "source": "generators/slc-trolley-square.ts"
+}

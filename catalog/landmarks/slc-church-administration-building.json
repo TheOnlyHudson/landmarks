@@ -1,0 +1,15 @@
+{
+  "id": "slc-church-administration-building",
+  "name": "Church Administration Building",
+  "model": "slc-church-administration-building",
+  "place": "salt-lake-city-area",
+  "lng": -111.8893637,
+  "lat": 40.769816,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5116549",
+  "replaces": [
+    "way/33155054"
+  ]
+}

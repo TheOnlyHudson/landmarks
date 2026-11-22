@@ -1,0 +1,55 @@
+{
+  "id": "slc-public-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "library",
+    "contemporary",
+    "moshe-safdie"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q280463",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Salt Lake City Library (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City_Library_(1).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Salt Lake City Library (2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City_Library_(2).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Salt Lake City Library (3)",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City_Library_(3).jpg",
+      "author": "Tamanoeconomico",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Salt Lake City Public Library (43837696972)",
+      "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City_Public_Library_(43837696972).jpg",
+      "author": "Ben P L from Provo, USA",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/slc-public-library.glb",
+  "source": "generators/slc-public-library.ts"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "slc-salt-lake-tabernacle",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "tabernacle",
+    "religious",
+    "historic",
+    "concert-hall",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "2019 Salt Lake Tabernacle",
+      "url": "https://commons.wikimedia.org/wiki/File:2019_Salt_Lake_Tabernacle.jpg",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "S.L. Tabernacle on Temple Square",
+      "url": "https://commons.wikimedia.org/wiki/File:S.L._Tabernacle_on_Temple_Square.jpg",
+      "author": "Leon7",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/slc-salt-lake-tabernacle.glb",
+  "source": "generators/slc-salt-lake-tabernacle.ts"
+}
