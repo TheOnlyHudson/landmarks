@@ -1,0 +1,14 @@
+{
+  "id": "nyc-delacorte-theater",
+  "name": "Delacorte Theater",
+  "model": "nyc-delacorte-theater",
+  "place": "central-park",
+  "lng": -73.968813,
+  "lat": 40.780272,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/278363024"
+  ]
+}

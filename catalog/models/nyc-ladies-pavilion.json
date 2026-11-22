@@ -1,0 +1,44 @@
+{
+  "id": "nyc-ladies-pavilion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "historic",
+    "cast-iron",
+    "pavilion",
+    "victorian",
+    "central-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Central Park New York City New York 22.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_New_York_City_New_York_22.jpg",
+      "author": "Jet Lowe (HAER/HABS, Library of Congress)",
+      "license": "Public domain"
+    },
+    {
+      "title": "Rediscovering the Solitude of the Ladies Pavilion, or The Ladies Pavilion Brought Back for the Commons.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Rediscovering_the_Solitude_of_the_Ladies_Pavilion,_or_The_Ladies_Pavilion_Brought_Back_for_the_Commons.jpg",
+      "author": "SavidgeMichael",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/nyc-ladies-pavilion.glb",
+  "source": "generators/nyc-ladies-pavilion.ts"
+}

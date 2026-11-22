@@ -1,0 +1,14 @@
+{
+  "id": "nyc-naumburg-bandshell",
+  "name": "Naumburg Bandshell",
+  "model": "nyc-naumburg-bandshell",
+  "place": "central-park",
+  "lng": -73.971028,
+  "lat": 40.772675,
+  "bearing": 106.9,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/265347581"
+  ]
+}

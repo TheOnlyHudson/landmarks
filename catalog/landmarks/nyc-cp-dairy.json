@@ -1,0 +1,15 @@
+{
+  "id": "nyc-cp-dairy",
+  "name": "The Dairy",
+  "model": "nyc-cp-dairy",
+  "place": "central-park",
+  "lng": -73.973702,
+  "lat": 40.769107,
+  "bearing": 28.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/265347588"
+  ],
+  "wikidata": "Q67214585"
+}

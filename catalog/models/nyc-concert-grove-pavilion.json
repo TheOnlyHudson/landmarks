@@ -1,0 +1,45 @@
+{
+  "id": "nyc-concert-grove-pavilion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "historic",
+    "cast-iron",
+    "pavilion",
+    "shelter",
+    "olmsted-vaux",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Prospect Park Oriental Pavilion Golden Hour",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Oriental_Pavilion_Golden_Hour.jpg",
+      "author": "Downtowngal",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Prospect Park Oriental Pavilion Golden Hour 2",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Oriental_Pavilion_Golden_Hour_2.jpg",
+      "author": "Downtowngal",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/nyc-concert-grove-pavilion.glb",
+  "source": "generators/nyc-concert-grove-pavilion.ts"
+}

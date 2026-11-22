@@ -1,0 +1,50 @@
+{
+  "id": "nyc-naumburg-bandshell",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "historic",
+    "bandshell",
+    "neoclassical",
+    "limestone",
+    "central-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Central Park - Naumburg Bandshell (48377071721).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_-_Naumburg_Bandshell_(48377071721).jpg",
+      "author": "Ajay Suresh",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Naumburg Bandshell in Central Park, New York City - Oct 2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Naumburg_Bandshell_in_Central_Park,_New_York_City_-_Oct_2024.jpg",
+      "author": "LR.127",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Naumburg Bandshell, New York City.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Naumburg_Bandshell,_New_York_City.jpg",
+      "author": "Syed07",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-naumburg-bandshell.glb",
+  "source": "generators/nyc-naumburg-bandshell.ts"
+}

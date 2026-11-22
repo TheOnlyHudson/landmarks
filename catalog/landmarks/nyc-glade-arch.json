@@ -1,0 +1,13 @@
+{
+  "id": "nyc-glade-arch",
+  "name": "Glade Arch",
+  "model": "nyc-glade-arch",
+  "place": "central-park",
+  "lng": -73.965634,
+  "lat": 40.776467,
+  "bearing": 356.9,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [],
+  "wikidata": "Q125458569"
+}
