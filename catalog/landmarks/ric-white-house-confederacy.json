@@ -1,0 +1,15 @@
+{
+  "id": "ric-white-house-confederacy",
+  "name": "White House of the Confederacy",
+  "model": "ric-white-house-confederacy",
+  "place": "richmond-area",
+  "lng": -77.4296017,
+  "lat": 37.540712,
+  "bearing": 36.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/224601753"
+  ],
+  "wikidata": "Q7994925"
+}
