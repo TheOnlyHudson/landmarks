@@ -1,0 +1,48 @@
+{
+  "id": "jax-basilica-immaculate-conception",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Jax FL Immaculate Conception Church01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jax_FL_Immaculate_Conception_Church01.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Jax FL Immaculate Conception Church02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jax_FL_Immaculate_Conception_Church02.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Jax FL Immaculate Conception Church tall pano02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jax_FL_Immaculate_Conception_Church_tall_pano02.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/jax-basilica-immaculate-conception.glb",
+  "source": "generators/jax-basilica-immaculate-conception.ts"
+}
