@@ -1,0 +1,24 @@
+{
+  "id": "wellington-beehive",
+  "name": "The Beehive",
+  "model": "wellington-beehive",
+  "place": "wellington",
+  "lng": 174.7766259,
+  "lat": -41.2784371,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1794839",
+  "replaces": [
+    "way/26022581",
+    "way/740174285",
+    "way/740174286",
+    "way/740174287",
+    "way/740174288",
+    "way/740174289",
+    "way/740174290",
+    "way/740174291",
+    "way/740174292",
+    "way/153924620"
+  ]
+}
