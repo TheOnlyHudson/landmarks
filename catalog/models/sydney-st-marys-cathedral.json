@@ -1,0 +1,64 @@
+{
+  "id": "sydney-st-marys-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "cathedral",
+    "church",
+    "gothic-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/sydney-st-marys-cathedral.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sydney (AU), St Mary's Cathedral -- 2019 -- 3107.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_St_Mary%27s_Cathedral_--_2019_--_3107.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney (AU), St Mary's Cathedral -- 2019 -- 3111.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_St_Mary%27s_Cathedral_--_2019_--_3111.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. Mary's Cathedral, Sydney, west remote view 20230206 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Mary%27s_Cathedral,_Sydney,_west_remote_view_20230206_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney (AU), View from Sydney Tower, St Mary's Cathedral -- 2019 -- 3141.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_View_from_Sydney_Tower,_St_Mary%27s_Cathedral_--_2019_--_3141.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. Mary's Cathedral, Sydney, Front.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Mary%27s_Cathedral,_Sydney,_Front.jpg",
+      "author": "Horst Günther Burkhardt III",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/sydney-st-marys-cathedral.glb",
+  "source": "generators/sydney-st-marys-cathedral.ts"
+}
