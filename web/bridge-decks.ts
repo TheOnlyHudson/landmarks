@@ -202,42 +202,45 @@ export class DeckGraph {
   }
 }
 
-/** Shortest distances along the deck from one node to every node it reaches (Dijkstra on a binary heap). */
-function distances(g: DeckGraph, from: number): Map<number, number> {
-  const dist = new Map<number, number>([[from, 0]])
-  const heap: [number, number][] = [[0, from]]
-  const push = (item: [number, number]) => {
-    heap.push(item)
-    for (let i = heap.length - 1; i > 0;) {
-      const p = (i - 1) >> 1
-      if (heap[p][0] <= heap[i][0]) break
-      ;[heap[p], heap[i]] = [heap[i], heap[p]]; i = p
+/** Landings each node's height is read from: the nearest few along the deck. */
+const NEAREST = 4
+
+/**
+ * For every node, its NEAREST nearest landings and their distances along the
+ * deck: one Dijkstra from all the landings at once, each node keeping the
+ * first NEAREST different landings to reach it.
+ */
+function nearestLandings(g: DeckGraph, landings: number[]): Map<number, [number, number][]> {
+  const found = new Map<number, [number, number][]>()
+  const heap: [number, number, number][] = landings.map(l => [0, l, l])
+  const less = (a: [number, number, number], b: [number, number, number]) => a[0] < b[0]
+  const up = (i: number) => { while (i > 0) { const p = (i - 1) >> 1; if (!less(heap[i], heap[p])) break; [heap[p], heap[i]] = [heap[i], heap[p]]; i = p } }
+  const down = (i: number) => {
+    for (;;) {
+      const l = 2 * i + 1, r = l + 1
+      let m = i
+      if (l < heap.length && less(heap[l], heap[m])) m = l
+      if (r < heap.length && less(heap[r], heap[m])) m = r
+      if (m === i) return
+      ;[heap[m], heap[i]] = [heap[i], heap[m]]; i = m
     }
   }
-  const pop = () => {
-    const top = heap[0], last = heap.pop()!
-    if (heap.length) {
-      heap[0] = last
-      for (let i = 0; ;) {
-        const l = 2 * i + 1, r = l + 1
-        let m = i
-        if (l < heap.length && heap[l][0] < heap[m][0]) m = l
-        if (r < heap.length && heap[r][0] < heap[m][0]) m = r
-        if (m === i) break
-        ;[heap[m], heap[i]] = [heap[i], heap[m]]; i = m
-      }
-    }
-    return top
-  }
+  for (let i = heap.length >> 1; i >= 0; i--) down(i)
   while (heap.length) {
-    const [d, n] = pop()
-    if (d > (dist.get(n) ?? Infinity)) continue
+    const [d, n, l] = heap[0]
+    const last = heap.pop()!
+    if (heap.length) { heap[0] = last; down(0) }
+    const labels = found.get(n) ?? []
+    if (labels.length >= NEAREST || labels.some(([k]) => k === l)) continue
+    labels.push([l, d])
+    found.set(n, labels)
     for (const m of g.adj[n]) {
-      const dm = d + g.length(n, m)
-      if (dm < (dist.get(m) ?? Infinity)) { dist.set(m, dm); push([dm, m]) }
+      const lm = found.get(m)
+      if (lm && (lm.length >= NEAREST || lm.some(([k]) => k === l))) continue
+      heap.push([d + g.length(n, m), m, l]); up(heap.length - 1)
     }
   }
-  return dist
+  return found
 }
 
 /**
@@ -248,16 +251,14 @@ function distances(g: DeckGraph, from: number): Map<number, number> {
  */
 export function deckHeights(g: DeckGraph, comp: number[], landings: number[], ground: (n: number) => number, needs: (n: number) => number): Map<number, number> | null {
   if (!landings.length) return null
-  const fromLanding = landings.map(l => distances(g, l))
+  const nearest = nearestLandings(g, landings)
   const base = new Map<number, number>(), harmonic = new Map<number, number>()
   for (const n of comp) {
     let weight = 0, sum = 0, at = -1
-    landings.forEach((l, k) => {
-      const d = fromLanding[k].get(n)
-      if (d === undefined) return
+    for (const [l, d] of nearest.get(n) ?? []) {
       if (d < 1e-6) at = l
       else { weight += 1 / d; sum += ground(l) / d }
-    })
+    }
     if (at >= 0) { base.set(n, ground(at)); harmonic.set(n, 0); continue }
     base.set(n, weight ? sum / weight : ground(n))
     harmonic.set(n, weight ? 1 / weight : 0)
@@ -272,11 +273,18 @@ export function deckHeights(g: DeckGraph, comp: number[], landings: number[], gr
     const by = needs(n) - deck.get(n)!
     if (by > 0) lifts.push({ at: h, by })
   }
-  if (lifts.length) for (const n of comp) {
-    const h = harmonic.get(n)!
-    let lift = 0
-    for (const { at, by } of lifts) lift = Math.max(lift, by * Math.min(1, h / at))
-    deck.set(n, deck.get(n)! + lift)
+  if (lifts.length) {
+    // lift(h) = max over lifts of by × min(1, h / at): the whole `by` of those at or under h, h × by / at of the rest.
+    lifts.sort((a, b) => a.at - b.at)
+    const full: number[] = [], ratio: number[] = new Array(lifts.length + 1).fill(0)
+    lifts.forEach(({ by }, i) => { full[i] = Math.max(by, i ? full[i - 1] : 0) })
+    for (let i = lifts.length - 1; i >= 0; i--) ratio[i] = Math.max(ratio[i + 1], lifts[i].by / lifts[i].at)
+    for (const n of comp) {
+      const h = harmonic.get(n)!
+      let lo = 0, hi = lifts.length
+      while (lo < hi) { const mid = (lo + hi) >> 1; if (lifts[mid].at <= h) lo = mid + 1; else hi = mid }
+      deck.set(n, deck.get(n)! + Math.max(lo ? full[lo - 1] : 0, h * ratio[lo]))
+    }
   }
   return deck
 }
@@ -444,6 +452,7 @@ export function coveredByModels(g: DeckGraph, replaced: Set<number>, plans: Mode
 /** Mapterhorn terrain decoded from its tiles, kept as 0.2 m steps in 16 bits. */
 class Terrain {
   private tiles = new Map<string, Promise<Uint16Array | null>>()
+  private ready = new Map<string, Uint16Array>()
   failed = false
 
   /** Load the tiles under these points (global tile units). */
@@ -455,17 +464,19 @@ class Terrain {
     let tile = this.tiles.get(key)
     if (!tile) {
       const [x, y] = key.split('/')
-      tile = decodeDem(DEM_TILES.replace('{z}', String(DEM_ZOOM)).replace('{x}', x).replace('{y}', y)).catch(() => { this.failed = true; this.tiles.delete(key); return null })
+      tile = decodeDem(DEM_TILES.replace('{z}', String(DEM_ZOOM)).replace('{x}', x).replace('{y}', y))
+        .then(data => { this.ready.set(key, data); return data })
+        .catch(() => { this.failed = true; this.tiles.delete(key); return null })
       this.tiles.set(key, tile)
-      while (this.tiles.size > 32) this.tiles.delete(this.tiles.keys().next().value!)
+      while (this.tiles.size > 32) { const old = this.tiles.keys().next().value!; this.tiles.delete(old); this.ready.delete(old) }
     }
     return tile
   }
-  /** Height at a point, bilinear within its tile; null if the tile isn't loaded. */
-  async at(x: number, y: number): Promise<number | null> {
+  /** Height at a point, bilinear within its tile; null if the tile isn't loaded (see `load`). */
+  at(x: number, y: number): number | null {
     const px = x * DEM_PER_UNIT, py = y * DEM_PER_UNIT
     const tx = Math.floor(px / DEM_SIZE), ty = Math.floor(py / DEM_SIZE)
-    const data = await this.tile(`${tx}/${ty}`)
+    const data = this.ready.get(`${tx}/${ty}`)
     if (!data) return null
     const fx = Math.min(DEM_SIZE - 1.001, Math.max(0, px - tx * DEM_SIZE - 0.5)), fy = Math.min(DEM_SIZE - 1.001, Math.max(0, py - ty * DEM_SIZE - 0.5))
     const ix = Math.floor(fx), iy = Math.floor(fy), u = fx - ix, v = fy - iy
@@ -521,7 +532,7 @@ export class BridgeDecks implements CustomLayerInterface {
   private template = ''
   stats = { tiles: 0, bridges: 0, pieces: 0, triangles: 0, ms: 0 }
   /** The last solve, for checking heights from the console: `map.getLayer('bridge-decks').implementation.solved`. */
-  solved?: { graph: DeckGraph; heights: Map<number, number>; ground: (number | null)[] }
+  solved?: { key: string; graph: DeckGraph; heights: Map<number, number>; ground: (number | null)[]; pieces: Piece[]; fetched: number; partial: boolean }
 
   constructor(private onStatus: (message: string) => void) {}
 
@@ -603,6 +614,9 @@ export class BridgeDecks implements CustomLayerInterface {
     const start = performance.now()
     const loaded = await Promise.all(keys.map(k => this.tile(k)))
     if (build !== this.build) return
+    const key = keys.filter((_, i) => loaded[i]).sort().join(' ')
+    // The same tiles solve the same way: only which ways the models cover can have changed.
+    if (this.solved && this.solved.key === key && !this.solved.partial) return this.draw(this.solved, keys.length, start)
     const fetched = new Set(keys.filter((_, i) => loaded[i]))
     const data = new Map(keys.map((k, i) => [k, loaded[i]]))
     const pieces = loaded.flatMap(t => t?.pieces ?? [])
@@ -612,8 +626,7 @@ export class BridgeDecks implements CustomLayerInterface {
     this.terrain.failed = false
     await this.terrain.load(graph.x.map((x, i) => [x, graph.y[i]]))
     if (build !== this.build) return
-    const ground = await Promise.all(graph.x.map((x, i) => this.terrain.at(x, graph.y[i])))
-    if (build !== this.build) return
+    const ground = graph.x.map((x, i) => this.terrain.at(x, graph.y[i]))
     const tileOf = (n: number) => `${Math.min(Math.floor(graph.x[n] / EXTENT), 2 ** TILE_ZOOM - 1)}/${Math.floor(graph.y[n] / EXTENT)}`
     const heights = solveDecks(graph, {
       ground: n => ground[n],
@@ -628,7 +641,14 @@ export class BridgeDecks implements CustomLayerInterface {
         return false
       },
     })
-    this.solved = { graph, heights, ground }
+    this.solved = { key, graph, heights, ground, pieces, fetched: fetched.size, partial: this.terrain.failed }
+    this.draw(this.solved, keys.length, start)
+  }
+
+  /** The decks of a solve, leaving out the ways the shown models cover. */
+  private draw(solved: NonNullable<BridgeDecks['solved']>, wanted: number, start: number) {
+    const { graph, heights, pieces } = solved
+    const c = this.map.getCenter()
     const origin: [number, number] = [graph.x.length ? graph.x.reduce((s, v) => s + v, 0) / graph.x.length : 0, graph.y.length ? graph.y.reduce((s, v) => s + v, 0) / graph.y.length : 0]
     const covered = coveredByModels(graph, this.replaced, this.plans)
     const drawn = (p: Piece) => !covered.has(p)
@@ -640,13 +660,13 @@ export class BridgeDecks implements CustomLayerInterface {
     this.setMesh(mesh)
     this.hide([...decked, ...replacedHere])
     const bridges = graph.components().filter(comp => comp.every(n => heights.has(n))).length
-    this.stats = { tiles: fetched.size, bridges, pieces: mesh.pieces, triangles: mesh.position.length / 9, ms: Math.round(performance.now() - start) }
+    this.stats = { tiles: solved.fetched, bridges, pieces: mesh.pieces, triangles: mesh.position.length / 9, ms: Math.round(performance.now() - start) }
     const canvas = this.map.getCanvas()
     canvas.dataset.deckBridges = String(bridges)
     canvas.dataset.deckTriangles = String(this.stats.triangles)
     canvas.dataset.deckMs = String(this.stats.ms)
-    canvas.dataset.deckTiles = String(fetched.size)
-    this.onStatus(fetched.size < keys.length || this.terrain.failed ? 'Some bridges could not be raised and are drawn flat on the ground.' : '')
+    canvas.dataset.deckTiles = String(solved.fetched)
+    this.onStatus(solved.fetched < wanted || solved.partial ? 'Some bridges could not be raised and are drawn flat on the ground.' : '')
   }
 
   private setMesh(mesh: ReturnType<typeof deckMesh> | null) {
