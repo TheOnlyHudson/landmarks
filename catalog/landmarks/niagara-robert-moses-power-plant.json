@@ -1,0 +1,17 @@
+{
+  "id": "niagara-robert-moses-power-plant",
+  "name": "Robert Moses Niagara Power Plant",
+  "model": "niagara-robert-moses-power-plant",
+  "place": "niagara-falls",
+  "lng": -79.03978,
+  "lat": 43.14241,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/948856964",
+    "way/948856989",
+    "way/948856991"
+  ],
+  "wikidata": "Q2944554"
+}

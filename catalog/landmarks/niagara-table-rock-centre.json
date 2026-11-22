@@ -1,0 +1,14 @@
+{
+  "id": "niagara-table-rock-centre",
+  "name": "Table Rock Centre",
+  "model": "niagara-table-rock-centre",
+  "place": "niagara-falls",
+  "lng": -79.07894,
+  "lat": 43.079237,
+  "bearing": 13.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/420548287"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "niagara-rainbow-tower",
+  "name": "Rainbow Tower",
+  "model": "niagara-rainbow-tower",
+  "place": "niagara-falls",
+  "lng": -79.069888,
+  "lat": 43.091835,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/363657093",
+    "way/55553249"
+  ]
+}

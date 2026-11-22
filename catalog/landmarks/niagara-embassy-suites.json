@@ -1,0 +1,21 @@
+{
+  "id": "niagara-embassy-suites",
+  "name": "Embassy Suites by Hilton Niagara Falls Fallsview",
+  "model": "niagara-embassy-suites",
+  "place": "niagara-falls",
+  "lng": -79.082105,
+  "lat": 43.079538,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/808108216",
+    "way/37015934",
+    "way/1093928988",
+    "way/1093928989",
+    "way/1093928990",
+    "way/1093928991",
+    "way/1093928992",
+    "way/1093928993"
+  ]
+}

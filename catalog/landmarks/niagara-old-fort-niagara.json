@@ -1,0 +1,20 @@
+{
+  "id": "niagara-old-fort-niagara",
+  "name": "Old Fort Niagara",
+  "model": "niagara-old-fort-niagara",
+  "place": "niagara-falls",
+  "lng": -79.063096,
+  "lat": 43.262799,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/117216451",
+    "way/117216427",
+    "way/117216449",
+    "way/117216415",
+    "way/117216445",
+    "way/117216430",
+    "way/117216459"
+  ]
+}

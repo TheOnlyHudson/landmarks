@@ -1,0 +1,50 @@
+{
+  "id": "niagara-brocks-monument",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "column",
+    "memorial",
+    "war-of-1812",
+    "sandstone"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brock's Monument at Queenston Heights, Ontario.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Brock%27s_Monument_at_Queenston_Heights,_Ontario.JPG",
+      "author": "Mmcintyre",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Brock's Monument in 2010, Queenston, Ontario.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Brock%27s_Monument_in_2010,_Queenston,_Ontario.jpg",
+      "author": "A.Roz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Brock's Monument- Queenston Heights-Niagara-on-the-Lake-Ontario- HPC7677-20220317.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Brock%27s_Monument-_Queenston_Heights-Niagara-on-the-Lake-Ontario-_HPC7677-20220317.jpg",
+      "author": "Mhsheikholeslami",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/niagara-brocks-monument.glb",
+  "source": "generators/niagara-brocks-monument.ts"
+}

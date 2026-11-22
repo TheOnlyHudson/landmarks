@@ -1,0 +1,15 @@
+{
+  "id": "niagara-rainbow-bridge",
+  "name": "Rainbow Bridge",
+  "model": "niagara-rainbow-bridge",
+  "place": "niagara-falls",
+  "lng": -79.067744,
+  "lat": 43.090276,
+  "bearing": 136,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "relation/14629795"
+  ],
+  "wikidata": "Q717285"
+}

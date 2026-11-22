@@ -1,0 +1,15 @@
+{
+  "id": "niagara-seneca-niagara-casino",
+  "name": "Seneca Niagara Resort & Casino",
+  "model": "niagara-seneca-niagara-casino",
+  "place": "niagara-falls",
+  "lng": -79.055729,
+  "lat": 43.086348,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/393294157",
+    "way/807632544"
+  ]
+}

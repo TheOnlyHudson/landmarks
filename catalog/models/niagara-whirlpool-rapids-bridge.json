@@ -1,0 +1,49 @@
+{
+  "id": "niagara-whirlpool-rapids-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "arch-bridge",
+    "railway-bridge",
+    "border-crossing"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Whirlpool Rapids Bridge 2023a.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Whirlpool_Rapids_Bridge_2023a.jpg"
+    },
+    {
+      "title": "Whirlpool Rapids Bridge and Michigan Central Railway Bridge 2023.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Whirlpool_Rapids_Bridge_and_Michigan_Central_Railway_Bridge_2023.jpg"
+    },
+    {
+      "title": "Whirlpool Rapids Bridge 2.jpg",
+      "author": "Detroit Publishing Co.",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Whirlpool_Rapids_Bridge_2.jpg"
+    }
+  ],
+  "file": "models/niagara-whirlpool-rapids-bridge.glb",
+  "source": "generators/niagara-whirlpool-rapids-bridge.ts"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "niagara-parks-power-station",
+  "name": "Niagara Parks Power Station",
+  "model": "niagara-parks-power-station",
+  "place": "niagara-falls",
+  "lng": -79.07882,
+  "lat": 43.07451,
+  "bearing": 329.85,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/178404800"
+  ]
+}
