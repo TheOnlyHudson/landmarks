@@ -1,0 +1,81 @@
+{
+  "id": "canberra-telstra-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "communications-tower",
+    "observation-deck",
+    "brutalist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Telstra Tower Canberra Australia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Telstra_Tower_Canberra_Australia.jpg",
+      "author": "Трансаэро",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Telstra Tower 2009.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Telstra_Tower_2009.jpg",
+      "author": "Bidgee",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Black Mountain and Black Mountain Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Black_Mountain_and_Black_Mountain_Tower.jpg",
+      "author": "Bidgee",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Black Mountain Tower 001.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Black_Mountain_Tower_001.JPG",
+      "author": "Dhx1",
+      "license": "CC0"
+    },
+    {
+      "title": "Black Mountain Telecom Tower - 3 (3071709660).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Black_Mountain_Telecom_Tower_-_3_(3071709660).jpg",
+      "author": "Pascal Vuylsteker",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Telstra Tower front.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Telstra_Tower_front.JPG",
+      "author": "Redlands597198",
+      "license": "Public domain"
+    },
+    {
+      "title": "Telstra Tower in Canberra.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Telstra_Tower_in_Canberra.jpg",
+      "author": "Chondryma",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Telstra Tower, Canberra, from Aranda Nature Reserve at night.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Telstra_Tower,_Canberra,_from_Aranda_Nature_Reserve_at_night.JPG",
+      "author": "Thennicke",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "detail": "models/canberra-telstra-tower.detail.glb",
+  "detailZoom": 16,
+  "file": "models/canberra-telstra-tower.glb",
+  "source": "generators/canberra-telstra-tower.ts"
+}
