@@ -1,0 +1,54 @@
+{
+  "id": "ric-executive-mansion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "house",
+    "government"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "2011-07-10 Virginia Executive Mansion.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2011-07-10_Virginia_Executive_Mansion.jpg",
+      "author": "Leonard Woody",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "West elevation - Governor's Mansion, Capitol Square, Richmond (HABS VA,44-RICH,8-1)",
+      "url": "https://commons.wikimedia.org/wiki/File:West_elevation_-_Governor%27s_Mansion,_Capitol_Square,_Richmond,_Independent_City,_VA_HABS_VA.44-RICH,8-1.tif",
+      "author": "Jack Boucher, Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Governor's Mansion, HABS VA-1242 sheet 2 (site plan)",
+      "url": "https://commons.wikimedia.org/wiki/File:Governor%27s_Mansion,_Capitol_Square,_Richmond,_Independent_City,_VA_HABS_VA.44-RICH,8-_(sheet_2_of_16).png",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Governor's Mansion, HABS VA-1242 sheet 7 (roof plan)",
+      "url": "https://commons.wikimedia.org/wiki/File:Governor%27s_Mansion,_Capitol_Square,_Richmond,_Independent_City,_VA_HABS_VA.44-RICH,8-_(sheet_7_of_16).png",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/ric-executive-mansion.glb",
+  "source": "generators/ric-executive-mansion.ts"
+}
