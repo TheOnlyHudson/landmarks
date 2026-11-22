@@ -1,0 +1,76 @@
+{
+  "id": "sydney-uts-chau-chak-wing",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "university",
+    "deconstructivism",
+    "contemporary",
+    "brick"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/sydney-uts-chau-chak-wing.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Dr Chau Chak Wing Building from The Goods Line (27438092220).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dr_Chau_Chak_Wing_Building_from_The_Goods_Line_(27438092220).jpg",
+      "author": "Rob Deutscher",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Dr Chau Chak Wing Building 7906.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dr_Chau_Chak_Wing_Building_7906.jpg",
+      "author": "Summerdrought",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Dr. Chau Chak Wing Building, University of Technology Sydney.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dr._Chau_Chak_Wing_Building,_University_of_Technology_Sydney.jpg",
+      "author": "Brickworks Limited",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Warped 2 ( In Explore) - Flickr - bobarcpics.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Warped_2_(_In_Explore)_-_Flickr_-_bobarcpics.jpg",
+      "author": "Rob Deutscher",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Dr Chau Chak Wing building 021.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dr_Chau_Chak_Wing_building_021.jpg",
+      "author": "Sardaka",
+      "license": "CC0"
+    },
+    {
+      "title": "Dr Chau Chak Wing building 024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dr_Chau_Chak_Wing_building_024.jpg",
+      "author": "Sardaka",
+      "license": "CC0"
+    },
+    {
+      "title": "Frank Gehry's Dr Chau Chak Wing Building (6).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Frank_Gehry's_Dr_Chau_Chak_Wing_Building_(6).jpg",
+      "author": "Hpeterswald",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/sydney-uts-chau-chak-wing.glb",
+  "source": "generators/sydney-uts-chau-chak-wing.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "sydney-uts-chau-chak-wing",
+  "name": "Dr Chau Chak Wing Building",
+  "model": "sydney-uts-chau-chak-wing",
+  "place": "sydney",
+  "lng": 151.201293,
+  "lat": -33.8809072,
+  "bearing": 338.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q5304516",
+  "replaces": [
+    "way/337700228"
+  ]
+}
