@@ -1,0 +1,42 @@
+{
+  "id": "ric-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "modernist",
+    "skyscraper"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Richmond City Hall",
+      "url": "https://www.flickr.com/photos/88442983@N00/4192168845",
+      "author": "Taber Andrew Bain (taberandrew)",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Richmond City Hall",
+      "url": "https://www.flickr.com/photos/88442983@N00/2988924475",
+      "author": "Taber Andrew Bain (taberandrew)",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/ric-city-hall.glb",
+  "source": "generators/ric-city-hall.ts"
+}
