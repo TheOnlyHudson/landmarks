@@ -1,0 +1,30 @@
+{
+  "id": "auckland-war-memorial-museum",
+  "name": "Auckland War Memorial Museum",
+  "model": "auckland-war-memorial-museum",
+  "place": "auckland",
+  "lng": 174.777806,
+  "lat": -36.860707,
+  "bearing": 0.5,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/23906678",
+    "way/832497372",
+    "way/832497373",
+    "way/832497374",
+    "way/832497375",
+    "way/832497376",
+    "way/832497377",
+    "way/832497378",
+    "way/832497379",
+    "way/832497380",
+    "way/832497381",
+    "way/832497382",
+    "way/832497383",
+    "way/832497384",
+    "way/832497385",
+    "way/1315620264"
+  ],
+  "wikidata": "Q758657"
+}

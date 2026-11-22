@@ -1,0 +1,94 @@
+{
+  "id": "auckland-war-memorial-museum",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "war-memorial",
+    "neoclassical",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/auckland-war-memorial-museum.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Aerial photograph of Auckland War Memorial Museum (1958).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_Auckland_War_Memorial_Museum_(1958).jpg",
+      "author": "Whites Aviation",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Auckland Museum (5931983261).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_Museum_(5931983261).jpg",
+      "author": "possumgirl2",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Auckland War Memorial Museum - Tāmaki Paenga Hira - External.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_War_Memorial_Museum_-_T%C4%81maki_Paenga_Hira_-_External.jpg",
+      "author": "Joyofmuseums",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Auckland War Memorial Museum from Birdwood Crescent, Parnell.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_War_Memorial_Museum_from_Birdwood_Crescent,_Parnell.jpg",
+      "author": "Bjankuloski06",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Auckland War Memorial Museum in 2019 (evening) - 51087183122.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_War_Memorial_Museum_in_2019_(evening)_-_51087183122.jpg",
+      "author": "Daan Hoffmann / Auckland War Memorial Museum",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Auckland War Memorial Museum in 2019 - 51087183007.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_War_Memorial_Museum_in_2019_-_51087183007.jpg",
+      "author": "Daan Hoffmann / Auckland War Memorial Museum",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Auckland War Memorial Museum in 2021.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_War_Memorial_Museum_in_2021.jpg",
+      "author": "Daan Hoffmann / Auckland War Memorial Museum",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Auckland Museum New Dome.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_Museum_New_Dome.jpg",
+      "author": "Ingolfson",
+      "license": "Public domain"
+    },
+    {
+      "title": "Auckland Museum Model Stage II.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_Museum_Model_Stage_II.jpg",
+      "author": "Ingolfson",
+      "license": "Public domain"
+    },
+    {
+      "title": "Auckland Museum With Rear Round Facade I.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_Museum_With_Rear_Round_Facade_I.jpg",
+      "author": "Ingolfson",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/auckland-war-memorial-museum.glb",
+  "source": "generators/auckland-war-memorial-museum.ts"
+}
