@@ -1,0 +1,42 @@
+{
+  "id": "ric-james-monroe-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "James Monroe Building; Richmond, Virginia from Interstate 90",
+      "author": "Daniel Christensen",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:James_Monroe_Building;_Richmond,_Virginia_from_Interstate_90.JPG"
+    },
+    {
+      "title": "James Monroe Building VA",
+      "author": "Alex Ford",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:James_Monroe_Building_VA.JPG"
+    }
+  ],
+  "file": "models/ric-james-monroe-building.glb",
+  "source": "generators/ric-james-monroe-building.ts"
+}
