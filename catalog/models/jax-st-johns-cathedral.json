@@ -1,0 +1,55 @@
+{
+  "id": "jax-st-johns-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "cathedral",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "St. John's Cathedral, Jacksonville FL, West view 20160706 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._John%27s_Cathedral,_Jacksonville_FL,_West_view_20160706_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Jax FL St Johns Church01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jax_FL_St_Johns_Church01.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Jax FL St Johns Church03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jax_FL_St_Johns_Church03.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "StJohnsCathedralJaxTower.PNG",
+      "url": "https://commons.wikimedia.org/wiki/File:StJohnsCathedralJaxTower.PNG",
+      "author": "Mgreason",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/jax-st-johns-cathedral.glb",
+  "source": "generators/jax-st-johns-cathedral.ts"
+}
