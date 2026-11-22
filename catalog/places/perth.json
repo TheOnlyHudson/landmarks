@@ -1,0 +1,7 @@
+{
+  "id": "perth",
+  "name": "Perth",
+  "kind": "city",
+  "parent": "australia",
+  "wikidata": "Q3183"
+}

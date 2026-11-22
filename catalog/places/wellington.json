@@ -1,0 +1,7 @@
+{
+  "id": "wellington",
+  "name": "Wellington",
+  "kind": "city",
+  "parent": "new-zealand",
+  "wikidata": "Q23661"
+}

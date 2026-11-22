@@ -1,0 +1,7 @@
+{
+  "id": "brisbane",
+  "name": "Brisbane",
+  "kind": "city",
+  "parent": "australia",
+  "wikidata": "Q34932"
+}
