@@ -1,0 +1,15 @@
+{
+  "id": "auckland-harbour-bridge",
+  "name": "Auckland Harbour Bridge",
+  "model": "auckland-harbour-bridge",
+  "place": "auckland",
+  "lng": 174.746613,
+  "lat": -36.8291802,
+  "bearing": 27.92,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q758638",
+  "replaces": [
+    "way/302049182"
+  ]
+}

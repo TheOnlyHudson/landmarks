@@ -1,0 +1,83 @@
+{
+  "id": "auckland-harbour-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "cantilever-bridge",
+    "steel-truss",
+    "box-girder",
+    "motorway"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/auckland-harbour-bridge.detail.glb",
+  "detailZoom": 16,
+  "wikidata": "Q758638",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Auckland Harbour Bridge East",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_Harbour_Bridge_East.jpg",
+      "author": "Ingolfson",
+      "license": "Public domain"
+    },
+    {
+      "title": "Auckland Harbour Bridge from NW",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_Harbour_Bridge_from_NW.jpg",
+      "author": "Bjankuloski06",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Auckland Harbour Bridge - August 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_Harbour_Bridge_-_August_2024.jpg",
+      "author": "MrSeabody",
+      "license": "CC0"
+    },
+    {
+      "title": "Auckland Harbour Bridge South",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_Harbour_Bridge_South.jpg",
+      "author": "Ingolfson",
+      "license": "Public domain"
+    },
+    {
+      "title": "Above Auckland Harbour Bridge looking SW",
+      "url": "https://commons.wikimedia.org/wiki/File:Above_Auckland_Harbour_Bridge_looking_SW.jpg",
+      "author": "Bjankuloski06",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Auckland Harbour Bridge entering Northcote Point",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_Harbour_Bridge_entering_Northcote_Point.jpg",
+      "author": "Bjankuloski06",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Auckland Harbour Bridge aerial",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_Harbour_Bridge_aerial.jpg",
+      "author": "Robert Linsdell",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Auckland Harbour Bridge at night",
+      "url": "https://commons.wikimedia.org/wiki/File:Auckland_Harbour_Bridge_at_night.jpg",
+      "author": "Chris Gin",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/auckland-harbour-bridge.glb",
+  "source": "generators/auckland-harbour-bridge.ts"
+}
