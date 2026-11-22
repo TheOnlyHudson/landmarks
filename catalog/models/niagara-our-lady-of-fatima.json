@@ -1,0 +1,45 @@
+{
+  "id": "niagara-our-lady-of-fatima",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "basilica",
+    "shrine",
+    "dome",
+    "glass",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Shrine of Our Lady of Fatima, Lewiston, NY.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Shrine_of_Our_Lady_of_Fatima,_Lewiston,_NY.jpg",
+      "author": "Cfpops at English Wikipedia",
+      "license": "Public domain"
+    },
+    {
+      "title": "Our Lady of Fatima Shrine, Lewiston, New York, April 2015.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_Fatima_Shrine,_Lewiston,_New_York,_April_2015.jpg",
+      "author": "Jason F. Voll",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/niagara-our-lady-of-fatima.glb",
+  "source": "generators/niagara-our-lady-of-fatima.ts"
+}
