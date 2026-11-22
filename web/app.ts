@@ -6,7 +6,8 @@ import type { Asset } from '../src/release'
 import { nightGlb } from './night-model'
 import { applyMapTheme } from './theme'
 import { addTerrain, isTerrainSource, themeTerrain } from './terrain-style'
-import { LandmarkModels } from './map-models'
+import { LandmarkModels, replacementIds } from './map-models'
+import { BridgeDecks } from './bridge-decks'
 import { matchesAsset, mapAssets } from './collection'
 import { renderCredit } from './credits'
 import type { Credit } from '../src/catalog'
@@ -46,6 +47,7 @@ let selected: Asset | undefined
 let ready = false
 let map: maplibregl.Map | undefined
 let modelLayer: LandmarkModels | undefined
+let deckLayer: BridgeDecks | undefined
 let displayed: Asset | undefined
 let versions: AssetHistory['versions'] = []
 let selectionRequest = 0
@@ -239,6 +241,7 @@ function updateAppearance() {
   if (ready) styleMarkers()
   if (map && ready) { applyMapTheme(map, dark); themeTerrain(map, dark) }
   modelLayer?.setNight(dark)
+  deckLayer?.setNight(dark)
   if (displayed) showModel()
 }
 $('theme-toggle').addEventListener('click', () => { dark = !dark; saveSetting('landmarks-theme', dark ? 'dark' : 'light'); updateAppearance() })
@@ -647,6 +650,8 @@ async function init() {
     map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), 'top-right')
     // A failed terrain tile counts as loaded, so its message would clear at the next idle: it stays until terrain arrives again.
     let terrainFailed = false
+    // Set while some bridges couldn't be raised; kept over the idle that clears tile messages.
+    let deckMessage = ''
     const terrainMessage = 'Terrain tiles could not load, so the map is drawn flat here. Refresh to retry.'
     map.on('error', event => {
       console.error(event.error)
@@ -655,10 +660,17 @@ async function init() {
       $('map-status').textContent = terrainFailed ? terrainMessage : 'Some map tiles could not load. You can still browse the collection and preview models.'
     })
     map.on('data', event => { if (terrainFailed && event.dataType === 'source' && 'tile' in event && isTerrainSource((event as { sourceId?: string }).sourceId)) terrainFailed = false })
-    map.on('idle', () => { if (map!.areTilesLoaded()) $('map-status').textContent = terrainFailed ? terrainMessage : '' })
+    map.on('idle', () => { if (map!.areTilesLoaded()) $('map-status').textContent = terrainFailed ? terrainMessage : deckMessage })
     map.on('load', () => {
       addTerrain(map!)
-      modelLayer = new LandmarkModels(assetUrl, a => selectAsset(a), message => { $('map-status').textContent = message }, updateMapCredits)
+      // Bridge decks from OpenFreeMap's bridge ways and the terrain; a shown landmark's own deck stands in for the ways it replaces.
+      deckLayer = new BridgeDecks(message => { deckMessage = message; if (message) $('map-status').textContent = message })
+      // Under the labels, so road names stay readable over the decks.
+      map!.addLayer(deckLayer, map!.getStyle().layers.find(layer => layer.type === 'symbol')?.id)
+      modelLayer = new LandmarkModels(assetUrl, a => selectAsset(a), message => { $('map-status').textContent = message }, visible => {
+        updateMapCredits(visible)
+        deckLayer?.setReplaced(visible.flatMap(replacementIds))
+      })
       map!.addLayer(modelLayer)
       modelLayer.setAssets(mapCollection(), selected!.id)
       map!.addSource('landmarks', { type: 'geojson', data: features(), cluster: true, clusterMaxZoom: 13, clusterRadius: 48 })
@@ -699,6 +711,7 @@ async function init() {
       applyMapTheme(map!, dark)
       themeTerrain(map!, dark)
       modelLayer.setNight(dark)
+      deckLayer.setNight(dark)
       $('map-status').textContent = ''
     })
   } catch {

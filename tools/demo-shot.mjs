@@ -25,6 +25,8 @@ const SCENES = {
   pit: { id: 'pit-west-end-bridge', center: [-80.0225, 40.4425], zoom: 14.6, pitch: 74, bearing: 70 },
   brooklyn: { id: 'nyc-brooklyn-bridge', center: [-73.9985, 40.7068], zoom: 16, pitch: 66, bearing: 135 },
   chicago: { id: 'chi-333-wacker', center: [-87.6365, 41.8850], zoom: 15.8, pitch: 64, bearing: 20 },
+  // A close-up of a viaduct and interchange: the Fort Duquesne Bridge's north-shore ramps, Pittsburgh.
+  interchange: { id: 'pit-west-end-bridge', center: [-80.0128, 40.4462], zoom: 16.6, pitch: 70, bearing: 160 },
 }
 const wanted = process.argv.slice(2)
 const scenes = wanted.length ? wanted : Object.keys(SCENES)
@@ -61,7 +63,20 @@ for (const theme of themes) for (const name of scenes) {
     map.once('idle', check)
     map.triggerRepaint()
   }))
+  // The bridge decks build after the camera settles (none in an older build): wait for a build that has stopped changing.
+  await page.evaluate(() => new Promise(resolve => {
+    const canvas = window.__landmarksMap.getCanvas()
+    let last = '', still = 0
+    const started = performance.now()
+    const tick = setInterval(() => {
+      const now = `${canvas.dataset.deckMs}/${canvas.dataset.deckBridges}`
+      still = now === last && canvas.dataset.deckMs ? still + 1 : 0
+      last = now
+      if (still >= 4 || performance.now() - started > (canvas.dataset.deckMs ? 60000 : 15000)) { clearInterval(tick); resolve() }
+    }, 500)
+  }))
   await page.waitForTimeout(2500)
+  const decks = await page.evaluate(() => { const d = window.__landmarksMap.getCanvas().dataset; return d.deckMs ? { bridges: +d.deckBridges, triangles: +d.deckTriangles, ms: +d.deckMs, tiles: +d.deckTiles } : null })
   const file = path.join(OUT, `${TAG}-${name}-${theme}.png`)
   await page.screenshot({ path: file })
   const tiles = { ...hosts }
@@ -75,7 +90,7 @@ for (const theme of themes) for (const name of scenes) {
     map.easeTo({ bearing: map.getBearing() + 40, duration: 3000, easing: t => t })
     setTimeout(() => { map.off('render', count); resolve(frames / ((performance.now() - start) / 1000)) }, 3000)
   }))
-  console.log(JSON.stringify({ shot: path.basename(file), tiles, fps: Math.round(fps * 10) / 10 }))
+  console.log(JSON.stringify({ shot: path.basename(file), tiles, decks, fps: Math.round(fps * 10) / 10 }))
   await ctx.close()
 }
 await browser.close()
