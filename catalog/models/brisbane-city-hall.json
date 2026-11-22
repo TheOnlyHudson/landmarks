@@ -1,0 +1,96 @@
+{
+  "id": "brisbane-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "city-hall",
+    "clock-tower",
+    "neoclassical",
+    "historic",
+    "heritage-listed"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/brisbane-city-hall.detail.glb",
+  "detailZoom": 16,
+  "wikidata": "Q4968552",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Christmas tree outside Brisbane City Hall, Australia in 2020, 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Christmas_tree_outside_Brisbane_City_Hall,_Australia_in_2020,_02.jpg",
+      "author": "Kgbo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "King George Square in 12.2013 07",
+      "url": "https://commons.wikimedia.org/wiki/File:King_George_Square_in_12.2013_07.jpg",
+      "author": "Chris Olszewski",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Brisbane City Hall, 275 George Street, 69 Ann Street, 300 George, Brisbane, Feb 2020",
+      "url": "https://commons.wikimedia.org/wiki/File:Brisbane_City_Hall,_275_George_Street,_69_Ann_Street,_300_George,_Brisbane,_Feb_2020.jpg",
+      "author": "Chris Olszewski",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brisbane City Hall, clock tower and dome, from Roma St Brisbane DSCF8372",
+      "url": "https://commons.wikimedia.org/wiki/File:Brisbane_City_Hall,_clock_tower_and_dome,_from_Roma_St_Brisbane_DSCF8372.jpg",
+      "author": "John Robert McPherson",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brisbane City Hall Clock Tower IMGP2762",
+      "url": "https://commons.wikimedia.org/wiki/File:Brisbane_City_Hall_Clock_Tower_IMGP2762.jpg",
+      "author": "John Robert McPherson",
+      "license": "CC0"
+    },
+    {
+      "title": "Brisbane City Hall from Adelaide St Brisbane P1060894",
+      "url": "https://commons.wikimedia.org/wiki/File:Brisbane_City_Hall_from_Adelaide_St_Brisbane_P1060894.jpg",
+      "author": "John Robert McPherson",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brisbane City Hall Adelaide St Brisbane P1050525",
+      "url": "https://commons.wikimedia.org/wiki/File:Brisbane_City_Hall_Adelaide_St_Brisbane_P1050525.jpg",
+      "author": "John Robert McPherson",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brisbane City Hall Adelaide St Brisbane P1050530",
+      "url": "https://commons.wikimedia.org/wiki/File:Brisbane_City_Hall_Adelaide_St_Brisbane_P1050530.jpg",
+      "author": "John Robert McPherson",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brisbane City Hall dome from Clock Tower Brisbane IMGP4731",
+      "url": "https://commons.wikimedia.org/wiki/File:Brisbane_City_Hall_dome_from_Clock_Tower_Brisbane_IMGP4731.jpg",
+      "author": "John Robert McPherson",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brisbane City Hall floodlit King George Square Brisbane L1180674",
+      "url": "https://commons.wikimedia.org/wiki/File:Brisbane_City_Hall_floodlit_King_George_Square_Brisbane_L1180674.jpg",
+      "author": "John Robert McPherson",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/brisbane-city-hall.glb",
+  "source": "generators/brisbane-city-hall.ts"
+}
