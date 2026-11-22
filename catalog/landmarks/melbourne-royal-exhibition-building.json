@@ -1,0 +1,26 @@
+{
+  "id": "melbourne-royal-exhibition-building",
+  "name": "Royal Exhibition Building",
+  "model": "melbourne-royal-exhibition-building",
+  "place": "melbourne",
+  "lng": 144.9715028,
+  "lat": -37.8047115,
+  "bearing": 8,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/4817059",
+    "way/284244384",
+    "way/284244385",
+    "way/284815459",
+    "way/284815460",
+    "way/284815786",
+    "way/284816626",
+    "way/284820982",
+    "way/284821669",
+    "way/284821670",
+    "way/284821671",
+    "way/284821828",
+    "way/284821967"
+  ]
+}
