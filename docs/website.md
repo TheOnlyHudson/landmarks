@@ -32,6 +32,26 @@ true height, the same terrain Parchment draws and the models are built on.
 Models stand on it the way Parchment stands them: the base on the lowest ground
 under the model, the lower parts draped over the slope.
 
+So that the relief reads on the pale basemap, the map shades it: a hillshade
+from the same Mapterhorn tiles, lit from the north-west, under the rivers,
+buildings, roads and labels, with water drawn flat over it. It reads a
+coarser copy of the terrain (zoom 12, about 20 m a pixel), which shows the
+shape of the hills rather than every kerb in the lidar and costs a dozen or so
+extra tiles a view. Tilt the map past about 70° (it allows 80°) and the
+horizon shows Parchment's sky, fading into the ground's colour. The hillshade
+and sky have their own Day and Night colours. Terrain is life-size, never
+exaggerated: the models are built to true heights.
+
+Roads are the basemap's flat lines draped on the terrain, so a road over a
+bridge or viaduct follows the ground under it rather than the deck. Parchment
+draws those decks in 3D from Barrelman's precomputed bridge meshes, but
+Barrelman serves them only with an API key, and this site is static and keyless
+(see [Barrelman's bridge decks](#barrelmans-bridge-decks)).
+
+Terrain and hillshade elevation is © Mapterhorn
+([attribution](https://mapterhorn.com/attribution)), credited in the map's
+attribution control with OpenFreeMap and OpenStreetMap.
+
 ## Preview and appearance
 
 The small preview auto-rotates slowly. Drag to orbit; scroll or pinch to zoom.
@@ -127,7 +147,8 @@ If one collection fails to load, the other can still be browsed. Refresh to
 retry. A model load error offers a retry; a night-preview error can be retried
 by switching back to Day mode. Without working map tiles or WebGL, collection
 metadata and downloads remain available. Basemap and terrain tiles, fonts, GitHub avatars,
-and upstream GLBs require their external hosts to be reachable.
+and upstream GLBs require their external hosts to be reachable. If the
+terrain tiles fail, the map says so and draws the rest flat.
 
 OpenLandmarks metadata is a pinned snapshot, not a live query on every visit.
 Maintainers update it with `bun run sync:sources` and rebuild the site. See
@@ -135,3 +156,19 @@ Maintainers update it with `bun run sync:sources` and rebuild the site. See
 [the catalog schema](reference.md#public-metadata) for contribution fields, and
 [the README](../README.md#running-and-publishing-the-demo) for local serving and
 custom-domain setup.
+
+## Barrelman's bridge decks
+
+For maintainers. Parchment draws bridges and viaducts as 3D decks
+(`web/src/lib/map-decks/baked/baked-bridge-layer.ts`, a WebGL custom layer).
+Barrelman bakes each deck into a mesh at import, and serves them from
+`/tiles/bridges/index/14/{x}/{y}` (the meshes a zoom-14 tile meets),
+`/tiles/bridges/models/{sha256}.brm` (one deck's mesh) and the `bridge_decks`
+layer of its `detail` vector tiles (`?decks=1` adds each tile's deck pieces).
+`api.barrelman.dev` allows cross-origin requests from this site, but all three
+answer `401 missing_key` without a `tiles`-scoped API key, which would have to
+be published in the page. The layer also leans on Parchment's MapLibre fork
+(`setLayerMuted`, `setSymbolClip`) to hide the flat bridge lines under each
+deck. Adding the decks here needs a published, origin-restricted key or a
+keyless endpoint first.
+

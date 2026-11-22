@@ -19,6 +19,8 @@ export const TERRAIN_SOURCE = 'terrain-dem'
 const HILLSHADE_SOURCE = 'hillshade-dem'
 const HILLSHADE_MAXZOOM = 12
 export const HILLSHADE_LAYER = 'terrain-hillshade'
+/** Whether a source is one of the terrain's, whose failure leaves the map flat. */
+export const isTerrainSource = (id: string | undefined) => id === TERRAIN_SOURCE || id === HILLSHADE_SOURCE
 /** Life-size, like Parchment: the models are built to true heights. */
 const EXAGGERATION = 1
 

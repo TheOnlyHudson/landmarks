@@ -5,7 +5,7 @@ import type { ModelViewerElement } from '@google/model-viewer'
 import type { Asset } from '../src/release'
 import { nightGlb } from './night-model'
 import { applyMapTheme } from './theme'
-import { addTerrain, themeTerrain } from './terrain-style'
+import { addTerrain, isTerrainSource, themeTerrain } from './terrain-style'
 import { LandmarkModels } from './map-models'
 import { matchesAsset, mapAssets } from './collection'
 import { renderCredit } from './credits'
@@ -645,8 +645,17 @@ async function init() {
     if (['localhost', '127.0.0.1'].includes(location.hostname)) (window as { __landmarksMap?: maplibregl.Map }).__landmarksMap = map
     updateMapPadding()
     map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), 'top-right')
-    map.on('error', event => { console.error(event.error); $('map-status').title = event.error.message; $('map-status').textContent = 'Some map tiles could not load. You can still browse the collection and preview models.' })
-    map.on('idle', () => { if (map!.areTilesLoaded()) $('map-status').textContent = '' })
+    // A failed terrain tile counts as loaded, so its message would clear at the next idle: it stays until terrain arrives again.
+    let terrainFailed = false
+    const terrainMessage = 'Terrain tiles could not load, so the map is drawn flat here. Refresh to retry.'
+    map.on('error', event => {
+      console.error(event.error)
+      $('map-status').title = event.error.message
+      terrainFailed ||= isTerrainSource((event as { sourceId?: string }).sourceId)
+      $('map-status').textContent = terrainFailed ? terrainMessage : 'Some map tiles could not load. You can still browse the collection and preview models.'
+    })
+    map.on('data', event => { if (terrainFailed && event.dataType === 'source' && 'tile' in event && isTerrainSource((event as { sourceId?: string }).sourceId)) terrainFailed = false })
+    map.on('idle', () => { if (map!.areTilesLoaded()) $('map-status').textContent = terrainFailed ? terrainMessage : '' })
     map.on('load', () => {
       addTerrain(map!)
       modelLayer = new LandmarkModels(assetUrl, a => selectAsset(a), message => { $('map-status').textContent = message }, updateMapCredits)
