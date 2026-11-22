@@ -1,0 +1,15 @@
+{
+  "id": "melbourne-shrine-of-remembrance",
+  "name": "Shrine of Remembrance",
+  "model": "melbourne-shrine-of-remembrance",
+  "place": "melbourne",
+  "lng": 144.9734473,
+  "lat": -37.8305317,
+  "bearing": 340,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1369544",
+  "replaces": [
+    "way/24590190"
+  ]
+}
