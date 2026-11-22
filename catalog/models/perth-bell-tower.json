@@ -1,0 +1,73 @@
+{
+  "id": "perth-bell-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "bell-tower",
+    "campanile",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Perth (AU), The Bell Tower -- 2019 -- 0320-4.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Perth_(AU),_The_Bell_Tower_--_2019_--_0320-4.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "00 1633 Swan Bell Tower in Perth, Australia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:00_1633_Swan_Bell_Tower_in_Perth,_Australia.jpg",
+      "author": "W. Bulach",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "AUS Perth, Central Business District, The Bell Tower 001.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:AUS_Perth,_Central_Business_District,_The_Bell_Tower_001.jpg",
+      "author": "-wuppertaler",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Swan Bell Tower and West Perth hillside.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Swan_Bell_Tower_and_West_Perth_hillside.JPG",
+      "author": "JarrahTree",
+      "license": "CC BY 2.5 AU"
+    },
+    {
+      "title": "Perth Bell Tower (3327605785).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Perth_Bell_Tower_(3327605785).jpg",
+      "author": "Andy Mitchell",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Night 230620 gnangarra-120.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Night_230620_gnangarra-120.jpg",
+      "author": "Gnangarra",
+      "license": "CC BY 2.5 AU"
+    },
+    {
+      "title": "Swan Bell Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Swan_Bell_Tower.jpg",
+      "author": "EurovisionNim",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/perth-bell-tower.glb",
+  "source": "generators/perth-bell-tower.ts"
+}

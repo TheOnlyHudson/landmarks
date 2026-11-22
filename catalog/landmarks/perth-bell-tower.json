@@ -1,0 +1,15 @@
+{
+  "id": "perth-bell-tower",
+  "name": "The Bell Tower",
+  "model": "perth-bell-tower",
+  "place": "perth",
+  "lng": 115.858221,
+  "lat": -31.958975,
+  "bearing": 20,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/147704624"
+  ],
+  "wikidata": "Q7653429"
+}
