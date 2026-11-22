@@ -5,6 +5,7 @@ import type { ModelViewerElement } from '@google/model-viewer'
 import type { Asset } from '../src/release'
 import { nightGlb } from './night-model'
 import { applyMapTheme } from './theme'
+import { addTerrain, themeTerrain } from './terrain-style'
 import { LandmarkModels } from './map-models'
 import { matchesAsset, mapAssets } from './collection'
 import { renderCredit } from './credits'
@@ -236,7 +237,7 @@ function updateAppearance() {
   $('theme-label').textContent = dark ? 'Night' : 'Day'
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#110f0c' : '#f9f8f6')
   if (ready) styleMarkers()
-  if (map && ready) applyMapTheme(map, dark)
+  if (map && ready) { applyMapTheme(map, dark); themeTerrain(map, dark) }
   modelLayer?.setNight(dark)
   if (displayed) showModel()
 }
@@ -636,19 +637,18 @@ async function init() {
   }
   try {
     map = new maplibregl.Map({ container: 'map', style: 'https://tiles.openfreemap.org/styles/positron',
-      center: selected!.anchor, zoom: 16.5, pitch: 60, bearing: -25, maxZoom: 20, canvasContextAttributes: { antialias: true }, attributionControl: false, renderWorldCopies: false })
+      center: selected!.anchor, zoom: 16.5, pitch: 60, bearing: -25, maxZoom: 20,
+      // Tilting past 70° brings the horizon, and the sky, into view (Parchment allows 85°).
+      maxPitch: 80, canvasContextAttributes: { antialias: true }, attributionControl: false, renderWorldCopies: false })
     map.addControl(creditControl)
+    // For tools/demo-shot.mjs, which drives the camera of a local build.
+    if (['localhost', '127.0.0.1'].includes(location.hostname)) (window as { __landmarksMap?: maplibregl.Map }).__landmarksMap = map
     updateMapPadding()
     map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), 'top-right')
     map.on('error', event => { console.error(event.error); $('map-status').title = event.error.message; $('map-status').textContent = 'Some map tiles could not load. You can still browse the collection and preview models.' })
     map.on('idle', () => { if (map!.areTilesLoaded()) $('map-status').textContent = '' })
     map.on('load', () => {
-      // Mapterhorn: open terrarium tiles from USGS 3DEP lidar in the US, the DEM
-      // Parchment draws and the models are built on. Life-size, like Parchment.
-      map!.addSource('terrain-dem', { type: 'raster-dem', encoding: 'terrarium', tileSize: 512, maxzoom: 15,
-        tiles: ['https://tiles.mapterhorn.com/{z}/{x}/{y}.webp'],
-        attribution: '<a href="https://mapterhorn.com/attribution" target="_blank">© Mapterhorn</a>' })
-      map!.setTerrain({ source: 'terrain-dem', exaggeration: 1 })
+      addTerrain(map!)
       modelLayer = new LandmarkModels(assetUrl, a => selectAsset(a), message => { $('map-status').textContent = message }, updateMapCredits)
       map!.addLayer(modelLayer)
       modelLayer.setAssets(mapCollection(), selected!.id)
@@ -688,6 +688,7 @@ async function init() {
       ready = true
       styleMarkers()
       applyMapTheme(map!, dark)
+      themeTerrain(map!, dark)
       modelLayer.setNight(dark)
       $('map-status').textContent = ''
     })
