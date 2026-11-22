@@ -1,0 +1,17 @@
+{
+  "id": "sydney-tower-eye",
+  "name": "Sydney Tower Eye",
+  "model": "sydney-tower-eye",
+  "place": "sydney",
+  "lng": 151.2089424,
+  "lat": -33.8704947,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q827268",
+  "replaces": [
+    "way/197801072",
+    "way/197801074",
+    "way/273960049"
+  ]
+}
