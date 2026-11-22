@@ -1,0 +1,64 @@
+{
+  "id": "sydney-anzac-memorial",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "war-memorial",
+    "art-deco",
+    "historic",
+    "sculpture"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/sydney-anzac-memorial.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sydney (AU), View from Sydney Tower, Pool of Reflection and Anzac Memorial -- 2019 -- 3125.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_View_from_Sydney_Tower,_Pool_of_Reflection_and_Anzac_Memorial_--_2019_--_3125.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "ANZAC Memorial Hyde Park 001.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:ANZAC_Memorial_Hyde_Park_001.jpg",
+      "author": "Sardaka",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "ANZAC Memorial Hyde Park figures.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:ANZAC_Memorial_Hyde_Park_figures.jpg",
+      "author": "Mertie .",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "The ANZAC Memorial on Hyde Park (16016054793).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_ANZAC_Memorial_on_Hyde_Park_(16016054793).jpg",
+      "author": "Jorge Láscar",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Anzac War Memorial and Hyde Park at night April 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Anzac_War_Memorial_and_Hyde_Park_at_night_April_2013.jpg",
+      "author": "Nick-D",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/sydney-anzac-memorial.glb",
+  "source": "generators/sydney-anzac-memorial.ts"
+}
