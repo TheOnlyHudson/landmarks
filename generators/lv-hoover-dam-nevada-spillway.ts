@@ -25,8 +25,8 @@
  * height field over the DEM table below, at the crisp profile measured from
  * lidar or 1 m over the DEM where the DEM stands higher (its blurred inside
  * corners), so the terrain never shows through; the lake-side and hill-side
- * edges stand 0.2 m under the DEM. Placement `elevation` 0.1 keeps it rigid,
- * where it was built.
+ * edges stand 0.2 m under the DEM. The map stands every model whole, so it
+ * keeps the shape it was built to.
  *
  * Sources
  * - OSM: way/30363513 and way/47682188 (NHD waterway and basin "Nevada

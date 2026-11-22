@@ -244,8 +244,8 @@ bun run sheet --terrain --branch-diff --out <scratch>/<prefix>/sheets
 ```
 
 Always pass `--terrain`: each model then stands on the map's Mapterhorn
-terrain exactly as the map places it (the same drape, fill and base sink,
-and the catalog `elevation`), with the ground around it drawn, so a model
+terrain exactly as the map places it (whole, with the same fill and base
+sink, and the catalog `elevation`), with the ground around it drawn, so a model
 that floats, sinks or is set at the wrong height shows on the sheet. The
 height on the card is then the top above the lowest ground. The terrain is
 read from Mapterhorn and cached under `~/.cache/landmarks/mapterhorn`.

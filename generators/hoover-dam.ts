@@ -29,16 +29,11 @@
  * profile, or stands 1.5 m proud of the DEM's own copy of it where that is
  * higher, so the terrain never shows through it.
  *
- * The placement's `elevation` is 0.1 m, which makes it rigid. The map's drape
- * reads the ground on a 7 × 7 grid, about 50 × 70 m here, and lets every
- * vertex near the model's own ground follow the fill under it: on a face that
- * is itself the DEM, that pulled the face's flanks down by up to 23 m
- * (tools/terrain.ts, scratch checks). Rigid, the model stays where it was
- * built on the terrain: every foot within -0.7..+0.5 m of the drawn ground,
- * and nothing visible buried (checked over the whole upward area, not only
- * the lowest 25 m `terrain.ts check` covers). With the terrain off, the
- * face and towers are shells hanging over the flat map, as a canyon bridge's
- * approaches are.
+ * The map reads it as built on the terrain (`terrain.ts check`: follows),
+ * stands it whole where it was built, and draws the terrain under it
+ * unfilled: every foot within -0.7..+0.5 m of the drawn ground. With the
+ * terrain off, the face and towers are shells hanging over the flat map, as
+ * a canyon bridge's approaches are.
  *
  * Sources
  * - OSM: way/49938932 (the dam, height 221.4), the intake towers
