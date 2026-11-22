@@ -1,0 +1,54 @@
+{
+  "id": "ric-altria-theater",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theatre",
+    "historic",
+    "moorish-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Landmark Theater Richmond Virginia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Landmark_Theater_Richmond_Virginia.jpg",
+      "author": "Mentes",
+      "license": "Public domain"
+    },
+    {
+      "title": "Richmond 23 Shooting - Altria VCU.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Richmond_23_Shooting_-_Altria_VCU.jpg",
+      "author": "MonkeyBBGB",
+      "license": "CC0"
+    },
+    {
+      "title": "Richmond 23 Shooting - Altria Closed Road.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Richmond_23_Shooting_-_Altria_Closed_Road.jpg",
+      "author": "MonkeyBBGB",
+      "license": "CC0"
+    },
+    {
+      "title": "The mosque, Richmond Civic Center, Richmond, Va.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_mosque,_Richmond_Civic_Center,_Richmond,_Va.jpg",
+      "author": "Boston Public Library (Tichnor Brothers)",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/ric-altria-theater.glb",
+  "source": "generators/ric-altria-theater.ts"
+}

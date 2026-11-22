@@ -1,0 +1,15 @@
+{
+  "id": "ric-west-hospital",
+  "name": "West Hospital",
+  "model": "ric-west-hospital",
+  "place": "richmond-area",
+  "lng": -77.4306639,
+  "lat": 37.5394229,
+  "bearing": 36.7,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/224530984"
+  ],
+  "wikidata": "Q7985417"
+}

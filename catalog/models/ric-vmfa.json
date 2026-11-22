@@ -1,0 +1,49 @@
+{
+  "id": "ric-vmfa",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "art-museum",
+    "georgian-revival",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Virginia Museum of Fine Arts Exterior (February 2026).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Virginia_Museum_of_Fine_Arts_Exterior_(February_2026).jpg",
+      "author": "Kiraface",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Virginia Museum of Fine Arts Back Exterior (February 2026).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Virginia_Museum_of_Fine_Arts_Back_Exterior_(February_2026).jpg",
+      "author": "Kiraface",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Virginia Museum of Fine Arts - entrance Fall2010.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Virginia_Museum_of_Fine_Arts_-_entrance_Fall2010.JPG",
+      "author": "Morgan Riley",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/ric-vmfa.glb",
+  "source": "generators/ric-vmfa.ts"
+}

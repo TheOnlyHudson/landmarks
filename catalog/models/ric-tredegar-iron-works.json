@@ -1,0 +1,48 @@
+{
+  "id": "ric-tredegar-iron-works",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "industrial",
+    "museum"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Tredegar Iron Works in Richmond Virginia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tredegar_Iron_Works_in_Richmond_Virginia.jpg",
+      "author": "Dmbebber",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "American Civil War Museum at Tredegar Ironworks.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:American_Civil_War_Museum_at_Tredegar_Ironworks.jpg",
+      "author": "American Civil War Museum",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The ruins of Tredegar Iron Works - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_ruins_of_Tredegar_Iron_Works_-_panoramio.jpg",
+      "author": "olekinderhook",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/ric-tredegar-iron-works.glb",
+  "source": "generators/ric-tredegar-iron-works.ts"
+}

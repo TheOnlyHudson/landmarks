@@ -1,0 +1,55 @@
+{
+  "id": "ric-jefferson-hotel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "hotel",
+    "beaux-arts",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Jefferson Hotel Richmond VA.jpg",
+      "author": "Mentes at English Wikipedia",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Jefferson_Hotel_Richmond_VA.jpg"
+    },
+    {
+      "title": "Jefferson Hotel, Richmond, VA IMG 4050.JPG",
+      "author": "Billy Hathorn",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Jefferson_Hotel,_Richmond,_VA_IMG_4050.JPG"
+    },
+    {
+      "title": "Jefferson Hotel, Richmond, Va (NYPL b12647398-73903)",
+      "author": "Detroit Publishing Co. (NYPL scan)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Jefferson_Hotel,_Richmond,_Va_(NYPL_b12647398-73903).tiff"
+    },
+    {
+      "title": "Jefferson Hotel, Richmond, Va.",
+      "author": "Boston Public Library",
+      "license": "CC BY 2.0",
+      "url": "https://www.flickr.com/photos/24029425@N06/8631868928"
+    }
+  ],
+  "file": "models/ric-jefferson-hotel.glb",
+  "source": "generators/ric-jefferson-hotel.ts"
+}

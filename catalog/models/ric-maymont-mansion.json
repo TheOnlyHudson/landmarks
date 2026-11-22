@@ -1,0 +1,49 @@
+{
+  "id": "ric-maymont-mansion",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "mansion",
+    "museum",
+    "romanesque-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Maymont Mansion.JPG",
+      "author": "Morgan Riley",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Maymont_Mansion.JPG"
+    },
+    {
+      "title": "Dooley Mansion - Maymont.JPG",
+      "author": "Fopseh",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dooley_Mansion_-_Maymont.JPG"
+    },
+    {
+      "title": "Dooley Mansion Front (3579565929).jpg",
+      "author": "Chuck Redden",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dooley_Mansion_Front_(3579565929).jpg"
+    }
+  ],
+  "file": "models/ric-maymont-mansion.glb",
+  "source": "generators/ric-maymont-mansion.ts"
+}

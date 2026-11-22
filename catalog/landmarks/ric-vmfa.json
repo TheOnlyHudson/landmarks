@@ -1,0 +1,15 @@
+{
+  "id": "ric-vmfa",
+  "name": "Virginia Museum of Fine Arts",
+  "model": "ric-vmfa",
+  "place": "richmond-area",
+  "lng": -77.4748995,
+  "lat": 37.5560163,
+  "bearing": 24,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/146689449"
+  ],
+  "wikidata": "Q4013975"
+}

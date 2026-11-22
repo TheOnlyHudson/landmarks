@@ -1,0 +1,67 @@
+{
+  "id": "ric-old-city-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "government",
+    "historic",
+    "gothic-revival",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Old City Hall, Richmond 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_City_Hall,_Richmond_01.jpg",
+      "author": "Smash the Iron Cage",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old City Hall, Richmond 02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_City_Hall,_Richmond_02.jpg",
+      "author": "Smash the Iron Cage",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old City Hall, Richmond 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_City_Hall,_Richmond_03.jpg",
+      "author": "Smash the Iron Cage",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old City Hall, Richmond 04.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_City_Hall,_Richmond_04.jpg",
+      "author": "Smash the Iron Cage",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old City Hall, Richmond 05.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_City_Hall,_Richmond_05.jpg",
+      "author": "Smash the Iron Cage",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old City Hall, Richmond 06.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_City_Hall,_Richmond_06.jpg",
+      "author": "Smash the Iron Cage",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/ric-old-city-hall.glb",
+  "source": "generators/ric-old-city-hall.ts"
+}

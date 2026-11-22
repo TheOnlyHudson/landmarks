@@ -1,0 +1,49 @@
+{
+  "id": "ric-washington-monument",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "monument",
+    "statue",
+    "sculpture"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Washington Monument Richmond.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Washington_Monument_Richmond.JPG",
+      "author": "Martin Falbisoner",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Washington Monument, Richmond-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Washington_Monument,_Richmond-1.jpg",
+      "author": "Smash the Iron Cage",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Washington Monument at the Virginia State Capitol, in Richmond, Virginia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Washington_Monument_at_the_Virginia_State_Capitol,_in_Richmond,_Virginia.jpg",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/ric-washington-monument.glb",
+  "source": "generators/ric-washington-monument.ts"
+}

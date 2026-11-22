@@ -1,0 +1,15 @@
+{
+  "id": "ric-executive-mansion",
+  "name": "Virginia Executive Mansion",
+  "model": "ric-executive-mansion",
+  "place": "richmond-area",
+  "lng": -77.4321437,
+  "lat": 37.5384237,
+  "bearing": 36.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/658620667"
+  ],
+  "wikidata": "Q5419842"
+}

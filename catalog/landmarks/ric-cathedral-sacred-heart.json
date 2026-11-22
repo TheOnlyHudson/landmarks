@@ -1,0 +1,30 @@
+{
+  "id": "ric-cathedral-sacred-heart",
+  "name": "Cathedral of the Sacred Heart",
+  "model": "ric-cathedral-sacred-heart",
+  "place": "richmond-area",
+  "wikidata": "Q5052468",
+  "lng": -77.4523081,
+  "lat": 37.5474803,
+  "bearing": 103,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/229623396",
+    "way/463800176",
+    "way/463800177",
+    "way/463800178",
+    "way/463800179",
+    "way/463800180",
+    "way/463800185",
+    "way/463800186",
+    "way/463800188",
+    "way/463800190",
+    "way/822799759",
+    "way/822799760",
+    "way/822799761",
+    "way/822799762",
+    "way/822799763",
+    "way/822799764"
+  ]
+}

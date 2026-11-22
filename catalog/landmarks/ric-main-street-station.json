@@ -1,0 +1,16 @@
+{
+  "id": "ric-main-street-station",
+  "name": "Main Street Station",
+  "model": "ric-main-street-station",
+  "place": "richmond-area",
+  "lng": -77.4288081,
+  "lat": 37.5349541,
+  "bearing": 37.11,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/113030476",
+    "way/366226941",
+    "way/366226942"
+  ]
+}

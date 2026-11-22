@@ -1,0 +1,61 @@
+{
+  "id": "ric-virginia-state-capitol",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "capitol",
+    "government",
+    "historic",
+    "neoclassical"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Virginia State Capitol late morning.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Virginia_State_Capitol_late_morning.JPG",
+      "author": "Martin Falbisoner",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "MJK50147 Virginia State Capitol.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:MJK50147_Virginia_State_Capitol.jpg",
+      "author": "Martin Kraft",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Virginia State Capitol-1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Virginia_State_Capitol-1.jpg",
+      "author": "Smash the Iron Cage",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "HABS VA-1254-1, front aerial view looking northeast",
+      "url": "https://www.loc.gov/pictures/item/va1498/",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "HABS VA-1254-21, northeast facade",
+      "url": "https://www.loc.gov/pictures/item/va1498/",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/ric-virginia-state-capitol.glb",
+  "source": "generators/ric-virginia-state-capitol.ts"
+}

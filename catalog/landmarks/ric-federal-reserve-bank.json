@@ -1,0 +1,15 @@
+{
+  "id": "ric-federal-reserve-bank",
+  "name": "Federal Reserve Bank of Richmond",
+  "model": "ric-federal-reserve-bank",
+  "place": "richmond-area",
+  "lng": -77.440595,
+  "lat": 37.535676,
+  "bearing": 37.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/113029210"
+  ],
+  "wikidata": "Q4383722"
+}

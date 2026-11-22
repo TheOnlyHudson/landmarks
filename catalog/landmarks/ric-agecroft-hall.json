@@ -1,0 +1,15 @@
+{
+  "id": "ric-agecroft-hall",
+  "name": "Agecroft Hall",
+  "model": "ric-agecroft-hall",
+  "place": "richmond-area",
+  "lng": -77.5050485,
+  "lat": 37.5530423,
+  "bearing": 99,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/566134107"
+  ],
+  "wikidata": "Q145537"
+}
