@@ -1,0 +1,15 @@
+{
+  "id": "wellington-old-st-pauls",
+  "name": "Old St Paul's",
+  "model": "wellington-old-st-pauls",
+  "place": "wellington",
+  "lng": 174.7803725,
+  "lat": -41.2762601,
+  "bearing": 2.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q751768",
+  "replaces": [
+    "way/47116383"
+  ]
+}
