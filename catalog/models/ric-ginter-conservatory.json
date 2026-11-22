@@ -1,0 +1,48 @@
+{
+  "id": "ric-ginter-conservatory",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "conservatory",
+    "greenhouse",
+    "botanical-garden"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Lewis Ginter Conservatory (3996473341).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Lewis_Ginter_Conservatory_(3996473341).jpg",
+      "author": "Kim",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Exterior View of Lewis Ginter Conservatory.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_View_of_Lewis_Ginter_Conservatory.JPG",
+      "author": "Bobt54",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Conservatory at Lewis Ginter Botanical Gardens - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Conservatory_at_Lewis_Ginter_Botanical_Gardens_-_panoramio.jpg",
+      "author": "bobt54",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/ric-ginter-conservatory.glb",
+  "source": "generators/ric-ginter-conservatory.ts"
+}

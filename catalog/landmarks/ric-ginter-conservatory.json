@@ -1,0 +1,14 @@
+{
+  "id": "ric-ginter-conservatory",
+  "name": "Lewis Ginter Botanical Garden Conservatory",
+  "model": "ric-ginter-conservatory",
+  "place": "richmond-area",
+  "lng": -77.4719635,
+  "lat": 37.6214752,
+  "bearing": 59,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/275860188"
+  ]
+}
