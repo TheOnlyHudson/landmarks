@@ -34,6 +34,29 @@ ground: the base on the lowest ground under the model, or, for a model built
 over the terrain (a coaster, a bridge with feet on the ground), its own ground
 on the map's.
 
+So that the relief reads on the pale basemap, the map shades it: a hillshade
+from the same Mapterhorn tiles, lit from the north-west, under the rivers,
+buildings, roads and labels, with water drawn flat over it. It reads a
+coarser copy of the terrain (zoom 12, about 20 m a pixel), which shows the
+shape of the hills rather than every kerb in the lidar and costs a dozen or so
+extra tiles a view. Tilt the map past about 70° (it allows 80°) and the
+horizon shows Parchment's sky, fading into the ground's colour. The hillshade
+and sky have their own Day and Night colours. Terrain is life-size, never
+exaggerated: the models are built to true heights.
+
+From zoom 14, bridges and viaducts stand at deck height as 3D ribbons, worked
+out in the browser from public data only: the bridge ways in OpenFreeMap's
+vector tiles and the Mapterhorn terrain (see
+[How the bridge decks are worked out](#how-the-bridge-decks-are-worked-out)).
+The basemap's flat line for each of those bridges is left out, so it doesn't
+show on the ground or the water under the deck; road names stay on top.
+Where a landmark bridge model stands, its own deck is drawn instead. Other
+roads stay draped on the terrain.
+
+Terrain and hillshade elevation is © Mapterhorn
+([attribution](https://mapterhorn.com/attribution)), credited in the map's
+attribution control with OpenFreeMap and OpenStreetMap.
+
 ## Preview and appearance
 
 The small preview auto-rotates slowly. Drag to orbit; scroll or pinch to zoom.
@@ -129,7 +152,8 @@ If one collection fails to load, the other can still be browsed. Refresh to
 retry. A model load error offers a retry; a night-preview error can be retried
 by switching back to Day mode. Without working map tiles or WebGL, collection
 metadata and downloads remain available. Basemap and terrain tiles, fonts, GitHub avatars,
-and upstream GLBs require their external hosts to be reachable.
+and upstream GLBs require their external hosts to be reachable. If the
+terrain tiles fail, the map says so and draws the rest flat.
 
 OpenLandmarks metadata is a pinned snapshot, not a live query on every visit.
 Maintainers update it with `bun run sync:sources` and rebuild the site. See
@@ -137,3 +161,42 @@ Maintainers update it with `bun run sync:sources` and rebuild the site. See
 [the catalog schema](reference.md#public-metadata) for contribution fields, and
 [the README](../README.md#running-and-publishing-the-demo) for local serving and
 custom-domain setup.
+
+## How the bridge decks are worked out
+
+For maintainers; the code is `web/bridge-decks.ts`. Neither the vector tiles
+nor OSM give a bridge's height (OSM has no `ele` on most bridges), so every
+deck height is an estimate from the terrain, by one rule:
+
+1. **Bridges.** The bridge ways (`transportation` with `brunnel=bridge`) of
+   the zoom-14 tiles around the view (at most 16, nearest the centre first)
+   are clipped to their own tile and joined wherever they share a vertex,
+   within a tile or across a tile edge. Every set of joined ways is one
+   bridge, ramps and splits included. It *lands* wherever a way ends without
+   meeting another bridge way. An end cut off at the edge of the tiles read
+   is not a landing.
+2. **Landings.** Each landing takes the terrain's height there, read from
+   Mapterhorn's z14 tiles (bare-earth lidar in the US, so an approach
+   embankment is ground).
+3. **The deck.** Between its landings the deck is a weighted mean of their
+   heights, by distance along the deck: a straight grade on a bridge with two
+   landings. A gentle crest is added, 2% of the distance to the landings,
+   at most 6 m.
+4. **Clearance.** Away from its abutments the deck keeps 5.5 m over the
+   ground under it, 7 m over water (the tiles' `water` polygons), and 6 m over
+   a lower-`layer` bridge deck it crosses. Where it would not, it is lifted,
+   the lift tapering to nothing at the landings.
+
+A bridge with no landing in reach, or no terrain, isn't drawn, and keeps its
+flat line; the map says *some bridges could not be raised* if tiles fail to
+load. A deck is never drawn at a guessed height of zero.
+
+Where a landmark model is shown, the bridge ways it replaces, and any bridge
+way lying mostly inside the model's plan (the 4 m cells its geometry covers),
+are left to the model: no generated deck and no flat line.
+
+Limits: heights are estimates, typically within a few metres where a
+bridge lands on lidar ground, and worse for long spans whose real profile
+isn't a grade or a crest. Decks are ribbons of a width set by road class, not
+the real deck. Dual carriageways are drawn as their two ways. Bridges beyond
+the 16 tiles nearest the centre stay flat. Tunnels are unchanged.
