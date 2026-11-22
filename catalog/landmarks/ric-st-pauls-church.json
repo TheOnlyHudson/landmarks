@@ -1,0 +1,15 @@
+{
+  "id": "ric-st-pauls-church",
+  "name": "St. Paul's Episcopal Church",
+  "model": "ric-st-pauls-church",
+  "place": "richmond-area",
+  "lng": -77.4353248,
+  "lat": 37.5399564,
+  "bearing": 36.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/19918536"
+  ],
+  "wikidata": "Q7591122"
+}

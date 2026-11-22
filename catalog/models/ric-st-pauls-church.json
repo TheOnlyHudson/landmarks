@@ -1,0 +1,48 @@
+{
+  "id": "ric-st-pauls-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "historic",
+    "greek-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "2015 St. Paul's Episcopal Church - Richmond, Virginia.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:2015_St._Paul%27s_Episcopal_Church_-_Richmond,_Virginia.JPG",
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "StPaulsEpiscopalRichmond.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:StPaulsEpiscopalRichmond.JPG",
+      "author": "Morgan Riley",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "RICHMOND, Va. - 85.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:RICHMOND,_Va._-_85.jpg",
+      "author": "Peter H. Feist",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/ric-st-pauls-church.glb",
+  "source": "generators/ric-st-pauls-church.ts"
+}
