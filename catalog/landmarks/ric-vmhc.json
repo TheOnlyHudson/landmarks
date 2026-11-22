@@ -1,0 +1,15 @@
+{
+  "id": "ric-vmhc",
+  "name": "Virginia Museum of History & Culture",
+  "model": "ric-vmhc",
+  "place": "richmond-area",
+  "lng": -77.4738241,
+  "lat": 37.5581026,
+  "bearing": 24,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/598522099"
+  ],
+  "wikidata": "Q7934315"
+}

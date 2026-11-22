@@ -1,0 +1,48 @@
+{
+  "id": "ric-vmhc",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "historic",
+    "neoclassical"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Virginia Museum of History & Culture (VMHC) Building - 2021.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Virginia_Museum_of_History_%26_Culture_(VMHC)_Building_-_2021.jpg",
+      "author": "VMHC",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Virginia Museum of History & Culture (VMHC) Building with Sign - 2021.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Virginia_Museum_of_History_%26_Culture_(VMHC)_Building_with_Sign_-_2021.jpg",
+      "author": "VMHC",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Virginia Historical Society in Richmond, Virginia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Virginia_Historical_Society_in_Richmond,_Virginia.jpg",
+      "author": "Yo scottie oh",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/ric-vmhc.glb",
+  "source": "generators/ric-vmhc.ts"
+}
