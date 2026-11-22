@@ -1,0 +1,15 @@
+{
+  "id": "jax-dames-point-bridge",
+  "name": "Dames Point Bridge",
+  "model": "jax-dames-point-bridge",
+  "place": "jacksonville-area",
+  "lng": -81.556944,
+  "lat": 30.38453,
+  "bearing": 159.5,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q4116335",
+  "replaces": [
+    "relation/14024722"
+  ]
+}
