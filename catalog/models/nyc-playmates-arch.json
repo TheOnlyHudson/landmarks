@@ -1,0 +1,50 @@
+{
+  "id": "nyc-playmates-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "brick",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Centralpark 20040520 121402 1.1504",
+      "url": "https://commons.wikimedia.org/wiki/File:Centralpark_20040520_121402_1.1504.jpg",
+      "author": "G. Edward Johnson",
+      "license": "CC-BY-SA-3.0"
+    },
+    {
+      "title": "Central Park Jul 2019 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_Jul_2019_03.jpg",
+      "author": "Epicgenius",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "title": "CP Carousel tunnel",
+      "url": "https://commons.wikimedia.org/wiki/File:CP_Carousel_tunnel_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/nyc-playmates-arch.glb",
+  "source": "generators/nyc-playmates-arch.ts"
+}

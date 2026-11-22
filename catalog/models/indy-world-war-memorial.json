@@ -1,0 +1,48 @@
+{
+  "id": "indy-world-war-memorial",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "memorial",
+    "historic",
+    "neoclassical"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Indiana World War Memorial.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_World_War_Memorial.jpg",
+      "author": "Daniel Schwen",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Indiana War Memorial.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_War_Memorial.jpg",
+      "author": "Daniel Schwen",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Indiana World War Memorial Plaza, 2012-10-22, DD 11",
+      "url": "https://commons.wikimedia.org/wiki/File:Indiana_World_War_Memorial_Plaza,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_11.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/indy-world-war-memorial.glb",
+  "source": "generators/indy-world-war-memorial.ts"
+}

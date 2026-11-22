@@ -1,0 +1,50 @@
+{
+  "id": "nyc-greywacke-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "brownstone",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Greywacke Arch snow jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Greywacke_Arch_snow_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Greywacke Arch CP jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Greywacke_Arch_CP_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Greywacke Arch (51431346630)",
+      "url": "https://commons.wikimedia.org/wiki/File:Greywacke_Arch_(51431346630).jpg",
+      "author": "Eden, Janine and Jim",
+      "license": "CC-BY-2.0"
+    }
+  ],
+  "file": "models/nyc-greywacke-arch.glb",
+  "source": "generators/nyc-greywacke-arch.ts"
+}

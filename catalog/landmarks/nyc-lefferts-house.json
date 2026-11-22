@@ -1,0 +1,15 @@
+{
+  "id": "nyc-lefferts-house",
+  "name": "Lefferts Historic House",
+  "model": "nyc-lefferts-house",
+  "place": "prospect-park",
+  "lng": -73.963802,
+  "lat": 40.664373,
+  "bearing": 62.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/241846626"
+  ],
+  "wikidata": "Q6516654"
+}

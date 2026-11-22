@@ -1,0 +1,48 @@
+{
+  "id": "indy-artsgarden",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "glass",
+    "skywalk",
+    "arts-venue"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Indianapolis Artsgarden viewed from Maryland St. (35390).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Indianapolis_Artsgarden_viewed_from_Maryland_St._(35390).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Indianapolis Artsgarden, Indianápolis, Estados Unidos, 2012-10-22, DD (Diego Delso)",
+      "url": "https://commons.wikimedia.org/wiki/Category:Indianapolis_Artsgarden",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Exterior of the Indianapolis Artsgarden - February 2019 - INvets 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Indianapolis_Artsgarden_-_February_2019_-_INvets_01.jpg",
+      "author": "INvets",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/indy-artsgarden.glb",
+  "source": "generators/indy-artsgarden.ts"
+}

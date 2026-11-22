@@ -1,0 +1,29 @@
+{
+  "id": "jax-bank-of-america-tower",
+  "name": "Bank of America Tower",
+  "model": "jax-bank-of-america-tower",
+  "place": "jacksonville-area",
+  "lng": -81.65998929,
+  "lat": 30.32708399,
+  "bearing": 13.8,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/326777449",
+    "way/591258323",
+    "way/591258324",
+    "way/591258325",
+    "way/591258326",
+    "way/591258327",
+    "way/591258328",
+    "way/591258329",
+    "way/591258330",
+    "way/591258331",
+    "way/591258332",
+    "way/591258333",
+    "way/591258334",
+    "way/591258335",
+    "way/591258336",
+    "way/591258337"
+  ]
+}

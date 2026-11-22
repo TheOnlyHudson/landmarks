@@ -1,0 +1,14 @@
+{
+  "id": "nyc-dana-discovery-center",
+  "name": "Charles A. Dana Discovery Center",
+  "model": "nyc-dana-discovery-center",
+  "place": "central-park",
+  "lng": -73.95146,
+  "lat": 40.797073,
+  "bearing": 12.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/278366155"
+  ]
+}

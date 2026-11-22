@@ -1,0 +1,15 @@
+{
+  "id": "jax-vystar-veterans-memorial-arena",
+  "name": "VyStar Veterans Memorial Arena",
+  "model": "jax-vystar-veterans-memorial-arena",
+  "place": "jacksonville-area",
+  "lng": -81.644988,
+  "lat": 30.325759,
+  "bearing": 15,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/326792208"
+  ],
+  "wikidata": "Q1579292"
+}

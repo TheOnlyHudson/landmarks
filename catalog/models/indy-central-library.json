@@ -1,0 +1,55 @@
+{
+  "id": "indy-central-library",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "library",
+    "civic",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Central Library (Indianapolis-Marion County Public Library) from War Memorial Plaza",
+      "author": "Nyttend",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Library_(Indianapolis-Marion_County_Public_Library)_from_War_Memorial_Plaza.jpg"
+    },
+    {
+      "title": "Indianapolis Central Library - Paul Sableman",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indianapolis_Central_Library_-_Paul_Sableman.jpg"
+    },
+    {
+      "title": "Indianapolis Central Library - west side",
+      "author": "SounderBruce",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indianapolis_Central_Library_-_west_side.jpg"
+    },
+    {
+      "title": "Indianapolis Public Library, Central Library, August 2019",
+      "author": "Momoneymoproblemz",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indianapolis_Public_Library,_Central_Library,_August_2019.jpg"
+    }
+  ],
+  "file": "models/indy-central-library.glb",
+  "source": "generators/indy-central-library.ts"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "nyc-gothic-bridge",
+  "name": "Gothic Bridge",
+  "model": "nyc-gothic-bridge",
+  "place": "central-park",
+  "lng": -73.962085,
+  "lat": 40.788929,
+  "bearing": 49.8,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "indy-city-market",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "market",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "August 1970 SOUTH FRONT OF MARKET HOUSE - Indianapolis City Market, 222 East Market Street, Indianapolis, Marion County, IN HABS IND,49-IND,14-2.tif",
+      "url": "https://commons.wikimedia.org/wiki/File:August_1970_SOUTH_FRONT_OF_MARKET_HOUSE_-_Indianapolis_City_Market,_222_East_Market_Street,_Indianapolis,_Marion_County,_IN_HABS_IND,49-IND,14-2.tif",
+      "author": "Jack E. Boucher (HABS)",
+      "license": "Public domain"
+    },
+    {
+      "title": "City Market in Indianapolis.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Market_in_Indianapolis.jpg",
+      "author": "Nyttend",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/indy-city-market.glb",
+  "source": "generators/indy-city-market.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "jax-st-johns-cathedral",
+  "name": "St. John's Episcopal Cathedral",
+  "model": "jax-st-johns-cathedral",
+  "place": "jacksonville-area",
+  "lng": -81.65336,
+  "lat": 30.328879,
+  "bearing": 14,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7588585",
+  "replaces": [
+    "way/497151843"
+  ]
+}

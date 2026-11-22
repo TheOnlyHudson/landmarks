@@ -1,0 +1,14 @@
+{
+  "id": "jax-hart-bridge",
+  "name": "Hart Bridge",
+  "model": "jax-hart-bridge",
+  "place": "jacksonville-area",
+  "lng": -81.627122,
+  "lat": 30.315081,
+  "bearing": 328.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/1375991581"
+  ]
+}

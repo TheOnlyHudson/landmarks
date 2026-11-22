@@ -1,0 +1,49 @@
+{
+  "id": "nyc-delacorte-theater",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theatre",
+    "amphitheatre",
+    "open-air",
+    "central-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Delacorte Theater Exterior 2026.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Delacorte_Theater_Exterior_2026.jpg",
+      "author": "Jellybean222",
+      "license": "CC0"
+    },
+    {
+      "title": "Delacorte Theater stage The Winter's Tale-1 July 31 2026.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Delacorte_Theater_stage_The_Winter%27s_Tale-1_July_31_2026.jpg",
+      "author": "SnowFire",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Shakespeare in the Park July 2021.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Shakespeare_in_the_Park_July_2021.jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-delacorte-theater.glb",
+  "source": "generators/nyc-delacorte-theater.ts"
+}

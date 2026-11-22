@@ -1,0 +1,18 @@
+{
+  "id": "indy-salesforce-tower",
+  "name": "Salesforce Tower",
+  "model": "indy-salesforce-tower",
+  "place": "indianapolis-area",
+  "lng": -86.15709,
+  "lat": 39.7696,
+  "bearing": 1.6,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q2734953",
+  "replaces": [
+    "way/338986226",
+    "way/352344047",
+    "way/352344048",
+    "way/352344049"
+  ]
+}

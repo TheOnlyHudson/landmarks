@@ -1,0 +1,18 @@
+{
+  "id": "indy-gainbridge-fieldhouse",
+  "name": "Gainbridge Fieldhouse",
+  "model": "indy-gainbridge-fieldhouse",
+  "place": "indianapolis-area",
+  "lng": -86.155491,
+  "lat": 39.764069,
+  "bearing": 1,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q545007",
+  "replaces": [
+    "way/341313456",
+    "way/620778693",
+    "way/696303086",
+    "way/696303087"
+  ]
+}

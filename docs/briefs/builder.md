@@ -123,8 +123,9 @@ Don't delete other builders' files.
 - Budget: `bun tools/glb-stats.ts <id>`. At most 5,000 triangles (6,500 if
   the model is complex), 250 KB, and six materials. Lowest point at y = 0.
 - Terrain: `bun tools/terrain.ts check <id>` (after the placement is in
-  the catalog, or with `--lng --lat --bearing`). It must print `ok`. If it
-  reports buried tops, follow "The map's terrain" in `docs/evidence.md`,
+  the catalog, or with `--lng --lat --bearing`). It must print `ok` twice.
+  If it reports buried tops or a floating base, follow "The map's terrain"
+  in `docs/evidence.md`,
   and put the check's last result in your report.
 - Unlisted buildings: `bun tools/overlap.ts <id>` (after the placement is
   in the catalog). It lists every OSM `building` or `building:part` the

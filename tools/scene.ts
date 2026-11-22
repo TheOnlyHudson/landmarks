@@ -3,7 +3,7 @@
  *
  *   bun tools/scene.ts <out.png> <id ...> [--from <deg>] [--elevation <deg>] [--size <px>] [--step <m>] [--margin <m>] [--night]
  *
- * Every landmark is stood on Mapterhorn as the map stands it (the same drape,
+ * Every landmark is stood on Mapterhorn as the map stands it, whole (the same
  * fill, base sink and catalog elevation as `bun run sheet --terrain`), turned
  * to its bearing and moved to its anchor, so neighbours that share a site (a
  * dam, its spillways and its bridge) can be checked against each other and

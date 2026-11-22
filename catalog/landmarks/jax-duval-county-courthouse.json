@@ -1,0 +1,14 @@
+{
+  "id": "jax-duval-county-courthouse",
+  "name": "Duval County Courthouse",
+  "model": "jax-duval-county-courthouse",
+  "place": "jacksonville-area",
+  "lng": -81.663375,
+  "lat": 30.3300552,
+  "bearing": 14,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/170066678"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "nyc-litchfield-villa",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "italianate",
+    "villa",
+    "brick",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Litchfield Villa (14034p)",
+      "url": "https://commons.wikimedia.org/wiki/File:Litchfield_Villa_(14034p).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Litchfield Villa PPW jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Litchfield_Villa_PPW_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Litchfield Villa jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Litchfield_Villa_jeh.JPG",
+      "author": "Jim.henderson",
+      "license": "Public domain"
+    },
+    {
+      "title": "Litchfield Villa",
+      "url": "https://commons.wikimedia.org/wiki/File:Litchfield_Villa.JPG",
+      "author": "Anira3478",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Grace Hill for Edwin C. Litchfield, Brooklyn, New York (front elevation)",
+      "url": "https://commons.wikimedia.org/wiki/File:Grace_Hill_for_Edwin_C._Litchfield,_Brooklyn,_New_York_(front_elevation)_MET_DP370756.jpg",
+      "author": "Alexander Jackson Davis (The Met)",
+      "license": "CC0"
+    }
+  ],
+  "wikidata": "Q6647480",
+  "file": "models/nyc-litchfield-villa.glb",
+  "source": "generators/nyc-litchfield-villa.ts"
+}

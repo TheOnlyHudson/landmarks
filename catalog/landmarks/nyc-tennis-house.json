@@ -1,0 +1,14 @@
+{
+  "id": "nyc-tennis-house",
+  "name": "Tennis House",
+  "model": "nyc-tennis-house",
+  "place": "prospect-park",
+  "lng": -73.973349,
+  "lat": 40.663586,
+  "bearing": 21.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/241846604"
+  ]
+}

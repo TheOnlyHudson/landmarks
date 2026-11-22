@@ -1,0 +1,45 @@
+{
+  "id": "nyc-lefferts-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "dutch-colonial",
+    "farmhouse",
+    "museum",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Lefferts-homestead-prospect-park",
+      "url": "https://commons.wikimedia.org/wiki/File:Lefferts-homestead-prospect-park.JPG",
+      "author": "Dmadeo",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Feb 2019 110",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Feb_2019_110.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "wikidata": "Q6516654",
+  "file": "models/nyc-lefferts-house.glb",
+  "source": "generators/nyc-lefferts-house.ts"
+}

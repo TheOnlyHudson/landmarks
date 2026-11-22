@@ -1,0 +1,14 @@
+{
+  "id": "nyc-lullwater-bridge",
+  "name": "Lullwater Bridge",
+  "model": "nyc-lullwater-bridge",
+  "place": "prospect-park",
+  "lng": -73.965878,
+  "lat": 40.660617,
+  "bearing": 159.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1420960683"
+  ]
+}

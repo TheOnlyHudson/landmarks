@@ -1,0 +1,14 @@
+{
+  "id": "indy-victory-field",
+  "name": "Victory Field",
+  "model": "indy-victory-field",
+  "place": "indianapolis-area",
+  "lng": -86.1689096,
+  "lat": 39.7645514,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/113047379"
+  ]
+}

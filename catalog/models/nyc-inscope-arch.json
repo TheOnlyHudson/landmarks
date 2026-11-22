@@ -1,0 +1,49 @@
+{
+  "id": "nyc-inscope-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Inscope Arch E62 gloomy",
+      "url": "https://commons.wikimedia.org/wiki/File:Inscope_Arch_E62_gloomy_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Inscope Arch (161072974)",
+      "url": "https://commons.wikimedia.org/wiki/File:Inscope_Arch_(161072974).jpg",
+      "author": "Diego Torres Silvestre",
+      "license": "CC-BY-2.0"
+    },
+    {
+      "title": "Inscope Arch (Central Park) after snow",
+      "url": "https://commons.wikimedia.org/wiki/File:Inscope_Arch_(Central_Park)_after_snow_-_Flickr_id_40249839424.jpg",
+      "author": "bikesharedude",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nyc-inscope-arch.glb",
+  "source": "generators/nyc-inscope-arch.ts"
+}
