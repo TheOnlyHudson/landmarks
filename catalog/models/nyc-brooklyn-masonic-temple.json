@@ -1,0 +1,50 @@
+{
+  "id": "nyc-brooklyn-masonic-temple",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "masonic-temple",
+    "neoclassical",
+    "brooklyn",
+    "fort-greene"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brooklyn Masonic Temple from west",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Masonic_Temple_from_west.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Masonic Temple from east",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Masonic_Temple_from_east.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Masonic Lafayette Clermont sunny jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Masonic_Lafayette_Clermont_sunny_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/nyc-brooklyn-masonic-temple.glb",
+  "source": "generators/nyc-brooklyn-masonic-temple.ts"
+}
