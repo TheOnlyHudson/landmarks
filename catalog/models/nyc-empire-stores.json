@@ -1,0 +1,63 @@
+{
+  "id": "nyc-empire-stores",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "warehouse",
+    "brick",
+    "brooklyn",
+    "dumbo"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q96377258",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Empire Stores by S9Architecture",
+      "url": "https://commons.wikimedia.org/wiki/File:Empire_Stores_by_S9Architecture.jpg",
+      "author": "Ivane Katamashvili",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Empire Stores",
+      "url": "https://commons.wikimedia.org/wiki/File:Empire_Stores.jpg",
+      "author": "R.scholz at English Wikipedia",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Empire Stores March 2023",
+      "url": "https://commons.wikimedia.org/wiki/File:Empire_Stores_March_2023.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Empire Stores March 2023 001",
+      "url": "https://commons.wikimedia.org/wiki/File:Empire_Stores_March_2023_001.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Empire Stores View 004",
+      "url": "https://commons.wikimedia.org/wiki/File:Empire_Stores_View_004.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-empire-stores.glb",
+  "source": "generators/nyc-empire-stores.ts"
+}
