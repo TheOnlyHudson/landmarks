@@ -1,0 +1,53 @@
+{
+  "id": "nyc-st-anns-warehouse",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theatre",
+    "historic",
+    "warehouse",
+    "brick",
+    "brooklyn",
+    "dumbo",
+    "ruin"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q7586974",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "St. Ann's Warehouse in Brooklyn",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Ann%27s_Warehouse_in_Brooklyn.jpg",
+      "author": "Wgreaves",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. Ann's Warehouse",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Ann%27s_Warehouse.jpg",
+      "author": "Chrissy Fiorentini",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Tobacco Warehouse MB jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Tobacco_Warehouse_MB_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/nyc-st-anns-warehouse.glb",
+  "source": "generators/nyc-st-anns-warehouse.ts"
+}
