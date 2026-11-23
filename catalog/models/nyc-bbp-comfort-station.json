@@ -1,0 +1,62 @@
+{
+  "id": "nyc-bbp-comfort-station",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "pavilion",
+    "comfort-station",
+    "park",
+    "brooklyn",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brooklyn Bridge Park td (2026-01-18) 006 - Pier 1, Entrance Pavilion, 1 Hotel Brooklyn Bridge",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Bridge_Park_td_(2026-01-18)_006_-_Pier_1,_Entrance_Pavilion,_1_Hotel_Brooklyn_Bridge.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Bridge Park td (2026-01-18) 008 - Pier 1, Entrance Pavilion",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Bridge_Park_td_(2026-01-18)_008_-_Pier_1,_Entrance_Pavilion.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Bridge Park td (2026-01-18) 009 - Pier 1, Entrance Pavilion",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Bridge_Park_td_(2026-01-18)_009_-_Pier_1,_Entrance_Pavilion.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Bridge Park td (2026-01-18) 011 - Pier 1, Entrance Pavilion, 1 Hotel Brooklyn Bridge",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Bridge_Park_td_(2026-01-18)_011_-_Pier_1,_Entrance_Pavilion,_1_Hotel_Brooklyn_Bridge.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Bridge Park td (2026-01-18) 014 - Pier 1, Entrance Pavilion",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Bridge_Park_td_(2026-01-18)_014_-_Pier_1,_Entrance_Pavilion.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-bbp-comfort-station.glb",
+  "source": "generators/nyc-bbp-comfort-station.ts"
+}

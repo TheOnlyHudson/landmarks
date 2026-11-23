@@ -1,0 +1,14 @@
+{
+  "id": "nyc-bbp-comfort-station",
+  "name": "Pier 1 Pavilion",
+  "model": "nyc-bbp-comfort-station",
+  "place": "brooklyn-bridge-park",
+  "lng": -73.995411,
+  "lat": 40.702744,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "relation/19396006"
+  ]
+}
