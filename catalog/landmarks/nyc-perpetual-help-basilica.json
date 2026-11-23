@@ -1,0 +1,15 @@
+{
+  "id": "nyc-perpetual-help-basilica",
+  "name": "Basilica of Our Lady of Perpetual Help",
+  "model": "nyc-perpetual-help-basilica",
+  "place": "new-york-area",
+  "lng": -74.0152547,
+  "lat": 40.6394219,
+  "bearing": 308.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q4867364",
+  "replaces": [
+    "way/1096878089"
+  ]
+}
