@@ -1,0 +1,70 @@
+{
+  "id": "nyc-gowanus-batcave",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "power-station",
+    "brick",
+    "arts-centre",
+    "brooklyn",
+    "gowanus"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q48743787",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Gowanus Brooklyn May 2026 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Gowanus_Brooklyn_May_2026_01.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gowanus Brooklyn May 2026 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Gowanus_Brooklyn_May_2026_02.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gowanus Brooklyn May 2026 04",
+      "url": "https://commons.wikimedia.org/wiki/File:Gowanus_Brooklyn_May_2026_04.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gowanus Brooklyn May 2026 06",
+      "url": "https://commons.wikimedia.org/wiki/File:Gowanus_Brooklyn_May_2026_06.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gowanus Batcave (93857)",
+      "url": "https://commons.wikimedia.org/wiki/File:Gowanus_Batcave_(93857).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gowanus batcave new addition (74959)",
+      "url": "https://commons.wikimedia.org/wiki/File:Gowanus_batcave_new_addition_(74959).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-gowanus-batcave.glb",
+  "source": "generators/nyc-gowanus-batcave.ts"
+}
