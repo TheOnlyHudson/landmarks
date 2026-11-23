@@ -1,0 +1,17 @@
+{
+  "id": "nyc-bbg-steinhardt-conservatory",
+  "name": "Steinhardt Conservatory",
+  "model": "nyc-bbg-steinhardt-conservatory",
+  "place": "brooklyn-botanic-garden",
+  "lng": -73.96215,
+  "lat": 40.66604,
+  "bearing": -8.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/250230007",
+    "way/250230006",
+    "way/250229993",
+    "way/250230005"
+  ]
+}
