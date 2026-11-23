@@ -46,7 +46,8 @@
  * Estimated from the photos, scaled on the lidar cornice: storey heights,
  * arch widths and spacing, the tower's gable (25 m) and spire (31 m).
  * Doubts: the south face is not photographed and repeats the Clinton
- * bays; the west face is a party wall; the hipped roof's shape is read
+ * bays; the west face is the party wall to way/241833112, drawn plain with
+ * no cornice or belts over the neighbour; the hipped roof's shape is read
  * from the lidar only.
  */
 import { Part, type V3 } from './mesh'
@@ -106,11 +107,15 @@ RING.forEach((a, i) => {
   const b = RING[(i + 1) % 4]
   const { L, at } = along(a, b)
   rect(brick, at, 0, L, 0, CORNICE, 0)
-  box(granite, at, -0.15, L, 0, 1.1, 0, 0.15) // granite water table, tall enough for the 1 m rise to the south-west
-  box(terra, at, -0.2, L, BELT0, BELT1, 0, 0.2)
+  // The west face is the party wall to the neighbour (way/241833112): plain
+  // brick, no water table, belts or cornice reaching over the neighbour.
+  if (i === 3) return
+  const k0 = i === 0 ? 0 : 1 // the south face starts at the party wall: no return past it
+  box(granite, at, -0.15 * k0, L, 0, 1.1, 0, 0.15) // granite water table, tall enough for the 1 m rise to the south-west
+  box(terra, at, -0.2 * k0, L, BELT0, BELT1, 0, 0.2)
   rect(terra, at, 0.3, L - 0.3, FRIEZE0, FRIEZE1, 0.04)
-  box(terra, at, -0.25, L, FRIEZE1, FRIEZE1 + 0.25, 0, 0.25)
-  box(terra, at, -OVER, L, CORNICE0, CORNICE, 0, OVER, true)
+  box(terra, at, -0.25 * k0, L, FRIEZE1, FRIEZE1 + 0.25, 0, 0.25)
+  box(terra, at, -OVER * k0, L, CORNICE0, CORNICE, 0, OVER, true)
 
   if (i === 0 || i === 1) {
     // South (unphotographed, after Clinton) and Clinton Street: even bays.
@@ -160,7 +165,7 @@ TOWER.forEach((a, i) => {
 })
 {
   const e = 0.6, z = GABLE, apex: V3 = [(TX0 + TX1) / 2, (TY0 + TY1) / 2, SPIRE]
-  const R: V3[] = [[TX0 - e, TY0 - e, z], [TX1 + e, TY0 - e, z], [TX1 + e, TY1 + e, z], [TX0 - e, TY1 + e, z]]
+  const R: V3[] = [[TX0, TY0 - e, z], [TX1 + e, TY0 - e, z], [TX1 + e, TY1 + e, z], [TX0, TY1 + e, z]] // flush on the party wall
   for (let k = 0; k < 4; k++) slate.tri(R[k], R[(k + 1) % 4], apex)
   slate.quad(R[0], R[3], R[2], R[1]) // the eave's underside
 }
