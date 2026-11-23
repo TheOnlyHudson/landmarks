@@ -1,0 +1,14 @@
+{
+  "id": "nyc-boylan-hall",
+  "name": "Boylan Hall",
+  "model": "nyc-boylan-hall",
+  "place": "new-york-area",
+  "lng": -73.951652,
+  "lat": 40.6318925,
+  "bearing": 351.9,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/249997409"
+  ]
+}
