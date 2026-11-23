@@ -1,0 +1,63 @@
+{
+  "id": "nyc-coney-island-light",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "lighthouse",
+    "historic",
+    "brooklyn",
+    "coney-island",
+    "skeletal-tower",
+    "steel"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Coney Island Lighthouse 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Lighthouse_01.JPG",
+      "author": "Jeffrey Lewis Riehle",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Coney Island Lighthouse 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Lighthouse_02.JPG",
+      "author": "Jeffrey Lewis Riehle",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Coney Island Lighthouse 04",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Lighthouse_04.JPG",
+      "author": "Jeffrey Lewis Riehle",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Coney Island Light",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Light.jpg",
+      "author": "Oleg Yunakov",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Nortons Point Light jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Nortons_Point_Light_jeh.JPG",
+      "author": "Jim.henderson",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nyc-coney-island-light.glb",
+  "source": "generators/nyc-coney-island-light.ts"
+}

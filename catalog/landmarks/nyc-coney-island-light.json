@@ -1,0 +1,15 @@
+{
+  "id": "nyc-coney-island-light",
+  "name": "Coney Island Light",
+  "model": "nyc-coney-island-light",
+  "place": "new-york-area",
+  "lng": -74.0117631,
+  "lat": 40.5766049,
+  "bearing": 50.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q5159602",
+  "replaces": [
+    "way/1185754230"
+  ]
+}
