@@ -1,0 +1,30 @@
+{
+  "id": "nyc-lefrak-center",
+  "name": "LeFrak Center at Lakeside",
+  "model": "nyc-lefrak-center",
+  "place": "prospect-park",
+  "wikidata": "Q114912634",
+  "lng": -73.963993,
+  "lat": 40.657365,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/9803047",
+    "way/702922685",
+    "way/702922686",
+    "way/702944837",
+    "way/703212340",
+    "way/703212342",
+    "way/703212343",
+    "way/704974539",
+    "way/1520469912",
+    "way/1520469913",
+    "way/1520469914",
+    "way/1520469915",
+    "way/1520469916",
+    "way/1520469917",
+    "way/1520469918",
+    "way/1520469919"
+  ]
+}
