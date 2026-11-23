@@ -1,0 +1,12 @@
+{
+  "id": "nyc-bbg-torii",
+  "name": "Torii, Japanese Hill-and-Pond Garden",
+  "model": "nyc-bbg-torii",
+  "place": "brooklyn-botanic-garden",
+  "lng": -73.962942,
+  "lat": 40.6686299,
+  "bearing": 88,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

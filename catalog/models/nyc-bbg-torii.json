@@ -1,0 +1,57 @@
+{
+  "id": "nyc-bbg-torii",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "brooklyn",
+    "japanese-garden",
+    "torii",
+    "shinto"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The vermilion torii standing in the pond of Takeo Shiota's 1915 Japanese Hill-and-Pond Garden.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brooklyn Botanic Garden - 20200911 - 16 - Pond and torii at Japanese Hill-and-Pond Garden",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_-_20200911_-_16_-_Pond_and_torii_at_Japanese_Hill-and-Pond_Garden.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Detall de l'arc torii a Jardi japonès dels Brooklyn Botànic Garden",
+      "url": "https://commons.wikimedia.org/wiki/File:Detall_de_l%27arc_torii_a_Jardi_japon%C3%A8s_dels_Brooklyn_Bot%C3%A0nic_Garden.jpg",
+      "author": "Vallue",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Great blue heron on torii (70282)",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_blue_heron_on_torii_(70282).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Japanese Hill-and-Pond Garden, Brooklyn 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Japanese_Hill-and-Pond_Garden,_Brooklyn_02.JPG",
+      "author": "Caroline Léna Becker",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "file": "models/nyc-bbg-torii.glb",
+  "source": "generators/nyc-bbg-torii.ts"
+}
