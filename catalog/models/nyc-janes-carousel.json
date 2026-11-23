@@ -1,0 +1,76 @@
+{
+  "id": "nyc-janes-carousel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "ride",
+  "tags": [
+    "carousel",
+    "pavilion",
+    "glass",
+    "brooklyn",
+    "historic",
+    "jean-nouvel"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q16996543",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Jane's Carousel, Dumbo Brooklyn in July 2017",
+      "url": "https://commons.wikimedia.org/wiki/File:Jane%27s_Carousel,_Dumbo_Brooklyn_in_July_2017.jpg",
+      "author": "MusikAnimal",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Jane's Carousel in 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:Jane%27s_Carousel_in_2025.jpg",
+      "author": "Enciclopedia1993",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Janes Carousel glass house BB jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Janes_Carousel_glass_house_BB_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    },
+    {
+      "title": "Janes Carousel Bklyn sunset jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Janes_Carousel_Bklyn_sunset_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    },
+    {
+      "title": "Janes Carousel glass house MB jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Janes_Carousel_glass_house_MB_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    },
+    {
+      "title": "Jane's Carousel",
+      "url": "https://commons.wikimedia.org/wiki/File:Jane%27s_Carousel.jpg",
+      "author": "Cubie King",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Jane's Carousel 2019 (Manhattan Bridge in background)",
+      "url": "https://commons.wikimedia.org/wiki/File:Jane%27s_Carousel_2019_(Manhattan_Bridge_in_background).jpg",
+      "author": "Wgreaves",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-janes-carousel.glb",
+  "source": "generators/nyc-janes-carousel.ts"
+}
