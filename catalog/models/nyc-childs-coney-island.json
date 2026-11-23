@@ -1,0 +1,65 @@
+{
+  "id": "nyc-childs-coney-island",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "brooklyn",
+    "coney-island",
+    "boardwalk",
+    "spanish-revival",
+    "terracotta",
+    "restaurant",
+    "nyc-landmark"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Childs' Restaurant (84184p)",
+      "url": "https://commons.wikimedia.org/wiki/File:Childs%27_Restaurant_(84184p).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Childs Restaurant CI jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Childs_Restaurant_CI_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    },
+    {
+      "title": "Ford Amphitheater in Coney Island 022",
+      "url": "https://commons.wikimedia.org/wiki/File:Ford_Amphitheater_in_Coney_Island_022.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Ford Amphitheater in Coney Island 003",
+      "url": "https://commons.wikimedia.org/wiki/File:Ford_Amphitheater_in_Coney_Island_003.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ford Amphitheater in Coney Island 026",
+      "url": "https://commons.wikimedia.org/wiki/File:Ford_Amphitheater_in_Coney_Island_026.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/nyc-childs-coney-island.glb",
+  "source": "generators/nyc-childs-coney-island.ts"
+}
