@@ -1,0 +1,14 @@
+{
+  "id": "nyc-green-wood-gate",
+  "name": "Green-Wood Cemetery Main Gate",
+  "model": "nyc-green-wood-gate",
+  "place": "green-wood-cemetery",
+  "lng": -73.994719,
+  "lat": 40.658094,
+  "bearing": 349.4,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/249623362"
+  ]
+}
