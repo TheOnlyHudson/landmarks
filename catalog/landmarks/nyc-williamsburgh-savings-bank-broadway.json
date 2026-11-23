@@ -1,0 +1,14 @@
+{
+  "id": "nyc-williamsburgh-savings-bank-broadway",
+  "name": "Williamsburgh Savings Bank (175 Broadway)",
+  "model": "nyc-williamsburgh-savings-bank-broadway",
+  "place": "new-york-area",
+  "lng": -73.962475,
+  "lat": 40.710268,
+  "bearing": 26.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/279615231"
+  ]
+}
