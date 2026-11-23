@@ -1,0 +1,14 @@
+{
+  "id": "nyc-green-wood-chapel",
+  "name": "Green-Wood Historic Chapel",
+  "model": "nyc-green-wood-chapel",
+  "place": "green-wood-cemetery",
+  "lng": -73.995312,
+  "lat": 40.656345,
+  "bearing": 17.6,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/249623444"
+  ]
+}
