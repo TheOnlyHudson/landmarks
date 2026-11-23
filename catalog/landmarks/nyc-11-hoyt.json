@@ -1,0 +1,22 @@
+{
+  "id": "nyc-11-hoyt",
+  "name": "11 Hoyt",
+  "model": "nyc-11-hoyt",
+  "place": "new-york-area",
+  "lng": -73.984957,
+  "lat": 40.689794,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q60746801",
+  "replaces": [
+    "relation/13277947",
+    "way/700546409",
+    "way/988348364",
+    "way/988348365",
+    "way/988348366",
+    "way/988348367",
+    "way/988348368",
+    "way/1198532671"
+  ]
+}

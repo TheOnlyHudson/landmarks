@@ -1,0 +1,75 @@
+{
+  "id": "nyc-11-hoyt",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "skyscraper",
+    "residential",
+    "contemporary",
+    "brooklyn",
+    "downtown-brooklyn"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q60746801",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "11 Hoyt 001",
+      "url": "https://commons.wikimedia.org/wiki/File:11_Hoyt_001.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "11 Hoyt 002",
+      "url": "https://commons.wikimedia.org/wiki/File:11_Hoyt_002.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "11 Hoyt 005",
+      "url": "https://commons.wikimedia.org/wiki/File:11_Hoyt_005.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "11 Hoyt 015",
+      "url": "https://commons.wikimedia.org/wiki/File:11_Hoyt_015.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "11 Hoyt 019",
+      "url": "https://commons.wikimedia.org/wiki/File:11_Hoyt_019.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "11 Hoyt 030",
+      "url": "https://commons.wikimedia.org/wiki/File:11_Hoyt_030.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "11 Hoyt 036",
+      "url": "https://commons.wikimedia.org/wiki/File:11_Hoyt_036.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/nyc-11-hoyt.glb",
+  "source": "generators/nyc-11-hoyt.ts"
+}
