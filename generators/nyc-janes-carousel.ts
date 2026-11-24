@@ -74,11 +74,21 @@
  *
  * Doubts: the column positions; the carousel's real diameter (no published
  * figure found; estimated from photos); the folded door stacks of the open
- * pavilion are not drawn (the box is shown closed, as in winter).
+ * pavilion are not drawn (the box is shown closed, as in winter); which
+ * horses jump (taken as the usual PTC layout: outer row standers, inner
+ * rows jumpers).
+ *
+ * Animation (experimental, see STYLE.md). The carousel turns anticlockwise
+ * seen from above, as American carousels do: the platform, drum, canopy
+ * and horses are one node pivoting on the centre pole. The inner-row
+ * horses are its children and rise and fall 0.35 m on their cranks, three
+ * times a turn, each a little behind the one ahead. 15 s a turn, close to
+ * a real carousel's 4 rpm (no published figure for this one), so no
+ * speed-up is needed. Frame 0 is the static model.
  */
-import { Part, type V3, type MaterialSpec } from './mesh'
+import { Part, axisAngle, writeGlb, type ChannelSpec, type MaterialSpec, type NodeSpec, type V3 } from './mesh'
 import { finish } from './palette'
-import { finishModel, quadN, unit } from './nyc-570-lexington'
+import { quadN, unit } from './nyc-570-lexington'
 
 const TAU = Math.PI * 2
 const HX = 10.85, HY = 10.9            // half sizes of the box (OSM)
@@ -87,6 +97,7 @@ const ROOF = 8.35 + CURB - 0.2, FASCIA = 1.0, SOFFIT = ROOF - FASCIA
 const OCULUS = 6.2, SKY = ROOF - 0.4
 
 const steel = new Part(), glass = new Part(), granite = new Part()
+// The carousel turns: these parts are the moving node, centred on the pole.
 const canopy = new Part(), lit = new Part(), wood = new Part()
 
 /** An axis-aligned box with all six faces, outward. */
@@ -238,29 +249,68 @@ cyl(lit, 0, 0, 1.8, 1.8, PT, 3.5, 16)
   // The cone, from just inside the rim to the centre.
   cyl(lit, 0, 0, R0 - 0.15, 0.7, RT - 0.02, 6.0, N)
   disc(lit, 0, 0, 0.7, 6.0, 12)
+  // Gold rafter ribs down the cone, 12 of them, so the turn shows through the
+  // oculus from above (the motion cue STYLE.md asks for; the real top's
+  // seams are fainter). Offset between the skylight's 8 steel ribs.
+  for (let k = 0; k < 12; k++) {
+    const a = (k / 12) * TAU, ca = Math.cos(a), sa = Math.sin(a), w0 = 0.16, w1 = 0.05
+    const r0 = R0 - 0.15, r1 = 0.75, z0 = RT + 0.03, z1 = 6.03
+    canopy.quad([r0 * ca - w0 * sa, r0 * sa + w0 * ca, z0], [r1 * ca - w1 * sa, r1 * sa + w1 * ca, z1],
+      [r1 * ca + w1 * sa, r1 * sa - w1 * ca, z1], [r0 * ca + w0 * sa, r0 * sa - w0 * ca, z0])
+  }
   cyl(canopy, 0, 0, 0.35, 0.15, 6.0, 6.6, 8)
 }
 // Horses: the outer two rows, facing anticlockwise (the way an American
 // carousel turns), brown and white alternating, as bold blocks.
-function horse(p: Part, r: number, a: number) {
-  const cx = r * Math.cos(a), cy = r * Math.sin(a), t = a + Math.PI / 2     // t: direction of travel
+// `o` is the origin the horse is authored about: the carousel's centre for a
+// stander, the horse's own crank for a jumper.
+function horse(p: Part, r: number, a: number, o: [number, number] = [0, 0]) {
+  const cx = r * Math.cos(a) - o[0], cy = r * Math.sin(a) - o[1], t = a + Math.PI / 2     // t: direction of travel
   const along = (d: number): [number, number] => [cx + d * Math.cos(t), cy + d * Math.sin(t)]
   obox(p, cx, cy, t, 0.72, 0.2, PT + 0.95, PT + 1.45)                     // body
   const [hx, hy] = along(0.7)
   obox(p, hx, hy, t + 0.5, 0.26, 0.14, PT + 1.3, PT + 2.05)               // neck and head, reared
   obox(p, cx, cy, t, 0.58, 0.13, PT + 0.15, PT + 0.95)                    // legs, as one block
 }
+const GLASS: MaterialSpec = { name: 'glass', color: 0x8fcbe0, roughness: 0.2, opacity: 0.24, doubleSided: true }
+const STEEL = finish('janes-steel', 0xd3e6df), GRANITE = finish('janes-granite', 0xb4b7b6)
+const CANOPY = finish('neon-janes-canopy', 0xe2b65a), LIT: MaterialSpec = { name: 'window', color: 0xead7ad, roughness: 0.6 }
+const WOOD = finish('janes-wood', 0xb07a4c)
+
+// Outer row: standers, fixed to the platform.
 for (let k = 0; k < 18; k++) horse(k % 2 ? wood : lit, 5.9, (k / 18) * TAU)
-for (let k = 0; k < 15; k++) horse(k % 3 === 1 ? lit : wood, 4.55, ((k + 0.5) / 15) * TAU)
+
+// ------------------------------------------------------------ the motion ---
+const LOOP = 15, KEYS = 60, BOBS = 3, LIFT = 0.35
+const times = Array.from({ length: KEYS + 1 }, (_, i) => (i / KEYS) * LOOP)
+const turned = times.map((_, i) => (i / KEYS) * TAU)
+const nodes: NodeSpec[] = [{
+  name: 'carousel', translation: [0, 0, 0],
+  parts: [{ part: wood, material: WOOD }, { part: lit, material: LIT }, { part: canopy, material: CANOPY }],
+}]
+const channels: ChannelSpec[] = [{ node: 0, path: 'rotation', values: turned.map((a) => axisAngle([0, 0, 1], a)) }]
+// Inner row: jumpers, each its own node on its crank, rising and falling.
+for (let k = 0; k < 15; k++) {
+  const a = ((k + 0.5) / 15) * TAU, o: [number, number] = [4.55 * Math.cos(a), 4.55 * Math.sin(a)]
+  const p = new Part()
+  horse(p, 4.55, a, o)
+  const phase = (k / 15) * TAU * BOBS
+  const at = turned.map((t): V3 => [o[0], o[1], (LIFT * (1 - Math.cos(BOBS * t + phase))) / 2])
+  nodes.push({ name: `horse-${k + 1}`, parent: 0, translation: at[0], parts: [{ part: p, material: k % 3 === 1 ? LIT : WOOD }] })
+  channels.push({ node: nodes.length - 1, path: 'translation', values: at })
+}
 
 const parts: { part: Part; material: MaterialSpec }[] = [
-  { part: glass, material: { name: 'glass', color: 0x8fcbe0, roughness: 0.2, opacity: 0.24, doubleSided: true } },
-  { part: steel, material: finish('janes-steel', 0xd3e6df) },
-  { part: granite, material: finish('janes-granite', 0xb4b7b6) },
-  { part: canopy, material: finish('neon-janes-canopy', 0xe2b65a) },
-  { part: lit, material: { name: 'window', color: 0xead7ad, roughness: 0.6 } },
-  { part: wood, material: finish('janes-wood', 0xb07a4c) },
+  { part: glass, material: GLASS }, { part: steel, material: STEEL }, { part: granite, material: GRANITE },
 ]
-finishModel("Jane's Carousel", 'nyc-janes-carousel', parts, {
+const all = [...parts, ...nodes.flatMap((n) => n.parts)]
+const triangles = all.reduce((s, { part }) => s + part.triangles, 0)
+if (triangles > 5000) throw new Error(`nyc-janes-carousel: triangle budget exceeded: ${triangles}`)
+if (new Set(all.map((x) => x.material.name)).size > 6) throw new Error('nyc-janes-carousel: too many materials')
+const glb = writeGlb("Jane's Carousel", parts, {
+  license: 'CC0-1.0', frame: 'Y up, -Z north, +X east, metres; origin at the ground anchor',
   bearing: 0, elevation: 0, height: ROOF, osm: 'way/223183095',
-})
+}, { nodes, animation: { name: 'turn', times, channels } })
+if (glb.length > 250000) throw new Error(`nyc-janes-carousel: file budget exceeded: ${glb.length}`)
+await Bun.write(new URL('../models/nyc-janes-carousel.glb', import.meta.url), glb)
+console.log(`nyc-janes-carousel.glb: ${triangles} triangles, ${glb.length} bytes, ${LOOP} s a turn`)
