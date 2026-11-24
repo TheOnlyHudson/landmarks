@@ -52,52 +52,9 @@
  * orthophoto and the 2023 photo of the sign show the ride is still there and
  * unchanged in plan. The sign's height and the leg layout are estimated.
  */
-import { Part, cross, sub, writeGlb, type NodeSpec, type V3 } from './mesh'
+import { Part, writeGlb, type NodeSpec, type V3 } from './mesh'
 import { finish } from './palette'
-
-const add = (a: V3, b: V3): V3 => [a[0] + b[0], a[1] + b[1], a[2] + b[2]]
-const mul = (a: V3, k: number): V3 => [a[0] * k, a[1] * k, a[2] * k]
-const unit = (a: V3): V3 => mul(a, 1 / (Math.hypot(...a) || 1))
-
-/** A square-section beam from a to b, `w` wide and `h` deep, capped. */
-function beam(p: Part, a: V3, b: V3, w: number, h = w) {
-  const t = unit(sub(b, a))
-  const ref: V3 = Math.abs(t[2]) < 0.9 ? [0, 0, 1] : [1, 0, 0]
-  const s = unit(cross(t, ref)), n = cross(t, s)
-  const ring = (c: V3) => [[1, 1], [-1, 1], [-1, -1], [1, -1]].map(([i, j]) => add(c, add(mul(s, (i * w) / 2), mul(n, (j * h) / 2))))
-  // A leg that starts on the ground is cut flat there, so a slanted foot
-  // doesn't dip below y = 0.
-  const r0 = ring(a).map((q): V3 => (a[2] === 0 ? [q[0], q[1], 0] : q)), r1 = ring(b)
-  p.loft([r0, r1])
-  p.cap(r1, true)
-  p.cap(r0, false)
-}
-
-/** A vertical prism (or frustum) about (x, y), radius r0 at z0 and r1 at z1. */
-function prism(p: Part, x: number, y: number, z0: number, z1: number, r0: number, r1 = r0, n = 12, a0 = 0) {
-  const ring = (z: number, r: number) => Array.from({ length: n }, (_, i): V3 => {
-    const a = a0 + (2 * Math.PI * i) / n
-    return [x + r * Math.cos(a), y + r * Math.sin(a), z]
-  })
-  const lo = ring(z0, r0), hi = ring(z1, r1)
-  p.loft([lo, hi])
-  if (r1 > 0) p.cap(hi, true)
-  if (r0 > 0) p.cap(lo, false)
-}
-
-/** A smooth sphere. */
-function sphere(p: Part, c: V3, r: number, seg = 12, rings = 6) {
-  const pt = (i: number, j: number): V3 => {
-    const th = (Math.PI * j) / rings, ph = (2 * Math.PI * i) / seg
-    return [Math.sin(th) * Math.cos(ph), Math.sin(th) * Math.sin(ph), Math.cos(th)]
-  }
-  for (let j = 0; j < rings; j++) for (let i = 0; i < seg; i++) {
-    const q = [pt(i, j), pt(i + 1, j), pt(i + 1, j + 1), pt(i, j + 1)]
-    const v = q.map((u) => add(c, mul(u, r)))
-    if (j > 0) p.tri(v[0], v[2], v[1], [0, 0], [0, 0], [0, 0], [q[0], q[2], q[1]])
-    if (j < rings - 1) p.tri(v[0], v[3], v[2], [0, 0], [0, 0], [0, 0], [q[0], q[3], q[2]])
-  }
-}
+import { add, beam, mul, prism, sphere, unit } from './nyc-brooklyn-flyer'
 
 // ------------------------------------------------------------------ track ---
 const R = 22, LOW = 1.5, HALF = 20.5   // arc radius, rail top at the bottom, half-length (lidar)

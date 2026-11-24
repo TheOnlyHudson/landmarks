@@ -55,24 +55,29 @@
 import { Part, cross, sub, writeGlb, type NodeSpec, type V3 } from './mesh'
 import { finish } from './palette'
 
-const add = (a: V3, b: V3): V3 => [a[0] + b[0], a[1] + b[1], a[2] + b[2]]
-const mul = (a: V3, k: number): V3 => [a[0] * k, a[1] * k, a[2] * k]
-const unit = (a: V3): V3 => mul(a, 1 / (Math.hypot(...a) || 1))
+export const add = (a: V3, b: V3): V3 => [a[0] + b[0], a[1] + b[1], a[2] + b[2]]
+export const mul = (a: V3, k: number): V3 => [a[0] * k, a[1] * k, a[2] * k]
+export const unit = (a: V3): V3 => mul(a, 1 / (Math.hypot(...a) || 1))
 
-/** A square-section beam from a to b, `w` wide and `h` deep, capped. */
-function beam(p: Part, a: V3, b: V3, w: number, h = w) {
+/**
+ * A square-section beam from a to b, `w` wide and `h` deep, capped. Shared
+ * with nyc-electro-spin.ts.
+ */
+export function beam(p: Part, a: V3, b: V3, w: number, h = w) {
   const t = unit(sub(b, a))
   const ref: V3 = Math.abs(t[2]) < 0.9 ? [0, 0, 1] : [1, 0, 0]
   const s = unit(cross(t, ref)), n = cross(t, s)
   const ring = (c: V3) => [[1, 1], [-1, 1], [-1, -1], [1, -1]].map(([i, j]) => add(c, add(mul(s, (i * w) / 2), mul(n, (j * h) / 2))))
-  const r0 = ring(a), r1 = ring(b)
+  // A leg that starts on the ground is cut flat there, so a slanted foot
+  // doesn't dip below y = 0.
+  const r0 = ring(a).map((q): V3 => (a[2] === 0 ? [q[0], q[1], 0] : q)), r1 = ring(b)
   p.loft([r0, r1])
   p.cap(r1, true)
   p.cap(r0, false)
 }
 
 /** A vertical prism (or frustum) about (x, y), radius r0 at z0 and r1 at z1. */
-function prism(p: Part, x: number, y: number, z0: number, z1: number, r0: number, r1 = r0, n = 12, a0 = 0) {
+export function prism(p: Part, x: number, y: number, z0: number, z1: number, r0: number, r1 = r0, n = 12, a0 = 0) {
   const ring = (z: number, r: number) => Array.from({ length: n }, (_, i): V3 => {
     const a = a0 + (2 * Math.PI * i) / n
     return [x + r * Math.cos(a), y + r * Math.sin(a), z]
@@ -84,7 +89,7 @@ function prism(p: Part, x: number, y: number, z0: number, z1: number, r0: number
 }
 
 /** A smooth sphere. */
-function sphere(p: Part, c: V3, r: number, seg = 12, rings = 6) {
+export function sphere(p: Part, c: V3, r: number, seg = 12, rings = 6) {
   const pt = (i: number, j: number): V3 => {
     const th = (Math.PI * j) / rings, ph = (2 * Math.PI * i) / seg
     return [Math.sin(th) * Math.cos(ph), Math.sin(th) * Math.sin(ph), Math.cos(th)]
@@ -152,28 +157,31 @@ for (let k = 0; k < ARMS; k++) {
 }
 
 // ------------------------------------------------------------------ output ---
-const cream = finish('flyer-cream', 0xe9ddb4)
-const parts = [
-  { part: mast, material: cream },
-  { part: crown, material: finish('neon-flyer-crown', 0xd9b24c) },
-]
-const nodes: NodeSpec[] = [{
-  name: 'star',
-  parts: [
-    { part: starCream, material: cream },
-    { part: seats, material: finish('flyer-seat-red', 0xc9483f) },
-    { part: chains, material: finish('flyer-chain', 0x8d8f93) },
-  ],
-}]
-const all = [...parts, ...nodes.flatMap((n) => n.parts)]
-const triangles = all.reduce((s, { part }) => s + part.triangles, 0)
-if (triangles > 5000) throw new Error(`Triangle budget exceeded: ${triangles}`)
-const glb = writeGlb('Brooklyn Flyer', parts, {
-  license: 'CC0-1.0', frame: 'Y up, -Z north, +X east, metres; origin at ground anchor',
-  bearing: 0, elevation: 0, height: TOP, osm: 'node/8816101473',
-}, { nodes })
-if (glb.length > 256000) throw new Error(`File budget exceeded: ${glb.length}`)
-const out = new URL('../models/nyc-brooklyn-flyer.glb', import.meta.url).pathname
-await Bun.write(out, glb)
-console.log(`${out}: ${triangles} triangles, ${glb.length} bytes`)
-console.log(all.map(({ part, material }) => `  ${material.name}: ${part.triangles}`).join('\n'))
+// Only when run directly; nyc-electro-spin.ts imports the helpers above.
+if (import.meta.main) {
+  const cream = finish('flyer-cream', 0xe9ddb4)
+  const parts = [
+    { part: mast, material: cream },
+    { part: crown, material: finish('neon-flyer-crown', 0xd9b24c) },
+  ]
+  const nodes: NodeSpec[] = [{
+    name: 'star',
+    parts: [
+      { part: starCream, material: cream },
+      { part: seats, material: finish('flyer-seat-red', 0xc9483f) },
+      { part: chains, material: finish('flyer-chain', 0x8d8f93) },
+    ],
+  }]
+  const all = [...parts, ...nodes.flatMap((n) => n.parts)]
+  const triangles = all.reduce((s, { part }) => s + part.triangles, 0)
+  if (triangles > 5000) throw new Error(`Triangle budget exceeded: ${triangles}`)
+  const glb = writeGlb('Brooklyn Flyer', parts, {
+    license: 'CC0-1.0', frame: 'Y up, -Z north, +X east, metres; origin at ground anchor',
+    bearing: 0, elevation: 0, height: TOP, osm: 'node/8816101473',
+  }, { nodes })
+  if (glb.length > 256000) throw new Error(`File budget exceeded: ${glb.length}`)
+  const out = new URL('../models/nyc-brooklyn-flyer.glb', import.meta.url).pathname
+  await Bun.write(out, glb)
+  console.log(`${out}: ${triangles} triangles, ${glb.length} bytes`)
+  console.log(all.map(({ part, material }) => `  ${material.name}: ${part.triangles}`).join('\n'))
+}
