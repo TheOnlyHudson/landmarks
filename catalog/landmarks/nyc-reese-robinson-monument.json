@@ -1,0 +1,12 @@
+{
+  "id": "nyc-reese-robinson-monument",
+  "name": "Jackie Robinson and Pee Wee Reese Monument",
+  "model": "nyc-reese-robinson-monument",
+  "place": "new-york-area",
+  "lng": -73.9852378,
+  "lat": 40.5749078,
+  "bearing": 10,
+  "elevation": 0,
+  "minzoom": 17,
+  "replaces": []
+}
