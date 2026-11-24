@@ -1,0 +1,18 @@
+{
+  "id": "nyc-steeplechase-pier",
+  "name": "Steeplechase Pier",
+  "model": "nyc-steeplechase-pier",
+  "place": "new-york-area",
+  "lng": -73.9836468,
+  "lat": 40.5710313,
+  "bearing": 350.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/671962063",
+    "way/101122881",
+    "way/101122882",
+    "way/1375147062",
+    "way/1375147063"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "nyc-reese-robinson-monument",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "sculpture",
+  "tags": [
+    "statue",
+    "bronze",
+    "baseball",
+    "coney-island"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Кони-Айленд MCU парк",
+      "url": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BD%D0%B8-%D0%90%D0%B9%D0%BB%D0%B5%D0%BD%D0%B4_MCU_%D0%BF%D0%B0%D1%80%D0%BA.jpg",
+      "author": "Multiplicitous",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Coney Island Surf Ave Sep 2019 14",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Surf_Ave_Sep_2019_14.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-reese-robinson-monument.glb",
+  "source": "generators/nyc-reese-robinson-monument.ts"
+}

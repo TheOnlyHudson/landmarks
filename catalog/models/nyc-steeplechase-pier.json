@@ -1,0 +1,73 @@
+{
+  "id": "nyc-steeplechase-pier",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "infrastructure",
+  "tags": [
+    "pier",
+    "boardwalk",
+    "coney-island"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Steeplechase Pier facing Coney Island Boardwalk",
+      "url": "https://commons.wikimedia.org/wiki/File:Steeplechase_Pier_facing_Coney_Island_Boardwalk.jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Pat Auletta Steeplechase Pier - Coney Island, Brooklyn, New York, USA - October 3, 2023",
+      "url": "https://commons.wikimedia.org/wiki/File:Pat_Auletta_Steeplechase_Pier_-_Coney_Island,_Brooklyn,_New_York,_USA_-_October_3,_2023.jpg",
+      "author": "Giorgio Galeotti",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coney Is Beach td (2018-09-03) 17 - Steeplechase Pier",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Is_Beach_td_(2018-09-03)_17_-_Steeplechase_Pier.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coney Is Beach td (2018-09-03) 30 - Steeplechase Pier",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Is_Beach_td_(2018-09-03)_30_-_Steeplechase_Pier.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coney Is Beach td (2018-09-03) 36 - Steeplechase Pier",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Is_Beach_td_(2018-09-03)_36_-_Steeplechase_Pier.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Steeplechase Pier structural infrastructure",
+      "url": "https://commons.wikimedia.org/wiki/File:Steeplechase_Pier_structural_infrastructure.jpg",
+      "author": "Oleg Yunakov",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coney Island Brooklyn Jul 2019 48",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Brooklyn_Jul_2019_48.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-steeplechase-pier.glb",
+  "source": "generators/nyc-steeplechase-pier.ts"
+}
