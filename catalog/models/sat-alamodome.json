@@ -1,0 +1,75 @@
+{
+  "id": "sat-alamodome",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "american-football",
+    "multi-purpose",
+    "domed-stadium",
+    "cable-stayed",
+    "basketball"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Alamodome from the Tower of the Americas IMG 4600.JPG",
+      "author": "Billy Hathorn",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alamodome_from_the_Tower_of_the_Americas_IMG_4600.JPG"
+    },
+    {
+      "title": "Alamodome, San Antonio.jpg",
+      "author": "Greverod",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alamodome,_San_Antonio.jpg"
+    },
+    {
+      "title": "Alamodome from Tower of the Americas.jpg",
+      "author": "Runner1928",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alamodome_from_Tower_of_the_Americas.jpg"
+    },
+    {
+      "title": "Gfp-texas-san-antonio-large-complex (1).jpg",
+      "author": "Yinan Chen",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Gfp-texas-san-antonio-large-complex_(1).jpg"
+    },
+    {
+      "title": "San Antonio May 2018 5 (Alamodome).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:San_Antonio_May_2018_5_(Alamodome).jpg"
+    },
+    {
+      "title": "Alamo Dome CIMG7791.JPG",
+      "author": "Nick81aku",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alamo_Dome_CIMG7791.JPG"
+    },
+    {
+      "title": "Closeup of The Alamodome, San Antonio, TX IMG 7604.JPG",
+      "author": "Billy Hathorn",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Closeup_of_The_Alamodome,_San_Antonio,_TX_IMG_7604.JPG"
+    }
+  ],
+  "file": "models/sat-alamodome.glb",
+  "source": "generators/sat-alamodome.ts"
+}
