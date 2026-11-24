@@ -65,11 +65,16 @@
  * No lidar; no commercial imagery. Look-only: "Arts Centre Spire Pano,
  * Melbourne, jjron, 29.09.2010.jpg" (GFDL only, looked at, not used).
  *
- * Terrain: Mapterhorn is z12 only here, a surface model in which the
- * Theatres Building and the spire show as a hill. `terrain.ts check
- * --zoom 12 --elevation 15` reports the rib feet buried up to 6.2 m in that
- * bump (48 of 1042 m² of tops); the roof is flat in every photo, so the
- * model is kept true to them.
+ * Terrain: wrong for the site. Mapterhorn has z12 to z14 here (no z15) and
+ * all three show a pit about 60 m across under the Theatres Building, its
+ * floor near -75 m against ~9 m on St Kilda Road; nothing on the site goes
+ * that deep, so it is an artefact in the terrain data. The map puts the
+ * model's base on the lowest ground under the footprint, the pit floor, so
+ * `terrain.ts check` (z14, elevation 15) reports 942 of 1154 m² of tops
+ * buried, up to 73 m: the skirt and rib feet sit in the pit and the shaft
+ * rises out of it. Per docs/evidence.md the model is kept true to the
+ * photos and `elevation` stays at the roof's 15 m; no offset is made for
+ * the pit, which would leave the spire floating once the terrain is fixed.
  *
  * Doubts: the roof under the skirt is the drum's, drawn by the map at a flat
  * 15 m; the real drum roof rises under the skirt (left to the map). The
