@@ -1,0 +1,107 @@
+{
+  "id": "sydney-accor-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "stadium",
+    "olympic",
+    "rugby",
+    "arch",
+    "truss",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "wikidata": "Q295886",
+  "references": [
+    {
+      "title": "Australia Stadium",
+      "url": "https://commons.wikimedia.org/wiki/File:Australia_Stadium.jpg",
+      "author": "Adam.J.W.C.",
+      "license": "CC BY-SA 2.5"
+    },
+    {
+      "title": "Accor Stadium 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Accor_Stadium_1.jpg",
+      "author": "Roadrunnerz45",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "ANZ Stadium Sydney July 2015",
+      "url": "https://commons.wikimedia.org/wiki/File:ANZ_Stadium_Sydney_July_2015.jpg",
+      "author": "Phamthuathienvan",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Clouds hovering over ANZ Stadium (6801238345)",
+      "url": "https://commons.wikimedia.org/wiki/File:Clouds_hovering_over_ANZ_Stadium_(6801238345).jpg",
+      "author": "vijay chennupati",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Australia stadium aka ANZ stadium",
+      "url": "https://commons.wikimedia.org/wiki/File:Australia_stadium_aka_ANZ_stadium.jpg",
+      "author": "Adam.J.W.C.",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Stadium australia aka ANZ stadium",
+      "url": "https://commons.wikimedia.org/wiki/File:Stadium_australia_aka_ANZ_stadium.jpg",
+      "author": "Adam.J.W.C.",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "ANZ Stadium (5714943245)",
+      "url": "https://commons.wikimedia.org/wiki/File:ANZ_Stadium_(5714943245).jpg",
+      "author": "Simon_sees",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Platinum Jubilee- Accor Stadium Sydney",
+      "url": "https://commons.wikimedia.org/wiki/File:Platinum_Jubilee-_Accor_Stadium_Sydney.jpg",
+      "author": "State of New South Wales",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "ANZ Stadium - panoramio (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:ANZ_Stadium_-_panoramio_(1).jpg",
+      "author": "Maksym Kozlenko",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "ANZ Stadium - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:ANZ_Stadium_-_panoramio.jpg",
+      "author": "Maksym Kozlenko",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "ANZ Stadium Sydney Olympic Park (7549839028)",
+      "url": "https://commons.wikimedia.org/wiki/File:ANZ_Stadium_Sydney_Olympic_Park_(7549839028).jpg",
+      "author": "Simon_sees",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Sydney Olympic Park (7188330805)",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Olympic_Park_(7188330805).jpg",
+      "author": "Simon_sees",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/sydney-accor-stadium.glb",
+  "source": "generators/sydney-accor-stadium.ts"
+}
