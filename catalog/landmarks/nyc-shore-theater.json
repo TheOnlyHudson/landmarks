@@ -1,0 +1,15 @@
+{
+  "id": "nyc-shore-theater",
+  "name": "Shore Theater",
+  "model": "nyc-shore-theater",
+  "place": "new-york-area",
+  "lng": -73.9816773,
+  "lat": 40.5759446,
+  "bearing": 351.2,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q45033097",
+  "replaces": [
+    "way/248496346"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "nyc-coney-island-usa",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "brooklyn",
+    "coney-island",
+    "museum",
+    "sideshow",
+    "spanish-revival",
+    "restaurant"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Coney Island USA",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_USA.JPG",
+      "author": "Peter Greenberg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "CONEY ISLAND MUSEUM",
+      "url": "https://commons.wikimedia.org/wiki/File:CONEY_ISLAND_MUSEUM.jpg",
+      "author": "FilmPens",
+      "license": "CC0"
+    },
+    {
+      "title": "Coney Island USA east sunny jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_USA_east_sunny_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/nyc-coney-island-usa.glb",
+  "source": "generators/nyc-coney-island-usa.ts"
+}

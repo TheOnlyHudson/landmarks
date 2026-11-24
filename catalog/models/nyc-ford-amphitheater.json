@@ -1,0 +1,62 @@
+{
+  "id": "nyc-ford-amphitheater",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "amphitheater",
+    "music-venue",
+    "tensile-structure",
+    "coney-island"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Coney Is Beach td (2018-09-03) 34 - Ford Amphitheater",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Is_Beach_td_(2018-09-03)_34_-_Ford_Amphitheater.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coney Is Beach td (2018-09-03) 25 - Ford Amphitheater",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Is_Beach_td_(2018-09-03)_25_-_Ford_Amphitheater.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "CI Amphitheater W23 2016 March jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:CI_Amphitheater_W23_2016_March_jeh.JPG",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    },
+    {
+      "title": "CI Amphitheater 2016 March jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:CI_Amphitheater_2016_March_jeh.JPG",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    },
+    {
+      "title": "Ford Amphitheater at Coney Island July 2016",
+      "url": "https://commons.wikimedia.org/wiki/File:Ford_Amphitheater_at_Coney_Island_July_2016.jpg",
+      "author": "Jessie Essex",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nyc-ford-amphitheater.glb",
+  "source": "generators/nyc-ford-amphitheater.ts"
+}

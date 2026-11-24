@@ -1,0 +1,71 @@
+{
+  "id": "nyc-shore-theater",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "brooklyn",
+    "coney-island",
+    "theater",
+    "renaissance-revival",
+    "office",
+    "nyc-landmark"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Coney Island Shore Theater",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Shore_Theater.jpg",
+      "author": "Vanz",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "2008-05-17 Coney Island, Long Island 007 Coney Island, Surf Avenue",
+      "url": "https://commons.wikimedia.org/wiki/File:2008-05-17_Coney_Island,_Long_Island_007_Coney_Island,_Surf_Avenue_(2677823359).jpg",
+      "author": "Allie_Caulfield from Germany",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Coney Island Surf Av 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Surf_Av_01.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coney Island Shore Theater Sep 2019 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Shore_Theater_Sep_2019_03.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coney Island Shore Theater Sep 2019 07",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Shore_Theater_Sep_2019_07.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coney Island Brooklyn July 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Brooklyn_July_2024.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/nyc-shore-theater.glb",
+  "source": "generators/nyc-shore-theater.ts"
+}

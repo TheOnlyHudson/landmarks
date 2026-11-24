@@ -1,0 +1,15 @@
+{
+  "id": "nyc-coney-island-usa",
+  "name": "Coney Island USA",
+  "model": "nyc-coney-island-usa",
+  "place": "new-york-area",
+  "lng": -73.9798443,
+  "lat": 40.5752473,
+  "bearing": 1.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q5159606",
+  "replaces": [
+    "way/405892193"
+  ]
+}

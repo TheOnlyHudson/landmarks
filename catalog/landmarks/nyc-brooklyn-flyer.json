@@ -1,0 +1,12 @@
+{
+  "id": "nyc-brooklyn-flyer",
+  "name": "Brooklyn Flyer",
+  "model": "nyc-brooklyn-flyer",
+  "place": "new-york-area",
+  "lng": -73.978681,
+  "lat": 40.574513,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

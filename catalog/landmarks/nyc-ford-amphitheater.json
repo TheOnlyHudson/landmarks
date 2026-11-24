@@ -1,0 +1,15 @@
+{
+  "id": "nyc-ford-amphitheater",
+  "name": "Ford Amphitheatre at Coney Island Boardwalk",
+  "model": "nyc-ford-amphitheater",
+  "place": "new-york-area",
+  "lng": -73.9882507,
+  "lat": 40.5727204,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q27988183",
+  "replaces": [
+    "way/518329921"
+  ]
+}
