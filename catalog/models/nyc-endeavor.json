@@ -1,0 +1,43 @@
+{
+  "id": "nyc-endeavor",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "ride",
+  "tags": [
+    "flat-ride",
+    "amusement-park",
+    "coney-island"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Coney Island Brooklyn Jul 2019 54",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Brooklyn_Jul_2019_54.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coney Island Brooklyn July 2024 025",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Brooklyn_July_2024_025.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/nyc-endeavor.glb",
+  "source": "generators/nyc-endeavor.ts"
+}
