@@ -1,0 +1,16 @@
+{
+  "id": "bos-gillette-stadium",
+  "name": "Gillette Stadium",
+  "model": "bos-gillette-stadium",
+  "place": "boston-area",
+  "lng": -71.2642654,
+  "lat": 42.0909489,
+  "bearing": 341,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q373355",
+  "replaces": [
+    "relation/18511569",
+    "way/1424851636"
+  ]
+}
