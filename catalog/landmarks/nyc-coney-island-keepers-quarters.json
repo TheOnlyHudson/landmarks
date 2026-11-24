@@ -1,0 +1,14 @@
+{
+  "id": "nyc-coney-island-keepers-quarters",
+  "name": "Keeper's Quarters, Coney Island Light",
+  "model": "nyc-coney-island-keepers-quarters",
+  "place": "new-york-area",
+  "lng": -74.0116924,
+  "lat": 40.576467,
+  "bearing": 50.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/248352853"
+  ]
+}
