@@ -1,0 +1,15 @@
+{
+  "id": "sat-alamodome",
+  "name": "Alamodome",
+  "model": "sat-alamodome",
+  "place": "san-antonio-area",
+  "lng": -98.478902,
+  "lat": 29.416884,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q1618347",
+  "replaces": [
+    "way/154823003"
+  ]
+}
