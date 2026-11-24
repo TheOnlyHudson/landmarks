@@ -112,7 +112,7 @@ for (let k = 0; k < N; k++) {
   const wantOut: V3 = [-wantIn[0], -wantIn[1], 0]
   const ob0 = outer[k], ob1 = outer[k + 1]
   const ib0 = at(k, 0.97), ib1 = at(k + 1, 0.97)
-  face(concrete, P(ob0, TOP), P(ob1, TOP), P(ob1, PARAPET), P(ob0, PARAPET), wantIn)
+  face(concrete, P(ib0, TOP), P(ib1, TOP), P(ib1, PARAPET + 0.1), P(ib0, PARAPET + 0.1), wantIn)
   face(concrete, P(ob0, PARAPET), P(ob1, PARAPET), P(ib1, PARAPET + 0.1), P(ib0, PARAPET + 0.1), UP)
   face(concrete, P(ob0, 0), P(ob1, 0), P(ob1, PARAPET), P(ob0, PARAPET), wantOut)
 }
@@ -137,7 +137,7 @@ for (const k of [0, N]) {
     const a = at(k, j / TIERS), b = at(k, (j + 1) / TIERS)
     face(concrete, P(a, 0), P(b, 0), P(b, tread(j)), P(a, tread(j)), want)
   }
-  face(concrete, P(at(k, 1), TOP), P(outer[k], TOP), P(outer[k], PARAPET), P(at(k, 1), PARAPET), want)
+  face(concrete, P(at(k, 0.97), TOP), P(outer[k], TOP), P(outer[k], PARAPET), P(at(k, 0.97), PARAPET + 0.1), want)
 }
 
 // The stair block at the back of the north side.

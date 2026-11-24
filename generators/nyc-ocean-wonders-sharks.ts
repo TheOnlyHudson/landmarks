@@ -140,7 +140,9 @@ function resample(pl: XY[], n: number): XY[] {
 const silver = new Part(), base = new Part(), roof = new Part(), blue = new Part(), win = new Part(), glass = new Part()
 const ring = ccw(OUTLINE)
 
-// 1. The body: dark recessed ground floor, silver walls above, flat roof.
+// 1. The body: dark recessed ground floor, then walls in the roof grey, a
+// shade darker than the silver ribbon in front of them so the ribbon's
+// sweep reads (the photo shows the body behind it greyer and flatter).
 const plinthRing = outset(ring, -0.6)
 walls(base, plinthRing, 0, PLINTH)
 cap(base, plinthRing, 0, false)
