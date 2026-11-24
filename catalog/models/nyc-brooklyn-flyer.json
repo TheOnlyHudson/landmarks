@@ -1,0 +1,73 @@
+{
+  "id": "nyc-brooklyn-flyer",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "ride",
+  "tags": [
+    "swing-ride",
+    "amusement-park",
+    "coney-island"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Coney Island Brooklyn Jul 2019 93",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Brooklyn_Jul_2019_93.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Luna Park",
+      "url": "https://www.flickr.com/photos/32916425@N04/53159341333",
+      "author": "Roller Coaster Philosopher",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Luna Park",
+      "url": "https://www.flickr.com/photos/32916425@N04/53159341193",
+      "author": "Roller Coaster Philosopher",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Brooklyn Flyer",
+      "url": "https://www.flickr.com/photos/86665756@N00/5857562006",
+      "author": "Studio Sarah Lou",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Brooklyn Flyer",
+      "url": "https://www.flickr.com/photos/86665756@N00/5857573528",
+      "author": "Studio Sarah Lou",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Brooklyn Flyer",
+      "url": "https://www.flickr.com/photos/86665756@N00/5857024313",
+      "author": "Studio Sarah Lou",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Coney Island Towers",
+      "url": "https://www.flickr.com/photos/10485077@N06/9115233427",
+      "author": "edenpictures",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nyc-brooklyn-flyer.glb",
+  "source": "generators/nyc-brooklyn-flyer.ts"
+}
