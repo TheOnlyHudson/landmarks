@@ -1,0 +1,15 @@
+{
+  "id": "nyc-bam",
+  "name": "BAM Peter Jay Sharp Building",
+  "model": "nyc-bam",
+  "place": "new-york-area",
+  "lng": -73.977698,
+  "lat": 40.686466,
+  "bearing": 351.4,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q72912",
+  "replaces": [
+    "way/250979163"
+  ]
+}

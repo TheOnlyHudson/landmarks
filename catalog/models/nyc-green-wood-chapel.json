@@ -1,0 +1,51 @@
+{
+  "id": "nyc-green-wood-chapel",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "brooklyn",
+    "gothic-revival",
+    "chapel",
+    "cemetery",
+    "limestone"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Green-Wood Cemetery Chapel (61921).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Green-Wood_Cemetery_Chapel_(61921).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2015 Green-Wood Chapel rear with Cemetery Gate in background.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2015_Green-Wood_Chapel_rear_with_Cemetery_Gate_in_background.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Green-Wood Cemetery Chapel (83063).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Green-Wood_Cemetery_Chapel_(83063).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-green-wood-chapel.glb",
+  "source": "generators/nyc-green-wood-chapel.ts"
+}

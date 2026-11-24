@@ -1,0 +1,18 @@
+{
+  "id": "nyc-brooklyn-army-terminal",
+  "name": "Brooklyn Army Terminal",
+  "model": "nyc-brooklyn-army-terminal",
+  "place": "new-york-area",
+  "lng": -74.025502,
+  "lat": 40.64418,
+  "bearing": 38.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/245576807",
+    "relation/10061916",
+    "way/245576842",
+    "way/245576843",
+    "way/245576847"
+  ]
+}

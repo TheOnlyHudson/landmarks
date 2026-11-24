@@ -1,0 +1,53 @@
+{
+  "id": "nyc-center-for-brooklyn-history",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum",
+    "library",
+    "queen-anne",
+    "brick",
+    "brooklyn",
+    "brooklyn-heights"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q4974851",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brooklyn Historical Society",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Historical_Society.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Historical Society from west",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Historical_Society_from_west.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Historical Society NY1",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Historical_Society_NY1.jpg",
+      "author": "Acroterion",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-center-for-brooklyn-history.glb",
+  "source": "generators/nyc-center-for-brooklyn-history.ts"
+}

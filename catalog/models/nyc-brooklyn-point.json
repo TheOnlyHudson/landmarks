@@ -1,0 +1,68 @@
+{
+  "id": "nyc-brooklyn-point",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "skyscraper",
+    "residential",
+    "glass",
+    "brooklyn",
+    "downtown-brooklyn"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brooklyn Point Downtown Brooklyn",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Point_Downtown_Brooklyn.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Point 003",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Point_003.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Point 009",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Point_009.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Brooklyn Point 013",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Point_013.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Brooklyn Point 016",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Point_016.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "City Point - Brooklyn (55268461473)",
+      "url": "https://commons.wikimedia.org/wiki/File:City_Point_-_Brooklyn_(55268461473).jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/nyc-brooklyn-point.glb",
+  "source": "generators/nyc-brooklyn-point.ts"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "nyc-perpetual-help-basilica",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "basilica",
+    "historic",
+    "brooklyn",
+    "sunset-park",
+    "romanesque-revival",
+    "granite"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "OLPH front shady jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:OLPH_front_shady_jeh.JPG",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    },
+    {
+      "title": "OLPH west sun jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:OLPH_west_sun_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    },
+    {
+      "title": "OLPH north sun jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:OLPH_north_sun_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    },
+    {
+      "title": "OLPH South jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:OLPH_South_jeh.JPG",
+      "author": "Jim.henderson",
+      "license": "CC0"
+    }
+  ],
+  "file": "models/nyc-perpetual-help-basilica.glb",
+  "source": "generators/nyc-perpetual-help-basilica.ts"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "nyc-clock-tower-building",
+  "name": "Clocktower Building",
+  "model": "nyc-clock-tower-building",
+  "place": "new-york-area",
+  "lng": -73.9902073,
+  "lat": 40.7035429,
+  "bearing": 2,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/250402641"
+  ]
+}

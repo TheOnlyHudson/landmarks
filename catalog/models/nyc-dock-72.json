@@ -1,0 +1,68 @@
+{
+  "id": "nyc-dock-72",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "office",
+    "glass",
+    "contemporary",
+    "brooklyn",
+    "navy-yard"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Dock 72 from Building 131 at Brooklyn Navy Yard 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Dock_72_from_Building_131_at_Brooklyn_Navy_Yard_01.jpg",
+      "author": "DutchTreat",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Dock 72 from Building 131 at Brooklyn Navy Yard 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Dock_72_from_Building_131_at_Brooklyn_Navy_Yard_03.jpg",
+      "author": "DutchTreat",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Navy Yard crane with Dock 72",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Navy_Yard_crane_with_Dock_72.jpg",
+      "author": "DutchTreat",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Navy Yard - WeWork (North Side)",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Navy_Yard_-_WeWork_(North_Side).jpg",
+      "author": "Professorcornbread",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Navy Yard - WeWork (South Side)",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Navy_Yard_-_WeWork_(South_Side).jpg",
+      "author": "Professorcornbread",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Navy Yard - WeWork",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Navy_Yard_-_WeWork.jpg",
+      "author": "Professorcornbread",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-dock-72.glb",
+  "source": "generators/nyc-dock-72.ts"
+}

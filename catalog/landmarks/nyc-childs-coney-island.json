@@ -1,0 +1,14 @@
+{
+  "id": "nyc-childs-coney-island",
+  "name": "Childs Restaurant, Coney Island",
+  "model": "nyc-childs-coney-island",
+  "place": "new-york-area",
+  "lng": -73.9876078,
+  "lat": 40.5729067,
+  "bearing": 351.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/248474798"
+  ]
+}

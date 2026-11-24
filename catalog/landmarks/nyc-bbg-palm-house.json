@@ -1,0 +1,16 @@
+{
+  "id": "nyc-bbg-palm-house",
+  "name": "Palm House, Brooklyn Botanic Garden",
+  "model": "nyc-bbg-palm-house",
+  "place": "brooklyn-botanic-garden",
+  "lng": -73.962016,
+  "lat": 40.666817,
+  "bearing": -8.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/1508006103",
+    "way/250230005",
+    "way/487485073"
+  ]
+}

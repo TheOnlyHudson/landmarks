@@ -1,0 +1,15 @@
+{
+  "id": "nyc-empire-stores",
+  "name": "Empire Stores",
+  "model": "nyc-empire-stores",
+  "place": "brooklyn-bridge-park",
+  "lng": -73.991986,
+  "lat": 40.703627,
+  "bearing": 2.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q96377258",
+  "replaces": [
+    "relation/9710630"
+  ]
+}

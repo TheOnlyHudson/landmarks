@@ -1,0 +1,58 @@
+{
+  "id": "nyc-bam",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "theatre",
+    "opera-house",
+    "renaissance-revival",
+    "brooklyn",
+    "fort-greene"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q72912",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "2013 BAM Peter Jay Sharp Building from west",
+      "url": "https://commons.wikimedia.org/wiki/File:2013_BAM_Peter_Jay_Sharp_Building_from_west.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2013 BAM Peter Jay Sharp Building from east",
+      "url": "https://commons.wikimedia.org/wiki/File:2013_BAM_Peter_Jay_Sharp_Building_from_east.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "BAM Peter Jay Sharp Building",
+      "url": "https://commons.wikimedia.org/wiki/File:BAM_Peter_Jay_Sharp_Building.jpg",
+      "author": "Jeffrey Bary",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Brooklyn Academy of Music (BAM) (48228024996)",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Academy_of_Music_(BAM)_(48228024996).jpg",
+      "author": "Ajay Suresh",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/nyc-bam.glb",
+  "source": "generators/nyc-bam.ts"
+}

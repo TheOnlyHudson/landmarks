@@ -1,0 +1,52 @@
+{
+  "id": "nyc-montauk-club",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "brooklyn",
+    "park-slope",
+    "venetian-gothic",
+    "clubhouse",
+    "brick",
+    "terracotta"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Montauk Club cloudy jeh.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Montauk_Club_cloudy_jeh.JPG",
+      "author": "Jim.henderson",
+      "license": "Public domain"
+    },
+    {
+      "title": "Montauk Club from 8th Avenue.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Montauk_Club_from_8th_Avenue.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Montauk Club (55268726080).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Montauk_Club_(55268726080).jpg",
+      "author": "ajay_suresh",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "file": "models/nyc-montauk-club.glb",
+  "source": "generators/nyc-montauk-club.ts"
+}

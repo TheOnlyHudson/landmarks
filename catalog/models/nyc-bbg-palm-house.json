@@ -1,0 +1,87 @@
+{
+  "id": "nyc-bbg-palm-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "brooklyn",
+    "conservatory",
+    "glass",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The 1917 Palm House by McKim, Mead & White: a glass-and-iron stadium-plan conservatory with two vaults, now an events hall, with its north and south wings.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brooklyn Botanic Garden fountain (60587)",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_fountain_(60587).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Botanic Garden New York May 2015 006",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_New_York_May_2015_006.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Brooklyn Botanic Garden New York October 2016 009",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_New_York_October_2016_009.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Palm House, Brooklyn Botanic Garden - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:Palm_House,_Brooklyn_Botanic_Garden_-_panoramio.jpg",
+      "author": "jimbay",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Prospect Park Botanic Gardens 094",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Botanic_Gardens_094.JPG",
+      "author": "Elisa.rolle",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Prospect Park Botanic Gardens 096",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Botanic_Gardens_096.JPG",
+      "author": "Elisa.rolle",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Prospect Park Botanic Gardens 099",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Botanic_Gardens_099.JPG",
+      "author": "Elisa.rolle",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Prospect Park Botanic Gardens 112",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Botanic_Gardens_112.JPG",
+      "author": "Elisa.rolle",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "PSM V80 D345 Conservatories of the brooklyn botanic gardens",
+      "url": "https://commons.wikimedia.org/wiki/File:PSM_V80_D345_Conservatories_of_the_brooklyn_botanic_gardens.png",
+      "author": "Unknown author",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nyc-bbg-palm-house.glb",
+  "source": "generators/nyc-bbg-palm-house.ts"
+}

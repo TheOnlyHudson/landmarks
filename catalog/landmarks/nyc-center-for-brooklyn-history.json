@@ -1,0 +1,15 @@
+{
+  "id": "nyc-center-for-brooklyn-history",
+  "name": "Center for Brooklyn History",
+  "model": "nyc-center-for-brooklyn-history",
+  "place": "new-york-area",
+  "lng": -73.992412,
+  "lat": 40.694791,
+  "bearing": 20,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q4974851",
+  "replaces": [
+    "way/241833034"
+  ]
+}

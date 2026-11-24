@@ -1,0 +1,86 @@
+{
+  "id": "nyc-bbg-laboratory",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "brooklyn",
+    "renaissance-revival",
+    "laboratory"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "McKim, Mead & White's 1917 Laboratory Administration Building: buff brick and limestone under green copper hipped roofs, with a central lantern and an apse on Washington Avenue.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brooklyn Botanic Garden (8179803798)",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_(8179803798).jpg",
+      "author": "Reading Tom from Reading, UK",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Brooklyn Botanic Garden - 20200911 - 14 - Laboratory Administration Building & Magnolia Plaza",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_-_20200911_-_14_-_Laboratory_Administration_Building_%26_Magnolia_Plaza.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Botanic Garden - DSC07892",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_-_DSC07892.JPG",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Brooklyn Botanic Garden New York May 2015 005",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_New_York_May_2015_005.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Brooklyn Botanic Garden New York October 2016 007",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_New_York_October_2016_007.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prospect Park Botanic Gardens 097",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Botanic_Gardens_097.JPG",
+      "author": "Elisa.rolle",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Prospect Park Botanic Gardens 115",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Botanic_Gardens_115.JPG",
+      "author": "Elisa.rolle",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "PSM V80 D343 Laboratory and administration of the brooklyn botanic gardens",
+      "url": "https://commons.wikimedia.org/wiki/File:PSM_V80_D343_Laboratory_and_administration_of_the_brooklyn_botanic_gardens.png",
+      "author": "Unknown author",
+      "license": "Public domain"
+    },
+    {
+      "title": "PSM V80 D344 Floor plan of the lab and administration of the brooklyn botanic gardens",
+      "url": "https://commons.wikimedia.org/wiki/File:PSM_V80_D344_Floor_plan_of_the_lab_and_administration_of_the_brooklyn_botanic_gardens.png",
+      "author": "Unknown author",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/nyc-bbg-laboratory.glb",
+  "source": "generators/nyc-bbg-laboratory.ts"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nyc-brooklyn-point",
+  "name": "Brooklyn Point",
+  "model": "nyc-brooklyn-point",
+  "place": "new-york-area",
+  "lng": -73.982979,
+  "lat": 40.691785,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/700241901",
+    "way/1523838441",
+    "way/1523838440",
+    "way/1144377898"
+  ]
+}

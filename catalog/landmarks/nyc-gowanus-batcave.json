@@ -1,0 +1,15 @@
+{
+  "id": "nyc-gowanus-batcave",
+  "name": "Gowanus Batcave (Powerhouse Arts)",
+  "model": "nyc-gowanus-batcave",
+  "place": "new-york-area",
+  "lng": -73.988511,
+  "lat": 40.676442,
+  "bearing": 32,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q48743787",
+  "replaces": [
+    "way/241852634"
+  ]
+}

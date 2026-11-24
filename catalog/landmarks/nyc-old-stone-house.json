@@ -1,0 +1,19 @@
+{
+  "id": "nyc-old-stone-house",
+  "name": "Old Stone House",
+  "model": "nyc-old-stone-house",
+  "place": "new-york-area",
+  "lng": -73.98462,
+  "lat": 40.672993,
+  "bearing": 31.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/248236287",
+    "way/673732027",
+    "way/673732028",
+    "way/673732029",
+    "way/673732030",
+    "way/673732031"
+  ]
+}
