@@ -1,0 +1,79 @@
+{
+  "id": "nyc-astro-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "drop-tower",
+    "amusement-park",
+    "coney-island"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Riegelmann Boardwalk - Coney Island, Brooklyn, New York City, New York, USA - October 3, 2023 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Riegelmann_Boardwalk_-_Coney_Island,_Brooklyn,_New_York_City,_New_York,_USA_-_October_3,_2023_03.jpg",
+      "author": "Giorgio Galeotti",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coney Island August 2022 008",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_August_2022_008.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coney Island August 2022 009",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_August_2022_009.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Coney Island Brooklyn July 2024 020",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Brooklyn_July_2024_020.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Coney Island Brooklyn July 2024 025",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Brooklyn_July_2024_025.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Coney Island Brooklyn July 2024 034",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Brooklyn_July_2024_034.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Coney Island Brooklyn Jul 2019 54",
+      "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Brooklyn_Jul_2019_54.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "CI Mermaid paraders near Thunderbolt 2025 jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:CI_Mermaid_paraders_near_Thunderbolt_2025_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-astro-tower.glb",
+  "source": "generators/nyc-astro-tower.ts"
+}

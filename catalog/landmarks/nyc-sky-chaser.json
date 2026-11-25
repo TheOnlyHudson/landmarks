@@ -1,0 +1,14 @@
+{
+  "id": "nyc-sky-chaser",
+  "name": "Sky Chaser",
+  "model": "nyc-sky-chaser",
+  "place": "new-york-area",
+  "lng": -73.9818458,
+  "lat": 40.5731808,
+  "bearing": 351.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1483353317"
+  ]
+}

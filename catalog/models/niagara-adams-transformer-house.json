@@ -1,0 +1,57 @@
+{
+  "id": "niagara-adams-transformer-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "industrial",
+    "power-station",
+    "national-historic-landmark",
+    "nrhp"
+  ],
+  "wikidata": "Q4680392",
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "AdamsPowerPlantSE.jpg",
+      "author": "Lvklock",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:AdamsPowerPlantSE.jpg"
+    },
+    {
+      "title": "AdamsPowerPlantSside.jpg",
+      "author": "Lvklock",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:AdamsPowerPlantSside.jpg"
+    },
+    {
+      "title": "AdamsPowerPlantNside.jpg",
+      "author": "Lvklock",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:AdamsPowerPlantNside.jpg"
+    },
+    {
+      "title": "AdamsPowerPlant DateUnknown HABS 15 GeneralViewFromSoutheast cropped.jpg",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:AdamsPowerPlant_DateUnknown_HABS_15_GeneralViewFromSoutheast_cropped.jpg"
+    }
+  ],
+  "file": "models/niagara-adams-transformer-house.glb",
+  "source": "generators/niagara-adams-transformer-house.ts"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "nyc-old-stone-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "brooklyn",
+    "park-slope",
+    "dutch-colonial",
+    "museum",
+    "fieldstone"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Old Stone House Brooklyn NY.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Stone_House_Brooklyn_NY.jpg",
+      "author": "Jim alfano",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Old-stone-house-brooklyn.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Old-stone-house-brooklyn.JPG",
+      "author": "Dmadeo",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/nyc-old-stone-house.glb",
+  "source": "generators/nyc-old-stone-house.ts"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "nyc-electro-spin",
+  "name": "Electro Spin",
+  "model": "nyc-electro-spin",
+  "place": "new-york-area",
+  "lng": -73.978784,
+  "lat": 40.574223,
+  "bearing": 4,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

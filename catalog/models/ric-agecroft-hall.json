@@ -1,0 +1,49 @@
+{
+  "id": "ric-agecroft-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "museum",
+    "house",
+    "tudor"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Agecroft Hall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Agecroft_Hall.jpg",
+      "author": "phoebe reid",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Agecroft Hall - front - 20130507 141847.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Agecroft_Hall_-_front_-_20130507_141847.jpg",
+      "author": "Fopseh",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Agecroft Hall - rear - 20130507 132139.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Agecroft_Hall_-_rear_-_20130507_132139.jpg",
+      "author": "Fopseh",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/ric-agecroft-hall.glb",
+  "source": "generators/ric-agecroft-hall.ts"
+}

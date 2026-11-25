@@ -1,0 +1,14 @@
+{
+  "id": "nyc-montauk-club",
+  "name": "Montauk Club",
+  "model": "nyc-montauk-club",
+  "place": "new-york-area",
+  "lng": -73.971705,
+  "lat": 40.674805,
+  "bearing": 26.6,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/248166914"
+  ]
+}

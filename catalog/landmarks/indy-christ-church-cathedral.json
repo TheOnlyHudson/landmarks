@@ -1,0 +1,14 @@
+{
+  "id": "indy-christ-church-cathedral",
+  "name": "Christ Church Cathedral",
+  "model": "indy-christ-church-cathedral",
+  "place": "indianapolis-area",
+  "lng": -86.1575962,
+  "lat": 39.7693307,
+  "bearing": 1.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/338986227"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "indy-union-station",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "train-station",
+    "romanesque-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Head House, Indianapolis Union Station, Louisiana Street and Illinois Street, Indianapolis, IN.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Head_House,_Indianapolis_Union_Station,_Louisiana_Street_and_Illinois_Street,_Indianapolis,_IN.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Head House, Indianapolis Union Station, Louisiana Street and Illinois Street, Indianapolis, IN - 54378416643.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Head_House,_Indianapolis_Union_Station,_Louisiana_Street_and_Illinois_Street,_Indianapolis,_IN_-_54378416643.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Indianapolis Union Railroad Station.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Indianapolis_Union_Railroad_Station.jpg",
+      "author": "Nyttend",
+      "license": "Public domain"
+    },
+    {
+      "title": "Train Shed, Indianapolis Union Station, Louisiana Street and Illinois Street, Indianapolis, IN.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Train_Shed,_Indianapolis_Union_Station,_Louisiana_Street_and_Illinois_Street,_Indianapolis,_IN.jpg",
+      "author": "w_lemay",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/indy-union-station.glb",
+  "source": "generators/indy-union-station.ts"
+}

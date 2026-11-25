@@ -1,0 +1,49 @@
+{
+  "id": "jax-riverplace-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "modernist",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Riverplace Tower, Jacksonville, FL, US.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Riverplace_Tower,_Jacksonville,_FL,_US.jpg",
+      "author": "Jud McCranie (Bubba73)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Jacksonville Riverplace Tower and The Peninsula Digon3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jacksonville_Riverplace_Tower_and_The_Peninsula_Digon3.jpg",
+      "author": "Jonathan Zander (Digon3)",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "RiverPlaceTowerJacksonville-Feb2010-b.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:RiverPlaceTowerJacksonville-Feb2010-b.JPG",
+      "author": "LoneStarMike",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/jax-riverplace-tower.glb",
+  "source": "generators/jax-riverplace-tower.ts"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "nyc-green-wood-gate",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "historic",
+    "brooklyn",
+    "gothic-revival",
+    "gate",
+    "cemetery",
+    "brownstone"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Green-Wood Cemetery gate (53784p).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Green-Wood_Cemetery_gate_(53784p).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Green-Wood Cemetery gate (53753p).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Green-Wood_Cemetery_gate_(53753p).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Green-Wood Cemetery gate (61747).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Green-Wood_Cemetery_gate_(61747).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Main Gate to Green-Wood Cemetery.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_Gate_to_Green-Wood_Cemetery.jpg",
+      "author": "Paul Lowry",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "2015 Green-Wood Cemetery Gate from inside with gate house.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2015_Green-Wood_Cemetery_Gate_from_inside_with_gate_house.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2015 Green-Wood Cemetery gate house.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:2015_Green-Wood_Cemetery_gate_house.jpg",
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-green-wood-gate.glb",
+  "source": "generators/nyc-green-wood-gate.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ric-gateway-plaza",
+  "name": "Gateway Plaza",
+  "model": "ric-gateway-plaza",
+  "place": "richmond-area",
+  "lng": -77.438041,
+  "lat": 37.537202,
+  "bearing": 36.8,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/307599476",
+    "way/466009778"
+  ]
+}

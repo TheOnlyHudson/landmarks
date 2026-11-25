@@ -1,0 +1,41 @@
+{
+  "id": "niagara-lewiston-queenston-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "arch-bridge",
+    "border-crossing"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Lewiston-Queenston Bridge from Niagara Gorge.jpg",
+      "author": "Wilson44691",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lewiston-Queenston_Bridge_from_Niagara_Gorge.jpg"
+    },
+    {
+      "title": "Queenston Lewiston Bridge UpStream.jpg",
+      "author": "Sloan Kelly",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Queenston_Lewiston_Bridge_UpStream.jpg"
+    }
+  ],
+  "file": "models/niagara-lewiston-queenston-bridge.glb",
+  "source": "generators/niagara-lewiston-queenston-bridge.ts"
+}

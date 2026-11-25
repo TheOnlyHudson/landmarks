@@ -1,0 +1,15 @@
+{
+  "id": "nyc-peristyle",
+  "name": "Peristyle (Grecian Shelter)",
+  "model": "nyc-peristyle",
+  "place": "prospect-park",
+  "lng": -73.967596,
+  "lat": 40.653182,
+  "bearing": 63.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/241846610"
+  ],
+  "wikidata": "Q5601553"
+}

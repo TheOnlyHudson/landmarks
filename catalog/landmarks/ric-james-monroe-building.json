@@ -1,0 +1,16 @@
+{
+  "id": "ric-james-monroe-building",
+  "name": "James Monroe Building",
+  "model": "ric-james-monroe-building",
+  "place": "richmond-area",
+  "lng": -77.42989,
+  "lat": 37.536603,
+  "bearing": 36,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/113038399",
+    "way/365155749"
+  ],
+  "wikidata": "Q6139905"
+}

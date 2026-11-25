@@ -1,0 +1,15 @@
+{
+  "id": "pdx-pittock-mansion",
+  "name": "Pittock Mansion",
+  "model": "pdx-pittock-mansion",
+  "place": "portland-or-area",
+  "lng": -122.716274,
+  "lat": 45.5252085,
+  "bearing": 20,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/73908289"
+  ],
+  "wikidata": "Q7199133"
+}

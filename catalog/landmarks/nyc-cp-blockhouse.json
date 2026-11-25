@@ -1,0 +1,14 @@
+{
+  "id": "nyc-cp-blockhouse",
+  "name": "Blockhouse No. 1",
+  "model": "nyc-cp-blockhouse",
+  "place": "central-park",
+  "lng": -73.956288,
+  "lat": 40.79867,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/39243913"
+  ]
+}

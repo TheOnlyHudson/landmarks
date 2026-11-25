@@ -1,0 +1,14 @@
+{
+  "id": "nyc-huddlestone-arch",
+  "name": "Huddlestone Arch",
+  "model": "nyc-huddlestone-arch",
+  "place": "central-park",
+  "lng": -73.955679,
+  "lat": 40.795795,
+  "bearing": 65,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1121218991"
+  ]
+}

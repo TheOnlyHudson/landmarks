@@ -1,0 +1,14 @@
+{
+  "id": "jax-main-library",
+  "name": "Jacksonville Main Library",
+  "model": "jax-main-library",
+  "place": "jacksonville-area",
+  "lng": -81.6578813,
+  "lat": 30.3289937,
+  "bearing": 14,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/326826327"
+  ]
+}

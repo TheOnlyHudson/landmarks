@@ -1,0 +1,76 @@
+{
+  "id": "nyc-red-hook-grain-terminal",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "industrial",
+    "grain-elevator",
+    "concrete",
+    "brooklyn",
+    "red-hook",
+    "ruin"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Red Hook Grain Terminal (42816p)",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Hook_Grain_Terminal_(42816p).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Red Hook Grain Terminal (May 2025) (1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Hook_Grain_Terminal_(May_2025)_(1).jpg",
+      "author": "MikeBurnsPhotos",
+      "license": "CC0"
+    },
+    {
+      "title": "Red Hook Grain Terminal (May 2025) (3)",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Hook_Grain_Terminal_(May_2025)_(3).jpg",
+      "author": "MikeBurnsPhotos",
+      "license": "CC0"
+    },
+    {
+      "title": "Red Hook Grain Terminal (May 2025) (5)",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Hook_Grain_Terminal_(May_2025)_(5).jpg",
+      "author": "MikeBurnsPhotos",
+      "license": "CC0"
+    },
+    {
+      "title": "Red Hook Grain Terminal, Brooklyn, New York, US",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Hook_Grain_Terminal,_Brooklyn,_New_York,_US.jpg",
+      "author": "Clyde Charles Brown",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "PA Grains Red Hook jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:PA_Grains_Red_Hook_jeh.JPG",
+      "author": "Jim.henderson",
+      "license": "Public domain"
+    },
+    {
+      "title": "Red Hook Park td (2024-09-14) 053b - Baseball Field 9, Red Hook Grain Terminal",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Hook_Park_td_(2024-09-14)_053b_-_Baseball_Field_9,_Red_Hook_Grain_Terminal.jpg",
+      "author": "Tdorante10",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-red-hook-grain-terminal.glb",
+  "source": "generators/nyc-red-hook-grain-terminal.ts"
+}

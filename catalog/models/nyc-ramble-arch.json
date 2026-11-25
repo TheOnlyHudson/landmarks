@@ -1,0 +1,50 @@
+{
+  "id": "nyc-ramble-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "footbridge",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Ramble Arch east sun",
+      "url": "https://commons.wikimedia.org/wiki/File:Ramble_Arch_east_sun_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "At New York, USA 2017 394",
+      "url": "https://commons.wikimedia.org/wiki/File:At_New_York,_USA_2017_394.jpg",
+      "author": "Mike Peel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Ramble Stone Arch, Central Park, New York City",
+      "url": "https://commons.wikimedia.org/wiki/File:Ramble_Stone_Arch,_Central_Park,_New_York_City.jpg",
+      "author": "Allen Lubitz",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-ramble-arch.glb",
+  "source": "generators/nyc-ramble-arch.ts"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ric-hollywood-cemetery-pyramid",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "historic",
+    "memorial",
+    "pyramid",
+    "cemetery",
+    "granite"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hollywood Cemetery Pyramid.jpg",
+      "author": "Ben Schumin",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hollywood_Cemetery_Pyramid.jpg"
+    },
+    {
+      "title": "90-foot stone pyramid honoring 18,000 Confederate enlisted men buried at Hollywood Cemetery, Richmond, Virginia LCCN2011633543.tif",
+      "author": "Carol M. Highsmith",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:90-foot_stone_pyramid_honoring_18,000_Confederate_enlisted_men_buried_at_Hollywood_Cemetery,_Richmond,_Virginia_LCCN2011633543.tif"
+    },
+    {
+      "title": "Richmond Virginia Hollywood cemetery - the pyramid to \"Our Confederate Dead\" - panoramio.jpg",
+      "author": "David Broad",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Richmond_Virginia_Hollywood_cemetery_-_the_pyramid_to_%22Our_Confederate_Dead%22_-_panoramio.jpg"
+    }
+  ],
+  "file": "models/ric-hollywood-cemetery-pyramid.glb",
+  "source": "generators/ric-hollywood-cemetery-pyramid.ts"
+}

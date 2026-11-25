@@ -1,0 +1,57 @@
+{
+  "id": "nyc-bbg-visitor-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "brooklyn",
+    "modern",
+    "green-roof",
+    "glass",
+    "visitor-center"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "Weiss/Manfredi's 2012 Steinberg Visitor Center: a serpentine pavilion with a planted roof set into the hill by Washington Avenue, its curved glass wall facing the garden.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brooklyn Botanic Garden New York May 2015 003",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_New_York_May_2015_003.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Brooklyn Botanic Garden New York May 2015 004",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_New_York_May_2015_004.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Entrance Brooklyn Botanic Garden",
+      "url": "https://commons.wikimedia.org/wiki/File:Entrance_Brooklyn_Botanic_Garden.JPG",
+      "author": "Caroline Léna Becker",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Brooklyn Botanic Garden New York October 2016 004",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_New_York_October_2016_004.jpg",
+      "author": "King of Hearts",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-bbg-visitor-center.glb",
+  "source": "generators/nyc-bbg-visitor-center.ts"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pdx-wells-fargo-center",
+  "name": "Wells Fargo Center",
+  "model": "pdx-wells-fargo-center",
+  "place": "portland-or-area",
+  "lng": -122.6794511,
+  "lat": 45.5143542,
+  "bearing": 21,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/331780190",
+    "way/1525632007",
+    "way/1525632008"
+  ]
+}

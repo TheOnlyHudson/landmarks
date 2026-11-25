@@ -1,0 +1,14 @@
+{
+  "id": "nyc-brooklyn-masonic-temple",
+  "name": "Brooklyn Masonic Temple",
+  "model": "nyc-brooklyn-masonic-temple",
+  "place": "new-york-area",
+  "lng": -73.96953,
+  "lat": 40.688065,
+  "bearing": 351.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/250361396"
+  ]
+}

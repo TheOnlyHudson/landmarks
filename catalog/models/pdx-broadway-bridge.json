@@ -1,0 +1,49 @@
+{
+  "id": "pdx-broadway-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bascule",
+    "truss",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q4972421",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Broadwaybridgepano.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Broadwaybridgepano.jpg",
+      "author": "Cacophony",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Broadway Bridge, Portland HDR (18017408858).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Broadway_Bridge,_Portland_HDR_(18017408858).jpg",
+      "author": "Tony Webster from Portland, Oregon",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "BroadwayBridgeHAER.png",
+      "url": "https://commons.wikimedia.org/wiki/File:BroadwayBridgeHAER.png",
+      "author": "Joseph A. Boquiren and Manuel Hernandez, Historic American Engineering Record",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/pdx-broadway-bridge.glb",
+  "source": "generators/pdx-broadway-bridge.ts"
+}

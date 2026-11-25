@@ -1,0 +1,63 @@
+{
+  "id": "pdx-st-johns-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "suspension",
+    "historic",
+    "highway"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/pdx-st-johns-bridge.detail.glb",
+  "detailZoom": 16,
+  "wikidata": "Q4416302",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "StJohnsBridgeTower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:StJohnsBridgeTower.jpg",
+      "author": "Cacophony",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "St Johns Bridge from Cathedral Park all - Portland, Oregon.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Johns_Bridge_from_Cathedral_Park_all_-_Portland,_Oregon.jpg",
+      "author": "M.O. Stevens",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St Johns Bridge from Cathedral Park anchor - Portland, Oregon.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Johns_Bridge_from_Cathedral_Park_anchor_-_Portland,_Oregon.jpg",
+      "author": "M.O. Stevens",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "St. Johns Bridge (Portland, Oregon).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Johns_Bridge_(Portland,_Oregon).jpg",
+      "author": "Visitor7",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "St. Johns Bridge, Portland Oregon (20149754281).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Johns_Bridge,_Portland_Oregon_(20149754281).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/pdx-st-johns-bridge.glb",
+  "source": "generators/pdx-st-johns-bridge.ts"
+}

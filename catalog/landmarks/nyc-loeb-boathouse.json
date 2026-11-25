@@ -1,0 +1,14 @@
+{
+  "id": "nyc-loeb-boathouse",
+  "name": "Loeb Boathouse",
+  "model": "nyc-loeb-boathouse",
+  "place": "central-park",
+  "lng": -73.968725,
+  "lat": 40.775323,
+  "bearing": 347.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "relation/3698871"
+  ]
+}

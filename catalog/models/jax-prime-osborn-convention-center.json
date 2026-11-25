@@ -1,0 +1,29 @@
+{
+  "id": "jax-prime-osborn-convention-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "convention-center",
+    "historic",
+    "railway-station",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "file": "models/jax-prime-osborn-convention-center.glb",
+  "source": "generators/jax-prime-osborn-convention-center.ts"
+}

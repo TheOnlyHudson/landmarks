@@ -1,0 +1,15 @@
+{
+  "id": "jax-times-union-center",
+  "name": "Times-Union Center for the Performing Arts",
+  "model": "jax-times-union-center",
+  "place": "jacksonville-area",
+  "lng": -81.66240847,
+  "lat": 30.32496676,
+  "bearing": 14,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q14686451",
+  "replaces": [
+    "way/170066688"
+  ]
+}

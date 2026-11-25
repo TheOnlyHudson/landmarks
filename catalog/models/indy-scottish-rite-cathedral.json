@@ -1,0 +1,48 @@
+{
+  "id": "indy-scottish-rite-cathedral",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "masonic",
+    "gothic-revival",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Catedral de tradición escocesa, Indianápolis, 2012-10-22, DD 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Catedral_de_tradici%C3%B3n_escocesa,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_02.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Scottish Rite Cathedral - 2438857401 03.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Scottish_Rite_Cathedral_-_2438857401_03.jpg",
+      "author": "Paul J Everett",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Scottish Rite Cathedral - Indianapolis, IN.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Scottish_Rite_Cathedral_-_Indianapolis,_IN.jpg",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/indy-scottish-rite-cathedral.glb",
+  "source": "generators/indy-scottish-rite-cathedral.ts"
+}

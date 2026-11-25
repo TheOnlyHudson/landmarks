@@ -1,0 +1,54 @@
+{
+  "id": "niagara-toronto-power-station",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "power-station",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Toronto Power Generating Station (in 2019).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Toronto_Power_Generating_Station_(in_2019).jpg",
+      "author": "Gotanero",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Front of the Toronto Power Generating Station.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Front_of_the_Toronto_Power_Generating_Station.jpg",
+      "author": "Frank McPhee",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Toronto Power Generating Station Niagara 2010.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Toronto_Power_Generating_Station_Niagara_2010.jpg",
+      "author": "Mike Garrett",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Horseshoe Falls from Skylon Tower (DSCF1755) (52784671536).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Horseshoe_Falls_from_Skylon_Tower_(DSCF1755)_(52784671536).jpg",
+      "author": "PascalHD",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/niagara-toronto-power-station.glb",
+  "source": "generators/niagara-toronto-power-station.ts"
+}

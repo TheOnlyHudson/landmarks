@@ -1,0 +1,15 @@
+{
+  "id": "nyc-janes-carousel",
+  "name": "Jane's Carousel",
+  "model": "nyc-janes-carousel",
+  "place": "brooklyn-bridge-park",
+  "lng": -73.992384,
+  "lat": 40.704434,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "wikidata": "Q16996543",
+  "replaces": [
+    "way/223183095"
+  ]
+}

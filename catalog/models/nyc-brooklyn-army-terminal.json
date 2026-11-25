@@ -1,0 +1,76 @@
+{
+  "id": "nyc-brooklyn-army-terminal",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "industrial",
+    "warehouse",
+    "concrete",
+    "cass-gilbert",
+    "brooklyn",
+    "sunset-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Brooklyn Army Terminal water side jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Army_Terminal_water_side_jeh.JPG",
+      "author": "Jim.henderson",
+      "license": "Public domain"
+    },
+    {
+      "title": "Brooklyn Army Terminal as seen from ferry terminal, Sunset Park, Brooklyn",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Army_Terminal_as_seen_from_ferry_terminal,_Sunset_Park,_Brooklyn_-_20200904.jpg",
+      "author": "Andre Carrotflower",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Army Terminal November 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Army_Terminal_November_2022.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Brooklyn Army Terminal November 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Army_Terminal_November_2024.jpg",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Atrium, Brooklyn Army Terminal, Oct 2012",
+      "url": "https://commons.wikimedia.org/wiki/File:Atrium,_Brooklyn_Army_Terminal,_Oct_2012.jpg",
+      "author": "Atomox",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Brooklyn Army Terminal Atrium Building B2",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Army_Terminal_Atrium_Building_B2.jpg",
+      "author": "Timothy Vogel",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Brooklyn Army Terminal from south end",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Army_Terminal_from_south_end.jpg",
+      "author": "Ian Bartlett",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-brooklyn-army-terminal.glb",
+  "source": "generators/nyc-brooklyn-army-terminal.ts"
+}

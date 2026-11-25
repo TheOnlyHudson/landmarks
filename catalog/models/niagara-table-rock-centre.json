@@ -1,0 +1,60 @@
+{
+  "id": "niagara-table-rock-centre",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "visitor-centre",
+    "restaurant",
+    "romanesque-revival"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Table Rock Welcome Centre.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Table_Rock_Welcome_Centre.jpg",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Table Rock Welcome Centre, Niagara Falls, Ontario (36445947166).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Table_Rock_Welcome_Centre,_Niagara_Falls,_Ontario_(36445947166).jpg",
+      "author": "Paulo O",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Niagara falls visitor center 04.07.2012 14-48-37.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Niagara_falls_visitor_center_04.07.2012_14-48-37.jpg",
+      "author": "Dirk Ingo Franke",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Table Rock Welcome Centre (37456151582).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Table_Rock_Welcome_Centre_(37456151582).jpg",
+      "author": "Jeff Hitchcock",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Niagara - Table Rock Welcome Center (44330566925).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Niagara_-_Table_Rock_Welcome_Center_(44330566925).jpg",
+      "author": "VillageHero",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/niagara-table-rock-centre.glb",
+  "source": "generators/niagara-table-rock-centre.ts"
+}

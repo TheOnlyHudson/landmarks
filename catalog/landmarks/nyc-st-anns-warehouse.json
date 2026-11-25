@@ -1,0 +1,15 @@
+{
+  "id": "nyc-st-anns-warehouse",
+  "name": "St. Ann's Warehouse",
+  "model": "nyc-st-anns-warehouse",
+  "place": "brooklyn-bridge-park",
+  "lng": -73.992812,
+  "lat": 40.703655,
+  "bearing": 1.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q7586974",
+  "replaces": [
+    "way/373709849"
+  ]
+}

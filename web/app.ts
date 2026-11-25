@@ -5,7 +5,9 @@ import type { ModelViewerElement } from '@google/model-viewer'
 import type { Asset } from '../src/release'
 import { nightGlb } from './night-model'
 import { applyMapTheme } from './theme'
-import { LandmarkModels } from './map-models'
+import { addTerrain, isTerrainSource, themeTerrain } from './terrain-style'
+import { LandmarkModels, replacementIds } from './map-models'
+import { BridgeDecks } from './bridge-decks'
 import { matchesAsset, mapAssets } from './collection'
 import { renderCredit } from './credits'
 import type { Credit } from '../src/catalog'
@@ -45,6 +47,7 @@ let selected: Asset | undefined
 let ready = false
 let map: maplibregl.Map | undefined
 let modelLayer: LandmarkModels | undefined
+let deckLayer: BridgeDecks | undefined
 let displayed: Asset | undefined
 let versions: AssetHistory['versions'] = []
 let selectionRequest = 0
@@ -236,8 +239,9 @@ function updateAppearance() {
   $('theme-label').textContent = dark ? 'Night' : 'Day'
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#110f0c' : '#f9f8f6')
   if (ready) styleMarkers()
-  if (map && ready) applyMapTheme(map, dark)
+  if (map && ready) { applyMapTheme(map, dark); themeTerrain(map, dark) }
   modelLayer?.setNight(dark)
+  deckLayer?.setNight(dark)
   if (displayed) showModel()
 }
 $('theme-toggle').addEventListener('click', () => { dark = !dark; saveSetting('landmarks-theme', dark ? 'dark' : 'light'); updateAppearance() })
@@ -636,20 +640,37 @@ async function init() {
   }
   try {
     map = new maplibregl.Map({ container: 'map', style: 'https://tiles.openfreemap.org/styles/positron',
-      center: selected!.anchor, zoom: 16.5, pitch: 60, bearing: -25, maxZoom: 20, canvasContextAttributes: { antialias: true }, attributionControl: false, renderWorldCopies: false })
+      center: selected!.anchor, zoom: 16.5, pitch: 60, bearing: -25, maxZoom: 20,
+      // Tilting past 70° brings the horizon, and the sky, into view (Parchment allows 85°).
+      maxPitch: 80, canvasContextAttributes: { antialias: true }, attributionControl: false, renderWorldCopies: false })
     map.addControl(creditControl)
+    // For tools/demo-shot.mjs, which drives the camera of a local build.
+    if (['localhost', '127.0.0.1'].includes(location.hostname)) (window as { __landmarksMap?: maplibregl.Map }).__landmarksMap = map
     updateMapPadding()
     map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), 'top-right')
-    map.on('error', event => { console.error(event.error); $('map-status').title = event.error.message; $('map-status').textContent = 'Some map tiles could not load. You can still browse the collection and preview models.' })
-    map.on('idle', () => { if (map!.areTilesLoaded()) $('map-status').textContent = '' })
+    // A failed terrain tile counts as loaded, so its message would clear at the next idle: it stays until terrain arrives again.
+    let terrainFailed = false
+    // Set while some bridges couldn't be raised; kept over the idle that clears tile messages.
+    let deckMessage = ''
+    const terrainMessage = 'Terrain tiles could not load, so the map is drawn flat here. Refresh to retry.'
+    map.on('error', event => {
+      console.error(event.error)
+      $('map-status').title = event.error.message
+      terrainFailed ||= isTerrainSource((event as { sourceId?: string }).sourceId)
+      $('map-status').textContent = terrainFailed ? terrainMessage : 'Some map tiles could not load. You can still browse the collection and preview models.'
+    })
+    map.on('data', event => { if (terrainFailed && event.dataType === 'source' && 'tile' in event && isTerrainSource((event as { sourceId?: string }).sourceId)) terrainFailed = false })
+    map.on('idle', () => { if (map!.areTilesLoaded()) $('map-status').textContent = terrainFailed ? terrainMessage : deckMessage })
     map.on('load', () => {
-      // Mapterhorn: open terrarium tiles from USGS 3DEP lidar in the US, the DEM
-      // Parchment draws and the models are built on. Life-size, like Parchment.
-      map!.addSource('terrain-dem', { type: 'raster-dem', encoding: 'terrarium', tileSize: 512, maxzoom: 15,
-        tiles: ['https://tiles.mapterhorn.com/{z}/{x}/{y}.webp'],
-        attribution: '<a href="https://mapterhorn.com/attribution" target="_blank">© Mapterhorn</a>' })
-      map!.setTerrain({ source: 'terrain-dem', exaggeration: 1 })
-      modelLayer = new LandmarkModels(assetUrl, a => selectAsset(a), message => { $('map-status').textContent = message }, updateMapCredits)
+      addTerrain(map!)
+      // Bridge decks from OpenFreeMap's bridge ways and the terrain; a shown landmark's own deck stands in for the ways it replaces.
+      deckLayer = new BridgeDecks(message => { deckMessage = message; if (message) $('map-status').textContent = message })
+      // Under the labels, so road names stay readable over the decks.
+      map!.addLayer(deckLayer, map!.getStyle().layers.find(layer => layer.type === 'symbol')?.id)
+      modelLayer = new LandmarkModels(assetUrl, a => selectAsset(a), message => { $('map-status').textContent = message }, visible => {
+        updateMapCredits(visible)
+        deckLayer?.setReplaced(visible.flatMap(replacementIds), modelLayer?.plans() ?? [])
+      })
       map!.addLayer(modelLayer)
       modelLayer.setAssets(mapCollection(), selected!.id)
       map!.addSource('landmarks', { type: 'geojson', data: features(), cluster: true, clusterMaxZoom: 13, clusterRadius: 48 })
@@ -688,7 +709,9 @@ async function init() {
       ready = true
       styleMarkers()
       applyMapTheme(map!, dark)
+      themeTerrain(map!, dark)
       modelLayer.setNight(dark)
+      deckLayer.setNight(dark)
       $('map-status').textContent = ''
     })
   } catch {

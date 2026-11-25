@@ -1,0 +1,15 @@
+{
+  "id": "indy-birch-bayh-federal-building",
+  "name": "Birch Bayh Federal Building and U.S. Courthouse",
+  "model": "indy-birch-bayh-federal-building",
+  "place": "indianapolis-area",
+  "lng": -86.1570453,
+  "lat": 39.77073,
+  "bearing": 1.7,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/339570749"
+  ],
+  "wikidata": "Q4915641"
+}

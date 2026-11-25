@@ -1,0 +1,15 @@
+{
+  "id": "ric-dominion-energy-600-canal",
+  "name": "Dominion Energy 600 Canal Place",
+  "model": "ric-dominion-energy-600-canal",
+  "place": "richmond-area",
+  "lng": -77.439762,
+  "lat": 37.538296,
+  "bearing": 37.5,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/735392154",
+    "way/735392153"
+  ]
+}

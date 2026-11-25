@@ -47,12 +47,39 @@ const GROUND_GRID = 7
  * frame: its plan extent and the lowest vertex across it (see
  * `groundContacts`), leaving out the parts its animation moves.
  */
-function groundOf(scene: Object3D, animations: readonly AnimationClip[]): { footprint: Footprint; contacts: Contact[] } {
+/** Metres a side of the cells a model's plan is kept in (see `ModelPlan`). */
+export const PLAN_CELL = 4
+
+/** Where a shown model stands, as the cells of PLAN_CELL metres its geometry covers, east (x) and south (z) of its anchor. */
+export type ModelPlan = { asset: Asset; cells: Set<string> }
+
+/** Add the PLAN_CELL cells a mesh's triangles cover in plan (x east, z south): its vertices and every cell centre inside a triangle. */
+export function planTriangles(plan: Set<string>, position: ArrayLike<number>, index?: ArrayLike<number>) {
+  const count = index ? index.length : position.length / 3
+  const cell = (x: number, z: number) => `${Math.floor(x / PLAN_CELL)},${Math.floor(z / PLAN_CELL)}`
+  for (let t = 0; t + 2 < count; t += 3) {
+    const [a, b, c] = [0, 1, 2].map(k => (index ? index[t + k] : t + k) * 3)
+    const ax = position[a], az = position[a + 2], bx = position[b], bz = position[b + 2], cx = position[c], cz = position[c + 2]
+    plan.add(cell(ax, az)); plan.add(cell(bx, bz)); plan.add(cell(cx, cz))
+    const area = (bx - ax) * (cz - az) - (bz - az) * (cx - ax)
+    if (Math.abs(area) < PLAN_CELL * PLAN_CELL * 0.5) continue // within the cells its corners already mark
+    const i0 = Math.floor(Math.min(ax, bx, cx) / PLAN_CELL), i1 = Math.floor(Math.max(ax, bx, cx) / PLAN_CELL)
+    const j0 = Math.floor(Math.min(az, bz, cz) / PLAN_CELL), j1 = Math.floor(Math.max(az, bz, cz) / PLAN_CELL)
+    for (let i = i0; i <= i1; i++) for (let j = j0; j <= j1; j++) {
+      const px = (i + 0.5) * PLAN_CELL, pz = (j + 0.5) * PLAN_CELL
+      const w0 = (bx - px) * (cz - pz) - (bz - pz) * (cx - px), w1 = (cx - px) * (az - pz) - (cz - pz) * (ax - px), w2 = (ax - px) * (bz - pz) - (az - pz) * (bx - px)
+      if ((w0 >= 0 && w1 >= 0 && w2 >= 0) || (w0 <= 0 && w1 <= 0 && w2 <= 0)) plan.add(`${i},${j}`)
+    }
+  }
+}
+
+function groundOf(scene: Object3D, animations: readonly AnimationClip[]): { footprint: Footprint; contacts: Contact[]; plan: Set<string> } {
   scene.updateMatrixWorld(true)
   const box = new Box3().setFromObject(scene)
   const footprint = { minX: box.min.x, maxX: box.max.x, minZ: box.min.z, maxZ: box.max.z }
   const moving = new Set(animations.flatMap(clip => clip.tracks.map(track => track.name.split('.')[0])))
   const primitives: { position: Float32Array; node: number }[] = []
+  const plan = new Set<string>()
   const v = new Vector3()
   const instance = new Matrix4()
   scene.traverse(object => {
@@ -66,14 +93,15 @@ function groundOf(scene: Object3D, animations: readonly AnimationClip[]): { foot
       const position = new Float32Array(attribute.count * 3)
       for (let i = 0; i < attribute.count; i++) v.fromBufferAttribute(attribute, i).applyMatrix4(matrix).toArray(position, i * 3)
       primitives.push({ position, node: -1 })
+      planTriangles(plan, position, object.geometry.index?.array)
     }
   })
-  return { footprint, contacts: groundContacts(primitives, footprint) }
+  return { footprint, contacts: groundContacts(primitives, footprint), plan }
 }
 
 type Model = {
   asset: Asset; url: string; root: Group; mixer?: AnimationMixer; size: Vector3
-  footprint: Footprint; contacts: Contact[]; own?: ModelGround; base: number
+  footprint: Footprint; contacts: Contact[]; plan: Set<string>; own?: ModelGround; base: number
 }
 type Pending = { url: string; controller: AbortController }
 
@@ -300,6 +328,11 @@ export class LandmarkModels implements CustomLayerInterface {
     model.root.position.set((anchor.x - this.origin.x) / unit, anchor.z / unit, (anchor.y - this.origin.y) / unit)
     model.root.scale.setScalar(anchor.meterInMercatorCoordinateUnits() / unit)
     model.root.updateMatrixWorld(true)
+  }
+
+  /** The plans of the models shown now. */
+  plans(): ModelPlan[] {
+    return [...this.models.values()].filter(m => m.root.visible).map(m => ({ asset: m.asset, cells: m.plan }))
   }
 
   private updateBuildings() {

@@ -1,0 +1,14 @@
+{
+  "id": "nyc-terrace-bridge",
+  "name": "Terrace Bridge",
+  "model": "nyc-terrace-bridge",
+  "place": "prospect-park",
+  "lng": -73.968384,
+  "lat": 40.65828,
+  "bearing": 86,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/1420960680"
+  ]
+}

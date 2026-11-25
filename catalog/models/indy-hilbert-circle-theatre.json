@@ -1,0 +1,48 @@
+{
+  "id": "indy-hilbert-circle-theatre",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "theatre",
+    "neoclassical",
+    "historic"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Circle Theater.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Circle_Theater.jpg",
+      "author": "Nyttend",
+      "license": "Public domain"
+    },
+    {
+      "title": "Hilbert Circle Theatre - Jan 2012.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hilbert_Circle_Theatre_-_Jan_2012.jpg",
+      "author": "Richie Diesterheft",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Circle Theatre - Indianapolis.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Circle_Theatre_-_Indianapolis.jpg",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/indy-hilbert-circle-theatre.glb",
+  "source": "generators/indy-hilbert-circle-theatre.ts"
+}

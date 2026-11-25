@@ -1,0 +1,12 @@
+{
+  "id": "nyc-endeavor",
+  "name": "Endeavor",
+  "model": "nyc-endeavor",
+  "place": "new-york-area",
+  "lng": -73.9815988,
+  "lat": 40.5732007,
+  "bearing": 351.5,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": []
+}

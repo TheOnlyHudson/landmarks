@@ -1,0 +1,12 @@
+{
+  "id": "nyc-astro-tower",
+  "name": "Astro Tower",
+  "model": "nyc-astro-tower",
+  "place": "new-york-area",
+  "lng": -73.9816536,
+  "lat": 40.5733708,
+  "bearing": 351.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": []
+}

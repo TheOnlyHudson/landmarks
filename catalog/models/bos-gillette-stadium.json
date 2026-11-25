@@ -1,0 +1,99 @@
+{
+  "id": "bos-gillette-stadium",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "stadium",
+  "tags": [
+    "football",
+    "nfl",
+    "soccer",
+    "contemporary",
+    "lighthouse"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Gillette Stadium entrance and lighthouse",
+      "url": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium_entrance_and_lighthouse.jpg",
+      "author": "Kenneth C. Zirkel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gillette Stadium panorama",
+      "url": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium_panorama.jpg",
+      "author": "Kenneth C. Zirkel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gillette stadium picture from top seat",
+      "url": "https://commons.wikimedia.org/wiki/File:Gillette_stadium_picture_from_top_seat.jpg",
+      "author": "Ieditsandyes",
+      "license": "CC0"
+    },
+    {
+      "title": "Gillette Stadium at night in the rain November 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium_at_night_in_the_rain_November_2025.jpg",
+      "author": "4300streetcar",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Gillette Stadium (Top View)",
+      "url": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium_(Top_View).jpg",
+      "author": "Art N.",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Gillette Stadium02",
+      "url": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium02.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Gillette Stadium01",
+      "url": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium01.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Gillette Stadium November 2012",
+      "url": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium_November_2012_2013_01_121111-F-PB262-814.jpg",
+      "author": "U.S. Air Force",
+      "license": "Public domain"
+    },
+    {
+      "title": "View of Gillette Stadium on 03-27-2021",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Gillette_Stadium_on_03-27-2021.jpg",
+      "author": "Abzeronow",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Gillette Stadium Foxborough",
+      "url": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium_Foxborough.jpg",
+      "author": "Max P",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Gillette Stadium Outdoor",
+      "url": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium_Outdoor.jpg",
+      "author": "Mark Goebel",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/bos-gillette-stadium.glb",
+  "source": "generators/bos-gillette-stadium.ts"
+}

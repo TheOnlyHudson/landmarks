@@ -1,0 +1,14 @@
+{
+  "id": "nyc-dock-72",
+  "name": "Dock 72",
+  "model": "nyc-dock-72",
+  "place": "new-york-area",
+  "lng": -73.97254,
+  "lat": 40.700774,
+  "bearing": 138.8,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/700015265"
+  ]
+}

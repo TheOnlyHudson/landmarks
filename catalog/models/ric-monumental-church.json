@@ -1,0 +1,43 @@
+{
+  "id": "ric-monumental-church",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "historic",
+    "greek-revival",
+    "memorial"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Monumental Church, Richmond, Virginia.jpg (HABS VA-1241)",
+      "url": "https://commons.wikimedia.org/wiki/File:Monumental_Church,_Richmond,_Virginia.jpg",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "HABS VA-1241 (photos 6 and 24)",
+      "url": "https://www.loc.gov/item/va1241/",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    }
+  ],
+  "file": "models/ric-monumental-church.glb",
+  "source": "generators/ric-monumental-church.ts"
+}

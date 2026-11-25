@@ -1,0 +1,48 @@
+{
+  "id": "ric-federal-reserve-bank",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Federal Reserve Bank, Richmond, Virginia",
+      "author": "Ben Schumin",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Federal_Reserve_Bank,_Richmond,_Virginia.jpg"
+    },
+    {
+      "title": "Federal Reserve Bank building -01- (9741337905)",
+      "author": "Ben Schumin",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Federal_Reserve_Bank_building_-01-_(9741337905).jpg"
+    },
+    {
+      "title": "Federal Reserve and Riverfront Plaza (9743453366)",
+      "author": "Ben Schumin",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Federal_Reserve_and_Riverfront_Plaza_(9743453366).jpg"
+    }
+  ],
+  "file": "models/ric-federal-reserve-bank.glb",
+  "source": "generators/ric-federal-reserve-bank.ts"
+}

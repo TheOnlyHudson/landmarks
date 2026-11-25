@@ -1,0 +1,49 @@
+{
+  "id": "nyc-chess-checkers-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "brick",
+    "pavilion",
+    "central-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Central Park Chess and Checkers House 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_Chess_and_Checkers_House_2.jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Central Park Chess and Checkers House 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_Chess_and_Checkers_House_1.jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Chess&checkers house.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Chess%26checkers_house.jpg",
+      "author": "alvy",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/nyc-chess-checkers-house.glb",
+  "source": "generators/nyc-chess-checkers-house.ts"
+}

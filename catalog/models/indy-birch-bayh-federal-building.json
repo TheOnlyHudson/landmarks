@@ -1,0 +1,55 @@
+{
+  "id": "indy-birch-bayh-federal-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "courthouse",
+    "civic",
+    "beaux-arts"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Exterior of the Birch Bayh Federal Building & U.S. Courthouse",
+      "author": "Paul Sableman",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Birch_Bayh_Federal_Building_%26_U.S._Courthouse.jpg"
+    },
+    {
+      "title": "Birch Bayh U.S. Courthouse and Post Office",
+      "author": "Nyttend",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Birch_Bayh_U.S._Courthouse_and_Post_Office.jpg"
+    },
+    {
+      "title": "Exterior of the Birch Bayh Federal Building & U.S. Courthouse - Jan 2012",
+      "author": "Richie Diesterheft",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Birch_Bayh_Federal_Building_%26_U.S._Courthouse_-_Jan_2012.jpg"
+    },
+    {
+      "title": "Exterior of the Birch Bayh Federal Building & U.S. Courthouse - May 2016 - Artistmac",
+      "author": "artistmac",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Birch_Bayh_Federal_Building_%26_U.S._Courthouse_-_May_2016_-_Artistmac.jpg"
+    }
+  ],
+  "file": "models/indy-birch-bayh-federal-building.glb",
+  "source": "generators/indy-birch-bayh-federal-building.ts"
+}

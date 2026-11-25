@@ -1,0 +1,56 @@
+{
+  "id": "niagara-old-fort-niagara",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "fort",
+    "stone",
+    "national-historic-landmark",
+    "18th-century"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "French Castle at Fort Niagara (2) (22134680910).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:French_Castle_at_Fort_Niagara_(2)_(22134680910).jpg",
+      "author": "Larry Koester",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "French castle at Fort Niagara.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:French_castle_at_Fort_Niagara.JPG",
+      "author": "Ad Meskens",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "North Redoubt, Old Fort Niagara.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Redoubt,_Old_Fort_Niagara.JPG",
+      "author": "Ken Smith",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "OldFortNiagara2023SouthRedoubtAndProvisionStorehouseFromRampart.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:OldFortNiagara2023SouthRedoubtAndProvisionStorehouseFromRampart.jpg",
+      "author": "DanielPenfield",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/niagara-old-fort-niagara.glb",
+  "source": "generators/niagara-old-fort-niagara.ts"
+}

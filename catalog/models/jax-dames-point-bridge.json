@@ -1,0 +1,54 @@
+{
+  "id": "jax-dames-point-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bridge",
+    "cable-stayed-bridge",
+    "interstate"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Dames Point Bridge, Jacksonville FL Pano 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dames_Point_Bridge,_Jacksonville_FL_Pano_2.jpg",
+      "author": "Jonathan Zander (Digon3)",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Jacksonville FL Dames Point Bridge south01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jacksonville_FL_Dames_Point_Bridge_south01.jpg",
+      "author": "Ebyabe",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Jacksonvile - Dames Point Bridge 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jacksonvile_-_Dames_Point_Bridge_01.jpg",
+      "author": "P. Hughes",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Dames Point Bridge at Night - 17 June 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dames_Point_Bridge_at_Night_-_17_June_2013.jpg",
+      "author": "Tonopia",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/jax-dames-point-bridge.glb",
+  "source": "generators/jax-dames-point-bridge.ts"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "nyc-bbg-visitor-center",
+  "name": "Steinberg Visitor Center",
+  "model": "nyc-bbg-visitor-center",
+  "place": "brooklyn-botanic-garden",
+  "lng": -73.96302,
+  "lat": 40.6694,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/165548228",
+    "way/1289545224",
+    "way/1290336565"
+  ]
+}

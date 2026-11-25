@@ -1,0 +1,14 @@
+{
+  "id": "nyc-cop-cot",
+  "name": "Cop Cot",
+  "model": "nyc-cop-cot",
+  "place": "central-park",
+  "lng": -73.976468,
+  "lat": 40.766919,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/385442739"
+  ]
+}

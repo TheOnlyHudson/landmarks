@@ -1,0 +1,62 @@
+{
+  "id": "nyc-bbg-steinhardt-conservatory",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "brooklyn",
+    "conservatory",
+    "glass",
+    "modern"
+  ],
+  "reviewStatus": "unreviewed",
+  "description": "The 1988 Steinhardt Conservatory: the Tropical, Warm Temperate and Desert pavilions and the glasshouse range on Washington Avenue.",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "-gallery- conservatory roof- Conservatory roof of Brooklyn Botanic ",
+      "url": "https://commons.wikimedia.org/wiki/File:-gallery-_conservatory_roof-_Conservatory_roof_of_Brooklyn_Botanic_.jpg",
+      "author": "Rabiul_Hasan_Lincoln",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Brooklyn Botanic Garden conservatory (60594)",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_conservatory_(60594).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Glass house view - Brooklyn Botanic Garden - Brooklyn, NY - DSC08135",
+      "url": "https://commons.wikimedia.org/wiki/File:Glass_house_view_-_Brooklyn_Botanic_Garden_-_Brooklyn,_NY_-_DSC08135.JPG",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Prospect Park Botanic Gardens 093",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Botanic_Gardens_093.JPG",
+      "author": "Elisa.rolle",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Steinhardt Conservatory Brooklyn Botanic Garden",
+      "url": "https://commons.wikimedia.org/wiki/File:Steinhardt_Conservatory_Brooklyn_Botanic_Garden.jpg",
+      "author": "Vallue",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-bbg-steinhardt-conservatory.glb",
+  "source": "generators/nyc-bbg-steinhardt-conservatory.ts"
+}

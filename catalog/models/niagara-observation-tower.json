@@ -1,0 +1,53 @@
+{
+  "id": "niagara-observation-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "tower",
+  "tags": [
+    "observation-tower",
+    "modernist"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Prospect Point Observation Tower - Niagra Falls.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Point_Observation_Tower_-_Niagra_Falls.jpg",
+      "author": "APK",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prospect Point Observation Tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Point_Observation_Tower.jpg",
+      "author": "Buffalutheran",
+      "license": "CC0"
+    },
+    {
+      "title": "Prospect Point Park observation tower in 2011.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Point_Park_observation_tower_in_2011.jpg",
+      "author": "High Contrast",
+      "license": "CC BY 3.0 de"
+    },
+    {
+      "title": "Niagara Falls observatory tower.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Niagara_Falls_observatory_tower.JPG",
+      "author": "Don-vip",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "file": "models/niagara-observation-tower.glb",
+  "source": "generators/niagara-observation-tower.ts"
+}

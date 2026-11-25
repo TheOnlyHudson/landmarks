@@ -1,0 +1,14 @@
+{
+  "id": "nyc-bbg-laboratory",
+  "name": "Laboratory Administration Building",
+  "model": "nyc-bbg-laboratory",
+  "place": "brooklyn-botanic-garden",
+  "lng": -73.962159,
+  "lat": 40.667559,
+  "bearing": -8.5,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/250229994"
+  ]
+}

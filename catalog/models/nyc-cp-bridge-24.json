@@ -1,0 +1,50 @@
+{
+  "id": "nyc-cp-bridge-24",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "cast-iron",
+    "footbridge",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "HAER NY-192: Bridge No. 24, view looking north",
+      "url": "https://commons.wikimedia.org/wiki/File:View_looking_north_-_Central_Park_Bridges,_Bridge_No._24,_Central_Park,_Southwest_of_Reservoir,_New_York,_New_York_County,_NY_HAER_NY,31-NEYO,153E-1.tif",
+      "author": "Historic American Engineering Record",
+      "license": "Public domain"
+    },
+    {
+      "title": "HAER NY-192: Bridge No. 24, view looking north, closer up",
+      "url": "https://commons.wikimedia.org/wiki/File:View_looking_north,_closer_up_-_Central_Park_Bridges,_Bridge_No._24,_Central_Park,_Southwest_of_Reservoir,_New_York,_New_York_County,_NY_HAER_NY,31-NEYO,153E-2.tif",
+      "author": "Historic American Engineering Record",
+      "license": "Public domain"
+    },
+    {
+      "title": "SE Reservoir Bridge 24 CP jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:SE_Reservoir_Bridge_24_CP_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC0-1.0"
+    }
+  ],
+  "file": "models/nyc-cp-bridge-24.glb",
+  "source": "generators/nyc-cp-bridge-24.ts"
+}

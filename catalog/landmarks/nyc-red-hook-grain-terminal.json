@@ -1,0 +1,14 @@
+{
+  "id": "nyc-red-hook-grain-terminal",
+  "name": "Red Hook Grain Terminal",
+  "model": "nyc-red-hook-grain-terminal",
+  "place": "new-york-area",
+  "lng": -74.006476,
+  "lat": 40.669275,
+  "bearing": 22.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/248168048"
+  ]
+}

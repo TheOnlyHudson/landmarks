@@ -1,0 +1,56 @@
+{
+  "id": "nyc-music-pagoda",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "landmark",
+  "tags": [
+    "historic",
+    "bandstand",
+    "pavilion",
+    "prospect-park"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Music Pagoda in Prospect Park (81543p)",
+      "url": "https://commons.wikimedia.org/wiki/File:Music_Pagoda_in_Prospect_Park_(81543p).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Music Pagoda 2022 jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Music_Pagoda_2022_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Music Pagoda in Prospect Park, September 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:Music_Pagoda_in_Prospect_Park,_September_2025.jpg",
+      "author": "Pi.1415926535",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Music-Pagoda-near-Binnen-Bridge Prospect Park",
+      "url": "https://commons.wikimedia.org/wiki/File:Music-Pagoda-near-Binnen-Bridge_Prospect_Park.jpg",
+      "author": "Garry R. Osgood",
+      "license": "CC BY 2.5"
+    }
+  ],
+  "wikidata": "Q112117173",
+  "file": "models/nyc-music-pagoda.glb",
+  "source": "generators/nyc-music-pagoda.ts"
+}

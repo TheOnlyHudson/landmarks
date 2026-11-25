@@ -1,0 +1,22 @@
+{
+  "id": "sydney-accor-stadium",
+  "name": "Accor Stadium",
+  "model": "sydney-accor-stadium",
+  "place": "sydney",
+  "lng": 151.0633843,
+  "lat": -33.8471191,
+  "bearing": 10,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "relation/1641135",
+    "relation/1641134",
+    "way/119389038",
+    "way/119389039",
+    "way/119388912",
+    "way/119388913",
+    "way/119388914",
+    "way/119388915"
+  ],
+  "wikidata": "Q295886"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "ric-main-street-station",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "train-station",
+    "historic",
+    "beaux-arts",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Richmond Main Street Station.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Richmond_Main_Street_Station.jpg",
+      "author": "Schützenpanzer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Main Street Station Richmond Virginia April 2015",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_Street_Station_Richmond_Virginia_April_2015_(17082469216).jpg",
+      "author": "Mobilus In Mobili",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Richmond Main Street Station from I-95 in Virginia.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Richmond_Main_Street_Station_from_I-95_in_Virginia.JPG",
+      "author": "DanTD",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "View of trainshed from east (HABS VA,44-RICH,97-A-1)",
+      "url": "https://commons.wikimedia.org/wiki/File:VIEW_OF_TRAINSHED_FROM_EAST_-_Main_Street_Station,_Trainshed,_1520_East_Main_Street,_Richmond,_Independent_City,_VA_HABS_VA,44-RICH,97-A-1.tif",
+      "author": "Historic American Buildings Survey",
+      "license": "Public domain"
+    },
+    {
+      "title": "Richmond - Richmond Main Street Station - 20230322124237.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Richmond_-_Richmond_Main_Street_Station_-_20230322124237.jpg",
+      "author": "Adamiglehart",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/ric-main-street-station.glb",
+  "source": "generators/ric-main-street-station.ts"
+}

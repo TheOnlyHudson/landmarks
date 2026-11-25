@@ -1,0 +1,53 @@
+{
+  "id": "jax-acosta-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "bridge",
+    "box-girder-bridge"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Downtown Jacksonville, New Acosta Bridge.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Downtown_Jacksonville,_New_Acosta_Bridge.jpg",
+      "author": "Mark Kortum",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Acosta Bridge from Jacksonville Landing.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Acosta_Bridge_from_Jacksonville_Landing.JPG",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Acosta Bridge (39527390202).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Acosta_Bridge_(39527390202).jpg",
+      "author": "Gregory Urbano",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "St. Elmo W. Acosta Bridge 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St._Elmo_W._Acosta_Bridge_1.jpg",
+      "author": "PicoOrdinalo",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/jax-acosta-bridge.glb",
+  "source": "generators/jax-acosta-bridge.ts"
+}

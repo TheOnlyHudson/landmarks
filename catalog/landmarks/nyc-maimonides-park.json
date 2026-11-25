@@ -1,0 +1,15 @@
+{
+  "id": "nyc-maimonides-park",
+  "name": "Maimonides Park",
+  "model": "nyc-maimonides-park",
+  "place": "new-york-area",
+  "lng": -73.9840245,
+  "lat": 40.5743533,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q6715011",
+  "replaces": [
+    "way/266063810"
+  ]
+}

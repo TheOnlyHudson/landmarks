@@ -1,0 +1,15 @@
+{
+  "id": "ric-city-hall",
+  "name": "Richmond City Hall",
+  "model": "ric-city-hall",
+  "place": "richmond-area",
+  "lng": -77.4329612,
+  "lat": 37.5409883,
+  "bearing": 37.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/113029199",
+    "way/365155733"
+  ]
+}

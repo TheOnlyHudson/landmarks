@@ -1,0 +1,14 @@
+{
+  "id": "indy-city-market",
+  "name": "Indianapolis City Market",
+  "model": "indy-city-market",
+  "place": "indianapolis-area",
+  "lng": -86.1532753,
+  "lat": 39.7688379,
+  "bearing": 1.7,
+  "elevation": 0,
+  "minzoom": 16,
+  "replaces": [
+    "way/339449429"
+  ]
+}

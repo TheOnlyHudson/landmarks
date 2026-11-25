@@ -1,0 +1,55 @@
+{
+  "id": "indy-salesforce-tower",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "office",
+    "postmodern"
+  ],
+  "reviewStatus": "unreviewed",
+  "wikidata": "Q2734953",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Chase Tower, Indianápolis, Estados Unidos, 2012-10-22, DD 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Chase_Tower,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_01.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "ChaseTowerIndianapolis",
+      "url": "https://commons.wikimedia.org/wiki/File:ChaseTowerIndianapolis.jpg",
+      "author": "Durin",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Salesforce Tower - August 2017 - Jeffrey Hayes",
+      "url": "https://commons.wikimedia.org/wiki/File:Salesforce_Tower_-_August_2017_-_Jeffrey_Hayes.jpg",
+      "author": "Jeffrey Hayes",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Soldiers and Sailors, Chase Tower, night",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldiers_and_Sailors,_Chase_Tower,_night.jpg",
+      "author": "Josh Hallett",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "file": "models/indy-salesforce-tower.glb",
+  "source": "generators/indy-salesforce-tower.ts"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "nyc-lefrak-center",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "brooklyn",
+    "prospect-park",
+    "ice-rink",
+    "green-roof",
+    "modern",
+    "sports"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "LeFrak Center at Lakeside.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:LeFrak_Center_at_Lakeside.jpg",
+      "author": "JZX422",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "LeFrak Center at Lakeside Prospect Park.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:LeFrak_Center_at_Lakeside_Prospect_Park.jpg",
+      "author": "JZX422",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Lefrak ice rink 2022 jeh.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Lefrak_ice_rink_2022_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Feb 2019 47.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Feb_2019_47.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Aug 2019 37.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Aug_2019_37.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Feb 2019 55.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Feb_2019_55.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Aug 2019 28.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Aug_2019_28.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Prospect Park Brooklyn Aug 2019 38.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Aug_2019_38.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-lefrak-center.glb",
+  "source": "generators/nyc-lefrak-center.ts"
+}

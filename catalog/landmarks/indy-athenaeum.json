@@ -1,0 +1,14 @@
+{
+  "id": "indy-athenaeum",
+  "name": "The Athenaeum",
+  "model": "indy-athenaeum",
+  "place": "indianapolis-area",
+  "lng": -86.1501608,
+  "lat": 39.7735898,
+  "bearing": 2.3,
+  "elevation": 0,
+  "minzoom": 15,
+  "replaces": [
+    "way/339788130"
+  ]
+}

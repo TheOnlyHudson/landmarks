@@ -1,0 +1,50 @@
+{
+  "id": "nyc-springbanks-arch",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "historic",
+    "stone-arch",
+    "cast-iron",
+    "central-park",
+    "olmsted-vaux"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "Alex Wohlbruck",
+      "kind": "person",
+      "github": "alexwohlbruck",
+      "role": "creator"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "model": "Claude Opus 5.5",
+      "role": "procedural modeling"
+    }
+  ],
+  "references": [
+    {
+      "title": "Central Park May 2019 71",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Park_May_2019_71.jpg",
+      "author": "Epicgenius",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Springbank Arch (1) jeh",
+      "url": "https://commons.wikimedia.org/wiki/File:Springbank_Arch_(1)_jeh.jpg",
+      "author": "Jim.henderson",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Springbank Arch just before sunset 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Springbank_Arch_just_before_sunset_02.jpg",
+      "author": "Jay",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/nyc-springbanks-arch.glb",
+  "source": "generators/nyc-springbanks-arch.ts"
+}
