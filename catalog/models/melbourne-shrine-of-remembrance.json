@@ -1,0 +1,64 @@
+{
+  "id": "melbourne-shrine-of-remembrance",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "monument",
+  "tags": [
+    "war-memorial",
+    "historic",
+    "neoclassical",
+    "sculpture"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Shrine of Remembrance, Melbourne 2017-10-28 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Shrine_of_Remembrance,_Melbourne_2017-10-28_01.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Shrine of Remembrance, Melbourne 2017-10-28 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Shrine_of_Remembrance,_Melbourne_2017-10-28_02.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Shrine of Remembrance, Melbourne",
+      "url": "https://commons.wikimedia.org/wiki/File:Shrine_of_Remembrance,_Melbourne.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Shrine of Remembrance 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Shrine_of_Remembrance_1.jpg",
+      "author": "Donaldytong",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Melbourne Shrine of Remembrance night",
+      "url": "https://commons.wikimedia.org/wiki/File:Melbourne_Shrine_of_Remembrance_night.jpg",
+      "author": "Scott Sandars",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "detail": "models/melbourne-shrine-of-remembrance.detail.glb",
+  "detailZoom": 16,
+  "file": "models/melbourne-shrine-of-remembrance.glb",
+  "source": "generators/melbourne-shrine-of-remembrance.ts"
+}

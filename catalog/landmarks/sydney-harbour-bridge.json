@@ -1,0 +1,32 @@
+{
+  "id": "sydney-harbour-bridge",
+  "name": "Sydney Harbour Bridge",
+  "model": "sydney-harbour-bridge",
+  "place": "sydney",
+  "lng": 151.2106758,
+  "lat": -33.8522825,
+  "bearing": 27.67,
+  "elevation": 0,
+  "minzoom": 13,
+  "wikidata": "Q54495",
+  "replaces": [
+    "relation/3178788",
+    "way/382401361",
+    "way/1169740767",
+    "way/142518160",
+    "way/142518161",
+    "way/156584774",
+    "way/1169740768",
+    "way/142518162",
+    "way/142518163",
+    "way/156584791",
+    "way/156584815",
+    "way/156584782",
+    "way/156584811",
+    "way/156584795",
+    "way/156584800",
+    "way/156584787",
+    "way/156584805",
+    "way/156584778"
+  ]
+}

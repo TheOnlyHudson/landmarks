@@ -2,5 +2,6 @@
   "id": "sydney",
   "name": "Sydney",
   "kind": "city",
+  "parent": "australia",
   "wikidata": "Q3130"
 }

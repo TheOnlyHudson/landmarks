@@ -1,0 +1,16 @@
+{
+  "id": "brisbane-city-hall",
+  "name": "Brisbane City Hall",
+  "model": "brisbane-city-hall",
+  "place": "brisbane",
+  "lng": 153.023484,
+  "lat": -27.468965,
+  "bearing": 48.9,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q4968552",
+  "replaces": [
+    "way/10836280",
+    "way/243893440"
+  ]
+}

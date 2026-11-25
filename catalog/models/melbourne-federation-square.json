@@ -1,0 +1,81 @@
+{
+  "id": "melbourne-federation-square",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "public-square",
+    "museum",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fed Square, Melbourne, west view",
+      "url": "https://commons.wikimedia.org/wiki/File:Fed_Square,_Melbourne,_west_view_20230219_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Fed Square, Melbourne, north view",
+      "url": "https://commons.wikimedia.org/wiki/File:Fed_Square,_Melbourne,_north_view_20230219_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Melbourne Federation Square",
+      "url": "https://commons.wikimedia.org/wiki/File:Melbourne_Federation_Square.jpg",
+      "author": "Donaldytong",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "AUS Melbourne, Central Business District, Federation Square 003",
+      "url": "https://commons.wikimedia.org/wiki/File:AUS_Melbourne,_Central_Business_District,_Federation_Square_003.jpg",
+      "author": "-wuppertaler",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Melbourne Federation Square from Swanston Street intersection",
+      "url": "https://commons.wikimedia.org/wiki/File:Melbourne_Federation_Square_from_Swanston_Street_intersection_2017-10-10.jpg",
+      "author": "Tangerineduel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Melbourne (AU), View from Eureka Tower, Northbank -- 2019 -- 1461",
+      "url": "https://commons.wikimedia.org/wiki/File:Melbourne_(AU),_View_from_Eureka_Tower,_Northbank_--_2019_--_1461.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Melbourne (AU), Flinders Street Railway Station -- 2019 -- 1583",
+      "url": "https://commons.wikimedia.org/wiki/File:Melbourne_(AU),_Flinders_Street_Railway_Station_--_2019_--_1583.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Federation Square December 2020",
+      "url": "https://commons.wikimedia.org/wiki/File:Federation_Square_December_2020.jpg",
+      "author": "Nick-D",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "detail": "models/melbourne-federation-square.detail.glb",
+  "detailZoom": 16,
+  "file": "models/melbourne-federation-square.glb",
+  "source": "generators/melbourne-federation-square.ts"
+}

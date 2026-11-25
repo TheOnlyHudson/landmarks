@@ -1,0 +1,78 @@
+{
+  "id": "wellington-te-papa",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "museum",
+    "contemporary"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Museum of New Zealand Te Papa Tongarewa - Wellington, NZ - DSC09543.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Museum_of_New_Zealand_Te_Papa_Tongarewa_-_Wellington,_NZ_-_DSC09543.jpg",
+      "author": "Daderot",
+      "license": "CC0"
+    },
+    {
+      "title": "Exterior of Te Papa, 2016-01-25.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Te_Papa,_2016-01-25.jpg",
+      "author": "Szilas",
+      "license": "Public domain"
+    },
+    {
+      "title": "Museum of New Zealand Te Papa Tongarewa (harbour side).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Museum_of_New_Zealand_Te_Papa_Tongarewa_(harbour_side).jpg",
+      "author": "Ulrich Lange",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Museum of New Zealand Te Papa Tongarewa.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Museum_of_New_Zealand_Te_Papa_Tongarewa.jpg",
+      "author": "Ulrich Lange",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Exterior view of Te Papa from the Wellington Waterfront.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_Te_Papa_from_the_Wellington_Waterfront.jpg",
+      "author": "Museum of New Zealand Te Papa Tongarewa",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Te Papa (National Museum), Wellington.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Te_Papa_(National_Museum),_Wellington.jpg",
+      "author": "Phillip Capper",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Museum of New Zealand - 2013.04 - panoramio.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Museum_of_New_Zealand_-_2013.04_-_panoramio.jpg",
+      "author": "rheins",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Wellington view of the City from the top of Mt Victoria.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wellington_view_of_the_City_from_the_top_of_Mt_Victoria.jpg",
+      "author": "itravelNZ",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/wellington-te-papa.glb",
+  "source": "generators/wellington-te-papa.ts"
+}

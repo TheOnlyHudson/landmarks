@@ -1,0 +1,24 @@
+{
+  "id": "melbourne-flinders-street-station",
+  "name": "Flinders Street Station",
+  "model": "melbourne-flinders-street-station",
+  "place": "melbourne",
+  "lng": 144.965828,
+  "lat": -37.818164,
+  "bearing": 339.6,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/271939456",
+    "way/271939464",
+    "way/306665754",
+    "way/405462644",
+    "way/405462645",
+    "way/271939466",
+    "way/1166108787",
+    "way/1166108788",
+    "way/1481357807",
+    "way/1482078268",
+    "way/1482078269"
+  ]
+}

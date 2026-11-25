@@ -1,0 +1,15 @@
+{
+  "id": "sydney-st-marys-cathedral",
+  "name": "St Mary's Cathedral",
+  "model": "sydney-st-marys-cathedral",
+  "place": "sydney",
+  "lng": 151.2133703,
+  "lat": -33.8711851,
+  "bearing": 6.3,
+  "elevation": 0,
+  "minzoom": 14,
+  "wikidata": "Q971514",
+  "replaces": [
+    "way/16749128"
+  ]
+}

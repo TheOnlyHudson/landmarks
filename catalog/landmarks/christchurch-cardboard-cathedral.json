@@ -1,0 +1,15 @@
+{
+  "id": "christchurch-cardboard-cathedral",
+  "name": "Transitional Cathedral (Cardboard Cathedral)",
+  "model": "christchurch-cardboard-cathedral",
+  "place": "christchurch",
+  "lng": 172.6430602,
+  "lat": -43.5323595,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q15207543",
+  "replaces": [
+    "way/101123036"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "melbourne-royal-exhibition-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "exhibition-hall",
+    "historic",
+    "world-heritage",
+    "victorian"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Royal Exhibition Building, Melbourne, northwest view 20230219 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Exhibition_Building,_Melbourne,_northwest_view_20230219_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Royal Exhibition Building - Dome",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Exhibition_Building_-_Dome.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Royal exhibition building tulips straight",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_exhibition_building_tulips_straight.jpg",
+      "author": "Diliff",
+      "license": "CC BY 2.5"
+    },
+    {
+      "title": "Aerial Photo of Royal Exhibition Building, Melbourne",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_Photo_of_Royal_Exhibition_Building,_Melbourne.jpg",
+      "author": "Andrew Lukaris",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Eastern entrance to the Royal Exhibition Building December 2020",
+      "url": "https://commons.wikimedia.org/wiki/File:Eastern_entrance_to_the_Royal_Exhibition_Building_December_2020.jpg",
+      "author": "Nick-D",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Northern side of the Royal Exhibition Building December 2020",
+      "url": "https://commons.wikimedia.org/wiki/File:Northern_side_of_the_Royal_Exhibition_Building_December_2020.jpg",
+      "author": "Nick-D",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Melbourne Royal Exhibition Building (Back)",
+      "url": "https://commons.wikimedia.org/wiki/File:Melbourne_Royal_Exhibition_Building_(Back).jpg",
+      "author": "Boyd159",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Royal Exhibition Building Melbourne",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Exhibition_Building_Melbourne.jpg",
+      "author": "John Torcasio",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Royal exhibition building melbourne night time",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_exhibition_building_melbourne_night_time.jpg",
+      "author": "Tortakoon Sriruangsakun",
+      "license": "Public domain"
+    }
+  ],
+  "detail": "models/melbourne-royal-exhibition-building.detail.glb",
+  "detailZoom": 16,
+  "file": "models/melbourne-royal-exhibition-building.glb",
+  "source": "generators/melbourne-royal-exhibition-building.ts"
+}

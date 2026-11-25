@@ -1,0 +1,75 @@
+{
+  "id": "melbourne-flinders-street-station",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "railway-station",
+    "historic",
+    "edwardian-baroque"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Flinders Street Station Melbourne March 2021 with trams",
+      "url": "https://commons.wikimedia.org/wiki/File:Flinders_Street_Station_Melbourne_March_2021_with_trams.jpg",
+      "author": "Gracchus250",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Flinders Street Station Main Building, May 2019",
+      "url": "https://commons.wikimedia.org/wiki/File:Flinders_Street_Station_Main_Building,_May_2019.jpg",
+      "author": "Medelam",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Flinders Street Station on 19 July 2025 - 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Flinders_Street_Station_on_19_July_2025_-_01.jpg",
+      "author": "Yu Chu Chin",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Flinders Street railway station from Fleet Rooftop Bar",
+      "url": "https://commons.wikimedia.org/wiki/File:Flinders_Street_railway_station_from_Fleet_Rooftop_Bar.jpg",
+      "author": "Dicklyon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Melbourne (AU), View from Eureka Tower, Flinders Street Railway Station -- 2019 -- 1462",
+      "url": "https://commons.wikimedia.org/wiki/File:Melbourne_(AU),_View_from_Eureka_Tower,_Flinders_Street_Railway_Station_--_2019_--_1462.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Melbourne (AU), Flinders Street Railway Station -- 2019 -- 202623",
+      "url": "https://commons.wikimedia.org/wiki/File:Melbourne_(AU),_Flinders_Street_Railway_Station_--_2019_--_202623.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Flinders Street Station, Melbourne AUS",
+      "url": "https://commons.wikimedia.org/wiki/File:Flinders_Street_Station,_Melbourne_AUS.jpg",
+      "author": "Stefano Vigorelli",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "detail": "models/melbourne-flinders-street-station.detail.glb",
+  "detailZoom": 16,
+  "file": "models/melbourne-flinders-street-station.glb",
+  "source": "generators/melbourne-flinders-street-station.ts"
+}

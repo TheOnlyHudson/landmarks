@@ -1,0 +1,7 @@
+{
+  "id": "canberra",
+  "name": "Canberra",
+  "kind": "city",
+  "parent": "australia",
+  "wikidata": "Q3114"
+}

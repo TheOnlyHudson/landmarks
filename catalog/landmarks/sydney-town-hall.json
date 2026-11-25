@@ -1,0 +1,18 @@
+{
+  "id": "sydney-town-hall",
+  "name": "Sydney Town Hall",
+  "model": "sydney-town-hall",
+  "place": "sydney",
+  "lng": 151.2061677,
+  "lat": -33.8732087,
+  "bearing": 5.1,
+  "elevation": 0,
+  "minzoom": 15,
+  "wikidata": "Q1192985",
+  "replaces": [
+    "way/104948253",
+    "way/1577336301",
+    "way/1577336299",
+    "way/1577336300"
+  ]
+}

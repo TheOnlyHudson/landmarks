@@ -1,0 +1,82 @@
+{
+  "id": "canberra-parliament-house",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "parliament",
+    "government",
+    "flagmast",
+    "green-roof"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Parliament house Canberra from above.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Parliament_house_Canberra_from_above.jpg",
+      "author": "David Burke (Orangedrummaboy)",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "CSIRO ScienceImage 11533 Parliament House Canberra.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_11533_Parliament_House_Canberra.jpg",
+      "author": "Nick Pitsas, CSIRO",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "CSIRO ScienceImage 11531 Parliament House Canberra.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_11531_Parliament_House_Canberra.jpg",
+      "author": "Nick Pitsas, CSIRO",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "CSIRO ScienceImage 11612 Parliament House Canberra.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_11612_Parliament_House_Canberra.jpg",
+      "author": "Nick Pitsas, CSIRO",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "Canberra (AU), Parliament House -- 2019 -- 1746.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Canberra_(AU),_Parliament_House_--_2019_--_1746.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Canberra Parliament House in April 2019.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Canberra_Parliament_House_in_April_2019.jpg",
+      "author": "Amritpal Singh Mann",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Parliament House at dusk, Canberra ACT.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Parliament_House_at_dusk,_Canberra_ACT.jpg",
+      "author": "Thennicke",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Parliament House roof pano, Canberra.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Parliament_House_roof_pano,_Canberra.jpg",
+      "author": "Dicklyon",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "detail": "models/canberra-parliament-house.detail.glb",
+  "detailZoom": 16,
+  "file": "models/canberra-parliament-house.glb",
+  "source": "generators/canberra-parliament-house.ts"
+}

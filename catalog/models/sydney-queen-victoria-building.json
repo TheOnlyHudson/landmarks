@@ -1,0 +1,70 @@
+{
+  "id": "sydney-queen-victoria-building",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "romanesque-revival",
+    "shopping",
+    "dome"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/sydney-queen-victoria-building.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sydney (AU), View from Sydney Tower, Queen Victoria Building -- 2019 -- 3153.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_View_from_Sydney_Tower,_Queen_Victoria_Building_--_2019_--_3153.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney (AU), Queen Victoria Building -- 2019 -- 3580.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Queen_Victoria_Building_--_2019_--_3580.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney (AU), View from Sydney Tower, Queen Victoria Building -- 2019 -- 3127.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_View_from_Sydney_Tower,_Queen_Victoria_Building_--_2019_--_3127.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney Queen Victoria Building seen from the northeast.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Queen_Victoria_Building_seen_from_the_northeast.jpg",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Southern end of the Queen Victoria Building, Sydney, July 2005.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Southern_end_of_the_Queen_Victoria_Building,_Sydney,_July_2005.jpg",
+      "author": "Skyring",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Queen Victoria Building on George Street, Sydney.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_Building_on_George_Street,_Sydney.jpg",
+      "author": "MDRX",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/sydney-queen-victoria-building.glb",
+  "source": "generators/sydney-queen-victoria-building.ts"
+}

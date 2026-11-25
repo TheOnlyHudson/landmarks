@@ -1,0 +1,125 @@
+{
+  "id": "sydney-harbour-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "arch-bridge",
+    "steel-truss",
+    "historic",
+    "heritage-listed"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/sydney-harbour-bridge.detail.glb",
+  "detailZoom": 16,
+  "wikidata": "Q54495",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sydney (AU), Harbour Bridge -- 2019 -- 2179",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Harbour_Bridge_--_2019_--_2179.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney (AU), Harbour Bridge -- 2019 -- 2975",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Harbour_Bridge_--_2019_--_2975.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney (AU), Harbour Bridge -- 2019 -- 2190",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Harbour_Bridge_--_2019_--_2190.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney (AU), Harbour Bridge -- 2019 -- 2113",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Harbour_Bridge_--_2019_--_2113.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney (AU), Harbour Bridge -- 2019 -- 2114",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Harbour_Bridge_--_2019_--_2114.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney (AU), Harbour Bridge -- 2019 -- 2881",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Harbour_Bridge_--_2019_--_2881.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney Harbour Bridge 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge_01.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Sydney Harbour Bridge seen from the observatory",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge_seen_from_the_observatory.jpg",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney Harbour Bridge hinge",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge_hinge.jpg",
+      "author": "Martinvl",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "The Sydney Harbour Bridge from Milsons Point September 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Sydney_Harbour_Bridge_from_Milsons_Point_September_2024.jpg",
+      "author": "Servite et contribuere",
+      "license": "CC0"
+    },
+    {
+      "title": "Sydney Harbour Bridge during day",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge_during_day.jpg",
+      "author": "thinkrorbot",
+      "license": "Public domain"
+    },
+    {
+      "title": "Sydney Harbour Bridge from Circular Quay",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge_from_Circular_Quay.jpg",
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Southern approach to Sydney Harbour Bridge from the water, 1929",
+      "url": "https://commons.wikimedia.org/wiki/File:Southern_approach_to_Sydney_Harbour_Bridge_from_the_water,_1929_(8283751688).jpg",
+      "author": "Powerhouse Museum",
+      "license": "Public domain"
+    },
+    {
+      "title": "Southern approach to the Sydney Harbour Bridge, 1931",
+      "url": "https://commons.wikimedia.org/wiki/File:Southern_approach_to_the_Sydney_Harbour_Bridge,_1931_(8283750802).jpg",
+      "author": "Powerhouse Museum",
+      "license": "Public domain"
+    },
+    {
+      "title": "Sydney Harbour Bridge Transverse Archways through Pylon Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge_Transverse_Archways_through_Pylon_Tower_(6994931733).jpg",
+      "author": "Photographic Collection from Australia",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/sydney-harbour-bridge.glb",
+  "source": "generators/sydney-harbour-bridge.ts"
+}

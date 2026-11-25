@@ -1,0 +1,71 @@
+{
+  "id": "brisbane-story-bridge",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "bridge",
+  "tags": [
+    "cantilever-bridge",
+    "steel-truss",
+    "historic",
+    "heritage-listed"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/brisbane-story-bridge.detail.glb",
+  "detailZoom": 16,
+  "wikidata": "Q914048",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Story Bridge Panorama",
+      "url": "https://commons.wikimedia.org/wiki/File:Story_Bridge_Panorama.jpg",
+      "author": "Cyron Ray Macey",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Brisbane Story Bridge (IMG05653)",
+      "url": "https://commons.wikimedia.org/wiki/File:Brisbane_Story_Bridge_(IMG05653).jpg",
+      "author": "Andrew Mercer",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Storey Bridge and Brisbane CBD May 2013",
+      "url": "https://commons.wikimedia.org/wiki/File:Storey_Bridge_and_Brisbane_CBD_May_2013.JPG",
+      "author": "Lachlan Fearnley",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Story Bridge at night, Brisbane 05",
+      "url": "https://commons.wikimedia.org/wiki/File:Story_Bridge_at_night,_Brisbane_05.jpg",
+      "author": "Kgbo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Story Bridge Cropped - Flickr - Fishyone1",
+      "url": "https://commons.wikimedia.org/wiki/File:Story_Bridge_Cropped_-_Flickr_-_Fishyone1.jpg",
+      "author": "Andrew Sutherland",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "title": "Story Bridge from Goodwill Bridge Brisbane P1180671",
+      "url": "https://commons.wikimedia.org/wiki/File:Story_Bridge_from_Goodwill_Bridge_Brisbane_P1180671.jpg",
+      "author": "John Robert McPherson",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/brisbane-story-bridge.glb",
+  "source": "generators/brisbane-story-bridge.ts"
+}

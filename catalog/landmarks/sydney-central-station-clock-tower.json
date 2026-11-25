@@ -1,0 +1,18 @@
+{
+  "id": "sydney-central-station-clock-tower",
+  "name": "Central Station",
+  "model": "sydney-central-station-clock-tower",
+  "place": "sydney",
+  "lng": 151.2067683,
+  "lat": -33.8827054,
+  "bearing": 33.1,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/16748116",
+    "way/506597798",
+    "way/400070125",
+    "way/400071806",
+    "way/1119721172"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "melbourne-eureka-tower",
+  "detail": "models/melbourne-eureka-tower.detail.glb",
+  "detailZoom": 16,
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "skyscraper",
+    "residential",
+    "observation-deck"
+  ],
+  "reviewStatus": "unreviewed",
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Eureka Tower, Melbourne, 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:Eureka_Tower,_Melbourne,_2024.jpg",
+      "author": "Kgbo",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Eureka Tower (top), Melbourne 2017-10-30",
+      "url": "https://commons.wikimedia.org/wiki/File:Eureka_Tower_(top),_Melbourne_2017-10-30.jpg",
+      "author": "Crisco 1492",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Eureka Tower from the Shrine of Remembrance",
+      "url": "https://commons.wikimedia.org/wiki/File:Eureka_Tower_from_the_Shrine_of_Remembrance_20180726-027.jpg",
+      "author": "Gary Houston",
+      "license": "CC0"
+    },
+    {
+      "title": "Eureka Tower in Melbourne, Australia",
+      "url": "https://commons.wikimedia.org/wiki/File:Eureka_Tower_in_Melbourne,_Australia.jpg",
+      "author": "Matthew T Rader",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Melbourne (AU), Flinders Street Railway Station -- 2019 -- 1583",
+      "url": "https://commons.wikimedia.org/wiki/File:Melbourne_(AU),_Flinders_Street_Railway_Station_--_2019_--_1583.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/melbourne-eureka-tower.glb",
+  "source": "generators/melbourne-eureka-tower.ts"
+}

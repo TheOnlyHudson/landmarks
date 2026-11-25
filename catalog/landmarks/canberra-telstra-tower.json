@@ -1,0 +1,15 @@
+{
+  "id": "canberra-telstra-tower",
+  "name": "Telstra Tower",
+  "model": "canberra-telstra-tower",
+  "place": "canberra",
+  "lng": 149.097773,
+  "lat": -35.275535,
+  "bearing": 0,
+  "elevation": 0,
+  "minzoom": 13,
+  "replaces": [
+    "way/37693613",
+    "way/653355549"
+  ]
+}

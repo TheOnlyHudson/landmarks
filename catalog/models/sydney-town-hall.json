@@ -1,0 +1,64 @@
+{
+  "id": "sydney-town-hall",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "historic",
+    "town-hall",
+    "second-empire",
+    "clock-tower"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/sydney-town-hall.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sydney (AU), View from Sydney Tower, Town Hall -- 2019 -- 3161.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_View_from_Sydney_Tower,_Town_Hall_--_2019_--_3161.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney Town Hall.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Town_Hall.jpg",
+      "author": "JustARandomEditor123",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney Town Hall MG 3712 (27151685103).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Town_Hall_MG_3712_(27151685103).jpg",
+      "author": "Tibor Kovacs",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Sydney Town Hall clock tower, 2022 (01).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Town_Hall_clock_tower,_2022_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Sydney Town Hall dusk 001a.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Town_Hall_dusk_001a.jpg",
+      "author": "Sardaka",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "file": "models/sydney-town-hall.glb",
+  "source": "generators/sydney-town-hall.ts"
+}

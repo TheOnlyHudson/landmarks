@@ -1,0 +1,70 @@
+{
+  "id": "wellington-old-st-pauls",
+  "license": "CC0-1.0",
+  "collection": "landmarks",
+  "type": "building",
+  "tags": [
+    "church",
+    "historic",
+    "gothic-revival",
+    "timber"
+  ],
+  "reviewStatus": "unreviewed",
+  "detail": "models/wellington-old-st-pauls.detail.glb",
+  "detailZoom": 16,
+  "credits": [
+    {
+      "name": "OnlyHudson",
+      "kind": "person",
+      "role": "creator",
+      "github": "TheOnlyHudson"
+    },
+    {
+      "name": "Claude",
+      "kind": "ai",
+      "role": "procedural modeling",
+      "model": "Claude Opus 5.5",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "references": [
+    {
+      "title": "Old St Paul's church, Wellington, 2016-01-25-7.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_St_Paul's_church,_Wellington,_2016-01-25-7.jpg",
+      "author": "Szilas",
+      "license": "Public domain"
+    },
+    {
+      "title": "Old St Paul's 2 (31400107880).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_St_Paul's_2_(31400107880).jpg",
+      "author": "Tony Hisgett",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Old St Paul's 3 (31772383835).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_St_Paul's_3_(31772383835).jpg",
+      "author": "Tony Hisgett",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Old St Paul's church, Wellington, 2011-02-06.jpg (5943136295).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_St_Paul's_church,_Wellington,_2011-02-06.jpg_(5943136295).jpg",
+      "author": "Bruce Tuten",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Old St. Paul's, Wellington 6249.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_St._Paul's,_Wellington_6249.jpg",
+      "author": "Bruce Tuten",
+      "license": "CC BY 2.0"
+    },
+    {
+      "title": "Old St Paul's 1 (31656344101).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_St_Paul's_1_(31656344101).jpg",
+      "author": "Tony Hisgett",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "file": "models/wellington-old-st-pauls.glb",
+  "source": "generators/wellington-old-st-pauls.ts"
+}
