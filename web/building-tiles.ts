@@ -21,9 +21,14 @@ export class BuildingTiles {
   readonly sourceId = 'landmark-buildings'
 
   constructor(private map: LibreMap, private ids: (asset: Asset) => number[]) {
-    const basemap = map.getSource('openmaptiles') as VectorTileSource
-    const template = basemap.tiles[0]
+    // The basemap's tile URL comes from its TileJSON, which can fail to load
+    // (a network or blocker that stops tiles.openfreemap.org/planet). Read it
+    // per request, so a missing basemap costs only the building tiles and not
+    // the markers and models set up after this.
+    const basemap = map.getSource('openmaptiles') as VectorTileSource | undefined
     addProtocol(protocol, async (params, controller) => {
+      const template = basemap?.tiles?.[0]
+      if (!template) throw new Error('Buildings: the basemap tiles are unavailable')
       const url = new URL(params.url)
       const [z, x, y] = url.pathname.slice(1).replace('.pbf', '').split('/').map(Number)
       const rawUrl = template.replace('{z}', String(z)).replace('{x}', String(x)).replace('{y}', String(y))
@@ -47,7 +52,7 @@ export class BuildingTiles {
       return { data: output.buffer as ArrayBuffer }
     })
     map.addSource(this.sourceId, { type: 'vector', tiles: [this.template()], minzoom: 14,
-      maxzoom: basemap.maxzoom })
+      maxzoom: basemap?.tiles ? basemap.maxzoom : 14 })
     // Keep the basemap's original flat buildings below the model zoom. Above
     // it, use the rewritten polygons for both the ground fill and extrusion.
     for (const layer of map.getStyle().layers) {
