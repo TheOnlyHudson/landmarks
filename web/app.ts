@@ -653,14 +653,21 @@ async function init() {
     // Set while some bridges couldn't be raised; kept over the idle that clears tile messages.
     let deckMessage = ''
     const terrainMessage = 'Terrain tiles could not load, so the map is drawn flat here. Refresh to retry.'
+    // Some ad blockers block everything under tiles.openfreemap.org/planet,
+    // which leaves a blank map with no streets, water or labels.
+    let basemapFailed = false
+    const basemapMessage = 'Streets and labels could not load. If you use an ad blocker, allow tiles.openfreemap.org (this site has no ads) and refresh.'
+    const status = () => basemapFailed ? basemapMessage : terrainFailed ? terrainMessage : ''
     map.on('error', event => {
       console.error(event.error)
       $('map-status').title = event.error.message
-      terrainFailed ||= isTerrainSource((event as { sourceId?: string }).sourceId)
-      $('map-status').textContent = terrainFailed ? terrainMessage : 'Some map tiles could not load. You can still browse the collection and preview models.'
+      const sourceId = (event as { sourceId?: string }).sourceId
+      terrainFailed ||= isTerrainSource(sourceId)
+      basemapFailed ||= sourceId === 'openmaptiles' || /tiles\.openfreemap\.org\/planet/.test((event.error as { url?: string }).url ?? '')
+      $('map-status').textContent = status() || 'Some map tiles could not load. You can still browse the collection and preview models.'
     })
     map.on('data', event => { if (terrainFailed && event.dataType === 'source' && 'tile' in event && isTerrainSource((event as { sourceId?: string }).sourceId)) terrainFailed = false })
-    map.on('idle', () => { if (map!.areTilesLoaded()) $('map-status').textContent = terrainFailed ? terrainMessage : deckMessage })
+    map.on('idle', () => { if (map!.areTilesLoaded()) $('map-status').textContent = status() || deckMessage })
     map.on('load', () => {
       addTerrain(map!)
       // Bridge decks from OpenFreeMap's bridge ways and the terrain; a shown landmark's own deck stands in for the ways it replaces.
@@ -712,7 +719,7 @@ async function init() {
       themeTerrain(map!, dark)
       modelLayer.setNight(dark)
       deckLayer.setNight(dark)
-      $('map-status').textContent = ''
+      $('map-status').textContent = status()
     })
   } catch {
     $('map-status').textContent = 'The map needs WebGL support. You can still search the collection and download models.'
