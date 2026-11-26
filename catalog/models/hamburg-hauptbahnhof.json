@@ -1,6 +1,8 @@
 {
   "id": "hamburg-hauptbahnhof",
   "file": "models/hamburg-hauptbahnhof.glb",
+  "detail": "models/hamburg-hauptbahnhof.detail.glb",
+  "detailZoom": 16,
   "source": "generators/hamburg-hauptbahnhof.ts",
   "license": "CC0-1.0",
   "collection": "landmarks",
@@ -81,6 +83,54 @@
       "url": "https://commons.wikimedia.org/wiki/File:Hamburg_Hauptbahnhof_P1060528.JPG",
       "author": "Gunnar Ries Amphibol",
       "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Exterior Hamburg Hauptbahnhof, 2019 (02)",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_Hamburg_Hauptbahnhof,_2019_(02).jpg",
+      "author": "Bahnfrend",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Exterior Hamburg Hauptbahnhof, 2019 (01)",
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_Hamburg_Hauptbahnhof,_2019_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "2022-09-20-Vordach-Wandelhalle-Hauptbahnhof-Hamburg",
+      "url": "https://commons.wikimedia.org/wiki/File:2022-09-20-Vordach-Wandelhalle-Hauptbahnhof-Hamburg.jpg",
+      "author": "Gunnar Klack",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hbf.Hamburg - panoramio",
+      "url": "https://commons.wikimedia.org/wiki/File:Hbf.Hamburg_-_panoramio.jpg",
+      "author": "hh oldman",
+      "license": "CC BY 3.0"
+    },
+    {
+      "title": "20230317 Hamburg Hauptbahnhof 01",
+      "url": "https://commons.wikimedia.org/wiki/File:20230317_Hamburg_Hauptbahnhof_01.jpg",
+      "author": "Flocci Nivis",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Hamburg Hauptbahnhof canopy",
+      "url": "https://commons.wikimedia.org/wiki/File:Hamburg_Hauptbahnhof_canopy.jpg",
+      "author": "JIP",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Hauptbahnhof Hamburg 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Hauptbahnhof_Hamburg_03.jpg",
+      "author": "Llez",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Hamburg Hauptbahnhof (15297411323)",
+      "url": "https://commons.wikimedia.org/wiki/File:Hamburg_Hauptbahnhof_(15297411323).jpg",
+      "author": "Tony Webster from Portland, Oregon, United States",
+      "license": "CC BY 2.0"
     }
   ]
 }
