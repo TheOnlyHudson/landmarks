@@ -1,0 +1,19 @@
+{
+  "id": "dubai-dxb-terminal-3",
+  "name": "Dubai International Airport Terminal 3 and Concourse B",
+  "model": "dubai-dxb-terminal-3",
+  "place": "dubai",
+  "lng": 55.3617236,
+  "lat": 25.2483769,
+  "bearing": 30.65,
+  "elevation": 0,
+  "minzoom": 14,
+  "replaces": [
+    "way/87185819",
+    "way/264966382",
+    "way/742271052",
+    "way/98425182",
+    "way/1360329006"
+  ],
+  "wikidata": "Q58880305"
+}
