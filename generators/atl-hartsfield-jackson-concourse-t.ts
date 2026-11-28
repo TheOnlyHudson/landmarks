@@ -111,7 +111,7 @@ export function jetsOf(jets: XY[][], outlines: XY[][], k: number) {
 }
 
 /** Move every part so (ox, oy) in the site frame is the origin. Part.pos is in the glTF frame (x, z, -y). */
-export function moveTo(parts: Array<{ part: Part }>, ox: number, oy: number) {
+export function moveTo<T extends { part: Part }>(parts: T[], ox: number, oy: number): T[] {
   for (const { part } of parts) for (let i = 0; i < part.pos.length; i += 3) { part.pos[i] -= ox; part.pos[i + 2] += oy }
   return parts
 }
