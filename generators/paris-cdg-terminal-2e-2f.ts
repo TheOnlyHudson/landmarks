@@ -68,7 +68,7 @@ import { type V3 } from './mesh'
 import { type XY, quadN, unit, capPoly } from './nyc-570-lexington'
 import { prismRing, writeLod, newMats, ccw, simplify, despur, jetBridges, type Mats } from './tokyo-haneda-terminal-1'
 import { CDG, plane, glassBlock, frustum } from './paris-cdg-terminal-1'
-import { bandCuts } from './paris-cdg-terminal-2a-2d'
+import { bandCuts } from './paris-cdg-terminal-2a-2c'
 
 const G_N = 12.4, G_K = 11.4
 

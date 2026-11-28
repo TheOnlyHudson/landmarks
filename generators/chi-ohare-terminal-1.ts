@@ -1,20 +1,30 @@
 /**
  * Chicago O'Hare International Airport (ORD): Terminal 1, United's
- * terminal by Helmut Jahn (Murphy/Jahn), 1987: Concourse B with its long
- * glass-and-white-steel barrel vault and the ticketing pavilion beside it,
- * Concourse C on the apron with its own vault, the curb canopy and the
- * bridge to the ATS station — procedural, CC0-1.0, no textures.
+ * terminal by Helmut Jahn (Murphy/Jahn), 1987. Two freestanding buildings,
+ * joined only by the tunnel under the apron, so two models — procedural,
+ * CC0-1.0, no textures:
+ * - chi-ohare-terminal-1 ("O'Hare Terminal 1 and Concourse B"): Concourse B
+ *   with its long glass-and-white-steel barrel vault, the ticketing
+ *   pavilion beside it, the curb canopy and the bridge to the ATS station.
+ *   Anchor = area centroid of way/163500139 and way/163500101:
+ *   -87.9065055, 41.9793163.
+ * - chi-ohare-terminal-1-concourse-c ("O'Hare Terminal 1 Concourse C"):
+ *   Concourse C on the apron with its own vault. Anchor = area centroid of
+ *   the joined ring of relation/13749364: -87.9103406, 41.9787727.
  *
  *   bun generators/chi-ohare-terminal-1.ts
  *
- * Writes models/chi-ohare-terminal-1.glb (low) and .detail.glb (vault ribs
- * at the real rhythm, every jet bridge leg, mullions). Uses the ORD kit in
- * chi-ohare-terminal-2.ts.
+ * Writes models/chi-ohare-terminal-1.glb and
+ * chi-ohare-terminal-1-concourse-c.glb (low) and a .detail.glb of each
+ * (vault ribs at the real rhythm, every jet bridge leg, mullions). Uses the
+ * ORD kit in chi-ohare-terminal-2.ts.
  *
  * Map frame: x and y turned to the bearing 8.5° (y runs along the
- * concourses, x across them, +x toward the landside), z up, metres.
- * Anchor = area centroid of way/163500139, way/163500101 and the joined
- * ring of relation/13749364: -87.9081459, 41.9790838.
+ * concourses, x across them, +x toward the landside), z up, metres. Both
+ * are built in one shared frame from the old joint anchor (-87.9081459,
+ * 41.9790838, the centroid of all three outlines) and moved to their own
+ * anchor (ORIGIN_B, ORIGIN_C) as they are written; the lowest point of
+ * each is z = 0, the apron.
  *
  * Identity (photos): two long parallel concourses, B against the landside
  * and C out on the apron, each with a glazed barrel vault down its spine
@@ -25,10 +35,11 @@
  * Evidence
  * - OSM (footprints as mapped; no heights): relation/20666733 (Terminal 1,
  *   outer way/163500139: the ticketing pavilion), way/163500101 (Concourse
- *   B), relation/13749364 (Concourse C: outer ways 163500103 and
- *   1026852501, joined), way/1429454968 (building=roof: the curb canopy),
- *   way/1511154367 (building=bridge to the ATS station), 54
- *   aeroway=jet_bridge ways drawn.
+ *   B), way/1429454968 (building=roof: the curb canopy), way/1511154367
+ *   (building=bridge to the ATS station) for Terminal 1 and Concourse B;
+ *   relation/13749364 (Concourse C: outer ways 163500103 and 1026852501,
+ *   joined) for Concourse C; 54 aeroway=jet_bridge ways drawn, each with
+ *   the concourse it leaves from.
  * - Lidar: USGS 3DEP USGS_LPC_IL_4County_Cook_2017_LAS_2019 (2017), 1 m
  *   grid, above the apron (197.9 m; the map's terrain is flat within 1 m),
  *   traced as rectangles in this frame:
@@ -44,15 +55,18 @@
  *   south-west of C): it is under construction (OSM building=construction,
  *   groundbreaking 2025, opening planned 2028) and is not modelled.
  * - Photos (Wikimedia Commons, EVIDENCE):
+ *   Terminal 1 and Concourse B:
  *   Concourse_B.jpg, commonsabhay, CC BY-SA 4.0 (2021: the pavilion from
  *     the landside: white frame, blue-grey and frosted glass, skylit roof);
+ *   Concourse_B,_Chicago_O'Hare_airport.jpg, Dllu, CC BY-SA 4.0 (inside:
+ *     vault form, white perforated steel arches, glass).
+ *   Concourse C:
  *   OHareExtView.jpg (Wikimedia Commons, see the credits list): Concourse
  *     C's vaults from the apron, white arches and pale green-blue glass;
- *   Chicago_o_hare_delta_N904DA.jpg: B/C vaults beyond T2;
- *   Concourse_B,_Chicago_O'Hare_airport.jpg, Dllu, CC BY-SA 4.0 and
  *   Concourse_C_from_1991.jpg, PhillipC, CC BY 2.0 (inside: vault form,
- *     white perforated steel arches, glass);
- *   At_Chicago_2024_106.jpg, Mike Peel, CC BY-SA 4.0.
+ *     white perforated steel arches, glass).
+ *   Both: Chicago_o_hare_delta_N904DA.jpg: B/C vaults beyond T2;
+ *   At_Chicago_2024_106.jpg, Mike Peel, CC BY-SA 4.0 (aerial).
  *   USGS NAIP for the plan.
  * - Colours: walls pale warm grey, steel white, vault glass pale blue
  *   (stays dark at night), facade glass mid grey-blue (lit), the
@@ -70,8 +84,12 @@ import { newParts, body, raised, canopy, bridges, glassVault, materials, clipToR
 import { Part, type V3 } from './mesh'
 import { windowVariant } from './palette'
 
-// OSM data for T1, local frame (turned to the bearing 8.5): x model east, y model north, metres from the anchor -87.9081459, 41.9790838
+// OSM data for T1, shared frame (turned to the bearing 8.5): x model east, y model north, metres from the old shared anchor -87.9081459, 41.9790838;
+// each model is moved to its own anchor (ORIGIN_B, ORIGIN_C) when written
 export const ANCHOR = { lng: -87.9081459, lat: 41.9790838 }
+/** Each model's own anchor, in this frame: B = area centroid of way/163500139 and way/163500101; C = of relation/13749364's joined ring. */
+export const ANCHOR_B = { lng: -87.9065055, lat: 41.9793163 }, ORIGIN_B: XY = [130.46, 45.49]
+export const ANCHOR_C = { lng: -87.9103406, lat: 41.9787727 }, ORIGIN_C: XY = [-174.54, -60.86]
 export const OSM: Record<string, XY[]> = {
   'way/163500139': [[163.0,14.0],[163.0,13.5],[162.9,12.8],[162.9,11.9],[162.9,10.6],[162.8,9.4],[162.8,8.2],[162.8,7.5],[162.8,7.0],[162.7,5.6],[162.3,-18.7],[162.3,-19.2],[162.3,-19.9],[162.3,-20.7],[162.3,-21.5],[162.3,-24.3],[162.3,-25.7],[162.3,-25.8],[162.3,-27.4],[162.2,-30.8],[162.2,-31.4],[162.2,-32.0],[162.2,-32.6],[162.1,-33.3],[161.6,-58.0],[161.5,-62.2],[161.5,-62.4],[161.4,-67.0],[160.9,-94.3],[160.7,-98.8],[160.7,-99.1],[160.7,-103.5],[160.8,-108.5],[161.3,-112.7],[153.0,-112.6],[148.7,-112.4],[148.1,-112.4],[144.6,-112.4],[140.4,-112.3],[140.4,-118.3],[140.2,-124.8],[140.5,-128.6],[140.8,-132.2],[142.9,-144.0],[144.3,-148.5],[143.5,-148.5],[137.0,-148.7],[127.7,-148.4],[115.3,-147.9],[116.8,-116.3],[117.0,-111.7],[117.0,-110.8],[117.0,-109.8],[117.0,-109.1],[117.0,-108.4],[117.1,-106.8],[117.1,-102.8],[117.2,-101.2],[117.4,-84.2],[117.6,-76.0],[117.7,-73.8],[117.7,-73.0],[117.8,-70.2],[117.8,-67.0],[117.9,-56.9],[118.2,-42.7],[118.5,-29.3],[118.7,-15.7],[118.8,-11.7],[118.9,-2.7],[119.0,7.5],[119.1,8.4],[119.1,9.1],[119.1,11.3],[119.2,13.6],[119.2,14.4],[119.2,15.2],[119.4,24.9],[119.5,33.6],[119.6,39.0],[119.9,52.3],[120.1,66.0],[120.3,79.3],[120.6,92.9],[120.8,107.0],[121.1,120.4],[121.1,125.0],[121.2,125.4],[121.2,126.1],[121.2,128.7],[121.2,130.5],[121.3,131.3],[121.3,132.0],[121.3,132.9],[121.3,133.7],[122.0,133.7],[135.0,133.6],[143.5,133.5],[151.6,133.4],[157.9,133.4],[165.4,133.3],[165.3,124.2],[165.2,119.6],[165.2,119.5],[165.1,115.0],[164.6,90.9],[164.5,90.2],[164.5,89.4],[164.5,88.6],[164.5,87.9],[164.5,85.0],[164.4,83.3],[164.4,83.3],[164.5,81.9],[164.3,78.8],[164.3,78.1],[164.3,77.4],[164.2,76.7],[164.2,75.9],[163.7,51.8],[163.7,47.0],[163.7,46.8],[163.7,42.3],[163.0,15.7]],
   'way/163500101': [[94.1,-212.3],[93.9,-209.9],[93.9,-208.9],[94.3,-186.6],[94.3,-185.5],[94.4,-183.8],[94.5,-175.7],[94.9,-157.5],[94.9,-155.9],[94.9,-154.4],[95.4,-127.5],[95.5,-122.0],[95.6,-117.5],[95.7,-116.1],[95.7,-114.6],[95.8,-110.0],[95.9,-106.4],[95.9,-105.6],[95.9,-103.1],[96.0,-97.8],[96.3,-80.2],[96.4,-73.9],[96.6,-67.0],[96.7,-59.4],[96.7,-58.0],[96.9,-52.5],[97.1,-47.9],[97.0,-43.3],[97.5,-28.5],[97.6,-21.5],[97.7,-10.9],[97.7,-9.5],[97.7,-8.4],[97.8,-2.7],[98.0,6.6],[79.3,6.7],[79.4,13.7],[79.4,15.5],[79.4,17.5],[98.2,17.2],[98.3,19.8],[90.8,19.9],[90.9,26.7],[98.4,26.7],[98.6,34.7],[98.7,42.4],[98.9,52.5],[98.9,54.0],[99.0,55.5],[99.0,58.9],[99.1,60.1],[99.1,65.8],[99.9,104.6],[100.0,106.1],[100.0,107.8],[100.1,114.8],[100.3,124.3],[100.5,134.6],[100.5,135.9],[100.6,137.2],[100.6,141.7],[100.7,144.3],[100.8,151.7],[101.1,165.1],[101.1,166.1],[101.1,167.2],[101.5,176.7],[101.5,177.6],[101.6,179.9],[101.6,183.5],[101.7,198.2],[102.3,225.5],[102.3,228.4],[102.7,249.0],[102.8,253.6],[103.3,279.4],[103.3,281.1],[103.7,283.4],[104.6,285.8],[106.2,288.4],[106.7,289.0],[108.2,290.9],[110.8,293.1],[112.1,293.5],[113.5,294.0],[113.9,294.2],[114.8,294.5],[116.1,295.0],[121.1,294.9],[125.7,293.3],[128.0,291.7],[128.8,291.1],[131.2,288.5],[132.4,286.5],[132.4,286.3],[132.9,284.2],[132.9,283.4],[133.2,280.6],[168.5,280.2],[172.7,287.6],[166.6,291.5],[171.0,297.6],[175.6,303.5],[177.3,305.6],[183.7,312.1],[193.8,320.5],[206.7,328.5],[211.8,331.2],[215.2,333.0],[217.8,334.4],[221.1,336.1],[226.2,338.8],[239.6,345.9],[242.3,346.6],[245.3,346.4],[247.4,345.7],[249.0,344.6],[249.7,343.7],[250.3,342.8],[251.2,341.2],[251.3,340.2],[251.4,339.3],[251.4,337.9],[250.3,334.8],[247.8,332.2],[244.8,330.6],[239.1,327.6],[222.0,318.7],[221.1,320.1],[215.0,316.6],[211.8,314.6],[200.9,308.2],[197.0,304.9],[193.9,302.3],[185.3,293.0],[178.8,283.9],[173.5,274.0],[170.2,265.9],[168.2,258.2],[166.8,250.6],[165.6,248.1],[164.3,247.1],[162.1,246.9],[160.4,247.4],[159.3,249.3],[159.2,250.9],[153.9,251.2],[138.3,251.4],[133.0,251.5],[133.0,243.2],[132.9,234.7],[132.7,223.6],[132.7,216.3],[132.6,211.3],[132.5,206.0],[123.6,206.2],[121.3,133.7],[121.3,132.9],[121.3,132.0],[121.3,131.3],[121.2,130.5],[121.2,128.7],[121.2,126.1],[121.2,125.4],[121.1,125.0],[121.1,120.4],[120.8,107.0],[120.6,92.9],[120.3,79.3],[120.1,66.0],[119.9,52.3],[119.6,39.0],[119.5,33.6],[119.4,24.9],[119.2,15.2],[119.2,14.4],[119.2,13.6],[119.1,11.3],[119.1,9.1],[119.1,8.4],[119.0,7.5],[118.9,-2.7],[118.8,-11.7],[118.7,-15.7],[118.5,-29.3],[118.2,-42.7],[117.9,-56.9],[117.8,-67.0],[117.8,-70.2],[117.7,-73.0],[117.7,-73.8],[117.6,-76.0],[117.4,-84.2],[117.2,-101.2],[117.1,-102.8],[117.1,-106.8],[117.0,-108.4],[117.0,-109.1],[117.0,-109.8],[117.0,-110.8],[117.0,-111.7],[116.8,-116.3],[115.3,-147.9],[115.1,-155.8],[124.8,-156.1],[124.8,-157.8],[124.7,-166.3],[124.5,-177.0],[124.3,-189.2],[124.1,-202.1],[124.0,-203.5],[124.0,-207.3],[123.9,-209.9],[123.7,-212.9],[123.3,-216.3],[120.9,-220.9],[118.1,-223.8],[114.3,-225.9],[110.2,-226.8],[106.0,-226.7],[103.5,-225.9],[101.5,-225.3],[97.8,-222.0],[97.2,-221.2],[95.7,-219.1],[94.9,-217.1],[94.4,-214.7]],
@@ -120,9 +138,18 @@ function glassArch(P: Parts, c: XY, u: XY, w: number, z0: number, rise: number) 
   }
 }
 
-export function build(detail: boolean) {
+/** Move a model's parts by -o in the map frame (Part stores glTF x, z = -y), so its own anchor is the origin. */
+function shift<T extends { part: Part }>(parts: T[], o: XY): T[] {
+  for (const part of new Set(parts.map((q) => q.part))) for (let i = 0; i < part.pos.length; i += 3) { part.pos[i] -= o[0]; part.pos[i + 2] += o[1] }
+  return parts
+}
+/** The jet bridges at each concourse: B's (and the pavilion's) have x > 0, C's x < 0. */
+const onB = (l: XY[]) => l[0][0] > 0
+
+/** Terminal 1 and Concourse B: the concourse and its vault, the ticketing pavilion, the ATS bridge and the curb canopy. */
+export function buildB(detail: boolean) {
   const P = newParts(), G3 = new Part() // the pavilion's pale frosted glass (lit at night)
-  const B = OSM['way/163500101'], C = OSM['relation/13749364'], HALL = OSM['way/163500139']
+  const B = OSM['way/163500101'], HALL = OSM['way/163500139']
   const ribs = detail ? 6 : 18
 
   // --- Concourse B: gate wings, the concourse, the north block, the vault
@@ -153,13 +180,6 @@ export function build(detail: boolean) {
     }
   }
 
-  // --- Concourse C: gates, spine, vault (taller over the middle)
-  body(P, C, 9.8, { detail })
-  raised(P, C, { h: 12.2, rect: R(-186, -158, -122, 16) }, 9.8, { wall: P.wall, glaze: [10.3, 11.7], detail })
-  vaultRun(P, [-166.5, -128], [-164.5, 22], 10, 12.2, 12.2, 2.8, detail, ribs)
-  vaultRun(P, [-168.6, -251], [-166.5, -128], 10, 9.8, 9.9, 2.3, detail, ribs)
-  vaultRun(P, [-164.5, 22], [-162.2, 145], 10, 9.8, 9.9, 2.3, detail, ribs)
-
   // --- the ATS bridge and the curb canopy
   {
     const r = clean(OSM['way/1511154367'], 0.4)
@@ -168,12 +188,27 @@ export function build(detail: boolean) {
     for (let i = 0; i < r.length; i++) { const a = r[i], b = r[(i + 1) % r.length]; if (Math.hypot(b[0] - a[0], b[1] - a[1]) > 10) panelRow(P.win, a, b, 9.4, 13.6, { bay: 6, gap: 0.8, end: 0.6 }) }
   }
   canopy(P, OSM['way/1429454968'], Z_CANOPY, { step: detail ? 14 : 26 })
-  bridges(P, JET_BRIDGES, Z_JB, detail)
-  return [...materials(P), { part: G3, material: windowVariant(3, 0xa9c4c6) }]
+  bridges(P, JET_BRIDGES.filter(onB), Z_JB, detail)
+  return shift([...materials(P), { part: G3, material: windowVariant(3, 0xa9c4c6) }], ORIGIN_B)
+}
+
+/** Concourse C, across the apron (reached by the tunnel): gates, spine, vault (taller over the middle). */
+export function buildC(detail: boolean) {
+  const P = newParts(), C = OSM['relation/13749364']
+  const ribs = detail ? 6 : 18
+  body(P, C, 9.8, { detail })
+  raised(P, C, { h: 12.2, rect: R(-186, -158, -122, 16) }, 9.8, { wall: P.wall, glaze: [10.3, 11.7], detail })
+  vaultRun(P, [-166.5, -128], [-164.5, 22], 10, 12.2, 12.2, 2.8, detail, ribs)
+  vaultRun(P, [-168.6, -251], [-166.5, -128], 10, 9.8, 9.9, 2.3, detail, ribs)
+  vaultRun(P, [-164.5, 22], [-162.2, 145], 10, 9.8, 9.9, 2.3, detail, ribs)
+  bridges(P, JET_BRIDGES.filter((l) => !onB(l)), Z_JB, detail)
+  return shift(materials(P), ORIGIN_C)
 }
 
 if (import.meta.main) {
-  const o = { bearing: 8.5, height: 18.8 }
-  await writeModel('chi-ohare-terminal-1.glb', "O'Hare Terminal 1", build(false), { ...o, maxTris: 8000, maxBytes: 250_000 })
-  await writeModel('chi-ohare-terminal-1.detail.glb', "O'Hare Terminal 1", build(true), { ...o, maxTris: 40_000, maxBytes: 1536 * 1024 })
+  const b = { bearing: 8.5, height: 18.8 }, c = { bearing: 8.5, height: 15.0 }
+  await writeModel('chi-ohare-terminal-1.glb', "O'Hare Terminal 1 and Concourse B", buildB(false), { ...b, maxTris: 8000, maxBytes: 250_000 })
+  await writeModel('chi-ohare-terminal-1.detail.glb', "O'Hare Terminal 1 and Concourse B", buildB(true), { ...b, maxTris: 40_000, maxBytes: 1536 * 1024 })
+  await writeModel('chi-ohare-terminal-1-concourse-c.glb', "O'Hare Terminal 1 Concourse C", buildC(false), { ...c, maxTris: 8000, maxBytes: 250_000 })
+  await writeModel('chi-ohare-terminal-1-concourse-c.detail.glb', "O'Hare Terminal 1 Concourse C", buildC(true), { ...c, maxTris: 40_000, maxBytes: 1536 * 1024 })
 }

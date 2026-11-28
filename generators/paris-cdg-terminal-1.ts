@@ -7,19 +7,36 @@
  * CC0-1.0, no textures.
  * bun generators/paris-cdg-terminal-1.ts
  *
- * Writes models/paris-cdg-terminal-1.glb (low) and
- * models/paris-cdg-terminal-1.detail.glb (detail: the whole landmark again,
- * with the drum's band joints, the rooftop ramp houses' openings, more
- * piers' and tubes' segments, satellite mullions and the jet bridges).
+ * Writes five models, one per freestanding building (the satellites are
+ * reached from the drum only by underground passages), each as a low GLB
+ * and a `.detail.glb` (the detail level adds the drum's band joints, the
+ * rooftop ramp houses' openings, more piers' and tubes' segments, satellite
+ * mullions and the jet bridges' columns):
+ * - paris-cdg-terminal-1: the drum, its court and tubes, the piers and the
+ *   trench pavilion. Anchor: the area centroid of the drum's OSM outline
+ *   way/171883502 (2.5418484, 49.0144005). y = 0 is the floor of the sunken
+ *   ring the drum stands in (the lower road level).
+ * - paris-cdg-terminal-1-satellites-t-w: satellites T and V and the 2022
+ *   junction ("Satellite U") that joins them into one building (satellites
+ *   Est 1–3), with satellite W, which the glazed footbridge way/1375084073
+ *   joins to V above ground. Anchor: the area centroid of the outlines of
+ *   T, U, V and W together (2.5441783, 49.015269).
+ * - paris-cdg-terminal-1-satellite-x, -y, -z: one satellite each. Anchor:
+ *   the area centroid of its outline (X 2.5394993, 49.0159449; Y 2.5385285,
+ *   49.0145927; Z 2.5391132, 49.0131483).
+ * Each satellite stands on the apron, 12.5 m over the drum's ring floor;
+ * its y = 0 is the apron (the lowest ground under it). The joint model sank
+ * their walls 1.5 m under the apron; split, they start at the apron and
+ * their sills are 1.5 m shorter, so everything over the apron is as before.
+ * Jet bridges go with the satellite whose outline their first point is on.
  *
  * Also the small kit the other CDG models of this batch import (`lathe`,
  * `tube`, `plane`, `extrude`, `frustum`, `jetLine`, `CDG` colours, `glassWall`);
- * the model is only written when this file is run directly.
+ * the models are only written when this file is run directly.
  *
- * Map frame: x = east, y = north, z up, metres. Bearing 0. Anchor: the area
- * centroid of the drum's OSM outline way/171883502 (2.5418484, 49.0144005).
- * y = 0 is the floor of the sunken ring the drum stands in (the lower road
- * level); the apron and the satellites are 12.5 m higher.
+ * Map frame: x = east, y = north, z up, metres. Bearing 0. The OSM data
+ * below are in the drum's frame; each satellite is built there and moved to
+ * its own anchor.
  *
  * Identifying features (photos): the round drum, 188 m across, of ribbed
  * concrete in horizontal bands, standing on sixteen piers whose heads split
@@ -46,11 +63,14 @@
  *   de Gaulle Airport"; ADP). Seven satellites originally, reached through
  *   underground passages; satellites 1–3 joined by a new building (about
  *   290 m long, ~22 m, R+3; pss-archi.eu FR-77282-53957; ADP press, 2022:
- *   36,000 m², reopened December 2022).
+ *   36,000 m², reopened December 2022). fr.wikipedia ("Aéroport de
+ *   Paris-Charles-de-Gaulle") names satellites Est 1 to 3 as T, U and V.
  * - Terrain: Mapterhorn z15 shows the drum in a ring ~12.5 m below the
  *   apron (0–5 m inside r ≈ 80 m against 12.3–13.4 m on the apron), and the
  *   southern road trench; that is y = 0 here.
- * - Photos (Wikimedia Commons / Flickr):
+ * - Photos (Wikimedia Commons / Flickr; in the catalog, the three aerials
+ *   (Citizen59's, Avdeev's, Salard's) are on every model, the rest on the
+ *   drum's):
  *   https://commons.wikimedia.org/wiki/File:Terminal1_CDGParisAirport.jpg
  *     (Citizen59, CC BY 3.0) aerial from the south: the roof plan, ramp
  *     houses, lift towers, the court's collar, the piers and glazed base,
@@ -406,7 +426,7 @@ const TUBES: [number, number, number, number][] = [
   [350, 3.0, 262, 7.5],
 ]
 
-function buildT1(detail: boolean, drumOnly = false) {
+function buildDrum(detail: boolean) {
   const M: Mats = newMats(['con', 'deck', 'win', 'white', 'metal', 'base'])
   const seg = detail ? 96 : 40
 
@@ -507,12 +527,43 @@ function buildT1(detail: boolean, drumOnly = false) {
   // (the seven passage heads, OSM 5–7 m at the ring's edge, sit under the map's terrain there and are left to the map)
   prismRing(M.con, PAV, 0, 3.6, M.deck)
 
-  if (drumOnly) return [
-    { part: M.con, material: T1_CONCRETE }, { part: M.deck, material: CDG.deck }, { part: M.win, material: CDG.window }, { part: M.white, material: CDG.white }, { part: M.metal, material: CDG.metal }, { part: M.base, material: CDG.shade },
-  ]
-  // --- the satellites, on the apron ---
+  return mats(M)
+}
+
+/** The six materials, in the order both levels write them. */
+const mats = (M: Mats) => [
+  { part: M.con, material: T1_CONCRETE },
+  { part: M.deck, material: CDG.deck },
+  { part: M.win, material: CDG.window },
+  { part: M.white, material: CDG.white },
+  { part: M.metal, material: CDG.metal },
+  { part: M.base, material: CDG.shade },
+]
+
+// ===========================================================================
+// The satellites, on the apron
+// ===========================================================================
+
+/** The freestanding satellite buildings (see the header). */
+type Sat = 'satellites-t-w' | 'X' | 'Y' | 'Z'
+
+/** Which satellite each jet bridge belongs to: the one whose outline is nearest its first point. */
+function jetsOf(rings: XY[][]) {
+  const all: [XY[], XY[]][] = [[SAT_T, SAT_T], [SAT_V, SAT_V], [JUNCTION, JUNCTION], [SAT_W, SAT_W], [SAT_X, SAT_X], [SAT_Y, SAT_Y], [SAT_Z, SAT_Z]]
+  const near = (q: XY) => { let best = Infinity, ring: XY[] | null = null; for (const [r] of all) for (const v of r) { const d = Math.hypot(v[0] - q[0], v[1] - q[1]); if (d < best) { best = d; ring = r } } return ring }
+  return JETS.filter((j) => rings.includes(near(j[0])!))
+}
+
+/**
+ * One satellite model, still in the drum's frame: its walls start on the
+ * apron (z = AP, which becomes its own y = 0 when it is moved to its
+ * anchor). The original model sank them 1.5 m below the apron; the sills
+ * here are 1.5 m shorter, so everything above the apron is unchanged.
+ */
+function buildSat(detail: boolean, which: Sat) {
+  const M: Mats = newMats(['con', 'deck', 'win', 'white', 'metal', 'base'])
   const S = { wall: M.con, win: M.win, trim: M.white, roof: M.con }
-  const z0 = AP - 1.5, sill = detail ? 2.0 : 0, rows = detail ? [AP + 3.6] : []
+  const z0 = AP, sill = detail ? 0.5 : 0, rows = detail ? [AP + 3.6] : []
   const bay = detail ? 6 : 12
   const sm = (r: XY[]) => (detail ? r : simplify(ccw(r), 1.2))
   const sat = (body0: XY[], lantern: XY[], low0: XY[][], arms0: [XY[], number][]) => {
@@ -521,41 +572,41 @@ function buildT1(detail: boolean, drumOnly = false) {
     glassBlock(S, lantern, z0, AP + 10, { fascia: 1.6, sill })
     frustum(M.white, lantern, AP + 10, AP + 15, 5.5, M.white)
     for (const r of low) glassBlock(S, r, z0, AP + 7, { fascia: 1.2, sill })
-    for (const [r, h] of arms) glassBlock(S, r, z0, AP + h, { fascia: 1.0, sill: 1.0 })
+    for (const [r, h] of arms) glassBlock(S, r, z0, AP + h, { fascia: 1.0, sill: 0 })
   }
-  sat(W10, W15, [], [[W8, 8], [W4, 4]])
-  sat(X10, X15, [X7], [[X8, 8], [X4, 4]])
-  sat(Y10, Y15, [Y7], [[Y8, 8], [Y4, 4]])
-  sat(Z10, Z15, [Z7], [[Z8, 8], [Z4, 4]])
-  for (const r of [SAT_T, SAT_V]) { // no parts in OSM: body and a lantern over its middle
+  const plain = (r: XY[]) => { // no parts in OSM: body and a lantern over its middle
     const c = centroid(ccw(r)), hull = ccw(r)
     const lan = hull.filter((_, i) => i % 2 === 0).map(([x, y]) => [c[0] + (x - c[0]) * 0.42, c[1] + (y - c[1]) * 0.42] as XY)
     glassBlock(S, sm(r), z0, AP + 10, { fascia: 1.6, sill, bay, rows })
     frustum(M.white, lan, AP + 10, AP + 14, 3, M.white)
   }
-  prismRing(M.con, YB, z0, AP + 4, M.metal)
-  prismRing(M.con, HUT, z0, AP + 3, M.metal)
-
-  // --- the 2022 junction of satellites 1–3, and the footbridge from W ---
-  glassBlock(S, sm(JUNCTION), z0, AP + 20, { fascia: 2.2, sill: 1.5, bay: detail ? 7.5 : 15, rows: detail ? [AP + 6.5, AP + 12.5] : [AP + 9.5] })
-  glassBlock(S, WALK, AP + 4.5, AP + 8.5, { fascia: 0.9, sill: 0.6 })
-  capPoly(M.white, WALK, AP + 4.5, false)
-  for (let t = 0.1; t < 1; t += 0.2) {
-    const a: XY = [-1.9 + (113.5 + 1.9) * t, 217.3 + (186.0 - 217.3) * t + 2.5]
-    prismRing(M.con, [[a[0] - 0.5, a[1] - 0.5], [a[0] + 0.5, a[1] - 0.5], [a[0] + 0.5, a[1] + 0.5], [a[0] - 0.5, a[1] + 0.5]], z0, AP + 4.5, null)
-  }
+  let rings: XY[][]
+  if (which === 'satellites-t-w') {
+    sat(W10, W15, [], [[W8, 8], [W4, 4]])
+    for (const r of [SAT_T, SAT_V]) plain(r)
+    prismRing(M.con, HUT, z0, AP + 3, M.metal)
+    // --- the 2022 junction of satellites 1–3, and the footbridge from W ---
+    glassBlock(S, sm(JUNCTION), z0, AP + 20, { fascia: 2.2, sill: 0, bay: detail ? 7.5 : 15, rows: detail ? [AP + 6.5, AP + 12.5] : [AP + 9.5] })
+    glassBlock(S, WALK, AP + 4.5, AP + 8.5, { fascia: 0.9, sill: 0.6 })
+    capPoly(M.white, WALK, AP + 4.5, false)
+    for (let t = 0.1; t < 1; t += 0.2) {
+      const a: XY = [-1.9 + (113.5 + 1.9) * t, 217.3 + (186.0 - 217.3) * t + 2.5]
+      prismRing(M.con, [[a[0] - 0.5, a[1] - 0.5], [a[0] + 0.5, a[1] - 0.5], [a[0] + 0.5, a[1] + 0.5], [a[0] - 0.5, a[1] + 0.5]], z0, AP + 4.5, null)
+    }
+    rings = [SAT_T, SAT_V, JUNCTION, SAT_W]
+  } else if (which === 'X') { sat(X10, X15, [X7], [[X8, 8], [X4, 4]]); rings = [SAT_X] }
+  else if (which === 'Y') { sat(Y10, Y15, [Y7], [[Y8, 8], [Y4, 4]]); prismRing(M.con, YB, z0, AP + 4, M.metal); rings = [SAT_Y] }
+  else { sat(Z10, Z15, [Z7], [[Z8, 8], [Z4, 4]]); rings = [SAT_Z] }
 
   // --- jet bridges ---
-  for (const j of JETS) jetLine(M.metal, j, AP + 3.6, AP + 6.4, detail ? 3.2 : 3.4, z0, detail ? 8 : 0)
+  for (const j of jetsOf(rings)) jetLine(M.metal, j, AP + 3.6, AP + 6.4, detail ? 3.2 : 3.4, z0, detail ? 8 : 0)
+  return mats(M)
+}
 
-  return [
-    { part: M.con, material: T1_CONCRETE },
-    { part: M.deck, material: CDG.deck },
-    { part: M.win, material: CDG.window },
-    { part: M.white, material: CDG.white },
-    { part: M.metal, material: CDG.metal },
-    { part: M.base, material: CDG.shade },
-  ]
+/** Move built parts (already in glTF's frame) so (east, north, up) = `o` becomes the origin. */
+function moveTo(parts: ReturnType<typeof mats>, o: V3) {
+  for (const { part } of parts) for (let i = 0; i < part.pos.length; i += 3) { part.pos[i] -= o[0]; part.pos[i + 1] -= o[2]; part.pos[i + 2] += o[1] }
+  return parts
 }
 
 /** Closest approach of the tubes to one another (they must not touch). */
@@ -574,10 +625,33 @@ function checkTubes() {
   return worst
 }
 
+/** Area centroid of several outlines together. */
+const centroidOf = (rings: XY[][]): XY => {
+  let A = 0, x = 0, y = 0
+  for (const r0 of rings) { const r = ccw(r0), c = centroid(r), a = area(r); A += a; x += c[0] * a; y += c[1] * a }
+  return [x / A, y / A]
+}
+const LNG0 = 2.5418484, LAT0 = 49.0144005
+const lngLat = ([x, y]: XY) => [+(LNG0 + x / (Math.cos((LAT0 * Math.PI) / 180) * 111320)).toFixed(7), +(LAT0 + y / 110574).toFixed(7)]
+
+/** The satellite models: id, name, key, anchor outlines, OSM way for `osm`, height over the apron. */
+export const SATS: { id: string; name: string; which: Sat; rings: XY[][]; osm: string; height: number }[] = [
+  { id: 'paris-cdg-terminal-1-satellites-t-w', name: 'Paris-CDG Terminal 1 Satellites T–W', which: 'satellites-t-w', rings: [SAT_T, JUNCTION, SAT_V, SAT_W], osm: 'way/967374659', height: 20 },
+  { id: 'paris-cdg-terminal-1-satellite-x', name: 'Paris-CDG Terminal 1 Satellite X', which: 'X', rings: [SAT_X], osm: 'way/172859851', height: 15 },
+  { id: 'paris-cdg-terminal-1-satellite-y', name: 'Paris-CDG Terminal 1 Satellite Y', which: 'Y', rings: [SAT_Y], osm: 'way/172859843', height: 15 },
+  { id: 'paris-cdg-terminal-1-satellite-z', name: 'Paris-CDG Terminal 1 Satellite Z', which: 'Z', rings: [SAT_Z], osm: 'way/172956328', height: 15 },
+]
+
 if (import.meta.main) {
-  if (process.env.DRUM_ONLY) { const { writeGlb } = await import('./mesh'); await Bun.write(process.env.DRUM_ONLY, writeGlb('drum', buildT1(process.env.DETAIL === '1', true).filter((x) => x.part.triangles))); process.exit(0) }
-  checkTubes(); if (process.env.COUNT) { for (const d of [false, true]) console.log(buildT1(d).map((x) => `${x.material.name}:${x.part.triangles}`).join(" ")) }
+  checkTubes()
   const extras = { bearing: 0, osm: 'way/171883502', height: DECK + 6.5 }
-  writeLod('Paris-CDG Terminal 1', 'paris-cdg-terminal-1.glb', buildT1(false), extras, 8000, 250_000)
-  writeLod('Paris-CDG Terminal 1', 'paris-cdg-terminal-1.detail.glb', buildT1(true), extras, 40_000, 1_500_000)
+  writeLod('Paris-CDG Terminal 1', 'paris-cdg-terminal-1.glb', buildDrum(false), extras, 8000, 250_000)
+  writeLod('Paris-CDG Terminal 1', 'paris-cdg-terminal-1.detail.glb', buildDrum(true), extras, 40_000, 1_500_000)
+  for (const m of SATS) {
+    const c = centroidOf(m.rings), o: V3 = [c[0], c[1], AP]
+    console.log(`${m.id}: anchor ${c.map((v) => v.toFixed(1)).join(', ')} in the drum's frame = lng, lat ${lngLat(c).join(', ')}`)
+    const ex = { bearing: 0, osm: m.osm, height: m.height }
+    writeLod(m.name, `${m.id}.glb`, moveTo(buildSat(false, m.which), o), ex, 8000, 250_000)
+    writeLod(m.name, `${m.id}.detail.glb`, moveTo(buildSat(true, m.which), o), ex, 40_000, 1_500_000)
+  }
 }

@@ -4,13 +4,16 @@
  *
  *   bun generators/dubai-dxb-terminal-1.ts
  *
- * Writes models/dubai-dxb-terminal-1.glb (low) and
- * models/dubai-dxb-terminal-1.detail.glb (detail: smoother roof curves,
- * the arcade's column heads drawn finer, and the jet bridges OSM maps).
+ * Writes two models, one per freestanding building, each a low .glb and a
+ * .detail.glb:
+ * - models/dubai-dxb-terminal-1 (detail: the arcade's arch heads and the
+ *   canopy tube drawn finer);
+ * - models/dubai-dxb-concourse-c (detail: a smoother barrel roof and the
+ *   jet bridges OSM maps).
  * Built with the kit in dubai-dxb-terminal-3.ts.
  *
- * Two OSM buildings 300 m apart, joined underground by a 300 m tunnel with
- * travelators (Wikipedia), drawn as one model as the batch plan asked:
+ * Two OSM buildings 300 m apart, joined only underground by a 300 m tunnel
+ * with travelators (Wikipedia), so each is its own model:
  * - Terminal 1 (way/98425196): the landside terminal of 1971, rebuilt
  *   inside and out since, 650 m by 100-125 m, flat-roofed at 19 m. Its
  *   kerb front (south-west) is the arcade people know: a white frame
@@ -19,17 +22,24 @@
  *   the arch heads ("stylized palm trees", Wikipedia, on the 1971
  *   building); dark glass fills each arch down to the kerb canopy, whose
  *   front is a big round silver tube; a glazed ground floor below.
+ *   [dubai-dxb-terminal-1]
  * - Concourse C (way/10315513; the Sheikh Rashid Terminal, 2000), 792 m by
  *   62-72 m: dark glass walls in white frames to 18 m under one long, low
  *   silver barrel roof rising to 28 m, rounded down at both ends (the
  *   radiating roof lines over its north-west end in MoHasanie's 2009 photo
  *   are the "palm-frond" look), with teal glass gate modules.
+ *   [dubai-dxb-concourse-c]
  * Concourse D, 600 m further north-west and linked by people mover, is its
- * own model (dubai-dxb-concourse-d), so that this one stays a single site.
+ * own model (dubai-dxb-concourse-d).
  *
  * Frame: x along the buildings (to bearing 121.5 deg, south-east), y to the
- * north-east, z up, metres; placed at bearing 31.5. Anchor: the area
- * centroid of way/98425196 (Terminal 1), lng 55.352952, lat 25.2491766.
+ * north-east, z up, metres; both models placed at bearing 31.5. The rings
+ * are in one site frame whose origin is the area centroid of way/98425196;
+ * each model is moved onto its own anchor:
+ * - dubai-dxb-terminal-1: the area centroid of way/98425196, lng 55.352952,
+ *   lat 25.2491766 (site frame 0, 0).
+ * - dubai-dxb-concourse-c: the area centroid of way/10315513, lng
+ *   55.3539753, lat 25.2526651 (site frame -113.69, 382.73).
  * The site is flat (Mapterhorn z12: 4.6-6.1 m).
  *
  * Numbers
@@ -45,28 +55,29 @@
  * - Gate modules: at the paired vertices OSM's outline has at each gate,
  *   13 x 8 m, 15 m tall: estimated.
  *
- * Sources (evidence)
- * - OSM ways 98425196, 10315513 and the aeroway=jet_bridge ways on C.
+ * Sources (evidence); [T1] = Terminal 1, [C] = Concourse C, [both]
+ * - OSM way 98425196 [T1]; way 10315513 and the aeroway=jet_bridge ways
+ *   on it [C].
  * - Wikipedia, "Dubai International Airport" (Terminal 1 history and the
- *   1971 columns; Concourse C length and tunnel).
+ *   1971 columns; Concourse C length and tunnel) [both].
  * - "Dubai International Airport", Sergey Vladimirov, CC BY 2.0, 2007
- *   (Terminal 1's kerb arcade):
+ *   (Terminal 1's kerb arcade) [T1]:
  *   https://www.flickr.com/photos/65783662@N00/2187618962
- * - "DXB T1.jpg", Vitorabdala, CC BY-SA 4.0, 2021 (the arcade heads at night):
+ * - "DXB T1.jpg", Vitorabdala, CC BY-SA 4.0, 2021 (the arcade heads at night) [T1]:
  *   https://commons.wikimedia.org/wiki/File:DXB_T1.jpg
  * - "Dubai Airport Trip 2009 215.jpg", MoHasanie, CC BY 3.0 (C's roof and
- *   north-west end): https://commons.wikimedia.org/wiki/File:Dubai_Airport_Trip_2009_215.jpg
+ *   north-west end) [C]: https://commons.wikimedia.org/wiki/File:Dubai_Airport_Trip_2009_215.jpg
  * - "Dubai Airport Control Tower", Simon_sees, CC BY 2.0, 2022 (C's barrel
- *   roof and glass walls beside the tower):
+ *   roof and glass walls beside the tower) [C]:
  *   https://www.flickr.com/photos/39551170@N02/52060264803
  * - "Dubai Airport overview.jpg", Umair Shaikh, CC BY-SA 2.0, and
  *   "ISS-65 Dubai International Airport and Dubai Creek (cropped).jpg",
- *   NASA, public domain (plans and roofs):
+ *   NASA, public domain (plans and roofs) [both]:
  *   https://commons.wikimedia.org/wiki/File:Dubai_Airport_overview.jpg
  *   https://commons.wikimedia.org/wiki/File:ISS-65_Dubai_International_Airport_and_Dubai_Creek_(cropped).jpg
  *
  * Look-only: Elmar Bajora's "Dubai Terminal No.1" and Arne Bevaart's
- * "Dubai Airport Departures Terminal 1" (Flickr, NC/ND).
+ * "Dubai Airport Departures Terminal 1" (Flickr, NC/ND) [T1].
  *
  * Doubts
  * - No licensed photo shows Terminal 1's airside or roof up close; drawn
@@ -80,10 +91,12 @@
 import { Part, type V3 } from './mesh'
 import { cap, clean, panels, triangulate, walls, type XY } from './clt-terminal'
 import { finish } from './palette'
-import { DXB, gateModules, jetBridges, oquad, otri, vaultConcourse, writeModel } from './dubai-dxb-terminal-3'
+import { DXB, gateModules, jetBridges, oquad, otri, recentre, vaultConcourse, writeModel } from './dubai-dxb-terminal-3'
 
-const ID = 'dubai-dxb-terminal-1'
 const BEARING = 31.5
+/** The rings below are in one site frame (origin: the area centroid of way/98425196); each model is moved onto its own anchor. */
+const T1_MODEL = { id: 'dubai-dxb-terminal-1', name: 'Dubai International Airport Terminal 1', origin: [0, 0] as XY }
+const CONCOURSE_C = { id: 'dubai-dxb-concourse-c', name: 'Dubai International Airport Concourse C', origin: [-113.69, 382.73] as XY }
 
 const T1: XY[] = [[-128.75, 46.12], [26.42, 46.49], [26.41, 43.31], [249.81, 43.86], [249.83, 48.05], [315.36, 48.21], [315.35, 43.76], [335.96, 43.81], [335.63, -49.59], [193.05, -49.95], [168.59, -50.0], [135.94, -50.08], [90.93, -50.2], [64.8, -50.26], [44.98, -50.31], [16.47, -49.97], [-30.74, -50.09], [-54.46, -50.55], [-131.99, -50.75], [-175.78, -50.85], [-285.76, -54.01], [-309.2, -54.69], [-312.38, -54.78], [-314.96, 45.49], [-242.29, 45.84], [-242.17, 72.0], [-194.12, 71.32], [-129.05, 69.47], [-129.01, 64.58]]
 /** OSM's jet bridges on Concourse C (aeroway=jet_bridge), building end first. */
@@ -159,50 +172,57 @@ function kerbArcade(P: { white: Part; glass: Part; silver: Part }, a: XY, b: XY,
   return nb
 }
 
-function build(detail: boolean) {
-  const silver = new Part(), teal = new Part(), white = new Part(), win = new Part(), trim = new Part(), roof = new Part()
+/** Terminal 1: white block, flat roof, the kerb arcade on the south-west face. */
+function buildT1(detail: boolean) {
+  const silver = new Part(), white = new Part(), win = new Part(), roof = new Part()
   let bays = 0
-
-  // --- Terminal 1: white block, flat roof, the kerb arcade on the south-west face.
-  {
-    const r = clean(T1, 0.4)
-    const H = 19
-    walls(white, r, 0, H)
-    cap(roof, r, H)
-    for (let i = 0; i < r.length; i++) {
-      const a = r[i], b = r[(i + 1) % r.length]
-      const L = Math.hypot(b[0] - a[0], b[1] - a[1])
-      const kerb = b[0] > a[0] && Math.abs(b[1] - a[1]) < 8 && a[1] < 0 // south-west face (the ring runs +x along it)
-      if (kerb && L > 12) {
-        bays += kerbArcade({ white, glass: win, silver }, a, b, { H, bay: 11.5, pier: 1.2, zs: 9.8, rise: 8.0, zc: 6.2, D: 1.6, seg: detail ? 6 : 3, tubeSeg: detail ? 14 : 8 })
-      } else if (L > 12) {
-        panels(win, [a, b], 3, 6.5, { bay: 14, gap: 1.6, minLen: 12, keep: (p, q) => p === a && q === b })
-        panels(win, [a, b], 9.5, 15, { bay: 14, gap: 1.6, minLen: 12, keep: (p, q) => p === a && q === b })
-      }
+  const r = clean(T1, 0.4)
+  const H = 19
+  walls(white, r, 0, H)
+  cap(roof, r, H)
+  for (let i = 0; i < r.length; i++) {
+    const a = r[i], b = r[(i + 1) % r.length]
+    const L = Math.hypot(b[0] - a[0], b[1] - a[1])
+    const kerb = b[0] > a[0] && Math.abs(b[1] - a[1]) < 8 && a[1] < 0 // south-west face (the ring runs +x along it)
+    if (kerb && L > 12) {
+      bays += kerbArcade({ white, glass: win, silver }, a, b, { H, bay: 11.5, pier: 1.2, zs: 9.8, rise: 8.0, zc: 6.2, D: 1.6, seg: detail ? 6 : 3, tubeSeg: detail ? 14 : 8 })
+    } else if (L > 12) {
+      panels(win, [a, b], 3, 6.5, { bay: 14, gap: 1.6, minLen: 12, keep: (p, q) => p === a && q === b })
+      panels(win, [a, b], 9.5, 15, { bay: 14, gap: 1.6, minLen: 12, keep: (p, q) => p === a && q === b })
     }
   }
+  if (!detail) console.log(`terminal 1 kerb front: ${bays} bays`)
+  return recentre([
+    { part: silver, material: DXB.silver },
+    { part: white, material: finish('dxb-white', 0xeceeee) },
+    { part: win, material: DXB.window },
+    { part: roof, material: DXB.roof },
+  ], T1_MODEL.origin)
+}
 
-  // --- Concourse C: glass walls under a low silver barrel, rounded ends.
+/** Concourse C: glass walls under a low silver barrel, rounded ends. */
+function buildC(detail: boolean) {
+  const silver = new Part(), teal = new Part(), win = new Part(), trim = new Part(), roof = new Part()
   vaultConcourse({ metal: silver, glass: silver, podium: trim, podiumWin: win, roof, trim }, C, {
     z0: 18, H: 28, bay: 60, rows: detail ? 10 : 6, tipRow: 0, endLen: 30, n: 2, foot: 0.3, endCols: detail ? 6 : 4,
     endGlassRows: 0, fins: false, podiumBands: [[1.8, 7.6], [9.6, 16.6]], podiumBay: 24,
   })
   gateModules({ glass: teal, trim }, C, { endClear: 26, along: 12, out: 7, h: 15 })
   if (detail) jetBridges({ body: trim, glass: win }, BRIDGES)
-  if (!detail) console.log(`terminal 1 kerb front: ${bays} bays`)
-
-  return [
+  return recentre([
     { part: silver, material: DXB.silver },
     { part: teal, material: DXB.teal },
-    { part: white, material: finish('dxb-white', 0xeceeee) },
     { part: win, material: DXB.window },
     { part: trim, material: DXB.trim },
     { part: roof, material: DXB.roof },
-  ]
+  ], CONCOURSE_C.origin)
 }
 
 if (import.meta.main) {
-  const extras = { bearing: BEARING, elevation: 0 }
-  await writeModel(`${ID}.glb`, 'Dubai International Airport Terminal 1 and Concourse C', build(false), extras, 8000, 250_000)
-  await writeModel(`${ID}.detail.glb`, 'Dubai International Airport Terminal 1 and Concourse C', build(true), extras, 40_000, 1_500_000)
+  for (const M of [T1_MODEL, CONCOURSE_C]) {
+    const build = M === T1_MODEL ? buildT1 : buildC
+    const extras = { bearing: BEARING, elevation: 0 }
+    await writeModel(`${M.id}.glb`, M.name, build(false), extras, 8000, 250_000)
+    await writeModel(`${M.id}.detail.glb`, M.name, build(true), extras, 40_000, 1_500_000)
+  }
 }

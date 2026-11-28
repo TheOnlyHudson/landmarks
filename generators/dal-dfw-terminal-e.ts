@@ -1,12 +1,20 @@
 /**
- * DFW Airport Terminal E — procedural, CC0-1.0, no textures.
+ * DFW Airport Terminal E and its satellite — procedural, CC0-1.0, no textures.
  *
  *   bun generators/dal-dfw-terminal-e.ts
  *
  * DFW Airport Terminal E (1974; TRIP renewal 2012–2021) and its satellite,
- * east side, south. Anchor -97.0367518 32.8900723: area centroid of both
- * outers of relation/6322535 "Terminal E" (way/25550170, the half loop,
- * and way/25552175, the E satellite).
+ * east side, south. The satellite stands apart on the apron, reached only
+ * underground, so this writes two models:
+ * - dal-dfw-terminal-e, the half loop (way/25550170) with its Skylink
+ *   stations, curb canopies and jet bridges. Anchor -97.0369809 32.8902939:
+ *   area centroid of way/25550170.
+ * - dal-dfw-terminal-e-satellite, the E satellite (way/25552175) with its
+ *   rotunda and jet bridges. Anchor -97.0343782 32.8878184: area centroid
+ *   of way/25552175.
+ * Both outlines are the outers of relation/6322535 "Terminal E". They are
+ * built in one frame from the old joint anchor (-97.0367518 32.8900723)
+ * and moved to their own anchor (ORIGIN_E, ORIGIN_SAT) as they are written.
  *
  * Built with the kit in dal-dfw-terminal-a.ts (that file merges first): the
  * OSM outline extruded in wedge zones to the side-strip height, raised roof
@@ -14,7 +22,7 @@
  * the two Skylink stations (2005) as raised white halls on columns over the
  * track with arched roofs, glass tiers, a canopy band and end cores, and the
  * OSM jet bridges. The Skylink track and the roads are not modelled.
- * Writes the low model and a .detail.glb (cabs and posts, mullion groups,
+ * Writes a low model and a .detail.glb of each (cabs and posts, mullion groups,
  * pale plant clusters, spine skylights, stepped curb piers and canopy,
  * station roof ribs). Glass is the palette's slate `window` (dark-tinted in
  * every photo); the stations have shallow barrel roofs with deep eaves.
@@ -29,12 +37,16 @@
  * spine 14 m at 15–30 m in, behind the south station too; a 16 m landside
  * block mid-arc; the stations 20–25 m. The satellite (lidar Esat.json):
  * roof 7.4 m above its apron (172.8 m), the rotunda on its south-east face
- * 12 m. Ground: the main apron 2.9 m and the satellite's 1.0 m above the
- * lowest ground under the footprint (171.8 m, by the satellite).
+ * 12 m. Ground, each above the lowest ground under its own footprint (on
+ * the map, Mapterhorn from the same lidar): the main apron 2.9 m above
+ * 171.8 m, the satellite's 0.5 m above 172.3 m.
  * Canopies: OSM building=roof way/1124287172, 1124287173, 1124287174,
  * 1123813738 (7–9 m, white curb canopies) and the covered walkways
  * way/132813779, 132813781, 132813815 (5–6 m over the lower curb).
- * Photos: https://commons.wikimedia.org/wiki/File:Terminal_E_at_Dallas_Fort_Worth_International_Airport,_aerial_view_from_cabin_window_during_takeoff,_2023-02-18.jpg
+ * Photos (both models: the Kiser aerial; the loop: Baseball Watcher and
+ * formulanone's DFW_Terminals_ACD_View_from_Takeoff_(52831109800).jpg,
+ * CC BY-SA 2.0; the satellite: Charles from Port Chester):
+ *   https://commons.wikimedia.org/wiki/File:Terminal_E_at_Dallas_Fort_Worth_International_Airport,_aerial_view_from_cabin_window_during_takeoff,_2023-02-18.jpg
  *   (Tim Kiser, CC BY-SA 4.0) E and the satellite from the east-south-east:
  *   the whole loop, the south station, the satellite's brown walls and
  *   dark rotunda; https://commons.wikimedia.org/wiki/File:Skylink_at_Terminal_E.jpg
@@ -45,10 +57,11 @@
  *   extent), the satellite's brown (photo, pulled light), plant.
  * Doubts: the satellite's walls are seen only from afar.
  */
-import { type TerminalSpec, type XY, type Parts, writeTerminal, jetBridge, prism, panelRow, mullions, bandRow, ccw, quadN, unit } from './dal-dfw-terminal-a'
+import { type TerminalSpec, type XY, type Parts, buildTerminal, materials, writeModel, newParts, jetBridge, prism, panelRow, mullions, bandRow, ccw, quadN, unit } from './dal-dfw-terminal-a'
 import { clean, area, cap, walls, lathe } from './clt-terminal'
 import { finish } from './palette'
 export { buildTerminal, materials, airsideRef, at, ccw } from './dal-dfw-terminal-a'
+import type { Part } from './mesh'
 
 // --- generated from OSM (see header): anchor -97.0367518 32.8900723
 // way/25550170
@@ -61,8 +74,8 @@ const JET: XY[][] = [[[-184.6,-257.4],[-184.2,-278.7],[-203.1,-278.2],[-196.2,-2
 const SAT = RING_25552175
 const SAT_C: XY = [SAT.reduce((s, p) => s + p[0], 0) / SAT.length, SAT.reduce((s, p) => s + p[1], 0) / SAT.length]
 function nearSat(p: XY) { return Math.hypot(p[0] - SAT_C[0], p[1] - SAT_C[1]) < 110 }
-/** Satellite apron above y = 0 (Esat lidar: apron 172.8 m against the footprint's lowest 171.8 m), roof 7.4 m above it. */
-const SG = 1.0, SROOF = 7.4
+/** Satellite apron above its own y = 0 (Esat lidar: apron 172.8 m; the map's lowest ground under the satellite alone 172.3 m), roof 7.4 m above it. */
+const SG = 0.5, SROOF = 7.4
 /** The rotunda: a dark glazed half-drum on the south-east face (lidar 12 m, x 208..228, y -282..-257). */
 const ROT_C: XY = [214, -266], ROT_R = 11
 function satellite(p: Parts, detail: boolean) {
@@ -97,7 +110,10 @@ const CANOPY_RINGS: XY[][] = [[[-80.0,249.8],[-78.2,248.9],[-81.2,242.5],[-80.3,
 const WALKWAYS: XY[][] = [[[-190.5,263.8],[-190.5,259.9],[-156.7,259.5],[-133.0,256.8],[-108.1,251.4],[-86.4,243.9],[-65.2,234.2],[-44.6,221.8],[-24.3,206.5],[-8.2,191.6],[-2.0,185.2],[2.0,179.9],[6.4,182.8],[1.9,188.9],[-4.8,195.7],[-23.0,212.2],[-42.0,226.2],[-63.0,238.5],[-84.5,248.2],[-107.5,255.8],[-132.1,261.3],[-156.6,263.8]],[[7.5,-111.1],[-1.0,-120.4],[-7.3,-126.3],[-24.9,-142.3],[-33.8,-149.2],[-43.6,-155.8],[-54.2,-162.4],[-66.8,-169.0],[-85.9,-177.4],[-110.8,-184.8],[-120.8,-187.2],[-132.2,-189.4],[-144.3,-190.9],[-155.7,-191.8],[-166.5,-192.2],[-166.9,-187.3],[-157.6,-187.1],[-144.9,-186.3],[-133.0,-184.7],[-112.4,-180.4],[-88.6,-173.2],[-67.5,-163.7],[-55.7,-157.3],[-45.8,-151.4],[-28.4,-139.0],[-11.4,-123.6],[-3.3,-115.6],[3.4,-108.0]],[[21.5,153.4],[25.4,156.3],[36.9,137.9],[42.0,127.0],[46.8,115.3],[51.4,101.7],[54.4,91.1],[56.9,79.8],[59.0,67.7],[60.5,55.0],[61.0,45.0],[61.1,23.8],[58.6,1.3],[52.4,-23.5],[43.3,-50.3],[39.9,-58.6],[36.6,-65.3],[32.5,-72.9],[27.6,-70.3],[32.6,-62.4],[37.9,-51.4],[42.7,-40.2],[48.6,-22.9],[53.7,2.5],[56.1,24.1],[56.3,43.1],[55.5,54.1],[54.5,63.9],[53.1,73.6],[49.7,89.3],[46.0,102.4],[41.6,115.3],[37.3,125.5],[32.7,135.6]]]  // way/132813779, way/132813781, way/132813815
 const SMALL_CANOPY: XY[] = [[7.7,-73.6],[14.1,-63.1],[27.6,-71.0],[25.4,-74.8],[21.1,-80.7]]  // way/1123813738
 const G = 2.9
+/** The shared frame's origin (the old joint anchor) and each model's own anchor in it (see header). */
 export const ANCHOR: [number, number] = [-97.0367518, 32.8900723]
+export const ANCHOR_E: [number, number] = [-97.0369809, 32.8902939], ORIGIN_E: XY = [-21.41, 24.50]
+export const ANCHOR_SAT: [number, number] = [-97.0343782, 32.8878184], ORIGIN_SAT: XY = [221.88, -249.22]
 export const SPEC: TerminalSpec = {
   id: 'dal-dfw-terminal-e', name: 'DFW Airport Terminal E', height: 26,
   ring: RING_25550170, centre: [-63, 25], ground: G,
@@ -120,9 +136,20 @@ export const SPEC: TerminalSpec = {
     ...WALKWAYS.map((ring) => ({ ring, z0: G + 3.5, z1: G + 4.3 })),
   ],
   jets: JET.filter((j) => !nearSat(j[0])),
-  extra: satellite,
-  xMaterial: finish('dfw-e-satellite', 0x9f907c),
   plant: [{ th: [-40, 40], d: [32, 40], h: 10.5 }],
 }
+const SAT_MATERIAL = finish('dfw-e-satellite', 0x9f907c)
 
-if (import.meta.main) await writeTerminal(SPEC)
+/** Move a model's parts by -o in the map frame (Part stores glTF x, z = -y), so its own anchor is the origin. */
+function shift<T extends { part: Part }>(parts: T[], o: XY) {
+  for (const part of new Set(parts.map((q) => q.part))) for (let i = 0; i < part.pos.length; i += 3) { part.pos[i] -= o[0]; part.pos[i + 2] += o[1] }
+  return parts
+}
+export function buildMain(detail: boolean) { return shift(materials(buildTerminal(SPEC, detail).p), ORIGIN_E) }
+export function buildSatellite(detail: boolean) { const p = newParts(); satellite(p, detail); return shift(materials(p, SAT_MATERIAL), ORIGIN_SAT) }
+
+if (import.meta.main) for (const detail of [false, true]) {
+  const budget = { maxTris: detail ? 40000 : 8000, maxBytes: detail ? 1_500_000 : 250_000 }, d = detail ? '.detail' : ''
+  await writeModel(`dal-dfw-terminal-e${d}.glb`, SPEC.name, buildMain(detail), { bearing: 0, height: SPEC.height, ...budget })
+  await writeModel(`dal-dfw-terminal-e-satellite${d}.glb`, 'DFW Airport Terminal E Satellite', buildSatellite(detail), { bearing: 0, height: SG + 12, ...budget })
+}

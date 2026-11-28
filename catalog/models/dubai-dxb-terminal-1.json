@@ -5,8 +5,7 @@
   "type": "building",
   "tags": [
     "airport",
-    "terminal",
-    "concourse"
+    "terminal"
   ],
   "reviewStatus": "unreviewed",
   "credits": [
@@ -36,18 +35,6 @@
       "url": "https://commons.wikimedia.org/wiki/File:DXB_T1.jpg",
       "author": "Vitorabdala",
       "license": "CC BY-SA 4.0"
-    },
-    {
-      "title": "Dubai Airport Trip 2009 215.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Dubai_Airport_Trip_2009_215.jpg",
-      "author": "MoHasanie",
-      "license": "CC BY 3.0"
-    },
-    {
-      "title": "Dubai Airport Control Tower",
-      "url": "https://www.flickr.com/photos/39551170@N02/52060264803",
-      "author": "Simon_sees",
-      "license": "CC BY 2.0"
     },
     {
       "title": "Dubai Airport overview.jpg",

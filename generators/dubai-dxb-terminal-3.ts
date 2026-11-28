@@ -1,13 +1,17 @@
 /**
- * Dubai International Airport (DXB), Terminal 3 and Concourse B:
+ * Dubai International Airport (DXB), Concourse B and Terminal 3:
  * procedural, CC0-1.0, no textures.
  *
  *   bun generators/dubai-dxb-terminal-3.ts
  *
- * Writes models/dubai-dxb-terminal-3.glb (low) and
- * models/dubai-dxb-terminal-3.detail.glb (detail: a smoother vault with its
- * scallops drawn finer, mullion lines on the glass, rib edges, and the jet
- * bridges OSM maps).
+ * Writes two models, one per freestanding building (Terminal 3's halls are
+ * under the apron, so the landside front and Concourse B stand 290 m apart
+ * above ground):
+ * - models/dubai-dxb-concourse-b.glb (low) and .detail.glb (detail: a
+ *   smoother vault with its scallops drawn finer, and the jet bridges OSM
+ *   maps): Concourse B with the lounge and link blocks beside it.
+ * - models/dubai-dxb-terminal-3.glb (low) and .detail.glb (detail: rounder
+ *   canopy arches and ribs): the landside front and its arrivals canopy.
  *
  * Also the small kit the other DXB models import (dubai-dxb-concourse-a,
  * dubai-dxb-terminal-1, dubai-dxb-terminal-2, dubai-dxb-concourse-d,
@@ -25,22 +29,33 @@
  *   edge and a curved one meeting at a point about three quarters of the way
  *   up, mirror-symmetric about the long axis, over a
  *   pale podium with teal glass gate modules. The ends are domed.
+ *   [dubai-dxb-concourse-b]
  * - The white block on B's north-east side by the north-west end
  *   (way/264966382; the remote-gate lounges), and the link block on B's
- *   south-west side (way/742271052) toward the landside.
+ *   south-west side (way/742271052) toward the landside. OSM leaves gaps
+ *   of 3.9 m and 2.5 m between them and B (no shared nodes), too narrow to
+ *   be anything but the joint; drawn with B. The link block's south end is
+ *   still 191 m from the T3 front. [dubai-dxb-concourse-b]
  * - Terminal 3's landside front (way/98425182) with its arrivals canopy
  *   (way/1360329006, building=roof): a long stone-clad front, its glazed
  *   ground floor, and a barrel canopy over the kerb on big grey arch ribs
  *   (Augapfel's photo). The departure and arrival halls themselves are 10 m
- *   under the apron (Wikipedia) and are not drawn.
+ *   under the apron (Wikipedia) and are not drawn. [dubai-dxb-terminal-3]
  * Not here: the Concourse B-C connector block and the control tower
  *   (way/385965965, dubai-dxb-control-tower), the Terminal 3 metro station
  *   (way/1361455313) and the car-park shades.
  *
  * Frame: x along the concourse (to bearing 120.65 deg, south-east), y to
- * the north-east, z up, metres; placed at bearing 30.65. Anchor: the area
- * centroid of way/87185819, lng 55.3617236, lat 25.2483769. z = 0 is the
- * apron; the site is flat (Mapterhorn z12: 4.6-6.1 m over the whole field).
+ * the north-east, z up, metres; both models placed at bearing 30.65. The
+ * rings are in one site frame whose origin is the area centroid of
+ * way/87185819; each model is then moved onto its own anchor:
+ * - dubai-dxb-concourse-b: the area centroid of way/87185819, lng
+ *   55.3617236, lat 25.2483769 (site frame 0, 0).
+ * - dubai-dxb-terminal-3: the area centroid of ways 98425182 and
+ *   1360329006 together, lng 55.3599963, lat 25.245603 (site frame
+ *   6.75, -352.52).
+ * z = 0 is the apron; the site is flat (Mapterhorn z12: 4.6-6.1 m over the
+ * whole field).
  *
  * Numbers
  * - Footprints: OSM ways above, as fetched from the OSM API in 2026-11
@@ -57,11 +72,12 @@
  * - T3 front: 16 m (estimated from Augapfel's photo); canopy arches 20 m
  *   at the crown over a 23 m span (OSM's roof outline), estimated.
  *
- * Sources (evidence)
- * - OSM ways 87185819, 264966382, 742271052, 98425182, 1360329006; jet
- *   bridges (aeroway=jet_bridge) touching B. https://www.openstreetmap.org
+ * Sources (evidence); [B] = Concourse B, [T3] = Terminal 3, [both]
+ * - OSM ways 87185819, 264966382, 742271052 and the jet bridges
+ *   (aeroway=jet_bridge) touching B [B]; 98425182, 1360329006 [T3].
+ *   https://www.openstreetmap.org
  * - Wikipedia, "Dubai International Airport" (Concourse A and B
- *   dimensions, Terminal 3 10 m under the apron).
+ *   dimensions, Terminal 3 10 m under the apron) [both].
  * - "Dubai International Airport Terminal three.JPG", VtTN, CC BY-SA 3.0,
  *   2012: https://commons.wikimedia.org/wiki/File:Dubai_International_Airport_Terminal_three.JPG
  * - "Emirates Terminal 3.jpg", Ahmedn97, CC BY-SA 3.0, 2012:
@@ -376,6 +392,13 @@ export function jetBridges(P: { body: Part; glass: Part }, lines: XY[][], z = 5.
 export type Mat = { part: Part; material: Swatch }
 export const triCount = (parts: Mat[]) => parts.reduce((s, { part }) => s + part.triangles, 0)
 
+/** Move built parts so the frame point `c` becomes the origin, for a model drawn in a shared site frame. */
+export function recentre(parts: Mat[], c: XY): Mat[] {
+  // Part stores glTF coordinates: (x, z, -y) of the frame.
+  for (const { part } of parts) for (let i = 0; i < part.pos.length; i += 3) { part.pos[i] -= c[0]; part.pos[i + 2] += c[1] }
+  return parts
+}
+
 export async function writeModel(file: string, name: string, parts: Mat[], extras: Record<string, unknown>, maxTri: number, maxBytes: number) {
   const used = parts.filter((p) => p.part.triangles > 0)
   if (used.length > 6) throw new Error(`${file}: ${used.length} materials`)
@@ -402,12 +425,27 @@ export const DXB = {
 }
 
 // ---------------------------------------------------------------------------
-// Terminal 3 and Concourse B
+// Concourse B and Terminal 3
 
-export const T3 = {
-  id: 'dubai-dxb-terminal-3',
+/**
+ * The rings below are in one site frame (origin: the area centroid of
+ * way/87185819). Each model is moved so its own anchor is its origin.
+ */
+export const CONCOURSE_B = {
+  id: 'dubai-dxb-concourse-b',
+  name: 'Dubai International Airport Concourse B',
   bearing: 30.65,
   anchor: [55.3617236, 25.2483769] as XY,
+  /** The anchor in the site frame. */
+  origin: [0, 0] as XY,
+}
+export const T3 = {
+  id: 'dubai-dxb-terminal-3',
+  name: 'Dubai International Airport Terminal 3',
+  bearing: 30.65,
+  anchor: [55.3599963, 25.245603] as XY,
+  /** The anchor in the site frame: the area centroid of ways 98425182 and 1360329006 together. */
+  origin: [6.75, -352.52] as XY,
 }
 
 const B: XY[] = [[-457.96, -30.89], [-444.02, -31.76], [-433.46, -32.18], [-431.9, -32.3], [-371.11, -34.66], [-369.27, -34.78], [-305.81, -37.34], [-304.7, -37.42], [-246.36, -39.74], [-244.31, -39.84], [-186.19, -42.2], [-183.14, -42.3], [-57.87, -47.99], [-48.55, -48.38], [-14.52, -49.81], [-0.29, -50.41], [8.93, -50.79], [45.49, -50.18], [47.53, -50.01], [110.09, -48.74], [112.42, -48.71], [221.52, -46.54], [223.85, -46.47], [272.74, -45.48], [283.06, -45.7], [286.9, -45.86], [346.38, -44.65], [347.84, -44.8], [407.44, -43.97], [408.81, -43.98], [424.53, -43.8], [450.24, -42.27], [451.87, -42.22], [459.71, -41.71], [460.57, -13.85], [460.79, -11.16], [461.14, 2.8], [461.13, 4.38], [461.88, 28.4], [454.27, 28.8], [452.43, 28.84], [426.77, 30.22], [410.88, 31.08], [409.43, 31.17], [347.88, 34.28], [346.03, 34.47], [283.77, 37.61], [282.27, 37.81], [220.55, 41.02], [218.55, 41.15], [117.56, 46.2], [115.09, 46.57], [44.02, 50.3], [42.56, 50.32], [34.41, 50.8], [-25.54, 50.04], [-28.27, 49.82], [-168.0, 47.52], [-172.48, 47.58], [-239.88, 46.49], [-241.72, 46.52], [-303.92, 45.5], [-305.25, 45.57], [-444.04, 43.51], [-457.56, 43.31], [-456.99, 30.84], [-457.87, -23.7]]
@@ -464,13 +502,13 @@ function t3Canopy(P: { shell: Part; rib: Part; soffit: Part }, detail: boolean) 
 /** Concourse B's glass: blue-grey in the photos (VtTN, MoHasanie), darker toward the fins' tips. */
 const B_GLASS = windowVariant(2, 0x7f97a8)
 
-function build(detail: boolean) {
+/** Concourse B with the lounge block and the link block beside it, in the old site frame. */
+function buildB(detail: boolean) {
   const metal = new Part(), teal = new Part(), stone = new Part(), win = new Part(), roof = new Part(), trim = new Part()
-  const V = vaultConcourse({ metal, glass: teal, podium: stone, podiumWin: win, roof, trim, glassTop: win }, B, {
+  vaultConcourse({ metal, glass: teal, podium: stone, podiumWin: win, roof, trim, glassTop: win }, B, {
     z0: 10, H: 38, bay: 23, rows: detail ? 14 : 8, tipRow: detail ? 11 : 6, endLen: 34, n: 3, foot: 0.4, endCols: detail ? 6 : 4, endGlassRows: detail ? 5 : 3,
     glassTopRows: detail ? 3 : 2,
   })
-  void V
   gateModules({ glass: teal, trim }, B, { endClear: 30, along: 13, out: 8, h: 15 })
 
   // The remote-gate lounges by the north-west end: a white two-storey block.
@@ -487,30 +525,42 @@ function build(detail: boolean) {
     cap(roof, r, 12)
     panels(win, r, 4, 10, { bay: 10, gap: 2, minLen: 12 })
   }
-  // Terminal 3's landside front: stone over a glazed ground floor, and the canopy.
-  {
-    const r = clean(FRONT)
-    walls(stone, r, 0, 16)
-    cap(roof, r, 16)
-    panels(win, r, 0.4, 5.6, { bay: 14, gap: 1.2, minLen: 12, keep: (a, b) => a[1] < -346 && b[1] < -346 })
-    panels(win, r, 8.5, 13.5, { bay: 6, gap: 3, minLen: 12, keep: (a, b) => a[1] < -346 && b[1] < -346 })
-    t3Canopy({ shell: metal, rib: roof, soffit: trim }, detail)
-  }
   if (detail) {
     jetBridges({ body: trim, glass: win }, BRIDGES)
   }
-  return [
+  return recentre([
     { part: metal, material: DXB.silver },
     { part: teal, material: B_GLASS },
     { part: stone, material: DXB.stone },
     { part: win, material: DXB.window },
     { part: roof, material: DXB.roof },
     { part: trim, material: DXB.trim },
-  ]
+  ], CONCOURSE_B.origin)
+}
+
+/** Terminal 3's landside front: stone over a glazed ground floor, and the canopy. */
+function buildT3(detail: boolean) {
+  const metal = new Part(), stone = new Part(), win = new Part(), roof = new Part(), trim = new Part()
+  const r = clean(FRONT)
+  walls(stone, r, 0, 16)
+  cap(roof, r, 16)
+  panels(win, r, 0.4, 5.6, { bay: 14, gap: 1.2, minLen: 12, keep: (a, b) => a[1] < -346 && b[1] < -346 })
+  panels(win, r, 8.5, 13.5, { bay: 6, gap: 3, minLen: 12, keep: (a, b) => a[1] < -346 && b[1] < -346 })
+  t3Canopy({ shell: metal, rib: roof, soffit: trim }, detail)
+  return recentre([
+    { part: metal, material: DXB.silver },
+    { part: stone, material: DXB.stone },
+    { part: win, material: DXB.window },
+    { part: roof, material: DXB.roof },
+    { part: trim, material: DXB.trim },
+  ], T3.origin)
 }
 
 if (import.meta.main) {
-  const extras = { bearing: T3.bearing, elevation: 0 }
-  await writeModel(`${T3.id}.glb`, 'Dubai International Airport Terminal 3 and Concourse B', build(false), extras, 8000, 250_000)
-  await writeModel(`${T3.id}.detail.glb`, 'Dubai International Airport Terminal 3 and Concourse B', build(true), extras, 40_000, 1_500_000)
+  const tB = { bearing: CONCOURSE_B.bearing, elevation: 0 }
+  await writeModel(`${CONCOURSE_B.id}.glb`, CONCOURSE_B.name, buildB(false), tB, 8000, 250_000)
+  await writeModel(`${CONCOURSE_B.id}.detail.glb`, CONCOURSE_B.name, buildB(true), tB, 40_000, 1_500_000)
+  const t3 = { bearing: T3.bearing, elevation: 0 }
+  await writeModel(`${T3.id}.glb`, T3.name, buildT3(false), t3, 8000, 250_000)
+  await writeModel(`${T3.id}.detail.glb`, T3.name, buildT3(true), t3, 40_000, 1_500_000)
 }
