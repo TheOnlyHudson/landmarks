@@ -6,7 +6,7 @@
  * - models/athens-panathenaic-stadium.glb, the low model: the horseshoe of
  *   white marble rows as real steps two rows to a step, the diazoma, the
  *   top walk and parapet, the entrance end walls, the arena's marble wall,
- *   herms, gate posts and the Olympic rings;
+ *   herms, gate posts, the arena's track and sand, and the Olympic rings;
  * - models/athens-panathenaic-stadium.detail.glb, from zoom 16: every row
  *   its own step (24 below the diazoma, 23 above), and the stairs up the
  *   aisles as half-height steps (two per row, a07), the lower and upper
@@ -60,14 +60,29 @@
  *    sphendone's top, their centres ~9 m above the top walk (a11, a12).
  *  - Ground and elevation: y = 0 is the arena, at the level of the plaza
  *    at the entrance (a17: arena and plaza continuous). The stands are cut
- *    into the hills of Ardettos and Agra: the outer walls run down to
- *    y = 0 all round and sink into the hill (only the entrance end walls
- *    stand free, a08). Elevation 0. Mapterhorn has only z12 here (a 30 m
- *    grid); it shows the trough but smooths the hills into the arena, 2 m
- *    at its middle and ~8 m at the sphendone end, so `terrain.ts check`
- *    reports the lowest rows at the sphendone buried up to 6.9 m (10,400
- *    of 22,300 m2 of tops). The real arena is flat (a09, a07): the model
- *    is kept true to the photos (flag: map terrain).
+ *    into the hills of Ardettos and Agra: the outer walls run down into
+ *    the hill all round (only the entrance end walls stand free, a08).
+ *    Mapterhorn has only z12 here (a 30 m grid). It shows the trough but
+ *    smooths the hills into the arena: along the axis the floor reads
+ *    0.3 m over the plaza at the entrance, ~2 m in the middle, 3-6 m under
+ *    the track off the axis, and 6-8 m round the sphendone's end (`terrain.ts
+ *    grid ... 140 10 --bearing 328.5 --zoom 12`). With elevation 0 the map
+ *    drew grass over the whole arena and buried the lowest rows by up to
+ *    6.9 m (10,400 of 22,300 m2 of tops). The real arena is flat (a09,
+ *    a07), so the model stays flat and is fitted to this terrain whole:
+ *    catalog elevation 4 m lifts it clear of the smoothed floor along the
+ *    straight, and the outer walls, the entrance end walls and the open
+ *    end's face run down to y = SKIRT (-4) so that nothing stands off the
+ *    drawn plaza, which is ~3.4 m below the raised arena there (the face
+ *    reads as a plinth; the real arena is level with the plaza). The check
+ *    at elevation 4 still finds 950 m2 of the lowest sphendone rows under
+ *    the terrain, up to 2.9 m, and the track round the sphendone's end is
+ *    still grassed over: the terrain's fault, left as it is. Elevation 3
+ *    left the track grassed over; 5 or more would only raise the plinth.
+ *  - Arena floor (a05): a charcoal track (#3d3f43) round a sand infield
+ *    (#d8c59c) 20 m wide, from the sphendone's centre to 14 m short of the
+ *    open end; the marble walk between the arena wall and the first row.
+ *    Widths estimated from a05.
  *  - Colours: marble warm off-white (#e9e2d4) on treads, the row fronts in
  *    their own shadow tone (#a59d8f), weathered outer walls (#d2cbbd)
  *    (a05, a07, a08, a13).
@@ -135,6 +150,9 @@ const WALL: MaterialSpec = finish('kallimarmaro-wall', 0xd2cbbd)
 // The fronts of the rows (risers), in the shadow they cast in every photo.
 const RISER: MaterialSpec = { ...finish('pentelic-marble-riser', 0xa59d8f), floodlight: () => 0.8 }
 const RINGS: MaterialSpec = { name: 'neon-olympic-rings', color: 0xf3f1ec, roughness: 0.5 }
+// The arena floor (a05): a charcoal running track round a sand infield.
+const TRACK: MaterialSpec = { ...finish('kallimarmaro-track', 0x3d3f43), floodlight: () => 0.6 }
+const SAND: MaterialSpec = { ...finish('kallimarmaro-sand', 0xd8c59c), floodlight: () => 0.7 }
 
 // ---------------------------------------------------------------------------
 // Dimensions (model frame: x across the arena, y along it to the entrance,
@@ -152,6 +170,11 @@ const FRONT_Z = 1.3
 const DIAZ = 3.0, DIAZ_WALL = 2.0
 const TOP_WALK = 1.9, PARAPET_W = 0.6, PARAPET_H = 1.0
 const ARENA_WALL = 17.0 // the low marble wall round the track
+const INFIELD = 10.0 // half-width of the sand infield; the track is the rest (a05)
+const INFIELD_END = YE - 14 // where the sand stops short of the open end (a05)
+// The model's walls run this far below the arena so that, raised by the
+// catalog elevation onto the map's coarse terrain, no edge stands off it.
+const SKIRT = -4
 
 // The section of the stands, from the arena out: [r, z] corners in order,
 // each tagged with whether the segment that follows is a tread (up) or a
@@ -180,7 +203,7 @@ function section(grouped: number): { pts: Pt[]; rowFronts: { r: number; z: numbe
   pts.pop(); z -= RISE * Math.min(grouped, UP_ROWS)
   pts.push({ r: r + TOP_WALK, z }); r += TOP_WALK
   pts.push({ r, z: z + PARAPET_H }); pts.push({ r: r + PARAPET_W, z: z + PARAPET_H }); r += PARAPET_W
-  pts.push({ r, z: 0 })
+  pts.push({ r, z: SKIRT })
   return { pts, rowFronts }
 }
 
@@ -213,6 +236,7 @@ function box(p: Part, c: V3, u: V3, t: V3, r0: number, r1: number, w: number, z0
 
 function build(detail: boolean) {
   const marble = new Part(), wall = new Part(), rings = new Part(), riser = new Part()
+  const track = new Part(), sand = new Part()
   const ARC = detail ? 24 : 12
   const { pts, rowFronts } = section(detail ? 1 : 2)
 
@@ -240,7 +264,7 @@ function build(detail: boolean) {
         const zl = isTop ? a.z : a.z + EH
         const zr = isTop ? a.z : Math.min(PZ, (c && c.z > b.z ? c.z : b.z) + EH)
         const xa = X0 + side * a.r, xb = X0 + side * b.r
-        face(wall, [[xa, YE, 0], [xb, YE, 0], [xb, YE, zr], [xa, YE, zl]], n)
+        face(wall, [[xa, YE, SKIRT], [xb, YE, SKIRT], [xb, YE, zr], [xa, YE, zl]], n)
         if (isTop) continue
         const y1 = YE - ET
         face(marble, [[xa, y1, a.z], [xb, y1, a.z], [xb, y1, zr], [xa, y1, zl]], [0, -1, 0])
@@ -266,6 +290,23 @@ function build(detail: boolean) {
         if (row.zone !== zone) continue
         box(marble, f.c, f.u, f.t, row.r + TREAD / 2, row.r + TREAD, 1.3, row.z, row.z + RISE / 2, 'open', riser)
       }
+  }
+
+  // --- the arena floor: sand infield, track, and the marble walk -----------
+  {
+    const yEnd = YE - 1
+    const rect = (p: Part, x0: number, x1: number, y0: number, y1: number) =>
+      face(p, [[x0, y0, 0], [x1, y0, 0], [x1, y1, 0], [x0, y1, 0]], [0, 0, 1])
+    rect(sand, X0 - INFIELD, X0 + INFIELD, YC, INFIELD_END)
+    // the track: round the sphendone and up both sides, then across the open end
+    band(track, uPath(INFIELD, 0, ARC, yEnd), uPath(ARENA_WALL, 0, ARC, yEnd), UP, false, true)
+    face(track, uPath(INFIELD, 0, ARC, YC).slice(1, -1), [0, 0, 1])
+    rect(track, X0 - INFIELD, X0 + INFIELD, INFIELD_END, yEnd)
+    rect(track, X0 - ARENA_WALL - 0.5, X0 + ARENA_WALL + 0.5, yEnd, YE)
+    // the marble walk between the arena wall and the first row
+    band(marble, uPath(ARENA_WALL + 0.5, 0, ARC), uPath(R0, 0, ARC), UP, false, true)
+    // the open end's face, down to the drawn plaza
+    face(wall, [[X0 - R0, YE, SKIRT], [X0 + R0, YE, SKIRT], [X0 + R0, YE, 0], [X0 - R0, YE, 0]], [0, 1, 0])
   }
 
   // --- the arena's marble wall --------------------------------------------
@@ -332,6 +373,8 @@ function build(detail: boolean) {
     { part: wall, material: WALL },
     { part: rings, material: RINGS },
     { part: riser, material: RISER },
+    { part: track, material: TRACK },
+    { part: sand, material: SAND },
   ]
 }
 
