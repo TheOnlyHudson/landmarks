@@ -62,4 +62,6 @@ Anywhere else, read the file and follow it step by step. Ignore the
   GitHub username (or GitLab, Codeberg or Bitbucket username, or profile
   URL) unless the user has said. Never guess one.
 - Bun runs everything: `bun install` once, then `bun run validate` and
-  `bun test` before handing back.
+  `bun test` before handing back. Locally both check only the models your
+  branch adds or changes (plus everything when `src/` or `test/` changed);
+  CI checks every model. Use `--all` or `LANDMARKS_ALL=1` to check all.
